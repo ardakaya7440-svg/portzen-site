@@ -1,3 +1,4 @@
+import { timingSafeEqual } from "node:crypto";
 import { jwtVerify, SignJWT } from "jose";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
@@ -58,17 +59,15 @@ function getAuthSecret() {
 }
 
 function safeCompare(left: string, right: string) {
-  if (left.length !== right.length) {
-    return false;
-  }
-
-  let result = 0;
-
-  for (let index = 0; index < left.length; index += 1) {
-    result |= left.charCodeAt(index) ^ right.charCodeAt(index);
-  }
-
-  return result === 0;
+  const a = Buffer.from(left);
+  const b = Buffer.from(right);
+  // Pad shorter buffer so timingSafeEqual doesn't throw on length mismatch,
+  // while still returning false when lengths differ.
+  const padded = Buffer.alloc(Math.max(a.length, b.length));
+  a.copy(padded, 0);
+  const paddedB = Buffer.alloc(padded.length);
+  b.copy(paddedB, 0);
+  return a.length === b.length && timingSafeEqual(padded, paddedB);
 }
 
 export async function verifyAdminCredentials(username: string, password: string) {
