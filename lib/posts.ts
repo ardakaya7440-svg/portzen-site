@@ -3,87 +3,97 @@ import { PostStatus } from "@prisma/client";
 import { prisma } from "@/lib/db";
 
 export async function getPublishedPosts() {
-  return prisma.post.findMany({
-    where: { status: PostStatus.PUBLISHED },
-    orderBy: [{ publishedAt: "desc" }, { createdAt: "desc" }]
-  });
+  try {
+    return await prisma.post.findMany({
+      where: { status: PostStatus.PUBLISHED },
+      orderBy: [{ publishedAt: "desc" }, { createdAt: "desc" }]
+    });
+  } catch {
+    return [];
+  }
 }
 
 export async function getLatestPublishedPosts(limit = 3) {
-  return prisma.post.findMany({
-    where: { status: PostStatus.PUBLISHED },
-    orderBy: [{ publishedAt: "desc" }, { createdAt: "desc" }],
-    take: limit
-  });
+  try {
+    return await prisma.post.findMany({
+      where: { status: PostStatus.PUBLISHED },
+      orderBy: [{ publishedAt: "desc" }, { createdAt: "desc" }],
+      take: limit
+    });
+  } catch {
+    return [];
+  }
 }
 
 export async function getPostBySlug(slug: string) {
-  return prisma.post.findUnique({
-    where: { slug }
-  });
+  try {
+    return await prisma.post.findUnique({
+      where: { slug }
+    });
+  } catch {
+    return null;
+  }
 }
 
 export async function getRelatedPosts(currentId: number, limit = 3) {
-  return prisma.post.findMany({
-    where: {
-      status: PostStatus.PUBLISHED,
-      NOT: { id: currentId }
-    },
-    orderBy: [{ publishedAt: "desc" }, { createdAt: "desc" }],
-    take: limit
-  });
+  try {
+    return await prisma.post.findMany({
+      where: { status: PostStatus.PUBLISHED, NOT: { id: currentId } },
+      orderBy: [{ publishedAt: "desc" }, { createdAt: "desc" }],
+      take: limit
+    });
+  } catch {
+    return [];
+  }
 }
 
 export async function getAdminPosts() {
-  return prisma.post.findMany({
-    orderBy: [{ updatedAt: "desc" }]
-  });
+  try {
+    return await prisma.post.findMany({ orderBy: [{ updatedAt: "desc" }] });
+  } catch {
+    return [];
+  }
 }
 
 export async function getPostById(id: number) {
-  return prisma.post.findUnique({
-    where: { id }
-  });
+  try {
+    return await prisma.post.findUnique({ where: { id } });
+  } catch {
+    return null;
+  }
 }
 
 export async function getDashboardStats() {
-  const [totalPosts, publishedPosts, draftPosts, totalLeads, recentPosts, recentLeads] = await Promise.all([
-    prisma.post.count(),
-    prisma.post.count({ where: { status: PostStatus.PUBLISHED } }),
-    prisma.post.count({ where: { status: PostStatus.DRAFT } }),
-    prisma.contactSubmission.count(),
-    prisma.post.findMany({
-      orderBy: [{ updatedAt: "desc" }],
-      take: 4
-    }),
-    prisma.contactSubmission.findMany({
-      orderBy: [{ createdAt: "desc" }],
-      take: 4
-    })
-  ]);
-
-  return {
-    totalPosts,
-    publishedPosts,
-    draftPosts,
-    totalLeads,
-    recentPosts,
-    recentLeads
-  };
+  try {
+    const [totalPosts, publishedPosts, draftPosts, totalLeads, recentPosts, recentLeads] = await Promise.all([
+      prisma.post.count(),
+      prisma.post.count({ where: { status: PostStatus.PUBLISHED } }),
+      prisma.post.count({ where: { status: PostStatus.DRAFT } }),
+      prisma.contactSubmission.count(),
+      prisma.post.findMany({ orderBy: [{ updatedAt: "desc" }], take: 4 }),
+      prisma.contactSubmission.findMany({ orderBy: [{ createdAt: "desc" }], take: 4 })
+    ]);
+    return { totalPosts, publishedPosts, draftPosts, totalLeads, recentPosts, recentLeads };
+  } catch {
+    return { totalPosts: 0, publishedPosts: 0, draftPosts: 0, totalLeads: 0, recentPosts: [], recentLeads: [] };
+  }
 }
 
 export async function getContactSubmissions() {
-  return prisma.contactSubmission.findMany({
-    orderBy: [{ createdAt: "desc" }]
-  });
+  try {
+    return await prisma.contactSubmission.findMany({ orderBy: [{ createdAt: "desc" }] });
+  } catch {
+    return [];
+  }
 }
 
 export async function getSitemapPostSlugs() {
-  return prisma.post.findMany({
-    where: { status: PostStatus.PUBLISHED },
-    select: {
-      slug: true,
-      updatedAt: true
-    }
-  });
+  try {
+    return await prisma.post.findMany({
+      where: { status: PostStatus.PUBLISHED },
+      select: { slug: true, updatedAt: true }
+    });
+  } catch {
+    return [];
+  }
 }
