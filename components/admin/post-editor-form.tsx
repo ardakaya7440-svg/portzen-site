@@ -46,7 +46,7 @@ export function PostEditorForm({ post }: { post?: Post | null }) {
   const [state, action, pending] = useActionState(savePostAction, initialState);
 
   return (
-    <form action={action} className="space-y-6 rounded-[2rem] border border-border bg-white p-6 shadow-soft sm:p-8">
+    <form action={action} className="space-y-6 rounded-[2rem] border border-white/[0.08] bg-[#060d1a] p-6 sm:p-8">
       {post ? <input name="id" type="hidden" value={defaults.id} /> : null}
 
       <div className="grid gap-6 sm:grid-cols-2">
@@ -117,7 +117,7 @@ export function PostEditorForm({ post }: { post?: Post | null }) {
           </Label>
           <Input defaultValue={defaults.publishedAt} id="publishedAt" name="publishedAt" type="datetime-local" />
         </div>
-        <div className="rounded-[1.5rem] border border-border bg-panel p-4 text-sm leading-7 text-muted-foreground">
+        <div className="rounded-[1.5rem] border border-white/[0.06] bg-[#0a1428] p-4 text-sm leading-7 text-white/40">
           Blog kartlari artik daha sade bir gorunum kullaniyor. Bu nedenle kategori ve kapak
           gorseli alani formdan kaldirildi.
         </div>
@@ -172,14 +172,18 @@ export function PostEditorForm({ post }: { post?: Post | null }) {
             <option value={PostStatus.PUBLISHED}>Yayinla</option>
           </Select>
         </div>
-        <div className="rounded-[1.5rem] border border-border bg-panel p-4 text-sm leading-7 text-muted-foreground">
+        <div className="rounded-[1.5rem] border border-white/[0.06] bg-[#0a1428] p-4 text-sm leading-7 text-white/40">
           Slug otomatik uretilir ama duzenlenebilir. Taslak kaydetmek veya dogrudan yayina almak
           icin durum alanini kullanabilirsiniz. Yayinlanan yazilar ana sitedeki `/blog` listesinde
           ve kendi detay sayfasinda gorselsiz, sade kart yapisiyla gorunur.
         </div>
       </div>
 
-      {state.error ? <p className="text-sm font-medium text-[#b42318]">{state.error}</p> : null}
+      {state.error ? (
+        <p className="rounded-2xl bg-red-500/10 px-4 py-3 text-sm font-medium text-red-400">
+          {state.error}
+        </p>
+      ) : null}
       <div className="flex flex-wrap gap-3">
         <Button disabled={pending} size="lg" type="submit">
           {pending ? "Kaydediliyor..." : post ? "Degisiklikleri kaydet" : "Yaziyi olustur"}
