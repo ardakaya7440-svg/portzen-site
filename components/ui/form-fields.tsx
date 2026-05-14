@@ -3,7 +3,7 @@ import type { InputHTMLAttributes, SelectHTMLAttributes, TextareaHTMLAttributes 
 import { cn } from "@/lib/utils";
 
 const baseFieldStyles =
-  "w-full rounded-3xl border border-white/[0.08] bg-white/[0.04] px-4 py-3 text-sm text-white outline-none transition placeholder:text-white/30 focus:border-[#0066ff] focus:ring-2 focus:ring-[#0066ff]/20";
+  "w-full rounded-3xl border border-white/[0.08] bg-[#0a1428] px-4 py-3 text-sm text-white outline-none transition placeholder:text-white/30 focus:border-[#0066ff] focus:ring-2 focus:ring-[#0066ff]/20";
 
 export function Input(props: InputHTMLAttributes<HTMLInputElement>) {
   return <input className={cn(baseFieldStyles, props.className)} {...props} />;
