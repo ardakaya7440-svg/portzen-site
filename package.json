@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "next build --webpack",
+    "build": "prisma generate && next build --webpack",
     "start": "next start",
     "lint": "eslint --ext .ts,.tsx app components lib",
     "db:push": "node node_modules/prisma/build/index.js db push",
