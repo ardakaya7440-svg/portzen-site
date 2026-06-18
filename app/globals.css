@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Neobrutalist tokens (revision §2) */
+  --paper: #fffdf5;
+  --ink: #0a0a0a;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Keep anchored section titles clear of the sticky header. */
+    scroll-padding-top: 6rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans), system-ui, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-sans), system-ui, sans-serif;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    color: inherit;
+  }
+
+  ::selection {
+    background-color: var(--ink);
+    color: #ffd23f;
+  }
+
+  /* High-visibility focus ring on the brutalist surface */
+  :focus-visible {
+    outline: 3px solid var(--ink);
+    outline-offset: 2px;
+  }
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
+@layer components {
+  .container-editorial {
+    @apply mx-auto w-full max-w-container px-5 md:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply inline-block border-3 border-ink bg-paper px-3 py-1 text-small font-extrabold uppercase tracking-[0.08em];
+  }
+
+  .section-pad {
+    padding-top: var(--section, theme("spacing.section"));
+    padding-bottom: var(--section, theme("spacing.section"));
+  }
+
+  /* Brutalist surface: border + hard offset shadow, lifts on hover */
+  .brutal {
+    @apply border-3 border-ink shadow-brutal transition-all duration-200 ease-brutal;
+  }
+  .brutal-hover:hover {
+    @apply -translate-x-0.5 -translate-y-0.5 shadow-brutal-lg;
+  }
+
+  /* Underlined link that flips to a marker-style highlight on hover */
+  .link-brutal {
+    @apply font-semibold underline decoration-2 underline-offset-4 transition-colors duration-150;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
+/* Scroll-reveal: fade + rise once, enabled via [data-reveal] (JS-driven) */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 500ms cubic-bezier(0.2, 0.9, 0.3, 1),
+    transform 500ms cubic-bezier(0.2, 0.9, 0.3, 1);
+  will-change: opacity, transform;
+}
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+}
