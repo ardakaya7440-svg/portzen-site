@@ -10,10 +10,39 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "PORTZEN — KOBİ AI Üretim Altyapısı",
+  metadataBase: new URL("https://portzenai.com"),
+  title: {
+    default: "PORTZEN — İşletmeler İçin AI Destekli Büyüme Altyapısı",
+    template: "%s — PORTZEN"
+  },
   description:
-    "İşletmeler için AI reklam videosu, WhatsApp asistanı, otomasyon sistemleri, sosyal medya içerik ve web tasarımı. Tek ekipten tüm sistem.",
-  metadataBase: new URL("https://portzen.ai")
+    "İşletmeler için yapay zeka destekli sosyal medya yönetimi, WhatsApp asistanı, otomasyon ve web tasarımı. Tek ekipten tüm sistem.",
+  keywords: [
+    "yapay zeka ajansı",
+    "whatsapp ai asistanı",
+    "sosyal medya yönetimi",
+    "ai reklam videosu",
+    "kobi otomasyon",
+    "crm otomasyonu",
+    "web tasarım",
+    "portzen"
+  ],
+  openGraph: {
+    type: "website",
+    locale: "tr_TR",
+    url: "https://portzenai.com",
+    siteName: "PORTZEN",
+    title: "PORTZEN — İşletmeler İçin AI Destekli Büyüme Altyapısı",
+    description:
+      "Sosyal medya, AI asistan, otomasyon ve web yazılım — tek ekipten tüm sistem."
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PORTZEN — AI Destekli Büyüme Altyapısı",
+    description: "Sosyal medya, AI asistan, otomasyon ve web yazılım."
+  },
+  alternates: { canonical: "https://portzenai.com" },
+  robots: { index: true, follow: true }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
