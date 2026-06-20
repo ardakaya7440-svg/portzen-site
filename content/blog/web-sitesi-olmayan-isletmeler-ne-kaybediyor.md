@@ -47,7 +47,7 @@ Türkiye'de internet kullanıcılarının %93'ü herhangi bir hizmet veya ürün
 
 ### 2. Google Haritalarda Üst Sıralarda Çıkmak
 
-Google Business Profile (eski adıyla Google My Business) tek başına yeterli sanılıyor ama değil. Google Haritalar'da üst sıralarda çıkmak için sitenizin de olması gerekiyor. Algoritma "site + Google Business + müşteri yorumu" üçlüsünü ödüllendiriyor. Yerel SEO konusunda daha fazla detayı [web tasarım hizmetlerimizde](/hizmetler/web-tasarim) bulabilirsiniz.
+Google Business Profile (eski adıyla Google My Business) tek başına yeterli sanılıyor ama değil. Google Haritalar'da üst sıralarda çıkmak için sitenizin de olması gerekiyor. Algoritma "site + Google Business + müşteri yorumu" üçlüsünü ödüllendiriyor. Yerel SEO konusunda daha fazla detayı [web tasarım hizmetlerimizde](/web-tasarim) bulabilirsiniz.
 
 ### 3. Reklamda Dönüşüm Oranını Yükseltmek
 
@@ -55,7 +55,7 @@ Eğer Google veya Meta reklamı veriyorsanız, reklamı tıklayan kişiyi nereye
 
 ### 4. Otomasyon ve CRM Entegrasyonu
 
-Müşteri formu doldurduğunda CRM'inize otomatik düşmesi, takip e-postaları gitmesi, satış ekibine bildirim gitmesi web sitesi olmadan kurulamaz. Modern [otomasyon sistemleri](/hizmetler/otomasyon) hep web sitesi tabanlıdır.
+Müşteri formu doldurduğunda CRM'inize otomatik düşmesi, takip e-postaları gitmesi, satış ekibine bildirim gitmesi web sitesi olmadan kurulamaz. Modern [otomasyon sistemleri](/crm-otomasyonu) hep web sitesi tabanlıdır.
 
 ### 5. Marka Güveni Yaratmak
 
@@ -174,7 +174,7 @@ Bu üçlü sistem kurulduğunda KOBİ'nin müşteri kazanım maliyeti **%40-60 d
 
 PORTZEN olarak Türk KOBİ'leri için sadece "güzel görünen" web sitesi yapmıyoruz; **müşteri kazanım sistemi** olarak çalışan, AI asistanla entegre, otomasyon altyapısı kurulu, KVKK uyumlu siteler inşa ediyoruz. Yaklaşımımızın farkı şu: site teslim edildiği gün Google'dan trafik almaya başlamış oluyor, çünkü teknik SEO ve içerik altyapısı kurulum aşamasında yapılıyor.
 
-Eczane, klinik, restoran, hukuk bürosu, emlak ofisi, mali müşavirlik, butik konaklama, B2B üretici gibi 80'den fazla sektörel projeyi tamamladık. Her projede [AI bot kurulumu](/hizmetler/ai-bot), [otomasyon sistemleri](/hizmetler/otomasyon) ve [web tasarım](/hizmetler/web-tasarim) bileşenleri opsiyonel olarak eklenebiliyor — yani tek bir ekipten uçtan uca dijital sistem alıyorsunuz, parça parça farklı tedarikçilerle uğraşmıyorsunuz.
+Eczane, klinik, restoran, hukuk bürosu, emlak ofisi, mali müşavirlik, butik konaklama, B2B üretici gibi 80'den fazla sektörel projeyi tamamladık. Her projede [AI bot kurulumu](/whatsapp-ai-asistani), [otomasyon sistemleri](/crm-otomasyonu) ve [web tasarım](/web-tasarim) bileşenleri opsiyonel olarak eklenebiliyor — yani tek bir ekipten uçtan uca dijital sistem alıyorsunuz, parça parça farklı tedarikçilerle uğraşmıyorsunuz.
 
 Eğer "sitemiz var ama iş yapmıyor" ya da "site hiç yok, artık zamanı geldi" dediğiniz noktadaysanız, ücretsiz keşif görüşmesinde sektörünüze özel kayıp analizi yapıyoruz. Aylık ne kadar müşteri kaçırdığınızı somut rakamlarla görüyorsunuz.
 

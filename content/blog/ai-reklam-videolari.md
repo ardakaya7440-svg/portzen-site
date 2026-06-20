@@ -203,7 +203,7 @@ Mekanik motor parçalarının yakın çekimi, ışıkla aydınlanmış servis or
 
 ## AI Reklam ile Sosyal Medya Pazarlama Birleşimi
 
-AI reklam tek başına etki etmiyor; doğru bir [sosyal medya içerik](/hizmetler/sosyal-medya) stratejisi ile birleştiğinde işe yarıyor. [İnstagram DM dönüşüm artırma](/blog/instagram-dm-donusum-artirma) yazımızdaki taktiklerle AI reklamı birleştirdiğimizde dönüşüm zinciri tamamlanıyor:
+AI reklam tek başına etki etmiyor; doğru bir [sosyal medya içerik](/instagram-dm-otomasyonu) stratejisi ile birleştiğinde işe yarıyor. [İnstagram DM dönüşüm artırma](/blog/instagram-dm-donusum-artirma) yazımızdaki taktiklerle AI reklamı birleştirdiğimizde dönüşüm zinciri tamamlanıyor:
 
 1. AI reklam → dikkat çekiyor
 2. Tıklama → Instagram profil veya WhatsApp
@@ -237,7 +237,7 @@ KOBİ'ler için aksiyon: şimdiden öğrenmeye başlayın. 2 yıl sonra reklam a
 
 PORTZEN olarak markaların AI reklam üretim altyapısını sıfırdan kuruyoruz. Sadece bir reklam üretip teslim etmiyoruz; size **sürdürülebilir bir reklam fabrikası** kurguluyoruz. Hangi modellerin hangi sahne için kullanılacağı, prompt kütüphaneniz, marka kit'iniz, post-production akışınız, A/B test süreciniz hep birlikte tasarlanıyor.
 
-Tipik bir paketimizde aylık 15-25 farklı reklam varyasyonu üretiyoruz. Sora 2, Veo 3.1, Kling 3.0, Runway ve Higgsfield gibi tüm büyük platformlarda hesabımız var, hangi iş hangisinde en iyi çıkıyorsa ona yönlendiriyoruz. [AI Reklam Video](/hizmetler/ai-video) ve [Sosyal Medya İçerik](/hizmetler/sosyal-medya) hizmetlerimizi alan markalar, geleneksel ajans bütçesinin 1/8'ine aylık 4-5 kat daha fazla içerik alıyor.
+Tipik bir paketimizde aylık 15-25 farklı reklam varyasyonu üretiyoruz. Sora 2, Veo 3.1, Kling 3.0, Runway ve Higgsfield gibi tüm büyük platformlarda hesabımız var, hangi iş hangisinde en iyi çıkıyorsa ona yönlendiriyoruz. [AI Reklam Video](/ai-reklam-videosu) ve [Sosyal Medya İçerik](/instagram-dm-otomasyonu) hizmetlerimizi alan markalar, geleneksel ajans bütçesinin 1/8'ine aylık 4-5 kat daha fazla içerik alıyor.
 
 Önemli olan teknolojiye yetişmek değil, doğru kullanım kültürünü işletmenize yerleştirmek. Eğitim ve süreç tasarımı, üretimin kendisi kadar önemli.
 

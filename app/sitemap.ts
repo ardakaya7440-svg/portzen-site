@@ -16,6 +16,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.9 }
   ];
 
+  // SEO landing pages (money pages — yüksek priority)
+  const landingPages: MetadataRoute.Sitemap = [
+    { url: `${BASE}/whatsapp-ai-asistani`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE}/instagram-dm-otomasyonu`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE}/ai-reklam-videosu`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE}/web-tasarim`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE}/crm-otomasyonu`, lastModified: now, changeFrequency: "monthly", priority: 0.95 }
+  ];
+
   const categoryPages: MetadataRoute.Sitemap = ALL_CATEGORIES.map((c) => ({
     url: `${BASE}/blog/kategori/${c.slug}`,
     lastModified: now,
@@ -30,5 +39,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8
   }));
 
-  return [...staticPages, ...categoryPages, ...articlePages];
+  return [...staticPages, ...landingPages, ...categoryPages, ...articlePages];
 }

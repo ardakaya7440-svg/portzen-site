@@ -67,7 +67,7 @@ AI modelinin "şirket bilgisini" çıkardığı yer burası. Hizmetleriniz, fiya
 
 AI çözemediği vakaları **doğru kişiye** aktarmalıdır. Şikayet konusu mu? Müşteri ilişkileri ekibi. Teknik sorun mu? Destek ekibi. Satış fırsatı mı? Satış temsilcisi. Yönetim paneli üzerinden tüm konuşmalar izlenebilir, AI performansı raporlanabilir.
 
-Bu beş katmanı kendi başınıza kurmaya kalkmak ciddi bir yazılım projesi demektir. Hazır SaaS çözümler veya [özel AI bot kurulumu](/hizmetler/ai-bot) gibi seçenekler genellikle çok daha hızlı ve ucuza geliyor.
+Bu beş katmanı kendi başınıza kurmaya kalkmak ciddi bir yazılım projesi demektir. Hazır SaaS çözümler veya [özel AI bot kurulumu](/whatsapp-ai-asistani) gibi seçenekler genellikle çok daha hızlı ve ucuza geliyor.
 
 ## Hazır SaaS mı, Özel Kurulum mu?
 
@@ -164,6 +164,6 @@ PORTZEN olarak Türk KOBİ'leri için AI müşteri hizmetleri sistemleri kuruyor
 
 Yaklaşımımızın belkemiği KVKK uyumluluğu; verileriniz Avrupa ve Türkiye veri merkezlerinde tutuluyor, herhangi bir konuşma verisi modellerin eğitimine kullanılmıyor. Kurulum sonrası 90 gün boyunca aktif optimizasyon, sonrasında ise aylık iyileştirme raporlarıyla sistemin yaşamasını sağlıyoruz.
 
-Eğer müşteri hizmetleri ekibinizin tekrar eden sorulardan boğulduğunu, yanıt süresinin uzadığını ya da gece-tatil dönemlerinde gelen mesajların kaybolduğunu hissediyorsanız, doğru zamandasınız. [AI bot kurulumu](/hizmetler/ai-bot) ve [otomasyon sistemleri](/hizmetler/otomasyon) hizmetlerimizle işletmenize özel çözüm tasarlıyoruz.
+Eğer müşteri hizmetleri ekibinizin tekrar eden sorulardan boğulduğunu, yanıt süresinin uzadığını ya da gece-tatil dönemlerinde gelen mesajların kaybolduğunu hissediyorsanız, doğru zamandasınız. [AI bot kurulumu](/whatsapp-ai-asistani) ve [otomasyon sistemleri](/crm-otomasyonu) hizmetlerimizle işletmenize özel çözüm tasarlıyoruz.
 
 **Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.

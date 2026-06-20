@@ -248,7 +248,7 @@ Bu yeni yapıyı [yapay zeka müşteri hizmetleri](/blog/yapay-zeka-musteri-hizm
 
 PORTZEN olarak KOBİ'lere "sadece akış kurmuyoruz", iş süreçlerini baştan tasarlıyoruz. Önce 5-7 günlük bir keşif yapıyoruz: işletmenizdeki tüm tekrar eden işleri haritalandırıyoruz, hangi sistemler birbirleriyle konuşmalı çıkarıyoruz, hangi süreçlerin önce otomatikleştirilmesi gerektiğini ROI'a göre sıralıyoruz.
 
-Sonraki 3-4 hafta içinde n8n veya Make üzerinde sisteminizi kuruyor, mevcut yazılımlarınızla (Logo, Mikro, Netsis, NetGSM, e-ticaret platformları, WhatsApp Business API) entegre ediyor, ekibinize kullanım eğitimi veriyoruz. [Otomasyon Sistemleri](/hizmetler/otomasyon) hizmetimiz [AI Bot Kurulumu](/hizmetler/ai-bot) ile birleştiğinde gerçek anlamda "kendi kendine çalışan işletme" deneyimini yaşıyorsunuz.
+Sonraki 3-4 hafta içinde n8n veya Make üzerinde sisteminizi kuruyor, mevcut yazılımlarınızla (Logo, Mikro, Netsis, NetGSM, e-ticaret platformları, WhatsApp Business API) entegre ediyor, ekibinize kullanım eğitimi veriyoruz. [Otomasyon Sistemleri](/crm-otomasyonu) hizmetimiz [AI Bot Kurulumu](/whatsapp-ai-asistani) ile birleştiğinde gerçek anlamda "kendi kendine çalışan işletme" deneyimini yaşıyorsunuz.
 
 Sonraki 6 ay boyunca aylık optimizasyon görüşmeleri yapıyor, kırılan akışları izliyor, yeni süreçleri ekliyoruz. Çünkü otomasyon kur-bırak değil, yaşayan bir sistem.
 

@@ -285,7 +285,7 @@ Yatırım 6-12 ay içinde geri döner. Sonraki her ay net kar.
 
 PORTZEN olarak kurumsal web sitesi projelerini "site yapımı" değil, **dijital satış altyapısı kurulumu** olarak ele alıyoruz. Tipik projemiz 6-10 hafta sürer ve 4 aşamadan oluşur: keşif & strateji, UI/UX tasarım, geliştirme (Next.js + Sanity headless), entegrasyon (AI bot, CRM, analitik, e-posta otomasyonu).
 
-Site teslim sonrası bitmiyor; sonraki 6 ay aylık SEO içerik üretimi, performans optimizasyonu, A/B test yönetimi sürüyor. [Web Tasarım](/hizmetler/web-tasarim) hizmetimiz [AI Bot Kurulumu](/hizmetler/ai-bot) ve [Otomasyon Sistemleri](/hizmetler/otomasyon) ile birleştiğinde gerçek anlamda "kendi başına satış yapan site" deneyimini yaşıyorsunuz. Müşterilerimizde 6. ay sonunda ortalama organik trafik artışı %340, lead dönüşümü %215 oldu.
+Site teslim sonrası bitmiyor; sonraki 6 ay aylık SEO içerik üretimi, performans optimizasyonu, A/B test yönetimi sürüyor. [Web Tasarım](/web-tasarim) hizmetimiz [AI Bot Kurulumu](/whatsapp-ai-asistani) ve [Otomasyon Sistemleri](/crm-otomasyonu) ile birleştiğinde gerçek anlamda "kendi başına satış yapan site" deneyimini yaşıyorsunuz. Müşterilerimizde 6. ay sonunda ortalama organik trafik artışı %340, lead dönüşümü %215 oldu.
 
 Kurumsal site kalıcı bir yatırım. Doğru kurulursa 5-7 yıl size hizmet eder. Yanlış kurulursa 18 ayda yenilemek zorunda kalırsınız. Kısa vadeli kararlar yerine doğru altyapıyı seçmek uzun vadede en büyük tasarruf.
 

@@ -181,7 +181,7 @@ Henüz hazır değilseniz: önce [Instagram'dan müşteri bulma rehberi](/blog/i
 
 PORTZEN olarak KOBİ'lere özel yapay zeka satış sistemleri kuruyoruz. Standart bir bot satmıyoruz; işletmenizin ürün katalogunu, fiyatlama mantığını, müşteri personalarını ve hedef KPI'larını analiz edip size özel sistemi sıfırdan kurguluyoruz. WhatsApp Business API, Instagram, web sitesi ve telefon kanallarını tek motor altında topluyoruz.
 
-Tipik proje akışımız: 1 hafta keşif ve veri analizi, 2 hafta sistem kurulumu (bot + CRM + otomasyon), 1 hafta test ve eğitim. Toplam 4 hafta içinde sisteminiz canlıya alınıyor. Sonraki 90 gün boyunca konuşma analizleri yapıp botu kalibre ediyoruz. [AI Bot Kurulumu](/hizmetler/ai-bot) ve [Otomasyon Sistemleri](/hizmetler/otomasyon) hizmetlerimizi birlikte alan müşterilerimizde ortalama dönüşüm artışı %62, satış ekibi verimliliği artışı %78 oldu.
+Tipik proje akışımız: 1 hafta keşif ve veri analizi, 2 hafta sistem kurulumu (bot + CRM + otomasyon), 1 hafta test ve eğitim. Toplam 4 hafta içinde sisteminiz canlıya alınıyor. Sonraki 90 gün boyunca konuşma analizleri yapıp botu kalibre ediyoruz. [AI Bot Kurulumu](/whatsapp-ai-asistani) ve [Otomasyon Sistemleri](/crm-otomasyonu) hizmetlerimizi birlikte alan müşterilerimizde ortalama dönüşüm artışı %62, satış ekibi verimliliği artışı %78 oldu.
 
 Önemli olan teknolojiyi satmak değil, sizin operasyonunuza oturan sistemi kurmak. O yüzden hiçbir proje "paket" değil; her biri sıfırdan tasarlanıyor.
 

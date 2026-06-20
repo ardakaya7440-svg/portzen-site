@@ -30,7 +30,7 @@ WhatsApp AI asistanı, klasik "otomatik cevap" sisteminin çok ötesinde bir yap
 
 Klasik chatbot **kural tabanlıdır**. "Fiyat" kelimesini duyunca fiyat listesini gösterir. "Randevu" kelimesini duyunca randevu formu açar. Müşteri "acaba bu işin ücreti ne kadar tutar" derse anlamaz çünkü "fiyat" kelimesi geçmemiştir. AI asistan ise dili anlar; "ne kadar tutar", "kaç para", "ücreti ne", "fiyat aralığı" gibi onlarca varyasyonu aynı niyet olarak değerlendirir ve doğru cevabı verir.
 
-Bu fark sahada müşteri memnuniyetinde ciddi bir ayrım yaratıyor. Bir [AI bot kurulumu](/hizmetler/ai-bot) ile klasik şablon cevap sistemi arasındaki müşteri tatmin farkı yapılan iç ölçümlerimizde %40'a yakın çıkıyor.
+Bu fark sahada müşteri memnuniyetinde ciddi bir ayrım yaratıyor. Bir [AI bot kurulumu](/whatsapp-ai-asistani) ile klasik şablon cevap sistemi arasındaki müşteri tatmin farkı yapılan iç ölçümlerimizde %40'a yakın çıkıyor.
 
 ## Türk KOBİ'leri Neden WhatsApp AI Asistanına Geçiyor?
 
@@ -56,7 +56,7 @@ Patron bu süre boyunca işine devam eder. Sabah açtığında "8 rezervasyon ge
 
 WhatsApp AI asistanı kurulumu söz konusu olduğunda iki temel yol vardır. Birincisi WhatsApp Business uygulamasını telefondan kullanmak ve üzerine üçüncü taraf bir yazılımı bağlamak. Bu yol ucuzdur ama Meta tarafından **resmi değildir** ve hesabınızın bloklanma riski vardır. İkincisi resmi WhatsApp Business API (Cloud API) üzerinden kurulumdur. Bu yol biraz daha maliyetlidir ama hem yasal hem de ölçeklenebilirdir.
 
-Resmi API kullanıldığında işletmenizin yanına **yeşil tik** alma şansı doğar, mesaj limitleri çok daha yüksek olur ve Meta tarafından korunursunuz. Profesyonel bir kurulumda her zaman resmi API tercih edilmelidir. Konuyla ilgili teknik detayları [otomasyon hizmetlerimiz](/hizmetler/otomasyon) sayfasında daha derinlemesine açıklıyoruz.
+Resmi API kullanıldığında işletmenizin yanına **yeşil tik** alma şansı doğar, mesaj limitleri çok daha yüksek olur ve Meta tarafından korunursunuz. Profesyonel bir kurulumda her zaman resmi API tercih edilmelidir. Konuyla ilgili teknik detayları [otomasyon hizmetlerimiz](/crm-otomasyonu) sayfasında daha derinlemesine açıklıyoruz.
 
 ### Mesaj Maliyetleri ve Şeffaf Fiyatlandırma
 
@@ -95,7 +95,7 @@ GPT-4, Claude veya benzeri bir büyük dil modeli, sizin işletme tonunuza ve se
 
 ### 5. Entegrasyonlar (CRM, Takvim, Ödeme)
 
-İşletme AI asistanı tek başına çalışan bir sohbet kutusu değildir. Genellikle Google Takvim, randevu yazılımı, CRM, ödeme sistemleri ile entegre edilir. Bir berber dükkanı için kurduğumuz sistemde müşteri WhatsApp'tan saat seçer, AI ödeme linki gönderir, müşteri ödeme yapınca takvime randevu otomatik düşer. Bu tarz uçtan uca otomasyon için [otomasyon sistemlerimizi](/hizmetler/otomasyon) inceleyebilirsiniz.
+İşletme AI asistanı tek başına çalışan bir sohbet kutusu değildir. Genellikle Google Takvim, randevu yazılımı, CRM, ödeme sistemleri ile entegre edilir. Bir berber dükkanı için kurduğumuz sistemde müşteri WhatsApp'tan saat seçer, AI ödeme linki gönderir, müşteri ödeme yapınca takvime randevu otomatik düşer. Bu tarz uçtan uca otomasyon için [otomasyon sistemlerimizi](/crm-otomasyonu) inceleyebilirsiniz.
 
 ### 6. Test, Yayın ve Sürekli İyileştirme
 
@@ -163,6 +163,6 @@ PORTZEN olarak Türk KOBİ'lerine özel WhatsApp AI asistanı kuruyoruz. Yaklaş
 
 Eczane, klinik, restoran, emlak ofisi, hukuk bürosu, e-ticaret markaları gibi farklı sektörlerde 100'ü aşkın WhatsApp AI asistanı kurduk. Her birinde kurulum sonrası 90 gün boyunca aktif iyileştirme sürecindeyiz; sistemi yayına alıp bırakmıyoruz. Bilgi tabanı genişlemeye, AI cevapları sektörünüzde daha keskinleşmeye devam ediyor. CRM, takvim, ödeme sistemleri ile uçtan uca entegrasyon yapıyoruz — yani müşteri sohbet kutusunda kalmıyor, doğrudan sisteminizin içine giriyor.
 
-Sıklıkla şu soruyla geliyorlar bize: "Benim işletmem için anlamlı mı, yoksa daha henüz erken mi?" Cevabı net: WhatsApp'a günde 10'dan fazla mesaj alan her işletme için anlamlı. Bu rakam sizinki için doğruysa, yatırımın geri dönüşü 3-6 ay arasında geliyor. Daha düşük hacimli işletmeler için ise daha basit bir [otomasyon paketi](/hizmetler/otomasyon) öneriyoruz.
+Sıklıkla şu soruyla geliyorlar bize: "Benim işletmem için anlamlı mı, yoksa daha henüz erken mi?" Cevabı net: WhatsApp'a günde 10'dan fazla mesaj alan her işletme için anlamlı. Bu rakam sizinki için doğruysa, yatırımın geri dönüşü 3-6 ay arasında geliyor. Daha düşük hacimli işletmeler için ise daha basit bir [otomasyon paketi](/crm-otomasyonu) öneriyoruz.
 
 **Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.

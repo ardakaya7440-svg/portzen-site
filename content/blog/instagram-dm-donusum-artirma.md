@@ -212,7 +212,7 @@ Bu döngüyü 12 hafta sürdürdüğünüzde dönüşüm oranınız %200-300 ara
 
 PORTZEN olarak Instagram DM dönüşüm sistemlerini sıfırdan kuruyoruz. Önce mevcut DM trafiğinizi analiz ediyor, hangi adımda lead kaybettiğinizi tespit ediyor, sektörünüze ve marka tonunuza uygun AI bot personasını tasarlıyoruz. WhatsApp ile entegre çalışıyor; müşteri Instagram'dan DM atıp WhatsApp'a geçtiğinde tüm konuşma geçmişi taşınıyor.
 
-Tipik proje akışımız: 1 hafta DM trafiği analizi, 2 hafta bot ve akış kurulumu, 1 hafta test ve eğitim. 4. hafta sonunda canlıda. Sonraki 90 günde haftalık optimizasyon raporu sunuyor, en iyi performans veren mesaj şablonlarını güncelliyoruz. [Sosyal Medya İçerik](/hizmetler/sosyal-medya) ve [AI Bot Kurulumu](/hizmetler/ai-bot) hizmetlerimizi birlikte alan markalarda 3 ay sonunda ortalama dönüşüm artışı %285 oldu.
+Tipik proje akışımız: 1 hafta DM trafiği analizi, 2 hafta bot ve akış kurulumu, 1 hafta test ve eğitim. 4. hafta sonunda canlıda. Sonraki 90 günde haftalık optimizasyon raporu sunuyor, en iyi performans veren mesaj şablonlarını güncelliyoruz. [Sosyal Medya İçerik](/instagram-dm-otomasyonu) ve [AI Bot Kurulumu](/whatsapp-ai-asistani) hizmetlerimizi birlikte alan markalarda 3 ay sonunda ortalama dönüşüm artışı %285 oldu.
 
 Önemli olan teknolojiyi satmak değil, gelen lead'in son metresinde kayıp olmasını engellemek. Bu detay işi profesyonelce yapılmazsa reklam bütçeniz de boşa gidiyor.
 
