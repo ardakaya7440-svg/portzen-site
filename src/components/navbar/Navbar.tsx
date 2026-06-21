@@ -99,69 +99,35 @@ export function Navbar() {
         </div>
       </div>
 
-      {/* MEGA DROPDOWN PANEL — grup bazlı */}
+      {/* SADE DROPDOWN PANEL — sadece başlık listesi */}
       <AnimatePresence>
         {openGroup && (
           <motion.div
             key={openGroup}
-            initial={{ opacity: 0, y: -8 }}
+            initial={{ opacity: 0, y: -6 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.18, ease: [0.2, 0.9, 0.3, 1] }}
+            exit={{ opacity: 0, y: -6 }}
+            transition={{ duration: 0.15, ease: [0.2, 0.9, 0.3, 1] }}
             className="absolute left-0 right-0 top-full"
           >
             {NAV_GROUPS.filter((g) => g.slug === openGroup).map((group) => {
               const groupServices = SERVICES.filter((s) => group.serviceSlugs.includes(s.slug));
               return (
-                <div key={group.slug} className="mx-auto max-w-container px-6 pb-6">
-                  <div className="border-3 border-ink bg-paper shadow-brutal-lg">
-                    <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-0">
-                      {/* Sol: grup başlık */}
-                      <div className="p-6 bg-ink text-paper border-b-3 lg:border-b-0 lg:border-r-3 border-ink">
-                        <div className="text-xs font-black uppercase tracking-wider opacity-70 mb-3">
-                          Kategori
-                        </div>
-                        <h3 className="font-display text-2xl font-black leading-tight mb-2">
-                          {group.label}
-                        </h3>
-                        <p className="text-sm opacity-80">{group.tagline}</p>
-                      </div>
-
-                      {/* Sağ: bu grupta yer alan hizmetler */}
-                      <div className="p-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        {groupServices.map((svc) => {
-                          const Icon = svc.icon;
-                          return (
-                            <Link
-                              key={svc.slug}
-                              href={svc.href}
-                              className={cn(
-                                "group border-3 border-ink p-4 shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all",
-                                TONE_BG[svc.tone],
-                                TONE_TEXT[svc.tone]
-                              )}
-                            >
-                              <div className="flex items-start justify-between gap-2 mb-2">
-                                <div className="border-3 border-ink bg-paper text-ink p-1.5 shadow-brutal-sm">
-                                  <Icon className="h-4 w-4" />
-                                </div>
-                                <ArrowUpRight className="h-4 w-4 opacity-50 group-hover:opacity-100 transition-opacity" />
-                              </div>
-                              <h4 className="font-display font-black text-base leading-tight mb-1">{svc.title}</h4>
-                              <p className="text-xs opacity-85 mb-3">{svc.tagline}</p>
-                              <ul className="space-y-1 text-xs">
-                                {svc.subServices.slice(0, 4).map((sub) => (
-                                  <li key={sub.href} className="flex items-center gap-1.5">
-                                    <span className="h-1 w-1 bg-current rounded-full flex-shrink-0 opacity-60" />
-                                    <span className="leading-tight">{sub.title}</span>
-                                  </li>
-                                ))}
-                              </ul>
-                            </Link>
-                          );
-                        })}
-                      </div>
-                    </div>
+                <div key={group.slug} className="mx-auto max-w-container px-6 pb-4">
+                  <div className="border-3 border-ink bg-paper shadow-brutal-lg max-w-md">
+                    <ul className="py-2">
+                      {groupServices.map((svc) => (
+                        <li key={svc.slug}>
+                          <Link
+                            href={svc.href}
+                            className="group flex items-center justify-between gap-4 px-5 py-2.5 text-sm font-bold text-ink hover:bg-brand-yellow transition-colors"
+                          >
+                            <span>{svc.title}</span>
+                            <ArrowUpRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               );
