@@ -99,7 +99,7 @@ export function Navbar() {
         </div>
       </div>
 
-      {/* SADE DROPDOWN PANEL — sadece başlık listesi */}
+      {/* KOMPAKT RENKLİ DROPDOWN — icon + başlık grid */}
       <AnimatePresence>
         {openGroup && (
           <motion.div
@@ -112,22 +112,34 @@ export function Navbar() {
           >
             {NAV_GROUPS.filter((g) => g.slug === openGroup).map((group) => {
               const groupServices = SERVICES.filter((s) => group.serviceSlugs.includes(s.slug));
+              // Tek satırda göstermek için kompakt kart genişliği
+              const gridCols = groupServices.length <= 2 ? "grid-cols-2" : "grid-cols-2 sm:grid-cols-3";
               return (
                 <div key={group.slug} className="mx-auto max-w-container px-6 pb-4">
-                  <div className="border-3 border-ink bg-paper shadow-brutal-lg max-w-md">
-                    <ul className="py-2">
-                      {groupServices.map((svc) => (
-                        <li key={svc.slug}>
+                  <div className="border-3 border-ink bg-paper shadow-brutal-lg p-3 max-w-2xl">
+                    <div className={cn("grid gap-2", gridCols)}>
+                      {groupServices.map((svc) => {
+                        const Icon = svc.icon;
+                        return (
                           <Link
+                            key={svc.slug}
                             href={svc.href}
-                            className="group flex items-center justify-between gap-4 px-5 py-2.5 text-sm font-bold text-ink hover:bg-brand-yellow transition-colors"
+                            className={cn(
+                              "group flex items-center gap-2.5 border-3 border-ink px-3 py-2.5 shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all",
+                              TONE_BG[svc.tone],
+                              TONE_TEXT[svc.tone]
+                            )}
                           >
-                            <span>{svc.title}</span>
-                            <ArrowUpRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
+                            <div className="border-3 border-ink bg-paper text-ink p-1 flex-shrink-0">
+                              <Icon className="h-3.5 w-3.5" />
+                            </div>
+                            <span className="text-sm font-black leading-tight flex-1">
+                              {svc.title}
+                            </span>
                           </Link>
-                        </li>
-                      ))}
-                    </ul>
+                        );
+                      })}
+                    </div>
                   </div>
                 </div>
               );
