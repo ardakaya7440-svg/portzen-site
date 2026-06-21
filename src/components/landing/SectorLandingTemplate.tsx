@@ -338,7 +338,7 @@ export function SectorLandingTemplate({ service, data }: Props) {
                     <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <a
-                    href="https://wa.me/905318639117"
+                    href="https://wa.me/905015884853"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
@@ -347,11 +347,11 @@ export function SectorLandingTemplate({ service, data }: Props) {
                     WhatsApp ile Yaz
                   </a>
                   <a
-                    href="tel:+905318639117"
+                    href="tel:+905015884853"
                     className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
                   >
                     <Phone className="h-4 w-4" />
-                    0531 863 91 17
+                    0501 588 48 53
                   </a>
                 </div>
               </div>

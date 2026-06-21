@@ -6,8 +6,8 @@ import { ArrowUpRight, MessageSquare, Mail, Calendar, Phone, CheckCircle2 } from
 import { Reveal } from "@/components/ui/reveal";
 import { trackLeadFormSubmit, trackWhatsAppClick, trackEmailClick, trackPhoneClick } from "@/lib/analytics";
 
-const WHATSAPP_NUMBER = "905318639117";
-const PHONE_HUMAN = "0531 863 91 17";
+const WHATSAPP_NUMBER = "905015884853";
+const PHONE_HUMAN = "0501 588 48 53";
 const EMAIL = "portzenajans@gmail.com";
 
 export default function Page() {

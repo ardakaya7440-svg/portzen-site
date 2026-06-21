@@ -13,7 +13,7 @@ interface BaseProps {
 }
 
 /** WhatsApp linki — tıklama track edilir */
-export function WhatsAppLink({ source, children, className, phone = "905318639117" }: BaseProps & { phone?: string }) {
+export function WhatsAppLink({ source, children, className, phone = "905015884853" }: BaseProps & { phone?: string }) {
   return (
     <a
       href={`https://wa.me/${phone}`}
@@ -28,7 +28,7 @@ export function WhatsAppLink({ source, children, className, phone = "90531863911
 }
 
 /** Telefon linki — tıklama track edilir */
-export function PhoneLink({ source, children, className, phone = "+905318639117" }: BaseProps & { phone?: string }) {
+export function PhoneLink({ source, children, className, phone = "+905015884853" }: BaseProps & { phone?: string }) {
   return (
     <a
       href={`tel:${phone}`}

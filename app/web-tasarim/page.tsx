@@ -220,7 +220,7 @@ export default function WebTasarimPage() {
                     Ücretsiz Teklif Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <a
-                    href="https://wa.me/905318639117"
+                    href="https://wa.me/905015884853"
                     target="_blank"
                     rel="noopener"
                     className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-brand-green px-6 py-3.5 text-sm font-black uppercase text-paper shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
@@ -663,7 +663,7 @@ export default function WebTasarimPage() {
                     Ücretsiz Görüşme Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <a
-                    href="https://wa.me/905318639117"
+                    href="https://wa.me/905015884853"
                     target="_blank"
                     rel="noopener"
                     className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-brand-green px-6 py-3.5 text-sm font-black uppercase text-paper shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
@@ -680,7 +680,7 @@ export default function WebTasarimPage() {
                   <Phone className="h-5 w-5 text-ink shrink-0 mt-0.5" />
                   <div>
                     <div className="text-xs font-bold uppercase tracking-wider text-ink/60">Telefon</div>
-                    <a href="tel:+905318639117" className="font-display text-lg font-black text-ink hover:underline">0531 863 91 17</a>
+                    <a href="tel:+905015884853" className="font-display text-lg font-black text-ink hover:underline">0501 588 48 53</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">

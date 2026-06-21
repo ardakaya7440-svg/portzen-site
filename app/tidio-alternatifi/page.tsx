@@ -61,7 +61,7 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905318639117",
+    telephone: "+905015884853",
     email: "portzenajans@gmail.com"
   },
   serviceType: "Customer Communication Platform",
@@ -740,7 +740,7 @@ export default function Page() {
                   Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905318639117"
+                  href="https://wa.me/905015884853"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
@@ -748,7 +748,7 @@ export default function Page() {
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905318639117"
+                  href="tel:+905015884853"
                   className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
@@ -759,7 +759,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
+                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>
