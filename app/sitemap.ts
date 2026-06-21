@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { ALL_CATEGORIES, getAllPostsMeta } from "@/lib/blog";
+import { ALL_CATEGORIES, getAllPostsMeta, getExtraPageNumbers } from "@/lib/blog";
 import { getAllSectorLandings } from "@/lib/landings";
 
 const BASE = "https://portzenai.com";
@@ -48,5 +48,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9
   }));
 
-  return [...staticPages, ...landingPages, ...sectorLandings, ...categoryPages, ...articlePages];
+  // Blog pagination ekstra sayfaları (sayfa 2, 3, ...)
+  const blogPaginationPages: MetadataRoute.Sitemap = getExtraPageNumbers().map((n) => ({
+    url: `${BASE}/blog/sayfa/${n}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.6
+  }));
+
+  return [
+    ...staticPages,
+    ...landingPages,
+    ...sectorLandings,
+    ...categoryPages,
+    ...articlePages,
+    ...blogPaginationPages
+  ];
 }

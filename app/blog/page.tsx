@@ -1,9 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ArrowUpRight, Calendar, Clock, Tag } from "lucide-react";
-import { ALL_CATEGORIES, CATEGORY_META, getAllPostsMeta } from "@/lib/blog";
+import { ALL_CATEGORIES, CATEGORY_META, POSTS_PER_PAGE, getPaginatedPosts } from "@/lib/blog";
 import { cn } from "@/lib/utils";
 import { Reveal } from "@/components/ui/reveal";
+import { Pagination } from "@/components/blog/Pagination";
 
 export const metadata: Metadata = {
   title: "PORTZEN Blog — AI, Sosyal Medya, Otomasyon ve Web Yazılım Rehberi",
@@ -33,7 +34,8 @@ function formatDate(iso: string) {
 }
 
 export default function BlogIndexPage() {
-  const posts = getAllPostsMeta();
+  // İlk sayfa: featured (1) + grid (11) = 12 toplam
+  const { posts, currentPage, totalPages, totalPosts } = getPaginatedPosts(1);
   const featured = posts[0];
   const rest = posts.slice(1);
 
@@ -133,8 +135,13 @@ export default function BlogIndexPage() {
                 Tüm Yazılar
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                {posts.length} pratik rehber, tek yerde.
+                {totalPosts} pratik rehber, tek yerde.
               </h2>
+              {totalPages > 1 && (
+                <p className="mt-2 text-sm text-ink/60">
+                  Sayfa {currentPage} / {totalPages}
+                </p>
+              )}
             </div>
           </Reveal>
 
@@ -173,6 +180,8 @@ export default function BlogIndexPage() {
               </Reveal>
             ))}
           </div>
+
+          <Pagination currentPage={currentPage} totalPages={totalPages} basePath="/blog" />
         </div>
       </section>
     </>

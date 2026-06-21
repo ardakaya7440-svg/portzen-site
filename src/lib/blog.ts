@@ -104,3 +104,41 @@ export function getRelatedPosts(post: BlogPostMeta, limit = 3): BlogPostMeta[] {
 export const ALL_CATEGORIES: { slug: BlogCategory; label: string }[] = Object.entries(CATEGORY_META).map(
   ([slug, meta]) => ({ slug: slug as BlogCategory, label: meta.label })
 );
+
+/* ============================================================
+   PAGINATION
+   ============================================================ */
+
+export const POSTS_PER_PAGE = 12;
+
+export interface PaginatedPosts {
+  posts: BlogPostMeta[];
+  currentPage: number;
+  totalPages: number;
+  totalPosts: number;
+}
+
+/** Belirli bir sayfa için makaleleri döndür (1-indexed) */
+export function getPaginatedPosts(page: number): PaginatedPosts {
+  const allPosts = getAllPostsMeta();
+  const totalPosts = allPosts.length;
+  const totalPages = Math.max(1, Math.ceil(totalPosts / POSTS_PER_PAGE));
+  const safePage = Math.max(1, Math.min(page, totalPages));
+  const start = (safePage - 1) * POSTS_PER_PAGE;
+  const end = start + POSTS_PER_PAGE;
+  return {
+    posts: allPosts.slice(start, end),
+    currentPage: safePage,
+    totalPages,
+    totalPosts
+  };
+}
+
+/** Sitemap için: 2'den itibaren tüm sayfa numaralarını döndürür (sayfa 1 = /blog) */
+export function getExtraPageNumbers(): number[] {
+  const allPosts = getAllPostsMeta();
+  const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+  if (totalPages <= 1) return [];
+  // 2, 3, 4, ... totalPages
+  return Array.from({ length: totalPages - 1 }, (_, i) => i + 2);
+}
