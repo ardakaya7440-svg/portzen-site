@@ -1,0 +1,159 @@
+{
+  "sectorSlug": "butik",
+  "sectorName": "Butik & E-Ticaret",
+  "sectorPlural": "E-Ticaret Markaları",
+  "title": "Butik & E-Ticaret Markaları İçin Web Tasarım | Iyzico + IG Shop Entegre — PORTZEN",
+  "description": "Butik markanız için hızlı, mobil-first e-ticaret sitesi. Iyzico, Stripe, Aras, Yurtiçi ve Instagram Shop entegre — abandoned cart sıfırlanır, dönüşüm üçe katlanır.",
+  "keywords": ["butik web tasarım", "e-ticaret sitesi", "iyzico entegre site", "instagram shop sync", "shopify alternatifi", "next.js e-ticaret", "butik online satış sitesi"],
+  "h1": "Butik & E-Ticaret Markaları için Web Tasarım",
+  "heroSubtitle": "Shopify pahalı, WooCommerce yavaş, Instagram Shop limitli. Mobil checkout'unuzun %68'i terk ediliyor çünkü 3 adımdan fazla. Biz koleksiyonunuza özel, 3 adımda biten, Iyzico ve kargo entegre Next.js e-ticaret kuruyoruz.",
+  "stats": [
+    {"value": "1.4 sn", "label": "Sayfa Açılış"},
+    {"value": "%218", "label": "Sipariş Artışı"},
+    {"value": "6 hafta", "label": "Kurulum"},
+    {"value": "3 adım", "label": "Checkout"}
+  ],
+  "problems": [
+    "Shopify aylık 89$ + tema + uygulama + komisyon — yıllık 60.000 TL'ye geliyor ve her kuruşunu hissetmiyorsunuz",
+    "WooCommerce kurdunuz ama site 6 saniyede açılıyor, mobil müşteri beklemiyor, abandoned cart oranı %72",
+    "Mobil checkout'unuz 7 adım — beden seç, renk seç, adres, kargo, ödeme, onay, tekrar onay. Müşteri 3. adımda kapatıyor",
+    "Aras-Yurtiçi-MNG kargo entegrasyonu manuel, her gün 30 sipariş için tek tek barkod basıyorsunuz",
+    "İade süreci WhatsApp'tan dönüyor, müşteri 'kargo kodumu yolladım' diyor siz bulamıyorsunuz, marka itibarı sarsılıyor",
+    "Instagram Shop'a 50 ürün koyabiliyorsunuz ama 400 ürünlük koleksiyon var — IG sınırı sizi kilitliyor",
+    "Türkçe ürün açıklamalarınız SEO açısından ölü, Google'da 'siyah keten gömlek' aratınca rakipler çıkıyor siz yoksunuz"
+  ],
+  "solutionSteps": [
+    {
+      "title": "1. Ürün Katalog & Marka Analizi",
+      "description": "Mevcut koleksiyonunuzu, stok yönetiminizi, ortalama sepet tutarınızı ve hangi kanaldan (IG, Tiktok, Google) satış geldiğini analiz ederiz. Hedef: hangi ürünleri öne çıkaracağımızı, hangi kategorileri ana navigasyona alacağımızı netleştirmek."
+    },
+    {
+      "title": "2. Instagram-Uyumlu Tasarım",
+      "description": "Estetik feed'inizle örtüşen, ürün fotoğraflarınızın hak ettiği boyutta gözükeceği, marka tonunuzu koruyan tasarım. Kapak hikaye-tarzı, ürün kartları büyük ve nefes alan, lookbook tarzı koleksiyon sayfaları."
+    },
+    {
+      "title": "3. Next.js + Iyzico/Stripe + Kargo + Pazaryeri",
+      "description": "Next.js 14 ile statik hızda dinamik e-ticaret, Iyzico ve Stripe çift ödeme, Aras-Yurtiçi-MNG kargo API entegrasyonu (barkod otomatik basılır), Trendyol ve Hepsiburada stok senkronizasyonu — tek panelden tüm kanallar."
+    },
+    {
+      "title": "4. SEO + Instagram Shop Senkronizasyonu",
+      "description": "Her ürünün ayrı SEO sayfası (Türkçe meta, schema markup), Instagram Shop'a sınırsız ürün sync, blog ve içerik motoru (koleksiyon hikayesi, stil rehberi) ile uzun kuyruk anahtar kelime kapısı açılır."
+    }
+  ],
+  "features": [
+    {
+      "title": "3 Adımda Biten Checkout",
+      "description": "Sepet → Adres + Ödeme tek sayfada → Onay. Misafir ödeme açık, Apple Pay / Google Pay tek dokunuş. Abandoned cart oranı %72'den %28'e düşüyor."
+    },
+    {
+      "title": "Iyzico + Stripe Çift Ödeme",
+      "description": "Türk müşteri Iyzico (taksit, BKM Express, havale), yurt dışı Stripe (kart, Apple Pay). Komisyon optimize, başarısız ödeme retry mantığı entegre."
+    },
+    {
+      "title": "Aras + Yurtiçi + MNG Kargo Entegre",
+      "description": "Sipariş geldiğinde kargo barkodu otomatik üretilir, müşteri takip linkini WhatsApp ve email ile alır. Günlük 100 sipariş için manuel iş 4 saatten 15 dakikaya düşer."
+    },
+    {
+      "title": "İade & Değişim Modülü",
+      "description": "Müşteri panelden 2 tıkla iade talebi açar, kargo kodu otomatik üretilir, sizin tarafta durum 'beklemede / kabul / red' net görünür. WhatsApp karmaşası biter."
+    },
+    {
+      "title": "Instagram Shop Sync",
+      "description": "Site ürünleriniz Instagram Shop ile gerçek zamanlı senkronize. Stok bittiğinde IG'de de 'sold out', yeni ürün eklediğinizde 5 dakika içinde feed'de. 50 ürün sınırı tarih oluyor."
+    },
+    {
+      "title": "Mobil-First, 1.4 Saniye Açılış",
+      "description": "Next.js ISR, görsel optimizasyon (AVIF + WebP), edge cache. Mobilde Lighthouse 95+, Google Page Experience yeşil — SEO sıralamanız doğal olarak yükseliyor."
+    }
+  ],
+  "caseStudy": {
+    "title": "Cihangir'de Bir Butiğin 4 Aylık Dönüşümü",
+    "paragraphs": [
+      "İstanbul Cihangir'de keten ve doğal kumaş üzerine 6 yıldır butik işleten bir marka, Shopify'da aylık 4.500 TL ödeyip site hızından, abandoned cart oranından ve IG Shop sınırından memnun değildi. Mobil dönüşüm oranı %1.2'de takılı kalmıştı, ay başı sipariş ortalaması 80.",
+      "PORTZEN olarak ürün katalogunu (340 SKU) analiz ettik, 3 adımlı checkout'a indirdik, Iyzico + Stripe entegrasyonu kurduk, Aras ve Yurtiçi kargo API'lerini bağladık. Tasarımda marka feed'ine uyumlu, lookbook tarzı koleksiyon sayfaları yaptık. Her ürün için ayrı SEO sayfası ve Türkçe schema markup ekledik.",
+      "4 ay sonra ay başı sipariş 80'den 620'ye, mobil dönüşüm oranı %1.2'den %3.8'e çıktı. Abandoned cart %72'den %29'a düştü. Google organik trafik 1.200'den 11.400/ay'a, IG'den site tıklama oranı %4'ten %11'e yükseldi. Marka, Shopify'a ödediği yıllık 54.000 TL'yi bizim sistemin maliyetinin altında karşılıyor."
+    ],
+    "beforeAfter": [
+      {"label": "Ay Başı Sipariş", "before": "80", "after": "620"},
+      {"label": "Mobil Dönüşüm Oranı", "before": "%1.2", "after": "%3.8"},
+      {"label": "Abandoned Cart", "before": "%72", "after": "%29"},
+      {"label": "Sayfa Açılış Süresi", "before": "5.8 sn", "after": "1.4 sn"},
+      {"label": "Organik Aylık Trafik", "before": "1.200", "after": "11.400"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini E-Ticaret",
+      "price": "20.000 TL",
+      "description": "50 ürüne kadar olan butikler için, Iyzico tek ödeme + Aras kargo entegre temel paket.",
+      "features": [
+        "5 sayfa + ürün katalog (50 SKU)",
+        "Iyzico ödeme entegrasyonu",
+        "Aras Kargo API",
+        "Mobil-first tasarım",
+        "Temel SEO + Google Search Console",
+        "Instagram feed embed",
+        "1 yıl hosting + domain dahil"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "38.000 TL + 2.000 TL/ay",
+      "description": "Büyüyen e-ticaret markaları için Iyzico + Stripe çift ödeme, çoklu kargo ve IG Shop sync dahil tam paket.",
+      "features": [
+        "Sınırsız ürün + kategori",
+        "Iyzico + Stripe çift ödeme",
+        "Aras + Yurtiçi + MNG kargo entegre",
+        "Instagram Shop sync",
+        "İade & değişim modülü",
+        "Blog + içerik motoru",
+        "Ürün başına SEO sayfası + schema",
+        "Aylık raporlama + sürekli destek"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "65.000 TL + 4.000 TL/ay",
+      "description": "Çok kanallı satış yapan, Trendyol-Hepsiburada-N11 entegrasyonu isteyen kurumsal markalar için.",
+      "features": [
+        "Profesyonel paketin tamamı",
+        "Trendyol + Hepsiburada + N11 stok sync",
+        "Çok dilli site (TR + EN)",
+        "Apple Pay + Google Pay",
+        "Üye sadakat & puan sistemi",
+        "A/B test altyapısı",
+        "Özel CRM entegrasyonu",
+        "Performans pazarlama danışmanlığı"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Mevcut Shopify mağazamı taşıyabilir misiniz?",
+      "answer": "Evet. Shopify'daki ürünleri, kategorileri, müşteri verisini, sipariş geçmişini ve mevcut domaini sorunsuz taşıyoruz. Geçiş esnasında satışlarınız durmaz — paralel kurulum yapıp DNS'i son anda çeviriyoruz, downtime 5 dakikadan az."
+    },
+    {
+      "question": "Iyzico komisyon oranı nedir, siz mi alıyorsunuz?",
+      "answer": "Iyzico komisyonu doğrudan Iyzico'ya gider (genelde %1.99 + işlem başı 0.25 TL, hacme göre düşüyor). PORTZEN olarak biz hiçbir işlem komisyonu almıyoruz — sadece kurulum ve aylık bakım ücreti."
+    },
+    {
+      "question": "Trendyol stoğum ile site stoğu nasıl senkron olacak?",
+      "answer": "Premium paketimizde Trendyol-Hepsiburada API entegrasyonu var. Site'de 1 adet satıldığında Trendyol'daki stok da 1 düşüyor, tam tersi de geçerli. Çift satış (overselling) sorunu çözülüyor."
+    },
+    {
+      "question": "Instagram Shop'ta 50 ürün sınırını nasıl aşıyorsunuz?",
+      "answer": "Meta Catalog Manager üzerinden ürün feed'inizi otomatik besliyoruz. 400+ ürün de olsa hepsi IG Shop ve Facebook Marketplace'te görünür. Stok ve fiyat değişimleri 5 dakika içinde feed'e yansır."
+    },
+    {
+      "question": "Kaç haftada açılır?",
+      "answer": "Mini paket 3 hafta, Profesyonel 6 hafta, Premium 8-10 hafta. Ürün katalogunuzun fotoğraflarının hazır olması süreyi 1-2 hafta kısaltıyor."
+    },
+    {
+      "question": "Site açıldıktan sonra ben ürün ekleyebilir miyim?",
+      "answer": "Tabii. Admin paneliniz Shopify benzeri, ürün eklemek için kod bilmenize gerek yok. Görsel sürükle-bırak, stok güncelleme, fiyat değişimi hepsi sizin tarafınızda. Aylık bakımda biz teknik problemleri çözüyoruz."
+    }
+  ],
+  "finalCtaHeadline": "Butik Markanız Hak Ettiği E-Ticaret Sitesini Hak Ediyor",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz analiz görüşmesi — mevcut sitenizin neden dönüşüm üretmediğini ve PORTZEN ile 4 ayda neyi değiştirebileceğimizi konuşalım."
+}

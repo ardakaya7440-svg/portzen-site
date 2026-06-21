@@ -1,0 +1,109 @@
+{
+  "sectorSlug": "butik",
+  "sectorName": "Butik & E-ticaret",
+  "sectorPlural": "Butikler",
+  "title": "Butikler & E-ticaret İçin AI Reklam Videosu | Sanal Manken & Ürün Showcase — PORTZEN",
+  "description": "Butik ve e-ticaret mağazanız için AI ile üretilmiş ürün showcase, sanal manken ve lookbook videoları. Çekim seansı yok, 3 günde teslim, ürün başına bağımsız video.",
+  "keywords": ["butik reklam videosu", "e-ticaret ai video", "sanal manken video", "ürün tanıtım videosu", "moda ai video", "butik instagram reklam"],
+  "h1": "Butikler ve E-ticaret İçin AI Reklam Videosu",
+  "heroSubtitle": "Sora, Veo, Kling ile sanal mankenler üzerinde ürün showcase, 360° dönüş ve lookbook videoları. Tek bir çekim seansı yapmadan, 3 günde tüm koleksiyon hazır.",
+  "stats": [
+    {"value": "3 gün", "label": "Ortalama Teslim"},
+    {"value": "5-10x", "label": "Daha Ucuz"},
+    {"value": "20 video", "label": "Aylık Paket"},
+    {"value": "4K", "label": "Çözünürlük"}
+  ],
+  "problems": [
+    "Koleksiyonunuzda 80-200 ürün var, hepsini tek tek model üzerinde çektiremiyorsunuz",
+    "Model + fotoğrafçı + stüdyo + makyaj seansı ürün başına 800-1500 TL — koleksiyon başına 100-300 bin TL bütçe",
+    "Her ay yeni koleksiyon geliyor, çekim takvimi yetişmiyor, e-ticaret katalogu boş kalıyor",
+    "Ürün ekleme hızınız Trendyol/Shopify katalog güncellemesinin önüne geçemiyor",
+    "Instagram ve TikTok her hafta yeni video istiyor, sürekli aynı modelin aynı pozları viral olmuyor",
+    "Mevcut çekim arşiviniz mevsim/lokasyon bazlı kısıtlı — kış koleksiyonunu yazlık plajda gösteremiyorsunuz"
+  ],
+  "solutionSteps": [
+    {"title": "1. Koleksiyon & Marka Brief", "description": "Ürün fotoğraflarınızı (önden+arkadan+detay), beden ölçü tablosunu, marka tonunu ve hedef demografiyi alıyoruz. Sanal manken tipini (yaş, etnik köken, vücut tipi) markanıza göre seçiyoruz."},
+    {"title": "2. Sanal Manken & Storyboard", "description": "Ürün başına 9:16 storyboard — modelin yürüyüşü, dönüş, detay close-up, lifestyle sahne. Onayınız sonrası prompt setine dönüşüyor."},
+    {"title": "3. AI Render (Sora / Kling / Wan)", "description": "Sanal manken için Kling 2.5 (en doğal vücut hareketi), kumaş dokusu için Wan, lifestyle sahne için Sora 2. 4K render + DaVinci kurgu + müzik."},
+    {"title": "4. Çoklu Format Teslim", "description": "9:16 Reels/TikTok, 1:1 feed, 16:9 ürün sayfası, dikey karusel — aynı çekim tek render değil, e-ticaret + sosyal medya için ayrı çıktılarla geliyor."}
+  ],
+  "features": [
+    {"title": "Sanal AI Manken (Çoklu Tip)", "description": "Markanıza uygun 3-5 farklı sanal manken (yaş, etnik köken, vücut tipi). Hep aynı modeli kullanmak zorunda değilsiniz, koleksiyon başına farklı manken atayabilirsiniz."},
+    {"title": "Ürün 360° Dönüş", "description": "Klasik e-ticaret turntable videosu — ürün ortada, kamera 360° dönüyor. Trendyol, Hepsiburada ürün sayfası için ideal, dönüşüm oranını %25-40 artırıyor."},
+    {"title": "Koleksiyon Karuselleri", "description": "5-10 ürünü tek videoda gösteren lookbook karuselleri. Capsule koleksiyon, yaz/kış lansmanı, kombin önerisi formatları."},
+    {"title": "Mevsim / Lookbook Varyasyonu", "description": "Aynı ürünü plajda yaz hissi, kafede sonbahar, sokakta sokak stili gibi farklı lokasyonlarda — gerçek çekim yapsanız bütçeniz yetmezdi."},
+    {"title": "Kargo & Kampanya Highlight", "description": "Black Friday, sezon sonu, ücretsiz kargo bayilik mesajını ürün videosunun başına veya sonuna entegre ediyoruz. Reklam videosu satışa direkt çağırıyor."},
+    {"title": "Ürün Başına Bağımsız Video", "description": "Her ürün için sıfırdan storyboard ve render — toplu çekimde kaybolan ürünleriniz olmuyor, her SKU kendi bağımsız showcase'ine sahip."}
+  ],
+  "caseStudy": {
+    "title": "İstanbul Şişli — Kadın Butiği: 2 Ayda 180 Ürün, Erişim 8K → 95K, Dönüşüm %230 Arttı",
+    "paragraphs": [
+      "Şişli'de kadın giyim butiği işleten bir marka, 2025 başında PORTZEN'e geldiğinde Shopify'da 240 ürünü vardı ama yalnızca 60 ürünün model fotoğrafı çekilmişti. Geri kalan 180 ürün düz mankene asılı ekrandan fotoğraflanıyor, dönüşüm oranı %0.7'de takılı kalmıştı.",
+      "Premium pakete geçtiler — 2 ayda 180 ürün için sanal manken üzerinde showcase video + 360° dönüş + lifestyle karusel paketi. Her ürün için 3 farklı sanal manken denendi, marka kitabına en uyan seçildi.",
+      "Sonuç: Shopify ürün sayfası dönüşüm oranı %0.7'den %2.3'e çıktı (%230 artış), Instagram erişimi 8K → 95K, sezon sonu kampanyasında 2 günde tüm koleksiyon %78 satıldı. Çekim maliyeti karşılaştırması: geleneksel 180 ürün için yaklaşık 270K TL bütçe gerekirdi, AI ile toplam 70K TL'ye yaptılar."
+    ],
+    "beforeAfter": [
+      {"label": "Ürün Sayfası Dönüşüm", "before": "%0.7", "after": "%2.3"},
+      {"label": "Aylık IG Erişim", "before": "8.000", "after": "95.000"},
+      {"label": "Video Üretim Süresi / Ürün", "before": "5 gün", "after": "8 saat"},
+      {"label": "180 Ürün Toplam Maliyet", "before": "270.000 TL", "after": "70.000 TL"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "9.500 TL/ay",
+      "description": "Küçük butik ve yeni başlayan e-ticaret markaları",
+      "features": [
+        "Ayda 8 ürün videosu",
+        "9:16 dikey + 1:1 kare format",
+        "Tek sanal manken seçimi",
+        "2 revize / ürün",
+        "Caption + hashtag seti",
+        "Shopify/Trendyol ürün sayfası optimize"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "19.000 TL/ay",
+      "description": "Aktif e-ticaret markaları için en popüler paket",
+      "features": [
+        "Ayda 20 ürün videosu + 4 koleksiyon karuseli",
+        "9:16 + 1:1 + 16:9 üç format",
+        "3 farklı sanal manken seçeneği",
+        "360° turntable dahil",
+        "Lifestyle + lookbook sahne",
+        "Sınırsız revize",
+        "Aylık içerik takvimi",
+        "Önceliklendirilmiş teslim (2 gün)"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "35.000 TL/ay",
+      "description": "Büyük koleksiyon, sezon lansmanı ve agresif büyüme",
+      "features": [
+        "Ayda 50 ürün videosu + sınırsız karusel",
+        "Tüm formatlar + 4K master",
+        "5+ sanal manken kütüphanesi",
+        "Komple lookbook üretim",
+        "Meta + TikTok Ads kampanya yönetimi",
+        "Sezon lansman koordinasyonu",
+        "Özel proje yöneticisi",
+        "Acil içerik (24 saat) hakkı"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Sanal manken giydiğinde ürünüm gerçek gibi gözüküyor mu?", "answer": "Kumaş dokusu, drape, ürün rengi orijinaline bağlı kalıyor çünkü model üzerine sizin ürün fotoğrafınız brief olarak veriliyor. Kling 2.5 kumaş düşüşünü ve dokuyu çok iyi yorumluyor. Müşteri geri dönüşlerinde 'video farklı, ürün farklı' şikayeti yaşamadık."},
+    {"question": "Aynı sanal manken her ürünümde kullanılıyor mu?", "answer": "Tek manken zorunlu değil. Pro paketten itibaren 3 farklı manken (örn. genç-orta yaş, farklı etnik köken, farklı vücut tipi) seçiyorsunuz. Premium'da 5+ manken kütüphanesi var. Markanız çeşitliliği savunuyorsa bu önemli."},
+    {"question": "Trendyol/Hepsiburada/Shopify hangi formatları istiyor?", "answer": "Trendyol video maks 60 sn 16:9, Hepsiburada 30 sn 1:1, Shopify özgür ama 9:16 + 1:1 ideal. Biz aynı brief'ten her platform için ayrı çıktı veriyoruz, siz yüklerken format derdi yaşamıyorsunuz."},
+    {"question": "Koleksiyon başına 20-50 ürün varsa hepsini tek seferde çıkarabilir misiniz?", "answer": "Evet, hatta bu en güçlü yönümüz. Geleneksel çekim 20 ürün için minimum 2 gün stüdyo + model + ekip ister. Biz Pro paketle 20 ürünü 2 haftada teslim ediyoruz, Premium ile 50 ürünü aynı sürede. Sezon lansmanı için planlama önerimiz: 30 gün öncesinden brief verin."},
+    {"question": "Ürün videolarımın telifi kime ait?", "answer": "Tamamen size ait. Sora, Veo, Kling ticari kullanım haklarını üretene veriyor. Biz size sınırsız kullanım + transfer veriyoruz — Meta Ads, TikTok Ads, e-ticaret site, mailing, hepsinde sınırsız kullanabilirsiniz."},
+    {"question": "Mevcut model fotoğraflarımı brief olarak kullanabilir misiniz?", "answer": "Evet, tam tersine bu en iyi sonucu veriyor. Daha önce çektirdiğiniz hero ürün fotoğraflarını referans veriyorsunuz, AI o tarza uygun video üretiyor. Marka tutarlılığı yüksek kalıyor."},
+    {"question": "Sözleşme süresi nedir, iptal nasıl oluyor?", "answer": "Aylık çalışıyoruz, minimum 2 ay öneriyoruz çünkü koleksiyon çıktısı algoritmaya alışma süresi istiyor. Aylık sonunda istediğiniz an feshedebiliyorsunuz, ceza yok. 3 aylık peşin ödemede %10 indirim, 6 aylıkta %15 indirim uyguluyoruz."}
+  ],
+  "finalCtaHeadline": "Tüm koleksiyonunuzun AI showcase videolarını 1 haftada teslim alın",
+  "finalCtaSubtitle": "Ürün katalog brief'iniz 1 saat sürer, ilk 5 video 3 günde elinizde. WhatsApp'tan ulaşın, 24 saat içinde geri dönüyoruz."
+}

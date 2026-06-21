@@ -1,0 +1,92 @@
+{
+  "sectorSlug": "butik",
+  "sectorName": "Butik & E-ticaret",
+  "sectorPlural": "Butikler",
+
+  "title": "Butik & E-ticaret İçin Instagram DM Otomasyonu | PORTZEN",
+  "description": "Giyim butiklerinin ve IG e-ticaret markalarının DM'lerini, stok-beden-kargo sorularını 7/24 yöneten AI sistem. Satış dönüşümünü 2 katına çıkarın.",
+  "keywords": ["butik instagram dm botu", "e-ticaret dm otomasyon", "instagram satış botu", "giyim markası chatbot", "beden stok sorgu sistemi", "ig dm yapay zeka"],
+
+  "h1": "Butik & E-ticaret için Instagram DM Otomasyonu",
+  "heroSubtitle": "'M beden var mı?', 'kargo ne zaman gelir?', 'iade yapabilir miyim?', 'fiyat?' — DM kutunuz dolu, ekip sabaha kadar yetişemiyor. AI asistanımız her DM'e 60 saniyede yanıt veriyor, sepete kadar götürüyor.",
+
+  "stats": [
+    {"value": "60 sn", "label": "DM Yanıtı"},
+    {"value": "%48", "label": "Dönüşüm Oranı"},
+    {"value": "%2.1x", "label": "Aylık Satış"},
+    {"value": "14 gün", "label": "Kurulum"}
+  ],
+
+  "problems": [
+    "Reels'te ürün viral oldu, 500 DM birden 'M beden var mı?' yağdı — ekip 4 günde ancak yanıtladı, beden bitti, müşteri kaçtı.",
+    "Aynı 'kargo ne zaman?', 'iade var mı?' sorularına günde 100 kez yanıt yazmak — ekip yorgun, hata oluyor.",
+    "Gece 23:00 'şu ürün stoğu var mı?' DM'i sabah görülüyor — müşteri başka markadan aldı.",
+    "Müşteri bedenini söylüyor 'önerin var mı?', AI'sız bir kişinin tüm katalogu hatırlaması imkansız.",
+    "Reels altına 'fiyat?' yorumu yazılıyor — yanıtlamak için sayfayı sürekli kontrol etmek pratik değil, müşteri 'cevap yok' deyip ayrılıyor."
+  ],
+
+  "solutionSteps": [
+    {"title": "Katalog & Stok Sync Brief'i", "description": "Tüm ürünleriniz (Shopify, IdeaSoft, T-Soft, IG Shop) + beden/renk/stok bilgisi + iade kargo politikası AI'a entegre. 2 günlük workshop."},
+    {"title": "Instagram Business API Bağlantısı", "description": "Meta resmi Graph API ile sayfanıza bağlanır. Hesap güvenliği etkilenmez, ban riski yok."},
+    {"title": "Test & Optimizasyon Dönemi", "description": "İlk hafta size onaylatarak yanıtlar, hatalı önerme anında düzeltilir."},
+    {"title": "Canlı + Haftalık Optimizasyon", "description": "Hangi ürün en çok soruluyor, hangi beden eksik, hangi DM satışa dönüyor — satış içgörüsü dahil."}
+  ],
+
+  "features": [
+    {"title": "Beden & Stok Sorgu", "description": "'M beden var mı?', 'Lacivert kalmış mı?' sorularına anlık doğru cevap — stok bittiğinde haber listesi alır."},
+    {"title": "Akıllı Ürün Önerisi", "description": "Müşteri 'düğüne uygun bir şey önerir misin?' yazınca AI katalogdan 3-4 ürün foto + fiyat + linkle gönderir."},
+    {"title": "Kargo Durumu Sorgu", "description": "Sipariş numarası ile anlık kargo takip — Yurtiçi, Aras, MNG entegrasyonu."},
+    {"title": "İade & Değişim Yönetimi", "description": "İade süreci adım adım anlatım, otomatik iade kodu üretim, kargo barkodu yollama."},
+    {"title": "Sepete Yönlendirme", "description": "Müşteri ürünü beğendi — AI direkt ürün sayfası linki veya checkout linki yollar. Sürtünme sıfır."},
+    {"title": "Reels Yorum Yanıtlama", "description": "'Fiyat?', 'beden?' yorumlarına AI 'DM'den göndereyim' diyerek otomatik DM açar — yorum altında bilgi görünmez."}
+  ],
+
+  "caseStudy": {
+    "title": "Bağdat Caddesi Studio Mira: IG DM'den ay başı 1.450 satış, dönüşüm %48",
+    "paragraphs": [
+      "İstanbul Bağdat Caddesi'nde bir butik kadın giyim markası, IG'de 85 bin takipçili, ayda 25-30 Reels paylaşıyor, ciddi DM trafiği alıyordu. Ekibi 3 kişiydi ve sabaha kadar gelen DM'lerin %55'i 24 saatte yanıtlanabiliyordu. Yanıt geldiğinde ürün stoğu bitmiş ya da müşteri başka markadan almış oluyordu.",
+      "Kasım 2025'te PORTZEN Instagram DM otomasyonunu kurduk. Shopify katalogunu (340 ürün, 8 renk, 5 beden varyantı) tam sync ettik. Kargo takip + iade süreci + akıllı ürün öneri modülünü ekledik. Reels yorumlarına otomatik DM açma açıldı.",
+      "İlk 4 ay: aylık IG DM kaynaklı satış 700'den 1.450'ye (2.1x). DM dönüşüm oranı (DM yazandan satışa) %23'ten %48'e fırladı. Kargo/iade sorularına harcanan ekip vakti %70 azaldı, ekip artık ürün hazırlama ve yeni koleksiyon planlama gibi değerli işlere odaklanıyor. Reels viral olduğu gün satış kaçırma sıfıra indi."
+    ],
+    "beforeAfter": [
+      {"label": "DM Yanıt Süresi", "before": "12-24 saat", "after": "60 saniye"},
+      {"label": "DM Dönüşüm", "before": "%23", "after": "%48"},
+      {"label": "Aylık IG Satış", "before": "700", "after": "1.450"}
+    ]
+  },
+
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL/ay",
+      "description": "Tek hesap, 200 ürüne kadar, DM yanıt + beden/stok sorgu",
+      "features": ["Instagram Business API kurulumu", "200 ürüne kadar katalog", "Beden + stok + fiyat sorgu", "Kargo takip sorgu", "Aylık 1 optimizasyon"]
+    },
+    {
+      "name": "Pro",
+      "price": "15.500 TL/ay",
+      "description": "Önerilen — Reels yorum + akıllı öneri + iade yönetimi",
+      "features": ["Başlangıç paketi içerikleri", "1.000 ürüne kadar katalog", "Reels yorum otomatik DM", "Akıllı ürün öneri sistemi", "İade & değişim otomasyonu", "Shopify / IdeaSoft / T-Soft sync", "Haftalık optimizasyon"],
+      "highlighted": true
+    },
+    {
+      "name": "Marka / Kurumsal",
+      "price": "24.000 TL/ay",
+      "description": "Çok hesaplı marka, kampanya yönetimi, gelişmiş raporlama",
+      "features": ["Tüm Pro özellikler", "Sınırsız ürün", "Çoklu IG hesabı", "Kampanya/kupon kod yönetimi", "Detaylı satış dashboard", "WhatsApp + IG cross-platform"]
+    }
+  ],
+
+  "faq": [
+    {"question": "Shopify / IdeaSoft / T-Soft kataloguma bağlanır mı?", "answer": "Evet — Pro pakette en yaygın 10 e-ticaret yazılımı entegrasyonu hazır. Stok güncellemesi otomatik, sattığınız ürün AI'a anında yansır."},
+    {"question": "AI yanlış beden bilgisi verirse iade artar mı?", "answer": "AI sadece stok sisteminizden gerçek veri konuşur. Yanlış beden bilgisi imkansız çünkü kaynak sizin envanteriniz. Ayrıca beden tablosu da AI'a yüklenir, müşteriye doğru öneri yapar."},
+    {"question": "Kargo sorgu için kargo firması ile özel entegrasyon mu lazım?", "answer": "Hayır — Yurtiçi, Aras, MNG, PTT, UPS hazır entegre. Sipariş numarası ile anlık takip URL'si döner."},
+    {"question": "İade kodu otomatik üretiyor mu — bu güvenli mi?", "answer": "Evet, sadece sizin belirlediğiniz kurallara göre (örn. 14 gün içinde, etiketi sökülmemiş). Şüpheli durumda AI 'ekibimiz seni dönecek' der, insana aktarır."},
+    {"question": "Reels viral oldu, 1.000 DM birden geldi — kaldırır mı?", "answer": "Evet — AI eş zamanlı binlerce DM'i yanıtlar. Instagram Graph API'nin limitleri çok yüksek, normal e-ticaret yükünün çok altında çalışıyoruz."},
+    {"question": "Müşteriye kupon kodu gönderebilir mi?", "answer": "Evet — kampanya zamanlarında otomatik kupon kodu önerir, ilk DM'e indirim bağlar, sepet terk eden kullanıcıya hatırlatma yapar (Pro paket)."},
+    {"question": "Sözleşme nasıl?", "answer": "İlk ay deneme, sonrasında ay-ay devam. İstediğin ay iptal, hiçbir taahhüt yok. Verilerin de export edilir."}
+  ],
+
+  "finalCtaHeadline": "DM'iniz uyumasın — satışınız uyusun.",
+  "finalCtaSubtitle": "20 dakikalık ücretsiz demo: katalogunuza özel AI prototip kurup canlı IG DM testi yapalım. Beğenirseniz 14 gün içinde satışlar otomatik."
+}

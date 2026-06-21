@@ -1,0 +1,92 @@
+{
+  "sectorSlug": "emlak",
+  "sectorName": "Emlak Ofisi",
+  "sectorPlural": "Emlak Ofisleri",
+
+  "title": "Emlak Ofisleri İçin WhatsApp AI Asistanı | PORTZEN",
+  "description": "İlan sorgularını, bütçe filtrelemesini ve portföy randevularını 7/24 otomatik yöneten WhatsApp AI asistanı. Emlak ofisleri için 14 günde kurulum.",
+  "keywords": ["emlak whatsapp ai", "emlak chatbot", "emlak otomasyon", "portföy yönetim botu", "ilan sorgu sistemi", "emlak danışman asistanı"],
+
+  "h1": "Emlak Ofisleri için WhatsApp AI Asistanı",
+  "heroSubtitle": "Müşteri 'Beylikdüzü'nde 3+1 var mı, bütçe 4 milyon?' diye yazıyor — danışman trafikte, ofiste, başka müşteriyle. AI asistanımız portföyü tarıyor, uygun ilanları 60 saniyede gönderiyor, randevu açıyor.",
+
+  "stats": [
+    {"value": "60 sn", "label": "İlan Yanıtı"},
+    {"value": "7/24", "label": "Portföy Erişimi"},
+    {"value": "%65", "label": "Sıcak Müşteri Artışı"},
+    {"value": "14 gün", "label": "Kurulum"}
+  ],
+
+  "problems": [
+    "Danışman gösterimdeyken WhatsApp'a düşen 'şu ilan müsait mi?' sorusu 4 saat sonra yanıtlanıyor — müşteri başka ofise yöneldi.",
+    "Akşam 22:00'de yeni alıcı 'bütçe 5M, deniz manzaralı?' yazıyor — sabah cevap geldiğinde müşteri Sahibinden'den buldu.",
+    "Aynı portföydeki 50 ilanı her müşteriye tek tek anlatmak danışmanın günlük 3 saatini alıyor.",
+    "'Tapu durumu nasıl?', 'kredi uygun mu?' standart sorularını her seferinde yazmak yorucu — kopya-yapıştır kalitesizleşiyor.",
+    "İlanlar Sahibinden, Hepsiemlak, Zingat'ta dağınık — AI tek noktadan tüm portföyü gösteriyor."
+  ],
+
+  "solutionSteps": [
+    {"title": "Portföy Sync & Brief", "description": "Tüm aktif ilanlarınızı (Sahibinden, kendi sistem, Excel) AI'a senkronize ediyoruz. Lokasyon, oda sayısı, bütçe, özellik filtreleri."},
+    {"title": "WhatsApp Business API Kurulumu", "description": "Resmi Meta API, yeşil tik, gayrimenkul sektörü için yüksek mesaj limiti."},
+    {"title": "Test Dönemi", "description": "İlk hafta danışman onayıyla yanıt — yanlış portföy önerisi geldiğinde anında düzeltme."},
+    {"title": "Canlı + Haftalık Optimizasyon", "description": "Hangi bütçe aralığı en çok soruluyor, hangi lokasyon talep görüyor — pazarlama içgörüsü dahil."}
+  ],
+
+  "features": [
+    {"title": "Akıllı Portföy Eşleştirme", "description": "Müşteri bütçe + oda + lokasyon yazınca AI uygun 3-5 ilanı fotoğraf + fiyat + linkle gönderir."},
+    {"title": "Anlık Müsaitlik Kontrolü", "description": "İlan satıldı/kapora alındı mı? AI canlı sistemden kontrol eder, eski ilan göndermez."},
+    {"title": "Bütçe & Kredi Sorgu", "description": "Aylık taksit hesabı, kredi uygunluk ön tahmini, banka karşılaştırma bilgisi."},
+    {"title": "Gösterim Randevusu", "description": "Müşteri 'pazar günü gezebilir miyim?' deyince AI danışmanın takvimini görür, slot önerir, onaylar."},
+    {"title": "Tapu & Hukuki Bilgi", "description": "Tapu tipi, iskan, krediye uygunluk, vergi durumu — hazır bilgi tabanı."},
+    {"title": "Sıcak Müşteri Skorlama", "description": "AI konuşmadan müşterinin alım niyetini ölçer, sıcak müşterileri danışmana 'hemen ara' diye bildirir."}
+  ],
+
+  "caseStudy": {
+    "title": "Beylikdüzü Onur Emlak: 3 ayda 220 fazladan portföy gösterimi",
+    "paragraphs": [
+      "İstanbul Beylikdüzü'nde 4 danışmanlı bir emlak ofisi, aylık ~600 WhatsApp sorgusu alıyor ama %40'ı yanıtsız kalıyordu — danışmanlar gösterimdeyken telefon kontrol edemiyor, akşam mesajları ertesi güne kalıyor, hafta sonu büyük ölçüde sessiz geçiyordu.",
+      "Şubat 2026'da PORTZEN WhatsApp AI asistanını kurduk. 180 aktif portföyü (Sahibinden + Hepsiemlak + kendi Excel) tek havuza topladık. Bütçe + lokasyon + oda sayısı filtreli akıllı eşleştirme + gösterim randevu modülünü ekledik.",
+      "3 ay sonra: aylık portföy gösterimi 280'den 500'e çıktı (+220 gösterim). Sıcak müşteri sayısı 2.4 katına çıktı. Danışmanlardan biri 'WhatsApp robotu sayesinde haftada 1 gün ekstra boşum oldu' diyor. Ofisin Mart ayı satış sayısı 8'den 14'e çıktı."
+    ],
+    "beforeAfter": [
+      {"label": "Yanıt Süresi", "before": "3-5 saat", "after": "60 saniye"},
+      {"label": "Aylık Gösterim", "before": "280", "after": "500"},
+      {"label": "Aylık Satış (4 danışman)", "before": "8", "after": "14"}
+    ]
+  },
+
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL/ay",
+      "description": "Tek ofis, 100 portföye kadar, temel ilan sorgu",
+      "features": ["WhatsApp Business API kurulumu", "100 portföy bilgi tabanı", "Lokasyon + bütçe filtreleme", "Manuel randevu yönlendirme", "Aylık 1 optimizasyon"]
+    },
+    {
+      "name": "Pro",
+      "price": "14.000 TL/ay",
+      "description": "Önerilen — gösterim randevu + sıcak müşteri skorlama dahil",
+      "features": ["Başlangıç paketi içerikleri", "500 portföye kadar", "Akıllı gösterim randevu sistemi", "Sıcak müşteri skorlama", "Sahibinden / Hepsiemlak sync", "Haftalık optimizasyon"],
+      "highlighted": true
+    },
+    {
+      "name": "Multi-Ofis / Kurumsal",
+      "price": "22.000 TL/ay",
+      "description": "Birden fazla ofis, danışman bazlı raporlama, CRM entegrasyon",
+      "features": ["Tüm Pro özellikler", "Sınırsız portföy", "Çok ofis + çok danışman", "Danışman performans raporu", "CRM entegrasyonu (Bitrix, Hubspot)"]
+    }
+  ],
+
+  "faq": [
+    {"question": "Sahibinden ve Hepsiemlak ilanlarımı otomatik çekebilir mi?", "answer": "Evet — Pro pakette XML feed veya scraping ile günde 4 kez senkronize ediyoruz. Sattığınız ilan otomatik AI havuzundan kalkar."},
+    {"question": "AI yanlış ilan önerirse müşteri kaybeder miyim?", "answer": "İlk hafta danışman onaylı geçer, hatalı eşleştirme anında düzeltilir. Ayrıca AI 'tam emin değilim, danışmanım sana detay versin' diyebilir — yanlış konuşmaktansa insana yönlendirir."},
+    {"question": "Kredi/tapu konuları hassas — AI yanlış bilgi verirse?", "answer": "Kredi simülasyonu için bağlı bulunduğunuz bankaların güncel oranlarını sisteme yüklüyoruz. Tapu/hukuki konularda AI 'ofisimize uğra detay verelim' diyerek danışmana yönlendirir."},
+    {"question": "Danışmanlarım WhatsApp'ı kişisel kullanıyor — onların mesajını okur mu?", "answer": "Hayır — sadece ofisin resmi numarasına bağlı. Danışmanların kişisel WhatsApp'ı tamamen ayrı kalır."},
+    {"question": "Aylık ne kadar müşteriye yanıt verebilir?", "answer": "Başlangıçta ~3.000 müşteri, Pro'da 10.000. Beylikdüzü vakamızda ayda 2.400 farklı kişiye yanıt verdi."},
+    {"question": "Sıcak müşteri skorlaması nasıl çalışır?", "answer": "AI konuşmadaki anahtar sinyalleri okur — 'bu hafta gezmek istiyorum', 'krediye uygun mu?', 'kapora ne kadar?' gibi. Yüksek skorlu müşteriyi WhatsApp + e-posta + push ile size bildirir."},
+    {"question": "Sözleşme ne kadar?", "answer": "İlk ay deneme, sonrasında aylık devam. İstediğin ay iptal — taahhüt yok."}
+  ],
+
+  "finalCtaHeadline": "Portföyünüz uyurken bile çalışsın.",
+  "finalCtaSubtitle": "20 dakikalık ücretsiz keşif: aktif portföyünüze özel AI prototip kurup canlı gösterelim. Beğenirseniz 14 gün içinde tüm ofiste aktif."
+}

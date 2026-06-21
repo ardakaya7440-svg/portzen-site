@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "klinik",
+  "sectorName": "Estetik Klinik",
+  "sectorPlural": "Klinikler",
+  "title": "Klinikler İçin Web Tasarım | Online Randevu + KVKK Uyumlu — PORTZEN",
+  "description": "Estetik klinik, diş kliniği ve sağlık merkezleri için Next.js web tasarım. Online randevu, öncesi/sonrası galeri, KVKK uyumlu, mobil 96+ Lighthouse.",
+  "keywords": ["klinik web tasarım", "estetik klinik websitesi", "diş kliniği web tasarım", "sağlık web tasarım", "klinik site yapımı", "online randevu sistemi"],
+  "h1": "Estetik Klinikler için Profesyonel Web Tasarım",
+  "heroSubtitle": "Next.js ile geliştirilmiş, KVKK uyumlu, online randevu sistemli klinik websiteleri. Mobilden 96+ Lighthouse puanı, Google'da ilk sayfa için SEO optimize.",
+  "stats": [
+    {"value": "21 gün", "label": "Ortalama Teslim"},
+    {"value": "96+", "label": "Lighthouse Skoru"},
+    {"value": "%5.2", "label": "Ort. Dönüşüm"},
+    {"value": "KVKK", "label": "Uyumlu"}
+  ],
+  "problems": [
+    "Mevcut WordPress siteniz 5 yıl önce yapıldı, theme güncelliğini yitirdi, eklenti çakışmaları sürekli sorun çıkarıyor",
+    "Online randevu sisteminiz yok, hasta WhatsApp + telefon arasında kayboluyor, sekreter kapasitesi aşılıyor",
+    "Mobilden açıldığında site 7-10 saniye yükleniyor, hasta zaten Instagram'dan geçmiş, sayfayı kapatıyor",
+    "SSL sertifikanız geçersiz, Google 'güvensiz site' uyarısı veriyor, dönüşüm sıfıra düşüyor",
+    "KVKK uyumlu cookie banner, açık rıza metni, veri koruma politikası yok — şikayet riski taşıyorsunuz",
+    "Google'da uzmanlık alanlarınızda 5-6. sayfada çıkıyorsunuz, organik trafik ay başı 300'ü geçmiyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Brief & Marka Analizi", "description": "Kliniğinizin uzmanlık alanları, hedef hasta profili, mevcut marka tonu ve rakip analizini yapıyoruz. Google Search Console + Analytics verilerinizi inceleyip iyileştirme noktalarını çıkarıyoruz."},
+    {"title": "2. Wireframe + UI Tasarım", "description": "Figma'da önce wireframe, sonra UI tasarım. Klinik sektörüne uygun güven verici, modern tasarım dili — Bağdat Caddesi premium hissi mi yoksa Çankaya kurumsal hissi mi, brief'inize göre."},
+    {"title": "3. Next.js Geliştirme + Entegrasyonlar", "description": "Next.js 15 + Tailwind ile geliştirme. Online randevu (Calendly veya özel), öncesi/sonrası galeri, blog motoru, WhatsApp sticky, KVKK cookie banner, açık rıza formları."},
+    {"title": "4. SEO Optimize & Teslim", "description": "Schema markup (MedicalBusiness, Physician), title/meta optimizasyonu, sitemap, hız optimizasyonu. Vercel'de canlıya alıyoruz, Google Search Console ve Analytics kuruyoruz."}
+  ],
+  "features": [
+    {"title": "WhatsApp Sticky Button", "description": "Tüm sayfalarda sağ altta WhatsApp butonu, tıklayınca direkt klinik numarasına ön doldurulmuş mesajla. Mobil dönüşümün en güçlü tetikleyicisi."},
+    {"title": "Online Randevu Sistemi", "description": "Calendly veya özel geliştirilmiş randevu sistemi entegrasyonu. Hasta uygun saati seçiyor, sekreter ve doktor takvimine düşüyor, otomatik SMS hatırlatma."},
+    {"title": "Öncesi/Sonrası Galeri", "description": "Prosedür bazlı filtrelenebilir (rinoplasti, dolgu, lazer vb.) galeri. Lazy load, lightbox, hasta açık rıza onayı entegre, KVKK uyumlu mozaik koruma."},
+    {"title": "Blog + İçerik Motoru", "description": "MDX tabanlı blog motoru — kategori, etiket, ilgili yazılar, schema markup. SEO için makale yayınladıkça Google sıralamanız yükselir, organik trafik birikir."},
+    {"title": "Mobil 96+ Lighthouse", "description": "Image optimization, font preload, code splitting, edge caching. Mobilden açılış 1.5 sn altı, Google Core Web Vitals yeşil — hem SEO hem dönüşüm avantajı."},
+    {"title": "KVKK + Cookie Banner", "description": "Türkçe KVKK metinleri, açık rıza checkbox'ları, cookie banner (analitik/pazarlama ayrımı). Veri silme talebi formu, çerez tercihleri yönetimi — şikayet risksiz."}
+  ],
+  "caseStudy": {
+    "title": "Ankara Çankaya — Estetik Klinik: Organik Trafik 280 → 4.200/ay, Dönüşüm %5.2",
+    "paragraphs": [
+      "Ankara Çankaya'da rinoplasti, dolgu ve hifu odaklı çalışan bir estetik klinik 2025 başında PORTZEN'e geldi. WordPress sitesi 2019'da yapılmış, mobil yüklenmesi 8.4 saniye, online randevu sistemi yok, blog kategorisi 3 makaleyle terkedilmiş durumdaydı. Aylık organik trafik 280 civarı, randevu dönüşüm oranı %1.4 idi.",
+      "21 günde Marka Sitesi paketiyle yeniden inşa ettik — Next.js 15, prosedür sayfaları (rinoplasti, dolgu, lazer, hifu, mezoterapi her biri ayrı SEO sayfası), öncesi/sonrası filtrelenebilir galeri, Calendly online randevu, WhatsApp sticky, MDX blog motoru, KVKK uyumlu form sistemi.",
+      "İlk 3 ayda Google sıralaması her uzmanlık alanında ilk sayfaya çıktı (özellikle 'rinoplasti Ankara' 4. sıra). 6. ayın sonunda aylık organik trafik 4.200'e ulaştı, randevu dönüşüm oranı %5.2'ye yükseldi. Klinik şimdi premium bakım paketinde, ayda 4 yeni blog makalesiyle SEO momentumu büyüyor."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Organik Trafik", "before": "280", "after": "4.200"},
+      {"label": "Randevu Dönüşüm Oranı", "before": "%1.4", "after": "%5.2"},
+      {"label": "Mobil Yüklenme Süresi", "before": "8.4 sn", "after": "1.3 sn"},
+      {"label": "Lighthouse Mobil Skor", "before": "42", "after": "97"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Klinik Sitesi",
+      "price": "15.000 TL",
+      "description": "Tek seferlik — yeni açılan veya küçük klinikler için",
+      "features": [
+        "5 sayfa (anasayfa, hakkımızda, hizmetler, blog, iletişim)",
+        "Next.js + Tailwind",
+        "Mobil responsive + 90+ Lighthouse",
+        "WhatsApp sticky button",
+        "Temel SEO (title/meta/sitemap)",
+        "KVKK metinleri + cookie banner",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Marka Sitesi",
+      "price": "28.000 TL + 1.500 TL/ay",
+      "description": "Aktif çalışan klinikler için en popüler paket — bakım dahil",
+      "features": [
+        "10-15 sayfa + uzmanlık alanı sayfaları",
+        "Öncesi/sonrası filtrelenebilir galeri",
+        "Calendly online randevu entegrasyonu",
+        "MDX blog motoru",
+        "Schema markup (MedicalBusiness)",
+        "Google Analytics + Search Console kurulum",
+        "Aylık bakım, güvenlik güncelleme, içerik desteği",
+        "Hız + SEO sürekli optimizasyon"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Klinik Paketi",
+      "price": "45.000 TL + 3.000 TL/ay",
+      "description": "Çok şubeli klinikler, agresif SEO ve sürekli içerik",
+      "features": [
+        "Sınırsız sayfa + çoklu şube yönetimi",
+        "Özel randevu sistemi (hasta paneli)",
+        "Çoklu dil desteği (TR/EN/AR)",
+        "Aylık 4 SEO blog makalesi (yazım dahil)",
+        "Google Ads landing sayfaları",
+        "Performans takip dashboardu",
+        "Özel proje yöneticisi",
+        "Sınırsız küçük revizyon"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Klinik sitem ne kadar sürede hazır olur?", "answer": "Mini Klinik Sitesi 10-14 gün, Marka Sitesi 18-25 gün, Premium 30-40 gün. Brief sonrası gün sayısı net belli oluyor. Acil ihtiyaçlar için +%30 ücretle 7-10 gün teslim opsiyonumuz var."},
+    {"question": "WordPress mi Next.js mi daha iyi, neden Next.js öneriyorsunuz?", "answer": "WordPress eklenti çakışmaları, güvenlik açıkları, hız sorunlarıyla geliyor. Next.js modern React framework — Google'ın sevdiği teknoloji, mobil hız 3-5 kat daha iyi, SEO açısından native avantajlı. Hosting maliyeti de daha düşük (Vercel free tier yeterli). Tek dezavantaj: kendi başınıza içerik eklemek için CMS gerekiyor — biz Sanity veya Strapi entegrasyonu yapıyoruz, WordPress kolaylığını alıyorsunuz."},
+    {"question": "Mobile-first mi yoksa desktop önceliği mi?", "answer": "Mobile-first kesin. Klinik trafiğinin %78'i mobilden geliyor (Google Analytics verilerine göre sektör ortalaması). Önce mobil tasarımı bitiyoruz, sonra desktop'a uyarlıyoruz. Lighthouse skorunda mobil + desktop ikisi de 90+ garanti."},
+    {"question": "KVKK uyumluluk tam olarak neyi kapsıyor?", "answer": "Açık rıza checkbox'lı formlar, çerez aydınlatma metni + tercih ayarları, veri sorumlusu bilgileri, veri silme talebi formu, KVKK politika sayfası ve aydınlatma metni — hepsi avukat onaylı şablonlarla geliyor. Klinikleriniz için VERBİS kayıt desteği de veriyoruz (ek 2.500 TL)."},
+    {"question": "Hosting maliyeti ne kadar tutar?", "answer": "Vercel free tier başlangıçta yeterli (aylık 100GB trafik). Trafik artarsa Pro plan ayda 20 USD. Alan adı yıllık 80-150 TL. Toplam aylık maliyet 0-700 TL bandında — eski WordPress hostingden çok daha ucuz."},
+    {"question": "Blog içeriklerini kim yazar?", "answer": "Sizin seçiminize göre: (1) Doktor ekibiniz yazar, biz yayına alır + SEO optimize ederiz (Marka Sitesi pakette dahil). (2) Premium pakette ayda 4 SEO makaleyi bizim ekibimiz yazar — sağlık metin yazarı + AI destekli üretim + tıbbi doğrulama doktor okuması."},
+    {"question": "İleride tasarım değişikliği veya yeni sayfa ekleme istersem?", "answer": "Bakım paketinizde aylık 4-8 saat geliştirme dahil. Bunun üstündeki değişiklikler saat bazlı (1.500 TL/saat) faturalanıyor. Komple redesign isterseniz tasarım değişikliği üzerinden ayrı brief alıp +%40 indirimle yeniden yapıyoruz (mevcut müşteri avantajı)."}
+  ],
+  "finalCtaHeadline": "Kliniğinizin yeni websitesi 3 haftada Google'ın ilk sayfasında",
+  "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut sitenizi inceleyip ücretsiz audit raporu hazırlıyoruz. WhatsApp'tan veya formdan ulaşın."
+}

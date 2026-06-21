@@ -1,0 +1,158 @@
+{
+  "sectorSlug": "klinik",
+  "sectorName": "Estetik Klinik",
+  "sectorPlural": "Klinikler",
+  "title": "Estetik Klinikler İçin CRM Otomasyonu | Lead → Danışan — PORTZEN",
+  "description": "Estetik kliniğinize gelen lead'leri danışana çeviren CRM otomasyonu. WhatsApp, randevu hatırlatma, before-after takip, danışan VIP profili — kayıp lead sıfırlanır.",
+  "keywords": ["estetik klinik crm", "klinik randevu otomasyonu", "danışan takip sistemi", "estetik klinik whatsapp otomasyon", "klinik lead yönetimi", "estetik before after sistem"],
+  "h1": "Estetik Klinikler için CRM Otomasyonu",
+  "heroSubtitle": "Instagram'dan gelen lead'i excel'de kaybediyorsunuz. Danışan randevusunu unutuyor, after-care takip yok, VIP danışanla yeni gelen aynı muameleyi alıyor. Bizim sistem 60 saniyede otomatik karşılıyor, danışan profilini foto + tedavi planı ile tutuyor.",
+  "stats": [
+    {"value": "60 sn", "label": "Lead Karşılama"},
+    {"value": "%47", "label": "Lead-Randevu Dönüşümü"},
+    {"value": "4 hafta", "label": "Kurulum"},
+    {"value": "%85", "label": "Randevu Geliş Oranı"}
+  ],
+  "problems": [
+    "Instagram DM, WhatsApp, web formu, telefon — 4 kanaldan gelen lead'leri bir excel'de toplamaya çalışıyorsunuz, hangi danışman hangi lead'le ilgilendi belli değil",
+    "Danışan 2 hafta sonraki randevusunu unutuyor, gelmeyince koltuk boş kalıyor — ay sonu hesabında 12 boş slot, 60.000 TL kayıp",
+    "Botoks yaptıran danışan 6 ay sonra geri gelmeli, hatırlatma yok, hatırlamıyor, başka kliniğe gidiyor — follow-up otomasyonu sıfır",
+    "10 yıllık VIP danışan ile yeni gelen aynı muameleyi alıyor — özel indirim yok, sadakat hediyesi yok, danışan kendini özel hissetmiyor",
+    "Before-after fotoğraflar danışman telefonlarında dağınık, izin alındı mı belli değil, pazarlama için kullanamıyorsunuz",
+    "Ay sonu 'bu ay ne kadar kazandık, hangi tedavi en karlı' sorusunun cevabı yok — defter ve tahmin üzerinden yönetim"
+  ],
+  "solutionSteps": [
+    {
+      "title": "1. Süreç Analizi (Lead → Danışan → Tedavi → After-Care)",
+      "description": "Mevcut akışınızı haritalıyoruz: Instagram DM → karşılama → fiyat bilgisi → randevu → tedavi → after-care → tekrar randevu. Her adımda nerede lead kaybediyorsunuz, nerede manuel iş var, hangi otomasyonlar en hızlı geri dönüş veriyor — net plan."
+    },
+    {
+      "title": "2. CRM Kurulum (HubSpot / Pipedrive + n8n)",
+      "description": "Kliniğinize uygun CRM seçimi (HubSpot ücretsiz başlangıç veya Pipedrive klinik özelinde), n8n ile özel otomasyon akışları, tedavi türüne göre özel alanlar (before-after, alerjiler, tedavi planı, after-care notları)."
+    },
+    {
+      "title": "3. WhatsApp + Email Entegrasyonu",
+      "description": "WhatsApp Business API entegre — lead karşılama, randevu hatırlatma (1 gün öncesi + 3 saat öncesi), after-care mesajları, 6 ay sonra 'tekrar randevu' hatırlatma hep otomatik. Email serisi de aynı mantıkla."
+    },
+    {
+      "title": "4. Eğitim + Raporlama Dashboard",
+      "description": "Resepsiyon, danışman ve kliniğin sahibi için ayrı eğitim (2 saat canlı + video). Aylık dashboard: lead-randevu dönüşümü, danışan başına gelir, en karlı tedavi, danışman performansı — net sayılar."
+    }
+  ],
+  "features": [
+    {
+      "title": "Lead Karşılama (60 Saniye Auto-Yanıt)",
+      "description": "Instagram DM, WhatsApp, web formu — hangi kanaldan gelirse gelsin, lead 60 saniye içinde otomatik karşılanır: 'Merhaba [İsim], mesajınız ulaştı, danışmanımız 15 dakika içinde dönecek. Bu arada [tedavi] hakkında SSS için: link'. Lead 'unutuldum' hissi yaşamıyor."
+    },
+    {
+      "title": "Randevu Hatırlatma Serisi",
+      "description": "Randevudan 24 saat önce WhatsApp + email hatırlatma, 3 saat önce 'yola çıkacaksanız hatırlatmadır' mesajı. Randevu geliş oranı %62'den %85'e çıkıyor, ay sonu boş slot sayısı yarıya iniyor — direkt gelir artışı."
+    },
+    {
+      "title": "Danışan Profili (Before-After + Tedavi Planı)",
+      "description": "Her danışanın özel sayfası: kişisel bilgi (KVKK uyumlu), tedavi geçmişi, alerjiler, before-after fotoğraflar (izinli), uygulanan ürünler, doktor notları. Danışan tekrar geldiğinde 5 saniyede tüm geçmişi önünüzde."
+    },
+    {
+      "title": "Aylık Kazanç & Tedavi Karlılık Raporu",
+      "description": "Ay sonu otomatik rapor: toplam ciro, danışan başı ortalama, hangi tedavi en çok satıldı, hangisi en karlı, hangi danışman en fazla danışan getirdi, lead-randevu dönüşüm oranı. Yönetim kararı tahminle değil veriyle."
+    },
+    {
+      "title": "Sadakat Motoru (3. Aydan VIP)",
+      "description": "Danışan 3. tedavisinde otomatik 'VIP' tag'i alıyor, özel indirim hatırlatması, doğum günü hediyesi, after-care özel takip. Tekrar gelme oranı %40 artıyor — kliniğin gerçek karı 'tekrar gelen' danışandan."
+    },
+    {
+      "title": "Tek Dashboard, Tüm Klinik",
+      "description": "Resepsiyon, danışman, sahip — herkes farklı yetkilerle aynı dashboard'a giriyor. Bugünün randevuları, bekleyen lead'ler, after-care'i gecikmiş danışanlar, ay sonu hedef — tek ekranda. Excel, WhatsApp grup, ajanda kaos biter."
+    }
+  ],
+  "caseStudy": {
+    "title": "Bornova'da Bir Estetik Kliniğin 3 Aylık Dönüşümü",
+    "paragraphs": [
+      "İzmir Bornova'da 7 yıldır faaliyet gösteren, ağırlıklı dermoestetik ve enjeksiyon hizmetleri sunan bir klinik, Instagram'dan ayda 180-220 lead alıyordu ama bunların sadece %18'i randevuya, %12'si tedaviye dönüyordu. Resepsiyon iki kişiyle çalışıyor, WhatsApp ve DM mesajları arasında boğuluyorlar, after-care takibi yapılamıyor, danışan profili yok, ay sonu hangi tedavinin en karlı olduğu bile bilinmiyordu.",
+      "PORTZEN olarak HubSpot CRM kurduk (kliniğe özel alanlar: tedavi türü, alerji, before-after, after-care planı), WhatsApp Business API entegrasyonu, n8n ile lead karşılama otomasyonu (60 saniye auto-yanıt), randevu hatırlatma serisi (24 saat + 3 saat öncesi), 6 ay sonra 'tekrar randevu' hatırlatması ve sadakat motoru (3. tedavide VIP). Resepsiyon ve doktorlar için 2 saat canlı eğitim verdik.",
+      "3 ay sonra lead-randevu dönüşüm oranı %18'den %47'ye, ay başı yeni danışan 12'den 38'e çıktı. Randevu geliş oranı %62'den %85'e yükseldi (boş slot maliyeti aylık 60.000 TL'den 12.000 TL'ye indi). Tekrar gelen danışan oranı %32 arttı. Resepsiyon ekibi 'artık nefes alabiliyoruz, manuel WhatsApp cevaplama bitti' dedi."
+    ],
+    "beforeAfter": [
+      {"label": "Lead-Randevu Dönüşümü", "before": "%18", "after": "%47"},
+      {"label": "Ay Başı Yeni Danışan", "before": "12", "after": "38"},
+      {"label": "Randevu Geliş Oranı", "before": "%62", "after": "%85"},
+      {"label": "After-Care Takip Oranı", "before": "%0", "after": "%92"},
+      {"label": "Tekrar Gelen Danışan", "before": "%28", "after": "%60"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "12.000 TL/ay",
+      "description": "Tek doktor + resepsiyon kliniği için lead karşılama + randevu hatırlatma temel paket.",
+      "features": [
+        "HubSpot CRM ücretsiz versiyonu kurulum",
+        "WhatsApp Business API entegrasyonu",
+        "Lead karşılama otomasyonu (60 sn)",
+        "Randevu hatırlatma (24 saat + 3 saat öncesi)",
+        "Basit danışan profili",
+        "Aylık temel rapor",
+        "2 saat canlı eğitim"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "22.000 TL/ay",
+      "description": "Büyüyen klinikler için danışan profili, after-care, sadakat ve detaylı raporlama dahil tam paket.",
+      "features": [
+        "Başlangıç paketinin tamamı",
+        "Detaylı danışan profili (before-after + tedavi planı)",
+        "After-care otomatik takip serisi",
+        "6 ay sonra 'tekrar randevu' hatırlatma",
+        "Sadakat motoru (3. tedavide VIP)",
+        "Aylık kazanç + tedavi karlılık raporu",
+        "Danışman performans dashboard",
+        "Sürekli optimizasyon ve destek"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Klinik Paketi",
+      "price": "45.000 TL/ay",
+      "description": "Çoklu şubeli, çok doktorlu klinikler için özel CRM, faturalandırma ve B2B entegrasyon paketi.",
+      "features": [
+        "Pro paketinin tamamı",
+        "Çoklu şube yönetimi",
+        "Çoklu doktor + komisyon takibi",
+        "Stok yönetimi (botoks, dolgu, ürün)",
+        "E-fatura + e-arşiv entegrasyon",
+        "Özel mobil app (danışan için)",
+        "Reklam (Meta + Google) yönetimi dahil",
+        "Aylık performans danışmanlığı"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "KVKK uyumu var mı? Danışan verilerini güvenli tutuyor musunuz?",
+      "answer": "Tabii. Tüm danışan verisi KVKK uyumlu HubSpot/Pipedrive sunucularında (AB veri merkezleri), before-after fotoğrafları için ayrı izin formu (dijital imzalı), VERBIS kayıt desteği veriyoruz. Klinik olarak gerekli hukuki altyapı dahil."
+    },
+    {
+      "question": "WhatsApp Business API onayı zor mu? Ne kadar sürer?",
+      "answer": "Meta onay süreci 5-10 iş günü. Biz tüm başvuru sürecini sizin adınıza yapıyoruz — vergi levhası, kliniğe ait domain ve resmi tanım yeterli. Onay gelene kadar geçici çözüm olarak WhatsApp Web entegrasyonu kullanılıyor."
+    },
+    {
+      "question": "Mevcut excel ve danışan verilerimi taşıyabilir misiniz?",
+      "answer": "Evet. Excel'deki danışan listesi, geçmiş tedavi notları, telefon numaraları CRM'e otomatik import ediliyor. Geçmiş before-after fotoğraflarını da danışan profillerine bağlıyoruz (KVKK izin yenileme süreci paralel yürür)."
+    },
+    {
+      "question": "Kurulum süresince klinik işleri aksar mı?",
+      "answer": "Hayır. 4 haftalık kurulum süresince mevcut sisteminiz çalışmaya devam ediyor, biz arka planda kuruyoruz. 3. hafta paralel test, 4. hafta canlıya alıyoruz — geçiş günü sadece WhatsApp numarası yeni sisteme yönleniyor, danışan ne yaşadığını fark etmiyor."
+    },
+    {
+      "question": "Aylık 12.000 TL'ye değiyor mu? ROI nedir?",
+      "answer": "Pro paket örnek: ayda 30 ekstra danışan x 4.500 TL ortalama tedavi = 135.000 TL ek gelir. Boş randevu maliyetinde aylık 40.000 TL tasarruf. Pro paket 22.000 TL/ay. Net aylık kazanç: yaklaşık 150.000 TL. Geri dönüş 1. ayda görünür."
+    },
+    {
+      "question": "Sözleşme süresi var mı, istediğim zaman iptal edebilir miyim?",
+      "answer": "Minimum 6 ay sözleşme (çünkü CRM otomasyon yatırımı 3 ayda anlamlı geri dönüş veriyor). 6. aydan sonra aylık iptal hakkınız var, 30 gün önceden bildirim yeterli. CRM ve veriler size devrediliyor — bizim kilitlemeli model yok."
+    }
+  ],
+  "finalCtaHeadline": "Kliniğinizin Lead Kaybı Bugün Bitsin",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz klinik akış analizi — Instagram'dan gelen lead'lerinizin neden danışana dönmediğini ve PORTZEN ile 3 ayda bu oranı nasıl 3'e katlayacağımızı konuşalım."
+}

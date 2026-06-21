@@ -1,0 +1,92 @@
+{
+  "sectorSlug": "klinik",
+  "sectorName": "Klinik",
+  "sectorPlural": "Klinikler",
+
+  "title": "Klinikler İçin Instagram DM Otomasyonu | PORTZEN",
+  "description": "Estetik, diş ve sağlık kliniklerinin Instagram DM'lerini, Reels yorumlarını ve story yanıtlarını 7/24 otomatik yöneten AI sistem. 14 günde aktif.",
+  "keywords": ["klinik instagram dm botu", "estetik klinik dm otomasyonu", "instagram chatbot klinik", "ig dm yanıt sistemi", "klinik reels yorum botu", "estetik dm yapay zeka"],
+
+  "h1": "Klinikler için Instagram DM Otomasyonu",
+  "heroSubtitle": "Instagram reklamınız çalışıyor, DM'ler yağıyor — 'fiyat ne?', 'öncesi sonrası gönderir misin?', 'cuma randevu var mı?'. Sekreter yetişemiyor. AI asistanımız her DM'e 60 saniyede yanıt veriyor, randevuyu kapatıyor.",
+
+  "stats": [
+    {"value": "60 sn", "label": "DM Yanıtı"},
+    {"value": "7/24", "label": "Sürekli Aktif"},
+    {"value": "%3.2x", "label": "Randevu Dönüşümü"},
+    {"value": "14 gün", "label": "Kurulum"}
+  ],
+
+  "problems": [
+    "Reels patladı, 200 DM birden geldi — sekreter 3 günde ancak yanıtlayabiliyor. O zamana kadar danışanın hevesi kaçtı.",
+    "Her DM'e tek tek 'fiyat listemizi atalım, doldurun' yazmak günde 2 saat kayıp.",
+    "Story'ye 'şu işlem fiyatı?' yanıtı gelen yanıtların %60'ı sabah görüldüğünde geç.",
+    "Reels altına 'fiyat?' yorumu yazılıyor — yanıtlamak için sayfayı sürekli kontrol etmek imkansız.",
+    "Rakip klinik 5 dakikada cevap veriyor, sizin 4 saat süren yanıt geldiğinde danışan rakipten randevu almış."
+  ],
+
+  "solutionSteps": [
+    {"title": "Tedavi Kataloğu & Sık Sorular", "description": "Tedavi başlıkları, paket fiyatlar, sık sorulan 80+ soru, öncesi/sonrası galeri AI'a yükleniyor. 2 günlük workshop."},
+    {"title": "Instagram Business API Bağlantısı", "description": "Meta resmi Instagram Graph API entegrasyonu. Mevcut sayfaya bağlanır, hesap güvenliği etkilenmez."},
+    {"title": "Hekim Onayı Test Süreci", "description": "İlk hafta her yanıt onayla gider. Hassas konular (komplikasyon, after-care) her zaman insana aktarılır."},
+    {"title": "Canlı + Performans Raporu", "description": "Hangi reels en çok DM getiriyor, hangi tedavi en çok soruluyor — pazarlama içgörüsü dahil."}
+  ],
+
+  "features": [
+    {"title": "DM Otomatik Yanıt", "description": "Yeni gelen her DM 60 saniye içinde fiyat, paket, kampanya bilgisi alır."},
+    {"title": "Reels Yorum Yanıtlama", "description": "'Fiyat?' diyen yoruma AI 'DM'den göndereyim' diyerek otomatik DM açar — yorum altında fiyat görünmez, gizlilik korunur."},
+    {"title": "Story Yanıt Yönetimi", "description": "Story'ye yazılan yanıtları AI okur, ilgili tedaviye göre yönlendirir."},
+    {"title": "Randevu Hub", "description": "DM içinde takvim açılır, danışan slot seçer, klinik yazılımına düşer. Site/link gerekmez."},
+    {"title": "Öncesi/Sonrası Galeri Gönderimi", "description": "'Lazer epilasyon sonucu var mı?' deyince AI sizin onayladığınız galerideki örnek görselleri yollar."},
+    {"title": "Sıcak Lead Bildirimi", "description": "Yüksek niyetli danışanı (paket, randevu, ödeme soran) hemen sekretere bildirir — kaçma riski sıfır."}
+  ],
+
+  "caseStudy": {
+    "title": "Şişli Glow Beauty Klinik: Aylık 3.400 DM yanıt + 380 randevu",
+    "paragraphs": [
+      "İstanbul Şişli'de bir güzellik kliniği, aylık 60.000 TL Instagram reklam bütçesiyle çalışıyordu. Reels'lerden günde 100-150 DM geliyordu ama 2 sekreter sadece %35'ini 24 saat içinde yanıtlayabiliyordu. ROAS düşüyordu çünkü gelen lead'in %65'i kaybediliyordu.",
+      "Aralık 2025'te PORTZEN Instagram DM otomasyonunu kurduk. 12 ana tedavi başlığı + kampanyalı paket fiyatları + onaylı 80 öncesi/sonrası görsel sisteme yüklendi. Reels yorumlarına otomatik DM açma + akıllı randevu hub entegre edildi.",
+      "İlk 3 ay sonuç: aylık DM yanıt sayısı 1.100'den 3.400'e (3.1x) çıktı. Aylık randevu sayısı 120'den 380'e fırladı. Reklam bütçesi aynı kaldı ama randevu başına maliyet 500 TL'den 158 TL'ye düştü. ROAS 2.4 katına çıktı."
+    ],
+    "beforeAfter": [
+      {"label": "DM Yanıt Süresi", "before": "6+ saat", "after": "60 saniye"},
+      {"label": "Aylık Randevu", "before": "120", "after": "380"},
+      {"label": "Randevu Başına Maliyet", "before": "500 TL", "after": "158 TL"}
+    ]
+  },
+
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "9.500 TL/ay",
+      "description": "Tek IG hesabı, DM yanıt + temel sık sorular",
+      "features": ["Instagram Business API kurulumu", "20 tedavi başlığı bilgi tabanı", "DM otomatik yanıt", "Manuel randevu yönlendirme", "Aylık 1 optimizasyon"]
+    },
+    {
+      "name": "Pro",
+      "price": "18.500 TL/ay",
+      "description": "Önerilen — Reels yorum yanıt + randevu hub + galeri",
+      "features": ["Başlangıç paketi içerikleri", "Reels yorum otomatik DM", "Story yanıt yönetimi", "Randevu hub (DM içinde takvim)", "Öncesi/sonrası galeri modülü", "Sıcak lead bildirimi", "Haftalık optimizasyon"],
+      "highlighted": true
+    },
+    {
+      "name": "Klinik Zinciri",
+      "price": "28.000 TL/ay",
+      "description": "Birden fazla şube, çoklu hekim, merkezi raporlama",
+      "features": ["Tüm Pro özellikler", "Çok şube koordinasyon", "Hekim bazlı takvim", "Reklam ROAS dashboard", "WhatsApp + IG cross-platform"]
+    }
+  ],
+
+  "faq": [
+    {"question": "Instagram hesabımın güvenliği etkilenir mi? Ban yerim?", "answer": "Hayır — Meta'nın resmi Instagram Graph API'sini kullanıyoruz. Bu Meta'nın onayladığı, ban riski olmayan yöntem. Üçüncü parti login (şifre vermek) gibi tehlikeli yöntem kullanmıyoruz."},
+    {"question": "Reels altındaki yorumları AI gerçekten yanıtlıyor mu?", "answer": "Evet — yorumda 'fiyat', 'randevu', 'paket' gibi anahtar kelime geçince AI 'DM'den göndereyim' yorumu yazar ve aynı anda kullanıcıya DM açar. Yorum altında fiyat görünmez (rakip izleme yok)."},
+    {"question": "KVKK uyumu sağlık verisi için yeterli mi?", "answer": "Evet — sağlık verileri için özel ek sözleşme imzalıyoruz. AB GDPR + KVKK uyumlu sunucularda şifrelenmiş saklama. Hekim onayı olmadan veri 3. tarafa açılmaz."},
+    {"question": "AI tıbbi tavsiye verir mi? Sorumluluk problemi?", "answer": "Asla — AI sadece fiyat, randevu, genel bilgi konuşur. 'Şu işlemden sonra şişlik normal mi?' geldiğinde 'hekimimize aktarıyorum' der, anında bildirim gönderir."},
+    {"question": "Sekreterim hangi DM'i AI'ın hangisini kendi yanıtlayacağını seçebilir mi?", "answer": "Evet — panel üzerinden 'şu konuyu sadece ben yanıtlayayım' diyebilir. Hibrit mod var."},
+    {"question": "Reklam ROAS'ım gerçekten artar mı?", "answer": "Şişli vakamızda 2.4 kat arttı. Reklam aynı, ama gelen lead'in %95'i 60 sn içinde yanıt aldığı için kaybolmuyor."},
+    {"question": "Sözleşme nasıl?", "answer": "İlk ay deneme, sonrasında ay-ay. İstediğin ay iptal edebilirsin. Uzun taahhüt yok."}
+  ],
+
+  "finalCtaHeadline": "Reels patlasın — DM'leri biz yanıtlayalım.",
+  "finalCtaSubtitle": "20 dakikalık ücretsiz demo: tedavi katalogunuza özel AI prototip kurup canlı IG DM testi yapalım. Beğenirseniz 14 gün içinde aktif."
+}

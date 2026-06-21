@@ -1,0 +1,92 @@
+{
+  "sectorSlug": "klinik",
+  "sectorName": "Klinik",
+  "sectorPlural": "Klinikler",
+
+  "title": "Klinikler İçin WhatsApp AI Asistanı | PORTZEN",
+  "description": "Estetik, diş ve sağlık kliniklerinin WhatsApp'ına gelen fiyat, randevu ve tedavi sorularını 7/24 yanıtlayan AI asistan. 14 günde kurulum.",
+  "keywords": ["klinik whatsapp ai", "estetik klinik chatbot", "diş klinik otomasyon", "klinik randevu botu", "danışan yanıt sistemi", "klinik yapay zeka"],
+
+  "h1": "Klinikler için WhatsApp AI Asistanı",
+  "heroSubtitle": "Danışanlar 'fiyat ne kadar?', 'öncesi sonrası gönderir misiniz?', 'cuma randevu var mı?' diye yazıyor — sekreter telefon kapatıyor. AI asistanımız her birine 60 saniyede yanıt veriyor, randevuyu takvime düşürüyor.",
+
+  "stats": [
+    {"value": "60 sn", "label": "İlk Yanıt"},
+    {"value": "7/24", "label": "Danışan Desteği"},
+    {"value": "%47", "label": "Fazla Randevu"},
+    {"value": "14 gün", "label": "Kurulum"}
+  ],
+
+  "problems": [
+    "Sekreter telefonda konuşurken WhatsApp'a gelen 'botox fiyatı ne?' sorusu 3 saat sonra yanıtlanıyor — danışan başka kliniğe gitti.",
+    "Gece 23:00'te gelen 'randevunuz var mı?' mesajı sabaha kalıyor, danışan rakipten randevu alıyor.",
+    "'Öncesi sonrası fotoğraf gönderir misiniz?' isteklerine sekreter tek tek arşivden bakıyor — günde 1-2 saat kayıp.",
+    "Danışan tedavi sonrası 'şişlik normal mi?' diye yazıyor, hekim ameliyatta — yanıt gecikiyor, danışan panikliyor.",
+    "Yeni danışan 'fiyat listenizi atabilir misiniz?' diyor, sekreter manuel her seferinde hazırlıyor."
+  ],
+
+  "solutionSteps": [
+    {"title": "Tedavi Kataloğu & Fiyat Brief'i", "description": "Kliniğinizin tüm tedavi başlıklarını, paket fiyatlarını, öncesi/sonrası galerisini AI'a öğretiyoruz. 2-3 günlük workshop."},
+    {"title": "WhatsApp Business API Kurulumu", "description": "Resmi Meta API entegrasyonu, yeşil tik, sağlık sektörü özel uyum + KVKK uyumlu mesaj saklama."},
+    {"title": "Hekim Onayıyla Test Dönemi", "description": "İlk 7 gün her yanıt sekreter/hekim onayından geçer. Hassas konularda (komplikasyon, after-care) her zaman insana yönlendirir."},
+    {"title": "Canlı + Aylık Optimizasyon", "description": "Hangi tedavi en çok soruluyor, hangi fiyat itirazı geliyor — aylık rapor + içerik güncelleme."}
+  ],
+
+  "features": [
+    {"title": "Tedavi & Fiyat Sorgu", "description": "Danışan 'botox kaç para?' yazınca paket fiyatı, seans sayısı, kampanya bilgisi anında geliyor."},
+    {"title": "Öncesi/Sonrası Galeri", "description": "Danışan 'lazer epilasyon sonuç fotoğrafı var mı?' yazınca AI sizin onayladığınız galeriden örnek gönderir."},
+    {"title": "Akıllı Randevu Sistemi", "description": "Müsait saatleri gerçek zamanlı görür, danışana sunar, seçimine göre takvime düşürür — Google Calendar / klinik yazılımı entegrasyonu."},
+    {"title": "After-Care Takibi", "description": "İşlem sonrası 24 saat / 7 gün / 1 ay otomatik kontrol mesajları. Şişlik, ağrı şikayetinde anında hekime aktarır."},
+    {"title": "Hatırlatma & No-Show Azaltma", "description": "Randevudan 24 saat ve 2 saat önce hatırlatma — no-show oranı ortalama %60 azalıyor."},
+    {"title": "Türkçe Hekim Tonu", "description": "Robot dili yok — güven veren, sağlık iletişimine uygun ton. Danışan kendini önemsenmiş hisseder."}
+  ],
+
+  "caseStudy": {
+    "title": "Bornova Estetik Klinik: 6 ayda %47 daha fazla randevu",
+    "paragraphs": [
+      "İzmir Bornova'da bir orta ölçekli estetik klinik, Instagram reklamlarından gelen DM ve WhatsApp trafiğini sadece 2 sekreter ile yönetiyordu. Ortalama yanıt süresi 4 saatti — özellikle akşam 20:00 sonrası gelen mesajlar sabaha kalıyordu. Aylık ~120 potansiyel danışan, yanıt gecikmesi yüzünden başka kliniğe yöneliyordu.",
+      "Ekim 2025'te PORTZEN WhatsApp AI asistanını kurduk. 38 tedavi başlığı, 6 paket fiyat şablonu ve onaylı öncesi/sonrası galerisini sisteme yükledik. Akıllı randevu modülünü klinik yönetim yazılımına bağladık.",
+      "6 ay sonra: yanıt süresi 4 saatten 60 saniyeye düştü. Aylık randevu sayısı 215'ten 316'ya çıktı (%47 artış). No-show oranı %22'den %8'e indi. Sekreterler artık telefon trafiğine ve danışan karşılamaya odaklanıyor, mesajlaşmaya değil."
+    ],
+    "beforeAfter": [
+      {"label": "Yanıt Süresi", "before": "4 saat", "after": "60 saniye"},
+      {"label": "Aylık Randevu", "before": "215", "after": "316"},
+      {"label": "No-Show Oranı", "before": "%22", "after": "%8"}
+    ]
+  },
+
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL/ay",
+      "description": "Tek klinik, tedavi katalog + fiyat sorgu + temel randevu",
+      "features": ["WhatsApp Business API kurulumu", "20 tedavi başlığı bilgi tabanı", "Fiyat + paket sorgu", "Manuel randevu yönlendirme", "Aylık 1 optimizasyon"]
+    },
+    {
+      "name": "Pro",
+      "price": "17.500 TL/ay",
+      "description": "Önerilen — akıllı randevu + after-care + öncesi/sonrası galeri",
+      "features": ["Başlangıç paketi içerikleri", "Akıllı takvim entegrasyonu", "Öncesi/sonrası galeri modülü", "After-care otomatik takip", "No-show azaltma motoru", "Haftalık optimizasyon"],
+      "highlighted": true
+    },
+    {
+      "name": "Klinik Zinciri",
+      "price": "25.000 TL/ay",
+      "description": "Birden fazla şube, çoklu hekim, merkezi raporlama",
+      "features": ["Tüm Pro özellikler", "Çok şube koordinasyon", "Hekim bazlı takvim", "Merkezi KPI dashboard", "Klinik yönetim yazılımı entegrasyonu"]
+    }
+  ],
+
+  "faq": [
+    {"question": "KVKK uyumlu mu? Danışan sağlık bilgisi hassas.", "answer": "Evet — KVKK ve sağlık verileri için özel sözleşme imzalıyoruz. Mesajlar şifreli sunucuda, AB GDPR standardında saklanıyor. Hekim onayı olmadan hiçbir veri 3. tarafa açılmıyor."},
+    {"question": "AI tıbbi tavsiye verir mi? Sorumluluk kimde?", "answer": "AI asla tıbbi tavsiye vermez. Komplikasyon, after-care şikayeti, dozaj sorusu geldiğinde 'hekimimize aktarıyorum' der ve anında hekime bildirim gönderir. Sorumluluk her zaman hekimde, AI sadece ön filtre."},
+    {"question": "Klinik yönetim yazılımıma (SimplyBook, Helsinki, Mediport) bağlanır mı?", "answer": "Evet — Pro pakette en yaygın 8 klinik yazılımı entegrasyonu var. Özel sisteminiz varsa API geliştirme dahil."},
+    {"question": "Sekreterim işsiz mi kalır?", "answer": "Aksine — sekreteriniz WhatsApp robotu olmaktan çıkıp danışan karşılama, telefon trafiği ve premium danışan ilişkilerine odaklanır. İş kalitesi artar, sayısı azalmaz."},
+    {"question": "Fiyat listemi rakipler görebilir mi?", "answer": "Hayır — AI sadece kendi numaranıza yazan kişiyle paylaşır. Toplu fiyat sızıntısı imkansız. Ayrıca fiyatları zaman bazlı (kampanyalı/normal) ayarlayabilirsiniz."},
+    {"question": "Öncesi/sonrası fotoğrafları AI nasıl gönderiyor — danışan izni var mı?", "answer": "Sadece sizin yüklediğiniz, danışan onayı alınmış galeriyi kullanır. Sistem her fotoğraf için 'paylaşım izni var mı?' alanı zorunlu — onaysız hiçbir görsel sisteme girmez."},
+    {"question": "Sözleşme süresi nedir?", "answer": "İlk ay deneme, sonrasında ay-ay devam. İstediğin ay durdurabilir, verilerini export edebilirsin. Uzun taahhüt yok."}
+  ],
+
+  "finalCtaHeadline": "Kliniğinizin WhatsApp'ı bir asistan kadar profesyonel olsun.",
+  "finalCtaSubtitle": "20 dakikalık ücretsiz demo: tedavi katalogunuza özel bir AI prototip canlı gösterelim. Beğenirseniz 14 gün içinde aktif."
+}

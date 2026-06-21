@@ -1,0 +1,109 @@
+{
+  "sectorSlug": "restoran",
+  "sectorName": "Restoran",
+  "sectorPlural": "Restoranlar",
+  "title": "Restoranlar İçin AI Reklam Videosu | 3 Günde Yemek & Atmosfer Reels — PORTZEN",
+  "description": "Restoranınız için AI ile üretilmiş yemek close-up, atmosfer ve menü videoları. Gerçek çekim ekibi yok, 3 günde teslim, TikTok ve Reels için optimize.",
+  "keywords": ["restoran reklam videosu", "restoran ai video", "yemek tanıtım videosu", "restoran instagram reklam", "ai reels restoran", "yemek videosu yapay zeka"],
+  "h1": "Restoranlar için AI Reklam Videosu",
+  "heroSubtitle": "Sora, Veo, Kling — AI video modelleriyle yemek close-up'ları, atmosfer renderleri ve menü videoları. Çekim ekibi olmadan, 3 günde teslim, TikTok hızında.",
+  "stats": [
+    {"value": "3 gün", "label": "Ortalama Teslim"},
+    {"value": "5-10x", "label": "Daha Ucuz"},
+    {"value": "15 video", "label": "Aylık Paket"},
+    {"value": "4K", "label": "Çözünürlük"}
+  ],
+  "problems": [
+    "Yemek fotoğraflarınız Google Görseller'de diğer restoranlarla aynı, ayırt edici hiçbir şey yok",
+    "Profesyonel food stylist + fotoğrafçı çekimi tek seans 15-25 bin TL, ayda sürekli yapamazsınız",
+    "Gün ışığı saatleri kısıtlı, akşam servisinde atmosfer çekimi yapacak ekip kalmıyor",
+    "Atmosfer videosu için drone, slider ve 3 kişilik ekip gerek — küçük işletme için imkansız",
+    "Mevsim menüsü değişti (yaz brunch → kış sıcak çorbalar), eski videolar uyumsuz kaldı",
+    "Franchise/zincir restoranınız var, her şubede aynı kalitede çekim koordine etmek mümkün değil"
+  ],
+  "solutionSteps": [
+    {"title": "1. Menü & Atmosfer Brief", "description": "Menünüzdeki hero yemekleri, restoran konseptini (fine dining, brasserie, kebap, brunch vb.), atmosfer tonunu ve hedef kitleyi öğreniyoruz. Mevcut fotoğraflarınızı referans alıyoruz."},
+    {"title": "2. AI Storyboard Hazırlığı", "description": "Her yemek/sahne için 9:16 dikey storyboard — hook (cheese pull, buhar, çıtırtı), yemek macro çekimi, atmosfer geçişi, CTA. Onay sonrası prompt setine dönüşüyor."},
+    {"title": "3. Sora / Veo Render + Edit", "description": "Yemek close-up için Kling 2.5 (en gerçekçi doku), atmosfer ve mekan için Sora 2, drone benzeri açılar için Veo 3. DaVinci'de renk grade + ASMR ses katmanı."},
+    {"title": "4. Reels & TikTok Teslim", "description": "MP4 + caption + hashtag + müzik önerisi paketi. İsterseniz haftalık takvimle TikTok ve Reels hesabınıza yayınlıyoruz."}
+  ],
+  "features": [
+    {"title": "Yemek Macro Close-Up", "description": "Cheese pull, kaşık dalışı, buhar tüten çorba, çıtırtı sesi — yemek pornosu denilen viral formatları AI ile üretiyoruz. Gerçek çekimden ayırt edilmiyor."},
+    {"title": "Atmosfer & Mekan Renderleri", "description": "Akşam ışığı, mum atmosferi, kalabalık masa, terasta gün batımı — saatlerce ekip beklemeden istediğiniz mood'u rendırlıyoruz."},
+    {"title": "Menü Highlight Karuselleri", "description": "Haftanın yemeği, yeni gelen, şefin tavsiyesi — her ürün için ayrı 8-12 saniyelik tanıtım videosu. Stories ve feed için optimize."},
+    {"title": "Mevsim Varyasyonu", "description": "Aynı yemeği yaz versiyonu (terasta, soğuk içeçek yanında) ve kış versiyonu (sıcak bardak, şömine arkada) farklı atmosferlerle üretiyoruz."},
+    {"title": "Müzik + ASMR Ses Katmanı", "description": "Trend TikTok sesleri, telifsiz lo-fi, ASMR çıtırtı/buhar — her video için ses tasarımı dahil. Sessize alınmış izlemeleri minimize ediyor."},
+    {"title": "TikTok 9:16 + Reels Dikey", "description": "Mobil-first format, 3 saniyede hook, 8-15 saniye optimal süre. TikTok algoritmasının ödüllendirdiği yapıda kurguluyoruz."}
+  ],
+  "caseStudy": {
+    "title": "Cihangir — Brasserie Konsept Restoran: TikTok 1.2M Görüntülenme, 340 Yeni Rezervasyon/Ay",
+    "paragraphs": [
+      "Cihangir'de brunch + akşam mönüsü servis eden bir brasserie konsept restoran, 2024 sonunda PORTZEN'e geldiğinde Instagram'da 11K takipçi vardı ama Reels üretimi durmuştu. TikTok hesabı açık ama 2 ayda 3 video paylaşmışlar, etkileşim sıfıra yakın.",
+      "Pro pakette başladık — ayda 15 video, 8 yemek close-up (avokado toast, eggs benedict, lavanta latte, beef wellington vb.), 4 atmosfer videosu (brunch güneşi, akşam mumlu masa, terasta gün batımı), 3 trend formatlı içerik (POV: Cihangir'de brunch, şefin gizli tarifi vb.).",
+      "İlk 2 ayda TikTok'ta beklenmedik viral — POV brunch videosu 1.2M görüntülenme aldı. Aynı ay restoran rezervasyon sayısı 340 yeni masaya çıktı (önceki ortalaması 90/ay). Şimdi Premium pakete geçtiler, 2 şube daha açıyorlar."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık TikTok Görüntülenme", "before": "8.000", "after": "1.200.000"},
+      {"label": "IG Reels Aylık Erişim", "before": "14.000", "after": "210.000"},
+      {"label": "Yeni Rezervasyon / Ay", "before": "90", "after": "340"},
+      {"label": "Çekim Maliyeti / Video", "before": "4.200 TL", "after": "1.200 TL"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL/ay",
+      "description": "Tek mekanlı restoran ve kafeler için",
+      "features": [
+        "Ayda 5 AI yemek/atmosfer videosu",
+        "9:16 dikey + 1:1 kare format",
+        "ASMR ses tasarımı dahil",
+        "2 revize hakkı / video",
+        "Caption + hashtag seti",
+        "Trend müzik önerisi"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "18.000 TL/ay",
+      "description": "Aktif sosyal medya yürüten restoranlar için en popüler paket",
+      "features": [
+        "Ayda 15 AI video (yemek + atmosfer + menü)",
+        "9:16 + 1:1 + 16:9 üç format",
+        "Trend formatlı içerik (POV, transition vb.)",
+        "Sınırsız revize",
+        "Mevsim varyasyonu dahil",
+        "Aylık içerik takvimi",
+        "TikTok + Reels yayın takibi",
+        "Önceliklendirilmiş teslim (2 gün)"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "32.000 TL/ay",
+      "description": "Çok şubeli zincirler ve agresif büyüme hedefleyenler",
+      "features": [
+        "Ayda 30 AI video",
+        "Tüm formatlar + 4K master",
+        "Çoklu şube içerik koordinasyonu",
+        "Komple TikTok + Reels yönetimi",
+        "Meta + TikTok Ads kampanya yönetimi",
+        "Aylık performans raporu",
+        "Özel proje yöneticisi",
+        "Acil içerik (24 saat) hakkı"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "AI ile üretilen yemek videoları gerçek mi gözüküyor?", "answer": "Kling 2.5 ve Veo 3 close-up'ta gerçekten ayırt edilemez seviyede. Cheese pull, buhar, çıtırtı dokusu üzerinde özel olarak çalıştık. Müşterilerimizin çoğu yorumlarda 'gerçek çekim mi AI mı' tartışması yaşıyor — engagement açısından bu zaten istediğimiz şey."},
+    {"question": "Mevcut menümüzün tam karşılığını AI üretebilir mi?", "answer": "Evet, hatta daha iyi. Brief sırasında menünüzdeki fotoğrafları + restoranınızın stil rehberini (tabak rengi, sunum tarzı) veriyorsunuz. AI o stil rehberine bağlı kalıyor, jenerik stock yemek değil sizin yemeğiniz çıkıyor."},
+    {"question": "Atmosfer videosu için gerçek mekanım gerekiyor mu?", "answer": "Gerçek mekan fotoğraflarınızı referans veriyorsunuz, biz o tarzda atmosfer renderı üretiyoruz. Renk, mobilya, dekor tutarlı kalıyor. İsterseniz tam mekanınızı 360° fotoğrafladığımız bir seans sonrası tüm atmosferi orijinal mekanınıza birebir uyguluyoruz (Premium dahil)."},
+    {"question": "TikTok'ta viral olma garantiniz var mı?", "answer": "Viral garantisi kimse veremez, ama trend format takibi + doğru hook + algoritma uyumu konularında deneyimliyiz. Vaka çalışmamızda Cihangir restoranı 1.2M görüntülenmeye ulaştı. Pro+ paketlerde A/B test ve trend takibi dahil."},
+    {"question": "Videolarda gerçek müşteri yüzü çıkıyor mu?", "answer": "Hayır, KVKK ve telif kaygısıyla AI avatar müşteri kullanıyoruz — kalabalık masa atmosferi yaratıyor ama tanınabilir gerçek yüz yok. Gerçek müşteri videosu istiyorsanız ayrıca UGC kampanyası planlayabiliriz."},
+    {"question": "Mevsim değişikliklerini ne kadar hızlı uygulayabilirsiniz?", "answer": "Aynı yemeğin yaz/kış/bahar varyasyonu 24-48 saatte teslim. Pro paketten itibaren mevsim geçişlerini 2 hafta önceden planlıyoruz, sezon başında hazır içerikle başlıyorsunuz."},
+    {"question": "Sözleşme süresi nedir, iptal nasıl oluyor?", "answer": "Aylık çalışıyoruz, minimum 3 ay öneriyoruz. Aylık sonunda istediğiniz an feshedebiliyorsunuz, ceza yok. 3 aylık peşin ödemede %10 indirim, 6 aylıkta %15 indirim uyguluyoruz."}
+  ],
+  "finalCtaHeadline": "Restoranınız için ilk AI yemek videosunu 3 günde teslim alın",
+  "finalCtaSubtitle": "Menü brief'iniz 30 dakika sürer, ilk video 72 saatte TikTok'a hazır. WhatsApp'tan ulaşın, 24 saat içinde geri dönüyoruz."
+}

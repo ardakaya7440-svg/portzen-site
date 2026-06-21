@@ -1,0 +1,158 @@
+{
+  "sectorSlug": "egitim",
+  "sectorName": "Eğitim Kurumu",
+  "sectorPlural": "Eğitim Kurumları",
+  "title": "Eğitim Kurumları İçin Web Tasarım | Kurs Sayfası + Online Ödeme — PORTZEN",
+  "description": "Kurs ve eğitim kurumunuz için her kursa ayrı SEO sayfası, online başvuru, Stripe/Iyzico ödeme entegre site. Mezun yorumları + sertifika gösterimi dahil.",
+  "keywords": ["eğitim kurumu web tasarım", "online kurs sitesi", "kurs web sitesi", "lms entegre site", "eğitim danışmanı sitesi", "online ödeme kurs", "sertifikalı kurs sitesi"],
+  "h1": "Eğitim Kurumları için Web Tasarım",
+  "heroSubtitle": "PDF kataloğunuz 2 yıl eski, başvuru formundan gelen lead'leri excel'de kaybediyorsunuz, kurs satışınız hâlâ telefonla dönüyor. Biz her kursa özel SEO sayfası, online başvuru ve Iyzico ödeme entegre site kuruyoruz — kurs satışınız 8 kat artıyor.",
+  "stats": [
+    {"value": "24x", "label": "Organik Trafik"},
+    {"value": "8x", "label": "Kurs Satışı"},
+    {"value": "5 hafta", "label": "Kurulum"},
+    {"value": "%96", "label": "Mobil Lighthouse"}
+  ],
+  "problems": [
+    "Kurs kataloğunuz PDF olarak siteye gömülü, 2 yıl eski, yeni öğrenci 'bu kurum hâlâ aktif mi' diye düşünüyor",
+    "Başvuru formundan günde 5 lead geliyor, danışmanlar arasında dağıtım yok, 3 gün sonra aranıyor — %60'ı zaten başka kursa yazılmış oluyor",
+    "300 kursunuz var ama hepsi tek bir 'Kurslarımız' sayfasında listeleniyor, Google'da 'python kursu istanbul' aratınca rakipler çıkıyor sizin sayfa hiçbir kurs için sıralanmıyor",
+    "Mezunlarınız var, başarı hikayeleri var, sertifikalar var — ama sitede tek bir referans alanı bile yok, güven sinyali sıfır",
+    "Mobilde site 7 saniyede açılıyor, başvurmaya gelen öğrenci dayanamadan kapatıyor — mobilden bounce rate %78",
+    "Kurs ücretini sayfada yazmıyorsunuz, 'iletişim için arayın' diyorsunuz, öğrenci karşılaştırma yapamıyor başka yere gidiyor — ödeme entegre değil"
+  ],
+  "solutionSteps": [
+    {
+      "title": "1. Program Portföyü & Hedef Kitle Analizi",
+      "description": "Kaç kursunuz var, hangi alan (yazılım, dil, mesleki, akademik), hangi format (online, yüz yüze, hibrit), ortalama ücret, hedef kitle yaş/profil. Hangi kursların ana gelir olduğunu netleştirip site mimarisini ona göre kuruyoruz."
+    },
+    {
+      "title": "2. Modüler Kurs Sayfası Tasarımı",
+      "description": "Her kurs için ayrı, SEO-dostu sayfa şablonu: müfredat, eğitmen, süre, format, ücret, takvim, mezun yorumları, FAQ. Şablon modüler — yeni kurs eklediğinizde 10 dakikada yayında. Tasarım: güven veren, modern, eğitim kurumu ciddiyetini koruyan."
+    },
+    {
+      "title": "3. Next.js + Iyzico/Stripe + LMS API",
+      "description": "Next.js 14 ile her kurs sayfası ayrı statik üretim (SEO için), Iyzico ve Stripe çift ödeme (Türk + yurt dışı öğrenci), Moodle/TalentLMS/Thinkific API entegrasyonu — ödeme başarılı olunca öğrenci otomatik LMS'e tanımlanıyor."
+    },
+    {
+      "title": "4. İçerik Motoru + Programmatic SEO",
+      "description": "Blog ve içerik motoru (kurs rehberi, kariyer yazıları, mezun röportajları), her kurs için '[Şehir] + [Kurs adı]' programmatic SEO sayfaları. Aylık 50+ uzun kuyruk anahtar kelime sıralaması, organik trafik 24 kat artıyor."
+    }
+  ],
+  "features": [
+    {
+      "title": "Kurs Başına Ayrı SEO Sayfası",
+      "description": "Her kurs ayrı URL ('python-baslangic-istanbul'), ayrı meta, ayrı schema markup (Course schema), ayrı içerik. 300 kurs = 300 SEO girişi. 'Python kursu istanbul', 'data analytics kursu online' gibi her aramada size rastlanıyor."
+    },
+    {
+      "title": "Online Başvuru Formu + Lead Routing",
+      "description": "Başvuru formu doldurulduğunda lead anında WhatsApp + email ile size geliyor, danışmana otomatik atanıyor (round-robin), 60 saniyede otomatik karşılama mesajı gidiyor. Lead kaybolma oranı %60'tan %8'e düşüyor."
+    },
+    {
+      "title": "Iyzico + Stripe Online Ödeme",
+      "description": "Öğrenci sayfadan tek tıkla taksitli ödeme yapıyor (Iyzico ile 9 taksit, BKM Express, havale). Yurt dışından Stripe ile kart. Ödeme yapan öğrenci otomatik LMS'e ekleniyor, hoşgeldin emaili gidiyor — manuel iş sıfır."
+    },
+    {
+      "title": "Mezun Yorum & Başarı Hikayesi Modülü",
+      "description": "Her kursa özel mezun yorumları (video + yazılı), kariyer hikayeleri ('bu kurstan sonra X şirkette işe başladım'), LinkedIn linkleri. Güven sinyali maksimum — yeni öğrenci karar verirken sosyal kanıta tutunuyor."
+    },
+    {
+      "title": "Sertifika Gösterimi & Doğrulama",
+      "description": "Kurum sertifikalarınız, akreditasyonlarınız (MEB, ISO, üniversite işbirlikleri) öne çıkıyor. Mezun sertifikalarına özel doğrulama URL'si — işveren 'gerçek mi' diye sorduğunda mezun linki paylaşıyor, marka itibarınız büyüyor."
+    },
+    {
+      "title": "Blog + İçerik Motoru",
+      "description": "Markdown tabanlı blog, kariyer rehberleri, kurs karşılaştırma yazıları. Her yazıda ilgili kursunuza CTA — içerik okuyup başvuruya dönen öğrenci oranı %14. Aylık 8.000+ organik trafik içerikten geliyor."
+    }
+  ],
+  "caseStudy": {
+    "title": "İstanbul'da Bir Online Kurs Platformunun 5 Aylık Dönüşümü",
+    "paragraphs": [
+      "İstanbul Şişli merkezli, yazılım ve veri analitiği üzerine 38 kursu olan bir online eğitim platformu, eski WordPress sitesinden memnun değildi. Tüm kurslar tek bir sayfada listeliydi, Google'da 'python kursu' aratınca site 8. sayfadaydı, ay başı organik trafik 340, kurs satışı 18. Başvurular WhatsApp ve mail üzerinden geliyordu, danışmanlar arası dağılım yoktu.",
+      "PORTZEN olarak 38 kursun her birine ayrı SEO sayfası (Course schema markup'lı), her kurs için '[Şehir] + [Kurs] + [Format]' kombinasyonlu programmatic SEO sayfaları (420 sayfa) ürettik. Iyzico ve Stripe entegrasyonu kurduk, Thinkific LMS API'sini bağladık — ödeme yapan öğrenci 2 dakikada LMS'te. Başvuru formuna danışman atama mantığı ve 60 saniye otomatik karşılama ekledik.",
+      "5 ay sonra ay başı organik trafik 340'tan 8.200'e (24 kat), kurs satışı 18'den 142'ye (8 kat) çıktı. Lead-öğrenci dönüşümü %14'ten %42'ye yükseldi. 'Python kursu istanbul' aramasında 8. sayfadan 1. sayfaya geçtiler. Manuel iş yükü %70 azaldı — danışmanlar artık satışa odaklanabiliyor."
+    ],
+    "beforeAfter": [
+      {"label": "Ay Başı Organik Trafik", "before": "340", "after": "8.200"},
+      {"label": "Aylık Kurs Satışı", "before": "18", "after": "142"},
+      {"label": "Lead-Öğrenci Dönüşümü", "before": "%14", "after": "%42"},
+      {"label": "'Python kursu istanbul' Sıralaması", "before": "8. sayfa", "after": "1. sayfa"},
+      {"label": "Mobil Sayfa Açılış Süresi", "before": "6.8 sn", "after": "1.6 sn"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Kurs Sitesi",
+      "price": "16.000 TL",
+      "description": "20 kursa kadar olan eğitim kurumları için temel kurs katalog + başvuru formu paketi.",
+      "features": [
+        "5 sayfa + 20 kurs detay sayfası",
+        "Başvuru formu + WhatsApp/email bildirim",
+        "Mobil-first tasarım",
+        "Temel SEO + Google Search Console",
+        "Mezun yorum alanı (manuel ekleme)",
+        "Google Analytics kurulum",
+        "1 yıl hosting + domain dahil"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "32.000 TL + 2.000 TL/ay",
+      "description": "Büyüyen eğitim kurumları için Iyzico/Stripe online ödeme, kurs başına SEO ve mezun modülü dahil tam paket.",
+      "features": [
+        "Sınırsız kurs + kategori sayfası",
+        "Iyzico + Stripe online ödeme",
+        "Mezun yorum + sertifika modülü",
+        "Programmatic SEO (şehir/format kombinasyonu)",
+        "Blog + içerik motoru",
+        "Danışmana lead atama (round-robin)",
+        "Aylık SEO raporu + içerik üretimi",
+        "Sürekli teknik destek"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "55.000 TL + 4.000 TL/ay",
+      "description": "Kurumsal eğitim platformları için LMS entegrasyonu, çok dilli site ve A/B test altyapısı dahil paket.",
+      "features": [
+        "Profesyonel paketin tamamı",
+        "LMS entegrasyonu (Moodle, Thinkific, TalentLMS)",
+        "Çok dilli site (TR + EN + AR)",
+        "A/B test altyapısı (kurs sayfası optimize)",
+        "Kurumsal müşteri portalı (B2B eğitim)",
+        "Faturalandırma + e-arşiv entegre",
+        "Reklam (Google + Meta) yönetimi dahil",
+        "Aylık performans danışmanlığı"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Mevcut WordPress sitemden öğrenci ve kurs verilerimi taşıyabilir misiniz?",
+      "answer": "Evet. Kurs içerikleri, öğrenci kayıtları, blog yazıları, fotoğraf galeri tümünü taşıyoruz. Domain'inizi de koruyoruz, SEO sıralamanız geçişten etkilenmiyor — 301 redirect mantığı ile eski URL'ler yeni URL'lere yönleniyor."
+    },
+    {
+      "question": "Iyzico komisyon oranı nedir? Online ödemenin maliyeti nedir?",
+      "answer": "Iyzico komisyonu doğrudan Iyzico'ya gider — eğitim sektörü için genelde %1.49 + işlem başı 0.25 TL. PORTZEN olarak biz hiçbir işlem komisyonu almıyoruz. Aylık eğitim hacminize göre Iyzico'dan size özel oran çıkartmak için destek veriyoruz."
+    },
+    {
+      "question": "LMS entegrasyonu nasıl çalışıyor? Hangi platformları destekliyorsunuz?",
+      "answer": "Premium pakette Moodle, Thinkific, TalentLMS ve LearnWorlds API entegrasyonu mevcut. Öğrenci sitede ödeme yapınca otomatik LMS'e ekleniyor, kurs erişimi açılıyor, hoşgeldin emaili gidiyor. Manuel kayıt sıfır."
+    },
+    {
+      "question": "Her kurs için SEO sayfası nasıl üretiliyor?",
+      "answer": "Modüler kurs şablonumuz var. Yeni kurs eklediğinizde başlık, müfredat, eğitmen, süre, ücret bilgilerini doldurursunuz; sistem otomatik olarak SEO meta'ları, schema markup'ı (Course schema) ve URL'i üretir. 10 dakikada yeni kurs yayında ve Google indexine giriyor."
+    },
+    {
+      "question": "Programmatic SEO sayfaları nedir, spam mı?",
+      "answer": "Hayır, spam değil. 'Python kursu Ankara online', 'data analytics kursu İstanbul hafta sonu' gibi gerçek aramalara karşılık üretilen, içeriği şehir ve formatınıza göre özelleştirilen sayfalar. Google bunları beğeniyor çünkü kullanıcı niyetine cevap veriyorlar."
+    },
+    {
+      "question": "Kaç haftada açılır?",
+      "answer": "Mini paket 4 hafta, Profesyonel 5-6 hafta, Premium 8-10 hafta. Kurs içeriklerinizin hazır olması ve mezun yorumlarınızın toplanmış olması süreyi 1-2 hafta kısaltıyor."
+    }
+  ],
+  "finalCtaHeadline": "Eğitim Kurumunuz Hak Ettiği Öğrenci Sayısına Ulaşsın",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz analiz görüşmesi — mevcut sitenizin neden Google'da görünmediğini ve PORTZEN ile 5 ayda kurs satışını nasıl 8'e katlayacağımızı konuşalım."
+}

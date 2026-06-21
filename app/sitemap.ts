@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { ALL_CATEGORIES, getAllPostsMeta } from "@/lib/blog";
+import { getAllSectorLandings } from "@/lib/landings";
 
 const BASE = "https://portzenai.com";
 
@@ -39,5 +40,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8
   }));
 
-  return [...staticPages, ...landingPages, ...categoryPages, ...articlePages];
+  // Sektörel landing'ler (programmatic SEO) — yüksek priority
+  const sectorLandings: MetadataRoute.Sitemap = getAllSectorLandings().map((s) => ({
+    url: `${BASE}/${s.service}/${s.sector}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.9
+  }));
+
+  return [...staticPages, ...landingPages, ...sectorLandings, ...categoryPages, ...articlePages];
 }

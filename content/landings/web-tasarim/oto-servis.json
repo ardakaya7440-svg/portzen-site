@@ -1,0 +1,157 @@
+{
+  "sectorSlug": "oto-servis",
+  "sectorName": "Oto Servis",
+  "sectorPlural": "Oto Servisler",
+  "title": "Oto Servisler İçin Web Tasarım | Online Randevu + Fiyat Kalkülatörü — PORTZEN",
+  "description": "Oto servisinize Google'dan müşteri çeken site. Online randevu, fiyat tahmini, önce/sonra galeri, WhatsApp lead — telefon başında oturma derdi biter.",
+  "keywords": ["oto servis web tasarım", "oto servis sitesi", "online araba randevusu", "kaporta sitesi", "oto bakım fiyat hesaplama", "google my business oto servis", "araç servis online"],
+  "h1": "Oto Servisler için Web Tasarım",
+  "heroSubtitle": "Tabela artık yetmiyor. Müşteri WhatsApp'tan 'fiyat ne kadar' diye soruyor, siz cevap verene kadar yan servise gitmiş oluyor. Biz size online randevulu, fiyat tahmini kalkülatörü olan, Google Maps'te 1. sırada çıkan site yapıyoruz.",
+  "stats": [
+    {"value": "8x", "label": "Aylık Randevu"},
+    {"value": "1.450", "label": "Aylık Organik Trafik"},
+    {"value": "5 hafta", "label": "Kurulum"},
+    {"value": "%92", "label": "Mobil Trafik"}
+  ],
+  "problems": [
+    "Mahalledeki tabelanız artık iş getirmiyor — müşteri Google'dan 'Sincan oto servis' yazıyor, siz orada yoksunuz",
+    "WhatsApp'tan 'megane periyodik bakım ne kadar' sorusu geliyor, siz garajdayken cevap geç kalıyor, müşteri yan servise gidiyor",
+    "Telefonla randevu zor — gün ortası araç teslim alırken telefon çalıyor, eleman cevap veremiyor, müşteri 'arayacağım' diyor bir daha aramıyor",
+    "Google Haritalar'da işletmeniz var ama fotoğraf eski, hizmet listesi eksik, müşteri yorumu 2 tane — rakipler 80 yorumla önde",
+    "Yapılan kaporta, motor revizyonu, döşeme işlerinizin fotoğrafları telefonun galerisinde yığılı kalıyor — kimse görmüyor",
+    "2018 model Clio fren balatası fiyatını ezberden söylüyorsunuz, 2024 hibrit modeller geldi, fiyat ezberi yetmez oldu"
+  ],
+  "solutionSteps": [
+    {
+      "title": "1. Hizmet Portföyü & Marka Analizi",
+      "description": "Hangi marka/modellerde uzmansınız (Renault, Volkswagen, Hyundai, hibrit, dizel), hangi hizmetler ana gelir (periyodik bakım, kaporta, mekanik, lastik), aylık ortalama araç sayınız ve hedef bölgenizi (Sincan, Çankaya, Bahçelievler) netleştiriyoruz."
+    },
+    {
+      "title": "2. Güvenilir + Pratik Tasarım",
+      "description": "Oto servis müşterisi 'bu yer ciddi mi, kandırılır mıyım' diye bakar. Tasarım: temiz, profesyonel ekipman fotoğrafları, ekip tanıtımı, sertifikalar (Bosch Car Service, yetkili servis), önce/sonra örnekleri. Mobilde tek tıkla ara butonu sticky."
+    },
+    {
+      "title": "3. Next.js + Online Randevu + WhatsApp",
+      "description": "Randevu formu (marka + model + yıl + hizmet seçimi) doldurulduğunda otomatik WhatsApp + email ile size gelir. Müşteri 30 saniyede randevu alır, siz garaja girmeden gün sonu listede görürsünüz. Calendly benzeri saat blokları."
+    },
+    {
+      "title": "4. SEO + Google My Business Optimizasyonu",
+      "description": "Her hizmet ayrı sayfa ('Sincan kaporta', 'Sincan periyodik bakım', 'Sincan motor revizyonu'), her marka ayrı sayfa ('Sincan Renault servis'), Google My Business sayfanız optimize, yorum toplama otomatik WhatsApp mesajı ile."
+    }
+  ],
+  "features": [
+    {
+      "title": "Online Randevu Formu",
+      "description": "Müşteri marka + model + yıl + arıza/hizmet seçer, tarih + saat aralığı belirler, formu gönderir. Size anında WhatsApp + email bildirim, kalender'da otomatik blok ayrılır. Telefon başında oturma derdi biter."
+    },
+    {
+      "title": "Fiyat Tahmini Kalkülatörü",
+      "description": "Marka + model + yıl + hizmet (periyodik bakım, balata, debriyaj, kaporta lokal) seçilince tahmini fiyat aralığı (örnek: 4.500 - 6.200 TL) gösterilir. Müşteri WhatsApp'tan sormaz, direkt karar verir."
+    },
+    {
+      "title": "Önce/Sonra Galeri",
+      "description": "Kaporta düzeltme, motor revizyonu, döşeme yenileme işlerinizin önce-sonra fotoğraf galeri. Müşteri 'bu adam gerçekten iş biliyor' diyor — güven sinyali maksimum. Telefon galerideki fotoğraflar artık satış yapıyor."
+    },
+    {
+      "title": "Google Maps + Ulaşım Rehberi",
+      "description": "Site içine gömülü Google Maps, yol tarifi tek tıkla, otopark bilgisi, toplu taşıma rehberi. Mobilde tıklayınca direkt Google Maps navigasyon açılır. Yeni müşteri sapıtmadan size gelir."
+    },
+    {
+      "title": "WhatsApp Lead Yakalama",
+      "description": "Sticky WhatsApp butonu (mobilde sürekli görünür), tıklayınca hazır mesaj ('Merhaba, [marka model] için fiyat almak istiyorum') ile sohbet açılır. Lead'in size ulaşması 2 saniye sürüyor."
+    },
+    {
+      "title": "Yorum & Değerlendirme Modülü",
+      "description": "İş bitiminde müşteriye otomatik WhatsApp gönderiliyor: 'Memnun kaldıysanız Google'da değerlendirir misiniz?' Tek tıkla yorum sayfasına gidiyor. 3 ayda Google yorum sayınız 5'ten 80'e çıkıyor, sıralama doğal olarak yükseliyor."
+    }
+  ],
+  "caseStudy": {
+    "title": "Sincan'da Bir Oto Servisin 3 Aylık Dönüşümü",
+    "paragraphs": [
+      "Ankara Sincan'da 12 yıldır faaliyet gösteren bir oto servis (genel mekanik + Renault uzmanı), telefonla randevu kaosundan ve Google'da görünmemekten yakınıyordu. Aylık online randevu 8, Google organik trafik 110'du. Mahalle müşterisine bağımlıydı.",
+      "PORTZEN olarak hizmet portföyünü analiz ettik (15 farklı hizmet), her hizmet + her popüler marka için ayrı SEO sayfası ürettik ('Sincan Renault Megane balata değişimi' gibi), fiyat tahmini kalkülatörü kurduk, WhatsApp Business entegrasyonu yaptık ve Google My Business sayfasını yeniden düzenledik (40 yeni fotoğraf, 15 hizmet kategorisi).",
+      "3 ay sonra aylık online randevu 8'den 64'e çıktı (8 kat), Google organik trafik 110'dan 1.450'ye yükseldi. WhatsApp'tan gelen fiyat soruları %70 azaldı çünkü kalkülatör cevabı veriyor — müşteri zaten karar vererek geliyor. Google Maps'te 'Sincan oto servis' aramasında 3. sıradan 1. sıraya çıktılar."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Online Randevu", "before": "8", "after": "64"},
+      {"label": "Google Organik Trafik", "before": "110/ay", "after": "1.450/ay"},
+      {"label": "Google Yorum Sayısı", "before": "12", "after": "84"},
+      {"label": "Google Maps Sıralaması", "before": "3. sıra", "after": "1. sıra"},
+      {"label": "Yeni Müşteri / Ay", "before": "18", "after": "97"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Servis Sitesi",
+      "price": "10.000 TL",
+      "description": "Tek bir oto servis için temel hizmet sayfaları, WhatsApp ve Google Maps entegreli açılış paketi.",
+      "features": [
+        "5 sayfa (Anasayfa, Hakkımızda, Hizmetler, Galeri, İletişim)",
+        "WhatsApp sticky buton",
+        "Google Maps entegrasyon",
+        "Mobil-first tasarım",
+        "Temel SEO + Google Search Console",
+        "Google My Business kurulum desteği",
+        "1 yıl hosting + domain dahil"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "22.000 TL + 1.500 TL/ay",
+      "description": "Büyüyen oto servisler için online randevu + fiyat kalkülatörü + her hizmete özel SEO sayfası dahil tam paket.",
+      "features": [
+        "Sınırsız hizmet + marka sayfası",
+        "Online randevu formu (marka/model/saat)",
+        "Fiyat tahmini kalkülatörü",
+        "Önce/sonra galeri modülü",
+        "WhatsApp + email lead bildirim",
+        "Google yorum toplama otomasyonu",
+        "Aylık SEO raporu + içerik üretimi",
+        "Sürekli teknik destek"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "38.000 TL + 2.500 TL/ay",
+      "description": "Çoklu lokasyonu olan, galeri yönetimi ve müşteri CRM'i isteyen kurumsal servisler için.",
+      "features": [
+        "Profesyonel paketin tamamı",
+        "Çoklu lokasyon yönetimi (şube)",
+        "Galeri yönetim paneli (siz fotoğraf yüklersiniz)",
+        "Müşteri CRM (geçmiş bakım, fatura)",
+        "Periyodik bakım hatırlatma SMS/WhatsApp",
+        "Reklam (Google Ads) yönetimi dahil",
+        "Aylık performans danışmanlığı"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Site açıldıktan sonra Google'da hemen 1. sıraya çıkar mıyım?",
+      "answer": "Hayır, hiçbir ajans bunu garanti edemez. Ama gerçekçi tahmin: 3 ayda lokal aramalarda (örnek 'Sincan oto servis') ilk 5'e, 6 ayda ilk 3'e çıkıyorsunuz. Google My Business optimizasyonu lokal aramada en hızlı kazandıran şey, biz onunla başlıyoruz."
+    },
+    {
+      "question": "Online randevu sistemi karışık mı, müşteri kullanır mı?",
+      "answer": "Müşteri marka + model + hizmet seçer, takvimden saat tıklar, ad-soyad-telefon yazar. 30 saniye sürüyor. Test ettiğimiz servislerde 40 yaş üstü müşteri bile sorunsuz kullanıyor — çünkü adımlar 3'ten az."
+    },
+    {
+      "question": "Fiyat kalkülatörü kesin fiyat verecek mi, yanlış olursa?",
+      "answer": "Kesin fiyat değil, tahmini aralık veriyor (örnek: 4.500 - 6.200 TL). Altına 'Kesin fiyat için lütfen aracınızı görelim' notu ekleniyor. Müşteri beklentisi netleşiyor, siz fiyatla şaşırtmıyorsunuz — güven artıyor."
+    },
+    {
+      "question": "Google'a yorum toplamak yasal mı, sahte yorum mu?",
+      "answer": "Tamamen yasal. İş bitiminde memnun müşteriye 'Google'da değerlendirir misiniz' WhatsApp mesajı gönderiyoruz, tek tıkla yorum sayfasına gidiyor. Sahte yorum değil — gerçek müşterilerden gerçek yorum, sadece toplama sürecini otomatikleştiriyoruz."
+    },
+    {
+      "question": "Kaç haftada açılır?",
+      "answer": "Mini paket 3 hafta, Profesyonel 5 hafta, Premium 7 hafta. Önce/sonra fotoğraflarınızın hazır olması süreyi 1 hafta kısaltıyor."
+    },
+    {
+      "question": "Site açıldıktan sonra ben içerik ekleyebilir miyim?",
+      "answer": "Profesyonel paketten itibaren admin paneliniz var. Yeni hizmet ekleme, galeri fotoğrafı yükleme, fiyat güncelleme sizin tarafınızda. Aylık bakımda biz teknik konuları (SEO, hız, güvenlik) yönetiyoruz."
+    }
+  ],
+  "finalCtaHeadline": "Servisinize Telefon Yerine Müşteri Gelsin",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz analiz görüşmesi — Google'da neden görünmediğinizi ve PORTZEN ile 3 ayda nasıl 1. sıraya çıkacağınızı konuşalım."
+}

@@ -1,0 +1,92 @@
+{
+  "sectorSlug": "restoran",
+  "sectorName": "Restoran",
+  "sectorPlural": "Restoranlar",
+
+  "title": "Restoranlar İçin WhatsApp AI Asistanı | PORTZEN",
+  "description": "Rezervasyon, menü sorgu ve paket sipariş mesajlarını 7/24 otomatik yöneten WhatsApp AI asistanı. Restoran ve cafe'ler için 14 günde kurulum.",
+  "keywords": ["restoran whatsapp ai", "cafe chatbot", "rezervasyon botu", "paket sipariş otomasyon", "menü sorgu sistemi", "restoran yapay zeka"],
+
+  "h1": "Restoranlar için WhatsApp AI Asistanı",
+  "heroSubtitle": "Cuma akşamı 'bu akşam 4 kişilik yer var mı?', 'menü atar mısın?', 'paket geliyor mu?' mesajları dakikada 1 düşüyor — siz mutfakta, garson serviste. AI asistanımız hepsine 60 saniyede yanıt veriyor, rezervasyonu açıyor.",
+
+  "stats": [
+    {"value": "60 sn", "label": "Rezervasyon Yanıtı"},
+    {"value": "7/24", "label": "Açık WhatsApp"},
+    {"value": "%48", "label": "Cuma Doluluk Artışı"},
+    {"value": "14 gün", "label": "Kurulum"}
+  ],
+
+  "problems": [
+    "Cuma 19:00 — şef mutfakta, kasiyer sipariş alıyor, WhatsApp'a düşen 'rezervasyon var mı?' mesajı 2 saat sonra görülüyor, müşteri başka yerde yedi.",
+    "'Vegan seçenek var mı?', 'fiyat ortalaması?', 'çocuk menüsü?' soruları her gün onlarca kez tekrarlıyor.",
+    "Paket sipariş mesajı geliyor ama kasiyer dolduğu için 30 dakika sonra cevap, müşteri Yemeksepeti'nden başka yere geçti.",
+    "Pazar günü tatildesiniz ama insanlar 'yarın açık mısınız?' diye yazıyor — kimse yanıtlamıyor, gelen müşteri kapalı kapıyla karşılaşıyor.",
+    "Yeni menü/kampanya çıktı ama eski WhatsApp'ta dolaşan 6 aylık menü fotoğrafı yanlış fiyat gösteriyor."
+  ],
+
+  "solutionSteps": [
+    {"title": "Menü & Saatler Brief'i", "description": "Tam menünüz, fiyat, alerjen bilgisi, açılış saatleri, paket teslimat bölgeleri AI'a tanıtılıyor. 1-2 günlük workshop."},
+    {"title": "WhatsApp Business API Kurulumu", "description": "Resmi Meta API, yeşil tik, gastronomi sektörü için uygun mesaj limiti."},
+    {"title": "Test Dönemi", "description": "İlk 5 gün siz onay verirken AI yanıtlar, hatalı yanıt anında düzeltilir."},
+    {"title": "Canlı + Aylık Optimizasyon", "description": "Hangi yemek en çok soruluyor, hangi saatte rezervasyon yığılıyor — menü ve operasyon içgörüsü."}
+  ],
+
+  "features": [
+    {"title": "Rezervasyon Sistemi", "description": "Müşteri 'cuma 4 kişi 20:00' deyince AI masa müsaitliğini görür, onaylar, hatırlatma gönderir. Restoran yönetim yazılımına entegre."},
+    {"title": "Menü & Fiyat Sorgu", "description": "Görsel menü gönderme, alerjen filtreleme (vegan, glutensiz, vejetaryen), günün önerisi."},
+    {"title": "Paket Sipariş Yönlendirme", "description": "Mesai içinde sipariş alır, mutfağa fişle gönderir; mesai dışı Yemeksepeti / Getir linki yönlendirir."},
+    {"title": "Açık/Kapalı & Tatil Bilgisi", "description": "Anlık saat sorgusu, bayram tatili, özel günler — net yanıt. Yanlış gelen müşteri olmaz."},
+    {"title": "Cuma Akşamı Doluluk Yönetimi", "description": "Doluluk yüksekken alternatif slot öneri (21:30 var, 22:30 var) — kaybetmektense esnek yönlendirme."},
+    {"title": "Sadakat & Hatırlatma", "description": "Düzenli müşteriye 'yeni menü çıktı', özel günde 'doğum günün kutlu olsun, masamız hazır' tarzı sıcak mesajlar."}
+  ],
+
+  "caseStudy": {
+    "title": "Cihangir Sokak Lezzeti: Cuma rezervasyon doluluğu %30'dan %78'e",
+    "paragraphs": [
+      "İstanbul Cihangir'de 40 kişilik bir butik restoran, hafta içi yarı dolu, hafta sonu rezervasyonla ancak doluyordu. WhatsApp aktif kullanılıyordu ama mesaiden sonra (24:00 sonrası) ve cuma akşamı yoğunluğunda gelen 30+ mesaj yanıtsız kalıyordu. Müşteriler 'cevap yok' deyip Beyoğlu'ndaki başka restoranlara gidiyordu.",
+      "Ocak 2026'da PORTZEN WhatsApp AI asistanını kurduk. 6 kategoride 48 yemek + 12 içecek + alerjen filtreleri + rezervasyon takvimi entegre edildi. AI hem rezervasyon alıyor hem menü gösteriyor hem de paket sipariş için Yemeksepeti'ne yönlendiriyor.",
+      "3 ay sonra: cuma akşamı doluluk oranı %30'dan %78'e çıktı. WhatsApp üzerinden alınan rezervasyon sayısı ayda 45'ten 180'e fırladı. Müdür 'eskiden cuma gece eve telefon kapalı dönmek isterdim, şimdi telefon zaten rahat' diyor."
+    ],
+    "beforeAfter": [
+      {"label": "Yanıt Süresi", "before": "2-4 saat", "after": "60 saniye"},
+      {"label": "Cuma Doluluk", "before": "%30", "after": "%78"},
+      {"label": "Aylık WA Rezervasyon", "before": "45", "after": "180"}
+    ]
+  },
+
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "6.500 TL/ay",
+      "description": "Tek lokasyon, menü + saat sorgu + manuel rezervasyon",
+      "features": ["WhatsApp Business API kurulumu", "Menü + fiyat bilgi tabanı", "Açık/kapalı + tatil sorgu", "Manuel rezervasyon yönlendirme", "Aylık 1 optimizasyon"]
+    },
+    {
+      "name": "Pro",
+      "price": "12.000 TL/ay",
+      "description": "Önerilen — akıllı rezervasyon + paket sipariş + sadakat",
+      "features": ["Başlangıç paketi içerikleri", "Otomatik rezervasyon sistemi", "Paket sipariş alma + yönlendirme", "Sadakat & doğum günü mesajları", "Yemeksepeti / Getir entegrasyon", "Haftalık optimizasyon"],
+      "highlighted": true
+    },
+    {
+      "name": "Zincir / Multi-Şube",
+      "price": "18.000 TL/ay",
+      "description": "Birden fazla şube, merkezi rezervasyon, marka koruma",
+      "features": ["Tüm Pro özellikler", "Çok şube koordinasyon", "Merkezi rezervasyon dashboard", "Şube bazlı menü/fiyat", "POS entegrasyonu (Adisyo, Logo)"]
+    }
+  ],
+
+  "faq": [
+    {"question": "Cuma akşamı 40 mesaj birden geliyor — AI kaldırır mı?", "answer": "Evet — AI eş zamanlı yüzlerce mesajı yanıtlar. WhatsApp Business API'nin saniyede 80 mesaj limiti var, biz bunun çok altında çalışıyoruz. Doluluk sorun değil."},
+    {"question": "Müşteri 'şefle konuşmak istiyorum' derse?", "answer": "AI hemen 'müsait olduğunda şefimiz dönecek' diyerek konuşmayı durdurur ve size bildirim gönderir. İnsan dokunuşunu hiçbir zaman engellemez."},
+    {"question": "Adisyo, Logo Restoran gibi POS sistemlerime bağlanır mı?", "answer": "Evet — en yaygın 6 restoran yazılımı entegrasyonu hazır. Özel sisteminiz varsa API entegrasyon ücretsiz."},
+    {"question": "Garsonum/kasiyerim işsiz mi kalır?", "answer": "Hayır — onlar sahada müşteri ağırlamaya odaklanır. Robot olarak telefon başına bağlanmaktan kurtulurlar. İş kalitesi artar."},
+    {"question": "Menü değişikliği yapınca AI'ı güncellemek ne kadar sürer?", "answer": "Self-servis panelimizden 5 dakikada menü güncelleyebilirsiniz. Fiyat artışı, yeni yemek, sezonluk menü — anında AI'a yansır."},
+    {"question": "Yemeksepeti'nin müşterimi çalmasını engelliyor mu?", "answer": "Mesai içinde direkt sizden sipariş alır (komisyon yok). Sadece mesai dışı Yemeksepeti yönlendirir — kayıp sıfır."},
+    {"question": "Sözleşme nasıl?", "answer": "İlk ay deneme, sonrasında aylık devam. İstediğin ay iptal edebilirsin. Asla taahhüt yok."}
+  ],
+
+  "finalCtaHeadline": "Cuma akşamı yine dolu olsun — telefonunuz değil.",
+  "finalCtaSubtitle": "15 dakikalık ücretsiz keşif: restoranınızın menüsünü AI'a tanıtıp canlı test yapalım. Beğenirseniz 14 gün içinde tüm rezervasyonlarınız otomatik."
+}

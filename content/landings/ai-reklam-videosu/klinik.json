@@ -1,0 +1,109 @@
+{
+  "sectorSlug": "klinik",
+  "sectorName": "Estetik Klinik",
+  "sectorPlural": "Klinikler",
+  "title": "Klinikler İçin AI Reklam Videosu | 3 Günde Sora & Veo Reklam — PORTZEN",
+  "description": "Estetik kliniğiniz için AI ile üretilmiş profesyonel reklam videoları. Çekim ekibi yok, 3 günde teslim, 5-10 kat daha ucuz. Sora, Veo, Kling ile Reels üretimi.",
+  "keywords": ["klinik reklam videosu", "estetik klinik ai video", "klinik instagram reklam", "ai reklam estetik", "klinik tanıtım video", "yapay zeka video klinik"],
+  "h1": "Estetik Klinikler için AI Reklam Videosu",
+  "heroSubtitle": "Sora, Veo, Kling, Seedance — AI video modelleriyle kliniğinize özel profesyonel reklam videoları. Çekim ekibi olmadan, 3 günde teslim.",
+  "stats": [
+    {"value": "3 gün", "label": "Ortalama Teslim"},
+    {"value": "5-10x", "label": "Daha Ucuz"},
+    {"value": "15 video", "label": "Aylık Paket"},
+    {"value": "4K", "label": "Çözünürlük"}
+  ],
+  "problems": [
+    "Profesyonel video çekimi için 40-80 bin TL bütçe ayıramıyorsunuz, ama Reels üretimi durmak bilmiyor",
+    "Yönetmen, kameraman, kurgucu ve oyuncudan oluşan ekip toplamak haftalar alıyor ve her seferinde sıfırdan başlıyor",
+    "Instagram algoritması haftada minimum 3-4 Reels istiyor, asistanınız Canva'da yetişemez hale geldi",
+    "Geçen yıl çektirdiğiniz tanıtım videosu artık eski hissettiriyor, marka tonunuz bile değişti",
+    "Rakip klinikler her hafta yeni öncesi/sonrası içerikleri çıkarıyor, sizinki sosyal medyada görünmüyor",
+    "Hasta gizliliği yüzünden gerçek danışan çekemiyorsunuz, stok videolar ise tıpkı diğer kliniklerle aynı"
+  ],
+  "solutionSteps": [
+    {"title": "1. Brief & Marka Analizi", "description": "Kliniğinizin tonunu, uzmanlık alanlarını (rinoplasti, dolgu, lazer, implant vb.), hedef kitleyi ve öncesi/sonrası verilerinizi alıyoruz. KVKK uyumlu prompt setine dönüştürüyoruz."},
+    {"title": "2. AI Senaryo + Storyboard", "description": "Her video için 9:16 dikey storyboard hazırlıyoruz — hook (ilk 3 saniye), prosedür anlatımı, sonuç vurgusu, CTA. Onay sonrası prompt'lar üretime giriyor."},
+    {"title": "3. Sora / Veo / Kling Render", "description": "Modelleri içerik tipine göre seçiyoruz: Sora 2 cinematic prosedür anlatımı için, Veo 3 lipsync dialog için, Kling close-up doku ve cilt detayı için. 4K render + DaVinci kurgu."},
+    {"title": "4. Teslim + Reels Yayın", "description": "Mp4 + Capcut proje dosyası teslim ediyoruz. İsterseniz Reels takvimine yerleştiriyor, caption ve hashtag setini de hazırlıyoruz."}
+  ],
+  "features": [
+    {"title": "Türkçe AI Seslendirme", "description": "ElevenLabs ile doğal Türkçe seslendirme — kadın/erkek, doktor tonu, samimi tonlama. İsterseniz hekiminizin sesini klonluyoruz."},
+    {"title": "Marka Tonu Tutarlılığı", "description": "Logo, renk paleti, font ve mesaj diliniz her videoda aynı. Brand kit oluşturup tüm üretime uyguluyoruz."},
+    {"title": "A/B Test Varyasyonları", "description": "Her video için 2-3 hook varyasyonu üretiyoruz. Hangisi daha iyi tutuyor — Meta Ads'te karşılaştırıyoruz."},
+    {"title": "Watermark & Brand Kit", "description": "Her video sonunda klinik logosu, alt yazıda doktor adı ve uzmanlık alanı. Marka kimliği videodan kopmuyor."},
+    {"title": "9:16 Dikey + 1:1 Kare", "description": "Aynı içerik Reels, TikTok, Stories ve feed post için ayrı formatlarda. Tek brief, 4 platform çıktısı."},
+    {"title": "24 Saat İçinde Revize", "description": "Beğenmediğiniz sahne, ton veya CTA varsa 24 saat içinde yeniden render alıyoruz. İlk render dahil 2 revize ücretsiz."}
+  ],
+  "caseStudy": {
+    "title": "İzmir Karşıyaka — Estetik Klinik: 4 Ayda 47 Reels, Erişim 22K → 340K",
+    "paragraphs": [
+      "Karşıyaka'da rinoplasti ve dolgu odaklı çalışan bir estetik klinik, 2025 başında PORTZEN'e geldiğinde aylık Instagram erişimi 22 bin civarında stagnant duruyordu. Mevcut içerik üretimi Canva post + tek kameralı klinik turu videosundan ibaretti, Reels üretimi 2 haftada 1 zar zor çıkıyordu.",
+      "İlk ay 15 Reels paketi ile başladık — 5 prosedür anlatımı (rinoplasti, lip filler, lazer epilasyon, hifu, mezoterapi), 5 sıkça sorulan soru cevabı, 5 öncesi/sonrası transformation videosu. 4. ayın sonunda toplam 47 Reels üretildi.",
+      "Sonuç: Instagram erişim 22K'dan 340K'ya çıktı, ortalama Reels izlenme oranı 8.4 bin, yeni danışan başvurusu (DM + WhatsApp + form toplam) %210 arttı. Klinik şimdi Pro paketle devam ediyor, ayda 15 video sabit."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık IG Erişim", "before": "22.000", "after": "340.000"},
+      {"label": "Reels Üretim Hızı", "before": "2 haftada 1", "after": "Haftada 4"},
+      {"label": "Yeni Danışan / Ay", "before": "18", "after": "56"},
+      {"label": "Video Üretim Maliyeti", "before": "8.500 TL/video", "after": "1.650 TL/video"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "12.000 TL/ay",
+      "description": "Reels üretimine yeni başlayan klinikler için",
+      "features": [
+        "Ayda 5 AI reklam videosu",
+        "9:16 dikey + 1:1 kare format",
+        "Türkçe AI seslendirme",
+        "2 revize hakkı / video",
+        "Caption + hashtag seti",
+        "WhatsApp destek"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "25.000 TL/ay",
+      "description": "Aktif sosyal medya yürüten klinikler için en popüler paket",
+      "features": [
+        "Ayda 15 AI reklam videosu",
+        "9:16 + 1:1 + 16:9 üç format",
+        "A/B test varyasyonları (2 hook/video)",
+        "Sınırsız revize",
+        "Marka brand kit oluşturma",
+        "Aylık içerik takvimi",
+        "Reels yayın takibi",
+        "Önceliklendirilmiş teslim (2 gün)"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "45.000 TL/ay",
+      "description": "Çok şubeli klinikler ve agresif büyüme hedefleyenler",
+      "features": [
+        "Ayda 30 AI reklam videosu",
+        "Tüm formatlar + 4K master",
+        "Komple Reels hesap yönetimi",
+        "Meta Ads kampanya yönetimi",
+        "Doktor ses klonlama dahil",
+        "Aylık performans raporu",
+        "Özel proje yöneticisi",
+        "Acil içerik (24 saat) hakkı"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Sora ile Veo arasındaki fark nedir, hangisini kullanıyorsunuz?", "answer": "İçerik tipine göre değişiyor. Sora 2 sinematik kamera hareketleri ve uzun anlatımlar için güçlü — prosedür tanıtımı, klinik turu için seçiyoruz. Veo 3 lipsync ve doktor konuşması için en iyisi. Kling cilt dokusu close-up'larında en gerçekçi sonucu veriyor. Brief sonrası içeriğe göre biz seçiyoruz, siz uğraşmıyorsunuz."},
+    {"question": "Videolarda kendi yüzümüz veya doktorumuzun yüzü çıkmalı mı?", "answer": "Şart değil. Çoğu klinik gizlilik ve KVKK kaygısıyla AI avatar tercih ediyor. Ama isterseniz hekiminizin fotoğraflarından digital twin oluşturup, kendi yüzüyle konuşan videolar üretebiliyoruz — bu özellik Premium pakette dahil."},
+    {"question": "5 video paketi ile gerçekten 5 farklı kaliteli video çıkar mı?", "answer": "Çıkar, çünkü her video sıfırdan brief alıp storyboard yazıyoruz — kalıp video değil. Başlangıç paketindeki 5 video genelde 5 farklı prosedür veya 5 farklı SSS oluyor. Tekrara düşmemek için aylık içerik takvimi planlıyoruz."},
+    {"question": "Hangi formatlarda teslim ediyorsunuz?", "answer": "MP4 4K master, 1080p web versiyonu, 9:16 Reels/TikTok, 1:1 feed, 16:9 YouTube. İsterseniz CapCut/Premiere proje dosyasını da veriyoruz, kendi ekibiniz son rötuş yapabiliyor."},
+    {"question": "Üretilen videoların telifi kime ait?", "answer": "Tamamen size ait. Sora, Veo gibi modeller ticari kullanım haklarını üretene veriyor. Biz size sınırsız kullanım hakkı + transfer veriyoruz, Meta Ads, TikTok Ads, YouTube Ads — istediğiniz yerde kullanabilirsiniz."},
+    {"question": "Bu videolar danışan getirmeyi garanti ediyor mu?", "answer": "Tek başına video danışan getirmez — doğru kitle, doğru bütçe ve sayfa optimizasyonu da gerekir. Ancak Pro+ paketlerde Meta Ads yönetimi dahil. Vaka çalışmamızdaki klinik 4 ayda %210 yeni danışan artışı yaşadı. Beklentinizi konuşalım, gerçekçi rakamı brief'te söyleyelim."},
+    {"question": "Sözleşme süresi nedir, iptal nasıl oluyor?", "answer": "Aylık çalışıyoruz, minimum 3 ay öneriyoruz çünkü algoritmanın videolarınıza alışması zaman alıyor. Aylık sonunda istediğiniz an feshedebiliyorsunuz, ceza yok. 3 aylık peşin ödemede %10 indirim uyguluyoruz."}
+  ],
+  "finalCtaHeadline": "Kliniğiniz için ilk AI reklam videosunu 3 günde teslim alın",
+  "finalCtaSubtitle": "Brief 20 dakika sürer, ilk video 72 saatte elinizde. WhatsApp'tan veya formdan ulaşın, 24 saat içinde geri dönüyoruz."
+}

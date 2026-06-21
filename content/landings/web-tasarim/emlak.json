@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "emlak",
+  "sectorName": "Emlak Ofisi",
+  "sectorPlural": "Emlak Ofisleri",
+  "title": "Emlak Ofisleri İçin Web Tasarım | Emlakjet Sync + Harita Entegrasyonu — PORTZEN",
+  "description": "Emlak ofisleri için Next.js web tasarım. Emlakjet API senkronizasyonu, harita entegrasyonu, gelişmiş filtre, WhatsApp lead form. SEO odaklı, mobil hızlı.",
+  "keywords": ["emlak web tasarım", "emlak ofisi websitesi", "emlakjet entegrasyonu", "emlak ilan sitesi", "gayrimenkul web tasarım", "emlak site yapımı"],
+  "h1": "Emlak Ofisleri için Profesyonel Web Tasarım",
+  "heroSubtitle": "Emlakjet API ile senkron portföy, harita entegrasyonu, gelişmiş filtre ve WhatsApp lead toplama — kendi markanız altında profesyonel emlak sitesi.",
+  "stats": [
+    {"value": "21 gün", "label": "Ortalama Teslim"},
+    {"value": "96+", "label": "Lighthouse Skoru"},
+    {"value": "Emlakjet", "label": "API Sync"},
+    {"value": "Harita", "label": "Entegrasyon"}
+  ],
+  "problems": [
+    "Tüm portföyünüz sahibinden.com ve emlakjet'te — müşteri sizi değil platformu tanıyor, marka değeri kazanamıyorsunuz",
+    "Kendi alan adınızda profesyonel siteniz yok, kartvizitte verecek link bile yok",
+    "Mobil arayan müşteri 30 saniyede aradığını bulamazsa siteyi kapatıyor, gelişmiş filtre olmayan sitelerde kayıp",
+    "Portföyünüzü düzgün gösteremiyorsunuz — fotoğraf galerisi, harita, çevre puanı, kat planı eksik",
+    "Google Maps üzerinde ofis kaydınız yok ya da güncel değil, 'X bölgesinde emlak ofisi' aramalarında çıkmıyorsunuz",
+    "Online iletişim formu yok, müşteri sadece telefon arayabiliyor — mesai dışı lead'ler kayıp"
+  ],
+  "solutionSteps": [
+    {"title": "1. Portföy & Bölge Analizi", "description": "Mevcut portföyünüzü (sahibinden, emlakjet linkleri), uzmanlık bölgelerinizi (Beylikdüzü, Maltepe, Bornova vb.), hedef segment (satılık konut, kiralık ofis, lüks villa) ve rakip analizinizi yapıyoruz."},
+    {"title": "2. UI/UX Tasarım", "description": "Figma'da emlak sektörüne özel tasarım — büyük görselli ilan kartları, harita-liste split view, gelişmiş filtre paneli. Mobil-first, müşteri 3 tıkta aradığını bulacak yapıda."},
+    {"title": "3. Next.js + Emlakjet Sync", "description": "Next.js 15 ile geliştirme. Emlakjet API entegrasyonu — portföyünüzü oradan çekiyoruz, kendi sitenizde otomatik güncelleniyor. Harita (Google Maps/Mapbox), gelişmiş filtre, WhatsApp lead form."},
+    {"title": "4. SEO + Google My Business", "description": "Bölge bazlı SEO (Beylikdüzü satılık, Maltepe kiralık vb.), Schema markup (RealEstateAgent + RealEstateListing), Google My Business profili optimizasyonu ve harita kaydı."}
+  ],
+  "features": [
+    {"title": "Emlakjet API Senkronizasyonu", "description": "Emlakjet veya sahibinden portföyünüz otomatik sitenize aktarılıyor. Yeni ilan eklediğinizde 5 dakika içinde sitenizde de görünüyor — çift veri girişi yok."},
+    {"title": "Harita + Liste Split View", "description": "Google Maps veya Mapbox üzerinde ilanlar pin olarak görünür, sol tarafta liste. Harita zoom'una göre liste güncelleniyor — Sahibinden tarzı premium UX."},
+    {"title": "Gelişmiş Filtre Sistemi", "description": "Fiyat aralığı, oda sayısı, m², bölge, kat, eşya durumu, yapı yaşı, ısıtma tipi — 15+ kriterli filtre. URL parametreleriyle paylaşılabilir aramalar."},
+    {"title": "Virtual Tour Embed", "description": "Matterport, Kuula veya YouTube 360° tur entegrasyonu. İlan sayfasında müşteri evi sanal gezebiliyor — fiziksel ziyaret öncesi eleme yapıyor."},
+    {"title": "WhatsApp Lead Form", "description": "Her ilan sayfasında 'Bilgi Al' butonu — formu doldurunca direkt WhatsApp'a düşüyor, ilan kodu + müşteri bilgisi otomatik. Mesai dışı bile lead kaçırmıyorsunuz."},
+    {"title": "Agent / Danışman Profili", "description": "Her emlak danışmanının kendi sayfası — fotoğraf, uzmanlık bölgesi, portföyü, müşteri yorumları. Ekip büyütünce ölçeklenebilir yapı."}
+  ],
+  "caseStudy": {
+    "title": "İstanbul Beylikdüzü — Emlak Ofisi: Organik Trafik 90 → 2.800/ay, Aylık 38 Yeni Lead",
+    "paragraphs": [
+      "Beylikdüzü'nde satılık + kiralık konut + ofis portföyü olan bir emlak ofisi 2025 başında PORTZEN'e geldi. Kendi siteleri yoktu, tüm portföy sahibinden ve emlakjet'te dağılmıştı. Aylık aldıkları lead'in tamamı platformlardan geliyordu, marka olarak Google'da görünmüyorlardı.",
+      "21 günde Profesyonel paket ile site teslim — Emlakjet API sync (180 aktif ilan otomatik aktarıldı), harita-liste split view, 17 kriterli gelişmiş filtre, virtual tour embed, agent profilleri (5 danışman), WhatsApp lead formu, bölge SEO sayfaları (Beylikdüzü satılık daire, Beylikdüzü kiralık ofis vb.).",
+      "İlk 3 ayda Google sıralaması bölge anahtar kelimelerinde ilk sayfaya çıktı. 6. ayın sonunda aylık organik trafik 2.800'e ulaştı, ay başı 38 yeni lead direkt siteden geliyor (önceden 0 idi). Lead başına maliyet sahibinden premium paketinin %15'ine düştü."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Organik Trafik", "before": "90", "after": "2.800"},
+      {"label": "Aylık Direkt Lead (siteden)", "before": "0", "after": "38"},
+      {"label": "Bölge SERP Ortalama", "before": "Sayfa 5+", "after": "Sayfa 1 (top 5)"},
+      {"label": "Lead Başına Maliyet", "before": "450 TL", "after": "65 TL"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Emlak Sitesi",
+      "price": "12.000 TL",
+      "description": "Tek seferlik — küçük ofis ve solo danışmanlar için",
+      "features": [
+        "5 sayfa + 1 portföy listeleme sayfası",
+        "Next.js + Tailwind",
+        "Mobil responsive + 90+ Lighthouse",
+        "WhatsApp sticky + lead formu",
+        "Temel SEO",
+        "20 ilana kadar manuel giriş",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "25.000 TL + 1.500 TL/ay",
+      "description": "Aktif emlak ofisleri için en popüler paket — Emlakjet sync dahil",
+      "features": [
+        "Emlakjet/sahibinden API sync",
+        "Sınırsız ilan kapasitesi",
+        "Harita-liste split view (Google Maps/Mapbox)",
+        "15+ kriterli gelişmiş filtre",
+        "Virtual tour embed (Matterport/Kuula/YouTube)",
+        "5 agent profili",
+        "Bölge SEO sayfaları (10 bölge)",
+        "Aylık bakım, güvenlik, SEO optimize"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "45.000 TL + 3.000 TL/ay",
+      "description": "Çok şubeli ofisler, agresif SEO ve sürekli içerik",
+      "features": [
+        "Sınırsız agent + sınırsız bölge",
+        "Çoklu şube yönetimi",
+        "Çoklu dil (TR/EN/AR/RU)",
+        "Bölge bazlı blog (aylık 4 makale)",
+        "Google Ads landing sayfaları",
+        "CRM entegrasyonu (Bitrix24/HubSpot)",
+        "Lead skorlama dashboardu",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Sitem ne kadar sürede hazır olur?", "answer": "Mini Emlak Sitesi 10-14 gün, Profesyonel 18-25 gün (Emlakjet API entegrasyonu süresi dahil), Premium 30-45 gün. Brief sonrası net gün veriyoruz."},
+    {"question": "Emlakjet API erişimi nasıl sağlanır?", "answer": "Emlakjet kurumsal müşterilere XML feed veya API erişimi veriyor — kurumsal hesabınızdan talep ediyorsunuz, biz entegrasyon tarafını yapıyoruz. Sahibinden için aynı şey geçerli (kurumsal hesap gerekli). Eğer şu an bireysel hesapsanız geçiş için yardımcı oluyoruz."},
+    {"question": "Sahibinden'i bırakmama gerek var mı?", "answer": "Hayır, paralel kullanın. Sahibinden marka tanınırlığı için kalsın, kendi siteniz organik trafiği + marka değeri + komisyon paylaşımsız lead için. Çoğu müşterimiz 6 ay sonra sahibinden harcamasını yarıya indirdi çünkü direkt lead'ler artmaya başladı."},
+    {"question": "Harita entegrasyonu için ücretli API mı gerekiyor?", "answer": "Google Maps trafik üstüne çıkana kadar free tier yeterli (aylık 28.000 yükleme ücretsiz). Mapbox da benzer cömert free tier sunuyor. Genelde küçük-orta ofis için ek maliyet çıkmıyor, büyük trafikte aylık 50-200 USD bandında kalıyor."},
+    {"question": "İlanları kendim ekleyebilir miyim?", "answer": "Profesyonel paketle Emlakjet/sahibinden senkron olduğu için orada eklediğinizde sitenize otomatik düşüyor. Manuel ekleme için Sanity CMS panel veriyoruz — fotoğraf yükle, başlık + açıklama + filtreleri seç, yayınla."},
+    {"question": "Çoklu dil siteyi tek seferde mi yapmalıyım?", "answer": "Şart değil. Premium paketle başlarsanız çoklu dil dahil. Profesyonel pakette başlarsınız, sonra ihtiyaç olursa +6.000 TL ile EN, +4.000 TL ile AR/RU ekliyoruz. Mimari hazır, sonradan kolay genişliyor."},
+    {"question": "İleride yeni özellik veya tasarım değişikliği istersem?", "answer": "Bakım paketinizde aylık 4-8 saat geliştirme dahil. Yeni özellikler (örn. mortgage hesaplayıcı, e-imza, online sözleşme) saat bazlı (1.500 TL/saat) faturalanıyor. Komple redesign için mevcut müşteri avantajı olarak %40 indirim uyguluyoruz."}
+  ],
+  "finalCtaHeadline": "Emlak ofisiniz için Sahibinden bağımlılığını bitirin",
+  "finalCtaSubtitle": "Brief 30 dakika sürer, Emlakjet sync'li profesyonel siteniz 3 haftada canlı. WhatsApp'tan ulaşın, 24 saat içinde geri dönüyoruz."
+}

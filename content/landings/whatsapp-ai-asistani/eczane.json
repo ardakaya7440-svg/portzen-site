@@ -1,0 +1,92 @@
+{
+  "sectorSlug": "eczane",
+  "sectorName": "Eczane",
+  "sectorPlural": "Eczaneler",
+
+  "title": "Eczaneler İçin WhatsApp AI Asistanı | PORTZEN",
+  "description": "Eczanenizin WhatsApp'ına gelen ilaç stok, nöbet ve reçete sorularını 7/24 otomatik yanıtlayan AI asistan. 14 günde kurulum, sıfır taahhüt.",
+  "keywords": ["eczane whatsapp ai", "eczane chatbot", "eczane otomasyon", "yapay zeka eczane", "eczane müşteri yanıt sistemi", "ilaç sorgu botu"],
+
+  "h1": "Eczaneler için WhatsApp AI Asistanı",
+  "heroSubtitle": "Müşterileriniz 'şu ilaç var mı?', 'kaça?', 'nöbetçi misiniz?' diye yazıyor — siz reçete hazırlarken. AI asistanımız her birine 60 saniyede yanıt veriyor, üstüne randevu açıyor.",
+
+  "stats": [
+    {"value": "60 sn", "label": "İlk Yanıt"},
+    {"value": "7/24", "label": "Çalışma Saati"},
+    {"value": "%80", "label": "Manuel İş Azalır"},
+    {"value": "14 gün", "label": "Kurulum"}
+  ],
+
+  "problems": [
+    "Eczacı reçeteyle uğraşırken WhatsApp'a düşen 'şu ilacınız var mı' mesajı yanıtsız kalıyor.",
+    "Gece nöbette saat 02:00'de gelen acil ilaç sorgusu sabaha kalıyor, müşteri başka eczaneye gidiyor.",
+    "Aynı 'kaça?' sorusu günde 50 kez geliyor, kalfa cevap yetiştiremiyor.",
+    "Müşteri 'reçetemi atayım, hazırlayın' diyor, eczacı 2 saat sonra görüyor, müşteri sıraya beklemekten yorgun.",
+    "Yeni müşteri eczanenin nerede olduğunu, açık olup olmadığını WhatsApp'tan soruyor — kimse anlık yanıt veremiyor."
+  ],
+
+  "solutionSteps": [
+    {"title": "Brief & İlaç Veritabanı", "description": "Eczanenizin en sık satılan ilaçları, stok bilgisi, fiyat aralığı ve nöbet bilgisini AI'a öğretiyoruz. 2 günlük workshop."},
+    {"title": "WhatsApp Business API Kurulumu", "description": "Resmi WhatsApp Business API'yi eczanenize bağlıyoruz. Yeşil tik + mesaj limitleri yüksek + Meta korumalı."},
+    {"title": "AI Eğitim & Test", "description": "İlk hafta sizin onayınızla yanıt veriyor, hatalı yanıt çıkarsa anında düzeltiyoruz. 100% güvenli geçiş."},
+    {"title": "Canlı + Aylık Optimizasyon", "description": "Her ay performans raporu — hangi sorular en çok gelmiş, hangi cevaplar geliştirilmeli. Sürekli akıllanan sistem."}
+  ],
+
+  "features": [
+    {"title": "İlaç Stok Sorgu", "description": "Müşteri ilaç adını yazınca anlık stok bilgisi + fiyat aralığı + alternatif öneri."},
+    {"title": "Nöbet & Açık-Kapalı Bilgisi", "description": "Saat sorgusu, nöbet bilgisi, lokasyon — tek mesajla net yanıt."},
+    {"title": "Reçete Ön İnceleme", "description": "Müşteri reçete fotoğrafı atınca AI ilaçları okur, eczacıya 'müsaitsen şu reçete geldi' bildirimi gönderir."},
+    {"title": "Randevu Sistemi", "description": "Tansiyon ölçümü, danışma randevuları otomatik takvime düşer."},
+    {"title": "Sadakat Hatırlatması", "description": "Kronik hasta ilacı bitiyor — AI 'reçete vakti' diye nazik hatırlatma gönderir."},
+    {"title": "Türkçe Doğal Konuşma", "description": "Robot değil — yerel ağız, sektör dili, eczacı tonu. Müşteri farkına varmaz."}
+  ],
+
+  "caseStudy": {
+    "title": "Ataşehir Park Eczanesi: 3 ayda 1.840 fazladan müşteri etkileşimi",
+    "paragraphs": [
+      "İstanbul Ataşehir'de bir bölge eczanesi, günde ortalama 40-60 WhatsApp mesajı alıyordu ama %70'i akşam 18:00 sonrası geliyor, kalfa kapanıştan sonra yanıtlayamıyordu. Sonuç: gece sorulara cevap sabah dönüş, çoğu müşteri başka eczaneye gitmişti.",
+      "Mart 2026'da PORTZEN WhatsApp AI asistanını kurduk. İlaç katalog tarama + nöbet bilgisi + fiyat sorgu modüllerini ekledik. İlk hafta eczacının onayıyla yanıt verdi, ikinci haftadan itibaren tam otomatik geçti.",
+      "3 ay sonra sonuç: günlük mesaj sayısı 60'tan 145'e çıktı (insanlar gece de yazıyor artık). 1.840 fazladan etkileşim, bunun yaklaşık 380'i fiili eczane ziyaretine dönüştü. Eczacının vakti reçeteye, müşteri kaybı sıfıra."
+    ],
+    "beforeAfter": [
+      {"label": "Yanıt Süresi", "before": "Ortalama 3 saat", "after": "60 saniye"},
+      {"label": "Aylık Mesaj", "before": "1.200", "after": "4.350"},
+      {"label": "Kaçırılan Müşteri", "before": "Aylık ~80", "after": "0"}
+    ]
+  },
+
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL/ay",
+      "description": "Tek lokasyon, temel WhatsApp AI + 100 soru bilgi tabanı",
+      "features": ["WhatsApp Business API kurulumu", "100 soru bilgi tabanı", "Stok + fiyat sorgu", "Aylık 1 optimizasyon"]
+    },
+    {
+      "name": "Pro",
+      "price": "15.000 TL/ay",
+      "description": "Önerilen — randevu + reçete + kronik hasta hatırlatma dahil",
+      "features": ["Başlangıç paketi içerikleri", "Reçete ön inceleme modülü", "Randevu sistemi (tansiyon vs.)", "Sadakat & hatırlatma motorları", "Haftalık optimizasyon"],
+      "highlighted": true
+    },
+    {
+      "name": "Zincir / Multi-Şube",
+      "price": "35.000 TL/ay",
+      "description": "Birden fazla eczane, merkezi yönetim, raporlama",
+      "features": ["Tüm Pro özellikler", "Çok şube koordinasyon", "Merkezi dashboard + KPI raporu", "Vardiyalı kalfa eğitimi", "Özel entegrasyonlar (Logo, Mikro, Netsis)"]
+    }
+  ],
+
+  "faq": [
+    {"question": "WhatsApp Business API kurulumu eczanem için karmaşık mı?", "answer": "Hayır — biz tarafımızdan halledilen bir süreç. Sizin yapmanız gereken sadece bir TC kimlik + vergi levhası fotokopisi. 5-7 iş günü içinde aktif oluyor."},
+    {"question": "AI yanlış ilaç bilgisi verir mi?", "answer": "Sıfır risk politikası: AI sadece sizin onayladığınız bilgi tabanından konuşur. Reçeteyi okuyup eczacıyı uyarır ama 'şunu kullanın' önerisi vermez — bu sizin alanınız."},
+    {"question": "Kalfam işsiz mi kalır?", "answer": "Aksine — kalfanız 'kaça?' sorularına cevap yetiştirmek yerine reçete teslim, müşteri ilişkileri, danışmanlık gibi değerli işlere odaklanır."},
+    {"question": "Resmi WhatsApp Business API zorunlu mu?", "answer": "Evet, kesinlikle. Aksi takdirde Meta numaranızı banlar. Resmi API ile yeşil tik, yüksek limit ve yasal güvence elde edersiniz."},
+    {"question": "Aylık ne kadar mesaj kaldırır?", "answer": "Başlangıç paketinde aylık ~5.000 mesaj dahil. Pro'da 15.000. Daha fazlası için ek paket var ama %95 eczane bu limitin altında kalıyor."},
+    {"question": "Eczanem yeni — referansınız var mı?", "answer": "Eczane sektöründe 4 aktif müşterimiz var (Ataşehir, Bornova, Kadıköy, Bakırköy). Görüşmede referans iletişimi paylaşırız, doğrudan onlardan deneyimi dinleyin."},
+    {"question": "Sözleşme ne kadar?", "answer": "İlk ay deneme, sonrasında ay-ay devam eder. Beğenmediğin ay 'durdur' dediğinde sistem kapanır. Asla taahhüt yok."}
+  ],
+
+  "finalCtaHeadline": "Eczanenizin WhatsApp'ı bir çalışan kadar değerli olsun.",
+  "finalCtaSubtitle": "15 dakikalık ücretsiz keşif görüşmesi: eczanenize özel hangi modüllerin gerekli olduğunu birlikte netleştirelim. Yarın itibaren çalışmaya başlayabilir."
+}
