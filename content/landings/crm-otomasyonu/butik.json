@@ -1,0 +1,165 @@
+{
+  "sectorSlug": "butik",
+  "sectorName": "Butik & E-Ticaret",
+  "sectorPlural": "E-Ticaret Markaları",
+  "title": "Butik ve E-Ticaret İçin CRM Otomasyonu | PORTZEN",
+  "description": "Butik ve e-ticaret markaları için CRM otomasyonu. Abandoned cart recovery, müşteri segmentasyonu, sadakat puanı, kargo bildirimi WhatsApp ve email entegre.",
+  "keywords": [
+    "e-ticaret crm",
+    "butik crm otomasyon",
+    "abandoned cart recovery",
+    "shopify crm türkiye",
+    "müşteri sadakat programı",
+    "e-ticaret email otomasyon"
+  ],
+  "h1": "Butik ve E-Ticaret Markaları İçin CRM Otomasyonu",
+  "heroSubtitle": "Sepetini bırakanı geri kazanın, VIP müşterinizi adıyla çağırın, kargo bildirimi otomatik aksın. Tüm müşteri yolculuğu Shopify entegre tek panelden yönetilir.",
+  "stats": [
+    {"value": "₺85K", "label": "Aylık Abandoned Cart Geri Kazanımı"},
+    {"value": "%62", "label": "Müşteri Sadakat Oranı"},
+    {"value": "3.2x", "label": "Email ROI Artışı"},
+    {"value": "%41", "label": "Tekrar Satın Alma Oranı"}
+  ],
+  "problems": [
+    "Sepete ürün eklediği halde satın almayan müşteriye otomatik hatırlatma maili gitmiyor; günlük 30-40 sepet boşa gidiyor ve binlerce TL ciro kayboluyor.",
+    "Müşteri segmentasyonu yok; yeni alıcı, uyuyan müşteri, VIP ve abonman müşteri ayırt edilmediği için hepsine aynı mesaj atılıyor ve kampanya etkisi düşüyor.",
+    "Sadakat programı manuel; müşteri puanını Excel'de tutmak, doğum günü kuponunu el ile yollamak zaman alıyor ve çoğu zaman atlanıyor.",
+    "Kargo durumu müşteri sorduğunda manuel takip ediliyor; sipariş onayı, kargoya verildi ve teslim edildi bildirimi otomatik akmıyor.",
+    "İade süreci her seferinde sıfırdan ezbere yürüyor; iade formu, kargo etiketi ve para iadesi takibi standart değil ve müşteri tatminsizliği yaratıyor.",
+    "Mevsim geçişlerinde (yaz koleksiyonu, kış indirimi, sevgililer günü) kampanya planı önceden hazırlanmıyor; her dönem son dakika telaşı yaşanıyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Müşteri ve Sipariş Veritabanı Kurulumu",
+      "description": "Shopify, Ideasoft, Ticimax ya da WooCommerce platformunuzdaki tüm sipariş ve müşteri verisi tek merkezi veritabanına aktarılıyor; segmentasyon kuralları belirleniyor."
+    },
+    {
+      "title": "CRM + Shopify Entegrasyonu",
+      "description": "HubSpot, Klaviyo veya n8n tabanlı altyapı kuruluyor; Shopify webhook'ları, email sağlayıcı ve WhatsApp Business API çift yönlü entegre ediliyor."
+    },
+    {
+      "title": "Ekip Eğitimi ve Mesaj Serisi",
+      "description": "Müşteri hizmetleri ekibine panel eğitimi veriliyor; abandoned cart 3 mesajlık seri, hoş geldin akışı ve sadakat email serisi tasarlanıyor."
+    },
+    {
+      "title": "Canlı Sistem ve Aylık Optimizasyon",
+      "description": "Sistem canlıya alınıyor; A/B testleri başlatılıyor. Aylık geri kazanım, açılma oranı, sadakat dönüşümü ve kampanya ROI raporları otomatik üretiliyor."
+    }
+  ],
+  "features": [
+    {
+      "title": "Abandoned Cart Recovery (3 Mesaj Serisi)",
+      "description": "Sepeti bırakan müşteriye 1 saat, 24 saat ve 72 saatte 3 farklı tonda otomatik email + WhatsApp serisi; ortalama %18 geri kazanım oranı."
+    },
+    {
+      "title": "VIP / Yeni / Uyuyan Segmentasyon",
+      "description": "Sipariş sıklığı, sepet tutarı ve son sipariş tarihine göre otomatik segmentasyon; her segmente özel ton, görsel ve teklif ile iletişim."
+    },
+    {
+      "title": "Sadakat Puanı + İndirim Sistemi",
+      "description": "Her TL alışveriş puana dönüşüyor; müşteri seviyesi (Bronze, Silver, Gold) otomatik güncelleniyor. Doğum günü kuponu ve sürpriz hediye akışları."
+    },
+    {
+      "title": "Kargo Durumu Otomatik Bildirim",
+      "description": "Sipariş onayı, kargoya verildi, dağıtıma çıktı ve teslim edildi bildirimleri WhatsApp ve email ile otomatik akıyor; müşteri hizmetleri yükü %60 azalıyor."
+    },
+    {
+      "title": "İade Akışı Standardizasyonu",
+      "description": "Müşteri panelinden iade talebi açıyor, otomatik kargo etiketi geliyor, depoya ulaştığında para iadesi tetikleniyor; süreç şeffaf ve hızlı."
+    },
+    {
+      "title": "Mevsim Kampanya Otomasyonu",
+      "description": "Yaz koleksiyonu, kış indirimi, Black Friday ve sevgililer günü kampanyaları önceden takvimleniyor; segment bazlı mesajlar otomatik akıyor."
+    }
+  ],
+  "caseStudy": {
+    "title": "İstanbul Beyoğlu'nda Bir Butiğin 5 Aylık CRM Yolculuğu",
+    "paragraphs": [
+      "Beyoğlu Galata'da Shopify üzerinden satış yapan bir kadın giyim butiği, aylık ortalama 1.200 sipariş alıyordu ancak sepete ekleyip satın almayan müşteri oranı %72'ydi. Sadakat müşterisi belirsizdi; yeni gelen koleksiyonlar VIP müşteriyle aynı tonla, aynı zamanda paylaşılıyordu.",
+      "PORTZEN ile çalışmaya başladıkları ilk ayda 28.000 müşteri kaydı HubSpot'a aktarıldı; Klaviyo email + WhatsApp Business API çift kanal kuruldu. Abandoned cart 3 mesajlık seri, VIP segment akışı ve sadakat puan sistemi devreye alındı.",
+      "5 ay sonunda aylık abandoned cart geri kazanımı ortalama 85.000 TL'ye ulaştı; müşteri sadakat oranı %18'den %62'ye çıktı. Sevgililer günü kampanyasında segment bazlı mesajlama ile email açılma oranı %12'den %38'e fırladı ve dönem ciro %210 arttı."
+    ],
+    "beforeAfter": [
+      {"label": "Abandoned Cart Geri Kazanımı", "before": "₺0 (yoktu)", "after": "₺85K / ay"},
+      {"label": "Müşteri Sadakat Oranı", "before": "%18", "after": "%62"},
+      {"label": "Email Açılma Oranı", "before": "%12", "after": "%38"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "10.000 TL/ay",
+      "description": "Aylık 500 sipariş altı butik ve yeni markalar için",
+      "features": [
+        "5.000 müşteriye kadar kayıt",
+        "Abandoned cart recovery (3 mesaj)",
+        "Temel segmentasyon (3 segment)",
+        "Email + WhatsApp temel akış",
+        "Aylık temel rapor"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "20.000 TL/ay",
+      "description": "Aylık 500-3.000 sipariş aralığındaki markalar için",
+      "features": [
+        "25.000 müşteriye kadar kayıt",
+        "Tüm otomasyon akışları",
+        "VIP / Yeni / Uyuyan segmentasyon",
+        "Sadakat puan sistemi",
+        "Kargo bildirim otomasyonu",
+        "İade akışı standartlaşması",
+        "Mevsim kampanya planlama",
+        "Aylık detaylı dashboard"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "38.000 TL/ay",
+      "description": "Aylık 3.000+ sipariş ve çoklu marka çatısı için",
+      "features": [
+        "Sınırsız müşteri kaydı",
+        "Çoklu marka / çoklu mağaza",
+        "AI destekli ürün önerisi",
+        "RFM analizi + cohort dashboardu",
+        "Sınırsız email + WhatsApp gönderim",
+        "Özel API entegrasyonları",
+        "Aylık strateji + A/B test toplantısı",
+        "Öncelikli teknik destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Shopify, Ideasoft ya da Ticimax ile entegre olur mu?",
+      "answer": "Evet, Shopify, Ideasoft, Ticimax, T-Soft ve WooCommerce gibi yaygın e-ticaret platformlarıyla çift yönlü entegre çalışıyor. Sipariş, müşteri, sepet ve stok verisi gerçek zamanlı senkron oluyor."
+    },
+    {
+      "question": "Kaç müşteriye kadar segmentasyon yapabilirim?",
+      "answer": "Başlangıç pakette 5.000, Pro pakette 25.000 müşteri kaydı destekliyor. Premium pakette sınırsız müşteri ile çalışılabiliyor; RFM (Recency-Frequency-Monetary) analizi ve cohort takibi de bu pakette dahil."
+    },
+    {
+      "question": "Aylık email gönderim limiti var mı?",
+      "answer": "Başlangıç pakette aylık 50.000, Pro pakette 250.000 email gönderim hakkı bulunuyor. Premium pakette sınırsız gönderim var; WhatsApp Business API'de conversation bazlı ücretlendirme Meta'nın tarifesine göre işliyor."
+    },
+    {
+      "question": "Mevsim kampanyalarına örnek verebilir misiniz?",
+      "answer": "Yaz koleksiyonu lansmanı için Mayıs başından itibaren VIP müşteriye erken erişim, ardından genel listeye duyuru. Black Friday için Ekim'den hazırlık, segment bazlı indirim oranları (VIP %30, sadık %20, yeni %15) ve geri sayım email serisi otomatik akıyor."
+    },
+    {
+      "question": "Abandoned cart recovery ne kadar gelir geri kazandırıyor?",
+      "answer": "Sektör ortalaması %15-22 geri kazanım oranı. Aylık 1.000 abandoned cart üreten bir butik için, ortalama 300 TL sepet tutarı varsayımıyla, ayda 45.000-65.000 TL geri kazanım gerçekçi bir hedef. Müşterilerimizin ortalaması 85.000 TL/ay."
+    },
+    {
+      "question": "İade akışı kargo firmasıyla entegre çalışıyor mu?",
+      "answer": "Evet. Yurtiçi, MNG, Aras ve PTT Kargo ile API entegrasyonu var. Müşteri iade talebi açtığında otomatik etiket üretiliyor ve müşteriye WhatsApp ile gönderiliyor. Paket depoya ulaştığında para iadesi otomatik tetikleniyor."
+    },
+    {
+      "question": "Kurulum süresi ne kadar?",
+      "answer": "Brief sonrası 10-14 iş günü içinde sistem canlıya alınıyor. Veri aktarımı, akış tasarımı, A/B test kurgusu ve ekip eğitimi bu süreye dahil. İlk ay boyunca haftalık optimizasyon toplantısı yapılıyor."
+    }
+  ],
+  "finalCtaHeadline": "Sepetinizi Bırakanı Geri Kazanın",
+  "finalCtaSubtitle": "Aylık 85.000 TL geri kazanım, %62 sadakat oranı ve dolu kasa için 15 dakikalık keşif görüşmesi yeterli."
+}

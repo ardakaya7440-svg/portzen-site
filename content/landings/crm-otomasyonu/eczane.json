@@ -1,0 +1,163 @@
+{
+  "sectorSlug": "eczane",
+  "sectorName": "Eczane",
+  "sectorPlural": "Eczaneler",
+  "title": "Eczaneler İçin CRM Otomasyonu | PORTZEN",
+  "description": "Eczaneler için KVKK ve ITS uyumlu CRM otomasyonu. Kronik hasta takibi, ilaç bitti hatırlatma, randevu sistemi ve sadakat programı WhatsApp entegre.",
+  "keywords": [
+    "eczane crm",
+    "eczane otomasyon",
+    "kronik hasta takibi",
+    "ilaç bitti hatırlatma",
+    "eczane whatsapp otomasyon",
+    "eczane sadakat programı"
+  ],
+  "h1": "Eczaneler İçin KVKK ve ITS Uyumlu CRM Otomasyonu",
+  "heroSubtitle": "Kronik hastanız ilaç bittiğinde sizi hatırlamasın, siz onu hatırlatın. Reçeteden tansiyon ölçümüne kadar tüm hasta yolculuğu tek panelden, WhatsApp ile akıyor.",
+  "stats": [
+    {"value": "%78", "label": "Kronik Hasta Dönüşümü"},
+    {"value": "+850", "label": "Aylık Ek Satış"},
+    {"value": "21 gün", "label": "Ortalama Geri Dönüş"},
+    {"value": "%100", "label": "KVKK + ITS Uyumlu"}
+  ],
+  "problems": [
+    "Kronik hastalar (tansiyon, diyabet, kalp ilacı kullananlar) Excel listesinde tutuluyor; ilaç bitiminde hatırlatma yapmak çalışanın inisiyatifine kalıyor ve çoğu zaman atlanıyor.",
+    "Aylık tekrar reçeteli ilacın bittiği tarihi takip eden bir sistem yok; hasta ihmal edilirse rakip eczaneye gidiyor ve geri kazanmak güçleşiyor.",
+    "Tansiyon ölçümü, kan şekeri takibi ve enjeksiyon randevuları hâlâ defter veya WhatsApp mesajıyla yönetiliyor; çakışma ve unutma yaygın.",
+    "Bir hastanın birden fazla doktordan aldığı reçeteleri koordine etmek, yan etki ya da etkileşim açısından kontrol etmek tamamen eczacının hafızasına bırakılıyor.",
+    "Sürekli alışveriş yapan sadık müşteri ile ara sıra uğrayan müşteri ayırt edilmiyor; sadakat programı, doğum günü hediyesi ya da kişiye özel kampanya yok."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Hasta ve İlaç Veritabanı Kurulumu",
+      "description": "Mevcut Excel, defter ve eczane otomasyonu verileri (Farmakom, Farmasis vb.) tek bir merkezi veritabanına aktarılıyor; ilaç-hasta ilişkisi haritalanıyor."
+    },
+    {
+      "title": "CRM ve WhatsApp+SMS Entegrasyonu",
+      "description": "HubSpot ya da n8n tabanlı altyapı kuruluyor; WhatsApp Business API ve SMS sağlayıcı entegre ediliyor. ITS sistemi ile veri senkronizasyonu sağlanıyor."
+    },
+    {
+      "title": "Ekip Eğitimi ve KVKK Uyumu",
+      "description": "Eczane çalışanlarına 2 günlük panel ve süreç eğitimi veriliyor; KVKK aydınlatma metinleri, açık rıza formları ve ITS uyum dökümanları hazırlanıyor."
+    },
+    {
+      "title": "Canlı Sistem ve Aylık Raporlama",
+      "description": "Sistem canlıya alınıyor; aylık kronik hasta dönüşüm, ek satış, randevu doluluk ve müşteri sadakat raporları otomatik üretiliyor."
+    }
+  ],
+  "features": [
+    {
+      "title": "Kronik Hasta + İlaç Bitti Hatırlatma",
+      "description": "Sistem her hastanın aylık reçeteli ilacının bitiş tarihini takip ediyor; 3 gün önceden hastaya WhatsApp ile nazik hatırlatma gönderiyor."
+    },
+    {
+      "title": "Randevu Sistemi (Tansiyon, Kan Şekeri)",
+      "description": "Hasta tansiyon ölçümü, kan şekeri kontrolü ya da enjeksiyon randevusunu WhatsApp üzerinden saat seçerek alabiliyor; ekran ve telefondan görülebiliyor."
+    },
+    {
+      "title": "Sadakat Puanı (Sıklık + Tutar)",
+      "description": "Her hasta satın alma sıklığı ve tutarına göre puanlanıyor; VIP, sadık ve uyuyan segmentleri otomatik oluşuyor. Doğum günü ve özel günlerde tetiklenen kampanyalar."
+    },
+    {
+      "title": "KVKK + ITS Tam Uyumlu Altyapı",
+      "description": "Aydınlatma metni, açık rıza yönetimi, veri silme talebi ve ITS senkronizasyonu tüm süreçlerde mevzuata uygun şekilde işliyor."
+    },
+    {
+      "title": "Çoklu Reçete Koordinasyon",
+      "description": "Bir hastanın birden fazla doktordan aldığı reçeteleri tek panelde görüyorsunuz; etkileşim uyarısı eczacıya ekrandan düşüyor."
+    },
+    {
+      "title": "Aylık Kazanç ve Sevk Raporu",
+      "description": "Hangi kronik hasta segmenti ne kadar ciro getirdi, hangi hatırlatma kampanyası kaç hasta geri kazandı; tek tıkla PDF rapor."
+    }
+  ],
+  "caseStudy": {
+    "title": "Ataşehir'de Bir Eczanenin 4 Aylık CRM Dönüşümü",
+    "paragraphs": [
+      "Ataşehir Barbaros Mahallesi'nde 18 yıllık bir eczane, günlük 280-320 müşteri trafiğine rağmen kronik hastalarının yalnızca %32'sini düzenli olarak takip edebiliyordu. İlaç bittiğinde hastanın hatırlatması bekleniyor; sonuç olarak hasta çoğu zaman yakındaki rakibe gidiyordu.",
+      "PORTZEN ile çalışmaya başladıkları ilk ayda 4.200 hasta ve 12.000 ilaç kaydı veritabanına aktarıldı; HubSpot + WhatsApp Business API altyapısı kuruldu. KVKK aydınlatma metni ve ITS uyumu sağlanarak çalışanlara 2 günlük panel eğitimi verildi.",
+      "4. ay sonunda kronik hasta dönüşüm oranı %32'den %78'e çıktı; ilaç bitti hatırlatma sayesinde aylık 850 ek satış kazanıldı. Tansiyon ölçümü randevusu doluluğu %22'den %91'e yükseldi ve aylık ciro %43 arttı."
+    ],
+    "beforeAfter": [
+      {"label": "Kronik Hasta Dönüşümü", "before": "%32", "after": "%78"},
+      {"label": "Aylık Ek Satış", "before": "120 satış", "after": "850+ satış"},
+      {"label": "Randevu Doluluk", "before": "%22", "after": "%91"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.000 TL/ay",
+      "description": "Tek lokasyon mahalle eczaneleri için temel paket",
+      "features": [
+        "1.500 hastaya kadar kayıt",
+        "Kronik hasta hatırlatma",
+        "Tek kanal WhatsApp",
+        "KVKK + ITS uyum dökümanları",
+        "Aylık temel rapor"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "16.000 TL/ay",
+      "description": "Yoğun trafikli ve hizmet eczaneleri için tercih edilen paket",
+      "features": [
+        "5.000 hastaya kadar kayıt",
+        "Tüm hatırlatma akışları",
+        "WhatsApp + SMS çift kanal",
+        "Randevu sistemi (tansiyon, ölçüm)",
+        "Sadakat puanı + segmentasyon",
+        "Çoklu reçete koordinasyon",
+        "Aylık detaylı dashboard"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "32.000 TL/ay",
+      "description": "Zincir eczaneler ve hastane çıkış eczaneleri için",
+      "features": [
+        "Sınırsız hasta kaydı",
+        "Çoklu şube koordinasyonu",
+        "Doktor sevk takibi",
+        "Otomatik kampanya motorları",
+        "Özel rapor + BI bağlantısı",
+        "Sınırsız WhatsApp gönderim",
+        "Aylık optimizasyon toplantısı",
+        "Öncelikli teknik destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "KVKK ve ITS mevzuatına nasıl uyum sağlıyorsunuz?",
+      "answer": "Sistem kurulurken kişisel sağlık verisi standartlarına uygun aydınlatma metinleri, açık rıza formları ve veri silme talebi süreçleri hazırlanıyor. ITS ile veri senkronizasyonu mevzuat çerçevesinde, eczacının onayıyla işliyor; sağlık verisi şifreli sunucularda saklanıyor."
+    },
+    {
+      "question": "Kaç hasta kaydını sisteme aktarabilirim?",
+      "answer": "Başlangıç paketi 1.500, Pro paketi 5.000 hasta kaydına kadar destekliyor. Premium pakette sınırsız kayıt yapılabiliyor; mevcut Excel, Farmakom veya Farmasis verisi 2 iş günü içinde aktarılıyor."
+    },
+    {
+      "question": "Doktor sevk takibi yapabiliyor muyuz?",
+      "answer": "Evet, Premium pakette doktor sevk takibi var. Hangi doktordan kaç hasta sevk geldi, hangi reçete ile, ortalama ne kadarlık alışveriş yaptı gibi metrikleri görebiliyorsunuz; teşekkür mesajı ve referans takip akışları otomatik kuruluyor."
+    },
+    {
+      "question": "Reçete verilerinin güvenliği nasıl sağlanıyor?",
+      "answer": "Reçete ve sağlık verileri AES-256 şifreleme ile saklanıyor; sunucular Türkiye lokasyonlu KVKK uyumlu veri merkezinde duruyor. Çalışan erişim yetkileri rol bazlı ayarlanıyor; her görüntüleme loglanıyor."
+    },
+    {
+      "question": "Hatırlatma mesajları WhatsApp mı yoksa SMS mi?",
+      "answer": "Başlangıç pakette sadece WhatsApp Business API; Pro ve Premium pakette WhatsApp + SMS çift kanal var. Hasta WhatsApp kullanmıyorsa sistem otomatik olarak SMS'e düşüyor; iletişim kaybı yaşanmıyor."
+    },
+    {
+      "question": "Mevcut eczane otomasyonumla (Farmakom, Farmasis) entegre olur mu?",
+      "answer": "Evet. Farmakom, Farmasis ve Eczanem gibi yaygın eczane otomasyon sistemleriyle çift yönlü entegre çalışıyor. Satış verisi otomatik akıyor; çift kayıt derdi olmuyor."
+    },
+    {
+      "question": "Sistem kurulumu ne kadar sürer ve eğitim nasıl yapılır?",
+      "answer": "Kurulum brief sonrası 7-10 iş günü sürüyor. Eczane çalışanlarına 2 gün boyunca yerinde panel eğitimi, video kayıt ve PDF rehber sağlanıyor. İlk ay boyunca haftalık check-in görüşmesi yapılıyor."
+    }
+  ],
+  "finalCtaHeadline": "Kronik Hastalarınızı Rakibe Kaybetmeyin",
+  "finalCtaSubtitle": "İlaç bitti hatırlatma, randevu sistemi ve sadakat programı tek panelde. 15 dakikalık ücretsiz keşif görüşmesi için talep oluşturun."
+}

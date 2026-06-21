@@ -1,0 +1,164 @@
+{
+  "sectorSlug": "butik",
+  "sectorName": "Butik & E-Ticaret",
+  "sectorPlural": "E-Ticaret Markaları",
+  "title": "E-Ticaret İçin WhatsApp AI Asistanı | Stok, Beden, Kargo — PORTZEN",
+  "description": "Butik ve e-ticaret markanıza gelen stok, beden, kargo ve iade sorgularını anında yanıtlayan AI asistan. Shopify ve WooCommerce entegrasyonu, abandoned cart toparlama.",
+  "keywords": [
+    "e-ticaret whatsapp ai",
+    "butik chatbot",
+    "shopify whatsapp entegrasyon",
+    "abandoned cart whatsapp",
+    "online satış chatbot",
+    "beden tavsiyesi ai",
+    "kargo takip whatsapp"
+  ],
+  "h1": "E-Ticaret Markaları için WhatsApp AI Asistanı",
+  "heroSubtitle": "Müşteri sepete attı, 'M beden var mı?' diye sordu, 12 dakika cevap gelmedi, başka markaya geçti. AI asistanımız 8 saniyede stok kontrol eder, beden tavsiyesi verir, kargo durumunu söyler — gece de hafta sonu da.",
+  "stats": [
+    {"value": "8 sn", "label": "Stok Yanıt Süresi"},
+    {"value": "%340", "label": "Sepet Toparlama"},
+    {"value": "7/24", "label": "Satış Aktif"},
+    {"value": "10 gün", "label": "Kurulum"}
+  ],
+  "problems": [
+    "Günde 100+ 'bu üründe stok var mı?' mesajı geliyor; sosyal medya sorumlusunun yarı mesaisi bu yanıtlara gidiyor.",
+    "Sepete ürün ekleyen müşterilerin %68'i 'kargo kaç günde gelir' veya 'beden tutmazsa iade var mı' sorusuna cevap bulamadığı için ödeme yapmadan çıkıyor.",
+    "Beden tavsiyesi isteyen müşteri 'genelde S giyiyorum bu marka nasıl?' diye soruyor, ekipte cevap verecek kişi yok, satış kaçıyor.",
+    "Kargo takip kodları manuel gönderiliyor, müşteri 'kargom nerede' diye gün boyu mesaj atıyor, müşteri hizmetleri kilitleniyor.",
+    "Abandoned cart için Klaviyo/Iterable maili gönderiliyor ama açılma oranı %12; WhatsApp üzerinden hatırlatma yapan rakipler aynı sepeti %48 oranla toparlıyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Ürün Katalog + Stok Senkronizasyonu",
+      "description": "Shopify, WooCommerce, Ikas veya T-Soft mağazanız PORTZEN paneline bağlanır. Tüm ürünler, varyantlar, bedenler, renkler, stok adetleri ve fiyatlar 5 dakikada bir otomatik senkronize olur. Manuel güncelleme yok."
+    },
+    {
+      "title": "WhatsApp Business + E-Ticaret Entegrasyonu",
+      "description": "Resmi WhatsApp Business API hattınız aktive edilir, mağaza linkleriniz katalog olarak gömülür. Müşteri ürün adı yazınca anlık görsel + fiyat + stok + ödeme linki tek mesajda gelir. Ödeme yine sizin altyapınızda kalır."
+    },
+    {
+      "title": "AI Test + Ürün Önerisi Mantığı",
+      "description": "Marka diliniz, beden tablonuz ve ürün özellikleriniz AI'ya öğretilir. 'Düğüne gidiyorum, midi boy elbise' gibi sorgular için ürün eşleştirme mantığı kurulur. 2 hafta test sonrası canlıya alınır."
+    },
+    {
+      "title": "Canlı Yayın + Ayda 2x Optimizasyon",
+      "description": "İlk haftadan itibaren günlük satış raporu, hangi soruların geldiği, en çok sorulan ürünler, dönüşüm oranı raporlanır. Ayda 2 kez prompt güncellemesi ve yeni kampanya akışı kurulur."
+    }
+  ],
+  "features": [
+    {
+      "title": "Shopify / WooCommerce / Ikas Stok Sync",
+      "description": "Beş büyük Türk e-ticaret altyapısıyla (Shopify, WooCommerce, Ikas, T-Soft, Ticimax) hazır entegrasyon. Stok değişikliği gerçek zamanlı yansır, müşteriye 'yok' yanlış cevabı verilmez."
+    },
+    {
+      "title": "Akıllı Beden Tavsiyesi",
+      "description": "Müşteri 'genelde Zara'da M, H&M'de L giyiyorum' dediğinde, sizin marka beden tablonuza göre tavsiye verir. Boy + kilo + kişisel tercih kombinasyonu ile %87 doğruluk oranında öneri yapar."
+    },
+    {
+      "title": "Otomatik Kargo Takip",
+      "description": "Yurtiçi, Aras, MNG, Sürat ve PTT entegrasyonu hazır. Müşteri 'kargom nerede' yazdığında son durum, tahmini teslimat ve canlı takip linki tek mesajda gelir. Manuel kontrol gerekmez."
+    },
+    {
+      "title": "Sipariş Durumu Sorgu",
+      "description": "Müşteri sipariş numarasıyla veya kayıtlı numarasından 'son siparişim ne durumda' sorduğunda hazırlanıyor / kargoya verildi / teslim edildi bilgisi anında gelir. Sipariş geçmişi de görüntülenir."
+    },
+    {
+      "title": "İade Süreci Yönlendirme",
+      "description": "İade talebi gelen müşteriye otomatik kargo kodu, iade adresi, hangi kargo şirketiyle gönderileceği bilgisi gönderilir. İade nedeni anketi toplanır, ürün/beden bazlı iade oranı raporlanır."
+    },
+    {
+      "title": "Abandoned Cart Hatırlatma",
+      "description": "Sepete ürün ekleyip 30 dakika içinde ödeme yapmayan müşteriye nazik bir hatırlatma + zaman zaman küçük indirim kodu gönderilir. Ortalama %48 toparlama oranı (e-mail %12 ile kıyasla 4x daha iyi)."
+    }
+  ],
+  "caseStudy": {
+    "title": "Bir İstanbul butiği: 3 ayda WhatsApp üzerinden ay başı 480 sipariş",
+    "paragraphs": [
+      "Cihangir'de butik bir kadın giyim markası, Shopify üzerinden aylık ortalama 1.200 sipariş alıyordu. Ancak sepete ürün ekleyen 5.300 ziyaretçinin yalnızca %2.3'ü ödeme tamamlıyor, geri kalanlar 'stok var mı', 'kargo ne zaman gelir', 'iade nasıl olur' gibi yanıtsız kalan sorular yüzünden çıkıyordu. Müşteri hizmetleri 2 kişiydi, mesaj yığını her gün katlanıyordu.",
+      "PORTZEN entegrasyonu sonrası ilk hafta stok sorgu otomasyonu devreye alındı. İkinci hafta beden tavsiyesi mantığı ve kargo takip eklendi. Üçüncü haftada abandoned cart hatırlatma sistemi açıldı; ilk gönderimde sepetini 18 saat önce bırakmış 340 müşteriye mesaj gitti, 162'si ödemeyi tamamladı.",
+      "Üçüncü ayın sonunda WhatsApp kanalı tek başına aylık 480 sipariş üretiyor, genel dönüşüm oranı %2.3'ten %7.8'e çıktı, müşteri hizmetleri sadece özel durumlarla (kayıp kargo, beden değişimi) ilgilenir hale geldi. Marka 4. ayda ikinci sezonu için stok 3 kat arttırdı."
+    ],
+    "beforeAfter": [
+      {"label": "Genel Dönüşüm Oranı", "before": "%2.3", "after": "%7.8"},
+      {"label": "WhatsApp Kanalından Sipariş", "before": "30/ay", "after": "480/ay"},
+      {"label": "Sepet Toparlama Oranı", "before": "%12 (e-mail)", "after": "%48 (WhatsApp)"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL/ay",
+      "description": "Aylık 300 siparişe kadar küçük butik için",
+      "features": [
+        "Ayda 1.500 görüşmeye kadar",
+        "200 ürüne kadar katalog",
+        "Stok + fiyat sync (5 dk)",
+        "Temel kargo takip (Yurtiçi + Aras)",
+        "Sipariş durumu sorgu",
+        "Aylık satış raporu"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "17.000 TL/ay",
+      "description": "Orta ölçekli marka için tam donanım",
+      "highlighted": true,
+      "features": [
+        "Ayda 5.000 görüşmeye kadar",
+        "2.000 ürüne kadar katalog",
+        "Tüm kargo şirketleri entegrasyonu",
+        "Akıllı beden tavsiyesi",
+        "Abandoned cart toparlama",
+        "İade süreci otomasyonu",
+        "Ayda 2 optimizasyon"
+      ]
+    },
+    {
+      "name": "Premium",
+      "price": "32.000 TL/ay",
+      "description": "Yüksek hacimli marka / multi-mağaza",
+      "features": [
+        "Sınırsız görüşme + sipariş",
+        "Sınırsız ürün katalog",
+        "Çoklu mağaza yönetimi",
+        "Özel kampanya akışları (Black Friday vb.)",
+        "Influencer/affiliate link takip",
+        "VIP müşteri segment ayrımı",
+        "Haftalık optimizasyon + canlı destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Shopify ile entegrasyon nasıl çalışıyor, manuel kod gerekiyor mu?",
+      "answer": "Shopify App Store üzerinden PORTZEN uygulamasını yüklersiniz, 3 dakikada bağlanır. Hiçbir kod yazmanıza gerek yok. Ürünleriniz, varyantlarınız, stoğunuz ve fiyatlarınız otomatik gelir. WooCommerce için de hazır eklenti mevcut."
+    },
+    {
+      "question": "Mevcut WhatsApp numaramı kullanabilir miyim?",
+      "answer": "Evet, mevcut işletme numaranızı WhatsApp Business API'ye taşıyabiliriz. Eğer numara halen kişisel WhatsApp olarak kullanılıyorsa önce dönüşüm yapılır (1-2 gün), sonra API'ye geçilir. Mevcut sohbet geçmişiniz korunur."
+    },
+    {
+      "question": "Kaç ürünü sisteme yükleyebilirim, limit var mı?",
+      "answer": "Başlangıç pakette 200, Pro pakette 2.000 ürüne kadar limit vardır. Premium pakette sınırsızdır. Varyant sayısı (renk, beden kombinasyonu) ürün başına 50'ye kadar desteklenir; bu, çoğu butik için fazlasıyla yeterlidir."
+    },
+    {
+      "question": "Stok sync hızı nedir, müşteriye yanlış stok bilgisi gider mi?",
+      "answer": "Stok güncellemesi 5 dakikada bir otomatik yapılır, kritik anlar için (Black Friday gibi) gerçek zamanlı webhook desteği vardır. Stok '0' düştüğünde 30 saniye içinde AI bilir. Yanlış 'var' cevabı verme oranımız %0.2'nin altındadır."
+    },
+    {
+      "question": "Kargo takip kodları otomatik mi geliyor, hangi firmaları destekliyor?",
+      "answer": "Sipariş kargoya verildiğinde sisteme düşen kargo kodu anında müşteriye gönderilir. Yurtiçi, Aras, MNG, Sürat, PTT, UPS, HepsiJet ve Trendyol Express desteklenir. Müşteri 'kargom nerede' yazdığında canlı durum tek mesajda gelir."
+    },
+    {
+      "question": "Abandoned cart sistemi nasıl çalışıyor, müşteri rahatsız olur mu?",
+      "answer": "Sepeti bırakan müşteriye ilk hatırlatma 1 saat sonra (nazik 'unutmadın değil mi'), ikinci hatırlatma 24 saat sonra (küçük indirim opsiyonel), üçüncü hatırlatma 72 saat sonra (son şans) gönderilir. İstemeyen müşteri tek tıkla kapatabilir, opt-out hızlıdır."
+    },
+    {
+      "question": "İade oranı düşer mi, ölçülebilir mi?",
+      "answer": "Akıllı beden tavsiyesi devreye girince iade oranı ortalama %32'den %18'e düşmektedir (Pro+ paket müşterilerimizin ortalaması). Ürün/beden bazlı iade nedenleri raporlanır, hangi modelin beden tablosunun problemli olduğunu net görürsünüz."
+    }
+  ],
+  "finalCtaHeadline": "Sepete koyup çıkanı geri getirin",
+  "finalCtaSubtitle": "10 günde kurulum, Shopify ve WooCommerce hazır entegrasyon, ilk aydan başlayan satış artışı. Bu ay başlayın, Black Friday'e hazır olun."
+}

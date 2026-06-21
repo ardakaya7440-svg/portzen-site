@@ -1,0 +1,159 @@
+{
+  "sectorSlug": "egitim",
+  "sectorName": "Eğitim Kurumu",
+  "sectorPlural": "Eğitim Kurumları",
+  "title": "Eğitim Kurumları İçin Instagram DM Otomasyonu | Kayıt Dönüşüm AI — PORTZEN",
+  "description": "Instagram'a 'fiyat ne?', 'online mi?', 'sertifika geçerli mi?' yazan adayı 60 saniyede yanıtlayıp demo ders linki gönderen, kayıt formunu DM içinde tamamlayan AI sistemi.",
+  "keywords": ["eğitim kurumu instagram dm", "kurs chatbot instagram", "online kurs dm bot", "eğitim dm otomasyon", "kayıt dönüşüm instagram", "demo ders dm"],
+  "h1": "Eğitim Kurumları için Instagram DM Otomasyonu",
+  "heroSubtitle": "Instagram'a 'fiyat ne', 'online mı yoksa yüz yüze mi' diye yazan adayların %72'si 2 saat içinde başka kursa kayıt oluyor. PORTZEN AI, soruları anında yanıtlayıp demo ders gönderiyor, kayıt formunu DM içinde dolduruyor.",
+  "stats": [
+    {"value": "55 sn", "label": "DM Yanıt"},
+    {"value": "%200", "label": "Dönüşüm Artışı"},
+    {"value": "7 gün", "label": "Kurulum"},
+    {"value": "7/24", "label": "Aktif"}
+  ],
+  "problems": [
+    "Reels'te paylaştığınız 'data analytics 30 günde' videosunun altına 100 kişi 'fiyat ne, taksit var mı' yazıyor — danışman ekibi tek tek yanıtlayamıyor.",
+    "Aday 'eğitmen kim, sertifika geçerli mi, mezunlar nereye yerleşti' diye 7-8 soru art arda soruyor, manuel yanıt 20 dakika sürüyor.",
+    "DM'de 'demo ders verebilir misiniz' isteği günde 50 kişiden geliyor — manuel link hazırlama, başvuru formu gönderme operasyonel yük.",
+    "Mesai dışı saat 23:00-03:00 arası gelen DM'ler (çalışan profesyoneller bu saatte araştırıyor) sabah görüldüğünde aday başka kursa kayıt olmuş oluyor.",
+    "Kayıt formu Google Forms linki olarak gönderilince aday kursu açıp doldurmuyor — %78'i siteye gelmiyor ve süreç kopuyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Kurs Katalog ve Müfredat Yüklemesi",
+      "description": "Tüm eğitim programlarınız (kurs adı, süre, ücret, taksit planı, eğitmen profili, müfredat, mezuniyet kriterleri, sertifika geçerliliği) yapay zekaya yüklenir. Her kurs için 22 farklı bilgi alanı tutulur."
+    },
+    {
+      "title": "Instagram Business + Başvuru Formu Entegrasyonu",
+      "description": "Instagram Business hesabınız PORTZEN'e bağlanır. Başvuru formunuz (CRM, HubSpot, Pipedrive veya kendi sisteminiz) entegre edilir — aday DM içinde form dolduruyor, otomatik CRM'e düşüyor."
+    },
+    {
+      "title": "AI Eğitimi + Eğitim Danışmanı Onay Akışı",
+      "description": "Konuşma tarzınız, kayıt teşvik kampanyaları, indirim kuralları eğitilir. Burs talebi, kurumsal anlaşma gibi özel durumlar danışmana yönlendirilir."
+    },
+    {
+      "title": "Canlı Yayın + Haftalık İyileştirme",
+      "description": "7 günde canlıya alınır. Her hafta hangi kursun en çok DM aldığı, hangi soruda aday kaybedildiği, demo ders → kayıt dönüşüm oranı raporlanır."
+    }
+  ],
+  "features": [
+    {
+      "title": "Kurs Detay ve Müfredat Yanıtı",
+      "description": "'Python kursunun müfredatı nedir' sorusuna AI 'Hafta 1: temel, Hafta 2: veri yapıları, Hafta 3: pandas...' diye ay ay anlatıyor, eğitmen profilini ve mezun yorumlarını paylaşıyor."
+    },
+    {
+      "title": "Fiyat, Taksit ve Kampanya Bilgisi",
+      "description": "'Fiyat ne, 6 taksit var mı' sorusuna AI 'Kurs 12.000 TL, peşin %10 indirim 10.800 TL, 6 taksit 2.000 TL/ay 0 faiz' diye anlık yanıt veriyor — aktif kampanyaları da otomatik söylüyor."
+    },
+    {
+      "title": "Demo Ders Linki Otomatik Gönderme",
+      "description": "Aday 'demo verebilir miyim' dediğinde AI takvimden müsait demo slotu gösteriyor veya hazır demo video linkini DM'de paylaşıyor — aday tıklayıp izliyor, sonra geri dönüş yapıyor."
+    },
+    {
+      "title": "Eğitmen Profili ve Mezun Hikayesi",
+      "description": "'Kim eğitmen, deneyimi ne' sorusuna AI eğitmen CV'si, LinkedIn profili, geçmiş öğrenci yorumlarını DM'den paylaşıyor — güven inşa eden bilgileri zamanında veriyor."
+    },
+    {
+      "title": "Kayıt Formu DM İçinde Tamamlama",
+      "description": "Aday 'kayıt olmak istiyorum' dediğinde AI ad-soyad, telefon, e-posta, hangi kurs, ödeme planı bilgilerini DM içinde sırayla soruyor — aday siteyi açmadan kayıt tamamlanıyor."
+    },
+    {
+      "title": "Sertifika ve Akreditasyon Gösterimi",
+      "description": "'Sertifikanız geçerli mi, kim akredite' sorusuna AI 'MEB onaylı / Coursera partnership / sektörden 3 firma tarafından tanınıyor' bilgisini sertifika örneğiyle birlikte DM'den paylaşıyor."
+    }
+  ],
+  "caseStudy": {
+    "title": "Şişli Online Kurs Platformu: 5 Ayda Aylık 380 Kayıt, Dönüşüm %2.8'den %8.4'e",
+    "paragraphs": [
+      "Şişli merkezli, veri bilimi ve dijital pazarlama alanında 14 kurs sunan bir online eğitim platformu, Instagram'da haftada 5-6 Reels paylaşıyor, ayda 8.000-12.000 DM alıyordu. 4 kişilik danışman ekibi DM'lerin sadece %30'una yanıt verebiliyor, dönüşüm oranı %2.8'de kalıyordu.",
+      "PORTZEN AI sistemiyle 14 kursun tamamı (müfredat, fiyat, taksit, eğitmen, sertifika) veritabanına yüklendi. AI; ilk soru-cevap, demo ders gönderimi, kayıt formu doldurma ve ödeme linki paylaşımı görevlerini devraldı. Danışmanlar sadece 'sıcak lead' aşamasındaki adaylarla görüntülü görüşmeye girdi.",
+      "5 ay sonunda aylık DM kaynaklı kayıt 88'den 380'e çıktı, DM → kayıt dönüşüm oranı %2.8'den %8.4'e yükseldi. Ortalama kayıt başına maliyet 340 TL'den 95 TL'ye düştü, ekibe 2 yeni danışman alınmasına gerek kalmadı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Kayıt", "before": "88", "after": "380"},
+      {"label": "DM → Kayıt Dönüşüm", "before": "%2.8", "after": "%8.4"},
+      {"label": "Kayıt Başına Maliyet", "before": "340 TL", "after": "95 TL"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "6.500 TL/ay",
+      "description": "Tek lokasyon veya küçük kurslar için temel paket",
+      "features": [
+        "10 kurs veritabanı",
+        "Instagram DM + yorum yanıtı",
+        "Fiyat + taksit bilgisi",
+        "Demo ders linki gönderme",
+        "Aylık 1.500 DM yanıt",
+        "WhatsApp lead bildirimi",
+        "E-posta destek"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "13.000 TL/ay",
+      "description": "Aktif eğitim kurumları için tam özellikli paket",
+      "features": [
+        "40 kurs veritabanı",
+        "Kayıt formu DM içinde doldurma",
+        "Eğitmen profili + mezun yorumu",
+        "CRM entegrasyonu (HubSpot, Pipedrive)",
+        "Sertifika ve akreditasyon modülü",
+        "Aylık 6.000 DM yanıt",
+        "Demo ders takvim entegrasyonu",
+        "Haftalık rapor"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "26.000 TL/ay",
+      "description": "Çok kategorili eğitim platformları için kurumsal çözüm",
+      "features": [
+        "Sınırsız kurs veritabanı",
+        "Çoklu Instagram hesabı (kategori bazlı)",
+        "Burs ve kurumsal anlaşma akışı",
+        "Ödeme entegrasyonu (iyzico, PayTR)",
+        "Sınırsız DM yanıt",
+        "Özel AI eğitimi + tone of voice",
+        "Dedicated account manager",
+        "7/24 öncelikli destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Demo ders adaya nasıl gönderiliyor?",
+      "answer": "İki seçenek var: 1) Hazır kayıtlı demo video linki (Vimeo/YouTube özel) anında DM'den paylaşılıyor. 2) Canlı demo dersi için AI takvimden müsait slot gösterip Zoom linki oluşturuyor — aday DM'de saat seçiyor."
+    },
+    {
+      "question": "Kaç kurs veritabanına yüklenebilir?",
+      "answer": "Başlangıç paketinde 10, Pro paketinde 40, Premium paketinde sınırsız kurs yükleyebilirsiniz. Her kurs için müfredat, fiyat, taksit, eğitmen, sertifika, mezun yorumu gibi 22 farklı parametre tutulur."
+    },
+    {
+      "question": "Taksit hesaplaması otomatik mi yapılıyor?",
+      "answer": "Evet. AI 'kurs 12.000 TL, 6 taksit yapsam aylık ne öderim' sorusuna güncel taksit kampanyanızı uygulayıp 'aylık 2.000 TL, 0 faiz' diye anlık yanıt veriyor. Vade farkı varsa onu da gösteriyor."
+    },
+    {
+      "question": "Mezun yorumlarını nasıl gösteriyor?",
+      "answer": "Sisteme yüklediğiniz mezun yorumlarından (LinkedIn'den çekebiliriz veya manuel girersiniz) AI alakalı olanı seçip paylaşıyor. 'Mezunlardan biri Türk Telekom'a girdi: ...' gibi spesifik kanıtlarla güven inşa ediyor."
+    },
+    {
+      "question": "Kayıt formu DM içinde nasıl tamamlanıyor?",
+      "answer": "AI sırayla soruyor: 'Adınız soyadınız?', 'Telefonunuz?', 'Hangi kurs için kayıt?', 'Ödeme planınız?'. Aday yanıtladıkça bilgi CRM'inize otomatik düşüyor. Aday siteyi açmıyor, dropoff yaşanmıyor."
+    },
+    {
+      "question": "Burs veya kurumsal indirim talebi gelirse?",
+      "answer": "AI bu özel durumlarda 'burs/kurumsal teklif için ekibimiz size 24 saat içinde dönecek' diyip danışmana WhatsApp bildirimi atıyor. Burs kriterleriniz katıysa AI ön eleme de yapabilir."
+    },
+    {
+      "question": "Kurulum süreci ve hazırlık ne kadar?",
+      "answer": "7 iş günü. Sizden istenen: kurs kataloğu (Excel veya web sitesi), müfredat dokümanları, fiyat listesi, eğitmen profilleri, Instagram Business erişimi. 1 saatlik tone-of-voice kalibrasyon görüşmesi sonrası canlıdayız."
+    }
+  ],
+  "finalCtaHeadline": "Instagram DM'lerini Kayıt Akışına Çevirin",
+  "finalCtaSubtitle": "Demo ders gönderen, kayıt formu dolduran, taksit hesaplayan AI. 7 günde kurulum, 30 günde dönüşüm 3 katına çıkıyor — ücretsiz demo isteyin."
+}

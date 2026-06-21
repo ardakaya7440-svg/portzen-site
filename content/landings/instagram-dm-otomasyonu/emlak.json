@@ -1,0 +1,158 @@
+{
+  "sectorSlug": "emlak",
+  "sectorName": "Emlak Ofisi",
+  "sectorPlural": "Emlak Ofisleri",
+  "title": "Emlak Ofisleri İçin Instagram DM Otomasyonu | Hot Lead Çıkarma — PORTZEN",
+  "description": "Instagram'a düşen 'bu daire müsait mi?' DM'lerini 60 saniyede yanıtlayan, bütçe ön kalifiye eden AI sistemi. Lead kaybı sıfır, randevu otomatik açılıyor.",
+  "keywords": ["emlak instagram dm", "emlak chatbot instagram", "emlak lead yönetimi", "instagram dm otomasyon emlak", "portföy dm yanıt", "ilan dm bot", "emlak ofisi yapay zeka"],
+  "h1": "Emlak Ofisleri için Instagram DM Otomasyonu",
+  "heroSubtitle": "Instagram'da paylaştığınız ilana 'müsait mi?' diye yazan müşterinin %60'ı 1 saat içinde başka ofise gidiyor. PORTZEN AI, DM'i 60 saniyede yanıtlayıp bütçe, lokasyon ve kredi durumunu ön kalifiye ederek size sadece sıcak leadleri bırakıyor.",
+  "stats": [
+    {"value": "60 sn", "label": "DM Yanıt Süresi"},
+    {"value": "%47", "label": "Lead Artışı"},
+    {"value": "7 gün", "label": "Kurulum"},
+    {"value": "7/24", "label": "Aktif Yanıt"}
+  ],
+  "problems": [
+    "Reels altına düşen 'fiyat?', 'bu daire hala var mı?' yorumları gece yarısı geliyor ve sabaha kadar yanıtsız kalıyor — müşteri başka ofise gidiyor.",
+    "Müşteri DM'den 'kredi çekebilir miyim, aylık 25 bin gelirim var' diye yazıyor, ekibinizin kredi simülasyonu yapacak vakti yok.",
+    "Aynı ilan için günde 30 kişi 'lokasyon nerede, yakında metro var mı' soruyor, ekip aynı yanıtı tekrar tekrar yazıyor.",
+    "DM'ye 'portföy resmi atın, içerden video gönderin' istekleri yağıyor — manuel WeTransfer linki hazırlamak saatler alıyor.",
+    "Mesai dışı saat 23:00'te düşen 'yarın sabah görebilir miyim' DM'i sabah görüldüğünde randevu kaçırılmış oluyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Portföy ve İlan Veritabanı Çıkarımı",
+      "description": "Aktif portföyünüzdeki tüm daire, ofis ve arsa ilanları; metrekare, oda sayısı, fiyat, kat, krediye uygunluk ve mahalle bilgisiyle yapay zekaya yüklenir. Her ilan için 'hala satılık mı' durumu canlı senkronlanır."
+    },
+    {
+      "title": "Instagram Business + Emlakjet/Sahibinden Senkronu",
+      "description": "Instagram Business hesabınız PORTZEN'e bağlanır, Emlakjet ve Sahibinden ilan kodlarınız eşleştirilir. Müşteri DM'den ilan kodu yazdığında AI doğru portföyü otomatik buluyor."
+    },
+    {
+      "title": "AI Eğitimi + Emlakçı Onay Akışı",
+      "description": "Konuşma tarzınız, fiyat verme kuralınız ('arayalım' diyecek mi yoksa fiyat söyleyecek mi), hangi durumda emlakçıya devredeceği eğitilir. Hassas durumlarda (peşinat, takas) konuşma emlakçıya yönlendirilir."
+    },
+    {
+      "title": "Canlı Yayın + Haftalık Optimizasyon",
+      "description": "Sistem 7 gün içinde canlıya alınır. Her hafta hangi ilanın daha çok DM aldığı, hangi soruda lead kaybedildiği raporlanır ve AI yeniden eğitilir."
+    }
+  ],
+  "features": [
+    {
+      "title": "İlan Aktif Mi Anlık Sorgu",
+      "description": "Müşteri 'Beylikdüzü 3+1 hala satılık mı' yazdığında AI veritabanından kontrol edip 'evet 4.250.000 TL, 145 m², 3. kat' diye anında yanıt veriyor."
+    },
+    {
+      "title": "Bütçe ve Peşinat Ön Kalifiye",
+      "description": "Müşteriye 'bütçeniz ve peşinat planınız nedir' sorusu nazikçe sorulur, gelen yanıta göre uygun portföyler önerilir. Bütçesi 1.5M olan müşteriye 4M'lik daire önerilmiyor."
+    },
+    {
+      "title": "Lokasyon ve Konum Paylaşımı",
+      "description": "Müşteri 'tam olarak nerede' dediğinde AI Google Maps koordinatlarını, en yakın metro/okul/AVM bilgisini ve mahalle özetini DM'de paylaşıyor."
+    },
+    {
+      "title": "Kredi Tahmini ve Aylık Taksit Hesabı",
+      "description": "'4 milyonluk daireye 1 milyon peşinatla aylık ne öderim' sorusuna AI güncel banka faiz oranlarıyla 'yaklaşık 38.000 TL/120 ay' hesaplayıp paylaşıyor — emlakçı zaman kaybetmiyor."
+    },
+    {
+      "title": "Yerinde Görme Randevusu Açma",
+      "description": "Sıcak lead 'görebilir miyim' dediğinde AI ekibinizin takviminden müsait slotları gösteriyor, müşteri DM'de saat seçiyor, randevu CRM'e otomatik düşüyor."
+    },
+    {
+      "title": "Story DM ve Yorum Yanıtı",
+      "description": "Sadece DM değil, Story'nize gelen yanıtlara ve Reels yorumlarına da AI cevap veriyor — 'fiyat?' yorumuna DM'den otomatik fiyat gönderiyor (yorum altına değil, gizlilik için DM'den)."
+    }
+  ],
+  "caseStudy": {
+    "title": "Beylikdüzü Emlak Ofisi: 3 Ayda Aylık 240 Lead, 18 Satış",
+    "paragraphs": [
+      "Beylikdüzü'nde 6 yıldır faaliyet gösteren, 4 emlakçılı bir butik ofis, Instagram'da haftada 3-4 Reels paylaşıyor ama gelen DM yağmurunu yetiştiremiyordu. Ekibin %70 zamanı 'fiyat?', 'müsait mi?', 'lokasyon?' gibi tekrar eden DM'lere gidiyor, asıl satış görüşmesine vakit kalmıyordu.",
+      "PORTZEN AI sistemiyle 138 aktif portföy veritabanına yüklendi, Emlakjet ilan kodlarıyla senkron kuruldu. AI; bütçe sorgusu, kredi simülasyonu, lokasyon paylaşımı ve randevu açma görevlerini devraldı. Ekip sadece 'sıcak lead' olarak işaretlenen, görme randevusu açılmış müşterilerle ilgilendi.",
+      "3 ay sonunda Instagram DM kaynaklı aylık lead 95'ten 240'a çıktı, görüş randevusu oranı %38'den %71'e yükseldi. 3. ay sonunda toplam 18 satış (54 milyon TL hacim) Instagram DM'den kapatıldı — ekibin satış başına geçirdiği süre %44 azaldı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Lead Sayısı", "before": "95", "after": "240"},
+      {"label": "DM Yanıt Süresi", "before": "4-7 saat", "after": "60 saniye"},
+      {"label": "Aylık Satış", "before": "4-6", "after": "18"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "7.000 TL/ay",
+      "description": "Tek lokasyon, 50 ilana kadar, temel DM otomasyonu",
+      "features": [
+        "50 aktif ilan veritabanı",
+        "Instagram DM + yorum yanıtı",
+        "Bütçe ön kalifiye sorgusu",
+        "Aylık 1.000 DM yanıt",
+        "WhatsApp randevu bildirimi",
+        "E-posta destek"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "14.000 TL/ay",
+      "description": "Büyüyen ofisler için tam özellikli paket",
+      "features": [
+        "200 aktif ilan veritabanı",
+        "Emlakjet + Sahibinden senkron",
+        "Kredi simülasyonu modülü",
+        "Story DM + Reels yorum yanıtı",
+        "Randevu takvim entegrasyonu",
+        "Aylık 5.000 DM yanıt",
+        "CRM entegrasyonu",
+        "Haftalık optimizasyon raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "26.000 TL/ay",
+      "description": "Çoklu şube ve yüksek hacim için kurumsal çözüm",
+      "features": [
+        "Sınırsız ilan veritabanı",
+        "Çoklu Instagram hesabı (5'e kadar)",
+        "Özel AI eğitimi (ofis stiliniz)",
+        "Çağrı merkezi entegrasyonu",
+        "Sınırsız DM yanıt",
+        "Özel rapor dashboard",
+        "Dedicated account manager",
+        "7/24 öncelikli destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Emlakjet ve Sahibinden ilanlarımla senkron çalışıyor mu?",
+      "answer": "Evet. Emlakjet ilan kodlarınızı ve Sahibinden RSS feed'inizi sisteme bağlıyoruz. Bir ilan satıldığında veya pasife alındığında AI artık o ilanı önermiyor, otomatik veritabanından düşüyor."
+    },
+    {
+      "question": "Maksimum kaç ilan veritabanına yükleyebilirim?",
+      "answer": "Başlangıç paketinde 50, Pro paketinde 200, Premium paketinde sınırsız ilan yükleyebilirsiniz. Her ilan için metrekare, fiyat, fotoğraf, lokasyon, oda sayısı gibi 18 farklı parametre tutuluyor."
+    },
+    {
+      "question": "Mesai dışı saatlerde nasıl çalışıyor?",
+      "answer": "AI 7/24 aktif. Gece 02:00'de gelen 'yarın sabah görebilir miyim' DM'ine anında yanıt verip ekibinizin takviminden uygun slot öneriyor. Sabah randevu hazır şekilde CRM'de sizi bekliyor."
+    },
+    {
+      "question": "AI fiyat söyleyebilir mi yoksa 'arayalım' mı diyor?",
+      "answer": "Tamamen sizin tercihinize göre ayarlanıyor. 'Fiyat veritabanından paylaşılsın' diyebilir veya 'önce ekip arasın, sonra fiyat açıklansın' kuralını koyabilirsiniz. Hassas durumda (peşinat pazarlık) emlakçıya devrediyor."
+    },
+    {
+      "question": "Müşterinin önemli bilgisini emlakçıya nasıl iletiyor?",
+      "answer": "Sıcak lead tespit edildiğinde (bütçe + lokasyon + randevu talebi) AI özeti WhatsApp ile size düşüyor: 'Beylikdüzü 3+1 arıyor, bütçe 4M, peşinat 1.5M hazır, yarın 14:00 görmek istiyor.' Tek tıkla aramayı başlatıyorsunuz."
+    },
+    {
+      "question": "Kurulum ne kadar sürüyor, ne yapmam gerekiyor?",
+      "answer": "7 iş günü. Sizden istenen: aktif portföy listesi (Excel veya Emlakjet ilanları), Instagram Business hesabı erişimi ve 1 saatlik konuşma tarzı kalibrasyon görüşmesi. Geri kalanını PORTZEN ekibi kuruyor."
+    },
+    {
+      "question": "AI yanlış bilgi verirse ne olur, kim sorumlu?",
+      "answer": "AI sadece sizin yüklediğiniz veritabanından konuşuyor — kafadan fiyat uydurmaz. Bilmediği soruda 'emlakçımız 10 dk içinde dönecek' diyor ve ekibe bildirim atıyor. Tüm konuşma logları saklanıyor."
+    }
+  ],
+  "finalCtaHeadline": "Instagram DM'den Gelen Her Lead'i Satışa Çevirin",
+  "finalCtaSubtitle": "7 günde kurulum, 30 günde sonuç. Aylık 240 lead'e çıkan ofislere katılın — demo görüşmesi için 15 dakikanızı ayırın."
+}

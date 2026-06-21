@@ -1,0 +1,159 @@
+{
+  "sectorSlug": "emlak",
+  "sectorName": "Emlak Ofisi",
+  "sectorPlural": "Emlak Ofisleri",
+  "title": "Emlak Ofisleri İçin AI Reklam Videosu | Drone + İç Mekan Render — PORTZEN",
+  "description": "Her portföyünüz için drone view, iç mekan render ve mahalle tanıtım videoları. AI ile 24 saatte Reels formatında teslim, çekim ekibi yok.",
+  "keywords": ["emlak ai video", "emlak reklam videosu", "portföy tanıtım video", "drone emlak video", "iç mekan render emlak", "emlak reels üretimi"],
+  "h1": "Emlak Ofisleri için AI Reklam Videosu",
+  "heroSubtitle": "Her portföye drone çekimi yaptıramazsınız — pahalı, izinli, hava şartı bağımlı. PORTZEN AI drone view, iç mekan render ve mahalle tanıtım videolarını 24 saatte üretiyor. Reels algoritması portföyünüzü uçuruyor.",
+  "stats": [
+    {"value": "24 saat", "label": "Teslim"},
+    {"value": "30x", "label": "Erişim Artışı"},
+    {"value": "9:16", "label": "Reels Formatı"},
+    {"value": "0 TL", "label": "Çekim Maliyeti"}
+  ],
+  "problems": [
+    "Her portföy için drone pilotu + kameraman tutmak ilan başına 4.500-8.000 TL — küçük ofisin altından kalkamayacağı maliyet.",
+    "Drone çekim için DHMİ izni, hava şartı, gün ışığı bekleme — bir portföy için 7-10 gün operasyon, portföy o zamana çoktan satılıyor.",
+    "Portföyünüz haftada değişiyor; satılan daire için çekilen video boşa gidiyor, yeni gelen ilanı çekecek vakit yok.",
+    "Mahalle tanıtım videosu (yakın metro, okul, AVM, park) çekmek için tüm mahalleyi gezmek gerekiyor — kimsenin vakti yok.",
+    "Instagram algoritması Reels'i öncelikli gösteriyor — kareli fotoğraf paylaşan ofisler artık 100 kişiye ulaşıyor, Reels paylaşan ofis 50.000'e."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Portföy Seçimi ve Brief Toplama",
+      "description": "Ay başında 8-12 portföyünüzü seçiyorsunuz (metrekare, kat, oda, yön, manzara, mahalle bilgileri ile). Mevcut iç mekan fotoğraflarını veya plan/kroki paylaşıyorsunuz. PORTZEN ekibi briefi 24 saatte hazırlıyor."
+    },
+    {
+      "title": "AI Senaryo: Drone View + İç Mekan Render",
+      "description": "Her portföy için AI 3 sahneli senaryo yazıyor: 1) Drone view (binanın havadan görüntüsü + mahalle), 2) İç mekan render (oda oda gezinti), 3) Mahalle tanıtım (yakın metro, AVM, okul). Senaryo onayınıza sunuluyor."
+    },
+    {
+      "title": "Sora/Veo Render + Profesyonel Montaj",
+      "description": "Onaylanan senaryo Sora 2.0 / Veo 3 / Kling gibi modellerle render ediliyor. Profesyonel montaj ekibi seslendirme, altyazı, müzik, logo ekleyip 9:16 vertical Reels formatında bitiriyor."
+    },
+    {
+      "title": "Teslim + Instagram Reels Publish",
+      "description": "Videolar onayınıza sunuluyor, 1 revize hakkı dahil. Onay sonrası Reels publish ekibimiz hashtag stratejisi + saat optimizasyonu ile yayına alıyor. Ay sonu performans raporu paylaşılıyor."
+    }
+  ],
+  "features": [
+    {
+      "title": "Drone View Simülasyon",
+      "description": "AI drone yokken bile binanızın havadan görüntüsünü, mahalleyi yukarıdan gösteriyor. DHMİ izni, hava bekleme, pilot maliyeti yok. 'Beylikdüzü Marmara manzaralı 8. kat' diyince AI o görüntüyü render ediyor."
+    },
+    {
+      "title": "İç Mekan Render ve Walkthrough",
+      "description": "Boş veya az eşyalı daireniz için AI mobilyalı, dekorlu render üretiyor. Salon → mutfak → yatak odası → balkon walkthrough'u sinematik şekilde çekiliyor — alıcı dairenin potansiyelini görüyor."
+    },
+    {
+      "title": "Mahalle ve Yakın Çevre Tanıtım",
+      "description": "Her portföy için 'metroya 5 dk, AVM'ye 8 dk, okula 3 dk' bilgisi görsel olarak gösteriliyor. AI mahalle planını, yakın landmark'ları (park, hastane, ulaşım) animasyonlu haritada sunuyor."
+    },
+    {
+      "title": "AI Emlakçı Seslendirme",
+      "description": "Profesyonel seslendirme veya sizin sesinizden klonlanmış AI ses ile portföy anlatımı yapılıyor. 'Bu daire 145 m², 3+1, 8. kat, Marmara manzaralı, 4.250.000 TL' diye doğal tonla okuyor."
+    },
+    {
+      "title": "Vertical 9:16 Reels + Story Formatı",
+      "description": "Tüm videolar Instagram Reels (9:16), Story (9:16) ve Feed (1:1) formatında teslim ediliyor. TikTok ve YouTube Shorts için de aynı içerik export ediliyor — tek video, çoklu kanal."
+    },
+    {
+      "title": "24 Saatte Hızlı Revize",
+      "description": "Onaylanan videoda 'müziği değiştirelim, manzara sahnesi uzasın, fiyat ekleyelim' gibi revize talepleri 24 saatte yapılıyor. Portföy fiyatı düştüyse yeni fiyatla 48 saatte güncel video hazır."
+    }
+  ],
+  "caseStudy": {
+    "title": "Beylikdüzü Emlak Ofisi: 3 Ayda 32 Portföy AI Video, Reels Erişim 8K → 240K",
+    "paragraphs": [
+      "Beylikdüzü'nde 4 emlakçılı bir ofis, Instagram'da haftada 1 portföy fotoğrafı paylaşıyordu — ortalama erişim 8.000, etkileşim çok düşüktü. Drone çekim yaptırmak ilan başına 5.500 TL tutuyor, ayda en fazla 2-3 portföy için bütçe ayrılabiliyordu.",
+      "PORTZEN AI Reklam Videosu sistemiyle ayda 10-12 portföy için drone view + iç mekan render + mahalle tanıtım videosu üretildi. 3 ay sonunda toplam 32 portföy için Reels formatında video çıktı. Her video AI seslendirme + müzik + altyazı ile profesyonel teslim edildi.",
+      "Reels erişimi ortalama 8.000'den 240.000'e (30x artış) çıktı, DM kaynaklı görme randevusu ay başı 18'e ulaştı. 3. ayın sonunda Instagram kaynaklı 11 satış kapatıldı — toplam hacim 34 milyon TL. Geleneksel drone çekimine göre maliyet %72 düştü."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Reels Erişimi", "before": "8.000", "after": "240.000"},
+      {"label": "Ay Başına Portföy Video", "before": "2-3", "after": "10-12"},
+      {"label": "DM Randevu", "before": "4-5", "after": "18"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.000 TL/ay",
+      "description": "Küçük ofisler için ayda 5 portföy videosu",
+      "features": [
+        "Ayda 5 portföy AI videosu",
+        "9:16 Reels formatı",
+        "AI seslendirme + müzik",
+        "1 revize hakkı / video",
+        "Logo ve iletişim bilgisi",
+        "48 saat teslim",
+        "E-posta destek"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "18.000 TL/ay",
+      "description": "Aktif ofisler için ayda 12 portföy + mahalle videosu",
+      "features": [
+        "Ayda 12 portföy AI videosu",
+        "Drone view + iç mekan render",
+        "Mahalle tanıtım videosu",
+        "AI seslendirme veya ses klonlama",
+        "9:16 + 1:1 çoklu format",
+        "2 revize hakkı / video",
+        "Reels publish + hashtag stratejisi",
+        "Aylık performans raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "35.000 TL/ay",
+      "description": "Çoklu şube veya yüksek hacim için kurumsal paket",
+      "features": [
+        "Ayda 25 portföy AI videosu",
+        "Özel render stili (markalama)",
+        "Çoklu şube yönetimi",
+        "TikTok + YouTube Shorts dağıtım",
+        "Sınırsız revize",
+        "Dedicated kreatif ekip",
+        "Aylık strateji görüşmesi",
+        "7/24 öncelikli destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "AI videolar gerçek mi görünüyor, sahte fark ediliyor mu?",
+      "answer": "Sora 2.0 ve Veo 3 modelleri foto-gerçekçi sonuçlar üretiyor. Drone view ve mahalle çekimleri %95 oranında gerçek çekimden ayırt edilemiyor. İç mekan render'da 'render kalitesi' tercih edilebiliyor (mimari render gibi profesyonel görünüm)."
+    },
+    {
+      "question": "Ayda kaç video alabilirim, paket dışında ek video almak mümkün mü?",
+      "answer": "Başlangıç 5, Pro 12, Premium 25 video/ay. Ek video ihtiyacında video başına 1.200 TL (Başlangıç), 950 TL (Pro), 750 TL (Premium) ile sipariş verilebiliyor. 24-48 saat ek teslim."
+    },
+    {
+      "question": "Üretilen videoların telifi kime ait?",
+      "answer": "Tüm videoların ticari kullanım hakkı ve telifi sizin. PORTZEN sadece üretici. Videoları Instagram, TikTok, YouTube, web sitesi, sahibinden ilanı, hilali medyası — her yerde sınırsız kullanabilirsiniz."
+    },
+    {
+      "question": "Drone yasak bölgeler (askeri, havalimanı yakını) için ne yapıyorsunuz?",
+      "answer": "AI render olduğu için yasak bölgeler problem değil. Gerçek drone uçurmadığımız için DHMİ izni, NOTAM kontrolü, yasak bölge sorunu yok. Bakırköy, Yeşilköy, Etiler — her yerde drone view üretilebiliyor."
+    },
+    {
+      "question": "Mevcut portföy fotoğraflarımı kullanabilir misiniz?",
+      "answer": "Evet, mevcut fotoğraflar AI'ya referans olarak veriliyor. AI iç mekan render'ı bu fotoğraflara sadık kalarak üretiyor — duvar rengi, pencere konumu, oda planı korunuyor. Boş daire fotoğrafından mobilyalı render üretilebiliyor."
+    },
+    {
+      "question": "Reels publish yapıyor musunuz, sadece video teslim mi?",
+      "answer": "Başlangıç pakette sadece video teslim, siz publish ediyorsunuz. Pro ve Premium paketlerde Reels publish ekibimiz hashtag stratejisi, optimal saat seçimi ve caption yazımı dahil yayına alıyor."
+    },
+    {
+      "question": "Portföy satıldıktan sonra video silmeli miyim?",
+      "answer": "Tercihinize göre. Bazı ofisler satılan portföyleri 'başarı vitrini' olarak Reels'te bırakıp 'SATILDI' damgası ekliyor — bu yeni güven sinyali. Bazıları arşivliyor. PORTZEN her iki seçeneği destekliyor."
+    }
+  ],
+  "finalCtaHeadline": "Drone Çekimi Olmadan Profesyonel Portföy Videosu",
+  "finalCtaSubtitle": "Ayda 12 portföy için sinematik AI video, 24 saatte teslim. Reels erişiminizi 30 katına çıkaran sistemin demosunu görün."
+}

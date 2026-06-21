@@ -1,0 +1,167 @@
+{
+  "sectorSlug": "eczane",
+  "sectorName": "Eczane",
+  "sectorPlural": "Eczaneler",
+  "title": "Eczaneler İçin Web Tasarım | KVKK + ITS Uyumlu Mobil Hızlı Site — PORTZEN",
+  "description": "Eczaneniz için sade, ciddi ve hızlı web sitesi. Nöbet bilgisi otomatik güncelleme, online ilaç sorgu, KVKK + ITS uyumlu, Google Maps entegre, mobil-first tasarım.",
+  "keywords": [
+    "eczane web tasarım",
+    "eczane sitesi",
+    "nöbetçi eczane sitesi",
+    "its uyumlu eczane",
+    "eczane seo",
+    "online ilaç sorgu",
+    "eczane google maps"
+  ],
+  "h1": "Eczaneler için Profesyonel Web Sitesi",
+  "heroSubtitle": "Hastanız sabah 06:00 'şu ilaç sende var mı' diye Google'da arıyor, eczane sahibinden.com'da çıkıyor, lokasyon yanlış, telefon eski. AI çağında eczanenizin kendine ait, hızlı ve KVKK uyumlu sitesi olmalı. Hasta nöbet bilgisini, ilaç sorgusunu, yolu tek tıkla görmeli.",
+  "stats": [
+    {"value": "1.2 sn", "label": "Site Yükleme"},
+    {"value": "ITS", "label": "Tam Uyumlu"},
+    {"value": "+%2.200", "label": "Organik Trafik"},
+    {"value": "14 gün", "label": "Kurulum"}
+  ],
+  "problems": [
+    "Eczanenizin kendi sitesi yok; hasta sizi Google'da aradığında sahibinden, eczaneci.com gibi platformlarda eksik veya yanlış bilgi ile buluyor.",
+    "Sahibinden gibi platformlarda lokasyonunuz yanlış konumda görünüyor; sokağı kaybeden hasta yandaki eczaneye giriyor, siz işi kaçırıyorsunuz.",
+    "Nöbet günleriniz ay başında değişiyor ama bu bilgiyi hastaya iletecek bir kanalınız yok, hasta nöbetçi olmadığınız gün gelip kapalı bulunca güvenini kaybediyor.",
+    "Sağlık içeriği (kronik hasta önerileri, vitamin tavsiyeleri, mevsim hastalıkları) paylaşacak alanınız yok, sosyal medyada eczacı meslektaşlarınızın paylaşımları sizden öne çıkıyor.",
+    "Hasta 'şu ilaç sizde var mı' diye telefon ediyor günde 60 kere; tezgah arkasında ilaç bakıp telefon açmak hem sizi yoruyor hem de hasta hizmetini geciktiriyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Eczane Brief + Ürün Katalog Hazırlığı",
+      "description": "Eczanenizin konumu, vardiya saatleri, özel hizmetler (reçeteli ilaç teslimi, ev servis, kronik hasta takibi, ölçüm hizmetleri), öne çıkan ürün kategorileri ve marka anlaşmaları (Sebamed, Bioderma, Avene gibi) brief'te toplanır."
+    },
+    {
+      "title": "Sade + Ciddi Tasarım (Sağlık Estetiği)",
+      "description": "Beyaz/yeşil/lacivert hakim, sağlık sektörüne uygun ciddi ama soğuk olmayan bir tasarım hazırlanır. Eczane logonuz, dış mekan fotoğrafınız, eczacı portresi (opsiyonel) sayfaya yerleşir. Görsel hiyerarşi: nöbet, lokasyon, sorgu, blog."
+    },
+    {
+      "title": "Next.js + KVKK + Google Maps Entegrasyonu",
+      "description": "Site Next.js üzerine kurulur (sayfa açılma hızı 1.2 saniye altında). KVKK aydınlatma metni + çerez politikası eklenir. Google Maps'te doğru noktada işaretleme yapılır, 'yol tarifi al' butonu telefon konumuyla anında tetiklenir."
+    },
+    {
+      "title": "SEO + Nöbet Bilgisi Otomasyon",
+      "description": "'[İlçe] nöbetçi eczane', '[Semt] 24 saat eczane', 'gece açık eczane [şehir]' gibi 200+ uzun kuyruklu anahtar kelime için SEO yapılır. Nöbet bilgisi il/ilçe eczacı odası API'sine bağlanır, manuel güncelleme gerekmez."
+    }
+  ],
+  "features": [
+    {
+      "title": "Nöbet Bilgisi Otomatik Güncelleme",
+      "description": "Bağlı bulunduğunuz il/ilçe eczacı odasının yayınladığı nöbet listesi API ile çekilir, sitenizde her gün otomatik güncellenir. 'Bu gece kim nöbetçi' sorusuna anında cevap verir, sizin nöbetiniz olduğu gün ana sayfada vurgulanır."
+    },
+    {
+      "title": "Online İlaç Sorgu Formu",
+      "description": "Hasta ilaç adını yazıp 'sizde var mı' diye soracağı KVKK uyumlu form. Sorgu size WhatsApp veya e-posta ile düşer, 'var, fiyat şu kadar, ayırayım mı' diye dönüş yaparsınız. Manuel telefon yükü %70 azalır."
+    },
+    {
+      "title": "Mobil-First Hızlı Tasarım",
+      "description": "Eczane sitelerine giren ziyaretçilerin %87'si mobil. Site özellikle mobilde hızlı açılır (1.2 saniye altı), Google'ın Core Web Vitals testinde yeşil puan alır. Bu hem SEO sıralamasını yükseltir hem hastanın siteyi terk etmesini önler."
+    },
+    {
+      "title": "KVKK + ITS Uyumlu Altyapı",
+      "description": "İlaç Takip Sistemi (ITS) ile uyumlu, reçeteli ilaç bilgisinin ekranda gösterilmediği güvenli yapı. KVKK kapsamında aydınlatma metni, çerez politikası, açık rıza akışı kurulu gelir. Veriler Türkiye'deki sunucularda saklanır."
+    },
+    {
+      "title": "Sağlık Blog Motoru",
+      "description": "Eczacı olarak paylaşmak istediğiniz mevsim hastalıkları, vitamin önerileri, kronik hasta tavsiyeleri için SEO odaklı blog altyapısı. WordPress benzeri kolay yönetim paneli ile siz yazarsınız, biz SEO ve teknik tarafı yönetiriz."
+    },
+    {
+      "title": "WhatsApp + Telefon Sticky Button",
+      "description": "Her sayfada sağ alt köşede sabit WhatsApp ve telefon butonu. Mobilde tek tıkla arama açılır, WhatsApp'tan ilaç sorgusu, ev servis talebi, randevu istek gibi mesajlar direkt size düşer. Bu küçük detay dönüşümü %38 artırır."
+    }
+  ],
+  "caseStudy": {
+    "title": "İzmir Bornova'da bir eczane: 4 ayda organik trafik 80 → 1.840/ay",
+    "paragraphs": [
+      "Bornova merkez yakınında 8 yıllık bir eczane, hiçbir dijital varlığı olmadan çalışıyordu. Google'da eczane ismi arandığında sadece sahibinden.com ve Google Haritalar listesi çıkıyor, ilçenin dışından gelen ziyaretçiler farklı eczaneye gidiyordu. Aylık organik web trafiği toplam 80 ziyaretçi, online sorgu 'sıfır'. Telefon günde 60 kere çalıyor, yarıdan fazlası 'falanca ilaç var mı' sorusuydu.",
+      "PORTZEN siteyi 14 günde devreye aldı. İlk ayda 'Bornova nöbetçi eczane', 'Bornova kronik ilaç eczane' gibi 80 anahtar kelime için içerik oluşturuldu. İkinci ayda online ilaç sorgu formu açıldı, hasta WhatsApp linkinden direkt sorgu gönderir hale geldi. Üçüncü ayda eczacının yazdığı 'Kış aylarında bağışıklık güçlendirme' başlıklı blog yazısı haftada 400 ziyaretçi çekti.",
+      "Dördüncü ayın sonunda aylık organik trafik 1.840 ziyaretçiye çıktı, online ilaç sorgu ay başı 65 adete ulaştı, telefon yükü %40 azaldı. Önemli sonuç: ilçe dışından (Karşıyaka, Bayraklı) hastalar Google'dan eczaneyi bulup geliyor, çünkü kronik ilaç stoğu konusunda 'tek aranan eczane' algısı oluştu. Aylık ciro %28 arttı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Organik Trafik", "before": "80 ziyaretçi", "after": "1.840 ziyaretçi"},
+      {"label": "Online İlaç Sorgu", "before": "0/ay", "after": "65/ay"},
+      {"label": "Aylık Ciro Değişimi", "before": "Baz çizgi", "after": "+%28"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Eczane Sitesi",
+      "price": "8.000 TL",
+      "description": "Tek seferlik kurulum, küçük eczane için temel paket",
+      "features": [
+        "5 sayfa (Ana sayfa, Hakkımızda, İletişim, Nöbet, KVKK)",
+        "Mobil uyumlu Next.js altyapı",
+        "Google Maps entegrasyonu",
+        "WhatsApp + telefon sticky buton",
+        "Temel SEO ayarları",
+        "1 yıl hosting + domain dahil",
+        "1 yıl ücretsiz teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel Eczane Sitesi",
+      "price": "18.000 TL + 1.200 TL/ay",
+      "description": "Orta ölçekli eczane için tam donanım + sürekli SEO",
+      "highlighted": true,
+      "features": [
+        "15 sayfa + sınırsız blog yazısı",
+        "Nöbet bilgisi otomatik güncelleme (API)",
+        "Online ilaç sorgu formu (KVKK uyumlu)",
+        "Sağlık blog motoru + SEO yönetimi",
+        "Aylık 4 blog yazısı (PORTZEN yazıyor)",
+        "Google My Business optimizasyonu",
+        "Google Analytics + arama konsolu kurulum",
+        "Aylık SEO raporu + sürekli optimizasyon"
+      ]
+    },
+    {
+      "name": "Premium Eczane Markası",
+      "price": "32.000 TL + 2.000 TL/ay",
+      "description": "Çoklu şube / büyük eczane / dijital ağırlıklı eczane",
+      "features": [
+        "Sınırsız sayfa + çoklu şube yönetimi",
+        "E-ticaret (kozmetik, vitamin satış)",
+        "Online sipariş + iyzico entegrasyonu",
+        "Sadakat kartı dijital yönetimi",
+        "Aylık 8 blog yazısı + sosyal medya kopya",
+        "Reklam yönetimi (Google Ads danışmanlığı)",
+        "WhatsApp AI asistan entegrasyonu (opsiyonel)",
+        "Haftalık rapor + canlı destek hattı"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "İlaç Takip Sistemi (ITS) ile uyumlu mu, gizlilik problemi olur mu?",
+      "answer": "Site reçeteli ilaç bilgisi göstermez, yalnızca OTC (reçetesiz) ürünler ve genel sağlık içeriği yayınlanır. Online ilaç sorgu formu KVKK'ya uygundur, hasta ilaç adını yazar, size WhatsApp/e-posta düşer, hasta verisi şifrelenmiş kanalda kalır. ITS mevzuatına aykırı hiçbir özellik yoktur."
+    },
+    {
+      "question": "İlaç fiyatları sitede gösterilebilir mi, mevzuata aykırı mı?",
+      "answer": "Türkiye'de reçeteli ilaç fiyatı SUT tarafından belirlenir ve sitede listelenmesi yasaktır. OTC ürünler (vitamin, ağrı kesici parasetamol, takviye edici gıdalar) ve kozmetik ürünler için fiyat gösterilebilir. Premium pakette OTC e-ticaret modülü hazırdır, mevzuat sınırlarına tam uyumludur."
+    },
+    {
+      "question": "Reçete kabul edebilir miyim, online reçete sistemi var mı?",
+      "answer": "E-reçete entegrasyonu mevzuat gereği sadece eczacı kendi MEDULA sistemi üzerinden yapılır, web sitesi üzerinden e-reçete sorgulama yapılamaz. Ancak hastanın e-reçete kodunu WhatsApp üzerinden gönderip 'bu ilaçlar sizde var mı' diye soracağı akış kurulabilir, sizin onayınızla ev servis ayarlanabilir."
+    },
+    {
+      "question": "Dijital eczane / online eczane gibi çalışabilir miyim mevzuata göre?",
+      "answer": "Türkiye'de online ilaç satışı yasaktır (sadece OTC kozmetik ve takviye edici gıda online satılabilir). Sitemiz bu sınırı tam korur. Eğer kozmetik/vitamin satışı için e-ticaret kuruluyorsa (Premium paket) Sağlık Bakanlığı ve Ticaret Bakanlığı mevzuatına tam uyumlu altyapı sunulur."
+    },
+    {
+      "question": "Mobil yükleme hızı kaç saniye, neden bu kadar önemli?",
+      "answer": "Sitemiz mobilde 1.2 saniye altında yüklenir (Google Core Web Vitals testinde yeşil puan). Yükleme süresi 3 saniyeyi geçen sitelerin %53'ünde ziyaretçi siteyi terk eder. Eczane sitesinde ziyaretçi acil bilgi (nöbet, lokasyon) arıyor, hız kritiktir. Next.js altyapısı bu hızı sağlar."
+    },
+    {
+      "question": "Nöbet bilgisi nasıl güncelleniyor, manuel yapmam gerekecek mi?",
+      "answer": "Profesyonel ve Premium paketlerde bağlı bulunduğunuz il eczacı odasının nöbet listesi API ile çekilir, her gece 00:00'da otomatik güncellenir. Manuel müdahale gerekmez. Eğer odanız API yayınlamıyorsa (bazı küçük illerde), aylık manuel güncelleme PORTZEN tarafından yapılır."
+    },
+    {
+      "question": "Google'da kaç ayda ilk sayfada görünürüm, garanti var mı?",
+      "answer": "İlçe + uzun kuyruklu anahtar kelimelerde (örn: 'Bornova nöbetçi eczane', 'Çankaya kronik ilaç eczanesi') ortalama 2-4 ay içinde Google ilk sayfaya çıkış mümkündür. Kesin sıralama garantisi vermiyoruz (Google algoritması garanti almayı imkansız kılar) ancak SEO çalışmasının ilk 6 ayda anlamlı sonuç vermediği vakit oranı %3'ün altındadır."
+    }
+  ],
+  "finalCtaHeadline": "Hasta sizi Google'da bulamıyorsa, yandaki eczaneye gidiyor",
+  "finalCtaSubtitle": "14 günde kurulum, KVKK + ITS uyumlu, ilk aydan Google görünürlüğü. Sahibinden.com'a değil, kendi sitenize trafik çekin."
+}

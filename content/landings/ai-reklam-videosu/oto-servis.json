@@ -1,0 +1,163 @@
+{
+  "sectorSlug": "oto-servis",
+  "sectorName": "Oto Servis",
+  "sectorPlural": "Oto Servisler",
+  "title": "Oto Servis İçin AI Reklam Videosu | PORTZEN",
+  "description": "Oto servisler için yapay zeka destekli reklam videoları. Motor close-up, kaporta önce-sonra, marka spesifik tanıtım. Sora ve Veo ile hızlı üretim.",
+  "keywords": [
+    "oto servis reklam videosu",
+    "ai reklam videosu oto servis",
+    "kaporta önce sonra video",
+    "oto servis tiktok",
+    "araç servisi tanıtım",
+    "yapay zeka video oto"
+  ],
+  "h1": "Oto Servisler İçin Yapay Zeka Reklam Videosu",
+  "heroSubtitle": "Motoru çekmek, kaportayı sergilemek ya da müşteri yorumunu görselleştirmek artık çok kolay. Servisinizin işini AI ile sinematik reklam videosuna dönüştürüyoruz.",
+  "stats": [
+    {"value": "18", "label": "Aylık Ortalama Video"},
+    {"value": "1.4M", "label": "TikTok Görüntülenme"},
+    {"value": "65", "label": "Aylık Yeni Randevu"},
+    {"value": "72h", "label": "Teslim Süresi"}
+  ],
+  "problems": [
+    "Motor sesi, çalışma anı ya da yağ değişimi gibi sahneleri profesyonel çekmek için kameraman ve ışıkçı tutmak haftalar sürüyor ve maliyetli oluyor.",
+    "Kaporta öncesi-sonrası karşılaştırma videoları manuel kurgu ile yapıldığında müşteri kayıt izni, çekim kalitesi ve montaj derdine düşülüyor.",
+    "Müşteri tanıklığı videosu çekmek için müşteriyi servise tekrar çağırmak ya da telefondan ses kaydı almak hem zor hem amatör duruyor.",
+    "Kış lastik dönüşümü, klima bakımı ya da yaz uzun yol kontrolü gibi sezonsal içerikler her dönem yeniden çekim gerektiriyor.",
+    "BMW, Mercedes, Renault, Ford gibi marka spesifik tanıtım videolarını ayrı ayrı hazırlamak ekibi kilitliyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Servis Hikayesi ve İş Örnekleri",
+      "description": "Servisinizin uzmanlık alanı, marka odaklı işleri, son 3 ay yapılan örnek arıza-bakım kayıtlarını alıyor; ton ve görsel kimliği belirliyoruz."
+    },
+    {
+      "title": "AI Senaryo ve Storyboard",
+      "description": "Motor close-up, drone üst açı kaporta görüntüsü, before/after dramatik geçişler ve marka kimliğini koruyan sahneleri yapay zeka ile senaryolaştırıyoruz."
+    },
+    {
+      "title": "Sora ve Veo ile Render",
+      "description": "Sahneler Sora 2 ve Veo 3 ile dakikalar içinde 9:16 dikey formatta üretiliyor; altyazı, müzik ve marka logosu otomatik yerleştiriliyor."
+    },
+    {
+      "title": "Teslim ve Otomatik Yayın",
+      "description": "Tamamlanan videolar Instagram Reels ve TikTok hesaplarınıza otomatik takvimle yayınlanıyor; haftalık performans raporu Whatsapp'tan ulaşıyor."
+    }
+  ],
+  "features": [
+    {
+      "title": "Motor Close-Up AI Render",
+      "description": "Pistonun çalışması, yağ damlasının düşmesi, turbo dönüşü gibi mikro sahneleri sinematik kalitede AI ile üretiyoruz."
+    },
+    {
+      "title": "Kaporta Önce-Sonra Animasyon",
+      "description": "Ezik tampondan pırıl pırıl bitmiş araca akıcı dramatik dönüşüm; izleyicinin gözünden kaçmayan görsel etki."
+    },
+    {
+      "title": "Müşteri Tanıklığı AI Ses",
+      "description": "Müşteriyi servise çağırmadan yazılı yorumlarını doğal Türkçe seslendirme ve animasyon yüz ile videoya dönüştürüyoruz."
+    },
+    {
+      "title": "Marka Spesifik Tanıtım",
+      "description": "BMW, Mercedes, Audi, Renault, Ford için ayrı görsel dil ve teknik dil ile özelleştirilmiş içerik üretimi."
+    },
+    {
+      "title": "Vertical 9:16 Optimizasyonu",
+      "description": "Reels ve TikTok için telefon ekranını dolduran kompozisyon; ilk 3 saniyede hook garantili."
+    },
+    {
+      "title": "Hızlı Revize Döngüsü",
+      "description": "Render edilmiş bir videoda sahne değiştirmek 12 saat içinde teslim; geleneksel post-prodüksiyon ile kıyaslanamaz hız."
+    }
+  ],
+  "caseStudy": {
+    "title": "Ankara Sincan'da Bir Oto Servisin 4 Aylık Dönüşümü",
+    "paragraphs": [
+      "Ankara Sincan Sanayi Sitesi'nde 12 yıllık bir Renault-Dacia servis sahibi, Instagram'da düzenli paylaşım yaptığı halde sadece çevresinden iş alıyordu. Çekim ekibi kiralayacak bütçesi olmadığı için her ay 2-3 telefon kaydından öteye geçemiyordu.",
+      "PORTZEN ile çalışmaya başladığı ilk ayda servis hikayesi, 8 farklı arıza tipi ve 15 müşteri yorumu üzerinden AI senaryo kuruldu. Sora ile motor üst açı çekimleri, kaporta önce-sonra dramatik geçişler ve drone view dış cephe sahneleri 9:16 formatında üretildi.",
+      "4. ay sonunda toplam 18 video yayınlandı; en yüksek performanslı 'Kış Lastik Hatası' videosu TikTok'ta 410 bin görüntülenme aldı. Toplamda 1.4 milyon erişim, ay başı 65 yeni randevu ve %38 ciro artışı sağlandı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Video Üretimi", "before": "2-3 telefon kaydı", "after": "18 sinematik AI video"},
+      {"label": "Sosyal Medya Erişimi", "before": "8K görüntülenme/ay", "after": "1.4M görüntülenme/ay"},
+      {"label": "Yeni Randevu Sayısı", "before": "12 / ay", "after": "65 / ay"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "7.500 TL/ay",
+      "description": "Tek lokasyon servisler için temel video üretim paketi",
+      "features": [
+        "Ayda 5 dikey video (9:16)",
+        "Tek marka odaklı senaryo",
+        "Altyazı ve marka logosu",
+        "Instagram Reels yayın planı",
+        "Aylık performans raporu"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "16.000 TL/ay",
+      "description": "Aktif sosyal medya yatırımı yapan servisler için",
+      "features": [
+        "Ayda 10 dikey video (9:16)",
+        "Çoklu marka spesifik içerik",
+        "Müşteri tanıklığı AI ses",
+        "Kaporta önce-sonra animasyon",
+        "TikTok + Instagram otomatik yayın",
+        "Haftalık WhatsApp raporu",
+        "Hızlı revize (12 saat)"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "30.000 TL/ay",
+      "description": "Bölgesel lider servisler ve zincir bayiler için",
+      "features": [
+        "Ayda 15 dikey + 5 yatay video",
+        "Drone view dış cephe sahneleri",
+        "Sezonsal kampanya seti (kış/yaz)",
+        "Premium ses + müzik lisansı",
+        "Sınırsız revize hakkı",
+        "Özel görsel kimlik tasarımı",
+        "Aylık strateji toplantısı",
+        "Performans optimizasyon raporu"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "AI ile üretilen motor ve kaporta görüntüleri gerçek mi görünüyor?",
+      "answer": "Sora 2 ve Veo 3 motoru çalışma anında, yağ damlasının düşüşünü ya da kaporta yüzeyinde ışığın oynayışını fotogerçekçi kalitede üretebiliyor. Müşteriler farkı çoğunlukla ayırt edemiyor; ancak biz şeffaflık için açıklayıcı altyazı kullanmanızı öneriyoruz."
+    },
+    {
+      "question": "Kaç farklı video paketinizde mevcut?",
+      "answer": "Başlangıç paketi ayda 5, Pro paketi ayda 10, Premium paketi ayda 15 dikey + 5 yatay video içeriyor. İhtiyaca göre ek video paketleri tanesi 1.200 TL'den eklenebiliyor."
+    },
+    {
+      "question": "Kış lastik, klima bakımı gibi sezonsal içerikleri nasıl yönetiyorsunuz?",
+      "answer": "Sezon başlamadan 3 hafta önce ilgili kampanya video setini hazırlıyor ve yayın takvimine ekliyoruz. Ekim'de kış lastik, Mayıs'ta klima bakımı, Haziran'da uzun yol kontrolü gibi içerikler önceden plana giriyor."
+    },
+    {
+      "question": "Üretilen videoların telif hakkı kimde?",
+      "answer": "Tüm videoların ticari kullanım hakkı tamamen size aittir. PORTZEN olarak biz hizmet sağlayıcıyız; içerik üretim sürecinde lisans gerektiren müzikleri Premium pakette dahil ediyoruz."
+    },
+    {
+      "question": "BMW, Mercedes gibi premium markalara özel içerik üretebiliyor musunuz?",
+      "answer": "Evet. Her marka için ayrı görsel dil (renk paleti, kamera açısı, müzik tonu) ve teknik dil (örn. 'inline 6 motor', 'M paket', 'BiTurbo') ile özelleştirilmiş senaryo hazırlıyoruz."
+    },
+    {
+      "question": "İlk videoyu ne zaman alırım?",
+      "answer": "Brief toplantısının ardından ilk video örneği 72 saat içinde teslim ediliyor. Onayınızdan sonra ay boyunca düzenli takvim üzerinden yayın akıyor."
+    },
+    {
+      "question": "Yayınlanan videolarda servis çalışanları görünmek zorunda mı?",
+      "answer": "Hayır. AI ile üretilen sahnelerde kimsenin yüzü görünmek zorunda değil. Sadece motor, araç, alet edevat ya da sentetik karakterler kullanılabiliyor; tercihiniz size kalmış."
+    }
+  ],
+  "finalCtaHeadline": "Servisinizin İşini AI Sinemasıyla Anlatın",
+  "finalCtaSubtitle": "Aylık 18 sinematik video, 1.4M görüntülenme ve dolu randevu defteri için 15 dakikalık keşif görüşmesi yeterli."
+}

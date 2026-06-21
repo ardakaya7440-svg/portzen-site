@@ -1,0 +1,163 @@
+{
+  "sectorSlug": "egitim",
+  "sectorName": "Eğitim Kurumu",
+  "sectorPlural": "Eğitim Kurumları",
+  "title": "Eğitim Kurumları İçin AI Reklam Videosu | PORTZEN",
+  "description": "Eğitim kurumları, online kurslar ve sertifika programları için yapay zeka destekli tanıtım videoları. Eğitmen avatarı, mezun röportajı, ders özetleri.",
+  "keywords": [
+    "eğitim reklam videosu",
+    "online kurs tanıtım",
+    "ai video eğitim",
+    "kurs reklam videosu",
+    "mezun röportajı video",
+    "eğitmen tanıtım videosu"
+  ],
+  "h1": "Eğitim Kurumları İçin Yapay Zeka Tanıtım Videosu",
+  "heroSubtitle": "Eğitmen kameraya çıkmak istemese de, mezun röportajı toplamak vakit alsa da kurum tanıtımınız aksamasın. AI ile kurs içeriklerinizi sinematik tanıtıma dönüştürüyoruz.",
+  "stats": [
+    {"value": "32", "label": "Aylık Üretilen Video"},
+    {"value": "480K", "label": "Aylık Instagram Erişimi"},
+    {"value": "142", "label": "Aylık Kurs Satışı"},
+    {"value": "5x", "label": "Tanıtım ROI Artışı"}
+  ],
+  "problems": [
+    "Eğitmenler kameraya çıkmaya çekiniyor ya da yoğun ders programı nedeniyle çekim için zaman ayıramıyor; tanıtım üretimi kilitleniyor.",
+    "Müfredat içeriklerini, ders konularını ya da öğrenme çıktılarını görsel olarak özetleyen profesyonel video hazırlamak grafiker ve editör gerektiriyor.",
+    "Mezun başarı hikayelerini videoya çevirmek için kişiyi tekrar bulmak, randevu almak ve röportaj yapmak haftalar sürebiliyor.",
+    "Eylül kayıt dönemi, yarıyıl tatili ve yaz okulu gibi sezonsal kampanyalar her dönem yeniden tanıtım üretimi gerektiriyor.",
+    "Online ve yüz yüze eğitim modellerini ayrı ayrı tanıtmak; kurs, kohort, sertifika ve demo derslerini farklı içeriklerle anlatmak ekibi yoruyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Kurs İçeriği ve Müfredat Analizi",
+      "description": "Eğitim programınızın müfredatı, öğrenme çıktıları, eğitmen profilleri ve mezun verilerini topluyor; hedef kitle profili çıkartıyoruz."
+    },
+    {
+      "title": "AI Senaryo ve Görselleştirme",
+      "description": "Ders konularını metafor ve infografik AI sahneleriyle, mezun yolculuğunu dramatik kurguyla senaryolaştırıyoruz. Eğitici görselleştirme önceliği."
+    },
+    {
+      "title": "Sora ve Veo ile Render + Altyazı",
+      "description": "Sahneler Sora 2 ve Veo 3 ile hem 9:16 dikey hem 16:9 yatay formatta üretiliyor; Türkçe-İngilizce altyazı, marka müziği ve logo otomatik."
+    },
+    {
+      "title": "Teslim ve Çok Kanallı Yayın",
+      "description": "Videolar Instagram, LinkedIn, YouTube Shorts ve TikTok kanallarınıza otomatik takvimle yayınlanıyor; haftalık tıklama-kayıt raporu sunuluyor."
+    }
+  ],
+  "features": [
+    {
+      "title": "Eğitmen Avatar Sentetik Üretim",
+      "description": "Eğitmen kameraya çıkmak istemiyorsa, fotoğrafından AI ile sentetik konuşan avatar üretiyoruz; ses tonu ve mimikler doğal."
+    },
+    {
+      "title": "Ders İçerik Görselleştirme",
+      "description": "Soyut kavramları (algoritma, finansal analiz, gramer kuralı) animasyon ve metafor sahneleriyle anlaşılır hale getiriyoruz."
+    },
+    {
+      "title": "Mezun Röportajı AI Ses",
+      "description": "Mezun yazılı geri bildirimini doğal Türkçe seslendirme ve fotoğrafından animasyon avatar ile video röportaja dönüştürüyoruz."
+    },
+    {
+      "title": "Kurs Özet 60 Saniye Format",
+      "description": "12 haftalık bir programı, izleyicinin dikkat süresine sığacak 60 saniyelik özet videoda dramatize ediyoruz."
+    },
+    {
+      "title": "Sertifika ve Kurum Tanıtım",
+      "description": "Akreditasyon, sertifika geçerliliği ve kurumsal güven mesajını profesyonel kurumsal video kalitesinde sunuyoruz."
+    },
+    {
+      "title": "Vertical + Horizontal Çift Format",
+      "description": "Aynı içerik hem Reels/TikTok için 9:16 hem LinkedIn/YouTube için 16:9 olarak teslim ediliyor."
+    }
+  ],
+  "caseStudy": {
+    "title": "İstanbul'da Bir Online Kurs Platformunun 4 Ayda Dönüşümü",
+    "paragraphs": [
+      "Cihangir merkezli, veri bilimi ve yapay zeka eğitimi veren bir online kurs platformu, Instagram'da 12 bin takipçiye sahipti ancak ayda yalnızca 28 kurs satışı yapabiliyordu. Eğitmenlerin akademik kariyer yoğunluğu çekim takvimlerini sürekli ertelemelerine yol açıyordu.",
+      "PORTZEN ile çalışmaya başladıkları ilk ayda 4 eğitmenin fotoğrafından sentetik konuşan avatar üretildi; 8 farklı kurs müfredatı ve 22 mezun başarı hikayesi senaryolandırıldı. Sora ve Veo ile hem dikey hem yatay format üretim yapıldı.",
+      "4 ay sonunda toplam 32 video yayınlandı; en başarılı 'Python'la İlk İş' videosu LinkedIn'de 180 bin organik erişim aldı. Instagram aylık erişim 12 binden 480 bine fırladı; kurs satışı ay başı 28'den 142'ye çıktı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Video Üretimi", "before": "1-2 statik post", "after": "32 sinematik AI video"},
+      {"label": "Instagram Erişim", "before": "12K / ay", "after": "480K / ay"},
+      {"label": "Aylık Kurs Satışı", "before": "28 satış", "after": "142 satış"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "9.000 TL/ay",
+      "description": "Tek programlı kurslar ve özel ders veren eğitmenler için",
+      "features": [
+        "Ayda 8 video (dikey + yatay)",
+        "Tek kurs senaryosu",
+        "Türkçe altyazı ve logo",
+        "Instagram + LinkedIn yayın",
+        "Aylık erişim raporu"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "19.000 TL/ay",
+      "description": "Çoklu kurs programları olan eğitim kurumları için",
+      "features": [
+        "Ayda 16 video (dikey + yatay)",
+        "Çoklu kurs ve eğitmen senaryosu",
+        "Eğitmen avatar sentetik üretim",
+        "Mezun röportajı AI ses",
+        "4 kanal otomatik yayın",
+        "Türkçe + İngilizce altyazı",
+        "Haftalık tıklama-kayıt raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "36.000 TL/ay",
+      "description": "Üniversite, akademi ve büyük platformlar için",
+      "features": [
+        "Ayda 32 video (dikey + yatay + uzun)",
+        "Sınırsız eğitmen avatar",
+        "Sezonsal kampanya setleri",
+        "Kurumsal tanıtım filmi (3 dk)",
+        "Premium ses + müzik lisansı",
+        "Sınırsız revize hakkı",
+        "Aylık strateji toplantısı",
+        "Özel görsel kimlik tasarımı"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Eğitmenlerimizin yüzünün görünmesi şart mı?",
+      "answer": "Hayır. Eğitmen kameraya çıkmak istemiyorsa fotoğrafından sentetik konuşan avatar üretebiliyoruz. Tamamen anonim, animasyon karakter ya da sadece ses + görsel formatları da mümkün."
+    },
+    {
+      "question": "Ayda kaç ders ve kurs videosu üretiliyor?",
+      "answer": "Başlangıç paketi 8, Pro paketi 16, Premium paketi 32 video içeriyor. İhtiyaca göre uzun format kurum tanıtım filmleri ya da kohort başlangıç videoları ek olarak eklenebiliyor."
+    },
+    {
+      "question": "Üretilen videoların telif hakkı kimde?",
+      "answer": "Tüm videoların ticari kullanım hakkı kurumunuza aittir. Eğitmenin fotoğrafından üretilen avatar için yazılı izin formu birlikte hazırlanıyor; bu da kurum arşivinde kalıyor."
+    },
+    {
+      "question": "Mezun röportajları gerçek mi yoksa kurgu mu?",
+      "answer": "Mezun röportajları gerçek geri bildirimlere dayanıyor. Mezunun yazılı izniyle yorumlarını AI ses ve animasyon ile videoya dönüştürüyoruz; uydurma referans asla kullanmıyoruz."
+    },
+    {
+      "question": "Eylül kayıt dönemi gibi sezonsal kampanyalara hazır mısınız?",
+      "answer": "Evet. Kayıt dönemi başlamadan 4 hafta önce kampanya video seti hazırlanır ve yayın takvimine girer. Erken kuş indirimi, demo ders davetiyesi ve sertifika programı tanıtımı ayrı setler halinde planlanır."
+    },
+    {
+      "question": "Online ve yüz yüze eğitimlerimiz için ayrı içerik hazırlıyor musunuz?",
+      "answer": "Evet. Online ve yüz yüze formatlar farklı hedef kitlelere hitap ettiği için ayrı senaryolarla ve farklı kanal stratejisiyle ele alınıyor. Online genelde Instagram + YouTube, yüz yüze ise LinkedIn + Google Display ağırlıklı planlanıyor."
+    },
+    {
+      "question": "İlk videoyu ne zaman alırım?",
+      "answer": "Brief toplantısı ve içerik formu doldurulduktan sonra ilk video örneği 5 iş günü içinde teslim ediliyor. Onayınızla birlikte aylık yayın takvimi devreye giriyor."
+    }
+  ],
+  "finalCtaHeadline": "Eğitiminizi AI ile Hak Ettiği Görünürlüğe Taşıyın",
+  "finalCtaSubtitle": "Aylık 32 video, 480K erişim ve dolan kohortlar için 15 dakikalık keşif görüşmesi yeterli."
+}

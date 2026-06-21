@@ -1,0 +1,159 @@
+{
+  "sectorSlug": "avukat",
+  "sectorName": "Hukuk Bürosu",
+  "sectorPlural": "Hukuk Büroları",
+  "title": "Hukuk Büroları İçin AI Reklam Videosu | Baro Uyumlu Eğitici İçerik — PORTZEN",
+  "description": "Avukat ekranda çıkmadan, baro reklam kurallarına uyumlu eğitici AI videoları. LinkedIn ve Instagram'da dava türü bazlı seri içerik, danışan başvurusu odaklı.",
+  "keywords": ["avukat ai video", "hukuk bürosu reklam", "avukat linkedin video", "baro uyumlu video", "hukuki içerik üretimi", "eğitici hukuk videosu"],
+  "h1": "Hukuk Büroları için AI Reklam Videosu",
+  "heroSubtitle": "Avukat olarak ekrana çıkmak istemiyorsunuz, baro reklam kuralları sıkı, kurumsal görünmeli. PORTZEN AI; eğitici, KVKK uyumlu, dava türü bazlı serili videoları üretiyor. LinkedIn ve Instagram'da danışan başvurusu odaklı içerik akışı.",
+  "stats": [
+    {"value": "48 saat", "label": "Teslim"},
+    {"value": "15x", "label": "LinkedIn Etkileşim"},
+    {"value": "Baro", "label": "Kurallarına Uyumlu"},
+    {"value": "9:16+16:9", "label": "Çoklu Format"}
+  ],
+  "problems": [
+    "Avukat olarak ekrana çıkmak istemiyorsunuz — gizlilik, profesyonel imaj kaygısı, vakitsizlik aynı anda.",
+    "Türkiye Barolar Birliği reklam yönetmeliği sıkı — 'müvekkil garantisi', 'davaları kazandık' gibi ifadeler yasak, içerik üretmek mayın tarlası.",
+    "Kurumsal görünmeniz gerekiyor ama serbest çalışan görsel tasarımcıyla her hafta brief verip 7 gün beklemek operasyonel cehennem.",
+    "Eğitici içerik (boşanma süreci, miras paylaşımı, iş hukuku) danışan kazandırıyor ama avukat 2 saat ayırıp video çekecek vakti yok.",
+    "Sosyal medyada düzenli kalmak gerek, ayda 8-10 içerik çıkarmak şart — manuel üretimde her video 2 gün, hukuk bürosu yetişemez."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Dava Türü ve İçerik Konu Haritası",
+      "description": "Büronuzun uzmanlık alanları (aile hukuku, iş hukuku, ceza hukuku, ticaret hukuku) belirleniyor. Her alan için 12-20 eğitici konu haritası çıkarılıyor: 'Anlaşmalı boşanma 1 günde mi biter?', 'İşten haksız çıkarıldıysam ne yapmalıyım?' gibi yüksek arama hacimli sorular."
+    },
+    {
+      "title": "AI Senaryo: Eğitici ve Baro Kurallarına Uyumlu",
+      "description": "Her video için AI senaryo yazıyor; 'şu davayı kazandık' gibi yasak ifadeler kullanmıyor, 'şu durumda sürecin nasıl işlediğini anlatalım' diye eğitici tonla yazıyor. Avukat onayınız sonrası render aşamasına geçiliyor."
+    },
+    {
+      "title": "Sora/Veo Render + Profesyonel Altyazı",
+      "description": "Onaylanan senaryo Sora 2.0 veya Veo 3 ile render ediliyor. Avukat figürü sentetik (gizli kimlik) veya sizin sesinizle klonlanmış AI ses kullanılıyor. Profesyonel altyazı, müzik, büronuzun logosu ekleniyor."
+    },
+    {
+      "title": "Teslim + LinkedIn ve Instagram Publish",
+      "description": "Videolar onayınıza sunuluyor (1 revize dahil). Onay sonrası LinkedIn (16:9) ve Instagram (9:16) için ayrı format teslim ediliyor. Publish ekibimiz LinkedIn hashtag + saat optimizasyonu yapıyor. Aylık etkileşim ve danışan başvurusu raporlanıyor."
+    }
+  ],
+  "features": [
+    {
+      "title": "Avukat Sesli (Sentetik veya Gerçek Ses Klonlama)",
+      "description": "Avukat ekrana çıkmak istemiyor — iki seçenek: 1) Profesyonel sentetik avukat sesi (kadın/erkek seçenekli), 2) Kendi sesinizden 5 dakikalık örnekle ElevenLabs ile klonlanmış doğal sesiniz. Hangisi tercih edilirse yıl boyu o ses kullanılıyor."
+    },
+    {
+      "title": "Eğitici Animasyon ve Görsel Anlatım",
+      "description": "Hukuki süreçler (boşanma davası 4 aşama, iş davası timeline) animasyonlu infografiklerle anlatılıyor. AI sahneler arası geçişler, vurgu animasyonları, ikonlar ekliyor — danışan süreci kolay anlıyor."
+    },
+    {
+      "title": "Dava Türü Bazlı Sıralı Seri İçerik",
+      "description": "'Boşanma 101' (5 video), 'İşçi hakları' (6 video), 'Miras paylaşımı' (4 video) gibi seri içerikler üretiliyor. LinkedIn'de seri takipçi sadakati yaratıyor, danışan 5. videoda büroya yazıyor."
+    },
+    {
+      "title": "KVKK Uyumlu İçerik",
+      "description": "AI senaryoda gerçek dava örneği, müvekkil adı, spesifik vaka detayı kullanmıyor. 'Genel bir senaryoyu anlatalım' tonuyla, hipotetik örneklerle ilerliyor — KVKK ihlali riski sıfır."
+    },
+    {
+      "title": "Baro Reklam Kuralları Uyumlu",
+      "description": "Türkiye Barolar Birliği Avukatlık Kanunu Yönetmeliği'ne göre 'iş garantisi', 'davaları kazandık', 'en iyi avukat' gibi ifadeler kesinlikle kullanılmıyor. PORTZEN baro uyum kontrolü her videoda yapılıyor."
+    },
+    {
+      "title": "LinkedIn 16:9 + Instagram 9:16 Çoklu Format",
+      "description": "Her video iki formatta teslim ediliyor: LinkedIn (1280x720, profesyonel kitleye), Instagram Reels (1080x1920, geniş kitleye). YouTube Shorts ve TikTok export'u da dahil — tek üretim, çoklu kanal."
+    }
+  ],
+  "caseStudy": {
+    "title": "Kadıköy Hukuk Bürosu: 4 Ayda 24 Video, LinkedIn Etkileşim 320 → 4.800",
+    "paragraphs": [
+      "Kadıköy'de 3 ortaklı, aile ve iş hukuku alanında çalışan butik bir hukuk bürosu, sosyal medyada hiçbir varlığı yoktu. Ortakların hiçbiri ekrana çıkmak istemiyor, baro kuralları nedeniyle 'ne paylaşacağız' belirsizliği vardı. LinkedIn etkileşimi haftalık 320 civarındaydı, danışan başvurusu sadece tanıdık-tavsiye üzerinden geliyordu.",
+      "PORTZEN AI Reklam Videosu sistemiyle aile hukuku ve iş hukuku alanlarında ayda 6 video üretilmeye başlandı. Sentetik avukat sesi tercih edildi (ortaklar kimliklerini gizledi). 'Anlaşmalı boşanma 1 günde biter mi?', 'İşten ayrılırken kıdem tazminatı nasıl hesaplanır?' gibi yüksek arama hacimli konularda eğitici seri içerikler çıkarıldı.",
+      "4 ay sonunda toplam 24 video yayınlandı, LinkedIn etkileşim haftalık 320'den 4.800'e (15x artış) çıktı. Bürodan kaynaklı danışan başvurusu ayda 28'e ulaştı (önceki ortalama 6-8). LinkedIn'den gelen danışanların ortalama vekalet ücreti büronun klasik müvekkillerinden %35 yüksek (kurumsal/orta-üst segment) çıktı."
+    ],
+    "beforeAfter": [
+      {"label": "Haftalık LinkedIn Etkileşim", "before": "320", "after": "4.800"},
+      {"label": "Aylık Danışan Başvurusu", "before": "6-8", "after": "28"},
+      {"label": "Yayımlanan İçerik / Ay", "before": "0", "after": "6"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "10.000 TL/ay",
+      "description": "Küçük bürolar için ayda 4 eğitici video",
+      "features": [
+        "Ayda 4 AI eğitici video",
+        "Sentetik avukat sesi",
+        "LinkedIn 16:9 format",
+        "Baro uyum kontrolü",
+        "1 revize hakkı / video",
+        "Logo ve iletişim",
+        "48 saat teslim"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "20.000 TL/ay",
+      "description": "Aktif bürolar için ayda 8 video + seri içerik",
+      "features": [
+        "Ayda 8 AI eğitici video",
+        "Ses klonlama (kendi sesinizden)",
+        "LinkedIn + Instagram çoklu format",
+        "Seri içerik stratejisi (3 seri)",
+        "Eğitici animasyon + altyazı",
+        "2 revize hakkı / video",
+        "LinkedIn publish + hashtag",
+        "Aylık etkileşim raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "38.000 TL/ay",
+      "description": "Çoklu ortak veya kurumsal bürolar için tam paket",
+      "features": [
+        "Ayda 16 AI eğitici video",
+        "Çoklu uzmanlık alanı (4 alana kadar)",
+        "TikTok + YouTube Shorts dağıtım",
+        "Özel kurumsal markalama",
+        "Sınırsız revize",
+        "Aylık içerik stratejisi görüşmesi",
+        "Dedicated kreatif ekip",
+        "7/24 öncelikli destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Baro reklam yönetmeliğine gerçekten uyumlu mu, nasıl garanti ediyorsunuz?",
+      "answer": "Her senaryo Türkiye Barolar Birliği Avukatlık Kanunu Yönetmeliği madde 7'ye göre kontrol ediliyor. 'İş garantisi', 'müvekkil sayısı', 'kazanılan davalar', 'reklam vaatleri' içeren ifadeler otomatik filtreleniyor. Onaya gelen senaryolar zaten uyum geçmiş oluyor — siz son onayı verirsiniz."
+    },
+    {
+      "question": "Videolar KVKK uyumlu mu, dava örneği kullanıyor musunuz?",
+      "answer": "Hayır. Gerçek dava, müvekkil adı, spesifik vaka detayı kesinlikle kullanılmıyor. AI sadece hipotetik/genel senaryolar üretiyor: 'Diyelim ki bir çalışan haksız işten çıkarıldı, süreç şöyle işler...' KVKK risk sıfır."
+    },
+    {
+      "question": "Gerçek avukat ekrana çıkmadan video nasıl çekiliyor?",
+      "answer": "Üç seçenek: 1) Sentetik avukat figürü (AI ile üretilmiş, kimlik gizli), 2) Sadece animasyon + altyazı + ses (avukat figürü yok), 3) Sizin sesinizle klonlanmış AI ses + animasyon. Çoğu büro 2. ve 3. seçeneği tercih ediyor — kurumsal ve profesyonel görünüyor."
+    },
+    {
+      "question": "Ayda kaç farklı içerik üretiyorsunuz, tekrarlamıyor mu?",
+      "answer": "Her ay 4-16 farklı konu (paket bazında). Her uzmanlık alanı için 12-20 yüksek arama hacimli soru havuzumuz var. 3 yıl boyunca tekrarsız içerik üretebiliyoruz — yüksek aramalı sorular hep yenileniyor (mevzuat değişimi, güncel davalar)."
+    },
+    {
+      "question": "Üretilen videoların telifi ve fikri mülkiyeti kime ait?",
+      "answer": "Tüm videoların ticari kullanım hakkı ve telifi size ait. Web sitenizde, LinkedIn'de, Instagram'da, broşürde, sunumda — sınırsız kullanabilirsiniz. PORTZEN sadece üretici, hak sahibi değil."
+    },
+    {
+      "question": "LinkedIn publish ediyor musunuz, sadece video teslim mi alıyorum?",
+      "answer": "Başlangıç pakette sadece video teslim. Pro ve Premium paketlerde LinkedIn publish ekibimiz hashtag stratejisi, optimal saat (Salı/Çarşamba 09:00-11:00 hukuk içeriği için en yüksek etkileşim), caption yazımı dahil yayına alıyor."
+    },
+    {
+      "question": "Rakip büroların içeriklerinden farkı ne olacak?",
+      "answer": "Çoğu hukuk bürosu jenerik 'avukat masada konuşuyor' videoları çekiyor — sıkıcı ve aynılaştı. PORTZEN; animasyonlu süreç anlatımları, vaka senaryoları, info-grafikler, dinamik altyazılarla LinkedIn algoritmasının tercih ettiği formatı üretiyor — 15x daha fazla etkileşim alıyor."
+    }
+  ],
+  "finalCtaHeadline": "Ekrana Çıkmadan, Baro Kurallarına Uyumlu, LinkedIn'de Görünür Olun",
+  "finalCtaSubtitle": "Eğitici, KVKK ve baro uyumlu AI videolar. Ayda 8 video, 48 saat teslim. 4 ayda danışan başvurusu 4 kata çıkan büroya katılın — demo isteyin."
+}
