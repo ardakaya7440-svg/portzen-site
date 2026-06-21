@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Navbar } from "@/components/navbar/Navbar";
 import "./globals.css";
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-ZKZGB9GPB2";
 
 const montserrat = Montserrat({
   subsets: ["latin", "latin-ext"],
@@ -51,6 +54,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-paper text-ink antialiased">
         <Navbar />
         <main className="pt-[80px]">{children}</main>
+        {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
         <footer className="border-t-3 border-ink bg-ink text-paper mt-section">
           <div className="mx-auto max-w-container px-6 py-12 grid gap-8 md:grid-cols-4">
             <div className="md:col-span-2">
