@@ -64,11 +64,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div>
               <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Hizmetler</div>
               <ul className="space-y-2 text-sm">
-                <li><a href="/hizmetler/ai-video" className="hover:text-brand-yellow transition-colors">AI Video</a></li>
-                <li><a href="/hizmetler/whatsapp-bot" className="hover:text-brand-yellow transition-colors">WhatsApp Bot</a></li>
-                <li><a href="/hizmetler/otomasyon" className="hover:text-brand-yellow transition-colors">Otomasyon</a></li>
-                <li><a href="/hizmetler/sosyal-medya" className="hover:text-brand-yellow transition-colors">Sosyal Medya</a></li>
-                <li><a href="/hizmetler/web-tasarim" className="hover:text-brand-yellow transition-colors">Web Tasarım</a></li>
+                <li><a href="/whatsapp-ai-asistani" className="hover:text-brand-yellow transition-colors">WhatsApp AI Asistanı</a></li>
+                <li><a href="/instagram-dm-otomasyonu" className="hover:text-brand-yellow transition-colors">Instagram DM Otomasyonu</a></li>
+                <li><a href="/ai-reklam-videosu" className="hover:text-brand-yellow transition-colors">AI Reklam Videosu</a></li>
+                <li><a href="/crm-otomasyonu" className="hover:text-brand-yellow transition-colors">CRM Otomasyonu</a></li>
+                <li><a href="/web-tasarim" className="hover:text-brand-yellow transition-colors">Web Tasarım</a></li>
               </ul>
             </div>
             <div>
@@ -79,6 +79,42 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <li><a href="/hakkimizda" className="hover:text-brand-yellow transition-colors">Hakkımızda</a></li>
                 <li><a href="/iletisim" className="hover:text-brand-yellow transition-colors">İletişim</a></li>
               </ul>
+            </div>
+          </div>
+
+          {/* Sektör link şeridi — defansif SEO */}
+          <div className="border-t-3 border-paper/20 mx-auto max-w-container px-6 py-8">
+            <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Sektörel Çözümler</div>
+            <div className="flex flex-wrap gap-2">
+              {[
+                {label: "Eczane WhatsApp AI", href: "/whatsapp-ai-asistani/eczane"},
+                {label: "Klinik WhatsApp AI", href: "/whatsapp-ai-asistani/klinik"},
+                {label: "Emlak WhatsApp AI", href: "/whatsapp-ai-asistani/emlak"},
+                {label: "Restoran WhatsApp AI", href: "/whatsapp-ai-asistani/restoran"},
+                {label: "Avukat WhatsApp AI", href: "/whatsapp-ai-asistani/avukat"},
+                {label: "Klinik Instagram DM", href: "/instagram-dm-otomasyonu/klinik"},
+                {label: "Restoran Instagram DM", href: "/instagram-dm-otomasyonu/restoran"},
+                {label: "Butik Instagram DM", href: "/instagram-dm-otomasyonu/butik"},
+                {label: "Klinik AI Reklam", href: "/ai-reklam-videosu/klinik"},
+                {label: "Restoran AI Reklam", href: "/ai-reklam-videosu/restoran"},
+                {label: "Klinik Web", href: "/web-tasarim/klinik"},
+                {label: "Avukat Web", href: "/web-tasarim/avukat"},
+                {label: "Emlak Web", href: "/web-tasarim/emlak"},
+                {label: "Restoran Web", href: "/web-tasarim/restoran"},
+                {label: "Eczane Web", href: "/web-tasarim/eczane"},
+                {label: "Klinik CRM", href: "/crm-otomasyonu/klinik"},
+                {label: "Emlak CRM", href: "/crm-otomasyonu/emlak"},
+                {label: "Avukat CRM", href: "/crm-otomasyonu/avukat"},
+                {label: "Eğitim CRM", href: "/crm-otomasyonu/egitim"}
+              ].map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-xs text-paper/70 hover:text-brand-yellow border border-paper/20 px-2 py-1 hover:border-brand-yellow transition-colors"
+                >
+                  {link.label}
+                </a>
+              ))}
             </div>
           </div>
           <div className="border-t-3 border-paper/20 py-4 text-center text-xs text-paper/60">

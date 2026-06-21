@@ -26,6 +26,7 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
+import { RelatedSectorsSection } from "@/components/landing/RelatedSectorsSection";
 
 const URL = "https://portzenai.com/crm-otomasyonu";
 const TITLE = "CRM Otomasyonu | Lead'i Müşteriye Çeviren Sistem — PORTZEN";
@@ -619,6 +620,8 @@ export default function CrmOtomasyonuPage() {
       </section>
 
       {/* 9. FINAL CTA */}
+      <RelatedSectorsSection service="crm-otomasyonu" />
+
       <section className="bg-brand-yellow py-section border-t-3 border-ink">
         <div className="mx-auto max-w-container px-6">
           <div className="grid lg:grid-cols-[1.5fr_1fr] gap-10 items-center">

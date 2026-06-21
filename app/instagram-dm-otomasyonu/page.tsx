@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
+import { RelatedSectorsSection } from "@/components/landing/RelatedSectorsSection";
 
 export const metadata: Metadata = {
   title: "Instagram DM Otomasyonu | 60 Saniyede Yanıt — PORTZEN",
@@ -691,6 +692,8 @@ export default function Page() {
       </section>
 
       {/* 9. FINAL CTA */}
+      <RelatedSectorsSection service="instagram-dm-otomasyonu" />
+
       <section className="py-section">
         <div className="mx-auto max-w-container px-6">
           <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">

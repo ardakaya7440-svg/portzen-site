@@ -3,6 +3,12 @@ import { ArrowUpRight, Sparkles, Play } from "lucide-react";
 import { SERVICES, TONE_BG, TONE_TEXT } from "@/data/services";
 import { cn } from "@/lib/utils";
 import { Reveal } from "@/components/ui/reveal";
+import {
+  SERVICE_META,
+  getSectorLanding,
+  getSectorSlugsForService,
+  type ServiceSlug
+} from "@/lib/landings";
 
 export default function HomePage() {
   return (
@@ -114,6 +120,75 @@ export default function HomePage() {
                 </Link>
               </Reveal>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SEKTÖRÜNÜZE ÖZEL — 5 hizmet × tüm sektörler full grid */}
+      <section className="bg-paper py-section border-t-3 border-ink">
+        <div className="mx-auto max-w-container px-6">
+          <Reveal>
+            <div className="mb-12 max-w-2xl">
+              <div className="inline-block border-3 border-ink bg-brand-green px-3 py-1 text-paper text-xs font-black uppercase tracking-wider mb-3 shadow-brutal-sm">
+                Sektörünüze Özel
+              </div>
+              <h2 className="font-display text-h2 font-black leading-tight text-ink">
+                İşletmeniz hangi sektörde?
+              </h2>
+              <p className="mt-3 text-body text-ink/70">
+                Her hizmetimiz sektörünüze göre özelleştirilmiş — direkt size uygun sayfayı seçin.
+              </p>
+            </div>
+          </Reveal>
+
+          <div className="space-y-8">
+            {(["whatsapp-ai-asistani", "instagram-dm-otomasyonu", "ai-reklam-videosu", "web-tasarim", "crm-otomasyonu"] as ServiceSlug[]).map((serviceSlug) => {
+              const meta = SERVICE_META[serviceSlug];
+              const sectorSlugs = getSectorSlugsForService(serviceSlug);
+              const sectors = sectorSlugs
+                .map((slug) => {
+                  const data = getSectorLanding(serviceSlug, slug);
+                  return data ? { slug, name: data.sectorName } : null;
+                })
+                .filter((s): s is { slug: string; name: string } => s !== null);
+
+              if (sectors.length === 0) return null;
+
+              return (
+                <Reveal key={serviceSlug}>
+                  <div className="border-3 border-ink bg-paper p-5 md:p-6 shadow-brutal">
+                    <div className="flex flex-wrap items-center justify-between gap-3 mb-4 pb-3 border-b-3 border-ink/10">
+                      <Link
+                        href={`/${serviceSlug}`}
+                        className={cn(
+                          "inline-flex items-center gap-2 border-3 border-ink px-3 py-1.5 font-display text-base font-black shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all",
+                          `bg-brand-${meta.tone}`,
+                          meta.tone === "yellow" || meta.tone === "orange" ? "text-ink" : "text-paper"
+                        )}
+                      >
+                        {meta.label}
+                        <ArrowUpRight className="h-4 w-4" />
+                      </Link>
+                      <span className="text-xs font-bold uppercase tracking-wider text-ink/50">
+                        {sectors.length} sektör
+                      </span>
+                    </div>
+                    <div className="grid gap-2 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
+                      {sectors.map((s) => (
+                        <Link
+                          key={s.slug}
+                          href={`/${serviceSlug}/${s.slug}`}
+                          className="group flex items-center justify-between gap-2 border-3 border-ink bg-paper px-3 py-2 text-sm font-bold text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal hover:bg-brand-yellow transition-all"
+                        >
+                          <span>{s.name}</span>
+                          <ArrowUpRight className="h-3.5 w-3.5 opacity-40 group-hover:opacity-100 transition-opacity flex-shrink-0" />
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </Reveal>
+              );
+            })}
           </div>
         </div>
       </section>

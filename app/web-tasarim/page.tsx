@@ -26,6 +26,7 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
+import { RelatedSectorsSection } from "@/components/landing/RelatedSectorsSection";
 
 const URL = "https://portzenai.com/web-tasarim";
 const TITLE = "Web Tasarım | Marka Sitesi & Landing Page — PORTZEN";
@@ -636,6 +637,8 @@ export default function WebTasarimPage() {
       </section>
 
       {/* 9. FINAL CTA */}
+      <RelatedSectorsSection service="web-tasarim" />
+
       <section className="bg-brand-yellow py-section border-t-3 border-ink">
         <div className="mx-auto max-w-container px-6">
           <div className="grid lg:grid-cols-[1.5fr_1fr] gap-10 items-center">
