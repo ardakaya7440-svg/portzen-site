@@ -26,6 +26,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/crm-otomasyonu`, lastModified: now, changeFrequency: "monthly", priority: 0.95 }
   ];
 
+  // Phase 4: Karşılaştırma + niş landing'ler
+  const comparisonPages: MetadataRoute.Sitemap = [
+    { url: `${BASE}/manychat-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/zapier-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/hubspot-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/tidio-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/intercom-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/whatsapp-chatbot-fiyat`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/ai-chatbot-turkce`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/n8n-kurulum-hizmeti`, lastModified: now, changeFrequency: "monthly", priority: 0.9 }
+  ];
+
   const categoryPages: MetadataRoute.Sitemap = ALL_CATEGORIES.map((c) => ({
     url: `${BASE}/blog/kategori/${c.slug}`,
     lastModified: now,
@@ -59,6 +71,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticPages,
     ...landingPages,
+    ...comparisonPages,
     ...sectorLandings,
     ...categoryPages,
     ...articlePages,

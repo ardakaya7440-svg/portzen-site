@@ -82,6 +82,31 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
 
+          {/* Karşılaştırma + niş sayfalar — defansif SEO */}
+          <div className="border-t-3 border-paper/20 mx-auto max-w-container px-6 py-6">
+            <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Karşılaştırma & Rehber</div>
+            <div className="flex flex-wrap gap-2">
+              {[
+                {label: "ManyChat Alternatifi", href: "/manychat-alternatifi"},
+                {label: "Zapier Alternatifi", href: "/zapier-alternatifi"},
+                {label: "HubSpot Alternatifi", href: "/hubspot-alternatifi"},
+                {label: "Tidio Alternatifi", href: "/tidio-alternatifi"},
+                {label: "Intercom Alternatifi", href: "/intercom-alternatifi"},
+                {label: "WhatsApp Chatbot Fiyat", href: "/whatsapp-chatbot-fiyat"},
+                {label: "AI Chatbot Türkçe", href: "/ai-chatbot-turkce"},
+                {label: "n8n Kurulum Hizmeti", href: "/n8n-kurulum-hizmeti"}
+              ].map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-xs text-paper/70 hover:text-brand-yellow border border-paper/20 px-2 py-1 hover:border-brand-yellow transition-colors"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </div>
+
           {/* Şehir link şeridi — defansif local SEO */}
           <div className="border-t-3 border-paper/20 mx-auto max-w-container px-6 py-6">
             <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Şehrinize Özel</div>
