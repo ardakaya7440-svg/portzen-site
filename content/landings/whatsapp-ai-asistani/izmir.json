@@ -1,0 +1,162 @@
+{
+  "type": "location",
+  "sectorSlug": "izmir",
+  "sectorName": "İzmir",
+  "sectorPlural": "İzmir'deki İşletmeler",
+  "title": "İzmir İçin WhatsApp AI Asistanı | Yerel KOBİ — PORTZEN",
+  "description": "İzmir'deki işletmeler için WhatsApp AI asistanı. Karşıyaka'dan Konak'a, Alsancak'tan Bornova'ya yerel müşteri otomasyonu. 14 günde kurulum.",
+  "keywords": [
+    "izmir whatsapp chatbot",
+    "izmir whatsapp ai",
+    "izmir yapay zeka ajansı",
+    "karşıyaka chatbot",
+    "bornova ai asistan",
+    "izmir kobi otomasyon"
+  ],
+  "h1": "İzmir İçin WhatsApp AI Asistanı",
+  "heroSubtitle": "Karşıyaka'dan Konak'a, Bornova'dan Çiğli'ye — İzmir'deki KOBİ'lere yerel pazara uygun, çoklu dil destekli WhatsApp AI sistemi. 14 günde devrede.",
+  "stats": [
+    {"value": "İzmir", "label": "Yerel Destek"},
+    {"value": "60 sn", "label": "İlk Yanıt"},
+    {"value": "14 gün", "label": "Kurulum"},
+    {"value": "Local SEO", "label": "Dahil"}
+  ],
+  "problems": [
+    "İzmirli KOBİ'nin tüm müşteri trafiği WhatsApp'tan akıyor ama mesai bitince mesajlar birikip ertesi güne kalıyor; bu süreçte müşteri rakibe gidiyor.",
+    "Yaz aylarında turist + yerel müşteri karması yoğunlaşıyor; tek personel hem Türkçe hem İngilizce yanıt yetiştiremiyor, soruların yarısı cevapsız kalıyor.",
+    "Karşıyaka, Alsancak, Bornova gibi farklı mahallelerden gelen müşteriye 'en yakın şube hangisi, kaçta açık' sorusu için manuel cevap veriliyor, müşteri yarıda bırakıp gidiyor.",
+    "Akşam 19:00'dan sonra biriken 30-50 mesaj, sabah açıldığında soğumuş lead'e dönüşüyor; sıcak fırsat kaybediliyor.",
+    "Kemeraltı esnafı veya sahil restoranı sahibi, WhatsApp Business API'sini kurmayı bilmiyor; İstanbul'dan ajansla çalışmak hem pahalı hem uzaktan kalıyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "İzmir Yerel Keşif",
+      "description": "İşletmenizin gerçek WhatsApp trafiğini, en sık gelen 50 soruyu, yoğunluk saatlerini ve mahalle bazlı müşteri dağılımınızı analiz ediyoruz. İzmir lokal davranışını AI'ya öğretiyoruz."
+    },
+    {
+      "title": "Çoklu Dil + Lokal Ton",
+      "description": "Türkçe + İngilizce (turist için) ve İzmir lokal söyleyişine uygun (örn. 'bornovalısınız galiba') ton ayarı. Mahalle, ulaşım, park alanı bilgilerini AI'ya yüklüyoruz."
+    },
+    {
+      "title": "WhatsApp Business API + CRM",
+      "description": "Resmi Meta WhatsApp Business API kurulumu, sipariş/rezervasyon/randevu akışları, CRM'e otomatik müşteri kaydı, KVKK uyumlu izin yönetimi."
+    },
+    {
+      "title": "Test + Devreye Alma",
+      "description": "İzmir'deki ekibinizle 7 günlük canlı test, ince ayar, eğitim. Sonrası aylık raporlama ve sürekli iyileştirme."
+    }
+  ],
+  "features": [
+    {
+      "title": "İzmir Mahalle Veritabanı",
+      "description": "Karşıyaka, Bornova, Alsancak, Konak, Çiğli, Bayraklı, Bostanlı, Mavişehir, Buca dahil 30+ semt için ulaşım, otopark, en yakın şube bilgisi AI'ya yüklü."
+    },
+    {
+      "title": "Çoklu Dil (TR + EN)",
+      "description": "Yaz turist sezonunda İngilizce talepleri otomatik algılayıp anadilde yanıt veriyor. Almanca ve Rusça opsiyonel."
+    },
+    {
+      "title": "7/24 Anlık Cevap",
+      "description": "Akşam 19:00 sonrası, hafta sonu, bayram — fark etmez. 60 saniyede ilk yanıt garantisi."
+    },
+    {
+      "title": "Sipariş / Rezervasyon Akışı",
+      "description": "Restoran rezervasyonu, otel ön kayıt, market siparişi, randevu alma — sektöre özel akış tasarımı."
+    },
+    {
+      "title": "KVKK Uyumlu İzin",
+      "description": "Müşteri verisi sözleşmeli, izinli toplama akışı. KVKK Kurumu'nun WhatsApp pazarlama rehberine tam uyum."
+    },
+    {
+      "title": "Yerel Destek + Aylık Rapor",
+      "description": "İzmir'den ulaşılabilir ekip, aylık konuşma sayısı/dönüşüm/lead raporu ve sürekli optimizasyon."
+    }
+  ],
+  "caseStudy": {
+    "title": "Karşıyaka'da bir eczane: 4 ayda 1.840 fazladan etkileşim",
+    "paragraphs": [
+      "Karşıyaka Bostanlı'da nöbetçi rotasyonuna giren bir eczane, mesai dışında 'açık mısınız', 'kan basıncı ölçer var mı', 'X ilaç stokta mı' gibi sorulara cevap yetiştiremiyordu. Akşam 19:00 sonrası gelen mesajların %70'i sabaha kalıyor, müşteri yan eczaneye gidiyordu.",
+      "PORTZEN olarak WhatsApp Business API'sini kurduk; ilaç stok sorgusu, nöbetçi bilgisi, ulaşım, park yeri, Karşıyaka şubeleri arasında en yakın olanı yönlendirme akışlarını AI'ya yükledik. Turist sezonu için temel İngilizce sağlık terminolojisi eklendi.",
+      "4 ay sonunda 1.840 fazladan müşteri etkileşimi sağlandı. Akşam mesaj birikmesi sıfırlandı. 60 saniyede ilk yanıt oranı %98 oldu. Aylık ek ciro 38.000 TL seviyesine çıktı, sistem kendini ilk ayında amorti etti."
+    ],
+    "beforeAfter": [
+      {"label": "Akşam Mesaj Kaybı", "before": "%70 sabaha kalıyor", "after": "60 sn'de yanıt"},
+      {"label": "Aylık Etkileşim", "before": "~480", "after": "+1.840 ek"},
+      {"label": "Turist Müşteri", "before": "Cevap verilemiyor", "after": "TR + EN otomatik"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL/ay",
+      "description": "Tek lokasyonlu KOBİ — kafe, eczane, market, butik klinik için",
+      "features": [
+        "WhatsApp Business API kurulumu",
+        "Türkçe AI asistan",
+        "Aylık 1.500 konuşma",
+        "Temel sipariş/randevu akışı",
+        "Aylık rapor",
+        "E-posta destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "17.000 TL/ay",
+      "description": "Çok şubeli işletme, restoran, butik otel için",
+      "features": [
+        "Her şey + çoklu dil (TR + EN)",
+        "Aylık 5.000 konuşma",
+        "CRM entegrasyonu",
+        "Mahalle bazlı yönlendirme",
+        "Sezonsal kampanya akışları",
+        "Öncelikli destek (WhatsApp)"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "32.000 TL/ay",
+      "description": "Zincir işletme, üst-orta ölçek için",
+      "features": [
+        "Her şey + sınırsız konuşma",
+        "Almanca + Rusça",
+        "Çoklu numara yönetimi",
+        "Özel rapor dashboard",
+        "Adanmış İzmir hesap yöneticisi",
+        "SLA garantili 4 saat yanıt"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "İzmir dışındaki şubelerime de hizmet veriyor musunuz?",
+      "answer": "Evet. Sistemi İzmir merkezli kuruyoruz ama Manisa, Aydın, Muğla şubeleriniz için tek panelden yönetim yapıyoruz. Coğrafi sınır yok."
+    },
+    {
+      "question": "İzmir'de fiziksel ofisiniz var mı, yüz yüze görüşebilir miyiz?",
+      "answer": "Toplantılarımızı online (Google Meet) yapıyoruz; bu sayede ekibimizi büyük tutmadan size daha uygun fiyat sunabiliyoruz. Gerektiğinde Alsancak/Konak'ta yüz yüze kahve toplantısı ayarlanabilir."
+    },
+    {
+      "question": "Karşıyaka'daki işletmem için Konak şubelerinden farklı bir yapı kurulabilir mi?",
+      "answer": "Evet. AI'ya her şubenin ulaşım, park, çalışma saati, semt özelliği ayrı yüklenebilir. Karşıyaka'lı müşteriye Karşıyaka, Konak'lıya Konak şubesi yönlendirilir."
+    },
+    {
+      "question": "Yaz mevsimsel turist trafiği için ek paket var mı?",
+      "answer": "Evet. Haziran-Eylül arası 'Yaz Yoğunluk Paketi' ile çoklu dil ve ek konuşma limiti açıyoruz. Eylül sonunda standart pakete dönülüyor."
+    },
+    {
+      "question": "Alsancak'taki butik otelim için rezervasyon entegrasyonu mümkün mü?",
+      "answer": "Evet. PMS sisteminize (Hotelinking, Cloudbeds, ELK, Otelz vb.) bağlanıp WhatsApp'tan doğrudan oda müsaitlik ve rezervasyon onayı veriliyor."
+    },
+    {
+      "question": "Kemeraltı'ndaki esnaf için bütçe çok yüksek değil mi?",
+      "answer": "8.500 TL/ay paketimiz tam olarak tek dükkânlı esnaf için tasarlandı. Ortalama 1 ek müşteri/gün ile kendini amorti ediyor. İlk 14 gün ücretsiz pilot çalışıyoruz."
+    },
+    {
+      "question": "KVKK ve WhatsApp kuralları açısından sorun yaşar mıyım?",
+      "answer": "Hayır. Meta'nın resmi WhatsApp Business API'si üzerinden, KVKK Kurumu rehberine uygun izinli mesajlaşma yapıyoruz. Tüm metinler ve akışlar hukuki uyumlu."
+    }
+  ],
+  "finalCtaHeadline": "İzmir'deki sisteminizi kuralım.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif görüşmesi. İşletmenizin WhatsApp trafiğine bakıp size özel yol haritası çıkaralım. 14 gün içinde devrede olur."
+}

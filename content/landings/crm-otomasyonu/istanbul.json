@@ -1,0 +1,181 @@
+{
+  "type": "location",
+  "sectorSlug": "istanbul",
+  "sectorName": "İstanbul",
+  "sectorPlural": "İstanbul'daki İşletmeler",
+  "title": "İstanbul İçin CRM Otomasyonu | Anadolu+Avrupa Satış Ekibi Yönetimi — PORTZEN",
+  "description": "İstanbul'daki danışmanlık, ajans ve büyüyen işletmeler için CRM otomasyonu. Şişli'den Levent'e satış ekibi yönetimi, çoklu lead kaynağı, KVKK uyumlu.",
+  "keywords": [
+    "istanbul crm otomasyonu",
+    "istanbul crm sistemi",
+    "şişli danışmanlık crm",
+    "levent satış ekibi yönetimi",
+    "istanbul lead yönetimi",
+    "istanbul satış otomasyonu",
+    "istanbul kvkk uyumlu crm",
+    "maslak crm yazılım",
+    "istanbul çoklu şube crm",
+    "istanbul hubspot pipedrive alternatif"
+  ],
+  "h1": "İstanbul İçin CRM Otomasyonu",
+  "heroSubtitle": "Şişli'deki danışmanlıktan Levent'teki ajansa, Maslak'taki holding ofisinden Ataşehir'deki yazılım şirketine — İstanbul'daki büyüyen işletmelerin satış ekibini, lead'lerini ve müşteri yolculuğunu tek panelden yöneten CRM otomasyonu.",
+  "stats": [
+    { "value": "%38", "label": "Ortalama lead → müşteri dönüşümü" },
+    { "value": "%230", "label": "12 ayda ortalama ciro artışı" },
+    { "value": "<3dk", "label": "Lead atama hızı (otomatik)" },
+    { "value": "5+", "label": "Lead kaynağı tek panelde" }
+  ],
+  "problems": [
+    "İstanbul'da büyüyen danışmanlık/ajans olarak Google Ads, Instagram, LinkedIn, referans — 5+ farklı kaynaktan lead geliyor ama hangisi hangi kanalı geldi takip edilmiyor, ciro kim sayesinde yapıldı bilinmiyor.",
+    "Satış ekibiniz 5+ kişi olunca kim hangi lead'i aldı, kim ne kadar görüştü, hangi aşamada karışıyor — bazı lead'lere 3 kişi birden ulaşıyor, bazıları unutuluyor.",
+    "Excel'de tutulan lead listeleri her gün karışıyor, en kritik müşteri bilgisi 'Ahmet'in laptop'unda', o izne çıkınca operasyon duruyor.",
+    "Mevcut CRM (HubSpot, Pipedrive, Zoho) İngilizce, ekibiniz benimsemiyor, %15 doluluk oranı var — yatırım boşa gidiyor.",
+    "KVKK denetimi geldiğinde 'hangi müşteri verisi nerede tutuluyor, kim erişti, ne zaman silindi' sorusuna cevap veremiyorsunuz — ciddi cezayla karşı karşıyasınız."
+  ],
+  "solutionSteps": [
+    {
+      "title": "İstanbul İş Süreç Analizi & Lead Haritalama",
+      "description": "Tüm lead kaynaklarınızı (Google Ads, IG, LinkedIn, web formu, WhatsApp, referans, etkinlik) listeliyoruz. Satış ekibi yapınızı, yetki seviyelerini, mevcut süreçleri (lead → fırsat → teklif → satış → tahsilat) analiz ediyoruz."
+    },
+    {
+      "title": "Türkçe CRM Sistemi Kurulumu",
+      "description": "Türkçe arayüzlü, İstanbul iş kültürüne uygun CRM (özelleştirilmiş HubSpot, Pipedrive veya custom Next.js panel). Ekibiniz 2 saatte benimser. Pipeline aşamalarınızı, satış kurallarınızı, özel alanlarınızı kuruyoruz."
+    },
+    {
+      "title": "Çoklu Kaynak Otomatik Lead Toplama & Atama",
+      "description": "Google Ads, IG DM, LinkedIn InMail, web formu, WhatsApp, referans — hepsi otomatik CRM'e düşer. Lead 3 dakika içinde uygun satış temsilcisine atanır (bölge/uzmanlık/yük dengeleme). E-posta + WhatsApp bildirimi gider."
+    },
+    {
+      "title": "KVKK Uyumlu Yayın, Eğitim & Aylık İyileştirme",
+      "description": "Canlıya alma, ekibinize 2 günlük Türkçe eğitim, KVKK aydınlatma + açık rıza akışları, veri saklama politikası. Aylık performans raporu, yeni süreç ekleme, AI scoring (en sıcak lead kim?) optimizasyonu."
+    }
+  ],
+  "features": [
+    {
+      "title": "5+ Lead Kaynağı Tek Panelde",
+      "description": "Google Ads, IG DM, LinkedIn, web formu, WhatsApp, referans, etkinlik — tüm lead'ler otomatik tek CRM'de toplanır. Hangi kanal kaç lead, hangi kanal kaç satış getirdi raporlanır."
+    },
+    {
+      "title": "Otomatik Lead Atama (Bölge + Uzmanlık + Yük)",
+      "description": "Lead Anadolu yakasındansa Anadolu ekibine, kurumsal ise Senior'a, sıcaksa en az yüklü temsilciye otomatik atanır. Atama 3 dakikada, e-posta + WhatsApp bildirimi anında."
+    },
+    {
+      "title": "KVKK Tam Uyum & Veri İzleme",
+      "description": "Aydınlatma metni otomatik gönderilir, açık rıza alınır, veri saklama süreleri tanımlı, kim hangi veriye eriştiği loglanır. Veri sahibi başvurusu (silme/erişim talebi) için akış hazır."
+    },
+    {
+      "title": "Satış Ekibi Yetki & Pipeline Yönetimi",
+      "description": "Junior temsilci sadece kendi lead'ini görür, Senior tüm Anadolu yakasını, müdür hepsini. Pipeline aşamaları (yeni lead → görüşme → teklif → kazandı/kaybetti) sürükle-bırak."
+    },
+    {
+      "title": "Çoklu Şube/Bölge Yönetimi",
+      "description": "İstanbul'da 2+ ofisiniz veya bölgesel ekipleriniz varsa her şubenin kendi pipeline'ı, kendi raporu, kendi performans skoru. Genel müdür tüm İstanbul'u tek dashboard'dan görür."
+    },
+    {
+      "title": "WhatsApp + E-posta + Çağrı Entegrasyonu",
+      "description": "Müşteri ile WhatsApp/e-posta/telefon görüşmeleri otomatik CRM kaydına işlenir. 'Geçen hafta ne konuştuk?' diye aramaya gerek kalmaz, tüm geçmiş tek ekranda."
+    }
+  ],
+  "caseStudy": {
+    "title": "Şişli — Bir Yönetim Danışmanlığı Firması: Lead-Müşteri Dönüşümü %14 → %38, Aylık Ciro %230 Arttı",
+    "paragraphs": [
+      "Şişli'de 11 yıllık bir yönetim danışmanlığı firması, 8 kişilik satış ekibiyle aylık 220-280 lead alıyordu. Lead'ler Google Ads, LinkedIn, IG, referans ve web formundan geliyordu fakat hepsi farklı Excel'lerde, bazıları Outlook gelen kutusunda kalıyordu. Lead → müşteri dönüşümü %14'te takılı, en kritik 'sıcak' lead'lerin %30'u 48 saatte ilk aramayı alamayıp rakibe kaçıyordu.",
+      "Portzen ile 5 hafta içinde Türkçe CRM kuruldu (özelleştirilmiş HubSpot + Next.js panel). 5 lead kaynağı otomatik entegre edildi, lead skorlama AI'ı kuruldu (sektör, şirket büyüklüğü, etkileşim sıcaklığına göre), bölge bazlı otomatik atama (Anadolu yakası ekibi vs Avrupa yakası ekibi) aktif edildi. KVKK uyumlu aydınlatma + açık rıza akışları kuruldu.",
+      "12 ay sonra lead → müşteri dönüşümü %14'ten %38'e çıktı (2.7x artış). Aylık ciro %230 arttı — aynı pazarlama bütçesiyle. Satış ekibi memnuniyeti yükseldi (3 kişi 'artık işimi seviyorum' dedi), 2 yeni Senior danışman ekibe katılmaya istekli oldu. KVKK denetiminde 'tüm veri akışını 5 dakikada gösterebildik' diyor patron — ceza yok, tamam raporu."
+    ],
+    "beforeAfter": [
+      { "label": "Lead → müşteri dönüşümü", "before": "%14 (lead'lerin %86'sı kaybolur)", "after": "%38 (2.7x artış)" },
+      { "label": "İlk arama süresi (lead → kontak)", "before": "Ortalama 18-36 saat (en sıcak %30 kaybolur)", "after": "Ortalama 2.4 dakika (otomatik atama)" },
+      { "label": "Aylık ciro (12 ay sonra)", "before": "Baz: 100 (referans)", "after": "330 (%230 artış)" }
+    ]
+  },
+  "pricing": [
+    {
+      "name": "İstanbul Başlangıç",
+      "price": "12.000",
+      "currency": "TL",
+      "period": "/ay",
+      "description": "1-5 kişilik satış ekibi, tek ofis, başlangıç KOBİ için.",
+      "features": [
+        "Türkçe CRM kurulumu (HubSpot/Pipedrive)",
+        "3 lead kaynağı entegrasyonu",
+        "Otomatik lead atama",
+        "KVKK uyumlu kurulum",
+        "Pipeline + raporlama",
+        "5 kullanıcıya kadar",
+        "E-posta destek"
+      ],
+      "highlighted": false
+    },
+    {
+      "name": "İstanbul Pro",
+      "price": "25.000",
+      "currency": "TL",
+      "period": "/ay",
+      "description": "5-20 kişilik satış ekibi, çoklu ofis, büyüyen işletme için. En popüler paket.",
+      "features": [
+        "Başlangıç paketinin tüm özellikleri",
+        "Sınırsız lead kaynağı entegrasyonu",
+        "AI lead skorlama (sıcak/ılık/soğuk)",
+        "Çoklu şube/bölge yönetimi",
+        "WhatsApp + e-posta + çağrı entegrasyonu",
+        "Özel pipeline + otomasyonlar",
+        "20 kullanıcıya kadar",
+        "Aylık eğitim + WhatsApp destek",
+        "Haftalık performans raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "İstanbul Premium",
+      "price": "50.000",
+      "currency": "TL",
+      "period": "/ay",
+      "description": "20+ satış ekibi, kurumsal, çoklu marka, custom entegrasyonlar için.",
+      "features": [
+        "Pro paketin tüm özellikleri",
+        "Custom Next.js panel geliştirme",
+        "ERP/muhasebe/teklif sistemi entegrasyonu",
+        "Sınırsız kullanıcı",
+        "Adanmış proje yöneticisi",
+        "7/24 öncelikli destek",
+        "Aylık strateji görüşmesi",
+        "KVKK denetim danışmanlığı",
+        "Özel AI dashboard"
+      ],
+      "highlighted": false
+    }
+  ],
+  "faq": [
+    {
+      "question": "KVKK denetimi geldiğinde sorumlu kim, sistem yeterli mi?",
+      "answer": "Veri sorumlusu siz, veri işleyici biz. Sistem KVKK denetimine tam hazır kuruluyor: aydınlatma metni şablonları, açık rıza akışı, veri saklama süreleri, erişim logları, veri sahibi başvuru formları. Denetim anında 5 dakika içinde 'kim hangi veriye eriştiği, ne zaman silindi' raporu çıkar. KVKK denetim danışmanlığı Premium pakette dahil."
+    },
+    {
+      "question": "Satış ekibi yetki yönetimi nasıl çalışıyor, junior senior'ın lead'ini görür mü?",
+      "answer": "Hayır. Rol bazlı yetki kuruluyor. Junior temsilci sadece kendi lead'lerini görür, Senior kendi ekibinin tümünü, ekip lideri tüm Anadolu/Avrupa yakasını, genel müdür tüm İstanbul'u. Hatta isterseniz Junior 'fiyat alanını' bile göremez, sadece müdür görür. Detaylı izin matrisi kuruyoruz."
+    },
+    {
+      "question": "Birden fazla şubem (Şişli + Levent + Ataşehir) var, nasıl yönetilecek?",
+      "answer": "Her şubenin kendi pipeline'ı, kendi ekibi, kendi raporu olur ama hepsi tek CRM'de yaşar. Şube müdürü sadece kendi şubesini görür, genel müdür tüm İstanbul'u dashboard'dan izler. Lead atanırken otomatik en uygun şubeye yönlendirilir (örn. Ataşehir lead'i Anadolu ekibine)."
+    },
+    {
+      "question": "Mevcut CRM'im var (HubSpot, Pipedrive, Zoho) — sıfırdan mı kuracaksınız?",
+      "answer": "Hayır. Mevcut sisteminizi optimize ediyoruz veya başka bir sisteme geçiş yapıyoruz. Önce 'mevcut CRM kullanılabilir mi' analizi yapıyoruz. Eğer kullanılabilirse iyileştirme yapıyoruz (yetki, otomatik atama, raporlama, Türkçeleştirme). Kullanılamıyorsa veri kaybı olmadan başka platforma taşıyoruz."
+    },
+    {
+      "question": "5+ farklı lead kaynağım var (Google Ads, IG, LinkedIn, web, WhatsApp, referans) — hepsi otomatik gelir mi?",
+      "answer": "Evet. Tüm bu kaynakları API/Zapier/n8n üzerinden otomatik CRM'e bağlıyoruz. Lead düştüğü an kaynağı (Google Ads kampanya adıyla, IG hesap adıyla, LinkedIn kampanya ID'si ile) işlenir. 12 ay sonra 'hangi kanal kaç müşteri getirdi, ROAS nedir' tek tıkla görürsünüz."
+    },
+    {
+      "question": "Satış ekibim CRM kullanmak istemiyor, eski alışkanlıklarını sürdürüyor. Ne yapacaksınız?",
+      "answer": "Bu en sık sorun. 3 strateji uyguluyoruz: 1) Türkçe + sade arayüz (HubSpot İngilizce zorluğu yok), 2) Mobil-first (telefondan 1 saniyede lead güncellenir), 3) İnsanca eğitim — sahaya inip ekiple birebir oturup gösteriyoruz. 30 günde benimseme oranı %85+ oluyor. İlk 30 gün haftalık check-in yapıyoruz."
+    },
+    {
+      "question": "Sistem çökerse veya kapanırsa verim ne olur?",
+      "answer": "HubSpot/Pipedrive kullanıyorsak küresel altyapı, %99.9 uptime garantisi. Custom Next.js paneli için günlük otomatik yedek, Türkiye sınırları içinde sunucu, 7/24 monitoring. Acil durumda 2 saat içinde sistem ayakta. Tüm verilerinizin export'unu istediğiniz zaman alabilirsiniz (CSV/Excel/JSON) — 'kilitli' kalmazsınız."
+    }
+  ],
+  "finalCtaHeadline": "İstanbul'daki satış ekibinizi tek panelden yönetelim.",
+  "finalCtaSubtitle": "Şişli, Levent, Maslak, Ataşehir — ekibiniz nerede olursa olsun 5 hafta içinde CRM otomasyonunuz canlıda, satış dönüşümünüz 2x artar. Ücretsiz İstanbul satış süreç analizi için yazın."
+}

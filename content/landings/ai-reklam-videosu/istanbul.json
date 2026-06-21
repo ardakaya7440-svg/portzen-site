@@ -1,0 +1,179 @@
+{
+  "type": "location",
+  "sectorSlug": "istanbul",
+  "sectorName": "İstanbul",
+  "sectorPlural": "İstanbul'daki İşletmeler",
+  "title": "İstanbul İçin AI Reklam Videosu | Anadolu+Avrupa Marka Reels Üretimi — PORTZEN",
+  "description": "İstanbul markaları için AI ile haftalık reklam videosu & Reels üretimi. Beyoğlu Galata'dan Bağdat Caddesi'ne, Boğaz manzarası olmadan da viral İstanbul içeriği.",
+  "keywords": [
+    "istanbul ai reklam videosu",
+    "istanbul reels üretimi",
+    "beyoğlu galata video prodüksiyon",
+    "istanbul yapay zeka video",
+    "bağdat caddesi marka video",
+    "istanbul ugc video",
+    "kadıköy reels ajans",
+    "istanbul ai içerik üretimi",
+    "istanbul tiktok video ajans",
+    "istanbul ulusal global marka video"
+  ],
+  "h1": "İstanbul İçin AI Reklam Videosu",
+  "heroSubtitle": "Beyoğlu Galata'daki butikten Bağdat Caddesi'ndeki mağazaya, Şişli'deki restoranadan Etiler'deki klinike — İstanbul markaları için AI ile haftalık Reels, TikTok ve YouTube Shorts üretiyoruz. Çekim ekibi, drone izni, trafik derdi yok.",
+  "stats": [
+    { "value": "32+", "label": "Aylık ortalama video üretimi" },
+    { "value": "60x", "label": "Geleneksel çekime göre maliyet düşüşü" },
+    { "value": "4 gün", "label": "Brief'ten yayına ortalama süre" },
+    { "value": "1.4M+", "label": "Üretilen videoların ortalama erişimi" }
+  ],
+  "problems": [
+    "İstanbul markası olarak ulusal hatta global pazara açılmak istiyorsunuz ama her video için 25.000-80.000 TL prodüksiyon bütçesi sürdürülebilir değil.",
+    "Çekim ekibi (oyuncu, kameraman, ışıkçı, kurgucu) maliyeti İstanbul'da yüksek — bir günlük profesyonel set en az 35.000 TL, bir Reels için bu mantıksız.",
+    "İstanbul'da video çekim lokasyonu seçmek karmaşık — Boğaz manzarası için drone izni yok, Galata Kulesi telifli, Bağdat Caddesi'nde izin gerekiyor, kuyruk uzun.",
+    "Trafik nedeniyle ekip, oyuncu, ekipman İstanbul içi taşımak yarım gün yiyor — verim düşük, set günü 12 saate uzuyor, maliyet ikiye katlanıyor.",
+    "Instagram/TikTok algoritması haftada 3-5 video bekliyor ama bu hızda içerik üretmek için ne ekibiniz ne bütçeniz yetiyor — hesabınız ölü kalıyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "İstanbul Marka Stratejisi & İçerik Takvimi",
+      "description": "Markanızın hedef kitlesini (lokal İstanbul, ulusal Türkiye, global), rakip analizini, viral olan İstanbul içerik formatlarını analiz ediyoruz. 4 hafta için içerik takvimi ve hook bankası çıkarıyoruz."
+    },
+    {
+      "title": "AI Video Stüdyosu Kurulumu",
+      "description": "Markanıza özel AI avatar (kendi yüzünüzle veya jenerik), İstanbul lokasyon görselleri (sahte Boğaz, sahte Galata, sahte Cihangir sokağı), Türkçe seslendirme, müzik kütüphanesi hazırlanıyor — tüm telif sorunları çözülmüş halde."
+    },
+    {
+      "title": "Haftalık 8 Video Üretimi & Yayın",
+      "description": "Brief sonrası 4 gün içinde Reels formatında video hazır. İstanbul lokasyon görselleri, ürün görselleri, Türkçe altyazı, müzik, hook — her şey dahil. IG, TikTok, YouTube Shorts formatlarında teslim."
+    },
+    {
+      "title": "Performans İzleme & A/B Test",
+      "description": "Yayınlanan her video için erişim, izlenme süresi, etkileşim, kaydetme oranı takip ediliyor. En iyi performansları tekrar üretiyor, kötüleri eliyoruz. Aylık trend raporu — hangi hook İstanbul'da çalıştı?"
+    }
+  ],
+  "features": [
+    {
+      "title": "İstanbul Lokasyon Kütüphanesi (Telif Sorunsuz)",
+      "description": "Sahte Boğaz manzarası, Galata Kulesi alternatifi, Cihangir sokakları, Bağdat Caddesi vitrini — hepsi AI üretimi, telif sorunsuz. Drone izni, çekim izni derdi yok."
+    },
+    {
+      "title": "Kendi Yüzünüzle AI Avatar",
+      "description": "Bir kez 3 dakikalık video çekiminizden sonra sınırsız Reels'te 'siz' konuşuyorsunuz. Set, makyaj, ışık, yönetmen yok. Bağdat Caddesi'nde olmadığınız halde 'Caddebostan'dan herkese selam' diyebilirsiniz."
+    },
+    {
+      "title": "Türkçe Doğal Seslendirme",
+      "description": "İstanbul aksanlı, doğal Türkçe AI seslendirme — yapay robotik değil. Marka tonunuza göre samimi/kurumsal/genç ayarlanabilir."
+    },
+    {
+      "title": "Hook + Algoritma Optimize Format",
+      "description": "İlk 1.5 saniyede yakalayan hook, 9:16 dikey format, Türkiye trend müzikleri, otomatik altyazı (Türkçe + İngilizce), CTA — TikTok/IG algoritmasına özel optimize."
+    },
+    {
+      "title": "Ulusal + Global Pazar İçin Çift Dil",
+      "description": "İstanbul markası ama ulusal/global açılıyorsanız aynı içeriği hem Türkçe hem İngilizce versiyonla üretiyoruz. İki ayrı hesap, iki ayrı kitle, tek üretim akışı."
+    },
+    {
+      "title": "Haftalık 8 Video Garantisi",
+      "description": "Ayda 32 video — algoritma sizi sevecek kadar yoğun, ekibinizi yormayacak kadar otomatik. Brief'iniz pazartesi, ilk video çarşamba teslim."
+    }
+  ],
+  "caseStudy": {
+    "title": "Beyoğlu Galata — Bir Butik & Lifestyle Mağazası: 4 Ayda 32 Reels, Erişim 22K → 1.4M, Ay Başı +320 Sipariş",
+    "paragraphs": [
+      "Beyoğlu Galata'da hizmet veren bir butik & lifestyle mağazası, Instagram'da 8.400 takipçili pasif bir hesaba sahipti. Ayda 2-3 statik post atıyor, Reels'e ekip-bütçe yetmediği için elini sürmüyordu. Reels ortalama erişimi 22.000, satış dönüşümü neredeyse sıfırdı.",
+      "Portzen ile AI video stüdyosu kuruldu. Mağaza sahibinin yüzünden AI avatar oluşturuldu (1 günlük çekim), İstanbul lokasyon kütüphanesi hazırlandı, ürün görselleri sisteme yüklendi. Haftalık 8 Reels üretimi başladı — 'Galata'da bu hafta gelen yeni ürünler', 'Cihangir kafe çıkışı outfit önerisi', 'İstanbul kış stili' gibi lokal hook'lar.",
+      "İlk 4 ayda 32 Reels yayınlandı. Ortalama erişim 22K'dan 1.4M'a çıktı (63x artış), 3 video 5M+ izlenme aldı. Takipçi sayısı 8.400'den 47.000'e ulaştı. Reels üzerinden gelen DM trafiği ile ay başı +320 yeni sipariş geldi. Mağaza sahibi 'set kurmadan, oyuncu tutmadan, drone derdi olmadan İstanbul markası olmanın yolunu' bulduğunu söylüyor."
+    ],
+    "beforeAfter": [
+      { "label": "Aylık Reels üretimi", "before": "0-2 (çekim ekibi yok)", "after": "32 (haftalık 8)" },
+      { "label": "Ortalama Reels erişimi", "before": "22.000", "after": "1.400.000 (63x artış)" },
+      { "label": "Reels kaynaklı aylık sipariş", "before": "~0 (organik yok)", "after": "320 sipariş + 1.200 yeni takipçi" }
+    ]
+  },
+  "pricing": [
+    {
+      "name": "İstanbul Marka Başlangıç",
+      "price": "8.000",
+      "currency": "TL",
+      "period": "/ay",
+      "description": "Tek marka, haftalık 2 video. Butik kafe, küçük mağaza, lokal hizmet için.",
+      "features": [
+        "Aylık 8 Reels/TikTok video",
+        "AI seslendirme (Türkçe)",
+        "İstanbul lokasyon kütüphanesi",
+        "Otomatik Türkçe altyazı",
+        "1 revizyon hakkı",
+        "E-posta destek"
+      ],
+      "highlighted": false
+    },
+    {
+      "name": "İstanbul Marka Pro",
+      "price": "18.000",
+      "currency": "TL",
+      "period": "/ay",
+      "description": "Haftalık 8 video, kendi AI avatarınız, çift dil. En popüler paket.",
+      "features": [
+        "Başlangıç paketinin tüm özellikleri",
+        "Aylık 32 Reels/TikTok/Shorts video",
+        "Kendi yüzünüzle AI avatar",
+        "Türkçe + İngilizce çift dil",
+        "Hook bankası (40+ format)",
+        "Aylık trend & performans raporu",
+        "3 revizyon hakkı",
+        "WhatsApp destek"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "İstanbul Marka Enterprise",
+      "price": "35.000",
+      "currency": "TL",
+      "period": "/ay",
+      "description": "Çoklu marka, ulusal/global kampanya, ajans işbirliği için.",
+      "features": [
+        "Pro paketin tüm özellikleri",
+        "Aylık 60+ video üretimi",
+        "3 markaya kadar yönetim",
+        "Özel AI avatar (CEO + 2 ekip üyesi)",
+        "5 dil seçeneği (TR/EN/AR/RU/DE)",
+        "Adanmış creative director",
+        "Sınırsız revizyon",
+        "7/24 öncelikli destek",
+        "Aylık strateji görüşmesi"
+      ],
+      "highlighted": false
+    }
+  ],
+  "faq": [
+    {
+      "question": "Boğaz manzarası, Galata Kulesi gibi İstanbul ikonlarını videoda gösterebilir misiniz?",
+      "answer": "Evet. AI üretimi sahte ama gerçekçi İstanbul lokasyonları (Boğaz, Galata, Cihangir sokağı, Bağdat Caddesi vitrini, Kapalıçarşı) kütüphanesi hazırlıyoruz. Bu görseller telif sorunsuz, drone/çekim izni gerektirmiyor. Gerçek lokasyon görselinizi de yükleyebilirsiniz, AI üzerine ekler."
+    },
+    {
+      "question": "Drone izni yasak bölgelerde (Boğaz, Üsküdar sahili, Sultanahmet) nasıl video çekiyorsunuz?",
+      "answer": "Hiç drone kullanmıyoruz. Tüm 'hava çekimi' görüntüleri AI ile üretiliyor. İstanbul'da yasaklı bölge derdiniz yok — Boğaz üzerinde uçan drone çekimi sanki yapmışsınız gibi gözüküyor, ama tamamen AI."
+    },
+    {
+      "question": "Telif sorunu olmadan müzik, görsel, fotoğraf nasıl kullanıyorsunuz?",
+      "answer": "Tüm görseller AI ile üretiliyor (telif yok), müzikler ticari kullanım lisanslı kütüphanelerden (Epidemic, Artlist) seçiliyor. AI seslendirme kendi sistemimizden çıkıyor. Tek riskli alan trend ses kullanımı — onu da Türkiye'de güvenli olan ses listemizden seçiyoruz."
+    },
+    {
+      "question": "Yapay zeka ile üretilen video gerçekten profesyonel duruyor mu, izleyici farkı anlar mı?",
+      "answer": "%85'i fark etmiyor, %15'i 'çok temiz çekim olmuş' diye yorum yapıyor. AI avatar son nesil — yüz hareketleri, ağız senkronu, ışık doğal. Statik AI görsel + dinamik kurgu kombinasyonu ile profesyonel set görüntüsü elde ediliyor. Müşterilerimizin Reels'inde 'oyuncu kim?' sorusu en çok gelen yorum."
+    },
+    {
+      "question": "İstanbul'daki rakibim de aynı sistemi kullansa ne olur?",
+      "answer": "Her marka için özel: kendi AI avatarınız, kendi marka tonunuz, kendi hook stratejiniz, kendi içerik takviminiz. İki marka aynı görsel havuzdan da çekse, AI çıktı farklı oluyor. Ayrıca biz aynı sektörde İstanbul'da sadece tek müşteri ile çalışıyoruz — Bağdat Caddesi'nde butik müşteriniz varsa, başka bir butik almıyoruz."
+    },
+    {
+      "question": "Reels yayını biz mi atacağız, siz mi atacaksınız?",
+      "answer": "İki seçenek var: 1) Biz size MP4 + caption + hashtag teslim ediyoruz, siz atıyorsunuz (Başlangıç & Pro). 2) Sizin hesabınıza erişim verirseniz biz planlıyoruz ve atıyoruz (Enterprise dahil veya +2.000 TL/ay). Çoğu İstanbul müşterimiz ikinci seçeneği tercih ediyor."
+    },
+    {
+      "question": "Video bana ait mi, başka yerde kullanabilir miyim?",
+      "answer": "Evet, tüm üretilen videolar tamamen size ait. Web sitenizde, e-posta kampanyalarınızda, fiziksel ekranlarda, LinkedIn'de, YouTube'da — her yerde kullanabilirsiniz. Sadece AI avatar (sizin yüzünüz) başka bir markada kullanılamaz, bu kontratta yazılı."
+    }
+  ],
+  "finalCtaHeadline": "İstanbul markanız için video makinesini kuralım.",
+  "finalCtaSubtitle": "Beyoğlu, Bağdat Caddesi, Etiler, Cihangir — markanız nerede olursa olsun 7 gün içinde ilk Reels'iniz hazır. Ücretsiz İstanbul içerik stratejisi görüşmesi için yazın."
+}

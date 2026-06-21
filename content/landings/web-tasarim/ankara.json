@@ -1,0 +1,97 @@
+{
+  "type": "location",
+  "sectorSlug": "ankara",
+  "sectorName": "Ankara",
+  "sectorPlural": "Ankara'daki İşletmeler",
+  "title": "Ankara İçin Web Tasarım & Geliştirme | Başkent Kurumsal Siteler — PORTZEN",
+  "description": "Ankara'daki hukuk büroları, danışmanlıklar, klinikler ve KOBİ'ler için Next.js tabanlı kurumsal web tasarım. Local SEO, kamu ihalesi uyumlu, mobil hızlı.",
+  "keywords": ["ankara web tasarım", "ankara web sitesi yapımı", "çankaya web tasarım", "ankara kurumsal web", "bahçelievler web sitesi", "ankara local seo", "next.js ajans ankara", "başkent web ajans"],
+  "h1": "Ankara İçin Web Tasarım & Geliştirme",
+  "heroSubtitle": "Çankaya'daki hukuk bürosundan Bahçelievler'deki klinik zincirine, Çayyolu'ndaki danışmanlık şirketinden Kızılay'daki KOBİ'ye; Next.js tabanlı, mobilde 95+ skorlu, KVKK uyumlu, kamu ihalesi başvurusuna uygun kurumsal web siteleri.",
+  "stats": [
+    {"value": "95+", "label": "PageSpeed mobil ortalama skoru"},
+    {"value": "1.2 sn", "label": "İlk içerik yüklenme süresi"},
+    {"value": "%280", "label": "İlk 6 ayda ortalama organik trafik artışı"},
+    {"value": "10+", "label": "Ankara ilçesi için local SEO uzmanlığı"}
+  ],
+  "problems": [
+    "Ankara'daki işletmenin sitesi WordPress üzerinde, mobilde yavaş ve kurumsal görünmüyor; kamu kurumlarına ve kurumsal müşterilere referans verirken site adresi vermek 'utanılacak' bir durum haline geliyor.",
+    "Kamu ihalesine başvururken site adresi, kurumsal e-mail ve KVKK metni zorunlu hale geldi; mevcut siteler şartnameye uygun olmadığı için ihale dışı kalan firmalar var.",
+    "Mobil deneyim çok yavaş; Çankaya'daki potansiyel müşteri telefonundan açıp sayfa yüklenmeden çıkıyor. Google da yavaş siteleri arama sonuçlarında geriye atıyor.",
+    "Local SEO (Çankaya hukuk bürosu, Bahçelievler klinik, Çayyolu danışmanlık) eksik; insanlar Google'da semt adıyla arıyor ama site bu sorgularda hiç çıkmıyor.",
+    "KVKK aydınlatma metni, çerez bildirimi ve form onayları eksik veya hatalı; özellikle hukuk, sağlık ve danışmanlık sektörlerinde bu durum mevzuat ihlali riski yaratıyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "1. Keşif & Konumlandırma",
+      "description": "Markanız, sektörünüz, Ankara'daki rakip analizi ve hedef müşteri segmenti (Çankaya kurumsal mı, Bilkent öğrenci mi, kamu mu) ortaya çıkarılır. Site mimarisi ve içerik haritası birlikte belirlenir."
+    },
+    {
+      "title": "2. Tasarım & Prototip",
+      "description": "Figma'da modern, kurumsal ve mobil-öncelikli tasarım hazırlanır. Marka kimliğinize uygun renk, tipografi ve mikro-etkileşimler tanımlanır; siz onaylamadan kodlamaya geçmiyoruz."
+    },
+    {
+      "title": "3. Next.js Geliştirme & SEO",
+      "description": "Site Next.js + Tailwind ile geliştirilir; SEO meta verileri, schema.org markup, Open Graph, Ankara semt sayfaları, sitemap, robots.txt ve KVKK metinleri ile eksiksiz teslim edilir."
+    },
+    {
+      "title": "4. Yayın, Eğitim & Aylık Bakım",
+      "description": "Site Vercel veya kendi sunucunuzda yayına alınır; içerik yönetim eğitimi verilir. Aylık bakım pakediyle SEO takibi, içerik güncellemeleri ve teknik destek sağlanır."
+    }
+  ],
+  "features": [
+    {"title": "Next.js + Tailwind Altyapı", "description": "WordPress'in aksine 10x hızlı, güvenlik açığı sınırlı, modern stack; uzun vadede daha düşük bakım maliyeti."},
+    {"title": "Ankara Local SEO", "description": "'Çankaya avukat', 'Bahçelievler klinik' gibi semt+sektör sorguları için ayrı landing sayfaları; Google Business Profile entegrasyonu."},
+    {"title": "Kamu İhalesi Uyumu", "description": "Kurumsal kimlik bilgileri, mersis no, KVKK aydınlatma, çerez bildirimi, iletişim ve adres bilgileri ihale şartnamesine uygun şekilde yapılandırılır."},
+    {"title": "Mobil 95+ Skor", "description": "PageSpeed ve Core Web Vitals değerleri mobilde 95+ olarak teslim edilir; Google sıralamasında öne çıkarsınız."},
+    {"title": "KVKK Tam Uyum", "description": "Aydınlatma metni, açık rıza formu, çerez yönetim paneli ve VERBİS kayıt yönlendirmesi dahil; hukuk/sağlık sektörü için ek mevzuat uyumu."},
+    {"title": "Çoklu Dil", "description": "Yabancı misyon, büyükelçilik ve uluslararası öğrenci profili için Türkçe + İngilizce çift dil yapısı; opsiyonel Almanca/Arapça."}
+  ],
+  "caseStudy": {
+    "title": "Bahçelievler'de Bir Hukuk Bürosu — 5 Ayda Organik Trafik 0 → 2.400/ay, +2 Kamu İhalesi",
+    "paragraphs": [
+      "Bahçelievler'de faaliyet gösteren orta ölçekli bir hukuk bürosu, mevcut WordPress sitesinin hem mobilde yavaş olmasından hem de kamu ihalesi başvurularında 'kurumsal sayılmayan' bir görünüm vermesinden şikayetçiydi. Organik trafiği ayda 0–30 arasındaydı, neredeyse tamamen referansla iş alıyordu.",
+      "PORTZEN, büro için Next.js tabanlı, 'Çankaya boşanma avukatı', 'Bahçelievler iş hukuku', 'Yenimahalle ceza avukatı' gibi 12 semt+sektör landing sayfası içeren bir kurumsal site geliştirdi. Schema.org markup, Google Business entegrasyonu, KVKK metinleri ve mersis bilgileri kamu ihale şartnamelerine uygun olarak yapılandırıldı.",
+      "5 ay sonunda organik trafik 2.400'ün üzerine çıktı, ay başına 18 yeni danışan iletişimi siteden geldi. En önemlisi, 4. ayda büronun 2 kamu ihalesine başvurusu kabul edildi; daha önce 'şartname uygun değil' gerekçesiyle reddedilen başvurular artık değerlendirmeye alınıyordu."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık organik trafik", "before": "0–30", "after": "2.400+"},
+      {"label": "Mobil PageSpeed skoru", "before": "42", "after": "97"},
+      {"label": "Aylık siteden gelen danışan", "before": "0–1", "after": "18+"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Landing / Tek Sayfa",
+      "price": "14.000 TL",
+      "description": "Tek sayfa, kampanya veya tek hizmet için.",
+      "features": ["Tek sayfa Next.js", "Mobil 95+ skor", "KVKK metinleri", "Form entegrasyonu", "Temel SEO", "Tek seferlik teslim"],
+      "highlighted": false
+    },
+    {
+      "name": "Marka Sitesi",
+      "price": "30.000 TL + 2.000 TL/ay bakım",
+      "description": "Çok sayfalı kurumsal site, hukuk bürosu, klinik, danışmanlık için en popüler paket.",
+      "features": ["10–15 sayfa Next.js", "Ankara semt landingleri", "Çoklu dil (TR/EN)", "Kamu ihalesi uyumlu", "Google Business entegrasyonu", "Aylık bakım + SEO takibi", "Aylık 2 içerik güncellemesi"],
+      "highlighted": true
+    },
+    {
+      "name": "E-Ticaret",
+      "price": "60.000 TL + 3.500 TL/ay bakım",
+      "description": "Online satış yapan butikler, klinikler ve markalar için.",
+      "features": ["Next.js + Shopify/Medusa", "Ödeme entegrasyonları (iyzico, PayTR)", "Kargo entegrasyonları", "Stok yönetimi", "E-Fatura entegrasyonu", "Aylık bakım + SEO + güvenlik"],
+      "highlighted": false
+    }
+  ],
+  "faq": [
+    {"question": "Ankara local SEO için ne yapıyorsunuz?", "answer": "'Çankaya avukat', 'Bahçelievler klinik', 'Çayyolu danışmanlık' gibi semt+sektör kombinasyonlarında ayrı landing sayfaları üretiyoruz. Google Business Profile, schema.org markup ve semt bazlı içerik stratejisi ile bu sorgularda ilk sayfaya çıkarıyoruz."},
+    {"question": "Kamu ihalesi için site kurumsal sayılır mı?", "answer": "Evet. Kurumsal kimlik bilgileri, mersis no, KVKK aydınlatma metni, çerez bildirimi, açık rıza formları ve iletişim/adres bilgileri ihale şartnamelerine uygun şekilde yapılandırılır. Daha önce reddedilmiş başvuruların kabul aldığı çok sayıda Ankara müşterimiz var."},
+    {"question": "Neden WordPress değil de Next.js?", "answer": "Next.js mobilde 10x hızlı, güvenlik açığı çok daha az, Google sıralamasında daha avantajlı ve uzun vadede bakım maliyeti daha düşük. WordPress'in eklenti karmaşası ve güvenlik problemleri Next.js'te yok."},
+    {"question": "Mobil hız neden bu kadar önemli?", "answer": "Ankara'daki potansiyel müşterilerin %70'inden fazlası sitenizi telefondan açıyor. 3 saniyenin üzerinde yüklenen sayfaları terk ediyorlar. Ayrıca Google 2024'ten itibaren mobil hızı sıralamada birincil kriter yapıyor."},
+    {"question": "KVKK uyumu tam olarak ne içeriyor?", "answer": "Aydınlatma metni, açık rıza formları, çerez yönetim paneli, VERBİS yönlendirmesi, veri sahibinin haklarına ilişkin başvuru formu ve hukuk/sağlık sektörü için ek mevzuat uyumu (avukatlık kanunu, sağlık veri mevzuatı vb.) içerir."},
+    {"question": "Çankaya'daki ofisinizde toplantı yapabilir miyiz?", "answer": "Operasyon ekibimiz uzaktan çalışır ama Çankaya ve Çayyolu'nda yüz yüze toplantı koordine edebiliyoruz. Tasarım onayı, içerik toplantısı gibi süreçler online çok daha hızlı işliyor."},
+    {"question": "Mevcut WordPress sitemden veri taşınır mı?", "answer": "Evet. Tüm içerik, blog yazıları, görseller, SEO ayarları ve URL yapısı korunarak Next.js'e taşınır. 301 yönlendirmeleriyle Google sıralamanız kaybedilmez, aksine iyileşir."}
+  ],
+  "finalCtaHeadline": "Ankara'daki kurumsal sitenizi kuralım.",
+  "finalCtaSubtitle": "Çankaya'dan Bahçelievler'e; Next.js tabanlı, mobilde 95+ skorlu, KVKK uyumlu ve kamu ihalesi şartnamesine uygun web sitenizi 21 gün içinde teslim edelim."
+}

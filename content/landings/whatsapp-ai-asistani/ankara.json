@@ -1,0 +1,97 @@
+{
+  "type": "location",
+  "sectorSlug": "ankara",
+  "sectorName": "Ankara",
+  "sectorPlural": "Ankara'daki İşletmeler",
+  "title": "Ankara İçin WhatsApp AI Asistanı | Başkent KOBİ Otomasyonu — PORTZEN",
+  "description": "Ankara'daki işletmeler için WhatsApp AI asistanı. Çankaya'dan Sincan'a yerel KOBİ otomasyonu, kamu ve özel sektör uyumlu, KVKK uyumlu 7/24 müşteri iletişimi.",
+  "keywords": ["ankara whatsapp chatbot", "ankara whatsapp ai", "ankara yapay zeka ajansı", "çankaya chatbot", "ankara kobi", "başkent yapay zeka", "ankara whatsapp otomasyon", "kızılay chatbot"],
+  "h1": "Ankara İçin WhatsApp AI Asistanı",
+  "heroSubtitle": "Çankaya'dan Sincan'a, Kızılay'dan Çayyolu'na; Ankara'daki KOBİ'ler, hukuk büroları, danışmanlık şirketleri ve sağlık kuruluşları için kurumsal tonda, formal, KVKK ve kamu uyumlu WhatsApp AI asistanı. Başkent'in profesyonel iletişim beklentisine uygun şekilde mesai dışı dahil 7/24 dönüş.",
+  "stats": [
+    {"value": "7/24", "label": "Başkent saatleri dışı dahil müşteri dönüşü"},
+    {"value": "%88", "label": "Ankara'daki yanıt süresi iyileşmesi"},
+    {"value": "10 dk", "label": "Çankaya/Kızılay ortalama ilk dönüş süresi"},
+    {"value": "KVKK+", "label": "Kamu ve özel sektör uyumlu altyapı"}
+  ],
+  "problems": [
+    "Ankara'da kamu ve özel sektör müşterileri bir arada; bürokratik dil ile ticari dil aynı kanalda yönetilemiyor, formal tonun korunması zorlaşıyor.",
+    "Başkent profesyonelleri mesai dışı saatlerde de yanıt bekliyor; akşam 18:00 sonrası Çankaya/Bilkent merkezli sorulara dönüş yapılamadığı için kaçan iş hacmi büyüyor.",
+    "İhale, proje teklifi ve dosya takibi süreçleri artık WhatsApp üzerinden ilerliyor; manuel takip edilemediği için kritik tarihler ve revizyon talepleri kaçırılıyor.",
+    "AB misyonları, büyükelçilikler ve yabancı öğrenci ağırlıklı bölgelerde (GOP, Çankaya, Çayyolu) İngilizce ve diğer dillerde profesyonel dönüş yapılamıyor.",
+    "Avukat, danışman, mali müşavir gibi profesyonel hizmet sağlayıcılarda 'müvekkil/danışan bilgisi gizliliği' beklentisi var ama mevcut sistemler KVKK uyumsuz."
+  ],
+  "solutionSteps": [
+    {
+      "title": "1. Ankara Profili & Tonalite Analizi",
+      "description": "Çankaya, Bahçelievler, Çayyolu gibi farklı semt müşteri profillerini ayrıştırırız. Hukuk bürosu, danışmanlık ve sağlık gibi sektörlerde kullanılan formal/kurumsal tonalite kütüphanesini AI'a yükleriz."
+    },
+    {
+      "title": "2. KVKK & Kamu Uyumlu Altyapı",
+      "description": "Müvekkil/danışan bilgileri Türkiye lokasyonlu sunucularda, KVKK ve kamu sektörü uyumlu şekilde saklanır. Kayıt politikaları, veri silme prosedürleri ve loglama mevzuata uygun şekilde kurulur."
+    },
+    {
+      "title": "3. Çoklu Dil & Segmentasyon",
+      "description": "AB misyonları, büyükelçilikler ve uluslararası öğrenci segmenti için Türkçe, İngilizce, Almanca ve Arapça dil desteği. Kamu/özel/uluslararası lead'ler ayrı pipeline'larda yönetilir."
+    },
+    {
+      "title": "4. Test, Yayın & 90 Gün Optimizasyon",
+      "description": "Ankara pilot işletmesinde 14 gün test, akıştaki kurumsal tonalite hataları temizlenir. Yayın sonrası 90 gün; ilçe bazlı dönüşüm, ortalama yanıt süresi ve müvekkil memnuniyeti raporlanır."
+    }
+  ],
+  "features": [
+    {"title": "Kurumsal Tonalite Motoru", "description": "Ankara'daki avukat, danışman, mali müşavir ve sağlık profesyonellerine uygun formal dil; argo, samimi kısaltma ve gereksiz emoji kullanılmaz."},
+    {"title": "İlçe Bazlı Yönlendirme", "description": "Çankaya, Keçiören, Yenimahalle, Etimesgut, Sincan gibi ilçelere göre randevu, fiyat ve hizmet farklılıkları otomatik aktarılır."},
+    {"title": "Çoklu Dil Desteği", "description": "Türkçe, İngilizce, Almanca, Arapça; GOP/Çankaya'daki diplomatik bölge ve Bilkent/ODTÜ çevresi uluslararası müşterileri için."},
+    {"title": "Dosya & Proje Takibi", "description": "WhatsApp üzerinden gelen ihale, teklif, revizyon ve dosya güncellemeleri otomatik kategorize edilir; CRM'e ve takvime senkron yazılır."},
+    {"title": "KVKK Uyumlu Loglama", "description": "Müvekkil/danışan iletişimleri Türkiye sunucularında, sektör mevzuatına uygun saklama süreleriyle, otomatik silme ve erişim logları ile."},
+    {"title": "Resmi Saat Senaryoları", "description": "Mesai içi/dışı, hafta sonu, resmi tatil ve kamu yarıyıl tatillerine göre farklı yanıt akışları; acil durum için telefon yönlendirme."}
+  ],
+  "caseStudy": {
+    "title": "Çankaya'da Bir Hukuk Bürosu — 4 Ayda 280 Müvekkil İletişimi, +18 Yeni Dosya/Ay",
+    "paragraphs": [
+      "Tunalı Hilmi'de faaliyet gösteren bir orta ölçekli hukuk bürosu, gelen müvekkil sorularının özellikle akşam 18:00 sonrası ve hafta sonu cevapsız kalmasından şikayetçiydi. Sekreter saat 09:00–18:00 arasında çalışıyor, mesai dışı gelen WhatsApp mesajları ertesi iş gününe sarkıyor ve müvekkil adayları çoğu zaman rakip büroya yöneliyordu.",
+      "PORTZEN, bürodaki 6 ana hizmet alanı (boşanma, ticaret, ceza, idare, miras, gayrimenkul) için kurumsal tonalitede yanıt veren WhatsApp AI asistanı kurguladı. Sistem; gelen mesajı otomatik kategorize ediyor, randevu için Çankaya ofisindeki müsait slotları öneriyor, KVKK metnini sunuyor ve avukatın incelemesi gereken dosya özetlerini sabah brifing olarak iletiyor.",
+      "4 aylık dönemde 280 yeni müvekkil iletişimi yakalandı; bunun 72'si fiili müvekkile dönüştü. Ay başına ortalama 18 yeni dosya açıldı (önceki: 7). Akşam saatlerinde gelen sorulara 10 dk içinde dönüş yapıldığı için müvekkil memnuniyeti anketinde 'iletişim hızı' skoru 6.2'den 9.1'e çıktı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık yeni dosya sayısı", "before": "7 dosya", "after": "18 dosya"},
+      {"label": "Mesai dışı ilk dönüş süresi", "before": "12+ saat", "after": "10 dakika"},
+      {"label": "Müvekkil memnuniyet skoru", "before": "6.2/10", "after": "9.1/10"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL/ay",
+      "description": "Küçük ofis, butik danışmanlık, tek lokasyon için.",
+      "features": ["Tek WhatsApp hattı", "Türkçe yanıt", "Temel SSS otomasyonu", "Randevu yönlendirme", "Aylık 1.500 konuşma", "KVKK uyumlu loglama"],
+      "highlighted": false
+    },
+    {
+      "name": "Profesyonel",
+      "price": "17.000 TL/ay",
+      "description": "Hukuk büroları, danışmanlık şirketleri, sağlık kuruluşları için en popüler paket.",
+      "features": ["Çoklu WhatsApp hattı", "TR + EN yanıt", "Dosya/proje takibi", "CRM entegrasyonu", "İlçe bazlı yönlendirme", "Aylık 5.000 konuşma", "Aylık optimizasyon raporu"],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "32.000 TL/ay",
+      "description": "Çok şubeli yapılar, AB misyonu danışmanları, büyük büro ve kurumsal müşteriler için.",
+      "features": ["Sınırsız hat", "4 dil desteği (TR/EN/DE/AR)", "Kamu sektörü uyumlu altyapı", "Özel entegrasyonlar (UYAP, e-Devlet API)", "Adanmış müşteri yöneticisi", "Sınırsız konuşma", "Haftalık rapor"],
+      "highlighted": false
+    }
+  ],
+  "faq": [
+    {"question": "PORTZEN'in fiziksel ofisi Ankara'da mı?", "answer": "Operasyon ekibimiz uzaktan çalışır, ancak Ankara'daki müşterilerimizle Çankaya ve Çayyolu'nda yüz yüze toplantı yapabiliyoruz. Online süreç ise Türkiye'nin her noktasıyla aynı hızda işliyor."},
+    {"question": "Ankara dışındaki şubelerimize de hizmet veriyor musunuz?", "answer": "Evet. Ankara merkezli müşterilerimizin İstanbul, İzmir veya diğer illerdeki şubeleri tek bir WhatsApp AI altyapısı altında, ilçe ve şube bazlı yönlendirmelerle yönetilir."},
+    {"question": "Kamu kurumları veya kamu ihalesi süreçleriyle uyumlu mu?", "answer": "Altyapımız KVKK, BTK ve kamu bilişim güvenlik kriterlerine uygun şekilde tasarlanır. Verileriniz Türkiye lokasyonlu sunucularda saklanır; kamu ihale takibi için özel akışlar oluşturulabilir."},
+    {"question": "Müvekkil/danışan bilgilerinin gizliliği nasıl sağlanır?", "answer": "Tüm konuşmalar şifreli olarak saklanır, mevzuata uygun saklama süreleri sonunda otomatik silinir, ekibinizdeki kişilerin erişim yetkileri rol bazlı olarak ayarlanır ve tüm işlemler loglanır."},
+    {"question": "Yabancı misyon, büyükelçilik veya uluslararası danışan iletişimi için uygun mu?", "answer": "Evet. GOP, Çankaya ve Bilkent çevresindeki uluslararası müşteri profili için Türkçe, İngilizce, Almanca ve Arapça yanıt verebilen çok dilli akışlar kurguluyoruz."},
+    {"question": "Kurulum süresi ne kadar?", "answer": "Başlangıç paketinde 7 iş günü, Profesyonel pakette 14 iş günü, Kurumsal pakette 21–30 iş günü içinde sistem yayına alınır. Ankara pilot kullanıcılarıyla test edilir."},
+    {"question": "Tunalı'daki ofisimle birebir entegre olur mu?", "answer": "Mevcut sekreterya, CRM, Microsoft 365, Outlook takvim, UYAP gibi sistemlerinizle entegre çalışır. Ofisinizin günlük rutini bozulmadan sistem işin başına geçer."}
+  ],
+  "finalCtaHeadline": "Ankara'daki WhatsApp sisteminizi kuralım.",
+  "finalCtaSubtitle": "Çankaya'dan Sincan'a; KVKK uyumlu, formal tonda ve 7/24 çalışan WhatsApp AI asistanınızı 14 gün içinde devreye alalım. Başkent profesyonel iletişim standartlarına uygun, kamu ve özel sektör karması için tasarlanmış."
+}

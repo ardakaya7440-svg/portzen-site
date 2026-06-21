@@ -27,6 +27,7 @@ import {
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 import { RelatedSectorsSection } from "@/components/landing/RelatedSectorsSection";
+import { RelatedLocationsSection } from "@/components/landing/RelatedLocationsSection";
 
 const URL = "https://portzenai.com/web-tasarim";
 const TITLE = "Web Tasarım | Marka Sitesi & Landing Page — PORTZEN";
@@ -638,6 +639,7 @@ export default function WebTasarimPage() {
 
       {/* 9. FINAL CTA */}
       <RelatedSectorsSection service="web-tasarim" />
+      <RelatedLocationsSection service="web-tasarim" />
 
       <section className="bg-brand-yellow py-section border-t-3 border-ink">
         <div className="mx-auto max-w-container px-6">

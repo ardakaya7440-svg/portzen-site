@@ -1,0 +1,179 @@
+{
+  "type": "location",
+  "sectorSlug": "istanbul",
+  "sectorName": "İstanbul",
+  "sectorPlural": "İstanbul'daki İşletmeler",
+  "title": "İstanbul İçin WhatsApp AI Asistanı | Anadolu+Avrupa KOBİ Otomasyonu — PORTZEN",
+  "description": "İstanbul'daki işletmeler için 7/24 WhatsApp AI asistanı. Kadıköy'den Beylikdüzü'ne, Şişli'den Üsküdar'a yerel KOBİ otomasyonu. Çoklu şube, vardiya, yüksek mesaj hacmi için optimize.",
+  "keywords": [
+    "istanbul whatsapp chatbot",
+    "istanbul whatsapp ai asistanı",
+    "istanbul yapay zeka ajansı",
+    "kadıköy chatbot",
+    "beylikdüzü whatsapp ai",
+    "şişli yapay zeka",
+    "istanbul kobi otomasyonu",
+    "anadolu yakası whatsapp bot",
+    "avrupa yakası ai asistan",
+    "istanbul çoklu şube whatsapp"
+  ],
+  "h1": "İstanbul İçin WhatsApp AI Asistanı",
+  "heroSubtitle": "Kadıköy'den Beylikdüzü'ne, Şişli'den Pendik'e — İstanbul'daki işletmeniz için 7/24 çalışan, Türkçe konuşan, çoklu şube yönetebilen WhatsApp AI asistanı. Mesai dışı kayıp müşteri yok, vardiya geçişinde aksama yok.",
+  "stats": [
+    { "value": "7/24", "label": "Trafik mesai dışı bile aktif" },
+    { "value": "%89", "label": "Mesaj otomatik yanıtlama oranı" },
+    { "value": "<8sn", "label": "Ortalama ilk yanıt süresi" },
+    { "value": "13+", "label": "İstanbul ilçesinde aktif kurulum" }
+  ],
+  "problems": [
+    "İstanbul'da rakip yoğunluğu çok yüksek — müşteri 3 dakika içinde cevap alamazsa bir sonraki işletmeye geçiyor, satış kaybı yaşıyorsunuz.",
+    "İstanbul trafiği nedeniyle müşterileriniz akşam 19:00 sonrası ve hafta sonu yoğun mesaj atıyor, ekibiniz mesai bitince WhatsApp'a bakamıyor.",
+    "Kadıköy, Beşiktaş, Beylikdüzü gibi çoklu şubeniz varsa hangi mesajın hangi şubeye yönlendirileceği karışıyor, müşteri yanlış şubeye düşüyor.",
+    "İstanbul'da günlük 200-500+ mesaj hacmi normal — manuel cevap veren ekip yetişemiyor, mesajlar 'okundu' kalıyor.",
+    "Vardiya geçişlerinde (sabah-akşam ekip değişimi) konuşma geçmişi kayboluyor, müşteri her sefer baştan anlatmak zorunda kalıyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "İstanbul'a Özel Keşif & Şube Haritalama",
+      "description": "Şubelerinizi (Anadolu/Avrupa yakası), bölgesel müşteri profilinizi, en yoğun mesaj saatlerinizi ve sık sorulan ilçe bazlı soruları analiz ediyoruz. İstanbul KVKK uyumlu altyapı planı çıkarıyoruz."
+    },
+    {
+      "title": "Türkçe AI Eğitimi + Lokal Diyalog Kurgusu",
+      "description": "İşletmenizin ses tonunu, İstanbul müşteri profiline uygun samimi Türkçe diyalogları, sık sorulan 80-150 soruyu AI'a öğretiyoruz. 'Bağdat Caddesi şubesi açık mı?' gibi lokasyon sorularına otomatik cevap."
+    },
+    {
+      "title": "WhatsApp Business API + Çoklu Şube Entegrasyonu",
+      "description": "Resmi WhatsApp Business API üzerinden kurulum, her şubeye otomatik yönlendirme, mesai içi/dışı senaryolar, vardiya geçişinde bağlam transferi, CRM/Google Sheets/sipariş sistemleri entegrasyonu."
+    },
+    {
+      "title": "Canlı Yayın, Eğitim & Sürekli İyileştirme",
+      "description": "Lansman sonrası 14 gün yoğun monitoring, ekibinize Türkçe eğitim, haftalık performans raporu (hangi şube, hangi saat, hangi soru). Aylık AI yeniden eğitim — büyüdükçe akıllanır."
+    }
+  ],
+  "features": [
+    {
+      "title": "Çoklu Şube Otomatik Yönlendirme",
+      "description": "Müşteri 'Kadıköy şubesi ne zaman açık?' sorduğunda Anadolu yakası ekibine, 'Beylikdüzü'nde stok var mı?' dediğinde Avrupa yakasına otomatik yönlendirilir."
+    },
+    {
+      "title": "Vardiya Geçişinde Bağlam Aktarımı",
+      "description": "Sabah ekibi konuşmayı bıraktığı yerden akşam ekibi devam eder. AI tüm geçmişi özet halinde sonraki ekibe sunar, müşteri tekrar anlatmaz."
+    },
+    {
+      "title": "İstanbul KVKK Uyumlu Veri İşleme",
+      "description": "Tüm müşteri verileri Türkiye sınırları içindeki sunucularda saklanır, KVKK aydınlatma metni otomatik gönderilir, açık rıza yönetimi sağlanır."
+    },
+    {
+      "title": "Yoğun Saat Pik Yönetimi",
+      "description": "Akşam 19:00-23:00 ve hafta sonu mesaj patlamalarında bile her müşteriye 8 saniye altında ilk yanıt. AI rahat aralıkta ekibi yormaz."
+    },
+    {
+      "title": "Sipariş, Rezervasyon & Randevu Akışları",
+      "description": "Cafe/restoran için sipariş & rezervasyon, klinik için randevu, mağaza için stok sorgulama, hizmet işletmesi için fiyat teklifi — sektörünüze özel akış."
+    },
+    {
+      "title": "Haftalık İstanbul Performans Raporu",
+      "description": "Hangi ilçeden kaç mesaj geldi, hangi saatte yoğunluk yaşandı, hangi şube ne kadar dönüştürdü — ilçe bazlı detaylı dashboard her hafta e-posta ile."
+    }
+  ],
+  "caseStudy": {
+    "title": "Kadıköy Moda — Bir Cafe & Brunch İşletmesi: 3 Ayda 480 Paket Sipariş + 220 Rezervasyon",
+    "paragraphs": [
+      "Kadıköy Moda'da 4 yıldır faaliyet gösteren popüler bir cafe & brunch işletmesi, WhatsApp üzerinden günde 60-80 mesaj alıyordu — rezervasyon, paket sipariş, menü sorgusu, hafta sonu yoğunluk bilgisi. Tek bir kasiyer kız bu mesajları yetiştirmeye çalışıyor, mesajların %35'i cevapsız kalıyor ve müşteriler komşu cafelere kayıyordu.",
+      "Portzen ile 3 hafta içinde WhatsApp AI asistanı kuruldu. Menü, fiyat, paket teslimat bölgesi (Moda, Caddebostan, Suadiye, Bağdat Caddesi), rezervasyon takvimi, hafta sonu yoğunluk bilgisi AI'a yüklendi. Vardiya geçişinde sabah-akşam ekip arası bağlam aktarımı sağlandı, mesai dışı paket sipariş otomatik alınmaya başlandı.",
+      "İlk 3 ayda WhatsApp üzerinden ay başı 480 paket sipariş ve 220 rezervasyon alındı. Cevapsız mesaj oranı %35'ten %3'e düştü. Akşam 22:00 sonrası gelen 'yarın brunch için 4 kişilik rezervasyon' mesajları artık otomatik onaylanıyor — kasiyer mesai içinde sadece kompleks vakalara odaklanıyor."
+    ],
+    "beforeAfter": [
+      { "label": "Aylık WhatsApp dönüşümü", "before": "~95 sipariş + 60 rezervasyon (cevapsız %35)", "after": "480 paket sipariş + 220 rezervasyon (cevapsız %3)" },
+      { "label": "Ortalama ilk yanıt süresi", "before": "28-45 dakika (yoğun saatte 2 saat)", "after": "6 saniye (7/24)" },
+      { "label": "Mesai dışı alınan sipariş", "before": "0 (telefon kapalı)", "after": "ay başı 140 paket sipariş" }
+    ]
+  },
+  "pricing": [
+    {
+      "name": "İstanbul Tek Şube",
+      "price": "8.500",
+      "currency": "TL",
+      "period": "/ay",
+      "description": "Tek şubeli Kadıköy/Beşiktaş/Şişli işletmeleri için.",
+      "features": [
+        "WhatsApp Business API kurulumu",
+        "Türkçe AI asistan eğitimi (80 soru)",
+        "Sipariş/rezervasyon/randevu akışı",
+        "KVKK uyumlu kurulum",
+        "Aylık 3.000 mesaj dahil",
+        "E-posta destek (mesai içi)"
+      ],
+      "highlighted": false
+    },
+    {
+      "name": "İstanbul Çoklu Şube",
+      "price": "17.000",
+      "currency": "TL",
+      "period": "/ay",
+      "description": "2-5 şubeli Anadolu+Avrupa yakası işletmeleri için. En popüler paket.",
+      "features": [
+        "Tek Şube paketinin tüm özellikleri",
+        "5 şubeye kadar otomatik yönlendirme",
+        "Vardiya geçişi bağlam aktarımı",
+        "150 soru AI eğitimi",
+        "CRM/Google Sheets entegrasyonu",
+        "Aylık 10.000 mesaj dahil",
+        "WhatsApp + telefon destek",
+        "Haftalık ilçe bazlı rapor"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "İstanbul Enterprise",
+      "price": "32.000",
+      "currency": "TL",
+      "period": "/ay",
+      "description": "5+ şubeli zincir, franchise ve kurumsal işletmeler için.",
+      "features": [
+        "Çoklu Şube paketinin tüm özellikleri",
+        "Sınırsız şube yönetimi",
+        "Özel API entegrasyonları (ERP, POS, sipariş)",
+        "300+ soru AI eğitimi",
+        "Sınırsız mesaj",
+        "Adanmış proje yöneticisi",
+        "7/24 öncelikli destek",
+        "Aylık AI yeniden eğitim",
+        "Özel raporlama dashboard"
+      ],
+      "highlighted": false
+    }
+  ],
+  "faq": [
+    {
+      "question": "İstanbul dışında hizmet veriyor musunuz?",
+      "answer": "Evet, Türkiye'nin tüm şehirlerine hizmet veriyoruz. Ancak İstanbul'da fiziksel olarak da bulunuyoruz — Kadıköy ve Maslak'ta toplantı yapabiliyoruz. Diğer şehirler için tüm süreç online + Zoom üzerinden yürütülüyor."
+    },
+    {
+      "question": "İstanbul'da fiziksel ofisiniz var mı, gelip görüşebilir miyiz?",
+      "answer": "Evet. Maslak ve Kadıköy'de toplantı noktalarımız var. Anadolu yakasındaysanız Kadıköy, Avrupa yakasındaysanız Maslak'ta yüz yüze keşif görüşmesi yapabiliriz. Online tercih ederseniz Zoom üzerinden de aynı verimle ilerliyoruz."
+    },
+    {
+      "question": "Birden fazla şubem var (Kadıköy + Beylikdüzü gibi), nasıl yönetilecek?",
+      "answer": "Tek bir WhatsApp numarası üzerinden tüm şubeleri yönetebiliyoruz. Müşteri 'Beylikdüzü stok' diye yazdığında otomatik Avrupa yakası ekibine, 'Kadıköy randevu' dediğinde Anadolu yakası ekibine düşer. Her şubenin kendi çalışma saatleri, menüsü ve kuralları olabilir."
+    },
+    {
+      "question": "Anadolu yakası ile Avrupa yakası arasındaki müşteri profili farkı için optimize ediliyor mu?",
+      "answer": "Evet. Bağdat Caddesi müşterisi ile Beylikdüzü AVM müşterisinin beklentisi farklı. AI'ı her bölgenin tonuna göre eğitiyoruz — örneğin Cihangir müşterisine daha samimi, kurumsal Maslak müşterisine daha resmi cevap verebilir."
+    },
+    {
+      "question": "İstanbul'da KVKK denetimi geldiğinde sorumluluk kimde?",
+      "answer": "Veri işleyici olarak biz teknik altyapıyı sağlıyoruz, veri sorumlusu siz kalıyorsunuz. KVKK aydınlatma metni şablonu, açık rıza akışı, veri saklama politikası gibi tüm dokümanları hazırlıyor, denetim anında destek veriyoruz. Tüm veriler Türkiye sınırları içinde tutulur."
+    },
+    {
+      "question": "Mesaj hacmim çok yüksek (günlük 500+), sisteminiz kaldırır mı?",
+      "answer": "Evet. İstanbul'da günde 2.000+ mesaj alan zincir müşterilerimiz var. WhatsApp Business API üzerinden eş zamanlı yüzlerce konuşmayı sorunsuz yönetir. Mesaj hacminize göre Enterprise paket öneriyoruz."
+    },
+    {
+      "question": "Mevcut WhatsApp numaramı kullanabilir miyim, yoksa yeni numara mı almam gerekir?",
+      "answer": "Mevcut numaranızı kullanabilirsiniz — WhatsApp Business API'ya geçirme (migration) işlemini biz yapıyoruz. Tek koşul: numara halihazırda WhatsApp Business uygulamasında ise önce uygulamadan çıkışı yapıp API'ya geçiyoruz, geçmiş sohbetler korunmaz ama numara aynı kalır."
+    }
+  ],
+  "finalCtaHeadline": "İstanbul'daki sisteminizi kuralım.",
+  "finalCtaSubtitle": "Kadıköy, Şişli, Beylikdüzü, Beşiktaş — ilçeniz neresi olursa olsun 14 gün içinde WhatsApp AI asistanınız canlıda. Ücretsiz İstanbul keşif görüşmesi için yazın."
+}

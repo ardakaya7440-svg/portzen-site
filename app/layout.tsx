@@ -82,8 +82,40 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
 
+          {/* Şehir link şeridi — defansif local SEO */}
+          <div className="border-t-3 border-paper/20 mx-auto max-w-container px-6 py-6">
+            <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Şehrinize Özel</div>
+            <div className="flex flex-wrap gap-2">
+              {[
+                {label: "İzmir WhatsApp AI", href: "/whatsapp-ai-asistani/izmir"},
+                {label: "İstanbul WhatsApp AI", href: "/whatsapp-ai-asistani/istanbul"},
+                {label: "Ankara WhatsApp AI", href: "/whatsapp-ai-asistani/ankara"},
+                {label: "İzmir Instagram DM", href: "/instagram-dm-otomasyonu/izmir"},
+                {label: "İstanbul Instagram DM", href: "/instagram-dm-otomasyonu/istanbul"},
+                {label: "Ankara Instagram DM", href: "/instagram-dm-otomasyonu/ankara"},
+                {label: "İzmir Web Tasarım", href: "/web-tasarim/izmir"},
+                {label: "İstanbul Web Tasarım", href: "/web-tasarim/istanbul"},
+                {label: "Ankara Web Tasarım", href: "/web-tasarim/ankara"},
+                {label: "İzmir CRM Otomasyon", href: "/crm-otomasyonu/izmir"},
+                {label: "İstanbul CRM Otomasyon", href: "/crm-otomasyonu/istanbul"},
+                {label: "Ankara CRM Otomasyon", href: "/crm-otomasyonu/ankara"},
+                {label: "İzmir AI Reklam", href: "/ai-reklam-videosu/izmir"},
+                {label: "İstanbul AI Reklam", href: "/ai-reklam-videosu/istanbul"},
+                {label: "Ankara AI Reklam", href: "/ai-reklam-videosu/ankara"}
+              ].map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-xs text-paper/70 hover:text-brand-yellow border border-paper/20 px-2 py-1 hover:border-brand-yellow transition-colors"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </div>
+
           {/* Sektör link şeridi — defansif SEO */}
-          <div className="border-t-3 border-paper/20 mx-auto max-w-container px-6 py-8">
+          <div className="border-t-3 border-paper/20 mx-auto max-w-container px-6 py-6">
             <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Sektörel Çözümler</div>
             <div className="flex flex-wrap gap-2">
               {[

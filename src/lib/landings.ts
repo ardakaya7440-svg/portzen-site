@@ -62,13 +62,17 @@ export const SERVICE_META: Record<ServiceSlug, ServiceMeta> = {
   }
 };
 
+export type LandingType = "sector" | "location";
+
 /** Her sektörel landing JSON dosyasının uyacağı şablon */
 export interface SectorLandingData {
-  /** URL slug (örn: "eczane", "klinik") */
+  /** "sector" (varsayılan) veya "location" — anasayfa gruplaması için */
+  type?: LandingType;
+  /** URL slug (örn: "eczane", "klinik", "izmir") */
   sectorSlug: string;
-  /** Görünür ad (örn: "Eczane", "Estetik Klinik") */
+  /** Görünür ad (örn: "Eczane", "Estetik Klinik", "İzmir") */
   sectorName: string;
-  /** Çoğul (örn: "Eczaneler") */
+  /** Çoğul (örn: "Eczaneler", "İzmir'deki İşletmeler") */
   sectorPlural: string;
 
   /** SEO meta */
@@ -148,6 +152,19 @@ export function getAllSectorLandings(): { service: ServiceSlug; sector: string }
     }
   }
   return result;
+}
+
+/** Hizmet için belirli tipteki (sector/location) slug'ları döndürür */
+export function getSectorSlugsForServiceByType(
+  serviceSlug: ServiceSlug,
+  type: LandingType
+): string[] {
+  const slugs = getSectorSlugsForService(serviceSlug);
+  return slugs.filter((slug) => {
+    const data = getSectorLanding(serviceSlug, slug);
+    if (!data) return false;
+    return (data.type ?? "sector") === type;
+  });
 }
 
 /** Cross-link önerisi: aynı sektörden başka hizmetlerin landing'leri */

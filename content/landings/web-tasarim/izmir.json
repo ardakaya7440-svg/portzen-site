@@ -1,0 +1,162 @@
+{
+  "type": "location",
+  "sectorSlug": "izmir",
+  "sectorName": "İzmir",
+  "sectorPlural": "İzmir'deki İşletmeler",
+  "title": "İzmir Web Tasarım | Next.js + Local SEO — PORTZEN",
+  "description": "İzmir'deki işletmelere modern Next.js web tasarımı + lokal SEO + Google My Business optimizasyonu. Karşıyaka, Alsancak, Bornova özelinde mahalle bazlı arama.",
+  "keywords": [
+    "izmir web tasarım",
+    "izmir nextjs site",
+    "izmir local seo",
+    "alsancak web tasarım",
+    "izmir kurumsal site",
+    "karşıyaka web ajansı"
+  ],
+  "h1": "İzmir İçin Web Tasarım + Local SEO",
+  "heroSubtitle": "Karşıyaka'dan Konak'a, Alsancak'tan Bornova'ya — mahalle bazlı aramada öne çıkan, hızlı, mobil-uyumlu Next.js siteleri. Google My Business entegrasyonu dahil.",
+  "stats": [
+    {"value": "Next.js", "label": "Modern Stack"},
+    {"value": "%98", "label": "PageSpeed"},
+    {"value": "Local SEO", "label": "Dahil"},
+    {"value": "21 gün", "label": "Teslim"}
+  ],
+  "problems": [
+    "İzmir'deki işletmenizin sitesi WordPress'te, mobilde 8 saniyede açılıyor, müşteri sabırsızlanıp Karşıyaka'daki rakibe gidiyor; Google da yavaş diye sıralamada arkaya atıyor.",
+    "Google'da 'mahalle + sektör' aramada (örn. 'alsancak diş klinik') rakipleriniz çıkıyor, sizin siteniz 4. sayfada; çünkü Google My Business profili ve lokal SEO yapılmamış.",
+    "Sitenizin mobil görünümü bozuk; oysa İzmir'de aramaların %78'i telefondan yapılıyor. Form, harita, telefon butonu mobilde çalışmıyor, müşteri dönüşemiyor.",
+    "Eski sitenizde KVKK aydınlatma metni yok, çerez politikası eksik; ihbar gelirse ceza riskli, üstelik Google da KVKK uyumsuz siteleri arkaya atıyor.",
+    "Konak'taki hukuk büronuz, Bornova'daki kliniğiniz — rakipler local'de daha iyi rank alıyor çünkü onlar şema (Schema.org) ve coğrafi etiketleme kullanmış; sizin siteniz bunlardan habersiz."
+  ],
+  "solutionSteps": [
+    {
+      "title": "İzmir Lokal Keşif",
+      "description": "Rakip analizi (Karşıyaka, Alsancak, Konak vb. mahalle bazında), Google My Business denetimi, mevcut sitenizin teknik audit'i. Hedef anahtar kelime haritası."
+    },
+    {
+      "title": "Tasarım + Prototip",
+      "description": "Marka kimliğinize uygun, mobil-öncelikli Figma tasarımı. Wireframe → high-fidelity → onay. 2 revizyon dahil."
+    },
+    {
+      "title": "Next.js Geliştirme",
+      "description": "React + Next.js 15 + Tailwind + Vercel deploy. PageSpeed %98+, SEO Schema.org, KVKK + GMB entegrasyonu, mahalle bazlı landing sayfaları."
+    },
+    {
+      "title": "Yayın + Local SEO Bakım",
+      "description": "Canlıya alma, Google Search Console kurulum, GMB optimizasyon, ilk 3 ay haftalık takip, aylık raporlama (Pro paket ve üzeri)."
+    }
+  ],
+  "features": [
+    {
+      "title": "Mahalle Bazlı Landing Sayfaları",
+      "description": "Karşıyaka, Alsancak, Bornova, Konak gibi hedef mahallelerinize özel optimize edilmiş alt sayfalar. 'Mahalle + hizmet' aramasında ilk sayfa."
+    },
+    {
+      "title": "Google My Business Optimizasyonu",
+      "description": "Profil tam kurulum, foto/post, müşteri yorum yönetimi, harita üzerinde 'pin' optimizasyon. İlk 3 ay haftalık güncelleme."
+    },
+    {
+      "title": "Next.js + Vercel Hız",
+      "description": "PageSpeed %98+, ilk paint <1 sn, mobil-öncelikli. Google'ın Core Web Vitals'ında yeşil."
+    },
+    {
+      "title": "Schema.org + LocalBusiness",
+      "description": "Coğrafi etiketleme, açılış saatleri, adres, telefon Schema markup. Google'a 'biz İzmir'deyiz' diyen teknik altyapı."
+    },
+    {
+      "title": "KVKK + Çerez Uyumu",
+      "description": "Aydınlatma metni, açık rıza, çerez bandı, form izin yönetimi — hukuki uyum garantili."
+    },
+    {
+      "title": "İzmir Hosting + Bakım",
+      "description": "Vercel/Cloudflare üzerinden CDN, otomatik yedek, SSL, aylık güvenlik güncellemesi. Site asla düşmez."
+    }
+  ],
+  "caseStudy": {
+    "title": "Konak'ta bir hukuk bürosu: 5 ayda organik trafik 0 → 2.800/ay, ay başı 22 danışan",
+    "paragraphs": [
+      "Konak Pasaport'ta orta ölçekli bir hukuk bürosu, 2018'den kalma WordPress sitesini kullanıyordu. Mobilde 9 saniyede açılıyor, form çalışmıyor, KVKK uyumsuz, GMB profili eksikti. Google'da 'konak boşanma avukatı', 'alsancak iş davası' gibi aramalarda 5-6. sayfada kalıyordu; tüm danışan akışı WhatsApp + tanıdık üzerindendi.",
+      "PORTZEN olarak Next.js + Tailwind ile sıfırdan modern site kurduk; 12 mahalle bazlı landing (alsancak-boşanma-avukatı, konak-iş-davası, karşıyaka-icra-avukatı vb.), Schema.org LocalBusiness etiketleme, GMB profili optimize, KVKK + çerez bandı tam uyum, Vercel CDN deploy.",
+      "5 ay sonunda organik trafik sıfırdan ay başı 2.800 ziyaretçiye çıktı. 'Konak boşanma avukatı' aramasında 1. sayfa 3. sıraya yerleşildi. Web sitesinden ay başı 22 yeni danışan başvurusu, dönüşüm oranı %1.4 (sektör ortalaması %0.6'nın 2 katı). Yatırım 4. ayında kendini amorti etti."
+    ],
+    "beforeAfter": [
+      {"label": "PageSpeed (Mobil)", "before": "32 (kırmızı)", "after": "98 (yeşil)"},
+      {"label": "Organik Trafik", "before": "0", "after": "2.800/ay"},
+      {"label": "Aylık Web Danışan", "before": "0", "after": "22"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Landing Sayfa",
+      "price": "12.000 TL",
+      "description": "Tek lokasyonlu işletme, danışman, butik klinik için (tek seferlik)",
+      "features": [
+        "Next.js + Tailwind tek sayfa",
+        "Mobil-öncelikli tasarım",
+        "Form + WhatsApp butonu",
+        "Temel SEO + Schema.org",
+        "KVKK + çerez uyum",
+        "1 yıl hosting dahil"
+      ]
+    },
+    {
+      "name": "Marka Sitesi",
+      "price": "28.000 TL + 2.000 TL/ay",
+      "description": "Kurumsal site, hukuk bürosu, klinik, danışmanlık için",
+      "features": [
+        "5-8 sayfa kurumsal site",
+        "5 mahalle bazlı landing",
+        "Google My Business kurulum",
+        "Tam local SEO + Schema",
+        "Aylık SEO bakım + rapor",
+        "Adanmış hesap yöneticisi"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "E-Ticaret",
+      "price": "55.000 TL + 3.000 TL/ay",
+      "description": "E-ticaret, kataloglu satış, çoklu şube için",
+      "features": [
+        "Next.js + Shopify/Medusa entegrasyon",
+        "Sınırsız ürün",
+        "Sepet + ödeme (iyzico/PayTR)",
+        "Mahalle bazlı kargo hesap",
+        "Aylık SEO + ürün optimizasyon",
+        "Öncelikli destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "İzmir lokal SEO ne demek, sıradan SEO'dan farkı ne?",
+      "answer": "Lokal SEO, 'mahalle + sektör' (örn. 'alsancak diş hekimi') aramada öne çıkmak için yapılan özel optimizasyon. Google My Business, Schema.org LocalBusiness, mahalle bazlı içerik, coğrafi etiketleme dahil."
+    },
+    {
+      "question": "Google My Business kurmazsam sıralamada ne kaybederim?",
+      "answer": "Mobilde 'X mahallesi + Y hizmet' aramaların %47'sini kaçırırsınız. GMB profili olmayan işletme harita sonuçlarına çıkmaz, müşteri rakibi seçer."
+    },
+    {
+      "question": "Mobil tasarım İzmir için bu kadar önemli mi?",
+      "answer": "Evet. İzmir'de aramaların %78'i mobilden, restoran/cafe/klinik aramalarının %85'i mobilden. Mobilde yavaş site = direkt müşteri kaybı."
+    },
+    {
+      "question": "Neden Next.js, WordPress kullansak olmaz mı?",
+      "answer": "WordPress eklenti karmaşası, hız sorunu, güvenlik açıkları yaratır. Next.js sıfır eklenti, %98+ hız, sıfır hack riski. Vercel CDN ile dünya genelinde 50ms açılış."
+    },
+    {
+      "question": "İzmir'deki butik işletmem için 12K TL pahalı değil mi?",
+      "answer": "Landing paketi 12K + 1 yıl hosting dahil. Aylık 1.000 TL hesabıyla bir maaş seviyesinde değil. Kazandıracağı 1 müşteri bile maliyetini çıkartır."
+    },
+    {
+      "question": "Mevcut WordPress sitemden geçiş zor mu?",
+      "answer": "Hayır. İçerik aktarımı, URL yönlendirme (301), SEO sıralama korunarak migration yapıyoruz. Eski URL'ler kaybolmaz."
+    },
+    {
+      "question": "Aylık SEO bakımı ne içeriyor?",
+      "answer": "Google Search Console takibi, sıralama raporu, içerik güncellemesi, GMB post yönetimi, teknik SEO audit, aylık 3 saat danışmanlık. Tam şeffaf rapor."
+    }
+  ],
+  "finalCtaHeadline": "İzmir'de Google'ın ilk sayfasına çıkalım.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz site audit. Mevcut siteniz + rakipleriniz analiz, size özel local SEO yol haritası. 21 günde yeni site canlı."
+}

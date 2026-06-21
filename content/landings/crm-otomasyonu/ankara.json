@@ -1,0 +1,97 @@
+{
+  "type": "location",
+  "sectorSlug": "ankara",
+  "sectorName": "Ankara",
+  "sectorPlural": "Ankara'daki İşletmeler",
+  "title": "Ankara İçin CRM Otomasyonu | Başkent Danışmanlık & Satış Süreci — PORTZEN",
+  "description": "Ankara'daki hukuk büroları, danışmanlık şirketleri, ajanslar ve KOBİ'ler için CRM kurulumu ve otomasyon. Kamu + özel sektör segmentasyonu, KVKK uyumlu, satış ekibi yönetimi.",
+  "keywords": ["ankara crm", "ankara crm kurulumu", "çankaya crm", "ankara satış otomasyonu", "ankara danışmanlık crm", "başkent crm", "ankara hubspot ajans", "ankara pipedrive"],
+  "h1": "Ankara İçin CRM Otomasyonu",
+  "heroSubtitle": "Çankaya'daki hukuk bürosundan Çayyolu'ndaki danışmanlık şirketine, Bahçelievler'deki ajanstan Bilkent'teki teknoloji firmasına; kamu ve özel sektör müşterilerini segmente eden, satış ekibinizi yöneten, KVKK uyumlu CRM altyapısı kuruyoruz.",
+  "stats": [
+    {"value": "%180", "label": "Ankara müşterilerinde ortalama satış dönüşüm artışı"},
+    {"value": "+%65", "label": "Satış ekibi üretkenlik artışı"},
+    {"value": "30 gün", "label": "Ortalama kurulum süresi"},
+    {"value": "KVKK+", "label": "Kamu ve özel sektör uyumlu altyapı"}
+  ],
+  "problems": [
+    "Ankara'daki hukuk bürosu, danışmanlık firması veya ajans Instagram, WhatsApp, web formu ve telefondan gelen lead'leri Excel veya defterle takip ediyor; ay sonunda hangi danışan/müvekkilin nerede kaldığı belli olmuyor, gelen iş kaçırılıyor.",
+    "Kamu ve özel sektör müşterilerinin satış süreçleri çok farklı (ihale takibi vs. ticari satış); aynı sistemde yönetilemediği için kamu lead'leri özel sektör hızında, özel sektör lead'leri ise kamu yavaşlığında ilerliyor — ikisi de kaçırılıyor.",
+    "Hukuk bürosu/danışmanlık şirketinde dosya, teklif ve proje takibi hala Excel ve klasör mantığıyla yapılıyor; bir avukat ayrıldığında müvekkil geçmişi kayboluyor, kurumsal bilgi birikimi yok oluyor.",
+    "3–5 kişilik satış ekipleri yönetilemiyor; kim hangi lead'le ilgileniyor, hangisi unutulmuş, hangi teklif neden kaybedildi belli değil. Yöneticinin gerçek zamanlı bir pipeline görüntüsü yok.",
+    "Müvekkil/danışan kişisel verileri KVKK uyumsuz şekilde saklanıyor (paylaşımlı Excel, kişisel mail kutusu, mesajlaşma uygulamaları); özellikle hukuk ve sağlık sektörü için ciddi mevzuat ihlali riski oluşuyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "1. Süreç Analizi & CRM Seçimi",
+      "description": "Mevcut satış/danışan süreçleriniz haritalanır. İhtiyacınıza göre HubSpot, Pipedrive, Zoho veya özel CRM önerilir; kamu + özel sektör segmentleri ayrı pipeline olarak tasarlanır."
+    },
+    {
+      "title": "2. Kurulum, Segment & Pipeline",
+      "description": "Lead kaynakları (WhatsApp, IG, web, telefon) CRM'e bağlanır. Kamu/özel/uluslararası segmentler; teklif, müzakere, kapanış, kaybedildi aşamaları kurulur. Satış ekibi yetkilendirilir."
+    },
+    {
+      "title": "3. Otomasyon & Entegrasyonlar",
+      "description": "E-posta, takvim, fatura, e-imza, UYAP, Microsoft 365 gibi sistemlerle entegrasyon kurulur. Otomatik takip mailleri, görev hatırlatmaları ve müvekkil/danışan onboarding akışları hazırlanır."
+    },
+    {
+      "title": "4. Eğitim, Yayın & 90 Gün Optimizasyon",
+      "description": "Satış ekibinize 2 oturum eğitim verilir. İlk 90 gün haftalık optimizasyon: en yavaş aşama bulunur, en sıcak lead kaynağı belirlenir, satış ekibi performansı raporlanır."
+    }
+  ],
+  "features": [
+    {"title": "Kamu + Özel Sektör Segmentasyonu", "description": "İhale takibi gerektiren kamu lead'leri ile hızlı dönüşüm beklenen özel sektör lead'leri farklı pipeline'larda, farklı sürelerle yönetilir."},
+    {"title": "Dosya & Proje Takibi", "description": "Hukuk bürosu/danışmanlık şirketleri için dosya, teklif, fatura ve müzakere notları tek müvekkil/müşteri kartında toplanır; avukat değişse bile tüm geçmiş kalır."},
+    {"title": "Satış Ekibi Yetkileri", "description": "3–5 kişilik satış ekibinde rol bazlı yetkilendirme; ortak yönetici dashboard, bireysel performans takibi ve gerçek zamanlı pipeline görüntüsü."},
+    {"title": "KVKK Uyumlu Veri Saklama", "description": "Müvekkil/danışan verileri Türkiye sunucularında, KVKK ve sektör mevzuatına uygun saklama süreleriyle, otomatik silme ve erişim logları ile."},
+    {"title": "Çoklu Kanal Lead Toplama", "description": "WhatsApp AI, IG DM, web formu, telefon ve e-posta lead'leri tek bir CRM'e otomatik düşer; manuel veri girişi sıfıra iner."},
+    {"title": "UYAP, e-Devlet, Microsoft 365 Entegrasyonu", "description": "Hukuk büroları için UYAP, kamu müşterileri için e-Devlet/EBYS, kurumsal müşteriler için Microsoft 365 entegrasyonu hazır geliyor."}
+  ],
+  "caseStudy": {
+    "title": "Çankaya'da Bir Hukuk Bürosu — Müvekkil Dönüşümü %12'den %34'e, Aylık Ciro %170 Arttı",
+    "paragraphs": [
+      "Çankaya'da 12 yıllık bir hukuk bürosu, 4 avukat + 2 stajyer ekiple çalışıyordu. Aylık ortalama 180 lead alıyordu (WhatsApp, IG, web, telefon) ancak bunların yalnızca %12'si fiili müvekkile dönüşüyordu. Müvekkil bilgileri farklı sistemlerde dağınıktı; bir avukat ayrıldığında o avukatın müvekkilleriyle ilgili tüm geçmiş kayboluyordu.",
+      "PORTZEN, büro için HubSpot tabanlı bir CRM kurdu. Lead'ler 'Kamu' (kamu kurumu danışmanlığı, idare hukuku) ve 'Özel sektör' (boşanma, ticaret, ceza) olarak iki ayrı pipeline'a ayrıldı. UYAP, Outlook takvimi ve WhatsApp AI asistanı CRM'e entegre edildi. Otomatik takip mailleri, müzakere hatırlatmaları ve teklif onboarding akışları hazırlandı.",
+      "6 ay sonunda müvekkil dönüşüm oranı %12'den %34'e çıktı, aylık ciro %170 arttı. Bir avukatın bürodan ayrılma sürecinde tüm müvekkil geçmişi kurumsal hafızada kaldı, devir teslim sorunsuz gerçekleşti. Büro 8. ayda 2 avukat daha işe aldı."
+    ],
+    "beforeAfter": [
+      {"label": "Lead → müvekkil dönüşüm oranı", "before": "%12", "after": "%34"},
+      {"label": "Aylık ciro", "before": "Baz değer", "after": "+%170"},
+      {"label": "Müvekkil geçmişi devir süresi", "before": "Mümkün değil", "after": "Anında"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "12.000 TL/ay",
+      "description": "Tek lokasyon, 1–3 satış kullanıcısı olan butik büro veya küçük danışmanlık için.",
+      "features": ["1 CRM lisansı (HubSpot/Pipedrive)", "Tek pipeline", "3 kullanıcıya kadar", "Temel otomasyonlar", "Aylık 1 optimizasyon görüşmesi", "KVKK uyumlu kurulum"],
+      "highlighted": false
+    },
+    {
+      "name": "Pro",
+      "price": "24.000 TL/ay",
+      "description": "Orta ölçekli hukuk bürosu, danışmanlık, ajans için en popüler paket.",
+      "features": ["Çoklu pipeline (kamu+özel)", "10 kullanıcıya kadar", "WhatsApp/IG entegrasyonu", "UYAP/Outlook entegrasyonu", "Otomatik raporlama", "Aylık 2 optimizasyon", "Adanmış proje yöneticisi"],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "48.000 TL/ay",
+      "description": "Çok şubeli yapılar, büyük danışmanlık şirketleri ve kurumsal ekipler için.",
+      "features": ["Sınırsız pipeline", "Sınırsız kullanıcı", "Özel entegrasyonlar (e-Devlet, EBYS, ERP)", "Çoklu şube yönetimi", "AI lead skoring", "Haftalık optimizasyon", "7/24 destek"],
+      "highlighted": false
+    }
+  ],
+  "faq": [
+    {"question": "KVKK uyumu nasıl sağlanıyor?", "answer": "Müvekkil/danışan verileri Türkiye lokasyonlu sunucularda, KVKK ve sektör mevzuatına uygun saklama süreleriyle korunur. Erişim logları, rol bazlı yetkilendirme, otomatik silme ve VERBİS uyumlu yapılandırma standart olarak gelir."},
+    {"question": "Kamu sektörü müşterilerimizle de kullanılabilir mi?", "answer": "Evet. Kamu lead'leri için ayrı bir pipeline kurulur; ihale takibi, başvuru süreçleri, e-Devlet/EBYS entegrasyonu ve kamu bilişim güvenlik standartlarına uygun yapılandırma sağlanır."},
+    {"question": "Satış ekibimde 4 kişi var, yetki ve görünürlük nasıl?", "answer": "Her satış kullanıcısı kendi lead'lerini ve takvimi görür, yönetici tüm pipeline'ı gerçek zamanlı izler. Rol bazlı yetkilendirme ile kim ne görür, kim ne düzenler net olarak ayarlanır."},
+    {"question": "Mevcut CRM'imiz var, sıfırdan mı kuruyorsunuz?", "answer": "Hayır. Mevcut CRM'inizi (HubSpot, Pipedrive, Zoho, Salesforce vb.) iyileştiriyor, eksik otomasyonları kuruyor ve entegrasyonları tamamlıyoruz. Sıfırdan kurmak zorunda değilsiniz."},
+    {"question": "WhatsApp AI ve IG DM otomasyonumuz ile entegre olur mu?", "answer": "Evet, hepsi tek altyapı altında entegre çalışır. WhatsApp veya IG'den gelen lead direkt CRM'e düşer, otomatik segmente olur, ilgili satış ekibine atanır."},
+    {"question": "UYAP, e-Devlet, Microsoft 365 entegrasyonları hazır mı?", "answer": "Evet. Hukuk büroları için UYAP, kamu müşterileri için e-Devlet/EBYS, kurumsal müşteriler için Microsoft 365 (Outlook, Teams, OneDrive) entegrasyonları hazır şekilde geliyor."},
+    {"question": "Çankaya'daki ofisinizde eğitim alabilir miyiz?", "answer": "Operasyon ekibimiz uzaktan çalışır, ancak ekibinize verilen 2 oturum eğitimi Çankaya/Çayyolu'nda yüz yüze koordine edebiliyoruz. Online eğitimler ise çok daha hızlı ve esnek."}
+  ],
+  "finalCtaHeadline": "Ankara'daki satış sürecinizi kuralım.",
+  "finalCtaSubtitle": "Çankaya'dan Çayyolu'na; kamu + özel sektör segmentasyonu yapan, KVKK uyumlu, satış ekibinizi yöneten ve dönüşümünüzü 2 katına çıkaran CRM altyapınızı 30 gün içinde devreye alalım."
+}

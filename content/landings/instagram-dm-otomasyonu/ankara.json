@@ -1,0 +1,97 @@
+{
+  "type": "location",
+  "sectorSlug": "ankara",
+  "sectorName": "Ankara",
+  "sectorPlural": "Ankara'daki Markalar",
+  "title": "Ankara İçin Instagram DM Otomasyonu | Başkent Marka Büyütme — PORTZEN",
+  "description": "Ankara'daki estetik klinikler, butikler, restoranlar ve hizmet markaları için Instagram DM otomasyonu. Çankaya, Bahçelievler, Çayyolu'nda formal tonda lead yönetimi.",
+  "keywords": ["ankara instagram dm", "ankara instagram otomasyon", "çankaya instagram ajans", "ankara sosyal medya ajans", "ankara dm bot", "bahçelievler instagram", "başkent dijital ajans", "ankara instagram lead"],
+  "h1": "Ankara İçin Instagram DM Otomasyonu",
+  "heroSubtitle": "Ankara markaları İstanbul'a göre daha küçük ama daha sadık bir kitleye sahip. Çankaya'daki estetik klinikten Bahçelievler'deki butiğe, Çayyolu'ndaki restorana kadar; Başkent'in formal-kurumsal tonunu koruyarak Instagram DM'lerinizi satışa dönüştürüyoruz.",
+  "stats": [
+    {"value": "+%200", "label": "Ankara markalarında ortalama DM dönüşüm artışı"},
+    {"value": "%5.4", "label": "Estetik/sağlık DM → randevu oranı"},
+    {"value": "8 dk", "label": "Ortalama ilk DM yanıt süresi"},
+    {"value": "100+", "label": "Ankara'da analiz edilen rakip marka"}
+  ],
+  "problems": [
+    "Ankara markaları İstanbul'daki rakiplerine kıyasla Instagram'da daha az aktif; düşük etkileşim sebebiyle gelen DM trafiği zaten kısıtlı, gelen az sayıdaki lead de yanıtsız kalınca tamamen kaybediliyor.",
+    "Başkent'teki kitle, ulusal markalara göre daha küçük ama daha sadık ve daha kaliteli bir alıcı profili sunuyor; ancak bu loyal kitleye samimi-amatör DM tonu yerine kurumsal-formal bir iletişim verilmesi gerekiyor.",
+    "Çankaya, Bahçelievler ve Çayyolu'ndaki estetik klinik, hukuk, danışmanlık gibi sektörler DM'de fiyat veya bilgi sorduğunda 'profesyonel ve güvenilir' bir yanıt bekliyor; mevcut sosyal medya ekipleri bu tonu sürekli koruyamıyor.",
+    "Story yanıtları, yorumdan DM'ye geçişler ve etkinlik/kampanya soruları için anlık dönüş gerekiyor; ancak Ankara'daki çoğu marka sosyal medyayı dışarıdan kişiye/ajansa yaptırdığı için yanıt süreleri 6+ saati buluyor.",
+    "Çok hesaplı yapılar (örneğin bir estetik klinik zinciri Çankaya + Çayyolu + Bilkent şubeleri için ayrı IG hesapları yönetiyor) tek bir noktadan profesyonelce yönetilemiyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "1. Marka Sesi & Ankara Tonu Kalibrasyonu",
+      "description": "Mevcut DM geçmişiniz, web sitesi ve marka kimliğiniz incelenir. Başkent kitlesinin beklediği 'profesyonel ama sıcak' tonalite AI'a aktarılır; emoji kullanımı, hitap biçimi ve örnek yanıtlar şekillendirilir."
+    },
+    {
+      "title": "2. Dönüşüm Akışları & Senaryolar",
+      "description": "Estetik/sağlıkta randevu, restoranda rezervasyon, butikte stok-fiyat sorgu, danışmanlıkta keşif görüşmesi akışları tasarlanır. Story yanıtı, yorum-DM tetikleri ve kampanya akışları kurulur."
+    },
+    {
+      "title": "3. Çok Hesap & Şube Entegrasyonu",
+      "description": "Çankaya, Çayyolu, Bilkent gibi farklı şubeleriniz veya markalarınız için ayrı yanıt politikaları kurulur, hepsi tek dashboard üzerinden yönetilir. Lead'ler şube bazlı CRM'e düşer."
+    },
+    {
+      "title": "4. Yayın Sonrası 90 Gün Optimizasyon",
+      "description": "Hangi post DM'de daha çok dönüyor, hangi semt müşterisi hangi paketi daha çok soruyor, hangi saatlerde dönüşüm artıyor; haftalık raporla iyileştirme yapılır."
+    }
+  ],
+  "features": [
+    {"title": "Formal-Sıcak Ton Motoru", "description": "Ankara kitlesine uygun, kurumsal ama soğuk olmayan, profesyonel ama mesafeli olmayan yanıt tarzı; samimi kısaltma ve aşırı emoji kullanılmaz."},
+    {"title": "Story & Yorum Yakalama", "description": "Story yanıtları, post yorumları ve mention'lar otomatik DM'e dönüştürülür; her etkileşim potansiyel lead olarak değerlendirilir."},
+    {"title": "Çok Hesaplı Yönetim", "description": "Birden fazla IG hesabı (zincir klinik, çok lokasyonlu butik, restoran grubu) tek panelden, şube/marka bazlı kurallarla yönetilir."},
+    {"title": "Randevu & Rezervasyon Akışı", "description": "Estetik klinik için doktor takvimi, restoran için rezervasyon, butik için showroom randevusu otomatik olarak sistemde açılır."},
+    {"title": "Lead Skoring", "description": "Gelen DM'ler bütçe, ilgi seviyesi ve hizmet türüne göre sıcak/ılık/soğuk olarak skorlanır; satış ekibiniz öncelikli lead'lere odaklanır."},
+    {"title": "Ankara Semt Segmentasyonu", "description": "Çankaya, Çayyolu, Bahçelievler, Bilkent gibi farklı semt müşterilerinin alışkanlıkları izlenir; kampanyalar buna göre tasarlanır."}
+  ],
+  "caseStudy": {
+    "title": "Bahçelievler'de Bir Estetik Klinik — 3 Ayda Ay Başı 220 Danışan, Dönüşüm %1.8'den %5.4'e",
+    "paragraphs": [
+      "Bahçelievler 7. Cadde'de faaliyet gösteren bir estetik klinik, Instagram'da 48 bin takipçiye ulaşmasına rağmen aylık ortalama yalnızca 60 randevu DM'i alıyor, bunların da çoğu yanıtsız kalıyor ya da geç dönüldüğü için soğuyordu. Mevcut sosyal medya ajansı kreatif üretiyor ama DM'leri yetiştiremiyordu.",
+      "PORTZEN, klinik için Ankara'daki estetik kitlesinin profesyonel-mesafeli iletişim beklentisine uygun bir DM AI altyapısı kurguladı. Sistem; gelen DM'i hizmet tipine (botox, dolgu, lazer, cilt bakımı) göre sınıflandırıyor, fiyat aralığı veriyor, KVKK metnini sunuyor ve doktorun müsait olduğu Çankaya/Bahçelievler şubelerinden randevu öneriyor.",
+      "İlk 3 ay sonunda aylık ortalama 220 danışan iletişimi yakalandı, DM'den randevuya dönüşüm oranı %1.8'den %5.4'e çıktı. Klinik, ikinci ayda Çayyolu'nda üçüncü şubesini açma kararı aldı çünkü bu bölgeden DM trafiği belirgin şekilde artmıştı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık DM lead sayısı", "before": "60", "after": "220"},
+      {"label": "DM → randevu dönüşümü", "before": "%1.8", "after": "%5.4"},
+      {"label": "Ortalama DM yanıt süresi", "before": "5+ saat", "after": "8 dakika"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "7.000 TL/ay",
+      "description": "Tek hesap, butik marka, küçük klinik veya tek lokasyon restoran.",
+      "features": ["1 Instagram hesabı", "Temel DM akışları", "Story yanıtı", "Aylık 1.000 konuşma", "Haftalık özet rapor", "KVKK uyumlu"],
+      "highlighted": false
+    },
+    {
+      "name": "Marka",
+      "price": "14.000 TL/ay",
+      "description": "Estetik klinik, çok lokasyonlu butik, hizmet markaları için en popüler paket.",
+      "features": ["3 Instagram hesabı", "Gelişmiş akış + skor", "Story + yorum yakalama", "Randevu/rezervasyon entegrasyonu", "CRM entegrasyonu", "Aylık 4.000 konuşma", "Aylık optimizasyon"],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "26.000 TL/ay",
+      "description": "Zincir markalar, çok şubeli klinikler ve büyük marka grupları için.",
+      "features": ["Sınırsız hesap", "Çoklu marka yönetimi", "Özel entegrasyonlar", "Lead skoring + segment", "Adanmış müşteri yöneticisi", "Sınırsız konuşma", "Haftalık rapor"],
+      "highlighted": false
+    }
+  ],
+  "faq": [
+    {"question": "Ankara markaları için neden ayrı bir paket sunuyorsunuz?", "answer": "Başkent kitlesi, İstanbul kitlesine göre daha formal bir iletişim bekliyor. Ton kalibrasyonumuz Ankara için ayrı kurgulanıyor; samimi kısaltma yerine düzgün hitap, yoğun emoji yerine kurumsal anlatım tercih ediliyor."},
+    {"question": "DM tonumuz daha resmi; bot 'samimi' yazarsa marka algımız bozulmaz mı?", "answer": "Hayır. AI modelimiz sizin marka kılavuzunuza göre kalibre edilir. Hukuk, sağlık, estetik gibi sektörlerde otomatik olarak daha mesafeli ve profesyonel bir dil kullanır."},
+    {"question": "Birden fazla Instagram hesabımız var (zincir klinik), hepsini yönetir misiniz?", "answer": "Evet. Marka paketinde 3 hesap, Kurumsal pakette sınırsız hesap yönetilir. Her hesabın kendi dili, kendi hizmetleri ve kendi randevu sistemi olabilir."},
+    {"question": "Çankaya'daki ofisinizde toplantı yapabilir miyiz?", "answer": "Operasyon ekibimiz uzaktan çalışır ama Çankaya ve Çayyolu'nda yüz yüze toplantı koordine edebiliyoruz. Çoğu süreç ise online olarak çok daha hızlı işliyor."},
+    {"question": "Sosyal medya ajansımız zaten var, sizinle çakışır mı?", "answer": "Hayır. Mevcut ajansınız içerik üretmeye devam eder, biz sadece DM ve etkileşim katmanını otomatize ederiz. Birlikte çalıştığımız çok sayıda Ankara ajansı var."},
+    {"question": "KVKK ve müşteri veri güvenliği nasıl sağlanır?", "answer": "Tüm DM verileri Türkiye sunucularında, KVKK uyumlu şekilde saklanır. Estetik/sağlık sektörü için ek mevzuat gereği veriler şifrelenir ve süre sonunda otomatik silinir."},
+    {"question": "Reels veya hikaye performansımızı da artırır mı?", "answer": "Doğrudan içerik üretmiyoruz ancak hangi içeriğin DM'e dönüştüğünü raporluyoruz. Sosyal medya ekibiniz bu veriyle çok daha hedefli içerik üretebiliyor."}
+  ],
+  "finalCtaHeadline": "Ankara'daki Instagram'ınızı satışa çevirelim.",
+  "finalCtaSubtitle": "Çankaya'dan Bahçelievler'e, Çayyolu'ndan Bilkent'e; Başkent'in profesyonel tonalitesine uygun, KVKK uyumlu ve 7/24 yanıt veren Instagram DM otomasyonunuzu 14 gün içinde devreye alalım."
+}

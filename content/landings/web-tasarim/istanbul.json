@@ -1,0 +1,179 @@
+{
+  "type": "location",
+  "sectorSlug": "istanbul",
+  "sectorName": "İstanbul",
+  "sectorPlural": "İstanbul'daki İşletmeler",
+  "title": "İstanbul İçin Web Tasarım | Next.js + Local SEO Anadolu+Avrupa — PORTZEN",
+  "description": "İstanbul'daki işletmeler için Next.js tabanlı, hızlı, ilçe bazlı SEO optimize edilmiş web tasarım. Kadıköy hukuk bürosundan Şişli kliniğine, KVKK uyumlu kurumsal siteler.",
+  "keywords": [
+    "istanbul web tasarım",
+    "istanbul web sitesi yapımı",
+    "kadıköy web tasarım ajansı",
+    "şişli web tasarım",
+    "istanbul next.js geliştirme",
+    "istanbul local seo",
+    "ilçe bazlı seo istanbul",
+    "istanbul kvkk uyumlu site",
+    "istanbul mobil uyumlu web",
+    "anadolu yakası web tasarım"
+  ],
+  "h1": "İstanbul İçin Web Tasarım & Local SEO",
+  "heroSubtitle": "Kadıköy'deki hukuk bürosundan Şişli'deki klinike, Beylikdüzü'ndeki ofisten Beşiktaş'taki ajansa — İstanbul'daki işletmenize özel Next.js tabanlı, ilçe bazlı SEO optimize, KVKK uyumlu web sitesi. Rakipleriniz hâlâ WordPress'te.",
+  "stats": [
+    { "value": "0.8sn", "label": "Ortalama sayfa yüklenme süresi" },
+    { "value": "%420", "label": "İlk yıl ortalama organik trafik artışı" },
+    { "value": "98/100", "label": "Google PageSpeed mobil skoru" },
+    { "value": "13+", "label": "İstanbul ilçesinde aktif proje" }
+  ],
+  "problems": [
+    "İstanbul'da rakip yoğunluğu çok yüksek — Google'da 'kadıköy hukuk bürosu' arandığında ilk 3'e girmeden müşteri bulamıyorsunuz, mevcut WordPress siteniz 5. sayfada.",
+    "Mevcut WordPress siteniz mobilde 6-9 saniyede açılıyor, ziyaretçinin %68'i 3 saniyede sabırsızlanıp çıkıyor — bütçe attığınız reklam tıklamaları boşa.",
+    "Sadece 'istanbul' kelimesine optimize ediyorsunuz ama müşterileriniz aslında 'kadıköy diş hekimi', 'beylikdüzü emlak', 'şişli avukat' arıyor — ilçe bazlı SEO sıfır.",
+    "KVKK uyumlu olmayan eski siteniz nedeniyle çerez politikası, aydınlatma metni, açık rıza yönetimi eksik — denetim riski + müşteri güven sorunu.",
+    "Google My Business profiliniz eksik veya boş, ilçe + işletme tipi araması yaptığında haritada bile çıkmıyorsunuz, fiziksel adresinize müşteri yönlendiremiyorsunuz."
+  ],
+  "solutionSteps": [
+    {
+      "title": "İstanbul Pazar & Rakip Analizi",
+      "description": "İlçenizdeki ilk 10 rakibinizin sitesini, SEO stratejisini, Google My Business profilini analiz ediyoruz. 50-150 ilçe bazlı anahtar kelime ('kadıköy avukat', 'şişli estetik') listesi çıkarıyoruz. İstanbul rekabet haritasını masaya koyuyoruz."
+    },
+    {
+      "title": "Next.js Tasarım & Mobil-First Geliştirme",
+      "description": "WordPress değil — Next.js 14 + Tailwind CSS ile sıfırdan kurulan, 0.8 saniyede açılan, mobile-first, SEO-friendly site. Markanıza özel UI tasarım, profesyonel İstanbul fotoğrafları, KVKK uyumlu altyapı."
+    },
+    {
+      "title": "Local SEO + Google My Business Optimizasyonu",
+      "description": "İlçe bazlı landing sayfaları (Kadıköy, Şişli, Beylikdüzü için ayrı sayfalar), schema markup (LocalBusiness, Service), Google My Business profil kurulumu/optimizasyonu, 50+ Türkiye dizinine listeleme."
+    },
+    {
+      "title": "Yayın, Eğitim & Aylık SEO Bakım",
+      "description": "Canlıya alma, ekibinize Türkçe eğitim (içerik nasıl eklenir, yeni ilçe sayfası nasıl açılır), aylık SEO bakım (Google sıralama takibi, içerik güncelleme, teknik SEO, hız optimizasyonu)."
+    }
+  ],
+  "features": [
+    {
+      "title": "İlçe Bazlı Landing Sayfaları",
+      "description": "Tek 'İstanbul' sayfası değil — Kadıköy, Şişli, Beylikdüzü, Ataşehir gibi hizmet verdiğiniz her ilçe için ayrı SEO-optimize sayfa. Her sayfa kendi içerik, kendi anahtar kelime, kendi schema."
+    },
+    {
+      "title": "Next.js 14 + 0.8sn Yüklenme",
+      "description": "WordPress'ten 10x hızlı, statik üretim + edge cache, Google PageSpeed 95+. Mobilde de masaüstünde de aynı hızda açılır."
+    },
+    {
+      "title": "Google My Business Tam Entegrasyon",
+      "description": "GMB profil kurulumu/optimizasyonu, fotoğraf yükleme, hizmet tanımları, ilçe bazlı hizmet bölgesi, yorum yönetimi rehberi. Haritada görünür olun."
+    },
+    {
+      "title": "KVKK + Çerez + Aydınlatma Tam Set",
+      "description": "Çerez politikası banner'ı, kategorize çerez yönetimi (zorunlu/analitik/pazarlama), KVKK aydınlatma metni, açık rıza formu, veri sahibi başvuru formu — denetime hazır."
+    },
+    {
+      "title": "WhatsApp + Form + Telefon Entegrasyonu",
+      "description": "Her sayfada görünür WhatsApp butonu (mobilde sabit), Türkiye telefon formatı, KVKK uyumlu form, AI asistanınız varsa direkt bağlantı."
+    },
+    {
+      "title": "Aylık SEO Raporu & İlçe Sıralama Takibi",
+      "description": "Hangi ilçede kaçıncı sıradasınız, hangi anahtar kelime yükseldi/düştü, hangi sayfaya kaç ziyaretçi geldi — detaylı dashboard her ay e-posta ile."
+    }
+  ],
+  "caseStudy": {
+    "title": "Kadıköy — Bir Hukuk Bürosu: 5 Ayda Organik Trafik 0 → 4.200/Ay, Ay Başı 38 Yeni Danışan",
+    "paragraphs": [
+      "Kadıköy Bahariye'de 12 yıldır faaliyet gösteren bir hukuk bürosu, eski WordPress sitesi ile Google'da sadece firma adı arandığında çıkıyordu. 'Kadıköy boşanma avukatı', 'kadıköy ticaret hukuku' gibi yüksek niyetli sorgularda 5-9. sayfada kaybolmuştu. Aylık organik trafik 35-50 ziyaretçi, müşteriler sadece referansla geliyordu.",
+      "Portzen ile Next.js 14 tabanlı sıfırdan yeni site kuruldu. 9 hizmet alanı x 6 İstanbul ilçesi = 54 lokasyon bazlı landing sayfası üretildi (Kadıköy boşanma avukatı, Şişli ticaret hukuku, Beylikdüzü iş hukuku vb.). Google My Business profili optimize edildi, schema markup eklendi, 50+ Türkiye hukuk dizinine listelendi.",
+      "5 ay sonra organik trafik aylık 4.200 ziyaretçiye çıktı (sıfırdan), 18 ilçe bazlı sorguda ilk 3'e girildi, ay başı 38 yeni danışan dosyası açıldı — bunların 28'i daha önce hiç duymadıkları bu büroyu Google'dan bulan müşterilerdi. Eski WordPress sitesinin aylık 2.400 TL hosting + bakım maliyeti de sıfırlandı (Vercel + statik üretim ile aylık 250 TL)."
+    ],
+    "beforeAfter": [
+      { "label": "Aylık organik trafik", "before": "35-50 ziyaretçi", "after": "4.200 ziyaretçi" },
+      { "label": "Sayfa yüklenme süresi (mobil)", "before": "7.4 saniye (PageSpeed 28/100)", "after": "0.9 saniye (PageSpeed 96/100)" },
+      { "label": "Aylık yeni danışan (Google kaynaklı)", "before": "1-2 (sadece referans)", "after": "28 (organik + 10 referans = 38 toplam)" }
+    ]
+  },
+  "pricing": [
+    {
+      "name": "İstanbul Landing",
+      "price": "15.000",
+      "currency": "TL",
+      "period": "tek seferlik",
+      "description": "Tek sayfa, hızlı yayın, küçük hizmet işletmeleri için.",
+      "features": [
+        "Next.js 14 tek sayfa tasarım",
+        "Mobil + masaüstü tam uyumlu",
+        "3 ilçe SEO optimizasyonu",
+        "KVKK + çerez setup",
+        "WhatsApp + form + GMB bağlantı",
+        "1 ay teknik destek"
+      ],
+      "highlighted": false
+    },
+    {
+      "name": "İstanbul Marka Sitesi",
+      "price": "32.000",
+      "currency": "TL",
+      "period": "+ 2.000 TL/ay",
+      "description": "5-10 sayfa, ilçe bazlı SEO, aylık bakım dahil. En popüler paket.",
+      "features": [
+        "Landing paketinin tüm özellikleri",
+        "5-10 sayfa kurumsal site",
+        "8 ilçe için ayrı landing sayfası",
+        "Google My Business kurulum & optimizasyon",
+        "50+ Türkiye dizinine listeleme",
+        "Schema markup (LocalBusiness)",
+        "Blog/içerik altyapısı",
+        "Aylık SEO bakım & rapor"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "İstanbul E-Ticaret",
+      "price": "65.000",
+      "currency": "TL",
+      "period": "+ 4.000 TL/ay",
+      "description": "E-ticaret, çoklu kategori, ödeme entegrasyonu için.",
+      "features": [
+        "Marka Sitesi paketinin tüm özellikleri",
+        "Next.js Commerce e-ticaret",
+        "iyzico/PayTR/Stripe entegrasyonu",
+        "Kategori + ürün sayfaları SEO",
+        "13 ilçe + 12 semt landing'i",
+        "Stok/sipariş yönetim paneli",
+        "Kargo entegrasyonu",
+        "Aylık performans + sıralama raporu",
+        "Adanmış proje yöneticisi"
+      ],
+      "highlighted": false
+    }
+  ],
+  "faq": [
+    {
+      "question": "İstanbul'da rekabet çok yüksek, gerçekten ilk sayfaya çıkabilir miyim?",
+      "answer": "İlçe + hizmet bazlı sorgularda evet, kesinlikle. 'İstanbul avukat' diye genel sorgu zor (büyük markalar tutmuş) ama 'Kadıköy boşanma avukatı', 'Beylikdüzü emlak danışmanı', 'Şişli estetik klinik' gibi spesifik sorgularda ilk 3'e girmek mümkün ve müşterilerimizde standart sonuç. 5-6 ayda büyük çoğunluk hedef ilçe sıralamalarında üst sıralarda olur."
+    },
+    {
+      "question": "İlçe bazlı SEO nasıl çalışıyor, her ilçe için ayrı sayfa mı?",
+      "answer": "Evet. Her ilçeye ait kendi başlığı, kendi içeriği, kendi schema markup'ı olan sayfa açıyoruz. Örneğin diş hekimiyseniz: /kadikoy-dis-hekimi, /sisli-dis-hekimi, /beylikduzu-dis-hekimi gibi. Her sayfa o ilçenin gerçek müşteri sorularına cevap verir, kopyala-yapıştır içerik OLMAZ — Google bunu cezalandırır."
+    },
+    {
+      "question": "Mobil uyumluluk gerçekten bu kadar önemli mi?",
+      "answer": "Evet. İstanbul'daki müşterilerimizin %78'i siteye mobilden geliyor. Google 2021'den beri 'mobile-first indexing' uygulamasını yapıyor — yani Google sitenizi mobilde nasıl açıldığına göre değerlendiriyor. Yavaş mobil = düşük sıralama + yüksek bounce rate. Bizim sitelerimiz mobilde 0.8-1.2 saniyede açılıyor."
+    },
+    {
+      "question": "Next.js neden WordPress'ten daha iyi?",
+      "answer": "Üç ana sebep: 1) Hız — Next.js statik HTML üretir, WordPress her isteği veri tabanından çeker (5-10x yavaş). 2) Güvenlik — WordPress dünyada en çok hacklenen platform, Next.js'in saldırı yüzeyi neredeyse yok. 3) SEO — Next.js'in server-side rendering'i Google için ideal, WordPress'te plugin karmaşası SEO'yu sabote ediyor. WordPress'te aylık 2.000-4.000 TL bakım/güvenlik gideri, Next.js'te 200-400 TL hosting."
+    },
+    {
+      "question": "Mevcut WordPress sitemden Next.js'e geçiş zor mu, içeriklerim kaybolur mu?",
+      "answer": "Hayır. Tüm içeriklerinizi (blog yazıları, sayfalar, resimler) Next.js'e taşıyoruz. URL yapısını koruyoruz ve gerekirse 301 yönlendirmeleri kuruyoruz, Google sıralamanız etkilenmez (hatta artar). Mevcut SEO değeriniz transfer edilir. Geçiş süresi ortalama 4-6 hafta."
+    },
+    {
+      "question": "Google My Business profilim yok, sıfırdan kuruyor musunuz?",
+      "answer": "Evet. Sıfırdan GMB profili açıyor, fiziksel adresinizi doğruluyor (Google posta kartı ile), hizmet kategorilerinizi optimize ediyor, profesyonel fotoğraflar (şube içi/dışı/ekip/ürün) yüklüyor, hizmet bölgelerinizi (örn. Anadolu yakası 5 ilçe) tanımlıyoruz. Yorum yönetim rehberi de veriyoruz."
+    },
+    {
+      "question": "Site bittikten sonra ben güncelleyebilir miyim, sürekli sizi mi aramam gerekir?",
+      "answer": "İki seçenek: 1) Basit içerik güncellemeleri için (blog yazısı, yeni sayfa, fotoğraf) panel veriyoruz, ekibiniz kendi yapar — 1 saatlik eğitim yeterli. 2) Teknik değişiklikler (yeni özellik, entegrasyon, tasarım değişikliği) için aylık bakım paketi var. Çoğu müşterimiz hibrit kullanıyor — günlük içerik kendisi, teknik iş bizde."
+    }
+  ],
+  "finalCtaHeadline": "İstanbul'da ilçenizde 1. sıraya çıkalım.",
+  "finalCtaSubtitle": "Kadıköy, Şişli, Beylikdüzü, Beşiktaş — hangi ilçede olursanız olun 6 hafta içinde yeni Next.js siteniz canlıda, 5-6 ayda ilçe bazlı sorgularda üst sıralarda. Ücretsiz İstanbul rakip analizi için yazın."
+}

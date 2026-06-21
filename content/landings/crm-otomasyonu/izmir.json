@@ -1,0 +1,162 @@
+{
+  "type": "location",
+  "sectorSlug": "izmir",
+  "sectorName": "İzmir",
+  "sectorPlural": "İzmir'deki İşletmeler",
+  "title": "İzmir CRM Otomasyonu | Lead'den Müşteriye — PORTZEN",
+  "description": "İzmir'deki ajans, danışmanlık ve KOBİ'ler için CRM kurulum + otomasyon. KVKK uyumlu, mahalle bazlı raporlama, satış ekibi yetkilendirme dahil.",
+  "keywords": [
+    "izmir crm otomasyonu",
+    "izmir crm kurulum",
+    "alsancak satış otomasyonu",
+    "izmir lead yönetimi",
+    "izmir kvkk crm",
+    "karşıyaka crm danışmanlık"
+  ],
+  "h1": "İzmir İçin CRM Otomasyonu",
+  "heroSubtitle": "Alsancak'ta ajans, Karşıyaka'da danışman, Bornova'da B2B — lead'lerinizi Excel'den kurtarıp KVKK uyumlu, mahalle bazlı raporlanabilir CRM'e taşıyoruz.",
+  "stats": [
+    {"value": "İzmir", "label": "Yerel Destek"},
+    {"value": "KVKK", "label": "Uyumlu"},
+    {"value": "21 gün", "label": "Kurulum"},
+    {"value": "%47", "label": "Ort. Dönüşüm"}
+  ],
+  "problems": [
+    "İzmirli ajans veya danışmanlık firması olarak lead'leriniz hâlâ Excel'de, WhatsApp'ta, Google Sheets'te dağınık; hangi müşteri hangi aşamada belli değil, %30'u unutuluyor.",
+    "Mahalle/sektör bazlı raporlama yok; Karşıyaka'dan mı yoksa Alsancak'tan mı daha çok dönüşüm geliyor, hangi reklamdan müşteri çıkıyor — bilmediğiniz için bütçeyi körlemesine harcıyorsunuz.",
+    "Salesforce, HubSpot gibi kurumsal CRM'ler aylık 50-200 bin TL; İzmir KOBİ'sinin bütçesini aşıyor, üstelik İngilizce arayüz ekibi yormuyor.",
+    "KVKK uyumlu lead toplama, izin yönetimi, silme talebi süreci yok; ihbar gelirse Kurum cezası 1.8M TL'ye kadar — risk üstünüzde.",
+    "Satış ekibinin hangisi neyi görebilir, hangi lead kime ait, yöneticinin tam raporu alıp alamadığı belirsiz; ekip içi karmaşa müşteri kaybına yol açıyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "İzmir İş Akışı Keşfi",
+      "description": "Mevcut lead kaynaklarınızı (WhatsApp, Instagram, Web Form, telefon), satış pipeline'ınızı, ekip yapınızı analiz ediyoruz. Excel + dağınık dataları toplama planı."
+    },
+    {
+      "title": "CRM Seçimi + Kurulum",
+      "description": "İhtiyacınıza göre HubSpot (free → growth), Zoho, Pipedrive veya açık kaynak EspoCRM — Türkçe arayüz, KVKK modülü, sektörünüze özel pipeline kurulumu."
+    },
+    {
+      "title": "Otomasyon Akışları",
+      "description": "Lead geldi → WhatsApp/Email otomatik yanıt → satış temsilcisine atama → 24 saat takip → kapanırsa fatura/sözleşme akışı. 15-25 senaryo."
+    },
+    {
+      "title": "Ekip Eğitimi + Devreye",
+      "description": "İzmir ekibinize 2 oturum canlı eğitim, video kütüphanesi, 1 aylık aktif destek. Sonrası aylık optimizasyon."
+    }
+  ],
+  "features": [
+    {
+      "title": "KVKK Uyumlu Modül",
+      "description": "Açık rıza formu, izin geri çekme, veri silme talebi akışı, Veri Sorumlusu Sicili (VERBİS) uyumlu kayıt. Hukuki riski sıfırlar."
+    },
+    {
+      "title": "Mahalle/İlçe Bazlı Raporlama",
+      "description": "Hangi mahalleden kaç lead, hangi sektörden kaç müşteri, hangi reklamdan kaç satış — net dashboard."
+    },
+    {
+      "title": "WhatsApp + Email Otomasyon",
+      "description": "Lead geldiği anda otomatik WhatsApp mesajı, 24 saat takip e-postası, kapanmazsa nurturing dizisi."
+    },
+    {
+      "title": "Ekip Yetkilendirme",
+      "description": "Her satış temsilcisi sadece kendi lead'ini görür, yönetici hepsini görür, ortaklar özet rapor alır. Rol bazlı izin."
+    },
+    {
+      "title": "Türkçe Arayüz + Eğitim",
+      "description": "Tüm CRM Türkçeleştirilmiş, video eğitim kütüphanesi, ekibinizin sevdiği basitlikte kullanım."
+    },
+    {
+      "title": "Fatura + Sözleşme Entegrasyonu",
+      "description": "Logo, Mikro, Paraşüt, e-Fatura entegrasyonu — kapanan satış otomatik faturalanıyor. Sözleşme PDF otomatik üretimi."
+    }
+  ],
+  "caseStudy": {
+    "title": "Alsancak'ta bir danışmanlık firması: CRM ile dönüşüm %18'den %47'ye, aylık ciro %180 arttı",
+    "paragraphs": [
+      "Alsancak Kıbrıs Şehitleri Caddesi'nde 8 kişilik bir kurumsal danışmanlık firması, lead'lerini WhatsApp grupları + Excel + Google Sheets karması üzerinden takip ediyordu. Aylık 60-80 lead geliyor, sadece %18'i müşteriye dönüşüyordu. Hangi lead kime ait, hangi aşamada — kimse net bilmiyordu. Ortaklar her ay 2-3 saat Excel düzenlemekle vakit harcıyordu.",
+      "PORTZEN olarak HubSpot Sales Hub kurduk; Türkçeleştirme, KVKK modülü, web formdan otomatik lead toplama, WhatsApp Business ile çift yönlü senkron, satış ekibine otomatik atama, 24 saat takip, kapanmazsa 7-14-30 günlük nurturing dizisi kuruldu. Dashboard'a mahalle bazlı, sektör bazlı, kanal bazlı raporlama eklendi.",
+      "6 ay sonunda lead-müşteri dönüşümü %18'den %47'ye çıktı. Aylık ciro %180 arttı. Her satış temsilcisinin kendi pipeline'ı netleşti, ortaklar haftalık 10 dakikada tüm tablonun fotoğrafını alıyor. KVKK denetimine hazır, Excel cehennemi bitti."
+    ],
+    "beforeAfter": [
+      {"label": "Lead → Müşteri Dönüşüm", "before": "%18", "after": "%47"},
+      {"label": "Aylık Ciro", "before": "baz seviye", "after": "+%180"},
+      {"label": "Ortak Excel Vakti", "before": "Aylık 8-10 saat", "after": "Sıfır"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "12.000 TL/ay",
+      "description": "Solo danışman, küçük ekip (2-5 kişi), butik ajans için",
+      "features": [
+        "EspoCRM veya HubSpot Free kurulum",
+        "5 kullanıcıya kadar",
+        "KVKK modülü",
+        "Temel otomasyon (5 senaryo)",
+        "Aylık 1.000 lead kapasitesi",
+        "E-posta destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "24.000 TL/ay",
+      "description": "10-25 kişilik ajans, danışmanlık, B2B satış ekibi için",
+      "features": [
+        "HubSpot Sales Hub Pro veya Pipedrive",
+        "25 kullanıcıya kadar",
+        "WhatsApp + Email otomasyon (20 senaryo)",
+        "Mahalle/sektör bazlı raporlama",
+        "Fatura entegrasyonu (Paraşüt/Logo)",
+        "Öncelikli WhatsApp destek + aylık optimizasyon"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "48.000 TL/ay",
+      "description": "Orta-büyük ölçek, çoklu departman, üst-orta kurumsal için",
+      "features": [
+        "HubSpot Enterprise veya Salesforce kurulum",
+        "Sınırsız kullanıcı",
+        "Özel pipeline + dashboard",
+        "API entegrasyonları (ERP, muhasebe)",
+        "Adanmış İzmir hesap yöneticisi",
+        "Aylık strateji toplantısı + SLA"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "KVKK uyumu için ne sağlıyorsunuz?",
+      "answer": "Açık rıza formu, izin yönetimi, veri silme talebi akışı, VERBİS uyumlu kayıt, çerez bandı (web formdan toplananlar için), aydınlatma metni şablonu. Hukuki danışmanlık partnerimiz var, gerekirse müşteri sözleşmesi denetimi de yapılır."
+    },
+    {
+      "question": "Kurulum İzmir'de fiziksel mi, uzaktan mı?",
+      "answer": "Tamamen uzaktan (online toplantı + ekran paylaşımı). Bu sayede İstanbul-fiyatına kıyasla %40 daha uygun fiyat veriyoruz. Gerektiğinde Alsancak/Konak'ta yüz yüze kahve toplantısı ayarlanabilir."
+    },
+    {
+      "question": "Ekipteki kim CRM'i kullanacak, kim eğitilecek?",
+      "answer": "Satış ekibi (rol bazlı eğitim), yönetici (rapor + dashboard), pazarlama (otomasyon akışları), muhasebe (fatura entegrasyonu). Her role özel video kütüphanesi + canlı oturum."
+    },
+    {
+      "question": "HubSpot mu Salesforce mu, hangisi bana uygun?",
+      "answer": "Bütçeniz ve ekip büyüklüğünüze göre seçiyoruz. 25 kişi altı için HubSpot, üzeri için Salesforce/Zoho. Open-source (EspoCRM) seçeneği de var — küçük bütçe için."
+    },
+    {
+      "question": "Mevcut Excel/Google Sheets verilerimi aktarabilir miyiz?",
+      "answer": "Evet. Excel/Sheets/eski CRM'den temizleyip standardize ederek aktarıyoruz. Dublike kayıt temizliği dahil."
+    },
+    {
+      "question": "WhatsApp Business CRM'e bağlanır mı?",
+      "answer": "Evet. Meta WhatsApp Business API üzerinden çift yönlü senkron; gelen mesaj otomatik lead'e dönüşür, ekip CRM'den cevap verir. Eğer WhatsApp AI Asistan paketimizi de alıyorsanız bundle indirim var."
+    },
+    {
+      "question": "Aylık fiyat sürekli mi, tek seferlik mi?",
+      "answer": "Aylık abonelik (lisans + bakım + destek). İlk 3 ay revizyon ücretsiz, sonrası sınırsız optimizasyon dahil. Sözleşme yıllık ama 3 ayda 1 fesih hakkı tanınıyor."
+    }
+  ],
+  "finalCtaHeadline": "İzmir'deki satış kaosunu CRM'e taşıyalım.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif. Mevcut lead akışınıza + ekip yapınıza bakıp size özel CRM yol haritası çıkaralım. 21 günde canlıda."
+}

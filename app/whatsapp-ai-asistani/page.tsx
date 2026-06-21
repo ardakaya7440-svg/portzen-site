@@ -19,6 +19,7 @@ import {
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 import { RelatedSectorsSection } from "@/components/landing/RelatedSectorsSection";
+import { RelatedLocationsSection } from "@/components/landing/RelatedLocationsSection";
 
 export const metadata: Metadata = {
   title: "WhatsApp AI Asistanı | 7/24 Müşteri Temsilcisi — PORTZEN",
@@ -690,6 +691,7 @@ export default function Page() {
 
       {/* 9. FINAL CTA */}
       <RelatedSectorsSection service="whatsapp-ai-asistani" />
+      <RelatedLocationsSection service="whatsapp-ai-asistani" />
 
       <section className="py-section">
         <div className="mx-auto max-w-container px-6">

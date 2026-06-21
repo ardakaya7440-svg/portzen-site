@@ -6,9 +6,10 @@ import { Reveal } from "@/components/ui/reveal";
 import {
   SERVICE_META,
   getSectorLanding,
-  getSectorSlugsForService,
+  getSectorSlugsForServiceByType,
   type ServiceSlug
 } from "@/lib/landings";
+import { MapPin } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -144,7 +145,7 @@ export default function HomePage() {
           <div className="space-y-8">
             {(["whatsapp-ai-asistani", "instagram-dm-otomasyonu", "ai-reklam-videosu", "web-tasarim", "crm-otomasyonu"] as ServiceSlug[]).map((serviceSlug) => {
               const meta = SERVICE_META[serviceSlug];
-              const sectorSlugs = getSectorSlugsForService(serviceSlug);
+              const sectorSlugs = getSectorSlugsForServiceByType(serviceSlug, "sector");
               const sectors = sectorSlugs
                 .map((slug) => {
                   const data = getSectorLanding(serviceSlug, slug);
@@ -182,6 +183,79 @@ export default function HomePage() {
                         >
                           <span>{s.name}</span>
                           <ArrowUpRight className="h-3.5 w-3.5 opacity-40 group-hover:opacity-100 transition-opacity flex-shrink-0" />
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </Reveal>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* ŞEHRİNİZE ÖZEL — lokasyon landing grid */}
+      <section className="bg-ink text-paper py-section">
+        <div className="mx-auto max-w-container px-6">
+          <Reveal>
+            <div className="mb-10 max-w-2xl">
+              <div className="inline-flex items-center gap-2 border-3 border-paper bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-3 shadow-[6px_6px_0_#FFFDF5]">
+                <MapPin className="h-3 w-3" />
+                Şehrinize Özel
+              </div>
+              <h2 className="font-display text-h2 font-black leading-tight">
+                Hangi şehirdesiniz?
+              </h2>
+              <p className="mt-3 text-body opacity-80 max-w-prose">
+                İzmir, İstanbul, Ankara — her şehir için yerel mahalle, ulaşım, rakip analizi ve müşteri profili dahil özel sayfalar hazırladık.
+              </p>
+            </div>
+          </Reveal>
+
+          <div className="space-y-6">
+            {(["whatsapp-ai-asistani", "instagram-dm-otomasyonu", "ai-reklam-videosu", "web-tasarim", "crm-otomasyonu"] as ServiceSlug[]).map((serviceSlug) => {
+              const meta = SERVICE_META[serviceSlug];
+              const locationSlugs = getSectorSlugsForServiceByType(serviceSlug, "location");
+              const locations = locationSlugs
+                .map((slug) => {
+                  const data = getSectorLanding(serviceSlug, slug);
+                  return data ? { slug, name: data.sectorName } : null;
+                })
+                .filter((s): s is { slug: string; name: string } => s !== null);
+
+              if (locations.length === 0) return null;
+
+              return (
+                <Reveal key={serviceSlug}>
+                  <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
+                    <div className="flex flex-wrap items-center justify-between gap-3 mb-4 pb-3 border-b-3 border-paper/15">
+                      <Link
+                        href={`/${serviceSlug}`}
+                        className={cn(
+                          "inline-flex items-center gap-2 border-3 border-ink px-3 py-1.5 font-display text-base font-black shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all",
+                          `bg-brand-${meta.tone}`,
+                          meta.tone === "yellow" || meta.tone === "orange" ? "text-ink" : "text-paper"
+                        )}
+                      >
+                        {meta.label}
+                        <ArrowUpRight className="h-4 w-4" />
+                      </Link>
+                      <span className="text-xs font-bold uppercase tracking-wider opacity-60">
+                        {locations.length} şehir
+                      </span>
+                    </div>
+                    <div className="grid gap-2 grid-cols-1 sm:grid-cols-3">
+                      {locations.map((s) => (
+                        <Link
+                          key={s.slug}
+                          href={`/${serviceSlug}/${s.slug}`}
+                          className="group flex items-center justify-between gap-2 border-3 border-paper bg-paper/0 px-4 py-2.5 text-sm font-bold text-paper shadow-[4px_4px_0_#FFFDF5] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[6px_6px_0_#FFFDF5] hover:bg-brand-yellow hover:text-ink transition-all"
+                        >
+                          <div className="flex items-center gap-2">
+                            <MapPin className="h-3.5 w-3.5" />
+                            <span>{s.name}</span>
+                          </div>
+                          <ArrowUpRight className="h-3.5 w-3.5 opacity-50 group-hover:opacity-100 transition-opacity flex-shrink-0" />
                         </Link>
                       ))}
                     </div>

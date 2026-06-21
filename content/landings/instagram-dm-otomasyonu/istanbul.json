@@ -1,0 +1,179 @@
+{
+  "type": "location",
+  "sectorSlug": "istanbul",
+  "sectorName": "İstanbul",
+  "sectorPlural": "İstanbul'daki İşletmeler",
+  "title": "İstanbul İçin Instagram DM Otomasyonu | Anadolu+Avrupa Marka Otomasyonu — PORTZEN",
+  "description": "İstanbul'daki markalar için Instagram DM otomasyonu. Şişli'den Cihangir'e, Bağdat Caddesi'nden Etiler'e yüksek hacimli DM'i randevuya/satışa çeviren AI asistan.",
+  "keywords": [
+    "istanbul instagram dm otomasyonu",
+    "istanbul instagram bot",
+    "şişli instagram ai",
+    "cihangir instagram chatbot",
+    "bağdat caddesi marka otomasyonu",
+    "istanbul story dm yönetimi",
+    "etiler instagram dm",
+    "istanbul yapay zeka pazarlama",
+    "istanbul kvkk uyumlu instagram",
+    "istanbul çoklu hesap instagram"
+  ],
+  "h1": "İstanbul İçin Instagram DM Otomasyonu",
+  "heroSubtitle": "Şişli'deki estetik klinikten Cihangir'deki butik kafeye, Bağdat Caddesi'ndeki mağazadan Etiler'deki ajansa — İstanbul markalarına özel Instagram DM otomasyonu. Yüksek trafiği yüksek dönüşüme çevirin.",
+  "stats": [
+    { "value": "%7.8", "label": "Ortalama DM → randevu/satış dönüşümü" },
+    { "value": "<12sn", "label": "İlk DM yanıt süresi" },
+    { "value": "%94", "label": "Story DM otomatik kapsama" },
+    { "value": "11+", "label": "İstanbul ilçesinde aktif marka" }
+  ],
+  "problems": [
+    "İstanbul markası olmak rekabette zor — DM kutunuza günde yüzlerce mesaj geliyor ama dönüşüm oranınız hâlâ %2-3 seviyesinde.",
+    "Instagram trafiği yüksek (story view, post engage) fakat DM'e gelen müşteri ekibiniz cevap veremediği için satın almadan ayrılıyor.",
+    "İstanbul'daki bir marka olarak günlük 200-600+ DM normal — community manager bu kadar mesajı 8 saatte cevaplayamaz, mesajlar 'görüldü' kalıyor.",
+    "Etiket (mention), story tepkisi (story reply), yorum DM'leri ayrı kanal — hangisinden cevap geleceğini kestiremiyorsunuz, müşteri kayboluyor.",
+    "Story DM'lerinin %60'ı acil ('hâlâ açık mısınız?', 'fiyat ne?') ama bunlar ana DM'lerle karışıyor, öncelik kaybediyor — satış fırsatı uçuyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "İstanbul Marka Profili & DM Analizi",
+      "description": "Son 90 günün DM verilerini inceliyoruz — hangi soru kaç kez geldi, hangi saatlerde patlama oldu, story DM vs ana DM oranı ne? İstanbul müşteri profilinize özel diyalog haritası çıkarıyoruz."
+    },
+    {
+      "title": "Marka Sesinde Türkçe AI Eğitimi",
+      "description": "Cihangir butiği farklı, Maslak ajansı farklı konuşur. Markanızın ses tonunu (samimi/kurumsal/lüks/genç) AI'a öğretiyoruz. 100-180 sık sorulan soruyu eğitiyoruz, story DM ile ana DM ayrı senaryo çalıştırıyor."
+    },
+    {
+      "title": "Meta Business API + Çoklu Hesap Kurulumu",
+      "description": "Resmi Meta Business API üzerinden kurulum — birden fazla IG hesabınız varsa (ana marka + alt marka) tek panelden yönetiyoruz. CRM/Calendly/randevu sistemi entegrasyonu, KVKK uyumlu açık rıza akışı."
+    },
+    {
+      "title": "Lansman, Eğitim & Aylık Optimizasyon",
+      "description": "Canlıya alma sonrası 21 gün yoğun monitoring, ekibinize Türkçe eğitim, haftalık dönüşüm raporu. Aylık AI yeniden eğitim — yeni ürün/kampanya geldiğinde anında öğrenir."
+    }
+  ],
+  "features": [
+    {
+      "title": "Story DM + Ana DM + Yorum DM Tek Panel",
+      "description": "Üç kanaldan gelen mesajları AI tek bir akışta önceliklendirir. Story DM'e otomatik anında cevap, yorumdan gelen DM'e ürün linki, ana DM'e detaylı satış akışı."
+    },
+    {
+      "title": "Randevu/Satış Akışı Otomasyonu",
+      "description": "Estetik klinik için randevu, butik için ürün satış, restoran için rezervasyon — DM içinde tarih/saat seçimi, ödeme linki, onay mesajı tamamen otomatik."
+    },
+    {
+      "title": "Çoklu Hesap Yönetimi (Marka + Alt Marka)",
+      "description": "Bir İstanbul markası iseniz ana hesap + alt brand + şube hesabınız olabilir. Hepsini tek panelden yönetiyoruz, AI her hesabın tonunu ayrı tutuyor."
+    },
+    {
+      "title": "KVKK Uyumlu DM Otomasyonu",
+      "description": "Aydınlatma metni otomatik gönderilir, açık rıza alınmadan kişisel veri işlenmez. Tüm DM logları Türkiye sınırları içinde, KVKK denetimine hazır."
+    },
+    {
+      "title": "Influencer & Bot DM Filtreleme",
+      "description": "İstanbul'da spam/bot/influencer pitch DM hacmi yüksek. AI bunları otomatik filtreler, sadece gerçek satış fırsatları ekibinize düşer."
+    },
+    {
+      "title": "Haftalık İstanbul Marka Performans Raporu",
+      "description": "Hangi story kaç DM getirdi, dönüşüm oranı, en çok dönen ürün/hizmet, en yoğun saat — ilçe ve kampanya bazlı detaylı dashboard."
+    }
+  ],
+  "caseStudy": {
+    "title": "Şişli Mecidiyeköy — Bir Estetik Klinik: 3 Ayda 380 Randevu, Dönüşüm %2.4'ten %7.8'e",
+    "paragraphs": [
+      "Şişli Mecidiyeköy'de hizmet veren bir estetik klinik, Instagram'da 84.000 takipçi ve günde ortalama 320 DM alıyordu. Ancak DM'leri 2 community manager yönetiyor, %58'i 4 saat içinde cevap alıyor, %22'si ise tamamen cevapsız kalıyordu. DM → randevu dönüşümü %2.4'te takılıydı.",
+      "Portzen ile 4 hafta içinde Instagram DM otomasyonu kuruldu. 150 sık sorulan soru (fiyat, doktor müsaitlik, işlem süresi, KVKK, ödeme, otopark) AI'a eğitildi. Calendly entegrasyonu ile DM içinde randevu alma akışı kuruldu, story DM ve ana DM ayrı senaryolarla yönetilmeye başlandı.",
+      "İlk 3 ayda DM üzerinden ay başı 380 randevu alındı, DM → randevu dönüşümü %2.4'ten %7.8'e çıktı (3.25x artış). Cevapsız DM oranı %22'den %1.5'e düştü. Community manager ekibi artık sadece kompleks danışmanlık ve operasyon DM'lerine odaklanıyor — rutin sorular tamamen AI'a devredildi."
+    ],
+    "beforeAfter": [
+      { "label": "Aylık DM → randevu dönüşümü", "before": "~95 randevu (%2.4 dönüşüm)", "after": "380 randevu (%7.8 dönüşüm)" },
+      { "label": "Ortalama ilk DM yanıt süresi", "before": "2-4 saat (mesai dışı: 12+ saat)", "after": "9 saniye (7/24)" },
+      { "label": "Story DM cevap oranı", "before": "%18 (büyük çoğunluk kayboluyor)", "after": "%96 (anında otomatik)" }
+    ]
+  },
+  "pricing": [
+    {
+      "name": "İstanbul Marka Başlangıç",
+      "price": "7.000",
+      "currency": "TL",
+      "period": "/ay",
+      "description": "Tek IG hesaplı butik markalar, kafeler, küçük mağazalar için.",
+      "features": [
+        "Meta Business API kurulumu",
+        "Türkçe AI eğitimi (80 soru)",
+        "Story DM + ana DM otomasyonu",
+        "KVKK uyumlu kurulum",
+        "Aylık 4.000 DM dahil",
+        "E-posta destek"
+      ],
+      "highlighted": false
+    },
+    {
+      "name": "İstanbul Marka Pro",
+      "price": "14.000",
+      "currency": "TL",
+      "period": "/ay",
+      "description": "Yüksek trafikli kliniğ, butik, ajans, restoran zinciri için. En popüler paket.",
+      "features": [
+        "Başlangıç paketinin tüm özellikleri",
+        "3 IG hesabına kadar yönetim",
+        "Randevu/satış akışı (Calendly, Stripe entegrasyonu)",
+        "180 soru AI eğitimi",
+        "Influencer/bot DM filtreleme",
+        "Aylık 15.000 DM dahil",
+        "WhatsApp destek",
+        "Haftalık dönüşüm raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "İstanbul Marka Enterprise",
+      "price": "26.000",
+      "currency": "TL",
+      "period": "/ay",
+      "description": "Çoklu marka, zincir mağaza, büyük IG ekosistemi için.",
+      "features": [
+        "Pro paketin tüm özellikleri",
+        "Sınırsız IG hesabı",
+        "Özel CRM/ERP/ödeme entegrasyonu",
+        "350+ soru AI eğitimi",
+        "Sınırsız DM",
+        "Adanmış proje yöneticisi",
+        "7/24 öncelikli destek",
+        "Aylık AI yeniden eğitim",
+        "Özel kampanya akışları"
+      ],
+      "highlighted": false
+    }
+  ],
+  "faq": [
+    {
+      "question": "İstanbul markaları için özel bir kurulum yapıyor musunuz?",
+      "answer": "Evet. İstanbul müşteri profili, semt bazlı ton farklılıkları (Cihangir vs Maslak vs Bağdat Caddesi), yerel etkinlik takvimi, İstanbul trafik saatleri DM yoğunluğu kalıbı — hepsini hesaba katarak özelleştiriyoruz."
+    },
+    {
+      "question": "Birden fazla Instagram hesabım var (ana marka + alt brand), tek panelden yönetilir mi?",
+      "answer": "Evet. Pro paketten itibaren 3, Enterprise'da sınırsız IG hesabı tek panelden yönetilebilir. Her hesabın kendi ses tonu, kendi soru-cevap setleri ve kendi randevu/satış akışları olabilir."
+    },
+    {
+      "question": "Instagram DM otomasyonu KVKK'ya uygun mu?",
+      "answer": "Evet. Aydınlatma metni otomatik gönderilir, açık rıza alınmadan kişisel veri (telefon, e-posta, sağlık bilgisi) işlenmez. Tüm DM kayıtları Türkiye sınırları içindeki sunucularda saklanır, KVKK denetimine hazır loglar tutulur."
+    },
+    {
+      "question": "Meta hesabımın bloklanma riski var mı?",
+      "answer": "Hayır. Resmi Meta Business API kullanıyoruz — bu Meta'nın onayladığı resmi yoldur. Üçüncü parti scraping/bot çözümleri (bloklanma riski yüksek) KESİNLİKLE kullanmıyoruz. İstanbul'daki tüm müşterilerimizde bloklanma vakası yaşanmadı."
+    },
+    {
+      "question": "Story DM ile ana DM nasıl ayrışıyor?",
+      "answer": "Story DM'ler genelde kısa, acil ve duygusal (emoji, kısa soru) gelir. AI bunları ayrı kategoride işler — hızlı, samimi, kısa cevap verir. Ana DM'ler ise daha uzun, satış/randevu odaklı senaryolarla yönetilir."
+    },
+    {
+      "question": "Influencer ve bot DM'leri filtrelenebiliyor mu?",
+      "answer": "Evet. İstanbul markalarında bu sorun çok büyük. AI 'collab', 'barter', 'paid promo' tarzı influencer pitch'lerini ayrı kategoride toplar (siz inceleyip cevaplarsınız). Bot/spam DM'leri otomatik sessize alır. Gerçek satış DM'leri öncelikli ekrana düşer."
+    },
+    {
+      "question": "Mevcut community manager ekibim ne olacak?",
+      "answer": "Ekibiniz kalır, ama işi değişir. AI rutin %85'i halleder — ekibiniz sadece kompleks danışmanlık, şikayet yönetimi, kampanya kurgusu, ilişki kurma gibi yüksek değerli işlere odaklanır. Çoğu müşterimizde memnuniyet artar, ekip burnout azalır."
+    }
+  ],
+  "finalCtaHeadline": "İstanbul markanızın DM trafiğini satışa çevirelim.",
+  "finalCtaSubtitle": "Şişli, Cihangir, Bağdat Caddesi, Etiler — ilçeniz neresi olursa olsun 21 gün içinde Instagram DM otomasyonunuz canlıda. Ücretsiz İstanbul marka keşif görüşmesi için yazın."
+}

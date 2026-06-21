@@ -20,6 +20,7 @@ import {
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 import { RelatedSectorsSection } from "@/components/landing/RelatedSectorsSection";
+import { RelatedLocationsSection } from "@/components/landing/RelatedLocationsSection";
 
 export const metadata: Metadata = {
   title: "Instagram DM Otomasyonu | 60 Saniyede Yanıt — PORTZEN",
@@ -693,6 +694,7 @@ export default function Page() {
 
       {/* 9. FINAL CTA */}
       <RelatedSectorsSection service="instagram-dm-otomasyonu" />
+      <RelatedLocationsSection service="instagram-dm-otomasyonu" />
 
       <section className="py-section">
         <div className="mx-auto max-w-container px-6">

@@ -5,7 +5,7 @@ import {
   TONE_BG,
   TONE_TEXT,
   getSectorLanding,
-  getSectorSlugsForService,
+  getSectorSlugsForServiceByType,
   type ServiceSlug
 } from "@/lib/landings";
 import { cn } from "@/lib/utils";
@@ -19,7 +19,7 @@ interface Props {
  *  Orphan page problemini çözer — her sektörel landing main landing'den link alır. */
 export function RelatedSectorsSection({ service }: Props) {
   const meta = SERVICE_META[service];
-  const sectorSlugs = getSectorSlugsForService(service);
+  const sectorSlugs = getSectorSlugsForServiceByType(service, "sector");
   if (sectorSlugs.length === 0) return null;
 
   // Her sektörün display adını al
