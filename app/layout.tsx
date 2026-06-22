@@ -48,6 +48,119 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true }
 };
 
+/* ============================================================
+   Schema.org Structured Data (AI visibility + Knowledge Panel)
+   ChatGPT, Gemini, Perplexity ve Google bot'ları PORTZEN'i
+   buradan tanır.
+   ============================================================ */
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": ["Organization", "ProfessionalService"],
+  "@id": "https://portzenai.com/#organization",
+  name: "PORTZEN",
+  alternateName: ["PORTZEN AI", "PORTZEN AI Ajansı"],
+  description:
+    "İzmir merkezli, KOBİ'ler için AI destekli sosyal medya yönetimi, WhatsApp asistanı, otomasyon ve web tasarım hizmetleri sunan dijital ajans. Beş ayrı ajans yerine tek ekipten tüm sistem.",
+  url: "https://portzenai.com",
+  email: "destek@portzenai.com",
+  telephone: "+905015884853",
+  foundingDate: "2025",
+  slogan: "Beş ajans yerine tek ekip",
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: "TR",
+    addressRegion: "İzmir",
+    addressLocality: "İzmir"
+  },
+  areaServed: [
+    { "@type": "Country", name: "Türkiye" },
+    { "@type": "City", name: "İzmir" },
+    { "@type": "City", name: "İstanbul" },
+    { "@type": "City", name: "Ankara" }
+  ],
+  knowsAbout: [
+    "Yapay Zeka",
+    "Sosyal Medya Yönetimi",
+    "WhatsApp AI Asistanı",
+    "Instagram DM Otomasyonu",
+    "AI Reklam Videosu",
+    "CRM Otomasyonu",
+    "Web Tasarım",
+    "Dijital Pazarlama",
+    "KOBİ Otomasyonu",
+    "Türk KOBİ AI Çözümleri"
+  ],
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+905015884853",
+    contactType: "customer service",
+    email: "destek@portzenai.com",
+    availableLanguage: ["Turkish"],
+    areaServed: "TR"
+  },
+  sameAs: [
+    // TODO: gerçek LinkedIn şirket URL'i ile değiştir (örn: linkedin.com/company/portzen-ai)
+    "https://www.linkedin.com/company/portzen"
+  ],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "PORTZEN Hizmetleri",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "WhatsApp AI Asistanı",
+          url: "https://portzenai.com/whatsapp-ai-asistani"
+        }
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Instagram DM Otomasyonu",
+          url: "https://portzenai.com/instagram-dm-otomasyonu"
+        }
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "AI Reklam Videosu",
+          url: "https://portzenai.com/ai-reklam-videosu"
+        }
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Web Tasarım",
+          url: "https://portzenai.com/web-tasarim"
+        }
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "CRM Otomasyonu",
+          url: "https://portzenai.com/crm-otomasyonu"
+        }
+      }
+    ]
+  }
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://portzenai.com/#website",
+  url: "https://portzenai.com",
+  name: "PORTZEN",
+  description: "İşletmeler için AI destekli büyüme altyapısı",
+  inLanguage: "tr-TR",
+  publisher: { "@id": "https://portzenai.com/#organization" }
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="tr" className={montserrat.variable}>
@@ -55,6 +168,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Navbar />
         <main className="pt-[80px]">{children}</main>
         {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
+        {/* Schema.org JSON-LD — Organization + WebSite */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
         <footer className="border-t-3 border-ink bg-ink text-paper mt-section">
           <div className="mx-auto max-w-container px-6 py-12 grid gap-8 md:grid-cols-[1.5fr_1fr_1fr]">
             {/* Sol: Marka + iletişim */}
