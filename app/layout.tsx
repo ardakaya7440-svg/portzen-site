@@ -62,9 +62,16 @@ const organizationSchema = {
   description:
     "İzmir merkezli, KOBİ'ler için AI destekli sosyal medya yönetimi, WhatsApp asistanı, otomasyon ve web tasarım hizmetleri sunan dijital ajans. Beş ayrı ajans yerine tek ekipten tüm sistem.",
   url: "https://portzenai.com",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://portzenai.com/logo.png",
+    width: 512,
+    height: 512
+  },
+  image: "https://portzenai.com/logo.png",
   email: "destek@portzenai.com",
   telephone: "+905015884853",
-  foundingDate: "2025",
+  foundingDate: "2026",
   slogan: "Beş ajans yerine tek ekip",
   address: {
     "@type": "PostalAddress",
@@ -99,8 +106,7 @@ const organizationSchema = {
     areaServed: "TR"
   },
   sameAs: [
-    // TODO: gerçek LinkedIn şirket URL'i ile değiştir (örn: linkedin.com/company/portzen-ai)
-    "https://www.linkedin.com/company/portzen"
+    "https://www.linkedin.com/company/portzenai/"
   ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
