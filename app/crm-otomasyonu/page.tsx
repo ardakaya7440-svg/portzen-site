@@ -76,7 +76,7 @@ const serviceJsonLd = {
     image: "https://portzenai.com/og-image.png",
     url: "https://portzenai.com",
     telephone: "+90-531-863-91-17",
-    email: "portzenajans@gmail.com",
+    email: "destek@portzenai.com",
     address: { "@type": "PostalAddress", addressLocality: "İzmir", addressCountry: "TR" },
     priceRange: "₺₺₺",
   },
@@ -670,7 +670,7 @@ export default function CrmOtomasyonuPage() {
                   <Mail className="h-5 w-5 text-ink shrink-0 mt-0.5" />
                   <div>
                     <div className="text-xs font-bold uppercase tracking-wider text-ink/60">Email</div>
-                    <a href="mailto:portzenajans@gmail.com" className="font-display text-lg font-black text-ink hover:underline">portzenajans@gmail.com</a>
+                    <a href="mailto:destek@portzenai.com" className="font-display text-lg font-black text-ink hover:underline">destek@portzenai.com</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">

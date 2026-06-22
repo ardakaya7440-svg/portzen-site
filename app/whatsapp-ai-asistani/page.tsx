@@ -62,7 +62,7 @@ const serviceSchema = {
     name: "PORTZEN",
     url: "https://portzenai.com",
     telephone: "+905015884853",
-    email: "portzenajans@gmail.com"
+    email: "destek@portzenai.com"
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
@@ -732,7 +732,7 @@ export default function Page() {
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>
-                  <a href="mailto:portzenajans@gmail.com" className="font-bold hover:underline break-all">portzenajans@gmail.com</a>
+                  <a href="mailto:destek@portzenai.com" className="font-bold hover:underline break-all">destek@portzenai.com</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Konum</div>

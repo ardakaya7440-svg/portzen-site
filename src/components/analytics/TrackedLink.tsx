@@ -41,7 +41,7 @@ export function PhoneLink({ source, children, className, phone = "+905015884853"
 }
 
 /** Email linki — tıklama track edilir */
-export function EmailLink({ source, children, className, email = "portzenajans@gmail.com" }: BaseProps & { email?: string }) {
+export function EmailLink({ source, children, className, email = "destek@portzenai.com" }: BaseProps & { email?: string }) {
   return (
     <a
       href={`mailto:${email}`}

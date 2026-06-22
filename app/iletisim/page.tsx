@@ -8,7 +8,7 @@ import { trackLeadFormSubmit, trackWhatsAppClick, trackEmailClick, trackPhoneCli
 
 const WHATSAPP_NUMBER = "905015884853";
 const PHONE_HUMAN = "0501 588 48 53";
-const EMAIL = "portzenajans@gmail.com";
+const EMAIL = "destek@portzenai.com";
 
 export default function Page() {
   const [submitted, setSubmitted] = useState(false);

@@ -60,7 +60,7 @@ const serviceSchema = {
     name: "PORTZEN",
     url: "https://portzenai.com",
     telephone: "+905015884853",
-    email: "portzenajans@gmail.com"
+    email: "destek@portzenai.com"
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
@@ -718,7 +718,7 @@ export default function Page() {
                   İletişim Formu <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="mailto:portzenajans@gmail.com"
+                  href="mailto:destek@portzenai.com"
                   className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
                 >
                   E-posta Gönder <ArrowUpRight className="h-4 w-4" />
@@ -733,7 +733,7 @@ export default function Page() {
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>
-                  <a href="mailto:portzenajans@gmail.com" className="font-bold hover:underline break-all">portzenajans@gmail.com</a>
+                  <a href="mailto:destek@portzenai.com" className="font-bold hover:underline break-all">destek@portzenai.com</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Konum</div>

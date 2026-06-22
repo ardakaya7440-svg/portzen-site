@@ -72,8 +72,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   </a>
                 </div>
                 <div>
-                  <a href="mailto:portzenajans@gmail.com" className="text-paper/80 hover:text-brand-yellow transition-colors">
-                    portzenajans@gmail.com
+                  <a href="mailto:destek@portzenai.com" className="text-paper/80 hover:text-brand-yellow transition-colors">
+                    destek@portzenai.com
                   </a>
                 </div>
                 <div className="text-paper/60 text-xs pt-1">İzmir, Türkiye</div>
@@ -100,7 +100,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <li><a href="/referanslar" className="hover:text-brand-yellow transition-colors">Referanslar</a></li>
                 <li><a href="/hakkimizda" className="hover:text-brand-yellow transition-colors">Hakkımızda</a></li>
                 <li><a href="/iletisim" className="hover:text-brand-yellow transition-colors">İletişim</a></li>
-                <li><a href="/sitemap.xml" className="hover:text-brand-yellow transition-colors text-paper/50">Sitemap</a></li>
+                <li className="pt-2 mt-2 border-t border-paper/15"><a href="/kvkk" className="text-paper/60 hover:text-brand-yellow transition-colors text-xs">KVKK</a></li>
+                <li><a href="/gizlilik-politikasi" className="text-paper/60 hover:text-brand-yellow transition-colors text-xs">Gizlilik Politikası</a></li>
+                <li><a href="/kullanim-sartlari" className="text-paper/60 hover:text-brand-yellow transition-colors text-xs">Kullanım Şartları</a></li>
+                <li><a href="/sitemap.xml" className="text-paper/40 hover:text-brand-yellow transition-colors text-xs">Sitemap</a></li>
               </ul>
             </div>
           </div>
