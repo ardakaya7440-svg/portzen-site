@@ -6,7 +6,16 @@ import { remark } from "remark";
 import html from "remark-html";
 import gfm from "remark-gfm";
 
-export type BlogCategory = "ai" | "sosyal-medya" | "web-tasarim" | "otomasyon" | "vaka-analizi";
+export type BlogCategory =
+  | "ai"
+  | "sosyal-medya"
+  | "web-tasarim"
+  | "otomasyon"
+  | "vaka-analizi"
+  | "sektorel"
+  | "sehir"
+  | "karsilastirma"
+  | "rehber";
 
 export interface BlogPostMeta {
   slug: string;
@@ -34,7 +43,11 @@ export const CATEGORY_META: Record<BlogCategory, { label: string; tone: string; 
   "sosyal-medya": { label: "Sosyal Medya", tone: "pink", bg: "bg-brand-pink", text: "text-paper" },
   "web-tasarim": { label: "Web Tasarım", tone: "orange", bg: "bg-brand-orange", text: "text-ink" },
   otomasyon: { label: "Otomasyon", tone: "blue", bg: "bg-brand-blue", text: "text-paper" },
-  "vaka-analizi": { label: "Vaka Analizi", tone: "green", bg: "bg-brand-green", text: "text-ink" }
+  "vaka-analizi": { label: "Vaka Analizi", tone: "green", bg: "bg-brand-green", text: "text-ink" },
+  sektorel: { label: "Sektörel", tone: "yellow", bg: "bg-brand-yellow", text: "text-ink" },
+  sehir: { label: "Şehir Rehberi", tone: "blue", bg: "bg-brand-blue", text: "text-paper" },
+  karsilastirma: { label: "Karşılaştırma", tone: "pink", bg: "bg-brand-pink", text: "text-paper" },
+  rehber: { label: "Rehber", tone: "orange", bg: "bg-brand-orange", text: "text-ink" }
 };
 
 function readMarkdownFile(slug: string) {

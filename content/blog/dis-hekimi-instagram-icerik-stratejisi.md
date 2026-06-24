@@ -1,7 +1,7 @@
 ---
 title: "Diş Hekimleri İçin Instagram İçerik Stratejisi: 30 Günlük Plan"
 slug: "dis-hekimi-instagram-icerik-stratejisi"
-category: "instagram"
+category: "sektorel"
 description: "Diş hekimleri için Instagram içerik stratejisi ve 30 günlük yayın takvimi. Reels, carousel, story formatları, etik sınırlar ve hasta dönüşümü için pratik plan."
 keywords: ["diş hekimi instagram", "diş hekimi sosyal medya", "diş kliniği instagram", "diş hekimi içerik takvimi", "dental marketing", "diş kliniği reklam"]
 publishedAt: "2026-06-23"
