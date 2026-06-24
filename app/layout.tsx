@@ -212,6 +212,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div>
               <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Hizmetler</div>
               <ul className="space-y-2 text-sm">
+                <li><a href="/sosyal-medya-ajansi" className="hover:text-brand-yellow transition-colors">Sosyal Medya Ajansı</a></li>
+                <li><a href="/meta-reklam-ajansi" className="hover:text-brand-yellow transition-colors">Meta Reklam Ajansı</a></li>
+                <li><a href="/yapay-zeka-video-uretimi" className="hover:text-brand-yellow transition-colors">Yapay Zeka Video Üretimi</a></li>
                 <li><a href="/whatsapp-ai-asistani" className="hover:text-brand-yellow transition-colors">WhatsApp AI Asistanı</a></li>
                 <li><a href="/instagram-dm-otomasyonu" className="hover:text-brand-yellow transition-colors">Instagram DM Otomasyonu</a></li>
                 <li><a href="/ai-reklam-videosu" className="hover:text-brand-yellow transition-colors">AI Reklam Videosu</a></li>
