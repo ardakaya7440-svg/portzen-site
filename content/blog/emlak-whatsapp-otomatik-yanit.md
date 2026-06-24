@@ -19,7 +19,7 @@ Emlak sektöründe bir gerçek var: kazanan ofis, en güzel portföye sahip olan
 
 Ortalama bir emlak ofisinin günlük WhatsApp trafiğini düşünün. Sahibinden ilanlarına ilgilenen 15-20 kişi, Hepsiemlak'tan 5-10 kişi, Instagram reklamından düşen 8-10 lead, mevcut müşterilerden devam eden 30-40 yazışma. Bu hacim küçük bir ofiste bile günde 80-100 mesaj demek. İki temsilciniz varsa ve her mesaja ortalama 3 dakika ayırıyorsanız, sadece mesajlaşmaya günde 5 saat harcıyorlar. Bu sürede gezme bile yapamıyorlar.
 
-Sonuç: lead'lerin önemli bir kısmı 1 saatin üzerinde cevapsız kalıyor. Sahibinden'den ilana ilgilenen müşteri 5 farklı ilana mesaj atıyor. İlk dönen ofis randevuyu kapıyor, geri kalanlar listeyi hediye etmiş oluyor. Reklam bütçenize verdiğiniz 20.000 TL'lik aylık paranın belki 8.000 TL'si bu yüzden çöpe gidiyor.
+Sonuç: lead'lerin önemli bir kısmı 1 saatin üzerinde cevapsız kalıyor. Sahibinden'den ilana ilgilenen müşteri 5 farklı ilana mesaj atıyor. İlk dönen ofis randevuyu kapıyor, geri kalanlar listeyi hediye etmiş oluyor. Reklam bütçenize verdiğiniz 20.000 TL'lik aylık paranın belki 8.000 TL'si bu yüzden çöpe gidiyor. Lead trafiğini bölge bazlı çoğaltmak için bir [Meta reklam ajansı](/meta-reklam-ajansi) ile semt+bütçe+ilan tipine göre kampanya kurmak, otomasyonun verimini doğrudan artırıyor.
 
 ### Klasik Çözümlerin Eksik Kaldığı Noktalar
 

@@ -85,7 +85,7 @@ Tablonun en kritik satırı bence "Türkçe NLP kalitesi" ve "Esneklik". ManyCha
 - **Markaya özgü ton**: şirket dilini, espriyi, kibarlığı koruyan cevaplar
 - **CRM ve panel entegrasyonu**: müşteri datasını otomatik girip etiketleyen sistem
 
-Eğer ikinci listede üç ya da daha fazla maddede kendinizi görüyorsanız, custom AI chatbot 6 ay içinde ManyChat'in altı katı kadar değer üretir. [Instagram DM otomasyonu](/instagram-dm-otomasyonu) örneklerimiz somut kullanım vakaları gösteriyor.
+Eğer ikinci listede üç ya da daha fazla maddede kendinizi görüyorsanız, custom AI chatbot 6 ay içinde ManyChat'in altı katı kadar değer üretir. [Instagram DM otomasyonu](/instagram-dm-otomasyonu) örneklerimiz somut kullanım vakaları gösteriyor. Bot kurulumunun yanı sıra DM'lere düşen mesajların içerik + topluluk yönetimi tarafını da [sosyal medya ajansı](/sosyal-medya-ajansi) hizmetiyle birlikte yürütmek, dönüşüm oranını otomasyonla insan dokunuşunun birleştiği noktada katlıyor.
 
 ## Maliyet Karşılaştırması: Üç Boyutta Bakış
 

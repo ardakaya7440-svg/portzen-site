@@ -138,7 +138,7 @@ Bu konuda daha derin teknik bilgi için [AI Chatbot Türkçe](/ai-chatbot-turkce
 | **Rasa** (Open Source) | ⚠️ Orta | ✅ | ⚠️ | ✅ |
 | **Botpress** | ✅ | ✅ | ✅ | ✅ |
 
-PORTZEN olarak biz **LangChain + Claude/GPT karması** kullanıyoruz çünkü KVKK uyumlu, Türkçe kalitesi yüksek, sektör jargonu eğitimine açık.
+PORTZEN olarak biz **LangChain + Claude/GPT karması** kullanıyoruz çünkü KVKK uyumlu, Türkçe kalitesi yüksek, sektör jargonu eğitimine açık. Aynı bilgi tabanı altyapısı Instagram ve Facebook DM'lerine de bağlanabiliyor; bu noktada [sosyal medya ajansı](/sosyal-medya-ajansi) ekibimiz DM otomasyonu ve içerik üretimini bot ile entegre yönetiyor.
 
 ## Sık Yapılan Hatalar
 

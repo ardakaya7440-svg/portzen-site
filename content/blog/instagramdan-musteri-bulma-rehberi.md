@@ -63,7 +63,7 @@ Hook cümlesi olarak işe yarayan örnekler:
 - "Eğer bir [meslek] iseniz bu videoyu mutlaka izleyin."
 - "Sektörümde 5 yıldır kimsenin söylemediği bir şey söyleyeceğim."
 
-Hook'un işlevi izleyiciyi videoda **tutmak**. İlk 3 saniyede ilgi çekemeyen video algoritma tarafından öldürülüyor. Reels üretimi konusunda zorlanan KOBİ'ler için [AI reklam video](/ai-reklam-videosu) çözümleri ciddi vakit ve maliyet tasarrufu sağlıyor.
+Hook'un işlevi izleyiciyi videoda **tutmak**. İlk 3 saniyede ilgi çekemeyen video algoritma tarafından öldürülüyor. Reels üretimi konusunda zorlanan KOBİ'ler için [AI reklam video](/ai-reklam-videosu) çözümleri ciddi vakit ve maliyet tasarrufu sağlıyor; Higgsfield, Seedance ve Veo 3 ile çalışan [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetimiz haftalık 4-6 sinema kalitesinde Reels üretmeyi mümkün kılıyor.
 
 ### Reels Yayın Sıklığı ve Saat Stratejisi
 
@@ -211,7 +211,7 @@ KOBİ için sürdürülebilir bir Instagram içerik takvimi haftada şöyle dağ
 - **Cumartesi:** Stories highlight güncelleme + DM kampanyası
 - **Pazar:** Mood / inspirasyon içeriği (algoritmaya marka değeri sinyali)
 
-Bu takvimi kendi başınıza tutmakta zorlanıyorsanız (ki çoğu KOBİ patronu zorlanıyor) profesyonel bir [sosyal medya yönetimi](/instagram-dm-otomasyonu) hizmeti devreye alınabilir.
+Bu takvimi kendi başınıza tutmakta zorlanıyorsanız (ki çoğu KOBİ patronu zorlanıyor) profesyonel bir [sosyal medya yönetimi](/instagram-dm-otomasyonu) hizmeti devreye alınabilir. Instagram, Facebook, TikTok ve LinkedIn yönetimini tek elden vermek isteyen markalar için [sosyal medya ajansı](/sosyal-medya-ajansi) paketimiz içerik üretiminden DM cevaplamaya kadar tüm süreci kapsıyor.
 
 ## En Sık Yapılan 5 Hata
 

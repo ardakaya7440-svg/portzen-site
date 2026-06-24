@@ -45,7 +45,7 @@ Doğrudan rezervasyon oranını artırmak için yapılması gerekenler:
 - Sezona göre dinamik fiyat gösterimi
 - TripAdvisor, Google ve Booking yorumlarının site içinde toplu gösterimi
 
-Antalya'da çalıştığımız bir Lara butik otelinde 18 ayda doğrudan rezervasyon oranını %12'den %34'e çıkardık. Tek tek hesaplandığında ayda 180.000 TL'lik komisyon tasarrufu anlamına geliyor. [Web tasarım hizmetimiz](/web-tasarim) ve özellikle [restoran sektörü için web tasarım sayfası](/web-tasarim/restoran) (oteller için de benzer prensipler geçerli) bu dönüşümün altyapısını sunuyor.
+Antalya'da çalıştığımız bir Lara butik otelinde 18 ayda doğrudan rezervasyon oranını %12'den %34'e çıkardık. Tek tek hesaplandığında ayda 180.000 TL'lik komisyon tasarrufu anlamına geliyor. [Web tasarım hizmetimiz](/web-tasarim) ve özellikle [restoran sektörü için web tasarım sayfası](/web-tasarim/restoran) (oteller için de benzer prensipler geçerli) bu dönüşümün altyapısını sunuyor. Web sitesi yenilemesiyle birlikte profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çok dilli içerik üretimi yürütmek, doğrudan rezervasyon hunisini hem Türkiye hem Avrupa kaynaklı turist için canlı tutuyor.
 
 ## Belek ve Side: Premium Segment ve Tarihi Doku
 
@@ -86,7 +86,7 @@ Antalya turistik işletmesinin web sitesini "çok dilli yapmak" Google Translate
 - Yerel arama davranışlarına göre uyarlanmış SEO başlıkları
 - Her dilde ayrı blog ve içerik üretimi
 
-Almanca konuşan turist Google'da "antalya hotel direkt am strand" diye arar, "Antalya beachfront hotel" değil. Rus turist Yandex'te "отель в Анталье у моря" diye arar. Bu arama davranışlarının her birine ayrı bir içerik stratejisiyle karşılık vermek gerekiyor.
+Almanca konuşan turist Google'da "antalya hotel direkt am strand" diye arar, "Antalya beachfront hotel" değil. Rus turist Yandex'te "отель в Анталье у моря" diye arar. Bu arama davranışlarının her birine ayrı bir içerik stratejisiyle karşılık vermek gerekiyor. Organik trafik yetmediği noktada deneyimli bir [Meta reklam ajansı](/meta-reklam-ajansi) ile Almanca, Rusça ve İngilizce ayrı reklam setleri kurulup ülke bazlı Advantage+ kampanyaları çalıştırılarak sezon dışı rezervasyon hacmi de korunabiliyor.
 
 ## WhatsApp AI Asistanı: 7 Dilde 7/24 Cevap Veren Resepsiyon
 

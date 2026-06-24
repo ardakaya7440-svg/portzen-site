@@ -34,7 +34,7 @@ Türkiye'deki KOBİ'ler için test ettiğimiz ve sürekli iyi sonuç veren forma
 - **Story: %20** — Günlük etkileşim, anket, soru-cevap. Mevcut takipçiyle bağ kurar.
 - **Statik post: %10** — Sadece "açıklama yapması gereken" duyurular (yeni şube, kampanya, çalışma saatleri).
 
-Bu oranlar matematiksel kesinlikte değil ama bir referans noktası. Eğer ayda 20 gönderi planlıyorsanız 8 Reels, 6 carousel, 4 story serisi ve 2 statik post hedefleyebilirsiniz. Reels üretmekte zorlanan KOBİ'ler için [AI reklam video](/ai-reklam-videosu) çözümlerimiz vakit ve maliyet açısından ciddi avantaj sağlıyor; tek bir brief'le birden fazla varyasyon çıkarmak mümkün.
+Bu oranlar matematiksel kesinlikte değil ama bir referans noktası. Eğer ayda 20 gönderi planlıyorsanız 8 Reels, 6 carousel, 4 story serisi ve 2 statik post hedefleyebilirsiniz. Reels üretmekte zorlanan KOBİ'ler için [AI reklam video](/ai-reklam-videosu) çözümlerimiz vakit ve maliyet açısından ciddi avantaj sağlıyor; tek bir brief'le birden fazla varyasyon çıkarmak mümkün. Higgsfield, Seedance ve Veo 3 ile çalışan [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetimiz ise haftada 4-6 sinema kalitesinde Reels üretmeyi mümkün kılıyor.
 
 ### Format Seçerken Sektör Farkı
 
@@ -214,7 +214,7 @@ Bu 28-30 gönderilik şablon **batch production** ile 2-3 günlük bir çekim/ü
 
 Takvim kurmak başlangıç; asıl iş **sürdürmek**. Bunun için 3 alışkanlık şart. Birincisi haftalık 30 dakikalık **planlama toplantısı**: önümüzdeki hafta ne çekilecek, kim çekecek, kim düzenleyecek. İkincisi aylık 1 saatlik **performans toplantısı**: hangi içerikler hangi metrikleri verdi, neyi değiştireceğiz. Üçüncüsü her gönderiden sonra **kısa not**: erişim, etkileşim, DM sayısı. Bu üç adım olmadan en güzel takvim bile bir ay sonra çöker.
 
-Eğer ekibinizde bu işi yapacak insan yoksa ya da patron tek başına yetişemiyorsa, dışarıdan profesyonel destek almak mantıklı oluyor. [AI reklam videoları rehberi](/blog/ai-reklam-videolari) yazımızda içerik üretim sürecini AI ile hızlandıran sistemleri detaylıca anlatmıştık.
+Eğer ekibinizde bu işi yapacak insan yoksa ya da patron tek başına yetişemiyorsa, dışarıdan profesyonel destek almak mantıklı oluyor. [AI reklam videoları rehberi](/blog/ai-reklam-videolari) yazımızda içerik üretim sürecini AI ile hızlandıran sistemleri detaylıca anlatmıştık. Tüm bu süreçleri tek elden yürütmek isteyen markalar için [sosyal medya ajansı](/sosyal-medya-ajansi) paketimiz içerik takvimi, üretim ve yayın yönetimini uçtan uca kapsıyor.
 
 ## PORTZEN ile İçerik Yönetimi: Profesyonel Yaklaşım
 

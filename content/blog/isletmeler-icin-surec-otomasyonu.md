@@ -83,6 +83,8 @@ Pazarlama biriminin %60 zamanı yanlış işlere gidiyor. Otomatikleştirilebili
 - Lead'lerin kaynak bazlı CRM etiketlenmesi
 - A/B test sonuçlarının otomatik dashboard'a düşmesi
 
+İçerik üretim ve yayın takvimini otomasyonun beslediği bir [sosyal medya ajansı](/sosyal-medya-ajansi) modelinde, pazarlama ekibi rutin post yükünden kurtulup kampanya stratejisine odaklanabiliyor.
+
 ## Hangi İşler İnsanın Elinde Kalmalı?
 
 Otomasyon hevesi bazen mantıksız yerlere kayıyor. Şu işleri **otomatikleştirmeyin**:
@@ -91,7 +93,7 @@ Otomasyon hevesi bazen mantıksız yerlere kayıyor. Şu işleri **otomatikleşt
 
 **2. Stratejik karar süreçleri.** Yeni ürün lansmanı, yeni şube açma, iş ortaklığı — bunlar dashboard ile desteklenir ama otomatik karar verilmez.
 
-**3. Yaratıcı içerik üretimi.** AI yardımcı olabilir ama final içeriği bir insan kürasyonundan geçmeli. Marka tonu otomasyona bırakılırsa silikleşir.
+**3. Yaratıcı içerik üretimi.** AI yardımcı olabilir ama final içeriği bir insan kürasyonundan geçmeli. Marka tonu otomasyona bırakılırsa silikleşir. Reklam ve tanıtım klipleri tarafında [yapay zeka video üretimi](/yapay-zeka-video-uretimi) süreciyle varyasyon üretimi hızlanıyor ama son kürasyon her zaman insan elinde kalmalı.
 
 **4. İK mülakatları.** Adayı bot eleyebilir ama final mülakat insan-insana olmalı.
 

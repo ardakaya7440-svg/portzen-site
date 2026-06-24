@@ -130,7 +130,7 @@ Email pazarlamanın gücü segmentasyondan gelir. Aynı maili 10.000 kişiye gö
 
 Aradaki fark mikro segment senaryolarında ortaya çıkar. Örneğin "Son 14 günde 2+ kez X kategorisini görüntüledi, abandoned cart'ı var, lifetime value 1.000 TL üstü" gibi bir segment Klaviyo'da 5 dakikada kurulur; Mailchimp'te ya hiç kurulamaz ya çok zorlanır.
 
-[CRM otomasyonu](/crm-otomasyonu) hizmetimiz kapsamında müşteri verilerinizi email aracınızla otomatik senkronize ediyoruz; detaylı rehber için [CRM otomasyonu rehberi](/blog/crm-otomasyonu-rehberi) yazımızı okuyabilirsiniz.
+[CRM otomasyonu](/crm-otomasyonu) hizmetimiz kapsamında müşteri verilerinizi email aracınızla otomatik senkronize ediyoruz; detaylı rehber için [CRM otomasyonu rehberi](/blog/crm-otomasyonu-rehberi) yazımızı okuyabilirsiniz. Email listenizi büyütmek için Meta üzerinden lead form ve abandoned cart retargeting kampanyaları yürüten bir [Meta reklam ajansı](/meta-reklam-ajansi) desteği, segmentasyonun hammadde tarafını besliyor.
 
 ## Abandoned Cart ve Post-Purchase Akışları
 

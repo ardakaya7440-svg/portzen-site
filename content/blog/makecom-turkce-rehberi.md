@@ -70,7 +70,7 @@ Instagram reklamlarınızdan veya organik DM'lerinizden gelen potansiyel müşte
 - **Adım 1:** Pipedrive > Create deal
 - **Adım 2:** WhatsApp Business Cloud > Send message (ekibe bildirim)
 
-Bir estetik kliniği bu akışı kurduktan sonra Instagram'dan gelen lead'lerin %85'ine 5 dakika içinde dönüş yapmaya başladı. Bu konuyu daha derin işlediğimiz [Instagram DM otomasyonu](/instagram-dm-otomasyonu) sayfamıza bakabilirsiniz.
+Bir estetik kliniği bu akışı kurduktan sonra Instagram'dan gelen lead'lerin %85'ine 5 dakika içinde dönüş yapmaya başladı. Bu konuyu daha derin işlediğimiz [Instagram DM otomasyonu](/instagram-dm-otomasyonu) sayfamıza, profil yönetimini de aynı ekipten almak isteyenler için [sosyal medya ajansı](/sosyal-medya-ajansi) hizmetimize bakabilirsiniz.
 
 ### Akış 2: Gmail → Notion Bilgi Tabanı
 
@@ -91,6 +91,7 @@ Online ödeme aldığınızda satış ekibinizin moralini yüksek tutmak için S
 - **Adım 1:** Google Sheets > Add row (tarih, ürün, tutar, müşteri)
 - **Adım 2:** Slack > Create message ("Yeni satış: 2.450 TL")
 - **Adım 3:** Eğer tutar >5000 TL ise yöneticiye SMS
+- **Adım 4:** Aynı dönüşüm verisini Meta CAPI üzerinden geri yollayarak [Meta reklam ajansı](/meta-reklam-ajansi) tarafındaki kampanyaların hangi reklamdan satış geldiğini öğrenmesini sağlamak
 
 ### Akış 4: WhatsApp → Pipedrive
 

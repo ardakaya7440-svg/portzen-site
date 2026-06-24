@@ -84,7 +84,7 @@ Tabloda "aylık dış maliyet 0 ₺" görünüyor ama bu yanıltıcı. Sizin haf
 - **Sürekli yeni ürün/kampanya**: aylık 5+ kampanya değişimi, içeride yorucu
 - **Yerel zincir, çok şubeli**: coğrafi hedefleme ve şube bazlı raporlama karmaşık
 
-İki listede de kendinizi görüyorsanız hibrit modele bakın: strateji ve kurulum ajans, günlük takip içeride. PORTZEN olarak çoğu KOBİ müşterimizde bu hibrit yaklaşımı öneriyoruz.
+İki listede de kendinizi görüyorsanız hibrit modele bakın: strateji ve kurulum ajans, günlük takip içeride. PORTZEN olarak çoğu KOBİ müşterimizde bu hibrit yaklaşımı öneriyoruz; detaylı paket ve fiyat bilgisi için [Meta reklam ajansı](/meta-reklam-ajansi) sayfamızda model bazlı seçeneklerin tamamı yer alıyor.
 
 ## Maliyet Karşılaştırması: Üç Boyutta Bakış
 
@@ -155,7 +155,7 @@ Referans listesi, çalıştığı sektörler, raporlama şeffaflığı, hesap sa
 Mutlaka sizde olmalı. Ajans hesabınıza erişim alır, kendi hesabında yönetmez. Aksi durumda ajansla yollarınız ayrıldığında geçmiş veriler, pixel verisi, kitle listeleri sizin değil ajansın elinde kalır. Bu kritik bir hata.
 
 **AI ile üretilen reklam videoları işe yarıyor mu?**
-Çok iyi yarıyor, hatta birçok testte insan eli yapımı kadar etkili. [AI reklam videosu sayfamızda](/ai-reklam-videosu) örnek çalışmalar var. Ajans + AI üretim kombinasyonu maliyet/performans açısından şu an en iyi denklem.
+Çok iyi yarıyor, hatta birçok testte insan eli yapımı kadar etkili. [AI reklam videosu sayfamızda](/ai-reklam-videosu) örnek çalışmalar, sürdürülebilir [yapay zeka video üretimi](/yapay-zeka-video-uretimi) altyapımızda ise aylık varyasyon paketleri yer alıyor. Ajans + AI üretim kombinasyonu maliyet/performans açısından şu an en iyi denklem.
 
 **Kendi yönetirken en sık yapılan hata ne?**
 Kampanyayı kurup 3 gün sonra "satış gelmedi" diye kapatmak. Meta algoritması ilk 7-14 günü öğrenme aşaması olarak kullanıyor. Bu süreyi beklemeden müdahale etmek tüm öğrenmeyi sıfırlıyor ve bütçe çöpe gidiyor.

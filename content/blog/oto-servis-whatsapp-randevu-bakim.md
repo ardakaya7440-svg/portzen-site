@@ -38,7 +38,7 @@ WhatsApp randevu sisteminin avantajları:
 - No-show oranının düşmesi - hatırlatılan müşteri gelmeyi unutmaz
 - Plaka ve şikayet ön bilgisi - servis hazırlıklı karşılar
 
-Bu sistem aynı zamanda yedek parça ön sipariş süresini de kısaltıyor. Müşteri "ön balata değişimi" istediğinde sistem aracın model bilgisini öğrendiği için size "Mehmet Bey'in BMW 320 için ön balata gerekli, randevu öncesi tedarik edin" şeklinde bir uyarı gönderiyor. Müşteri servise geldiğinde parça zaten hazır oluyor, aynı gün teslim edebiliyorsunuz.
+Bu sistem aynı zamanda yedek parça ön sipariş süresini de kısaltıyor. Müşteri "ön balata değişimi" istediğinde sistem aracın model bilgisini öğrendiği için size "Mehmet Bey'in BMW 320 için ön balata gerekli, randevu öncesi tedarik edin" şeklinde bir uyarı gönderiyor. Müşteri servise geldiğinde parça zaten hazır oluyor, aynı gün teslim edebiliyorsunuz. Yeni müşteri akışını da büyütmek isteyen servisler, [Meta reklam ajansı](/meta-reklam-ajansi) ile semte özel Click-to-WhatsApp reklamları çıkararak randevu sistemine doğrudan yeni araç sahibi besliyor.
 
 ## Periyodik Bakım Hatırlatma: Kilometre ve Tarih Bazlı
 

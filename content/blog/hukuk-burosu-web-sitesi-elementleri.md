@@ -69,7 +69,7 @@ Blog, hukuk bürosu sitesinin SEO motoru ve güven inşa eden çekirdek alanı. 
 
 Bu içerikler hem organik trafiği büyütüyor hem de site içi geçişi artırıyor. Bir blog yazısını okuyan ziyaretçi, ilgili uzmanlık alanı sayfasına ve oradan iletişim formuna geçiyor. Tek başına vitrin olarak duran site ile içerik üreten site arasındaki organik trafik farkı 10 kat seviyesinde olabiliyor.
 
-İçerik üretimi sürdürülebilir olmazsa fayda etmiyor. Ayda 4 yazı, yılda 48 yazı, 3 yıl sonra 144 yazı. Bu birikim büronun en değerli SEO varlığı haline geliyor. İçerik planlaması için [sosyal medya içerik takvimi](/blog/sosyal-medya-icerik-takvimi) yazımız bir başlangıç noktası olabilir.
+İçerik üretimi sürdürülebilir olmazsa fayda etmiyor. Ayda 4 yazı, yılda 48 yazı, 3 yıl sonra 144 yazı. Bu birikim büronun en değerli SEO varlığı haline geliyor. İçerik planlaması için [sosyal medya içerik takvimi](/blog/sosyal-medya-icerik-takvimi) yazımız bir başlangıç noktası olabilir. Blog yazım sürecini ve LinkedIn paylaşımlarını dış kaynakla yürütmek isteyen bürolar [sosyal medya ajansı](/sosyal-medya-ajansi) hizmetimizle TBB etik çerçevesine uygun içerik üretimi alabiliyor.
 
 ## 5. KVKK Aydınlatma Metni ve Gizlilik Politikası
 

@@ -162,7 +162,7 @@ Temel optimizasyonu tamamladıktan sonra bir üst lige geçmek için:
 - Google Posts ile blog içeriği bağlama: Yeni rehber yazılarınızı kısa özetle gönderiye dönüştürün
 - Rakip yorumlarını izleme: Aynı kategoride üst 3 rakibinizin yorumlarını ayda bir okuyun, eksikliklerini sizin profil avantajınıza çevirin
 
-Yerel SEO çalışmalarınızı destekleyen bir [kurumsal web sitesi](/blog/kurumsal-web-sitesi-rehberi) profilinizin etkisini katlar. Şehir bazlı detaylı strateji için [Ankara KOBİ dijital pazarlama rehberi](/blog/ankara-kobi-dijital-pazarlama-rehberi) yazımız faydalı olacaktır.
+Yerel SEO çalışmalarınızı destekleyen bir [kurumsal web sitesi](/blog/kurumsal-web-sitesi-rehberi) profilinizin etkisini katlar. Şehir bazlı detaylı strateji için [Ankara KOBİ dijital pazarlama rehberi](/blog/ankara-kobi-dijital-pazarlama-rehberi) yazımız faydalı olacaktır. Profil zaman içinde olgunlaştıkça Instagram, Facebook ve TikTok kanallarını da aynı yerel SEO çatısı altında yönetmek için bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak, çapraz kanal etkisini güçlendiriyor.
 
 ## Sıkça Sorulan Sorular
 

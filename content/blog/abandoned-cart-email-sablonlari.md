@@ -42,7 +42,7 @@ Klasik 3 aşamalı seri:
 | 2 | **24 saat sonra** | Değer + FOMO | Email + WhatsApp |
 | 3 | **3 gün sonra** | İndirim + son şans | Email + WhatsApp |
 
-**Önemli:** WhatsApp recovery için müşterinin sepet sırasında telefon vermesi gerekiyor. Checkout formunda "WhatsApp ile bilgilendirme isterim" onayı zorunlu.
+**Önemli:** WhatsApp recovery için müşterinin sepet sırasında telefon vermesi gerekiyor. Checkout formunda "WhatsApp ile bilgilendirme isterim" onayı zorunlu. Recovery hacmini büyütmek isteyen markalar, [Meta reklam ajansı](/meta-reklam-ajansi) ile çalışarak Click-to-WhatsApp reklamlarıyla yeni alıcı sepetlerini de aynı akışa bağlıyor.
 
 ## 7 Şablon — Hangi Aşamada Hangisi?
 

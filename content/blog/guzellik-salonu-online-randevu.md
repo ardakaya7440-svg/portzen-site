@@ -89,6 +89,8 @@ WhatsApp randevuya ek olarak, web sitesi üzerinden de randevu alabilen bir sist
 - SEO açısından değerli (Google'da "salon randevu" aramalarında çıkıyorsunuz).
 - Ön ödeme alarak no-show'u tamamen sıfıra indirebiliyor.
 
+Sadece organik gelen mesajlarla doluluk istediğiniz seviyeye gelmiyorsa, [Meta reklam ajansı](/meta-reklam-ajansi) ile Instagram ve Facebook üzerinden yakın çevredeki kadınlara Click-to-WhatsApp reklamları çıkarmak randevu hacmini 2-3 katına çıkarıyor.
+
 [Güzellik salonu web tasarımı paketimiz](/web-tasarim/guzellik-salonu) içinde online randevu sistemi standart olarak yer alıyor. Sadece statik bir web sitesi değil, doğrudan satış üreten bir altyapı sunuyoruz.
 
 ### Ön Ödeme ile No-Show'u Sıfırlamak

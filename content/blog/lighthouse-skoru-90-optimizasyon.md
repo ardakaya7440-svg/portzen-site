@@ -53,7 +53,7 @@ Performance skoru tek bir metrik değildir; beş alt metriğin ağırlıklı ort
 | FCP | First Contentful Paint | %10 |
 | TBT | Total Blocking Time | %15 |
 
-LCP, INP ve CLS aynı zamanda Google'ın Core Web Vitals üçlemesidir. Bu üçü doğrudan sıralama faktörüdür. [PageSpeed Insights rehberi](/blog/pagespeed-insights-rehber) yazımızda bu metriklerin alan verisi (CrUX) ile laboratuvar verisi arasındaki farkı detaylandırdık.
+LCP, INP ve CLS aynı zamanda Google'ın Core Web Vitals üçlemesidir. Bu üçü doğrudan sıralama faktörüdür. [PageSpeed Insights rehberi](/blog/pagespeed-insights-rehber) yazımızda bu metriklerin alan verisi (CrUX) ile laboratuvar verisi arasındaki farkı detaylandırdık. Hız optimizasyonu organik trafiği tetikledikten sonra büyümeyi sürdürmek için profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile sosyal kaynaklı trafiği de bu hızlı altyapıya çekmek hem dönüşüm hem SEO açısından ciddi katkı sağlıyor.
 
 ### SEO Skoru Ne Ölçüyor?
 
@@ -243,7 +243,7 @@ Search Console'daki Core Web Vitals raporu CrUX verisidir. Lighthouse 95 olan bi
 
 ### Sürekli İzleme
 
-Bir kerelik optimizasyon yeterli değil. Sitede her güncelleme, her yeni plugin, her içerik ekleme skoru etkiler. Aylık otomatik Lighthouse raporu kurulmalı ve düşüş tespit edildiğinde anında müdahale edilmelidir. Web sitenizin teknik durumundan emin değilseniz [web sitesi olmayan işletmeler ne kaybediyor](/blog/web-sitesi-olmayan-isletmeler-ne-kaybediyor) yazımızdaki maliyet analizine de göz atmanızı öneririz.
+Bir kerelik optimizasyon yeterli değil. Sitede her güncelleme, her yeni plugin, her içerik ekleme skoru etkiler. Aylık otomatik Lighthouse raporu kurulmalı ve düşüş tespit edildiğinde anında müdahale edilmelidir. Web sitenizin teknik durumundan emin değilseniz [web sitesi olmayan işletmeler ne kaybediyor](/blog/web-sitesi-olmayan-isletmeler-ne-kaybediyor) yazımızdaki maliyet analizine de göz atmanızı öneririz. Site hızı 90+ olduktan sonra trafiği reklamla katlamak için profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle hızlı sayfalara doğru kreatif akıtmak en yüksek ROAS getiren kombinasyon.
 
 ## PORTZEN ile Lighthouse 90+ Skoru
 

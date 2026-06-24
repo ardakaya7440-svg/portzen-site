@@ -63,7 +63,7 @@ Estetik, fizyoterapi, dermatoloji gibi branşlarda hastanın hangi hekime gitmes
 - Bölge (yüz, vücut, eklem vb.)
 - Aciliyet seviyesi
 
-Sonuçta sistem en uygun hekime yönlendiriyor. Bu hem hasta memnuniyetini hem doktor verimliliğini artırıyor.
+Sonuçta sistem en uygun hekime yönlendiriyor. Bu hem hasta memnuniyetini hem doktor verimliliğini artırıyor. Triaj formuna trafik akıtmak için klinikler genelde Meta lead form kampanyaları kullanıyor; bu noktada profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle lead form → WhatsApp → randevu sistemi entegrasyonu kurulduğunda lead başına maliyet belirgin düşüyor.
 
 ### 4. Anamnez ön formu
 
@@ -116,7 +116,7 @@ WhatsApp Business API kurulumu için [WhatsApp Business API kurulum rehberi](/bl
 - Reklam yönlendireceğiniz landing page olmaz
 - SEO ile sürekli yeni hasta kazanma imkanı kapanır
 
-Klinik için web sitesi sadece "vitrin" değil, randevu motoruna gelen trafik kaynağı. Web sitesi olmadan klinik işletmeye dair detaylı analiz için [web sitesi olmayan işletmeler ne kaybediyor](/blog/web-sitesi-olmayan-isletmeler-ne-kaybediyor) yazımıza bakabilirsiniz. Klinik için özel tasarlanan web sitesi şablonlarımızı ise [klinik web tasarım sayfasında](/web-tasarim/klinik) inceleyebilirsiniz.
+Klinik için web sitesi sadece "vitrin" değil, randevu motoruna gelen trafik kaynağı. Web sitesi olmadan klinik işletmeye dair detaylı analiz için [web sitesi olmayan işletmeler ne kaybediyor](/blog/web-sitesi-olmayan-isletmeler-ne-kaybediyor) yazımıza bakabilirsiniz. Klinik için özel tasarlanan web sitesi şablonlarımızı ise [klinik web tasarım sayfasında](/web-tasarim/klinik) inceleyebilirsiniz. Klinik özelinde before-after, hasta yorumu ve süreç anlatımı odaklı düzenli içerik üretmek için bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile haftalık reels ve story takvimi kurmak organik trafik kanalını güçlü tutuyor.
 
 ## Hangi Yazılımları Seçmeli?
 

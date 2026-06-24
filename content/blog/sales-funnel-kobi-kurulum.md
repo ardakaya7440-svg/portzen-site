@@ -46,6 +46,8 @@ Modern pazarlamada bu 4 aşamaya **5.** ekleniyor: **Retention** (Sadakat) — m
 
 **Tipik dönüşüm:** %1-3 (1.000 görüntülenmenin 10-30'u sonraki aşamaya geçer)
 
+Çoğu KOBİ için TOFU akışını besleyen en hızlı kaynak Facebook + Instagram reklamı; doğru kurulduğunda CPL'i 5-10 TL bandında tutmak için profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile çalışmak ilk 3 ayın sonuçlarını ciddi şekilde değiştirir.
+
 ### Aşama 2: MOFU (Middle of Funnel) — İlgi
 
 **Amaç:** İlgilenen kişiyi **lead'e** dönüştürmek (iletişim bilgisi alma).

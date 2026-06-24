@@ -45,7 +45,7 @@ Ankaralı tüketici sağlık ve profesyonel hizmette WhatsApp'ı telefonun önü
 
 ### 3. Instagram + Reels (Estetik, Cafe, Butik, Fitness)
 
-Görsel ağırlıklı işletmeler için Instagram öncelikli. Aylık 15.000-30.000 TL bandında içerik + DM otomasyonu.
+Görsel ağırlıklı işletmeler için Instagram öncelikli. Aylık 15.000-30.000 TL bandında içerik + DM otomasyonu. Tek başına içerik üretmek yetmediğinde profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak hem Reels üretim hızını hem de DM dönüşüm oranını ciddi şekilde yükseltiyor.
 
 ### 4. LinkedIn + İçerik (B2B, SaaS, Danışmanlık, Mühendislik)
 

@@ -74,7 +74,7 @@ Algoritma her ikisini de ödüllendiriyor ama **retention öncelik kazanıyor**.
 - **Vaat:** "Sonuna kadar izlersen X öğreneceksin" anlamı
 - **Pacing:** İlk 3 saniyenin içinde en az 2 farklı kesim/kare
 
-Bunların hepsi olmadan Reels yarı yarıya etki kaybediyor. Bizim ekipte AI ile Reels üretirken bile bu dört unsuru kontrol listesinde tutuyoruz. [AI reklam videoları](/blog/ai-reklam-videolari) yazımızda bu üretim süreçlerini detaylı anlattık.
+Bunların hepsi olmadan Reels yarı yarıya etki kaybediyor. Bizim ekipte AI ile Reels üretirken bile bu dört unsuru kontrol listesinde tutuyoruz. [AI reklam videoları](/blog/ai-reklam-videolari) yazımızda bu üretim süreçlerini detaylı anlattık. Çekim için kaynak ayırmak istemeyen markalar ise Higgsfield ve Veo 3 tabanlı [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetiyle haftada 4-6 Reels'lık üretim hacmine rahatça ulaşıyor.
 
 ## Reels Süresi Karşılaştırması: 7-15 sn vs 15-30 sn vs 60+ sn
 

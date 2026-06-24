@@ -58,7 +58,7 @@ Osmangazi'deki bir kestane şekeri üreticisinin yapması gerekenler:
 - WhatsApp üzerinden kargo siparişi alabilen otomatik bir sistem
 - Tatil dönemlerinde (Şeker Bayramı, kandiller) e-posta ve WhatsApp ile satış kampanyası
 
-Yıldırım'daki bir İskender restoranı için ise Instagram öncelik. Çünkü Bursa'ya gelen turist İskender'i Google'a yazıyor ama hangi restorana gideceğine TripAdvisor yorumlarına ve Instagram fotoğraflarına bakarak karar veriyor. Tabağın açılış anının slow-motion videosu, ekmek kızartmanın sesi, kuyrukta bekleyen müşterilerin görünmesi — bunlar marka değeri yaratan içerikler. PORTZEN'in [restoran sektörü için web tasarım sayfası](/web-tasarim/restoran) ve [Instagram DM dönüşüm artırma rehberi](/blog/instagram-dm-donusum-artirma) bu işletmeler için pratik başlangıç noktaları.
+Yıldırım'daki bir İskender restoranı için ise Instagram öncelik. Çünkü Bursa'ya gelen turist İskender'i Google'a yazıyor ama hangi restorana gideceğine TripAdvisor yorumlarına ve Instagram fotoğraflarına bakarak karar veriyor. Tabağın açılış anının slow-motion videosu, ekmek kızartmanın sesi, kuyrukta bekleyen müşterilerin görünmesi — bunlar marka değeri yaratan içerikler. Tek bir ekipten yönetilen bir [sosyal medya ajansı](/sosyal-medya-ajansi) bütçeyi 3-4 ayrı sağlayıcıya bölmek yerine bütünleşik bir strateji sunabiliyor. PORTZEN'in [restoran sektörü için web tasarım sayfası](/web-tasarim/restoran) ve [Instagram DM dönüşüm artırma rehberi](/blog/instagram-dm-donusum-artirma) bu işletmeler için pratik başlangıç noktaları.
 
 ## Mudanya ve Görükle: Butik Üretim ve Genç Tüketici Pazarı
 
@@ -117,7 +117,7 @@ Bursa zaten üretim disiplinini bilen bir şehir. Fabrikalar JIT (Just In Time) 
 
 Bursa'nın farklı sektörlerinde dijital dönüşümün nasıl şekillendiğini somut senaryolarla ele almak faydalı olur. Aşağıdaki örnekler hem sektörün dinamiklerini hem de PORTZEN'in yaklaşımını yansıtıyor.
 
-Senaryo 1 — Nilüfer'de tekstil ihracatçısı: Mevcut durum yıllık 12 milyon TL ciro, Almanya ve İtalya'ya satış, 2017'den kalma sade bir web sitesi, LinkedIn'de hareket yok. Yaptığımız çalışma: 4 dilli yeni web sitesi, LinkedIn'de haftalık üretim içeriği, fuar öncesi otomatik e-posta kampanyası, WhatsApp Business üzerinden teklif yönetimi. 10 ayda gelen organik B2B teklif sayısı 4 kat arttı, fuar dışında doğrudan müşteri kazanımı başladı.
+Senaryo 1 — Nilüfer'de tekstil ihracatçısı: Mevcut durum yıllık 12 milyon TL ciro, Almanya ve İtalya'ya satış, 2017'den kalma sade bir web sitesi, LinkedIn'de hareket yok. Yaptığımız çalışma: 4 dilli yeni web sitesi, LinkedIn'de haftalık üretim içeriği, fuar öncesi otomatik e-posta kampanyası, WhatsApp Business üzerinden teklif yönetimi. Üretim hatlarının drone çekimleri ve makine yakın planları yerine [yapay zeka video üretimi](/yapay-zeka-video-uretimi) ile aylık 8-12 fuar tanıtım klibi üretip LinkedIn ve YouTube'da paylaştık. 10 ayda gelen organik B2B teklif sayısı 4 kat arttı, fuar dışında doğrudan müşteri kazanımı başladı.
 
 Senaryo 2 — Osmangazi'de kestane şekeri üreticisi: Mevcut durum 50 yıllık aile işletmesi, sadece showroom satışı, Instagram'da 800 takipçi. Yaptığımız çalışma: Üretim süreci reels stratejisi, Google Business optimizasyonu, kargo entegrasyonu olan e-ticaret altyapısı, ramazan ve bayram öncesi WhatsApp kampanyaları. 8 ayda Türkiye geneline kargo satış aylık cironun %35'ini oluşturmaya başladı.
 

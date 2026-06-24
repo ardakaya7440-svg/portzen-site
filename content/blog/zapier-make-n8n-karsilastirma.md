@@ -101,7 +101,7 @@ Türkiye'deki KOBİ'ler için **Make + n8n karması** en mantıklı çözüm:
 
 Tek ihtiyacınız uygun bir VPS (DigitalOcean ₺350/ay) + kurulum desteği. Bunun nasıl yapıldığını [n8n kurulum hizmeti](/n8n-kurulum-hizmeti) sayfamızda detaylandırdık.
 
-Karşılaştırma için ayrıca [Zapier alternatifi](/zapier-alternatifi) yazımızda Türk uygulamaları nasıl entegre edeceğinizi anlatıyoruz.
+Karşılaştırma için ayrıca [Zapier alternatifi](/zapier-alternatifi) yazımızda Türk uygulamaları nasıl entegre edeceğinizi anlatıyoruz. Bu otomasyonların önemli bir bölümü Facebook Lead Ads, Instagram form ve CTW reklamlarından gelen leadleri CRM'e taşımakla ilgili; reklam tarafını bir [Meta reklam ajansı](/meta-reklam-ajansi) ile, otomasyon tarafını PORTZEN ile birleştirmek lead funnelını uçtan uca verimli hale getiriyor.
 
 ## Sık Yapılan Hatalar
 

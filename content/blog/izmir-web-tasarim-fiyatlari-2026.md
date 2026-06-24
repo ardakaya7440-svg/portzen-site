@@ -99,6 +99,8 @@ Site sonsuza kadar "kurup bırakılan" şey değil. Aylık bakım sözleşmesi 2
 
 **Yerel backlink:** İzmir Ticaret Odası, sektörel İzmir derneği siteleri, yerel haber siteleri, sektörel İzmir blogları. Bu link profili Google için "İzmir'de aktif bir işletme" sinyali verir.
 
+Site yayına girdikten sonra Google'dan organik trafiğin oturması 4-6 ay sürer; bu süreçte boş kalmamak için pek çok İzmirli KOBİ web tasarım sürecini bir [sosyal medya ajansı](/sosyal-medya-ajansi) hizmetiyle paralel yürütüyor; böylece site hazır olduğu gün Instagram ve Reels tarafından sürekli trafik akmaya başlıyor.
+
 Bu üç işi yapan ajansla yapmayan ajansın fiyat farkı zaten teklifte görülüyor; ucuz teklif çoğunlukla bu üç işten en az ikisini içermiyor.
 
 ## 3 Tipik İzmir Senaryosu ve Gerçekçi Bütçeler

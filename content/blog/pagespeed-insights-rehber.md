@@ -107,7 +107,7 @@ PORTZEN'in 2026 Q1 denetlemesinde Türkiye'nin en çok ziyaret edilen 100 sitesi
 | 50 - 89 | 41 | 63 |
 | 0 - 49 | 51 | 15 |
 
-Yani **mobilde her 2 büyük siteden 1'i kırmızı bölgede**. Bu, küçük işletmeler için bir fırsat: rakip büyük markalar mobil hızda kötüyse, doğru kurulmuş bir Next.js sitenizle SEO'da öne geçmeniz çok mümkün. [Lighthouse skoru 90 üstü optimizasyon](/blog/lighthouse-skoru-90-optimizasyon) yazımızda bu süreci detaylıca anlattık.
+Yani **mobilde her 2 büyük siteden 1'i kırmızı bölgede**. Bu, küçük işletmeler için bir fırsat: rakip büyük markalar mobil hızda kötüyse, doğru kurulmuş bir Next.js sitenizle SEO'da öne geçmeniz çok mümkün. [Lighthouse skoru 90 üstü optimizasyon](/blog/lighthouse-skoru-90-optimizasyon) yazımızda bu süreci detaylıca anlattık. Hızlı bir altyapıya organik trafik akıtmak için profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile düzenli içerik üretimi PSI yatırımının geri dönüşünü hızlandıran ikinci motor.
 
 ## En Sık Görülen 5 Performans Problemi ve Çözümü
 
@@ -229,6 +229,6 @@ PORTZEN olarak performans optimizasyonunu "tek seferlik bir hız ayarı" olarak 
 
 Hizmetimizin farkı şu: sadece "skoru yükseltmek" yerine **dönüşüme etki eden hızı** önceliklendiriyoruz. Yani LCP'yi 4 saniyeden 2 saniyeye indirmek, INP'yi 600ms'den 180ms'ye çekmek, CLS'i 0.0'a yaklaştırmak — bunlar gerçek satış metriklerini değiştiren değişiklikler. [Web Tasarım](/web-tasarim) hizmetimiz bu altyapıyı sıfırdan kuran projeler için, mevcut sitesini iyileştirmek isteyenler için ise ayrı optimizasyon paketlerimiz var. Detayları öğrenmek isteyenlere [kurumsal web sitesi rehberi](/blog/kurumsal-web-sitesi-rehberi) yazımızı da öneririz.
 
-Performans kalıcı bir yatırımdır. Mobilde 90+ skora ulaşan bir site, Google sıralamasında 3-5 sıra yükselir, reklam Quality Score'u artar, organik tıklama oranı yükselir. Bu üç etki birleştiğinde 6 ay içinde yapılan yatırımın 4-8 katı geri döner.
+Performans kalıcı bir yatırımdır. Mobilde 90+ skora ulaşan bir site, Google sıralamasında 3-5 sıra yükselir, reklam Quality Score'u artar, organik tıklama oranı yükselir. Bu üç etki birleştiğinde 6 ay içinde yapılan yatırımın 4-8 katı geri döner. Reklam Quality Score'unu landing page hızı ile birleştirip ciroya çevirmek için profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) desteği bu döngünün son halkası.
 
 **Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.

@@ -103,7 +103,7 @@ Konya mobilya üreticisinin showroom'u zaten en büyük varlığı. Sorun bu var
 - WhatsApp Business kataloğunda her ürünün fotoğraf, fiyat ve stoğunun olması
 - Pinterest hesabı — Pinterest mobilya alıcısı için Google'dan daha önemli
 
-[AI reklam videosu](/ai-reklam-videosu) hizmetimiz Konya mobilya üreticisinin haftalık reels üretimini sürdürülebilir hale getiriyor. Çekilen 5-10 dakikalık ham görüntüden 8-12 farklı kısa video formatı çıkarıyoruz.
+[AI reklam videosu](/ai-reklam-videosu) hizmetimiz Konya mobilya üreticisinin haftalık reels üretimini sürdürülebilir hale getiriyor. Çekilen 5-10 dakikalık ham görüntüden 8-12 farklı kısa video formatı çıkarıyoruz. Showroom çekimine vakit ayıramayan üreticiler için ise Higgsfield ve Seedance tabanlı [yapay zeka video üretimi](/yapay-zeka-video-uretimi) tek bir ürün fotoğrafından sinema kalitesinde sahne üretiyor.
 
 ## Made in Konya: Yerel Kimliği Marka Avantajına Çevirmek
 
@@ -116,7 +116,7 @@ Konya mobilya üreticisinin showroom'u zaten en büyük varlığı. Sorun bu var
 - İstanbul ve İzmir gibi rekabet yoğun pazarlarda "Konya'dan direkt size" mesajı
 - Mevlana, ney, sufi estetiğinin tasarım dilinde sadece uygun yerlerde kullanılması
 
-PORTZEN olarak Konya'da çalıştığımız bir butik mobilya markasında "Made in Konya" kimliğini ön plana çıkardık. Marka 6 ayda İstanbul satışlarının %35'ini Instagram üzerinden, doğrudan tüketiciden almaya başladı. Toptancı bağımlılığı önemli ölçüde azaldı.
+PORTZEN olarak Konya'da çalıştığımız bir butik mobilya markasında "Made in Konya" kimliğini ön plana çıkardık. Marka 6 ayda İstanbul satışlarının %35'ini Instagram üzerinden, doğrudan tüketiciden almaya başladı. Toptancı bağımlılığı önemli ölçüde azaldı. Bu sürecin satış tarafını ölçeklendirmek için il bazlı kampanyalar yürüten bir [Meta reklam ajansı](/meta-reklam-ajansi) ile İstanbul, Ankara, İzmir hedefli koltuk takımı kampanyaları çok kısa sürede TGD (üreticiden tüketiciye) cirosunu katlıyor.
 
 ## Instagram DM Otomasyonu: Mesaj Trafiğini Yönetmek
 

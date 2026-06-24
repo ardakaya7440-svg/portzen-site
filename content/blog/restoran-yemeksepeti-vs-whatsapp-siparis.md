@@ -86,7 +86,7 @@ Pratik uygulama şöyle ilerliyor:
 
 Bu modelde 6 ayın sonunda cironun yüzde 40-50'si WhatsApp'a kayıyor. Restoran komisyon ödediği oranı yüzde 15'ten yüzde 7-8'e düşürüyor. PORTZEN'in kurduğu sistemlerde gördüğümüz tipik geçiş süresi 4-6 ay arasında. Aynı modeli [QR menü ve online sipariş](/blog/restoran-qr-menu-online-siparis) yazımızda masa içi senaryolar için de açıklamıştık.
 
-Hibrit model için ek olarak Instagram DM otomasyonu da kuruyoruz. Müşteri Instagram'dan "menü?" yazdığında otomatik olarak WhatsApp linki ve menü gönderiliyor. Detayları [Instagram DM otomasyonu restoran](/instagram-dm-otomasyonu/restoran) sayfasında inceleyebilirsiniz.
+Hibrit model için ek olarak Instagram DM otomasyonu da kuruyoruz. Müşteri Instagram'dan "menü?" yazdığında otomatik olarak WhatsApp linki ve menü gönderiliyor. Detayları [Instagram DM otomasyonu restoran](/instagram-dm-otomasyonu/restoran) sayfasında inceleyebilirsiniz. Restoranın yeni müşteri bulmasını yemeksepeti reklamına bağımlı tutmak yerine, mahalle ve şehir bazlı [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle Facebook ve Instagram üzerinden hedefli reklam yürütmek, komisyonsuz müşteri akışını çoğaltıyor.
 
 ## KDV %10 Fatura Kesimi ve Muhasebe Akışı
 
@@ -110,7 +110,7 @@ Paket servis bir restoran için en stresli operasyondur. Sipariş alma, doğru h
 - Tekrar siparişler kolaylaşıyor: "Geçen haftaki gibi olsun" diyen müşteriye AI asistan geçmiş siparişi hatırlatıp onay alıyor
 - Tahsilat sorunu azalıyor: Ödeme linki WhatsApp'tan gönderiliyor, müşteri kurye gelmeden ödüyor, kuryenin para üstü derdi kalkıyor
 
-Bu operasyonel avantajlar sadece müşteri memnuniyetini değil, çalışan verimliliğini de yükseltiyor. Telefondan sipariş alan personelin yükü azalıyor, salonda servis kalitesi artıyor. PORTZEN'in [restoran web tasarım](/web-tasarim/restoran) hizmetinde menü, QR kod, WhatsApp entegrasyonu ve Google Maps konumu tek sayfada birleştirilmiş şekilde sunuluyor. Web sitesi restoranın dijital vitrini olurken, sipariş trafiği WhatsApp'a yönlendiriliyor.
+Bu operasyonel avantajlar sadece müşteri memnuniyetini değil, çalışan verimliliğini de yükseltiyor. Telefondan sipariş alan personelin yükü azalıyor, salonda servis kalitesi artıyor. PORTZEN'in [restoran web tasarım](/web-tasarim/restoran) hizmetinde menü, QR kod, WhatsApp entegrasyonu ve Google Maps konumu tek sayfada birleştirilmiş şekilde sunuluyor. Restoranın görsel kimliğini ve Instagram-TikTok akışını sistemli yöneten bir [sosyal medya ajansı](/sosyal-medya-ajansi) ise hibrit modelin yeni müşteri kazanma ayağını besliyor. Web sitesi restoranın dijital vitrini olurken, sipariş trafiği WhatsApp'a yönlendiriliyor.
 
 ## Sıkça Sorulan Sorular
 

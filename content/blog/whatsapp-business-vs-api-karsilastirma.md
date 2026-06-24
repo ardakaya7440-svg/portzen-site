@@ -86,7 +86,7 @@ Aşağıda gerçek sektör örnekleri üzerinden hangi sürümün ne zaman doğr
 - **Çağrı merkezi yerine WhatsApp**: birden çok temsilci aynı numaradan yazıyor
 - **AI chatbot kullanılacak**: programatik tetikleme şart
 
-Eğer kendinizi ikinci listede üç ya da daha fazla maddede buluyorsanız, API yatırımı geri dönüşü altı ay içinde alır. Detaylı kurulum tarafında [WhatsApp Business API kurulum rehberimiz](/blog/whatsapp-business-api-kurulum) adım adım süreci anlatıyor.
+Eğer kendinizi ikinci listede üç ya da daha fazla maddede buluyorsanız, API yatırımı geri dönüşü altı ay içinde alır. Detaylı kurulum tarafında [WhatsApp Business API kurulum rehberimiz](/blog/whatsapp-business-api-kurulum) adım adım süreci anlatıyor. API'ye geçen markaların büyük çoğunluğu CTW (Click-to-WhatsApp) reklamlarıyla lead akışı kuruyor; bu kampanyaların performansını profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile yönetmek, mesaj başına maliyeti ciddi biçimde düşürüyor.
 
 ## Maliyet Karşılaştırması: Üç Boyutta Bakış
 

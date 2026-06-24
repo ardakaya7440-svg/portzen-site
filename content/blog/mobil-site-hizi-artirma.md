@@ -33,7 +33,7 @@ Bu tablo neden 0.5 saniyelik iyileştirmenin bile gerçek para olarak geri dönd
 
 ### Google'ın Sıralama Algoritmasındaki Yeri
 
-Core Web Vitals 2021'den beri sıralama faktörü, ancak 2024 INP güncellemesiyle bu metrik mobil cihazlarda çok daha sert ölçülüyor. Mobil Lighthouse skoru 50'nin altında olan bir sayfa, Google'ın "page experience" sinyalinde negatif puan alıyor ve aynı içeriği daha hızlı sunan rakibe sıralamayı kaptırıyor. Hızın SEO ile birlikte değerlendirilmesi gerektiğini [Lighthouse skoru 90+ optimizasyon rehberi](/blog/lighthouse-skoru-90-optimizasyon) yazımızda metrik bazında işledik.
+Core Web Vitals 2021'den beri sıralama faktörü, ancak 2024 INP güncellemesiyle bu metrik mobil cihazlarda çok daha sert ölçülüyor. Mobil Lighthouse skoru 50'nin altında olan bir sayfa, Google'ın "page experience" sinyalinde negatif puan alıyor ve aynı içeriği daha hızlı sunan rakibe sıralamayı kaptırıyor. Hızın SEO ile birlikte değerlendirilmesi gerektiğini [Lighthouse skoru 90+ optimizasyon rehberi](/blog/lighthouse-skoru-90-optimizasyon) yazımızda metrik bazında işledik. Mobil hız iyileştikten sonra çok kanallı sosyal trafiği bu hızlı altyapıya çekmek için profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile içerik takvimi disiplini kurmak organik dönüşümü katlıyor.
 
 ## Önce Ölçüm: PageSpeed Insights ve GTmetrix
 
@@ -231,6 +231,6 @@ PORTZEN olarak mobil hız optimizasyonunu izole bir teknik iş olarak değil, si
 
 Tipik bir hız optimizasyonu projemiz 2-4 hafta sürer ve dört aşamadan oluşur: mevcut durum tespiti (Lighthouse, GTmetrix, WebPageTest, CrUX), önceliklendirme (kazanç/zorluk matrisi), uygulama (12 yöntem + sitenize özel teknikler), ölçüm ve raporlama. Daha köklü bir yenileme planlıyorsanız [web tasarım hizmetimiz](/web-tasarim) çerçevesinde Next.js + Sanity tabanlı modern bir altyapıya geçişin maliyet/fayda analizini birlikte yapıyoruz. Konunun stratejik tarafı için [kurumsal web sitesi rehberi](/blog/kurumsal-web-sitesi-rehberi) yazımızı da incelemenizi öneririz.
 
-Site hızı, ertelenen ama her ay para kaybettiren bir konudur. Mobil ziyaretçinin yarısı 3 saniyede gidiyorsa, reklam bütçenizin yarısı boşa harcanıyor demektir. Doğru kurulduğunda hız optimizasyonu kendisini 30-90 gün içinde fazlasıyla amorti eden bir yatırım. Asıl soru "ne zaman yapacağız" değil, "kaç ay daha kaybedeceğiz" sorusu.
+Site hızı, ertelenen ama her ay para kaybettiren bir konudur. Mobil ziyaretçinin yarısı 3 saniyede gidiyorsa, reklam bütçenizin yarısı boşa harcanıyor demektir. Doğru kurulduğunda hız optimizasyonu kendisini 30-90 gün içinde fazlasıyla amorti eden bir yatırım. Asıl soru "ne zaman yapacağız" değil, "kaç ay daha kaybedeceğiz" sorusu. Sayfa hızı düzeldikten sonra reklam tarafında da kaybı durdurmak için deneyimli bir [Meta reklam ajansı](/meta-reklam-ajansi) ile mobile-first kreatif yapısı kurmak şart.
 
 **Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.

@@ -110,7 +110,7 @@ Mali müşavirlik web sitesinde olması gerekenler.
 - KVKK uyumlu iletişim formu
 - WhatsApp butonu
 
-Web sitesinin SEO açısından da düzgün olması gerekiyor. Mali müşavirlik araması yapan kişi hem yerel hem mesleki güven arıyor. [Kurumsal web sitesi rehberi](/blog/kurumsal-web-sitesi-rehberi) yazımız bu konuda detaylı.
+Web sitesinin SEO açısından da düzgün olması gerekiyor. Mali müşavirlik araması yapan kişi hem yerel hem mesleki güven arıyor. [Kurumsal web sitesi rehberi](/blog/kurumsal-web-sitesi-rehberi) yazımız bu konuda detaylı. SMMM ofisinin LinkedIn ve Instagram'da kurumsal görünür kalması için ayrıca bir [sosyal medya ajansı](/sosyal-medya-ajansi) desteğiyle düzenli içerik üretmek, referans dışında gelen leadlerin kalitesini artırıyor.
 
 Site üzerinden gelen lead, CRM'e otomatik düşmeli. "İzmir limited şirket kurulumu" araması yaparak gelen birinin formu doldurması, hangi serbest muhasebeci mali müşavire atanacağı belli olmalı. Bu konuda [sales funnel KOBİ kurulumu](/blog/sales-funnel-kobi-kurulum) yazımız genel yaklaşımı açıklıyor.
 

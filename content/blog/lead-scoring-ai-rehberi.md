@@ -96,7 +96,7 @@ Lead ne kadar hızlı yanıt veriyor? Mesajınıza 5 dakikada cevap veren biri, 
 | 40-69 | Sarı | E-posta + WhatsApp ile takip, satış henüz aramasın |
 | 70-100 | Yeşil | Satış ekibine anında bildirim, 1 saat içinde ara |
 
-Bu sistem sayesinde satış ekibi yeşil lead'lere odaklanır, sarılar otomatik nurture'a girer, kırmızılar zamanınızı çalmaz.
+Bu sistem sayesinde satış ekibi yeşil lead'lere odaklanır, sarılar otomatik nurture'a girer, kırmızılar zamanınızı çalmaz. Yeşil lead hacmini büyütmek için kaynak başına maliyeti optimize eden bir [Meta reklam ajansı](/meta-reklam-ajansi) ile çalışmak, lead scoring sisteminin gerçek değerini ortaya çıkarıyor — çünkü kalifiye lead akışı olmadan en iyi scoring modeli bile boşa çalışır.
 
 ## AI'nın Lead Scoring'e Katkısı
 

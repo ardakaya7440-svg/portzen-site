@@ -45,7 +45,7 @@ Bu altyapı şunları sağlıyor.
 - Geçmiş yazışmaların aranabilir kayıt altında tutulması
 - CRM sistemine bağlanma ve otomatik bildirimler
 
-PORTZEN olarak [eğitim sektörü WhatsApp AI asistan](/whatsapp-ai-asistani/egitim) hizmetimizde tam bu sistemi anaokulları için kuruyoruz. WhatsApp Business API'nin teknik kurulumu için [WhatsApp Business API kurulum rehberi](/blog/whatsapp-business-api-kurulum) yazımız faydalı.
+PORTZEN olarak [eğitim sektörü WhatsApp AI asistan](/whatsapp-ai-asistani/egitim) hizmetimizde tam bu sistemi anaokulları için kuruyoruz. WhatsApp Business API'nin teknik kurulumu için [WhatsApp Business API kurulum rehberi](/blog/whatsapp-business-api-kurulum) yazımız faydalı. Anaokulları aynı zamanda kayıt dönemlerinde Meta üzerinden veli kitlesine ulaşmak için profesyonel [Meta reklam ajansı](/meta-reklam-ajansi) desteği alarak Facebook ve Instagram'da hedefli kampanya yürütebiliyor.
 
 ## Velinin Sık Sorduğu 30 Soru ve Otomatik Yanıtlar
 
@@ -150,7 +150,7 @@ PORTZEN'in [eğitim sektörü web tasarım](/web-tasarim/egitim) hizmeti bu stan
 
 ## Veli Gelişim Raporu ve Düzenli Bildirim
 
-Modern velinin temel beklentilerinden biri, çocuğun okuldaki gelişimine dair düzenli bilgi almak. Geleneksel sistemde bu sadece "veli toplantısı" günlerinde yapılıyor. Modern yaklaşım, küçük dokunuşlarla bunu sürekli hale getiriyor.
+Modern velinin temel beklentilerinden biri, çocuğun okuldaki gelişimine dair düzenli bilgi almak. Geleneksel sistemde bu sadece "veli toplantısı" günlerinde yapılıyor. Modern yaklaşım, küçük dokunuşlarla bunu sürekli hale getiriyor. Aynı zamanda Instagram ve Facebook hesabınızı düzenli besleyen bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile veli ve aday veli grubuna kurum kültürünü göstermek, hatırlatma sisteminin tamamlayıcısı oluyor.
 
 Aylık gelişim mesajları örnekleri.
 

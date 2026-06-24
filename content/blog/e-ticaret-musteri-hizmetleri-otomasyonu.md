@@ -88,7 +88,7 @@ Etkili bir cart abandonment akışı şu şekilde olmalı:
 
 Bu üç dokunuşlu akış sepet kurtarma oranını **%6'dan %22'ye** çıkarıyor. Aylık 100 bin TL'lik terk edilen sepet hacmi olan bir mağaza için bu, ayda 16-22 bin TL ekstra ciro demek.
 
-WhatsApp üzerinden çalışan cart recovery akışlarının email'den 3.4 kat daha yüksek açılma oranı olduğunu eklemeden geçmeyelim. Müşteri WhatsApp mesajını saniyeler içinde açıyor, email'i saatler sonra (eğer açarsa). Sektörel kurulum için [e-ticaret için WhatsApp AI asistanı](/whatsapp-ai-asistani/e-ticaret) sayfamıza bakabilirsiniz.
+WhatsApp üzerinden çalışan cart recovery akışlarının email'den 3.4 kat daha yüksek açılma oranı olduğunu eklemeden geçmeyelim. Müşteri WhatsApp mesajını saniyeler içinde açıyor, email'i saatler sonra (eğer açarsa). Recovery akışını besleyen retargeting kampanyalarını yönetmek için [Meta reklam ajansı](/meta-reklam-ajansi) tarafıyla bütünleşik çalışmak, sepet terk eden kullanıcıyı 24 saat içinde tekrar yakalamayı kolaylaştırıyor. Sektörel kurulum için [e-ticaret için WhatsApp AI asistanı](/whatsapp-ai-asistani/e-ticaret) sayfamıza bakabilirsiniz.
 
 ## İade ve Değişim: Karmaşık Süreci Basitleştirmek
 
@@ -121,7 +121,7 @@ Türkiye e-ticaretinde ortalama CLV 4.2 ay, AOV ise 380 TL civarında. CRM enteg
 
 **Tekrar satın alma:** Tükenmesi muhtemel ürünlerde (kozmetik, vitamin, mama) tükenme tarihinde otomatik hatırlatma. Tekrar satın alma oranı %34'ten %58'e çıkıyor.
 
-**VIP segmentasyonu:** En çok harcayan %10 müşteriye özel teklifler ve erken erişim. CLV %42 artıyor.
+**VIP segmentasyonu:** En çok harcayan %10 müşteriye özel teklifler ve erken erişim. CLV %42 artıyor. Aynı segmentasyon, [Meta reklam ajansı](/meta-reklam-ajansi) tarafındaki Advantage+ Shopping ve lookalike kampanyalarını besleyen birinci taraf veri kaynağına dönüşüyor.
 
 **Win-back kampanyaları:** 90 gün alışveriş yapmamış müşterilere kişiselleştirilmiş geri çağırma. %12-18 müşteri geri kazanılıyor.
 

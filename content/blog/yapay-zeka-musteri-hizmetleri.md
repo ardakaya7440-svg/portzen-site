@@ -49,7 +49,7 @@ Sayılarla ölçülmeyen ama belki de en kritik etki şu: müşteriniz size 23.0
 
 ### 1. Çok Kanallı Giriş Katmanı
 
-Müşteriler size WhatsApp, Instagram DM, web sitesi sohbet kutusu, e-posta ve hatta Facebook Messenger üzerinden ulaşıyor olabilir. AI sistemi tüm bu kanalları **tek bir gelen kutusunda** birleştirmeli. Aksi takdirde personel kanal kanal gezmek zorunda kalır; bu da hızı öldürür.
+Müşteriler size WhatsApp, Instagram DM, web sitesi sohbet kutusu, e-posta ve hatta Facebook Messenger üzerinden ulaşıyor olabilir. AI sistemi tüm bu kanalları **tek bir gelen kutusunda** birleştirmeli. Aksi takdirde personel kanal kanal gezmek zorunda kalır; bu da hızı öldürür. Gelen kutusunu besleyen organik akışı yöneten [sosyal medya ajansı](/sosyal-medya-ajansi) ile AI ekibinin aynı dashboard'u görmesi, tekrarlayan soruları kaynağında çözmeyi kolaylaştırıyor.
 
 ### 2. Doğal Dil Anlama Motoru (LLM)
 
@@ -154,7 +154,7 @@ Bu rakamı bir müşteri temsilcisinin yıllık maliyetiyle (300.000-450.000 TL 
 
 **2. Proaktif müşteri hizmetleri.** Müşterinin sorun yaşamadan önce uyarılması. "Geçen aldığınız ürünün kullanım süresi yarın doluyor" gibi mesajlar AI tarafından otomatik üretilecek.
 
-**3. Multimodel AI.** Müşterinin gönderdiği fotoğrafı analiz eden AI. "Bu ürün arızalandı, ne yapmalıyım?" diye fotoğraf gönderildiğinde AI tanımlayıp iade sürecini başlatacak.
+**3. Multimodel AI.** Müşterinin gönderdiği fotoğrafı analiz eden AI. "Bu ürün arızalandı, ne yapmalıyım?" diye fotoğraf gönderildiğinde AI tanımlayıp iade sürecini başlatacak. Aynı multimodal yetkinlik, [yapay zeka video üretimi](/yapay-zeka-video-uretimi) tarafında müşteri yorumlarını otomatik testimonial videolarına dönüştürmeye başlıyor.
 
 Bu trendler için altyapı bugünden hazırlanmalı. Şimdi çekirdek AI sistemini kuran KOBİ'ler, 2027'de bu yeniliklere üzerine ekleme yaparak geçecek; sıfırdan kurmaya kalkanlar 1-2 yıl geride kalacak.
 

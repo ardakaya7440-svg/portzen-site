@@ -103,7 +103,7 @@ KOBİ bütçesi sınırlı olduğundan, içerik üretim maliyeti ve reklam maliy
 
 TikTok reklamları daha ucuz görünse de, dönüşüm oranı genelde Reels'in altında kalır. Aynı 1.000 TL'lik reklam bütçesi TikTok'ta 30 satış, Reels'te 18 satış getirebilir; ancak Reels'teki satışların ortalama sepet tutarı %40 daha yüksek olabilir. Yani net karlılık genelde Reels'te daha iyi (özellikle premium ürünlerde).
 
-AI ile içerik üretimi son iki yılda KOBİ'ler için oyun kurucu oldu. [AI reklam videoları üretimi](/ai-reklam-videosu) ile bir butik veya restoran, ajansa ödediği bütçenin %30'una içerik üretebiliyor; bu konuda [AI reklam videoları](/blog/ai-reklam-videolari) yazımız detayları açıklıyor.
+AI ile içerik üretimi son iki yılda KOBİ'ler için oyun kurucu oldu. [AI reklam videoları üretimi](/ai-reklam-videosu) ile bir butik veya restoran, ajansa ödediği bütçenin %30'una içerik üretebiliyor; bu konuda [AI reklam videoları](/blog/ai-reklam-videolari) yazımız detayları açıklıyor. Higgsfield, Seedance ve Veo 3 gibi modelleri pratikte kullanan bir [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetiyle TikTok ve Reels için haftalık seri içerik üretmek artık günler değil saatler sürüyor.
 
 ## Algoritma ve Organik Erişim Farkı
 
@@ -131,7 +131,7 @@ Aşağıdaki matris, sizin durumunuza göre en uygun platformu seçmenize yardı
 | Marka bilinirliği istiyorum | TikTok (viral potansiyeli) |
 | Lead/satış odaklıyım | Reels (DM otomasyonu ile) |
 
-Reels'e odaklanırsanız, gelen ilgiyi otomatik müşteriye dönüştürmek için [Instagram DM otomasyonu](/instagram-dm-otomasyonu) kurmalısınız. Aksi takdirde gelen DM'lere geç dönerek satış kaybedersiniz. Eğer butik veya restoran işletiyorsanız [butikler için Instagram DM otomasyonu](/instagram-dm-otomasyonu/butik) ve [restoranlar için çözümümüze](/instagram-dm-otomasyonu/restoran) göz atabilirsiniz.
+Reels'e odaklanırsanız, gelen ilgiyi otomatik müşteriye dönüştürmek için [Instagram DM otomasyonu](/instagram-dm-otomasyonu) kurmalısınız. Aksi takdirde gelen DM'lere geç dönerek satış kaybedersiniz. İçerik üretimi, hashtag stratejisi ve DM yönetimini bütünleşik kuran bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak, TikTok ya da Reels tercihinizi tek başına bir aksiyon olmaktan çıkarıp bir satış sistemine dönüştürüyor. Eğer butik veya restoran işletiyorsanız [butikler için Instagram DM otomasyonu](/instagram-dm-otomasyonu/butik) ve [restoranlar için çözümümüze](/instagram-dm-otomasyonu/restoran) göz atabilirsiniz.
 
 ## İçerik Stratejisi: İki Platformu Birlikte Yönetmek
 

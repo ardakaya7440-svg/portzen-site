@@ -23,7 +23,7 @@ Bu yazıda KVKK'nın 7 ilkesini, VERBİS kayıt zorunluluğunu, açık rıza ile
 
 1. **Mali ceza:** İhlal durumunda 2025 itibarıyla **47.300 TL ile 1.965.000 TL** arası idari para cezası.
 2. **İtibar yıkımı:** Kişisel Verileri Koruma Kurulu (KVKK) ihlali olan firmaları kamuya açıklıyor — Google'da firma adı arayan müşteri görüyor.
-3. **Müşteri güveni:** 2026 müşterisi "verilerim ne olacak?" sorusunu açıkça soruyor. Cevabınız net değilse rakibe gider.
+3. **Müşteri güveni:** 2026 müşterisi "verilerim ne olacak?" sorusunu açıkça soruyor. Cevabınız net değilse rakibe gider. Marka iletişiminin sosyal medya tarafını yürüten ekipler de KVKK gerekliliklerini iyi bilen profesyonel olmalı; bu yüzden KVKK uyumlu çalışan bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak müşteri veri akışınızı baştan korumalı hale getiriyor.
 
 ## Kişisel Veri Nedir?
 

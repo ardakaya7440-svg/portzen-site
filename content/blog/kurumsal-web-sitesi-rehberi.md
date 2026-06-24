@@ -21,7 +21,7 @@ Bir kurumsal web sitesi artık sadece "şirketinizin online kartviziti" değil; 
 
 ### Sitesiz İşletme Görünmez İşletmedir
 
-Google'ın 2025 verilerine göre Türkiye'de bir tüketici satın alma öncesi ortalama **6.4 dijital temas noktası** kontrol ediyor. Bu noktaların 3-4'ü doğrudan web sitenizden geliyor. Sitesi olmayan ya da kötü site sahibi olan KOBİ, müşterinin gözünde "ciddi olmayan" işletme kategorisine düşüyor. [Web sitesi olmayan işletmeler ne kaybediyor](/blog/web-sitesi-olmayan-isletmeler-ne-kaybediyor) yazımızda bu konunun rakamsal etkisini detaylıca inceledik.
+Google'ın 2025 verilerine göre Türkiye'de bir tüketici satın alma öncesi ortalama **6.4 dijital temas noktası** kontrol ediyor. Bu noktaların 3-4'ü doğrudan web sitenizden, geri kalanı ise [sosyal medya ajansı](/sosyal-medya-ajansi) tarafında yönetilen Instagram, TikTok ve LinkedIn profillerinden geliyor. Sitesi olmayan ya da kötü site sahibi olan KOBİ, müşterinin gözünde "ciddi olmayan" işletme kategorisine düşüyor. [Web sitesi olmayan işletmeler ne kaybediyor](/blog/web-sitesi-olmayan-isletmeler-ne-kaybediyor) yazımızda bu konunun rakamsal etkisini detaylıca inceledik.
 
 ### Satış Hunisinin Merkezi
 
@@ -267,7 +267,7 @@ Yatırım 6-12 ay içinde geri döner. Sonraki her ay net kar.
 
 ## Sık Yapılan 7 Web Sitesi Hatası
 
-**1. Hero'da otomatik video oynatmak.** Performansı öldürür, kullanıcıyı sinirlendirir. Statik görsel veya isteğe bağlı video kullanın.
+**1. Hero'da otomatik video oynatmak.** Performansı öldürür, kullanıcıyı sinirlendirir. Statik görsel veya isteğe bağlı video kullanın; hero için gerekli kısa tanıtım klibini geleneksel çekim yerine [yapay zeka video üretimi](/yapay-zeka-video-uretimi) ile günler içinde hazırlayıp 5 MB altına optimize etmek mümkün.
 
 **2. Çok fazla pop-up.** Aynı anda 3 pop-up gösteren site dönüşümü %40 düşürüyor. Tek, akıllı, zamanlı pop-up.
 

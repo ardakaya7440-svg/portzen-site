@@ -13,7 +13,7 @@ ogImage: "/blog/og/istanbul-sosyal-medya-ajansi-rehberi.png"
 
 # İstanbul Sosyal Medya Ajansı Seçim Rehberi: 2026 Karar Kılavuzu
 
-**İstanbul sosyal medya ajansı** arayışı 2026'da neredeyse her KOBİ'nin gündeminde. Maslak'taki kurumsal ofiste 15 kişilik bir ajans, Kadıköy'deki butik bir studyoda 4 kişilik bir ekip, Levent'teki ABD kökenli bir network ajansının Türkiye ofisi, Beşiktaş'taki tek kişilik bir freelancer ve İstanbul Anadolu yakasında remote çalışan 8 kişilik bir hibrit ekip aynı brief'e tamamen farklı fiyatlar ve farklı yaklaşımlarla cevap veriyor. Üstelik 2026'da "sosyal medya ajansı" tek bir hizmet değil; içerik üretimi, reklam yönetimi, influencer pazarlaması, topluluk yönetimi, AI destekli otomasyon, performans pazarlaması gibi çok katmanlı bir paketin adı. Bu yazıda PORTZEN olarak İstanbul'da onlarca müşteri brief'inde gözlemlediğim ajans seçim dinamiklerini, 2026 fiyat bantlarını ve "doğru" ajansı bulmak için adım adım kullanabileceğiniz bir karar matrisi sunuyorum.
+**İstanbul sosyal medya ajansı** arayışı 2026'da neredeyse her KOBİ'nin gündeminde. Doğru [sosyal medya ajansı](/sosyal-medya-ajansi) seçimi sadece içerik kalitesi değil, raporlama şeffaflığı ve hizmet kapsamıyla da ilgili. Maslak'taki kurumsal ofiste 15 kişilik bir ajans, Kadıköy'deki butik bir studyoda 4 kişilik bir ekip, Levent'teki ABD kökenli bir network ajansının Türkiye ofisi, Beşiktaş'taki tek kişilik bir freelancer ve İstanbul Anadolu yakasında remote çalışan 8 kişilik bir hibrit ekip aynı brief'e tamamen farklı fiyatlar ve farklı yaklaşımlarla cevap veriyor. Üstelik 2026'da "sosyal medya ajansı" tek bir hizmet değil; içerik üretimi, reklam yönetimi, influencer pazarlaması, topluluk yönetimi, AI destekli otomasyon, performans pazarlaması gibi çok katmanlı bir paketin adı. Bu yazıda PORTZEN olarak İstanbul'da onlarca müşteri brief'inde gözlemlediğim ajans seçim dinamiklerini, 2026 fiyat bantlarını ve "doğru" ajansı bulmak için adım adım kullanabileceğiniz bir karar matrisi sunuyorum.
 
 ## İstanbul Sosyal Medya Ajansı Pazarının 2026 Fotoğrafı
 
@@ -126,7 +126,7 @@ PORTZEN'de İstanbul'daki müşterilerimizle çalıştığımız sektörlerden d
 
 **Restoran ve cafe:** Reels ağırlıklı içerik, lokasyon bazlı reklam. Aylık 18.000-35.000 TL paket. Kadıköy, Beşiktaş ve Beyoğlu'ndaki restoranlar için Google Business + Instagram kombinasyonu kritik.
 
-**E-ticaret:** Performans + content + influencer üçlüsü. Aylık 50.000 TL+ paket. Reklam bütçesi en az 50.000 TL/ay.
+**E-ticaret:** Performans + content + influencer üçlüsü. Aylık 50.000 TL+ paket. Reklam bütçesi en az 50.000 TL/ay. Bu bütçenin Facebook ve Instagram tarafının doğru kurgulanması için bir [Meta reklam ajansı](/meta-reklam-ajansi) ile kampanya optimizasyonu yapılması, CPL'i ciddi biçimde aşağı çekiyor.
 
 **B2B hizmet:** LinkedIn ağırlıklı strateji, içerik pazarlama. Aylık 30.000-60.000 TL paket. Şirket merkezi Maslak/Levent çevresinde olan B2B'ler için LinkedIn + içerik makaleleri en yüksek ROI'yi veriyor.
 

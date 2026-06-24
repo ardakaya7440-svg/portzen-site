@@ -52,7 +52,7 @@ Bu akışı manuel resepsiyonla yapan bir otelin ortalama tamamlanma süresi 4-6
 
 İlginç bir taktik: pek çok otel OTA'larda gözükmek için reklam veriyor ama o trafiği kendi kanalına çekmiyor. WhatsApp üzerinden çalışan bir sistem kurduğunuzda, OTA'lardan size yazan misafire "doğrudan rezervasyon yaparsanız %10 indirim + ücretsiz transfer" teklifi sunabilirsiniz. Bu, sezon boyunca cironuzun %12-18'ini OTA komisyonundan kurtarıp kendi cebinize aktarmanın en kolay yolu.
 
-Tabii bunun için kendi sitenizin de hızlı, mobil uyumlu ve direkt rezervasyon altyapısına sahip olması gerekiyor. [Otel web sitesi tasarımı](/web-tasarim/otel) konusunda neye dikkat edilmesi gerektiğini ayrı bir yazıda detaylandırdık.
+Tabii bunun için kendi sitenizin de hızlı, mobil uyumlu ve direkt rezervasyon altyapısına sahip olması gerekiyor. [Otel web sitesi tasarımı](/web-tasarim/otel) konusunda neye dikkat edilmesi gerektiğini ayrı bir yazıda detaylandırdık. OTA trafiğinin yanı sıra doğrudan rezervasyonu büyütmek için Facebook ve Instagram'da bölgesel kampanyalar yürüten bir [Meta reklam ajansı](/meta-reklam-ajansi) ile çalışmak, sezon öncesi erken rezervasyonu önemli ölçüde tetikliyor.
 
 ## Check-in / Check-out Otomasyonu ve No-Show Azaltma
 
@@ -172,7 +172,7 @@ Türkiye'de yaygın kullanılan PMS yazılımlarının büyük çoğunluğu (Ele
 İyi kurulmuş bir sistemde fark etmez. Üstelik fark etse bile rahatsız olmaz çünkü cevaplar hızlı ve doğru. Şikayet veya kompleks talep durumunda zaten otomatik olarak insana devredilir.
 
 **Sezon dışında da fayda sağlar mı?**
-Evet. Sezon dışında ekibi daraltan otellerde bile WhatsApp asistanı 7/24 çalışır. Bahar aylarında gelen "yaz için fiyatlarınız ne?" mesajlarına anında cevap vererek erken rezervasyonları yakalar.
+Evet. Sezon dışında ekibi daraltan otellerde bile WhatsApp asistanı 7/24 çalışır. Bahar aylarında gelen "yaz için fiyatlarınız ne?" mesajlarına anında cevap vererek erken rezervasyonları yakalar. Bu dönemde otelin Instagram ve TikTok hesabını da besleyen [yapay zeka video üretimi](/yapay-zeka-video-uretimi) ile oda ve tesis turu videoları üretmek, erken rezervasyon talebini katlıyor.
 
 **Çok dilli destek için ek ücret var mı?**
 Hayır. AI asistan altyapı olarak çok dilli çalışır. Türkçe, İngilizce, Almanca, Rusça, Arapça aynı sistem içinden yönetilir.

@@ -148,7 +148,7 @@ Online ödeme alan bir KOBİ için ödeme geldiğinde otomatik fatura kesilmesi 
 - **Adım 3:** Müşteriye PDF fatura mail at
 - **Adım 4:** Eğer ödeme >5000 TL ise satıcıya Telegram bildirimi
 
-Bu tip akışları kendi sektörünüze uyarlamak için [CRM otomasyonu](/crm-otomasyonu) sayfamızdaki örneklere bakabilirsiniz.
+Bu tip akışları kendi sektörünüze uyarlamak için [CRM otomasyonu](/crm-otomasyonu) sayfamızdaki örneklere bakabilirsiniz. n8n ile gelen lead'leri Meta tarafına geri besleyen retargeting ve lookalike kampanyaları için [Meta reklam ajansı](/meta-reklam-ajansi) hizmetimiz, otomasyon zincirinin satış tarafını kapatıyor.
 
 ## Türk Uygulamalarıyla n8n Entegrasyonu
 

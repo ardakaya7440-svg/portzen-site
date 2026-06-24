@@ -30,7 +30,7 @@ WhatsApp AI asistanı, klasik "otomatik cevap" sisteminin çok ötesinde bir yap
 
 Klasik chatbot **kural tabanlıdır**. "Fiyat" kelimesini duyunca fiyat listesini gösterir. "Randevu" kelimesini duyunca randevu formu açar. Müşteri "acaba bu işin ücreti ne kadar tutar" derse anlamaz çünkü "fiyat" kelimesi geçmemiştir. AI asistan ise dili anlar; "ne kadar tutar", "kaç para", "ücreti ne", "fiyat aralığı" gibi onlarca varyasyonu aynı niyet olarak değerlendirir ve doğru cevabı verir.
 
-Bu fark sahada müşteri memnuniyetinde ciddi bir ayrım yaratıyor. Bir [AI bot kurulumu](/whatsapp-ai-asistani) ile klasik şablon cevap sistemi arasındaki müşteri tatmin farkı yapılan iç ölçümlerimizde %40'a yakın çıkıyor.
+Bu fark sahada müşteri memnuniyetinde ciddi bir ayrım yaratıyor. Bir [AI bot kurulumu](/whatsapp-ai-asistani) ile klasik şablon cevap sistemi arasındaki müşteri tatmin farkı yapılan iç ölçümlerimizde %40'a yakın çıkıyor. Aynı bot Instagram DM tarafına da bağlanabiliyor; bu noktada DM yönetimi ve içerik üretimini birlikte yürüten [sosyal medya ajansı](/sosyal-medya-ajansi) ekibimiz tek bir akışta süreci kapatıyor.
 
 ## Türk KOBİ'leri Neden WhatsApp AI Asistanına Geçiyor?
 

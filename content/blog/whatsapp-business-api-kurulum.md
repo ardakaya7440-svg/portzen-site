@@ -64,7 +64,7 @@ Türk pazarında pratikte 3-4 ana seçenek var:
 - Türkçe destek
 - Dezavantaj: bazıları henüz Meta resmi BSP değil — kontrol edin
 
-PORTZEN olarak biz **360dialog + custom backend** kombinasyonu kullanıyoruz çünkü hem Meta resmi hem de Türk uygulamalarla (Logo, Mikro, Iyzico) entegre edebiliyoruz. Detaylı karşılaştırma için [WhatsApp AI Asistanı nedir?](/blog/whatsapp-ai-asistani-nedir) yazımıza bakabilirsiniz.
+PORTZEN olarak biz **360dialog + custom backend** kombinasyonu kullanıyoruz çünkü hem Meta resmi hem de Türk uygulamalarla (Logo, Mikro, Iyzico) entegre edebiliyoruz. Click-to-WhatsApp reklamlarıyla bu altyapıyı doğrudan besleyen bir [Meta reklam ajansı](/meta-reklam-ajansi) iş birliği, API'nin günlük mesaj hacmini ölçeklendirmek için en hızlı yol. Detaylı karşılaştırma için [WhatsApp AI Asistanı nedir?](/blog/whatsapp-ai-asistani-nedir) yazımıza bakabilirsiniz.
 
 ## Kurulum Adımları — Adım Adım
 

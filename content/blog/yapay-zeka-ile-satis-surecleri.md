@@ -82,7 +82,7 @@ AI ile gelen tüm konuşmalar bir CRM sisteminde toplanmalı. Aksi halde her şe
 - **Zoho CRM** (Türkçe destek iyi)
 - **Notion CRM** (özelleştirilebilir, hafif)
 
-[CRM otomasyonu rehberi](/blog/crm-otomasyonu-rehberi) yazımızda hangi CRM'in hangi işletmeye uygun olduğunu detaylıca açıkladık. Kritik nokta: AI bot ile CRM arasındaki bağlantı **gerçek zamanlı** olmalı. Müşteri WhatsApp'tan "fiyat" yazdığı an CRM'de yeni bir deal oluşmalı, satıcının önüne notification düşmeli.
+[CRM otomasyonu rehberi](/blog/crm-otomasyonu-rehberi) yazımızda hangi CRM'in hangi işletmeye uygun olduğunu detaylıca açıkladık. Kritik nokta: AI bot ile CRM arasındaki bağlantı **gerçek zamanlı** olmalı. Müşteri WhatsApp'tan "fiyat" yazdığı an CRM'de yeni bir deal oluşmalı, satıcının önüne notification düşmeli. CRM içindeki sıcak lead'leri retargeting ve lookalike kampanyalarına dönüştürmek için bir [Meta reklam ajansı](/meta-reklam-ajansi) ile çalışmak, satış hunisinin üst tarafını otomatik besliyor.
 
 ### Lead Skorlama Algoritması Nasıl Kurulur?
 

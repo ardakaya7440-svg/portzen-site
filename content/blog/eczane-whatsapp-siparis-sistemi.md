@@ -27,7 +27,7 @@ Eczane operasyonu sandığınızdan daha çok mesajlaşma içeriyor. PORTZEN'in 
 - Kronik hasta tekrarlı reçete takibi (yaklaşık yüzde 10)
 - Çalışma saatleri, nöbet bilgisi, adres (yaklaşık yüzde 10)
 
-Bu beş kategorinin neredeyse tamamı otomatikleştirilebilir. Eczacı sadece ITS doğrulaması, ilaç hazırlama ve hassas vakalarda devreye giriyor. Bu sayede günde 2-3 saatlik telefon ve mesaj yükü, 20-30 dakikaya iniyor.
+Bu beş kategorinin neredeyse tamamı otomatikleştirilebilir. Eczacı sadece ITS doğrulaması, ilaç hazırlama ve hassas vakalarda devreye giriyor. Bu sayede günde 2-3 saatlik telefon ve mesaj yükü, 20-30 dakikaya iniyor. Yeni müşteri akışını da büyütmek isteyen eczaneler, [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle Click-to-WhatsApp reklamlarını devreye alarak çevre semtlerden doğrudan sipariş mesajı topluyor.
 
 ### Klasik akışta neden tıkanıyor?
 

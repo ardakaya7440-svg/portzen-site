@@ -29,7 +29,7 @@ TÜBİSAD'ın 2025 raporuna göre Türkiye e-ticaret hacmi **2,8 trilyon TL**'yi
 - **Entegrasyon duvarına çarpmak:** Iyzico bağlandı, kargo bağlanmadı; e-fatura ayrı modülde tıkanıyor.
 - **Mecburi göç:** 12. ayda platform değiştirmek zorunda kalıp tüm SEO'yu, URL yapısını ve müşteri verisini yeniden inşa etmek.
 
-[Kurumsal web sitesi rehberi](/blog/kurumsal-web-sitesi-rehberi) yazımızda altyapı kararlarının uzun vadeli etkisini detaylıca işlemiştik; e-ticarette bu etki daha da büyük çünkü operasyon doğrudan platforma bağımlı.
+[Kurumsal web sitesi rehberi](/blog/kurumsal-web-sitesi-rehberi) yazımızda altyapı kararlarının uzun vadeli etkisini detaylıca işlemiştik; e-ticarette bu etki daha da büyük çünkü operasyon doğrudan platforma bağımlı. Platform kararı verildikten sonra Facebook/Instagram Shop ve katalog reklamlarını profesyonel olarak yönetmek için bir [Meta reklam ajansı](/meta-reklam-ajansi) ile çalışmak ilk 90 günde sipariş hacmini gerçek anlamda büyütüyor.
 
 ## Shopify vs WooCommerce: 10 Kriterli Karşılaştırma Tablosu
 
@@ -172,7 +172,7 @@ Karar "hangi platform daha iyi" değil, "sizin iş modeliniz için hangisi daha 
 
 **Profil:** 80-300 SKU, aylık 200-800 sipariş, 2 kişilik ekip, hızlı kampanya çevirimi.
 
-**Tercih:** **Shopify**. Sebep: butik moda satıcısı sürekli yeni koleksiyon, kampanya, Instagram entegrasyonu yapıyor. Shopify'ın hızlı tema değişimi, hazır email otomasyonu (Shopify Email, Klaviyo entegrasyonu) ve Instagram Shop bağlantısı bu tip işletme için altın değerinde. Aylık 3.500 TL maliyet, kazanılan zamanla fazlasıyla karşılanıyor.
+**Tercih:** **Shopify**. Sebep: butik moda satıcısı sürekli yeni koleksiyon, kampanya, Instagram entegrasyonu yapıyor. Shopify'ın hızlı tema değişimi, hazır email otomasyonu (Shopify Email, Klaviyo entegrasyonu) ve Instagram Shop bağlantısı bu tip işletme için altın değerinde. Aylık 3.500 TL maliyet, kazanılan zamanla fazlasıyla karşılanıyor. Bu modelde reels + story ekosistemini disiplinle besleyen bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak organik trafiği reklam üzerine bindirerek toplam ciroyu katlıyor.
 
 ### Senaryo 2: Klinik / Sağlık Hizmeti (Online Randevu + Ürün)
 

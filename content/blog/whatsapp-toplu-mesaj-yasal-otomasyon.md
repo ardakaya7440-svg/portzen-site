@@ -68,7 +68,7 @@ Hangisi sizin için doğru?
 - Aylık 200-2.000 kontak: API'ye geçmek mantıklı, ROI olumlu
 - Aylık 2.000+ kontak: API zorunlu, App ile sürdürülemez
 
-Şirketinizin bir yıl içinde 2.000 kontak hedefi varsa baştan API'ye yatırım yapın, yarı yolda göç maliyeti yüksektir. [WhatsApp Business vs API karşılaştırması](/blog/whatsapp-business-vs-api-karsilastirma) yazımız bu kararı detaylı veriyor.
+Şirketinizin bir yıl içinde 2.000 kontak hedefi varsa baştan API'ye yatırım yapın, yarı yolda göç maliyeti yüksektir. [WhatsApp Business vs API karşılaştırması](/blog/whatsapp-business-vs-api-karsilastirma) yazımız bu kararı detaylı veriyor. Kontak listenizi büyütmek isteyenler ise yasal opt-in toplama yöntemi olarak [Meta reklam ajansı](/meta-reklam-ajansi) ile Click-to-WhatsApp ve Lead Ads reklamlarını devreye alarak kontak listesini sıfırdan KVKK uyumlu şekilde oluşturuyor.
 
 ## Adım 2: BSP (Business Solution Provider) Seçin (1-2 saat)
 

@@ -83,7 +83,7 @@ TBB'nin reklam yasağı, içerik üretimini değil reklamı yasaklıyor. Bu fark
 - Vatandaşların yapabileceği başvuru türleri ve formları
 - Hukuki terimlerin tanımları
 
-Bu içerikler hem Google'da arama yapan potansiyel müvekkillerin sitenize ulaşmasını sağlıyor hem de sayfayı okuyan kişide "bu büro işini biliyor" hissini yaratıyor. Reklam değil, yetkinlik kanıtı. Bu yaklaşımın nasıl bir içerik takvimine dönüşeceğini [sosyal medya içerik takvimi](/blog/sosyal-medya-icerik-takvimi) yazımızda bulabilirsiniz.
+Bu içerikler hem Google'da arama yapan potansiyel müvekkillerin sitenize ulaşmasını sağlıyor hem de sayfayı okuyan kişide "bu büro işini biliyor" hissini yaratıyor. Reklam değil, yetkinlik kanıtı. Bu yaklaşımın nasıl bir içerik takvimine dönüşeceğini [sosyal medya içerik takvimi](/blog/sosyal-medya-icerik-takvimi) yazımızda bulabilirsiniz. İçerik üretimi, LinkedIn yönetimi ve hukuki bilgilendirme paylaşımlarını TBB etik çerçevesinde yürüten bir [sosyal medya ajansı](/sosyal-medya-ajansi) desteği, bu süreci profesyonel hale getiriyor.
 
 İçerik üretmek için her gün masa başında saatlerce çalışmak gerekmiyor. AI destekli içerik üretimi, avukatın kafasındaki bilgiyi yazıya dökerken ciddi zaman kazandırıyor. Önemli olan içeriğin hukuki doğruluğunun avukat tarafından kontrol edilmesi.
 
