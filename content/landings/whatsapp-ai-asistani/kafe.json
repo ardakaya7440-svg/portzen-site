@@ -1,0 +1,107 @@
+{
+  "sectorSlug": "kafe",
+  "sectorName": "Kafe",
+  "sectorPlural": "Kafeler",
+  "title": "Kafeler İçin WhatsApp AI Asistanı | Brunch Rezervasyonu + Menü Sorgulama - PORTZEN",
+  "description": "Kafeler için WhatsApp AI asistanı. Brunch rezervasyonu, kahvaltı tabağı fiyatları, specialty kahve menüsü, atmosfer ve müsait masa sorgulamasını otomatik yanıtlar.",
+  "keywords": ["kafe whatsapp asistanı", "kafe rezervasyon botu", "brunch rezervasyon", "specialty kahve menü", "kafe otomasyon", "kafe için chatbot"],
+  "h1": "Kafeler için WhatsApp AI Asistanı",
+  "heroSubtitle": "Brunch rezervasyonu, menü fiyat sorgusu, specialty kahve detayları ve atmosfer/wifi sorularına 7/24 otomatik yanıt - baristanız siparişe odaklansın, asistan mesajlara baksın.",
+  "stats": [
+    {"value": "7/24", "label": "Yanıt Süresi"},
+    {"value": "%83", "label": "Otomatik Yanıt Oranı"},
+    {"value": "12 sn", "label": "Ortalama Yanıt"},
+    {"value": "Brunch", "label": "Rezervasyon Akışı"}
+  ],
+  "problems": [
+    "Brunch için 'masa var mı' soruları sabah 9-11 arası WhatsApp'ı kilitliyor, barista siparişten kopuyor",
+    "Müşteri 'kahvaltı tabağı kaç kişilik, kaç TL' diye soruyor, cevaplayana kadar başka kafeye gidiyor",
+    "Specialty kahve menünüzdeki V60, Chemex, AeroPress farkını her müşteriye tek tek anlatmak zaman kaybı",
+    "'Wifi var mı, ders çalışmak için uygun mu' soruları gün boyu tekrarlanıyor, aynı yanıtı 30 kere yazıyorsunuz",
+    "Hafta sonu brunch rezervasyonu için aranıyor ama mesai sonrası mesajlara bakılamıyor, müşteri kayboluyor",
+    "Sezon menüsü değişiyor ama eski menü WhatsApp Business katalog'da kalıyor, müşteriye yanlış fiyat gidiyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Kafe Brief & Menü Toplama", "description": "Kafe konseptinizi (specialty kahve, brunch, çalışma kafesi vb.), menünüzü, sezon ürünlerini, sıkça gelen 30-50 soruyu, çalışma saatleri ve rezervasyon politikanızı alıyoruz."},
+    {"title": "2. AI Asistan Eğitimi", "description": "GPT-4 / Claude tabanlı asistanı kafenize özel eğitiyoruz - specialty kahve terminolojisi, brunch saatleri (genelde 09:00-15:00), rezervasyon kapasiteniz, atmosfer detayları, müzik politikası, evcil hayvan kuralı."},
+    {"title": "3. WhatsApp Business API + Rezervasyon", "description": "Meta resmi WhatsApp Business API kurulumu. Brunch rezervasyonu (tarih, saat, kişi sayısı), masa müsaitliği kontrolü, menü görseli + fiyat gönderimi, lokasyon paylaşımı otomatik."},
+    {"title": "4. Devir & Eğitim", "description": "Karmaşık sorular (özel etkinlik talebi, akademi/oyun günü organizasyonu vb.) baristaya devrediliyor. Yönetim panelinden konuşma geçmişi ve istatistikler takip ediliyor."}
+  ],
+  "features": [
+    {"title": "Brunch Rezervasyon Akışı", "description": "Müşteri 'brunch için rezerve etmek istiyorum' yazdığında asistan tarih, saat, kişi sayısı sorguluyor, müsait masaya yerleştirip rezervasyon kodu gönderiyor. Hafta sonu doluluk sorunu çözülüyor."},
+    {"title": "Menü + Fiyat Sorgulama", "description": "'V60 kaç TL', 'kahvaltı tabağı kaç kişilik' gibi sorulara fotoğraflı + fiyatlı otomatik yanıt. Sezon menü değişince admin panelden güncellenir, asistan yeni fiyatla yanıt verir."},
+    {"title": "Specialty Kahve Bilgilendirme", "description": "V60, Chemex, AeroPress, espresso fark, single origin kahve özellikleri, demleme süreleri - müşteri sorusuna eğitimli yanıt, baristanız tek tek anlatmaktan kurtuluyor."},
+    {"title": "Atmosfer & Çalışma Uygunluğu", "description": "'Wifi var mı', 'priz var mı', 'sesli toplantı yapılır mı', 'müzik nasıl' soruları otomatik yanıtlanır. Çalışma kafesi pozisyonundayken bu sorular gün boyu geliyor."},
+    {"title": "Sezon & Etkinlik Bildirimi", "description": "Yeni sezon menü, akademi günü, oyun gecesi, sanat etkinliği gibi duyuruları kayıtlı müşterilere toplu mesaj olarak gönderebilirsiniz (Meta onaylı şablon)."},
+    {"title": "Yönetim Paneli + Analitik", "description": "Hangi sorular en çok geliyor, hangi saatlerde mesaj yoğun, rezervasyon dönüşüm oranı kaç - tüm metriklere panel üzerinden erişim."}
+  ],
+  "caseStudy": {
+    "title": "Kadıköy - Specialty Kahve Kafesi: Aylık Brunch Rezervasyonu 45 → 280, Mesaj Yanıt Süresi 3 saatten 11 saniyeye",
+    "paragraphs": [
+      "Kadıköy Moda'da specialty kahve + brunch konsepti çalışan butik bir kafe 2025 Şubat'ında PORTZEN'e geldi. 2 baristalı bir ekip, hafta sonu sabahları WhatsApp'tan gelen 'masa var mı' soruları siparişle yetişmiyordu. Müşteri mesajına 2-3 saat sonra dönülüyordu, çoğu kayıp gidiyordu.",
+      "10 günde WhatsApp Business API + AI asistan kurduk. Menü (28 ürün), sezon brunch fiyatları, specialty kahve detayları (8 farklı demleme metodu), masa kapasitesi (24 kişilik), rezervasyon politikası (max 2 saatlik slot, hafta sonu hold süresi) sisteme yüklendi.",
+      "İlk ay otomatik yanıt oranı %78'e çıktı, ortalama yanıt süresi 3 saatten 11 saniyeye düştü. 3. ay sonunda aylık brunch rezervasyonu 45'ten 280'e ulaştı, hafta sonu doluluk %95'e çıktı. Baristalar artık siparişe odaklanıyor, asistan menü ve rezervasyon sorularını kapatıyor."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Brunch Rezervasyonu", "before": "45", "after": "280"},
+      {"label": "Ortalama Mesaj Yanıt Süresi", "before": "3 saat", "after": "11 sn"},
+      {"label": "Otomatik Yanıt Oranı", "before": "%0", "after": "%78"},
+      {"label": "Hafta Sonu Doluluk", "before": "%62", "after": "%95"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Kafe Starter",
+      "price": "5.500 TL + 800 TL/ay",
+      "description": "Tek lokasyonlu butik kafe için temel asistan",
+      "features": [
+        "WhatsApp Business API kurulumu",
+        "Menü + fiyat sorgulama (50 ürüne kadar)",
+        "Basit rezervasyon akışı",
+        "Çalışma saatleri / lokasyon bilgisi",
+        "30 sık sorulan soru eğitimi",
+        "Aylık 1.000 konuşma dahil"
+      ]
+    },
+    {
+      "name": "Kafe Pro",
+      "price": "11.000 TL + 1.500 TL/ay",
+      "description": "Aktif specialty kafe ve brunch mekanları için en popüler paket",
+      "features": [
+        "Tam rezervasyon yönetimi (tarih/saat/kişi)",
+        "Sınırsız menü ürünü + sezon güncelleme",
+        "Specialty kahve eğitimli yanıtlar",
+        "Atmosfer + wifi + çalışma sorgu yanıtı",
+        "Etkinlik / akademi günü bildirimleri",
+        "Yönetim paneli + analitik",
+        "Aylık 5.000 konuşma dahil"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kafe Premium",
+      "price": "20.000 TL + 2.800 TL/ay",
+      "description": "Çoklu şube ve zincirleşen kafe markaları için",
+      "features": [
+        "Çoklu şube yönetimi",
+        "Şube bazlı menü ve rezervasyon",
+        "Çoklu dil (TR/EN)",
+        "Sadakat / damga sistemi entegrasyonu",
+        "POS sistem entegrasyonu (opsiyonel)",
+        "Aylık 15.000 konuşma dahil",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Asistan ne kadar sürede aktif olur?", "answer": "Kafe Starter 5-7 gün, Kafe Pro 8-12 gün, Premium 15-20 gün. Meta WhatsApp Business API onayı 24-72 saat sürüyor, bu süre dahil."},
+    {"question": "Yeni sezon menüsünü ben güncelleyebilir miyim?", "answer": "Evet, admin panelinden 2-3 dakikada yeni ürün ekleyebilir, fiyat değiştirebilirsiniz. Asistan anında güncel menüden yanıt verir, sezon değişiminde ajans beklemeniz gerekmez."},
+    {"question": "Kahve terminolojisini gerçekten doğru anlatabiliyor mu?", "answer": "Evet, GPT-4 tabanlı asistanı kafenizin specialty kahve menüsüyle özel eğitiyoruz. V60, Chemex, AeroPress demleme farkları, single origin tanımları, asit/tatlılık profilleri - barista seviyesinde yanıt veriyor. Eğitim sırasında 3-4 örnek konuşma birlikte test ediyoruz."},
+    {"question": "Restoran asistanından farkı ne?", "answer": "Kafe konsepti farklı - brunch saatleri (09:00-15:00 pencere), kısa süreli masa rezervasyonu (2 saat), çalışma uygunluğu / wifi soruları, specialty kahve detayları, daha sık ziyaret eden müşteri profili. Restoran ajansı değiliz, kafe ekosistemine özel akış kuruyoruz."},
+    {"question": "Brunch rezervasyonunda overbooking olur mu?", "answer": "Hayır, asistan masa kapasitenizi (örn. 8 masa x 4 kişi) ve mevcut rezervasyonları kontrol ediyor. Dolu slot için müşteriye alternatif saat öneriyor. Hafta sonu hold süresini siz belirliyorsunuz (örn. 15 dakika geçen müşteri için masa serbest)."},
+    {"question": "Etkinlik veya akademi günü duyurusu gönderebilir miyim?", "answer": "Evet, daha önce iletişime geçmiş müşterilere Meta onaylı şablon mesajla toplu duyuru gönderebilirsiniz. Latte art workshop, kahve akademisi, oyun gecesi gibi etkinlikler için ideal. Şablon onayı 24 saat sürüyor."},
+    {"question": "Aylık konuşma limiti aşılırsa ne olur?", "answer": "Kafe Pro pakette 5.000 konuşma var, ortalama bir kafe için fazlasıyla yetiyor. Aşım durumunda konuşma başına 0.40 TL ek ücret. Yoğun dönem için daha üst pakete geçiş indirimli yapılır."}
+  ],
+  "finalCtaHeadline": "Kafenizin WhatsApp'ını 10 günde otomatikleştirin",
+  "finalCtaSubtitle": "20 dakikalık tanıtım görüşmesi yeterli. Mevcut WhatsApp trafiğinizi değerlendirip size özel asistan akışı tasarlıyoruz. WhatsApp'tan veya formdan ulaşın."
+}

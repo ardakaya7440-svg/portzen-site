@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "veteriner",
+  "sectorName": "Veteriner",
+  "sectorPlural": "Veteriner Klinikleri",
+  "title": "Veteriner Klinikleri İçin WhatsApp AI Asistanı | 7/24 Randevu, Aşı Hatırlatma - PORTZEN",
+  "description": "Veteriner klinikleri için WhatsApp AI asistanı. 7/24 randevu açma, aşı takvimi hatırlatma, acil yönlendirme, parazit ilacı bildirimi ve ev ziyareti planlama.",
+  "keywords": ["veteriner whatsapp asistanı", "veteriner randevu sistemi", "klinik whatsapp ai", "aşı hatırlatma sistemi", "veteriner otomasyon", "evcil hayvan randevu"],
+  "h1": "Veteriner Klinikleri için WhatsApp AI Asistanı",
+  "heroSubtitle": "Hasta sahibi gece 23'te 'kedimin gözü sulanıyor' yazdığında bile yanıtlayan, aşı takvimini takip eden, randevu açan AI asistanı. Klinik içi yoğunlukta hat boş kalmaz.",
+  "stats": [
+    {"value": "7/24", "label": "Aktif Yanıt"},
+    {"value": "%62", "label": "No-show Azalması"},
+    {"value": "12 sn", "label": "Ortalama Yanıt"},
+    {"value": "Aşı Takvimi", "label": "Otomatik"}
+  ],
+  "problems": [
+    "Klinik dolu, telefon çalıyor, resepsiyon yetişemiyor, hasta sahibi başka kliniğe gidiyor",
+    "Mesai dışı (akşam, hafta sonu) WhatsApp'a düşen mesajları sabah görüyorsunuz, müşteri çoktan kaybolmuş",
+    "Kuduz aşısı, karma aşı, parazit ilacı zamanları hasta sahibine hatırlatılmıyor, takvim aksıyor",
+    "Acil durum mu, normal kontrol mü ayırt edemiyorsunuz, her arayan eşit önemde sanılıyor",
+    "Randevu telefon üzerinden alınıyor, defter dolu, çakışmalar oluyor, ev ziyareti planlamaları karışıyor",
+    "Hasta sahibi 'irmik bitiyor, hangisini almıştık' sorusu için arıyor, geçmiş bilgiyi her seferinde yeniden anlatıyorsunuz"
+  ],
+  "solutionSteps": [
+    {"title": "1. Klinik Brief & Hizmet Haritası", "description": "Verdiğiniz hizmetler (aşılama, kısırlaştırma, mikroçip, ev ziyareti, pet hotel, acil bakım), uzmanlık alanlarınız (kedi, köpek, egzotik), randevu süreciniz ve fiyat aralıklarınızı çıkartıyoruz."},
+    {"title": "2. AI Eğitimi & Senaryolar", "description": "Hasta sahibi soruları (aşı zamanı, fiyat, semt, acil durum), aşı takvimi mantığı (kuduz yıllık, karma 3 dozluk vb.), acil/rutin ayrımı, ev ziyareti koşulları AI'a öğretiliyor."},
+    {"title": "3. WhatsApp Business + CRM Entegrasyonu", "description": "WhatsApp Business API kurulumu, klinik yönetim sisteminize (Vetera, VetSoft veya Excel) bağlantı, randevu defteri senkronizasyonu, hasta kartı erişimi."},
+    {"title": "4. Test, Yayın & İzleme", "description": "2 hafta test dönemi, gerçek hasta sahibi senaryolarıyla iyileştirme, canlıya alma. Aylık performans raporu (yanıtlanan mesaj, randevu, no-show oranı)."}
+  ],
+  "features": [
+    {"title": "7/24 Randevu Açma", "description": "Hasta sahibi 'pazartesi öğleden sonra Pamuk için kontrol' yazınca AI takvimde boş slot kontrol ediyor, randevu açıyor, otomatik onay mesajı gönderiyor. Resepsiyon işi azalıyor."},
+    {"title": "Aşı Takvimi Hatırlatma", "description": "Kuduz aşısı 11. ayda, karma aşı 3. dozda, parazit ilacı her 3 ayda otomatik hatırlatma. 'Pamuk'un kuduz aşısı 2 hafta sonra, randevu açayım mı?' mesajıyla proaktif iletişim."},
+    {"title": "Acil/Rutin Triaj", "description": "AI hasta sahibinin yazdığı belirtileri okuyor - 'kanama', 'nefes alamıyor', 'zehirli madde' geçiyorsa acil olarak veterinere direkt yönlendiriyor, telefon numarası veriyor. Rutin sorular AI'da kalıyor."},
+    {"title": "Mama / Ürün Sipariş", "description": "Hasta sahibi 'Royal Canin gastro 4kg kaldı mı' sorduğunda stok kontrol + fiyat bildirme, sipariş alma, klinikten teslim/kargo seçeneği. Cüzdandaki son müşteriye ulaşıyorsunuz."},
+    {"title": "Ev Ziyareti Planlama", "description": "Yaşlı hayvan, taşınma stresi veya çoklu hayvan için ev ziyareti talep eden hasta sahibinden adres, hayvan bilgisi, hizmet seçimi alınıyor, uygun veterinerin takvimine işleniyor."},
+    {"title": "Aşı/Sağlık Kartı Kayıt", "description": "Her randevu sonrası verilen aşı, ilaç, tedavi otomatik kayıt altına alınıyor. Hasta sahibi 'son ne zaman irmik aldık' diye sorduğunda AI anında cevap veriyor."}
+  ],
+  "caseStudy": {
+    "title": "İstanbul Kadıköy - Veteriner Kliniği: Aylık Randevu 320 → 540, No-show %38 → %14",
+    "paragraphs": [
+      "Kadıköy'de 2 veteriner hekimle hizmet veren bir klinik 2025 Mart ayında PORTZEN'e geldi. Resepsiyon tek kişi, telefon sürekli çalıyor, yoğun saatlerde mesaj cevaplayamıyorlar, mesai dışı WhatsApp'a düşen mesajlar sabah toplu yanıtlanıyordu. Aşı hatırlatması elle yapılıyor, çoğu hasta unutuyordu.",
+      "Profesyonel paketle WhatsApp AI asistanı kurduk. Mevcut Excel tabanlı randevu sistemini Sanity CMS'e taşıdık, aşı takvimini otomatik hesaplayan kural setini AI'a tanımladık. 800+ kayıtlı hasta için geçmiş aşılar import edildi, asistan ilk haftadan proaktif hatırlatma göndermeye başladı.",
+      "İlk ay 1.200+ mesaj yanıtlandı, %78'i AI'da çözüldü. Aylık randevu 320'den 540'a çıktı, no-show oranı %38'den %14'e düştü çünkü AI 24 saat önce ve 2 saat önce iki kez hatırlatma gönderiyor. Resepsiyon yükü %55 azaldı, veteriner hekimler muayene odasında daha fazla zaman geçirebiliyor."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Randevu", "before": "320", "after": "540"},
+      {"label": "No-show Oranı", "before": "%38", "after": "%14"},
+      {"label": "Mesai Dışı Yanıt", "before": "0", "after": "Anlık"},
+      {"label": "Aşı Takvimi Uyumu", "before": "%45", "after": "%88"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL kurulum + 2.500 TL/ay",
+      "description": "Tek hekimli küçük klinikler ve yeni açılışlar için",
+      "features": [
+        "WhatsApp Business API kurulumu",
+        "Temel randevu açma + onay",
+        "100 hasta kartı import",
+        "Aşı takvimi otomatik hatırlatma",
+        "Mesai dışı otomatik yanıt",
+        "Aylık 1.000 AI mesajı dahil",
+        "Email destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "18.000 TL kurulum + 4.500 TL/ay",
+      "description": "Aktif klinikler için en popüler paket - çoklu hekim destekli",
+      "features": [
+        "Sınırsız hasta kartı",
+        "Çoklu hekim takvim senkron",
+        "Acil/rutin triaj sistemi",
+        "Mama/ürün sipariş modülü",
+        "Ev ziyareti planlama",
+        "CRM entegrasyonu (Vetera, VetSoft)",
+        "Aylık 5.000 AI mesajı dahil",
+        "Aylık performans raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Klinik",
+      "price": "35.000 TL kurulum + 8.500 TL/ay",
+      "description": "Çoklu şube, pet hotel, 24 saat acil servis için",
+      "features": [
+        "Çoklu şube yönetimi",
+        "Pet hotel rezervasyon modülü",
+        "Acil 7/24 hekim çağrı sistemi",
+        "Sadakat puanı + indirim kartı",
+        "Aşı sertifikası PDF üretimi",
+        "Sınırsız AI mesajı",
+        "Özel proje yöneticisi",
+        "Aylık veteriner ekibi eğitimi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "WhatsApp Business API kurulumu için ne gerekiyor?", "answer": "Meta Business hesabı, doğrulanmış telefon numarası ve klinik şirket bilgileriniz yeterli. PORTZEN tüm Meta başvuru süreçlerini sizin adınıza yönetiyor, ortalama 5-8 iş gününde aktif oluyor. Mevcut WhatsApp numaranız kullanılabilir."},
+    {"question": "AI yanlış cevap verirse ne olur?", "answer": "İlk 2 hafta test dönemi var, gerçek mesajları izleyip AI'ı iyileştiriyoruz. Acil durumlarda AI direkt veterinere yönlendiriyor, asla teşhis koymuyor. Şüpheli durumlarda 'bir veteriner hekimimiz sizi arayacak' diyor ve size bildirim gönderiyor."},
+    {"question": "Mevcut klinik yönetim yazılımıyla entegre olur mu?", "answer": "Vetera, VetSoft gibi popüler sistemlerle API entegrasyonumuz var. Excel tabanlı çalışıyorsanız Sanity CMS tabanlı kendi randevu defterimizi kuruyoruz, mevcut verilerinizi import ediyoruz. Hibrit çalışma da mümkün."},
+    {"question": "Aşı takvimi hesabını AI nasıl yapıyor?", "answer": "Türkiye'de standart aşı protokolleri (kuduz yıllık, karma 6-8-12 hafta + yıllık rapel, parazit 3 ayda bir) AI'a tanımlı. Her hasta için son aşı tarihi kaydediliyor, otomatik 2 hafta öncesinden hatırlatma gönderiliyor. Özel protokoller (egzotik hayvan, immün yetmezlik vb.) için manuel ayar yapılabilir."},
+    {"question": "Hasta sahibi AI ile mi konuştuğunu anlıyor mu?", "answer": "İlk mesajda 'Merhaba ben Pati, [klinik] dijital asistanıyım' diye tanıtım yapıyor. Karmaşık veya duygusal durumlarda 'sizi bir hekimimize bağlıyorum' diyerek doğal devir yapıyor. Hasta sahibi rahat hissediyor, gizleme yok."},
+    {"question": "Aylık mesaj limiti aşılırsa ne olur?", "answer": "Profesyonel pakette 5.000 mesaj dahil. Aşım durumunda mesaj başı 0,40 TL ücretlendirme. Çoğu klinikte limit yeterli geliyor, çünkü AI ortalama 3-4 mesajda işi çözüyor. Premium pakette sınırsız."},
+    {"question": "Mesaj gizliliği ve KVKK uyumlu mu?", "answer": "Evet, tüm mesajlar Türkiye'deki sunucularda saklanıyor, KVKK aydınlatma metni ilk mesajda gönderiliyor. Hasta sahibi onayı alınmadan üçüncü partilerle veri paylaşılmıyor. VERBİS kaydı için danışmanlık sağlıyoruz."}
+  ],
+  "finalCtaHeadline": "İlk randevuyu WhatsApp AI ile bu hafta alın",
+  "finalCtaSubtitle": "20 dakikalık klinik demo görüşmesi yeterli. Mevcut süreçlerinizi inceleyip size özel teklif hazırlıyoruz. Test ortamında nasıl çalıştığını canlı gösteriyoruz."
+}

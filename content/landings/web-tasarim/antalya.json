@@ -1,0 +1,162 @@
+{
+  "type": "location",
+  "sectorSlug": "antalya",
+  "sectorName": "Antalya",
+  "sectorPlural": "Antalya'daki İşletmeler",
+  "title": "Antalya Web Tasarım | Çok Dilli Turizm + Local SEO - PORTZEN",
+  "description": "Antalya'daki otel, restoran, transfer ve turizm işletmeleri için çok dilli (TR/EN/RU/DE) Next.js web tasarımı + lokal SEO. Lara, Belek, Side özelinde mahalle bazlı arama.",
+  "keywords": [
+    "antalya web tasarım",
+    "antalya nextjs site",
+    "antalya local seo",
+    "lara web tasarım",
+    "antalya otel sitesi",
+    "antalya çok dilli site"
+  ],
+  "h1": "Antalya İçin Web Tasarım + Local SEO (TR/EN/RU/DE)",
+  "heroSubtitle": "Konyaaltı'ndan Lara'ya, Belek'ten Side'ye, Alanya'dan Kemer'e - turizm sektörünün ruhuna uygun, hızlı, mobil-uyumlu, 4 dilli (TR/EN/RU/DE) Next.js siteleri. Google My Business + Booking entegrasyonu dahil.",
+  "stats": [
+    {"value": "4 Dil", "label": "TR/EN/RU/DE"},
+    {"value": "%98", "label": "PageSpeed"},
+    {"value": "Local SEO", "label": "Dahil"},
+    {"value": "21 gün", "label": "Teslim"}
+  ],
+  "problems": [
+    "Antalya otelinizin sitesi WordPress'te, mobilde 8 saniyede açılıyor, Rus turist 'site açılmadan' Booking'e dönüyor; üstelik Google da yavaş diye sıralamadan arkaya atıyor.",
+    "Google'da 'mahalle + sektör' aramada (örn. 'lara hotel', 'belek golf resort', 'side beach restaurant') rakipleriniz çıkıyor, sizin siteniz 4. sayfada; çünkü Google My Business ve çok dilli lokal SEO yapılmamış.",
+    "Sitenizin sadece Türkçe (veya bozuk İngilizce); oysa Antalya turistinin %75'i Rus/Alman/İngiliz/Skandinav. Yabancı müşteri sayfayı anlamadan kapatıyor, Booking komisyonu %18'e gidiyor.",
+    "Mobil görünüm bozuk; oysa Antalya'da turist aramalarının %88'i mobilden (havaalanı, otel lobisinden). Form, harita, telefon butonu mobilde çalışmıyor, dönüşüm sıfır.",
+    "Eski sitenizde KVKK + GDPR aydınlatma metni yok, çerez politikası eksik; Avrupa müşterisi geldiğinde GDPR ihbar riski + KVKK cezası ikili tehlike."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Antalya Turizm Keşfi",
+      "description": "Rakip analizi (Lara, Belek, Side, Kemer bazında), hedef pazar dağılımı (Rus/Alman/İngiliz), Google My Business denetimi, çok dilli anahtar kelime haritası."
+    },
+    {
+      "title": "Tasarım + Prototip",
+      "description": "Marka kimliğinize uygun, mobil-öncelikli, 4 dilli Figma tasarımı. Lifestyle görseli + lüks tatil hissi. Wireframe → high-fidelity → onay. 2 revizyon dahil."
+    },
+    {
+      "title": "Next.js Geliştirme",
+      "description": "React + Next.js 15 + Tailwind + Vercel deploy. PageSpeed %98+, SEO Schema.org Hotel/Restaurant, KVKK + GDPR + GMB entegrasyonu, çok dilli URL yapısı (/en/, /ru/, /de/)."
+    },
+    {
+      "title": "Yayın + Local SEO Bakım",
+      "description": "Canlıya alma, Google Search Console kurulum, GMB optimizasyon (4 dilli profil), Booking/TripAdvisor entegrasyonu, ilk 3 ay haftalık takip."
+    }
+  ],
+  "features": [
+    {
+      "title": "4 Dilli Site (TR/EN/RU/DE)",
+      "description": "Türkçe + İngilizce + Rusça + Almanca standart. Çeviri ekibimiz (turizm terminolojisi uzmanı) native speaker - AI çeviri kullanmıyoruz. Skandinav dilleri ve Arapça opsiyonel."
+    },
+    {
+      "title": "Bölge + Tip Landing Sayfaları",
+      "description": "Lara butik otel, Belek golf rezort, Side beach restaurant gibi bölge + tip kombinasyonlarına özel optimize alt sayfalar - hem Türkçe hem 3 yabancı dilde."
+    },
+    {
+      "title": "Booking + TripAdvisor Entegrasyon",
+      "description": "Sitenizden doğrudan Booking.com Channel Manager, TripAdvisor, Hotelinking PMS'e rezervasyon gönderimi. Komisyon ödemeden direkt rezervasyon."
+    },
+    {
+      "title": "Google My Business 4 Dilli",
+      "description": "Profil 4 dilde tam kurulum, foto/post, müşteri yorum yönetimi, harita 'pin' optimizasyon. Yabancı turistin arama dilinde profil göster."
+    },
+    {
+      "title": "Next.js + Vercel Hız (Global CDN)",
+      "description": "PageSpeed %98+, ilk paint <1 sn. Vercel Global CDN ile Almanya'dan <40ms, Rusya'dan <80ms açılış. Mobil-öncelikli."
+    },
+    {
+      "title": "KVKK + GDPR Çift Uyum",
+      "description": "Yabancı turist için GDPR (AB), Türk müşteri için KVKK uyumlu çift dil aydınlatma metni, çerez bandı, form izin yönetimi. Hukuki risk sıfır."
+    }
+  ],
+  "caseStudy": {
+    "title": "Lara'da bir butik otel: 6 ayda direkt rezervasyon %450 arttı, Booking komisyonundan 920.000 TL tasarruf",
+    "paragraphs": [
+      "Lara'da 42 odalı bir butik otel, 2018'den kalma sadece Türkçe + bozuk İngilizce WordPress sitesini kullanıyordu. Mobilde 11 saniyede açılıyor, Rus/Alman turisti site sayfasını anlamadan Booking'e gidiyordu. Direkt rezervasyon yıllık ciro içinde sadece %8'di; gerisi Booking/Hotels.com komisyonuna (%15-18) gidiyordu. Google'da 'lara hotel', 'antalya boutique hotel' aramada 5. sayfada.",
+      "PORTZEN olarak Next.js + Tailwind ile sıfırdan 4 dilli (TR/EN/RU/DE) modern site kurduk; 20 bölge + tip landing (lara-butik-otel, lara-spa-otel, antalya-aile-oteli, lara-boutique-hotel, лара-отель, lara-hotel-deutsch), Hotelinking PMS entegrasyonu, Schema.org Hotel etiketleme, GMB 4 dilli profil, GDPR + KVKK çift uyum.",
+      "6 ay sonunda direkt rezervasyon yıllık ciroda %8'den %44'e yükseldi (%450 artış). Booking komisyon ödenmeyen rezervasyondan 920.000 TL tasarruf. Google'da 'lara butik otel' aramada 1. sayfa 2. sıraya, Rusça 'лара отель' aramada 4. sıraya yerleşildi. Yatırım 2. ayında kendini amorti etti."
+    ],
+    "beforeAfter": [
+      {"label": "PageSpeed (Mobil)", "before": "29 (kırmızı)", "after": "97 (yeşil)"},
+      {"label": "Direkt Rezervasyon Oranı", "before": "%8", "after": "%44"},
+      {"label": "Yıllık Komisyon Tasarrufu", "before": "0", "after": "920.000 TL"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Landing Sayfa",
+      "price": "14.000 TL",
+      "description": "Tek lokasyonlu butik otel, restoran, transfer firması için (tek seferlik, TR + EN)",
+      "features": [
+        "Next.js + Tailwind tek sayfa",
+        "Mobil-öncelikli tasarım",
+        "TR + EN 2 dil",
+        "Form + WhatsApp + Booking butonu",
+        "Temel SEO + Schema.org",
+        "KVKK + GDPR + 1 yıl hosting"
+      ]
+    },
+    {
+      "name": "Turizm Marka",
+      "price": "34.000 TL + 2.500 TL/ay",
+      "description": "Otel, restoran zinciri, tur operatörü için (4 dilli)",
+      "features": [
+        "8-12 sayfa kurumsal site",
+        "4 dilli (TR/EN/RU/DE) standart",
+        "8 bölge bazlı landing",
+        "Booking/PMS entegrasyon",
+        "GMB 4 dilli + tam local SEO",
+        "Aylık SEO bakım + rapor"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Otel",
+      "price": "65.000 TL + 3.500 TL/ay",
+      "description": "5+ yıldız otel, golf rezort, lüks zincir için",
+      "features": [
+        "Next.js + özel tasarım + premium görsel",
+        "TR + EN + RU + DE + NO/SV/AR opsiyon",
+        "20+ bölge/tip landing",
+        "Booking Channel Manager + PMS + CRM",
+        "Adanmış hesap yöneticisi",
+        "Öncelikli destek + SLA"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Antalya lokal SEO ne demek, sıradan SEO'dan farkı ne?",
+      "answer": "Lokal SEO, 'bölge + sektör' (örn. 'lara butik otel', 'belek golf resort') aramada öne çıkmak için yapılan optimizasyon. Antalya'da çoğu yabancı turist Rusça/Almanca/İngilizce arama yapıyor; çok dilli lokal SEO kritik."
+    },
+    {
+      "question": "Rusça/Almanca çeviri Google Translate mi yapıyor?",
+      "answer": "Hayır. Turizm terminolojisi uzmanı native speaker çevirmen ekibimizle profesyonel çeviri yapıyoruz. AI çeviri kullanmıyoruz; çünkü Antalya'da küçük çeviri hatası 'profesyonel olmayan' algı yaratıyor, Booking yorumlarına yansıyor."
+    },
+    {
+      "question": "Booking.com komisyonundan kurtulmak için sitem yeterli mi?",
+      "answer": "Evet. Direkt rezervasyon için 3 şart: (1) hızlı mobil site, (2) çok dilli içerik, (3) GMB + Schema.org Hotel etiket. Üçü de pakette dahil. Booking komisyonu %15-18, direkt rezervasyonda sıfır."
+    },
+    {
+      "question": "Antalya'da yerel web ajansları varken neden uzaktan iş?",
+      "answer": "PORTZEN İzmir merkezli, Antalya'da 15+ aktif otel + restoran müşterimiz var. Antalya'da yerel ajanslar 4 dilli çok dilli site için %30-40 daha fazla istiyor. Toplantıları online yapıyoruz; bütçe size kalıyor."
+    },
+    {
+      "question": "Hotelinking, Cloudbeds, ELK PMS'ime bağlanır mı?",
+      "answer": "Evet. Turizm Marka paketinde standart PMS entegrasyonu. Oda müsaitlik, fiyat, rezervasyon onayı sitenizden doğrudan PMS'e gönderiliyor."
+    },
+    {
+      "question": "GDPR ne, neden KVKK ile birlikte lazım?",
+      "answer": "GDPR Avrupa Birliği veri koruma yasası. Antalya'ya gelen Alman, İngiliz, İskandinav turisti AB vatandaşı; verileri GDPR kapsamında. KVKK Türk müşteri için, GDPR yabancı turist için. İkili uyum standart pakette."
+    },
+    {
+      "question": "Aylık SEO bakımı ne içeriyor?",
+      "answer": "Google Search Console takibi (4 dilli sıralama), GMB post yönetimi (4 dilli), Booking/TripAdvisor profil sync, sezonsal kampanya landing güncelleme, aylık 3 saat danışmanlık."
+    }
+  ],
+  "finalCtaHeadline": "Antalya'da Booking komisyonundan kurtulalım, direkt rezervasyon başlasın.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz site audit. Mevcut siteniz + rakipleriniz + Booking komisyon hesabı analizi. 21 günde 4 dilli yeni site canlı."
+}

@@ -1,0 +1,107 @@
+{
+  "sectorSlug": "fotograf-studyo",
+  "sectorName": "Fotoğraf Stüdyosu",
+  "sectorPlural": "Fotoğraf Stüdyoları",
+  "title": "Fotoğraf Stüdyoları İçin CRM Otomasyonu | Çekim Öncesi Brief + Retouching Teslim Takibi - PORTZEN",
+  "description": "Fotoğraf stüdyoları için CRM otomasyonu. Çekim öncesi brief, lokasyon hatırlatma, retouching teslim akışı, galeri paylaşım, yıldönümü tetiklemesi Türkiye'ye özel kurulum.",
+  "keywords": ["fotoğraf stüdyo crm", "wedding photographer crm", "çekim brief otomasyonu", "retouching teslim", "fotoğrafçı müşteri yönetimi", "online galeri teslim"],
+  "h1": "Fotoğraf Stüdyoları için CRM Otomasyonu",
+  "heroSubtitle": "Çekim öncesi brief gönderimi, lokasyon hatırlatma, retouching teslim takibi, online galeri paylaşımı, yıldönümü tetiklemesi - siz çekime odaklanın, asistan müşteri yolculuğunu takip etsin.",
+  "stats": [
+    {"value": "%52", "label": "Referans Müşteri Artışı"},
+    {"value": "2.8x", "label": "Yıldönümü Geri Dönüş"},
+    {"value": "Otomatik", "label": "Çekim Brief + Teslim"},
+    {"value": "WhatsApp + Email", "label": "Kanal"}
+  ],
+  "problems": [
+    "Çekim öncesi müşteriyle 'ne giyilecek, nereye gelinecek, kim katılacak' detaylarını telefonla konuşmak günde 2-3 saat alıyor",
+    "Çekim sonrası 'fotoğraflar ne zaman hazır olur' sorusu haftada 30+ kez geliyor, ekip teslim sürecinde",
+    "Retouching biten fotoğrafları teslim ederken Pixieset / WeTransfer linki gönderiyorsunuz, takip yok",
+    "Düğün yıldönümü gelen müşteriyi tekrar çekime davet etmek aklınıza gelmiyor, kaybediyorsunuz",
+    "Memnun müşteriden referans / yorum istemek için manuel mesaj yazıyorsunuz, ay sonu %80'i atlanıyor",
+    "POS / sözleşme sisteminizde 800+ müşteri kayıtlı ama tekrar pazarlama yapılmıyor, veri ölü"
+  ],
+  "solutionSteps": [
+    {"title": "1. Stüdyo + Müşteri Yolculuğu Analizi", "description": "Stüdyo süreciniz (rezervasyon → kapora → brief → çekim → retouching → teslim → yıldönümü), mevcut müşteri verisi, ortalama teslim süreniz, en kârlı çekim türü analiz edilir."},
+    {"title": "2. CRM + Akış Kurulumu", "description": "HubSpot / Pipedrive / Türkiye uyumlu basit alternatifi kurulumu. Çekim brief şablonları (düğün, nişan, hamile, doğum günü), retouching takip board, online galeri teslim entegrasyonu."},
+    {"title": "3. Otomasyon Akışları", "description": "Kapora ödendi → 7 gün önce çekim brief gönder → 1 gün önce lokasyon + saat hatırlat → çekim sonrası teşekkür → retouching başladı bildirimi → galeri teslim → yıldönümü tetiklemesi (1 yıl sonra)."},
+    {"title": "4. KVKK + Analitik + Eğitim", "description": "KVKK uyumlu izin formu, IYS entegrasyonu, ekip eğitimi (2 saat), aylık performans raporu (kaç çekim, ortalama teslim süresi, yıldönümü dönüşümü)."}
+  ],
+  "features": [
+    {"title": "Çekim Öncesi Brief Otomasyonu", "description": "Kapora ödendikten sonra otomatik brief gönderimi - düğün için 'aile katılımcılar, kıyafet, lokasyon, özel anlar', hamile için 'kıyafet önerisi, eşya getirme listesi'. Müşteri formu dolduruyor, sizin telefonunuza özet geliyor."},
+    {"title": "Lokasyon + Saat Hatırlatma", "description": "Çekim gününden 1 gün önce ve 3 saat önce otomatik hatırlatma (lokasyon, harita linki, fotoğrafçı telefon, ekip kim katılacak). 'Saatini unutan müşteri' sorunu çözülüyor."},
+    {"title": "Retouching Süreç Bildirimi", "description": "Çekim sonrası 'fotoğraflar elimize ulaştı, X gün içinde retouching başlıyor', 'retouching tamamlandı, galeri paylaşılıyor' bildirimleri otomatik. Müşteri sürekli durum sorusu sormuyor."},
+    {"title": "Online Galeri Teslim Akışı", "description": "Retouching biten fotoğraflar online galeri (kendi sistemi veya Pixieset) ile teslim edilir. Müşteri görür görmez 'galeriniz hazır' bildirimi gider, beğeni / indirme istatistikleri size raporlanır."},
+    {"title": "Yıldönümü Tetiklemesi", "description": "Düğün 1. yıldönümü, çocuk doğum günü, evlilik yıldönümü tarihlerinde otomatik 'sizinle tekrar çalışmak istiyoruz' mesajı + özel paket teklifi. Eski müşteri tekrar geliyor."},
+    {"title": "Referans / Yorum Toplama", "description": "Çekim teslim sonrası 7-14 gün içinde otomatik 'memnun kaldıysanız Google'da yorum bırakır mısınız' linki. Bir yıl sonra referans programı tetiklemesi (memnun müşteri arkadaşına çekim öneriyor, %20 indirim)."}
+  ],
+  "caseStudy": {
+    "title": "İstanbul - Wedding Photography Stüdyosu: Aylık Yıldönümü Çekimi 0 → 8, Referans Müşteri %52 Arttı",
+    "paragraphs": [
+      "İstanbul Bostancı'da wedding + nişan + hamile çekimi yapan butik bir fotoğraf stüdyosu 2025 Ocak'ında PORTZEN'e geldi. Yıllık 80-90 düğün çekiyorlardı, kapora aldıktan sonra çekime kadar süreç manuel telefon / WhatsApp ile yönetiliyordu. Yıldönümü pazarlaması hiç yapılmıyordu, eski müşteriye kimseye dönmüyorlardı.",
+      "14 günde CRM + otomasyon akışları kurulumu yapıldı. Çekim brief şablonları (5 çekim türü), retouching takip board, online galeri teslim akışı, yıldönümü tetiklemesi (3 farklı: 1 yıl evlilik, çocuk 1. yaş, evlilik 5. yıl), referans / yorum toplama akışı.",
+      "İlk ay 220 eski müşteri verisi sisteme aktarıldı, otomasyon akışları başlatıldı. 3. ay sonunda aylık 8 yıldönümü çekimi rezerve oldu (önceki yıl 0), Google yorum sayısı 45'ten 180'e çıktı, referans müşteri %52 arttı. Çekim öncesi brief ile müşteri telefon yükü %60 azaldı, ekip retouching kalitesine odaklandı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Yıldönümü Çekimi", "before": "0", "after": "8"},
+      {"label": "Google Yorum Sayısı", "before": "45", "after": "180"},
+      {"label": "Referans Müşteri Artışı", "before": "Baseline", "after": "+%52"},
+      {"label": "Çekim Öncesi Telefon Yükü", "before": "100%", "after": "%40"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Starter CRM",
+      "price": "7.500 TL + 1.300 TL/ay",
+      "description": "Tek fotoğrafçı / butik stüdyo için temel CRM + brief otomasyonu",
+      "features": [
+        "Çekim brief otomasyonu (3 tür)",
+        "1.000 müşteriye kadar yönetim",
+        "Lokasyon + saat hatırlatma",
+        "Online galeri teslim akışı",
+        "Aylık 3.000 mesaj dahil (WhatsApp + SMS)",
+        "KVKK + IYS uyumlu"
+      ]
+    },
+    {
+      "name": "Pro CRM",
+      "price": "13.500 TL + 2.400 TL/ay",
+      "description": "Aktif wedding photographer ve stüdyolar için en popüler",
+      "features": [
+        "Sınırsız müşteri + tüm çekim türleri brief",
+        "Retouching süreç bildirim akışı",
+        "Yıldönümü tetiklemesi (3 farklı senaryo)",
+        "Referans / yorum toplama akışı",
+        "Online galeri entegrasyonu",
+        "Aylık performans + segment raporu",
+        "Aylık 10.000 mesaj dahil"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium CRM",
+      "price": "23.500 TL + 3.700 TL/ay",
+      "description": "Çoklu fotoğrafçı stüdyoları için tam otomasyon",
+      "features": [
+        "Çoklu fotoğrafçı yönetimi",
+        "Her fotoğrafçı için ayrı pipeline",
+        "Albüm / ek ürün satış akışı",
+        "AI destekli kişiselleştirme",
+        "Destinasyon düğün modülü",
+        "Aylık 25.000 mesaj dahil",
+        "Özel proje yöneticisi + danışmanlık"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Kafe / restoran CRM sisteminden farkı ne?", "answer": "Fotoğraf stüdyosu müşterisi yüksek bilet (15-50K TL) hizmet alıyor, daha az sıklıkla geliyor ama yaşam boyu değer çok yüksek (düğün → çocuk doğum → aile çekimi → yıldönümü → 5-10 yıl ilişki). Akış sıklık değil, yolculuk uzunluğu odaklı."},
+    {"question": "Çekim brief otomasyonu gerçekten işime yarar mı?", "answer": "Evet, bu CRM'in en güçlü modülü. Vaka çalışmamızdaki İstanbul stüdyosu çekim öncesi telefon yükünü %60 azalttı. Müşteri brief formunu kendi tempoyla dolduruyor, siz özetini görüp çekim gününe hazır geliyorsunuz. Unutulan detay yok."},
+    {"question": "Online galeri sisteminiz mi var, yoksa Pixieset entegrasyonu mu?", "answer": "Her ikisi de mümkün. Bizim web tasarım paketinde gelen online galeri sistemi varsa direkt entegre, yoksa Pixieset / SmugMug / WeTransfer entegrasyonu yapıyoruz. Hangi sistemi kullanırsanız kullanın, müşteri bildirimleri ve teslim takibi otomatikleşiyor."},
+    {"question": "Yıldönümü tetiklemesi yıllar sonra hatırlıyor mu?", "answer": "Evet, sistem müşteri kayıt tarihlerini saklıyor. Düğün tarihi + 365 gün → 1. yıldönümü tetik. Çocuk doğum tarihi + 365 gün → 1. yaş çekim teklifi. 5. yıl, 10. yıl tetiklemeleri de var. Müşteri 5 yıl sonra hala 'bizi hatırladılar' diyor, geri dönüş oranı yüksek."},
+    {"question": "KVKK uyumlu mu, müşteri verisi nasıl alınıyor?", "answer": "Evet, IYS (İleti Yönetim Sistemi) entegre, ticari ileti izni KVKK uyumlu form ile alınıyor. Sözleşme imzasında müşteri 'WhatsApp / SMS gönderim onayı' veriyor. İptal etmek isteyen müşteri tek tuşla çıkıyor."},
+    {"question": "Referans programı nasıl çalışıyor?", "answer": "Memnun müşteriye 1 ay sonra 'sevdiğiniz birini önerirseniz hem siz hem o %20 indirim' linki gidiyor. Müşteri kendi sosyal medyasında / WhatsApp'ta paylaşıyor, gelen yeni müşteri ile öneren müşteri otomatik eşleşiyor. Yeni müşteri çekime gelince öneren müşteri kupon alıyor."},
+    {"question": "Mevcut müşteri verim Excel'de, sisteme nasıl aktaracak?", "answer": "Excel / Google Sheets dosyanızı veriyorsunuz, biz import ediyoruz. Standart format (ad, soyad, telefon, email, çekim tarihi, çekim türü) hızlı, farklı format ek 1-2 gün. Vaka çalışmasındaki stüdyo 220 eski müşterisini ilk haftada sisteme aktardı."}
+  ],
+  "finalCtaHeadline": "Stüdyonuzun müşteri yolculuğunu 14 günde otomatikleştirin",
+  "finalCtaSubtitle": "20 dakikalık tanıtım görüşmesi yeterli. Mevcut süreçlerinizi değerlendirip size özel CRM + otomasyon planı çıkarıyoruz. WhatsApp'tan veya formdan ulaşın."
+}

@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "spor-salonu",
+  "sectorName": "Spor Salonu",
+  "sectorPlural": "Spor Salonları",
+  "title": "Spor Salonları İçin WhatsApp AI Asistanı | Ders Rezervasyonu + Üyelik Yönetimi - PORTZEN",
+  "description": "Spor salonları için WhatsApp AI asistanı. Pilates, yoga, CrossFit ders rezervasyonu, üyelik bilgisi, PT randevusu, no-show takibi ve kampanya hatırlatması otomatik.",
+  "keywords": ["spor salonu whatsapp", "fitness whatsapp bot", "ders rezervasyonu otomatik", "spor salonu ai asistan", "pilates rezervasyon sistemi", "gym whatsapp otomasyonu"],
+  "h1": "Spor Salonları için WhatsApp AI Asistanı",
+  "heroSubtitle": "Grup ders rezervasyonu, üyelik durumu sorgulama, PT randevusu, no-show hatırlatma ve sezon kampanya bilgisi. WhatsApp'tan 7/24, resepsiyon beklemeden.",
+  "stats": [
+    {"value": "%68", "label": "Telefon Yükü Azaldı"},
+    {"value": "3 dk", "label": "Ortalama Rezervasyon"},
+    {"value": "24/7", "label": "Aktif Yanıt"},
+    {"value": "%42", "label": "No-show Azalması"}
+  ],
+  "problems": [
+    "Pilates ve yoga ders rezervasyonu için üye resepsiyonu arıyor, mesai sonrası rezerve edemediği için başka stüdyoya gidiyor",
+    "PT randevuları için antrenör WhatsApp'ı bireysel yönetiyor, izinli olduğunda iletişim kopuyor, randevu kayboluyor",
+    "Üyelik bitimine 1 hafta kala üyeye bilgi vermiyorsunuz, üye yenilemeyi unutuyor, ay kaybı yaşıyorsunuz",
+    "Grup ders kontenjanı dolduğunda yedek listesi WhatsApp gruplarında yönetiliyor, kimin yedek olduğu karışıyor",
+    "No-show oranı %25 in üzerinde, ders açıyorsunuz ama gelen olmuyor, antrenör boşa duruyor",
+    "Sezon başı yoga, EMS ve CrossFit kampanyalarınızı toplu duyuramıyorsunuz, kayıt potansiyeli kaçıyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Hizmet Brief ve Ders Programı", "description": "Salonunuzun ders programı (pilates, yoga, CrossFit, EMS, grup dersleri), PT antrenör listesi, üyelik paketleri, fiyat listesi ve sezon kampanyalarını alıyoruz. Mevcut rezervasyon sisteminiz varsa entegre ediyoruz."},
+    {"title": "2. AI Asistan Eğitimi", "description": "GPT-4 tabanlı asistanı salonunuzun terminolojisiyle eğitiyoruz. Ders saatleri, antrenör uzmanlıkları, kontenjan kuralları, kayıt dondurma süreçleri, vücut analizi ve beslenme danışmanlığı seçenekleri tanımlanır."},
+    {"title": "3. WhatsApp Business API Kurulum", "description": "Resmi WhatsApp Business API ile bağlantı kuruyoruz. Yeşil onay tik alıyoruz. CRM, ders rezervasyon sistemi (Mindbody, Glofox veya özel) ve ödeme altyapısıyla entegre ediyoruz."},
+    {"title": "4. Otomasyon Senaryoları", "description": "Üyelik bitimine 7 ve 1 gün kala hatırlatma, ders öncesi 2 saat no-show önleme bildirimi, dondurulan üyeliklerde dönüş kampanyası, yeni dönem ders kayıt duyurusu otomatik akar."}
+  ],
+  "features": [
+    {"title": "Ders Rezervasyonu", "description": "Üye WhatsApp'tan 'yarın pilates' yazıyor, müsait saatler listeleniyor, seçim yapıyor, kontenjan otomatik düşüyor. Doluysa yedek listesine ekleniyor, yer açılınca otomatik bildirim gidiyor."},
+    {"title": "Üyelik Durumu Sorgulama", "description": "Üye 'üyeliğim ne zaman bitiyor' yazıyor, kalan gün sayısı, dondurma hakkı, paket türü ve yenileme fiyatı geliyor. Yenileme için tek tıkla ödeme linki sunuluyor."},
+    {"title": "PT Randevu Yönetimi", "description": "Personal trainer randevuları antrenör müsait saatleriyle eşleştirilir. Üye antrenör seçiyor, müsait slotlar listeleniyor, vücut analizi randevusu da aynı akışta alınıyor."},
+    {"title": "No-show Hatırlatma", "description": "Ders öncesi 2 saat 'rezervasyonun saat 19:00 pilates, geliyor musun?' bildirimi. Gelmeyecekse iptal etip kontenjan açıyor, yedek listesindeki üyeye otomatik bildirim gidiyor."},
+    {"title": "Sezon Kampanya Duyurusu", "description": "Yeni dönem yoga, EMS denemesi, beslenme danışmanlığı kampanyalarını segmentli üye listesine toplu gönderiyorsunuz. Tıklama, açılma ve kayıt oranları panelden takip ediliyor."},
+    {"title": "Resepsiyon İnsana Devir", "description": "Şikayet, özel sağlık durumu, vücut analizi sonucu yorumu gibi insan teması gereken konular asistandan resepsiyon ekibine canlı devredilir. Tüm geçmiş konuşma korunuyor."}
+  ],
+  "caseStudy": {
+    "title": "İzmir Bornova - Fitness Stüdyosu: Aylık 420 Otomatik Ders Rezervasyonu, %48 No-show Azalması",
+    "paragraphs": [
+      "İzmir Bornova da pilates, yoga ve EMS hizmeti veren 850 aktif üyeli bir fitness stüdyosu 2025 Şubat ayında PORTZEN'e geldi. Sorunları net: resepsiyonist günde 80 90 telefon karşılıyordu, %35 i ders rezervasyonu içindi. Mesai sonrası rezervasyon alınamıyordu, no-show oranı %28 di, antrenörler boşa duruyordu.",
+      "10 günde WhatsApp AI asistanını kurduk. Mindbody rezervasyon sistemiyle entegre ettik. Pilates, yoga, EMS ve grup dersleri için rezervasyon, üyelik durumu sorgulama, PT randevusu, vücut analizi randevusu ve sezon kampanya duyurusu akışları aktif edildi. Ders öncesi 2 saat no-show önleme bildirimi otomatik.",
+      "İlk ay 420 ders rezervasyonu WhatsApp üzerinden geldi, telefon yükü %68 azaldı. No-show oranı %28 den %15 e indi, antrenör verimliliği arttı. Üyelik yenileme hatırlatma kampanyasıyla 38 dondurulmuş üyelik tekrar aktif oldu. Resepsiyonist artık satış ve karşılama odaklı çalışıyor."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık WhatsApp Rezervasyon", "before": "0", "after": "420"},
+      {"label": "No-show Oranı", "before": "%28", "after": "%15"},
+      {"label": "Telefon Yükü", "before": "80/gün", "after": "26/gün"},
+      {"label": "Üyelik Yenileme Hatırlatma Dönüşü", "before": "yok", "after": "%34"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL kurulum + 2.200 TL/ay",
+      "description": "Tek şubeli, 500 üyeye kadar olan stüdyolar için",
+      "features": [
+        "WhatsApp Business API kurulum",
+        "Temel ders rezervasyonu (3 ders türü)",
+        "Üyelik durumu sorgulama",
+        "Otomatik üyelik yenileme hatırlatma",
+        "1.500 aylık konuşma dahil",
+        "Resepsiyon canlı devir",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "18.000 TL kurulum + 4.500 TL/ay",
+      "description": "Aktif spor salonları için en popüler - PT ve kampanya dahil",
+      "features": [
+        "Tüm Başlangıç paketi",
+        "Sınırsız ders türü ve antrenör",
+        "PT randevu yönetimi",
+        "No-show önleme akışı",
+        "Sezon kampanya duyurusu (segmentli)",
+        "Mindbody, Glofox, özel CRM entegrasyonu",
+        "5.000 aylık konuşma dahil",
+        "Aylık raporlama ve optimizasyon"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Zincir",
+      "price": "42.000 TL kurulum + 9.500 TL/ay",
+      "description": "Çoklu şubeli zincir spor salonları ve premium kulüpler",
+      "features": [
+        "Tüm Profesyonel paketi",
+        "Çoklu şube yönetimi (sınırsız)",
+        "Şube bazlı ders ve antrenör",
+        "Vücut analizi ve beslenme danışmanlığı modülü",
+        "Sadakat puan sistemi entegrasyonu",
+        "Sınırsız aylık konuşma",
+        "Özel proje yöneticisi",
+        "Aylık strateji toplantısı"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "WhatsApp Business API kurulumu ne kadar sürer?", "answer": "Meta onay süreci 5-10 iş günü. Yeşil onay tik başvurusunu biz yönetiyoruz. Bu süreçte AI eğitimi, ders programı entegrasyonu ve test senaryoları paralel yürüyor. Toplam canlıya alma 10-14 iş günü."},
+    {"question": "Mevcut rezervasyon sistemim Mindbody, entegre olur mu?", "answer": "Mindbody, Glofox, Sportwave gibi popüler sistemlerle entegrasyon yapıyoruz. Sisteminiz API sağlıyorsa direkt bağlanıyor. Yoksa özel köprü modül geliştiriyoruz (ek 4.000-8.000 TL). Excel veya manuel takip yapıyorsanız size CRM de kuruyoruz."},
+    {"question": "Asistan yanlış yanıt verirse ne olur?", "answer": "AI emin olmadığı durumda otomatik resepsiyon ekibine devrediyor, asla yanlış bilgi vermeye zorlanmıyor. Tüm konuşmaları panel üzerinden izleyebilir, hatalı yanıtları işaretleyip asistanı eğitmeye devam edebilirsiniz. İlk ay yoğun iyileştirme yapılıyor."},
+    {"question": "Kaç üyeye kadar destekliyor?", "answer": "Başlangıç paketi 500 aktif üye için, Profesyonel 2.500 üye, Zincir sınırsız. Üye sayısı değil aylık konuşma hacmi sınır. Üye sayınız artarsa pakete ek konuşma kotası ekleniyor (1.000 ek konuşma 800 TL/ay)."},
+    {"question": "No-show önleme gerçekten işe yarıyor mu?", "answer": "Evet, ortalama %40-50 oranında no-show azalıyor. Ders öncesi 2 saat hatırlatma ve tek tıkla iptal seçeneği üyeyi karar vermeye zorluyor. İptal eden üyenin yeri yedek listesindekine açılıyor, kontenjan boşa gitmiyor. Vaka çalışmamızda %28 den %15 e indi."},
+    {"question": "Üyelik dondurma ve yenileme nasıl yönetiliyor?", "answer": "Üye 'üyeliğimi dondurmak istiyorum' yazınca kalan dondurma hakkı kontrol edilir, sebep sorulur, onay alınır. Dondurma sistemde işlenir, üyeye ve size bildirim gelir. Dondurma sonu yaklaşınca otomatik aktivasyon kampanyası başlatılır."},
+    {"question": "Sezon kampanyalarını nasıl gönderiyorum?", "answer": "Panel üzerinden segment seçiyorsunuz (örn pilates üyeleri, son 3 ay aktif olmayanlar). Mesaj şablonu hazırlıyorsunuz, Meta onayından geçiyor (24-48 saat), gönderiyorsunuz. Tıklama, açılma ve dönüşüm oranları rapor olarak geliyor."}
+  ],
+  "finalCtaHeadline": "Spor salonunuz 2 haftada WhatsApp tan ders rezervasyonu almaya başlasın",
+  "finalCtaSubtitle": "30 dakikalık demo görüşmesi yeterli. Mevcut süreçlerinizi inceleyip size özel akış tasarlıyoruz. WhatsApp tan veya formdan ulaşın."
+}

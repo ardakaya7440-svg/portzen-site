@@ -1,0 +1,111 @@
+{
+  "sectorSlug": "veteriner",
+  "sectorName": "Veteriner",
+  "sectorPlural": "Veteriner Klinikleri",
+  "title": "Veteriner Klinikleri İçin CRM Otomasyonu | Aşı Takvimi, Sadakat Programı - PORTZEN",
+  "description": "Veteriner klinikleri için CRM otomasyonu. Aşı takvimi otomatik hatırlatma, hasta segmentasyonu, sadakat programı, doğum günü mesajları ve ev ziyareti yönetimi.",
+  "keywords": ["veteriner crm", "klinik müşteri yönetimi", "aşı takvimi otomasyon", "veteriner sadakat programı", "evcil hayvan crm", "hasta segmentasyonu"],
+  "h1": "Veteriner Klinikleri için CRM Otomasyonu",
+  "heroSubtitle": "Aşı takvimi otomatik hatırlatma, hasta sahibi segmentasyonu, sadakat programı, doğum günü kutlama mesajları ve ev ziyareti planlama - tek panelden kontrol.",
+  "stats": [
+    {"value": "%88", "label": "Aşı Takvim Uyumu"},
+    {"value": "%42", "label": "Tekrar Ziyaret Artışı"},
+    {"value": "5 Kanal", "label": "WhatsApp/SMS/Email"},
+    {"value": "Sınırsız", "label": "Hasta Kartı"}
+  ],
+  "problems": [
+    "Hasta sahibi aşı zamanını unutuyor, koruyucu hekimlik gelir kaybı yaşıyorsunuz",
+    "Excel/defter tabanlı kayıtlarınız dağınık, hangi hayvan ne zaman hangi ilacı aldı bilemiyorsunuz",
+    "Yeni hizmet (ortopedi, lazer terapi) duyurusu yapmak isterken müşteri listesini segment edemiyorsunuz",
+    "Sadakat programı yok, çoklu hayvan sahibi müşteri ile tek hayvanlı müşteri eşit muamele görüyor",
+    "Hasta hayvanın doğum günü, kuduz aşısı yıldönümü gibi kişisel temas fırsatları kaçırılıyor",
+    "Ev ziyareti randevuları manuel yönetiliyor, çakışmalar oluyor, rota optimize edilemiyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Klinik Süreç Analizi", "description": "Mevcut hasta kayıt yönteminiz (Excel, Vetera, VetSoft, defter), aşı protokolleriniz, randevu süreci, ev ziyareti akışı, müşteri segmentleri incelenip CRM mimarisi tasarlanıyor."},
+    {"title": "2. Veri Migration & Segmentasyon", "description": "Mevcut hasta kayıtlarınız (isim, hayvan, geçmiş aşılar, ziyaret tarihleri) yeni CRM'e taşınıyor. Otomatik segmentler oluşturuluyor (kedi sahipleri, köpek sahipleri, çoklu hayvan, yaşlı hayvan, egzotik, VIP)."},
+    {"title": "3. Otomasyon Akışları Kurulum", "description": "Aşı hatırlatma akışı, doğum günü mesajı, sezonsal kampanya (yaz parazit, kış aşı), kayıp müşteri yeniden kazanım, sadakat puan sistemi, yorum talep akışı kuruluyor."},
+    {"title": "4. Test, Eğitim & Yayın", "description": "1 hafta test, ekip eğitimi (resepsiyon + hekim), pilot grup üzerinde canlı test. Yayın sonrası aylık optimizasyon ve performans raporu."}
+  ],
+  "features": [
+    {"title": "Aşı Takvimi Otomatik Hatırlatma", "description": "Her hayvan için aşı protokolü tanımlı - kuduz yıllık, karma yıllık, parazit 3 ayda. Sistem otomatik hesaplıyor, 2 hafta ve 3 gün öncesinden WhatsApp + SMS + email ile çoklu kanal hatırlatma."},
+    {"title": "Hasta Sahibi Segmentasyonu", "description": "Otomatik segmentler: kedi sahibi, köpek sahibi, çoklu hayvan, yaşlı hayvan (8+ yaş), egzotik, VIP (yıllık 10K+ harcama), kaybolan müşteri (6 ay+ ziyaret yok), yeni evlat edinen. Her segmente özel kampanya."},
+    {"title": "Sadakat Puan Programı", "description": "Her ziyaret + ürün alımı puan kazandırıyor. Belirli puanda indirim, ücretsiz kontrol, ev ziyareti gibi avantajlar. Çoklu hayvan sahibine ekstra puan. Müşteri sadakati ölçülebilir hale geliyor."},
+    {"title": "Doğum Günü Otomasyonu", "description": "Hayvanın doğum gününde otomatik kutlama mesajı + küçük indirim (%10 kontrol). Sahibinin doğum gününde teşekkür mesajı. Duygusal bağlanma, müşteri tutma."},
+    {"title": "Ev Ziyareti Yönetimi", "description": "Ev ziyareti talepleri tek panelde - adres, hayvan, hizmet, tercih edilen gün. Sistem hekim takvimine göre optimize rota öneriyor, gün sonu mobil panel üzerinden takip ediliyor."},
+    {"title": "Kayıp Müşteri Yeniden Kazanım", "description": "6 aydır ziyaret yapmamış müşteri otomatik tespit ediliyor. 'Pamuk'un son ziyareti 7 ay önceydi, kontrolüne gelmek ister misiniz' otomatik mesajı + %15 indirim kuponu gönderiliyor."}
+  ],
+  "caseStudy": {
+    "title": "Bursa Nilüfer - Veteriner Kliniği: Yıllık Tekrar Ziyaret %58 → %82, Aylık Gelir %48 Artış",
+    "paragraphs": [
+      "Bursa Nilüfer'de 8 yıllık bir veteriner kliniği 2024 Ekim'de PORTZEN'e geldi. 2.400+ kayıtlı hasta vardı ama hepsi Excel'de dağınık. Aşı hatırlatması elle SMS atılarak yapılıyordu, çoğu unutuluyor, hasta sahibi sahaya kaybediliyordu. Sadakat programı yoktu, çoklu hayvan sahibi VIP müşteri ile yeni müşteri aynı muameleyi görüyordu.",
+      "Profesyonel paketle CRM otomasyonu kurduk. 2.400 hasta kaydı 3 günde migration yapıldı, 8 farklı segment otomatik oluşturuldu, aşı protokolleri tanımlandı. Sadakat puan sistemi devreye alındı, ev ziyareti modülü kuruldu. Resepsiyon ve hekimlere 2 saatlik eğitim verildi.",
+      "İlk 6 ayda yıllık tekrar ziyaret oranı %58'den %82'ye çıktı. Aşı takvimi uyumu %45'ten %88'e yükseldi. Kayıp müşteri yeniden kazanım kampanyasıyla 180 müşteri geri döndü. Aylık gelir %48 arttı, çünkü hem tekrar ziyaret arttı hem de ortalama harcama (cross-sell) yükseldi. Resepsiyon manuel SMS yükü tamamen ortadan kalktı."
+    ],
+    "beforeAfter": [
+      {"label": "Yıllık Tekrar Ziyaret", "before": "%58", "after": "%82"},
+      {"label": "Aşı Takvim Uyumu", "before": "%45", "after": "%88"},
+      {"label": "Aylık Gelir", "before": "180K TL", "after": "265K TL"},
+      {"label": "Manuel SMS Saati", "before": "12 saat/hafta", "after": "0"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "12.000 TL kurulum + 2.500 TL/ay",
+      "description": "Küçük klinikler ve yeni başlayan dijitalleşme için",
+      "features": [
+        "500 hasta kartı migration",
+        "Aşı takvimi otomatik hatırlatma",
+        "WhatsApp + SMS entegrasyonu",
+        "Temel segmentasyon (5 segment)",
+        "Doğum günü mesaj akışı",
+        "Aylık 2.000 mesaj dahil",
+        "Email destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "25.000 TL kurulum + 5.500 TL/ay",
+      "description": "Aktif klinikler için en popüler paket - tüm özellikler",
+      "features": [
+        "Sınırsız hasta kartı migration",
+        "Tüm aşı protokolleri otomatik",
+        "10+ segment + dinamik liste",
+        "Sadakat puan programı",
+        "Ev ziyareti yönetimi + rota",
+        "Kayıp müşteri kazanım",
+        "Çoklu kanal (WhatsApp + SMS + Email)",
+        "Aylık 8.000 mesaj dahil",
+        "Aylık performans raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Klinik",
+      "price": "45.000 TL kurulum + 12.000 TL/ay",
+      "description": "Çoklu şube, pet hotel ve agresif büyüme için",
+      "features": [
+        "Çoklu şube + merkezi yönetim",
+        "Pet hotel rezervasyon modülü",
+        "Üyelik kartı + dijital cüzdan",
+        "Cross-sell otomasyonu (ürün önerisi)",
+        "Hasta sağlık skoru (yaşlı hayvan takip)",
+        "Sınırsız mesaj",
+        "Özel proje yöneticisi",
+        "Aylık ekip eğitimi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Mevcut Excel kayıtlarımı CRM'e nasıl taşıyorsunuz?", "answer": "Excel dosyanızı bize gönderiyorsunuz, kolon eşleştirme (isim, telefon, hayvan, doğum tarihi, geçmiş aşılar) yapıyoruz, 1-3 gün içinde tüm kayıtlarınız yeni sistemde. Vetera, VetSoft gibi yazılımlardan da export ediyoruz. Migration ücretsiz, paket fiyatına dahil."},
+    {"question": "Aşı protokollerini siz mi tanımlıyorsunuz?", "answer": "Standart Türkiye protokollerini hazır veriyoruz (karma kedi 3 doz + yıllık, karma köpek 2 doz + yıllık, kuduz yıllık, parazit 3 ayda). Klinik özelinizdeki protokolleri (egzotik hayvan, immün yetmezlik vb.) kurulum sırasında özelleştiriyoruz."},
+    {"question": "Sadakat puan sistemi nasıl çalışıyor?", "answer": "Her TL harcamada 1 puan, randevuya zamanında gelmeden 5 puan bonus, çoklu hayvan sahibine %20 ekstra. 500 puanda ücretsiz kontrol, 1000 puanda %20 indirim, 2000 puanda ev ziyareti hediye. Puan WhatsApp ile bildiriliyor, müşteri puanını her zaman görebiliyor."},
+    {"question": "Mevcut WhatsApp asistanım veya web sitemle entegre olur mu?", "answer": "Evet, PORTZEN'in WhatsApp AI asistanı, web sitesi randevu sistemi ve CRM modülü tek ekosistemde çalışıyor. Müşteri WhatsApp'tan randevu açtığında otomatik CRM'e düşüyor, aşı hatırlatması CRM tarafından WhatsApp'a gönderiliyor. Tek bütünleşik sistem."},
+    {"question": "Ev ziyareti rota optimizasyonu gerçekten faydalı mı?", "answer": "Evet, özellikle günde 3+ ev ziyareti yapan klinikler için kritik. Sistem Google Maps API ile en kısa rotayı hesaplıyor, hekim 25-40% daha az zamanda ziyaretleri tamamlıyor. Mobil panelden gün boyu takip, müşteriye 'hekim yolda' bildirimi otomatik."},
+    {"question": "KVKK uyumlu mu? Müşteri verilerim güvende mi?", "answer": "Evet, tüm veriler Türkiye'deki sunucularda (Türk Telekom veri merkezi) şifreli saklanıyor. KVKK aydınlatma metni, açık rıza formları, VERBİS kaydı için danışmanlık dahil. Aylık otomatik yedekleme. Erişim log'ları tutuluyor."},
+    {"question": "Ekibim teknoloji bilmiyor, kullanabilir mi?", "answer": "CRM paneli Türkçe ve basit - resepsiyon görevlisi 2-3 günde rahat kullanır. Kurulumda 2 saatlik canlı eğitim veriyoruz, video tutorial kütüphanesi var. Profesyonel ve Premium pakette aylık check-in ile sorularınızı cevaplıyoruz."}
+  ],
+  "finalCtaHeadline": "Klinik CRM'inizi 2 haftada otomatikleştirin",
+  "finalCtaSubtitle": "20 dakikalık görüşmede mevcut süreçlerinizi inceliyoruz, hangi otomasyonlarla ne kadar gelir artışı sağlayacağınızı hesaplıyoruz. Demo ortamı canlı gösterim."
+}

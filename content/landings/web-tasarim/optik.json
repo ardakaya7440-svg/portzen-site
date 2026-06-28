@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "optik",
+  "sectorName": "Optik",
+  "sectorPlural": "Optikçiler",
+  "title": "Optikçiler İçin Web Tasarım | Online Çerçeve Kataloğu + Göz Muayene Randevusu - PORTZEN",
+  "description": "Optikçiler için Next.js web tasarım. Online çerçeve kataloğu (Ray-Ban, Oakley, Tom Ford), online göz testi, randevu sistemi, lens danışmanlığı ve garanti takibi.",
+  "keywords": ["optik web tasarım", "optikçi websitesi", "online çerçeve katalog", "göz muayene randevu sitesi", "optik site yapımı", "gözlük e-ticaret"],
+  "h1": "Optikçiler için Profesyonel Web Tasarım",
+  "heroSubtitle": "Online çerçeve kataloğu, online göz testi, göz muayene randevusu, lens danışmanlığı ve marka filtreleme. Next.js ile geliştirilmiş, mobilde hızlı optikçi websitesi.",
+  "stats": [
+    {"value": "22 gün", "label": "Ortalama Teslim"},
+    {"value": "96+", "label": "Lighthouse Skoru"},
+    {"value": "Marka", "label": "Filtreleme"},
+    {"value": "Online", "label": "Randevu Sistemi"}
+  ],
+  "problems": [
+    "Çerçeve kataloğunuz Instagram da, sitenizde yok, müşteri ne sattığınızı görmüyor, mağazaya gelmeden bilgi alamıyor",
+    "Göz muayene randevusu için müşteri telefon arıyor, mesai dışı rezerve edemiyor, başka optikçiye yönleniyor",
+    "Ray-Ban, Oakley, Tom Ford gibi marka filtrelemesi yapamayan müşteri mağazaya doğru ürünle gelmiyor",
+    "Online göz testi sunmuyorsunuz, kullanıcı 'gözüm değişmiş mi?' merakını giderecek araç yok, ziyaretçi kaybediliyor",
+    "Site Google da 'Çankaya optik' aramasında çıkmıyor, bölge SEO sıfır, organik trafik yok",
+    "Lens danışmanlığı (multifokal, mavi ışık filtreli) içeriği yok, ziyaretçi araştırma için başka siteye gidiyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Brand ve Stok Brief", "description": "Mağaza konseptinizi (premium, butik, klasik), sattığınız markaları (Ray-Ban, Oakley, Tom Ford, Persol vb.), lens markalarını (Essilor, Zeiss, Hoya), göz doktoru/optometrist hizmetlerini ve mevcut stok sisteminizi alıyoruz."},
+    {"title": "2. UI/UX Tasarım", "description": "Figma da optik sektörüne özel tasarım - büyük çerçeve görselli hero, marka filtreli katalog, sticky randevu CTA, online göz testi modülü, lens danışmanlık sayfaları. Mobil-first, müşteri 5 saniyede çerçeve görebilmeli."},
+    {"title": "3. Next.js + Katalog + Randevu", "description": "Next.js 15 ile geliştirme. Online çerçeve kataloğu (marka, fiyat, materyal filtreli), online göz muayene randevu sistemi, online göz testi (interaktif), lens danışmanlık içerikleri, garanti takibi sayfası."},
+    {"title": "4. SEO + Bölge Optimizasyonu", "description": "Schema markup (LocalBusiness + Product), bölge SEO ('Çankaya optik', 'Bağdat Caddesi gözlük', 'Karşıyaka Ray-Ban' gibi), Google My Business optimizasyonu, blog yapısı (göz sağlığı, lens rehberi)."}
+  ],
+  "features": [
+    {"title": "Online Çerçeve Kataloğu", "description": "Stoktaki tüm çerçeveler marka, fiyat aralığı, materyal (metal, asetat, titanyum), renk filtrelemeli galeri. Her ürün detayında ölçüler, materyal, renk seçenekleri, fiyat. Müşteri mağazaya gelmeden katalogu inceliyor."},
+    {"title": "Online Göz Muayene Randevusu", "description": "Müşteri tarih, saat, randevu türü (muayene, kontrol, lens deneme) seçiyor, formu doldurunca optometrist takvimine düşer, müşteriye SMS+WhatsApp ile onay gelir. 24 saat ve 1 saat önce hatırlatma otomatik."},
+    {"title": "Online Göz Testi", "description": "İnteraktif online göz testi (görme keskinliği, renk körlüğü, astigmatizma ön testi). Sonuç sonrası 'profesyonel muayene için randevu al' CTA. Lead toplama için en etkili araç, ziyaretçinin sitede kalmasını sağlıyor."},
+    {"title": "Marka Filtreleme", "description": "Müşteri 'Ray-Ban göster' diyince sadece Ray-Ban modeller listelenir. Marka sayfalarında marka hikayesi, tarihsel modeller, yeni sezon vurgusu. SEO için 'Ray-Ban Aviator İstanbul' gibi long-tail aramalarda öne çıkıyor."},
+    {"title": "Lens Danışmanlık İçerikleri", "description": "Multifokal vs bifokal farkı, mavi ışık filtresi gerekli mi, geçişli lens kimler için. Detaylı içerik sayfaları. Ziyaretçi araştırma için sizin sitenizde kalıyor, başka siteye gitmiyor, sonunda randevu alıyor."},
+    {"title": "Garanti ve Müşteri Hizmetleri", "description": "Garanti şartları, kapsam, başvuru süreci sayfası. Müşteri formdan garanti talep ediyor, randevu alıyor, mağazada işlem yapılıyor. Müşteri sadakatı için kritik."}
+  ],
+  "caseStudy": {
+    "title": "İzmir Karşıyaka - Premium Optik: Organik Trafik 280 → 5.400/ay, Aylık 145 Online Randevu",
+    "paragraphs": [
+      "İzmir Karşıyaka da 16 yıllık premium bir optik mağazası 2025 Şubat ta PORTZEN e geldi. Mevcut siteleri 2019 da yapılmış statik bir sayfa, çerçeve kataloğu yok, randevu sistemi yok, marka filtrelemesi yok. Tüm müşteri etkileşimi Instagram + telefon üzerinden, mesai dışı potansiyel kayıp.",
+      "22 günde Profesyonel paket ile yeniden inşa ettik - 320 çerçeve modeli kataloğu (Ray-Ban, Oakley, Tom Ford, Persol, Gucci dahil), marka + fiyat + materyal filtrelemesi, online göz muayene randevu sistemi, interaktif online göz testi, 8 lens danışmanlık içeriği, garanti takip sayfası, Google My Business optimizasyonu, bölge SEO ('Karşıyaka optik', 'Bostanlı Ray-Ban').",
+      "İlk ay Google da 'Karşıyaka optik' 2. sıraya çıktılar. 3. ayın sonunda aylık organik trafik 280 den 5.400 e ulaştı, ay başı 145 online randevu direkt siteden geliyor. Online göz testi modülünden ayda 380 kullanıcı geçiyor, %38 i randevu alıyor. Marka filtreli katalog en çok ziyaret edilen 2. sayfa oldu, mağazaya gelen müşteri spesifik model arıyor."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Organik Trafik", "before": "280", "after": "5.400"},
+      {"label": "Aylık Online Randevu", "before": "0", "after": "145"},
+      {"label": "Online Göz Testi Lead", "before": "0", "after": "145"},
+      {"label": "Site Yüklenme Süresi", "before": "5.8 sn", "after": "1.2 sn"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Optik Sitesi",
+      "price": "12.000 TL",
+      "description": "Tek seferlik - küçük optikçiler ve yeni açılışlar için",
+      "features": [
+        "6 sayfa (anasayfa, çerçeveler, lensler, hizmetler, hakkımızda, iletişim)",
+        "Next.js + Tailwind",
+        "Mobil responsive + 90+ Lighthouse",
+        "Temel çerçeve galerisi (50 ürün)",
+        "Google Maps embed",
+        "WhatsApp randevu butonu",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "26.000 TL + 1.800 TL/ay",
+      "description": "Aktif optikçiler için en popüler - bakım dahil",
+      "features": [
+        "12-16 sayfa + blog yapısı",
+        "Online çerçeve kataloğu (sınırsız ürün)",
+        "Marka + fiyat + materyal filtrelemesi",
+        "Online göz muayene randevu sistemi",
+        "Online göz testi modülü",
+        "Lens danışmanlık içerikleri",
+        "Garanti takip sayfası",
+        "Bölge SEO + Google My Business"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "45.000 TL + 3.200 TL/ay",
+      "description": "Zincir optikçiler ve büyük mağazalar - çoklu şube destekli",
+      "features": [
+        "Sınırsız sayfa + çoklu mağaza yönetimi",
+        "Mağaza bazlı stok ve randevu",
+        "Stok sistemi gerçek zamanlı entegrasyon",
+        "E-ticaret (online satış)",
+        "Müşteri paneli (randevu geçmişi, garanti)",
+        "Sadakat puan sistemi",
+        "Newsletter + kampanya mailing",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Sitem ne kadar sürede hazır olur?", "answer": "Mini Optik Sitesi 12-16 gün, Profesyonel 20-28 gün, Premium 32-45 gün. Brief sonrası net gün veriyoruz. Çerçeve fotoğrafları ve içerikler hazırsa hızlanıyor. Marka katalog fotoğrafları için size yardım ediyoruz."},
+    {"question": "Çerçeve kataloğunu kendim güncelleyebilir miyim?", "answer": "Evet, Sanity CMS admin paneli veriyoruz. Yeni model ekleme, fiyat güncelleme, stok değiştirme - 2-5 dakikada yapıyorsunuz, site anında güncelleniyor. Mevcut stok sisteminiz varsa entegrasyon ile otomatik senkronizasyon."},
+    {"question": "Online göz testi medikal mi?", "answer": "Hayır, ön bilgilendirme amaçlı eğitim aracı. Sonuçta 'profesyonel muayene gereklidir' uyarısı var. Görme keskinliği, renk algısı, astigmatizma ön kontrolü. Müşteri sonuç görünce muayeneye motive oluyor, lead toplama için çok etkili. Yasal disclaimer ekliyoruz."},
+    {"question": "Online satış (e-ticaret) yapabilir miyim?", "answer": "Premium pakette online satış var. Çerçeve sepete ekle, reçete yükleme, lens seçimi, online ödeme (iyzico), kargo takibi. Reçeteli gözlük için optometrist onayı süreci kuruyoruz. Reçetesiz güneş gözlüğü direkt satış. Komisyon yok, sadece iyzico komisyonu (%1.99)."},
+    {"question": "Marka logoları (Ray-Ban, Oakley) kullanabilir miyim?", "answer": "Yetkili bayisiyseniz marka logolarını kullanabilirsiniz. Marka kılavuzlarına uygun kullanım için danışmanlık veriyoruz. Bazı markaların 'authorized dealer' özel sayfası gerektirebiliyor, onları da hazırlıyoruz."},
+    {"question": "Google haritada üst sıralara çıkmam ne kadar sürer?", "answer": "Google My Business profili optimize sonrası 4-8 hafta içinde bölge aramalarında üst sıralara çıkmak mümkün. Vaka çalışmamızdaki Karşıyaka optiği ilk ay 'Karşıyaka optik' 2. sıraya çıktı. Bölgenizdeki rekabete bağlı - yoğun bölgelerde 3-4 ay sürebilir."},
+    {"question": "İleride şube açarsam mevcut sitem destekler mi?", "answer": "Profesyonel paketle başlayıp Premium a geçince çoklu mağaza desteği geliyor. Her mağaza için ayrı sayfa, ayrı stok, ayrı randevu takvimi. Mevcut müşteri yükseltme indirimi (%30) uyguluyoruz."}
+  ],
+  "finalCtaHeadline": "Optikçiniz 3 haftada online randevu almaya başlasın",
+  "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut sitenizi inceleyip ücretsiz audit raporu hazırlıyoruz. WhatsApp tan veya formdan ulaşın."
+}

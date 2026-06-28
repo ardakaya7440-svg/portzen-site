@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "kuafor-berber",
+  "sectorName": "Kuaför & Berber",
+  "sectorPlural": "Kuaför ve Berber Salonları",
+  "title": "Kuaför ve Berber Salonları İçin CRM Otomasyonu | Sadakat Programı, No-show Azaltma - PORTZEN",
+  "description": "Kuaför ve berber için CRM otomasyonu. Müşteri segmentasyonu, sadakat puan programı, doğum günü hediyesi, no-show azaltma ve kayıp müşteri kazanım.",
+  "keywords": ["kuaför crm", "berber müşteri yönetimi", "salon sadakat programı", "no-show önleme", "salon crm yazılımı", "kuaför müşteri segmentasyonu"],
+  "h1": "Kuaför ve Berber Salonları için CRM Otomasyonu",
+  "heroSubtitle": "Müşteri segmentasyonu, sadakat puan programı, doğum günü hediye mesajları, no-show azaltma ve kayıp müşteri yeniden kazanım - tek panelden kontrol.",
+  "stats": [
+    {"value": "%65", "label": "Tekrar Ziyaret Artışı"},
+    {"value": "%60", "label": "No-show Azalması"},
+    {"value": "5 Kanal", "label": "WhatsApp/SMS/Email"},
+    {"value": "Sınırsız", "label": "Müşteri Kartı"}
+  ],
+  "problems": [
+    "Müşteri 3-4 ay gelmiyor, sonra unutuyor, başka salona gidiyor - kayıp tespiti yok",
+    "Sadakat programı yok, 5 yıllık VIP müşteri ile yeni gelen aynı muameleyi görüyor",
+    "Müşteri doğum günü, yıldönümü gibi kişisel temas fırsatları kaçırılıyor",
+    "No-show oranı %25-35, ustanın boş saati doluyor, gelir kaybı yaşıyorsunuz",
+    "Müşteri segmentleri (genç kadın, erkek bakım, gelin, VIP harcamalı) ayırt edilemiyor, hepsine aynı kampanya gönderiliyor",
+    "Excel/defter tabanlı kayıtlar dağınık, hangi müşteri ne zaman hangi hizmeti aldı bilinmiyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Salon Süreç Analizi", "description": "Mevcut müşteri kayıt yönteminiz (Excel, Salon-iz, Booksy, defter), randevu süreci, sadakat sistemi (varsa), no-show oranı, müşteri segmentleri incelenip CRM mimarisi tasarlanıyor."},
+    {"title": "2. Veri Migration & Segmentasyon", "description": "Mevcut müşteri kayıtlarınız (isim, telefon, doğum tarihi, geçmiş hizmetler, toplam harcama) yeni CRM'e taşınıyor. Otomatik segmentler (VIP, kayıp, yeni, gelin adayı, sadık) oluşturuluyor."},
+    {"title": "3. Otomasyon Akışları Kurulum", "description": "No-show önleme akışı, doğum günü kutlama, sezon kampanyası (yaz balyaj, yılbaşı stil), kayıp müşteri kazanım, sadakat puan sistemi, yorum talep akışı, gelin paketi takip akışı kuruluyor."},
+    {"title": "4. Test, Eğitim & Yayın", "description": "1 hafta test, ekip eğitimi (resepsiyon + ustalar), pilot grup üzerinde canlı test. Yayın sonrası aylık optimizasyon ve performans raporu."}
+  ],
+  "features": [
+    {"title": "Sadakat Puan Programı", "description": "Her ziyaret + ürün alımı puan kazandırıyor. 500 puanda ücretsiz şampuan, 1000 puanda %20 kesim indirimi, 2000 puanda ücretsiz balyaj. Müşteri WhatsApp'tan 'puanım' yazınca anlık bilgi. Çoklu hizmet alana ekstra puan."},
+    {"title": "No-show Önleme Otomasyonu", "description": "Randevu öncesi 24 saat ve 3 saat hatırlatma + 'Onayla / Ertele / İptal' butonu. İptal edilen yer otomatik 'sıradaki müşteri' listesine bildiriliyor. Vaka çalışmamızda no-show %35'ten %12'ye düştü."},
+    {"title": "Müşteri Segmentasyonu", "description": "Otomatik segmentler: VIP (yıllık 8K+ harcama), sadık (ayda 1+ ziyaret), kayıp (3 ay+ ziyaret yok), gelin adayı (gelin paketi sorgulayan), erkek bakım, genç moda. Her segmente özel kampanya."},
+    {"title": "Doğum Günü Otomasyonu", "description": "Müşterinin doğum gününde otomatik kutlama mesajı + %20 hediye kuponu. 7 gün kullanım süresi, müşteri özel hissediyor, randevuya geliyor. Yıllık ortalama 80-120 ek randevu sadece bu akıştan."},
+    {"title": "Kayıp Müşteri Kazanım", "description": "3-4 aydır gelmemiş müşteri otomatik tespit ediliyor. 'Sizi özledik, size özel %25 indirim, 14 gün geçerli' otomatik mesaj. Vaka çalışmamızda 6 ayda 240+ kayıp müşteri geri döndü."},
+    {"title": "Gelin Paketi Takip Akışı", "description": "Gelin paketi sorgulayan müşteri için özel takip akışı: deneme randevusu hatırlatma, kına 2 hafta önce ön ödeme, düğün günü check-in. Gelin paketi konversion oranı %35'ten %72'ye çıkıyor."}
+  ],
+  "caseStudy": {
+    "title": "İstanbul Kadıköy - Karma Salon: Tekrar Ziyaret %48 → %78, Aylık Gelir %58 Artış",
+    "paragraphs": [
+      "Kadıköy Moda'da 8 ustalı (5 kuaför + 3 berber) bir karma salon 2024 Kasım'da PORTZEN'e geldi. 3.200+ kayıtlı müşteri vardı, Excel'de dağınık. No-show oranı %35, aylık 80+ randevu kayıp gidiyordu. Sadakat programı yok, doğum günü mesajları manuel atılıyor, çoğu unutuluyordu. Kayıp müşteri tespiti yapılmıyordu.",
+      "Profesyonel paketle CRM otomasyonu kurduk. 3.200 müşteri kaydı 2 günde migration yapıldı, 6 farklı segment oluşturuldu, sadakat puan sistemi devreye alındı. 3 aşamalı no-show önleme + doğum günü kutlama + kayıp müşteri kazanım akışları kuruldu. Ekip eğitimi 3 saat sürdü.",
+      "İlk 6 ayda tekrar ziyaret oranı %48'den %78'e çıktı. No-show %35'ten %12'ye düştü, bu yıllık 350+ saat ek usta zamanı yani 700K TL ek gelir demek. Doğum günü akışından aylık 95 ek randevu, kayıp müşteri kazanım kampanyasıyla 240 müşteri geri döndü. Aylık gelir %58 arttı, sadakat puan sistemi sayesinde ortalama müşteri harcaması %22 yükseldi."
+    ],
+    "beforeAfter": [
+      {"label": "Yıllık Tekrar Ziyaret", "before": "%48", "after": "%78"},
+      {"label": "No-show Oranı", "before": "%35", "after": "%12"},
+      {"label": "Aylık Gelir", "before": "320K TL", "after": "505K TL"},
+      {"label": "Ortalama Müşteri Harcaması", "before": "850 TL", "after": "1.040 TL"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "12.000 TL kurulum + 2.500 TL/ay",
+      "description": "1-3 ustalı salonlar ve yeni dijitalleşme için",
+      "features": [
+        "500 müşteri kartı migration",
+        "No-show önleme akışı",
+        "Doğum günü mesaj akışı",
+        "WhatsApp + SMS entegrasyonu",
+        "Temel segmentasyon (4 segment)",
+        "Aylık 2.000 mesaj dahil",
+        "Email destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "25.000 TL kurulum + 5.500 TL/ay",
+      "description": "Aktif salonlar için en popüler paket - tüm özellikler",
+      "features": [
+        "Sınırsız müşteri kartı",
+        "Sadakat puan programı",
+        "10+ segment + dinamik liste",
+        "Kayıp müşteri kazanım",
+        "Gelin paketi takip akışı",
+        "Çoklu kanal (WhatsApp + SMS + Email)",
+        "Aylık 8.000 mesaj dahil",
+        "Aylık performans raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Salon",
+      "price": "45.000 TL kurulum + 12.000 TL/ay",
+      "description": "Çoklu şube, gelin pazarı agresif ve VIP odaklı salonlar için",
+      "features": [
+        "Çoklu şube + merkezi yönetim",
+        "Üyelik kartı + dijital cüzdan",
+        "VIP müşteri özel akışları",
+        "Cross-sell otomasyonu (ürün önerisi)",
+        "Aylık özel kampanya tasarımı",
+        "Sınırsız mesaj",
+        "Özel proje yöneticisi",
+        "Aylık ekip eğitimi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Mevcut Excel kayıtlarımı CRM'e nasıl taşıyorsunuz?", "answer": "Excel dosyanızı bize gönderiyorsunuz, kolon eşleştirme (isim, telefon, doğum tarihi, hizmetler, harcama) yapıyoruz, 1-2 gün içinde tüm kayıtlarınız yeni sistemde. Salon-iz, Booksy, Fresha gibi yazılımlardan da export ediyoruz. Migration ücretsiz, paket fiyatına dahil."},
+    {"question": "Sadakat puan sistemi nasıl çalışıyor?", "answer": "Her TL harcamada 1 puan, randevuya zamanında gelmeden 5 puan bonus, çoklu hizmet alana %20 ekstra puan. 500 puanda ücretsiz şampuan, 1000 puanda %20 kesim indirimi. Puan WhatsApp'tan görüntülenebiliyor, müşteri puan biriktirme motivasyonuyla daha sık geliyor."},
+    {"question": "No-show'u nasıl %60 azaltıyorsunuz?", "answer": "3 aşamalı hatırlatma: 24 saat önce 'Onayla / Ertele / İptal' butonlu mesaj, 3 saat önce hatırlatma, 30 dakika önce yola çık uyarısı. İptal edilen yer otomatik 'sıradaki müşteri' listesine bildiriliyor. Yıllık 700K TL'ye varan ek gelir."},
+    {"question": "Doğum günü kuponunu sürekli yollarsak kazanç düşer mi?", "answer": "Tam tersi. %20 indirim ortalama 800 TL randevuyu 640 TL'ye düşürür ama o müşteri normalde gelmeyecekti. Net kazanç 640 TL. Üstelik doğum günü hissiyat müşteri bağlılığını artırıyor, sonraki ziyaretler tam fiyatla geliyor. ROI çok yüksek."},
+    {"question": "Mevcut WhatsApp asistanım veya web sitemle entegre olur mu?", "answer": "Evet, PORTZEN'in WhatsApp AI asistanı, web sitesi randevu sistemi ve CRM modülü tek ekosistemde çalışıyor. Müşteri WhatsApp'tan randevu açtığında otomatik CRM'e düşüyor, sadakat puanı CRM tarafından WhatsApp'a bildiriliyor. Tek bütünleşik sistem."},
+    {"question": "VIP müşterilerimi nasıl ayırt edip özel davranırım?", "answer": "Sistem yıllık harcama, ziyaret sıklığı, ürün alımı gibi metriklerle VIP segment otomatik oluşturuyor. VIP müşteriye özel doğum günü hediyesi (ücretsiz kesim), öncelikli randevu hattı, yeni hizmet ilk deneme daveti. Resepsiyon görevliniz panelden VIP'i hemen tanıyor."},
+    {"question": "Ekibim teknoloji bilmiyor, kullanabilir mi?", "answer": "CRM paneli Türkçe ve basit - resepsiyon görevlisi 2-3 günde rahat kullanır. Kurulumda 2 saatlik canlı eğitim, video tutorial kütüphanesi. Ustalar telefondaki mobil uygulamadan kendi müşterilerinin notlarını görebiliyor (örn. 'şampuan alerjisi var'). Profesyonel ve Premium pakette aylık check-in destek."}
+  ],
+  "finalCtaHeadline": "Salon CRM'inizi 2 haftada otomatikleştirin",
+  "finalCtaSubtitle": "20 dakikalık görüşmede mevcut süreçlerinizi inceliyoruz, hangi otomasyonlarla ne kadar gelir artışı sağlayacağınızı hesaplıyoruz. Demo ortamı canlı gösterim."
+}

@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "petshop",
+  "sectorName": "Petshop",
+  "sectorPlural": "Petshoplar",
+  "title": "Petshoplar İçin Web Tasarım | E-ticaret + Mama Abonelik + Katalog - PORTZEN",
+  "description": "Petshoplar için Next.js e-ticaret + web tasarım. Online mama satışı, abonelik sistemi, ırk bazlı ürün filtreleme, Aras/Yurtiçi kargo entegrasyonu, Iyzico ödeme.",
+  "keywords": ["petshop web tasarım", "petshop e-ticaret", "mama satış sitesi", "online petshop", "petshop site yapımı", "mama abonelik sistemi"],
+  "h1": "Petshoplar için E-ticaret + Web Tasarım",
+  "heroSubtitle": "Online mama satışı, abonelik sistemi, ırk bazlı ürün filtreleme, kargo entegrasyonu ve Iyzico ödeme - Next.js ile geliştirilmiş, mobilde hızlı petshop e-ticaret sitesi.",
+  "stats": [
+    {"value": "20 gün", "label": "Ortalama Teslim"},
+    {"value": "94+", "label": "Lighthouse Skoru"},
+    {"value": "Aras", "label": "Yurtiçi Entegre"},
+    {"value": "Abonelik", "label": "Sistemi"}
+  ],
+  "problems": [
+    "Trendyol ve Hepsiburada'ya komisyon (15-25%) ödüyorsunuz, kar marjınız çok düşük kalıyor",
+    "Mevcut siteniz 2019'da yapılmış, mobil uyumsuz, ürün filtreleme yok, müşteri Royal Canin'i bulamıyor",
+    "Online mama satışınız yok, müşteri 'kargoyla gönderir misiniz?' diye soruyor, siz Excel'de takip ediyorsunuz",
+    "Mama abonelik sistemi yok, tekrar eden satışı manuel hatırlamanız gerekiyor, müşteri unutulup gidiyor",
+    "Google'da 'Royal Canin İzmir' aramasında 5. sayfadasınız, organik trafik gelmiyor",
+    "Iyzico ödeme bağlantısı kuramadınız, müşteri havale yapmaktan üşeniyor, satış kaybediyorsunuz"
+  ],
+  "solutionSteps": [
+    {"title": "1. Marka & Ürün Katalog Brief", "description": "Petshopunuzun konseptini (premium / aile / niş), ürün listenizi (Royal Canin, Hills, Pro Plan, niş markalar), kategorileri (kedi/köpek/kuş/balık), abonelik politikanızı anlıyoruz."},
+    {"title": "2. UI/UX Tasarım", "description": "Figma'da petshop e-ticaret özel tasarımı - sevimli hayvan görselli hero, ırk + yaş bazlı filtreleme, sticky sepet, mama abonelik banner. Mobil-first, müşteri 30 saniyede ürün bulup sepete atabilmeli."},
+    {"title": "3. Next.js + E-ticaret + Abonelik", "description": "Next.js 15 + Shopify Hydrogen veya özel e-ticaret. Iyzico ödeme, Aras/Yurtiçi/MNG kargo entegrasyonu, mama abonelik sistemi (25 gün döngü), stok yönetimi, ırk + yaş bazlı öneri."},
+    {"title": "4. SEO + Google Shopping", "description": "Schema markup (Product + Offer), bölge SEO ('Royal Canin İzmir', 'Hills Kadıköy' gibi), Google Shopping feed kurulumu, Google My Business optimizasyonu."}
+  ],
+  "features": [
+    {"title": "E-ticaret + Iyzico Ödeme", "description": "Tam e-ticaret sistemi - sepet, kargo seçimi, Iyzico ödeme (kredi kartı, taksit), sipariş takip. Trendyol komisyonu yok, %15-25 kar marjı geri kazanılıyor."},
+    {"title": "Mama Abonelik Sistemi", "description": "Müşteri 'her ay aynı mama' tercih ederse abonelik aktif olur. 25-28 gün döngüsünde otomatik sipariş + ödeme + kargo. Aboneye %15 indirim, sürekli gelir sizin için."},
+    {"title": "Irk + Yaş + Boyut Filtreleme", "description": "Müşteri 'Pers kedi, 6 yaş, 4 kg' bilgisini giriyor, sistem en uygun mamaları öneriyor. Veteriner gerekiyorsa yönlendiriyor. Doğru öneri = sadık müşteri."},
+    {"title": "Kargo Entegrasyonu (Aras, Yurtiçi, MNG)", "description": "Sipariş onaylanır onaylanmaz kargo etiketi otomatik üretiliyor, takip kodu müşteriye SMS + e-mail. 'Kargonuz yarın 14-17 arası' bilgisi otomatik."},
+    {"title": "Niş Hayvan Bölümleri", "description": "Kuş yemi karışımları, akvaryum bakım ürünleri, sürüngen UVB lambası, hamster talaşı - niş kategoriler rakiplerde yok, bu segmenti tamamen kazanıyorsunuz."},
+    {"title": "Google Shopping + Bölge SEO", "description": "Tüm ürünlerinizi Google Shopping'e otomatik feed gönderim. 'Royal Canin İzmir' arayan müşteri direkt ürün sayfanıza geliyor, Trendyol değil sizi tercih ediyor."}
+  ],
+  "caseStudy": {
+    "title": "Çankaya Wagaway Petshop - Online Satış 0 → 240.000 TL/ay, Trendyol Komisyonundan Kurtuldu",
+    "paragraphs": [
+      "Çankaya'da premium konsept Wagaway Petshop 2024 sonunda PORTZEN'e geldi. Trendyol'da satış yapıyordu ama %22 komisyon ödüyordu, kar marjı %18'e düşmüştü. Kendi siteleri 2020'de yapılmış basit bir tek sayfa, e-ticaret yoktu. Müşteri 'kargoyla gönderir misiniz?' diye sorduğunda WhatsApp'tan manuel sipariş alıyorlardı, sonra havale bekliyorlardı.",
+      "20 günde Profesyonel paketle Shopify Hydrogen tabanlı e-ticaret kurduk - 480 ürün katalogu, ırk + yaş filtreleme, Iyzico ödeme (taksit dahil), Aras kargo entegrasyonu, mama abonelik sistemi, Google Shopping feed. Mobile-first, 1.2 saniyede açılıyor.",
+      "İlk ay 38.000 TL ciro, 6. ayın sonunda aylık 240.000 TL online satış. Trendyol komisyonundan tasarruf aylık 52.800 TL (sadece aylık 240K'nın %22'si bile). Mama abonelik müşterisi 6 ay sonunda 184 oldu - sürekli gelir 68.000 TL aylık. Google Shopping'den 'Royal Canin Ankara' aramasında 1. sırada görünüyorlar."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Online Satış", "before": "0 TL", "after": "240.000 TL"},
+      {"label": "Trendyol Komisyon Tasarrufu", "before": "0 TL", "after": "52.800 TL/ay"},
+      {"label": "Mama Abonelik Müşterisi", "before": "0", "after": "184"},
+      {"label": "Site Yüklenme Süresi", "before": "8.2 sn", "after": "1.2 sn"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Petshop Sitesi",
+      "price": "14.000 TL",
+      "description": "Tek seferlik - küçük petshop ve yeni açılışlar için",
+      "features": [
+        "5 sayfa + 50 ürün katalog",
+        "Next.js + Tailwind",
+        "Mobil responsive + 90+ Lighthouse",
+        "Basit ürün vitrin (sipariş WhatsApp)",
+        "Google Maps embed",
+        "WhatsApp sipariş butonu",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel E-ticaret",
+      "price": "32.000 TL + 2.500 TL/ay",
+      "description": "Aktif petshoplar için en popüler paket - abonelik dahil",
+      "features": [
+        "Sınırsız ürün katalogu",
+        "Iyzico ödeme + taksit",
+        "Aras/Yurtiçi/MNG kargo entegrasyonu",
+        "Mama abonelik sistemi",
+        "Irk + yaş + boyut filtreleme",
+        "Google Shopping feed",
+        "Sanity CMS yönetim paneli",
+        "Aylık bakım, ürün güncelleme"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "55.000 TL + 4.500 TL/ay",
+      "description": "Zincir petshoplar ve agresif büyüme - çoklu şube destekli",
+      "features": [
+        "Shopify Plus veya özel e-ticaret",
+        "Çoklu şube + depo yönetimi",
+        "Trendyol/Hepsiburada stok senkronizasyonu",
+        "Veteriner randevu modülü",
+        "Müşteri sadakat puan sistemi",
+        "Newsletter + kampanya mailing",
+        "Google Ads landing sayfaları",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Sitem ne kadar sürede hazır olur?", "answer": "Mini Petshop Sitesi 10-14 gün, Profesyonel E-ticaret 18-25 gün, Kurumsal 30-45 gün. Ürün kataloğunuzun durumuna göre değişiyor - Excel/barkod sisteminizden direkt çekiyoruz."},
+    {"question": "Iyzico komisyonu ne kadar?", "answer": "Iyzico kredi kartı işlem ücreti ~2.5%. Trendyol komisyonu 15-25% olduğu için Iyzico %85+ tasarruf sağlıyor. Vaka çalışmamızdaki Wagaway aylık 52.800 TL tasarruf etti. Iyzico hesabı kurulumu da paket dahilinde."},
+    {"question": "Mama abonelik sistemi nasıl çalışıyor?", "answer": "Müşteri ilk siparişte 'her ay aynı mamayı otomatik göndereyim mi?' tercih ediyor. Abone olduysa 25-28 gün döngüsünde sistem otomatik sipariş oluşturuyor, kayıtlı kartından ödeme alıyor, kargo etiketi üretiliyor. Müşteri istediği zaman 'bu ay durdur' veya 'iptal' diyebiliyor. Cayma oranı ~%3, retention çok yüksek."},
+    {"question": "Aras/Yurtiçi entegrasyonu için sözleşmem var mı?", "answer": "Aras Kargo Kurumsal hesap (kargo bedeli %30-40 indirim) gerekiyor, bu hesap kurulumunu biz yapıyoruz, sözleşme süreci ~1 hafta. Yurtiçi ve MNG aynı şekilde. Küçük petshoplar için MNG en uygun (ucuz + ülke geneli), büyük petshoplar için Aras öneriyoruz."},
+    {"question": "Trendyol'daki mevcut müşterilerimi de bu sisteme alabilir miyim?", "answer": "Trendyol'dan direkt müşteri çekme yasak (platform kuralı), ancak Trendyol'dan gelen siparişlere not ekleyebilirsiniz ('Direkt sitemizden alırsanız %15 indirim'). Müşteri sonraki siparişte sizin sitenize geliyor. Kurumsal pakette Trendyol stok senkronizasyonu da var (çift platformda satış)."},
+    {"question": "Ürün güncellemesini ben yapabilir miyim?", "answer": "Evet, Sanity CMS admin paneli veriyoruz. Yeni ürün ekleme, fiyat güncelleme, stok düşürme - 2-5 dakikada yapıyorsunuz. Online eğitim videosu (45 dakika) veriyoruz, sonrası kolay. ERP entegrasyonu varsa (Logo/Mikro) hiç manuel iş yok, otomatik senkron."},
+    {"question": "Google Shopping feed ne işe yarıyor?", "answer": "Tüm ürünleriniz Google'da 'Royal Canin Maxi Adult' arandığında fiyat + görsel + 'sipariş ver' butonuyla çıkıyor. Trendyol'un yanında direkt sizden alma seçeneği. Vaka çalışmamızdaki Wagaway organik trafiğinin %38'i Google Shopping'den geliyor - ücretsiz reklam gibi."}
+  ],
+  "finalCtaHeadline": "Trendyol komisyonundan kurtulun, kendi e-ticaretinizi 3 haftada açın",
+  "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut Trendyol/satış verinizi inceleyip ücretsiz tasarruf raporu hazırlıyoruz. WhatsApp'tan veya formdan ulaşın."
+}

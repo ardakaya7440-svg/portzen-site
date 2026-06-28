@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "optik",
+  "sectorName": "Optik",
+  "sectorPlural": "Optikçiler",
+  "title": "Optikçiler İçin AI Reklam Videosu | Çerçeve Try-On + Sezon Koleksiyon - PORTZEN",
+  "description": "Optikçiler için AI ile üretilmiş reklam videoları. Çerçeve try-on, sezon koleksiyon tanıtımı, marka kampanya (Ray-Ban, Oakley, Tom Ford) ve göz muayene davet videoları.",
+  "keywords": ["optik reklam videosu", "ai reklam üretimi", "çerçeve tanıtım videosu", "optikçi sosyal medya", "ray-ban reklam", "gözlük reklam"],
+  "h1": "Optikçiler için AI Reklam Videosu Üretimi",
+  "heroSubtitle": "Çerçeve try-on videoları, sezon koleksiyon tanıtımları, marka kampanyaları (Ray-Ban, Oakley, Tom Ford) ve göz muayene davetleri. AI ile 5 günde 10-30 reklam varyasyonu.",
+  "stats": [
+    {"value": "5 gün", "label": "Ortalama Teslim"},
+    {"value": "10-30", "label": "Video Varyasyon"},
+    {"value": "%220", "label": "CTR Artışı"},
+    {"value": "₺2.80", "label": "Ortalama CPL"}
+  ],
+  "problems": [
+    "Trend çerçeve modellerini canlı çekim için modele ihtiyaç var, çekim 5-8 saat sürüyor, maliyetli ve zor planlanıyor",
+    "Ajansdan 1 video 8.000-15.000 TL, sezon başında 10 farklı marka için video yaptırmak bütçeyi yiyor",
+    "Yeni sezon Ray-Ban koleksiyonu için tanıtım videosu için ajans 2-3 hafta bekletiyor, sezon başlamış oluyor",
+    "TikTok ve Reels farklı formatlar, her platform için ayrı çekim yorucu, ölçeklenmez",
+    "Mevcut reklam videoları statik ürün fotoğrafı, kullanıcı 'denenmiş hali nasıl?' diye merak ediyor, dönüşüm düşük",
+    "Yeni mağaza açılışı veya bahar koleksiyonu için tanıtım videosu 3-4 hafta bekliyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Kampanya Brief", "description": "Kampanya amacınızı (sezon koleksiyon, marka kampanyası, göz muayene davet, yeni mağaza açılış), hedef kitleyi, mesaj tonunu ve platform tercihini alıyoruz. Çerçeve fotoğraflarınızı (marka katalog veya kendi çekim) topluyoruz."},
+    {"title": "2. Script ve Storyboard", "description": "Sektör uzmanı senarist 3-5 farklı script yazıyor. Her script için storyboard (sahne sahne görsel akış) hazırlanıyor. Onayınızdan sonra AI üretimine geçiyoruz. Türkçe ses tonları (lüks, genç, sıcak) seçilebiliyor."},
+    {"title": "3. AI Video Üretim (Runway + Sora + Kling)", "description": "Runway Gen-3, Sora 2 ve Kling 2.1 ile sahneleri üretiyoruz. Çerçeve try-on için AI yüze çerçeve giydirme (face-to-video). Marka kampanyası için sinematik product reveal. Türkçe AI ses (ElevenLabs) ile dublaj. Altyazı + müzik."},
+    {"title": "4. Format Çoklama ve Teslim", "description": "Her video 9:16 (Reels/TikTok/Shorts), 1:1 (Feed), 16:9 (YouTube) formatlarında teslim edilir. Meta Ads Manager ve TikTok Ads e direkt yüklenebilir. A/B test için varyasyonlar hazırlanır."}
+  ],
+  "features": [
+    {"title": "Çerçeve Try-On Videoları", "description": "Çerçeve fotoğrafını veriyorsunuz, AI ile farklı yüzlerde denenmiş halini gösteren sinematik video üretiliyor. 5-8 farklı model (yaş, cinsiyet, etnik çeşitlilik) try-on demoyu görüyor. Müşteri kendisini hayal edebiliyor."},
+    {"title": "Marka Kampanya Videoları", "description": "Ray-Ban, Oakley, Tom Ford, Persol gibi markalar için lüks sinematik kampanya videoları. Marka tonunu yakalayan görsel dil, dinamik sahne geçişleri, marka müziği. Aynı marka için 5-10 varyasyon."},
+    {"title": "Sezon Koleksiyon Tanıtımı", "description": "Bahar/yaz güneş gözlüğü koleksiyonu, sonbahar/kış optik gözlük kampanyası için 15-30 saniye reklam. Koleksiyon görselleri, sezon trendi, indirim teklifi. Kampanya başlamadan 5 günde hazır."},
+    {"title": "Göz Muayene Davet Videoları", "description": "Ücretsiz göz muayenesi kampanyaları için davet videoları. Optometrist tanıtımı, muayene süreci görseli, kontrol gerekliliği bilinç oluşturma. Sezon başı kontrol kampanyalarında çok etkili."},
+    {"title": "Çoklu Format Teslim", "description": "Aynı video 9:16, 1:1, 16:9 formatlarında. TikTok Shorts, Instagram Reels, Facebook Feed, YouTube Pre-roll için ayrı versiyonlar. Meta Ads Manager ve TikTok Ads doğrudan yükleme."},
+    {"title": "Türkçe AI Ses Dublajı", "description": "ElevenLabs Türkçe ses kataloğu. Lüks, genç, sıcak, profesyonel ton seçenekleri. Erkek ve kadın ses opsiyonları. Premium markalar için daha derin ton, genç koleksiyon için enerjik ton."}
+  ],
+  "caseStudy": {
+    "title": "İstanbul Etiler - Premium Optik: AI Reklam Videosu ile CPL ₺22 den ₺2.80 e İndi",
+    "paragraphs": [
+      "İstanbul Etiler de Ray-Ban, Tom Ford, Oakley gibi premium markalar satan bir optik mağazası 2025 Mart ta PORTZEN e geldi. Meta reklamlarını statik ürün fotoğraflarıyla yürütüyorlardı, CTR %0.6 ya düşmüştü, CPL 22 TL ye çıkmıştı. Ajans çekim için her marka 15.000 TL istiyordu, 10 marka için bütçe yetmiyordu.",
+      "5 günde 10 farklı AI reklam videosu ürettik. Ray-Ban Aviator try-on (4 farklı yüz tipinde), Tom Ford sezon koleksiyon sinematik reveal, Oakley spor güneş gözlüğü hareketli sahne, Persol klasik vintage atmosfer, ücretsiz göz muayene davet videosu. Her video 9:16, 1:1 ve 16:9 formatlarında. Meta Ads Manager a direkt yüklendi.",
+      "İlk hafta CTR %0.6 dan %2.6 ya çıktı. CPL 22 TL den 2.80 TL ye indi (%87 düşüş). Aylık 45 lead alıyorlardı, 220 lead e çıktı, 95 yeni müşteri geldi. Try-on videosu reklam yorgunluğunu kırdı, kullanıcı 'kendimde nasıl olur?' merakıyla mağazaya geliyor. Yıllık ajans bütçesi 180.000 TL den 36.000 TL ye düştü."
+    ],
+    "beforeAfter": [
+      {"label": "Reklam CTR", "before": "%0.6", "after": "%2.6"},
+      {"label": "Cost Per Lead", "before": "₺22", "after": "₺2.80"},
+      {"label": "Aylık Lead", "before": "45", "after": "220"},
+      {"label": "Aylık Video Üretim Maliyeti", "before": "₺15.000", "after": "₺3.000"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Tek Video",
+      "price": "3.500 TL",
+      "description": "Tek seferlik - 1 video, 3 format teslim",
+      "features": [
+        "1 ana video (15-30 sn)",
+        "9:16, 1:1, 16:9 formatlarda teslim",
+        "Türkçe AI ses dublajı",
+        "Altyazı + müzik",
+        "2 revizyon hakkı",
+        "Meta Ads ready",
+        "5 gün teslim"
+      ]
+    },
+    {
+      "name": "Kampanya Paketi",
+      "price": "12.000 TL",
+      "description": "Aktif reklam veren optikçiler için en popüler - A/B test dahil",
+      "features": [
+        "5 farklı video varyasyonu",
+        "Tüm formatlar (9:16, 1:1, 16:9)",
+        "3 farklı hook + 3 farklı CTA",
+        "Try-on videosu (1 marka, 4 yüz)",
+        "Türkçe AI ses (lüks veya genç ton)",
+        "Storyboard + script yazımı dahil",
+        "A/B test rehberi",
+        "5 gün teslim"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Aylık Üretim",
+      "price": "30.000 TL/ay",
+      "description": "Sürekli reklam veren zincirler ve büyük mağazalar için",
+      "features": [
+        "Aylık 15-20 video varyasyonu",
+        "Tüm formatlar + 4K teslim",
+        "Try-on videoları (3 marka/ay)",
+        "Sezon koleksiyon kampanyaları",
+        "Marka bazlı sinematik reveal videoları",
+        "Meta + TikTok Ads optimizasyon rehberi",
+        "Haftalık brief toplantısı",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Try-on videosu nasıl çalışıyor?", "answer": "Çerçeve fotoğrafını veriyorsunuz, AI farklı yüz tipindeki (yaş, cinsiyet, etnik çeşitlilik) modellere çerçeveyi giydiriyor. 4-8 farklı try-on demoyu görüyorsunuz. Müşteri 'bana nasıl yakışır?' sorusuna görsel cevap alıyor, dönüşüm 2-3 kat artıyor."},
+    {"question": "AI reklam videosu gerçek mi görünüyor?", "answer": "2025 itibariyle Runway Gen-3, Sora 2 ve Kling 2.1 ile üretilen videolar yüksek gerçekçilikte. Özellikle fotoğrafdan video yöntemi gerçek çerçeve fotoğraflarınızdan başlıyor. Tam stüdyo çekimi kalitesinde değil ama reklam için fazlasıyla yeterli ve CTR çok daha yüksek."},
+    {"question": "Marka onayı gerekiyor mu? (Ray-Ban, Oakley vb.)", "answer": "Kendi mağazanızda sattığınız ürünü tanıtmak için marka onayı gerekmez (perakendeci hakkı). Marka logosu kullanımında dikkat ediyoruz, bayi statünüze uygun şekilde. Bazı markaların kampanya kılavuzları var, onlara uyuyoruz."},
+    {"question": "Türkçe seslendirme doğal mı?", "answer": "ElevenLabs Türkçe ses modelleri 2025 itibariyle çok doğal. Lüks, genç, sıcak, profesyonel ton seçenekleri var. Demo paylaşıp seçim yapıyorsunuz. Premium markalar için derin ses, genç koleksiyon için enerjik ses tercih edilebiliyor."},
+    {"question": "Meta ve TikTok AI videoyu kabul ediyor mu?", "answer": "Evet, Meta ve TikTok Ads politikaları AI üretimi içerik kabul ediyor. 2025 te 'AI üretimi' işaretlemesi opsiyonel, biz yine de etiketliyoruz şeffaflık için. Onaysız reddedilen video sayımız %2 nin altında."},
+    {"question": "Mevcut çekim videolarımı kullanabilir miyiz?", "answer": "Evet, mevcut mağaza çekim videolarınızı AI ile birleştirebiliriz. Sahne ekleme, format değiştirme, yeni hook ekleme, AI ses dublajı, altyazı. Hybrid yaklaşım hem maliyet hem otantiklik açısından çok iyi sonuç veriyor."},
+    {"question": "Hangi durumda AI değil gerçek çekim öneriyorsunuz?", "answer": "Belirli bir model yüzünün öne çıkması (influencer iş birliği), karmaşık mağaza içi atmosfer çekimi, brand film türü uzun içerikler için gerçek çekim öneriyoruz. Performans reklamı, sezon kampanyaları, try-on demoları için AI yeterli ve daha verimli."}
+  ],
+  "finalCtaHeadline": "5 günde optikçiniz için reklam kütüphanesi oluşturun",
+  "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut reklamlarınızı analiz edip size özel video stratejisi hazırlıyoruz. WhatsApp tan veya formdan ulaşın."
+}

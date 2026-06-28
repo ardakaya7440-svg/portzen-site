@@ -1,0 +1,164 @@
+{
+  "type": "location",
+  "sectorSlug": "konya",
+  "sectorName": "Konya",
+  "sectorPlural": "Konya'daki İşletmeler",
+  "title": "Konya Web Tasarım | Mobilya Katalog + B2B Next.js - PORTZEN",
+  "description": "Konya'daki mobilya showroomları, un fabrikaları ve KOBİ'lere modern Next.js web tasarımı + mobilya kataloğu + B2B portal. Selçuklu, Karatay, Meram local SEO.",
+  "keywords": [
+    "konya web tasarım",
+    "konya nextjs site",
+    "konya mobilya katalog",
+    "selçuklu web tasarım",
+    "konya b2b portal",
+    "karatay web ajansı",
+    "konya local seo"
+  ],
+  "h1": "Konya İçin Web Tasarım + Mobilya Katalog + B2B",
+  "heroSubtitle": "Selçuklu'da mobilya showroom'undan Karatay'da un fabrikasına, Meram'da iç mimara. Hızlı, mobil-uyumlu Next.js siteleri, 3D katalog ve B2B bayilik portal dahil.",
+  "stats": [
+    {"value": "Next.js", "label": "Modern Stack"},
+    {"value": "%98", "label": "PageSpeed"},
+    {"value": "B2B Portal", "label": "Dahil"},
+    {"value": "21 gün", "label": "Teslim"}
+  ],
+  "problems": [
+    "Selçuklu'daki mobilya showroom'unuzun sitesi WordPress'te, ürün kataloğunu güncellemek için her seferinde 800 TL ajans ücreti ödüyorsunuz; oysa kendi başınıza ürün ekleyebileceğiniz panel yok.",
+    "Karatay'daki un fabrikanız 200+ bayi ile çalışıyor ama bayilerin online sipariş, stok sorgu, fiyat listesi indirme yapabileceği B2B portal yok; tüm sipariş telefon/WhatsApp üzerinden, kaos.",
+    "Google'da 'mahalle + sektör' aramada (örn. 'selçuklu mobilya', 'karatay mobilya', 'konya yatak odası') rakipleriniz çıkıyor, sizin siteniz 4. sayfada; Google My Business profili ve lokal SEO yapılmamış.",
+    "Konya mobilyacısı olarak ulusal pazara (İstanbul, Ankara, İzmir) açılmak istiyorsunuz ama site mobilde 9 saniyede açılıyor, kargo bilgisi yok, online sipariş yok; potansiyel müşteri vazgeçiyor.",
+    "Konya'daki yerel ajanslar WordPress + hazır mobilya teması çıkarıyor; modern Next.js, 3D ürün katalog, B2B portal, KVKK uyumu, ihracat odaklı çoklu dil bilen ekip yok. İstanbul/Ankara ajansları ise pahalı ve uzak."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Konya Lokal + B2B Keşif",
+      "description": "Rakip analizi (Selçuklu, Karatay, Meram bazında + İstanbul/Ankara mobilya markaları), Google My Business denetimi, mevcut sitenizin teknik audit'i. B2B bayilik akışı analizi. Hedef anahtar kelime haritası (TR + EN + AR)."
+    },
+    {
+      "title": "Tasarım + Prototip",
+      "description": "Marka kimliğinize uygun, mobil-öncelikli Figma tasarımı. Mobilya markası için 3D ürün kataloğu, un fabrikası için B2B portal. Wireframe → high-fidelity → onay. 2 revizyon dahil."
+    },
+    {
+      "title": "Next.js Geliştirme + B2B",
+      "description": "React + Next.js 15 + Tailwind + Vercel deploy. PageSpeed %98+, SEO Schema.org, KVKK + GMB entegrasyonu. B2B için bayi giriş, stok sorgu, sipariş panel. Mobilya için 3D ürün görüntüleme."
+    },
+    {
+      "title": "Yayın + Local SEO Bakım",
+      "description": "Canlıya alma, Google Search Console kurulum, GMB optimizasyon, ilk 3 ay haftalık takip, aylık raporlama. İhracat için Google Ads + Meta Ads opsiyonel."
+    }
+  ],
+  "features": [
+    {
+      "title": "Konya Mahalle + Showroom Landing'leri",
+      "description": "Selçuklu, Karatay, Meram, Beyşehir, Akşehir, Ereğli gibi hedef ilçelerinize özel optimize edilmiş alt sayfalar. 'Mahalle + hizmet' aramasında ilk sayfa."
+    },
+    {
+      "title": "Mobilya 3D Katalog + Konfigürator",
+      "description": "Müşteri ürünü 360° döndürebilir, kumaş/renk seçeneklerini görebilir, ölçü değiştirebilir. Konya mobilyacılarda ulusal pazara açılmanın en güçlü özelliği."
+    },
+    {
+      "title": "B2B Bayilik Portal",
+      "description": "Bayi giriş, gerçek zamanlı stok sorgu, fiyat listesi indirme (bayi seviyesine göre özel fiyat), online sipariş, sipariş takip. Un fabrikası + mobilya bayilik ağı için kritik."
+    },
+    {
+      "title": "Çoklu Dil (TR + EN + AR)",
+      "description": "Türkçe + İngilizce + Arapça çoklu dil, multi-currency (TL/USD/EUR), RTL Arapça düzen. Suudi/Irak/Libya mobilya ihracatı için hazır."
+    },
+    {
+      "title": "Google My Business + Local SEO",
+      "description": "Profil tam kurulum, foto/post, müşteri yorum yönetimi, harita üzerinde 'pin' optimizasyon. Konya semt bazlı (Selçuklu, Karatay, Meram) SEO."
+    },
+    {
+      "title": "Uzaktan Geliştirme + Bakım",
+      "description": "İzmir merkezli PORTZEN ekibi uzaktan tam destek, Vercel/Cloudflare CDN, otomatik yedek, SSL, aylık güvenlik güncellemesi. Site asla düşmez."
+    }
+  ],
+  "caseStudy": {
+    "title": "Karatay'da un fabrikası: 6 ayda 200 bayi B2B portala geçti, sipariş süresi 4 saatten 8 dakikaya",
+    "paragraphs": [
+      "Karatay sanayi bölgesinde faaliyet gösteren, Türkiye geneli 200+ bakkal/manav/fırıncı/pastane bayisi olan bir Konya un fabrikası, 2014 yapımı statik WordPress sitesini kullanıyordu. Bayi siparişleri telefon (%40) + WhatsApp (%50) + Email (%10) üzerinden geliyor, ofis ekibi günde 80-120 sipariş manuel ERP'ye giriyordu. Yanlış sipariş %12, sevkiyat gecikme %18, bayi şikayeti yoğundu. Yeni bayi açmak için kataloğu PDF olarak email atıyorlardı.",
+      "PORTZEN olarak Next.js + Tailwind + Headless ERP entegrasyonu ile sıfırdan B2B portal kurduk. Bayi giriş paneli, gerçek zamanlı stok (Akınsoft ERP API), bayi seviyesine göre özel fiyat listesi, online sipariş, sipariş takip + sevkiyat bildirimi, KVKK uyum. Mobilya/yatak odası ürünleri için ek 3D katalog modülü.",
+      "6 ay sonunda 200 bayinin 178'i B2B portala geçti (%89). Sipariş giriş süresi telefonda ortalama 4 saatten portalda 8 dakikaya düştü. Yanlış sipariş %12'den %0.6'ya düştü. Ofis ekibi sipariş girişine harcadığı 3 kişi/gün zamanı yeni bayi geliştirmeye yönlendirdi. 4 ay içinde 45 yeni bayi eklendi. Aylık ciro %35 büyüdü."
+    ],
+    "beforeAfter": [
+      {"label": "Sipariş Giriş Süresi", "before": "4 saat", "after": "8 dakika"},
+      {"label": "Yanlış Sipariş Oranı", "before": "%12", "after": "%0.6"},
+      {"label": "B2B Portal Kullanım", "before": "%0", "after": "%89 (178/200 bayi)"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Landing Sayfa",
+      "price": "12.000 TL",
+      "description": "Tek lokasyonlu işletme, butik mobilyacı, küçük üretici için (tek seferlik)",
+      "features": [
+        "Next.js + Tailwind tek sayfa",
+        "Mobil-öncelikli tasarım",
+        "Form + WhatsApp butonu",
+        "Temel SEO + Schema.org",
+        "KVKK + çerez uyum",
+        "1 yıl hosting dahil"
+      ]
+    },
+    {
+      "name": "Mobilya Showroom Sitesi",
+      "price": "35.000 TL + 2.500 TL/ay",
+      "description": "Showroom + ürün katalog, iç mimar studio için",
+      "features": [
+        "8-12 sayfa kurumsal site",
+        "Ürün kataloğu (300+ ürün)",
+        "5 mahalle bazlı landing",
+        "Google My Business kurulum",
+        "Tam local SEO + Schema",
+        "Aylık SEO bakım + rapor"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "B2B Portal + E-Ticaret",
+      "price": "85.000 TL + 4.500 TL/ay",
+      "description": "Un fabrikası, mobilya üreticisi, bayilik ağı için",
+      "features": [
+        "Next.js + Headless ERP entegrasyon",
+        "Bayi giriş + özel fiyat",
+        "Gerçek zamanlı stok sorgu",
+        "Online sipariş + takip",
+        "3D ürün katalog (mobilya için)",
+        "Türkçe + EN + AR çoklu dil",
+        "Adanmış hesap yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Konya lokal SEO ne demek, sıradan SEO'dan farkı ne?",
+      "answer": "Lokal SEO, 'mahalle + sektör' (örn. 'selçuklu mobilya', 'karatay yatak odası') aramada öne çıkmak için yapılan özel optimizasyon. Google My Business, Schema.org LocalBusiness, mahalle bazlı içerik, coğrafi etiketleme dahil."
+    },
+    {
+      "question": "İzmir merkezli ajansla Konya'da nasıl çalışacağız?",
+      "answer": "Tüm görüşmeler online (Google Meet, Zoom). Konya'da fiziksel ofis maliyetimiz olmadığı için yerel ajanslardan %30-40 daha uygun fiyat sunuyoruz. Konya'da aktif müşterilerimiz var, referans verebiliriz. Gerektiğinde Konya'ya seyahat ediyoruz."
+    },
+    {
+      "question": "Mobilya 3D katalog nasıl çalışıyor, fotoğraf çekimine alternatif mi?",
+      "answer": "Mevcut ürün fotoğraflarınızdan 3D model üretiyoruz (veya yeni ürünler için 3D modelleme hizmeti). Müşteri ürünü 360° döndürüyor, kumaş/renk değiştiriyor, kendi salonuna AR ile yerleştirebiliyor. Showroom'a gelmeden satış oluyor."
+    },
+    {
+      "question": "Un fabrikası bayilik portalımız Akınsoft ERP ile çalışır mı?",
+      "answer": "Evet. Akınsoft, Mikro, Logo, Netsis ERP'lerle REST API veya köprü servis kuruyoruz. Bayi portalda gördüğü stok = ERP'deki gerçek stok. Çift veri girişi yok, hata oranı sıfır."
+    },
+    {
+      "question": "Konya mobilyacısı olarak ulusal pazara (İstanbul) nasıl açılırız?",
+      "answer": "Site teknik altyapısı ulusal SEO + e-ticaret + kargo entegrasyonu ile hazır. Site dışında Meta Ads + Google Ads danışmanlığı veriyoruz (opsiyonel). Konya mobilyacılarda 6-12 ayda ulusal pazardan ciro hedeflenebilir."
+    },
+    {
+      "question": "Konya'daki yerel ajansla aramda fiyat farkı ne kadar?",
+      "answer": "Konya yerel ajansları WordPress + hazır mobilya teması için 18-30K istiyor. Biz Next.js + custom design + 3D katalog + B2B portal için 35-85K alıyoruz. Fiyat 1.5-2x yüksek ama teknik kalite 5-10 kat üstün, uzun vadede çok daha düşük bakım maliyeti."
+    },
+    {
+      "question": "Aylık SEO bakımı ne içeriyor?",
+      "answer": "Google Search Console takibi, sıralama raporu, içerik güncellemesi, GMB post yönetimi, teknik SEO audit, aylık 3 saat danışmanlık. Tam şeffaf rapor. B2B paketinde Google Ads + Meta Ads danışmanlık dahil."
+    }
+  ],
+  "finalCtaHeadline": "Konya'da Google'ın ilk sayfasına çıkalım.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz site audit. Mevcut siteniz + rakipleriniz analiz, size özel local SEO + B2B yol haritası. 21 günde yeni site canlı."
+}

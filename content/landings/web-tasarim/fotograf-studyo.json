@@ -1,0 +1,109 @@
+{
+  "sectorSlug": "fotograf-studyo",
+  "sectorName": "Fotoğraf Stüdyosu",
+  "sectorPlural": "Fotoğraf Stüdyoları",
+  "title": "Fotoğraf Stüdyoları İçin Web Tasarım | Portfolyo Galerisi + Paket Sayfası - PORTZEN",
+  "description": "Fotoğraf stüdyoları için Next.js web tasarım. Cinematic portfolyo galerisi, çekim türü kategorilendirme, paket fiyat sayfaları, online galeri teslim ve müsait tarih takvimi.",
+  "keywords": ["fotoğraf stüdyo web tasarım", "wedding photographer website", "fotoğrafçı portfolyo sitesi", "düğün fotoğrafçı site", "online galeri", "çekim paket sayfası"],
+  "h1": "Fotoğraf Stüdyoları için Profesyonel Web Tasarım",
+  "heroSubtitle": "Cinematic portfolyo galerisi, çekim türü kategorileri, paket sayfaları, online galeri teslim sistemi, müsait tarih takvimi - Next.js ile geliştirilmiş, premium görselli stüdyo websitesi.",
+  "stats": [
+    {"value": "20 gün", "label": "Ortalama Teslim"},
+    {"value": "97+", "label": "Lighthouse Skoru"},
+    {"value": "Portfolyo + Online Galeri", "label": "Sistem"},
+    {"value": "Pixieset / Custom", "label": "Galeri Seçeneği"}
+  ],
+  "problems": [
+    "Mevcut siteniz WIX / Squarespace, portfolyo yüklemek 3-5 saniye sürüyor, müşteri ayrılıyor",
+    "Çekim teslim için Pixieset / WeTransfer kullanıyorsunuz ama markanızla uyumlu galeri yok, profesyonellik düşüyor",
+    "Düğün, nişan, hamile, doğum günü paketleriniz site üzerinde yok - müşteri DM'den fiyat soruyor",
+    "Google'da 'İstanbul wedding photographer', 'İzmir hamile çekim' aramalarında üst sıralarda yoksunuz",
+    "Müsait tarih sorgulaması telefon / DM üzerinden - müşteri hızlı karar vermek istiyor, kayıp gidiyor",
+    "Stüdyo ekibinizi tanıtan sayfa yok, müşteri 'kim çekecek' bilmiyor, güven düşük"
+  ],
+  "solutionSteps": [
+    {"title": "1. Stüdyo + Portfolyo Brief", "description": "Stüdyo tarzınızı (klasik, modern, fine art, dokümanter), öne çıkarmak istediğiniz çekim türlerini (düğün, nişan, hamile, doğum günü, kurumsal, ürün), paket detaylarınızı, ekip bilgilerinizi ve portfolyonuzu alıyoruz."},
+    {"title": "2. UI/UX Tasarım", "description": "Figma'da stüdyo sektörüne özel tasarım - büyük görselli hero, çekim türü kategorilendirme, paket karşılaştırma, ekip kartları, müsait tarih takvimi, online galeri portalı. Mobil-first, premium hissi ön planda."},
+    {"title": "3. Next.js + Galeri + Takvim", "description": "Next.js 15 ile geliştirme. Cinematic portfolyo galerisi (lazy load, lightbox, kategori filtre), paket sayfaları, online galeri teslim sistemi (parola korumalı), müsait tarih takvimi (Google Takvim entegre), Iyzico kapora ödeme."},
+    {"title": "4. SEO + Google My Business", "description": "Schema markup (LocalBusiness + Service), bölge + niş SEO ('İstanbul wedding photographer', 'Ankara hamile çekim', 'İzmir bebek çekimi'), Google My Business optimizasyonu, yorum yönetimi setup."}
+  ],
+  "features": [
+    {"title": "Cinematic Portfolyo Galerisi", "description": "Çekim türüne göre kategorilendirilmiş, lazy load, lightbox açılım, fullscreen mode. WebP optimizasyonu ile 1MB'lık fotoğraf bile 1 saniyede yükleniyor. Müşteri 'wow' diyor."},
+    {"title": "Paket Karşılaştırma Sayfası", "description": "Düğün, nişan, hamile, doğum günü paketleri detaylı karşılaştırmalı tablo - çekim süresi, fotoğraf sayısı, retouch, albüm, drone, ekip büyüklüğü. Müşteri DM'den fiyat sormadan görüyor."},
+    {"title": "Online Galeri Teslim Sistemi", "description": "Müşteriye parola korumalı özel galeri linki (markanızla uyumlu) - fotoğrafları görme, beğenme, indirme, retouch seçimi. Pixieset alternatifi, aylık ek ücret yok."},
+    {"title": "Müsait Tarih Takvimi", "description": "Google Takvim ile gerçek zamanlı senkron - müşteri istediği tarihi seçer, müsait ise direkt kapora ödeme akışına yönlenir (Iyzico). Çift rezervasyon riski yok."},
+    {"title": "Ekip Tanıtım Sayfası", "description": "Fotoğrafçı + retoucher + asistan kartları - kim, kaç yıl tecrübeli, hangi tarz, hangi ödüller. Müşteri 'kim çekecek' biliyor, güven artıyor."},
+    {"title": "Blog + SEO Sayfaları", "description": "'2025 düğün fotoğraf trendleri', 'hamile çekiminde neye dikkat', 'doğum günü çekim önerileri' gibi blog yazıları ile organik trafik. Niş bölge sayfaları ile bölgesel SEO."}
+  ],
+  "caseStudy": {
+    "title": "İzmir - Wedding Photography Stüdyosu: Organik Trafik 120 → 2.800/ay, Aylık 32 Online Görüşme Talebi",
+    "paragraphs": [
+      "İzmir Alsancak'ta wedding + nişan + hamile + bebek çekimi yapan butik bir stüdyo 2025 Mart'ında PORTZEN'e geldi. Mevcut siteleri Squarespace üzerinde tek sayfa, portfolyo yüklemek 4-6 saniye sürüyor, paket sayfası yok, online galeri için Pixieset (aylık 95 USD) kullanıyorlardı. Tüm görüşme talepleri Instagram DM üzerinden geliyordu.",
+      "20 günde Profesyonel paket ile yeniden inşa ettik - cinematic portfolyo (148 fotoğraf, 4 kategori), 5 çekim türü paket sayfası (düğün, nişan, hamile, doğum günü, aile), online galeri teslim sistemi (Pixieset'ten geçiş), müsait tarih takvimi, Google My Business optimizasyonu, 8 SEO blog yazısı.",
+      "İlk ay Google haritada 'İzmir wedding photographer' aramasında 3. sıraya çıktılar. 3. ayın sonunda aylık organik trafik 120'den 2.800'e ulaştı, ay başı 32 online görüşme talebi geliyor, bunların 15'i düğün rezervasyonuna dönüşüyor. Pixieset abonelik maliyeti (yıllık 1.140 USD) de tasarruf edildi."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Organik Trafik", "before": "120", "after": "2.800"},
+      {"label": "Aylık Online Görüşme Talebi", "before": "0", "after": "32"},
+      {"label": "Site Yüklenme Süresi", "before": "5.4 sn", "after": "0.9 sn"},
+      {"label": "Pixieset Abonelik", "before": "95 USD/ay", "after": "Dahil"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Stüdyo Sitesi",
+      "price": "12.000 TL",
+      "description": "Tek seferlik - yeni başlayan fotoğrafçılar için",
+      "features": [
+        "6 sayfa (anasayfa, portfolyo, paketler, hakkımızda, blog, iletişim)",
+        "Next.js + Tailwind",
+        "Mobil responsive + 90+ Lighthouse",
+        "Basit portfolyo galerisi (60 fotoğrafa kadar)",
+        "WhatsApp rezervasyon butonu",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "28.000 TL + 1.800 TL/ay",
+      "description": "Aktif wedding photographer ve stüdyolar için en popüler - galeri dahil",
+      "features": [
+        "12-16 sayfa + çekim türü detayları",
+        "Cinematic portfolyo galerisi (sınırsız)",
+        "Paket karşılaştırma sayfası",
+        "Online galeri teslim sistemi",
+        "Müsait tarih takvimi (Google Takvim)",
+        "Iyzico kapora ödeme entegrasyonu",
+        "Google My Business optimizasyonu",
+        "Aylık bakım + 2 blog yazısı"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "48.000 TL + 3.200 TL/ay",
+      "description": "Çoklu fotoğrafçı stüdyoları ve agresif büyüme için",
+      "features": [
+        "Sınırsız sayfa + çoklu fotoğrafçı yönetimi",
+        "Her fotoğrafçı için ayrı portfolyo + takvim",
+        "Çoklu dil (TR/EN)",
+        "Destinasyon düğün modülü",
+        "Albüm satış e-ticaret entegrasyonu",
+        "Aylık 5 blog yazısı",
+        "Google Ads landing sayfaları",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Sitem ne kadar sürede hazır olur?", "answer": "Mini Stüdyo Sitesi 10-15 gün, Profesyonel 18-25 gün, Premium 30-40 gün. Brief sonrası net gün veriyoruz. Portfolyo fotoğraflarınız hazır + yüksek çözünürlüklüyse hızlanıyor."},
+    {"question": "Pixieset / SmugMug yerine sizin online galerinizi neden kullanayım?", "answer": "Pixieset ortalama 95 USD/ay (yıllık 1.140 USD), SmugMug benzer fiyat. Bizim sistemimiz markanızla uyumlu (kendi domain altında galeri.stuydonuz.com), aylık abonelik yok, sınırsız galeri, parola korumalı, müşteri beğeni / yorum / indirme yapabiliyor. 1 yıl içinde maliyet karşılıyor."},
+    {"question": "Portfolyo fotoğraflarım çok yüksek çözünürlüklü, yüklemesi yavaş olur mu?", "answer": "Hayır, Next.js Image otomatik WebP / AVIF dönüşümü + responsive sizing + lazy load yapıyor. 4MB'lık RAW JPG bile 1 saniyede yükleniyor (yüksek çözünürlük korunarak). Lighthouse 97+ skoru bu yüzden."},
+    {"question": "Kafe / restoran web tasarımdan farkı ne?", "answer": "Fotoğraf stüdyosu sitesi tamamen 'görsel' odaklı - büyük portfolyo galerisi, cinematic atmosfer, premium hissiyat ön planda. Paket fiyatları transparent değil (görüşmeye yönlendirme), online galeri teslim sistemi gibi sektöre özel modüller var. Kafe / restoran sitesi menü + rezervasyon odaklı."},
+    {"question": "Müsait tarih takvimi Google Takvim ile nasıl çalışıyor?", "answer": "Sizin Google Takvim'inize takvim erişimi veriyorsunuz. Siz takvime çekim eklediğinizde sitedeki takvim otomatik 'dolu' gösteriyor. Müşteri müsait gün seçerse kapora ödeme akışına gidiyor, ödeme tamamlandığında Google Takvim'inize otomatik yeni rezervasyon ekleniyor."},
+    {"question": "Online galeride müşteri retouch seçimi nasıl yapıyor?", "answer": "Müşteri galeride beğendiği fotoğrafların yanındaki kalp ikonuna tıklıyor. Paketin retouch hakkı kadar (örn. 50 fotoğraf) seçim yaptığında 'gönder' butonuna basıyor. Size email + WhatsApp bildirim geliyor, hangi fotoğrafların retouch edileceği netleşmiş oluyor."},
+    {"question": "İleride ikinci fotoğrafçı eklersem mevcut sitem destekler mi?", "answer": "Profesyonel paketle başlayıp Premium'a geçince çoklu fotoğrafçı desteği geliyor. Her fotoğrafçı için ayrı portfolyo, ayrı paket sayfası, ayrı müsait takvim. Mevcut müşteri yükseltme indirimi (%30) uyguluyoruz."}
+  ],
+  "finalCtaHeadline": "Stüdyonuzun ilk online görüşme talebini 3 haftada alın",
+  "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut sitenizi inceleyip ücretsiz audit raporu hazırlıyoruz. WhatsApp'tan veya formdan ulaşın."
+}

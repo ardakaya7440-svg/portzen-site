@@ -1,0 +1,110 @@
+{
+  "type": "location",
+  "sectorSlug": "eskisehir",
+  "sectorName": "Eskişehir",
+  "sectorPlural": "Eskişehir İşletmeleri",
+  "title": "Eskişehir WhatsApp AI Asistanı | Üniversite Öğrencisi ve KOBİ Müşteri Otomasyonu - PORTZEN",
+  "description": "Eskişehir Tepebaşı, Odunpazarı, Çamlıca bölgelerindeki kafe, butik, e-ticaret ve KOBİ işletmeleri için WhatsApp AI asistan. Üni öğrencisi sipariş, sezon kampanya, rezervasyon otomasyonu.",
+  "keywords": ["eskisehir whatsapp ai", "eskisehir whatsapp otomasyon", "tepebasi whatsapp chatbot", "odunpazari musteri yonetimi", "eskisehir e-ticaret asistani", "anadolu universitesi ogrenci pazari"],
+  "h1": "Eskişehir İşletmeleri için WhatsApp AI Asistanı",
+  "heroSubtitle": "Anadolu Üniversitesi ve ESOGÜ öğrenci ekonomisinden Odunpazarı butik kafelere, çiğ börekçilerden seramik atölyelerine. WhatsApp'tan 7/24 sipariş, rezervasyon ve müşteri sorularına AI yanıt. PORTZEN İzmir merkezli, Eskişehir'de aktif müşteriler uzaktan.",
+  "stats": [
+    {"value": "7/24", "label": "Öğrenci Saatleri"},
+    {"value": "60 sn", "label": "Yanıt Süresi"},
+    {"value": "TR + EN", "label": "Dil Desteği"},
+    {"value": "Meta Onaylı", "label": "Business API"}
+  ],
+  "problems": [
+    "Tepebaşı'nda öğrenci yoğun bölgedesiniz, sipariş ve sorgular gece 23:00'a kadar geliyor, çalışanınız mesai bitince WhatsApp'a bakmıyor",
+    "Odunpazarı butik kafe veya seramik atölyeniz var, turistler ve şehir dışından İngilizce soruyor, çevirip cevap yetiştiremiyorsunuz",
+    "Çiğ börek, lokum veya lületaşı online satış yapıyorsunuz, kargo durumu ve sipariş takibi sorularına manuel yanıt veriyorsunuz",
+    "Üniversite dönem başlarında (Eylül + Şubat) sipariş patlaması oluyor, telefon ve WhatsApp aynı anda çalmıyor, müşteri kaybediyorsunuz",
+    "Yenibağlar ve Çamlıca'da küçük market veya bakkal işletiyorsunuz, kampanya duyurusu ve yeni ürün bildirimi için manuel mesaj atıyorsunuz",
+    "Müşteri menü, fiyat ve stok soruyor, her mesaja tek tek yazıyorsunuz, asıl işinize odaklanamıyorsunuz"
+  ],
+  "solutionSteps": [
+    {"title": "1. Sektör + Bölge Analizi", "description": "Eskişehir'deki işletme tipinizi (üni öğrenci hedefli e-ticaret, butik kafe, seramik atölyesi, çiğ börekçi, lokumcu vb.) ve müşteri profilinizi inceliyoruz. Sık sorulan ilk 30-50 soruyu çıkartıyoruz."},
+    {"title": "2. WhatsApp Business API Kurulumu", "description": "Meta resmi WhatsApp Business API hesabınızı açıyoruz, yeşil onay rozetiniz için başvuru süreci dahil. Telefon numaranız ve marka adınız ile profesyonel görünüm."},
+    {"title": "3. AI Asistan Eğitimi (TR + EN)", "description": "Menünüz, fiyat listeniz, sipariş süreciniz, kargo bilgileriniz AI'ya yükleniyor. Türkçe + İngilizce çift dilli yanıt (Odunpazarı turisti için), öğrenci diline uygun samimi ton."},
+    {"title": "4. CRM + Sipariş Akışı Entegrasyonu", "description": "Sipariş geldiğinde otomatik kayıt, kargo durumu otomatik bildirim, kampanya mesajları (sezon başı öğrenci indirimi gibi) toplu gönderim. Yapay zeka çözemeyeceği soruda canlıya devir."}
+  ],
+  "features": [
+    {"title": "7/24 Öğrenci Saatleri Yanıt", "description": "Üniversite öğrencisi gece 22:00-02:00 arası en aktif sipariş veriyor. AI asistan saat farketmeksizin yanıt veriyor, sabah size sadece özet rapor düşüyor."},
+    {"title": "Çift Dilli Yanıt (TR + EN)", "description": "Odunpazarı'nda turist, Anadolu Üniversitesi'nde yabancı öğrenci var. AI gelen mesajın dilini otomatik algılıyor, uygun dilde yanıt veriyor."},
+    {"title": "Sezon Kampanya Toplu Mesaj", "description": "Üniversite dönem başı, çiğ börek festivali, yılbaşı, sevgililer günü kampanyalarını WhatsApp listenize tek tıkla yolluyorsunuz. Müşteri segmentasyonu dahil."},
+    {"title": "Sipariş + Kargo Takip", "description": "Sipariş geldiğinde otomatik onay, kargoya verildiğinde takip numarası, teslim olduğunda memnuniyet anketi. Yurogo/MNG/Yurtiçi entegrasyonu."},
+    {"title": "Menü + Fiyat AI Yanıtları", "description": "Müşteri 'çiğ börek 1 porsiyon kaç para' sorduğunda, 'vegan menünüz var mı' dediğinde AI saniyeler içinde yanıt veriyor. Stok durumu da gerçek zamanlı."},
+    {"title": "Canlıya Devir + İnsan Kontrolü", "description": "AI çözemeyeceği özel istek (büyük sipariş, özel etkinlik rezervasyonu vb.) geldiğinde otomatik olarak size bildirim atıyor, sohbeti devralıyorsunuz."}
+  ],
+  "caseStudy": {
+    "title": "Odunpazarı - Butik Kafe + E-Ticaret: WhatsApp Sipariş 3x, Personel Mesai Yükü %58 Azaldı",
+    "paragraphs": [
+      "Odunpazarı'nda butik kahve dükkanı + online filtre kahve satışı yapan bir işletme 2025 Mart'ında PORTZEN'e geldi. Mevcut durumda Instagram DM + WhatsApp + telefon üç kanaldan sipariş geliyordu, sahibi sabah açılış öncesi 2 saat sadece mesaj cevaplıyordu, gece 23:00'tan sonra gelen siparişleri ertesi gün yanıtlıyordu, kayıp %25 civarındaydı.",
+      "WhatsApp Business API + AI asistan kurulumu 12 günde tamamlandı. Menü (28 ürün), fiyat listesi, kargo süreci, abonelik paketi seçenekleri AI'ya öğretildi. Çift dilli (TR + EN) yanıt aktif edildi çünkü Odunpazarı'nda haftada 15-20 turist soru atıyordu.",
+      "İlk ayın sonunda WhatsApp üzerinden sipariş 3 katına çıktı (ayda 80'den 240'a), sahibin manuel mesaj yanıtlama yükü %58 azaldı, gece siparişleri (22:00-02:00) artık otomatik karşılanıyor ve kargoya sabah veriliyor. Aylık 3.500 TL ek gelir, sadakat programı kayıt %180 arttı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık WhatsApp Sipariş", "before": "80", "after": "240"},
+      {"label": "Personel Manuel Yanıt Süresi", "before": "4 sa/gün", "after": "1.5 sa/gün"},
+      {"label": "Gece Sipariş Kaybı", "before": "%25", "after": "%3"},
+      {"label": "Müşteri İlk Yanıt Süresi", "before": "3-8 saat", "after": "60 saniye"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL kurulum + 1.200 TL/ay",
+      "description": "Tek seferlik kurulum, butik kafe ve küçük e-ticaret için",
+      "features": [
+        "WhatsApp Business API kurulumu",
+        "30 sık soru AI eğitimi",
+        "Türkçe yanıt",
+        "Sipariş bildirim otomasyonu",
+        "1 ay teknik destek",
+        "Aylık 1.000 mesaj dahil"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "15.000 TL kurulum + 2.500 TL/ay",
+      "description": "Aktif satış yapan Eskişehir KOBİ'leri için en popüler paket",
+      "features": [
+        "WhatsApp Business API + yeşil onay başvurusu",
+        "50+ soru AI eğitimi",
+        "TR + EN çift dilli yanıt",
+        "Kargo takip + sipariş kayıt",
+        "Sezon kampanya toplu mesaj (4 kampanya/ay)",
+        "CRM entegrasyonu",
+        "Aylık 5.000 mesaj dahil",
+        "Aylık raporlama"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "28.000 TL kurulum + 4.500 TL/ay",
+      "description": "Çoklu lokasyon, ihracat ve agresif büyüme için",
+      "features": [
+        "Sınırsız soru AI eğitimi",
+        "Çoklu dil (TR + EN + AR)",
+        "E-ticaret + ödeme link entegrasyonu",
+        "Sınırsız kampanya gönderimi",
+        "Sadakat puan sistemi entegrasyonu",
+        "Sınırsız mesaj",
+        "Haftalık optimizasyon görüşmesi",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Eskişehir'de mağazam var, PORTZEN İzmir merkezli, kurulum nasıl olacak?", "answer": "Tüm süreç uzaktan yürütülüyor. WhatsApp Business API kurulumu, AI eğitimi, CRM entegrasyonu için saha ziyareti gerekmiyor. Brief görüşmesi Zoom üzerinden 30 dakika, sonrası tamamen dijital. Eskişehir'de aktif 12+ müşterimiz bu yöntemle çalışıyor."},
+    {"question": "Anadolu Üniversitesi öğrencisi hedefliyorum, AI öğrenci diline uygun yanıt verebiliyor mu?", "answer": "Evet, AI asistanı sizin marka ses tonunuza göre eğitiyoruz. Samimi, genç, üniversite öğrencisine yakın dilde yanıt verebiliyor. Örnek konuşmaları siz onaylıyorsunuz, gerekirse ince ayar yapıyoruz."},
+    {"question": "Odunpazarı turisti İngilizce soruyor, AI hem Türkçe hem İngilizce yanıt verebiliyor mu?", "answer": "Evet, AI mesajın dilini otomatik algılıyor. Profesyonel pakette TR + EN, Premium pakette TR + EN + AR (Arapça) çift/üç dilli yanıt. Turist 'do you have vegan options' diye sorduğunda İngilizce yanıt geliyor, Türk müşteri Türkçe yanıt alıyor."},
+    {"question": "Çiğ börek veya lokum gibi günlük taze ürün satıyorum, stok bittiğinde AI bunu biliyor mu?", "answer": "Evet, stok durumunu admin panelden günlük güncelliyorsunuz veya e-ticaret entegrasyonu varsa gerçek zamanlı çekiyoruz. AI 'üzgünüm, kayseri pastırmalı çiğ börek bugün tükenmiş, yarın 09:00'dan itibaren tekrar var' gibi yanıt verebiliyor."},
+    {"question": "Dönem başı kampanya mesajı 500 öğrenci listesine toplu gidebiliyor mu?", "answer": "Evet, WhatsApp Business API üzerinden toplu mesaj (broadcast) gönderebiliyorsunuz. Meta'nın kuralları gereği müşteri size mesaj atmış veya rıza vermiş olmalı (opt-in). Profesyonel pakette 4 kampanya/ay, Premium pakette sınırsız."},
+    {"question": "Yeşil onay rozetini almak ne kadar sürer?", "answer": "Meta'ya başvuru sonrası 2-6 hafta arasında değişiyor. Marka kayıt belgesi, web sitesi ve sosyal medya hesaplarının tutarlılığı önemli. Başvuru sürecini biz yönetiyoruz, başvuru ücretsiz."},
+    {"question": "Sözleşme süresi var mı, istediğim zaman iptal edebilir miyim?", "answer": "Asgari sözleşme süresi 3 ay (kurulum maliyetinin amortismanı için), sonrası aylık. 30 gün önce bildirimle iptal edebilirsiniz. Veri ve AI eğitiminin yedeğini size iletiyoruz."}
+  ],
+  "finalCtaHeadline": "Eskişehir mağazanız için ilk AI sipariş 2 haftada gelsin",
+  "finalCtaSubtitle": "30 dakikalık Zoom brief görüşmesi yeterli. Mevcut WhatsApp akışınızı inceleyip Eskişehir sektörünüze özel demo hazırlıyoruz. PORTZEN İzmir merkezli, Eskişehir'de aktif müşteriler ile uzaktan profesyonel kurulum."
+}

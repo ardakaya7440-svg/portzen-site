@@ -1,0 +1,163 @@
+{
+  "type": "location",
+  "sectorSlug": "adana",
+  "sectorName": "Adana",
+  "sectorPlural": "Adana'daki İşletmeler",
+  "title": "Adana İçin WhatsApp AI Asistanı | Baharat İhracat + Kebap Zinciri - PORTZEN",
+  "description": "Adana'daki kebap zincirleri, baharat ihracatçıları ve KOBİ'ler için WhatsApp AI asistanı. Seyhan'dan Çukurova'ya, Arap müşteri için Arapça destek. 14 günde kurulum.",
+  "keywords": [
+    "adana whatsapp chatbot",
+    "adana whatsapp ai",
+    "adana yapay zeka ajansı",
+    "seyhan chatbot",
+    "çukurova ai asistan",
+    "adana ihracat whatsapp",
+    "adana baharat otomasyon"
+  ],
+  "h1": "Adana İçin WhatsApp AI Asistanı",
+  "heroSubtitle": "Seyhan'da kebap zinciri, Yüreğir'de baharat üreticisi, Çukurova'da modern KOBİ. Türkçe + Arapça + İngilizce destekli, ihracat sorgularını otomatik yöneten WhatsApp AI sistemi. 14 günde devrede.",
+  "stats": [
+    {"value": "TR + AR + EN", "label": "3 Dil Destek"},
+    {"value": "60 sn", "label": "İlk Yanıt"},
+    {"value": "14 gün", "label": "Kurulum"},
+    {"value": "İhracat", "label": "Optimize"}
+  ],
+  "problems": [
+    "Adana baharat ihracatçısı olarak Suudi Arabistan, BAE, Irak müşterilerinden gelen Arapça WhatsApp mesajlarına yetişen kimse yok; günde 20-30 sorgu cevapsız kalıyor, sipariş kaçıyor.",
+    "Seyhan'daki kebap zincirinizin tüm rezervasyon ve paket sipariş trafiği WhatsApp'tan akıyor ama akşam 19:00 sonrası mesajlar birikip ertesi güne kalıyor; bu süreçte müşteri rakip kebapçıya gidiyor.",
+    "Yüreğir'deki salça/biber fabrikanız ulusal market zincirlerinden (Migros, BİM, ŞOK) toplu sipariş alıyor ama numune talebi, fiyat teklifi, MOQ sorularına 6 saat sonra cevap verdiğinizde alıcı başka tedarikçiyle anlaşıyor.",
+    "Çukurova'daki modern restoran zinciriniz Seyhan, Yüreğir, Sarıçam şubelerini tek WhatsApp hattından yönetiyor; müşteri hangi şubeye yazdığını bilmiyor, sipariş yanlış şubeye düşüyor.",
+    "Adana'da ajansla çalışmak istiyorsunuz ama İstanbul/Ankara ajansları hem pahalı hem uzak; İzmir'de kurulmuş PORTZEN gibi uzaktan çalışan modern bir ekip arıyorsunuz."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Adana Yerel Keşif",
+      "description": "İşletmenizin gerçek WhatsApp trafiğini, en sık gelen 50 soruyu, ihracat müşteri profilinizi (Arap/Avrupa) ve şube bazlı dağılımınızı analiz ediyoruz. Adana lokal davranışını AI'ya öğretiyoruz."
+    },
+    {
+      "title": "Çoklu Dil + İhracat Tonu",
+      "description": "Türkçe + Arapça + İngilizce (Avrupa/ABD alıcı için) tam destek. Baharat MOQ, FOB/CIF teslim, halal sertifika, numune talebi gibi ihracat akışları AI'ya yüklenir."
+    },
+    {
+      "title": "WhatsApp Business API + ERP",
+      "description": "Resmi Meta WhatsApp Business API kurulumu, sipariş/rezervasyon/numune akışları, mevcut ERP (Mikro, Logo, Netsis) entegrasyonu, KVKK uyumlu izin yönetimi."
+    },
+    {
+      "title": "Test + Devreye Alma",
+      "description": "Adana'daki ekibinizle 7 günlük canlı test, ince ayar, eğitim. Sonrası aylık raporlama ve sürekli iyileştirme."
+    }
+  ],
+  "features": [
+    {
+      "title": "Adana Semt + Şube Veritabanı",
+      "description": "Seyhan, Yüreğir, Çukurova, Sarıçam, Karaisalı, Ceyhan dahil tüm Adana ilçeleri için ulaşım, çalışma saati, en yakın şube bilgisi AI'ya yüklü."
+    },
+    {
+      "title": "Arapça + İngilizce + Türkçe",
+      "description": "Körfez ülkeleri, Irak, Suriye'den gelen Arapça mesajları otomatik algılayıp anadilde yanıt veriyor. İhracat terminolojisi (FOB, CIF, MOQ) tam tanımlı."
+    },
+    {
+      "title": "İhracat Akışları",
+      "description": "Numune talep, fiyat teklifi (proforma), halal/ISO sertifika talebi, gümrük belgeleri, konteyner bilgisi - baharat/gıda ihracatçısı için özel akış."
+    },
+    {
+      "title": "Kebap Zinciri Rezervasyon",
+      "description": "Çoklu şube rezervasyon, kişi sayısı, mangal masa talebi, paket sipariş, Yemeksepeti/Trendyol Go ile çakışan stok yönetimi."
+    },
+    {
+      "title": "KVKK Uyumlu İzin",
+      "description": "Müşteri verisi sözleşmeli, izinli toplama akışı. KVKK Kurumu'nun WhatsApp pazarlama rehberine tam uyum."
+    },
+    {
+      "title": "Uzaktan Destek + Aylık Rapor",
+      "description": "İzmir merkezli PORTZEN ekibi uzaktan tam destek, aylık konuşma sayısı/dönüşüm/lead raporu, sürekli optimizasyon."
+    }
+  ],
+  "caseStudy": {
+    "title": "Çukurova'da bir kebap zinciri: 3 şube, ay başı +2.100 ek sipariş",
+    "paragraphs": [
+      "Çukurova'da 3 şubesi (Çukurova merkez, Seyhan, Yüreğir) bulunan orta ölçekli bir kebap zinciri, tüm rezervasyon ve paket sipariş trafiğini tek WhatsApp hattından yönetmeye çalışıyordu. Akşam 19:00 sonrası mesajlar birikip ertesi güne kalıyor, müşteri hangi şubeye yazdığını bilmiyor, sipariş yanlış mutfağa düşüyordu. Aylık 400-500 mesaj cevapsız geçiyordu.",
+      "PORTZEN olarak WhatsApp Business API'sini kurduk; her şubeye ayrı tanımlı çalışma saati, mangal masa rezervasyon akışı, paket sipariş + Yemeksepeti çakışma kontrolü, müşteri konumuna göre en yakın şube yönlendirmesi ekledik. Türkçe + temel İngilizce (turist için) hazırlandı.",
+      "3 ay sonunda akşam mesaj birikmesi sıfırlandı, ay başı 2.100 ek sipariş (paket + rezervasyon) sağlandı. Şube karması hatası %12'den %0.4'e düştü. Aylık ek ciro 165.000 TL seviyesinde, sistem ilk ayında kendini amorti etti."
+    ],
+    "beforeAfter": [
+      {"label": "Akşam Mesaj Kaybı", "before": "%65 sabaha kalıyor", "after": "60 sn'de yanıt"},
+      {"label": "Aylık Ek Sipariş", "before": "0", "after": "+2.100"},
+      {"label": "Şube Karması Hatası", "before": "%12", "after": "%0.4"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL/ay",
+      "description": "Tek lokasyonlu KOBİ - kebapçı, baharat dükkanı, butik üretici için",
+      "features": [
+        "WhatsApp Business API kurulumu",
+        "Türkçe AI asistan",
+        "Aylık 1.500 konuşma",
+        "Temel sipariş/rezervasyon akışı",
+        "Aylık rapor",
+        "E-posta destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "17.000 TL/ay",
+      "description": "Çok şubeli kebap zinciri, baharat ihracatçısı için",
+      "features": [
+        "Her şey + Arapça + İngilizce",
+        "Aylık 5.000 konuşma",
+        "ERP (Mikro/Logo/Netsis) entegrasyon",
+        "Şube bazlı yönlendirme",
+        "İhracat akışları (numune/proforma)",
+        "Öncelikli destek (WhatsApp)"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "32.000 TL/ay",
+      "description": "Ulusal gıda markası, büyük ölçekli ihracatçı için",
+      "features": [
+        "Her şey + sınırsız konuşma",
+        "Almanca + Rusça opsiyonel",
+        "Çoklu numara yönetimi",
+        "Özel rapor dashboard",
+        "Adanmış hesap yöneticisi",
+        "SLA garantili 4 saat yanıt"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "İzmir merkezli ajans olarak Adana'da nasıl çalışıyorsunuz?",
+      "answer": "Tüm görüşmelerimiz online (Google Meet, WhatsApp). Adana'da fiziksel ofis maliyetimiz olmadığı için size %30-40 daha uygun fiyat sunuyoruz. Adana'da aktif müşterilerimiz var, referans verebiliriz. Gerektiğinde Adana'ya seyahat ediyoruz."
+    },
+    {
+      "question": "Arapça desteği gerçekten Körfez müşterimle anlaşır mı?",
+      "answer": "Evet. GPT-4 ve Claude gibi modellerin Modern Standard Arabic (MSA) ve Körfez lehçesi anlama yetisi insan seviyesine yakın. Baharat ihracat terminolojisi (zafer, kemmun, sumak) özel olarak AI'ya yüklenir. Pilot dönemde Suudi/BAE müşterilerle test ediyoruz."
+    },
+    {
+      "question": "Seyhan'daki tek dükkân esnafı için 8.500 TL pahalı değil mi?",
+      "answer": "Ortalama 1 ek sipariş/gün ile kendini amorti ediyor. Adana'da yerel ajanslar 5-7K istiyor ama WhatsApp Business API kurmuyor, sadece web chatbot. Biz Meta resmi API + AI + KVKK uyum üçünü birden veriyoruz. İlk 14 gün ücretsiz pilot çalışıyoruz."
+    },
+    {
+      "question": "Kebap zincirimde Yemeksepeti / Trendyol Go ile çakışma olur mu?",
+      "answer": "Hayır. Sistem aktif Yemeksepeti/Trendyol Go siparişlerini görüp 'şu an mutfak yoğun, X dakika içinde teslim' gibi bilgilendirme yapıyor. Çift sipariş riski yok, kapasite yönetimi otomatik."
+    },
+    {
+      "question": "Baharat ihracatımda Halal/ISO sertifika sorularına AI cevap verebilir mi?",
+      "answer": "Evet. Sertifika belgelerini PDF olarak AI'ya yüklüyoruz, müşteri 'halal certificate?' yazdığında PDF'i otomatik WhatsApp'tan gönderiyor. Proforma fatura, COA (Certificate of Analysis), MSDS belgelerini de aynı şekilde."
+    },
+    {
+      "question": "KVKK ve WhatsApp kuralları açısından sorun yaşar mıyım?",
+      "answer": "Hayır. Meta'nın resmi WhatsApp Business API'si üzerinden, KVKK Kurumu rehberine uygun izinli mesajlaşma yapıyoruz. Tüm metinler ve akışlar hukuki uyumlu, ihracat müşterileri için GDPR uyum da dahil."
+    },
+    {
+      "question": "Adana'daki diğer şehirlere de hizmet veriyor musunuz (Mersin, Hatay, Gaziantep)?",
+      "answer": "Evet. Çukurova bölgesi (Adana, Mersin, Hatay, Osmaniye) ve Gaziantep'teki müşterilerimize aynı yerel anlayışla hizmet veriyoruz. Bölge baharat/gıda ihracat profilini iyi tanıyoruz."
+    }
+  ],
+  "finalCtaHeadline": "Adana'daki sisteminizi kuralım.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif görüşmesi. İşletmenizin WhatsApp trafiğine bakıp size özel yol haritası çıkaralım. 14 gün içinde Türkçe + Arapça destekli sistem devrede."
+}

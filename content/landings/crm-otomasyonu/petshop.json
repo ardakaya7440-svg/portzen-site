@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "petshop",
+  "sectorName": "Petshop",
+  "sectorPlural": "Petshoplar",
+  "title": "Petshoplar İçin CRM Otomasyonu | Müşteri Sadakat + Mama Abonelik + Kampanya - PORTZEN",
+  "description": "Petshoplar için CRM ve otomasyon. Müşteri sadakat sistemi, mama abonelik takibi, evcil hayvan doğum günü kampanya, tekrar satış hatırlatma, sezonsal kampanya yönetimi.",
+  "keywords": ["petshop crm", "petshop otomasyon", "mama abonelik takip", "müşteri sadakat petshop", "petshop yönetim", "evcil hayvan crm"],
+  "h1": "Petshoplar için CRM ve Otomasyon Sistemi",
+  "heroSubtitle": "Müşteri sadakat sistemi, mama abonelik takibi, evcil hayvan doğum günü kampanyaları, tekrar satış hatırlatması, sezonsal kampanyalar. Tek panelden tüm müşteri yaşam döngüsünü yönetin.",
+  "stats": [
+    {"value": "%240", "label": "Lifetime Value Artışı"},
+    {"value": "11 ay", "label": "Ortalama Abonelik"},
+    {"value": "14 gün", "label": "Devreye Alma"},
+    {"value": "%88", "label": "Müşteri Sadakati"}
+  ],
+  "problems": [
+    "Müşterinin kedi/köpeğinin mamasının ne zaman biteceğini Excel'de takip ediyorsunuz, unutulan müşteri rakibe gidiyor",
+    "Mama abonelik müşterisi az, manuel hatırlatma yapamıyorsunuz, sürekli gelir oluşmuyor",
+    "Müşterinin evcil hayvanının ırkı, yaşı, alerjisi belli ama Excel'de düzensiz, kişiselleştirilmiş öneri yapamıyorsunuz",
+    "Evcil hayvan doğum günü kampanyası fikriniz var ama hangi müşteriye ne zaman göndereceğinizi takip edemiyorsunuz",
+    "Yeni gelen mama markası geldiğinde kime önereceğinizi bilmiyorsunuz, geniş duyuru spam etkisi yaratıyor",
+    "Sezonsal kampanya (yılbaşı, Sevgililer Günü, yaz tatili pet bakım) zamanı geldiğinde Excel'e bakıp segmentasyon yapmak imkansız"
+  ],
+  "solutionSteps": [
+    {"title": "1. Süreç Analizi & CRM Seçimi", "description": "Mevcut süreçlerinizi (sipariş, müşteri takip, abonelik, kampanya) haritalandırıyoruz. Petshopunuza uygun CRM aracı seçiyoruz - HubSpot, Pipedrive veya özel çözüm. Mevcut Excel/POS verilerinizi taşıyoruz."},
+    {"title": "2. Müşteri + Evcil Hayvan Profili Setup", "description": "Her müşteriye 1+ evcil hayvan profili (ırk, yaş, kilo, alerji, mama tercihi). Doğum günü, son sipariş tarihi, ortalama sipariş döngüsü hesaplanıyor. Segmentasyon (kedi/köpek/kuş/balık sahibi)."},
+    {"title": "3. Abonelik + Hatırlatma + Kampanya Otomasyonu", "description": "Mama abonelik (25 gün döngü), son siparişten 30+ gün geçen müşteriye 'mamanız bitti mi?' hatırlatma, evcil hayvan doğum günü mesajı, sezonsal kampanya (Sevgililer Günü, yılbaşı). Segmente otomatik gönderim."},
+    {"title": "4. Raporlama + Eğitim", "description": "Aylık panel raporu - abonelik dönüşüm, repeat satış oranı, lifetime value trendi, en sadık müşteriler. Personel eğitimi (3 oturum) ve 30 gün canlı destek."}
+  ],
+  "features": [
+    {"title": "Müşteri + Evcil Hayvan Profili", "description": "Her müşterinin evcil hayvan(lar)ı sistemde - Patiş (Golden, 4 yaş, 28 kg, et alerjili). Sipariş geçmişi, mama tercihi, son alım tarihi görünüyor. Kişiselleştirilmiş öneri tek tıkla."},
+    {"title": "Mama Abonelik Yönetimi", "description": "Abone müşteriler için 25-28 gün döngüsü otomatik. 'Patiş'in maması bitmek üzere, ay sonu kargolayalım mı?' mesajı 25. günde gidiyor. Müşteri onayı + ödeme + kargo etiketi otomatik."},
+    {"title": "Tekrar Satış Hatırlatma", "description": "Abone olmayan ama düzenli alıcı müşteriye (30-45 gün döngü) 'mamanız bitti mi?' nazik hatırlatma. Spam değil, kişiselleştirilmiş - son aldığı mama markasını + alternatif öneriyor."},
+    {"title": "Evcil Hayvan Doğum Günü Kampanyası", "description": "Patiş'in doğum günü 15 Mart, sistem 5 Mart'ta sahibine 'Patiş'in doğum günü için %20 indirimli oyuncak hediyemiz var' mesajı atıyor. Duygusal bağ + satış artışı."},
+    {"title": "Sezonsal Kampanya Segmentasyonu", "description": "Sevgililer Günü 'çiftler' kampanyası (2+ evcil hayvanlı müşteri), yılbaşı kemik kampanyası (köpek sahibi), yaz akvaryum bakım (balık sahibi) - segmente otomatik gönderim. Manuel liste yok."},
+    {"title": "Lifetime Value Raporu", "description": "Her müşterinin sizden toplam alacağı tahmini ciro (abonelik + tekrar satış + ekstra). Hangi müşterilerin VIP olduğunu görüyorsunuz, onlara özel kampanya yapıyorsunuz (örnek: doğum günü %30 indirim)."}
+  ],
+  "caseStudy": {
+    "title": "Maltepe Patitos Petshop - Lifetime Value 2.4x Arttı, Mama Abonelik Müşterisi 24 → 318",
+    "paragraphs": [
+      "Maltepe'de 6 yıllık aile işletmesi Patitos Petshop 2024 sonunda PORTZEN'e geldi. Müşteri tabanı sadıktı (yaklaşık 1.800 düzenli müşteri) ama tüm takip Excel + WhatsApp ile yapılıyordu. Mama abonelik 24 müşteriden ibaretti, manuel hatırlatma yetiştirilemiyordu. Müşterinin kedisinin ırkı, yaşı, mama tercihi belli ama düzensiz Excel'lerde dağılmıştı.",
+      "14 günde HubSpot CRM kurulumu yaptık - her müşteriye evcil hayvan profili (1.800 müşteride 2.340 evcil hayvan kaydı), mama abonelik akışı, doğum günü kampanyası, sezonsal segmentasyon. POS sisteminden geçmiş veri taşıma. Mevcut müşterilere 'abone olur musunuz?' WhatsApp kampanyası attık.",
+      "İlk 4 ayda mama abonelik müşterisi 24'ten 318'e çıktı (%1325 artış). Abone müşterilerin ortalama abonelik süresi 11 ay - sürekli gelir aylık 142.000 TL oluştu. Lifetime value 2.4x arttı (müşteri başına ortalama yıllık ciro 2.800 TL'den 6.720 TL'ye). Evcil hayvan doğum günü kampanyaları %38 dönüşüm oranı veriyor (sıradan kampanya %4-6). Sahibi 'müşterilerim 'beni hatırlıyorsunuz' diyor, sadakat tavan yaptı' diyor."
+    ],
+    "beforeAfter": [
+      {"label": "Mama Abonelik Müşterisi", "before": "24", "after": "318"},
+      {"label": "Ortalama Yıllık Ciro (müşteri başı)", "before": "2.800 TL", "after": "6.720 TL"},
+      {"label": "Aylık Abonelik Geliri", "before": "10.800 TL", "after": "142.000 TL"},
+      {"label": "Doğum Günü Kampanya Dönüşümü", "before": "Yok", "after": "%38"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "14.000 TL + 1.800 TL/ay",
+      "description": "Tek lokasyon küçük petshoplar için",
+      "features": [
+        "HubSpot CRM kurulumu (Free tier)",
+        "Müşteri + evcil hayvan profili",
+        "Basit mail/WhatsApp otomasyonu",
+        "Tekrar satış hatırlatma",
+        "Doğum günü mesajı",
+        "POS verisi taşıma",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "28.000 TL + 3.200 TL/ay",
+      "description": "Aktif petshoplar için en popüler paket - abonelik dahil",
+      "features": [
+        "HubSpot CRM (Starter veya Pro)",
+        "Tam mama abonelik otomasyonu",
+        "Iyzico/Stripe entegrasyonu",
+        "Aras/Yurtiçi kargo entegrasyonu",
+        "Sezonsal kampanya segmentasyonu",
+        "Lifetime value raporu",
+        "Personel eğitimi (3 oturum)",
+        "Aylık performans raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "48.000 TL + 5.500 TL/ay",
+      "description": "Zincir petshoplar, çoklu şube ve agresif büyüme için",
+      "features": [
+        "Çoklu şube yönetimi (sınırsız)",
+        "Shopify Plus entegrasyonu",
+        "Trendyol/Hepsiburada senkronizasyonu",
+        "Veteriner randevu modülü",
+        "Bayi/tedarikçi otomatik sipariş",
+        "Müşteri tavsiye programı",
+        "Özel proje yöneticisi",
+        "Aylık strateji görüşmesi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "CRM kurulumu ne kadar sürede tamamlanır?", "answer": "Başlangıç paketi 10-14 gün, Profesyonel 14-21 gün, Kurumsal 28-40 gün. Mevcut Excel/POS verilerinizin durumuna göre değişiyor. İlk hafta süreç analizi, ikinci hafta setup, üçüncü hafta eğitim + test."},
+    {"question": "HubSpot ücreti ayrı mı?", "answer": "Başlangıçta HubSpot Free Tier (sınırlı ama yeterli - 1.000.000 contact'a kadar). Büyüdükçe HubSpot Starter (~25 USD/ay) veya Pro (~100 USD/ay) gerekebilir. Profesyonel pakette Starter dahil. Kurumsal pakette HubSpot Pro dahil."},
+    {"question": "POS sistemim Logo, ona entegre olur mu?", "answer": "Evet, Profesyonel paketten itibaren Logo, Mikro, Nebim entegrasyonları dahil. POS'tan gelen satış otomatik CRM'e düşüyor, müşterinin Lifetime Value güncelleniyor, abonelik döngüsü hesaplanıyor. Çift veri girişi yok."},
+    {"question": "Mama abonelik müşterisi nasıl çekiliyor?", "answer": "İki yol: (1) Sipariş sonrası WhatsApp/e-mail'de 'her ay aynı mama, %15 indirim ister misiniz?' önerisi - dönüşüm oranı %35-50. (2) Mevcut müşterilere kampanya WhatsApp'ı (vaka çalışmamızdaki Patitos böyle 318 abone aldı). Yeni müşteriler için web sitesi ve sosyal medyada abonelik vurgusu."},
+    {"question": "Evcil hayvan doğum günü bilgisi nasıl alınır?", "answer": "İki yol: (1) Yeni müşteri kayıt olurken sorulur (form alanı). (2) Mevcut müşterilere WhatsApp ile 'Patiş'in doğum gününü bilelim, özel kampanyalar gönderelim' anketi gönderilir - %60+ cevap oranı (hayvansever müşteriler severek paylaşıyor). Sahibi bilmiyorsa 'kavuştuğunuz gün' kullanılır."},
+    {"question": "KVKK uyumlu mu, müşteri verisi nasıl saklanıyor?", "answer": "Tamamen uyumlu. Müşteri ve evcil hayvan verisi minimum (sadece sipariş ve kampanya için gerekli). Açık rıza onayı kurulumda dahil, KVKK aydınlatma metni hazırlıyoruz. HubSpot AB veri merkezinde saklanıyor, müşteri 'sil' talebinde anında siliniyor."},
+    {"question": "Sezonsal kampanya örnekleri ne olabilir?", "answer": "Sevgililer Günü çift evcil hayvanlı müşteriye 'sevgili patilere özel' kampanya (oyuncak çifti %25), yılbaşı tüm köpek sahiplerine 'yılbaşı kemiği' kampanyası, yaz tatili evcil hayvan bakımı (kedi kumu + mama bonus paketi), bahar kuş yemi karışım kampanyası. Hepsi otomatik segmente, manuel iş yok."}
+  ],
+  "finalCtaHeadline": "Müşterinizin evcil hayvanını siz onlardan daha iyi hatırlayın",
+  "finalCtaSubtitle": "30 dakikalık süreç analizi görüşmesi yeterli. Mevcut süreçlerinizi inceleyip ücretsiz otomasyon yol haritası hazırlıyoruz. Repeat business gelirinizi 3 ayda 2x'leyin."
+}

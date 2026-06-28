@@ -1,0 +1,168 @@
+{
+  "sectorSlug": "avukat",
+  "sectorName": "Hukuk Bürosu",
+  "sectorPlural": "Hukuk Büroları",
+  "title": "Hukuk Büroları İçin Instagram DM Otomasyonu | TBB Reklam Yasağı Uyumlu Randevu Yönetimi - PORTZEN",
+  "description": "Avukat ve hukuk büroları için Instagram DM otomasyonu. Ön görüşme randevusu, vakaya bağlı genel bilgi, ücret aralığı yönlendirme. TBB Reklam Yasağı ve KVKK uyumlu, hukuki tavsiye vermez, sadece randevu açar.",
+  "keywords": [
+    "avukat instagram dm botu",
+    "hukuk bürosu dm otomasyonu",
+    "avukat randevu sistemi",
+    "tbb reklam yasağı uyumlu",
+    "kvkk avukat dm",
+    "vaka kalifikasyon sistemi",
+    "hukuk bürosu instagram"
+  ],
+  "h1": "Hukuk Büroları için Instagram DM Otomasyonu",
+  "heroSubtitle": "Boşanma davası, iş hukuku, miras paylaşımı DM geliyor. Avukat duruşmada, sekreter telefonda. AI asistanımız 60 saniyede ön görüşme randevusu açar, vakayı kabaca anlar, hukuki tavsiye vermez, TBB ve KVKK sınırları içinde kalır.",
+  "stats": [
+    {"value": "60 sn", "label": "DM Yanıtı"},
+    {"value": "TBB", "label": "Mevzuat Uyumlu"},
+    {"value": "%72", "label": "Randevu Dönüşümü"},
+    {"value": "14 gün", "label": "Kurulum"}
+  ],
+  "problems": [
+    "Instagram'da hukuki içerik paylaşıyorsunuz, DM patlıyor, avukat duruşmada veya görüşmede, sekreter cevap yetiştiremiyor, müvekkil adayı kaçıyor.",
+    "DM'den 'eşim beni dövdü ne yapayım', 'şirketim iflas etti yardım edin' gibi acil hukuki danışmanlık talebi geliyor, yasal olarak DM'den tavsiye vermek mümkün değil ama yanıtsız da bırakılamaz.",
+    "Müvekkil adayı 'ücretiniz ne kadar?' diye soruyor, sekreter genel ücret söyleyemiyor (vakaya göre değişir), randevu için aramaya zorluyor, müvekkil rakip büroya gidiyor.",
+    "TBB Meslek Kuralları reklam yasağı sıkı, DM'den vaka kıyaslaması yapamıyorsunuz, başarı oranı söyleyemiyorsunuz, 'biz en iyiyiz' diyemiyorsunuz, ama rakipler agresif yapıyor.",
+    "KVKK gereği müvekkil verisi ile danışan adayı verisi farklı, DM'de hangi bilgileri toplayacağınızı ve nasıl saklayacağınızı bilmiyorsunuz, risk altındasınız.",
+    "Reels altına 'boşanmak istiyorum' yorumu yazılıyor, herkesin gördüğü ortamda hukuki tavsiye vermek imkansız, yanıtsız kalınca da soğuk görünüyorsunuz."
+  ],
+  "solutionSteps": [
+    {
+      "title": "1. Uzmanlık Alanı ve Mevzuat Brief",
+      "description": "Hukuk büronuzun uzmanlık alanları (aile, iş, ticaret, ceza, gayrimenkul, fikri mülkiyet), ön görüşme ücreti, ortalama vaka süresi, ücret aralığı bilgisi alınır. TBB Meslek Kuralları (özellikle Madde 55-56 reklam yasağı) ve Avukatlık Kanunu sınırları çizilir. AI'ın yapmayacağı şeyler net tanımlanır: hukuki tavsiye yok, vaka kıyaslama yok, başarı oranı söyleme yok."
+    },
+    {
+      "title": "2. Instagram Business API ve KVKK Uyum",
+      "description": "Meta resmi Instagram Graph API entegrasyonu yapılır. Müvekkil adayı verisinin nasıl toplanacağı (sadece isim, telefon, vaka türü, görüşme talebi), nerede saklanacağı (KVKK uyumlu Türkiye sunucusu), ne zaman silineceği (görüşme sonrası 30 gün) belirlenir. KVKK aydınlatma metni DM'in başında otomatik gönderilir."
+    },
+    {
+      "title": "3. Test Dönemi ve Avukat Onayı",
+      "description": "İlk 10 gün AI yanıtları avukat veya stajyer onayından geçer, mevzuat sınırı ihlali olan yanıtlar düzeltilir. İkinci haftadan itibaren randevu talebi, ücret aralığı bilgisi, ofis lokasyonu, ön görüşme süresi gibi standart sorular otomatik yanıtlanır. Hukuki tavsiye gerektiren sorular avukata yönlendirilir."
+    },
+    {
+      "title": "4. Canlı + Aylık Mevzuat Kontrol",
+      "description": "Aylık rapor: hangi vaka türü en sık DM geldi, randevu dönüşüm oranı, hangi içerik DM'i tetikledi. TBB Disiplin Kurulu güncel kararları aylık takip edilir, yeni reklam yasağı yorumu varsa AI filtreleri güncellenir. Avukatlık etik sınırı korunur."
+    }
+  ],
+  "features": [
+    {
+      "title": "Ön Görüşme Randevu Açma",
+      "description": "Müvekkil adayı 'randevu istiyorum' veya 'boşanma davası için görüşmek istiyorum' yazınca AI uygun ofis saatlerini gösterir (Calendly entegre), randevu açar, ücret bilgisi verir (ön görüşme genelde 500-1.500 TL aralığında, vaka değil ücret bilgisi paylaşılır). Avukata + müvekkile SMS hatırlatma kurar."
+    },
+    {
+      "title": "Vaka Türü Kalifikasyon (KVKK Uyumlu)",
+      "description": "Müvekkil adayının vaka türünü (aile, iş, ticaret, gayrimenkul, ceza) genel düzeyde anlar. Detay bilgi istemez (KVKK riski). 'Boşanma davası için yardım istiyorum' dediğinde 'ön görüşmede ayrıntılı konuşalım, randevu açıyorum' der. Hassas kişisel veri (sağlık, finansal detay, isim-soyisim, TC kimlik) DM'de toplanmaz."
+    },
+    {
+      "title": "Genel Bilgi Paylaşımı (Tavsiye DEĞİL)",
+      "description": "'Boşanma davası ortalama ne kadar sürer?' veya 'iş hukukunda kıdem tazminatı nasıl hesaplanır?' gibi genel, kamuya açık hukuki bilgi sorularına genel cevap verir (Türkiye Cumhuriyeti yasaları çerçevesinde bilinen kurallar). Vakaya özel tavsiye vermez, 'sizin durumunuz için randevuda konuşmak gerekir' der."
+    },
+    {
+      "title": "Ücret Aralığı Yönlendirme",
+      "description": "Müvekkil adayı 'ücretiniz ne kadar?' sorduğunda AI 'ön görüşme ücretimiz [X] TL, vaka ücreti dosyaya göre belirlenir, bunu randevuda konuşalım' der. TBB Meslek Kuralları'na uygun, kesin vaka ücreti söylemez (mevzuata aykırı), ücret aralığı bilgisi verir."
+    },
+    {
+      "title": "Reels Yorum Yanıt + DM'e Çekme",
+      "description": "Reels altına 'boşanma için yardım', 'işten çıkarıldım ne yapmalıyım' yorumları yazılınca AI 'Konuyu özel mesajda detaylandıralım, randevu açalım' diyerek DM'e çeker. Yorum altında hukuki tavsiye vermek mevzuata aykırı, AI bu sınırı asla aşmaz."
+    },
+    {
+      "title": "Kompleks Vaka Avukata Yönlendirme",
+      "description": "Acil hukuki tavsiye gereken durumlar (aile içi şiddet, gözaltı, acil tutuklama, intihar düşüncesi) geldiğinde AI 'Bu konu acil, sizi avukatımıza yönlendiriyorum' der ve avukata bildirim atar. Yasal sorumluluk daima avukata bırakılır, AI sınırını aşmaz. Acil durumlarda 155 (polis), 112 (acil), 183 (sosyal hizmet) yönlendirmesi yapar."
+    }
+  ],
+  "caseStudy": {
+    "title": "İstanbul Şişli'de Aile ve Boşanma Hukuku Bürosu: Ayda 18 Yeni Randevu",
+    "paragraphs": [
+      "Şişli'de 9 yıllık aile ve boşanma hukuku odaklı 2 avukat + 1 stajyer bürosu, Instagram'da düzenli içerik paylaşıyordu (boşanma süreci genel bilgi Reels, miras paylaşımı bilgilendirici post). Takipçi 11.200, Reels aylık erişim 80.000 civarıydı. DM trafiği yoğundu (haftada 30-40 mesaj) ama avukat duruşmada veya görüşmede, sekreter telefonda olduğu için DM'ler 12-24 saat geç yanıtlanıyordu. Sekreter ayrıca DM'den gelen 'boşanmak istiyorum, ne yapmalıyım' tarzı sorulara cevap verirken mevzuat sınırını zorluyordu, TBB disiplin riski vardı.",
+      "Mart 2026'da PORTZEN Instagram DM otomasyonunu kurdu. Avukatlık Kanunu Madde 55-56 ve TBB Meslek Kuralları reklam yasağı sınırları çizildi (vaka kıyaslama yok, başarı oranı yok, kesin vaka ücreti yok, hukuki tavsiye yok). KVKK aydınlatma metni DM başında otomatik gönderildi, müvekkil adayı verisi minimum (isim, telefon, vaka türü, görüşme talebi) toplandı. Calendly randevu sistemi entegre edildi. İlk 10 gün avukat onayıyla yanıt verildi, sonra tam otomatik geçti.",
+      "3 ay sonra sonuçlar: DM yanıt süresi 18 saatten 60 saniyeye düştü. Aylık ön görüşme randevusu 6'dan 18'e çıktı (3x), randevu dönüşüm oranı %72'ye ulaştı (DM'den randevu açan müvekkillerin %72'si ön görüşmeye katıldı). Aylık müvekkil dönüşümü 2'den 7'ye yükseldi. Hiçbir TBB disiplin uyarısı veya KVKK şikayeti alınmadı. Sekreter mevzuat stresinden kurtuldu, hukuki belge hazırlığına odaklandı."
+    ],
+    "beforeAfter": [
+      {"label": "DM Yanıt Süresi", "before": "18 saat", "after": "60 saniye"},
+      {"label": "Aylık Ön Görüşme Randevusu", "before": "6", "after": "18"},
+      {"label": "Randevu Dönüşüm Oranı", "before": "Bilinmiyor", "after": "%72"},
+      {"label": "Aylık Yeni Müvekkil", "before": "2", "after": "7"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL/ay",
+      "description": "Solo avukat ve küçük büro için temel DM + randevu paketi",
+      "features": [
+        "Instagram Business API kurulumu",
+        "Ön görüşme randevu sistemi (Calendly entegre)",
+        "Vaka türü kalifikasyon (KVKK uyumlu)",
+        "Ücret aralığı yönlendirme",
+        "TBB ve KVKK mevzuat filtreleri",
+        "Aylık 1 mevzuat avukat kontrolü"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "15.500 TL/ay",
+      "description": "Önerilen, Reels yorum + genel bilgi + acil yönlendirme dahil",
+      "features": [
+        "Başlangıç paketi içerikleri",
+        "Reels yorum otomatik yanıt + DM çekme",
+        "Genel hukuki bilgi paylaşımı (tavsiye DEĞİL)",
+        "Acil durum yönlendirme (155, 112, 183)",
+        "Kompleks vaka avukata bildirim",
+        "Vaka türü bazlı segmentasyon (aile, iş, ticaret vb.)",
+        "Aylık mevzuat avukat kontrolü",
+        "Haftalık optimizasyon"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal Hukuk Bürosu",
+      "price": "29.500 TL/ay",
+      "description": "Çoklu avukatlı büro, B2B müvekkil ve marka koruma dahil",
+      "features": [
+        "Tüm Pro özellikler",
+        "Çoklu avukat randevu koordinasyon",
+        "Avukat uzmanlık alanına göre yönlendirme",
+        "B2B müvekkil (şirket) ayrı akış",
+        "CRM entegrasyon (PracticePanther, Clio)",
+        "VERBIS kayıt desteği",
+        "Aylık disiplin riski raporu",
+        "Öncelikli teknik destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "AI hukuki tavsiye verir mi, TBB Reklam Yasağı'na aykırı olur mu?",
+      "answer": "Hayır, kesinlikle vermez. TBB Meslek Kuralları Madde 55-56 ve Avukatlık Kanunu reklam yasağı çerçevesinde sistem kurulur. AI sadece (1) ön görüşme randevusu açar, (2) ücret aralığı bilgisi verir, (3) genel kamuya açık hukuki bilgi paylaşır (kıdem tazminatı hesaplama formülü gibi), (4) ofis lokasyon ve saat bilgisi verir. Vakaya özel tavsiye, vaka kıyaslama, başarı oranı, kesin vaka ücreti söylemez. Şu ana kadar müşterimiz TBB disiplin uyarısı almadı."
+    },
+    {
+      "question": "KVKK açısından müvekkil adayı verisini DM'de toplamak güvenli mi?",
+      "answer": "Evet. KVKK aydınlatma metni DM'in başında otomatik gönderilir, müvekkil adayı açık rıza verir. Minimum veri toplanır: isim, telefon, vaka türü (genel), görüşme talebi. Hassas kişisel veri (sağlık, finansal detay, TC kimlik, adres detayı, vaka detayı) DM'de istenmez, ön görüşmeye saklanır. Veri Türkiye sunucusunda şifreli saklanır, görüşme sonrası 30 gün içinde silinir. VERBIS kayıt başvurunuzu biz yapıyoruz."
+    },
+    {
+      "question": "DM'den gelen acil hukuki sorulara nasıl yanıt veriyor?",
+      "answer": "Aile içi şiddet, gözaltı, acil tutuklama, intihar düşüncesi gibi acil durumlarda AI 'Bu konu acil, lütfen 155 (polis), 112 (acil), 183 (sosyal hizmet) numaralarını arayın. Hukuki destek için sizi avukatımıza yönlendiriyorum' der ve avukata bildirim atar. Hukuki tavsiye vermez ama acil yönlendirme yapar, etik sorumluluk korunur."
+    },
+    {
+      "question": "Reels altına yazılan yorumlara da yanıt veriyor mu?",
+      "answer": "Evet, ama dikkatli. 'Boşanmak istiyorum, ne yapayım?' tarzı yorumlara AI 'Konuyu özel mesajda detaylandıralım, randevu açalım' diyerek DM'e çeker. Yorum altında hukuki tavsiye vermek mevzuata aykırı (kamuya açık hukuki danışmanlık yasak), AI bu sınırı asla aşmaz. Sadece 'Çok faydalı içerik' gibi yorumlara karışmaz."
+    },
+    {
+      "question": "Vaka ücreti söylemiyorsa, müvekkil rakip büroya gitmez mi?",
+      "answer": "TBB Meslek Kuralları kesin vaka ücreti söylemeyi yasaklar (dosyaya göre değişir, peşin söylenemez). AI 'ön görüşme ücretimiz [X] TL, vaka ücreti dosyaya göre belirlenir, ücret aralığı [Y-Z] TL arası olabilir, kesin rakam randevuda' der. Şişli case study'sinde bu yaklaşımla randevu dönüşüm oranı %72'ye ulaştı. Müvekkil ön görüşmeye geliyor, dosyayı sunuyor, kesin ücret konuşuluyor."
+    },
+    {
+      "question": "Avukat onayı olmadan ne kadar süre çalışıyor, hata riski var mı?",
+      "answer": "İlk 10 gün avukat onayı (her yanıt avukat görüyor onay veriyor). Sonra tam otomatik. Eğer AI mevzuat sınırını ihlal eden bir yanıt verirse anında mevzuat filtresi tetiklenir, yanıt gönderilmez, avukata 'mevzuat sınırı uyarısı, müdahale gerekli' bildirimi atar. Aylık mevzuat avukat kontrolü ile sistem sürekli güncellenir."
+    },
+    {
+      "question": "Mevzuat değişirse veya TBB yeni yorum çıkarırsa ne olur?",
+      "answer": "Pro pakette aylık mevzuat avukat kontrolü dahil. TBB Disiplin Kurulu güncel kararları, Avukatlık Kanunu güncellemeleri, KVKK Kurulu yeni kararları takip edilir. AI filtreleri güncellenir, yeni yasak konular eklenir. Mevzuat değişikliklerini takip etmek sizin değil bizim sorumluluğumuzdur, avukat dava hazırlığına odaklanır."
+    }
+  ],
+  "finalCtaHeadline": "Hukuk büronuzun Instagram'ı müvekkil getirsin, disiplin riski yaşatmasın",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz büro analizi (KVKK uyumlu görüşme). Mevcut DM trafiğinizi ve TBB mevzuat risklerinizi değerlendirelim, 14 günde otomasyon kurabiliriz."
+}

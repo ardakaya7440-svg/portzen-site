@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "kuafor-berber",
+  "sectorName": "Kuaför & Berber",
+  "sectorPlural": "Kuaför ve Berber Salonları",
+  "title": "Kuaför ve Berber Salonları İçin WhatsApp AI Asistanı | 7/24 Randevu, No-show Azaltma - PORTZEN",
+  "description": "Kuaför ve berber için WhatsApp AI asistanı. 7/24 randevu açma, otomatik hatırlatma ile no-show azaltma, hizmet fiyat sorgulama, sadakat puan bildirimi.",
+  "keywords": ["kuaför whatsapp asistanı", "berber randevu sistemi", "salon whatsapp ai", "no-show azaltma", "kuaför otomasyon", "berber dijital randevu"],
+  "h1": "Kuaför ve Berber Salonları için WhatsApp AI Asistanı",
+  "heroSubtitle": "Müşteri saat 22'de 'cumartesi öğleden sonra randevu' yazdığında bile yanıtlayan, hatırlatmalarla no-show'u %60 azaltan WhatsApp AI asistanı. Salon dolu da olsa hat boş kalmaz.",
+  "stats": [
+    {"value": "7/24", "label": "Aktif Yanıt"},
+    {"value": "%60", "label": "No-show Azalması"},
+    {"value": "10 sn", "label": "Ortalama Yanıt"},
+    {"value": "3 Hatırlatma", "label": "Otomatik"}
+  ],
+  "problems": [
+    "Berber/usta saç keserken telefon çalıyor, müşteriyi bırakıp cevap veremiyor, randevu kayıp gidiyor",
+    "Cumartesi günü WhatsApp'a 30+ mesaj geliyor, hepsine yetişemiyorsunuz, müşteri başka salona gidiyor",
+    "Müşteri randevu alıyor, gelmiyor (no-show), 1 saat usta boş kalıyor, gelir kaybı oluşuyor",
+    "Saç boyama, perma, gelin saç gibi süre alan hizmetler için fiyat ve süre bilgisini her seferinde anlatıyorsunuz",
+    "Sadakat puanı, ne kadar kaldı sorusu manuel cevaplanıyor, sistem yok",
+    "Akşam mesai bitiminde gelen 'yarın sabah müsait misiniz' mesajına sabah cevap veriyorsunuz, müşteri gitmiş"
+  ],
+  "solutionSteps": [
+    {"title": "1. Salon Brief & Hizmet Haritası", "description": "Verdiğiniz hizmetler (saç kesimi, boyama, perma, manikür, ağda, sakal traşı, beard styling, makyaj, gelin saç), her hizmetin süresi ve fiyatı, çalışan usta sayısı, çalışma saatleri haritalanıyor."},
+    {"title": "2. AI Eğitimi & Senaryolar", "description": "Müşteri soruları (fiyat, randevu, ne kadar sürer, usta seçimi), no-show önleme akışı, hatırlatma zamanlamaları, sadakat programı entegrasyonu AI'a öğretiliyor."},
+    {"title": "3. WhatsApp Business + Takvim Entegrasyonu", "description": "WhatsApp Business API kurulumu, salon yönetim sisteminize veya Google Calendar'a bağlantı, usta bazlı randevu takvimi senkronizasyonu, müşteri kart sistemi."},
+    {"title": "4. Test, Yayın & İzleme", "description": "10 gün test, gerçek müşteri senaryolarıyla iyileştirme, canlıya alma. Aylık performans raporu (yanıtlanan mesaj, randevu, no-show oranı, en yoğun saatler)."}
+  ],
+  "features": [
+    {"title": "7/24 Randevu Açma", "description": "Müşteri 'cumartesi 14:00 saç kesimi Ahmet usta' yazınca AI takvimde Ahmet ustanın saat 14:00 boşluğunu kontrol ediyor, randevu açıyor, onay mesajı gönderiyor. Salon yoğun olsa bile."},
+    {"title": "3 Aşamalı Hatırlatma (No-show Önleme)", "description": "Randevudan 24 saat önce, 3 saat önce ve 30 dakika önce otomatik hatırlatma. 'Onayla / Ertele / İptal' butonlarıyla müşteri tek dokunuşla bildiriyor. No-show oranı %60 azalıyor."},
+    {"title": "Hizmet Fiyat + Süre Sorgulama", "description": "Müşteri 'balyaj ne kadar' yazınca AI 'Balyaj 750-1.200 TL, saç boyuna göre 2.5-3.5 saat sürer' yanıtı veriyor. Detaylı bilgi + randevu butonu mesaj içinde."},
+    {"title": "Usta Seçimi", "description": "Müşteri 'Mehmet usta ile cumartesi' diye spesifik usta talep ettiğinde sistem Mehmet ustanın takvimini açıyor. Yeni müşteri için 'Hangi usta uygun?' seçeneği usta uzmanlık alanlarına göre yönlendiriyor."},
+    {"title": "Sadakat Puanı Bildirimi", "description": "Müşteri 'puanım ne kadar' yazınca AI puan + bir sonraki seviyeye kalan miktarı gönderiyor. 'Sadakat puanınız 850/1000, 150 puan sonra %20 indirim hediye'. Müşteri tekrar gelmek için motivasyon buluyor."},
+    {"title": "Sıraya Gir (Yoğun Saat Yönetimi)", "description": "Cumartesi randevu dolu ise müşteriye 'Sıraya kaydolayım mı, iptal olursa size bildirsin' seçeneği. İptal olunca otomatik bildirim, müşteri kaçırılmıyor, ustanın boş zamanı doluyor."}
+  ],
+  "caseStudy": {
+    "title": "İstanbul Şişli - Karma Kuaför Salonu: Aylık Randevu 580 → 870, No-show %32 → %12",
+    "paragraphs": [
+      "Şişli'de 5 berber + 3 kuaför ustalı bir karma salon 2025 Ocak'ta PORTZEN'e geldi. WhatsApp tek hat üzerinden geliyor, resepsiyon kız 4 ustanın takvimini elle yönetiyor, cumartesi günleri kaos yaşanıyor. No-show oranı %32, bu da haftada 25-30 saat boş kalan usta zamanı demekti.",
+      "Profesyonel paketle WhatsApp AI asistanı kurduk. 8 ustanın takvimi Google Calendar üzerinden senkronlandı, 32 farklı hizmet (kesim, boyama, perma, sakal, gelin saç vb.) fiyat + süre bilgisi tanımlandı. 3 aşamalı hatırlatma sistemi devreye alındı.",
+      "İlk ay aylık randevu 580'den 870'e çıktı çünkü AI mesai dışı + cumartesi yoğunluğunda kayıpları kapattı. No-show oranı %32'den %12'ye düştü - bu yıllık 240+ saat ek usta zamanı yani 480K TL ek gelir demek. Resepsiyon kız randevu yönetimi yerine müşteri karşılama + sadakat programına odaklanabildi."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Randevu", "before": "580", "after": "870"},
+      {"label": "No-show Oranı", "before": "%32", "after": "%12"},
+      {"label": "Mesai Dışı Yanıt", "before": "Sabah", "after": "Anlık"},
+      {"label": "Cumartesi Doluluk", "before": "%74", "after": "%96"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL kurulum + 2.500 TL/ay",
+      "description": "1-2 ustalı küçük salonlar ve yeni açılışlar için",
+      "features": [
+        "WhatsApp Business API kurulumu",
+        "Temel randevu açma + onay",
+        "1-2 usta takvim senkron",
+        "3 aşamalı hatırlatma",
+        "Hizmet fiyat sorgulama",
+        "Aylık 1.000 AI mesajı dahil",
+        "Email destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "18.000 TL kurulum + 4.500 TL/ay",
+      "description": "Aktif salonlar için en popüler paket - 3-8 usta destekli",
+      "features": [
+        "8 usta takvim senkron",
+        "Sınırsız hizmet tanımı",
+        "Sadakat puan entegrasyonu",
+        "Sıraya gir + iptal bildirimi",
+        "Usta uzmanlık eşleştirme",
+        "CRM entegrasyonu",
+        "Aylık 5.000 AI mesajı dahil",
+        "Aylık performans raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Salon",
+      "price": "35.000 TL kurulum + 8.500 TL/ay",
+      "description": "Çoklu şube, gelin paketi ve agresif büyüme için",
+      "features": [
+        "Çoklu şube yönetimi",
+        "Sınırsız usta",
+        "Gelin paketi rezervasyonu (multi-hizmet)",
+        "Üyelik kartı + dijital cüzdan",
+        "Cross-sell otomasyonu",
+        "Sınırsız AI mesajı",
+        "Özel proje yöneticisi",
+        "Aylık ekip eğitimi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "WhatsApp Business API kurulumu için ne gerekiyor?", "answer": "Meta Business hesabı, doğrulanmış telefon numarası ve salon şirket bilgileriniz yeterli. PORTZEN tüm Meta başvuru süreçlerini sizin adınıza yönetiyor, ortalama 5-8 iş gününde aktif oluyor. Mevcut WhatsApp numaranız kullanılabilir."},
+    {"question": "No-show'u nasıl %60 azaltıyorsunuz?", "answer": "3 aşamalı hatırlatma: 24 saat önce 'Onayla / Ertele / İptal' butonlu mesaj, 3 saat önce hatırlatma, 30 dakika önce yola çık uyarısı. Müşteri iptal edince yer otomatik açılıyor, sıradaki kişiye bildirim. Vaka çalışmamızda no-show %32'den %12'ye düştü."},
+    {"question": "Ustaların takvimini sistem nasıl yönetiyor?", "answer": "Her usta için Google Calendar veya kendi panelimiz. Müşteri spesifik usta isterse direkt o ustanın boş slot'u gösteriliyor, demezse müsait ustalar listeleniyor. Usta izinli/raporluyken takvim kapatılıyor, mevcut randevular alternatif ustaya transfer önerisi."},
+    {"question": "Sadakat puanı sistemi nasıl çalışıyor?", "answer": "Her ziyaret + ürün alımı puan kazandırıyor. Belirli puanda indirim, ücretsiz hizmet, yeni ürün önceliği. Müşteri WhatsApp'tan 'puanım' yazınca anlık bilgi alıyor. Doğum gününde özel kupon otomatik gönderiliyor."},
+    {"question": "Müşteri AI ile konuştuğunu anlıyor mu?", "answer": "İlk mesajda 'Merhaba ben [salon] dijital asistanıyım' tanıtım yapıyor. Karmaşık veya özel istekler (kına gecesi, özel etkinlik) için 'sizi yöneticimize bağlıyorum' diyerek doğal devir yapıyor. Müşteri rahat ve şeffaf."},
+    {"question": "Cumartesi yoğunluğunda sistem yetişir mi?", "answer": "Tam tersine, AI cumartesi yoğunluğunda en çok değer üretir. Eş zamanlı 50+ mesaja saniyeler içinde yanıt veriyor, hiçbir müşteri beklemiyor. Resepsiyon görevliniz randevu yönetimi yerine salon içi misafirperverliğe odaklanıyor."},
+    {"question": "Mevcut salon yönetim yazılımıyla entegre olur mu?", "answer": "Salon-iz, Booksy, Fresha gibi popüler sistemlerle API entegrasyonu var. Google Calendar veya Excel kullanıyorsanız kendi panelimizi kuruyoruz. Hibrit kullanım da mümkün - mevcut sisteminizi koruyarak sadece WhatsApp katmanı ekliyoruz."}
+  ],
+  "finalCtaHeadline": "İlk randevuyu WhatsApp AI ile bu hafta alın",
+  "finalCtaSubtitle": "20 dakikalık salon demo görüşmesi yeterli. Mevcut süreçlerinizi inceleyip size özel teklif hazırlıyoruz. Test ortamında nasıl çalıştığını canlı gösteriyoruz."
+}

@@ -1,0 +1,164 @@
+{
+  "type": "location",
+  "sectorSlug": "adana",
+  "sectorName": "Adana",
+  "sectorPlural": "Adana'daki İşletmeler",
+  "title": "Adana Web Tasarım | Baharat E-Ticaret + Next.js Local SEO - PORTZEN",
+  "description": "Adana'daki kebap zincirleri, baharat ihracatçıları ve KOBİ'lere modern Next.js web tasarımı + e-ticaret + lokal SEO. Seyhan, Yüreğir, Çukurova semt bazlı arama.",
+  "keywords": [
+    "adana web tasarım",
+    "adana nextjs site",
+    "adana e-ticaret",
+    "seyhan web tasarım",
+    "adana baharat e-ticaret",
+    "çukurova web ajansı",
+    "adana local seo"
+  ],
+  "h1": "Adana İçin Web Tasarım + E-Ticaret + Local SEO",
+  "heroSubtitle": "Seyhan'da kebap zincirinden, Yüreğir'de baharat ihracatçısına, Çukurova'da modern kliniğe. Hızlı, mobil-uyumlu Next.js siteleri, e-ticaret entegrasyonu ve Google My Business optimizasyonu dahil.",
+  "stats": [
+    {"value": "Next.js", "label": "Modern Stack"},
+    {"value": "%98", "label": "PageSpeed"},
+    {"value": "E-Ticaret", "label": "Dahil"},
+    {"value": "21 gün", "label": "Teslim"}
+  ],
+  "problems": [
+    "Adana baharat ihracatçısı olarak Suudi/BAE/Avrupa müşterisi internet üzerinden sizi arıyor ama siteniz Türkçe-only, mobilde 8 saniyede açılıyor; alıcı Hindistan/Vietnam baharatçısına gidiyor.",
+    "Seyhan'daki kebap zincirinizin sitesi WordPress'te ve menü güncellemek için her seferinde 500 TL ajans ücreti ödüyorsunuz; oysa kendi başınıza güncelleyebileceğiniz panel yok.",
+    "Google'da 'mahalle + sektör' aramada (örn. 'seyhan kebapçı', 'çukurova klinik') rakipleriniz çıkıyor, sizin siteniz 4. sayfada; çünkü Google My Business profili ve lokal SEO yapılmamış.",
+    "Yüreğir'deki baharat fabrikanız ulusal market zincirleriyle (Migros, BİM) görüşüyor ama B2B sayfanız yok; alıcı 'numune talep formu', 'MOQ', 'COA' bilgilerini bulamayıp siz başka tedarikçiyi seçiyor.",
+    "Adana'daki yerel ajanslar WordPress + hazır tema çıkarıyor; modern Next.js, e-ticaret entegrasyonu, KVKK uyumu, ihracat odaklı çoklu dil bilen yok; İstanbul'lu ajansla çalışmak ise hem pahalı hem uzak."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Adana Lokal + İhracat Keşif",
+      "description": "Rakip analizi (Seyhan, Yüreğir, Çukurova bazında + Hindistan/Vietnam baharat rakipleri), Google My Business denetimi, mevcut sitenizin teknik audit'i. Hedef anahtar kelime haritası (TR + AR + EN)."
+    },
+    {
+      "title": "Tasarım + Prototip",
+      "description": "Marka kimliğinize uygun, mobil-öncelikli Figma tasarımı. Baharat markası için ürün katalog, kebap zinciri için menü + rezervasyon. Wireframe → high-fidelity → onay. 2 revizyon dahil."
+    },
+    {
+      "title": "Next.js Geliştirme + E-Ticaret",
+      "description": "React + Next.js 15 + Tailwind + Vercel deploy. PageSpeed %98+, SEO Schema.org, KVKK + GMB entegrasyonu. E-ticaret için Shopify/Medusa, ödeme iyzico/PayTR, kargo Yurtiçi/MNG."
+    },
+    {
+      "title": "Yayın + Local SEO Bakım",
+      "description": "Canlıya alma, Google Search Console kurulum, GMB optimizasyon, ilk 3 ay haftalık takip, aylık raporlama. İhracat için Google Ads + Meta Ads opsiyonel."
+    }
+  ],
+  "features": [
+    {
+      "title": "Adana Mahalle + Şube Landing'leri",
+      "description": "Seyhan, Yüreğir, Çukurova, Sarıçam, Karaisalı, Ceyhan gibi hedef mahallelerinize özel optimize edilmiş alt sayfalar. 'Mahalle + hizmet' aramasında ilk sayfa."
+    },
+    {
+      "title": "Baharat E-Ticaret + İhracat Modülü",
+      "description": "Türkçe + Arapça + İngilizce çoklu dil, multi-currency (TL/USD/EUR/SAR), MOQ tabanlı toptan fiyat, B2B numune talep formu, COA/Halal sertifika PDF indirme."
+    },
+    {
+      "title": "Google My Business Optimizasyonu",
+      "description": "Profil tam kurulum, foto/post, müşteri yorum yönetimi, harita üzerinde 'pin' optimizasyon. İlk 3 ay haftalık güncelleme."
+    },
+    {
+      "title": "Next.js + Vercel Hız",
+      "description": "PageSpeed %98+, ilk paint <1 sn, mobil-öncelikli. Adana'dan Suudi'ye 50ms açılış. Google'ın Core Web Vitals'ında yeşil."
+    },
+    {
+      "title": "KVKK + GDPR Uyumu",
+      "description": "Aydınlatma metni, açık rıza, çerez bandı, form izin yönetimi. İhracat için GDPR (Avrupa müşterisi) tam uyum dahil."
+    },
+    {
+      "title": "Uzaktan Geliştirme + Bakım",
+      "description": "İzmir merkezli PORTZEN ekibi uzaktan tam destek, Vercel/Cloudflare CDN, otomatik yedek, SSL, aylık güvenlik güncellemesi. Site asla düşmez."
+    }
+  ],
+  "caseStudy": {
+    "title": "Yüreğir'de bir baharat ihracatçısı: 6 ayda B2B sipariş 4 kat, ay başı 3.200 organik trafik",
+    "paragraphs": [
+      "Yüreğir'de üretim yapan, Suudi Arabistan ve BAE'ye baharat ihraç eden orta ölçekli bir Adana firması, 2017 yapımı WordPress sitesini kullanıyordu. Site Türkçe-only, mobilde 11 saniyede açılıyor, ürün katalogu Excel'den manuel güncelleniyor, Arapça/İngilizce yok, B2B numune talep akışı eksikti. Aylık organik trafik 200-300, Suudi alıcıları başka tedarikçilere gidiyordu.",
+      "PORTZEN olarak Next.js + Shopify Headless + Tailwind ile sıfırdan modern site kurduk; Türkçe + Arapça + İngilizce çoklu dil, multi-currency, B2B numune talep formu (WhatsApp + Email bildirim), COA/Halal/ISO sertifika PDF indirme, Schema.org markup, KVKK + GDPR uyum, Vercel CDN deploy.",
+      "6 ay sonunda organik trafik ay başı 3.200 ziyaretçiye çıktı (10x artış). Suudi/BAE'den gelen B2B numune talebi aylık 8'den 32'ye çıktı (4 kat). Yeni 2 ulusal market zinciri listemesine ek olarak 1 Suudi distribütör anlaşması imzalandı. Yatırım 3. ayında kendini amorti etti."
+    ],
+    "beforeAfter": [
+      {"label": "PageSpeed (Mobil)", "before": "28 (kırmızı)", "after": "97 (yeşil)"},
+      {"label": "Organik Trafik", "before": "200/ay", "after": "3.200/ay"},
+      {"label": "Aylık B2B Numune Talebi", "before": "8", "after": "32"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Landing Sayfa",
+      "price": "12.000 TL",
+      "description": "Tek lokasyonlu işletme, kebapçı, butik üretici için (tek seferlik)",
+      "features": [
+        "Next.js + Tailwind tek sayfa",
+        "Mobil-öncelikli tasarım",
+        "Form + WhatsApp butonu",
+        "Temel SEO + Schema.org",
+        "KVKK + çerez uyum",
+        "1 yıl hosting dahil"
+      ]
+    },
+    {
+      "name": "Marka Sitesi",
+      "price": "28.000 TL + 2.000 TL/ay",
+      "description": "Kurumsal site, kebap zinciri, klinik, danışmanlık için",
+      "features": [
+        "5-8 sayfa kurumsal site",
+        "5 mahalle bazlı landing",
+        "Google My Business kurulum",
+        "Tam local SEO + Schema",
+        "Aylık SEO bakım + rapor",
+        "Adanmış hesap yöneticisi"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Baharat E-Ticaret + İhracat",
+      "price": "65.000 TL + 3.500 TL/ay",
+      "description": "Baharat e-ticaret, ihracat odaklı, B2B + B2C hibrit için",
+      "features": [
+        "Next.js + Shopify/Medusa Headless",
+        "Türkçe + Arapça + İngilizce",
+        "Multi-currency (TL/USD/EUR/SAR)",
+        "B2B numune + COA modülü",
+        "Sepet + ödeme (iyzico/PayTR/Stripe)",
+        "GDPR + KVKK tam uyum",
+        "Öncelikli destek + aylık SEO"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Adana lokal SEO ne demek, sıradan SEO'dan farkı ne?",
+      "answer": "Lokal SEO, 'mahalle + sektör' (örn. 'seyhan kebapçı', 'çukurova klinik') aramada öne çıkmak için yapılan özel optimizasyon. Google My Business, Schema.org LocalBusiness, mahalle bazlı içerik, coğrafi etiketleme dahil."
+    },
+    {
+      "question": "İzmir merkezli ajansla Adana'da nasıl çalışacağız?",
+      "answer": "Tüm görüşmeler online (Google Meet, Zoom). Adana'da fiziksel ofis maliyetimiz olmadığı için yerel ajanslardan %30-40 daha uygun fiyat sunuyoruz. Adana'da aktif müşterilerimiz var, referans verebiliriz. Gerektiğinde Adana'ya seyahat ediyoruz."
+    },
+    {
+      "question": "Baharat ihracat için Arapça çoklu dil zor mu?",
+      "answer": "Hayır. Next.js i18n ile profesyonel çeviri (Türkçe → MSA Arapça + İngilizce), RTL (sağdan sola) düzen, multi-currency otomatik. Suudi/BAE müşterisi kendi dilinde + parasında alışveriş yapar."
+    },
+    {
+      "question": "Mevcut WordPress sitemden geçiş zor mu?",
+      "answer": "Hayır. İçerik aktarımı, URL yönlendirme (301), SEO sıralama korunarak migration yapıyoruz. Eski URL'ler kaybolmaz, Google sıralaması korunur. Adana baharat müşterilerimizde 0 SEO kaybı ile geçiş yaptık."
+    },
+    {
+      "question": "Adana'daki yerel ajansla aramda fiyat farkı ne kadar?",
+      "answer": "Adana yerel ajansları WordPress + hazır tema için 15-25K istiyor. Biz Next.js + custom design + e-ticaret + local SEO için 28K alıyoruz. Fiyat benzer ama teknik kalite 5-10 kat üstün, uzun vadede çok daha düşük bakım maliyeti."
+    },
+    {
+      "question": "Kebap zincirim için online sipariş entegrasyonu mümkün mü?",
+      "answer": "Evet. Yemeksepeti, Trendyol Go, Getir Yemek widget entegrasyonu, kendi siteden direkt sipariş (iyzico/PayTR ödeme), şube bazlı stok yönetimi. Tek panelden tüm kanal yönetimi."
+    },
+    {
+      "question": "Aylık SEO bakımı ne içeriyor?",
+      "answer": "Google Search Console takibi, sıralama raporu, içerik güncellemesi, GMB post yönetimi, teknik SEO audit, aylık 3 saat danışmanlık. Tam şeffaf rapor. İhracat paketinde Google Ads + Meta Ads danışmanlık dahil."
+    }
+  ],
+  "finalCtaHeadline": "Adana'da Google'ın ilk sayfasına çıkalım.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz site audit. Mevcut siteniz + rakipleriniz analiz, size özel local SEO + e-ticaret yol haritası. 21 günde yeni site canlı."
+}

@@ -1,0 +1,112 @@
+{
+  "type": "location",
+  "sectorSlug": "gaziantep",
+  "sectorName": "Gaziantep",
+  "sectorPlural": "Gaziantep İşletmeleri",
+  "title": "Gaziantep Web Tasarım | Baklava + Fıstık İhracat E-Ticaret TR/EN/AR Çoklu Dil - PORTZEN",
+  "description": "Gaziantep Şahinbey baklava ihracat ve Şehitkamil Antep fıstığı e-ticaret siteleri, OSB tekstil B2B sitelerine TR + EN + AR çoklu dil, USD/EUR fiyatlı Next.js web tasarım.",
+  "keywords": ["gaziantep web tasarim", "baklava e-ticaret sitesi", "antep fistigi online satis", "sahinbey ihracat web", "sehitkamil website", "arapca site yapimi"],
+  "h1": "Gaziantep İşletmeleri için Profesyonel Web Tasarım",
+  "heroSubtitle": "Şahinbey baklava ihracat ve Şehitkamil Antep fıstığı e-ticaretten, OSB tekstil B2B sitelerine. TR + EN + AR üç dilli, USD/EUR fiyatlı, Stripe ihracat ödeme entegrasyonlu Next.js 15 web tasarım. PORTZEN İzmir merkezli, Gaziantep'te aktif müşteriler uzaktan.",
+  "stats": [
+    {"value": "20 gün", "label": "Ortalama Teslim"},
+    {"value": "96+", "label": "Lighthouse Skoru"},
+    {"value": "TR + EN + AR", "label": "Üç Dilli"},
+    {"value": "Stripe", "label": "İhracat Ödeme"}
+  ],
+  "problems": [
+    "Şahinbey'de baklava ihracatı yapıyorsunuz, web siteniz Türkçe ve TL fiyatlı, Suudi veya Alman alıcı USD/EUR fiyat göremiyor, ödeyemiyor",
+    "Şehitkamil'de Antep fıstığı online satışı yapıyorsunuz, mobil siteniz 7 saniyede açılıyor, müşteri Trendyol veya Amazon'a gidiyor",
+    "OSB'de tekstil veya halı üretiyorsunuz, B2B müşteri için ürün katalog + MOQ + sertifika bilgili profesyonel site yok, hala PDF gönderiyorsunuz",
+    "Güllüoğlu, İmam Çağdaş, Koçak gibi büyük markalarla rekabet ediyorsunuz, web siteniz onların yanında amatör duruyor, ihracat müşterisi güvenmiyor",
+    "Yurt dışı müşteri 'how to order from Turkey', 'shipping to Saudi' soruyor, sitede İngilizce/Arapça açıklama yok, satış kaçıyor",
+    "Mutfak gereçleri, kuyumcu, dokuma - hepsinin ortak derdi: çoklu dil + uluslararası kargo + USD/EUR ödeme entegre site yok"
+  ],
+  "solutionSteps": [
+    {"title": "1. İhracat + B2B Hedef Audit", "description": "Hangi ülkelere satıyorsunuz, hangi dilde müşteri çoğunluğu, hangi ödeme yöntemi (banka havalesi, Stripe, USDT)? Şahinbey baklava / Şehitkamil fıstık / OSB tekstil - her birinin web ihtiyacı farklı. Rakip analizi + SEO audit."},
+    {"title": "2. UI/UX Tasarım (Figma)", "description": "Sektöre özel Figma tasarım. Baklava için sıcak + lüks tonlar, fıstık için doğal + minimal, tekstil için B2B kurumsal. Mobil-first, RTL (Arapça sağdan-sola) destekli, uluslararası standart."},
+    {"title": "3. Next.js 15 + Çoklu Dil + Stripe", "description": "Next.js 15 + Tailwind + Sanity CMS + next-intl (TR + EN + AR) + Stripe ihracat ödeme. Otomatik para birimi (TL/USD/EUR) algılama. B2B için fiyat teklif PDF üretimi."},
+    {"title": "4. SEO + GMB + Çoklu Dil İndeksleme", "description": "TR + EN + AR ayrı sitemap, hreflang etiketleri, schema markup, bölge SEO ('Gaziantep baklava online', 'Antep fıstığı ihracat'). Google My Business optimizasyonu."}
+  ],
+  "features": [
+    {"title": "Üç Dilli Site (TR + EN + AR)", "description": "Türkçe (yerli), İngilizce (Avrupa + ABD), Arapça (Suudi + Körfez). Arapça RTL düzeni, doğru tipografi, yerel para birimi gösterimi."},
+    {"title": "Çoklu Para Birimi + Stripe Ödeme", "description": "Otomatik müşteri lokasyon algılama - TR'den TL, AB'den EUR, ABD'den USD. Stripe + iyzico + banka havalesi seçenekleri. Uluslararası kart sorunsuz."},
+    {"title": "İhracat Kargo Hesaplama", "description": "DHL, UPS, FedEx, ARAS ihracat tarifeleri entegre. Müşteri 'Saudi Arabia' seçince ortalama 12-18 gün, $25 kargo otomatik gösteriliyor."},
+    {"title": "B2B MOQ + Fiyat Teklif", "description": "B2B müşteri için minimum sipariş tablo, hacim bazlı fiyat indirim, otomatik PDF fiyat teklif. Satış ekibi tek tıkla teklif gönderiyor."},
+    {"title": "Sertifika + Belge Vitrini", "description": "Helal, BRC, ISO, ETL, CE sertifikaları görünür konumda. Uluslararası B2B müşteri için güven sinyali. İndirilebilir PDF."},
+    {"title": "Sanity CMS + Çoklu Dil Yönetim", "description": "Ürün, kampanya, blog - üç dilde tek admin panelden. Yeni ürün ekleyince otomatik üç dile çevrilebilir (DeepL entegrasyonu)."}
+  ],
+  "caseStudy": {
+    "title": "Şahinbey - Baklava İhracat E-Ticaret: Aylık Organik Trafik 320 → 8.500, İhracat Satış 4.5x",
+    "paragraphs": [
+      "Şahinbey'de baklava + Antep fıstığı + katmer ihracatı yapan orta ölçekli üretici 2024 Aralık'ında PORTZEN'e geldi. Türkçe sitesi vardı, yurt dışı satış sadece WhatsApp + Trendyol'dan geliyordu. Suudi ve Almanya'dan gelen müşteriler USD/EUR fiyat göremediği için Hafız Mustafa veya Güllüoğlu'na gidiyordu. Aylık ihracat satışı 18K USD civarındaydı.",
+      "22 günde Premium paket ile Next.js 15 + üç dilli (TR + EN + AR) + Stripe + DHL/UPS ihracat kargo entegrasyonlu yeni site yayınlandı. 24 ürün katalog, MOQ tabloları, FOB Gaziantep + CIF Hamburg/Dubai fiyatları, Helal + BRC sertifikaları, blog (Antep mutfağı içerik). Arapça RTL düzeni, Suudi banka kart desteği.",
+      "İlk 4 ayda organik trafik 320/aydan 8.500/aya çıktı. 'Antep baklava ihracat' aramasında EN ve AR'de 2. sıraya yükseldi. Aylık ihracat satışı 18K USD'den 82K USD'ye çıktı (4.5 katı). Suudi ve BAE'den 6 yeni distribütör anlaşması yapıldı. Sepet terk oranı %71'den %38'e geriledi."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Organik Trafik", "before": "320", "after": "8.500"},
+      {"label": "Aylık İhracat Satışı", "before": "18K USD", "after": "82K USD"},
+      {"label": "Sepet Terk Oranı", "before": "%71", "after": "%38"},
+      {"label": "Mobil Yüklenme Süresi", "before": "7.5 sn", "after": "1.1 sn"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Site",
+      "price": "11.000 TL",
+      "description": "Tek seferlik, küçük işletme ve yeni açılış",
+      "features": [
+        "6 sayfa (anasayfa, ürünler, hakkımızda, sertifikalar, blog, iletişim)",
+        "Next.js + Tailwind",
+        "Mobil responsive + 90+ Lighthouse",
+        "TR + EN çift dilli",
+        "WhatsApp + Google Maps",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "26.000 TL + 2.000 TL/ay",
+      "description": "Gaziantep ihracatçı KOBİ'leri için en popüler paket",
+      "features": [
+        "12-18 sayfa + ürün katalog",
+        "TR + EN + AR üç dilli (RTL desteği)",
+        "iyzico + Stripe ödeme",
+        "DHL/UPS kargo hesaplama",
+        "B2B MOQ + fiyat teklif PDF",
+        "Sertifika vitrini",
+        "Sanity CMS admin paneli",
+        "Bölge SEO + GMB optimizasyon",
+        "Aylık bakım + 2 saat danışmanlık"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "45.000 TL + 3.500 TL/ay",
+      "description": "Büyük ihracatçı + B2B portal + agresif büyüme",
+      "features": [
+        "Sınırsız sayfa + çoklu kategori",
+        "TR + EN + AR + FR + DE beş dilli",
+        "USD/EUR/SAR/AED otomatik para birimi",
+        "Distribütör B2B portal (özel fiyat görünümü)",
+        "Müşteri sadakat + puan sistemi",
+        "Newsletter + WhatsApp/Email otomasyon",
+        "Google Ads + Meta Ads landing sayfaları",
+        "Aylık SEO + içerik raporu",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Gaziantep'te işletmem var, kurulum nasıl olacak?", "answer": "Tüm süreç uzaktan. Brief Zoom üzerinden 45 dakika, Figma tasarım onayı dijital, geliştirme iletişimi WhatsApp + email. Gaziantep'te aktif 9+ müşterimiz bu yöntemle çalışıyor."},
+    {"question": "Arapça site RTL düzeni doğru çalışıyor mu?", "answer": "Evet, Next.js + next-intl ile Arapça RTL (sağdan-sola) tam desteği. Buton sırası, görsel hizalama, ikon yönü, navigasyon Arap kullanıcı için doğal. Suudi alıcı 'this looks like a Saudi site' diyor, güven kazanıyorsunuz."},
+    {"question": "Stripe ihracat ödemesi karmaşık mı, sanal POS lazım mı?", "answer": "Stripe Türkiye'de henüz yok, Stripe Europe veya iyzico International kullanıyoruz. Stripe Europe için Hollanda/İrlanda şube veya Payoneer/Wise ile entegrasyon. Süreç 2-3 hafta, biz yönetiyoruz."},
+    {"question": "Otomatik para birimi nasıl çalışıyor?", "answer": "Müşteri lokasyonu IP'den algılanıyor (Suudi'den girince SAR, Almanya'dan EUR, Türkiye'den TL). Manuel seçim de mümkün. Stripe ödeme anında dönüşüm yapıyor, kur farkı küçük."},
+    {"question": "B2B fiyat teklif PDF nasıl çalışıyor?", "answer": "B2B müşteri 'request quote' butonuna basıyor, ürün + miktar + ülke seçiyor. Sistem otomatik PDF üretiyor (CIF fiyat + kargo + toplam), satış ekibine ve müşteriye email gidiyor. Satış müzakereye odaklanıyor."},
+    {"question": "Antep fıstığı için Google'da 'Antep fıstığı online' aramasında üst sıra ne kadar sürer?", "answer": "Bölge SEO + içerik stratejisi + GMB optimizasyonu sonrası 3-6 ay. Vaka çalışmamızdaki Şahinbey baklava firması 4 ayda organik trafik 26x arttı. Rekabet yoğun anahtar kelimelerde 6-9 ay gerekebilir."},
+    {"question": "Site teslim sonrası ürün ekleme kimde olacak?", "answer": "Siz. Sanity CMS admin paneli sezgisel - 5 dakikada ürün ekliyorsunuz, üç dile çeviri otomatik öneriliyor (DeepL entegrasyonu Premium'da). Acele durum için aylık 2 saat danışmanlık var."}
+  ],
+  "finalCtaHeadline": "Gaziantep ihracatınız için yeni siteniz 20 günde uluslararası kalite",
+  "finalCtaSubtitle": "45 dakikalık Zoom brief görüşmesi yeterli. Mevcut sitenizi inceleyip ücretsiz audit + TR + EN + AR çoklu dil + Stripe ihracat planı hazırlıyoruz. PORTZEN İzmir merkezli, Gaziantep'te aktif ihracatçılar uzaktan profesyonel teslim."
+}

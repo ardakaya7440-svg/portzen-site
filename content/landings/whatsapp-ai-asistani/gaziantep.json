@@ -1,0 +1,110 @@
+{
+  "type": "location",
+  "sectorSlug": "gaziantep",
+  "sectorName": "Gaziantep",
+  "sectorPlural": "Gaziantep İşletmeleri",
+  "title": "Gaziantep WhatsApp AI Asistanı | Baklava İhracat + Antep Fıstığı Çoklu Dil Yanıt - PORTZEN",
+  "description": "Gaziantep Şahinbey baklava ihracatından, Şehitkamil Antep fıstığı online satışına, OSB B2B tekstil müşterilerine TR + EN + AR çoklu dil WhatsApp AI asistanı.",
+  "keywords": ["gaziantep whatsapp ai", "baklava ihracat whatsapp", "antep fistigi musteri", "sahinbey osb b2b", "sehitkamil e-ticaret", "arapca whatsapp chatbot"],
+  "h1": "Gaziantep İşletmeleri için WhatsApp AI Asistanı",
+  "heroSubtitle": "Şahinbey baklava ihracatından, Şehitkamil Antep fıstığı online satışına, OSB B2B tekstil ve halı ihracatçılarına. Türkçe + İngilizce + Arapça çoklu dil WhatsApp AI asistanı. PORTZEN İzmir merkezli, Gaziantep'te aktif müşteriler uzaktan.",
+  "stats": [
+    {"value": "TR + EN + AR", "label": "Üç Dilli"},
+    {"value": "60 sn", "label": "Yanıt Süresi"},
+    {"value": "İhracat Hazır", "label": "B2B Akış"},
+    {"value": "Meta Onaylı", "label": "Business API"}
+  ],
+  "problems": [
+    "Şahinbey'de baklava ihracatı yapıyorsunuz, Arap ve Avrupalı müşteriler WhatsApp'tan İngilizce/Arapça soruyor, çevirip yanıt yetiştiremiyorsunuz",
+    "Şehitkamil'de Antep fıstığı online satıyorsunuz, sipariş + kargo + ödeme soruları gece 02:00'a kadar geliyor, mesai dışı kaybediyorsunuz",
+    "OSB'de tekstil veya halı üretiyorsunuz, B2B müşteri 'minimum sipariş ne?', 'fabrika sertifikası var mı?' soruyor, satış ekibi her seferinde tek tek yanıtlıyor",
+    "Yurt dışı müşteri saat farkından (Arap ülkeleri 1-2 saat ileri, Avrupa 1-2 saat geri) farklı zamanda yazıyor, mesai içinde yanıt geç oluyor",
+    "Güllüoğlu, İmam Çağdaş, Koçak gibi büyük markalarla rekabet ediyorsunuz, müşteri deneyimi farkı yaratmak istiyorsunuz ama kaynak yetmiyor",
+    "Mutfak gereçleri, kuyumcu, dokuma ihracat - hepsinde aynı dert: çok dilli + 7/24 + ürün katalog soru yanıt sistemi yok"
+  ],
+  "solutionSteps": [
+    {"title": "1. İhracat + B2B Profil Analizi", "description": "Hangi ülkelere satıyorsunuz (Suudi Arabistan, BAE, Almanya, ABD), hangi kanaldan müşteri geliyor (Trendyol, Amazon, kendi sitenizden, fuar), en sık 50 soru ne? Hepsi çıkartılıyor."},
+    {"title": "2. WhatsApp Business API + Yeşil Onay", "description": "Meta resmi WhatsApp Business API kurulumu + yeşil onay rozeti başvurusu. İhracat firması için marka güvenilirliği kritik, yeşil onay alıcının güvenini artırıyor."},
+    {"title": "3. AI Asistan Eğitimi (TR + EN + AR)", "description": "Ürün katalog, fiyat listesi (TL + USD + EUR), MOQ (minimum sipariş), kargo süreleri, sertifika belgeleri AI'ya yükleniyor. Üç dilli yanıt - alıcı Arapça yazınca Arapça, İngilizce yazınca İngilizce yanıt."},
+    {"title": "4. B2B Sipariş Akışı + CRM", "description": "B2B müşteri kayıt, sipariş formu (Excel/PDF), fiyat teklif otomasyonu, kargo takip, ödeme yöntemi (banka havalesi, kredi kartı, USDT). HubSpot veya özel CRM entegre."}
+  ],
+  "features": [
+    {"title": "Üç Dilli AI Yanıt (TR + EN + AR)", "description": "Müşteri Arapça yazarsa Arapça, İngilizce yazarsa İngilizce, Türkçe yazarsa Türkçe yanıt. Suudi alıcı 'كم سعر الباكلاوة' diye sorduğunda Arapça yanıt geliyor."},
+    {"title": "7/24 Saat Farkı Çözümü", "description": "Suudi alıcı sabah 06:00'da (TR saati 03:00), Avrupalı akşam 22:00'da yazıyor. AI hep aktif, satış ekibi sabah 09:00'da 12 yeni leadlik özet raporu görüyor."},
+    {"title": "İhracat MOQ + Fiyat Otomasyonu", "description": "Müşteri 'how many kg minimum?' diye sorduğunda 'minimum 50 kg, FOB Gaziantep $12/kg' otomatik yanıt. Kargo, ödeme yöntemi, sertifikalar (Helal, BRC, ISO) bilgileri hazır."},
+    {"title": "B2B Lead Kayıt + CRM", "description": "Yeni B2B müşteri her sorduğunda otomatik HubSpot/CRM'e kayıt, satış ekibi pipeline'da takip ediyor. Soğuk leadler kaybolmuyor, follow-up otomasyonu."},
+    {"title": "Ürün Katalog + Sertifika Gönderimi", "description": "Müşteri 'send me your catalog' dediğinde PDF katalog + sertifikalar otomatik gönderiliyor. Email'e de kopya, takip kolay."},
+    {"title": "Canlıya Devir + İhracat Müdürü", "description": "Büyük sipariş, özel anlaşma, fiyat pazarlığı gibi durumlar AI'dan ihracat müdürüne otomatik devir. Müşteri hiç bekletilmiyor."}
+  ],
+  "caseStudy": {
+    "title": "Şahinbey - Baklava İhracat: Arap + Avrupa Müşteri WhatsApp Lead 4x, İhracat Hacmi %180 Arttı",
+    "paragraphs": [
+      "Şahinbey'de baklava + Antep fıstığı ihracatı yapan orta ölçekli üretici 2024 Kasım'ında PORTZEN'e geldi. Suudi Arabistan, BAE, Almanya ve ABD'ye satış yapıyorlardı. WhatsApp'tan haftada 80-120 sorgu geliyordu, çoğu Arapça veya İngilizce. Satış ekibi 3 kişi, çeviri için Google Translate kullanıyordu, yanıt süresi 6-12 saat, müşterilerin %35'i başka firmalardan alıyordu.",
+      "WhatsApp Business API + AI asistan + HubSpot CRM entegrasyonu 18 günde tamamlandı. Üç dilli (TR + EN + AR) AI, baklava katalog (24 çeşit), MOQ tabloları (10-500 kg), FOB Gaziantep + CIF Hamburg/Dubai fiyatları, Helal + BRC sertifikaları AI'ya yüklendi. B2B leadler otomatik HubSpot'a düşüyor.",
+      "İlk 4 ayın sonunda WhatsApp lead haftalık 80'den 320'ye çıktı (4 katı), Arap müşterilerden lead artışı %420. Aylık ihracat hacmi %180 arttı (12 ton/aydan 33 ton/aya). Satış ekibi manuel çeviri yapmıyor, asıl satışa odaklanıyor. Suudi ve BAE'den 8 yeni distribütör anlaşması yapıldı."
+    ],
+    "beforeAfter": [
+      {"label": "Haftalık WhatsApp Lead", "before": "80-120", "after": "320"},
+      {"label": "İlk Yanıt Süresi", "before": "6-12 saat", "after": "60 saniye"},
+      {"label": "Aylık İhracat Hacmi", "before": "12 ton", "after": "33 ton"},
+      {"label": "Arap Müşteri Lead Artışı", "before": "Baz", "after": "+420%"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "10.000 TL kurulum + 1.500 TL/ay",
+      "description": "Yeni başlayan ihracatçı, küçük e-ticaret",
+      "features": [
+        "WhatsApp Business API kurulumu",
+        "30 sık soru AI eğitimi",
+        "TR + EN çift dilli",
+        "Ürün katalog PDF gönderim",
+        "1 ay teknik destek",
+        "Aylık 1.500 mesaj dahil"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "18.000 TL kurulum + 3.000 TL/ay",
+      "description": "Gaziantep ihracatçı KOBİ'leri için en popüler paket",
+      "features": [
+        "WhatsApp Business API + yeşil onay başvurusu",
+        "TR + EN + AR üç dilli AI",
+        "60+ soru AI eğitimi",
+        "MOQ + FOB/CIF fiyat otomasyonu",
+        "B2B lead HubSpot CRM entegrasyonu",
+        "Sertifika (Helal, BRC, ISO) gönderim",
+        "Aylık 6.000 mesaj dahil",
+        "Aylık raporlama"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "35.000 TL kurulum + 5.500 TL/ay",
+      "description": "Büyük ihracatçı, çoklu pazar, agresif büyüme",
+      "features": [
+        "Sınırsız soru AI eğitimi",
+        "TR + EN + AR + FR + DE beş dilli",
+        "Özel kod CRM entegrasyonu",
+        "Otomatik fiyat teklif PDF üretimi",
+        "Distribütör portalı",
+        "Sınırsız mesaj",
+        "Haftalık optimizasyon görüşmesi",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Gaziantep'te işletmem var, PORTZEN İzmir merkezli, kurulum nasıl?", "answer": "Tüm süreç uzaktan. WhatsApp Business API kurulumu, AI eğitimi, CRM entegrasyonu için saha ziyareti gerekmiyor. Brief görüşmesi Zoom üzerinden 45 dakika, sonrası tamamen dijital. Gaziantep'te aktif 10+ müşterimiz bu yöntemle çalışıyor."},
+    {"question": "Arapça yanıt verme kalitesi nasıl? Arap müşteri yapay sezecek mi?", "answer": "GPT-4 + Claude Sonnet ile Arapça yanıt kalitesi neredeyse insan seviyesinde. Suudi Arabistan ve Körfez Arapçası farklarını da dikkate alıyoruz. Vaka çalışmamızdaki Şahinbey baklava firmasında Arap müşterilerden gelen lead %420 arttı, kalite sorgusu olmadı."},
+    {"question": "Yeşil onay rozeti ihracat için ne kadar önemli?", "answer": "Kritik. Arap ve Avrupalı alıcı 'yeşil onaylı' marka adı görmediğinde güvenmiyor. Meta başvurusu 2-6 hafta sürüyor, marka kayıt belgesi + web sitesi + sosyal medya hesapları tutarlılık önemli. Süreci biz yönetiyoruz."},
+    {"question": "MOQ ve FOB/CIF fiyat soruları AI nasıl yanıtlıyor?", "answer": "AI'ya fiyat tablonuzu (örn. 10 kg $14/kg, 50 kg $12/kg, 100 kg $10/kg + FOB Gaziantep / CIF Hamburg / CIF Dubai) yüklüyoruz. Müşteri 'price for 100 kg to Hamburg' diye sorduğunda 'CIF Hamburg $10/kg, total $1.000, delivery 18-22 days' otomatik yanıt."},
+    {"question": "Helal, BRC, ISO sertifikaları otomatik gönderiliyor mu?", "answer": "Evet, müşteri 'certificates' veya 'حلال شهادة' yazdığında PDF sertifikalar otomatik gönderiliyor. Sertifika güncel mi diye sistem ayda bir hatırlatma yapıyor."},
+    {"question": "Satış ekibim WhatsApp'a girip sohbet edebiliyor mu?", "answer": "Evet, ekip üyelerinizin her birine yetki veriyoruz. AI çözemeyeceği büyük sipariş, özel anlaşma durumlarında otomatik devir oluyor, satış ekibi web/mobil uygulamadan sohbete giriyor."},
+    {"question": "Aylık 6.000 mesaj yetmezse ne olur?", "answer": "Aşım ücreti mesaj başına 0.15 TL. Premium pakete geçince sınırsız mesaj dahil. Büyük ihracatçı için Premium daha mantıklı, Profesyonel'den geçişte %25 indirim var."}
+  ],
+  "finalCtaHeadline": "Gaziantep ihracatınız için ilk Arap müşteri lead'i 2 haftada gelsin",
+  "finalCtaSubtitle": "45 dakikalık Zoom brief görüşmesi yeterli. Mevcut WhatsApp akışınızı + ürün katalogunuzu inceleyip TR + EN + AR çoklu dil AI demo hazırlıyoruz. PORTZEN İzmir merkezli, Gaziantep'te aktif ihracatçılar uzaktan."
+}

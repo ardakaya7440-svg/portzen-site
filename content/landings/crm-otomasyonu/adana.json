@@ -1,0 +1,165 @@
+{
+  "type": "location",
+  "sectorSlug": "adana",
+  "sectorName": "Adana",
+  "sectorPlural": "Adana'daki İşletmeler",
+  "title": "Adana CRM Otomasyonu | Toplu Sipariş + İhracat Lead - PORTZEN",
+  "description": "Adana'daki kebap zincirleri, baharat ihracatçıları ve KOBİ'ler için CRM kurulum + otomasyon. KVKK uyumlu, toplu sipariş yönetimi, ihracat lead takibi dahil.",
+  "keywords": [
+    "adana crm otomasyonu",
+    "adana crm kurulum",
+    "seyhan satış otomasyonu",
+    "adana lead yönetimi",
+    "adana kvkk crm",
+    "çukurova crm danışmanlık",
+    "adana ihracat crm"
+  ],
+  "h1": "Adana İçin CRM Otomasyonu",
+  "heroSubtitle": "Seyhan'da kebap zinciri, Yüreğir'de baharat ihracatçısı, Çukurova'da modern KOBİ. Toplu sipariş, ihracat lead'leri ve müşteri verisini Excel'den kurtarıp KVKK uyumlu CRM'e taşıyoruz.",
+  "stats": [
+    {"value": "Adana", "label": "Uzaktan Destek"},
+    {"value": "KVKK", "label": "Uyumlu"},
+    {"value": "21 gün", "label": "Kurulum"},
+    {"value": "%47", "label": "Ort. Dönüşüm"}
+  ],
+  "problems": [
+    "Adana baharat ihracatçısı olarak Suudi/BAE/Avrupa müşterilerinden gelen lead'leriniz WhatsApp, Email, Instagram DM, B2B fuarda topladığınız kartvizitler arasında dağınık; hangi alıcı hangi aşamada belli değil, %40'ı unutuluyor.",
+    "Seyhan'daki kebap zincirinizin toplu sipariş (düğün, kına, kurumsal toplantı) trafiği yoğun ama her sipariş Excel'de takip ediliyor, hangi şube hangi siparişten sorumlu karışıyor, müşteriye yanlış fiyat veriliyor.",
+    "Salesforce, HubSpot gibi kurumsal CRM'ler aylık 50-200 bin TL; Adana KOBİ'sinin bütçesini aşıyor, üstelik İngilizce arayüz ekibi yormuyor.",
+    "KVKK uyumlu lead toplama, izin yönetimi, silme talebi süreci yok; ihbar gelirse Kurum cezası 1.8M TL'ye kadar. Adana'da KVKK denetimleri arttı, risk üstünüzde.",
+    "Yüreğir'deki baharat fabrikanızın satış ekibi (5-10 kişi) hangi alıcı kime ait, hangi proforma onaylandı, hangi numune gönderildi takip edemiyor; ekip içi karmaşa Suudi alıcı kaybına yol açıyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Adana İş Akışı Keşfi",
+      "description": "Mevcut lead kaynaklarınızı (WhatsApp, Instagram, Web Form, telefon, B2B fuar), satış pipeline'ınızı (B2C kebap sipariş + B2B ihracat), ekip yapınızı analiz ediyoruz. Excel + dağınık dataları toplama planı."
+    },
+    {
+      "title": "CRM Seçimi + Kurulum",
+      "description": "İhtiyacınıza göre HubSpot (free → growth), Zoho, Pipedrive veya açık kaynak EspoCRM - Türkçe arayüz, KVKK modülü, sektörünüze özel pipeline (kebap toplu sipariş, baharat ihracat, klinik randevu vb.) kurulumu."
+    },
+    {
+      "title": "Otomasyon Akışları",
+      "description": "Lead geldi → WhatsApp/Email otomatik yanıt → satış temsilcisine atama → 24 saat takip → proforma/sözleşme akışı. İhracat için numune takip, gümrük belge bildirim. 15-25 senaryo."
+    },
+    {
+      "title": "Ekip Eğitimi + Devreye",
+      "description": "Adana'daki ekibinize 2 oturum canlı online eğitim (Google Meet), video kütüphanesi, 1 aylık aktif destek. Sonrası aylık optimizasyon."
+    }
+  ],
+  "features": [
+    {
+      "title": "Toplu Sipariş Yönetimi (Kebap Zinciri)",
+      "description": "Düğün, kına, kurumsal toplantı siparişleri için özel pipeline. Şube atama, mutfak kapasite kontrol, müşteri sözleşme, ön ödeme takibi - tümü tek panelden."
+    },
+    {
+      "title": "İhracat Lead + Numune Takip",
+      "description": "B2B fuar (Sial, Anuga, Gulfood) lead'leri otomatik CRM'e aktarım, numune gönderim takibi, COA/Halal belge bildirimi, proforma onay akışı. Suudi/BAE/Avrupa alıcı segmentasyon."
+    },
+    {
+      "title": "WhatsApp + Instagram + Email Tek Panel",
+      "description": "Tüm kanallardan gelen mesajlar tek CRM'de birleşir. Her müşterinin geçmişi (WhatsApp + Email + IG DM + telefon notu) tek görünüm. Satış temsilcisi geçmişi kaybetmez."
+    },
+    {
+      "title": "Şube + Bayilik Yönetimi",
+      "description": "Çoklu şubeli kebap zinciri veya bayilik ağı için her şubeye özel kullanıcı, yetki, rapor. Merkez tüm şube performansını görür."
+    },
+    {
+      "title": "KVKK Tam Uyum",
+      "description": "Açık rıza, aydınlatma metni, silme talebi paneli, VERBİS uyum. Müşteri 'verilerimi sil' dediğinde tek tıkla silme. Hukuki risk sıfır."
+    },
+    {
+      "title": "Uzaktan Destek + Aylık Optimizasyon",
+      "description": "İzmir merkezli PORTZEN ekibi tam destek, aylık dönüşüm raporu, A/B test, otomasyon ince ayarı. Adana ekibinize sürekli koçluk."
+    }
+  ],
+  "caseStudy": {
+    "title": "Adana baharat ihracatçısı: 5 ayda Suudi/BAE numune dönüşüm %14 → %38",
+    "paragraphs": [
+      "Yüreğir'de üretim yapan, Suudi/BAE/Almanya'ya baharat ihraç eden orta ölçekli bir Adana firması, 8 kişilik satış ekibiyle çalışıyordu. Lead'leri Excel'de, WhatsApp'ta, Email'de dağınık tutuyor, fuar kartvizitlerini ay sonu birikip işleyemiyor, gönderilen numuneyi takip edemiyordu. Suudi/BAE alıcılar 'numune geldi mi, COA hangi tarihte' diye sorduğunda satış temsilcisi 3-4 günde cevap verebiliyordu. Numune → sipariş dönüşüm oranı %14'tü.",
+      "PORTZEN olarak Zoho CRM + WhatsApp Business API + Email entegrasyonu kurduk. Lead pipeline (Yeni → Numune Gönderildi → Proforma → Sözleşme → Sipariş), numune kargo takip (DHL/Aramex API), COA/Halal sertifika otomatik gönderim, Suudi/BAE/Almanya segmentasyon. KVKK + GDPR tam uyum.",
+      "5 ay sonunda numune → sipariş dönüşüm oranı %14'ten %38'e çıktı (2.7x). Suudi/BAE alıcı 'numune nerede' sorusu %92 azaldı (otomatik kargo takip bildirimi). Ekip satışa harcadığı zaman %35 azaldı, daha çok yeni lead'e odaklandı. Aylık ihracat cirosu 2.4M → 4.1M TL."
+    ],
+    "beforeAfter": [
+      {"label": "Numune → Sipariş Oranı", "before": "%14", "after": "%38 (2.7x)"},
+      {"label": "'Numune Nerede' Sorusu", "before": "Günde 8-12", "after": "Günde 1"},
+      {"label": "Aylık İhracat Ciro", "before": "2.4M TL", "after": "4.1M TL"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "18.000 TL (kurulum) + 4.000 TL/ay",
+      "description": "Tek lokasyonlu KOBİ, butik baharat üreticisi, küçük kebapçı için",
+      "features": [
+        "Zoho/Pipedrive Türkçe kurulum",
+        "5 kullanıcı (satış ekibi)",
+        "WhatsApp + Email entegrasyon",
+        "Temel KVKK modülü",
+        "Aylık 2 saat destek",
+        "Aylık rapor"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "35.000 TL (kurulum) + 8.500 TL/ay",
+      "description": "Kebap zinciri, baharat ihracatçısı, orta ölçekli için",
+      "features": [
+        "Her şey + 15 kullanıcı",
+        "İhracat pipeline + numune takip",
+        "Şube/bayilik yönetimi",
+        "WhatsApp + IG + Email + Web Form",
+        "Tam KVKK + GDPR uyum",
+        "Aylık 5 saat destek + optimizasyon",
+        "Adanmış hesap yöneticisi"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "70.000 TL+ (kurulum) + 18.000 TL/ay",
+      "description": "Ulusal gıda markası, büyük ölçekli ihracatçı, çoklu bayilik için",
+      "features": [
+        "HubSpot/Salesforce kurulum",
+        "Sınırsız kullanıcı",
+        "ERP entegrasyon (Mikro/Logo/Netsis/SAP)",
+        "Özel rapor dashboard",
+        "Çoklu marka yönetimi",
+        "SLA garantili 4 saat yanıt",
+        "Aylık 15 saat destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Adana'daki ekibim CRM'i nasıl öğrenir, Türkçe mi?",
+      "answer": "Tüm CRM'ler Türkçe arayüz kuruyoruz. Ekibinize 2 oturum canlı online eğitim (Google Meet) + video kütüphanesi + WhatsApp grubu destek hattı. 1 ay sonra otonom kullanır hale gelir."
+    },
+    {
+      "question": "İhracat lead'leri (Suudi, BAE, Almanya) için Arapça/İngilizce destek var mı?",
+      "answer": "Evet. CRM içinde alıcı dili tanımlı, otomatik WhatsApp/Email yanıtları o dilde gönderilir. Numune kargo takip, COA bildirim, proforma onay - tümü alıcının dilinde."
+    },
+    {
+      "question": "Salesforce/HubSpot pahalı, Adana KOBİ'me uygun bir alternatif var mı?",
+      "answer": "Evet. Zoho CRM ve Pipedrive küçük ekipler için aylık 200-500 USD seviyesinde, HubSpot Free tier de yeterli olabilir. Adana KOBİ'leri için Zoho önerimiz, Türkçe arayüz + KVKK modülü + uygun fiyat."
+    },
+    {
+      "question": "Mevcut Excel'imdeki müşteri verisi kaybolmadan aktarılır mı?",
+      "answer": "Evet. Excel/Google Sheets/eski yazılım datalarınızı CRM'e tam aktarım yapıyoruz. Müşteri geçmişi, notlar, dosyalar - hiçbir veri kaybı yok. Eski sistem kapanmadan paralel çalışma dönemi de tanımlanabilir."
+    },
+    {
+      "question": "KVKK denetimi gelirse CRM hazır mı?",
+      "answer": "Evet. CRM'de açık rıza kayıtları, aydınlatma metni gösterim logu, silme talepleri panel, VERBİS uyum hazır. KVKK denetiminde 'gösterebilirim' rahatlığı."
+    },
+    {
+      "question": "Toplu sipariş (düğün, kına, kurumsal) için özel akış var mı?",
+      "answer": "Evet. Kebap zincirleri için özel pipeline: Talep → Menü Onay → Ön Ödeme → Mutfak Atama → Teslimat → Fatura. Her aşamada müşteriye otomatik bilgilendirme, ekip içi atama."
+    },
+    {
+      "question": "İzmir merkezli ajansla uzaktan CRM kurulumu yapılır mı?",
+      "answer": "Evet. CRM kurulumları %100 uzaktan yapılabilir. Adana'da aktif müşterilerimiz var, referans verebiliriz. Tüm kurulum + eğitim Google Meet üzerinden, gerektiğinde Adana'ya geliyoruz."
+    }
+  ],
+  "finalCtaHeadline": "Adana'daki satış sürecinizi düzene sokalım.",
+  "finalCtaSubtitle": "60 dakikalık ücretsiz iş akışı analizi. Mevcut süreciniz + ekibiniz + lead kaynaklarınız incelenir, size özel CRM yol haritası çıkarılır. 21 günde sistem devrede."
+}

@@ -1,0 +1,162 @@
+{
+  "type": "location",
+  "sectorSlug": "bursa",
+  "sectorName": "Bursa",
+  "sectorPlural": "Bursa'daki İşletmeler",
+  "title": "Bursa İçin WhatsApp AI Asistanı | KOBİ & B2B - PORTZEN",
+  "description": "Bursa'daki tekstil, otomotiv yan sanayi ve KOBİ'ler için WhatsApp AI asistanı. Nilüfer'den Osmangazi'ye, Görükle'den Mudanya'ya B2B müşteri takip otomasyonu.",
+  "keywords": [
+    "bursa whatsapp chatbot",
+    "bursa whatsapp ai",
+    "nilüfer chatbot",
+    "osmangazi ai asistan",
+    "bursa b2b otomasyon",
+    "bursa tekstil whatsapp"
+  ],
+  "h1": "Bursa İçin WhatsApp AI Asistanı",
+  "heroSubtitle": "Nilüfer'den Osmangazi'ye, Görükle'den Mudanya'ya - Bursa'daki KOBİ ve B2B firmalara müşteri/tedarikçi takibini kolaylaştıran WhatsApp AI sistemi. 14 günde devrede.",
+  "stats": [
+    {"value": "Bursa", "label": "B2B + KOBİ"},
+    {"value": "60 sn", "label": "İlk Yanıt"},
+    {"value": "14 gün", "label": "Kurulum"},
+    {"value": "KVKK", "label": "Uyumlu"}
+  ],
+  "problems": [
+    "Bursa'daki tekstil firmanız tüm sipariş ve numune taleplerini WhatsApp'tan alıyor; mesai bitince mesajlar yığılıp ertesi güne kalıyor, sıcak tedarikçi soğuk lead'e dönüşüyor.",
+    "TOFAŞ veya otomotiv yan sanayi tedarikçisiyseniz, fason iş + sipariş + revize döngüsü WhatsApp'ta dağınık; hangi müşteriye ne söz verildi takip edemiyor, teslimat aksıyor.",
+    "Nilüfer'deki showroom + Osmangazi'deki atölye + Görükle'deki depo arasında müşteri yönlendirme manuel; müşteri 3 numara arayıp yorgun düşüyor, rakibe gidiyor.",
+    "Yıldırım veya Mudanya'daki restoran/butik otel sahibi olarak akşam 19:00 sonrası gelen 30-50 mesaj sabaha kalıyor; rezervasyon kaçırılıyor, ciroya yansıyor.",
+    "Bursa İnegöl mobilya atölyesi, fason metal işleri yapan KOBİ - WhatsApp Business API'sini kurmayı bilmiyor; İstanbul'dan ajansla çalışmak hem pahalı hem uzaktan, kimse sektörü tanımıyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Bursa B2B Keşif",
+      "description": "Tekstil, otomotiv yan sanayi, mobilya, gıda - sektörünüze göre WhatsApp trafiğinizi, sık gelen 50 soruyu, tedarikçi/müşteri ayrımını analiz ediyoruz."
+    },
+    {
+      "title": "B2B Ton + Sektör Bilgisi",
+      "description": "Tekstil için iplik/numune/metraj terminolojisi, otomotiv için fason/revize/teslimat akışı AI'ya yükleniyor. Bursa lokal söyleyişine uygun resmi-samimi ton."
+    },
+    {
+      "title": "WhatsApp Business API + CRM",
+      "description": "Resmi Meta WhatsApp Business API kurulumu, sipariş/numune/teklif akışları, CRM'e otomatik müşteri kaydı, KVKK uyumlu izin yönetimi."
+    },
+    {
+      "title": "Test + Devreye Alma",
+      "description": "Bursa'daki ekibinizle 7 günlük canlı test, ince ayar, eğitim. Sonrası aylık raporlama ve sürekli iyileştirme."
+    }
+  ],
+  "features": [
+    {
+      "title": "Bursa Semt Veritabanı",
+      "description": "Nilüfer, Osmangazi, Yıldırım, Görükle, Mudanya, Çekirge, Gemlik, İnegöl dahil 25+ semt için ulaşım, showroom adresi, en yakın şube AI'ya yüklü."
+    },
+    {
+      "title": "B2B Tedarikçi Modülü",
+      "description": "Numune talep, fiyat teklifi, fason iş takibi, teslimat tarihi sorgulama - sanayi B2B akışlarına özel tasarım."
+    },
+    {
+      "title": "7/24 Anlık Cevap",
+      "description": "Akşam mesai sonrası, hafta sonu, bayram - fark etmez. 60 saniyede ilk yanıt garantisi."
+    },
+    {
+      "title": "Sipariş + Numune Akışı",
+      "description": "Tekstil numune, mobilya ölçü, otomotiv parça kodu, gıda sipariş - sektöre özel akış tasarımı."
+    },
+    {
+      "title": "KVKK Uyumlu İzin",
+      "description": "Müşteri/tedarikçi verisi sözleşmeli, izinli toplama. KVKK Kurumu'nun WhatsApp rehberine tam uyum."
+    },
+    {
+      "title": "Yerel Destek + Aylık Rapor",
+      "description": "İzmir merkezli ekip, Bursa B2B'sini tanıyor. Aylık konuşma/dönüşüm/lead raporu ve sürekli optimizasyon."
+    }
+  ],
+  "caseStudy": {
+    "title": "Nilüfer'de bir tekstil firması: 5 ayda B2B sipariş dönüşümü %22'den %58'e",
+    "paragraphs": [
+      "Nilüfer Beşevler'de orta ölçekli bir ev tekstili üreticisi, yurt içi ve yurt dışı toptancılara WhatsApp üzerinden numune ve sipariş alıyordu. Aylık 180-250 numune talebi geliyor, sadece %22'si siparişe dönüşüyordu. Akşam 18:00 sonrası gelen talepler sabaha kalıyor, yurt dışı (saat farkı) müşteriler hep geç cevap alıyordu. Hangi numune kime gönderildi, kim takipte - Excel'de karmaşa.",
+      "PORTZEN olarak WhatsApp Business API kurduk; numune talep, metraj, renk-desen sorgu, üretim süresi, kargo takip, fiyat teklifi gibi 45 senaryo AI'ya yüklendi. Türkçe + İngilizce + Almanca (Avrupa müşterisi için) çoklu dil aktif edildi. CRM'e otomatik müşteri kaydı, satış temsilcisine atama, 24 saat takip dizisi kuruldu.",
+      "5 ay sonunda numune → sipariş dönüşümü %22'den %58'e çıktı. Yurt dışı müşterilerle saat farkı kaynaklı kayıp sıfırlandı. Aylık ek ciro 420.000 TL seviyesine ulaştı, sistem ikinci ayında kendini amorti etti. Satış ekibi numune takip Excel'ini bıraktı, herkes CRM üzerinden çalışıyor."
+    ],
+    "beforeAfter": [
+      {"label": "Numune → Sipariş", "before": "%22", "after": "%58"},
+      {"label": "Yurt Dışı Yanıt Süresi", "before": "8-14 saat", "after": "60 saniye"},
+      {"label": "Aylık Ek Ciro", "before": "Belirsiz", "after": "+420.000 TL"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL/ay",
+      "description": "Tek lokasyonlu KOBİ, atölye, butik üretici, esnaf için",
+      "features": [
+        "WhatsApp Business API kurulumu",
+        "Türkçe AI asistan",
+        "Aylık 1.500 konuşma",
+        "Temel sipariş/numune akışı",
+        "Aylık rapor",
+        "E-posta destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "17.000 TL/ay",
+      "description": "Çok şubeli tekstil, otomotiv yan sanayi, B2B üretici için",
+      "features": [
+        "Her şey + çoklu dil (TR + EN)",
+        "Aylık 5.000 konuşma",
+        "CRM entegrasyonu",
+        "Tedarikçi/müşteri ayrı pipeline",
+        "Numune + teklif modülü",
+        "Öncelikli destek (WhatsApp)"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "32.000 TL/ay",
+      "description": "Zincir üretici, ihracatçı, üst-orta sanayi için",
+      "features": [
+        "Her şey + sınırsız konuşma",
+        "Almanca + Rusça + Arapça",
+        "Çoklu numara yönetimi",
+        "ERP/Logo entegrasyonu",
+        "Adanmış Bursa hesap yöneticisi",
+        "SLA garantili 4 saat yanıt"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Bursa'da fiziksel ofisiniz var mı, yüz yüze görüşebilir miyiz?",
+      "answer": "PORTZEN İzmir merkezli ama Bursa'da 8+ aktif müşterimiz var. Toplantılarımızı online (Google Meet) yapıyoruz, ekibimizi büyük tutmadan size daha uygun fiyat sunabiliyoruz. Gerektiğinde Nilüfer veya Osmangazi'de yüz yüze toplantı organize edilebilir."
+    },
+    {
+      "question": "Tekstil veya otomotiv yan sanayi terminolojisini AI biliyor mu?",
+      "answer": "Setup aşamasında sektör terminolojinizi (iplik tipi, metraj, fason kodu, parça numarası vb.) AI'ya yüklüyoruz. Sektörünüze özel 30-50 senaryo tasarlıyoruz."
+    },
+    {
+      "question": "Nilüfer'deki showroom + Osmangazi'deki atölye için ayrı yapı kurulabilir mi?",
+      "answer": "Evet. Her lokasyonun çalışma saati, ürün gamı, müşteri profili AI'ya ayrı yüklenebilir. Müşteri konum/ihtiyaca göre doğru lokasyona yönlendirilir."
+    },
+    {
+      "question": "Yurt dışı ihracat müşterileri için çoklu dil var mı?",
+      "answer": "Evet. Profesyonel paketten itibaren TR + EN standart, Kurumsal'da Almanca, Rusça, Arapça eklenebilir. Saat farkı kaynaklı yanıt gecikmesi sıfırlanır."
+    },
+    {
+      "question": "Bursa'da 2.000+ ajans var, neden sizi seçeyim?",
+      "answer": "Bursa'da web/SEO ajansı çok, ama WhatsApp AI + B2B tedarikçi pipeline'ı kuran ajans birkaç tane. Resmi Meta WhatsApp Business API ile çalışıyoruz, 3. parti araç değil; KVKK ve Meta politikalarına tam uyum."
+    },
+    {
+      "question": "İnegöl mobilya atölyesi için 8.500 TL/ay yüksek değil mi?",
+      "answer": "8.500 TL/ay paket tam olarak tek atölyeli KOBİ için tasarlandı. Ortalama 2 ek müşteri/hafta ile kendini amorti ediyor. İlk 14 gün ücretsiz pilot çalışıyoruz."
+    },
+    {
+      "question": "Mevcut Logo/Mikro ERP'mize bağlanabilir mi?",
+      "answer": "Evet. Kurumsal pakette Logo, Mikro, Nebim, Netsis ERP entegrasyonu yapıyoruz. Stok, fatura, müşteri kartı senkron çalışır."
+    }
+  ],
+  "finalCtaHeadline": "Bursa'daki WhatsApp trafiğinizi B2B sisteme dönüştürelim.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif görüşmesi. Tekstil, otomotiv, mobilya - sektörünüze özel akış tasarlıyoruz. 14 gün içinde devrede."
+}

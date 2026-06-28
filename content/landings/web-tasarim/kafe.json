@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "kafe",
+  "sectorName": "Kafe",
+  "sectorPlural": "Kafeler",
+  "title": "Kafeler İçin Web Tasarım | Brunch Rezervasyonu + Dijital Menü - PORTZEN",
+  "description": "Kafeler için Next.js web tasarım. Brunch rezervasyon sistemi, specialty kahve menü, latte art galeri, akademi sayfaları ve mobil-first atmosfer odaklı site.",
+  "keywords": ["kafe web tasarım", "kafe websitesi", "brunch rezervasyon sistemi", "specialty kahve site", "kafe için website", "kafe online rezervasyon"],
+  "h1": "Kafeler için Profesyonel Web Tasarım",
+  "heroSubtitle": "Brunch rezervasyon sistemi, specialty kahve menü, latte art galeri, çalışma kafesi atmosfer sayfası - Next.js ile geliştirilmiş, mobilde hızlı ve premium kafe websitesi.",
+  "stats": [
+    {"value": "15 gün", "label": "Ortalama Teslim"},
+    {"value": "96+", "label": "Lighthouse Skoru"},
+    {"value": "Brunch", "label": "Rezervasyon Akışı"},
+    {"value": "Sezon Menü", "label": "Yönetimi"}
+  ],
+  "problems": [
+    "Instagram'da binlerce takipçiniz var ama menüye ulaşmak için bio linkindeki Linktree'ye gitmek zorundalar, dönüşüm düşüyor",
+    "Brunch rezervasyonu için WhatsApp veya telefon kullanıyorsunuz, hafta sonu mesai dışı boş kalıyor",
+    "Mevcut siteniz 2021'de yapılmış, sezon menü güncellemesi için ajans bekliyorsunuz, kampanya bitiyor",
+    "Mobil menünüz PDF - açılması 5-7 saniye, kahvaltı arayan müşteri sayfayı kapatıyor",
+    "Google'da 'Kadıköy specialty kahve', 'Cihangir brunch' aramalarında üst sıralarda yoksunuz",
+    "Latte art / V60 atmosfer fotoğraflarınız Instagram'da güzel ama sitenizde gösterilemiyor, atmosfer hissi yok"
+  ],
+  "solutionSteps": [
+    {"title": "1. Kafe Konsept + Atmosfer Brief", "description": "Kafe konseptinizi (specialty, brunch, çalışma kafesi, art kafe vb.), menünüzü, atmosfer fotoğraflarınızı, sezon ürünleri ve etkinlikleri (akademi, oyun günü vb.) alıyoruz. Gerekirse AI ile atmosfer görselleri de üretiyoruz."},
+    {"title": "2. UI/UX Tasarım", "description": "Figma'da kafe sektörüne özel tasarım - büyük atmosfer görselli hero, specialty kahve highlight, brunch menü, latte art galeri, sticky rezervasyon CTA. Mobil-first, premium specialty pozisyonunu yansıtan tasarım."},
+    {"title": "3. Next.js + Rezervasyon + Sezon CMS", "description": "Next.js 15 ile geliştirme. Brunch rezervasyon sistemi (tarih/saat/kişi), sezon menü yönetimi (Sanity CMS), dijital menü (kategori filtreli), Google Maps embed, Instagram feed çekim, atmosfer galerisi."},
+    {"title": "4. SEO + Google My Business", "description": "Schema markup (Cafe + Menu + LocalBusiness), bölge SEO ('Kadıköy specialty kahve', 'Cihangir brunch', 'Karaköy çalışma kafesi'), Google My Business optimizasyonu ve yorum yönetimi setup."}
+  ],
+  "features": [
+    {"title": "Brunch Rezervasyon Sistemi", "description": "Tarih, saat slot (15 dakikalık aralıklar), kişi sayısı, özel istek (vejetaryen, doğum günü) - formu doldurunca admin paneline + WhatsApp'a bildirim, müşteriye SMS onayı otomatik gidiyor."},
+    {"title": "Sezon Menü Yönetimi", "description": "Sezon değişiminde (sonbahar pumpkin spice, kış sıcak çikolata, yaz cold brew) admin panelden 5 dakikada güncelleme. Sanity CMS ile yeni ürün, fiyat, kategori değişimi anında siteye yansır."},
+    {"title": "Specialty Kahve Bilgi Sayfası", "description": "V60, Chemex, AeroPress, espresso demleme metodlarını açıklayan, single origin profillerini gösteren bilgi sayfası - specialty pozisyonlama için ideal."},
+    {"title": "Atmosfer + Latte Art Galerisi", "description": "Kafenin atmosferi, latte art, brunch tabakları, çalışma alanı fotoğrafları - kategori filtreli galeri, lazy load, lightbox, Instagram feed otomatik çekim opsiyonu."},
+    {"title": "Akademi / Workshop Sayfası", "description": "Latte art workshop, kahve akademisi, espresso kursu için kontenjan + ödeme + tarih takvimi olan ayrı sayfa. Etkinlik bittiğinde otomatik kapanır."},
+    {"title": "Çalışma Kafesi Bilgi Bölümü", "description": "Wifi hızı, priz lokasyonu, sesli toplantı uygunluğu, masa kapasitesi gibi çalışma kafesi soruları için ayrı bilgi sayfası. Dijital göçebe trafiği için ideal."}
+  ],
+  "caseStudy": {
+    "title": "Kadıköy - Specialty Kahve Kafesi: Organik Trafik 180 → 4.200/ay, Aylık 230 Online Brunch Rezervasyonu",
+    "paragraphs": [
+      "Kadıköy Moda'da specialty kahve + brunch konsepti çalışan butik bir kafe 2025 Şubat'ında PORTZEN'e geldi. Mevcut siteleri 2021'de yapılmış basit bir tek sayfa, menü PDF olarak yüklenmiş, online rezervasyon yok, sezon menü güncelliği zayıf. Tüm rezervasyon Instagram DM + telefon üzerinden geliyordu.",
+      "15 günde Profesyonel paket ile yeniden inşa ettik - brunch rezervasyon sistemi (15 dk slot), dijital specialty kahve menü (38 ürün), sezon brunch kategorisi, latte art galeri (62 fotoğraf), latte art workshop sayfası (aylık 4 kontenjan), Google My Business optimizasyonu.",
+      "İlk ay Google haritada 'Kadıköy specialty kahve' aramasında 1. sıraya çıktılar. 3. ayın sonunda aylık organik trafik 180'den 4.200'e ulaştı, ay başı 230 online brunch rezervasyonu direkt siteden geliyor. Workshop kontenjanları 1 ay önceden doluyor, hafta sonu doluluk %96'ya çıktı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Organik Trafik", "before": "180", "after": "4.200"},
+      {"label": "Aylık Online Brunch Rezervasyon", "before": "0", "after": "230"},
+      {"label": "Workshop Doluluk", "before": "%40", "after": "%100"},
+      {"label": "Site Yüklenme Süresi", "before": "7.2 sn", "after": "1.1 sn"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Kafe Sitesi",
+      "price": "9.500 TL",
+      "description": "Tek seferlik - yeni açılan butik kafeler için",
+      "features": [
+        "5 sayfa (anasayfa, menü, atmosfer, akademi, iletişim)",
+        "Next.js + Tailwind",
+        "Mobil responsive + 90+ Lighthouse",
+        "Dijital menü (PDF + basit liste)",
+        "Google Maps embed",
+        "WhatsApp rezervasyon butonu",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "20.000 TL + 1.400 TL/ay",
+      "description": "Aktif specialty kafeler için en popüler - sezon güncelleme dahil",
+      "features": [
+        "10-14 sayfa + workshop sayfaları",
+        "Brunch rezervasyon sistemi",
+        "Sezon menü CMS (Sanity)",
+        "Specialty kahve bilgi sayfaları",
+        "Latte art atmosfer galerisi",
+        "Google My Business optimizasyonu",
+        "Bölge SEO sayfaları",
+        "Aylık bakım + sezon menü güncelleme"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "36.000 TL + 2.400 TL/ay",
+      "description": "Çoklu şube ve kafe markası agresif büyüme için",
+      "features": [
+        "Sınırsız sayfa + çoklu şube yönetimi",
+        "Şube bazlı menü ve rezervasyon",
+        "Çoklu dil (TR/EN)",
+        "Sadakat / damga sistemi",
+        "Newsletter + sezon kampanya mailing",
+        "Instagram feed otomatik çekim",
+        "Google Ads landing sayfaları",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Sitem ne kadar sürede hazır olur?", "answer": "Mini Kafe Sitesi 7-10 gün, Profesyonel 12-18 gün, Premium 22-30 gün. Brief sonrası net gün veriyoruz. Menü ve atmosfer fotoğraflarınız hazırsa hızlanıyor."},
+    {"question": "Restoran ajansı değil misiniz, kafe için neden farklı?", "answer": "Kafe ekosistemi restorandan farklı - brunch rezervasyonu daha kısa süreli (2 saat), sezon menü değişimi daha sık, specialty kahve / workshop gibi ek hizmetler var, çalışma kafesi pozisyonu farklı bir kullanıcı profili. Restoran sitelerinden farklı bir akış kuruyoruz."},
+    {"question": "Sezon menü değişimini ben yapabilir miyim?", "answer": "Evet, Sanity CMS admin paneli veriyoruz. Yeni ürün ekleme, fiyat değiştirme, sezon kategorisi açma - 3-5 dakikada yapıyorsunuz, site anında güncelleniyor. Sonbahar pumpkin spice, yaz cold brew gibi sezon değişimleri için ideal."},
+    {"question": "Latte art workshop sayfası nasıl çalışıyor?", "answer": "Aylık kontenjan tanımlıyorsunuz (örn. 4 kişilik 8 etkinlik), takvim üzerinden müşteri seçiyor, ödeme alıyorsunuz (iyzico / Stripe entegre), kontenjan bittiğinde otomatik 'dolu' gösteriliyor. Email + SMS hatırlatma da otomatik gönderiliyor."},
+    {"question": "Google haritada üst sıralara çıkmam ne kadar sürer?", "answer": "Google My Business profili optimize sonrası 4-8 hafta içinde bölge aramalarında üst sıralara çıkmak mümkün. Vaka çalışmamızdaki Kadıköy kafe ilk ay 'Kadıköy specialty kahve' 1. sıraya çıktı. Yoğun rekabetli bölgelerde 3-4 ay sürebilir."},
+    {"question": "Instagram feed sitemde gösterebilir miyim?", "answer": "Evet, Profesyonel paketten itibaren Instagram feed otomatik çekim dahil. Atmosfer galerisi sayfasında Instagram'da paylaştığınız son 12 fotoğraf otomatik gösteriliyor, manuel güncelleme yok."},
+    {"question": "İleride şube açarsam mevcut sitem destekler mi?", "answer": "Profesyonel paketle başlayıp Premium'a geçince çoklu şube desteği geliyor. Her şube için ayrı sayfa, ayrı menü (gerekirse), ayrı rezervasyon takvimi. Mevcut müşteri yükseltme indirimi (%30) uyguluyoruz."}
+  ],
+  "finalCtaHeadline": "Kafenizin ilk online brunch rezervasyonunu 2-3 haftada alın",
+  "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut sitenizi inceleyip ücretsiz audit raporu hazırlıyoruz. WhatsApp'tan veya formdan ulaşın."
+}

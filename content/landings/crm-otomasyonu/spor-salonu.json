@@ -1,0 +1,111 @@
+{
+  "sectorSlug": "spor-salonu",
+  "sectorName": "Spor Salonu",
+  "sectorPlural": "Spor Salonları",
+  "title": "Spor Salonları İçin CRM Otomasyonu | Üyelik Takip + Hatırlatma + No-show Yönetimi - PORTZEN",
+  "description": "Spor salonları için CRM otomasyonu. Üyelik takip, yenileme hatırlatma, no-show önleme, dondurma yönetimi, PT randevu hatırlatması ve kampanya segmentasyonu.",
+  "keywords": ["spor salonu crm", "fitness crm otomasyon", "üyelik takip sistemi", "üye yönetimi", "mindbody alternatif", "gym crm yazılım"],
+  "h1": "Spor Salonları için CRM Otomasyonu",
+  "heroSubtitle": "Üyelik takip, yenileme hatırlatma, no-show önleme, dondurma yönetimi, PT randevu otomatik bildirimi ve segmentli kampanya. Üye kaybını %40 azaltın.",
+  "stats": [
+    {"value": "%40", "label": "Üye Kaybı Azalması"},
+    {"value": "%62", "label": "Yenileme Oranı Artışı"},
+    {"value": "8 sn", "label": "Ortalama Yanıt Süresi"},
+    {"value": "100%", "label": "Otomatik Bildirim"}
+  ],
+  "problems": [
+    "Üyelik bitimine 7 gün kala üyeye hatırlatma yapmıyorsunuz, üye yenilemeyi unutuyor, ay kaybı yaşıyorsunuz",
+    "Dondurulan üyelikler unutuluyor, dondurma süresi bittiğinde üye geri dönmüyor, kayıp net",
+    "PT randevusu unutan üye no-show yapıyor, antrenör boşa duruyor, gelir kaybı",
+    "Yeni kayıtlı üyenin onboarding süreci yok, ilk 14 gün boyunca takip yapılmıyor, %35 i 1. ay sonunda bırakıyor",
+    "Sezon kampanyalarını tüm üyelere aynı mesajla gönderiyorsunuz, segmentli iletişim yok, dönüş düşük",
+    "Üye davranış verisi (hangi ders, hangi saat, hangi sıklıkla) hiç toplanmıyor, kişiselleştirilmiş öneri yapamıyorsunuz"
+  ],
+  "solutionSteps": [
+    {"title": "1. Mevcut Veri ve Süreç Brief", "description": "Mevcut üye verilerinizi (Excel, Mindbody, kağıt kayıt) topluyoruz. Üyelik paketleri, ders programı, antrenör listesi, kampanya geçmişi inceleniyor. Süreç haritası çıkarılıyor (kayıt, ödeme, ders, yenileme, dondurma, iptal)."},
+    {"title": "2. CRM Altyapısı Kurulum", "description": "HubSpot, Pipedrive, özel CRM veya Mindbody üzerine kurulum. Üye verisi göçü, segment tanımları (aktif, pasif, dondurulmuş, yeni üye, VIP), otomatik etiketleme kuralları. Üyelik takvimi ve ders takvimi entegrasyonu."},
+    {"title": "3. Otomasyon Senaryoları", "description": "Üyelik bitimine 14, 7, 1 gün kala WhatsApp/SMS/email hatırlatma. Dondurma sonu 3 gün önce aktivasyon kampanyası. PT randevusu öncesi 24 ve 2 saat hatırlatma. Yeni üye 14 günlük onboarding akışı. No-show sonrası özür ve geri kazanma akışı."},
+    {"title": "4. Raporlama ve Optimizasyon", "description": "Aylık dashboard - üyelik yenileme oranı, no-show oranı, üye yaşam değeri (LTV), kampanya dönüşüm oranları, segment performansı. Aylık inceleme toplantısı, akış optimizasyonu, yeni segment önerileri."}
+  ],
+  "features": [
+    {"title": "Üyelik Yenileme Hatırlatma", "description": "Üyelik bitimine 14, 7, 1 gün kala WhatsApp ve email otomatik hatırlatma. Yenileme linki, kampanya teklifi, dondurma seçeneği sunulur. Üye karar veremediğinde satış ekibine devir."},
+    {"title": "Dondurma Yönetimi", "description": "Dondurulan üyelikler otomatik takip edilir. Dondurma bitimi 3 gün önce aktivasyon mesajı, dönüş kampanyası teklifi. Geri dönmeyen üyeye 7, 14, 30 gün sonra re-engagement akışı."},
+    {"title": "PT Randevu Hatırlatma", "description": "PT randevusu öncesi 24 saat ve 2 saat WhatsApp hatırlatma. No-show önleme. İptal eden üyeye yeniden rezervasyon teklifi. Antrenör boşa durmuyor, gelir kaybı azalıyor."},
+    {"title": "Yeni Üye Onboarding", "description": "Yeni kayıt 14 günlük otomatik akış - 1. gün hoş geldin, 3. gün ders rezervasyonu rehberi, 7. gün ilk değerlendirme anketi, 14. gün vücut analizi davet. İlk ay kaybını %50 azaltıyor."},
+    {"title": "Segmentli Kampanya", "description": "Üye segmentleri (yeni üye, aktif, dondurulmuş, VIP, pilates kullanan, EMS kullanan) otomatik tanımlanır. Sezon kampanyaları segmente özel mesajla gönderilir. Dönüşüm oranı 3-5 kat artıyor."},
+    {"title": "Davranış Bazlı Tetikleyici", "description": "Üye 14 gün ders almazsa otomatik 'seni özledik' kampanyası. Aynı dersi 8 hafta üst üste alana PT denemesi teklifi. Vücut analizi sonucu hedef ulaşana motivasyon ve sertifika. Veri tabanlı kişiselleştirme."}
+  ],
+  "caseStudy": {
+    "title": "İstanbul Beşiktaş - Premium Fitness Kulübü: Üye Kaybı %32 den %18 e, Yıllık Tasarruf 480.000 TL",
+    "paragraphs": [
+      "İstanbul Beşiktaş ta 1.400 aktif üyeli premium fitness kulübü 2025 Ocak ta PORTZEN e geldi. Mindbody kullanıyorlardı ama üye iletişimi tamamen resepsiyon üzerindeydi. Üyelik yenileme hatırlatması yapılmıyordu, dondurulan üyelikler unutuluyordu, no-show oranı %22 ydi, ilk ay sonu üye kaybı %32 ye çıkmıştı.",
+      "15 günde CRM otomasyonunu kurduk. Mindbody üzerine HubSpot entegre ettik. Üyelik yenileme akışı (14/7/1 gün), dondurma yönetimi, PT randevu hatırlatması, 14 günlük yeni üye onboarding, segmentli kampanya (6 segment), davranış tetikleyicili re-engagement akışları. WhatsApp + email + SMS çoklu kanal.",
+      "İlk 3 ayda üye kaybı %32 den %18 e indi. Yenileme oranı %52 den %84 e çıktı. No-show %22 den %11 e indi. Dondurulan üyeliklerin %48 i geri döndü (önceden %12). Yıllık üye kaybı tasarrufu 480.000 TL hesaplandı. Resepsiyon ekibi artık satış ve karşılama odaklı, takip işi otomatik."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Üye Kaybı", "before": "%32", "after": "%18"},
+      {"label": "Yenileme Oranı", "before": "%52", "after": "%84"},
+      {"label": "No-show Oranı", "before": "%22", "after": "%11"},
+      {"label": "Dondurma Geri Dönüş", "before": "%12", "after": "%48"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "12.000 TL kurulum + 2.800 TL/ay",
+      "description": "500 üyeye kadar olan tek şubeli stüdyolar için",
+      "features": [
+        "HubSpot veya özel CRM kurulum",
+        "Üye veri göçü (500 üyeye kadar)",
+        "Üyelik yenileme hatırlatma akışı",
+        "Dondurma yönetimi",
+        "PT randevu hatırlatma",
+        "WhatsApp + email entegrasyonu",
+        "Aylık raporlama",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "24.000 TL kurulum + 5.500 TL/ay",
+      "description": "Aktif spor salonları için en popüler - segment + onboarding dahil",
+      "features": [
+        "Tüm Başlangıç paketi",
+        "2.500 üyeye kadar veri göçü",
+        "14 günlük yeni üye onboarding",
+        "Segmentli kampanya (6 segmente kadar)",
+        "Davranış tetikleyicili akışlar",
+        "Mindbody/Glofox entegrasyonu",
+        "WhatsApp + email + SMS çoklu kanal",
+        "Aylık optimizasyon toplantısı"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Zincir",
+      "price": "45.000 TL kurulum + 11.000 TL/ay",
+      "description": "Çoklu şubeli zincir spor salonları ve premium kulüpler",
+      "features": [
+        "Tüm Profesyonel paketi",
+        "Sınırsız üye ve şube",
+        "Şube bazlı kampanya yönetimi",
+        "Sadakat puan sistemi entegrasyonu",
+        "Predictive churn analizi (AI)",
+        "Üye LTV ve kohort analizi",
+        "Özel CRM panel geliştirme",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Mevcut Mindbody verim göç eder mi?", "answer": "Evet, Mindbody, Glofox, Sportwave, Excel veya kağıt kayıt verilerinizi göç ediyoruz. API çalışan sistemlerde otomatik, manuelde script ile aktarıyoruz. Üye geçmişi, ders kayıtları, ödeme bilgileri korunur. Göç süresi 500 üyeye kadar 3 gün, 2.500 üyeye kadar 7 gün."},
+    {"question": "Mindbody yi bırakmam gerekir mi?", "answer": "Hayır, Mindbody üstüne ek katman olarak CRM kurabiliyoruz. Mindbody ders rezervasyonu için kalır, CRM üye iletişimi, kampanya ve otomasyon için çalışır. İki sistem senkronize. Mindbody bırakmak isteyenler için özel CRM + rezervasyon da kuruyoruz."},
+    {"question": "Whatsapp mesajlarının maliyeti nedir?", "answer": "WhatsApp Business API üzerinden gönderiyoruz. Şablon mesaj 0.40-0.80 TL/mesaj (Meta ücreti). Aylık ortalama 1.500 mesaj 600-1.200 TL ek maliyet. Profesyonel pakette 3.000 mesaj/ay dahil, üstü kullandığınız kadar. Email maliyetsiz."},
+    {"question": "Üye verilerimiz nerede saklanıyor?", "answer": "HubSpot Avrupa sunucularında veya isteğe göre Türkiye sunucularında. KVKK uyumlu, üye onayı süreçleri standart. Veri sahipliği size ait, istediğiniz zaman export edebilirsiniz. Hizmet sonlanmasında veri tarafınıza teslim edilir, sistemden silinir."},
+    {"question": "Onboarding akışı gerçekten kayıp azaltıyor mu?", "answer": "Evet, ilk ay üye kaybının %35-50 si onboarding eksikliğinden. 14 günlük yapılandırılmış akış (hoş geldin, ders rehberi, vücut analizi, motivasyon) üyenin kulübü sahiplenmesini sağlıyor. Vaka çalışmamızda ilk ay kaybı %32 den %18 e indi."},
+    {"question": "Segment kampanyası nasıl çalışıyor?", "answer": "Üye verilerinden otomatik etiketleme - örn pilates kullanan + 3 aydan az üye + son 7 gün aktif. Bu segmente özel kampanya (örn 'yeni reformer pilates dersi başladı') gönderiliyor. Genel kampanyaya göre dönüşüm 3-5 kat yüksek."},
+    {"question": "Predictive churn analizi ne işe yarıyor?", "answer": "AI modeli üye davranışlarından (ders sıklığı, son aktivite, ödeme gecikmesi) ayrılma olasılığını skorluyor. Yüksek risk üyelere özel hatırlatma kampanyası başlatılıyor. Zincir pakete dahil. Erken müdahale ile kayıp %25 ek azalır."}
+  ],
+  "finalCtaHeadline": "Spor salonunuz 3 haftada üye kaybını %40 azaltsın",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz audit görüşmesi yeterli. Mevcut süreçlerinizi inceleyip size özel CRM stratejisi hazırlıyoruz. WhatsApp tan veya formdan ulaşın."
+}

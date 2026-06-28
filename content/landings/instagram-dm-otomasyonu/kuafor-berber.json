@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "kuafor-berber",
+  "sectorName": "Kuaför & Berber",
+  "sectorPlural": "Kuaför ve Berber Salonları",
+  "title": "Kuaför ve Berber Salonları İçin Instagram DM Otomasyonu | Saç Değişim Reels'dan Lead - PORTZEN",
+  "description": "Kuaför ve berber için Instagram DM otomasyonu. Saç değişim Reels'lardan otomatik DM, fiyat sorgulama, gelin saç paket talebi ve sadakat puanı bildirimi.",
+  "keywords": ["kuaför instagram dm", "berber dm otomasyon", "salon sosyal medya", "saç değişim reels", "kuaför lead", "instagram randevu salon"],
+  "h1": "Kuaför ve Berber Salonları için Instagram DM Otomasyonu",
+  "heroSubtitle": "Saç değişim ve before-after Reels'larınıza gelen 'fiyat?', 'usta kim?', 'randevu?' yorumlarını otomatik DM'e dönüştürüp randevu açan sistem. Viral içerik gerçek müşteriye dönüşür.",
+  "stats": [
+    {"value": "3 sn", "label": "Yorum→DM Süresi"},
+    {"value": "%52", "label": "DM→Randevu"},
+    {"value": "7/24", "label": "Otomatik Yanıt"},
+    {"value": "8 Senaryo", "label": "Hazır Akış"}
+  ],
+  "problems": [
+    "Saç değişim Reels'ınız 50K görüntülenmeye ulaşıyor ama gelen 'fiyat?', 'nerden?' yorumlarına yetişemiyorsunuz",
+    "Instagram DM'leri günde 30-60 mesaj, çoğu 'kaç para', 'ne kadar sürer', 'cumartesi müsait misiniz' - sürekli tekrar",
+    "Mesai dışı DM'lere geç dönüş, müşteri başka salona gidiyor - özellikle hafta sonu yoğunluğunda kayıp büyük",
+    "Gelin saç paketi, kına gecesi, mezuniyet gibi özel etkinlik talepleri DM'de geliyor, takip dağınık",
+    "Hikaye anketlerine (örn. 'hangi renk') etkileşim yüksek ama bu etkileşimden müşteri çıkartamıyorsunuz",
+    "Müşteriden randevu için telefon, isim, hizmet bilgisi alınması manuel ve dağınık"
+  ],
+  "solutionSteps": [
+    {"title": "1. Sosyal Medya Brief & İçerik Analizi", "description": "Mevcut Instagram hesabınız, paylaşım türleri (before-after, ürün, salon atmosfer), gelen yorum/DM tipleri ve hedef müşteri profiliniz (genç kadın, erkek bakım, gelin pazarı) analiz ediliyor."},
+    {"title": "2. Senaryo Tasarımı + Lead Akışları", "description": "Yorum tetikleyici kelimeler (fiyat, nerede, usta, randevu, gelin), DM açılış mesajı, hizmet bilgi kartları, randevu form akışı, gelin paketi talep akışı tasarlanıyor."},
+    {"title": "3. ManyChat / Meta Business Kurulum", "description": "ManyChat veya doğrudan Meta Business API ile DM otomasyonu kuruluyor. Salon CRM'inize bağlantı, randevu sistemine entegrasyon, sadakat puanı bildirim akışları kuruluyor."},
+    {"title": "4. Test, Optimize & Yayın", "description": "10 günlük test. Gerçek yorum/DM'lerle ince ayar. Yayın sonrası aylık rapor (DM hacmi, randevu dönüşümü, en iyi performans gösteren içerik, en yoğun saatler)."}
+  ],
+  "features": [
+    {"title": "Yorum→DM Otomatik Geçiş", "description": "Balyaj before-after Reels'a 'fiyat?' yorumu yazıldığında 3 saniyede DM açılıyor: 'Merhaba, balyaj 750-1.200 TL aralığında, saç boyunuza göre net fiyat söyleyebilmek için bir fotoğraf paylaşır mısınız? Randevu açayım mı?' Public yorum değil özel satış."},
+    {"title": "Hizmet Bilgi Kartları", "description": "Müşteri 'gelin saç', 'perma', 'balyaj', 'beard styling' yazınca AI ilgili hizmetin kart formatında bilgisini gönderiyor (fiyat, süre, hangi usta uzmanı). Randevu butonu DM içinde."},
+    {"title": "Hızlı Randevu Formu", "description": "DM içinde 4 adımda randevu: hizmet seçimi, tarih, saat, usta. Form tamamlanınca salon sistemine düşüyor, müşteriye otomatik onay + hatırlatma. WhatsApp asistanı varsa o sistemle birleşiyor."},
+    {"title": "Gelin Paketi Akışı", "description": "Gelin saç talep eden müşteriye özel akış: düğün tarihi, kına ve nikah ayrı paketleri, makyaj ekstrası, ev/salon tercihi, deneme randevusu. Tüm bilgiler tek formda toplanıp salon yöneticisine düşüyor."},
+    {"title": "Sadakat Puanı + İndirim Kuponu", "description": "Mevcut müşteri DM'den fiyat sorduğunda AI puan durumunu görüyor - '850 puanınız var, balyaj %15 indirimle 637 TL' özelleştirilmiş teklif. Yeni müşteriye ilk randevuya özel kupon."},
+    {"title": "Story Etkileşim Yakalama", "description": "Hikaye anketlerine ('hangi renk daha güzel?') yanıt verenler otomatik DM listesine düşüyor. AI 'Renk seçimine yardım edeyim, randevu açalım mı?' diyerek konuşmayı başlatıyor."}
+  ],
+  "caseStudy": {
+    "title": "Ankara Bahçelievler - Kuaför Salonu: Reels Viral 1.2M, Aylık 180 Randevu Sosyal Medyadan",
+    "paragraphs": [
+      "Ankara Bahçelievler'de 4 ustalı bir kadın kuaför salonu, 18.000 Instagram takipçili hesapla aktif before-after Reels paylaşıyordu. 2025 Şubat'ta bir balyaj transformasyon Reels'i 1.2M görüntülenmeye ulaştı, yorum yağdı ama salon resepsiyonu 800+ DM'e yetişemedi. Tahminen 300+ potansiyel müşteri kaybedildi.",
+      "Profesyonel paketle Instagram DM otomasyonu kurduk. 15 farklı tetikleyici (fiyat, balyaj, ombre, gelin saç, randevu, usta isimleri, semt, çalışma saati) tanımladık. Salon WhatsApp asistanı + CRM'i ile birleşik çalışıyor, DM'den gelen randevu direkt sisteme düşüyor.",
+      "Yeni viral Reels (mart ayında ombre videosu, 800K görüntülenme) gelen 1.500+ DM'in %78'i AI tarafından karşılandı. Aylık 180 randevu doğrudan Instagram DM'den geliyor, dönüşüm %52. 6 gelin paketi anlaşması da DM üzerinden yapıldı, toplam değer 85K TL."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık DM Hacmi", "before": "320", "after": "1.500"},
+      {"label": "Aylık Sosyal Medya Randevu", "before": "22", "after": "180"},
+      {"label": "DM Yanıt Süresi", "before": "6-24 saat", "after": "3 sn"},
+      {"label": "Gelin Paketi Anlaşması/Ay", "before": "1-2", "after": "6"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Sosyal Starter",
+      "price": "6.000 TL kurulum + 1.800 TL/ay",
+      "description": "Küçük salonlar ve yeni başlayan hesaplar için",
+      "features": [
+        "ManyChat kurulum + temel akış",
+        "5 yorum tetikleyici kelime",
+        "Otomatik DM açılış",
+        "Randevu form akışı",
+        "Mesai dışı otomatik yanıt",
+        "Aylık 500 DM dahil",
+        "Email destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "15.000 TL kurulum + 3.800 TL/ay",
+      "description": "Aktif salonlar için en popüler paket - viral içerik üretenler için",
+      "features": [
+        "Sınırsız tetikleyici kelime",
+        "15+ farklı akış senaryosu",
+        "CRM + WhatsApp entegrasyonu",
+        "Gelin paketi talep akışı",
+        "Sadakat puan bildirimi",
+        "Story etkileşim yakalama",
+        "Aylık 2.500 DM dahil",
+        "Aylık performans raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Salon",
+      "price": "30.000 TL kurulum + 7.500 TL/ay",
+      "description": "Çoklu şube, viral içerik üreticisi ve agresif büyüme için",
+      "features": [
+        "Çoklu şube + çoklu hesap desteği",
+        "Sınırsız DM",
+        "Reels yorum otomasyonu (özel)",
+        "İçerik takvim danışmanlığı",
+        "Aylık 4 reels senaryo desteği",
+        "VIP müşteri segmentasyonu",
+        "Özel proje yöneticisi",
+        "Reklam kampanya entegrasyonu"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Instagram hesabımı ele geçirir mi, güvenli mi?", "answer": "Hayır, Meta Business API üzerinden çalışıyor, hesabınızın şifresi alınmıyor. Sadece DM ve yorum yönetimi izni veriyorsunuz, paylaşım veya takip etme gibi işlemler kapalı kalıyor. Meta resmi onaylı bir sistem."},
+    {"question": "Viral Reels DM patlamasında sistem yetişir mi?", "answer": "Evet, eş zamanlı 1.000+ DM'e saniyeler içinde yanıt verebiliyor. Vaka çalışmamızdaki 1.2M görüntülenmeli Reels'in 1.500+ DM'ini 24 saatte AI yönetti. Resepsiyon görevliniz boğulmuyor, sadece kritik müşterilere odaklanıyor."},
+    {"question": "Gelin saç paketi gibi karmaşık talepleri AI çözebiliyor mu?", "answer": "AI gelin paketi temel akışını başlatıyor (tarih, kına/nikah, makyaj, ev/salon tercihi), bilgileri topladıktan sonra 'bir uzmanımız sizi arayacak' diyerek devir yapıyor. Salon yöneticisi tüm bilgiyi hazır görüyor, telefon görüşmesi 5 dakika sürüyor."},
+    {"question": "Mevcut WhatsApp asistanım var, ikisini birleştirebilir miyim?", "answer": "Evet, en güçlü kombinasyon bu. Instagram DM'den gelen randevu talebi WhatsApp asistan sisteminize düşüyor, müşteri onay mesajını WhatsApp'tan alıyor. Hatırlatmalar da WhatsApp'tan devam ediyor. İki kanal tek müşteri yolculuğunda birleşiyor."},
+    {"question": "Reels paylaşımlarımdan da lead toplanabilir mi?", "answer": "Evet, özellikle Reels altına yapılan yorumlar yüksek niyetli müşteri. Profesyonel pakette tüm Reels yorumları yakalanıyor, Premium pakette özel Reels'lara özel akış (örn. 'gelin saç' Reels'ine farklı, 'erkek kesim' Reels'ine farklı DM) kuruluyor."},
+    {"question": "DM otomasyonu samimi olmayabilir, müşteri sıkılır mı?", "answer": "İlk DM'de 'dijital asistan' olarak tanıtım yapılıyor, gerekli yerde insan devreye giriyor. Mesajlar kişiselleştirilmiş - viral Reels'a yorum yapan kişiye o Reels'in ürünü hakkında özel mesaj. Salon dili samimi, emojili, müşteri rahat hissediyor."},
+    {"question": "Hangi yorum tetikleyicileri en çok dönüşüm sağlıyor?", "answer": "Tecrübemize göre 'fiyat?', 'usta?', 'kaç tl?', 'cumartesi müsait?', 'gelin paketi' en yüksek dönüşümlü. Reels viral olunca 'nerden?' ve 'rezervasyon?' patlıyor. Tüm tetikleyicileri test ediyoruz, aylık raporda hangisinin daha çok randevuya dönüştüğünü gösteriyoruz."}
+  ],
+  "finalCtaHeadline": "Viral Reels'inizi bu hafta randevuya dönüştürün",
+  "finalCtaSubtitle": "20 dakikalık demo görüşmesinde mevcut Instagram hesabınızı inceliyoruz, hangi içeriklerinizden ne kadar lead çıkacağını gösteriyoruz. Test ortamı canlı demo."
+}

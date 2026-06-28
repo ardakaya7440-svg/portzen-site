@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "anaokulu",
+  "sectorName": "Anaokulu",
+  "sectorPlural": "Anaokulları",
+  "title": "Anaokulları İçin CRM Otomasyonu | Veli Takibi + Fatura + Kayıt Süreci - PORTZEN",
+  "description": "Anaokulları için CRM ve otomasyon. Aday veli takibi, deneme dersi süreci, fatura ve ödeme hatırlatma, devamsızlık bildirimi, gelişim raporu, sezonsal kampanya yönetimi.",
+  "keywords": ["anaokulu crm", "anaokulu otomasyon", "veli takip sistemi", "anaokulu fatura", "deneme dersi crm", "anaokulu yönetim"],
+  "h1": "Anaokulları için CRM ve Otomasyon Sistemi",
+  "heroSubtitle": "Aday veli takibi, deneme dersi süreci, fatura ve ödeme hatırlatma, devamsızlık bildirimi, gelişim raporu otomasyonu. Tek panelden tüm veli iletişimini ve süreci yönetin.",
+  "stats": [
+    {"value": "%65", "label": "Idari Zaman Tasarrufu"},
+    {"value": "%92", "label": "Tahsilat Oranı"},
+    {"value": "14 gün", "label": "Devreye Alma"},
+    {"value": "KVKK", "label": "Uyumlu"}
+  ],
+  "problems": [
+    "Aday velileri Excel'de takip ediyorsunuz, kim hangi aşamada belli değil, takipler unutuluyor, fırsat kaçıyor",
+    "Deneme dersi sonrası 'kayıt olacağım' diyen veliyi 2 hafta unuttuğunuzda rakibe gitmiş oluyor",
+    "Aylık fatura takibi manuel, geciken ödemeler için tek tek arıyorsunuz, awkward konuşmalar oluyor",
+    "Devamsızlık olduğunda veliye haber vermek için sekreter tek tek arıyor, zaman + maliyet",
+    "Gelişim raporlarını öğretmen elle yazıyor, dönem sonunda 40 raporu yetiştirmek imkansız",
+    "Sezonsal kampanya (erken kayıt, yaz okulu, kardeş indirimi) zamanı geldiğinde 'bunu kime göndermeliyim?' diye Excel açıyorsunuz"
+  ],
+  "solutionSteps": [
+    {"title": "1. Süreç Analizi & CRM Seçimi", "description": "Mevcut süreçlerinizi (kayıt, fatura, iletişim, gelişim raporu) haritalandırıyoruz. Anaokulunuza uygun CRM aracı seçiyoruz - HubSpot, Pipedrive veya özel çözüm. Mevcut Excel verilerinizi taşıyoruz."},
+    {"title": "2. Veli Yaşam Döngüsü Setup", "description": "Aday → Deneme Dersi → Görüşme → Kayıt → Mevcut Veli → Yenileme → Mezun aşamalarını sisteme tanıtıyoruz. Her aşama için otomatik tetikleyiciler (mail, SMS, WhatsApp) tasarlıyoruz."},
+    {"title": "3. Fatura, Ödeme, Devamsızlık Otomasyonu", "description": "Aylık fatura otomatik gönderim (e-mail + WhatsApp), ödeme hatırlatma (3-7-14 gün), devamsızlık SMS bildirimi (sabah 09:30), gelişim raporu şablonu (öğretmen 5 dakikada tamamlıyor)."},
+    {"title": "4. Kampanya & Raporlama Devreye Alma", "description": "Erken kayıt, yaz okulu, kardeş indirimi kampanyaları otomasyona alınır. Aylık panel raporu - aday-kayıt dönüşüm oranı, tahsilat performansı, devamsızlık trendi. Eğitim + 30 gün takip."}
+  ],
+  "features": [
+    {"title": "Aday Veli Takip Pipeline", "description": "Sızıntı yok - Instagram DM, WhatsApp, telefon, form kaynaklı tüm aday veliler tek pipeline'da. Aşama (yeni, deneme dersi, görüşme, karar bekliyor), son temas tarihi, sorumlu sekreter görünür."},
+    {"title": "Deneme Dersi Sonrası Otomatik Akış", "description": "Veli deneme dersine geldi, sistem otomatik 1 gün sonra teşekkür mesajı, 3 gün sonra 'kararınız ne?' mesajı, 7 gün sonra erken kayıt indirimi teklifi gönderiyor. Manuel takip yok."},
+    {"title": "Fatura & Ödeme Hatırlatma", "description": "Aylık fatura otomatik gönderim (e-mail + WhatsApp + PDF). Ödeme gecikirse 3-7-14 gün sonra nazik hatırlatma mesajı (veliye saygılı dille). Online ödeme bağlantısı dahil."},
+    {"title": "Devamsızlık SMS Bildirimi", "description": "Sabah 09:30'da yoklama alındığında devamsız çocuklar için veliye otomatik SMS: 'Sayın Ayşe Hanım, Ali bugün okulda yok, her şey yolunda mı?'. Veli 30 saniyede cevap veriyor (rapor veya gelecek)."},
+    {"title": "Gelişim Raporu Şablonu", "description": "Öğretmen dönem sonu raporu 1 saatte değil 5 dakikada hazırlıyor - şablon, çoktan seçmeli alanlar, AI ile rapor metin önerisi, fotoğraf ekleme (KVKK uyumlu - veli özel alanında). PDF olarak veliye otomatik gönderim."},
+    {"title": "Sezonsal Kampanya Otomasyonu", "description": "Erken kayıt indirimi (Mart sonu), yaz okulu kampanyası (Mayıs), kardeş indirimi (Ağustos) gibi dönemsel kampanyalar segmente (mevcut veli, aday veli, mezun veli) otomatik gönderim. Manuel liste hazırlamak yok."}
+  ],
+  "caseStudy": {
+    "title": "Kadıköy Bahar Anaokulu - Idari Zaman %65 Azaldı, Aylık Tahsilat %78 → %94",
+    "paragraphs": [
+      "Kadıköy'de 3 şubeli Bahar Anaokulu 2024 sonunda PORTZEN'e geldi. Mevcut süreçte sekreterler Excel ile aday veli takibi yapıyor, kim hangi aşamada belli değildi. Aylık fatura WhatsApp'tan tek tek atılıyordu, geciken ödemeler için telefon takibi yapılıyordu - awkward konuşmalar yaşanıyordu. Üç şube arasında veli verisi tutarsızdı.",
+      "14 günde HubSpot CRM kurulumunu yaptık - aday veli pipeline, deneme dersi sonrası otomatik akış (1-3-7 gün mesajları), fatura otomasyonu (Logo entegrasyonu ile), devamsızlık SMS bildirimi, gelişim raporu şablonu, çoklu şube yönetimi. KVKK uyumlu, çocuk verisi minimum.",
+      "İlk 3 ayda idari zaman %65 azaldı (sekreter başı haftalık 18 saat tasarruf). Aylık tahsilat oranı %78'den %94'e çıktı - ödeme hatırlatmaları otomatik gittiği için 'unuttum' bahanesi kalmadı, awkward konuşma yok. Aday veli kayıt dönüşüm oranı %22'den %38'e çıktı çünkü hiçbir aday unutulmuyor. Mart kayıt kontenjanı 3 şubede de doldu."
+    ],
+    "beforeAfter": [
+      {"label": "Idari Saat (haftalık, sekreter başı)", "before": "28 saat", "after": "10 saat"},
+      {"label": "Aylık Tahsilat Oranı", "before": "%78", "after": "%94"},
+      {"label": "Aday Veli Dönüşüm", "before": "%22", "after": "%38"},
+      {"label": "Devamsızlık Bildirim Süresi", "before": "2-4 saat", "after": "Otomatik 09:30"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "14.000 TL + 1.800 TL/ay",
+      "description": "Tek şubeli butik anaokulları için",
+      "features": [
+        "HubSpot CRM kurulumu (Free tier)",
+        "Aday veli pipeline (5 aşama)",
+        "Temel mail otomasyonu",
+        "Fatura PDF + WhatsApp gönderim",
+        "Devamsızlık SMS bildirimi",
+        "KVKK uyumlu setup",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "28.000 TL + 3.200 TL/ay",
+      "description": "Aktif anaokulları için en popüler paket",
+      "features": [
+        "HubSpot CRM (Starter veya Pro)",
+        "Tam veli yaşam döngüsü otomasyonu",
+        "Online ödeme entegrasyonu (Iyzico)",
+        "Logo / Mikro fatura entegrasyonu",
+        "Gelişim raporu şablonu (AI destekli)",
+        "Sezonsal kampanya otomasyonu",
+        "Aylık performans raporu",
+        "Sekreter eğitimi (3 oturum)"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "52.000 TL + 5.500 TL/ay",
+      "description": "Zincir anaokulları, çoklu şube ve agresif büyüme için",
+      "features": [
+        "Çoklu şube yönetimi (sınırsız)",
+        "Şube bazlı raporlama",
+        "Salesforce veya özel CRM",
+        "Veli mobil uygulaması",
+        "Bordro + muhasebe entegrasyonu",
+        "Aile tavsiye programı",
+        "Özel proje yöneticisi",
+        "Aylık strateji görüşmesi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "CRM kurulumu ne kadar sürede tamamlanır?", "answer": "Başlangıç paketi 10-14 gün, Profesyonel 14-21 gün, Kurumsal 28-40 gün. Mevcut Excel/manuel verilerinizin durumuna göre değişiyor. İlk hafta süreç analizi, ikinci hafta setup, üçüncü hafta eğitim + test."},
+    {"question": "HubSpot ücreti ayrı mı?", "answer": "Başlangıçta HubSpot Free Tier kullanıyoruz (sınırlı ama yeterli). Büyüdükçe HubSpot Starter (~25 USD/ay) veya Pro (~100 USD/ay) gerekebilir. Profesyonel pakette Starter dahil. Kurumsal pakette Salesforce veya HubSpot Pro size en uygun olanı kuruyoruz."},
+    {"question": "Mevcut Excel verilerimi taşıyabilir misiniz?", "answer": "Evet, kurulumun bir parçası olarak veri taşıma yapıyoruz. Aday veli listesi, mevcut veli bilgileri, fatura geçmişi - hepsini sisteme aktarıyoruz. Veri kalitesi düşükse (eksik telefon, hatalı tarih) temizleme önerisi sunuyoruz."},
+    {"question": "Veli iletişimi otomatik olunca soğuk durmaz mı?", "answer": "Aksine - daha sıcak. Otomasyon hatırlatıyor, mesajlar sizin ses tonunuzla yazılmış (briefte alıyoruz), mesaj zamanında gidiyor (gece yarısı değil). Sekreter unuttuğu için 1 hafta sessizlik vs sistem zamanında 'merhaba Ayşe Hanım, deneme dersine teşekkür ederiz' demesi - ikincisi sıcak. Vaka çalışmamızdaki Bahar Anaokulu aday dönüşümü 1.7x arttı."},
+    {"question": "KVKK uyumlu mu, çocuk verisi nasıl saklanıyor?", "answer": "Tamamen uyumlu. CRM'de çocuk verisi minimum (sadece doğum tarihi, varsa alerji notu - veli rızası ile). Veriler şifreli, AB sunucusunda (HubSpot AB veri merkezi). Veli açık rıza onayı kurulumda dahil, KVKK aydınlatma metni hazırlıyoruz. Çocuk fotoğrafı CRM'de saklanmıyor (gelişim raporları PDF olarak şifreli alan)."},
+    {"question": "Logo / Mikro fatura programıyla entegre olur mu?", "answer": "Evet, Profesyonel paketten itibaren Logo, Mikro, Nebim entegrasyonları dahil. Aylık fatura CRM'den otomatik tetiklenip muhasebe programınızda kesiliyor. Tahsilat bilgisi CRM'e dönüyor, ödeyen veli için hatırlatma akışı kapanıyor. Çift veri girişi yok."},
+    {"question": "Sekreter ve öğretmen kullanmayı öğrenebilir mi?", "answer": "Evet, sistem teknik bilgi gerektirmiyor. 3 oturum eğitim (sekreter, müdür, öğretmen ayrı), video kütüphane (45 dakika), 30 gün canlı destek. Sekreter ilk hafta sonu rahat kullanıyor. Öğretmen sadece gelişim raporu giriyor, o da şablon olduğu için 5 dakika."}
+  ],
+  "finalCtaHeadline": "Aday veliyi unutmadan, fatura takibinden bunalmadan büyüyün",
+  "finalCtaSubtitle": "30 dakikalık süreç analizi görüşmesi yeterli. Mevcut süreçlerinizi inceleyip ücretsiz otomasyon yol haritası hazırlıyoruz. WhatsApp'tan veya formdan ulaşın."
+}

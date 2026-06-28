@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "optik",
+  "sectorName": "Optik",
+  "sectorPlural": "Optikçiler",
+  "title": "Optikçiler İçin WhatsApp AI Asistanı | Göz Muayene Randevusu + Çerçeve Bilgisi - PORTZEN",
+  "description": "Optikçiler için WhatsApp AI asistanı. Göz muayene randevusu, çerçeve fiyat sorgulama, lens stok kontrol, kontrol randevusu hatırlatma ve garanti takibi otomatik.",
+  "keywords": ["optik whatsapp", "göz muayene randevusu", "optik ai asistan", "çerçeve fiyat sorgulama", "lens whatsapp bot", "optikçi otomasyon"],
+  "h1": "Optikçiler için WhatsApp AI Asistanı",
+  "heroSubtitle": "Göz muayene randevusu, çerçeve modeli ve fiyat sorgulama, lens stok kontrolü, kontrol randevusu hatırlatma ve garanti takibi. WhatsApp tan 7/24, mağazaya gelmeden.",
+  "stats": [
+    {"value": "%72", "label": "Telefon Yükü Azaldı"},
+    {"value": "2 dk", "label": "Ortalama Randevu"},
+    {"value": "24/7", "label": "Aktif Yanıt"},
+    {"value": "%55", "label": "Randevu Artışı"}
+  ],
+  "problems": [
+    "Göz muayene randevusu için müşteri arıyor, mesai dışı arayan kaybediliyor, mağazaya gelmeden randevu alamıyor",
+    "Ray-Ban, Oakley, Tom Ford gibi marka çerçeve fiyat sorularına manuel cevap veriyorsunuz, gün boyu aynı sorular",
+    "Multifokal lens veya bifokal lens stok kontrolü için müşteri mağazaya geliyor, yoksa hayal kırıklığı yaşıyor",
+    "1 yıl önce gözlük alan müşteriye periyodik kontrol hatırlatması yapmıyorsunuz, müşteri başka optikçiye gidiyor",
+    "Garanti süresi dolan müşteriye bilgi vermiyorsunuz, garanti hakkını kullanmadan süre geçiyor",
+    "Reçete sonrası gözlük teslim hazır olduğunda müşteriyi tek tek arıyorsunuz, vakit kaybı"
+  ],
+  "solutionSteps": [
+    {"title": "1. Hizmet ve Stok Brief", "description": "Mağazanızın çerçeve markalarını (Ray-Ban, Oakley, Tom Ford, Persol, Gucci vb.), lens markalarını (Essilor, Zeiss, Hoya), göz doktoru/optometrist randevu sistemini, garanti politikalarını ve teslim süreçlerini alıyoruz."},
+    {"title": "2. AI Asistan Eğitimi", "description": "GPT-4 tabanlı asistanı optik terminolojisiyle eğitiyoruz. Reçete okuma (sferik, silindir, eksen değerleri), lens türleri (multifokal, bifokal, mavi ışık filtreli), çerçeve materyali, garanti şartları ve kontrol randevusu kuralları tanımlanır."},
+    {"title": "3. WhatsApp Business API + Stok Entegrasyonu", "description": "Resmi WhatsApp Business API ile bağlantı kuruyoruz. Yeşil onay tik alıyoruz. Stok sisteminize (mevcut ERP veya özel), randevu takvimine ve müşteri veritabanına entegre ediyoruz."},
+    {"title": "4. Otomasyon Senaryoları", "description": "Gözlük teslim hazır bildirimi, 1 yıl sonra kontrol randevusu hatırlatma, garanti süresi 30 gün kala bilgilendirme, lens bitimi 7 gün kala sipariş hatırlatma, sezon güneş gözlüğü kampanyası otomatik akar."}
+  ],
+  "features": [
+    {"title": "Göz Muayene Randevusu", "description": "Müşteri 'göz muayenesi için randevu istiyorum' yazıyor, optometrist müsait saatler listeleniyor, seçim yapıyor, randevu sisteme düşüyor. Hatırlatma 24 saat ve 1 saat önce otomatik gidiyor."},
+    {"title": "Çerçeve Fiyat ve Model Sorgulama", "description": "Müşteri 'Ray-Ban Aviator fiyatı ne kadar?' yazınca model bulunur, fiyat, stok durumu ve mağazadaki örnek görseli paylaşılır. Multipl model arayanlara katalog gönderilir, ilgilenen randevuya yönlendirilir."},
+    {"title": "Lens Stok ve Sipariş", "description": "Reçeteli lens (multifokal, bifokal, mavi ışık filtreli) stok kontrolü. Stokta yoksa sipariş süresi belirtilir. Lens kullanıcılarına bitim tarihine 7 gün kala otomatik sipariş hatırlatma."},
+    {"title": "Kontrol Randevusu Hatırlatma", "description": "1 yıl önce gözlük alan müşteriye periyodik göz muayenesi hatırlatma. Müşteri randevu almazsa 30 ve 60 gün sonra tekrar hatırlatma. Müşteriyi başka optikçiye kaptırmıyorsunuz."},
+    {"title": "Garanti Takibi", "description": "Çerçeve garanti süresi dolmasına 30 gün kala bilgilendirme. Garanti kapsamındaki sorunlar (kırılma, vida gevşemesi, kaplama soyulması) için randevu daveti. Garanti hakkı kayıp önleme."},
+    {"title": "Teslim Hazır Bildirimi", "description": "Reçeteli gözlük hazır olduğunda otomatik WhatsApp bildirimi. Teslim alma saati seçimi, hazır olduğu konfirmasyonu. Müşteri başka bir günde alacaksa hatırlatma 7 gün sonra tekrarlanıyor."}
+  ],
+  "caseStudy": {
+    "title": "Ankara Çankaya - Optik Mağaza: Aylık 320 Otomatik Randevu, Kontrol Hatırlatma %48 Dönüş",
+    "paragraphs": [
+      "Ankara Çankaya da 14 yıllık bir optik mağazası 2025 Mart ta PORTZEN e geldi. Mağazada optometrist göz muayene hizmeti veriyor, Ray-Ban, Oakley, Tom Ford çerçeve satıyor, Essilor multifokal lens uzmanlaşmış. Sorunları net: telefon görüşmeleri günde 60 70, %45 i göz muayene randevusu, %30 u çerçeve fiyat sorma. Mesai dışı kaybediliyordu, kontrol hatırlatma hiç yapılmıyordu.",
+      "12 günde WhatsApp AI asistanını kurduk. Mevcut randevu sistemine entegre ettik. Göz muayene randevusu, çerçeve fiyat sorgulama (Ray-Ban, Oakley, Tom Ford katalog), lens stok kontrolü, gözlük teslim hazır bildirimi, 1 yıl kontrol hatırlatma, garanti takibi akışları aktif edildi.",
+      "İlk ay 320 randevu WhatsApp üzerinden geldi, telefon yükü %72 azaldı. 1 yıl önce gözlük alan 480 müşteriye kontrol hatırlatma gönderildi, %48 i (230 müşteri) randevu aldı - bu önceden tamamen kayıp giden bir potansiyeldi. Garanti süresi dolan 85 müşteriden 22 si bakım için geldi. Mağaza sahibi 'kontrol hatırlatma ile yıllık 180.000 TL ek ciro kazandık' dedi."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık WhatsApp Randevu", "before": "0", "after": "320"},
+      {"label": "Telefon Yükü", "before": "65/gün", "after": "18/gün"},
+      {"label": "Kontrol Hatırlatma Dönüşü", "before": "yok", "after": "%48"},
+      {"label": "Aylık Yeni Müşteri", "before": "85", "after": "165"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL kurulum + 2.200 TL/ay",
+      "description": "Tek mağazalı küçük ve orta ölçekli optikçiler için",
+      "features": [
+        "WhatsApp Business API kurulum",
+        "Göz muayene randevu sistemi",
+        "Çerçeve fiyat sorgulama (top 50 model)",
+        "Teslim hazır bildirimi",
+        "1.500 aylık konuşma dahil",
+        "Mağaza ekibine canlı devir",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "18.000 TL kurulum + 4.500 TL/ay",
+      "description": "Aktif optikçiler için en popüler - kontrol hatırlatma dahil",
+      "features": [
+        "Tüm Başlangıç paketi",
+        "Sınırsız çerçeve katalog entegrasyonu",
+        "Lens stok kontrolü ve sipariş hatırlatma",
+        "Kontrol randevusu hatırlatma (1 yıl)",
+        "Garanti takibi ve bildirim",
+        "Mevcut ERP entegrasyonu",
+        "5.000 aylık konuşma dahil",
+        "Aylık raporlama"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Zincir",
+      "price": "42.000 TL kurulum + 9.500 TL/ay",
+      "description": "Çoklu mağazalı zincir optikçiler için",
+      "features": [
+        "Tüm Profesyonel paketi",
+        "Çoklu mağaza yönetimi (sınırsız)",
+        "Mağaza bazlı stok ve randevu",
+        "Marka kampanya yönetimi (Ray-Ban, Oakley vb.)",
+        "Sadakat ve puan sistemi entegrasyonu",
+        "Sınırsız aylık konuşma",
+        "Özel proje yöneticisi",
+        "Aylık strateji toplantısı"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "WhatsApp Business API kurulumu ne kadar sürer?", "answer": "Meta onay süreci 5-10 iş günü. Yeşil onay tik başvurusunu biz yönetiyoruz. Bu süreçte AI eğitimi, çerçeve katalog entegrasyonu ve test senaryoları paralel yürüyor. Toplam canlıya alma 10-14 iş günü."},
+    {"question": "Mevcut ERP yazılımıma entegre olur mu?", "answer": "Türkiye de optik sektöründe yaygın Optisyen Pro, OptiManager gibi yazılımlarla entegrasyon yapıyoruz. API çalışan yazılımlarda otomatik, manuelde köprü modül (ek 4.000-8.000 TL). Excel veya kağıt kayıt kullanıyorsanız size özel veritabanı kuruyoruz (Profesyonel pakette dahil)."},
+    {"question": "Reçete bilgisini WhatsApp tan alıyor mu?", "answer": "Müşteri reçete fotoğrafı gönderebiliyor, AI sferik, silindir, eksen değerlerini okuyor (OCR + GPT vision). Lens önerisi için kullanıyor. Hatalı okuma riskine karşı son onay optometrist tarafından mağaza içi randevuda yapılıyor."},
+    {"question": "Kontrol hatırlatma 1 yıl sonra otomatik mi?", "answer": "Evet. Müşteri gözlük aldığında satış tarihi sisteme düşüyor. 1 yıl sonra otomatik göz muayene hatırlatma gönderiliyor. Randevu almazsa 30 ve 60 gün sonra tekrar. Bu özellik tek başına yıllık 150.000-300.000 TL ek ciro potansiyeli."},
+    {"question": "Çerçeve katalog güncel kalır mı?", "answer": "Stok sisteminizle entegre çalışırsa otomatik güncel. Manuel ekleme yapıyorsanız panel üzerinden yeni model ekliyorsunuz, AI hemen öğreniyor. Marka katalog güncellemeleri (yeni sezon Ray-Ban gibi) için aylık ek hizmet veriyoruz (500 TL/ay)."},
+    {"question": "Lens stoğu olmayan ürün için ne diyor?", "answer": "Stokta yoksa sipariş süresi (3-7 iş günü tipik) belirtilir, müşteri kabul ederse sipariş kayda alınır. Lens gelince otomatik bildirim gönderilir. Stoksuz satış kaybını önlüyor, sipariş hattını dolduruyor."},
+    {"question": "Garanti süresi takibi gerçekten işe yarıyor mu?", "answer": "Evet, çerçeve garantisi (1-2 yıl) süresi dolmadan 30 gün kala bilgilendirme. Müşteri kapsamdaki sorunları (vida gevşeme, kırılma, kaplama soyulması) ücretsiz hallediyor, marka sadakatı artıyor, müşteri başka optikçiye kaymıyor. Vaka çalışmamızda 85 müşteriden 22 si bakım için geldi."}
+  ],
+  "finalCtaHeadline": "Optikçiniz 2 haftada WhatsApp tan randevu almaya başlasın",
+  "finalCtaSubtitle": "30 dakikalık demo görüşmesi yeterli. Mevcut süreçlerinizi inceleyip size özel akış tasarlıyoruz. WhatsApp tan veya formdan ulaşın."
+}

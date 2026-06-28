@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "veteriner",
+  "sectorName": "Veteriner",
+  "sectorPlural": "Veteriner Klinikleri",
+  "title": "Veteriner Klinikleri İçin Web Tasarım | Online Randevu + Ekip Tanıtım - PORTZEN",
+  "description": "Veteriner klinikleri için Next.js web tasarım. Online randevu sistemi, hizmet fiyat şeffaflığı, ekip tanıtım, yorum yönetimi ve aşı takvimi entegrasyonu.",
+  "keywords": ["veteriner web tasarım", "veteriner kliniği websitesi", "online randevu sistemi", "veteriner site yapımı", "klinik websitesi", "evcil hayvan kliniği site"],
+  "h1": "Veteriner Klinikleri için Profesyonel Web Tasarım",
+  "heroSubtitle": "Online randevu sistemi, şeffaf hizmet fiyatları, ekip tanıtım sayfaları, hasta yorumları yönetimi ve aşı takvim entegrasyonu - Next.js ile mobilde hızlı veteriner websitesi.",
+  "stats": [
+    {"value": "20 gün", "label": "Ortalama Teslim"},
+    {"value": "95+", "label": "Lighthouse Skoru"},
+    {"value": "Online", "label": "Randevu Sistemi"},
+    {"value": "KVKK", "label": "Uyumlu"}
+  ],
+  "problems": [
+    "Mevcut siteniz 2018'den kalma WordPress, mobilde açılışı 7-8 saniye, hasta sahibi kapatıp gidiyor",
+    "Online randevu sisteminiz yok, müşteri telefon arıyor, mesai dışı kayıp oluyor",
+    "Hizmet fiyatlarınız siteye yazılmamış, müşteri her seferinde 'aşı ne kadar' diye soruyor",
+    "Ekip (veteriner hekimler, teknisyenler) tanıtımı yok, müşteri 'kime emanet ediyorum' diye güvensiz hissediyor",
+    "Google haritada güncel olmayan adres/saat bilgisi, hasta sahibi karışıyor",
+    "Google'da 'Kadıköy veteriner' aramasında ilk sayfada yoksunuz, müşteri rakibe gidiyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Klinik Brief & Hizmet Haritası", "description": "Verdiğiniz hizmetler (aşılama, ameliyat, ev ziyareti, pet hotel, acil bakım), uzmanlık alanları (kedi, köpek, egzotik), ekip bilgileri ve hizmet fiyat aralıklarınızı çıkartıyoruz."},
+    {"title": "2. UI/UX Tasarım", "description": "Figma'da veteriner sektörüne özel tasarım - sıcak, güven veren renkler, ekip yüzleri ön planda, online randevu CTA sticky. Mobil-first, hasta sahibi 5 saniyede randevu açabilmeli."},
+    {"title": "3. Next.js + Randevu + Aşı Takvim", "description": "Next.js 15 ile geliştirme. Online randevu sistemi (hekim + tarih + saat seçimi), aşı takvimi hatırlatma sistemi, ekip tanıtım kartları, hizmet detay sayfaları (fiyat dahil), Google Maps + ulaşım, hasta yorumları."},
+    {"title": "4. SEO + Google My Business", "description": "Schema markup (VeterinaryCare + LocalBusiness), semt SEO ('Bornova veteriner', 'Çankaya hayvan kliniği'), Google My Business profili optimizasyonu, hasta yorum yönetimi setup."}
+  ],
+  "features": [
+    {"title": "Online Randevu Sistemi", "description": "Hekim seçimi, tarih, saat, hayvan türü, hizmet (aşı, kontrol, kısırlaştırma), özel not - formu doldurunca klinik panele + WhatsApp'a bildirim, müşteriye otomatik SMS onay gidiyor."},
+    {"title": "Şeffaf Hizmet Fiyatları", "description": "Tüm hizmetler için 'başlangıç fiyat' veya 'fiyat aralığı' görünür. Karma aşı 350-450 TL, kuduz aşısı 200 TL, kısırlaştırma 1.500-2.500 TL gibi. Müşteri telefon açmadan kararını veriyor."},
+    {"title": "Ekip Tanıtım Sayfası", "description": "Her veteriner hekim için fotoğraf, uzmanlık alanı, deneyim yılı, eğitim bilgileri. Hasta sahibi randevu açarken hekim seçebiliyor, güven oluşuyor."},
+    {"title": "Hasta Yorum Yönetimi", "description": "Google ve site içi yorumlar entegre. Yeni yorum gelince admin panelden yayınlanıyor, olumsuz yorumlara hızlı yanıt için bildirim sistemi. Yorum yıldız ortalaması anasayfada."},
+    {"title": "Aşı Takvimi Hatırlatma", "description": "Kayıtlı hasta sahipleri için aşı takvimi otomatik hesaplanıyor. Site üyeliği ile her hayvanın aşı geçmişi görülüyor, yaklaşan aşılar email/SMS ile bildiriliyor."},
+    {"title": "Acil Durum Yönlendirme", "description": "Anasayfada belirgin 'ACİL DURUM' butonu - 7/24 nöbetçi hekim telefonu, en yakın acil servis adresi, acil müdahale rehberi (zehirlenme, kanama vb.). Kritik anda hayat kurtarıyor."}
+  ],
+  "caseStudy": {
+    "title": "İzmir Bornova - Veteriner Kliniği: Organik Trafik 180 → 4.200/ay, Aylık 220 Online Randevu",
+    "paragraphs": [
+      "Bornova'da 6 yıllık bir veteriner kliniği 2024 sonunda PORTZEN'e geldi. Mevcut WordPress sitesi 2019'da yapılmış, mobil uyumlu değil, online randevu sistemi yok, hizmet fiyatları belirsiz. Tüm randevular telefon + WhatsApp'tan geliyordu, yoğun saatlerde resepsiyon yetişemiyor, kayıplar oluyordu.",
+      "20 günde Profesyonel paket ile siteyi yeniden inşa ettik. Online randevu sistemi (3 hekim takvim senkron), 28 hizmet için detaylı fiyat sayfaları, ekip tanıtım (3 veteriner + 2 teknisyen), hasta yorum entegrasyonu, aşı takvimi modülü, Google My Business optimizasyonu yaptık.",
+      "İlk ay Google'da 'Bornova veteriner' aramasında 1. sıraya çıktılar (önceden 2. sayfa). 3. ayın sonunda aylık organik trafik 180'den 4.200'e ulaştı, ay başı 220 online randevu direkt siteden geliyor. Resepsiyon telefon yükü %50 azaldı, hekimler muayeneye daha fazla zaman ayırabiliyor."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Organik Trafik", "before": "180", "after": "4.200"},
+      {"label": "Aylık Online Randevu", "before": "0", "after": "220"},
+      {"label": "Mobil Yüklenme Süresi", "before": "7,2 sn", "after": "1,3 sn"},
+      {"label": "Google 'Bornova Veteriner' Sıra", "before": "12.", "after": "1."}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Veteriner Sitesi",
+      "price": "10.000 TL",
+      "description": "Tek seferlik - küçük klinik ve yeni açılışlar için",
+      "features": [
+        "5 sayfa (anasayfa, hizmetler, ekip, iletişim, randevu)",
+        "Next.js + Tailwind",
+        "Mobil responsive + 90+ Lighthouse",
+        "Hizmet listesi (fiyatlı)",
+        "Google Maps embed",
+        "WhatsApp randevu butonu",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "22.000 TL + 1.500 TL/ay",
+      "description": "Aktif klinikler için en popüler paket - bakım dahil",
+      "features": [
+        "12-16 sayfa + hizmet detay sayfaları",
+        "Online randevu sistemi (hekim seçimli)",
+        "Ekip tanıtım sayfaları",
+        "Hasta yorum entegrasyonu",
+        "Aşı takvimi hatırlatma modülü",
+        "Acil durum yönlendirme",
+        "Google My Business optimizasyonu",
+        "Aylık bakım, içerik güncelleme"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Klinik",
+      "price": "38.000 TL + 2.500 TL/ay",
+      "description": "Çoklu şube, pet hotel ve agresif büyüme için",
+      "features": [
+        "Sınırsız sayfa + çoklu şube",
+        "Şube bazlı randevu + ekip yönetimi",
+        "Pet hotel rezervasyon modülü",
+        "Üyelik + sadakat puanı",
+        "Aşı sertifikası PDF üretimi",
+        "Çoklu dil (TR/EN)",
+        "Google Ads landing sayfaları",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Sitem ne kadar sürede hazır olur?", "answer": "Mini Veteriner Sitesi 10-14 gün, Profesyonel 18-25 gün, Premium 30-40 gün. Brief sonrası net gün veriyoruz. Ekip fotoğrafları ve hizmet fiyatlarınız hazırsa hızlanıyor."},
+    {"question": "Ekip fotoğrafım yok, ne yapacağız?", "answer": "İki seçenek: (1) Profesyonel fotoğrafçı yönlendiriyoruz (ortalama 3-5K TL, 5-10 kişi). (2) AI ile profesyonel portre üretimi - mevcut fotoğraflarınızı AI ile yüksek kaliteye çıkarıyoruz (ek 2.500 TL, 5 kişiye kadar). Sektörde 'gerçek yüz' kritik, mutlaka gerçek fotoğraf öneriyoruz."},
+    {"question": "Online randevu sistemi nasıl çalışıyor?", "answer": "Hasta sahibi tarih, saat, hekim, hizmet, hayvan bilgisi giriyor. Sistemde sizin tanımladığınız hekim takvimleri var, çakışma kontrolü otomatik. Randevu onaylanınca size + müşteriye SMS + email + WhatsApp bildirim. İptal/değişiklik yine site üzerinden."},
+    {"question": "Fiyatlarımı siteye yazmak doğru mu? Müşteri rakibe gider mi?", "answer": "Tam tersi - şeffaf fiyat güven veriyor, fiyat sormak için telefon açan müşteri zaten karşılaştırıyor. Fiyat görünmüyorsa pahalı sanılıyor. Sitede 'başlangıç fiyat' veya 'aralık' yazıyoruz, kompleks vakalar 'muayene sonrası belirlenir' notuyla esnekiyor."},
+    {"question": "Hasta yorum sistemini nasıl yönetiyorum?", "answer": "Google yorumlarınız otomatik siteye yansıyor. Site üzerinden gelen yeni yorumlar önce admin paneline düşüyor, onay verince yayınlanıyor. Olumsuz yorum gelince anlık bildirim alıyorsunuz, hızlı yanıt verebiliyorsunuz."},
+    {"question": "KVKK uyumu sağlanıyor mu?", "answer": "Evet, KVKK aydınlatma metni hazırlanıyor, çerez politikası, gizlilik sözleşmesi, açık rıza formu (randevu sırasında) hepsi entegre. VERBİS kaydı için danışmanlık sağlıyoruz. Hasta verisi Türkiye sunucularında saklanıyor."},
+    {"question": "Aşı takvimi sistemi gerçekten otomatik mi?", "answer": "Evet, üye olan hasta sahipleri için her hayvanın aşı geçmişi sisteme kaydediliyor. Karma aşı, kuduz, parazit ilacı için Türkiye standart protokolüne göre otomatik hesaplanıyor. Yaklaşan aşı 2 hafta önce email + SMS ile hatırlatılıyor, randevu butonu mesajda."}
+  ],
+  "finalCtaHeadline": "Veteriner kliniğiniz için ilk online randevuyu 3 haftada alın",
+  "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut sitenizi inceleyip ücretsiz audit raporu hazırlıyoruz. WhatsApp'tan veya formdan ulaşın."
+}

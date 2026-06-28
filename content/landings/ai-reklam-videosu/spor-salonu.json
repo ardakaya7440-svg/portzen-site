@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "spor-salonu",
+  "sectorName": "Spor Salonu",
+  "sectorPlural": "Spor Salonları",
+  "title": "Spor Salonları İçin AI Reklam Videosu | Transformation + Üyelik Kampanyası - PORTZEN",
+  "description": "Spor salonları için AI ile üretilmiş reklam videoları. Üye transformation hikayeleri, sezon kampanya tanıtımı, ders denemesi davet videoları. Meta ve TikTok reklamına hazır.",
+  "keywords": ["spor salonu reklam videosu", "ai reklam üretimi", "transformation video", "fitness reklam", "spor salonu kampanya videosu", "üyelik reklam"],
+  "h1": "Spor Salonları için AI Reklam Videosu Üretimi",
+  "heroSubtitle": "Üye transformation hikayeleri, ders denemesi davet videoları, sezon kampanya tanıtımları. AI ile 5 günde 10-30 farklı reklam varyasyonu, Meta ve TikTok reklamına hazır.",
+  "stats": [
+    {"value": "5 gün", "label": "Ortalama Teslim"},
+    {"value": "10-30", "label": "Video Varyasyon"},
+    {"value": "%180", "label": "CTR Artışı"},
+    {"value": "₺3.20", "label": "Ortalama CPL"}
+  ],
+  "problems": [
+    "Üye transformation videoları çekmek için 5-8 saat stüdyo zamanı gerekiyor, üye geliyor gelmiyor, yapım maliyetli",
+    "Reklam ajansından 1 video 8.000-15.000 TL, A/B test için 5 farklı varyasyon yapamıyorsunuz, bütçe yetmiyor",
+    "Sezon kampanya videosu için video editörünü 2 hafta bekliyorsunuz, kampanya başlamış oluyor",
+    "TikTok ve Reels formatları farklı, her platform için ayrı çekim yapmak yorucu ve maliyetli",
+    "Mevcut reklam videoları aynı görselliği koruyor, hedef kitle aynı kreatif yorgunluğu yaşıyor, CTR düşüyor",
+    "Yeni stüdyo açılışı veya yeni ders programı için tanıtım videosu çekmek için 3-4 hafta bekliyorsunuz"
+  ],
+  "solutionSteps": [
+    {"title": "1. Kampanya Brief", "description": "Kampanya amacınızı (transformation, ders denemesi, sezon kampanyası, yeni şube açılış), hedef kitleyi, mesaj tonunu ve platform tercihini (Meta, TikTok, YouTube Shorts) alıyoruz. Mevcut görsel varlıklarınızı (üye fotoğrafları, logo, marka renkleri) topluyoruz."},
+    {"title": "2. Script ve Storyboard", "description": "Sektör uzmanı senarist 3-5 farklı script yazıyor. Her script için storyboard (sahne sahne görsel akış) hazırlanıyor. Onayınızdan sonra AI üretimine geçiyoruz. Türkçe ses tonları (motivasyonel, sıcak, profesyonel) seçilebiliyor."},
+    {"title": "3. AI Video Üretim (Runway + Sora + Kling)", "description": "Runway Gen-3, Sora 2 ve Kling 2.1 ile sahneleri üretiyoruz. Üye transformation için fotoğrafdan video üretimi (image-to-video). Ders sahneleri için text-to-video. Türkçe AI ses (ElevenLabs) ile dublaj. Altyazı + müzik eklemesi."},
+    {"title": "4. Format Çoklama ve Teslim", "description": "Her video 9:16 (Reels/TikTok/Shorts), 1:1 (Feed), 16:9 (YouTube) formatlarında teslim edilir. Meta Ads Manager ve TikTok Ads e direkt yüklenebilir. A/B test için varyasyonlar (farklı hook, farklı CTA) hazırlanır."}
+  ],
+  "features": [
+    {"title": "Üye Transformation Videoları", "description": "Üyenin before-after fotoğraflarını veriyorsunuz, AI ile sinematik transformation videosu üretiliyor. Üye stüdyoya gelmeden video hazır oluyor. Onay süreci sizin tarafınızdan, üye haklarına dikkat ediyoruz."},
+    {"title": "Ders Tanıtım Videoları", "description": "Pilates, yoga, EMS, CrossFit, grup ders tanıtım videoları. AI ile dinamik sahne geçişleri, motivasyonel müzik, Türkçe seslendirme. Aynı ders için 5-10 varyasyon, A/B test yapılabilir."},
+    {"title": "Sezon Kampanya Videoları", "description": "Yaz dönemi, yılbaşı, sonbahar yeni dönem kampanyaları için 15-30 saniye reklam. Indirimli paket, ücretsiz deneme, vücut analizi gibi tekliflerin tanıtımı. Kampanya başlamadan 5 günde hazır."},
+    {"title": "UGC Stili Videolar", "description": "Üye değerlendirmesi gibi görünen UGC (user generated content) tarzı videolar. AI avatar veya gerçek üye fotoğrafından konuşan baş animasyonu (lipsync). Reklam yorgunluğuna karşı çok etkili."},
+    {"title": "Çoklu Format Teslim", "description": "Aynı video 9:16, 1:1, 16:9 formatlarında. TikTok Shorts, Instagram Reels, Facebook Feed, YouTube Pre-roll için ayrı versiyonlar. Meta Ads Manager ve TikTok Ads doğrudan yükleme."},
+    {"title": "Türkçe AI Ses Dublajı", "description": "ElevenLabs Türkçe ses kataloğu. Motivasyonel, sıcak, profesyonel, genç ton seçenekleri. Erkek ve kadın ses opsiyonları. Doğal Türkçe telaffuz, AI olduğu fark edilmiyor."}
+  ],
+  "caseStudy": {
+    "title": "İstanbul Kadıköy - EMS Stüdyosu: AI Reklam Videosu ile CPL ₺18 den ₺3.40 a İndi",
+    "paragraphs": [
+      "İstanbul Kadıköy de EMS ve fonksiyonel antrenman hizmeti veren bir butik stüdyo 2025 Nisan da PORTZEN e geldi. Meta reklamlarını ajans çekim videolarıyla yürütüyorlardı, video başına 12.000 TL ödüyorlardı, ayda 1 yeni video. CTR %0.8 e düşmüştü, CPL (cost per lead) 18 TL ye çıkmıştı, üye kazanım yavaşlamıştı.",
+      "5 günde 8 farklı AI reklam videosu ürettik. Üye transformation hikayesi (4 üyenin before-after fotoğraflarından), EMS tanıtım videosu (3 farklı hook), sezon ücretsiz deneme kampanyası (2 varyasyon), UGC stili üye değerlendirmesi (avatar lipsync). Her video 9:16, 1:1 ve 16:9 formatlarında. Meta Ads Manager a direkt yüklendi.",
+      "İlk hafta CTR %0.8 den %2.3 e çıktı. CPL 18 TL den 3.40 TL ye indi (%81 düşüş). Aylık 32 lead alıyorlardı, 145 lead e çıktı, 58 yeni üye geldi. 8 videodan en başarılı 3 ünü ölçekleyip diğerleri rotate edildi, kreatif yorgunluğu engellendi. Yıllık ajans bütçesi 144.000 TL den 38.000 TL ye düştü."
+    ],
+    "beforeAfter": [
+      {"label": "Reklam CTR", "before": "%0.8", "after": "%2.3"},
+      {"label": "Cost Per Lead", "before": "₺18", "after": "₺3.40"},
+      {"label": "Aylık Lead", "before": "32", "after": "145"},
+      {"label": "Aylık Video Üretim Maliyeti", "before": "₺12.000", "after": "₺3.200"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Tek Video",
+      "price": "3.500 TL",
+      "description": "Tek seferlik - 1 video, 3 format teslim",
+      "features": [
+        "1 ana video (15-30 sn)",
+        "9:16, 1:1, 16:9 formatlarda teslim",
+        "Türkçe AI ses dublajı",
+        "Altyazı + müzik",
+        "2 revizyon hakkı",
+        "Meta Ads ready",
+        "5 gün teslim"
+      ]
+    },
+    {
+      "name": "Kampanya Paketi",
+      "price": "12.000 TL",
+      "description": "Aktif reklam veren stüdyolar için en popüler - A/B test dahil",
+      "features": [
+        "5 farklı video varyasyonu",
+        "Tüm formatlar (9:16, 1:1, 16:9)",
+        "3 farklı hook + 3 farklı CTA",
+        "Türkçe AI ses (motivasyonel ton)",
+        "UGC stili avatar lipsync (1 video)",
+        "Storyboard + script yazımı dahil",
+        "A/B test rehberi",
+        "5 gün teslim"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Aylık Üretim",
+      "price": "30.000 TL/ay",
+      "description": "Sürekli reklam veren zincirler ve büyük stüdyolar için",
+      "features": [
+        "Aylık 15-20 video varyasyonu",
+        "Tüm formatlar + 4K teslim",
+        "Üye transformation videoları (4 üyeye kadar/ay)",
+        "Sezon kampanya videoları",
+        "UGC stili reklamlar (3 video/ay)",
+        "Meta + TikTok Ads optimizasyon rehberi",
+        "Haftalık brief toplantısı",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "AI reklam videosu gerçek mi görünüyor?", "answer": "2025 itibariyle Runway Gen-3, Sora 2 ve Kling 2.1 ile üretilen videolar yüksek gerçekçilikte. Özellikle fotoğrafdan video (image-to-video) yöntemi gerçek üye fotoğraflarınızdan başlıyor. Tam stüdyo çekimi kalitesinde değil ama reklam için fazlasıyla yeterli ve CTR çok daha yüksek."},
+    {"question": "Üye fotoğrafı kullanma izni nasıl alınıyor?", "answer": "Üye transformation için yazılı izin almanız şart. Size izin formu şablonu veriyoruz (KVKK uyumlu). Üye onayı sonrası fotoğrafları AI ye veriyoruz, video üretiliyor, üyeye gösteriyorsunuz, son onay alınıyor. Sürec sizin tarafınızdan yönetiliyor."},
+    {"question": "Türkçe seslendirme doğal mı?", "answer": "ElevenLabs Türkçe ses modelleri 2025 itibariyle çok doğal. Motivasyonel, sıcak, profesyonel ve genç ton seçenekleri var. Demo paylaşıp seçim yapıyorsunuz. AI olduğu çoğu izleyici tarafından fark edilmiyor, ajans seslendirmesinden ayırt edilmesi zor."},
+    {"question": "Meta ve TikTok kuralları AI videoyu kabul ediyor mu?", "answer": "Evet, Meta ve TikTok Ads politikaları AI üretimi içerik kabul ediyor. 2025 te 'AI üretimi' işaretlemesi opsiyonel, biz yine de etiketliyoruz şeffaflık için. Onaysız reddedilen video sayımız %2 nin altında, çoğu da metin sorunu nedeniyle, AI yüzünden değil."},
+    {"question": "Revizyon hakkım var mı?", "answer": "Tek Video pakette 2, Kampanya Paketinde 3, Aylık Üretim de sınırsız revizyon. Revizyon kapsamı sahne değişikliği, müzik değişikliği, metin/CTA değişikliği. Tamamen sıfırdan yeniden üretim revizyon değil, ek video sayılır (paket dahilinde değilse ek ücret)."},
+    {"question": "Mevcut çekim videolarımı kullanabilir miyiz?", "answer": "Evet, mevcut stüdyo çekim videolarınızı AI ile birleştirebiliriz. Sahne ekleme, format değiştirme, yeni hook ekleme, AI ses dublajı, altyazı. Hybrid yaklaşım hem maliyet hem otantiklik açısından çok iyi sonuç veriyor."},
+    {"question": "Hangi durumda AI değil gerçek çekim öneriyorsunuz?", "answer": "Karmaşık ders koreografisi (CrossFit WOD, dans), birden fazla insanın aynı kareye gerektiği sahneler, brand film türü uzun içerikler için gerçek çekim öneriyoruz. Performans reklamı (Meta, TikTok), kampanya tanıtımları, transformation hikayeleri için AI yeterli ve daha verimli."}
+  ],
+  "finalCtaHeadline": "5 günde spor salonunuz için reklam kütüphanesi oluşturun",
+  "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut reklamlarınızı analiz edip size özel video stratejisi hazırlıyoruz. WhatsApp tan veya formdan ulaşın."
+}

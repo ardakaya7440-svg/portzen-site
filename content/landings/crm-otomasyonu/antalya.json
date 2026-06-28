@@ -1,0 +1,162 @@
+{
+  "type": "location",
+  "sectorSlug": "antalya",
+  "sectorName": "Antalya",
+  "sectorPlural": "Antalya'daki İşletmeler",
+  "title": "Antalya CRM Otomasyonu | Sezon Planlı Turizm CRM - PORTZEN",
+  "description": "Antalya'daki otel, tur operatörü, transfer ve turizm firmaları için CRM kurulum + otomasyon. Sezon bazlı planlama, çok dilli müşteri segmentasyonu, KVKK + GDPR uyumlu.",
+  "keywords": [
+    "antalya crm otomasyonu",
+    "antalya crm kurulum",
+    "lara satış otomasyonu",
+    "antalya turizm crm",
+    "antalya lead yönetimi",
+    "antalya otel crm"
+  ],
+  "h1": "Antalya İçin CRM Otomasyonu",
+  "heroSubtitle": "Konyaaltı'nda otel, Belek'te tur operatörü, Lara'da transfer firması - sezonsal lead akışınızı Excel'den kurtarıp KVKK + GDPR uyumlu, çok dilli müşteri segmentli CRM'e taşıyoruz.",
+  "stats": [
+    {"value": "Sezon", "label": "Planlı"},
+    {"value": "KVKK+GDPR", "label": "Çift Uyum"},
+    {"value": "21 gün", "label": "Kurulum"},
+    {"value": "%47", "label": "Ort. Dönüşüm"}
+  ],
+  "problems": [
+    "Antalya otel veya tur operatörünüzün sezon doruğunda günde 80-150 lead geliyor (Booking, web form, WhatsApp, Instagram); ekip Excel + WhatsApp grupları ile takip ediyor, %35'i unutuluyor.",
+    "Türk + Rus + Alman + İngiliz müşteri segmentleri farklı; ama tek pipeline'da karışıyor, hangi pazara hangi kampanya yapıldı net belli değil, sezon bütçesi körlemesine harcanıyor.",
+    "Yaz sezonu kapanınca lead akışı %80 düşüyor; CRM lisans maliyeti aynı, kış aylarında para boşa gidiyor. Sezonsal model lazım.",
+    "GDPR uyumlu Avrupa müşteri verisi + KVKK uyumlu Türk müşteri verisi yönetimi yok; ihbar gelirse Brüksel'den 20M EUR'a kadar (GDPR), KVKK'dan 1.8M TL'ye kadar ceza.",
+    "Booking, TripAdvisor, Hotels.com'dan gelen müşteri datası farklı sistemlerde; bir araya getirip tekrar pazarlama yapmak imkansız, repeat müşteri kayıp."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Antalya Turizm Keşfi",
+      "description": "Mevcut lead kaynaklarınızı (Booking, web form, WhatsApp, Instagram, walk-in), milliyet bazlı segmentleri, sezon trend grafiklerini analiz ediyoruz."
+    },
+    {
+      "title": "CRM Seçimi + Çok Dilli Segmentasyon",
+      "description": "HubSpot, Zoho, Pipedrive veya açık kaynak EspoCRM - Türkçe + İngilizce arayüz, KVKK + GDPR modülleri, milliyet/dil bazlı segmentasyon, sektörünüze özel pipeline."
+    },
+    {
+      "title": "Sezonsal Otomasyon Akışları",
+      "description": "Sezon doruğunda yoğun lead → otomatik dağıtım → 2 saat takip; kış sezonunda erken rezervasyon kampanyası → 30-60-90 gün hatırlatma. 15-25 senaryo."
+    },
+    {
+      "title": "Ekip Eğitimi + Devreye",
+      "description": "Antalya'daki ekibinize 2 oturum canlı eğitim (Google Meet), video kütüphanesi, 1 aylık aktif destek. Sezon başlangıcında özel optimizasyon."
+    }
+  ],
+  "features": [
+    {
+      "title": "KVKK + GDPR Çift Uyum Modülü",
+      "description": "Türk müşteri için KVKK + VERBİS, Avrupa müşteri için GDPR. Açık rıza, izin geri çekme, veri silme talebi - çift dil otomatik. AB cezası ve KVKK cezası riski sıfır."
+    },
+    {
+      "title": "Milliyet/Dil Bazlı Segmentasyon",
+      "description": "Müşteri Rus/Alman/İngiliz/Türk hangi pazardan, hangi dilde - segmentasyona göre kampanya. Rusya'ya özel kış indirim, Almanya'ya golf paketi, İngiltere'ye family package."
+    },
+    {
+      "title": "Booking + TripAdvisor Sync",
+      "description": "Booking.com Channel Manager, TripAdvisor, Hotels.com'dan gelen rezervasyon datası CRM'e otomatik. Tek panelde tüm müşteri tarihi."
+    },
+    {
+      "title": "Sezonsal CRM Modu",
+      "description": "Mayıs-Ekim full Pro, Kasım-Nisan Light mode'a otomatik geçiş. Lisans maliyeti kış aylarında %50 düşüyor."
+    },
+    {
+      "title": "Erken Rezervasyon Otomasyonu",
+      "description": "Bir önceki sezon müşterisine 30-60-90 gün önceden erken rezervasyon kampanyası. Çoklu dil (TR/EN/RU/DE) e-posta + WhatsApp."
+    },
+    {
+      "title": "PMS + Fatura Entegrasyon",
+      "description": "Cloudbeds, Hotelinking, ELK, Paraşüt, Logo entegrasyonu - kapanan rezervasyon otomatik PMS + fatura sistemine."
+    }
+  ],
+  "caseStudy": {
+    "title": "Belek'te bir tur operatörü: CRM ile sezon dönüşümü %23'ten %52'ye, kış erken rezervasyon %180 arttı",
+    "paragraphs": [
+      "Belek'te 12 kişilik bir tur operatörü, Antalya'ya gelen Rus/Alman/İngiliz turistlere golf, dalış, antik kent, jeep safari turları satıyordu. Lead'leri Booking, web form, WhatsApp ve walk-in karması üzerinden geliyordu. Yaz sezonunda günde 60-100 lead geliyor, Excel ve WhatsApp gruplarıyla takip ediliyordu. Dönüşüm %23'tü; kış aylarında lead akışı %80 düşüyor, repeat müşteriye ulaşma imkansız hale geliyordu.",
+      "PORTZEN olarak HubSpot Sales Hub Pro kurduk; Türkçe + İngilizce arayüz, KVKK + GDPR modülleri, milliyet bazlı segmentasyon (4 dil), Booking Channel Manager sync, Cloudbeds PMS entegrasyonu, sezonsal otomasyon (Mayıs-Ekim yoğun + Kasım-Nisan erken rezervasyon), satış ekibine otomatik atama, 2-6-24 saat takip dizisi.",
+      "Bir sezon sonunda lead → tur dönüşümü %23'ten %52'ye çıktı. Kış aylarında bir önceki sezon Rus/Alman müşterisine atılan erken rezervasyon kampanyasıyla repeat müşteri %180 arttı. Sezon dışı CRM lisansı %50 düşüş, yıllık tasarruf 78.000 TL. GDPR + KVKK denetimine hazır, Excel cehennemi bitti."
+    ],
+    "beforeAfter": [
+      {"label": "Lead → Tur Dönüşüm", "before": "%23", "after": "%52"},
+      {"label": "Kış Erken Rezervasyon", "before": "baz seviye", "after": "+%180"},
+      {"label": "Yıllık CRM Tasarruf", "before": "0", "after": "78.000 TL"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "12.000 TL/ay (sezon) / 6.000 TL/ay (off-sezon)",
+      "description": "Butik otel, küçük tur firması, transfer için",
+      "features": [
+        "EspoCRM veya HubSpot Free kurulum",
+        "5 kullanıcıya kadar",
+        "KVKK + GDPR çift uyum",
+        "Temel otomasyon (5 senaryo)",
+        "Aylık 1.000 lead kapasitesi",
+        "Sezonsal mod (Mayıs-Ekim full, Kasım-Nisan light)"
+      ]
+    },
+    {
+      "name": "Turizm Pro",
+      "price": "24.000 TL/ay (sezon) / 12.000 TL/ay (off-sezon)",
+      "description": "Orta ölçek otel, tur operatörü, restoran zinciri için",
+      "features": [
+        "HubSpot Sales Hub Pro veya Pipedrive",
+        "25 kullanıcıya kadar",
+        "Milliyet/dil bazlı segmentasyon",
+        "Booking + PMS entegrasyon",
+        "Sezonsal otomasyon (4 dilli)",
+        "Erken rezervasyon kampanyası"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "50.000 TL/ay (sezon) / 25.000 TL/ay (off-sezon)",
+      "description": "5+ yıldız otel, golf rezort, ulusal tur operatörü için",
+      "features": [
+        "HubSpot Enterprise veya Salesforce kurulum",
+        "Sınırsız kullanıcı",
+        "Özel pipeline + dashboard",
+        "Booking Channel Manager + TripAdvisor + Hotels.com sync",
+        "Adanmış Antalya hesap yöneticisi",
+        "Aylık strateji + SLA"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "GDPR uyumu için ne sağlıyorsunuz?",
+      "answer": "Avrupa turist verisi için GDPR uyumlu açık rıza, veri silme talebi, veri taşıma hakkı modülleri. KVKK ile birlikte çift uyum standart hizmet. Hukuki danışmanlık partnerimiz GDPR sözleşmesi denetimi de yapıyor."
+    },
+    {
+      "question": "Kurulum Antalya'da fiziksel mi, uzaktan mı?",
+      "answer": "Tamamen uzaktan (online toplantı + ekran paylaşımı). PORTZEN İzmir merkezli ama Antalya'da 14+ aktif müşterimiz var. Antalya'da yerel ajanslar CRM kurulum için %30 daha fazla istiyor; uzaktan iş ile bütçeyi koruyoruz."
+    },
+    {
+      "question": "Cloudbeds, Hotelinking, ELK PMS'ime bağlanır mı?",
+      "answer": "Evet. Turizm Pro pakette standart. Booking.com Channel Manager, TripAdvisor, Hotels.com sync Premium pakette."
+    },
+    {
+      "question": "Sezonsal model nasıl çalışıyor?",
+      "answer": "Mayıs-Ekim arası full lisans (yoğun lead), Kasım-Nisan arası Light mode'a otomatik geçiş. Lisans maliyeti %50 düşüyor, sadece erken rezervasyon kampanyası aktif kalıyor. Yıllık sözleşmede %15 ek indirim."
+    },
+    {
+      "question": "Milliyet bazlı segmentasyon ne işe yarıyor?",
+      "answer": "Rusya pazarına kış indirim, Almanya'ya golf paketi, İngiltere'ye family package gibi farklı kampanyalar otomatik tetikleniyor. Tek liste yerine 4 segmente özel mesaj - dönüşüm 2-3 kat artıyor."
+    },
+    {
+      "question": "Booking, TripAdvisor, Hotels.com'dan gelen müşteri datası CRM'e geliyor mu?",
+      "answer": "Evet. Premium pakette tam sync. Kapatma sonrası 90 gün içinde repeat kampanyası, e-posta + WhatsApp ile çok dilli ulaşım."
+    },
+    {
+      "question": "Aylık fiyat sürekli mi, tek seferlik mi?",
+      "answer": "Aylık abonelik (lisans + bakım + destek), sezonsal modda fiyat değişiyor. İlk 3 ay revizyon ücretsiz, sonrası sınırsız optimizasyon dahil. Sözleşme yıllık ama 3 ayda 1 fesih hakkı tanınıyor."
+    }
+  ],
+  "finalCtaHeadline": "Antalya'daki sezonsal lead kaosunu CRM'e taşıyalım.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif. Mevcut lead akışınıza + sezon planınıza bakıp çok dilli, sezonsal CRM yol haritası çıkaralım. 21 günde canlıda."
+}

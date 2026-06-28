@@ -1,0 +1,110 @@
+{
+  "type": "location",
+  "sectorSlug": "eskisehir",
+  "sectorName": "Eskişehir",
+  "sectorPlural": "Eskişehir İşletmeleri",
+  "title": "Eskişehir Instagram DM Otomasyonu | Odunpazarı Kafe, Üni Öğrenci E-Ticaret - PORTZEN",
+  "description": "Eskişehir Odunpazarı butik kafe estetiği, Tepebaşı üniversite öğrenci e-ticaret, çiğ börek ve seramik atölyelerine özel Instagram DM otomasyon ve içerik akışı.",
+  "keywords": ["eskisehir instagram dm", "odunpazari instagram otomasyon", "tepebasi sosyal medya yonetimi", "eskisehir instagram satis", "anadolu universitesi influencer", "esogu sosyal medya"],
+  "h1": "Eskişehir İşletmeleri için Instagram DM Otomasyonu",
+  "heroSubtitle": "Odunpazarı butik kafe estetik içerikten, Tepebaşı üniversite öğrencisine yönelik e-ticaret sayfalarına. Instagram DM'leri otomatik yanıt, hikaye etkileşimi sipariş akışı ve müşteri segmentasyonu. PORTZEN İzmir merkezli, Eskişehir'de aktif müşteriler uzaktan.",
+  "stats": [
+    {"value": "60 sn", "label": "DM İlk Yanıt"},
+    {"value": "%82", "label": "Hikaye Yanıt Otomasyon"},
+    {"value": "TR + EN", "label": "Çift Dilli"},
+    {"value": "Meta Onaylı", "label": "Resmi API"}
+  ],
+  "problems": [
+    "Odunpazarı'nda butik kafenizin estetik çekimleri Instagram'da ilgi görüyor ama DM yağmuruna manuel cevap yetiştiremiyorsunuz",
+    "Tepebaşı üniversite öğrencisine yönelik el yapımı takı veya kıyafet satıyorsunuz, akşam 23:00'a kadar DM geliyor, ertesi gün yanıtladığınızda müşteri başkasından almış oluyor",
+    "Çiğ börek, lokum veya midye dolma reels'leri viral oluyor, takipçi 10K'dan 35K'ya çıkıyor ama DM ve satış aynı oranda artmıyor - funnel'iniz yok",
+    "Yenibağlar ve Çamlıca'da seramik atölyeniz var, sergi tarihi ve workshop kontenjanı soruları sürekli geliyor, manuel yönetiyorsunuz",
+    "Hikayeye 'fiyat?' yazanlara link DM'den manuel atıyorsunuz, günde 80-120 mesaj, sahibin gözü Instagram'dan ayrılmıyor",
+    "Sezon kampanyası (üni dönem başı, yılbaşı, sevgililer günü) duyurusu için DM listesine toplu mesaj atamıyorsunuz, kampanya verimsiz"
+  ],
+  "solutionSteps": [
+    {"title": "1. Instagram Profil + İçerik Stratejisi Audit", "description": "Mevcut profilinizi, son 90 günlük postlarınızı, reels performansınızı analiz ediyoruz. Odunpazarı estetik / Tepebaşı genç hedef / sektör hangisi olursa olsun, en çok DM çeken içerik türünü belirliyoruz."},
+    {"title": "2. Meta Business + DM API Kurulumu", "description": "Resmi Instagram Graph API + Meta Business Manager kurulumu. ManyChat değil, doğrudan API çünkü ManyChat aylık 250+ USD ve sınırlı. AI yanıt motoru entegrasyonu."},
+    {"title": "3. AI DM + Hikaye Yanıt Akışları", "description": "Hikayeye 'fiyat', 'link', 'stok' yazana otomatik DM, post yorumuna kelime tetikli DM yanıtı, sipariş akışı (ürün seçimi, ödeme link, kargo bilgisi). Türkçe + İngilizce çift dilli."},
+    {"title": "4. Segmentasyon + Kampanya Akışı", "description": "DM atan herkesi otomatik etiketliyoruz (öğrenci, turist, sürekli müşteri vb.). Sezon kampanyalarında bu listelere toplu DM (Meta kuralları çerçevesinde, opt-in ile)."}
+  ],
+  "features": [
+    {"title": "Hikaye 'Fiyat?' Otomatik DM", "description": "Hikayeye 'fiyat', 'link', 'stok', 'kaç para' yazana ürün katalog DM'i + ödeme link otomatik gidiyor. Manuel cevap yok, hikaye gece 02:00'da bile gelse müşteri 60 saniyede yanıt alıyor."},
+    {"title": "Post Yorumu Kelime Tetikli DM", "description": "Yeni ürün postuna yorum 'istiyorum' yazana otomatik DM açılıyor, AI 'hangi rengi istersiniz' diyor, sipariş akışı başlıyor. Eskişehir butik takı ve kıyafet için çok güçlü."},
+    {"title": "Çift Dilli AI Yanıt (TR + EN)", "description": "Odunpazarı'nda turist İngilizce DM atıyor, Anadolu Üniversitesi'nde Erasmus öğrencisi soruyor. AI dili otomatik algılıyor, doğru dilde yanıt veriyor."},
+    {"title": "Üniversite Sezon Kampanya Broadcast", "description": "Dönem başı (Eylül + Şubat), bahar şenliği, mezuniyet gibi özel dönemlerde DM listenize segmentli kampanya mesajı. Yeni dönem indirimi, kampüs kampanyası vb."},
+    {"title": "Müşteri Segmentasyon + Etiketleme", "description": "DM atan herkesi otomatik etiketliyoruz (yeni / sürekli / VIP / öğrenci / turist). Kampanya mesajını doğru kişiye atıyorsunuz, gereksiz spam yok."},
+    {"title": "Canlıya Devir + Sahip Kontrolü", "description": "AI çözemeyeceği özel istek (özel sipariş, workshop kontenjanı, toplu sipariş) gelince otomatik bildirim. Mobil uygulamadan sahibi sohbete giriyor."}
+  ],
+  "caseStudy": {
+    "title": "Tepebaşı - Üni Öğrenci El Yapımı Takı: DM Sipariş 5x, Reels Trafiği Satışa Dönüştü",
+    "paragraphs": [
+      "Tepebaşı'nda Anadolu Üniversitesi yakınında el yapımı takı satan genç bir girişimci 2025 Şubat'ında PORTZEN'e geldi. Instagram'da 18K takipçisi vardı, reels'leri ortalama 50-80K görüntülenme yapıyordu ama DM cevaplama yetişemediği için ayda sadece 35-40 sipariş alıyordu. Müşterilerin %40'ı 'fiyat?' DM'ine yanıt gelmeyince başka sayfalardan alıyordu.",
+      "Instagram DM otomasyonu + hikaye yanıt + sipariş akışı 10 günde kuruldu. AI hikayeye 'fiyat' yazana ürün katalog + Sipariş.com link gönderiyor, post yorumlarına 'istiyorum' yazana otomatik DM açıyor. Çift dilli yanıt (Erasmus öğrencileri için EN dahil) aktif edildi.",
+      "İlk 30 günün sonunda aylık DM siparişi 35'ten 175'e çıktı (5 katı). DM ilk yanıt süresi 8 saatten 60 saniyeye düştü. Sahibi günde 3 saat manuel DM yanıtlamak yerine yeni ürün üretmeye odaklandı. Bahar şenliği döneminde kampanya broadcast ile tek hafta 90 ek sipariş alındı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık DM Siparişi", "before": "35", "after": "175"},
+      {"label": "DM İlk Yanıt Süresi", "before": "8 saat", "after": "60 saniye"},
+      {"label": "Reels Görüntülenmeden Siparişe", "before": "%0.4", "after": "%2.1"},
+      {"label": "Sahip Günlük DM Yönetim Süresi", "before": "3 saat", "after": "25 dakika"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "7.500 TL kurulum + 1.000 TL/ay",
+      "description": "Küçük butik kafe ve yeni e-ticaret için",
+      "features": [
+        "Instagram DM otomatik yanıt (20 senaryo)",
+        "Hikaye 'fiyat?' DM otomasyonu",
+        "Türkçe yanıt",
+        "Sipariş yönlendirme akışı",
+        "Aylık 1.500 DM dahil",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "13.500 TL kurulum + 2.200 TL/ay",
+      "description": "Aktif satış yapan Eskişehir markaları için en popüler paket",
+      "features": [
+        "Instagram DM + hikaye + post yorum otomasyon",
+        "TR + EN çift dilli AI",
+        "Müşteri segmentasyon + etiketleme",
+        "Sezon kampanya broadcast (4 kampanya/ay)",
+        "Sipariş + ödeme link akışı",
+        "CRM senkronizasyon",
+        "Aylık 6.000 DM dahil",
+        "Aylık raporlama"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "24.000 TL kurulum + 4.000 TL/ay",
+      "description": "Influencer, çoklu mağaza ve agresif büyüme için",
+      "features": [
+        "Sınırsız senaryo + AI eğitimi",
+        "TR + EN + AR üç dilli yanıt",
+        "WhatsApp + Instagram entegre yanıt",
+        "Sınırsız kampanya broadcast",
+        "Etkileşimli hikaye anketi otomasyon",
+        "Influencer takip + yorum yönetimi",
+        "Sınırsız DM",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "ManyChat ile farkı ne?", "answer": "ManyChat aylık 250 USD'den başlayan SaaS, sınırlı senaryo ve marka adınız altında değil. Bizim çözümümüz Meta'nın resmi Graph API'si üzerinde, sınırsız özelleştirme, marka adınız altında, aylık abonelik daha düşük. Veri ve müşteri listesi tamamen sizde."},
+    {"question": "Eskişehir'deyim, kurulum nasıl olacak?", "answer": "Tüm süreç uzaktan yürütülüyor. Instagram + Meta Business Manager erişimi paylaşımı, AI senaryo onayı, test mesajları için Zoom üzerinden 2-3 görüşme yeterli. Saha ziyareti gerekmiyor. PORTZEN İzmir merkezli, Eskişehir'de aktif 8+ müşterimiz uzaktan çalışıyor."},
+    {"question": "Hikayeye 'fiyat' yazana otomatik DM Meta tarafından yasaklanmıyor mu?", "answer": "Hayır, hikaye etkileşim yanıtı Meta'nın resmi olarak desteklediği bir özellik (Instagram API üzerinden). Kuralları biliyoruz, spam değil yanıt verdiğimiz için sorun çıkmıyor. Kullanıcı zaten hikayenize yazarak iletişim başlatmış oluyor."},
+    {"question": "Reels'lerim viral oluyor ama satışa dönmüyor, çözüm bu mu?", "answer": "Evet, bu en yaygın problem. Reels görüntülenme yüksek ama izleyici DM atmıyor veya atınca yanıt gelmiyor. Otomasyon ile her viral reels'e bir 'aksiyon yolu' (link, sipariş, takip) ekliyoruz. Vaka çalışmamızdaki Tepebaşı takı markası reels'lerinin satışa dönüşüm oranını 5 kat artırdı."},
+    {"question": "Üniversite dönem başı kampanyası 5.000 kişiye tek seferde gidebilir mi?", "answer": "Evet ama Meta'nın 24 saat kuralı var - sadece son 24 saatte size mesaj atmış kullanıcılara serbest, eski takipçilere onay alınmış mesaj şablonu gerekiyor. Profesyonel pakette 4 kampanya/ay, Premium'da sınırsız. Kampanya stratejisini birlikte planlıyoruz."},
+    {"question": "Erasmus öğrencisi İngilizce yazıyor, AI Türkçe ve İngilizce ayrıştırabiliyor mu?", "answer": "Evet, dil otomatik algılanıyor. Türk müşteri Türkçe, Erasmus öğrencisi veya turist İngilizce yanıt alıyor. Profesyonel pakette TR+EN, Premium'da TR+EN+AR aktif."},
+    {"question": "Aylık kaç DM'lik paket lazım, nasıl bilirim?", "answer": "Mevcut DM hacminizi paylaşırsanız size doğru paketi öneriyoruz. Tepebaşı takı vaka örneğimizde ayda 2.500 DM gidiyordu, Profesyonel paket yetti. Yüksek hacim için Premium'a geçiş indirimi var."}
+  ],
+  "finalCtaHeadline": "Eskişehir markanız için ilk otomatik DM satışı 10 günde alın",
+  "finalCtaSubtitle": "20 dakikalık Zoom brief görüşmesi yeterli. Mevcut Instagram profilinizi inceleyip Eskişehir sektörünüze özel akış demo gösteriyoruz. PORTZEN İzmir merkezli, Eskişehir'de aktif müşteriler ile uzaktan profesyonel kurulum."
+}

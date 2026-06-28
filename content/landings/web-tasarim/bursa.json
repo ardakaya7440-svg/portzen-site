@@ -1,0 +1,162 @@
+{
+  "type": "location",
+  "sectorSlug": "bursa",
+  "sectorName": "Bursa",
+  "sectorPlural": "Bursa'daki İşletmeler",
+  "title": "Bursa Web Tasarım | Kurumsal B2B + Local SEO - PORTZEN",
+  "description": "Bursa'daki tekstil, otomotiv, mobilya ve KOBİ'lere modern Next.js web tasarımı + lokal SEO + Google My Business. Nilüfer, Osmangazi, Görükle özelinde mahalle bazlı arama.",
+  "keywords": [
+    "bursa web tasarım",
+    "bursa nextjs site",
+    "bursa local seo",
+    "nilüfer web tasarım",
+    "bursa kurumsal site",
+    "bursa b2b web ajansı"
+  ],
+  "h1": "Bursa İçin Web Tasarım + Local SEO",
+  "heroSubtitle": "Nilüfer'den Osmangazi'ye, Görükle'den Mudanya'ya - sanayi ve KOBİ'nin ruhuna uygun, hızlı, mobil-uyumlu, çok dilli Next.js siteleri. Google My Business + B2B fuar landing dahil.",
+  "stats": [
+    {"value": "Next.js", "label": "Modern Stack"},
+    {"value": "%98", "label": "PageSpeed"},
+    {"value": "Local SEO", "label": "Dahil"},
+    {"value": "21 gün", "label": "Teslim"}
+  ],
+  "problems": [
+    "Bursa'daki tekstil veya mobilya firmanızın sitesi WordPress'te, mobilde 8 saniyede açılıyor, yurt dışı tedarikçi 'site açılmadan' rakibe gidiyor; Google da yavaş diye sıralamadan arkaya atıyor.",
+    "Google'da 'mahalle + sektör' aramada (örn. 'inegöl mobilya', 'nilüfer tekstil') rakipleriniz çıkıyor, sizin siteniz 4. sayfada; çünkü Google My Business profili ve lokal SEO yapılmamış.",
+    "Sitenizin mobil görünümü bozuk; oysa Bursa'da B2B aramaların %72'si telefondan yapılıyor. Form, harita, telefon butonu mobilde çalışmıyor, lead dönüşemiyor.",
+    "Yurt dışı (Almanya, İngiltere, Rusya) müşteri bekliyorsunuz ama siteniz tek dilli (sadece TR); fuar sonrası kart toplayan müşteri sitenize gelince ürünleri anlamıyor, kayboluyor.",
+    "Eski sitenizde KVKK aydınlatma metni yok, çerez politikası eksik; ihbar gelirse 1.8M TL ceza riskli, üstelik Google da KVKK uyumsuz siteleri arkaya atıyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Bursa Lokal Keşif",
+      "description": "Rakip analizi (Nilüfer, Osmangazi, İnegöl, Görükle mahalle bazında), Google My Business denetimi, mevcut sitenizin teknik audit'i. Hedef anahtar kelime haritası, B2B + B2C ayrı strateji."
+    },
+    {
+      "title": "Tasarım + Prototip",
+      "description": "Marka kimliğinize uygun, mobil-öncelikli, çok dilli (TR + EN + DE/RU opsiyonel) Figma tasarımı. Wireframe → high-fidelity → onay. 2 revizyon dahil."
+    },
+    {
+      "title": "Next.js Geliştirme",
+      "description": "React + Next.js 15 + Tailwind + Vercel deploy. PageSpeed %98+, SEO Schema.org, KVKK + GMB entegrasyonu, mahalle bazlı landing sayfaları, ihracatçı için çok dilli alt sayfalar."
+    },
+    {
+      "title": "Yayın + Local SEO Bakım",
+      "description": "Canlıya alma, Google Search Console kurulum, GMB optimizasyon, ilk 3 ay haftalık takip, aylık raporlama (Pro paket ve üzeri)."
+    }
+  ],
+  "features": [
+    {
+      "title": "Mahalle + Sektör Landing Sayfaları",
+      "description": "Nilüfer tekstil, İnegöl mobilya, OSB otomotiv yan sanayi gibi hedef mahalle + sektör kombinasyonlarına özel optimize alt sayfalar."
+    },
+    {
+      "title": "Çok Dilli B2B Site (TR + EN + DE)",
+      "description": "İhracatçı tekstil/mobilya/otomotiv yan sanayi için Türkçe + İngilizce + Almanca (opsiyonel) site. Fuar sonrası uluslararası müşteri kazanım için kritik."
+    },
+    {
+      "title": "Google My Business Optimizasyonu",
+      "description": "Profil tam kurulum, foto/post, müşteri yorum yönetimi, harita üzerinde 'pin' optimizasyon. İlk 3 ay haftalık güncelleme."
+    },
+    {
+      "title": "Next.js + Vercel Hız",
+      "description": "PageSpeed %98+, ilk paint <1 sn, mobil-öncelikli. Google'ın Core Web Vitals'ında yeşil. Yurt dışı müşteri için CDN ile <100ms."
+    },
+    {
+      "title": "Schema.org + LocalBusiness",
+      "description": "Coğrafi etiketleme, açılış saatleri, adres, telefon Schema markup. Google'a 'biz Bursa'dayız' diyen teknik altyapı."
+    },
+    {
+      "title": "KVKK + Çerez Uyumu",
+      "description": "Aydınlatma metni, açık rıza, çerez bandı, form izin yönetimi - hukuki uyum garantili."
+    }
+  ],
+  "caseStudy": {
+    "title": "Nilüfer'de bir tekstil ihracatçısı: 6 ayda organik trafik 0 → 4.200/ay, Avrupa'dan 18 B2B müşteri",
+    "paragraphs": [
+      "Nilüfer Beşevler'de ev tekstili üreten orta ölçekli bir firma, 2017'den kalma Türkçe-only WordPress sitesini kullanıyordu. Mobilde 9 saniyede açılıyor, KVKK uyumsuz, GMB profili eksikti. Fuara (Evteks, Heimtextil Frankfurt) gidiyor, kart topluyor ama Avrupalı alıcı sitelerine girdiğinde Türkçe görüp kapatıyordu. Google'da 'home textile manufacturer turkey', 'bursa tekstil ihracatçısı' aramada hiçbir yerde yoktular.",
+      "PORTZEN olarak Next.js + Tailwind ile sıfırdan, çok dilli (TR + EN + DE) modern site kurduk; 16 mahalle + sektör bazlı landing (nilüfer-ev-tekstili, bursa-ihracatçı, inegöl-perde vb.), Schema.org LocalBusiness etiketleme, GMB profili optimize, KVKK + çerez bandı tam uyum, Vercel CDN ile Avrupa'dan <80ms açılış.",
+      "6 ay sonunda organik trafik sıfırdan ay başı 4.200 ziyaretçiye çıktı. Avrupa'dan 18 yeni B2B müşteri kazanıldı (önceki yıl 4). Fuar sonrası web dönüşümü %1.8 oldu (önceki %0.3). Yatırım 3. ayında kendini amorti etti."
+    ],
+    "beforeAfter": [
+      {"label": "PageSpeed (Mobil)", "before": "28 (kırmızı)", "after": "97 (yeşil)"},
+      {"label": "Organik Trafik", "before": "0", "after": "4.200/ay"},
+      {"label": "Avrupa B2B Müşteri", "before": "4 (önceki yıl)", "after": "18"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Landing Sayfa",
+      "price": "12.000 TL",
+      "description": "Tek lokasyonlu işletme, danışman, butik klinik için (tek seferlik)",
+      "features": [
+        "Next.js + Tailwind tek sayfa",
+        "Mobil-öncelikli tasarım",
+        "Form + WhatsApp butonu",
+        "Temel SEO + Schema.org",
+        "KVKK + çerez uyum",
+        "1 yıl hosting dahil"
+      ]
+    },
+    {
+      "name": "Marka Sitesi",
+      "price": "28.000 TL + 2.000 TL/ay",
+      "description": "Kurumsal site, tekstil/mobilya/otomotiv KOBİ için (çok dilli opsiyonel)",
+      "features": [
+        "5-8 sayfa kurumsal site",
+        "5 mahalle/sektör bazlı landing",
+        "Google My Business kurulum",
+        "Tam local SEO + Schema",
+        "Aylık SEO bakım + rapor",
+        "Adanmış hesap yöneticisi"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "İhracatçı / E-Ticaret",
+      "price": "55.000 TL + 3.000 TL/ay",
+      "description": "Çok dilli ihracatçı sitesi, e-ticaret, çoklu şube, B2B portal için",
+      "features": [
+        "Next.js + Shopify/Medusa veya B2B portal",
+        "TR + EN + DE/RU dilleri",
+        "Sınırsız ürün/katalog",
+        "Sepet + ödeme (iyzico/PayTR) veya B2B teklif",
+        "Aylık SEO + ürün optimizasyon",
+        "Öncelikli destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Bursa lokal SEO ne demek, sıradan SEO'dan farkı ne?",
+      "answer": "Lokal SEO, 'mahalle + sektör' (örn. 'nilüfer tekstil', 'inegöl mobilya') aramada öne çıkmak için yapılan özel optimizasyon. Google My Business, Schema.org LocalBusiness, mahalle bazlı içerik, coğrafi etiketleme dahil."
+    },
+    {
+      "question": "Bursa'da 2.500'den fazla web ajansı var, neden sizi seçeyim?",
+      "answer": "Bursa'da web ajansı çok ama AI destekli + Next.js modern stack + lokal SEO odaklı çalışan birkaç tane. Hız (%98+ PageSpeed), KVKK uyumu, çok dilli ihracatçı odağı bizi ayırıyor. PORTZEN İzmir merkezli, Bursa'da 10+ aktif müşteri."
+    },
+    {
+      "question": "İhracatçıyım, çok dilli site (Almanca, Rusça) yapıyor musunuz?",
+      "answer": "Evet. Marka Sitesi paketinde TR + EN, İhracatçı pakette TR + EN + DE/RU/AR opsiyonu. Çeviri ekibimizle (sektörel terminoloji uzmanı) profesyonel çeviri yapılır, AI çeviri kullanmıyoruz."
+    },
+    {
+      "question": "Mobil tasarım Bursa için bu kadar önemli mi?",
+      "answer": "Evet. Bursa'da B2C aramaların %78'i, B2B aramaların %72'si mobilden. Tekstil/mobilya/otomotiv satın alıcısı çoğunlukla fuarda telefonla site açıyor; yavaş site = direkt müşteri kaybı."
+    },
+    {
+      "question": "Neden Next.js, WordPress kullansak olmaz mı?",
+      "answer": "WordPress eklenti karmaşası, hız sorunu, güvenlik açıkları yaratır. Next.js sıfır eklenti, %98+ hız, sıfır hack riski. Vercel CDN ile Avrupa-Türkiye arası 50ms açılış."
+    },
+    {
+      "question": "Mevcut WordPress sitemden geçiş zor mu?",
+      "answer": "Hayır. İçerik aktarımı, URL yönlendirme (301), SEO sıralama korunarak migration yapıyoruz. Eski URL'ler kaybolmaz."
+    },
+    {
+      "question": "Aylık SEO bakımı ne içeriyor?",
+      "answer": "Google Search Console takibi, sıralama raporu, içerik güncellemesi, GMB post yönetimi, teknik SEO audit, aylık 3 saat danışmanlık. Tam şeffaf rapor."
+    }
+  ],
+  "finalCtaHeadline": "Bursa'da Google'ın ilk sayfasına + Avrupa'ya çıkalım.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz site audit. Mevcut siteniz + rakipleriniz analiz, size özel local SEO + ihracat yol haritası. 21 günde yeni site canlı."
+}

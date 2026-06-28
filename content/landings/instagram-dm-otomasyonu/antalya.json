@@ -1,0 +1,162 @@
+{
+  "type": "location",
+  "sectorSlug": "antalya",
+  "sectorName": "Antalya",
+  "sectorPlural": "Antalya'daki Markalar",
+  "title": "Antalya Instagram DM Otomasyonu | Turistik & Çok Dilli - PORTZEN",
+  "description": "Antalya'daki otel, restoran, gezi ve kuyumcu için çok dilli (TR/EN/RU/DE) Instagram DM otomasyonu. Lara'dan Belek'e, yabancı follower'ı siparişe çeviren AI sistemi.",
+  "keywords": [
+    "antalya instagram dm otomasyonu",
+    "antalya sosyal medya ajansı",
+    "lara instagram yönetimi",
+    "antalya otel chatbot",
+    "belek instagram otomasyonu",
+    "antalya turizm reels"
+  ],
+  "h1": "Antalya İçin Instagram DM Otomasyonu (TR/EN/RU/DE)",
+  "heroSubtitle": "Konyaaltı'nda otel, Lara'da restoran, Belek'te golf rezort, Side'de gezi turu - Reels'ten gelen yabancı DM yağmurunu otomatik rezervasyona ve siparişe çeviriyoruz.",
+  "stats": [
+    {"value": "4 Dil", "label": "TR/EN/RU/DE"},
+    {"value": "%62", "label": "DM → Rezervasyon"},
+    {"value": "10 gün", "label": "Kurulum"},
+    {"value": "24/7", "label": "Sezonsal"}
+  ],
+  "problems": [
+    "Antalya otel veya restoran markanız Reels'le viral oluyor (yaz sezonu 200K+ erişim), gelen DM'lerin %70'i yabancı (Rus, Alman, İngiliz, Skandinav) ama ekibiniz İngilizce-only yanıt veriyor, müşteri kayboluyor.",
+    "Cumartesi sezon doruğunda Lara'daki restoranınıza 300-500 DM yağıyor; resepsiyon mutfak yoğun, müşteri 4 saat sonra cevap alıyor ve başka yere gidiyor.",
+    "Belek golf rezort veya Side gezi firması olarak Reels'lerinizden gelen 'price', 'how many days', 'kids menu' soruları akşam-gece-sabah farklı zaman dilimlerinden geliyor; ekip yetişemiyor.",
+    "Yaz sezon piki (Haziran-Ağustos) ile kış düşük tempo birbirine zıt; yıllık ekip kapasitesi sezona göre planlamak zor, donanım maliyeti yüksek.",
+    "Kuyumcu, halı satıcısı, hamam, dalış okulu - Antalya turistik perakendecisi Instagram'da viral ama 'ödeme nasıl', 'kargo Almanya'ya', 'tax-free var mı' sorularına otomatik cevap akışı yok."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Antalya Marka Analizi",
+      "description": "Son 90 günlük DM trafiğinize, Reels performansınıza, milliyet bazlı follower dağılımınıza bakıyoruz. Sezonsal trend (yaz piki + kış düşük tempo) AI'ya öğretiliyor."
+    },
+    {
+      "title": "Çok Dilli AI Konuşma Akışı",
+      "description": "TR + EN + RU + DE 4 dilli standart akış. Menü, fiyat, rezervasyon, tax-free, kargo, transfer, çocuk indirimi gibi 40-60 senaryo. Antalya lokal turizm tonu."
+    },
+    {
+      "title": "Reels → DM → Rezervasyon Funnel",
+      "description": "Belirli Reels'lere yorum yapana otomatik DM (dile göre), DM'den menü/katalog, rezervasyon takvimi, ödeme linki, PMS entegrasyonu opsiyonel."
+    },
+    {
+      "title": "Sezonsal Devreye Alma + Optimizasyon",
+      "description": "10 günde canlı, sonrası haftalık optimizasyon. Aylık dönüşüm raporu, milliyet/sezon bazlı analiz."
+    }
+  ],
+  "features": [
+    {
+      "title": "4 Dilli Otomatik Algılama",
+      "description": "Müşterinin yazdığı dilde anında cevap. TR/EN/RU/DE standart, NO/SV/DA Skandinav dilleri ve Arapça opsiyonel."
+    },
+    {
+      "title": "Reels Yorum → Otomatik DM",
+      "description": "Belirlediğiniz keyword (örn. 'menu', 'price', 'rezervasyon', 'цена') yazana otomatik DM atan akış. Reels yabancı erişimini paraya çeviriyor."
+    },
+    {
+      "title": "Çoklu Bölge Yönlendirmesi",
+      "description": "Konyaaltı + Lara + Belek + Side şubelerinizi tek hesaptan yönetip müşteriyi konumuna en yakın bölgeye yönlendiriyoruz."
+    },
+    {
+      "title": "Rezervasyon + Sipariş + Transfer",
+      "description": "DM'den tarih/saat/kişi sayısı seçimi, transfer talebi, oda rezervasyon, masa rezervasyonu, gezi turu kayıt - el değmeden tamamlanıyor."
+    },
+    {
+      "title": "Sezonsal Kampanya Modülü",
+      "description": "Erken rezervasyon, last-minute, kış indirim, golf paketi, dalış kampanyası için hazır şablonlar. Sezona göre otomatik aktive/deaktive."
+    },
+    {
+      "title": "Aylık Performans Raporu",
+      "description": "Kaç DM geldi (milliyet bazlı), kaçı rezervasyona döndü, hangi Reels en çok dönüştürdü - net rakamlarla raporlama."
+    }
+  ],
+  "caseStudy": {
+    "title": "Konyaaltı'nda bir restoran zinciri: Yaz sezonu Instagram DM'den 1.840 rezervasyon, ek ciro 380.000 TL",
+    "paragraphs": [
+      "Konyaaltı sahil yolunda 3 şubeli bir balık restoranı zinciri, Instagram'da haftada 5 Reels üretiyordu. Sezon piki Haziran-Ağustos'ta Reels erişim 180-340K'ya çıkıyor, DM yağmuru başlıyordu. Gelen DM'lerin %65'i yabancı (Rus, Alman, İngiliz), tek resepsiyon sadece TR + EN yanıt verebiliyordu. Cumartesi yaz akşamı rezervasyon DM'leri 3-5 saat sonra cevaplanıyor, müşteri Lara'daki rakibe gidiyordu.",
+      "PORTZEN olarak Instagram DM otomasyonunu kurduk; TR + EN + RU + DE 4 dilli AI ile menü kataloğu, masa rezervasyonu, transfer talebi, çocuk menüsü, glutensiz/vegan filtreleme, fiyat sorgusu, 3 şube arasında konum bazlı yönlendirme - 52 senaryo yüklendi. Reels altına 'menu' veya 'меню' yazana otomatik dile uygun cevap.",
+      "Yaz sezonu (4 ay) sonunda Instagram DM'den 1.840 rezervasyon geldi. Cumartesi-pazar doluluk %71'den %96'ya çıktı. DM'den ilk yanıt 4 saatten 25 saniyeye düştü. Rusça/Almanca konuşma akışı sayesinde Booking yorumlarında 'profesyonel iletişim' takdiri arttı; ek ciro 380.000 TL."
+    ],
+    "beforeAfter": [
+      {"label": "DM Yanıt Süresi", "before": "3-5 saat", "after": "25 saniye"},
+      {"label": "Hafta Sonu Doluluk", "before": "%71", "after": "%96"},
+      {"label": "Yaz Sezonu Ek Rezervasyon", "before": "Belirsiz", "after": "+1.840"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "8.500 TL/ay",
+      "description": "Tek lokasyonlu cafe, butik otel, küçük restoran için (TR + EN)",
+      "features": [
+        "Instagram DM otomasyonu kurulum",
+        "2 dil (TR + EN)",
+        "Aylık 1.500 DM kapasitesi",
+        "Reels yorum → DM tetikleyici",
+        "Aylık rapor",
+        "E-posta destek"
+      ]
+    },
+    {
+      "name": "Turizm Pro",
+      "price": "16.500 TL/ay",
+      "description": "Otel zinciri, golf rezort, restoran markası, tur operatörü için (4 dil)",
+      "features": [
+        "Her şey + 4 dil (TR/EN/RU/DE)",
+        "Aylık 5.000 DM kapasitesi (sezon esnek)",
+        "Rezervasyon + transfer akışı",
+        "PMS/Channel Manager entegrasyonu",
+        "Sezonsal kampanya şablonları",
+        "Öncelikli WhatsApp destek"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "30.000 TL/ay",
+      "description": "5+ yıldız otel, ulusal turizm markası için",
+      "features": [
+        "Her şey + sınırsız DM",
+        "Skandinav dilleri (NO/SV/DA) + Arapça",
+        "Çoklu hesap yönetimi (5 hesaba kadar)",
+        "Özel rapor dashboard",
+        "Adanmış Antalya hesap yöneticisi",
+        "SLA garantili destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Antalya'daki butik markama özel ton kuruluyor mu?",
+      "answer": "Evet. Marka kişiliğinize, hedef kitlenize (lüks otel premium ton, beach bar samimi ton vs.) uygun ayar yapıyoruz. Test aşamasında siz onaylamadan canlıya almıyoruz."
+    },
+    {
+      "question": "Rusça/Almanca DM gerçekten doğru cevaplanıyor mu?",
+      "answer": "Evet. Google Translate değil; GPT-4 + Claude tabanlı modeller + sektör fine-tuning. Test aşamasında Rus/Alman native speaker partnerimiz tüm akışları onaylıyor."
+    },
+    {
+      "question": "Yaz sezonu doruğunda sistem çöküyor mu?",
+      "answer": "Hayır. Altyapımız saatlik 5.000+ DM'i kaldırır. Turizm Pro pakette sezonsal scale-up otomatik."
+    },
+    {
+      "question": "Booking.com Channel Manager veya PMS entegrasyonu var mı?",
+      "answer": "Evet. Cloudbeds, Hotelinking, ELK, Otelz ve Booking.com Channel Manager Turizm Pro ve üzeri paketlerde standart."
+    },
+    {
+      "question": "Kış aylarında düşük tempo, sözleşme esnetilebilir mi?",
+      "answer": "Evet. Mayıs-Ekim Turizm Pro, Kasım-Nisan Başlangıç paketine geçiş yapılabilir. Yıllık sözleşmede %15 indirim."
+    },
+    {
+      "question": "Antalya'daki küçük markam için 8.500 TL/ay pahalı değil mi?",
+      "answer": "PORTZEN İzmir merkezli ama Antalya'da 18+ aktif müşterimiz var. Antalya'da yerel ajanslar benzer hizmet için %30 daha fazla istiyor. Tek müşteri ile paket kendini amorti ediyor; ilk 10 gün ücretsiz pilot."
+    },
+    {
+      "question": "Instagram hesabımın kapatılma riski var mı?",
+      "answer": "Hayır. Meta'nın resmi Instagram Messaging API'sini kullanıyoruz; 3. parti araç değil. Politika ihlali riski yok."
+    }
+  ],
+  "finalCtaHeadline": "Antalya'daki yabancı follower'ı rezervasyona çevirelim.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif. Reels performansınıza + milliyet dağılımınıza bakıp 4 dilli funnel kuralım. 10 günde devrede."
+}

@@ -1,0 +1,110 @@
+{
+  "type": "location",
+  "sectorSlug": "gaziantep",
+  "sectorName": "Gaziantep",
+  "sectorPlural": "Gaziantep İşletmeleri",
+  "title": "Gaziantep AI Reklam Videosu | Baklava Studio Çekim + Antep Mutfak Sinematik - PORTZEN",
+  "description": "Gaziantep Şahinbey baklava studio çekiminden, Antep mutfak sinematik atmosferine, Şehitkamil fıstık ve OSB tekstil ihracat tanıtımına AI reklam videosu üretimi.",
+  "keywords": ["gaziantep reklam videosu", "baklava studio cekim", "antep mutfak sinematik", "sahinbey ihracat tanitim", "sehitkamil fistik video", "ai video uretim gaziantep"],
+  "h1": "Gaziantep İşletmeleri için AI Reklam Videosu",
+  "heroSubtitle": "Şahinbey baklava studio çekiminden, Antep mutfak sinematik atmosferine, Şehitkamil fıstık ve OSB tekstil ihracat tanıtımına. Veo 3, Kling, Runway ile çekim ekibi olmadan 5 günde uluslararası kalite reklam. PORTZEN İzmir merkezli, Gaziantep'te aktif müşteriler uzaktan.",
+  "stats": [
+    {"value": "5 gün", "label": "Ortalama Teslim"},
+    {"value": "4K", "label": "Çözünürlük"},
+    {"value": "TR + EN + AR", "label": "Çoklu Dil"},
+    {"value": "Veo 3 + Kling", "label": "Premium AI"}
+  ],
+  "problems": [
+    "Şahinbey'de baklava üretiyorsunuz, ürünü stüdyo kalitesinde göstermek istiyorsunuz, profesyonel yemek fotoğrafçısı tek çekim için 15-25K TL istiyor",
+    "Antep mutfağı UNESCO ile dünya çapında ama tanıtım videolarınız telefon çekimi amatör duruyor, uluslararası pazarda prestij yok",
+    "Şehitkamil'de Antep fıstığı online satıyorsunuz, ürünün dokusu, parlaklığı, kalitesi reklamda hissedilmeli, mevcut videolar düz duruyor",
+    "OSB'de tekstil veya halı üretiyorsunuz, fabrika tanıtımı için video lazım, çekim ekibi 3 gün fabrikaya gelse 80-120K TL",
+    "Güllüoğlu, İmam Çağdaş, Koçak gibi büyük rakiplerin sinematik reklamlarına rakip içerik üretmek istiyorsunuz, bütçe yetmiyor",
+    "İhracat için TR + EN + AR dilli reklam lazım, ajansa her dil ayrı maliyet, toplam 60-90K TL bütçe çıkıyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Konsept + Hedef Pazar + Senaryo", "description": "Hangi hedef (yerli baklava, Arap pazarı, Avrupa pazarı, ABD, B2B tekstil), hangi platform (Instagram Reels, TikTok, Meta Ads, YouTube), hangi süre? Gaziantep ürün ve atmosfer hikayesi çıkartıyoruz."},
+    {"title": "2. AI Video Üretimi (Veo 3 + Kling)", "description": "Veo 3 (Türkçe + Arapça diyalog), Kling 2.0 (sinematik close-up, doku), Runway Gen-3 (hız) modellerinden seçim. Baklava buharı, fıstık dokusu, Antep sokakları, fabrika atmosferi prompt mühendisliği."},
+    {"title": "3. Çoklu Dil Seslendirme + Müzik", "description": "Türkçe + İngilizce + Arapça seslendirme (AI veya stüdyo). Antep mutfak müziği veya modern minimal soundtrack, marka kimliği uyumu. Renk derecelendirme."},
+    {"title": "4. Çoklu Pazar Format Teslim", "description": "Aynı reklamı Instagram Reels (9:16), TikTok (9:16), Meta Ads (1:1 + 4:5), YouTube Shorts (9:16), YouTube uzun (16:9), web header (16:9) formatlarında. 3 dilde."}
+  ],
+  "features": [
+    {"title": "Baklava Studio Close-Up Çekim", "description": "Baklava katmer katmer açılırken, fıstık serpilirken, şurup damlarken close-up. Veo 3 ile profesyonel yemek fotoğrafçısı kalitesinde. İhracat pazarı için prestij."},
+    {"title": "Antep Mutfak Sinematik Atmosfer", "description": "Antep sokakları, bakır kazanlar, geleneksel pişirme, fıstık tarlaları. UNESCO Yemek Şehri marka hikayesi sinematik anlatım. Yurt dışı pazar için kültürel hikaye."},
+    {"title": "Fıstık + Kuyumcu + Tekstil Ürün Vurgu", "description": "Ürün dönerken, ışık değişirken, doku close-up. Premium AI ile sanat filmi atmosferi. İhracat ve yurt dışı pazarda ürünü prestijli göstermek için."},
+    {"title": "Çoklu Dil Seslendirme (TR + EN + AR)", "description": "Aynı reklamın Türkçe + İngilizce + Arapça versiyonları. ElevenLabs çok dilli AI ses veya stüdyo seslendirme. Suudi pazarı için Arap aksanlı seçim mümkün."},
+    {"title": "Ramazan + Bayram Kampanya Reklamı", "description": "Sezon özel reklamlar - Ramazan iftar baklava, Bayram özel kutusu, Kurban Bayramı geleneksel. Aynı konseptin sezona göre 3-4 varyasyonu."},
+    {"title": "B2B Fabrika Tanıtım Videosu", "description": "OSB tekstil, halı, mutfak gereçleri için fabrika tanıtım. Üretim hattı, kalite kontrol, sertifika sahnesi. AI ile fabrika dış çekim + iç çekim sahnelendirme."}
+  ],
+  "caseStudy": {
+    "title": "Şahinbey - Baklava İhracat: AI Reklam ile Meta Ads ROAS 3.8x, Suudi Pazarı %180 Büyüme",
+    "paragraphs": [
+      "Şahinbey'de aile geleneği baklava üreten + ihracat yapan firma 2025 Şubat'ında PORTZEN'e geldi. Meta Ads kampanyaları amatör telefon çekimi videolarla yürüyordu, ROAS 1.4x'te kalıyordu (her 100 TL reklamdan 140 TL satış). Suudi ve BAE pazarında rakipler (Güllüoğlu, Hafız Mustafa) sinematik reklamlarla pazarın çoğunu alıyordu.",
+      "8 günde 6 farklı AI reklam ürettik - biri Antep mutfak hikayesi (Antep sokakları, bakır kazan, geleneksel pişirme), biri baklava close-up (katmer açılışı, fıstık serpilmesi, şurup), biri Ramazan iftar konsepti (Arapça seslendirme), biri B2B distribütör çağrısı (İngilizce), biri Bayram kutusu (Türkçe), biri fabrika tanıtım. Hepsi Veo 3 + Kling kombinasyonu, üç dil.",
+      "İlk 60 günde Meta Ads ROAS 1.4x'ten 3.8x'e çıktı (her 100 TL reklamdan 380 TL satış). Suudi Arabistan pazarında satış %180 büyüdü (Arapça reklam viral oldu, organik paylaşım çoğaldı). Toplam video maliyeti 32K TL, çekim ekibi alternatifi 145K TL idi - %78 tasarruf."
+    ],
+    "beforeAfter": [
+      {"label": "Meta Ads ROAS", "before": "1.4x", "after": "3.8x"},
+      {"label": "Suudi Pazarı Satış Büyümesi", "before": "Baz", "after": "+180%"},
+      {"label": "Video Üretim Maliyeti", "before": "145K TL", "after": "32K TL"},
+      {"label": "Yeni Reklam Üretim Süresi", "before": "4-6 hafta", "after": "5-8 gün"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Tek Video",
+      "price": "5.500 TL",
+      "description": "Tek seferlik test, küçük kampanya",
+      "features": [
+        "1 reklam videosu (15-30 sn)",
+        "Veo 3 veya Kling",
+        "TR seslendirme + altyazı",
+        "3 format (Reels + Feed + Story)",
+        "2 revizyon",
+        "5 gün teslim"
+      ]
+    },
+    {
+      "name": "Kampanya Paketi",
+      "price": "14.500 TL",
+      "description": "Gaziantep ihracatçı KOBİ'leri için en popüler",
+      "features": [
+        "5 reklam videosu (farklı hook + CTA)",
+        "Veo 3 + Kling kombinasyonu",
+        "TR + EN + AR üç dilli seslendirme",
+        "Tüm formatlar (Reels + TikTok + Meta Ads + YouTube)",
+        "A/B test varyasyonu",
+        "Ramazan/Bayram özel versiyon",
+        "Sınırsız revizyon (3 tura kadar)",
+        "10 gün teslim"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Aylık",
+      "price": "26.000 TL/ay",
+      "description": "Sürekli içerik üretimi, agresif ihracat",
+      "features": [
+        "Aylık 12 reklam videosu",
+        "Veo 3 + Kling + Runway tüm modeller",
+        "TR + EN + AR + FR + DE beş dilli",
+        "Stüdyo seslendirme dahil",
+        "Trend takip + viral hook stratejisi",
+        "Meta Ads + TikTok Ads optimize",
+        "Aylık performans raporu",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "AI ile çekilen baklava videoları gerçek mi?", "answer": "Veo 3 ve Kling 2.0 ile üretilen yemek videoları stüdyo çekiminden ayırt edilemiyor. Baklava katmer açılışı, fıstık dokusu, şurup damlaması close-up'lar çok güçlü. Sizden 2-3 referans fotoğraf alıyoruz, AI sahneyi inşa ediyor."},
+    {"question": "Antep sokakları, fabrika gibi gerçek mekanları AI nasıl gösterecek?", "answer": "İki yöntem: (1) Stok görsel + AI ile dramatize. (2) Sizden telefon fotoğrafları alıyoruz (fabrika, sokak), image-to-video ile sinematize ediyoruz. Antep için arşivde yüzlerce referans var, atmosfer net çıkıyor."},
+    {"question": "Arapça seslendirme kalitesi nasıl?", "answer": "ElevenLabs Arapça çok kaliteli, Suudi/Mısır/Körfez aksanı seçimi var. Premium pakette stüdyo seslendirme (gerçek Arap seslendirmen) dahil - ek 2.500 TL/dil. Suudi pazarına ses Suudi aksanlı olmalı, biz bunu yönetiyoruz."},
+    {"question": "İhracat için aynı reklamın 3 dilli versiyonu sorunsuz mu?", "answer": "Evet, aynı görseller üzerine ses + altyazı değişiyor. Üretim verimliliği yüksek. Kampanya paketinde TR + EN + AR standart, Premium'da TR + EN + AR + FR + DE."},
+    {"question": "Ramazan kampanyası özel reklam ne kadar sürede yetişir?", "answer": "Ramazan 1 ay önce kontak kurarsanız sezona yetişir. Konsept (iftar baklava, sahur, Ramadan special) belirleyip 7-10 günde teslim. Suudi ve Körfez pazarı için Arapça seslendirme + Ramazan atmosferi sinematik."},
+    {"question": "Meta Ads veya TikTok Ads'de doğrudan kullanabilir miyim?", "answer": "Evet, tüm formatlar her platform için optimize. Meta Ads (Reels, Feed, Story, Carousel), TikTok Ads (9:16), YouTube Shorts/Ads. Ek hizmet: kampanya kurulum ve yönetim (ayrı paket)."},
+    {"question": "Çekim ekibi 145K TL, AI 32K TL - kalite farkı ne?", "answer": "Sinematik kısa çekimlerde (5-30 sn) fark yok, izleyici ayırt edemiyor. Uzun belgesel veya insan diyaloğu için çekim ekibi hala üstün. Sizin durumunuzda (yemek + atmosfer + ürün close-up) AI maliyet/kalite oranı çok daha iyi."}
+  ],
+  "finalCtaHeadline": "Gaziantep markanız için ilk AI reklam videosu 5 günde teslim",
+  "finalCtaSubtitle": "30 dakikalık Zoom brief görüşmesi yeterli. Hedef pazar (Türkiye / Arap / Avrupa), ürün ve konsept üzerinde anlaşalım, baklava close-up'ından Antep mutfak sinematik'e Gaziantep sektörünüze özel video üretelim. PORTZEN İzmir merkezli, Gaziantep'te aktif ihracatçılar uzaktan."
+}

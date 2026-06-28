@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "petshop",
+  "sectorName": "Petshop",
+  "sectorPlural": "Petshoplar",
+  "title": "Petshoplar İçin Instagram DM Otomasyonu | Sevimli Hayvan Reels + Mama Lead - PORTZEN",
+  "description": "Petshoplar için Instagram DM otomasyonu. Sevimli evcil hayvan video yorumlarına otomatik yanıt, DM'den mama sipariş, ırk bazlı ürün önerisi, abonelik müşterisi kazanma.",
+  "keywords": ["petshop instagram", "mama sipariş dm", "petshop chatbot instagram", "evcil hayvan reels", "kedi köpek instagram", "petshop sosyal medya"],
+  "h1": "Petshoplar için Instagram DM Otomasyonu",
+  "heroSubtitle": "Sevimli evcil hayvan reels yorumlarına otomatik yanıt, DM'den mama sipariş, ırk bazlı ürün önerisi, abonelik müşterisi kazanma. Viral videolarınızı gerçek satışa dönüştürün.",
+  "stats": [
+    {"value": "%88", "label": "DM Yanıt Oranı"},
+    {"value": "10 sn", "label": "Ortalama Yanıt"},
+    {"value": "8 gün", "label": "Devreye Alma"},
+    {"value": "WhatsApp", "label": "Pay Entegre"}
+  ],
+  "problems": [
+    "Sevimli kedi/köpek videolarınız 50K+ izleniyor ama gelen 'bu mama hangisi?' yorumları cevapsız kalıyor",
+    "DM'den 'Pers kedim için mama önerisi?' yazan müşteri 3 saat bekledikten sonra Trendyol'a gidiyor",
+    "Reels viral oluyor, gelen 200+ DM'i yönetemiyorsunuz, lead'ler kayboluyor, satışa dönmüyor",
+    "Profil bio'sundaki link kimseye iş yaramıyor, oysa DM'den yazmaya daha açıklar",
+    "Mevcut müşterilerle yeni takipçileri ayırt edemiyorsunuz, herkese aynı tarzda yanıt veriyorsunuz",
+    "Hayvansever takipçileriniz var ama abonelik mama sistemine çekemiyorsunuz, manuel hatırlatma yapamıyorsunuz"
+  ],
+  "solutionSteps": [
+    {"title": "1. İçerik & SSS Brief", "description": "Mevcut Instagram içeriklerinizi (reels, sevimli hayvan videoları), gelen yorum türlerini, sıkça sorulan müşteri sorularını (mama önerisi, fiyat, stok) analiz ediyoruz. Hangi içeriğin hangi mesajı tetiklediğini haritalıyoruz."},
+    {"title": "2. Yorum Anahtar Kelime Akışları", "description": "Belirli kelimeler ('mama', 'fiyat', 'satılık', 'irk') geldiğinde otomatik DM yanıtları kuruluyor. Public yorum 'DM'den detay' diyor, DM'de tam bilgi + ürün önerisi geliyor - rakipler fiyatınızı görmüyor."},
+    {"title": "3. DM Akışı + Mama Önerisi + Sipariş", "description": "AI asistanı müşteri ile sohbet ediyor - hayvan ırkı, yaşı, kilo, alerji sorularını sıcak hayvansever dille soruyor, doğru mamayı öneriyor, sipariş + ödeme bağlantısı gönderiyor (WhatsApp Pay veya Iyzico)."},
+    {"title": "4. ManyChat + Meta API Devreye Alma", "description": "Instagram Business hesabınıza ManyChat üzerinden bağlanıyoruz. 5 günlük test fazı, ince ayar, sonra tam yayın. Abonelik akışı + mevcut müşteri segmentasyonu dahil."}
+  ],
+  "features": [
+    {"title": "Sevimli Video Yorum-DM Köprüsü", "description": "Sevimli kedi yavrusu reels'ine 'bu mama hangisi?' yorumu geldi mi sistem public yanıt veriyor 'DM'den detay attık', DM'de ise ürün adı + fiyat + sipariş bağlantısı. Anında satış."},
+    {"title": "Irk + Yaş Bazlı Akıllı Öneri", "description": "DM'de 'Golden Retriever 6 aylık' diyen müşteriye AI 'Pro Plan Puppy Large Breed 12 kg' önerip 'gönderelim mi?' diyor. Doğru öneri = sadık müşteri. Veteriner bilgisi gerekiyorsa yönlendiriyor."},
+    {"title": "Mevcut Müşteri vs Yeni Takipçi Ayrımı", "description": "DM atan kişi takipçi mi, daha önce sipariş vermiş mi kontrol ediliyor. Mevcut müşteri ise 'merhaba Ayşe Hanım, Patiş'in maması bitti mi?' tonu, yeni takipçi için tanıtım tonu."},
+    {"title": "Mama Abonelik Çekme", "description": "İlk siparişten sonra AI 'her ay aynı mamayı otomatik göndereyim mi? %15 indirimle?' diye soruyor. Müşteri onaylarsa abonelik açılır, 25-28 gün sonra hatırlatma + onay mesajı gider."},
+    {"title": "Story Cevap Otomasyonu", "description": "Story'lere 'oyuncak öneriyor musunuz?', 'akvaryum balığı bakımı?' gibi cevaplar geldiğinde AI hayvansever bir tonda yanıtlıyor, ürün öneri DM diyaloğuna çekiyor."},
+    {"title": "Doğum Günü & Sezonsal Kampanya", "description": "Müşterinin evcil hayvanının adını ve doğum tarihini biliyorsanız AI özel mesaj atıyor: 'Patiş'in doğum günü için %20 indirimli oyuncak hediyemiz var'. Sevgililer Günü pati, yılbaşı kemik kampanyaları otomatik."}
+  ],
+  "caseStudy": {
+    "title": "Karşıyaka Mırnav Petshop - DM'den Aylık 84 Sipariş, Reels Viral Oldu Satış 3.4x Arttı",
+    "paragraphs": [
+      "Karşıyaka'da 5 yıllık aile işletmesi Mırnav Petshop 2024 Kasım'da PORTZEN'e geldi. Instagram'da 12 bin takipçi, sevimli kedi-köpek videoları viral oluyordu (haftada 1 reels 30-80 bin izleniyordu). Ancak gelen 'bu mama hangisi?', 'fiyat?' yorumlarına cevap yetiştirilemiyordu, satışa dönüşüm minimaldi. Sahibi 'video izlenmek için değil, satış için' diyordu.",
+      "8 günde Profesyonel paketle Instagram DM otomasyonunu devreye aldık - yorum-DM köprüsü (4 anahtar kelime), ırk-yaş bazlı öneri, ödeme bağlantısı (Iyzico), mama abonelik akışı, mevcut müşteri segmentasyonu. AI ses tonunu Mırnav'ın markasına özel eğittik (sıcak, hayvansever, samimi).",
+      "İlk ay DM yanıt oranı %42'den %94'e çıktı. Aylık DM kaynaklı sipariş 18'den 84'e ulaştı. Aralık'ta bir Golden Retriever yavrusu reels'i 187K izlendi, gelen 412 DM'in 388'i otomatik yanıtlandı, 56'sı siparişe dönüştü (toplam 38.000 TL ciro tek videoda). Mama abonelik müşterisi 3 ayda 8'den 78'e çıktı - sürekli gelir oluştu."
+    ],
+    "beforeAfter": [
+      {"label": "DM Yanıt Oranı", "before": "%42", "after": "%94"},
+      {"label": "Aylık DM Kaynaklı Sipariş", "before": "18", "after": "84"},
+      {"label": "Mama Abonelik Müşterisi", "before": "8", "after": "78"},
+      {"label": "Reels Viral Dönüşüm Oranı", "before": "%0.4", "after": "%13.6"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "9.000 TL + 1.500 TL/ay",
+      "description": "Yeni Instagram hesapları ve butik petshoplar için",
+      "features": [
+        "ManyChat kurulumu",
+        "15 SSS otomatik yanıt akışı",
+        "Yorum-DM köprüsü (3 anahtar kelime)",
+        "Temel ürün önerisi (50 ürün)",
+        "Iyzico ödeme bağlantısı",
+        "Mesai dışı otomatik yanıt",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "18.000 TL + 2.800 TL/ay",
+      "description": "Aktif sosyal medya hesabı olan petshoplar için en popüler paket",
+      "features": [
+        "Sınırsız SSS + AI sohbet asistanı",
+        "Sınırsız ürün katalogu",
+        "Irk + yaş bazlı akıllı öneri",
+        "Mama abonelik çekme akışı",
+        "Mevcut müşteri segmentasyonu",
+        "Story cevap otomasyonu",
+        "Doğum günü & sezonsal kampanya",
+        "Aylık etkileşim ve satış raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "32.000 TL + 4.500 TL/ay",
+      "description": "Zincir petshoplar, çoklu şube ve e-ticaret için",
+      "features": [
+        "Çoklu Instagram hesabı yönetimi",
+        "Shopify / IdeaSoft entegrasyonu",
+        "Trendyol stok senkronizasyonu",
+        "Reels viral olduğunda otomatik scale",
+        "Veteriner randevu modülü",
+        "İçerik takvimi danışmanlığı",
+        "Özel proje yöneticisi",
+        "Aylık strateji görüşmesi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Instagram DM otomasyonu kurmak için kaç takipçi gerekli?", "answer": "Teknik olarak takipçi şartı yok, Instagram Business hesabınız olması yeterli. Ancak DM trafiği 2.000 takipçi altında düşük olduğu için yatırım geri dönüşü 3.000+ takipçi sonrası anlamlı oluyor. Petshoplar için sevimli hayvan videoları viral olduğu için takipçi büyümesi hızlı, başlangıç 1.500 takipçi olsa bile 2 ayda 5K+ oluyor."},
+    {"question": "ManyChat ücreti ayrı mı?", "answer": "Evet, ManyChat Pro aylık 15 USD'den başlıyor (~500 TL). Profesyonel ve Kurumsal pakette ManyChat dahil - ayrı ödeme yok. Başlangıç paketinde Pro Lite (sınırlı) kullanıyoruz, büyüdükçe Pro'ya geçiyoruz."},
+    {"question": "Akıllı ürün önerisi yanlış mama önerirse?", "answer": "AI riski olmayan öneriler veriyor - ırk + yaş + kilo bilgisine göre popüler ve güvenli markalar (Royal Canin, Hills, Pro Plan). Alerji veya hastalık (mide hassasiyeti, böbrek) durumunda 'lütfen veterinerinizle danışın' diyor, kendi başına 'tedavi' önermiyor. İlk 30 gün tüm önerileri izliyoruz, ince ayar yapıyoruz."},
+    {"question": "Meta'nın 24 saat kuralı ne demek?", "answer": "Instagram, kullanıcı size mesaj attıktan sonra 24 saat içinde yanıt vermenize izin veriyor. 24 saat geçince sadece onaylı template mesaj gönderebiliyorsunuz. AI asistanımız anında yanıt verdiği için bu sınır sorun değil - kampanya mesajları için template ayarlıyoruz (doğum günü, sezonsal indirim)."},
+    {"question": "Reels viral olursa sistem çakılır mı?", "answer": "Hayır, ManyChat + Meta API saatte 1000+ DM yanıtlayabiliyor. Vaka çalışmamızdaki Mırnav Petshop Golden Retriever videosu viral olduğunda saatte 80 DM geldi, hepsi 30 saniye içinde yanıtlandı. Kurumsal pakette saatlik otomatik scale var (özellikle kampanya başında yararlı)."},
+    {"question": "Abonelik müşterisi nasıl çekiliyor?", "answer": "İlk siparişten sonra AI 'her ay aynı mamayı otomatik göndereyim mi? %15 indirimle?' diye soruyor. Müşterinin %40-60'ı evet diyor (mama tekrarlanan ihtiyaç olduğu için). Sonrasında 25-28 gün döngüsünde otomatik hatırlatma + onay mesajı atılıyor. Abone ortalama 11 ay devam ediyor - lifetime value yüksek."},
+    {"question": "Mesaj tonunu markamıza özel mi yapıyorsunuz?", "answer": "Evet, Profesyonel ve Kurumsal pakette AI ses tonu özel eğitiliyor. Mevcut DM yazışmalarınızdan örnek topluyoruz (sıcak/samimi, emoji kullanımı, evcil hayvana 'patiş', 'minnoş' gibi hitap), AI'ı o tonda eğitiyoruz. Hayvansever bir tonda konuştuğu için müşteriler 'gerçek insan sanmış' diyor."}
+  ],
+  "finalCtaHeadline": "Bir sonraki viral reels'inizden 50 sipariş alın",
+  "finalCtaSubtitle": "15 dakikalık brief görüşmesi yeterli. Mevcut Instagram trafiğinizi analiz edip ücretsiz dönüşüm potansiyeli raporu hazırlıyoruz. Sevimli videolarınız satışa dönsün."
+}

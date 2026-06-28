@@ -1,0 +1,110 @@
+{
+  "type": "location",
+  "sectorSlug": "eskisehir",
+  "sectorName": "Eskişehir",
+  "sectorPlural": "Eskişehir İşletmeleri",
+  "title": "Eskişehir CRM Otomasyonu | Üni Öğrenci Abonelik + KOBİ Müşteri Takip - PORTZEN",
+  "description": "Eskişehir Tepebaşı üniversite öğrenci aboneliklerinden, Odunpazarı butik kafe sadakatine, çiğ börek ve lokum siparişlerine özel CRM ve müşteri otomasyonu sistemi.",
+  "keywords": ["eskisehir crm sistemi", "tepebasi musteri yonetimi", "odunpazari sadakat sistemi", "anadolu universitesi abonelik", "esogu kobi crm", "eskisehir musteri takip"],
+  "h1": "Eskişehir İşletmeleri için CRM Otomasyonu",
+  "heroSubtitle": "Tepebaşı üniversite öğrenci aboneliklerinden, Odunpazarı butik kafe sadakatine, çiğ börek ve lokum müşteri segmentasyonuna. WhatsApp + Email + SMS entegre CRM. PORTZEN İzmir merkezli, Eskişehir'de aktif müşteriler uzaktan.",
+  "stats": [
+    {"value": "3 kanal", "label": "WhatsApp + Email + SMS"},
+    {"value": "%62", "label": "Tekrar Satış Artışı"},
+    {"value": "2 hafta", "label": "Kurulum"},
+    {"value": "Sınırsız", "label": "Müşteri Kayıt"}
+  ],
+  "problems": [
+    "Tepebaşı'nda kahve aboneliği, kitap kulübü veya yemek paketi servisi yapıyorsunuz, üyeleri Excel'de tutuyorsunuz, yenileme tarihi gelince hatırlamıyorsunuz",
+    "Odunpazarı butik kafede sadık müşterileriniz var ama 'son ziyaret 3 ay önce' diyebilecek bir sistemden yoksunuz, eski müşteriyi geri kazanma kampanyası yapamıyorsunuz",
+    "Çiğ börekçi, lokumcu veya midye dolma satışında siparişleri WhatsApp + telefon + Instagram'dan alıyorsunuz, hangi müşteri ne sıklıkta sipariş veriyor görmüyorsunuz",
+    "Üniversite dönem başı (Eylül + Şubat) müşteri patlaması oluyor, segmentleyip kampanya atamıyorsunuz, herkese aynı mesajı yolluyorsunuz",
+    "Yenibağlar veya Çamlıca'da seramik atölyeniz var, workshop kayıtlarını Google Form'da topluyorsunuz, hatırlatma + tekrar davet otomasyonunuz yok",
+    "Sahibinin kafasında 'Ahmet bey her çarşamba çiğ börek alır' bilgisi var, sahip izinli olunca kimse Ahmet beyle ilgilenmiyor, müşteri kaçıyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Mevcut Müşteri + Sipariş Verisi Analiz", "description": "Excel, WhatsApp arşivi, Instagram DM, e-ticaret platformu, Google Form vs nereden müşteri verisi geliyor? Hepsini tek CRM'e migrasyon planı. Eskişehir'deki sektör profilinize göre özelleştirme."},
+    {"title": "2. CRM Setup (HubSpot veya Özel)", "description": "İhtiyaca göre HubSpot (ücretsiz başlangıç + ölçeklenebilir) veya özel kod CRM. Müşteri kartları, sipariş geçmişi, segment etiketleri, ziyaret/satın alma tarihleri. Sanity CMS, Shopify, WooCommerce entegrasyonu."},
+    {"title": "3. Otomasyon Akışları Kurulum", "description": "Yeni müşteri hoşgeldin mesajı, 30 gün sessiz kalan müşteriye 'özledik' WhatsApp, doğum günü kampanyası, abonelik yenileme hatırlatma, üni dönem başı segmentli kampanya. WhatsApp + Email + SMS."},
+    {"title": "4. Sahip Dashboard + Raporlama", "description": "Aylık yeni müşteri, tekrar satış oranı, ortalama sipariş tutarı, kampanya dönüşüm raporu. Sahip telefondan görüyor, ekibe paylaşıyor. Performansı görür hale geliyorsunuz."}
+  ],
+  "features": [
+    {"title": "Müşteri 360 Görünüm", "description": "Her müşterinin tüm sipariş geçmişi, son ziyaret tarihi, ortalama harcama, favori ürün, doğum günü, etiketleri (öğrenci/turist/VIP) tek ekranda."},
+    {"title": "30 Gün Sessiz Müşteri Otomasyonu", "description": "Son 30 günde sipariş vermemiş müşteriye otomatik 'özledik, %15 indirim kuponu' WhatsApp. Tepebaşı butik takı vakasında geri dönen müşteri oranı %38."},
+    {"title": "Abonelik Yenileme Hatırlatma", "description": "Üni öğrenci kahve aboneliği, kitap kulübü, yemek paketi gibi servisler için yenileme 7 gün öncesi otomatik mesaj. Sahibe görev düşmüyor."},
+    {"title": "Doğum Günü + Özel Tarih Kampanyası", "description": "Müşterinin doğum gününde otomatik indirim kuponu + tebrik. Bayram, sevgililer, anneler günü gibi tarihlerde toplu segmentli kampanya."},
+    {"title": "Üni Dönem Başı Segmentli Kampanya", "description": "Eylül + Şubat dönem başında 'üniversite öğrencisi' segmentine özel kampanya, sürekli müşteriye sadakat ödülü, yeni müşteriye hoşgeldin paketi. Hepsi farklı mesaj, otomatik."},
+    {"title": "Sahip Dashboard + Aylık Rapor", "description": "Toplam müşteri, aylık yeni kayıt, tekrar satış oranı, en çok satan ürün, kampanya ROI. Telefon + tablet + bilgisayar üzerinden erişim."}
+  ],
+  "caseStudy": {
+    "title": "Tepebaşı - Üni Öğrenci Kahve Aboneliği: 8 Ayda 240 Aboneden 720'ye, Yenileme Oranı %94",
+    "paragraphs": [
+      "Tepebaşı'nda Anadolu Üniversitesi yakınında öğrenci ve genç çalışanlara aylık kahve aboneliği (4 paket/ay teslimat) yapan bir girişim 2025 Şubat'ında PORTZEN'e geldi. 240 aktif aboneleri vardı ama Excel'de tutuyorlardı, yenileme tarihi gelince sahibi tek tek mesaj atıyordu, çoğu zaman unutuyordu, abonelik kaybı aylık %18 idi.",
+      "HubSpot Free + WhatsApp Business API + Stripe abonelik entegrasyonu 2 hafta içinde kuruldu. Her abone için müşteri kartı, sipariş geçmişi, tercih ettiği kahve, yenileme tarihi sistemde. Otomasyon: yenileme 7 gün önce WhatsApp hatırlatma, 1 gün kala SMS, yenilemediyse 3 gün sonra 'özel indirim' mesajı. Doğum günü + dönem başı kampanyaları da otomatik.",
+      "8 ayın sonunda abone sayısı 240'tan 720'ye çıktı (3 katı). Yenileme oranı %82'den %94'e yükseldi. Sahibinin aylık abone yönetim süresi 25 saatten 4 saate düştü. Dönem başı segmentli kampanya ile bahar döneminde tek hafta 95 yeni abone kazanıldı. Aylık ek gelir 38K TL."
+    ],
+    "beforeAfter": [
+      {"label": "Aktif Abone Sayısı", "before": "240", "after": "720"},
+      {"label": "Aylık Yenileme Oranı", "before": "%82", "after": "%94"},
+      {"label": "Sahip Aylık Yönetim Süresi", "before": "25 saat", "after": "4 saat"},
+      {"label": "Aylık Abonelik Geliri", "before": "48K TL", "after": "144K TL"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "9.000 TL kurulum + 1.200 TL/ay",
+      "description": "Küçük işletme, ilk CRM deneyimi",
+      "features": [
+        "HubSpot Free kurulumu",
+        "WhatsApp Business API entegrasyonu",
+        "Müşteri kartı + 5 etiket segmenti",
+        "3 otomasyon akışı (hoşgeldin, sessiz, doğum günü)",
+        "Aylık 1.000 mesaj dahil",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "16.000 TL kurulum + 2.500 TL/ay",
+      "description": "Eskişehir KOBİ'leri için en popüler paket",
+      "features": [
+        "HubSpot Pro veya özel CRM",
+        "WhatsApp + Email + SMS entegre",
+        "Sınırsız müşteri + 20 segment",
+        "10+ otomasyon akışı",
+        "E-ticaret + Sanity entegrasyonu",
+        "Sahip dashboard + aylık rapor",
+        "Aylık 5.000 mesaj dahil",
+        "Aylık 2 saat strateji görüşmesi"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "32.000 TL kurulum + 4.500 TL/ay",
+      "description": "Çoklu lokasyon, agresif büyüme, ihracat",
+      "features": [
+        "Özel kod CRM veya HubSpot Enterprise",
+        "Çoklu lokasyon yönetimi",
+        "TR + EN + AR çoklu dil otomasyon",
+        "Sınırsız otomasyon akışı",
+        "AI bazlı müşteri segmentasyonu (Premium)",
+        "Sınırsız mesaj",
+        "Özel proje yöneticisi",
+        "Haftalık optimizasyon görüşmesi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Eskişehir'de mağazam var, kurulum nasıl olacak?", "answer": "Tüm süreç uzaktan. Mevcut müşteri verinizi (Excel, WhatsApp arşivi, e-ticaret platformu) şifreli yöntemle alıyoruz, CRM'e migrasyon yapıyoruz. Saha ziyareti gerekmiyor. Eskişehir'de aktif müşterilerimiz bu yöntemle çalışıyor."},
+    {"question": "HubSpot ücretsiz, neden ayrıca para ödeyeyim?", "answer": "HubSpot Free temel müşteri kaydı + email gönderir. Ama: WhatsApp entegrasyonu yok, Türkçe SMS yok, sektöre özel otomasyon yok, sahip eğitimi yok. Biz HubSpot Free'yi yapı taşı olarak kullanıp Eskişehir sektörünüze uygun hale getiriyoruz."},
+    {"question": "Excel'de 800 müşterim var, bu sisteme aktarmak ne kadar sürer?", "answer": "1-2 iş günü. Excel formatınızı standartlaştırıyoruz (isim, telefon, son sipariş, harcama vs), CSV import ediyoruz, etiket atıyoruz. 800 müşteri için ortalama 6 saat çalışma, sonra otomasyon başlıyor."},
+    {"question": "Öğrenci abonelik yenileme hatırlatması iletişim spam'i sayılır mı?", "answer": "Hayır, müşteri zaten size abone, yenileme bilgilendirmesi rıza kapsamında. WhatsApp Business API'de 'utility' kategori şablonu ile gönderiyoruz, Meta tarafından serbest. Sadakat/kampanya mesajları için ayrı opt-in alıyoruz."},
+    {"question": "Dönem başı 500 öğrenciye toplu kampanya gidebilir mi?", "answer": "Evet, segment bazlı broadcast. 'Üniversite öğrencisi' etiketi olan 500 kişiye otomatik gidiyor. Mesaj şablonu önceden Meta'ya onaylatılıyor (24-48 saat). Profesyonel pakette ayda 5.000 mesaj, Premium'da sınırsız."},
+    {"question": "Sahip Eskişehir'de değilken (örn. tatilde) sistem otomatik çalışıyor mu?", "answer": "Evet, otomasyonlar 7/24 çalışıyor. Yeni müşteri kaydı, abonelik yenileme, doğum günü kampanyası, sessiz müşteri yakalama otomatik. Sahip dönünce dashboard'da neler olduğunu görüyor."},
+    {"question": "Veri güvenliği nasıl? Müşteri telefonları kimde olacak?", "answer": "Tüm veri sizin HubSpot/CRM hesabınızda, biz erişim sahibi değiliz. KVKK uyumlu kurulum yapıyoruz, müşteri rıza kayıtları sistemde tutuluyor. Aboneliği iptal ederseniz veri yedeği size CSV olarak teslim ediliyor."}
+  ],
+  "finalCtaHeadline": "Eskişehir işletmeniz için CRM 2 haftada aktif olsun",
+  "finalCtaSubtitle": "30 dakikalık Zoom brief görüşmesi yeterli. Mevcut müşteri akışınızı inceleyip Eskişehir sektörünüze özel CRM + otomasyon stratejisi hazırlıyoruz. PORTZEN İzmir merkezli, Eskişehir'de aktif müşteriler uzaktan."
+}

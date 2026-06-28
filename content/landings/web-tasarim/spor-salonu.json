@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "spor-salonu",
+  "sectorName": "Spor Salonu",
+  "sectorPlural": "Spor Salonları",
+  "title": "Spor Salonları İçin Web Tasarım | Online Üyelik + Ders Rezervasyon Sistemi - PORTZEN",
+  "description": "Spor salonları için Next.js web tasarım. Online üyelik satışı, ders rezervasyon sistemi, PT randevu, vücut analizi, antrenör profilleri ve transformation galerisi.",
+  "keywords": ["spor salonu web tasarım", "fitness websitesi", "online ders rezervasyon", "üyelik satış sitesi", "gym site yapımı", "pilates websitesi"],
+  "h1": "Spor Salonları için Profesyonel Web Tasarım",
+  "heroSubtitle": "Online üyelik satışı, ders rezervasyonu, PT randevu, vücut analizi, antrenör profilleri ve transformation galerisi. Next.js ile geliştirilmiş, mobilde hızlı spor salonu websitesi.",
+  "stats": [
+    {"value": "20 gün", "label": "Ortalama Teslim"},
+    {"value": "96+", "label": "Lighthouse Skoru"},
+    {"value": "Mindbody", "label": "Entegre"},
+    {"value": "Online", "label": "Üyelik Satışı"}
+  ],
+  "problems": [
+    "Üye olmak isteyen telefon arıyor ve resepsiyona gelmek zorunda, online üyelik satışı yapamıyorsunuz",
+    "Ders programınız siteye PDF olarak yüklü, hafta sonu güncelleme için ajans bekliyorsunuz, üye eski programa göre geliyor",
+    "Antrenör profilleriniz Instagram da, sitenizde yok, üye PT seçmek için araştırmaya zorlanıyor",
+    "Vücut analizi randevusu için form yok, telefon görüşmesi gerekiyor, mesai dışı potansiyel kaçıyor",
+    "Site Google da 'Bornova pilates' aramasında çıkmıyor, bölge SEO sıfır, organik trafik yok",
+    "Transformation galerisi yok, sosyal kanıt eksik, ziyaretçi üye olmak için ikna olmuyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Brand ve Hizmet Brief", "description": "Stüdyo konseptinizi (boutique pilates, klasik gym, EMS, CrossFit box), ders programı, antrenör listesi, üyelik paketleri, fiyat listesi ve transformation hikayelerinizi alıyoruz. Marka renkleri ve görsel kimliği netleştiriyoruz."},
+    {"title": "2. UI/UX Tasarım", "description": "Figma da spor salonu sektörüne özel tasarım - büyük transformation görselli hero, ders programı tablosu, sticky 'Üye Ol' CTA, antrenör kartları, fiyatlandırma sayfası. Mobil-first, üye 5 saniyede paket görebilmeli."},
+    {"title": "3. Next.js + Rezervasyon + Ödeme", "description": "Next.js 15 ile geliştirme. Online ders rezervasyon (Mindbody, Glofox veya özel), online üyelik satışı (iyzico/Stripe), PT randevu sistemi, vücut analizi formu, transformation galerisi, antrenör profilleri."},
+    {"title": "4. SEO + Bölge Optimizasyonu", "description": "Schema markup (SportsActivity + LocalBusiness), bölge SEO ('Bornova pilates', 'Çankaya EMS', 'Kadıköy yoga' gibi), Google My Business optimizasyonu, blog yapısı (egzersiz, beslenme rehberi)."}
+  ],
+  "features": [
+    {"title": "Online Üyelik Satışı", "description": "Aylık, 3 aylık, yıllık paketler iyzico/Stripe ile online satılıyor. Üye seçim yapıyor, ödeme yapıyor, üyelik kartı dijital olarak gelir, ilk ders rezervasyonu otomatik açılır. Resepsiyona gelmeden üye olabilir."},
+    {"title": "Ders Rezervasyon Sistemi", "description": "Haftalık ders programı tabloda. Üye giriş yapıyor, ders seçiyor, müsait slot u görüyor, rezerve ediyor. Kontenjan otomatik takip, yedek liste, no-show takibi. Mindbody/Glofox entegre veya özel sistem."},
+    {"title": "PT Randevu Sistemi", "description": "Antrenör profilleri (uzmanlık, deneyim, sertifikalar) sayfada. Üye antrenör seçiyor, müsait slot ları görüyor, randevu alıyor. Vücut analizi ve beslenme danışmanlığı randevuları da aynı sistemde."},
+    {"title": "Transformation Galerisi", "description": "Üye onaylı before-after fotoğrafları kategori filtreli galeri (kilo verme, kas geliştirme, postür düzeltme). Lazy load, lightbox, video transformation hikayeleri. Sosyal kanıt ile dönüşüm artıyor."},
+    {"title": "Vücut Analizi Form", "description": "Ücretsiz vücut analizi randevu formu - yaş, boy, kilo, hedef. Form dolduran kişi WhatsApp tan otomatik onay alır, takvime düşer. Yeni lead in en hızlı yakalama yöntemi."},
+    {"title": "Antrenör Profil Sayfaları", "description": "Her antrenör için ayrı profil sayfası (özgeçmiş, uzmanlık, sertifikalar, hizmet verdiği dersler, Instagram, randevu butonu). Üye PT seçerken bilgi alabiliyor, ikna oluyor."}
+  ],
+  "caseStudy": {
+    "title": "İzmir Karşıyaka - Boutique Pilates Stüdyosu: Online Üyelik %58, Organik Trafik 180 → 4.200/ay",
+    "paragraphs": [
+      "İzmir Karşıyaka da reformer pilates ve mat pilates dersleri veren bir butik stüdyo 2025 Şubat ta PORTZEN e geldi. Mevcut siteleri 2021 de yapılmış, ders programı PDF, online üyelik yok, antrenör profilleri eksik, transformation galerisi yok. Tüm üyelik satışı resepsiyon üzerinden, mesai dışı potansiyel kaçıyordu.",
+      "20 günde Profesyonel paket ile yeniden inşa ettik - online üyelik satışı (iyzico), Mindbody ders rezervasyon entegrasyonu, 6 antrenör profil sayfası, 24 üye transformation galerisi (yazılı izinlerle), vücut analizi formu, blog yapısı (10 başlangıç içerik), Google My Business optimizasyonu, bölge SEO ('Karşıyaka pilates', 'Bostanlı reformer').",
+      "İlk ay Google da 'Karşıyaka pilates' 3. sıraya çıktılar. 3. ayın sonunda aylık organik trafik 180 den 4.200 e ulaştı, ay başı 28 yeni üyelik %58 i online satıldı (resepsiyon yükü ciddi azaldı). Vücut analizi formundan ayda 65 lead düşüyor, %42 si üye oluyor. Transformation galerisi sayfası en çok ziyaret edilen 3. sayfa oldu."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Organik Trafik", "before": "180", "after": "4.200"},
+      {"label": "Online Üyelik Oranı", "before": "%0", "after": "%58"},
+      {"label": "Aylık Vücut Analizi Lead", "before": "8", "after": "65"},
+      {"label": "Site Yüklenme Süresi", "before": "5.2 sn", "after": "1.1 sn"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Stüdyo Sitesi",
+      "price": "12.000 TL",
+      "description": "Tek seferlik - küçük stüdyolar ve yeni açılışlar için",
+      "features": [
+        "6 sayfa (anasayfa, dersler, antrenörler, fiyat, hakkımızda, iletişim)",
+        "Next.js + Tailwind",
+        "Mobil responsive + 90+ Lighthouse",
+        "Ders programı tablosu",
+        "WhatsApp rezervasyon butonu",
+        "Google Maps embed",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "26.000 TL + 1.800 TL/ay",
+      "description": "Aktif spor salonları için en popüler paket - bakım dahil",
+      "features": [
+        "12-16 sayfa + blog yapısı",
+        "Online üyelik satışı (iyzico)",
+        "Mindbody/Glofox ders rezervasyon entegrasyonu",
+        "PT randevu sistemi",
+        "Vücut analizi formu",
+        "Transformation galerisi",
+        "Antrenör profil sayfaları",
+        "Bölge SEO + Google My Business"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "45.000 TL + 3.200 TL/ay",
+      "description": "Zincir spor salonları ve premium kulüpler için - çoklu şube destekli",
+      "features": [
+        "Sınırsız sayfa + çoklu şube yönetimi",
+        "Şube bazlı ders ve antrenör",
+        "Üye paneli (rezervasyon geçmişi, üyelik durumu)",
+        "Sadakat puan sistemi",
+        "Beslenme danışmanlığı modülü",
+        "Newsletter + kampanya mailing",
+        "Google Ads landing sayfaları",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Sitem ne kadar sürede hazır olur?", "answer": "Mini Stüdyo Sitesi 10-14 gün, Profesyonel 18-25 gün, Premium 30-40 gün. Brief sonrası net gün veriyoruz. Antrenör fotoğrafları, transformation görselleri ve içerikler hazırsa hızlanıyor."},
+    {"question": "Mindbody ye veya Glofox a entegrasyon nasıl?", "answer": "Mindbody, Glofox, Sportwave API leri ile entegrasyon yapıyoruz. Üye sitenizden ders rezerve ediyor, Mindbody ye düşüyor. Mevcut sisteminiz farklıysa özel köprü modül geliştiriyoruz. Henüz sisteminiz yoksa özel rezervasyon sistemi de kuruyoruz (Profesyonel pakette dahil)."},
+    {"question": "Online üyelik satışı için iyzico mu, Stripe mı?", "answer": "Türkiye için iyzico öneriyoruz (TL ödeme, Türkiye banka kartları, faturalama kolaylığı). Yurtdışı turist müşteri ağırlıklıysa Stripe ekliyoruz. iyzico onay süreci 5-10 iş günü, biz başvuruyu yönetiyoruz. Komisyon oranı %1.99 + 0.25 TL/işlem."},
+    {"question": "Transformation galerisinde üye haklarını nasıl yönetiyorsunuz?", "answer": "Her üye için yazılı izin formu (KVKK uyumlu) kullanıyorsunuz, biz şablon veriyoruz. Üye fotoğraflarını paylaşma iznini onaylayınca galeriye giriyor. Üye geri çekme talebiyle anında kaldırılıyor. Anonim isim ve yaş ile yayınlanıyor (Ayşe, 34)."},
+    {"question": "Google haritada üst sıralara çıkmam ne kadar sürer?", "answer": "Google My Business profili optimize sonrası 4-8 hafta içinde bölge aramalarında üst sıralara çıkmak mümkün. Vaka çalışmamızdaki Karşıyaka stüdyosu ilk ay 'Karşıyaka pilates' 3. sıraya çıktı. Bölgenizdeki rekabete bağlı - yoğun bölgelerde 3-4 ay sürebilir."},
+    {"question": "Ders programını kendim güncelleyebilir miyim?", "answer": "Evet, Sanity CMS admin paneli veriyoruz. Yeni ders ekleme, saat değiştirme, antrenör atama, kontenjan güncelleme - 2-5 dakikada yapıyorsunuz, site anında güncelleniyor. Mindbody entegre çalışıyorsa Mindbody den de senkronize."},
+    {"question": "İleride şube açarsam mevcut sitem destekler mi?", "answer": "Profesyonel paketle başlayıp Premium a geçince çoklu şube desteği geliyor. Her şube için ayrı sayfa, ayrı ders programı, ayrı antrenör kadrosu, ayrı rezervasyon takvimi. Mevcut müşteri yükseltme indirimi (%30) uyguluyoruz."}
+  ],
+  "finalCtaHeadline": "Spor salonunuz 3 haftada online üyelik almaya başlasın",
+  "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut sitenizi inceleyip ücretsiz audit raporu hazırlıyoruz. WhatsApp tan veya formdan ulaşın."
+}

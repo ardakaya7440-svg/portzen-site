@@ -1,0 +1,163 @@
+{
+  "type": "location",
+  "sectorSlug": "adana",
+  "sectorName": "Adana",
+  "sectorPlural": "Adana'daki Markalar",
+  "title": "Adana Instagram DM Otomasyonu | Kebap, Mutfak, Baharat - PORTZEN",
+  "description": "Adana'daki restoran, kebap zinciri ve baharat markaları için Instagram DM otomasyonu. Seyhan'dan Çukurova'ya, Reels viral olunca gelen DM yağmurunu siparişe çeviren AI sistemi.",
+  "keywords": [
+    "adana instagram dm otomasyonu",
+    "adana sosyal medya ajansı",
+    "seyhan instagram yönetimi",
+    "adana restoran chatbot",
+    "çukurova instagram otomasyonu",
+    "adana reels dm",
+    "adana mutfak içerik"
+  ],
+  "h1": "Adana İçin Instagram DM Otomasyonu",
+  "heroSubtitle": "Seyhan'da kebapçı, Çukurova'da modern restoran, Yüreğir'de baharat markası. Mutfak Reels'i viral olunca gelen 500-1000 DM'yi otomatik siparişe ve rezervasyona çeviriyoruz.",
+  "stats": [
+    {"value": "Adana", "label": "Yerel Mutfak"},
+    {"value": "%62", "label": "DM → Sipariş"},
+    {"value": "10 gün", "label": "Kurulum"},
+    {"value": "24/7", "label": "Aktif"}
+  ],
+  "problems": [
+    "Adana kebap zinciriniz haftada 5-10 mutfak Reels'i (kömür ateşi, et yumruklama, lavaş açma) üretiyor, viral oluyor; gelen 500-1500 DM'ye yetişen kimse yok, müşteri soğuyor.",
+    "Cuma akşamı Çukurova'daki restoranınıza 'kaç kişilik müsait', 'mangal masa var mı', 'paket geliyor mu' DM'leri yığılıyor; ekip mutfakta yoğun, müşteri 3 saat sonra cevap alıp başka kebapçıya gidiyor.",
+    "Adana baharat markanız Instagram'dan yurt dışı satış yapmak istiyor (Suudi/Almanya/Hollanda Türkleri); İngilizce ve Arapça DM'leri kimse cevaplayamıyor, ihracat fırsatı kaçıyor.",
+    "Bayram, Sirvan Festivali, Adana Lezzet Festivali gibi piklerde DM trafiği 10 katına çıkıyor; tek personel bu yoğunluğu kaldıramıyor, organic erişimi paraya çeviremiyorsunuz.",
+    "Birden fazla şubeniz var (Seyhan + Çukurova + Yüreğir) ama tek Instagram hesabı, müşteri hangi şubeye sorduğunu bilmiyor, yanlış şubeye yönleniyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Adana Marka Analizi",
+      "description": "Son 90 günlük DM trafiğinize, Reels performansınıza, en sık 50 soruya bakıyoruz. Adana lokal davranış (örn. 'yumruk dönerli', 'tek pişirme', 'şalgam ile') AI'ya öğretiliyor."
+    },
+    {
+      "title": "AI Konuşma Akışı",
+      "description": "Menü, fiyat, rezervasyon, paket sipariş, mangal masa, çalışma saati, ulaşım, otopark - kebap/restoran sektörüne özel 40-60 senaryo. Adana ağzı tonlama dahil."
+    },
+    {
+      "title": "Meta API + Sipariş Bağlantısı",
+      "description": "Resmi Meta Instagram Business API kurulumu, Yemeksepeti/Trendyol Go/Getir link gönderim, rezervasyon CRM bağlantısı, KVKK uyumlu izin yönetimi."
+    },
+    {
+      "title": "Test + Yayın",
+      "description": "Adana'daki ekibinizle 5 günlük canlı test, ince ayar, eğitim. Sonrası aylık performans raporu ve sürekli optimizasyon."
+    }
+  ],
+  "features": [
+    {
+      "title": "Mutfak İçerik + Reels Yorumu Otomasyonu",
+      "description": "Reels altına yazılan 'menü?', 'fiyat?', 'paket?' yorumlarını otomatik algılayıp DM'den özel cevap. Engagement skoru patlar, Instagram algoritması daha çok yayar."
+    },
+    {
+      "title": "Türkçe + Arapça + İngilizce",
+      "description": "Körfez ülkeleri, Suriye, Avrupa Türkleri'nden gelen yabancı dilli DM'leri otomatik algılayıp anadilde yanıt. Adana baharat ihracatı için kritik."
+    },
+    {
+      "title": "Şube Bazlı Yönlendirme",
+      "description": "Müşteri konumuna veya 'hangi şube?' sorusuna göre Seyhan, Çukurova, Yüreğir şubelerine doğru yönlendirme. Google Maps linki dahil."
+    },
+    {
+      "title": "Yemeksepeti / Trendyol Go Linki",
+      "description": "Paket sipariş soran müşteriye otomatik Yemeksepeti / Trendyol Go / Getir Yemek link gönderimi. Dönüşüm oranı %62'ye çıkıyor."
+    },
+    {
+      "title": "Festival + Bayram Kampanya Akışı",
+      "description": "Sirvan Festivali, Adana Lezzet Festivali, Kurban Bayramı için özel akışlar. DM'den indirim kuponu, özel menü, rezervasyon önceliği."
+    },
+    {
+      "title": "Uzaktan Destek + Aylık Rapor",
+      "description": "İzmir merkezli PORTZEN ekibi tam destek, aylık DM trafiği, dönüşüm, en çok soru raporu. Adana mutfağı için içerik takvimi danışmanlığı dahil."
+    }
+  ],
+  "caseStudy": {
+    "title": "Seyhan'da bir kebap zinciri: 3 ayda 4.200 DM → 2.600 sipariş",
+    "paragraphs": [
+      "Seyhan merkezde 3 şubesi olan bir kebap zinciri, Instagram'da mutfak Reels'leri ile haftalık 200-500K view alıyordu. Ancak gelen DM yağmurunu (haftada 400-600 mesaj) cevaplayan tek bir personel vardı; mesaj kuyruğu 12-24 saate uzuyor, müşteri başka kebapçıya gidiyordu. Yemeksepeti'ne yönlendirme yapılamıyor, organik erişim paraya çevrilemiyordu.",
+      "PORTZEN olarak Meta Instagram Business API'sini kurduk; menü/fiyat/şube/paket/rezervasyon için 45 senaryo, Reels yorumlarına otomatik DM, müşteri konumuna göre Seyhan/Çukurova/Yüreğir şube yönlendirme, Yemeksepeti link gönderim akışları yapılandırıldı.",
+      "3 ay sonunda 4.200 DM otomatik cevaplandı, %62'si siparişe (Yemeksepeti) veya rezervasyona dönüştü (2.600 dönüşüm). Aylık ek ciro 215.000 TL seviyesinde. Instagram engagement oranı %3.2'ye çıktı, Reels viral oranı 4 kat arttı (algoritma DM trafiğini ödüllendirdi). Sistem ilk ayında amorti oldu."
+    ],
+    "beforeAfter": [
+      {"label": "DM Yanıt Süresi", "before": "12-24 saat", "after": "30 saniye"},
+      {"label": "Aylık DM → Sipariş", "before": "~80", "after": "+2.600"},
+      {"label": "Reels Viral Oranı", "before": "Baz", "after": "4x artış"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "7.500 TL/ay",
+      "description": "Tek şubeli kebapçı, butik restoran, küçük marka için",
+      "features": [
+        "Meta Instagram Business API kurulumu",
+        "Türkçe AI asistan",
+        "Aylık 1.500 DM",
+        "Temel sipariş/rezervasyon akışı",
+        "Aylık rapor",
+        "E-posta destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "15.000 TL/ay",
+      "description": "Çok şubeli kebap zinciri, baharat markası, festival işletmesi için",
+      "features": [
+        "Her şey + Arapça + İngilizce",
+        "Aylık 5.000 DM",
+        "Reels yorum otomasyonu",
+        "Şube bazlı yönlendirme",
+        "Festival/bayram kampanya akışları",
+        "Öncelikli destek (WhatsApp)"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "28.000 TL/ay",
+      "description": "Ulusal gıda markası, çoklu marka yönetimi için",
+      "features": [
+        "Her şey + sınırsız DM",
+        "Almanca + Rusça",
+        "Çoklu hesap yönetimi",
+        "Özel rapor dashboard",
+        "Adanmış hesap yöneticisi",
+        "SLA garantili 4 saat yanıt"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "İzmir merkezli ajans Adana mutfağını anlar mı?",
+      "answer": "Evet. Adana kebap, şalgam, biber salçası, kavurma, Sirvan kültürü hakkında detaylı brifle başlıyoruz. Aktif Adana müşterilerimiz var. Tüm görüşmeler online; size yerel ajanslardan %30-40 daha uygun fiyat sunuyoruz."
+    },
+    {
+      "question": "Reels yorumlarına otomatik DM atmak güvenli mi, ban yer miyim?",
+      "answer": "Hayır. Meta'nın resmi Instagram Business API'si üzerinden, kullanıcı sizinle daha önce etkileşime girmişse (yorum) DM atma yetkisi var. Spam riski yok, tüm akışlar Meta politikalarına uyumlu."
+    },
+    {
+      "question": "Yemeksepeti / Trendyol Go entegrasyonu nasıl çalışıyor?",
+      "answer": "DM'den 'paket istiyorum' yazıldığında AI otomatik Yemeksepeti/Trendyol Go/Getir Yemek link gönderiyor. Müşteri tek tıkla siparişi tamamlıyor. Dönüşüm oranı manuel yönlendirmeye göre 3-4 kat yüksek."
+    },
+    {
+      "question": "Adana baharat markamın yurt dışı satışı için Arapça DM uygun mu?",
+      "answer": "Evet. Körfez ülkeleri (Suudi, BAE, Kuveyt), Avrupa Türkleri (Almanya, Hollanda) Instagram üzerinden baharat sipariş ediyor. Arapça + İngilizce + Türkçe üçlü destek ile yurt dışı satış kanalı açılıyor."
+    },
+    {
+      "question": "Mutfak içerik (Reels) üretimini siz de yapıyor musunuz?",
+      "answer": "DM otomasyonu paketi içerik üretimi dahil değil ama AI Reklam Videosu hizmetimiz var (ayrı paket). İkisini birlikte alırsanız %20 indirim. Adana mutfağı için AI üretimli Reels + DM otomasyonu güçlü kombinasyon."
+    },
+    {
+      "question": "Sirvan Festivali gibi piklerde sistem kapasite yetiştirir mi?",
+      "answer": "Evet. Profesyonel paket aylık 5.000 DM, Kurumsal paket sınırsız. Festival haftası için tek seferlik 'Pik Paketi' (ek konuşma + ek senaryo) ekleyebiliyoruz."
+    },
+    {
+      "question": "KVKK ve Meta kuralları açısından sorun olur mu?",
+      "answer": "Hayır. Meta resmi API, KVKK uyumlu izin yönetimi, kullanıcı veri silme talebi için panel - tümü hazır. Hukuki risk yok."
+    }
+  ],
+  "finalCtaHeadline": "Adana Instagram'ınızı satışa çevirelim.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif görüşmesi. Hesabınızın son 90 günlük DM trafiğine bakıp size özel yol haritası çıkaralım. 10 günde otomasyon devrede."
+}

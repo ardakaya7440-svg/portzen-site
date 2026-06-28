@@ -1,0 +1,106 @@
+{
+  "sectorSlug": "kafe",
+  "sectorName": "Kafe",
+  "sectorPlural": "Kafeler",
+  "title": "Kafeler İçin AI Reklam Videosu | Brunch Atmosfer + Specialty Kahve Reels - PORTZEN",
+  "description": "Kafeler için AI ile üretilen reklam videosu. Brunch atmosferi, latte art, V60 demleme, specialty kahve showcase. Reels, TikTok, Meta Ads formatlarında 48 saatte teslim.",
+  "keywords": ["kafe reklam videosu", "ai kafe video", "brunch reels video", "specialty kahve reklam", "kafe instagram reels", "latte art video"],
+  "h1": "Kafeler için AI Reklam Videosu",
+  "heroSubtitle": "Brunch atmosferi, latte art zoom, V60 demleme, specialty kahve showcase - AI ile üretilmiş cinematic reklam videoları. Reels, TikTok, Meta Ads için optimize, 48 saatte teslim.",
+  "stats": [
+    {"value": "48 saat", "label": "Ortalama Teslim"},
+    {"value": "9:16 / 1:1 / 16:9", "label": "Format"},
+    {"value": "%4-12", "label": "CTR Aralığı"},
+    {"value": "AI", "label": "Üretim"}
+  ],
+  "problems": [
+    "Specialty kahve reklamı için profesyonel videograf 8-15K TL istiyor, ay başına 1 reels bütçeniz yok",
+    "Brunch atmosferi çekimi için kafenizi 2-3 saat kapatmak zorundasınız, peak saatlerde ciro kaybediyorsunuz",
+    "Telefondan çekilen reels'ler 'amatör' görünüyor, premium specialty pozisyonunuzu zedeliyor",
+    "Sezon menüsü her 2 ayda değişiyor, her seferinde yeni çekim yapmak ekipman + zaman maliyeti",
+    "Meta Ads ve TikTok'a koyduğunuz video CTR %1.5'in altında, reklam bütçesi yanıyor",
+    "Rakip kafeler cinematic latte art ve V60 video çekiyor, sizin görselleriniz hala statik foto"
+  ],
+  "solutionSteps": [
+    {"title": "1. Kafe Konsept Brief", "description": "Kafe konseptiniz (specialty, brunch, çalışma, art kafe vb.), hedef kitle profili (genç profesyonel, üniversite, dijital göçebe), öne çıkarmak istediğiniz ürün (V60, brunch tabağı, latte art) ve hedef platform (Reels, TikTok, Meta Ads) belirlenir."},
+    {"title": "2. Storyboard + AI Görsel Üretimi", "description": "Sahne sahne storyboard hazırlanır - örn. brunch tabağı yakın çekim, latte art rosetta dökümü slow motion, V60 demleme buhar, specialty kahve atmosfer wide shot. Higgsfield / Runway / Sora ile sahneler üretilir."},
+    {"title": "3. AI Video + Ses Kompozisyonu", "description": "Üretilen sahneler video editleme aşamasına geçer - geçişler, hızlandırma, slow motion, renk düzenleme. Telifsiz / mood'a uygun müzik (lo-fi, jazz, chill, indie) eklenir, isteğe göre AI voice-over yapılır."},
+    {"title": "4. Format Optimize + Teslim", "description": "Reels 9:16, TikTok 9:16, Instagram feed 1:1, Meta Ads 9:16/4:5, YouTube Shorts 9:16 formatlarında ayrı ayrı export edilir. MP4 + tagged metadata + ad copy önerileri ile teslim."}
+  ],
+  "features": [
+    {"title": "Brunch Atmosfer Video", "description": "Brunch tabağı yakın çekim, masa serim, müşteri eli (kimliksiz), buhar, ışık oyunu - kafenizin atmosferini hissedilebilir kılan cinematic sahneler."},
+    {"title": "Latte Art Showcase", "description": "Rosetta, swan, tulip latte art dökümü slow motion, espresso shot pour, süt buharı detay - barista yetenek gösterimi ve specialty pozisyonlama için."},
+    {"title": "V60 / Chemex / AeroPress Demleme", "description": "Specialty kahve demleme metodlarının estetik cinematic çekimi - bloom, pour over, kahve damlası, aroma buharı. Specialty kafe pozisyonlama için ideal."},
+    {"title": "Sezon Menü Lansman Videosu", "description": "Yeni sezon kahvaltısı, kış sıcak içecek menüsü, özel günlere özel ürün lansmanı - her sezon değişiminde 48 saatte yeni video."},
+    {"title": "Çalışma Kafesi Atmosfer", "description": "Laptop + kahve + pencere ışığı, dijital göçebe vibe, sessiz ortam atmosferi - çalışma kafesi pozisyonu için hedef kitleye direkt vuran içerik."},
+    {"title": "Çoklu Format + Ad Copy Öneri", "description": "Reels 9:16, feed 1:1, Meta Ads 4:5, YouTube Shorts 9:16 ayrı ayrı export. Ek olarak Meta Ads için 3 farklı ad copy önerisi (hook, body, CTA)."}
+  ],
+  "caseStudy": {
+    "title": "Beyoğlu - Specialty Kafe Markası: Meta Ads CTR %1.4'ten %7.8'e, Aylık 320 Yeni Müşteri",
+    "paragraphs": [
+      "Beyoğlu Galata'da specialty kahve + brunch konsepti çalışan butik bir kafe markası 2025 Mart'ında PORTZEN'e geldi. Meta Ads'e aylık 18K TL harcıyorlardı ama CTR %1.4'tü, telefondan çekilmiş statik fotolar kullanıyorlardı. CPM 280 TL'ye dayanmıştı.",
+      "PORTZEN ile AI üretim paketi başlattık - ilk ay 8 video: 3 brunch atmosfer, 2 V60 demleme, 2 latte art showcase, 1 çalışma kafesi vibe. Her video 9:16 + 1:1 + 4:5 format, her birinin Meta Ads için ad copy seti.",
+      "İlk haftada Meta Ads CTR %1.4'ten %7.8'e çıktı, CPM 280'den 95 TL'ye düştü. 3. ayın sonunda aylık 320 yeni müşteri (Maps + DM trafik ile teyit edilen) reklamlardan geldi. Reklam bütçesi aynı, dönüşüm 5.5x arttı. Specialty pozisyonu artık görselde de hissediliyor."
+    ],
+    "beforeAfter": [
+      {"label": "Meta Ads CTR", "before": "%1.4", "after": "%7.8"},
+      {"label": "CPM", "before": "280 TL", "after": "95 TL"},
+      {"label": "Aylık Yeni Müşteri (reklamdan)", "before": "58", "after": "320"},
+      {"label": "Video Üretim Maliyeti", "before": "9.500 TL/video", "after": "1.800 TL/video"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Single Video",
+      "price": "1.800 TL/video",
+      "description": "Tek sefer ihtiyaç - sezon lansmanı, özel etkinlik için",
+      "features": [
+        "1 adet 15-20 sn AI reklam videosu",
+        "9:16 + 1:1 + 4:5 export",
+        "Telifsiz müzik",
+        "1 revizyon",
+        "48 saat teslim"
+      ]
+    },
+    {
+      "name": "Aylık Paket",
+      "price": "8.500 TL/ay",
+      "description": "Aktif specialty kafeler için en popüler - sezon değişimleri kolay",
+      "features": [
+        "Ayda 6 adet AI reklam videosu",
+        "Tüm formatlar dahil",
+        "AI voice-over opsiyonu",
+        "Meta Ads için ad copy seti",
+        "3 revizyon hakkı",
+        "Performans danışmanlığı",
+        "Sınırsız sezon değişimi"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Aylık",
+      "price": "18.500 TL/ay",
+      "description": "Çoklu şube ve agresif sosyal medya stratejisi için",
+      "features": [
+        "Ayda 15 adet AI reklam videosu",
+        "Custom karakter (barista avatar)",
+        "TikTok trend takibi + hızlı üretim",
+        "Reels + TikTok + YouTube Shorts",
+        "Aylık performans raporu + A/B test",
+        "Meta Ads kampanya yönetimi opsiyonu",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Video gerçekten kafem gibi mi görünür?", "answer": "İki yaklaşım var: (1) Generic specialty kafe sahnesi (atmosfer + kahve + masa) - kafenizin tarzıyla uyumlu ama mekanı değil. (2) Kafenizin gerçek mekan fotoğrafı verirseniz, AI ile o atmosfere yakın sahneler üretiyoruz. Vaka çalışmasındaki Beyoğlu kafe ikinci yöntemle çalıştı."},
+    {"question": "Latte art ve V60 demleme gerçekten cinematic mi çıkıyor?", "answer": "Evet, bu en güçlü kullanım alanlarımızdan. AI ile slow motion latte art pour, V60 bloom, espresso shot extraction çok yüksek kalitede üretiliyor. Örnekleri brief görüşmesinde gösteriyoruz, kararı ondan sonra veriyorsunuz."},
+    {"question": "Restoran video paketi var mı, kafe paketinden farkı ne?", "answer": "Var ama kafe paketi farklı bir niş - atmosfer + specialty kahve + brunch vibe + çalışma kafesi gibi konsept tabanlı sahneler içeriyor. Restoran genelde food porn + service + ambiance odaklı, kafe daha lifestyle + atmosphere odaklı."},
+    {"question": "Meta Ads kampanyamı da yönetiyor musunuz?", "answer": "Aylık ve Premium pakette kampanya stratejisi danışmanlığı dahil (audience, bütçe, kreatif rotasyon önerisi). Tam kampanya yönetimi Premium paketin opsiyonu, performans bazlı ek ücret. İstenirse partnerimiz ile yönlendirme yapıyoruz."},
+    {"question": "AI voice-over Türkçe gerçekten doğal mı?", "answer": "ElevenLabs ve benzer modellerle Türkçe seslendirme artık çok doğal - Z kuşağı kafe vibe'ı, samimi tonlama, kısa hook'lar için ideal. Brief'te 3-4 farklı ses sample dinletiyoruz, kafenizin tarzına uygun olanı seçiyorsunuz."},
+    {"question": "Sezon değişimlerinde yeni video maliyeti ne?", "answer": "Aylık pakette sınırsız sezon değişimi (ayda 6 video kullanımınız bu yönde) - sonbahar pumpkin spice, yaz cold brew, kış sıcak çikolata vb. her yeni sezon için yeni video. Tek sefer ihtiyaç için Single Video paket 1.800 TL."},
+    {"question": "Kafem yeni açılıyor, henüz iç mekan fotom yok - yine de çalışır mı?", "answer": "Evet, generic specialty kafe sahnesi paketi ile başlayabiliriz. Açılıştan sonra gerçek mekan fotoğraflarınızı çekip 2. ay paketinde size özel atmosfer içeriklerine geçiyoruz. Yeni açılış kampanyası için ideal."}
+  ],
+  "finalCtaHeadline": "Kafenizin ilk cinematic reklam videosunu 48 saatte teslim alın",
+  "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut reklam performansınızı değerlendirip size özel kreatif planlama yapıyoruz. WhatsApp'tan veya formdan ulaşın."
+}

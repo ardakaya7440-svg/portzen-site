@@ -1,0 +1,107 @@
+{
+  "sectorSlug": "fotograf-studyo",
+  "sectorName": "Fotoğraf Stüdyosu",
+  "sectorPlural": "Fotoğraf Stüdyoları",
+  "title": "Fotoğraf Stüdyoları İçin WhatsApp AI Asistanı | Düğün Rezervasyonu + Paket Sorgulama - PORTZEN",
+  "description": "Fotoğraf stüdyoları için WhatsApp AI asistanı. Düğün çekim rezervasyonu, paket fiyatları, portfolyo gönderimi, müsait tarih sorgulama 7/24 otomatik yanıt.",
+  "keywords": ["fotoğraf stüdyo whatsapp", "düğün fotoğrafçı asistan", "fotoğrafçı rezervasyon botu", "çekim paket sorgulama", "fotoğrafçı otomasyon", "wedding photographer chatbot"],
+  "h1": "Fotoğraf Stüdyoları için WhatsApp AI Asistanı",
+  "heroSubtitle": "Düğün, nişan, hamile, doğum günü çekim rezervasyonu, paket fiyat sorgusu, portfolyo gönderimi, müsait tarih kontrolü - siz çekime odaklanın, asistan rezervasyona alsın.",
+  "stats": [
+    {"value": "7/24", "label": "Yanıt Süresi"},
+    {"value": "%76", "label": "Otomatik Yanıt Oranı"},
+    {"value": "18 sn", "label": "Ortalama Yanıt"},
+    {"value": "Düğün + Nişan", "label": "Rezervasyon Akışı"}
+  ],
+  "problems": [
+    "Düğün çekimi için günde 15-20 fiyat sorusu geliyor, paketleri tek tek anlatmak günün 2 saatini alıyor",
+    "Çekim sırasında telefon meşgul, gelen müşteri mesajları 4-6 saat sonra yanıtlanıyor, çoğu rakibe gidiyor",
+    "Hamile, doğum günü, çocuk çekimleri için 'müsait gün' sorulduğunda takvim kontrol etmek zaman alıyor",
+    "Portfolyo görmek isteyen müşteriye Instagram linki gönderiyorsunuz ama hiçbir hedefli yönlendirme yok",
+    "Düğün sezonu yoğunluğunda 30-40 mesaja yetişemiyorsunuz, 12-18K TL'lik müşteri kayıp gidiyor",
+    "Aynı sorular tekrar tekrar - 'kaç saat çekim', 'kaç fotoğraf teslim', 'drone var mı', 'retouch dahil mi'"
+  ],
+  "solutionSteps": [
+    {"title": "1. Stüdyo + Paket Brief", "description": "Stüdyo türünüzü (düğün, ürün, kurumsal, aile vb.), paket detaylarınızı (çekim süresi, fotoğraf sayısı, retouch, albüm, drone), fiyat aralıklarınızı, sıkça gelen 30-50 soruyu ve çalışma takvimi politikanızı alıyoruz."},
+    {"title": "2. AI Asistan Eğitimi", "description": "GPT-4 / Claude tabanlı asistanı stüdyonuza özel eğitiyoruz - düğün paketi farkları, nişan çekim akışı, hamile çekim önerileri, vesikalık süreci, ürün çekim brief'i. Sektör terminolojisi (RAW, retouch, JPG, drone, slow motion vb.)."},
+    {"title": "3. WhatsApp Business API + Portfolyo", "description": "Meta resmi WhatsApp Business API kurulumu. Çekim türüne göre paket gönderimi (PDF + görselli), Instagram portfolyo linki, müsait tarih sorgulama (Google Takvim entegre), ön ödeme/kapora bilgisi otomatik."},
+    {"title": "4. Devir & Eğitim", "description": "Karmaşık konular (özel destinasyon düğünü, çoklu lokasyon, özel tasarım albüm vb.) sizin telefonunuza yönlendirilir. Yönetim panelinden konuşma geçmişi, dönüşüm oranı ve sezon yoğunluk analitiği."}
+  ],
+  "features": [
+    {"title": "Paket Fiyat Otomatik Yanıt", "description": "Müşteri 'düğün paketi kaç TL' sorduğunda 3 paket (Mini / Standart / Premium) detaylı görselli PDF olarak gönderiliyor. Çekim süresi, fotoğraf sayısı, retouch, albüm dahil/değil ayrımı net görünüyor."},
+    {"title": "Çekim Türü Tanıma + Doğru Akış", "description": "Müşteri 'nişan' yazınca nişan akışı, 'hamile' yazınca hamile akışı, 'ürün' yazınca kurumsal akış - her çekim türüne özel paket, fiyat, süre, lokasyon bilgisi otomatik."},
+    {"title": "Müsait Tarih Sorgulama", "description": "Google Takvim entegre - müşteri '15 Haziran müsait misiniz' sorduğunda anlık tarih kontrolü, dolu ise alternatif tarihler önerisi, müsait ise kapora bilgisi ile rezervasyon akışı başlıyor."},
+    {"title": "Portfolyo Akıllı Gönderim", "description": "Müşteri çekim türüne göre ilgili portfolyo örnekleri otomatik gönderiliyor - düğün soran müşteriye düğün portfolyosu, doğum günü soran müşteriye doğum günü çekim örnekleri."},
+    {"title": "Kapora + Ödeme Akışı", "description": "Rezervasyon kesinleşmek için kapora (genelde %30) bilgisi otomatik gönderilir, ödeme linki (Iyzico) verilir. Ödeme alındıktan sonra rezervasyon resmileşir, asistan size bildirim gönderir."},
+    {"title": "Yönetim Paneli + Analitik", "description": "Hangi sorular en çok geliyor, hangi paket en çok rezerve oluyor, sezon yoğunluk grafiği, dönüşüm oranı - tüm metriklere panel üzerinden erişim."}
+  ],
+  "caseStudy": {
+    "title": "İzmir - Wedding Photography Stüdyosu: Aylık Rezervasyon 4 → 18, Mesaj Yanıt Süresi 5 saatten 16 saniyeye",
+    "paragraphs": [
+      "İzmir Alsancak'ta düğün + nişan + hamile çekimi yapan bir wedding fotoğraf stüdyosu 2025 Şubat'ında PORTZEN'e geldi. 2 fotoğrafçı + 1 retoucher ekip, düğün sezonunda WhatsApp'a günde 25-30 mesaj geliyor, çekim sırasında telefon meşgul olduğu için çoğu 5-6 saat sonra yanıtlanıyordu. Tek paket bedel ortalama 22K TL - 1 kayıp müşteri = ciddi gelir kaybı.",
+      "10 günde WhatsApp Business API + AI asistan kurduk. 3 düğün paketi (14K / 22K / 38K), nişan / hamile / doğum günü / aile çekim paketleri (5 tür), Google Takvim entegrasyonu, portfolyo kütüphanesi (her çekim türünden 8-12 örnek), Iyzico kapora ödeme akışı sisteme yüklendi.",
+      "İlk ay otomatik yanıt oranı %71'e çıktı, ortalama yanıt süresi 5 saatten 16 saniyeye düştü. 3. ay sonunda aylık düğün rezervasyonu 4'ten 18'e ulaştı (sezon etkisi var ama önceki yıl aynı dönem 7 idi). Kapora ödeyen müşteri sayısı 3x arttı, sezon doluluk 4 ay öncesinden başladı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Düğün Rezervasyonu", "before": "4", "after": "18"},
+      {"label": "Ortalama Mesaj Yanıt Süresi", "before": "5 saat", "after": "16 sn"},
+      {"label": "Otomatik Yanıt Oranı", "before": "%0", "after": "%71"},
+      {"label": "Sezon Doluluk Başlangıcı", "before": "1 ay önce", "after": "4 ay önce"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Stüdyo Starter",
+      "price": "6.500 TL + 900 TL/ay",
+      "description": "Tek fotoğrafçı / küçük stüdyo için temel asistan",
+      "features": [
+        "WhatsApp Business API kurulumu",
+        "3 çekim türüne özel akış",
+        "Paket fiyat otomatik yanıt",
+        "Müsait tarih sorgulama (Google Takvim)",
+        "Portfolyo akıllı gönderim",
+        "Aylık 1.500 konuşma dahil"
+      ]
+    },
+    {
+      "name": "Stüdyo Pro",
+      "price": "12.500 TL + 1.700 TL/ay",
+      "description": "Aktif wedding + portrait stüdyoları için en popüler paket",
+      "features": [
+        "Sınırsız çekim türü ve paket",
+        "Tam rezervasyon yönetimi",
+        "Iyzico kapora ödeme entegrasyonu",
+        "Portfolyo kütüphanesi (kategorili)",
+        "Sezon kampanya bildirimleri",
+        "Yönetim paneli + analitik",
+        "Aylık 5.000 konuşma dahil"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Stüdyo Premium",
+      "price": "22.000 TL + 3.000 TL/ay",
+      "description": "Çoklu fotoğrafçı ve büyük stüdyolar için",
+      "features": [
+        "Çoklu fotoğrafçı takvim yönetimi",
+        "Destinasyon düğün modülü",
+        "Albüm + ek ürün satış akışı",
+        "Çoklu dil (TR/EN)",
+        "AI portfolio öneri (müşteri tarzına göre)",
+        "Aylık 15.000 konuşma dahil",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Asistan ne kadar sürede aktif olur?", "answer": "Stüdyo Starter 6-9 gün, Stüdyo Pro 10-14 gün, Premium 18-25 gün. Meta WhatsApp Business API onayı 24-72 saat sürüyor, bu süre dahil. Portfolyo kütüphanesi hazırlığı ek 2-3 gün sürebilir."},
+    {"question": "Müşteri çekim sözleşmesi imzalamadan kapora ödüyor mu?", "answer": "Asistan kapora ödeme öncesi sözleşme özetini gönderiyor (çekim süresi, fotoğraf sayısı, teslim süresi, iptal politikası). Müşteri 'kabul' yazdıktan sonra ödeme linki açılıyor. Resmi sözleşme imzası çekim öncesi yüz yüze yapılıyor. KVKK uyumlu."},
+    {"question": "Müsait tarih kontrolü ne kadar güvenilir?", "answer": "Google Takvim ile gerçek zamanlı senkron - siz takvime çekim eklediğiniz an asistan o tarihi 'dolu' gösteriyor. Aynı tarihe çift rezervasyon riski yok. Yarım gün / tam gün ayrımı da yapılıyor (örn. öğleden önce nişan, akşam düğün)."},
+    {"question": "Portfolyo nasıl gönderiliyor - Instagram linki mi?", "answer": "İki yöntem var: (1) Doğrudan WhatsApp'a 4-6 örnek fotoğraf gönderme (yüksek kalite), (2) Online galeri linki (Pixieset / kendi galeri sayfası). Genelde her ikisi de gönderiliyor - WhatsApp'ta hızlı görsel, link tam portfolyo için."},
+    {"question": "Düğün sezonu dışında çalışır mı?", "answer": "Evet, asistan tüm çekim türlerini (hamile, doğum günü, aile, kurumsal, ürün, vesikalık) yönetiyor. Düğün dışı dönemde diğer çekim trafiği aktif kalıyor. Sezon kampanya bildirimleri (örn. 'yaz nişan paketi indirimli') ile düşük sezon doldurulabiliyor."},
+    {"question": "Aynı tarihe 2 farklı çekim yapabiliyorum, sistem destekler mi?", "answer": "Evet, Pro paketten itibaren çoklu slot desteği - aynı güne sabah nişan + öğleden sonra hamile çekim olarak iki ayrı rezervasyon alabiliyorsunuz. Premium pakette çoklu fotoğrafçı (her birinin ayrı takvim) desteği var."},
+    {"question": "Aylık konuşma limiti aşılırsa ne olur?", "answer": "Pro pakette 5.000 konuşma var, ortalama bir stüdyo için fazlasıyla yetiyor. Aşım durumunda konuşma başına 0.45 TL ek ücret. Düğün sezonu yoğunluğunda üst pakete geçiş indirimli yapılır."}
+  ],
+  "finalCtaHeadline": "Stüdyonuzun WhatsApp'ını 10 günde otomatikleştirin",
+  "finalCtaSubtitle": "20 dakikalık tanıtım görüşmesi yeterli. Mevcut WhatsApp trafiğinizi değerlendirip size özel asistan akışı tasarlıyoruz. WhatsApp'tan veya formdan ulaşın."
+}

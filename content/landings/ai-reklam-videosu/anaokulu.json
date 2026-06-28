@@ -1,0 +1,108 @@
+{
+  "sectorSlug": "anaokulu",
+  "sectorName": "Anaokulu",
+  "sectorPlural": "Anaokulları",
+  "title": "Anaokulları İçin AI Reklam Videosu | Atmosfer + Tanıtım Videosu - PORTZEN",
+  "description": "Anaokulları için AI üretimi reklam videoları. Günlük rutin, atölye atmosferi, müfredat tanıtımı, kayıt dönemi videoları. Çocuk fotoğrafı kullanmadan duygu uyandıran AI içerik.",
+  "keywords": ["anaokulu reklam videosu", "kreş video tanıtım", "anaokulu sosyal medya video", "ai video anaokulu", "kayıt dönemi video"],
+  "h1": "Anaokulları için AI Üretimi Reklam Videoları",
+  "heroSubtitle": "Çocuk fotoğrafı kullanmadan duygu uyandıran tanıtım videoları. Günlük rutin, atölye atmosferi, müfredat anlatımı, kayıt dönemi kampanya videoları. Instagram, TikTok, Meta Ads için optimize.",
+  "stats": [
+    {"value": "4 gün", "label": "Teslim Süresi"},
+    {"value": "KVKK", "label": "Çocuk Gizliliği"},
+    {"value": "9:16", "label": "Reels & TikTok"},
+    {"value": "%3.8x", "label": "Reklam ROAS"}
+  ],
+  "problems": [
+    "Çocuk fotoğrafı çekmek için tüm velilerden izin almak zor, alınsa bile reklam kullanımı için riskli",
+    "Profesyonel video çekimi 25-40 bin TL, ayrıca her dönem yenilenmesi gerekiyor (mevsim, kayıt, yaz okulu)",
+    "Cep telefonuyla çekilen videolar amatör duruyor, premium algı yaratmıyor, üst-orta segment veliyi etkilemiyor",
+    "Instagram reels için her hafta yeni içerik gerekiyor, ajansla çalışmak pahalı ve yavaş",
+    "Meta Ads kampanyalarınız için reklam görseli zayıf, tıklanma oranı düşük, bütçe boşa gidiyor",
+    "Müfredat anlatım videoları sıkıcı duruyor, veliler izlemeden geçiyor, deneme dersine dönüşmüyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Marka & Konsept Brief", "description": "Anaokulunuzun konseptini (Montessori, Reggio, klasik), hedef segment (üst-orta, lüks, mahalle), istediğiniz duyguyu (sıcak, neşeli, profesyonel) anlıyoruz. Mevcut görsel kimliğinizi inceliyoruz."},
+    {"title": "2. AI Scenes & Storyboard", "description": "Higgsfield, Sora ve Veo modelleri ile sahne kompozisyonları üretiyoruz - atölye masası üzerinden boya ve kalem, açık sınıfta drama oyunu, müzik odasında piyano, bahçede oyun. Çocuk yüzü yerine atmosfer, eller, ayaklar, oyuncaklar."},
+    {"title": "3. Video Üretim + Müzik + Ses", "description": "Onaylanan sahnelerden 15-60 saniyelik video üretimi. Sıcak, nostaljik, ya da neşeli - markaya uygun müzik (lisanslı), Türkçe voiceover (ElevenLabs), alt yazı."},
+    {"title": "4. Format Çıktıları + Teslim", "description": "9:16 (Reels, TikTok, Stories), 1:1 (Feed), 16:9 (YouTube, web). Meta Ads için A/B test versiyonu. Tüm videolar revize hakkı dahil, ham dosya teslim."}
+  ],
+  "features": [
+    {"title": "Günlük Rutin Videosu (60 sn)", "description": "Sabah karşılama, atölye, kahvaltı, açık hava, öğle uykusu, ikindi etkinliği - çocuk yüzü göstermeden günü anlatan duygusal montaj. Veliye 'çocuğum burada huzurlu olur' hissini veriyor."},
+    {"title": "Atölye Atmosfer Videosu (15 sn)", "description": "Boya, kil, blok oyunları, müzik aletleri, kitap köşesi - kısa, hareketli reels formatı. Instagram ve TikTok'ta viral potansiyeli yüksek, etkileşim çeken format."},
+    {"title": "Müfredat Tanıtım Videosu (45 sn)", "description": "Sizin müfredatınızı (Montessori, GEMS, dil odaklı) görsel metaforlarla anlatıyor - ahşap oyuncaklar, harf blokları, renk çemberleri. Veli 'farkımızı' anında anlıyor."},
+    {"title": "Kayıt Dönemi Kampanya Videosu", "description": "Erken kayıt indirimi, kontenjan duyurusu, deneme dersi davetiyesi için 15-30 sn kampanya videosu. Net CTA, indirim/avantaj bilgisi, başvuru linki."},
+    {"title": "Yaz Okulu / Yaz Kampı Videosu", "description": "Yaz dönemi için özel atmosfer - bahçe etkinlikleri, su oyunu, doğa çalışmaları. Mevsime özel duygu kurgusu, yaz kampı satışı için optimize."},
+    {"title": "Veli Test Sahnesi Videosu", "description": "Veli okula giriyor, müdür gülümseyerek karşılıyor, sınıfı geziyor (her şey üst görüşten, yüz odaklı değil), 'çocuğunuz burada huzurla büyür' mesajı. Premium algı yaratıyor, deneme dersi randevusunu tetikliyor."}
+  ],
+  "caseStudy": {
+    "title": "Şişli Mira Anaokulu - AI Reklam Videosu ile Meta Ads ROAS 3.8x, Kayıt Sezonunda 142 Yeni Lead",
+    "paragraphs": [
+      "Şişli Mira Anaokulu 2025 Şubat kayıt dönemi öncesinde profesyonel video çekim teklifi olarak 38.000 TL almıştı - ayrıca veli izinleri ve çocuk koruma riskinden dolayı tereddütlüydü. PORTZEN'e geldiklerinde 4 farklı format (günlük rutin, atölye atmosferi, kayıt kampanyası, müfredat anlatım) AI ile üretmeyi önerdik.",
+      "4 günde 6 farklı video teslim ettik - hiçbirinde çocuk yüzü yok, sadece atmosfer, oyuncak, eller, sınıf objeleri ve duygusal montaj kullandık. KVKK ve çocuk gizliliği tamamen güvende, veli izni gerekmedi. Toplam maliyet 18.000 TL, profesyonel çekimden %52 ucuz, 1 hafta yerine 4 günde teslim.",
+      "Mira videoları Meta Ads (Instagram + Facebook) kampanyasında kullandı. 1 ay içinde 142 yeni lead (deneme dersi randevusu formu) topladılar, ROAS 3.8x (her 1 TL reklam = 3.8 TL ciro karşılığı). Kayıt dönemi sonunda kontenjanlarının %92'sini doldurdular, bir önceki yıl %76 idi. 'AI videolarımız hem güzel hem güvenli, çocuk fotoğrafıyla uğraşmaya gerek kalmadı' dediler."
+    ],
+    "beforeAfter": [
+      {"label": "Video Üretim Maliyeti", "before": "38.000 TL", "after": "18.000 TL"},
+      {"label": "Teslim Süresi", "before": "10-14 gün", "after": "4 gün"},
+      {"label": "Meta Ads ROAS", "before": "1.2x", "after": "3.8x"},
+      {"label": "Kayıt Kontenjan Doluluk", "before": "%76", "after": "%92"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Tek Video",
+      "price": "4.500 TL",
+      "description": "Tek seferlik - kampanya, etkinlik veya tanıtım için",
+      "features": [
+        "1 adet 15-30 saniye video",
+        "AI üretim (Sora, Veo, Higgsfield)",
+        "Lisanslı müzik",
+        "Türkçe voiceover (opsiyonel)",
+        "9:16 + 1:1 format",
+        "2 revize hakkı",
+        "5 gün teslim"
+      ]
+    },
+    {
+      "name": "Kampanya Paketi",
+      "price": "14.000 TL",
+      "description": "Kayıt dönemi veya yaz okulu kampanyası için en popüler paket",
+      "features": [
+        "4 farklı video (15-60 sn)",
+        "Günlük rutin + atölye + kampanya + müfredat",
+        "Lisanslı müzik + voiceover",
+        "9:16 + 1:1 + 16:9 format",
+        "Meta Ads A/B test versiyonu",
+        "3 revize hakkı",
+        "7 gün teslim"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Yıllık Abonelik",
+      "price": "8.500 TL/ay",
+      "description": "Sürekli sosyal medya içeriği üreten anaokulları için",
+      "features": [
+        "Aylık 4 video (15-30 sn)",
+        "Mevsim, kayıt, yaz okulu içerikleri",
+        "Trend takibi ve fikir desteği",
+        "Tüm formatlar",
+        "Meta Ads optimizasyon",
+        "Sınırsız revize",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Çocuk fotoğrafı kullanmadan video nasıl üretiyorsunuz?", "answer": "AI ile atmosfer, eller, ayaklar, oyuncaklar, sınıf objeleri ve duygusal kompozisyonlar üretiyoruz. Çocuk siluetleri (uzaktan, yüz odaklı değil) veya AI üretimi 'kurgusal' çocuklar kullanılabiliyor - gerçek çocuk değil. KVKK ve çocuk gizliliği tamamen güvende, veli izni gerekmiyor."},
+    {"question": "AI üretim videolar gerçekçi mi, amatör mü duruyor?", "answer": "Higgsfield, Sora 2 ve Veo 3 modelleri 2025 itibarıyla profesyonel çekimden ayırt edilemez kalitede. Tüm vaka çalışmalarımızda veliler 'gerçek çekim sandık' diyor. Sadece çocuk yüzü detayında AI hala yetersiz, biz de bilinçli olarak yüz göstermiyoruz - bu hem etik hem kalite avantajı."},
+    {"question": "Müziği lisanslı mı kullanıyorsunuz?", "answer": "Evet, tamamen lisanslı. Epidemic Sound, Artlist ve Pixabay Premium kütüphanelerinden seçim yapıyoruz. Telif hakkı sorunu yaşamıyorsunuz, Meta Ads veya YouTube'da reklam olarak kullanırken takıntı yok."},
+    {"question": "Voiceover sesi gerçek mi, AI mı?", "answer": "İki seçenek de var. AI voiceover (ElevenLabs) - saniyeler içinde, doğal Türkçe, kadın/erkek/sıcak/profesyonel ses seçenekleri. Gerçek voiceover - profesyonel seslendirme sanatçısı (ek 1.500 TL, 2-3 gün gecikme). Anaokulları için AI sıcak kadın ses tonu en popüler tercih."},
+    {"question": "Meta Ads kampanyası kurulumu dahil mi?", "answer": "Kampanya paketi ve abonelikte A/B test versiyonları dahil - yani 2-3 farklı edit'i Meta'da test edebileceğiniz halde teslim ediyoruz. Meta Ads kampanya kurulumu ayrı hizmet (10.000 TL'den başlıyor), istek üzerine paket dışı sunuyoruz."},
+    {"question": "Revize hakkım nasıl çalışıyor?", "answer": "Tek video paketinde 2, Kampanya paketinde 3, abonelikte sınırsız. Revize talebi: 'Müzik biraz daha sakin olsun', 'son sahnede CTA daha büyük', 'voiceover hızlansın' gibi. Konsept değişikliği (tamamen farklı senaryo) yeni video sayılır."},
+    {"question": "TikTok ve Reels formatı aynı mı?", "answer": "Format aynı (9:16, dikey), ama edit ritimleri farklı. TikTok için daha hızlı kesim, hook'lu açılış (ilk 3 saniye). Reels için müzik daha melodik, ritim daha sakin. Kampanya paketinde her platform için ayrı versiyon teslim ediyoruz."}
+  ],
+  "finalCtaHeadline": "Çocuk fotoğrafı kullanmadan kayıt sezonunu açın",
+  "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut sosyal medyanızı analiz edip ücretsiz konsept önerisi hazırlıyoruz. Kayıt dönemine 6 hafta varsa ideal zaman."
+}

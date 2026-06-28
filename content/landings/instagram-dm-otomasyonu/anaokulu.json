@@ -1,0 +1,108 @@
+{
+  "sectorSlug": "anaokulu",
+  "sectorName": "Anaokulu",
+  "sectorPlural": "Anaokulları",
+  "title": "Anaokulları İçin Instagram DM Otomasyonu | Veli Yorumları + Lead Toplama - PORTZEN",
+  "description": "Anaokulları için Instagram DM otomasyonu. Veli yorumlarına otomatik yanıt, DM'den deneme dersi randevusu, etkinlik videolarından lead toplama, kayıt dönemi kampanya.",
+  "keywords": ["anaokulu instagram", "anaokulu dm otomasyon", "kreş instagram", "veli lead", "deneme dersi instagram", "anaokulu sosyal medya"],
+  "h1": "Anaokulları için Instagram DM Otomasyonu",
+  "heroSubtitle": "Veli yorumlarına otomatik yanıt, DM'den deneme dersi randevusu, etkinlik ve atölye videolarından lead toplama. Sosyal medya yöneticiniz olmasa bile her ebeveynin sorusu cevaplanıyor.",
+  "stats": [
+    {"value": "%84", "label": "DM Yanıt Oranı"},
+    {"value": "12 sn", "label": "Ortalama Yanıt"},
+    {"value": "8 gün", "label": "Devreye Alma"},
+    {"value": "KVKK", "label": "Uyumlu"}
+  ],
+  "problems": [
+    "Instagram'da paylaştığınız sınıf videolarına 'fiyat?' yorumu yağıyor, hepsine tek tek cevap yetiştirmek imkansız",
+    "Veli DM atıyor, müdür 4 saat sonra görüyor, veli o sırada rakip 3 anaokulundan teklif almış oluyor",
+    "Reels viral oluyor (1000+ izlenme), gelen DM'leri yönetemiyorsunuz, lead'ler kayboluyor",
+    "Profil bio'sundaki linkten kimse formu doldurmuyor, oysa DM'den yazmaya daha açıklar",
+    "Aday velilerle takipçi velileri ayırt edemiyorsunuz, herkese aynı tarzda yanıt veriyorsunuz",
+    "Kayıt dönemi başlangıcında DM trafiği patlıyor, manuel cevap yetişmiyor, yarı kayıt fırsatı kaçıyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Içerik & SSS Brief", "description": "Mevcut Instagram içeriklerinizi (reels, post, story), gelen yorum türlerini, sıkça sorulan veli sorularını analiz ediyoruz. Hangi içeriğin hangi mesajı tetiklediğini haritalandırıyoruz."},
+    {"title": "2. Yorum Anahtar Kelime Akışları", "description": "Belirli kelimeler ('fiyat', 'kayıt', 'servis', 'müsaitlik') geldiğinde otomatik DM yanıtları kuruluyor. Genel yorum yanıtı public, detay DM'ye yönlendiriliyor - herkes fiyatı yorumlarda görmesin."},
+    {"title": "3. DM Akışı + Lead Yakalama", "description": "DM'de AI asistanı veli ile sohbet ediyor - yaş, mahalle, ilgilenilen konu (yarım gün/tam gün, yaz okulu) sorularını sıcak dille soruyor, deneme dersi randevusu öneriyor, telefon numarası alıp CRM'e düşürüyor."},
+    {"title": "4. ManyChat + Meta API Devreye Alma", "description": "Instagram Business hesabınıza ManyChat üzerinden bağlanıyoruz. 5 günlük test fazı, ince ayar, sonra tam yayın. KVKK uyumlu, çocuk verisi istemiyor."}
+  ],
+  "features": [
+    {"title": "Yorum-DM Otomatik Köprü", "description": "Reels veya posta 'fiyat?' diye yorum geldi mi otomatik yanıt: 'Detaylı bilgi DM'den ulaştık'. DM'de ise tam fiyatlandırma + randevu önerisi geliyor. Rakipler fiyatınızı yorumlardan göremiyor."},
+    {"title": "Veli Aday vs Mevcut Ayrımı", "description": "Mesaj atan kişi takipçi mi, daha önce DM atmış mı kontrol ediliyor. Mevcut veli ise 'merhaba Ayşe Hanım, hangi konuda yardımcı olabilirim?' tonu, yeni aday ise tanıtım tonu kullanılıyor."},
+    {"title": "Deneme Dersi Randevu Akışı", "description": "DM'den 'çocuğum 4 yaşında, deneme dersi alabilir miyim?' diyen veliye AI haftalık müsait slotları sunuyor, randevu alıp Google Calendar'a düşürüyor, hem veliye hem müdüre bildirim atıyor."},
+    {"title": "Story Cevap Otomasyonu", "description": "Story'lere 'ev ödevi gibi yapıyor musunuz?', 'serbest oyun saati var mı?' gibi cevaplar geldiğinde AI sıcak bir tonda yanıtlıyor, ilgi gösteren veliyi DM diyaloğuna çekiyor."},
+    {"title": "Etkinlik Videosu Lead Yakalama", "description": "Aylık tema, fen deneyi, drama gösterisi videolarına gelen tüm yorumlar (özellikle 'çok güzel', 'imrenerek izledim') tespit ediliyor, bu velilere AI özel DM atıyor: 'Geçen ay tema haftası tanıtımımıza katılır mıydınız?'"},
+    {"title": "Kampanya Dönemi Toplu Mesaj", "description": "Erken kayıt indirimi, yaz okulu kampanyası, kardeş indirimi gibi dönemlerde takipçilerinize segmente özel DM gönderiliyor. Spam değil, ilgi profillerine göre kişiselleştirilmiş mesaj."}
+  ],
+  "caseStudy": {
+    "title": "Etiler Ada Anaokulu - DM'den Aylık 38 Deneme Dersi Randevusu, Instagram %180 Büyüme",
+    "paragraphs": [
+      "Etiler'de butik bir anaokulu olan Ada, 2024 sonunda yaklaşık 8 bin takipçili Instagram hesabıyla geldi. İçerikleri (sınıf videoları, atölye reelsleri) çok iyiydi, etkileşim aldıkları gönderiler 15-25 bin izleniyordu. Ancak gelen DM'lerin %60'ına cevap verilemiyordu, müdür akşamları telefonda mesaj yetiştirmeye çalışıyordu.",
+      "8 günde Profesyonel paketle Instagram DM otomasyonunu devreye aldık - yorum-DM köprüsü, deneme dersi randevu akışı, mevcut/aday ayrımı, 32 farklı SSS akışı. KVKK uyumlu, çocuk verisi istemiyor. AI ses tonunu Ada'nın markasına özel eğittik (sıcak, anne-baba diline yakın, klişesiz).",
+      "İlk ay DM yanıt oranı %38'den %92'ye çıktı. Aylık deneme dersi randevusu 11'den 38'e ulaştı. Reels viral olduğunda (örnek: drama gösterisi 47 bin izleme) gelen 240 DM'in 198'i otomatik yanıtlandı, 24 deneme dersi randevusuna dönüştü. Instagram takipçi sayısı 3 ayda %180 büyüdü çünkü hızlı yanıt iyi yorum getirdi."
+    ],
+    "beforeAfter": [
+      {"label": "DM Yanıt Oranı", "before": "%38", "after": "%92"},
+      {"label": "Aylık Deneme Dersi (DM kaynaklı)", "before": "11", "after": "38"},
+      {"label": "Ortalama DM Yanıt Süresi", "before": "4.5 saat", "after": "12 saniye"},
+      {"label": "Instagram Takipçi (3 ay)", "before": "8.000", "after": "22.400"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "9.000 TL + 1.500 TL/ay",
+      "description": "Yeni Instagram hesapları ve butik anaokulları için",
+      "features": [
+        "ManyChat kurulumu",
+        "15 SSS otomatik yanıt akışı",
+        "Yorum-DM köprüsü (3 anahtar kelime)",
+        "Temel lead toplama",
+        "Mesai dışı otomatik yanıt",
+        "KVKK uyumlu kurulum",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "18.000 TL + 2.800 TL/ay",
+      "description": "Aktif sosyal medya hesabı olan anaokulları için en popüler paket",
+      "features": [
+        "Sınırsız SSS + AI sohbet asistanı",
+        "Deneme dersi randevu (Calendar entegre)",
+        "Mevcut/aday veli segmentasyonu",
+        "Story cevap otomasyonu",
+        "Aylık kampanya DM (segmente)",
+        "AI eğitimi (kurum ses tonu)",
+        "Aylık etkileşim raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "32.000 TL + 4.500 TL/ay",
+      "description": "Zincir anaokulları, çoklu şube ve agresif büyüme için",
+      "features": [
+        "Çoklu Instagram hesabı yönetimi",
+        "CRM entegrasyonu (HubSpot, Pipedrive)",
+        "Reels viral olduğunda otomatik scale",
+        "İçerik takvimi danışmanlığı",
+        "Veli tavsiye programı otomasyonu",
+        "Özel proje yöneticisi",
+        "Aylık strateji görüşmesi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Instagram DM otomasyonu kurmak için kaç takipçi gerekli?", "answer": "Teknik olarak takipçi şartı yok, Instagram Business hesabınız olması yeterli. Ancak DM trafiği 1.000 takipçi altında düşük olduğu için yatırım geri dönüşü 3.000+ takipçi sonrası anlamlı oluyor. Yeni hesap iseniz Başlangıç paketi + içerik desteği almanızı öneriyoruz."},
+    {"question": "ManyChat ücreti ayrı mı?", "answer": "Evet, ManyChat Pro aylık 15 USD'den başlıyor (~500 TL). Bu ücret sizin adınıza ödeniyor veya bizim hesabımızdan yönetiyoruz (paket içinde). Profesyonel ve Kurumsal pakette ManyChat dahil - ayrı ödeme yok."},
+    {"question": "Çocuk fotoğrafı veya bilgisi alır mı?", "answer": "Hayır, kesinlikle almıyor. AI sadece veli telefon numarası ve sorduğu konuyu işliyor. Çocuk ismi, fotoğraf, sağlık bilgisi gibi veriler istenmiyor. KVKK ve çocuk gizliliği önceliğimiz, aydınlatma metni de hazırlıyoruz."},
+    {"question": "Meta'nın 24 saat kuralı ne demek?", "answer": "Instagram, kullanıcı size mesaj attıktan sonra 24 saat içinde yanıt vermenize izin veriyor (otomatik veya manuel). 24 saat geçince sadece onaylı template mesaj gönderebiliyorsunuz. AI asistanımız anında yanıt verdiği için bu sınır sizin için sorun olmuyor - kampanya mesajları için template ayarlıyoruz."},
+    {"question": "Yorum yanıtları otomatik mi yoksa elle mi atılıyor?", "answer": "Otomatik. Belirli anahtar kelimeler ('fiyat', 'kayıt', 'servis') yorum altında geçtiğinde sistem önce public yanıt veriyor ('DM'den detay ulaştık'), sonra kullanıcıya otomatik DM gönderiyor. Diğer yorumlar (övgü, teşekkür) için template yanıtlar var, isterseniz kapatıyoruz."},
+    {"question": "Reels viral olursa sistem çakılır mı?", "answer": "Hayır, ManyChat + Meta API saatte 1000+ DM yanıtlayabiliyor. Vaka çalışmamızdaki Ada Anaokulu drama videosu viral olduğunda saatte 60 DM geldi, hepsi 30 saniye içinde yanıtlandı. Kurumsal pakette saatlik otomatik scale var (kampanya başında özellikle yararlı)."},
+    {"question": "Mesaj tonunu kurumumuza özel mi yapıyorsunuz?", "answer": "Evet, Profesyonel ve Kurumsal pakette AI ses tonu özel eğitiliyor. Önce mevcut DM yazışmalarınızdan örnek topluyoruz (sıcak/resmi, samimi/profesyonel, emoji kullanımı vb.), AI'ı o tonda eğitiyoruz. İlk 30 gün izleyip ince ayar yapıyoruz."}
+  ],
+  "finalCtaHeadline": "Bir sonraki viral reels'ten 30 deneme dersi alın",
+  "finalCtaSubtitle": "15 dakikalık brief görüşmesi yeterli. Mevcut Instagram trafiğinizi analiz edip ücretsiz potansiyel raporu hazırlıyoruz. Kayıt dönemi başlamadan devreye alın."
+}

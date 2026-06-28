@@ -1,0 +1,113 @@
+{
+  "type": "location",
+  "sectorSlug": "gaziantep",
+  "sectorName": "Gaziantep",
+  "sectorPlural": "Gaziantep İşletmeleri",
+  "title": "Gaziantep CRM Otomasyonu | B2B İhracat Müşteri + Distribütör Takip Sistemi - PORTZEN",
+  "description": "Gaziantep Şahinbey baklava ihracat, Şehitkamil fıstık e-ticaret, OSB tekstil B2B müşteri ve distribütör takip için TR + EN + AR çoklu dil CRM otomasyonu.",
+  "keywords": ["gaziantep crm sistemi", "ihracat musteri takip", "b2b crm gaziantep", "sahinbey distributor yonetimi", "sehitkamil sadakat", "osb b2b musteri"],
+  "h1": "Gaziantep İşletmeleri için CRM Otomasyonu",
+  "heroSubtitle": "Şahinbey baklava ihracat müşteri takibi, Şehitkamil Antep fıstığı sadakat sistemi, OSB tekstil B2B distribütör yönetimi. TR + EN + AR çoklu dilli WhatsApp + Email + SMS otomasyonu. PORTZEN İzmir merkezli, Gaziantep'te aktif müşteriler uzaktan.",
+  "stats": [
+    {"value": "TR + EN + AR", "label": "Üç Dilli"},
+    {"value": "%62", "label": "Tekrar Sipariş Artışı"},
+    {"value": "2 hafta", "label": "Kurulum"},
+    {"value": "Sınırsız", "label": "B2B + B2C Kayıt"}
+  ],
+  "problems": [
+    "Şahinbey'de baklava ihracatı yapıyorsunuz, Suudi + BAE + Almanya + ABD'den müşteri var, hepsini Excel'de tutuyorsunuz, son sipariş tarihini hatırlamıyorsunuz",
+    "Şehitkamil'de Antep fıstığı online satıyorsunuz, müşteriler 3-4 ay arayla geliyor, sadakat kampanyası yapamıyorsunuz, eski müşteri unutuluyor",
+    "OSB'de tekstil veya halı üretiyorsunuz, B2B distribütör takibiniz Excel'de, her birinin son siparişi, ödeme durumu, fiyat anlaşması kafanızda",
+    "İhracat müşterisi 'when's my next shipment?' soruyor, satış ekibi tedarik zinciriyle konuşup yanıt veriyor, 6 saat geç oluyor",
+    "Ramazan, Bayram, Kurban Bayramı kampanyaları için Arap müşteri listenize Arapça mesaj, Avrupa listenize İngilizce mesaj atmıyorsunuz, sezon kaçıyor",
+    "Müşteri 100+ olduğunda kim ne sipariş etti, kim ne kadar ödedi, kim ne sıklıkta alıyor - bütün bilgi sahibin kafasında, ekipte değil"
+  ],
+  "solutionSteps": [
+    {"title": "1. Mevcut Müşteri + İhracat Verisi Analiz", "description": "Excel, WhatsApp arşivi, fatura sistemi, Trendyol/Amazon Seller, e-ticaret platformu nereden müşteri verisi geliyor? Hepsini tek CRM'e migrasyon. Gaziantep sektörünüze göre özelleştirme (baklava ihracat / fıstık B2C / tekstil B2B)."},
+    {"title": "2. CRM Setup (HubSpot / Pipedrive / Özel)", "description": "İhtiyaca göre HubSpot (ücretsiz başlangıç, B2B/B2C uyumlu) veya Pipedrive (B2B odaklı). Müşteri kartı, sipariş geçmişi, fiyat anlaşması, ödeme durumu, son temas tarihi. Sanity/Shopify/WooCommerce entegrasyonu."},
+    {"title": "3. Çoklu Dil Otomasyon Akışları", "description": "Yeni müşteri TR + EN + AR hoşgeldin mesajı (dile göre), Ramazan/Bayram kampanyası segmentli broadcast, 60 gün sessiz müşteri geri kazanma, distribütör fiyat güncelleme bildirimi. WhatsApp + Email + SMS."},
+    {"title": "4. Sahip Dashboard + İhracat Raporlama", "description": "Aylık yeni müşteri, ülke bazlı satış, ortalama sipariş USD, distribütör performansı, kampanya ROI. Sahip telefondan görüyor, ekibe paylaşıyor. İhracat performansını görür hale geliyor."}
+  ],
+  "features": [
+    {"title": "Müşteri 360 + İhracat Detay", "description": "Her müşterinin sipariş geçmişi (TR/USD/EUR), son ziyaret/temas, kargo durumu, fiyat anlaşması, sertifika ihtiyacı, dil tercihi tek ekranda."},
+    {"title": "Çoklu Dil Otomatik Mesaj (TR + EN + AR)", "description": "Müşteri dil tercihine göre otomatik mesaj. Suudi müşteri Arapça hoşgeldin, Alman müşteri İngilizce kampanya, Türk müşteri Türkçe sadakat ödülü."},
+    {"title": "Ramazan + Bayram Segmentli Kampanya", "description": "Arap müşteri segmentine Ramazan iftar baklava kampanyası, Türk segmentine Bayram kutusu, Avrupa segmentine Christmas özel kutu. Hepsi otomatik, dil + içerik segmentli."},
+    {"title": "B2B Distribütör Yönetim Paneli", "description": "Her distribütörün son sipariş, ödeme durumu, fiyat anlaşması, hedef vs gerçekleşen ciro tek ekranda. Satış ekibi haftalık takip yapıyor."},
+    {"title": "60 Gün Sessiz Müşteri Geri Kazanma", "description": "Son 60 günde sipariş vermemiş müşteriye otomatik 'özledik + %10 indirim' mesajı. Dile göre Türkçe/İngilizce/Arapça."},
+    {"title": "Sahip Dashboard + İhracat KPI", "description": "Aylık yeni müşteri, ülke bazlı ciro (TL/USD/EUR), en çok satan ürün, distribütör performansı. Telefon + tablet + bilgisayar erişim."}
+  ],
+  "caseStudy": {
+    "title": "Şahinbey - Baklava İhracat: CRM Sonrası Distribütör Sayısı 4'ten 18'e, Aylık Ciro 2.8x",
+    "paragraphs": [
+      "Şahinbey'de baklava + Antep fıstığı ihracatı yapan firma 2024 Aralık'ında PORTZEN'e geldi. 4 distribütörleri vardı (2 Suudi, 1 Alman, 1 ABD), Excel'de takip ediyorlardı. Hangi distribütörün son siparişi ne zaman, ödeme durumu ne, kampanya katılım - hepsi sahibin kafasındaydı. Yeni distribütör başvurularına 5-7 gün geç dönüyorlardı, çoğu kaçıyordu.",
+      "HubSpot Pro + WhatsApp Business API + Sanity CMS entegrasyonu 2 hafta içinde kuruldu. Her distribütör için müşteri kartı, fiyat anlaşması, sipariş geçmişi, ödeme durumu, son temas tarihi. Üç dilli (TR + EN + AR) otomatik mesaj akışları. Yeni B2B başvurusu için otomatik karşılama + 24 saatte ekipten yanıt zorunluluğu.",
+      "İlk 6 ayda distribütör sayısı 4'ten 18'e çıktı (Suudi 5, BAE 4, Almanya 3, ABD 2, Fransa 2, Katar 2). Aylık ihracat cirosu 2.8 katına çıktı (42K USD'den 118K USD'ye). Distribütör tekrar sipariş oranı %58'den %86'ya yükseldi. Ramazan kampanyası ile tek hafta 24 ek sipariş alındı (Arapça segmentli broadcast). Sahip artık dashboard'dan tüm pipeline'ı görüyor."
+    ],
+    "beforeAfter": [
+      {"label": "Aktif Distribütör Sayısı", "before": "4", "after": "18"},
+      {"label": "Aylık İhracat Cirosu", "before": "42K USD", "after": "118K USD"},
+      {"label": "Distribütör Tekrar Sipariş Oranı", "before": "%58", "after": "%86"},
+      {"label": "Yeni Başvuru Yanıt Süresi", "before": "5-7 gün", "after": "24 saat"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "10.000 TL kurulum + 1.500 TL/ay",
+      "description": "Küçük ihracatçı veya yeni başlayan B2C",
+      "features": [
+        "HubSpot Free kurulumu",
+        "WhatsApp Business API entegrasyonu",
+        "Müşteri kartı + 8 segment etiketi",
+        "TR + EN çift dilli otomasyon",
+        "5 otomasyon akışı",
+        "Aylık 1.500 mesaj dahil",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "18.500 TL kurulum + 3.000 TL/ay",
+      "description": "Gaziantep ihracatçı KOBİ'leri için en popüler",
+      "features": [
+        "HubSpot Pro veya Pipedrive",
+        "WhatsApp + Email + SMS entegre",
+        "TR + EN + AR üç dilli otomasyon",
+        "Sınırsız müşteri + 25 segment",
+        "12+ otomasyon akışı",
+        "B2B distribütör yönetim paneli",
+        "E-ticaret + Sanity entegrasyonu",
+        "Aylık 6.000 mesaj dahil",
+        "Aylık 2 saat strateji görüşmesi"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "38.000 TL kurulum + 5.500 TL/ay",
+      "description": "Büyük ihracatçı, çoklu pazar, distribütör portalı",
+      "features": [
+        "Özel kod CRM veya HubSpot Enterprise",
+        "TR + EN + AR + FR + DE beş dilli",
+        "Distribütör portalı (özel login + fiyat görünümü)",
+        "AI bazlı müşteri skoring",
+        "Çoklu pazar segmentasyonu (5+ ülke)",
+        "Sınırsız otomasyon akışı",
+        "Sınırsız mesaj",
+        "Haftalık optimizasyon görüşmesi",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Gaziantep'te işletmem var, kurulum nasıl olacak?", "answer": "Tüm süreç uzaktan. Mevcut müşteri verinizi (Excel, fatura sistemi, e-ticaret) şifreli paylaşıyorsunuz, CRM'e migrasyon yapıyoruz. Saha ziyareti yok. Gaziantep'te aktif 6+ müşterimiz uzaktan çalışıyor."},
+    {"question": "Arapça WhatsApp mesajı kalitesi nasıl?", "answer": "GPT-4 + Claude Arapça yanıt kalitesi insan seviyesinde. Suudi, Mısır, Körfez Arapçası farkları dikkate alınıyor. Vaka çalışmasındaki Şahinbey baklava firmasının Arapça Ramazan kampanyası tek hafta 24 ek sipariş aldı."},
+    {"question": "Distribütör yönetim paneli nasıl bir şey?", "answer": "Her distribütörünüz için kart: son sipariş tarihi, ödeme durumu, fiyat anlaşması, sertifika ihtiyacı, hedef ciro vs gerçekleşen. Pipedrive veya HubSpot pipeline ile satış ekibi haftalık takip yapıyor. Premium pakette distribütör portalı (kendi login'i ile özel fiyat görüyor)."},
+    {"question": "Excel'de 1.200 müşterim var, migrasyon sürer mi?", "answer": "2-3 iş günü. Excel formatınızı standartlaştırıyoruz (isim, ülke, dil, telefon, son sipariş, USD harcama), CSV import ediyoruz, etiket atıyoruz. 1.200 müşteri için ortalama 12 saat çalışma."},
+    {"question": "Ramazan veya Bayram kampanyası 800 Arap müşteriye gidebilir mi?", "answer": "Evet, segment bazlı broadcast. 'Arap müşteri' etiketli 800 kişiye Arapça Ramazan kampanyası, 'Avrupa müşteri' etiketli 400 kişiye İngilizce kampanya. Profesyonel pakette ayda 6.000 mesaj, Premium'da sınırsız."},
+    {"question": "Müşteri 'when's my shipment?' diye sorduğunda otomatik yanıt verebilir mi?", "answer": "Evet, kargo durumu (DHL, UPS, FedEx) entegrasyonu ile gerçek zamanlı takip. Müşteri WhatsApp/Email'den sorduğunda AI 'your shipment is in customs Dubai, expected delivery Mar 18' yanıt veriyor."},
+    {"question": "Veri güvenliği nasıl? B2B müşterilerimin fiyat anlaşmaları kimde?", "answer": "Tüm veri sizin HubSpot/CRM hesabınızda, biz erişim sahibi değiliz. KVKK + GDPR uyumlu. Aboneliği iptal ederseniz veri yedeği CSV olarak teslim ediliyor. Distribütör fiyat anlaşmaları şifrelenmiş alanda tutuluyor, sadece yetkili satış ekibi görüyor."}
+  ],
+  "finalCtaHeadline": "Gaziantep ihracatınız için CRM 2 haftada aktif olsun",
+  "finalCtaSubtitle": "45 dakikalık Zoom brief görüşmesi yeterli. Mevcut müşteri + distribütör akışınızı inceleyip TR + EN + AR çoklu dilli CRM + otomasyon stratejisi hazırlıyoruz. PORTZEN İzmir merkezli, Gaziantep'te aktif ihracatçılar uzaktan."
+}

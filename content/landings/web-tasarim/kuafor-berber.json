@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "kuafor-berber",
+  "sectorName": "Kuaför & Berber",
+  "sectorPlural": "Kuaför ve Berber Salonları",
+  "title": "Kuaför ve Berber Salonları İçin Web Tasarım | Online Randevu + Ekip Tanıtım - PORTZEN",
+  "description": "Kuaför ve berber için Next.js web tasarım. Online randevu sistemi, şeffaf hizmet fiyatları, usta tanıtım, müşteri yorumları ve gelin paketi sayfası.",
+  "keywords": ["kuaför web tasarım", "berber websitesi", "online randevu sistemi", "salon site yapımı", "kuaför websitesi", "gelin paketi sayfa"],
+  "h1": "Kuaför ve Berber Salonları için Profesyonel Web Tasarım",
+  "heroSubtitle": "Online randevu sistemi, şeffaf hizmet fiyatları, usta tanıtım sayfaları, müşteri yorumları yönetimi ve gelin paketi rezervasyonu - Next.js ile mobilde hızlı salon websitesi.",
+  "stats": [
+    {"value": "18 gün", "label": "Ortalama Teslim"},
+    {"value": "96+", "label": "Lighthouse Skoru"},
+    {"value": "Online", "label": "Randevu Sistemi"},
+    {"value": "Mobil-First", "label": "Tasarım"}
+  ],
+  "problems": [
+    "Mevcut siteniz 2017'den kalma WordPress, mobilde açılışı 6-7 saniye, müşteri kapatıp gidiyor",
+    "Online randevu sisteminiz yok, müşteri telefon veya Instagram DM ile geliyor, dağınık takip",
+    "Hizmet fiyatları siteye yazılmamış, müşteri 'balyaj ne kadar' diye sürekli soruyor, satış yavaşlıyor",
+    "Usta (kuaför, berber) tanıtımı yok, müşteri 'kim kesecek saçımı' diye güvensiz hissediyor, randevu açmıyor",
+    "Gelin paketi gibi yüksek bilet hizmetler için detaylı sayfa yok, telefon görüşmesine kalıyor, kayıp oluyor",
+    "Google'da 'Kadıköy kuaför', 'Beşiktaş berber' aramasında ilk sayfada yoksunuz, müşteri rakibe gidiyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Salon Brief & Hizmet Haritası", "description": "Verdiğiniz hizmetler (kesim, boyama, perma, sakal, gelin saç, makyaj), her hizmetin süresi ve fiyatı, usta bilgileri (uzmanlık alanı, deneyim) ve hedef kitleniz çıkartılıyor."},
+    {"title": "2. UI/UX Tasarım", "description": "Figma'da salon sektörüne özel tasarım - büyük görselli hero (before-after), sticky randevu CTA, usta kartları, hizmet detay sayfaları. Mobil-first, müşteri 5 saniyede randevu açabilmeli."},
+    {"title": "3. Next.js + Randevu + Galeri", "description": "Next.js 15 ile geliştirme. Online randevu sistemi (usta + tarih + saat seçimi), hizmet detay sayfaları (fiyat dahil), usta tanıtım kartları, before-after galerisi, gelin paketi sayfası, Instagram feed entegrasyonu."},
+    {"title": "4. SEO + Google My Business", "description": "Schema markup (BeautySalon + LocalBusiness), semt SEO ('Kadıköy kuaför', 'Beşiktaş berber'), Google My Business profili optimizasyonu, müşteri yorum yönetimi setup."}
+  ],
+  "features": [
+    {"title": "Online Randevu Sistemi", "description": "Usta seçimi, tarih, saat, hizmet (kesim, boyama, gelin saç vb.), özel not - formu doldurunca salon panele + WhatsApp'a bildirim, müşteriye otomatik SMS onay + 24 saat öncesi hatırlatma."},
+    {"title": "Şeffaf Hizmet Fiyatları", "description": "Tüm hizmetler için 'başlangıç fiyat' veya 'aralık' görünür. Saç kesimi 250-450 TL, balyaj 750-1.500 TL, gelin saç paketi 3.500-7.000 TL gibi. Müşteri telefon açmadan karar veriyor."},
+    {"title": "Usta Tanıtım Sayfası", "description": "Her usta için fotoğraf, uzmanlık alanı (kesim, boyama, gelin, sakal), deneyim yılı, sertifikalar, sosyal medya linki. Müşteri randevu açarken usta seçebiliyor, güven oluşuyor."},
+    {"title": "Before-After Galerisi", "description": "Kategori filtreli (kesim, boyama, balyaj, gelin saç) before-after galeri. Lightbox görüntüleme, Instagram'dan otomatik çekim opsiyonu (Premium), müşteri çalışmalarınızı görüyor."},
+    {"title": "Gelin Paketi Özel Sayfası", "description": "Düğün sezonu için özel sayfa - kına + nikah paket fiyatları, deneme randevusu, makyaj ekstrası, ev/salon tercihi. Form doldurunca direkt salon yöneticisine gidiyor, kişisel görüşme."},
+    {"title": "Müşteri Yorum Yönetimi", "description": "Google ve site içi yorumlar entegre. Yeni yorum gelince admin panelden yayınlanıyor. Yorum yıldız ortalaması anasayfada, sosyal kanıt güçlü."}
+  ],
+  "caseStudy": {
+    "title": "İstanbul Beşiktaş - Karma Kuaför Salonu: Organik Trafik 240 → 5.800/ay, Aylık 320 Online Randevu",
+    "paragraphs": [
+      "Beşiktaş'ta 6 ustalı (4 kuaför + 2 berber) bir karma salon 2024 sonunda PORTZEN'e geldi. Mevcut WordPress sitesi 2018'de yapılmış, mobil uyumlu değil, online randevu sistemi yok, hizmet fiyatları belirsiz. Tüm randevular telefon + Instagram DM'den geliyordu, cumartesi günleri kaos yaşanıyor, kayıplar oluşuyordu.",
+      "18 günde Profesyonel paket ile siteyi yeniden inşa ettik. Online randevu sistemi (6 usta takvim senkron), 24 hizmet için fiyat sayfaları, usta tanıtım kartları, gelin paketi özel sayfası, before-after galerisi (120+ çalışma), Google My Business optimizasyonu yaptık.",
+      "İlk ay Google'da 'Beşiktaş kuaför' aramasında 2. sıraya çıktılar (önceden 3. sayfa). 3. ayın sonunda aylık organik trafik 240'tan 5.800'e ulaştı, ay başı 320 online randevu direkt siteden geliyor. Gelin paketi sayfası 6 ay içinde 28 anlaşmaya dönüştü (toplam değer 168K TL). Cumartesi yoğunluğu yönetilebilir hale geldi."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Organik Trafik", "before": "240", "after": "5.800"},
+      {"label": "Aylık Online Randevu", "before": "0", "after": "320"},
+      {"label": "Mobil Yüklenme Süresi", "before": "6,4 sn", "after": "1,1 sn"},
+      {"label": "Aylık Gelin Paketi Anlaşması", "before": "1-2", "after": "5"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Salon Sitesi",
+      "price": "10.000 TL",
+      "description": "Tek seferlik - küçük salon ve yeni açılışlar için",
+      "features": [
+        "5 sayfa (anasayfa, hizmetler, ekip, galeri, iletişim)",
+        "Next.js + Tailwind",
+        "Mobil responsive + 90+ Lighthouse",
+        "Hizmet listesi (fiyatlı)",
+        "Google Maps embed",
+        "WhatsApp randevu butonu",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "22.000 TL + 1.500 TL/ay",
+      "description": "Aktif salonlar için en popüler paket - bakım dahil",
+      "features": [
+        "10-14 sayfa + hizmet detay sayfaları",
+        "Online randevu sistemi (usta seçimli)",
+        "Usta tanıtım sayfaları",
+        "Before-after galerisi",
+        "Gelin paketi özel sayfası",
+        "Müşteri yorum entegrasyonu",
+        "Google My Business optimizasyonu",
+        "Aylık bakım, içerik güncelleme"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Salon",
+      "price": "38.000 TL + 2.500 TL/ay",
+      "description": "Çoklu şube, gelin pazarı agresif salonlar için",
+      "features": [
+        "Sınırsız sayfa + çoklu şube",
+        "Şube bazlı randevu + usta yönetimi",
+        "Üyelik + sadakat puanı",
+        "Dijital cüzdan + ön ödeme",
+        "Instagram feed otomatik çekim",
+        "Çoklu dil (TR/EN)",
+        "Google Ads landing sayfaları",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Sitem ne kadar sürede hazır olur?", "answer": "Mini Salon Sitesi 8-12 gün, Profesyonel 15-22 gün, Premium 25-35 gün. Brief sonrası net gün veriyoruz. Usta fotoğrafları ve hizmet fiyatlarınız hazırsa hızlanıyor."},
+    {"question": "Usta ve çalışma fotoğrafım yok, ne yapacağız?", "answer": "İki seçenek: (1) Profesyonel fotoğrafçı yönlendiriyoruz (ortalama 3-5K TL, ekip + 20 çalışma). (2) Salon içi mobil çekim rehberi veriyoruz, ekibiniz çekiyor, biz post-prodüksiyon + AI iyileştirme yapıyoruz (ek 2.500 TL). Before-after çalışmaları kritik, mutlaka kaliteli olmalı."},
+    {"question": "Online randevu sistemi nasıl çalışıyor?", "answer": "Müşteri usta, tarih, saat, hizmet seçiyor. Sistemde sizin tanımladığınız usta takvimleri var, çakışma kontrolü otomatik. Randevu onaylanınca size + müşteriye SMS + email + WhatsApp bildirim, 24 saat öncesi hatırlatma otomatik. İptal/değişiklik yine site üzerinden."},
+    {"question": "Fiyatlarımı siteye yazmak doğru mu? Müşteri pahalı diye gitmez mi?", "answer": "Tam tersi - şeffaf fiyat güven veriyor, fiyat sormak için telefon açan müşteri zaten karşılaştırıyor. Fiyat görünmüyorsa pahalı sanılıyor. Sitede 'başlangıç fiyat' veya 'aralık' yazıyoruz, balyaj gibi saç uzunluğuna göre değişen hizmetler için 'fiyat öğrenmek için fotoğraf paylaşın' opsiyonu da var."},
+    {"question": "Gelin paketi sayfası nasıl yapılıyor?", "answer": "Özel sayfa düğün sezonu vibe'ı ile tasarlanıyor - romantik atmosfer, paket karşılaştırma, deneme randevusu butonu, müşteri yorumları (geçmiş gelinler), Instagram'dan gelin çalışmaları otomatik çekim. Form 8 adım (tarih, kına/nikah, makyaj, ev/salon, deneme, bütçe, iletişim). Form doldurunca direkt yönetici paneline gidiyor."},
+    {"question": "Before-after galeri Instagram'la otomatik senkron olur mu?", "answer": "Premium pakette dahil - Instagram'a paylaştığınız çalışmaları otomatik siteye çekiyoruz, hashtag bazlı kategorize ediyor (örn. #balyaj, #ombre, #gelinSaç). Profesyonel pakette admin panelden manuel ekleme."},
+    {"question": "Google haritada üst sıralara çıkmam ne kadar sürer?", "answer": "Google My Business profili optimize sonrası 4-8 hafta içinde semt aramalarında üst sıralara çıkmak mümkün. Vaka çalışmamızdaki Beşiktaş salonu ilk ay 'Beşiktaş kuaför' 2. sıraya çıktı. Bölgenizdeki rekabete bağlı - yoğun bölgelerde 3-4 ay sürebilir."}
+  ],
+  "finalCtaHeadline": "Salon websitenizi 3 haftada açın, ilk online randevuyu alın",
+  "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut sitenizi inceleyip ücretsiz audit raporu hazırlıyoruz. WhatsApp'tan veya formdan ulaşın."
+}

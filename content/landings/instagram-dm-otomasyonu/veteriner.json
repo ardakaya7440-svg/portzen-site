@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "veteriner",
+  "sectorName": "Veteriner",
+  "sectorPlural": "Veteriner Klinikleri",
+  "title": "Veteriner Klinikleri İçin Instagram DM Otomasyonu | Randevu, Aşı Bilgisi - PORTZEN",
+  "description": "Veteriner klinikleri için Instagram DM otomasyonu. Yavru kedi/köpek paylaşımlarından lead, aşı bilgi soruları, randevu açma, ev ziyareti talebi yönetimi.",
+  "keywords": ["veteriner instagram dm", "klinik dm otomasyon", "veteriner sosyal medya", "evcil hayvan dm bot", "veteriner lead toplama", "instagram randevu otomasyon"],
+  "h1": "Veteriner Klinikleri için Instagram DM Otomasyonu",
+  "heroSubtitle": "Yavru kedi/köpek paylaşımlarınıza gelen 'fiyat ne, hangi semttesiniz' yorumlarını otomatik DM'e dönüştürüp randevu açan sistem. Sosyal medya gerçek müşteriye dönüşür.",
+  "stats": [
+    {"value": "3 sn", "label": "Yorum→DM Süresi"},
+    {"value": "%48", "label": "DM→Randevu"},
+    {"value": "7/24", "label": "Otomatik Yanıt"},
+    {"value": "5 Senaryo", "label": "Hazır Akış"}
+  ],
+  "problems": [
+    "Yavru hayvan paylaşımlarına 'fiyat?', 'nerdesiniz?', 'sahiplendirir misiniz?' yorumları geliyor, manuel cevap yetişmiyor",
+    "Instagram DM'leri günde 20-40 mesaj, çoğu aynı sorular (aşı fiyatı, kısırlaştırma, randevu) - resepsiyon zamanı boşa gidiyor",
+    "Mesai dışı DM'lere geç dönüş, hasta sahibi başka veterinerden randevu almış oluyor",
+    "Reels ve hikaye paylaşımlarındaki etkileşimden gerçek müşteri çıkarılamıyor, 'beğeniler' randevuya dönüşmüyor",
+    "DM'den gelen acil durum (hasta hayvan fotoğrafı) mesajları sabaha kalıyor, kritik vakalar kaçırılıyor",
+    "Hasta sahibinden randevu için telefon numarası, isim, hayvan bilgisi alınması manuel ve dağınık"
+  ],
+  "solutionSteps": [
+    {"title": "1. Sosyal Medya Brief & İçerik Analizi", "description": "Mevcut Instagram hesabınız, paylaşım türleri (yavru, tedavi öncesi/sonrası, eğitim videoları), gelen yorum/DM tipleri ve hedef müşteri profiliniz çıkartılıyor."},
+    {"title": "2. Senaryo Tasarımı + Lead Akışları", "description": "Yorum tetikleyici kelimeler (fiyat, nerede, randevu, aşı), DM açılış mesajı, randevu formu akışı, acil durum yönlendirme akışı, ev ziyareti talep akışı tasarlanıyor."},
+    {"title": "3. ManyChat / Meta Business Kurulum", "description": "ManyChat veya doğrudan Meta Business API ile DM otomasyonu kuruluyor. Veteriner CRM'inize bağlantı, randevu sistemine entegrasyon yapılıyor."},
+    {"title": "4. Test, Optimize & Yayın", "description": "10 günlük test dönemi. Gerçek yorum/DM'lerle ince ayar. Yayın sonrası aylık rapor (DM hacmi, randevu dönüşümü, en iyi performans gösteren içerik)."}
+  ],
+  "features": [
+    {"title": "Yorum→DM Otomatik Geçiş", "description": "Yavru hayvan paylaşımına 'fiyat?' yorumu yazıldığında 3 saniyede DM açılıyor: 'Merhaba, aşılama paketimiz 750 TL'den başlıyor. Randevu için hangi semtteyiz öğrenmek ister misiniz?' Yorum public yanıttan çok DM ile özelleşmiş satış."},
+    {"title": "Aşı/Hizmet Bilgi Kartları", "description": "Hasta sahibi 'kuduz aşısı', 'kısırlaştırma', 'mikroçip' yazınca AI ilgili hizmetin kart formatında bilgisini gönderiyor (fiyat, süre, gerekli evrak). Randevu butonu DM içinde."},
+    {"title": "Hızlı Randevu Formu", "description": "DM içinde 4 adımda randevu: hayvan türü (kedi/köpek/egzotik), hizmet seçimi, tarih, telefon. Form tamamlanınca klinik sistemine düşüyor, hasta sahibine onay otomatik geliyor."},
+    {"title": "Acil Durum Triajı", "description": "DM'de 'kanama, nefes alamıyor, zehirlendi' gibi kelimeler geçtiğinde otomatik 'ACİL: Lütfen şu numarayı arayın' mesajı + sizin bildirim alma. Kritik vaka asla kaçırılmıyor."},
+    {"title": "Ev Ziyareti Talep Akışı", "description": "Yaşlı hayvan, çoklu hayvan veya stres sebebiyle klinik yerine ev ziyareti isteyen hasta sahibinden DM içinde adres, hayvan sayısı, hizmet seçimi alınıyor, takvime otomatik öneri gönderiliyor."},
+    {"title": "Story Etkileşim Yakalama", "description": "Hikaye anketlerine (örn. 'aşı zamanı geldi mi?') yanıt verenler otomatik DM listesine düşüyor. AI 'Pamuk'un son aşısı ne zaman?' diyerek konuşmayı başlatıyor, randevu fırsatı yaratıyor."}
+  ],
+  "caseStudy": {
+    "title": "İzmir Bornova - Veteriner Kliniği: Aylık DM 120 → 480, Aylık 65 Randevu Sosyal Medyadan",
+    "paragraphs": [
+      "İzmir Bornova'da 4 yıllık bir veteriner kliniği, 8.500 Instagram takipçili hesapla aktif paylaşım yapıyor ama DM'lerin %70'ine zamanında dönemiyor, yorumlar manuel cevaplanıyordu. Yavru kedi/köpek paylaşımlarına gelen 'fiyat?' yorumları potansiyel müşteri olduğunu biliyorlar ama yetişemiyorlardı.",
+      "Profesyonel paketle Instagram DM otomasyonu kurduk. 12 farklı tetikleyici (fiyat, randevu, aşı, kısırlaştırma, ev ziyareti, mikroçip, irmik, parazit, yavru, acil, semt, çalışma saati) tasarladık. Mevcut WhatsApp asistanı CRM'iyle entegre olduğu için DM'den randevu direkt sisteme düşüyor.",
+      "İlk ay DM hacmi 120'den 480'e çıktı, çünkü artık her yorumda otomatik DM açılıyor. Aylık 65 randevu sosyal medya kanalından doğrudan geliyor, dönüşüm oranı %48 (DM açılan kişiden randevu alan). 4 acil vaka sosyal medya üzerinden tespit edilip aynı gün müdahale edildi."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık DM Etkileşimi", "before": "120", "after": "480"},
+      {"label": "Aylık Sosyal Medya Randevu", "before": "8", "after": "65"},
+      {"label": "DM Yanıt Süresi", "before": "4-12 saat", "after": "3 sn"},
+      {"label": "Yorum→Müşteri Dönüşümü", "before": "%3", "after": "%22"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Sosyal Starter",
+      "price": "6.000 TL kurulum + 1.800 TL/ay",
+      "description": "Küçük klinikler ve yeni başlayan hesaplar için",
+      "features": [
+        "ManyChat kurulum + temel akış",
+        "5 yorum tetikleyici kelime",
+        "Otomatik DM açılış",
+        "Randevu form akışı",
+        "Mesai dışı otomatik yanıt",
+        "Aylık 500 DM dahil",
+        "Email destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "15.000 TL kurulum + 3.800 TL/ay",
+      "description": "Aktif klinikler için en popüler paket",
+      "features": [
+        "Sınırsız tetikleyici kelime",
+        "12+ farklı akış senaryosu",
+        "CRM entegrasyonu (Vetera, VetSoft)",
+        "Acil durum triajı",
+        "Ev ziyareti talep akışı",
+        "Story etkileşim yakalama",
+        "Aylık 2.500 DM dahil",
+        "Aylık performans raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium Klinik",
+      "price": "30.000 TL kurulum + 7.500 TL/ay",
+      "description": "Çoklu şube ve agresif sosyal medya büyüme için",
+      "features": [
+        "Çoklu şube + çoklu hesap desteği",
+        "Sınırsız DM",
+        "Reels yorum otomasyonu",
+        "İçerik takvim danışmanlığı",
+        "Aylık 4 reels senaryosu üretimi",
+        "Sadakat puanı entegrasyonu",
+        "Özel proje yöneticisi",
+        "Reklam kampanya entegrasyonu"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Instagram hesabımı ele geçirir mi, güvenli mi?", "answer": "Hayır, Meta Business API üzerinden çalışıyor, hesabınızın şifresi alınmıyor. Sadece DM ve yorum yönetimi izni veriyorsunuz, paylaşım, takip etme veya beğeni gibi işlemler kapalı kalıyor. Meta resmi onaylı bir sistem."},
+    {"question": "Yorum tetikleyici kelimeler nasıl çalışıyor?", "answer": "Belirlediğimiz kelimeler (fiyat, randevu, nerede, semt, aşı, irmik vb.) bir yorumda geçince 3 saniye içinde o kullanıcıya özel DM açılıyor. Yorumda manuel cevap vermek yerine DM'de detaylı bilgi + randevu akışı çalışıyor."},
+    {"question": "Acil vaka DM'de yakalanabilir mi?", "answer": "Evet, 'kanama', 'nefes alamıyor', 'zehirlendi', 'yıkıldı' gibi anahtar kelimeler tespit edilince hem hasta sahibine ACİL yönlendirme hem size anlık bildirim gidiyor. Kritik vakalar dakikalar içinde fark ediliyor."},
+    {"question": "Mevcut WhatsApp asistanım var, ikisini birleştirebilir miyim?", "answer": "Evet, en doğru kullanım bu. Instagram DM'den gelen randevu talebi WhatsApp asistan sisteminize düşüyor, hasta sahibi onaylama mesajını WhatsApp'tan alıyor. Aşı hatırlatması da WhatsApp üzerinden devam ediyor. İki kanal tek CRM'de birleşiyor."},
+    {"question": "Reels paylaşımlarımdan da lead toplanabilir mi?", "answer": "Evet, Reels altına yapılan yorumlar da yakalanıyor. Özellikle 'ameliyat öncesi/sonrası' tarzı viral olabilen içerikler için çok değerli. Premium pakette Reels özel akış senaryoları kuruyoruz."},
+    {"question": "DM otomasyonu samimi olmayabilir, müşteri sıkılır mı?", "answer": "İlk DM'de bot olduğu belirtiliyor ('Merhaba, [klinik] dijital asistanıyım'), gerekli yerde insan devreye giriyor. Otomatik mesajlar kişiselleştirilmiş - hayvan adı, soru tipi, geçmiş etkileşim göz önüne alınıyor. Test fazında müşteri tepkilerine göre dilimi yumuşatıyoruz."},
+    {"question": "Aylık DM limiti aşılırsa ne olur?", "answer": "Profesyonel pakette 2.500 DM dahil. Aşım durumunda ek paket alınabilir (1.000 DM = 600 TL) veya Premium'a geçilebilir. Çoğu klinikte limit yetiyor - limit aşan kliniklerde organik DM çok yüksek, bu zaten iyi bir problem."}
+  ],
+  "finalCtaHeadline": "Instagram yorumlarını bu hafta randevuya dönüştürün",
+  "finalCtaSubtitle": "20 dakikalık demo görüşmesinde mevcut Instagram hesabınızı inceliyoruz, hangi içeriklerinizden lead çıkacağını gösteriyoruz. Test ortamı canlı demo."
+}

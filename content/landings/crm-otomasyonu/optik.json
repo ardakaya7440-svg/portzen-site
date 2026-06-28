@@ -1,0 +1,111 @@
+{
+  "sectorSlug": "optik",
+  "sectorName": "Optik",
+  "sectorPlural": "Optikçiler",
+  "title": "Optikçiler İçin CRM Otomasyonu | Göz Muayene Takvimi + Garanti Hatırlatma - PORTZEN",
+  "description": "Optikçiler için CRM otomasyonu. Periyodik göz muayene hatırlatması, garanti süresi takibi, lens bitimi hatırlatması, müşteri yaşam değeri ve segmentli kampanya yönetimi.",
+  "keywords": ["optik crm otomasyon", "optikçi müşteri yönetimi", "göz muayene hatırlatma", "garanti takip sistemi", "optik yazılım", "lens hatırlatma sistemi"],
+  "h1": "Optikçiler için CRM Otomasyonu",
+  "heroSubtitle": "Periyodik göz muayene hatırlatması, garanti süresi takibi, lens bitimi hatırlatması, müşteri segmentli kampanyası ve yaşam değeri analizi. Müşteri kaybını %50 azaltın.",
+  "stats": [
+    {"value": "%50", "label": "Müşteri Kaybı Azalması"},
+    {"value": "%72", "label": "Kontrol Dönüş Oranı"},
+    {"value": "6 sn", "label": "Ortalama Yanıt"},
+    {"value": "100%", "label": "Otomatik Bildirim"}
+  ],
+  "problems": [
+    "1 yıl önce gözlük alan müşteriye periyodik kontrol hatırlatması yapmıyorsunuz, müşteri başka optikçiye gidiyor",
+    "Çerçeve garanti süresi (1-2 yıl) takibi yok, garanti hakkı kullanılmadan süre geçiyor, müşteri tatminsizliği",
+    "Lens kullanıcılarına bitim tarihine yakın sipariş hatırlatması yok, müşteri başka yerden lens alıyor",
+    "Reçeteli gözlük teslim hazır olduğunda müşteriyi tek tek arıyorsunuz, vakit kaybı",
+    "Sezon kampanyalarını (güneş gözlüğü yazın, mavi ışık kışın) tüm müşterilere aynı mesajla gönderiyorsunuz, dönüşüm düşük",
+    "Müşteri davranış verisi (hangi marka, hangi fiyat aralığı, son alışveriş) toplanmıyor, kişiselleştirilmiş öneri yapamıyorsunuz"
+  ],
+  "solutionSteps": [
+    {"title": "1. Mevcut Veri ve Süreç Brief", "description": "Mevcut müşteri verilerinizi (ERP, Excel, kağıt kayıt) topluyoruz. Çerçeve markaları, lens markaları, garanti politikaları, randevu sistemi inceleniyor. Süreç haritası çıkarılıyor (kayıt, ödeme, teslim, garanti, kontrol)."},
+    {"title": "2. CRM Altyapısı Kurulum", "description": "HubSpot, Pipedrive veya özel CRM kurulum. Müşteri veri göçü, segment tanımları (yeni müşteri, lens kullanıcısı, premium marka alan, VIP), otomatik etiketleme kuralları. Stok ve randevu sistemine entegrasyon."},
+    {"title": "3. Otomasyon Senaryoları", "description": "1 yıl sonra göz muayene hatırlatma (3 aşamalı), garanti süresi 30 gün kala bilgilendirme, lens bitimi 7 gün kala sipariş hatırlatma, teslim hazır otomatik bildirim, sezon kampanya (güneş gözlüğü yazın, mavi ışık kışın), yeni müşteri 30 günlük takip."},
+    {"title": "4. Raporlama ve Optimizasyon", "description": "Aylık dashboard - kontrol dönüş oranı, garanti kullanım oranı, müşteri yaşam değeri (LTV), kampanya dönüşüm oranları, segment performansı. Aylık inceleme toplantısı, akış optimizasyonu, yeni segment önerileri."}
+  ],
+  "features": [
+    {"title": "Periyodik Göz Muayene Hatırlatma", "description": "1 yıl önce gözlük alan müşteriye otomatik kontrol hatırlatma. Randevu almazsa 30 ve 60 gün sonra tekrar. Müşteri başka optikçiye gitmeden önce sizden hatırlatma alıyor. Yıllık 200-400K TL ek ciro potansiyeli."},
+    {"title": "Garanti Süresi Takibi", "description": "Çerçeve garantisi (1-2 yıl) bitmeden 30 gün kala bilgilendirme. Garanti kapsamındaki sorunlar (vida gevşeme, kırılma, kaplama soyulması) için randevu daveti. Müşteri garanti hakkını kullanmadan kaybetmiyor, marka sadakatı artıyor."},
+    {"title": "Lens Bitimi Hatırlatma", "description": "Aylık veya 3 aylık lens kullanıcılarına bitim tarihinden 7 gün önce sipariş hatırlatma. Tek tıkla yeniden sipariş, ödeme linki. Müşteri başka yerden lens almıyor, ay kayıp önleniyor."},
+    {"title": "Teslim Hazır Bildirimi", "description": "Reçeteli gözlük lab ten geldiğinde otomatik WhatsApp + SMS bildirimi. Teslim alma saati seçimi, hazır olduğu konfirmasyonu. Müşteri 7 gün almazsa hatırlatma tekrarlanıyor."},
+    {"title": "Segmentli Kampanya", "description": "Müşteri segmentleri (Ray-Ban kullanan, premium fiyat aralığı, lens kullanıcısı, son 6 ay aktif olmayan) otomatik tanımlanır. Sezon kampanyaları segmente özel mesajla. Dönüşüm 3-5 kat yüksek."},
+    {"title": "Müşteri Yaşam Değeri (LTV) Analizi", "description": "Her müşterinin yaşam değeri ve satın alma sıklığı izlenir. VIP müşterilere özel kampanya, düşük LTV müşterilere upsell teklifi. Veri tabanlı pazarlama."}
+  ],
+  "caseStudy": {
+    "title": "İstanbul Bağdat Caddesi - Optik Mağaza: Kontrol Dönüş %12 den %72 e, Yıllık 380.000 TL Ek Ciro",
+    "paragraphs": [
+      "İstanbul Bağdat Caddesi nde 22 yıllık bir optik mağazası 2025 Ocak ta PORTZEN e geldi. 8.500 aktif müşteri kayıtlıydı (geçmiş 5 yılda gözlük alan), ama hiçbiriyle iletişim yoktu. Periyodik kontrol hatırlatma yapılmıyordu, garanti takibi yoktu, lens kullanıcıları başka yerden sipariş veriyordu. Mağaza sahibi 'müşterilerimi kaybediyoruz farkındayım ama sistem yok' dedi.",
+      "15 günde CRM otomasyonunu kurduk. Mevcut Optisyen Pro yazılımına HubSpot entegre ettik. 8.500 müşteri veri göçü, segment tanımları (premium marka alan, lens kullanıcısı, son alışveriş tarihi), 3 aşamalı kontrol hatırlatma akışı (1 yıl, 14 ay, 18 ay), garanti süresi takibi, lens bitimi hatırlatma, teslim bildirimi, sezon kampanya akışları aktif edildi.",
+      "İlk 3 ayda kontrol hatırlatma kampanyası 2.400 müşteriye gitti, %72 si (1.730 müşteri) randevu aldı - bunlar tamamen kayıp gidiyordu. Garanti süresi dolmadan bilgilendirme ile 380 müşteri bakım için geldi. Lens hatırlatma ile aylık lens satışı %42 arttı. Yıllık ek ciro 380.000 TL hesaplandı. Mağaza sahibi 'CRM kurmadan önce her sene 8.500 müşteriyi unutuyormuşum' dedi."
+    ],
+    "beforeAfter": [
+      {"label": "Kontrol Dönüş Oranı", "before": "%12", "after": "%72"},
+      {"label": "Garanti Kullanım Oranı", "before": "%8", "after": "%45"},
+      {"label": "Aylık Lens Satışı", "before": "180", "after": "256"},
+      {"label": "Müşteri Yaşam Değeri (LTV)", "before": "₺3.200", "after": "₺5.800"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "12.000 TL kurulum + 2.800 TL/ay",
+      "description": "Tek mağazalı, 2.000 müşteriye kadar olan optikçiler için",
+      "features": [
+        "HubSpot veya özel CRM kurulum",
+        "Müşteri veri göçü (2.000 müşteriye kadar)",
+        "Periyodik kontrol hatırlatma akışı",
+        "Teslim hazır bildirimi",
+        "Garanti süresi takibi",
+        "WhatsApp + email entegrasyonu",
+        "Aylık raporlama",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "24.000 TL kurulum + 5.500 TL/ay",
+      "description": "Aktif optikçiler için en popüler - lens + segment dahil",
+      "features": [
+        "Tüm Başlangıç paketi",
+        "10.000 müşteriye kadar veri göçü",
+        "Lens bitimi hatırlatma (sipariş linki)",
+        "Segmentli kampanya (6 segmente kadar)",
+        "Sezon kampanya akışları",
+        "Optisyen Pro / mevcut ERP entegrasyonu",
+        "WhatsApp + email + SMS çoklu kanal",
+        "Aylık optimizasyon toplantısı"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Zincir",
+      "price": "45.000 TL kurulum + 11.000 TL/ay",
+      "description": "Çoklu mağazalı zincir optikçiler ve büyük markalar için",
+      "features": [
+        "Tüm Profesyonel paketi",
+        "Sınırsız müşteri ve mağaza",
+        "Mağaza bazlı kampanya yönetimi",
+        "Marka bazlı segmentasyon (Ray-Ban, Tom Ford vb.)",
+        "Müşteri LTV ve kohort analizi",
+        "Sadakat puan sistemi entegrasyonu",
+        "Özel CRM panel geliştirme",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Mevcut Optisyen Pro verim göç eder mi?", "answer": "Evet, Optisyen Pro, OptiManager, Excel veya kağıt kayıt verilerinizi göç ediyoruz. API çalışan sistemlerde otomatik, manuelde script ile aktarıyoruz. Müşteri geçmişi, alışveriş kayıtları, reçete bilgileri korunur. Göç süresi 2.000 müşteriye kadar 3 gün, 10.000 müşteriye kadar 7 gün."},
+    {"question": "Optisyen Pro yu bırakmam gerekir mi?", "answer": "Hayır, mevcut yazılımınızı üstüne ek katman olarak CRM kurabiliyoruz. Optisyen Pro stok ve satış için kalır, CRM müşteri iletişimi, kampanya ve otomasyon için çalışır. İki sistem senkronize. Optisyen Pro bırakmak isteyenler için özel CRM de kuruyoruz."},
+    {"question": "WhatsApp mesajlarının maliyeti nedir?", "answer": "WhatsApp Business API üzerinden gönderiyoruz. Şablon mesaj 0.40-0.80 TL/mesaj (Meta ücreti). Aylık ortalama 2.000 mesaj 800-1.600 TL ek maliyet. Profesyonel pakette 3.000 mesaj/ay dahil, üstü kullandığınız kadar. Email maliyetsiz."},
+    {"question": "Müşteri verilerimiz nerede saklanıyor?", "answer": "HubSpot Avrupa sunucularında veya isteğe göre Türkiye sunucularında. KVKK uyumlu, müşteri onayı süreçleri standart. Veri sahipliği size ait, istediğiniz zaman export edebilirsiniz. Hizmet sonlanmasında veri tarafınıza teslim edilir."},
+    {"question": "Kontrol hatırlatma gerçekten dönüyor mu?", "answer": "Evet, 3 aşamalı akış (1 yıl, 14 ay, 18 ay) ile ortalama %55-75 dönüş alıyoruz. Vaka çalışmamızdaki Bağdat Caddesi optiğinde %72 dönüş, 1.730 müşteri tekrar randevu aldı. Bu müşterilerin %85 i yeni gözlük veya lens satın alıyor. Yıllık 200-400K TL ek ciro tipik."},
+    {"question": "Lens hatırlatması nasıl çalışıyor?", "answer": "Müşteri lens satın aldığında bitim tarihi sisteme düşüyor (aylık veya 3 aylık paket). 7 gün önce otomatik WhatsApp 'lens ne kadar kaldı? Sipariş için tıkla' mesajı. Tek tıkla yeniden sipariş, ödeme linki. Müşteri başka yerden almıyor. Aylık lens satışı %40-60 artıyor."},
+    {"question": "Segmentli kampanya nasıl çalışıyor?", "answer": "Müşteri verilerinden otomatik etiketleme - örn Ray-Ban kullanan + premium fiyat aralığı + son 6 ay aktif olmayan. Bu segmente özel kampanya (örn 'yeni sezon Ray-Ban koleksiyonu geldi') gönderiliyor. Genel kampanyaya göre dönüşüm 3-5 kat yüksek."}
+  ],
+  "finalCtaHeadline": "Optikçiniz 3 haftada müşteri kaybını %50 azaltsın",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz audit görüşmesi yeterli. Mevcut müşteri verilerinizi inceleyip size özel CRM stratejisi hazırlıyoruz. WhatsApp tan veya formdan ulaşın."
+}

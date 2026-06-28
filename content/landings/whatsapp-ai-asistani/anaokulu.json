@@ -1,0 +1,108 @@
+{
+  "sectorSlug": "anaokulu",
+  "sectorName": "Anaokulu",
+  "sectorPlural": "Anaokulları",
+  "title": "Anaokulları İçin WhatsApp AI Asistan | Deneme Dersi Randevusu + Kayıt Bilgisi - PORTZEN",
+  "description": "Anaokulları için WhatsApp AI asistanı. Deneme dersi randevusu, kayıt dönemi bilgisi, müfredat sorularına otomatik yanıt, ücret ve servis bilgisi, veli iletişimi 7/24.",
+  "keywords": ["anaokulu whatsapp", "anaokulu chatbot", "kreş whatsapp asistan", "deneme dersi randevu", "anaokulu kayıt", "veli iletişim"],
+  "h1": "Anaokulları için WhatsApp AI Asistanı",
+  "heroSubtitle": "Deneme dersi randevusu, kayıt dönemi bilgisi, ücret ve servis sorularına 7/24 otomatik yanıt. Veliler beklemeden cevap alıyor, siz mesai içinde sadece ziyarete gelecek aileyle ilgileniyorsunuz.",
+  "stats": [
+    {"value": "7/24", "label": "Veli Yanıtı"},
+    {"value": "%72", "label": "Randevu Artışı"},
+    {"value": "11 gün", "label": "Devreye Alma"},
+    {"value": "KVKK", "label": "Uyumlu"}
+  ],
+  "problems": [
+    "Kayıt döneminde günde 40-60 veli arıyor, sekreter yetişemiyor, telefonu açamayan veli rakibe gidiyor",
+    "Veliler akşam 19:00'dan sonra mesaj atıyor (iş çıkışı araştırıyorlar), sabah 09:00'a kadar kimse cevap vermiyor",
+    "Aynı soruları her gün 30 kez cevaplıyorsunuz: 'ücret ne kadar?', 'servisiniz var mı?', 'kaç yaş alıyorsunuz?'",
+    "Deneme dersi randevusu telefonda alınıyor, takvim defteri kullanılıyor, çakışma ve unutma yaşanıyor",
+    "Yarıyıl/yaz kampı dönemlerinde talep patlıyor, manuel cevap yetişmiyor, fırsat kaçırılıyor",
+    "Veli grupları (WhatsApp) yönetimi karışık, etkinlik duyuruları herkese ulaşmıyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Müfredat ve Sıkça Sorulan Sorular Brief", "description": "Anaokulunuzun yaş grupları, müfredat (Montessori, Reggio Emilia, GEMS vb.), günlük rutin, ücretler, servis bölgeleri, beslenme menüsü, ek aktiviteler (müzik, drama, İngilizce) bilgilerini topluyoruz. Veli SSS havuzunu çıkarıyoruz."},
+    {"title": "2. AI Asistan Eğitimi (Türkçe + KVKK)", "description": "Claude tabanlı AI asistanı kurumunuzun ses tonuyla eğitiyoruz - sıcak, güven veren, ebeveyn diline uygun. KVKK ve çocuk gizliliği kuralları çerçevesinde - çocuk ismi, fotoğraf, kişisel veri istemiyor, almıyor."},
+    {"title": "3. Randevu Sistemi + Google Calendar", "description": "Deneme dersi takvimi (haftalık slotlar), kayıt görüşmesi randevuları AI üzerinden alınır. Google Calendar entegrasyonu - randevu otomatik takvime düşer, müdür/öğretmene mail bildirimi gider."},
+    {"title": "4. Devreye Alma + Veli Test Fazı", "description": "WhatsApp Business API hattınıza bağlıyoruz, 5 günlük test fazı boyunca sizinle birlikte yanıtları izliyoruz, ince ayar yapıyoruz. Sonrasında tam devreye alıyoruz, 30 gün izleme dahil."}
+  ],
+  "features": [
+    {"title": "Deneme Dersi Randevu Sistemi", "description": "Veli 'deneme dersi almak istiyorum' yazınca AI yaş grubunu soruyor, müsait slotları sunuyor, randevuyu Google Calendar'a yazıyor, hem veliye hem öğretmene SMS hatırlatma gönderiyor."},
+    {"title": "Kayıt Dönemi Bilgilendirme", "description": "Kayıt dönemi açılış tarihleri, kontenjan durumu, gerekli belgeler, başvuru süreci AI tarafından otomatik bildiriliyor. Kontenjan dolduğunda 'bekleme listesine ekleyeyim mi?' soruyor."},
+    {"title": "Ücret ve Servis Sorgusu", "description": "Aylık ücret, kayıt ücreti, servis ücreti, ek aktivite ücretleri otomatik yanıtlanıyor. Servis bölgesi sorulduğunda mahalle/sokak bilgisine göre 'evet/hayır + güzergah saati' cevabı veriyor."},
+    {"title": "Müfredat & Günlük Rutin Anlatımı", "description": "Veli 'gün nasıl geçiyor?', 'müfredatınız nedir?', 'kaç dil öğreniyor?' sorularına detaylı, sıcak bir dille yanıt alıyor. PDF rutin programını ve örnek menüyü WhatsApp'tan gönderiyor."},
+    {"title": "Etkinlik & Veli Toplantısı Duyurusu", "description": "Aylık tema, veli toplantısı, doğum günü etkinliği, gezi bilgisi AI üzerinden bireysel velilere kişiselleştirilmiş mesajla iletiliyor. Katılım onayı alıyor, listeyi panel üzerinden görüyorsunuz."},
+    {"title": "İnsana Devir (Smart Handoff)", "description": "AI özel durumda (özel ihtiyaçlı çocuk, alerji detayı, ödeme planı, özel istek) anlıyor ve müdür/öğretmen telefon numarasına 'şu veli sizi bekliyor' bildirimi gönderiyor. Sohbet geçmişi ile birlikte."}
+  ],
+  "caseStudy": {
+    "title": "Beşiktaş Cevahir - Premium Anaokulu: Kayıt Görüşmesi 18 → 64/ay, Telefon Yükü %58 Azaldı",
+    "paragraphs": [
+      "Beşiktaş'ta üst-orta segment ailelere hitap eden Cevahir Anaokulu 2025 Şubat'ta PORTZEN'e geldi. Mevcut süreçte sekreter günde 35-50 telefon alıyor, aynı soruları cevaplıyor (ücret, müfredat, servis bölgesi), velilerden randevu bilgisini deftere yazıyordu. Akşam saatleri ve hafta sonu hiç yanıt verilemiyordu, kayıt döneminin yoğunluğunda fırsat kaçıyordu.",
+      "11 günde WhatsApp AI asistanı devreye aldık - Montessori müfredat detayları, 3-6 yaş program farkları, mahalle bazlı servis durumu, ücretlendirme (taksit dahil) tüm sık sorulara otomatik yanıt veren bir asistan kurduk. Deneme dersi randevu sistemini Google Calendar'a bağladık, KVKK uyumlu - çocuk verisi istemiyor, sadece veli iletişim bilgisi alıyor.",
+      "İlk ay aylık kayıt görüşmesi (deneme dersi + tanıtım) 18'den 64'e çıktı. Sekreter telefon yükü %58 azaldı, 'sadece ziyarete gelen aileyle ilgileniyorum, telefonda saatlerce konuşmuyorum' diyor. Akşam 19:00 sonrası gelen veli mesajları toplam mesajların %42'sini oluşturuyor - bu segmenti tamamen kazanmış oldular."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Kayıt Görüşmesi", "before": "18", "after": "64"},
+      {"label": "Sekreter Telefon Yükü", "before": "100%", "after": "%42"},
+      {"label": "Mesai Dışı Yanıt", "before": "Yok", "after": "%100"},
+      {"label": "Ortalama Yanıt Süresi", "before": "4 saat", "after": "12 saniye"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "12.000 TL + 1.800 TL/ay",
+      "description": "Tek lokasyon kreş ve butik anaokulları için",
+      "features": [
+        "WhatsApp Business hattı kurulumu",
+        "30 SSS otomatik yanıt",
+        "Deneme dersi randevu (manuel takvim)",
+        "Ücret ve servis sorgusu",
+        "Mesai dışı otomatik yanıt",
+        "KVKK uyumlu kurulum",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "22.000 TL + 3.200 TL/ay",
+      "description": "Aktif kayıt dönemi olan anaokulları için en popüler paket",
+      "features": [
+        "Sınırsız SSS + müfredat detay yanıtı",
+        "Google Calendar randevu entegrasyonu",
+        "Mahalle bazlı servis sorgusu",
+        "Etkinlik duyuru toplu mesaj",
+        "Veli segmentasyon (mevcut/aday)",
+        "AI eğitimi (kurum ses tonu)",
+        "Aylık konuşma analiz raporu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "38.000 TL + 4.800 TL/ay",
+      "description": "Zincir anaokulları, çoklu şube ve agresif büyüme için",
+      "features": [
+        "Çoklu şube yönetimi (her şube ayrı hat)",
+        "CRM entegrasyonu (HubSpot, Pipedrive)",
+        "Veli gelişim raporu otomatik gönderim",
+        "Devamsızlık takip mesajı",
+        "Aile tavsiye programı otomasyonu",
+        "Özel proje yöneticisi",
+        "Aylık strateji görüşmesi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "AI asistan ne kadar sürede aktif olur?", "answer": "Başlangıç paketi 7-10 gün, Profesyonel 11-15 gün, Kurumsal 18-25 gün. SSS havuzunu ve müfredat detaylarınızı paylaştığınız hızla doğru orantılı. İlk gün brief, 5 gün eğitim, 3 gün test, sonra canlı yayın."},
+    {"question": "Çocuğumun bilgilerini AI'a verir miyim, KVKK'ya uygun mu?", "answer": "Hayır, kesinlikle vermiyoruz. AI çocuk ismi, fotoğraf, doğum tarihi, sağlık bilgisi gibi kişisel veriler istemiyor ve depolamıyor. Sadece veli telefon numarası ve sorduğu konuyu işliyor. KVKK uyumlu, çocuk gizliliği önceliğimiz. KVKK aydınlatma metni de hazırlıyoruz."},
+    {"question": "WhatsApp Business API ücreti ayrı mı?", "answer": "Evet, Meta'nın WhatsApp Business API ücreti ayrı. Aylık ortalama 200-400 TL (gönderdiğiniz mesaj sayısına göre). Küçük anaokulları için 500 TL'yi nadiren geçer. Bu kurulum ve takibini biz yapıyoruz, faturanız direkt Meta'dan geliyor."},
+    {"question": "Mesai dışında gelen velilere AI nasıl cevap veriyor?", "answer": "Aynı şekilde - AI 7/24 çalışıyor. Veli akşam 22:00'de 'ücret nedir, servis var mı?' yazınca anında cevap alıyor. Randevu istiyorsa müsait slot sunuyor. Özel durum gerektirirse 'yarın sabah 09:00'da müdürümüz size dönecek' diyor, sizin panele kayıt düşürüyor."},
+    {"question": "Eski velilerimi de bu sisteme alabilir miyim?", "answer": "Evet, Profesyonel pakette mevcut veli grubu segmentasyonu var. Eski veliler için ödeme hatırlatma, etkinlik duyurusu, ek aktivite (yaz kampı) kampanyaları gönderebiliyoruz. Yeni aday veli ile farklı akış izliyor - onlar tanıtım odaklı, mevcutlar bilgilendirme odaklı."},
+    {"question": "Yanlış cevap verirse ne olur?", "answer": "İlk 30 gün tüm konuşmaları izliyoruz, eksik/yanlış cevaplar için AI'ı düzeltiyoruz. Sonrasında aylık raporda 'AI emin olmadı, insana devretti' durumlarını görüyorsunuz. Kritik konularda (özel ihtiyaçlı çocuk, sağlık alerjisi) AI baştan insan devri yapıyor - risk almıyor."},
+    {"question": "Servis bölgesi sorgusunu nasıl yapıyor?", "answer": "Servis güzergahlarınızı (mahalleler, sokaklar, ortalama saatler) panele yüklüyoruz. Veli 'Levent'te oturuyorum, servisiniz var mı?' yazınca 'Evet, sabah 07:45'te Levent Çarşı'dan alıyoruz, 08:20'de okulda oluyor. Aylık 2.800 TL.' diye yanıt veriyor. Bölge dışında ise alternatif öneri (kendi getirme + indirim) sunuyor."}
+  ],
+  "finalCtaHeadline": "Velilerin gece 22:00'de sorduğu soruya 12 saniyede cevap verin",
+  "finalCtaSubtitle": "15 dakikalık brief görüşmesi yeterli. Mevcut WhatsApp trafiğinizi analiz edip ücretsiz dönüşüm potansiyeli raporu hazırlıyoruz. Kayıt dönemi başlamadan devreye alın."
+}

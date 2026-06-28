@@ -1,0 +1,106 @@
+{
+  "sectorSlug": "fotograf-studyo",
+  "sectorName": "Fotoğraf Stüdyosu",
+  "sectorPlural": "Fotoğraf Stüdyoları",
+  "title": "Fotoğraf Stüdyoları İçin Instagram DM Otomasyonu | Portfolyo Gönderimi + Paket Sorgulama - PORTZEN",
+  "description": "Fotoğraf stüdyoları için Instagram DM otomasyonu. Düğün reels yorumundan portfolyoya, story DM'den paket fiyatına tam otomatik akış. Wedding photographer'lar için.",
+  "keywords": ["fotoğrafçı instagram otomasyonu", "düğün fotoğrafçı dm botu", "portfolyo gönderme", "wedding photographer instagram", "fotoğraf stüdyo dm", "yorumdan rezerve"],
+  "h1": "Fotoğraf Stüdyoları için Instagram DM Otomasyonu",
+  "heroSubtitle": "Düğün reels'inize 'paket' yorumu yapan herkese otomatik portfolyo + fiyat - story DM'lerine müsait tarih yanıtı, takipçiniz kapora ödeyen müşteriye dönüşsün.",
+  "stats": [
+    {"value": "<1 dk", "label": "Yorumdan Yanıt"},
+    {"value": "%47", "label": "Yorum → DM"},
+    {"value": "%18", "label": "DM → Görüşme"},
+    {"value": "Meta", "label": "Resmi Partner"}
+  ],
+  "problems": [
+    "Düğün reels'iniz 80K view alıyor, yorumların %75'i 'paket', 'fiyat?' - manuel yanıtlayana kadar 150 yorum birikiyor",
+    "Story'de yeni çekim paylaşıyorsunuz, 40 DM geliyor ama hepsi 'müsait misiniz, kaç TL' - düğün sezonu yetişemiyorsunuz",
+    "Nişan çekim reels'inize gelen 'tarihiniz var mı' yorumlarına 1 gün sonra dönünce müşteri rakibe gitmiş oluyor",
+    "Hamile çekim post'unuza ilgi yoğun ama paket detaylarını anlatmaya saat sonra zaman buluyorsunuz",
+    "Instagram bio'nuzda portfolyo linki var ama %80 takipçi tıklamıyor - DM'den hızlı portfolyo isteyen müşteri kayboluyor",
+    "Reels viral olduğunda 300 yorum patlıyor, Meta algoritması yanıtsız kalan reels'i ölçeklendirmeyi durduruyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Instagram Hesap + Portfolyo Analizi", "description": "Stüdyo Instagram hesabınızı inceleyip son 30 reels/post analiz ediyoruz. Hangi çekim türü en çok DM çekiyor, hangi yorumlar en sık tekrarlanıyor, hangi portfolyo örneği en çok ilgi görüyor - buna göre akış tasarlıyoruz."},
+    {"title": "2. Çekim Türü + Anahtar Kelime Eşleme", "description": "'Düğün', 'nişan', 'hamile', 'doğum günü', 'çocuk', 'aile', 'kurumsal', 'ürün', 'paket', 'fiyat', 'müsait' gibi anahtar kelimelere göre farklı akış. Her çekim türüne özel portfolyo örneği + paket fiyatı otomatik DM."},
+    {"title": "3. Meta Resmi API + Test", "description": "Meta Business resmi API ile bağlantı (Instagram banlamıyor). 3-5 günlük test aşaması - gerçek yorumlarla akışı doğruluyoruz, portfolyo örneklerini final formata getiriyoruz."},
+    {"title": "4. Devir & Analitik", "description": "Görüşme isteyenler (gerçek müşteri adayı) sizin telefonunuza yönlendirilir. Yönetim panelinden hangi reels en çok dönüşüm getirdi, hangi anahtar kelimeden kaç görüşme geldi - tam analitik."}
+  ],
+  "features": [
+    {"title": "Çekim Türü Bazlı Portfolyo Gönderimi", "description": "Müşteri 'düğün' yorumu yapınca düğün portfolyosu (6-8 örnek + Pixieset galeri linki), 'hamile' yorumu yapınca hamile portfolyosu otomatik DM olarak gidiyor. Yanlış portfolyo gönderme yok."},
+    {"title": "Story DM Akıllı Yanıt", "description": "Yeni çekim story'nize gelen DM'lere çekim türüne uygun paket + portfolyo + müsait tarih sorgu linki otomatik gönderilir. Story 24 saatte 200 DM alsa bile tek tek yanıtlanmış gibi."},
+    {"title": "Paket Fiyat + Detay", "description": "'Fiyat', 'paket' anahtar kelimelerine 3 paket karşılaştırması (Mini / Standart / Premium) görselli PDF + çekim süresi + fotoğraf sayısı + retouch dahil/değil bilgisi otomatik gönderilir."},
+    {"title": "Müsait Tarih Sorgulama Yönlendirmesi", "description": "'Müsait misiniz', 'tarih' anahtar kelimelerinde müşteri WhatsApp'a yönlendirilir (asistan ile tarih kontrolü) veya direkt Google Takvim'den boş tarihler görsel olarak gönderilir."},
+    {"title": "Görüşme Talebi Yönlendirmesi", "description": "İleri seviye konuşmak isteyen müşteri (özel destinasyon düğünü, custom album vb.) sizin telefonunuza WhatsApp linki ile yönlendirilir. Asistan ön bilgi alıp özetini size iletir."},
+    {"title": "Yönetim Paneli + Analitik", "description": "Hangi reels en çok DM getirdi, hangi çekim türü en çok dönüşüm yaptı, ortalama yanıt süresi, görüşmeye dönen DM sayısı - tüm metrikler panelde."}
+  ],
+  "caseStudy": {
+    "title": "İstanbul - Wedding Photographer: Instagram'dan Aylık 22 Görüşme, DM Yanıt Süresi 6 saatten 1 dakikaya",
+    "paragraphs": [
+      "İstanbul Bostancı'da düğün + nişan + hamile çekimi yapan bir wedding photographer 2025 Mart'ında PORTZEN'e geldi. Instagram'da 65K takipçi, düğün reels'leri ortalama 120K view alıyor, ama yorumlar manuel yanıtlanıyor, çoğu DM 6 saat sonra dönülüyordu. Reels viral olunca 300 yorum birikiyordu, çoğu rakibe gidiyordu.",
+      "9 günde Meta resmi API ile DM otomasyonu kurduk. 14 anahtar kelime, 5 çekim türü akışı (düğün, nişan, hamile, doğum günü, aile), her türe özel portfolyo kütüphanesi (10-12 örnek + Pixieset galeri linki), 3 paket PDF (14K / 22K / 38K), müsait tarih yönlendirme akışı.",
+      "İlk hafta yoruma yanıt süresi 6 saatten 1 dakikaya düştü. 3. ay sonunda Instagram DM'lerden aylık 22 ön görüşme geliyor, bunların 11'i düğün rezervasyonuna dönüşüyor (ortalama bilet 24K TL). Reels viral olduğunda artık 500 yorumun hepsine otomatik DM gidiyor, Meta algoritması ölçeklendirmeye devam ediyor."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Instagram Ön Görüşme", "before": "3", "after": "22"},
+      {"label": "Aylık Düğün Rezervasyonu (IG)", "before": "1", "after": "11"},
+      {"label": "Yorum → DM Dönüşüm", "before": "%0", "after": "%47"},
+      {"label": "DM Yanıt Süresi", "before": "6 saat", "after": "1 dk"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Starter",
+      "price": "5.500 TL + 800 TL/ay",
+      "description": "Tek fotoğrafçı / butik stüdyo için temel DM otomasyonu",
+      "features": [
+        "5 anahtar kelime akışı",
+        "3 çekim türüne özel portfolyo",
+        "Paket fiyat PDF gönderimi",
+        "Müsait tarih yönlendirme",
+        "Aylık 2.000 DM dahil"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "11.500 TL + 1.600 TL/ay",
+      "description": "Aktif wedding photographer ve stüdyolar için en popüler",
+      "features": [
+        "Sınırsız anahtar kelime ve akış",
+        "Sınırsız çekim türü portfolyo",
+        "Story DM otomasyonu",
+        "3 paket karşılaştırma PDF",
+        "Pixieset galeri entegrasyonu",
+        "Yönetim paneli + analitik",
+        "Aylık 8.000 DM dahil"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "20.000 TL + 2.800 TL/ay",
+      "description": "Çoklu fotoğrafçı stüdyoları ve büyük markalar için",
+      "features": [
+        "Çoklu fotoğrafçı yönetimi",
+        "Influencer kampanya entegrasyonu",
+        "Çoklu dil (TR/EN)",
+        "A/B test akışları",
+        "AI portfolio öneri (müşteri tarzına göre)",
+        "Aylık 25.000 DM dahil",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Instagram bu otomasyonu yasaklıyor mu?", "answer": "Hayır. Meta'nın resmi Instagram Graph API'sini kullanıyoruz, üçüncü parti araç değil. Banlama riski yok. Bilinmeyen üçüncü parti araçlar hesabı riske atabilir."},
+    {"question": "Asistan ne kadar sürede aktif olur?", "answer": "Starter 6-9 gün, Pro 9-14 gün, Premium 18-25 gün. Meta API onayı 24-48 saat sürüyor, bu süre dahil. Portfolyo kütüphanesi hazırlığı (her çekim türünden 8-12 örnek) ek 2-3 gün."},
+    {"question": "Düğün gibi yüksek bilet hizmetinde DM ile fiyat vermek doğru mu?", "answer": "Tam fiyat değil, paket aralığı (örn. 'düğün paketleri 14K - 38K TL arası') ve karşılaştırma PDF veriyoruz. Detay görüşme için müşteri WhatsApp'a / telefon randevusuna yönlendiriliyor. Bu yöntem fiyat hassas olmayan müşteriyi filtreliyor, ciddi müşteri aday geliyor."},
+    {"question": "Restoran / kafe DM otomasyonundan farkı ne?", "answer": "Fotoğraf stüdyosu yüksek bilet (15-50K TL) hizmet - müşteri rezerve etmek için 1-2 görüşme istiyor, portfolyo görmeden karar vermiyor. Akış 'hızlı fiyat ver' değil, 'portfolyo + paket detayı ver, görüşmeye yönlendir' şeklinde tasarlanıyor."},
+    {"question": "Portfolyo örneklerini siz mi hazırlıyorsunuz?", "answer": "Mevcut Instagram'ınızdaki en güçlü 10-12 örneği her çekim türü için biz seçiyoruz (siz onaylıyorsunuz), Pixieset / online galeri linkleri varsa entegre ediyoruz. Brief sırasında her tür için en güçlü örneklerinizi birlikte belirliyoruz."},
+    {"question": "Story'ye gelen DM'leri de otomatikleştirebilir miyim?", "answer": "Evet, Pro paketten itibaren story DM otomasyonu dahil. Yeni çekim story'nize gelen 'çok güzel, paket?' DM'lerine portfolyo + paket otomatik yanıt veriliyor. Düğün sezonu yoğunluğunda kritik."},
+    {"question": "Yorumların %47'si dönüşüyor diyorsunuz, kanıt var mı?", "answer": "Vaka çalışmamızdaki İstanbul wedding photographer ortalama %47 yorum → DM dönüşümü yakaladı. Yüksek bilet sektörde bu oran %30-55 arası, reels kalitesi ve içerik uyumu büyük etken. İlk ay sonunda raporda net rakamı görüyorsunuz."}
+  ],
+  "finalCtaHeadline": "Düğün reels'inizi kapora ödeyen müşteriye 9 günde çevirin",
+  "finalCtaSubtitle": "20 dakikalık tanıtım görüşmesi yeterli. Instagram hesabınızı inceleyip size özel DM akışı tasarlıyoruz, mevcut potansiyelinizi raporluyoruz. WhatsApp'tan veya formdan ulaşın."
+}

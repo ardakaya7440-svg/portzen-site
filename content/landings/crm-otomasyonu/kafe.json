@@ -1,0 +1,107 @@
+{
+  "sectorSlug": "kafe",
+  "sectorName": "Kafe",
+  "sectorPlural": "Kafeler",
+  "title": "Kafeler İçin CRM Otomasyonu | Sadakat Programı + Müşteri Geri Çağırma - PORTZEN",
+  "description": "Kafeler için CRM otomasyonu. Sadakat / damga programı, doğum günü kampanyaları, sezon menü duyuruları, brunch hatırlatma ve müşteri segmentasyonu Türkiye'ye özel kurulum.",
+  "keywords": ["kafe crm", "kafe sadakat programı", "kafe müşteri yönetimi", "kafe damga sistemi", "brunch hatırlatma", "kafe sezon kampanya"],
+  "h1": "Kafeler için CRM Otomasyonu",
+  "heroSubtitle": "Sadakat damgası, doğum günü kampanyası, sezon menü duyurusu, brunch hatırlatma - müşteri tek seferlik gelmesin, ay başına 3-4 kez geri dönsün.",
+  "stats": [
+    {"value": "%38", "label": "Tekrar Ziyaret Artışı"},
+    {"value": "3.2x", "label": "Müşteri Yaşam Boyu Değer"},
+    {"value": "Otomatik", "label": "Sezon Kampanya"},
+    {"value": "WhatsApp + SMS", "label": "Kanal"}
+  ],
+  "problems": [
+    "Müşteri brunch için bir kez geliyor, hatırlatma yapmadığınız için 2 ay sonra geliyor - oysa ayda 3-4 kez gelebilir",
+    "Sezon menü değişti ama mevcut müşterilere duyuramıyorsunuz, hep yeni müşteri kazanma derdine düşüyorsunuz",
+    "Sadakat damgası kağıt karta basıyorsunuz, müşteri unutuyor, kart kayboluyor, programa katılım düşük",
+    "Doğum günü kampanyası yapmıyorsunuz - kafenin alanı tam doğum günü için, müşteri kayıp gidiyor",
+    "Akademi / workshop yaptınız ama katılımcılara sonraki etkinlikleri duyuramıyorsunuz, tekrar dolduramıyorsunuz",
+    "POS sisteminizde 2.000 müşteri kayıtlı ama hiçbiriyle iletişiminiz yok, veri ölü duruyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Kafe + Müşteri Profil Analizi", "description": "Kafe konseptiniz (specialty, brunch, çalışma, art kafe), mevcut POS / sadakat verisi, ortalama ziyaret sıklığı, en kârlı müşteri segmenti, sezon yoğunluk dönemleri analiz edilir."},
+    {"title": "2. CRM + Sadakat Sistemi Kurulumu", "description": "HubSpot / aktif basit alternatifi (Türkiye uyumlu Iyzico / NetGSM entegrasyonlu) kurulumu. Dijital damga sistemi (her 10 kahvede 1 bedava), QR kod / WhatsApp link entegrasyonu."},
+    {"title": "3. Segment + Otomasyon Akışları", "description": "Müşteri segmentasyonu - brunch müdavimi, workshop katılımcısı, takeaway, çalışma kafesi düzenli, yeni müşteri. Her segmente özel WhatsApp + SMS akışı (doğum günü, sezon menü, geri çağırma)."},
+    {"title": "4. KVKK + Analitik + Eğitim", "description": "KVKK uyumlu izin formu, IYS entegrasyonu, ekip eğitimi (2 saat), aylık performans raporu otomasyonu (hangi kampanya en çok dönüş getirdi)."}
+  ],
+  "features": [
+    {"title": "Dijital Sadakat Damgası", "description": "Kağıt kart yerine WhatsApp / SMS ile damga - müşteri her gelişinde QR okutuyor, ay sonunda 'bir bedava içecek hakkın var' bildirimi otomatik. Müdavim müşteri kategorisi büyüyor."},
+    {"title": "Doğum Günü Otomasyon Akışı", "description": "Müşteri doğum gününden 3 gün önce 'bizim hediyemizle kutlayalım' WhatsApp mesajı + sahip olduğu indirim kuponu. Kafe alanı doğum günleri için ideal, müşteri kayıp gitmiyor."},
+    {"title": "Sezon Menü Duyurusu", "description": "Yeni sezon menü çıktığında ilgili segmente (brunch müdavimi, sıcak içecek tüketicisi vb.) WhatsApp / SMS toplu duyuru. Sonbahar pumpkin spice, yaz cold brew lansmanı için ideal."},
+    {"title": "Geri Çağırma Akışı", "description": "Son ziyaretinden 30 / 60 / 90 gün geçen müşterilere otomatik 'sizi özledik, bu kuponla bekleriz' mesajı. Müşteri kaybetme oranı %40 azalıyor."},
+    {"title": "Workshop / Akademi Takip", "description": "Latte art workshop, kahve akademisi katılımcılarına sonraki etkinlik duyurusu, ileri seviye sınıflar için özel davet, sertifika gönderimi otomatik."},
+    {"title": "Performans Raporu + Segment Analitik", "description": "Hangi segment en çok dönüş getirdi, hangi kampanyanın ROI'si en yüksek, ortalama müşteri yaşam boyu değeri - aylık otomatik rapor."}
+  ],
+  "caseStudy": {
+    "title": "Beşiktaş - Specialty Kafe & Brunch: Aylık Tekrar Ziyaret %32 → %71, Müşteri Yaşam Boyu Değer 3.4x Arttı",
+    "paragraphs": [
+      "Beşiktaş'ta specialty kahve + brunch + workshop konsepti çalışan butik bir kafe markası 2025 Ocak'ında PORTZEN'e geldi. POS sistemde 2.800 kayıtlı müşteri vardı ama hiçbiriyle iletişim yoktu, sadakat sistemi kağıt damga kartıydı (kayıp oranı yüksek). Müşteri ortalama ay başına 1.2 kez geliyordu.",
+      "12 günde CRM + sadakat sistemi kurulumu yapıldı. Dijital damga (QR + WhatsApp), 4 müşteri segmenti (brunch müdavimi, workshop katılımcı, takeaway, çalışma kafesi düzenli), her segmente özel akış: doğum günü, sezon menü, geri çağırma, workshop davet.",
+      "İlk ay 1.200 müşteri dijital sadakata kayıt oldu. 3. ay sonunda aylık tekrar ziyaret %32'den %71'e çıktı (müşteri ay başına 2.8 kez geliyor), brunch rezervasyonlarının %58'i CRM tetiklemesinden geliyor, workshop'lar 1 ay önceden doluyor. Müşteri yaşam boyu değeri 3.4x arttı."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Tekrar Ziyaret Oranı", "before": "%32", "after": "%71"},
+      {"label": "Müşteri Yaşam Boyu Değer", "before": "1x", "after": "3.4x"},
+      {"label": "Sadakat Programı Kayıt", "before": "180 (kağıt)", "after": "1.200 (dijital)"},
+      {"label": "Workshop Doluluk", "before": "%55", "after": "%100"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Starter CRM",
+      "price": "6.500 TL + 1.200 TL/ay",
+      "description": "Tek lokasyonlu butik kafe için temel sadakat + CRM",
+      "features": [
+        "Dijital damga sistemi (QR + WhatsApp)",
+        "1.500 müşteriye kadar segmentasyon",
+        "Doğum günü otomasyonu",
+        "Sezon menü duyurusu",
+        "Aylık 3.000 mesaj dahil (WhatsApp + SMS)",
+        "KVKK + IYS uyumlu"
+      ]
+    },
+    {
+      "name": "Pro CRM",
+      "price": "12.000 TL + 2.200 TL/ay",
+      "description": "Aktif specialty kafe ve workshop yapan mekanlar için en popüler",
+      "features": [
+        "Sınırsız müşteri, 6 segment",
+        "Tam sadakat + damga + kupon sistemi",
+        "Doğum günü + workshop + geri çağırma akışları",
+        "Sezon menü segment bazlı duyuru",
+        "POS entegrasyonu (Logo, Mikro vb.)",
+        "Aylık performans + segment raporu",
+        "Aylık 10.000 mesaj dahil"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium CRM",
+      "price": "22.000 TL + 3.500 TL/ay",
+      "description": "Çoklu şube kafe markaları için tam otomasyon",
+      "features": [
+        "Çoklu şube + şube bazlı segmentasyon",
+        "Çapraz şube sadakat sistemi",
+        "AI destekli kişiselleştirme",
+        "A/B test kampanya akışları",
+        "Mobil uygulama opsiyonu",
+        "Aylık 25.000 mesaj dahil",
+        "Özel proje yöneticisi + danışmanlık"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Restoran CRM sisteminden farkı ne?", "answer": "Kafe müşterisi daha sık geliyor (ortalama ay başına 2-4 kez), daha küçük bilet, ama yaşam boyu değer yüksek. Sadakat / damga sistemi kafe için kritik (restoranda çoğu zaman yok). Workshop / akademi katılımcı segmenti, çalışma kafesi düzenli müşteri segmenti gibi kafeye özel kategoriler var."},
+    {"question": "KVKK uyumlu mu, müşteri verisi nasıl alınıyor?", "answer": "Evet, IYS (İleti Yönetim Sistemi) entegre, ticari ileti izni KVKK uyumlu form ile alınıyor. Sadakata kayıt sırasında müşteri 'WhatsApp / SMS gönderim onayı' veriyor. İptal etmek isteyen müşteri tek tuşla çıkabiliyor."},
+    {"question": "POS sistemim Logo / Mikro / Vega - entegre olur mu?", "answer": "Logo, Mikro, Vega ve yaygın kullanılan POS sistemleri ile entegrasyon var. Müşteri POS'ta satın aldığında otomatik damga kazanır, kupon kullanır. Daha az yaygın POS'lar için özel entegrasyon (Pro paket ek ücret)."},
+    {"question": "Damga sistemi nasıl çalışıyor, müşteri nasıl kullanıyor?", "answer": "İlk gelişinde barista QR kod gösterir, müşteri telefondan okutur, WhatsApp üzerinden kayıt olur. Sonraki gelişlerinde 'WhatsApp'tan link' veya 'QR kod' ile damga alıyor. 10 damga = 1 bedava içecek (siz belirliyorsunuz). Kayıp / unutma sorunu yok."},
+    {"question": "Sezon menü duyurusu kimin onayıyla gönderiliyor?", "answer": "Siz onaylıyorsunuz. Panelde 'yeni sezon menü duyurusu' butonuna basıyorsunuz, hedef segmenti seçiyorsunuz (örn. 'sonbahar pumpkin spice tüketmiş 500 müşteri'), mesaj şablonunu görüyorsunuz, gönderiyi onaylıyorsunuz. Otomatik akışlar (doğum günü vb.) onayınız olmadan çalışıyor."},
+    {"question": "Geri çağırma akışı çok agresif olmaz mı?", "answer": "Hayır, akışlar kafenize özel ayarlanıyor - örn. 30 günde 1 kupon, 60 günde 1 hatırlatma, 90 günde 1 'sizi özledik' mesajı. Müşteri 'iptal' yazınca ileti listesinden otomatik çıkıyor. Sektör ortalama %0.8 iptal oranı (çok düşük)."},
+    {"question": "WhatsApp mesaj limiti aşılırsa ne olur?", "answer": "Pro pakette 10.000 mesaj var, ortalama 1.500-2.000 müşterili kafe için aylık 5-7K mesaj kullanılıyor. Aşım durumunda WhatsApp mesajı 0.35 TL, SMS 0.25 TL ek ücret. Yoğun kampanya döneminde üst pakete geçiş indirimli yapılır."}
+  ],
+  "finalCtaHeadline": "Kafenizin müşterilerini 12 günde tekrar gelen müdavime çevirin",
+  "finalCtaSubtitle": "20 dakikalık tanıtım görüşmesi yeterli. Mevcut müşteri verinizi değerlendirip size özel sadakat + segmentasyon stratejisi planlıyoruz. WhatsApp'tan veya formdan ulaşın."
+}

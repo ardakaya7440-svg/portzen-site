@@ -1,0 +1,162 @@
+{
+  "type": "location",
+  "sectorSlug": "bursa",
+  "sectorName": "Bursa",
+  "sectorPlural": "Bursa'daki İşletmeler",
+  "title": "Bursa CRM Otomasyonu | B2B Tedarikçi Pipeline - PORTZEN",
+  "description": "Bursa'daki tekstil, otomotiv yan sanayi, mobilya ve B2B firmalar için CRM kurulum + otomasyon. KVKK uyumlu, uzun süreli ilişki takip, ERP entegrasyonu dahil.",
+  "keywords": [
+    "bursa crm otomasyonu",
+    "bursa crm kurulum",
+    "nilüfer satış otomasyonu",
+    "bursa b2b crm",
+    "bursa lead yönetimi",
+    "bursa tekstil crm"
+  ],
+  "h1": "Bursa İçin CRM Otomasyonu",
+  "heroSubtitle": "Nilüfer'de tekstil firması, OSB'de otomotiv yan sanayi, İnegöl'de mobilyacı - uzun süreli B2B müşteri/tedarikçi ilişkilerinizi Excel'den kurtarıp KVKK uyumlu, ERP entegre CRM'e taşıyoruz.",
+  "stats": [
+    {"value": "Bursa", "label": "B2B Odak"},
+    {"value": "KVKK", "label": "Uyumlu"},
+    {"value": "21 gün", "label": "Kurulum"},
+    {"value": "%47", "label": "Ort. Dönüşüm"}
+  ],
+  "problems": [
+    "Bursa'daki tekstil veya otomotiv yan sanayi firması olarak lead'leriniz hâlâ Excel'de, WhatsApp'ta, e-posta'da dağınık; hangi müşteri/tedarikçi hangi aşamada belli değil, fason iş kaçırılıyor.",
+    "B2B müşteri ilişkisi uzun (3-12 ay numune → sözleşme → seri üretim), takip yok; satış temsilcisi ayrılınca müşteri tarihi kayboluyor, ilişki sıfırdan başlıyor.",
+    "Salesforce, HubSpot Enterprise gibi kurumsal CRM'ler aylık 50-200 bin TL; Bursa KOBİ'sinin bütçesini aşıyor, üstelik İngilizce arayüz fabrika ekibini yormuyor.",
+    "KVKK uyumlu tedarikçi/müşteri kayıt, izin yönetimi, silme talebi süreci yok; ihbar gelirse Kurum cezası 1.8M TL'ye kadar - risk üstünüzde.",
+    "Mevcut Logo/Mikro/Nebim ERP'niz var ama CRM ayrı, sipariş + müşteri kartı + ödeme takibi parçalı; satış ekibi her bilgi için ERP'ye geçiyor, vakit kaybı."
+  ],
+  "solutionSteps": [
+    {
+      "title": "Bursa B2B İş Akışı Keşfi",
+      "description": "Mevcut lead/numune kaynaklarınızı (fuar, WhatsApp, web form, telefon), satış pipeline'ınızı (numune → teklif → sözleşme → seri üretim), ekip yapınızı analiz ediyoruz."
+    },
+    {
+      "title": "CRM Seçimi + ERP Entegrasyonu",
+      "description": "İhtiyacınıza göre HubSpot, Zoho, Pipedrive veya açık kaynak EspoCRM - Türkçe arayüz, KVKK modülü, Logo/Mikro/Nebim ERP entegrasyonu, sektörünüze özel pipeline."
+    },
+    {
+      "title": "Uzun Süreli İlişki Otomasyonu",
+      "description": "Numune gönderildi → 7-14-30 gün takip → teklif → sözleşme → seri üretim takvimi → tekrar sipariş hatırlatma. B2B uzun ömürlü ilişkiye özel 20-30 senaryo."
+    },
+    {
+      "title": "Ekip Eğitimi + Devreye",
+      "description": "Bursa'daki ekibinize 2 oturum canlı eğitim (Google Meet), video kütüphanesi, 1 aylık aktif destek. Sonrası aylık optimizasyon."
+    }
+  ],
+  "features": [
+    {
+      "title": "KVKK Uyumlu Modül",
+      "description": "Açık rıza formu, izin geri çekme, veri silme talebi akışı, VERBİS uyumlu kayıt. B2B tedarikçi/müşteri veri yönetimi hukuki riski sıfırlar."
+    },
+    {
+      "title": "B2B Uzun Süreli Pipeline",
+      "description": "Numune → teklif → sözleşme → seri üretim → tekrar sipariş - Bursa sanayi döngüsüne özel pipeline. Her aşamada otomatik takip ve hatırlatma."
+    },
+    {
+      "title": "Logo/Mikro/Nebim ERP Entegrasyon",
+      "description": "Mevcut ERP'niz CRM ile çift yönlü senkron çalışır. Müşteri kartı, sipariş, fatura, ödeme - tek panelden takip."
+    },
+    {
+      "title": "Ekip Yetkilendirme",
+      "description": "Her satış temsilcisi sadece kendi müşterilerini görür, yönetici hepsini, ortaklar özet rapor. Satış temsilcisi ayrılınca müşteri tarihi CRM'de kalır."
+    },
+    {
+      "title": "Türkçe Arayüz + Eğitim",
+      "description": "Tüm CRM Türkçeleştirilmiş, video eğitim kütüphanesi, ekibinizin sevdiği basitlikte kullanım."
+    },
+    {
+      "title": "Fuar Lead Toplama Modülü",
+      "description": "CNR, ITM, Evteks fuarlarında topladığınız kartvizitleri tablete fotoğraf çekip CRM'e atan modül. Fuar sonrası otomatik takip dizisi."
+    }
+  ],
+  "caseStudy": {
+    "title": "OSB'de bir otomotiv yan sanayi: CRM ile teklif dönüşümü %19'dan %44'e, fason iş hacmi %110 arttı",
+    "paragraphs": [
+      "Bursa OSB'de 35 kişilik bir otomotiv yan sanayi tedarikçisi, TOFAŞ, Bosch ve farklı OEM müşterilerine fason metal parça üretiyordu. Müşteri talepleri WhatsApp grupları + Excel + e-posta karması üzerinden takip ediliyordu. Aylık 50-70 RFQ (teklif talebi) geliyor, sadece %19'u teklife → siparişe dönüşüyordu. Satış temsilcisi 6 ay önce ayrıldığında 12 müşteri ilişkisi koptu, sıfırdan başlamak gerekti.",
+      "PORTZEN olarak HubSpot Sales Hub Pro kurduk; Türkçeleştirme, KVKK modülü, Logo ERP entegrasyonu, RFQ → numune → teklif → sözleşme → seri üretim pipeline'ı, fuar kartvizit OCR modülü, satış ekibine otomatik atama, 7-14-30 günlük takip dizisi kuruldu. Dashboard'a müşteri/sektör/kanal bazlı raporlama eklendi.",
+      "8 ay sonunda RFQ → sipariş dönüşümü %19'dan %44'e çıktı. Fason iş hacmi %110 arttı. Satış temsilcisi ayrıldığında müşteri tarihi CRM'de kaldı, yeni temsilci kaldığı yerden devam etti. KVKK denetimine hazır, Excel ve WhatsApp karmaşası bitti."
+    ],
+    "beforeAfter": [
+      {"label": "RFQ → Sipariş", "before": "%19", "after": "%44"},
+      {"label": "Aylık Fason İş Hacmi", "before": "baz seviye", "after": "+%110"},
+      {"label": "Satışçı Ayrılınca", "before": "12 müşteri kaybı", "after": "Sıfır kayıp"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "12.000 TL/ay",
+      "description": "Solo danışman, küçük atölye (2-5 kişi), butik üretici için",
+      "features": [
+        "EspoCRM veya HubSpot Free kurulum",
+        "5 kullanıcıya kadar",
+        "KVKK modülü",
+        "Temel otomasyon (5 senaryo)",
+        "Aylık 1.000 lead kapasitesi",
+        "E-posta destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "24.000 TL/ay",
+      "description": "10-25 kişilik B2B firması, tekstil/mobilya/yan sanayi için",
+      "features": [
+        "HubSpot Sales Hub Pro veya Pipedrive",
+        "25 kullanıcıya kadar",
+        "WhatsApp + Email otomasyon (20 senaryo)",
+        "B2B uzun süreli pipeline",
+        "Logo/Mikro/Nebim ERP entegrasyonu",
+        "Öncelikli WhatsApp destek + aylık optimizasyon"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "48.000 TL/ay",
+      "description": "Orta-büyük ölçek, çoklu departman, ihracatçı için",
+      "features": [
+        "HubSpot Enterprise veya Salesforce kurulum",
+        "Sınırsız kullanıcı",
+        "Özel pipeline + dashboard",
+        "API entegrasyonları (ERP, muhasebe, OEM portal)",
+        "Adanmış Bursa hesap yöneticisi",
+        "Aylık strateji toplantısı + SLA"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "KVKK uyumu için ne sağlıyorsunuz?",
+      "answer": "Açık rıza formu, izin yönetimi, veri silme talebi akışı, VERBİS uyumlu kayıt, çerez bandı, aydınlatma metni şablonu. Hukuki danışmanlık partnerimiz var, gerekirse müşteri sözleşmesi denetimi de yapılır."
+    },
+    {
+      "question": "Kurulum Bursa'da fiziksel mi, uzaktan mı?",
+      "answer": "Tamamen uzaktan (online toplantı + ekran paylaşımı). Bu sayede İstanbul-fiyatına kıyasla %40 daha uygun fiyat veriyoruz. PORTZEN İzmir merkezli, Bursa'da 8+ aktif müşterimiz var. Gerektiğinde Nilüfer veya OSB'de yüz yüze toplantı organize edilebilir."
+    },
+    {
+      "question": "Mevcut Logo/Mikro/Nebim ERP'mize bağlanır mı?",
+      "answer": "Evet. Logo, Mikro, Nebim V3, Netsis, SAP B1 ERP entegrasyonu standart hizmet. Müşteri kartı, sipariş, stok, fatura çift yönlü senkron çalışır."
+    },
+    {
+      "question": "B2B müşteri ilişkisi 6-12 ay uzun; sistem buna uygun mu?",
+      "answer": "Evet. B2B uzun süreli pipeline'a özel tasarım. Numune → teklif → sözleşme → seri üretim → tekrar sipariş aşamalarında otomatik takip, hiçbir lead unutulmaz."
+    },
+    {
+      "question": "Fuar (CNR, ITM, Evteks) kartvizit toplama modülü var mı?",
+      "answer": "Evet. Profesyonel ve üzeri pakette tablet/telefonla kartvizit OCR modülü var. Fuar sonrası 24 saat içinde otomatik takip e-postası atılır."
+    },
+    {
+      "question": "Mevcut Excel/Sheets verilerimi aktarabilir miyiz?",
+      "answer": "Evet. Excel/Sheets/eski CRM'den temizleyip standardize ederek aktarıyoruz. Dublike kayıt temizliği dahil."
+    },
+    {
+      "question": "Aylık fiyat sürekli mi, tek seferlik mi?",
+      "answer": "Aylık abonelik (lisans + bakım + destek). İlk 3 ay revizyon ücretsiz, sonrası sınırsız optimizasyon dahil. Sözleşme yıllık ama 3 ayda 1 fesih hakkı tanınıyor."
+    }
+  ],
+  "finalCtaHeadline": "Bursa'daki B2B satış kaosunu CRM'e taşıyalım.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif. Mevcut lead akışınıza + ekip yapınıza + ERP'nize bakıp size özel CRM yol haritası çıkaralım. 21 günde canlıda."
+}

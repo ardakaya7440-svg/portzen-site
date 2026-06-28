@@ -1,0 +1,110 @@
+{
+  "type": "location",
+  "sectorSlug": "eskisehir",
+  "sectorName": "Eskişehir",
+  "sectorPlural": "Eskişehir İşletmeleri",
+  "title": "Eskişehir Web Tasarım | Odunpazarı Butik Kafe + Tepebaşı Üni E-Ticaret Siteleri - PORTZEN",
+  "description": "Eskişehir Odunpazarı butik kafe ve hediyelikten, Tepebaşı üniversite öğrencisi e-ticaretine, çiğ börek ve lületaşı ihracatına özel Next.js web tasarım. Mobil hızlı, SEO uyumlu.",
+  "keywords": ["eskisehir web tasarim", "odunpazari website yapimi", "tepebasi e-ticaret sitesi", "anadolu universitesi sirket sitesi", "esogu kobi web", "cig borek online satis"],
+  "h1": "Eskişehir İşletmeleri için Profesyonel Web Tasarım",
+  "heroSubtitle": "Odunpazarı butik kafe estetiğinden, Tepebaşı üniversite öğrenci e-ticaretine, çiğ börek ve lületaşı ihracat sitelerine. Next.js 15 ile hızlı, SEO uyumlu, mobil-first web tasarımı. PORTZEN İzmir merkezli, Eskişehir'de aktif müşteriler uzaktan.",
+  "stats": [
+    {"value": "18 gün", "label": "Ortalama Teslim"},
+    {"value": "96+", "label": "Lighthouse Skoru"},
+    {"value": "Next.js 15", "label": "Modern Stack"},
+    {"value": "TR + EN", "label": "Çift Dilli"}
+  ],
+  "problems": [
+    "Odunpazarı'nda butik kafenizin Instagram'ı güzel ama web siteniz 2018'den kalma, turist Google'da arattığında profesyonel görünmüyorsunuz",
+    "Tepebaşı'nda üniversite öğrencisine yönelik kıyafet/takı/kitap satıyorsunuz, e-ticaret siteniz Wix veya Shopify'da yavaş ve markasız",
+    "Çiğ börek, lokum veya midye dolma online satış yapıyorsunuz, siteniz mobil cihazda 6-8 saniyede açılıyor, müşteri Yemeksepeti'ne gidiyor",
+    "Yenibağlar veya Çamlıca'da seramik atölyeniz var, ürünleri stüdyo havasında gösteren e-ticaret yok, tek tek satış yapıyorsunuz",
+    "Lületaşı veya el yapımı ürün satıyorsunuz, yurt dışı pazara açılmak istiyorsunuz ama siteniz Türkçe ve fiyatlar TL - yabancı müşteri ödeyemez",
+    "Sektörünüze özel sezon kampanyaları (dönem başı indirim, sevgililer günü, yılbaşı) için sitenizi güncellemek ajans iletişimine bağlı, kampanya bitiyor"
+  ],
+  "solutionSteps": [
+    {"title": "1. Sektör + Hedef Audit", "description": "Eskişehir'deki işletme tipinizi (Odunpazarı butik / Tepebaşı üni hedef / çiğ börek e-ticaret / seramik ihracat) ve hedef müşterinizi inceliyoruz. Rakip analizi + SEO audit + mevcut site (varsa) inceleme."},
+    {"title": "2. UI/UX Tasarım (Figma)", "description": "Sektöre özel Figma tasarım. Odunpazarı için sıcak tonlar + el yapımı görseller, Tepebaşı için genç + dinamik, ihracat için minimal + uluslararası standart. Mobil-first, müşteri 5 saniyede ürünü görebilmeli."},
+    {"title": "3. Next.js 15 + CMS Geliştirme", "description": "Next.js 15 + Tailwind + Sanity CMS. Sayfa yükleme 1.2 sn altında, Lighthouse 96+. Sanity admin paneli ile menü, ürün, kampanya, blog güncelleme 2-5 dakikada."},
+    {"title": "4. SEO + GMB + Çoklu Dil", "description": "Schema markup, bölge SEO ('Odunpazarı butik kafe', 'Tepebaşı el yapımı takı' gibi), Google My Business optimizasyonu. İhracat için TR + EN (Premium'da AR) çoklu dil."}
+  ],
+  "features": [
+    {"title": "Mobile-First Hızlı Yüklenme", "description": "Lighthouse 96+, ortalama 1.2 sn yüklenme. Çiğ börekçi Yemeksepeti'ne kaptırmıyor, butik kafe Instagram'dan gelen turisti tutuyor."},
+    {"title": "Odunpazarı Butik Estetik Tasarım", "description": "Sıcak tonlar, el yapımı doku, atmosfer fotoğrafları için optimized grid. Butik kafe, hediyelik ve sanat atölyeleri için."},
+    {"title": "Tepebaşı Genç + Dinamik UI", "description": "Modern, hareketli, gen-Z dostu tasarım. Üniversite öğrencisine yönelik kıyafet, takı, abonelik, kitap servisleri için. Sosyal medya entegrasyonu."},
+    {"title": "E-Ticaret + Ödeme Entegrasyonu", "description": "iyzico, PayTR, Stripe (yurt dışı) entegre. Sepet, kargo seçimi, kupon, hediye paketi. Sanal POS başvurusu desteği."},
+    {"title": "İhracat İçin Çoklu Dil + Para Birimi", "description": "TR + EN (Premium'da AR). USD/EUR fiyat opsiyonu. Lületaşı, seramik, baklava gibi ihracat ürünleri için."},
+    {"title": "Sanity CMS Admin Panel", "description": "Ürün ekleme, kampanya başlatma, blog yazma, görsel değiştirme - siz yönetiyorsunuz. Ajans bekleme yok."}
+  ],
+  "caseStudy": {
+    "title": "Tepebaşı - Üni Öğrenci Hedef E-Ticaret: Organik Trafik 180 → 4.200/ay, Aylık Sipariş 8x",
+    "paragraphs": [
+      "Tepebaşı'nda Anadolu Üniversitesi yakınında öğrenci hedefli el yapımı takı + kıyafet satan bir e-ticaret 2025 Şubat'ında PORTZEN'e geldi. Sahibinin Shopify'da temel teması vardı, ürün ekleme her seferinde 30 dakika sürüyordu, mobil yüklenme 7.2 saniye, Google'da 'Eskişehir öğrenci takı' aramasında 4. sayfada.",
+      "20 günde Profesyonel paket ile Next.js 15 + Sanity CMS + iyzico entegrasyonlu yeni site yayınlandı. Tepebaşı üniversite öğrenci hedefli genç tasarım, ürün foto + 360 derece video, kampanya banner (dönem başı, mezuniyet, sevgililer), Instagram feed otomatik çekim, kargo + iade modülü. Bölge SEO sayfaları (Eskişehir, Tepebaşı, Anadolu Üniversitesi, ESOGÜ).",
+      "İlk 3 ayın sonunda organik trafik 180/aydan 4.200/aya çıktı. 'Eskişehir öğrenci takı' aramasında 2. sıraya yükseldi. Aylık sipariş 28'den 235'e çıktı (8 katı). Mobil yüklenme 7.2'den 1.1 sn'ye düştü, sepet terk oranı %68'den %32'ye geriledi."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Organik Trafik", "before": "180", "after": "4.200"},
+      {"label": "Aylık Sipariş", "before": "28", "after": "235"},
+      {"label": "Mobil Yüklenme Süresi", "before": "7.2 sn", "after": "1.1 sn"},
+      {"label": "Sepet Terk Oranı", "before": "%68", "after": "%32"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Mini Site",
+      "price": "9.500 TL",
+      "description": "Tek seferlik, küçük işletme ve yeni açılış",
+      "features": [
+        "5 sayfa (anasayfa, hakkımızda, hizmet/menü, galeri, iletişim)",
+        "Next.js + Tailwind",
+        "Mobil responsive + 90+ Lighthouse",
+        "Google Maps + WhatsApp butonu",
+        "Türkçe içerik",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "21.000 TL + 1.500 TL/ay",
+      "description": "Eskişehir KOBİ'leri için en popüler paket, bakım dahil",
+      "features": [
+        "10-15 sayfa + kampanya sayfaları",
+        "E-ticaret (iyzico/PayTR) entegrasyonu",
+        "Sanity CMS admin paneli",
+        "TR + EN çift dilli",
+        "Bölge SEO sayfaları",
+        "Google My Business optimizasyonu",
+        "Instagram feed entegrasyonu",
+        "Aylık bakım + güncelleme + 2 saat danışmanlık"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Premium",
+      "price": "38.000 TL + 2.800 TL/ay",
+      "description": "İhracat + çoklu mağaza + agresif büyüme için",
+      "features": [
+        "Sınırsız sayfa + çoklu lokasyon yönetimi",
+        "TR + EN + AR üç dilli + USD/EUR fiyat",
+        "Stripe ihracat ödeme entegrasyonu",
+        "Müşteri puan + sadakat sistemi",
+        "Newsletter + WhatsApp/Email otomasyon",
+        "Google Ads landing sayfaları",
+        "Aylık SEO + içerik raporu",
+        "Özel proje yöneticisi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "Eskişehir'de mağazam var, kurulum nasıl yapılacak?", "answer": "Tüm süreç uzaktan. Brief Zoom üzerinden 30-45 dakika, Figma tasarım onayı dijital, geliştirme süreci kalan tüm iletişim WhatsApp + email. Eskişehir'de aktif 15+ müşterimiz bu yöntemle çalışıyor."},
+    {"question": "Wix veya Shopify'dan Next.js'e geçmek zor mu?", "answer": "Hayır, biz yönetiyoruz. Mevcut ürün listenizi, müşteri verinizi, sipariş geçmişinizi yeni siteye taşıyoruz. SEO kayıt aktarımı için 301 redirect haritası kuruyoruz, mevcut Google sıralamanız korunuyor."},
+    {"question": "Çiğ börek veya lokum gibi günlük taze ürün online satışı için ne öneriyorsunuz?", "answer": "Gün içi stok yönetimi + Yemeksepeti/Getir entegrasyonu + WhatsApp sipariş kanalı önerimiz var. Profesyonel pakette dahil. Sipariş geldiği anda mutfağa bildirim, paket hazırsa müşteriye otomatik mesaj."},
+    {"question": "Üniversite dönem başı kampanya sayfası ne kadar sürede hazır olur?", "answer": "Sanity CMS'den kendiniz 10-15 dakikada hazırlıyorsunuz, eğitim veriyoruz. Acele durumda biz 1 iş gününde yayına alıyoruz. Profesyonel pakette 2 saat danışmanlık dahil, bu kampanya yönetimine de uygun."},
+    {"question": "İhracat için site lazım, çoklu dil + USD/EUR fiyat var mı?", "answer": "Premium pakette TR + EN + AR (Arapça) ve USD/EUR fiyat opsiyonu standart. Stripe entegrasyonu ile yurt dışı kart ödemesi alabiliyorsunuz. Lületaşı, seramik, baklava ihracatçıları için ideal."},
+    {"question": "Site teslim sonrası ürün ekleme ve kampanya başlatma kim yapacak?", "answer": "Siz. Sanity CMS admin paneli görsel, sezgisel - 2-5 dakikada ürün ekliyorsunuz. Eğitim videoları + canlı eğitim (30 dakika Zoom) dahil. Acele durumlar için Profesyonel paket aylık 2 saat danışmanlık veriyor."},
+    {"question": "Mevcut sitemde Google üst sıralarda görünüyorum, yeni sitede sıralamam düşer mi?", "answer": "Düşmez, aksine artar. 301 redirect haritası ile eski URL'lerinizi yeni URL'lere bağlıyoruz. Yeni site daha hızlı (Lighthouse 96+), daha SEO uyumlu olduğu için Google sıralamanız 2-4 hafta içinde iyileşir."}
+  ],
+  "finalCtaHeadline": "Eskişehir işletmeniz için yeni siteniz 18 günde canlıda",
+  "finalCtaSubtitle": "30 dakikalık Zoom brief görüşmesi yeterli. Mevcut sitenizi inceleyip ücretsiz audit + bölge SEO planı hazırlıyoruz. PORTZEN İzmir merkezli, Eskişehir'de aktif müşteriler uzaktan profesyonel teslim."
+}

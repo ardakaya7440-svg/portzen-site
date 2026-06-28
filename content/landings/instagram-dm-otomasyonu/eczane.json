@@ -1,0 +1,167 @@
+{
+  "sectorSlug": "eczane",
+  "sectorName": "Eczane",
+  "sectorPlural": "Eczaneler",
+  "title": "Eczaneler İçin Instagram DM Otomasyonu | OTC Sorgu, Stok, Danışmanlık Yanıt - PORTZEN",
+  "description": "Eczane Instagram DM otomasyonu. OTC ürün fiyat sorgu, stok kontrolü, genel sağlık bilgisi, sağlık taraması randevusu. TC İlaç Reklam Yönetmeliği uyumlu, ilaç tavsiyesi vermez, eczacıyı kompleks sorulara yönlendirir.",
+  "keywords": [
+    "eczane instagram dm botu",
+    "eczane dm otomasyonu",
+    "otc fiyat sorgu botu",
+    "eczane stok sorgu sistemi",
+    "eczane reels yorum yanıt",
+    "eczane yapay zeka dm"
+  ],
+  "h1": "Eczaneler için Instagram DM Otomasyonu",
+  "heroSubtitle": "Eczaneniz Reels paylaştı, DM patladı, 'fiyatı ne kadar?', 'stoğunuzda var mı?', 'tansiyon ölçtürmek için randevu?'. Eczacı reçeteyle ilgileniyor, kalfa kasada. AI asistanımız 60 saniyede yanıt veriyor, ilaç tavsiyesi vermiyor, kompleks soruyu eczacıya yönlendiriyor.",
+  "stats": [
+    {"value": "60 sn", "label": "DM Yanıtı"},
+    {"value": "%85", "label": "Otomatik Yanıt Oranı"},
+    {"value": "OTC", "label": "Mevzuat Uyumlu"},
+    {"value": "14 gün", "label": "Kurulum"}
+  ],
+  "problems": [
+    "Eczacı reçete hazırlarken Instagram DM'e gelen 'şu vitamini stoğunuzda var mı' mesajı 4 saat sonra yanıtlanıyor, müşteri başka eczaneye gitti.",
+    "Reels altında 'Avene mineral süt fiyatı?' yorumu yazılıyor, eczacının yanıt yetiştirme zamanı yok, soru kayboluyor, satış kaçıyor.",
+    "Akşam saat 22:00, 'çocuğum ateşleniyor, ne vereyim' DM'i geliyor, eczane kapalı, AI'dan tıbbi tavsiye almak isteyen müşteri risk altında.",
+    "Story'ye 'ev servis var mı, adres falanca' yanıtı geliyor, her birini tek tek WhatsApp'a yönlendirip teyit etmek günde 1 saat alıyor.",
+    "Tansiyon ölçümü, kan şekeri testi, sağlık taraması için DM'den randevu isteyen müşteri var, takvim defterde, çakışmalar yaşanıyor.",
+    "Eczane Instagram aktif değil çünkü 'DM'lere yetişemem' korkusu var, oysa rakip zincir eczaneler aktif sosyal medya ile semt müşterisi topluyor."
+  ],
+  "solutionSteps": [
+    {
+      "title": "1. OTC Ürün ve Mevzuat Brief'i",
+      "description": "Eczanenizdeki OTC ürün katalog (vitamin, dermokozmetik, takviye edici gıda, OTC ağrı kesici), fiyat aralıkları, stok durumu, hizmet kalemleri (tansiyon ölçümü, kan şekeri, enjeksiyon, ev servis) AI'a tanıtılıyor. TC İlaç Reklam Yönetmeliği sınırları çizilir, ilaç tavsiyesi yasak, sadece OTC bilgi ve genel sağlık."
+    },
+    {
+      "title": "2. Instagram Business API ve Mevzuat Kontrol",
+      "description": "Meta resmi Instagram Graph API entegrasyonu yapılır, sayfa güvenliği korunur. AI'ın yanıt vermeyeceği konular (reçeteli ilaç dozajı, tıbbi tedavi önerisi, hastalık teşhisi) kesin filtrelerle engellenir. Bu sorular geldiğinde 'Lütfen doktorunuza danışınız' ile yönlendirir, eczacıya bildirim atar."
+    },
+    {
+      "title": "3. Test Dönemi ve Eczacı Onayı",
+      "description": "İlk 7 gün AI yanıtları eczacının onayından geçer, hatalı veya sınır ihlali olan yanıtlar anında düzeltilir. İkinci haftadan itibaren kompleks olmayan sorular (fiyat, stok, saat, lokasyon) otomatik yanıtlanır, kompleks sorular (kronik hasta sorusu, çocuk sağlığı, ilaç etkileşim) eczacıya yönlendirilir."
+    },
+    {
+      "title": "4. Canlı + Aylık Mevzuat Optimizasyon",
+      "description": "Aylık rapor: hangi sorular en sık geldi, hangi OTC ürünün ilgisi yüksek, hangi sezon kampanyası DM'i patlattı. Mevzuat avukatı aylık kontrol yapar, yeni Sağlık Bakanlığı genelgesi varsa AI filtreleri güncellenir. Sürekli yasal güvence."
+    }
+  ],
+  "features": [
+    {
+      "title": "OTC Ürün Fiyat ve Stok Sorgu",
+      "description": "Müşteri 'Bioderma atoderm fiyat?' veya 'Centrum erkek stoğunuzda?' yazınca AI anlık yanıt verir. Stok bilgisi varsa kesin, yoksa 'bugün eczaneme bakıp dönerim' diyerek eczacıya bildirim atar. Sadece OTC ürün (dermokozmetik, vitamin, takviye edici gıda), reçeteli ilaç fiyatı vermez."
+    },
+    {
+      "title": "Genel Sağlık Bilgisi (Tıbbi Tavsiye DEĞİL)",
+      "description": "'Bağışıklık güçlendirmek için ne yapabilirim?' gibi genel sorulara genel beslenme ve yaşam tarzı bilgisi verir. 'Çocuğumda ateş var ne vereyim?' gibi spesifik tıbbi sorulara 'Acil servisi arayın veya pediatristinize danışın, biz mesai içinde OTC ürün önerebiliriz' diyerek doktora yönlendirir."
+    },
+    {
+      "title": "Randevu Sistemi (Sağlık Taraması)",
+      "description": "Tansiyon ölçümü, kan şekeri testi, enjeksiyon hizmeti, ev servis için müşteri DM'den 'salı saat 14:00 müsait?' yazınca AI takvimi görür, onaylar, müşteriye SMS hatırlatma kurar. Çakışma yaşanmaz, defterde kalmaz."
+    },
+    {
+      "title": "Kampanya ve Sezon Bilgilendirme",
+      "description": "Müşteri 'bu hafta indirim var mı?' yazınca aktif kampanyalarınızı (örn: Avene %20, La Roche-Posay 3 al 2 öde) bildirir. Sezon ürünleri (kış grip takviyeleri, yaz güneş ürünü) için DM'de katalog görseli paylaşır. Mesai dışı bile satışa katkı sağlar."
+    },
+    {
+      "title": "Reels Yorum Otomatik Yanıt",
+      "description": "Reels altına 'fiyatı?', 'stoğunuzda var mı?', 'açık mısınız?' yorumları yazılınca AI otomatik yanıt verir + DM açar. 'Çok güzel ürün' gibi yorumlara karışmaz. Sadece anahtar kelime içeren ticari yorumlara müdahale eder, spam yapmaz."
+    },
+    {
+      "title": "Kompleks Soru Eczacıya Yönlendirme",
+      "description": "Reçeteli ilaç sorusu, kronik hasta dozaj sorusu, ilaç etkileşim sorusu, çocuk sağlığı kompleks sorusu, hamilelik sorusu geldiğinde AI 'Bu konuda eczacımızdan bilgi alın, sizi yönlendiriyorum' der ve eczacıya bildirim atar. Yasal sorumluluğu eczacıda bırakır, AI sınırını aşmaz."
+    }
+  ],
+  "caseStudy": {
+    "title": "Üsküdar Bağlarbaşı Eczanesi: 3 Ayda DM Yanıt Süresi 5 Saatten 60 Saniyeye",
+    "paragraphs": [
+      "Üsküdar Bağlarbaşı'nda 14 yıllık bir eczane, Instagram'da 6.400 takipçi ile aktif Reels paylaşıyor, kış vitamini ve dermokozmetik üzerine içerik üretiyordu. Günde 15-25 DM geliyordu (genelde fiyat sorgu, stok kontrolü, ev servis talebi). Eczacı tek başına reçeteyi de hazırlıyor, DM'lere de bakmaya çalışıyordu. Yanıt süresi ortalama 5 saat, gece gelen DM sabaha kalıyordu. Müşteriler yandaki Watsons'a gidip dermokozmetiği oradan alıyordu.",
+      "Şubat 2026'da PORTZEN Instagram DM otomasyonunu kurdu. 180 OTC ürün katalog (fiyat ve stok) tanıtıldı, mevzuat avukatı sınırları çizildi (reçeteli ilaç yanıtı yasak, tıbbi tavsiye yasak, doktora yönlendirme zorunlu). İlk hafta eczacının onayıyla yanıt verildi, ikinci haftadan itibaren tam otomatik geçti. Tansiyon ve enjeksiyon randevu sistemi entegre edildi.",
+      "3 ay sonra sonuçlar: DM yanıt süresi 5 saatten 60 saniyeye düştü, otomatik yanıt oranı %85 (kompleks sorular eczacıya yönlendirildi), aylık DM sayısı 600'den 1.450'ye çıktı (insanlar gece de yazıyor artık). Aylık OTC ürün satışı %32 arttı, dermokozmetik kategori Watsons'a kaybedilen müşteriyi geri kazandı. Eczacı 'rahatladım, reçeteye odaklanıyorum' dedi."
+    ],
+    "beforeAfter": [
+      {"label": "DM Yanıt Süresi", "before": "5 saat", "after": "60 saniye"},
+      {"label": "Aylık DM Sayısı", "before": "600", "after": "1.450"},
+      {"label": "Otomatik Yanıt Oranı", "before": "0", "after": "%85"},
+      {"label": "Aylık OTC Ürün Satışı", "before": "Baz", "after": "+%32"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "6.500 TL/ay",
+      "description": "Tek lokasyon eczane, OTC sorgu + saat + lokasyon yanıtı için",
+      "features": [
+        "Instagram Business API kurulumu",
+        "100 OTC ürün bilgi tabanı (fiyat + stok)",
+        "DM otomatik yanıt",
+        "Saat, lokasyon, nöbet bilgisi",
+        "Mevzuat filtre (ilaç tavsiyesi yasak)",
+        "Aylık 1 optimizasyon"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price": "12.500 TL/ay",
+      "description": "Önerilen, Reels yorum + randevu + kampanya yanıt dahil",
+      "features": [
+        "Başlangıç paketi içerikleri",
+        "300 OTC ürün katalog",
+        "Reels yorum otomatik yanıt + DM açma",
+        "Randevu sistemi (tansiyon, ölçüm, ev servis)",
+        "Kampanya ve sezon bilgilendirme",
+        "Kompleks soru eczacıya yönlendirme bildirimi",
+        "Aylık mevzuat avukat kontrolü",
+        "Haftalık optimizasyon"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Zincir / Multi-Şube",
+      "price": "24.000 TL/ay",
+      "description": "Birden fazla şube, merkezi yönetim, dermokozmetik ağırlıklı",
+      "features": [
+        "Tüm Pro özellikler",
+        "Çoklu şube koordinasyon",
+        "Şube bazlı ürün ve fiyat",
+        "Merkezi DM dashboard",
+        "Özel marka entegrasyonu (Avene, Bioderma, La Roche-Posay)",
+        "Sadakat puanı entegrasyon (CRM bağlantısı)",
+        "Aylık performans raporu",
+        "Öncelikli teknik destek"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "AI ilaç tavsiyesi verir mi, mevzuata aykırı olur mu?",
+      "answer": "Hayır, kesinlikle vermez. Sistem mevzuat filtresi ile kurulur. Reçeteli ilaç dozaj sorusu, hastalık teşhisi, tıbbi tedavi önerisi geldiğinde AI 'Bu konuda eczacımızdan bilgi alın veya doktorunuza danışın' diyerek yönlendirir, eczacıya bildirim atar. Sadece OTC ürün (vitamin, dermokozmetik, takviye edici gıda) bilgisi ve genel sağlık bilgisi verir. TC İlaç Reklam Yönetmeliği'ne tam uyumlu."
+    },
+    {
+      "question": "Reçeteli ilaç fiyatını veya stoğunu söyleyebilir mi?",
+      "answer": "Hayır. Reçeteli ilaç fiyatı SUT tarafından belirlenir, listelenmesi mevzuat dışıdır. AI sadece OTC ürün (vitamin, dermokozmetik, takviye edici gıda, OTC ağrı kesici) fiyat ve stok bilgisi verir. Müşteri reçeteli ilaç sorarsa 'reçetenizle eczanemize gelirseniz hazırlayalım' diyerek yönlendirir."
+    },
+    {
+      "question": "Instagram hesabımın güvenliği etkilenir mi, ban riski var mı?",
+      "answer": "Hayır. Meta'nın resmi Instagram Graph API'si kullanılıyor, şifre vermek gibi tehlikeli yöntem yok. Sayfa yetkisi sınırlı paylaşılıyor, ban riski yok. Yeşil tik almışsanız korunur, almamışsanız etkilenmez."
+    },
+    {
+      "question": "AI hangi durumda eczacıya bildirim atar?",
+      "answer": "Reçeteli ilaç sorusu, kronik hasta dozaj sorusu, ilaç etkileşim sorusu, çocuk sağlığı kompleks sorusu, hamilelik sorusu, alerji veya yan etki şikayeti geldiğinde. Ayrıca acil ev servis talebi ve büyük tutarlı sipariş için bildirim atar. Eczacı kompleks sorulara odaklanır, fiyat ve stok sorularıyla zaman kaybetmez."
+    },
+    {
+      "question": "Randevu sistemi nasıl çalışıyor, hangi hizmetler için?",
+      "answer": "Tansiyon ölçümü, kan şekeri testi, ısı ölçümü, enjeksiyon hizmeti, ev servis randevuları DM'den alınır. Müşteri 'salı 14:00' yazınca AI takvimi kontrol eder, onaylar, müşteriye SMS hatırlatma kurar. Calendly veya Google Calendar ile senkron, eczanenin tabletinde de görünür. Çakışma olmaz."
+    },
+    {
+      "question": "Mevzuat avukat kontrolü hangi sıklıkta yapılıyor?",
+      "answer": "Pro pakette aylık. Sağlık Bakanlığı yeni genelge yayınlarsa veya TC İlaç Reklam Yönetmeliği güncellenirse AI filtreleri güncellenir, yeni yasak konular eklenir. Mevzuat değişikliklerini takip etmek sizin değil bizim sorumluluğumuzdur, eczacı operasyona odaklanır."
+    },
+    {
+      "question": "Sözleşme nasıl, iptal etmek kolay mı?",
+      "answer": "İlk ay deneme, sonra ay-ay devam. İstediğiniz ay 'durdur' dediğinizde sistem kapanır, ceza yok. 3 aylık peşin ödemede %8 indirim, 6 aylıkta %12 indirim. Eczane sektörüne özel sözleşme şartları (mevzuat uyum garantisi dahil) sunuyoruz."
+    }
+  ],
+  "finalCtaHeadline": "Eczaneniz Reels paylaşsın, DM kayboldu derdi yaşamayın",
+  "finalCtaSubtitle": "15 dakikalık ücretsiz demo: OTC katalogunuzu AI'a tanıtıp canlı IG DM testi yapalım. Mevzuat avukat kontrolüyle, 14 günde tüm DM'leriniz otomatik."
+}

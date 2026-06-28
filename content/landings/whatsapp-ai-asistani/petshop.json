@@ -1,0 +1,110 @@
+{
+  "sectorSlug": "petshop",
+  "sectorName": "Petshop",
+  "sectorPlural": "Petshoplar",
+  "title": "Petshoplar İçin WhatsApp AI Asistan | Mama Sipariş + Stok Sorgu + Abonelik - PORTZEN",
+  "description": "Petshoplar için WhatsApp AI asistanı. Mama sipariş alma, marka ve gramaj stok sorgusu, mama abonelik kurulumu, kapı teslim takip, hayvansever müşteri sadakati.",
+  "keywords": ["petshop whatsapp", "mama sipariş whatsapp", "petshop chatbot", "kuş yemi sipariş", "kedi köpek maması", "petshop otomasyon"],
+  "h1": "Petshoplar için WhatsApp AI Asistanı",
+  "heroSubtitle": "Mama sipariş, marka ve gramaj stok sorgusu, abonelik kurulumu, kapı teslim takip - müşteri 7/24 sipariş veriyor, siz sadece kargoyu hazırlıyorsunuz. Repeat business otomatikleşiyor.",
+  "stats": [
+    {"value": "7/24", "label": "Sipariş Alımı"},
+    {"value": "%180", "label": "Tekrar Satış"},
+    {"value": "11 gün", "label": "Devreye Alma"},
+    {"value": "WhatsApp", "label": "Pay Entegre"}
+  ],
+  "problems": [
+    "Müşteri 'Royal Canin Maxi Adult 15 kg var mı?' diye yazıyor, siz depoyu kontrol edip 20 dakika sonra cevap veriyorsunuz, rakip Trendyol'a kaybediyorsunuz",
+    "Aynı müşteri her ay aynı mamayı sipariş ediyor, manuel hatırlamanız gerekiyor - unutulan müşteri rakibe gidiyor",
+    "Akşam 20:00 sonrası mesajlar sabaha kadar bekliyor, kedi sahibi 'akşam saatinde alışveriş yapıyorum' diyor",
+    "Kuş yemi, akvaryum, balık, sürüngen gibi niş ürünleri her tedarikçiden farklı bulduğunuz için stok takibi karışık",
+    "Yeni gelen kedi/köpek için ne mama önerirseniz müşteri rakip pet danışmanına soruyor, sadakat kuramıyorsunuz",
+    "Abonelik mama satışına geçmek istiyorsunuz ama manuel hatırlatma yapamıyorsunuz"
+  ],
+  "solutionSteps": [
+    {"title": "1. Ürün Kataloğu & SSS Brief", "description": "Stoklarınızı (Royal Canin, Hills, Pro Plan, Acana ve niş markalar), gramajları, fiyatları, alternatif önerilerinizi alıyoruz. Sıkça sorulan müşteri sorularını (yavru/yaşlı/ırk bazlı mama önerisi, kuş yemi karışımı) topluyoruz."},
+    {"title": "2. AI Asistan Eğitimi (Hayvansever Ton)", "description": "Claude tabanlı AI asistanı sıcak, hayvansever, bilgili bir tonda eğitiyoruz. Marka bilgisi (Royal Canin Maxi Adult vs Junior farkı), ırk önerileri (Golden için ne, Pers kedi için ne), yaş grubu (yavru/yetişkin/yaşlı) bilgilendirmeleri."},
+    {"title": "3. Sipariş + Ödeme + Kargo Akışı", "description": "WhatsApp Pay (Türkiye'de hazır olanlar için) veya ödeme bağlantısı (Iyzico). Müşteri sipariş veriyor, ödüyor, sistem kargo bilgisi takibi yapıyor. Aras/Yurtiçi/MNG entegrasyonu - 'kargonuz yarın saat 14-17 arası'."},
+    {"title": "4. Abonelik & Hatırlatma Otomasyonu", "description": "Müşteri 'her ay aynı mama' isterse abonelik açılıyor. 25 gün sonra 'mamanız bitmek üzere, sipariş onaylayalım mı?' AI mesajı atıyor. Repeat business otomatik, müşteri unutma riski yok."}
+  ],
+  "features": [
+    {"title": "Stok ve Fiyat Anlık Sorgu", "description": "Müşteri 'Hills i/d 12 kg var mı?' yazınca AI anlık olarak stoğu kontrol ediyor, fiyatı söylüyor, yoksa alternatif öneriyor (Royal Canin Gastrointestinal vb.). Sizinle haberleşmeden cevap geliyor."},
+    {"title": "Akıllı Ürün Önerisi", "description": "Yeni kedi/köpek sahibi 'ne almalıyım?' yazınca AI ırk, yaş, kilo, alerji bilgisi soruyor, en uygun mamayı + öneri paketini (oyuncak, mama kabı, kum) öneriyor. Sepet sepeti büyütüyor."},
+    {"title": "Mama Abonelik Sistemi", "description": "Müşteri 'her ay aynı mama' tercih etti mi sistem 25-28 gün sonra hatırlatma + onay mesajı gönderiyor. Müşteri onaylayınca otomatik sipariş + ödeme + kargo. %15-25 indirim ile sadakat sağlanıyor."},
+    {"title": "Kargo Takip Bildirimi", "description": "Aras/Yurtiçi/MNG ile entegrasyon. 'Kargonuz hazırlandı', 'Kargonuz yola çıktı', 'Kargonuz yarın 14-17 arası'. Müşteri arayıp soramayacak, sistem zaten bilgilendiriyor."},
+    {"title": "Kuş, Balık, Sürüngen Niş Sorgular", "description": "Niş hayvan sahipleri için (kuş yemi karışımları, balık akvaryum bakımı, sürüngen UVB lambası vb.) özel bilgi havuzu. AI 'hangi kuş türü?' deyip uygun yemi öneriyor - bu bilgi rakiplerde yok."},
+    {"title": "Müşteri Sadakat & Hatırlatma", "description": "Müşterinin son siparişi 35 gün öncesi miyse 'mamanız bitti mi?' hatırlatması. Yeni ürün geldiğinde (örnek: Acana yavru kedi) düzenli müşteriye bildirim. Doğum günü kampanyası evcil hayvan adına."}
+  ],
+  "caseStudy": {
+    "title": "Bornova Patiland Petshop - Aylık Tekrar Satış %180 Arttı, Abonelik Müşterisi 6 → 142",
+    "paragraphs": [
+      "Bornova'da 8 yıllık aile işletmesi Patiland Petshop 2024 Aralık'ta PORTZEN'e geldi. Müşteri tabanı sadıktı ama tüm sipariş telefon + dükkan ziyaretiyle alınıyordu. Sahibi 'müşterinin mamasının bittiğini hatırlamak benim işim olmamalı' diyordu. WhatsApp Business hesabı vardı ama mesajların yarısı 2-3 saat geç cevaplanıyordu.",
+      "11 günde WhatsApp AI asistanı devreye aldık - 340 ürün katalogu (Royal Canin, Hills, Pro Plan, Acana, niş markalar dahil), akıllı öneri sistemi (ırk + yaş bazlı), mama abonelik (25 gün hatırlatma), Aras kargo entegrasyonu, hayvansever sıcak ses tonu. Müşterinin son alımını sistem hatırlıyor, otomatik hatırlatma atıyor.",
+      "İlk 3 ayda aylık tekrar satış %180 arttı. Abonelik müşterisi 6'dan 142'ye çıktı - sürekli gelir oluştu (her ay tahmin edilebilir 38.000 TL aylık abonelik cirosu). Mesai dışı (akşam 20:00 sonrası) sipariş oranı toplam siparişlerin %38'i oldu, bu segmenti tamamen kazandılar. Sahibi 'müşteri tüm seçimleri tek başına yapıyor, ben sadece kargoyu hazırlıyorum' diyor."
+    ],
+    "beforeAfter": [
+      {"label": "Aylık Tekrar Satış", "before": "100%", "after": "%280"},
+      {"label": "Mama Abonelik Müşterisi", "before": "6", "after": "142"},
+      {"label": "Mesai Dışı Sipariş Oranı", "before": "%4", "after": "%38"},
+      {"label": "Ortalama Yanıt Süresi", "before": "2.5 saat", "after": "8 saniye"}
+    ]
+  },
+  "pricing": [
+    {
+      "name": "Başlangıç",
+      "price": "11.000 TL + 1.800 TL/ay",
+      "description": "Tek lokasyon küçük ve butik petshoplar için",
+      "features": [
+        "WhatsApp Business hattı kurulumu",
+        "100 ürün katalog",
+        "Stok sorgu otomatik yanıt",
+        "Basit sipariş alma",
+        "Ödeme bağlantısı (Iyzico)",
+        "Mesai dışı otomatik yanıt",
+        "1 ay teknik destek"
+      ]
+    },
+    {
+      "name": "Profesyonel",
+      "price": "20.000 TL + 2.800 TL/ay",
+      "description": "Aktif petshoplar için en popüler paket - abonelik dahil",
+      "features": [
+        "Sınırsız ürün katalogu",
+        "Akıllı ürün önerisi (ırk + yaş)",
+        "Mama abonelik sistemi",
+        "Kargo takip entegrasyonu (Aras, Yurtiçi)",
+        "Müşteri sadakat ve hatırlatma",
+        "AI eğitimi (hayvansever ton)",
+        "Aylık satış raporu",
+        "Niş hayvan bilgi havuzu"
+      ],
+      "highlighted": true
+    },
+    {
+      "name": "Kurumsal",
+      "price": "35.000 TL + 4.500 TL/ay",
+      "description": "Zincir petshoplar, çoklu şube ve e-ticaret için",
+      "features": [
+        "Çoklu şube yönetimi",
+        "Shopify / IdeaSoft entegrasyonu",
+        "Trendyol / Hepsiburada stok senkronizasyonu",
+        "Veteriner randevu modülü",
+        "Tedarikçi otomatik sipariş",
+        "Müşteri segmentasyon (kedi/köpek/kuş)",
+        "Özel proje yöneticisi",
+        "Aylık strateji görüşmesi"
+      ]
+    }
+  ],
+  "faq": [
+    {"question": "AI asistan ne kadar sürede aktif olur?", "answer": "Başlangıç paketi 7-10 gün, Profesyonel 11-15 gün, Kurumsal 18-25 gün. Ürün kataloğunuzun durumuna göre değişiyor - Excel veya barkod sisteminizden direkt çekiyoruz, manuel giriş gerekmiyor."},
+    {"question": "WhatsApp Business API ücreti ayrı mı?", "answer": "Evet, Meta'nın WhatsApp Business API ücreti ayrı. Aylık ortalama 300-600 TL (gönderdiğiniz mesaj sayısına göre). Küçük petshoplar için 800 TL'yi nadiren geçer. Kurulum ve takibini biz yapıyoruz, faturanız direkt Meta'dan geliyor."},
+    {"question": "Stok bilgisini AI nasıl alıyor?", "answer": "İki seçenek: (1) Excel veya Google Sheets - siz günlük güncellersiniz, AI oradan çeker (basit). (2) Logo/Mikro/Nebim ERP entegrasyonu - gerçek zamanlı stok, satış olunca otomatik düşer (Profesyonel ve Kurumsal'da). Shopify/IdeaSoft kullanıyorsanız API entegrasyonu (Kurumsal)."},
+    {"question": "Abonelik müşterisi cayma hakkı kullanırsa?", "answer": "Tabii ki - abonelik 'her ay otomatik fatura' değil, 'her ay hatırlatma + onay' modeli. Müşteri 25. günde 'mamanız bitmek üzere, sipariş onaylayalım mı?' mesajı alıyor, isterse 'bu ay almıyorum' diyor, isterse 'evet, ayrıca oyuncak da ekle' diyor. Abone hakim, dolayısıyla cayma oranı çok düşük (~%3)."},
+    {"question": "Akıllı ürün önerisi gerçekten doğru çalışıyor mu?", "answer": "Evet, ırk + yaş + kilo + alerji bilgisinin kombinasyonu ile öneri yapıyor. Vaka çalışmamızdaki Patiland'de müşteri 'Golden Retriever 4 aylık' deyince AI 'Pro Plan Puppy Large Breed 12 kg' öneriyor - bu doğru cevap, veteriner de aynısını derdi. Niş durumlarda (alerji, mide hassasiyeti) 'veterinerinizle danışın' diyor, riskli öneri vermiyor."},
+    {"question": "Kuş, balık, sürüngen gibi niş hayvanlar için yeterli bilgisi var mı?", "answer": "Evet, Profesyonel pakette niş hayvan bilgi havuzu dahil. Muhabbet kuşu yem karışımı, Akvaryum suyu PH değeri, leopar gecko UVB lambası, hamster talaş türü - hepsi sistemde. Veteriner bilgisi gereken (hastalık vb.) konularda yönlendirme yapıyor, kendi başına 'tedavi' önermiyor."},
+    {"question": "Trendyol ve Hepsiburada'daki müşterilerimi de bu sisteme alabilir miyim?", "answer": "Trendyol/Hepsiburada müşterileri Meta'nın kuralları gereği size DM atana kadar mesaj göndermeniz mümkün değil. Ancak Kurumsal pakette Trendyol/Hepsiburada üzerinden gelen siparişler de panele düşüyor, kargo takibi WhatsApp'tan iletiliyor (müşteri onayıyla). Stok senkronizasyonu çift platformda düşüyor."}
+  ],
+  "finalCtaHeadline": "Müşteri mamasını sizden hatırlatmadan ısmarlasın",
+  "finalCtaSubtitle": "15 dakikalık brief görüşmesi yeterli. Mevcut WhatsApp trafiğinizi ve abonelik potansiyelinizi ücretsiz analiz ediyoruz. Repeat business otomasyonuna 2 haftada geçin."
+}
