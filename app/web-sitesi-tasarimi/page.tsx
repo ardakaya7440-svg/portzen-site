@@ -190,7 +190,7 @@ const advantages = [
   {
     icon: Sparkles,
     title: "AI destekli içerik üretimi",
-    desc: "Sayfa metinleri, ürün açıklamaları ve blog yazıları için AI destekli içerik üretim akışımız var. Marka tonu korunur, dilbilgisi editörden geçer, SEO anahtar kelimeleri yerleşir. Aynı bütçeyle 3-4 katı içerik çıkar."
+    desc: "Sayfa metinleri, ürün açıklamaları ve blog yazıları için AI destekli içerik üretim akışımız var. Marka tonu korunur, dilbilgisi editörden geçer, SEO anahtar kelimeleri yerleşir. Aynı bütçeyle daha fazla içerik çıkar."
   }
 ];
 
@@ -258,39 +258,6 @@ const nextjsBenefits = [
   }
 ];
 
-const process = [
-  {
-    step: "01",
-    title: "Brief görüşmesi",
-    desc: "30 dakika - hedeflerinizi, hedef kitleyi, rakip siteleri ve içerik yapısını konuşuruz. Site tipini, sayfa sayısını ve entegrasyonları netleştiririz."
-  },
-  {
-    step: "02",
-    title: "Wireframe ve tasarım",
-    desc: "5-7 gün - önce düşük çözünürlüklü wireframe, sonra Figma üzerinde yüksek çözünürlüklü mockup. Marka renkleriniz, tipografi ve görsel dil belirlenir."
-  },
-  {
-    step: "03",
-    title: "Onay ve revizyon",
-    desc: "2 tur büyük revizyon hakkınız var. Onay verdiğiniz Figma dosyası geliştirme referansıdır; sonrasında layout değişikliği ek maliyet doğurur."
-  },
-  {
-    step: "04",
-    title: "Geliştirme",
-    desc: "10-15 gün - Next.js ile kodlama, CMS entegrasyonu, form yönetimi, ödeme entegrasyonu (varsa), analytics kurulumu. Her hafta ilerleme demo linki gönderilir."
-  },
-  {
-    step: "05",
-    title: "Test ve optimizasyon",
-    desc: "2-3 gün - performans testi, tarayıcı uyumluluk testi, mobil test, form testi, SSL kurulumu, Lighthouse skorlama. Hedef: 95+ skor."
-  },
-  {
-    step: "06",
-    title: "Yayın ve eğitim",
-    desc: "Alan adı bağlantısı, DNS yönlendirme, arama motoru gönderimi. 60 dakikalık CMS eğitim toplantısı + PDF kılavuz. Yayın sonrası 30 gün ücretsiz destek."
-  }
-];
-
 const sectorPages = [
   {
     name: "Klinik siteleri",
@@ -340,7 +307,7 @@ const cities = [
   {
     name: "İstanbul",
     slug: "istanbul",
-    desc: "Levent, Maslak, Kadıköy ve Ataşehir'de 60+ aktif proje. Kurumsal müşterilerimizle aylık yüz yüze toplantı yapıyoruz; teslim ve eğitim uzaktan.",
+    desc: "Levent, Maslak, Kadıköy ve Ataşehir'deki firmalarla çalışıyoruz. Kurumsal müşterilerimizle aylık yüz yüze toplantı yapıyoruz; teslim ve eğitim uzaktan.",
     badge: "Aktif"
   },
   {
@@ -674,36 +641,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 5. ÇALIŞMA SÜRECİ */}
-      <section className="bg-ink text-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Çalışma süreci
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight">
-                Brief'ten yayına - 6 adımda web sitesi teslim
-              </h2>
-              <p className="mt-4 text-body opacity-85 max-w-prose leading-relaxed">
-                Web sitesi tasarımı sürecinde şeffaflık kritiktir. PORTZEN'de her adım ne kadar sürer, ne teslim edilir ve sizin rolünüz ne olur, ilk gün belli. Klasik kurumsal proje ortalama 3 haftada, e-ticaret ortalama 6-10 haftada teslim edilir. Landing page'lerde teslim süresi 3 iş günüdür.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {process.map((p, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-ink p-6 shadow-[8px_8px_0_#FFFDF5] h-full">
-                  <div className="font-display text-5xl font-black text-brand-yellow mb-3">{p.step}</div>
-                  <div className="font-bold text-lg mb-2">{p.title}</div>
-                  <div className="text-sm opacity-75 leading-relaxed">{p.desc}</div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* 6. SEKTÖREL ÖRNEKLER */}
       <section className="bg-paper py-section">
         <div className="mx-auto max-w-container px-6">
@@ -741,7 +678,7 @@ export default function Page() {
           </div>
           <Reveal delay={400}>
             <p className="mt-8 text-sm text-ink/60 max-w-2xl">
-              Sektörünüz listede değil mi? Endişelenmeyin - 25+ sektörde aktif proje yürütüyoruz. Brief görüşmesinde sektörünüze özel öneri sunuyoruz.
+              Sektörünüz listede değil mi? Endişelenmeyin, brief görüşmesinde sektörünüze özel sayfa yapısı ve entegrasyon önerisi sunuyoruz.
             </p>
           </Reveal>
         </div>
@@ -847,7 +784,7 @@ export default function Page() {
           </div>
           <Reveal delay={300}>
             <p className="mt-8 text-sm text-ink/60 max-w-2xl">
-              <strong>Not:</strong> Fiyatlara alan adı, hosting ve üçüncü taraf servis abonelikleri (Sanity, iyzico komisyon, kargo API ücretleri) dahil değildir. Tahmini yıllık işletme maliyeti 500-1.500 TL aralığındadır; hazır platformların 12-40 katı düşük.
+              <strong>Not:</strong> Fiyatlara alan adı, hosting ve üçüncü taraf servis abonelikleri (Sanity, iyzico komisyon, kargo API ücretleri) dahil değildir. Tahmini yıllık işletme maliyeti 500-1.500 TL aralığındadır; aylık abonelik modeline kıyasla belirgin şekilde düşüktür.
             </p>
           </Reveal>
 

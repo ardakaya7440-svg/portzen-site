@@ -49,7 +49,7 @@ export const SERVICES: ServiceCategory[] = [
     icon: Video,
     tone: "pink",
     tagline: "Çekim ekibi yok, stüdyo yok — 3 günde teslim.",
-    href: "/hizmetler/ai-video",
+    href: "/yapay-zeka-video-uretimi",
     explainer:
       "Bir kamera ekibi, kameraman, oyuncu kiralamak yerine — biz yapay zekaya \"şu sektör için şöyle bir sahne çek\" diyip 3 günde tamamlanmış reklam videosunu sana teslim ediyoruz. Stüdyo kirası yok, oyuncu maaşı yok, tekrar çekim yok. Sahneler minyatür, sinematik veya samimi sözcü tarzında olur.",
     operationRole:
@@ -66,10 +66,10 @@ export const SERVICES: ServiceCategory[] = [
       "İnşaat firması için sinematik proje tanıtım videosu"
     ],
     subServices: [
-      { title: "Sektörel Kısa Video", href: "/hizmetler/ai-video#reels", description: "Eczane, hukuk, inşaat için minyatür sahne reklamlar — 15-30 saniye." },
-      { title: "Marka Tanıtım Videosu", href: "/hizmetler/ai-video#brand", description: "Sözcü + sahne geçişli markaya özel anlatım — 30-45 saniye." },
-      { title: "Yapay Zeka Influencer'lar", href: "/hizmetler/ai-video#ugc", description: "Markaya özel AI avatar — sosyal medyada yüzünüz olur, müşteri yorumu samimiyetinde içerik üretir." },
-      { title: "Reklam Setleri", href: "/hizmetler/ai-video#ads", description: "Sosyal medya reklamları için 5-10 varyantlı paket." }
+      { title: "Sektörel Kısa Video", href: "/yapay-zeka-video-uretimi#reels", description: "Eczane, hukuk, inşaat için minyatür sahne reklamlar — 15-30 saniye." },
+      { title: "Marka Tanıtım Videosu", href: "/yapay-zeka-video-uretimi#brand", description: "Sözcü + sahne geçişli markaya özel anlatım — 30-45 saniye." },
+      { title: "Yapay Zeka Influencer'lar", href: "/yapay-zeka-video-uretimi#ugc", description: "Markaya özel AI avatar — sosyal medyada yüzünüz olur, müşteri yorumu samimiyetinde içerik üretir." },
+      { title: "Reklam Setleri", href: "/yapay-zeka-video-uretimi#ads", description: "Sosyal medya reklamları için 5-10 varyantlı paket." }
     ],
     process: [
       { step: "01", title: "Brief", description: "30 dakikalık görüşme — sektör, mesaj, hedef kitle, ton birlikte belirlenir." },
@@ -91,7 +91,7 @@ export const SERVICES: ServiceCategory[] = [
     icon: MessageSquare,
     tone: "green",
     tagline: "WhatsApp, Telegram, Instagram — müşteriyi 60 saniyede karşılayan asistan.",
-    href: "/hizmetler/ai-bot",
+    href: "/whatsapp-ai-asistani",
     explainer:
       "Bir müşteri \"yarın saat 17:00'da randevu var mı?\" diye yazdığında, normalde bir personelin görüp cevaplaması saatler sürer. Biz bunun yerine yapay zeka destekli bir asistan kuruyoruz: 60 saniye içinde müşteriye yanıt verir, randevu açar, fiyat bilgisi verir, ilgili müşteriyi kayıt defterine düşürür. WhatsApp, Telegram veya Instagram — hangisinde olursan ol.",
     operationRole:
@@ -108,10 +108,10 @@ export const SERVICES: ServiceCategory[] = [
       "E-ticaret: sipariş takibi + iade süreci + ürün önerisi yapar"
     ],
     subServices: [
-      { title: "WhatsApp Asistanı", href: "/hizmetler/ai-bot#whatsapp", description: "Türkiye'nin %95'inin kullandığı platform — profesyonel kurulum." },
-      { title: "Telegram Asistanı", href: "/hizmetler/ai-bot#telegram", description: "Hızlı, çoklu kullanıcı destekli — topluluk ve müşteri hizmeti." },
-      { title: "Instagram DM Asistanı", href: "/hizmetler/ai-bot#instagram", description: "DM'ye düşen ilgili kişileri otomatik karşılar, randevu açar." },
-      { title: "Çoklu Platform Müşteri Hizmetleri", href: "/hizmetler/ai-bot#multi", description: "WhatsApp + Telegram + Instagram tek panelden yönetilir." }
+      { title: "WhatsApp Asistanı", href: "/whatsapp-ai-asistani#whatsapp", description: "Türkiye'nin %95'inin kullandığı platform — profesyonel kurulum." },
+      { title: "Telegram Asistanı", href: "/whatsapp-ai-asistani#telegram", description: "Hızlı, çoklu kullanıcı destekli — topluluk ve müşteri hizmeti." },
+      { title: "Instagram DM Asistanı", href: "/whatsapp-ai-asistani#instagram", description: "DM'ye düşen ilgili kişileri otomatik karşılar, randevu açar." },
+      { title: "Çoklu Platform Müşteri Hizmetleri", href: "/whatsapp-ai-asistani#multi", description: "WhatsApp + Telegram + Instagram tek panelden yönetilir." }
     ],
     process: [
       { step: "01", title: "Persona", description: "Asistanın nasıl konuşacağını birlikte belirleriz — samimi mi, kurumsal mı?" },
@@ -133,7 +133,7 @@ export const SERVICES: ServiceCategory[] = [
     icon: Workflow,
     tone: "blue",
     tagline: "Manuel işleri %80 azaltan iş akışı altyapısı.",
-    href: "/hizmetler/otomasyon",
+    href: "/crm-otomasyonu",
     explainer:
       "Her gün tekrar tekrar yaptığın işleri — formdan gelen veriyi kayıt defterine yazmak, müşteriye e-posta yollamak, faturayı muhasebeye atmak — biz otomatik iş akışlarına dönüştürüyoruz. Gece 03:00'te bile çalışır; sen sabah uyandığında işler hallolmuş olur.",
     operationRole:
@@ -150,10 +150,10 @@ export const SERVICES: ServiceCategory[] = [
       "Her gece 03:00 → günlük satış raporu ekibe iletilir"
     ],
     subServices: [
-      { title: "Lead Toplama", href: "/hizmetler/otomasyon#lead", description: "Form, DM, reklam → kayıt defteri otomatik akış + bildirim." },
-      { title: "Email & WhatsApp Dizisi", href: "/hizmetler/otomasyon#sequence", description: "İlgili → sıcak → satış akışları — 7-21 günlük zincir." },
-      { title: "Müşteri Kayıt Sistemi", href: "/hizmetler/otomasyon#crm", description: "Tüm kanallardaki müşteri verisi tek panelde senkronize." },
-      { title: "Sosyal Medya Otomasyonu", href: "/hizmetler/otomasyon#sosyal", description: "İçerik takvimi → Instagram + LinkedIn + X otomatik yayın." }
+      { title: "Lead Toplama", href: "/crm-otomasyonu#lead", description: "Form, DM, reklam → kayıt defteri otomatik akış + bildirim." },
+      { title: "Email & WhatsApp Dizisi", href: "/crm-otomasyonu#sequence", description: "İlgili → sıcak → satış akışları — 7-21 günlük zincir." },
+      { title: "Müşteri Kayıt Sistemi", href: "/crm-otomasyonu#crm", description: "Tüm kanallardaki müşteri verisi tek panelde senkronize." },
+      { title: "Sosyal Medya Otomasyonu", href: "/crm-otomasyonu#sosyal", description: "İçerik takvimi → Instagram + LinkedIn + X otomatik yayın." }
     ],
     process: [
       { step: "01", title: "Akış Analizi", description: "Hangi işlerini ne kadar zaman alıyorsun? Birlikte haritalayalım." },
@@ -175,7 +175,7 @@ export const SERVICES: ServiceCategory[] = [
     icon: Sparkles,
     tone: "yellow",
     tagline: "Aylık paket — kısa video, görsel set, hikaye tek yerden.",
-    href: "/hizmetler/sosyal-medya",
+    href: "/sosyal-medya-yonetimi",
     explainer:
       "Senin yerine Instagram, TikTok, LinkedIn için her hafta yeni kısa video, görsel set ve hikaye üretiyoruz. Markanın diline, sektörüne ve hedef kitlene uygun planlanmış aylık takvim — sen sadece onay veriyorsun, biz yayınlıyoruz. \"Bugün ne paylaşsam\" derdi tamamen kalkar.",
     operationRole:
@@ -192,10 +192,10 @@ export const SERVICES: ServiceCategory[] = [
       "Restoran: günlük menü hikayesi + haftalık atmosfer videosu"
     ],
     subServices: [
-      { title: "Kısa Video Üretimi", href: "/hizmetler/sosyal-medya#reels", description: "Haftada 3-5 yapay zeka destekli video — platforma ve hedef kitleye uygun format." },
-      { title: "Görsel Set Tasarımı", href: "/hizmetler/sosyal-medya#carousel", description: "Eğitici + satış odaklı 10 slayt set — kayıt ve paylaşım canavarı." },
-      { title: "Hikaye Şablonu", href: "/hizmetler/sosyal-medya#story", description: "Markaya özel haftalık hikaye takvimi + etkileşim stratejisi." },
-      { title: "Reklam Görseli", href: "/hizmetler/sosyal-medya#ad", description: "Sosyal medya reklamları için varyantlı tasarım paketi." }
+      { title: "Kısa Video Üretimi", href: "/sosyal-medya-yonetimi#reels", description: "Haftada 3-5 yapay zeka destekli video — platforma ve hedef kitleye uygun format." },
+      { title: "Görsel Set Tasarımı", href: "/sosyal-medya-yonetimi#carousel", description: "Eğitici + satış odaklı 10 slayt set — kayıt ve paylaşım canavarı." },
+      { title: "Hikaye Şablonu", href: "/sosyal-medya-yonetimi#story", description: "Markaya özel haftalık hikaye takvimi + etkileşim stratejisi." },
+      { title: "Reklam Görseli", href: "/sosyal-medya-yonetimi#ad", description: "Sosyal medya reklamları için varyantlı tasarım paketi." }
     ],
     process: [
       { step: "01", title: "Strateji", description: "Hedef kitle + ana konular + ton + haftalık takvim çıkarılır." },
@@ -217,7 +217,7 @@ export const SERVICES: ServiceCategory[] = [
     icon: Globe,
     tone: "orange",
     tagline: "Hızlı, mobil uyumlu, satış odaklı — şablonsuz markaya özel site.",
-    href: "/hizmetler/web-tasarim",
+    href: "/web-tasarim",
     explainer:
       "Hazır şablonlu sitelerden farklı — sana özel tasarlanmış, 1 saniyenin altında yüklenen, telefonda da kusursuz çalışan modern bir web sitesi. Form gönderildiğinde otomatik olarak WhatsApp'ına bildirim gelir, müşteri kaydı sistemine düşer. Sadece görünmek için değil — satmak için kurulur.",
     operationRole:
@@ -234,10 +234,10 @@ export const SERVICES: ServiceCategory[] = [
       "Üyelikli platform — kullanıcı girişi + panel + ödeme"
     ],
     subServices: [
-      { title: "Satış Sayfası", href: "/hizmetler/web-tasarim#landing", description: "Tek sayfa dönüşüm odaklı satış sitesi — reklam buraya çekilir." },
-      { title: "Kurumsal Site", href: "/hizmetler/web-tasarim#kurumsal", description: "5-10 sayfalık marka anlatımı + blog + iletişim formu." },
-      { title: "Online Mağaza", href: "/hizmetler/web-tasarim#eticaret", description: "Sepet + ödeme + stok yönetimi — büyümeye hazır altyapı." },
-      { title: "Üyelikli Platform", href: "/hizmetler/web-tasarim#app", description: "Kullanıcı girişi + özel panel + ödeme entegrasyonu." }
+      { title: "Satış Sayfası", href: "/web-tasarim#landing", description: "Tek sayfa dönüşüm odaklı satış sitesi — reklam buraya çekilir." },
+      { title: "Kurumsal Site", href: "/web-tasarim#kurumsal", description: "5-10 sayfalık marka anlatımı + blog + iletişim formu." },
+      { title: "Online Mağaza", href: "/web-tasarim#eticaret", description: "Sepet + ödeme + stok yönetimi — büyümeye hazır altyapı." },
+      { title: "Üyelikli Platform", href: "/web-tasarim#app", description: "Kullanıcı girişi + özel panel + ödeme entegrasyonu." }
     ],
     process: [
       { step: "01", title: "Brief", description: "Hedef, kitle, içerik mimarisi belirlenir. Sayfa haritası çıkar." },

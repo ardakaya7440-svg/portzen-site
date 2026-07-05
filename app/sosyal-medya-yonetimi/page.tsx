@@ -124,7 +124,7 @@ const faqSchema = {
       name: "Takipçi ve etkileşim garantisi veriyor musunuz?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "İlk 90 günde minimum organik erişim, etkileşim ve takipçi hedeflerini sözleşmeye yazıyoruz. Bu hedefler tutmazsa o ay ücretsizdir. Sahte takipçi veya botla büyütme yapmıyoruz çünkü uzun vadede algoritma cezalandırır. Ortalama müşteri sonucumuz 90 günde 2.5x-3.5x erişim artışı, %35-60 etkileşim artışıdır."
+        text: "İlk 90 günde minimum organik erişim, etkileşim ve takipçi hedeflerini sözleşmeye yazıyoruz. Bu hedefler tutmazsa o ay ücretsizdir. Sahte takipçi veya botla büyütme yapmıyoruz çünkü uzun vadede algoritma cezalandırır. Hedef rakamlar sektörünüze ve mevcut hesap durumunuza göre keşif görüşmesinde birlikte belirlenir."
       }
     },
     {
@@ -163,7 +163,7 @@ const breadcrumbSchema = {
 const heroStats = [
   { metric: "5 kanal", label: "Instagram, Facebook, TikTok, LinkedIn, YouTube Shorts" },
   { metric: "30+ içerik", label: "Aylık ortalama üretim adedi" },
-  { metric: "%48", label: "Ortalama etkileşim artışı 90 günde" },
+  { metric: "8 metrik", label: "Aylık raporda izlenen gösterge" },
   { metric: "2 saat", label: "DM ve yorumlara ortalama yanıt süresi" }
 ];
 
@@ -235,34 +235,6 @@ const scope = [
   "Rakip takibi ve trend raporu - haftalık"
 ];
 
-const process = [
-  {
-    step: "01",
-    title: "Marka analizi ve ton çıkarımı",
-    desc: "1 hafta - mevcut hesaplarınızı, rakipleri, sektör benchmarklarını ve marka değerlerinizi analiz ederiz. Tone of voice, görsel dil ve içerik pillarları netleşir."
-  },
-  {
-    step: "02",
-    title: "Aylık strateji ve içerik takvimi",
-    desc: "1 hafta - 90 günlük büyüme hedefi, kanal-bazlı yaklaşım, tema haritası ve ilk ayın 30 günlük içerik takvimi hazırlanır. Onay için tarafınıza sunulur."
-  },
-  {
-    step: "03",
-    title: "İçerik üretim ve onay",
-    desc: "Sürekli - çekim + tasarım + video üretim + copy. Her ayın 25'inde bir sonraki ayın tüm içerikleri onay panelinde hazır olur. 48 saatte revize + onay."
-  },
-  {
-    step: "04",
-    title: "Yayın ve etkileşim",
-    desc: "Günlük - içerikler optimum saatlerde yayınlanır, DM ve yorumlar 2 saat içinde yanıtlanır. Sıcak lead'ler size WhatsApp/CRM üzerinden aktarılır."
-  },
-  {
-    step: "05",
-    title: "Aylık rapor ve iyileştirme",
-    desc: "Ay sonu - 8 metrikli detaylı rapor + 60 dakikalık strateji toplantısı. Ne çalıştı, ne çalışmadı; bir sonraki ayın takvimi bu veriye göre revize edilir."
-  }
-];
-
 const aiAdvantages = [
   {
     icon: Sparkles,
@@ -272,7 +244,7 @@ const aiAdvantages = [
   {
     icon: Bot,
     title: "Hashtag optimizasyonu AI ile",
-    desc: "Her içerik için hedef kitle-sektör-lokasyon üçlüsüne göre AI ile 20-30 hashtag üretimi + rekabet analizi. Yüksek hacim + düşük rekabet kombinasyonu otomatik yakalanır. Manuel yöntemden 6 kat hızlı."
+    desc: "Her içerik için hedef kitle-sektör-lokasyon üçlüsüne göre AI ile 20-30 hashtag üretimi + rekabet analizi. Yüksek hacim + düşük rekabet kombinasyonu otomatik yakalanır. Manuel taramaya göre çok daha hızlı."
   },
   {
     icon: TrendingUp,
@@ -438,7 +410,7 @@ const faqs = [
   },
   {
     q: "Reklam bütçesi hizmet ücretine dahil mi?",
-    a: "Hayır, reklam bütçesi ayrıdır. Meta Ads ve TikTok Ads'e ödenen reklam harcaması doğrudan reklam platformuna gider; ajans yönetim ücreti aylık pakete dahildir. Büyüme paketinde aylık 50.000 TL'ye kadar reklam bütçesi yönetimi sabit ücretle, üzerinde harcamanın %15-20'si modelinde çalışıyoruz. Ortalama ROAS'ımız 2.8x - yani 1 TL reklam harcamasına ortalama 2.80 TL geri dönüş üretiyoruz. Detaylı reklam yönetimi için /meta-reklam-ajansi sayfamızı inceleyin."
+    a: "Hayır, reklam bütçesi ayrıdır. Meta Ads ve TikTok Ads'e ödenen reklam harcaması doğrudan reklam platformuna gider; ajans yönetim ücreti aylık pakete dahildir. Büyüme paketinde aylık 50.000 TL'ye kadar reklam bütçesi yönetimi sabit ücretle, üzerinde harcamanın %15-20'si modelinde çalışıyoruz. Kampanyalar ROAS odaklı optimize edilir; hedefimiz her zaman pozitif geri dönüştür. Detaylı reklam yönetimi için /meta-reklam-ajansi sayfamızı inceleyin."
   },
   {
     q: "İçerik onayı nasıl işliyor?",
@@ -446,7 +418,7 @@ const faqs = [
   },
   {
     q: "Takipçi ve etkileşim garantisi veriyor musunuz?",
-    a: "İlk 90 günde minimum organik erişim, etkileşim ve takipçi hedeflerini sözleşmeye yazıyoruz - hangi kanalda hangi rakam olacağı net. Bu hedefler tutmazsa o ay ücretsizdir. Sahte takipçi veya botla büyütme yapmıyoruz çünkü uzun vadede algoritma cezalandırır ve gerçek etkileşim çöker. Ortalama müşteri sonucumuz 90 günde 2.5x-3.5x erişim artışı, %35-60 etkileşim artışı, %25-40 takipçi büyümesidir. Bu rakamlar sözde değil, önceki müşteri verilerimizden çıkarılmıştır."
+    a: "İlk 90 günde minimum organik erişim, etkileşim ve takipçi hedeflerini sözleşmeye yazıyoruz - hangi kanalda hangi rakam olacağı net. Bu hedefler tutmazsa o ay ücretsizdir. Sahte takipçi veya botla büyütme yapmıyoruz çünkü uzun vadede algoritma cezalandırır ve gerçek etkileşim çöker. Hedef rakamlar sektörünüze, mevcut hesap büyüklüğünüze ve içerik hacmine göre keşif görüşmesinde birlikte belirlenir; sözde vaat değil, sözleşmeye yazılı taahhüttür."
   },
   {
     q: "Sözleşmeyi iptal etmek istersem ne olur?",
@@ -454,7 +426,7 @@ const faqs = [
   },
   {
     q: "Kriz anında 7/24 destek veriyor musunuz?",
-    a: "Büyüme ve Kurumsal paketlerde 7/24 kriz hattı dahildir. Olumsuz yorum patlaması, marka itibarı riski veya PR krizinde 2 saat içinde aksiyon alıyoruz. Kurumsal paketimizde adanmış hesap yöneticisi 09:00-22:00 arası WhatsApp'tan direkt erişilebilir; hafta sonları rotasyonel destek aktiftir. Başlangıç paketinde kriz desteği 09:00-18:00 mesai içidir. Kriz yönetiminde ilk 2 saatte gelen aksiyon durumu %70 kontrol altına alıyor - bekleyen marka kriz büyütür."
+    a: "Büyüme ve Kurumsal paketlerde 7/24 kriz hattı dahildir. Olumsuz yorum patlaması, marka itibarı riski veya PR krizinde 2 saat içinde aksiyon alıyoruz. Kurumsal paketimizde adanmış hesap yöneticisi 09:00-22:00 arası WhatsApp'tan direkt erişilebilir; hafta sonları rotasyonel destek aktiftir. Başlangıç paketinde kriz desteği 09:00-18:00 mesai içidir. Kriz yönetiminde ilk 2 saat kritiktir - bekleyen marka krizi büyütür."
   }
 ];
 
@@ -646,36 +618,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 5. SÜREÇ */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Çalışma süreci
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Marka analizinden aylık rapora - 5 adım
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose leading-relaxed">
-                Sosyal medya yönetimi başlarken en büyük risk, hedefsiz post atmaktır. PORTZEN'de ilk iki hafta analiz + strateji, sonraki haftalar üretim + yayın + community. Her ay sonunda rapor + revize ile döngü tamamlanır ve gelecek ayın stratejisi verilerle şekillenir.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
-            {process.map((p, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-ink bg-paper p-6 shadow-brutal h-full">
-                  <div className="font-display text-5xl font-black text-brand-pink mb-3">{p.step}</div>
-                  <div className="font-bold text-lg mb-2 text-ink">{p.title}</div>
-                  <div className="text-sm text-ink/70 leading-relaxed">{p.desc}</div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* 6. AI AVANTAJI */}
       <section className="bg-paper py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
@@ -688,7 +630,7 @@ export default function Page() {
                 Neden AI destekli sosyal medya yönetimi daha hızlı?
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose leading-relaxed">
-                Klasik ajans modelinde bir içerik briefi 3-5 gün sürer. PORTZEN'de AI araçları ekip iş akışına entegre olduğu için aynı iş 24 saatte biter, üstelik kalite düşmez. Dört ana AI avantajımız aylık maliyetleri sabit tutarken çıktı hacmini 3-4 katına çıkarıyor.
+                Klasik ajans modelinde bir içerik briefi 3-5 gün sürer. PORTZEN'de AI araçları ekip iş akışına entegre olduğu için aynı iş 24 saatte biter, üstelik kalite düşmez. Dört ana AI avantajımız aylık maliyetleri sabit tutarken çıktı hacmini belirgin şekilde artırıyor.
               </p>
             </div>
           </Reveal>
@@ -778,7 +720,7 @@ export default function Page() {
           </div>
           <Reveal delay={400}>
             <p className="mt-8 text-sm text-ink/60 max-w-2xl">
-              Sektörünüz listede yok mu? Endişe etmeyin - 20+ sektörde aktif çalışıyoruz. Keşif görüşmesinde sektörünüze özel strateji önerisi sunuyoruz.
+              Sektörünüz listede yok mu? Endişe etmeyin, keşif görüşmesinde sektörünüze özel strateji önerisi sunuyoruz.
             </p>
           </Reveal>
         </div>
@@ -866,7 +808,7 @@ export default function Page() {
               >
                 <div className="font-display text-xl font-black mb-2">İstanbul'da misiniz?</div>
                 <p className="text-sm opacity-90 leading-relaxed mb-3">
-                  Avrupa ve Anadolu yakasında 40+ aktif müşteri. Levent, Maslak, Kadıköy, Ataşehir için haftalık yerinde çekim ekibi.
+                  Avrupa ve Anadolu yakasındaki markalarla çalışıyoruz. Levent, Maslak, Kadıköy, Ataşehir için haftalık yerinde çekim ekibi.
                 </p>
                 <span className="inline-flex items-center gap-1 text-xs font-bold uppercase">
                   İstanbul sayfası <ArrowUpRight className="h-3.5 w-3.5" />

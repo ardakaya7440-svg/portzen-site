@@ -114,28 +114,6 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="bg-ink text-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-10">
-              <div className="inline-block border-3 border-paper bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-3 shadow-[6px_6px_0_#FFFDF5]">Nasıl çalışıyoruz</div>
-              <h2 className="font-display text-h2 font-black leading-tight">Brief'ten teslime — 4 adım</h2>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {svc.process.map((p, i) => (
-              <Reveal key={p.step} delay={i * 80}>
-                <div className="border-3 border-paper bg-ink p-5 shadow-[8px_8px_0_#FFFDF5]">
-                  <div className="font-display text-4xl font-black text-brand-yellow mb-2">{p.step}</div>
-                  <div className="font-bold text-base mb-1">{p.title}</div>
-                  <div className="text-sm opacity-75">{p.description}</div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="bg-paper py-section">
         <div className="mx-auto max-w-container px-6 max-w-3xl">
           <Reveal>

@@ -92,7 +92,7 @@ const faqSchema = {
       name: "Yüzümüzü kameraya göstermek zorunda mıyız?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hayır. Faceless (yüzsüz) formatlar için ürün detay, üstten çekim, ekran kaydı, animasyon, sesli anlatım, altyazı odaklı içerik gibi 20+ format kütüphanemiz var. Yüz göstermek istemeyen markalar için özel bir alt paket sunuyoruz. Yine de yüz gösteren markalar ortalama 2 kat daha yüksek engagement alıyor; kararı size bırakıyoruz."
+        text: "Hayır. Faceless (yüzsüz) formatlar için ürün detay, üstten çekim, ekran kaydı, animasyon, sesli anlatım, altyazı odaklı içerik gibi 20+ format kütüphanemiz var. Yüz göstermek istemeyen markalar için özel bir alt paket sunuyoruz. Yine de yüz gösteren içerikler genelde daha yüksek engagement alıyor; kararı size bırakıyoruz."
       }
     },
     {
@@ -155,8 +155,8 @@ const breadcrumbSchema = {
 const stats = [
   { metric: "8-40", label: "Aylık kısa video üretimi" },
   { metric: "3sn", label: "Hook penceresi optimizasyonu" },
-  { metric: "6+", label: "Kanıtlanmış format kütüphanesi" },
-  { metric: "%12", label: "Ortalama engagement rate" }
+  { metric: "6+", label: "Format kütüphanesi (haftalık rotasyon)" },
+  { metric: "%12", label: "Engagement rate (Bornova kafe vakası)" }
 ];
 
 const problems = [
@@ -178,12 +178,12 @@ const problems = [
   {
     icon: MessageCircle,
     title: "Caption satmıyor, sadece açıklama yapıyor",
-    desc: "Caption yerine 3-4 kelimelik jenerik başlık atıyorsunuz. Oysa Reels ve TikTok'ta caption ikinci bir hook. Sorulu, iddialı veya listeleyen caption'lar yorum sayısını 3 kata çıkarıyor. Yorum sinyali algoritma için en güçlü sinyallerden biri."
+    desc: "Caption yerine 3-4 kelimelik jenerik başlık atıyorsunuz. Oysa Reels ve TikTok'ta caption ikinci bir hook. Sorulu, iddialı veya listeleyen caption'lar yorum sayısını belirgin şekilde artırıyor. Yorum sinyali algoritma için en güçlü sinyallerden biri."
   },
   {
     icon: TrendingUp,
     title: "Yayın saati sektörünüze uygun değil",
-    desc: "Herkesin yayınladığı saatte siz de yayınlıyorsunuz, öne çıkamıyorsunuz. Ya da hesabınızın gerçek takipçi aktif olduğu saatlerde değil, sizin uygun olduğunuz saatte paylaşıyorsunuz. Doğru zamanlama, aynı içeriğin izlenimini 5 katına çıkarabiliyor."
+    desc: "Herkesin yayınladığı saatte siz de yayınlıyorsunuz, öne çıkamıyorsunuz. Ya da hesabınızın gerçek takipçi aktif olduğu saatlerde değil, sizin uygun olduğunuz saatte paylaşıyorsunuz. Doğru zamanlama, aynı içeriğin erişimini ciddi biçimde artırabiliyor."
   }
 ];
 
@@ -216,7 +216,7 @@ const viralFormula = [
     icon: Music,
     step: "05",
     name: "Sound katmanı",
-    desc: "Haftalık trend takibi: hangi ses son 7 günde 100 bin+ kullanım almış, hangisi düşüşe geçmiş takip ediyoruz. Trend sesi videonun beat'ine göre kesiyoruz. Ses hem algoritma sinyali hem de duygu tetikleyicisi. Aynı görsel, doğru ses ile 5 kat daha çok paylaşılıyor."
+    desc: "Haftalık trend takibi: hangi ses son 7 günde 100 bin+ kullanım almış, hangisi düşüşe geçmiş takip ediyoruz. Trend sesi videonun beat'ine göre kesiyoruz. Ses hem algoritma sinyali hem de duygu tetikleyicisi. Aynı görsel, doğru ses ile çok daha fazla paylaşılıyor."
   }
 ];
 
@@ -253,44 +253,11 @@ const formats = [
   }
 ];
 
-const processSteps = [
-  {
-    step: "01",
-    title: "Marka + tone brief",
-    duration: "2-4 saat",
-    desc: "30 dakikalık keşif görüşmesi, marka rehberi, ton örnekleri, rakip analizi. Hangi 3 formatın markanız için birinci öncelik olacağına birlikte karar veriyoruz. Bu adımda hedef kitle personası ve içerik pillar'ları da çıkıyor."
-  },
-  {
-    step: "02",
-    title: "Konsept + storyboard (haftalık)",
-    duration: "1 gün",
-    desc: "Her hafta 4-10 videonun hook'u, orta bölümü, sonu ve caption'ı Notion üzerinden sunuluyor. Onay verirsiniz ya da revizyon talep edersiniz. Onaylı olan storyboard'lar üretime gider. Böylece hiçbir video sürpriz olmaz."
-  },
-  {
-    step: "03",
-    title: "Çekim + AI üretim",
-    duration: "2-3 gün",
-    desc: "Ayda 1 saha çekim günü artı gönderdiğiniz kısa telefon çekimleri. Higgsfield Marketing Studio, Kling 3.0 ve Seedance 2.0 ile AI destekli sahneler eklenir. Karışım hem doğallığı hem üretim hızını korur."
-  },
-  {
-    step: "04",
-    title: "Edit + captions + hashtag",
-    duration: "1-2 gün",
-    desc: "1.5-2 saniyede bir kesim ritmi, senkron altyazı, marka renginde metin animasyonu, trending sound katmanı, engagement odaklı caption ve 8-15 hashtag stratejisi. Her video 3 formatta (9:16, 1:1, 16:9) render edilir."
-  },
-  {
-    step: "05",
-    title: "Yayın + analiz",
-    duration: "Sürekli",
-    desc: "Meta Business Suite ve TikTok Scheduler ile önceden programlanmış yayın. Haftalık rapor: izlenim, izlenme yüzdesi, engagement, follow-through, satış tıklaması. Rapor bulguları ile bir sonraki haftanın konseptleri optimize edilir."
-  }
-];
-
 const aiSupport = [
   {
     icon: Sparkles,
     title: "Script AI ile ilk taslak",
-    desc: "Her hook için Claude ve GPT ile 8-12 varyant üretiyoruz. En güçlü olanı seçip insan editörle rafine ediyoruz. Bu, haftalık üretimi 4 katına çıkarıyor, kalite düşmüyor."
+    desc: "Her hook için Claude ve GPT ile 8-12 varyant üretiyoruz. En güçlü olanı seçip insan editörle rafine ediyoruz. Bu, haftalık üretimi ciddi biçimde hızlandırıyor, kalite düşmüyor."
   },
   {
     icon: Music,
@@ -442,11 +409,11 @@ const comparison = [
 const faqs = [
   {
     q: "Sosyal medya viral video üretiminde viral olma garantisi veriyor musunuz?",
-    a: "Tek bir video için mutlak viral garantisi kimse veremez; algoritma, saat, dış gündem ve rakip içerikler etkilidir. Ama Kurumsal pakette 90 gün içinde en az 1 videonun 250 bin izlenimi geçmesini taahhüt ediyoruz, aksi halde bir sonraki ay ücretsiz. Başlangıç ve Büyüme paketlerinde ise viral olasılığı yükseltmek için hook, edit, sound ve yayın saatinde kanıtlanmış formülleri uyguluyoruz. 90 günlük veri ortalamasında müşterilerimizin %62'si en az 1 kez 100 bin izlenimi geçmiştir."
+    a: "Tek bir video için mutlak viral garantisi kimse veremez; algoritma, saat, dış gündem ve rakip içerikler etkilidir. Ama Kurumsal pakette 90 gün içinde en az 1 videonun 250 bin izlenimi geçmesini taahhüt ediyoruz, aksi halde bir sonraki ay ücretsiz. Başlangıç ve Büyüme paketlerinde ise viral olasılığı yükseltmek için hook, edit, sound ve yayın saatinde aynı formül disiplinini uyguluyor, sonuçları haftalık raporda şeffaf paylaşıyoruz."
   },
   {
     q: "Yüzümüzü kameraya göstermek zorunda mıyız?",
-    a: "Hayır. Faceless (yüzsüz) formatlar için ürün detay, üstten çekim, ekran kaydı, animasyon, sesli anlatım, altyazı odaklı içerik gibi 20+ format kütüphanemiz var. Yüz göstermek istemeyen markalar için özel bir alt paket sunuyoruz. Yine de yüz gösteren markalar ortalama 2 kat daha yüksek engagement alıyor; kararı size bırakıyoruz. Yüz göstermek istemeyen sahipler için 'AI avatar üzerinden anlatım' opsiyonu da mevcut."
+    a: "Hayır. Faceless (yüzsüz) formatlar için ürün detay, üstten çekim, ekran kaydı, animasyon, sesli anlatım, altyazı odaklı içerik gibi 20+ format kütüphanemiz var. Yüz göstermek istemeyen markalar için özel bir alt paket sunuyoruz. Yine de yüz gösteren içerikler genelde daha yüksek engagement alıyor; kararı size bırakıyoruz. Yüz göstermek istemeyen sahipler için 'AI avatar üzerinden anlatım' opsiyonu da mevcut."
   },
   {
     q: "Videolar yapay zeka ile mi üretiliyor, gerçek çekim mi yapıyorsunuz?",
@@ -565,7 +532,7 @@ export default function Page() {
                 Neden hala viral olamıyorsunuz?
               </h2>
               <p className="mt-4 text-body opacity-85 max-w-prose">
-                İyi bir ürününüz, doğru bir hedef kitleniz ve düzenli içeriğiniz var ama Reels ve TikTok videolarınız 500-2.000 izlenimde takılıyor. Sebep kalite değil, algoritmanın beklediği 5 sinyali karşılamamanız. Aşağıda en sık gördüğümüz 5 problem var. Bu 5 nokta düzeltildiğinde ortalama izlenimler 8-20 kat artıyor.
+                İyi bir ürününüz, doğru bir hedef kitleniz ve düzenli içeriğiniz var ama Reels ve TikTok videolarınız 500-2.000 izlenimde takılıyor. Sebep kalite değil, algoritmanın beklediği 5 sinyali karşılamamanız. Aşağıda en sık gördüğümüz 5 problem var. Bu 5 nokta düzeltildiğinde algoritmanın videoyu geniş kitleye dağıtma şansı belirgin şekilde artıyor.
               </p>
             </div>
           </Reveal>
@@ -606,7 +573,7 @@ export default function Page() {
                 PORTZEN viral video formülü: 5 element
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Viral olma tesadüf değildir; ölçülebilir bir formüle dayanır. Her elementin görevi net, süresi net, ölçüm sinyali net. Aşağıda 5 elementli formülümüzü açıklıyoruz. Bu formül 12 sektörde 200+ video üzerinde test edilmiş bir çerçevedir.
+                Viral olma tesadüf değildir; ölçülebilir bir formüle dayanır. Her elementin görevi net, süresi net, ölçüm sinyali net. Aşağıda 5 elementli formülümüzü açıklıyoruz. Bu formül her videoda storyboard aşamasından itibaren uygulanan, sinyalleri tanımlı bir çerçevedir.
               </p>
             </div>
           </Reveal>
@@ -682,37 +649,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 5. PROCESS */}
-      <section className="bg-ink text-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-3xl">
-              <div className="inline-block border-3 border-paper bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Çalışma süreci
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight">
-                Brief'ten yayına: 5 adımda viral üretim
-              </h2>
-              <p className="mt-4 text-body opacity-85 max-w-prose">
-                Aylık paket akışında sabit bir haftalık ritim var. Her hafta storyboard onayı, üretim, edit ve yayın döngüsü tekrarlanıyor. Notion üzerinden tüm süreç şeffaftır; siz onay verirsiniz ve süreç ilerler.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
-            {processSteps.map((s, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-ink p-6 shadow-[8px_8px_0_#FFFDF5] h-full">
-                  <div className="font-display text-5xl font-black text-brand-yellow mb-3">{s.step}</div>
-                  <div className="font-bold text-base mb-1">{s.title}</div>
-                  <div className="text-xs font-bold uppercase text-brand-pink mb-2">{s.duration}</div>
-                  <div className="text-sm opacity-75 leading-relaxed">{s.desc}</div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* 6. AI SUPPORT */}
       <section className="bg-paper py-section">
         <div className="mx-auto max-w-container px-6">
@@ -725,7 +661,7 @@ export default function Page() {
                 Yapay zeka viral formülü hızlandırır
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Viral video üretimi sadece kreatif değil, veri işidir. Trend takibi, rakip analizi, hook varyantı ve yayın saati; AI destekli araçlar olmadan haftalık ölçekte sürdürülemez. PORTZEN'in AI katmanı üretim hızını 4 katına çıkarıyor, ölçüm doğruluğunu %92 seviyesine taşıyor. Detaylı üretim tarafını <Link href="/yapay-zeka-video-uretimi" className="underline font-bold">yapay zeka video üretimi</Link> sayfasında görebilirsiniz.
+                Viral video üretimi sadece kreatif değil, veri işidir. Trend takibi, rakip analizi, hook varyantı ve yayın saati; AI destekli araçlar olmadan haftalık ölçekte sürdürülemez. PORTZEN'in AI katmanı üretim hızını artırıyor, ölçümü tahmine değil veriye dayandırıyor. Detaylı üretim tarafını <Link href="/yapay-zeka-video-uretimi" className="underline font-bold">yapay zeka video üretimi</Link> sayfasında görebilirsiniz.
               </p>
             </div>
           </Reveal>

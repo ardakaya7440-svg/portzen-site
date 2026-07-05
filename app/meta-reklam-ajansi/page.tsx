@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Meta Reklam Ajansı | Facebook + Instagram Reklam Yönetimi",
     description:
-      "PORTZEN, KOBİ'ler için Meta reklamlarını ROAS odaklı yönetir. AI ile günde 50+ kreatif test, şeffaf haftalık raporlama."
+      "PORTZEN, KOBİ'ler için Meta reklamlarını ROAS odaklı yönetir. Haftalık 8-12 kreatif varyant testi, şeffaf haftalık raporlama."
   },
   alternates: { canonical: "https://portzenai.com/meta-reklam-ajansi" },
   robots: { index: true, follow: true }
@@ -108,7 +108,7 @@ const faqSchema = {
       name: "ROAS nedir ve sizden ne kadar ROAS bekleyebilirim?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ROAS (Return on Ad Spend), her 1 TL reklam harcamasından kaç TL ciro döndüğünüzü gösterir. PORTZEN'in e-ticaret müşterilerinde ortalama 3.5x ROAS hedefliyoruz, hizmet sektöründe lead başına maliyet (CPA) odaklı çalışıyoruz. İlk ay sektör ortalaması, ikinci aydan itibaren yüzde 20-40 üzerinde performans hedefliyoruz."
+        text: "ROAS (Return on Ad Spend), her 1 TL reklam harcamasından kaç TL ciro döndüğünüzü gösterir. E-ticaret projelerinde 3.5x ROAS hedefliyoruz, hizmet sektöründe lead başına maliyet (CPA) odaklı çalışıyoruz. İlk ay sektör ortalaması, ikinci aydan itibaren yüzde 20-40 üzerinde performans hedefliyoruz."
       }
     },
     {
@@ -140,7 +140,7 @@ const faqSchema = {
       name: "Hangi sektörlere Meta reklamı yönetiyorsunuz?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "E-ticaret, hizmet sektörü ve yerel işletmelerde yoğunlaşıyoruz. Eczane, estetik klinik, emlak ofisi, restoran, butik mağaza, oto servis, hukuk bürosu, online eğitim ve B2B SaaS firmaları için aktif yönetimimiz var. Tüm Türkiye'ye uzaktan hizmet veriyoruz, İzmir merkezli operasyon yürütüyoruz."
+        text: "E-ticaret, hizmet sektörü ve yerel işletmelerde yoğunlaşıyoruz. Eczane, estetik klinik, emlak ofisi, restoran, butik mağaza, oto servis, hukuk bürosu, online eğitim ve B2B SaaS firmaları odaklandığımız sektörler arasında. Tüm Türkiye'ye uzaktan hizmet veriyoruz, İzmir merkezli operasyon yürütüyoruz."
       }
     }
   ]
@@ -161,17 +161,17 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "3.5x", label: "Ortalama ROAS (e-ticaret)" },
-  { metric: "50+", label: "Günlük AI kreatif testi" },
-  { metric: "%18", label: "Ortalama CTR artışı" },
+  { metric: "3.5x", label: "E-ticaret ROAS hedefi" },
+  { metric: "8-12", label: "Haftalık kreatif varyant testi" },
+  { metric: "%0", label: "Reklam bütçesinden komisyon" },
   { metric: "14 gün", label: "Setup + ilk lansman" }
 ];
 
 const whyPortzen = [
   {
     icon: Sparkles,
-    title: "AI ile günde 50+ kreatif test",
-    desc: "Klasik ajanslar haftada 3-5 kreatif üretir. PORTZEN AI destekli üretim hattıyla günde 50'ye varan varyasyon test eder, kazanan kreatifi 48 saatte bulur."
+    title: "Haftalık 8-12 kreatif varyant testi",
+    desc: "AI destekli üretim hattıyla statik görsel, video ve Reels formatlarında haftada 8-12 varyasyon test eder, kazanan kreatifi hızla ölçekleriz."
   },
   {
     icon: TrendingUp,
@@ -231,14 +231,6 @@ const scope = [
     title: "WhatsApp Business entegrasyonu",
     desc: "Click-to-WhatsApp Ads ile reklamdan direkt WhatsApp konuşmasına gelen lead toplama. Hizmet sektörü için en yüksek dönüşümlü Meta reklam formatı."
   }
-];
-
-const process = [
-  { step: "01", title: "Audit", desc: "5-7 gün - mevcut hesap, Pixel kurulumu, geçmiş kampanya analizi." },
-  { step: "02", title: "Strateji", desc: "3-5 gün - funnel haritası, hedef kitle planı, kreatif konsept onayı." },
-  { step: "03", title: "Setup", desc: "5-7 gün - Pixel + CAPI, Domain Verification, kampanya yapısı kurulumu." },
-  { step: "04", title: "Optimize", desc: "30-45 gün - algoritma öğrenmesi, haftalık A/B test, kreatif rotasyon." },
-  { step: "05", title: "Ölçek", desc: "Sürekli - kazanan kreatifleri büyüt, yeni audience aç, bütçe artır." }
 ];
 
 const adTypes = [
@@ -330,7 +322,7 @@ const packages = [
     color: "bg-paper",
     features: [
       "Çoklu ürün/marka/şube yönetimi",
-      "Günlük 20+ kreatif testi",
+      "Haftada 20+ kreatif testi",
       "Adanmış kreatif ekibi",
       "Adanmış strateji yöneticisi",
       "SLA + öncelikli destek",
@@ -347,11 +339,11 @@ const faqs = [
   },
   {
     q: "Facebook ve Instagram reklamları kaç günde sonuç verir?",
-    a: "İlk veriler 7-10 gün içinde gelir. Ancak Meta algoritmasının öğrenme aşamasını (Learning Phase) tamamlaması ortalama 14-21 gün sürer; bu sürede sonuçlar dalgalı olabilir. ROAS optimizasyonunda gerçek istikrar genellikle 30-45 gün sonra netleşir. Bu sürede haftalık optimizasyon yapılır, düşük performanslı kreatifler değiştirilir, kazanan audience'lar ölçeklenir. Müşterilerimizin yaklaşık yüzde 70'i 60. günde ilk hedeflenen ROAS'a ulaşır."
+    a: "İlk veriler 7-10 gün içinde gelir. Ancak Meta algoritmasının öğrenme aşamasını (Learning Phase) tamamlaması ortalama 14-21 gün sürer; bu sürede sonuçlar dalgalı olabilir. ROAS optimizasyonunda gerçek istikrar genellikle 30-45 gün sonra netleşir. Bu sürede haftalık optimizasyon yapılır, düşük performanslı kreatifler değiştirilir, kazanan audience'lar ölçeklenir. Hedefimiz, 60. günde audit sonrası belirlenen ROAS seviyesine ulaşmaktır."
   },
   {
     q: "ROAS nedir ve sizden ne kadar ROAS bekleyebilirim?",
-    a: "ROAS (Return on Ad Spend), her 1 TL reklam harcamasından kaç TL ciro döndüğünüzü gösterir. Örnek: 10.000 TL harcayıp 35.000 TL satış yaptıysanız ROAS 3.5x'tir. PORTZEN'in e-ticaret müşterilerinde ortalama 3.5x ROAS hedefliyoruz; ürün marjı yüksek nişlerde 5x'in üstüne çıktığımız oluyor. Hizmet sektöründe CPA (lead başına maliyet) odaklı çalışıyoruz, sektörünüze göre net hedef ilk audit sonrası verilir. Hiçbir zaman 'garanti ROAS' vaadi yapmıyoruz çünkü sektör, marj ve ürün-pazar uyumu sonucu birinci derece etkiler."
+    a: "ROAS (Return on Ad Spend), her 1 TL reklam harcamasından kaç TL ciro döndüğünüzü gösterir. Örnek: 10.000 TL harcayıp 35.000 TL satış yaptıysanız ROAS 3.5x'tir. E-ticaret projelerinde 3.5x ROAS hedefliyoruz; ürün marjı yüksek nişlerde hedef 5x'in üstüne çıkabilir. Hizmet sektöründe CPA (lead başına maliyet) odaklı çalışıyoruz, sektörünüze göre net hedef ilk audit sonrası verilir. Hiçbir zaman 'garanti ROAS' vaadi yapmıyoruz çünkü sektör, marj ve ürün-pazar uyumu sonucu birinci derece etkiler."
   },
   {
     q: "Reklam kreatiflerini ben mi hazırlıyorum, ajans mı?",
@@ -367,7 +359,7 @@ const faqs = [
   },
   {
     q: "Hangi sektörlere Meta reklamı yönetiyorsunuz?",
-    a: "E-ticaret, hizmet sektörü ve yerel işletmelerde yoğunlaşıyoruz. Eczane, estetik klinik, emlak ofisi, restoran, butik mağaza, oto servis, hukuk bürosu, online eğitim ve B2B SaaS firmaları için aktif yönetimimiz var. Tüm Türkiye'ye uzaktan hizmet veriyoruz, İzmir merkezli operasyon yürütüyoruz. İzmir, İstanbul ve Ankara için yerinde brief toplantısı da planlayabiliriz."
+    a: "E-ticaret, hizmet sektörü ve yerel işletmelerde yoğunlaşıyoruz. Eczane, estetik klinik, emlak ofisi, restoran, butik mağaza, oto servis, hukuk bürosu, online eğitim ve B2B SaaS firmaları odaklandığımız sektörler arasında. Tüm Türkiye'ye uzaktan hizmet veriyoruz, İzmir merkezli operasyon yürütüyoruz. İzmir, İstanbul ve Ankara için yerinde brief toplantısı da planlayabiliriz."
   }
 ];
 
@@ -404,7 +396,7 @@ export default function Page() {
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Meta reklam ajansı arıyorsanız PORTZEN doğru adres. Facebook ve Instagram reklamlarınızı ROAS (Return on Ad Spend) odaklı yönetir, AI ile günde 50+ kreatif test ederiz. KOBİ'ler ve markalar için 14 günde lansman, şeffaf haftalık raporlama, Pixel + Conversions API tam teknik kurulum dahil.
+                  Meta reklam ajansı arıyorsanız PORTZEN doğru adres. Facebook ve Instagram reklamlarınızı ROAS (Return on Ad Spend) odaklı yönetir, AI ile haftada 8-12 kreatif varyant test ederiz. KOBİ'ler ve markalar için 14 günde lansman, şeffaf haftalık raporlama, Pixel + Conversions API tam teknik kurulum dahil.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -494,7 +486,7 @@ export default function Page() {
           <Reveal delay={300}>
             <div className="mt-10 border-3 border-paper bg-paper/5 p-6 shadow-[6px_6px_0_#FFFDF5]">
               <p className="text-body opacity-90 leading-relaxed max-w-4xl">
-                Google Ads ile Meta Ads kıyaslamasını derinlemesine merak ediyorsanız <Link href="/blog/instagram-reklam-vs-google-ads-kobi" className="text-brand-yellow font-bold underline underline-offset-4 hover:no-underline">Instagram Reklam vs Google Ads - KOBİ için hangisi</Link> blog yazımızı okumanızı öneririz. Kararsız KOBİ'lerin yüzde 80'i için ilk yatırım Meta ile başlamalı.
+                Google Ads ile Meta Ads kıyaslamasını derinlemesine merak ediyorsanız <Link href="/blog/instagram-reklam-vs-google-ads-kobi" className="text-brand-yellow font-bold underline underline-offset-4 hover:no-underline">Instagram Reklam vs Google Ads - KOBİ için hangisi</Link> blog yazımızı okumanızı öneririz. Kararsız KOBİ'lerin çoğu için ilk yatırım Meta ile başlamalı.
               </p>
             </div>
           </Reveal>
@@ -574,36 +566,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 5. SÜREÇ */}
-      <section className="bg-ink text-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Çalışma süreci
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight">
-                Audit'ten ölçeklenme'ye 5 adımlı yol haritası
-              </h2>
-              <p className="mt-4 text-body opacity-80 max-w-prose">
-                Her adımın net çıktısı, sorumlu kişi ve zaman çizelgesi var. Surpriz yok, geç teslim yok.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
-            {process.map((t, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-ink p-5 shadow-[8px_8px_0_#FFFDF5] h-full">
-                  <div className="font-display text-4xl font-black text-brand-yellow mb-3">{t.step}</div>
-                  <div className="font-bold text-base mb-2">{t.title}</div>
-                  <div className="text-xs opacity-75 leading-relaxed">{t.desc}</div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* 6. REKLAM TÜRLERİ */}
       <section className="bg-paper py-section">
         <div className="mx-auto max-w-container px-6">
@@ -667,7 +629,7 @@ export default function Page() {
                 Meta reklam ajansı olarak çalıştığımız sektörler
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Her sektörün audience tanımı, CPA hedefi ve kreatif dili farklı. PORTZEN bu sektörlerde kapsamlı operasyon yürütüyor.
+                Her sektörün audience tanımı, CPA hedefi ve kreatif dili farklı. PORTZEN'in odağı bu sektörler.
               </p>
             </div>
           </Reveal>

@@ -6,16 +6,12 @@ import {
   Clock3,
   MessageSquare,
   Heart,
-  Users,
   Filter,
   Calendar,
-  BarChart3,
   Hash,
-  Tag,
   ShieldCheck,
   Building2,
-  CheckCircle2,
-  Sparkles
+  CheckCircle2
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
@@ -47,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Instagram DM Otomasyonu | 60 Saniyede Yanıt",
     description:
-      "PORTZEN, markalar için Instagram DM otomasyonu kurar. Dönüşüm %2x, manuel iş %75 azalır."
+      "PORTZEN, markalar için Instagram DM otomasyonu kurar. 60 saniyede yanıt, 7 günde kurulum, 7/24 aktif."
   },
   alternates: { canonical: "https://portzenai.com/instagram-dm-otomasyonu" },
   robots: { index: true, follow: true }
@@ -117,7 +113,7 @@ const faqSchema = {
       name: "WhatsApp asistanımla birlikte çalışır mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet, çoğu müşterimiz Instagram DM + WhatsApp asistanını birlikte kuruyor. Aynı bilgi tabanı, aynı ton — sadece kanal farklı. Müşteri her yerden tutarlı yanıt alır."
+        text: "Evet, iki kanalı birlikte kurmanızı öneriyoruz. Aynı bilgi tabanı, aynı ton — sadece kanal farklı. Müşteri her yerden tutarlı yanıt alır."
       }
     },
     {
@@ -155,8 +151,8 @@ const breadcrumbSchema = {
 
 const stats = [
   { metric: "60 sn", label: "DM'ye ilk yanıt" },
-  { metric: "%2x", label: "DM dönüşüm oranı" },
-  { metric: "%75", label: "Manuel iş azalması" },
+  { metric: "2.3x", label: "Butik vakasında sipariş artışı" },
+  { metric: "7/24", label: "DM, hikaye, yorum: hepsi otomatik" },
   { metric: "7 gün", label: "Standart kurulum" }
 ];
 
@@ -166,29 +162,6 @@ const problems = [
   "Aynı 'fiyat ne kadar, randevu var mı, kargo dahil mi' sorularını günde 50 kere yanıtlamak ekibinizi tüketiyor.",
   "Reklam bütçesi DM'lere harcandı ama kimse cevap atmadığı için müşteri kaçtı — para boşa gitti.",
   "Sosyal medya sorumlusu izne çıktığında DM kutusu tamamen sahipsiz, bir hafta sonra 300+ okunmamış mesaj."
-];
-
-const solutionSteps = [
-  {
-    icon: Instagram,
-    title: "Hesap analizi",
-    description: "Mevcut DM trafiğinizi, sık sorulan soruları, kayıp müşteri sebeplerini birlikte çıkarırız."
-  },
-  {
-    icon: MessageSquare,
-    title: "Senaryo yazımı",
-    description: "Markanızın tonunda DM, hikaye yanıtı ve yorum akışlarını yazarız."
-  },
-  {
-    icon: Sparkles,
-    title: "Bot eğitimi",
-    description: "AI asistanı ürün/hizmet kataloğunuzla eğitir, test eder, hatalı yanıtları temizleriz."
-  },
-  {
-    icon: BarChart3,
-    title: "Optimizasyon",
-    description: "Haftalık rapor — hangi senaryo iyi çalışıyor, hangisi değil, hangisi yeni yazılmalı."
-  }
 ];
 
 const features = [
@@ -222,13 +195,6 @@ const features = [
     title: "Meta onaylı API",
     desc: "Resmi Messenger Platform API. Shadowban veya askıya alma riski yok."
   }
-];
-
-const timeline = [
-  { step: "01", title: "Brief + hesap erişimi", desc: "1 gün — DM analizi, marka tonu, hedef kitle." },
-  { step: "02", title: "Senaryo + bot kurulumu", desc: "3-4 gün — akış yazımı, AI eğitimi, Meta API bağlantı." },
-  { step: "03", title: "Test + canlıya alma", desc: "1 gün — gerçek mesajlarla pilot, ardından go-live." },
-  { step: "04", title: "Haftalık optimizasyon", desc: "Sürekli — performans raporu, yeni akış, A/B testler." }
 ];
 
 const packages = [
@@ -301,7 +267,7 @@ const faqs = [
   },
   {
     q: "WhatsApp asistanımla birlikte çalışır mı?",
-    a: "Evet, ideal kombinasyon. Çoğu müşterimiz Instagram DM + WhatsApp asistanını birlikte kurar. Aynı bilgi tabanı, aynı ton, aynı randevu sistemi — sadece kanal farklı. Müşteri Instagram'dan DM atıp WhatsApp'tan devam ettiğinde aynı yerden takip edersiniz."
+    a: "Evet, ideal kombinasyon. İki kanalı birlikte kurmanızı öneriyoruz. Aynı bilgi tabanı, aynı ton, aynı randevu sistemi — sadece kanal farklı. Müşteri Instagram'dan DM atıp WhatsApp'tan devam ettiğinde aynı yerden takip edersiniz."
   },
   {
     q: "Bot insan gibi mi konuşur?",
@@ -358,7 +324,7 @@ export default function Page() {
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
-                    href="/hizmetler/sosyal-medya"
+                    href="/sosyal-medya-yonetimi"
                     className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
                   >
                     Hizmeti İncele <ArrowUpRight className="h-4 w-4" />
@@ -414,41 +380,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 3. SOLUTION */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Çözüm
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                PORTZEN'in çözümü nasıl çalışır?
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                4 adımda kurulur. Hazır bot şablonu değil — markanızın ses tonuna ve müşteri profiline özel.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {solutionSteps.map((s, i) => {
-              const Icon = s.icon;
-              return (
-                <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-pink text-paper shadow-brutal-sm mb-4">
-                      <Icon className="h-5 w-5" />
-                    </div>
-                    <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
-                    <p className="text-sm text-ink/70 leading-relaxed">{s.description}</p>
-                  </div>
-                </Reveal>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       {/* 4. FEATURES */}
       <section className="bg-paper py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
@@ -475,33 +406,6 @@ export default function Page() {
                 </Reveal>
               );
             })}
-          </div>
-        </div>
-      </section>
-
-      {/* 5. TIMELINE */}
-      <section className="bg-ink text-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Süreç
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight">
-                İlk mesajdan ilk müşteriye — 7 günlük yol haritası
-              </h2>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {timeline.map((t, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-ink p-6 shadow-[8px_8px_0_#FFFDF5]">
-                  <div className="font-display text-5xl font-black text-brand-pink mb-3">{t.step}</div>
-                  <div className="font-bold text-lg mb-2">{t.title}</div>
-                  <div className="text-sm opacity-75 leading-relaxed">{t.desc}</div>
-                </div>
-              </Reveal>
-            ))}
           </div>
         </div>
       </section>

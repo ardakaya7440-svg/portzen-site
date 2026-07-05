@@ -10,13 +10,10 @@ import {
   Gauge,
   ShieldCheck,
   Search,
-  Palette,
   Code2,
-  Rocket,
   ShoppingBag,
   LayoutTemplate,
   Building2,
-  Clock,
   Star,
   TrendingUp,
   Phone,
@@ -75,7 +72,7 @@ const serviceJsonLd = {
     name: "PORTZEN",
     image: "https://portzenai.com/og-image.png",
     url: "https://portzenai.com",
-    telephone: "+90-531-863-91-17",
+    telephone: "+90-501-588-48-53",
     email: "destek@portzenai.com",
     address: { "@type": "PostalAddress", addressLocality: "İzmir", addressCountry: "TR" },
     priceRange: "₺₺",
@@ -114,7 +111,7 @@ const faqJsonLd = {
       name: "Hangi teknolojiyi kullanıyorsunuz, WordPress mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "WordPress kullanmıyoruz. Tüm sitelerimizi Next.js + React ile geliştiriyoruz. Bu sayede sayfa hızı, güvenlik ve SEO performansı WordPress'e kıyasla %3-5 kat daha iyi sonuç veriyor. Lighthouse skorlarımız 90+ üzerinde.",
+        text: "WordPress kullanmıyoruz. Tüm sitelerimizi Next.js + React ile geliştiriyoruz. Eklenti şişmesi olmadığı için site belirgin şekilde daha hızlı ve güvenli çalışıyor. Lighthouse skorlarımız 90 üzerinde.",
       },
     },
     {
@@ -243,20 +240,20 @@ export default function WebTasarimPage() {
             <Reveal delay={350}>
               <div className="grid grid-cols-2 gap-4">
                 <div className="border-3 border-ink bg-brand-pink p-5 shadow-brutal">
-                  <div className="font-display text-5xl font-black text-paper leading-none">50+</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-paper/90">Teslim edilen proje</div>
+                  <div className="font-display text-5xl font-black text-paper leading-none">16x</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-paper/90">Organik trafik artışı (restoran vakası, 3 ay)</div>
                 </div>
                 <div className="border-3 border-ink bg-brand-blue p-5 shadow-brutal">
                   <div className="font-display text-5xl font-black text-paper leading-none">14g</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-paper/90">Ortalama teslim</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-paper/90">Marka sitesi teslim süresi</div>
                 </div>
                 <div className="border-3 border-ink bg-brand-yellow p-5 shadow-brutal">
-                  <div className="font-display text-5xl font-black text-ink leading-none">96</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/85">Ortalama Lighthouse</div>
+                  <div className="font-display text-5xl font-black text-ink leading-none">90+</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/85">Lighthouse skoru, her projede</div>
                 </div>
                 <div className="border-3 border-ink bg-brand-green p-5 shadow-brutal">
-                  <div className="font-display text-5xl font-black text-paper leading-none">2.1x</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-paper/90">Ortalama dönüşüm artışı</div>
+                  <div className="font-display text-5xl font-black text-paper leading-none">0.9sn</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-paper/90">Sayfa yükleme hedefi</div>
                 </div>
               </div>
             </Reveal>
@@ -264,7 +261,103 @@ export default function WebTasarimPage() {
         </div>
       </section>
 
-      {/* 2. PROBLEM */}
+      {/* 2. CANLI ÖRNEK — video showcase */}
+      <section className="bg-paper py-section border-b-3 border-ink">
+        <div className="mx-auto max-w-container px-6">
+          <Reveal>
+            <div className="mb-8 max-w-2xl">
+              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-3 shadow-brutal-sm">
+                Canlı Örnek
+              </div>
+              <h2 className="font-display text-h2 font-black leading-tight text-ink">
+                Yaptığımız iş nasıl görünüyor?
+              </h2>
+              <p className="mt-3 text-body text-ink/70">
+                Cihangir&apos;de brasserie restoran için tasarladığımız web sitesi. Online rezervasyon,
+                dijital menü, Google Maps entegrasyonu, atmosfer galerisi. Aşağıda canlı ekran kaydı.
+              </p>
+            </div>
+          </Reveal>
+
+          <Reveal delay={100}>
+            <div className="border-3 border-ink bg-paper shadow-brutal-lg overflow-hidden">
+              <div className="relative border-b-3 border-ink bg-ink aspect-video">
+                <video
+                  src="/assets/videos/referanslar/restoran-web-ornegi.mp4"
+                  poster="/assets/videos/referanslar/restoran-web-ornegi-poster.jpg"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  controls
+                  className="h-full w-full object-cover"
+                />
+              </div>
+
+              <div className="p-6 md:p-8 grid gap-6 lg:grid-cols-[1fr_1.2fr]">
+                <div>
+                  <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-yellow text-ink px-3 py-1.5 shadow-brutal-sm mb-4">
+                    <Building2 className="h-4 w-4" />
+                    <span className="text-xs font-black uppercase tracking-wider">Restoran</span>
+                  </div>
+                  <h3 className="font-display text-2xl md:text-3xl font-black leading-tight text-ink mb-2">
+                    Cihangir Brasserie
+                  </h3>
+                  <p className="text-body text-ink/70 mb-5">
+                    Online rezervasyon + dijital menü + atmosfer galerisi. 18 günde teslim, 3 ay
+                    sonu organik trafik 16x arttı.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <Link
+                      href="/web-tasarim/restoran"
+                      className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
+                    >
+                      Restoran Web Tasarım
+                      <ArrowUpRight className="h-4 w-4" />
+                    </Link>
+                    <Link
+                      href="/referanslar"
+                      className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-4 py-2.5 text-sm font-bold uppercase text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
+                    >
+                      Tüm Referanslar
+                    </Link>
+                  </div>
+                </div>
+
+                <div className="grid gap-3">
+                  <div className="text-xs font-black uppercase tracking-wider text-ink/50 mb-1">
+                    3 ayda kazanım
+                  </div>
+                  {[
+                    { label: "Aylık Organik Trafik", before: "220", after: "3.600" },
+                    { label: "Online Rezervasyon", before: "0", after: "180/ay" },
+                    { label: "Hafta Sonu Doluluk", before: "%72", after: "%94" }
+                  ].map((s, j) => (
+                    <div
+                      key={j}
+                      className={cn(
+                        "border-3 border-ink p-4 shadow-brutal-sm flex items-center justify-between gap-3",
+                        j === 1 ? "bg-brand-green text-paper" : "bg-brand-yellow text-ink"
+                      )}
+                    >
+                      <div className="text-xs font-bold uppercase tracking-wider opacity-80">
+                        {s.label}
+                      </div>
+                      <div className="flex items-center gap-2 font-display font-black leading-none">
+                        <span className="text-sm opacity-60 line-through">{s.before}</span>
+                        <ArrowRight className="h-4 w-4 opacity-60" />
+                        <span className="text-xl md:text-2xl">{s.after}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* 3. PROBLEM */}
       <section className="bg-ink text-paper py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
@@ -317,47 +410,6 @@ export default function WebTasarimPage() {
         </div>
       </section>
 
-      {/* 3. SOLUTION */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="inline-block border-3 border-ink bg-brand-yellow px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Çözüm
-            </div>
-          </Reveal>
-          <Reveal delay={100}>
-            <h2 className="font-display text-h2 font-black leading-tight max-w-3xl mb-4 text-ink">
-              4 adımda satan bir web sitesine sahip olun.
-            </h2>
-          </Reveal>
-          <Reveal delay={150}>
-            <p className="text-body text-ink/70 max-w-2xl mb-12">
-              Şablon değil — markanıza özel. Modern teknoloji (Next.js + React) + mobil-first tasarım + teknik SEO + net dönüşüm odaklı yapı.
-            </p>
-          </Reveal>
-
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {[
-              { n: "01", icon: Search, color: "bg-brand-blue", title: "Brief & Strateji", body: "Hedef kitlenizi, dönüşüm hedefinizi, rakiplerinizi analiz ediyoruz. Sitenizin amacı net olmadan tasarım başlamıyor." },
-              { n: "02", icon: Palette, color: "bg-brand-pink", title: "Tasarım", body: "Figma'da önce mobil sonra masaüstü. Markanıza özel renk, tipografi, görsel dil. Şablon değil. Onaya kadar revize." },
-              { n: "03", icon: Code2, color: "bg-brand-purple", title: "Geliştirme", body: "Next.js + React + Tailwind. Lighthouse 90+, sıfır plugin, sıfır şişme. CMS panel istersen kuruyoruz." },
-              { n: "04", icon: Rocket, color: "bg-brand-green", title: "Yayın & Destek", body: "Vercel'de canlıya alıyoruz, alan adı + SSL + analytics + GSC kuruluyor. 30 gün ücretsiz destek." },
-            ].map((s, i) => (
-              <Reveal key={s.n} delay={i * 80}>
-                <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                  <div className={cn("inline-flex items-center justify-center w-12 h-12 border-3 border-ink mb-4", s.color)}>
-                    <s.icon className="h-6 w-6 text-paper" />
-                  </div>
-                  <div className="font-display text-3xl font-black text-ink/30 mb-1">{s.n}</div>
-                  <h3 className="font-display text-xl font-black text-ink mb-2">{s.title}</h3>
-                  <p className="text-sm text-ink/70 leading-relaxed">{s.body}</p>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* 4. FEATURES */}
       <section className="bg-paper py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
@@ -379,7 +431,7 @@ export default function WebTasarimPage() {
               { icon: Search, color: "bg-brand-blue", title: "Teknik SEO Hazır", body: "Sitemap, robots.txt, meta etiketleri, schema markup, Open Graph. Google sayfanızı doğru indeksler, AI arama motorları sizi cite eder." },
               { icon: ShieldCheck, color: "bg-brand-green", title: "Güvenli & SSL", body: "Plugin yok = güvenlik açığı yok. SSL otomatik, DDoS koruması Vercel/Cloudflare üzerinden. Hacklenme paranoyası bitti." },
               { icon: LayoutTemplate, color: "bg-brand-purple", title: "Şablon Değil — Özel Tasarım", body: "Markanıza özel renk paleti, tipografi, ikon seti, illüstrasyonlar. Aynı temadan 10.000 site arasında kaybolmazsınız." },
-              { icon: Code2, color: "bg-brand-orange", title: "Modern Teknoloji Stack'i", body: "Next.js 14 + React + TypeScript + Tailwind. WordPress'in 5-10 katı performans. Edge deployment ile dünya çapında hızlı." },
+              { icon: Code2, color: "bg-brand-orange", title: "Modern Teknoloji Stack'i", body: "Next.js 14 + React + TypeScript + Tailwind. Eklenti ve tema şişmesi yok, kod tabanı size özel. Edge deployment ile dünya çapında hızlı." },
             ].map((f, i) => (
               <Reveal key={i} delay={i * 60}>
                 <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
@@ -392,48 +444,6 @@ export default function WebTasarimPage() {
               </Reveal>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* 5. PROCESS / TIMELINE */}
-      <section className="bg-ink text-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="inline-block border-3 border-paper bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-              Zaman çizelgesi
-            </div>
-          </Reveal>
-          <Reveal delay={100}>
-            <h2 className="font-display text-h2 font-black leading-tight max-w-3xl mb-12">
-              Brief'ten yayına — ne zaman ne oluyor?
-            </h2>
-          </Reveal>
-
-          <div className="relative">
-            <div className="grid gap-8 lg:grid-cols-4">
-              {[
-                { week: "Gün 1-3", title: "Brief & Onay", body: "Görüşme, hedef analizi, sitemap, kapsam onayı, sözleşme + ön ödeme.", color: "text-brand-yellow" },
-                { week: "Gün 4-9", title: "Tasarım Sprintleri", body: "Figma'da ana sayfa + iç sayfalar. 2 revizyon hakkı. Final onaylanır.", color: "text-brand-pink" },
-                { week: "Gün 10-18", title: "Geliştirme", body: "Tasarım koda dönüşüyor. CMS panel (istenirse), formlar, entegrasyonlar.", color: "text-brand-blue" },
-                { week: "Gün 19-21", title: "Test & Yayın", body: "Mobil/tablet/desktop test, performans testi, SSL, domain bağlantısı, canlıya alma.", color: "text-brand-green" },
-              ].map((t, i) => (
-                <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-paper bg-ink p-6 shadow-[8px_8px_0_#FFFDF5] h-full">
-                    <Clock className={cn("h-6 w-6 mb-3", t.color)} />
-                    <div className={cn("font-display text-xs font-black uppercase tracking-wider mb-2", t.color)}>{t.week}</div>
-                    <h3 className="font-display text-xl font-black mb-2">{t.title}</h3>
-                    <p className="text-sm text-paper/70 leading-relaxed">{t.body}</p>
-                  </div>
-                </Reveal>
-              ))}
-            </div>
-          </div>
-
-          <Reveal delay={500}>
-            <p className="mt-10 text-sm text-paper/60 max-w-3xl">
-              Yukarıdaki takvim kurumsal marka sitesi (~14-21 gün) içindir. Landing Page 7-10 gün, e-ticaret 30-45 gün sürer.
-            </p>
-          </Reveal>
         </div>
       </section>
 
@@ -587,10 +597,7 @@ export default function WebTasarimPage() {
             <div className="mt-12 border-3 border-ink bg-paper p-6 shadow-brutal-sm">
               <p className="text-sm text-ink/70 mb-3 font-bold uppercase tracking-wider">İlgili kaynaklar:</p>
               <div className="flex flex-wrap gap-3">
-                <Link href="/hizmetler/web-tasarim" className="inline-flex items-center gap-1.5 border-3 border-ink bg-brand-yellow px-3 py-1.5 text-xs font-black uppercase shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
-                  Web Tasarım Hizmet Detayı <ArrowUpRight className="h-3.5 w-3.5" />
-                </Link>
-                <Link href="/blog/kurumsal-web-sitesi-rehberi" className="inline-flex items-center gap-1.5 border-3 border-ink bg-paper px-3 py-1.5 text-xs font-black uppercase shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
+                <Link href="/blog/kurumsal-web-sitesi-rehberi" className="inline-flex items-center gap-1.5 border-3 border-ink bg-brand-yellow px-3 py-1.5 text-xs font-black uppercase shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
                   Kurumsal Web Sitesi Rehberi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
                 <Link href="/blog/web-sitesi-olmayan-isletmeler-ne-kaybediyor" className="inline-flex items-center gap-1.5 border-3 border-ink bg-paper px-3 py-1.5 text-xs font-black uppercase shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
@@ -620,7 +627,7 @@ export default function WebTasarimPage() {
             {[
               { q: "Web tasarım fiyatları ne kadar?", a: "Landing Page 8.000-15.000 TL, kurumsal marka sitesi 15.000-35.000 TL, e-ticaret sitesi 35.000-75.000 TL bandında çalışıyoruz. Brief'iniz net olduğunda 24 saat içinde sabit fiyat teklifi paylaşıyoruz." },
               { q: "Kaç günde teslim ediyorsunuz?", a: "Landing 7-10 gün, marka sitesi 14-21 gün, e-ticaret 30-45 gün. İçerik (metin + görsel) zamanında geldiğinde takvim sapmaz." },
-              { q: "WordPress mi kullanıyorsunuz?", a: "Hayır. Tüm sitelerimizi Next.js + React ile geliştiriyoruz. Bu sayede hız, güvenlik ve SEO performansı WordPress'in 3-5 katı daha iyi. Lighthouse skorlarımız 90+ üzerinde." },
+              { q: "WordPress mi kullanıyorsunuz?", a: "Hayır. Tüm sitelerimizi Next.js + React ile geliştiriyoruz. Eklenti şişmesi olmadığı için site belirgin şekilde daha hızlı ve güvenli. Lighthouse skorlarımız 90 üzerinde." },
               { q: "Mobil uyumlu mu olacak?", a: "Tüm projelerimiz mobile-first tasarlanır. Önce mobil, sonra tablet, en son masaüstü. Trafiğinizin %70+ mobilden geldiğini biliyoruz." },
               { q: "İzmir dışından çalışıyor musunuz?", a: "Evet. Merkezimiz İzmir'de ama İstanbul, Ankara, Bursa dahil Türkiye'nin her şehrinden müşterimiz var. Görüşmeler Google Meet üzerinden, süreç tamamen uzaktan yönetilir." },
               { q: "Teslim sonrası ben mi güncelleyeceğim?", a: "İki seçenek: (1) CMS panel kuruyoruz, içeriği siz güncelliyorsunuz, (2) Aylık bakım paketi (2.500 TL/ay'dan başlar) — biz güncelliyoruz." },

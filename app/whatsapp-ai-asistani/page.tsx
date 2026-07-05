@@ -7,12 +7,9 @@ import {
   ShieldCheck,
   Bot,
   Calendar,
-  BarChart3,
   Languages,
   Database,
-  Wrench,
   PhoneCall,
-  Sparkles,
   Building2,
   CheckCircle2
 } from "lucide-react";
@@ -46,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "WhatsApp AI Asistanı | 7/24 Müşteri Temsilcisi",
     description:
-      "PORTZEN, KOBİ'ler için WhatsApp AI asistanı kurar. 60 saniye ortalama yanıt, %80 manuel iş azalması."
+      "PORTZEN, KOBİ'ler için WhatsApp AI asistanı kurar. 60 saniyede ilk yanıt, 14 günde kurulum, 7/24 aktif."
   },
   alternates: { canonical: "https://portzenai.com/whatsapp-ai-asistani" },
   robots: { index: true, follow: true }
@@ -153,9 +150,9 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "60 sn", label: "Ortalama ilk yanıt süresi" },
+  { metric: "60 sn", label: "İlk yanıt süresi hedefi" },
   { metric: "7/24", label: "Gece, hafta sonu, tatil aktif" },
-  { metric: "%80", label: "Manuel mesaj yükü azalır" },
+  { metric: "%78", label: "Estetik klinik vakasında mesaj yükü azalması" },
   { metric: "14 gün", label: "Standart kurulum süresi" }
 ];
 
@@ -165,29 +162,6 @@ const problems = [
   "Akşam 21:00'den sonra ve hafta sonu gelen mesajlar ya hiç görülmüyor ya da çok geç görülüyor.",
   "Randevu kaçırma oranı yüksek çünkü hatırlatma ve teyit süreci elle yapılıyor.",
   "Personel tatile çıktığında veya hastalandığında WhatsApp tamamen sahipsiz kalıyor."
-];
-
-const solutionSteps = [
-  {
-    icon: MessageCircle,
-    title: "Anlat",
-    description: "İşletmenizin sık sorulan sorularını, fiyat listesini, randevu kurallarını birlikte çıkarırız."
-  },
-  {
-    icon: Bot,
-    title: "Kur",
-    description: "WhatsApp Business API'ye bağlanır, AI asistanı sektörünüze göre eğitiriz."
-  },
-  {
-    icon: Sparkles,
-    title: "Öğret",
-    description: "Asistanı 2 hafta boyunca gerçek mesajlarla test eder, hatalı yanıtları sıfırlarız."
-  },
-  {
-    icon: BarChart3,
-    title: "Ölç",
-    description: "Aylık rapor: kaç mesaj, kaç randevu, kaç sipariş, ne kadar zaman kazandı."
-  }
 ];
 
 const features = [
@@ -221,13 +195,6 @@ const features = [
     title: "KVKK uyumlu",
     desc: "Tüm konuşmalar Türkiye sunucularında, KVKK ve WhatsApp politikalarına uygun saklanır."
   }
-];
-
-const timeline = [
-  { step: "01", title: "Brief alımı", desc: "1 gün — sektör, müşteri profili, sık sorular." },
-  { step: "02", title: "Bilgi tabanı + bot kurulumu", desc: "5-7 gün — senaryolar, eğitim, API bağlantı." },
-  { step: "03", title: "Test + canlıya alma", desc: "2 gün — gerçek mesajlarla pilot, ardından go-live." },
-  { step: "04", title: "Aylık optimizasyon", desc: "Sürekli — yanıt iyileştirme, yeni senaryo, rapor." }
 ];
 
 const packages = [
@@ -356,12 +323,6 @@ export default function Page() {
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
-                  <Link
-                    href="/hizmetler/ai-bot"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    Hizmeti İncele <ArrowUpRight className="h-4 w-4" />
-                  </Link>
                 </div>
               </Reveal>
             </div>
@@ -413,41 +374,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 3. SOLUTION */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Çözüm
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                PORTZEN'in çözümü nasıl çalışır?
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                4 adımda kurarız. Hazır şablon değil; sizin müşteri profilinize, sektörünüze ve tonunuza özel.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {solutionSteps.map((s, i) => {
-              const Icon = s.icon;
-              return (
-                <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
-                      <Icon className="h-5 w-5 text-ink" />
-                    </div>
-                    <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
-                    <p className="text-sm text-ink/70 leading-relaxed">{s.description}</p>
-                  </div>
-                </Reveal>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       {/* 4. FEATURES */}
       <section className="bg-paper py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
@@ -474,33 +400,6 @@ export default function Page() {
                 </Reveal>
               );
             })}
-          </div>
-        </div>
-      </section>
-
-      {/* 5. TIMELINE */}
-      <section className="bg-ink text-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Süreç
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight">
-                İlk mesajdan ilk müşteriye — 14 günlük yol haritası
-              </h2>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {timeline.map((t, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-ink p-6 shadow-[8px_8px_0_#FFFDF5]">
-                  <div className="font-display text-5xl font-black text-brand-yellow mb-3">{t.step}</div>
-                  <div className="font-bold text-lg mb-2">{t.title}</div>
-                  <div className="text-sm opacity-75 leading-relaxed">{t.desc}</div>
-                </div>
-              </Reveal>
-            ))}
           </div>
         </div>
       </section>

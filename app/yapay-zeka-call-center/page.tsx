@@ -100,7 +100,7 @@ const faqSchema = {
       name: "Müşteri robot olduğunu anlar mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ElevenLabs Türkçe sesleri ve OpenAI Realtime API'nin düşük gecikmeli konuşma altyapısı sayesinde ilk 30-60 saniyede fark edilmesi zor. Yaptığımız kör testlerde arayanların %62'si insan sandığını beyan etti. Yine de biz baştan dürüst konumlandırmayı öneriyoruz: 'Merhaba, ben AI asistanıyım' cümlesi güveni artırıyor ve şikayet oranını düşürüyor. Marka tercih ederse tam gizli mod da mümkün."
+        text: "ElevenLabs Türkçe sesleri ve OpenAI Realtime API'nin düşük gecikmeli konuşma altyapısı sayesinde ilk 30-60 saniyede fark edilmesi zor. Yine de biz baştan dürüst konumlandırmayı öneriyoruz: 'Merhaba, ben AI asistanıyım' cümlesi güveni artırıyor ve şikayet oranını düşürüyor. Marka tercih ederse tam gizli mod da mümkün."
       }
     },
     {
@@ -226,7 +226,7 @@ const capabilities = [
   {
     icon: Bot,
     title: "Sık sorulan sorulara anlık cevap",
-    desc: "Çalışma saatleri, adres, iade politikası, kargo süresi, garanti kapsamı. FAQ bilgi tabanına yüklendikten sonra AI %90+ doğrulukla cevaplar. Her ay hangi yeni sorunun geldiği raporlanır, bilgi tabanı büyür.",
+    desc: "Çalışma saatleri, adres, iade politikası, kargo süresi, garanti kapsamı. FAQ bilgi tabanına yüklendikten sonra AI bu soruları anında yanıtlar. Her ay hangi yeni sorunun geldiği raporlanır, bilgi tabanı büyür.",
     color: "bg-brand-purple"
   },
   {
@@ -265,34 +265,6 @@ const techStack = [
     role: "Telefon altyapısı",
     desc: "Türkiye numaraları (0850, 0212, 0216), SIP trunk desteği, çağrı kayıt, IVR (interactive voice response - sesli menü) altyapısı. AB lokasyonu KVKK uyumu için kritik. Mevcut PBX santralinizle entegrasyon mümkün.",
     color: "bg-brand-green"
-  }
-];
-
-const process = [
-  {
-    step: "01",
-    title: "Brief ve AI persona",
-    desc: "3-4 gün, işletmenizi, sık gelen çağrı tiplerini ve müşteri profilini dinleriz. AI'nın kim olacağı, hangi tonda konuşacağı, hangi cümlelerle karşılama yapacağı belirlenir."
-  },
-  {
-    step: "02",
-    title: "Bilgi tabanı hazırlama",
-    desc: "3-5 gün, ürün-hizmet listesi, fiyatlar, sık sorulan sorular, iade-iptal politikası, çalışma saatleri, sektörel jargon. Hepsi yapılandırılmış bilgi tabanına yüklenir."
-  },
-  {
-    step: "03",
-    title: "Telefon numarası ve PBX",
-    desc: "3-5 gün, Twilio veya Vonage üzerinden Türkiye numarası temini veya mevcut numaranıza SIP trunk kurulumu. KVKK aydınlatma metni, çağrı kayıt sunucusu ayarı yapılır."
-  },
-  {
-    step: "04",
-    title: "Test - 1 hafta",
-    desc: "20-40 gerçek senaryolu test çağrısı. Kelime doğruluğu, ton, aktarım kuralları, CRM kayıtları kontrol edilir. Müşteri ve PORTZEN birlikte dinler, ince ayar yapar."
-  },
-  {
-    step: "05",
-    title: "Canlıya alma + haftalık iyileştirme",
-    desc: "Yayın açılır, ilk 30 gün haftalık analiz. En çok gelen sorular, aktarım oranları, çözülemeyen çağrılar raporlanır. Bilgi tabanı büyütülür, senaryo revize edilir."
   }
 ];
 
@@ -442,7 +414,7 @@ const comparison = [
 const faqs = [
   {
     q: "Müşteri robot olduğunu anlar mı?",
-    a: "ElevenLabs Türkçe sesleri ve OpenAI Realtime API'nin düşük gecikmeli konuşma altyapısı sayesinde ilk 30-60 saniyede fark edilmesi zor. Yaptığımız kör testlerde arayanların %62'si insan sandığını beyan etti. Yine de biz baştan dürüst konumlandırmayı öneriyoruz: 'Merhaba, ben AI asistanıyım' cümlesi güveni artırıyor ve şikayet oranını düşürüyor. Marka tercih ederse tam gizli mod da mümkün, ancak KVKK ve tüketici hukuku açısından dürüst yaklaşım daha güvenli."
+    a: "ElevenLabs Türkçe sesleri ve OpenAI Realtime API'nin düşük gecikmeli konuşma altyapısı sayesinde ilk 30-60 saniyede fark edilmesi zor. Yine de biz baştan dürüst konumlandırmayı öneriyoruz: 'Merhaba, ben AI asistanıyım' cümlesi güveni artırıyor ve şikayet oranını düşürüyor. Marka tercih ederse tam gizli mod da mümkün, ancak KVKK ve tüketici hukuku açısından dürüst yaklaşım daha güvenli."
   },
   {
     q: "Türkçe aksanı nasıl?",
@@ -707,39 +679,9 @@ export default function Page() {
           </div>
           <Reveal delay={400}>
             <p className="mt-8 text-sm text-ink/60 max-w-2xl">
-              Sektörünüz listede değil mi? Endişelenmeyin, 15+ sektörde aktif senaryo yazıyoruz. Kuaför, eczane, avukat, muhasebe, spor salonu, kargo, sigorta ve daha fazlası. Keşif görüşmesinde sektörünüze özel akış önerisi sunuyoruz.
+              Sektörünüz listede değil mi? Endişelenmeyin, kuaför, eczane, avukat, muhasebe, spor salonu, kargo, sigorta ve daha fazlası için de senaryo yazıyoruz. Keşif görüşmesinde sektörünüze özel akış önerisi sunuyoruz.
             </p>
           </Reveal>
-        </div>
-      </section>
-
-      {/* 6. ÇALIŞMA SÜRECİ */}
-      <section className="bg-ink text-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Çalışma süreci
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight">
-                Brief'ten canlıya - 5 adımda 14 gün.
-              </h2>
-              <p className="mt-4 text-body opacity-85 max-w-prose leading-relaxed">
-                AI call center kurulumu netleşmiş bir süreçtir. Sürprizsiz, tarih belli, sorumluluk paylaşımlı. İlk 3-4 gün brief, sonraki hafta bilgi tabanı ve altyapı, ikinci hafta test ve canlıya alma. Kurulum sonrası ilk 30 gün haftalık iyileştirme dahil.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
-            {process.map((p, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-ink p-6 shadow-[8px_8px_0_#FFFDF5] h-full">
-                  <div className="font-display text-5xl font-black text-brand-yellow mb-3">{p.step}</div>
-                  <div className="font-bold text-lg mb-2">{p.title}</div>
-                  <div className="text-sm opacity-75 leading-relaxed">{p.desc}</div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
         </div>
       </section>
 

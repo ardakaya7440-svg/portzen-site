@@ -5,9 +5,6 @@ import {
   Video,
   Clock3,
   Sparkles,
-  Film,
-  Wand2,
-  Megaphone,
   Languages,
   Palette,
   Layers,
@@ -85,7 +82,7 @@ const faqSchema = {
       name: "AI reklam videosu gerçek çekimden farkı ne?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Çekim ekibi, oyuncu, stüdyo, mekan tutmaya gerek kalmaz. Süre 3-7 güne iner, maliyet 5-10 kat azalır. Marka tonunuza uygun avatar, mekan ve aksiyon yapay zeka ile üretilir; profesyonel seslendirme eklenir."
+        text: "Çekim ekibi, oyuncu, stüdyo, mekan tutmaya gerek kalmaz. Süre 3-7 güne iner, maliyet belirgin şekilde azalır. Marka tonunuza uygun avatar, mekan ve aksiyon yapay zeka ile üretilir; profesyonel seslendirme eklenir."
       }
     },
     {
@@ -156,7 +153,7 @@ const breadcrumbSchema = {
 const stats = [
   { metric: "3 gün", label: "Brief'ten teslime" },
   { metric: "0 ekip", label: "Çekim, oyuncu, stüdyo yok" },
-  { metric: "5-10x", label: "Geleneksel videodan ucuz" },
+  { metric: "3 format", label: "9:16, 1:1, 16:9 tek üretimden" },
   { metric: "4K", label: "Sinematik kalite çıktı" }
 ];
 
@@ -166,29 +163,6 @@ const problems = [
   "Modeller, mekan ve donanım kiralamak için her seferinde aynı yorucu süreci yeniden yaşamak.",
   "Sosyal medyada haftada 3-5 yeni video gerekiyor ama bu hızda üretim imkansız görünüyor.",
   "Test edip beğenmediğiniz konsept için zaten 30.000 TL yakmış oluyorsunuz — A/B test lüks."
-];
-
-const solutionSteps = [
-  {
-    icon: MessageCircle,
-    title: "Brief al",
-    description: "Markanı, ürününü, hedef kitleni ve tonunu birlikte çıkarırız."
-  },
-  {
-    icon: Wand2,
-    title: "Konsept üret",
-    description: "AI ile 2-3 farklı senaryo ve görsel yön sunarız — sen seçersin."
-  },
-  {
-    icon: Film,
-    title: "Video üret",
-    description: "Görüntü, ses, müzik, geçiş — hepsi AI ile sinematik kalitede üretilir."
-  },
-  {
-    icon: Megaphone,
-    title: "Teslim et",
-    description: "Farklı format (9:16, 1:1, 16:9) ve uzunluklarda hazır teslim."
-  }
 ];
 
 const features = [
@@ -222,13 +196,6 @@ const features = [
     title: "Telifli müzik + ses efekti",
     desc: "Lisans dertsiz, sosyal medyada sorun çıkarmaz."
   }
-];
-
-const timeline = [
-  { step: "01", title: "Brief alımı", desc: "1 gün — ürün, marka tonu, hedef kitle." },
-  { step: "02", title: "Konsept + senaryo", desc: "1 gün — 2-3 yön sunulur, onay alınır." },
-  { step: "03", title: "AI üretim + montaj", desc: "1-2 gün — görüntü, ses, müzik birleştirilir." },
-  { step: "04", title: "Revizyon + teslim", desc: "1 gün — 2 revizyon hakkı, çoklu format teslim." }
 ];
 
 const packages = [
@@ -286,7 +253,7 @@ const packages = [
 const faqs = [
   {
     q: "AI reklam videosu gerçek çekimden farkı ne?",
-    a: "Çekim ekibi, oyuncu, stüdyo, mekan tutma derdi yok. Süre 3-7 güne iner (geleneksel video 3-6 hafta), maliyet 5-10 kat azalır. Görüntü kalitesi sinematik — 2025 itibarıyla AI video çıktıları çoğu zaman insanın 'çekim mi AI mi?' diye ayırt edemediği seviyede. Marka tonunuza uygun avatar, mekan, aksiyon AI ile üretilir; profesyonel Türkçe seslendirme eklenir."
+    a: "Çekim ekibi, oyuncu, stüdyo, mekan tutma derdi yok. Süre 3-7 güne iner (geleneksel video 3-6 hafta), maliyet belirgin şekilde azalır. Görüntü kalitesi sinematik — 2025 itibarıyla AI video çıktıları çoğu zaman insanın 'çekim mi AI mi?' diye ayırt edemediği seviyede. Marka tonunuza uygun avatar, mekan, aksiyon AI ile üretilir; profesyonel Türkçe seslendirme eklenir."
   },
   {
     q: "Teslim süresi gerçekten 3 gün mü?",
@@ -359,7 +326,7 @@ export default function Page() {
                     Ücretsiz Brief Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
-                    href="/hizmetler/ai-video"
+                    href="/yapay-zeka-video-uretimi"
                     className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
                   >
                     Örnekleri İncele <ArrowUpRight className="h-4 w-4" />
@@ -415,41 +382,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 3. SOLUTION */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Çözüm
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                PORTZEN'in çözümü nasıl çalışır?
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                4 adımda video çıkar — brief'ten finale 3 iş günü. Çekim takvimi, oyuncu kira, stüdyo masrafı yok.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {solutionSteps.map((s, i) => {
-              const Icon = s.icon;
-              return (
-                <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-purple text-paper shadow-brutal-sm mb-4">
-                      <Icon className="h-5 w-5" />
-                    </div>
-                    <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
-                    <p className="text-sm text-ink/70 leading-relaxed">{s.description}</p>
-                  </div>
-                </Reveal>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       {/* 4. FEATURES */}
       <section className="bg-paper py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
@@ -476,33 +408,6 @@ export default function Page() {
                 </Reveal>
               );
             })}
-          </div>
-        </div>
-      </section>
-
-      {/* 5. TIMELINE */}
-      <section className="bg-ink text-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Süreç
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight">
-                Brief'ten videoya — 3 günlük yol haritası
-              </h2>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {timeline.map((t, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-ink p-6 shadow-[8px_8px_0_#FFFDF5]">
-                  <div className="font-display text-5xl font-black text-brand-yellow mb-3">{t.step}</div>
-                  <div className="font-bold text-lg mb-2">{t.title}</div>
-                  <div className="text-sm opacity-75 leading-relaxed">{t.desc}</div>
-                </div>
-              </Reveal>
-            ))}
           </div>
         </div>
       </section>
@@ -631,7 +536,7 @@ export default function Page() {
               <div>
                 <div className="font-display text-lg font-black mb-1">İlgili okuma</div>
                 <p className="text-sm opacity-90">
-                  AI reklam videoları geleneksel yapımdan neden 10 kat ucuz — pazarlama yöneticileri için rehber.
+                  AI reklam videoları geleneksel yapımdan neden belirgin şekilde ucuz — pazarlama yöneticileri için rehber.
                 </p>
               </div>
               <Link
@@ -691,7 +596,7 @@ export default function Page() {
                   Hep aynı avatar — yüzü, sesi size ait, başka markada kullanılmaz.
                 </p>
                 <Link
-                  href="/hizmetler/ai-video"
+                  href="/yapay-zeka-video-uretimi"
                   className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all"
                 >
                   AI Video Hizmeti <ArrowUpRight className="h-3.5 w-3.5" />

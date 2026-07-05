@@ -75,7 +75,7 @@ export default function HomePage() {
       </section>
 
       {/* HIZMETLER GRID — 5 hizmet kart */}
-      <section className="bg-paper py-section">
+      <section id="hizmetler" className="bg-paper py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
@@ -194,15 +194,15 @@ export default function HomePage() {
                 Niye Çalışıyor
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Beş ajansla 80.000 TL ödediğin işi — bir ekiple <span className="bg-brand-yellow text-ink px-2 -mx-0.5">3 hafta</span> içinde teslim alıyorsun.
+                Beş ayrı ajansa ödeyeceğinizin çok altında bir bütçeyle, <span className="bg-brand-yellow text-ink px-2 -mx-0.5">tek ekip</span> sisteminizi kurar.
               </h2>
             </div>
           </Reveal>
 
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {[
-              { label: "Ortalama teslim süresi", value: "3 hafta", color: "bg-brand-yellow" },
-              { label: "Manuel iş azalma oranı", value: "%80", color: "bg-brand-green" },
+              { label: "Hedef teslim süresi", value: "3 hafta", color: "bg-brand-yellow" },
+              { label: "Kurduğumuz sistemler kesintisiz çalışır", value: "7/24", color: "bg-brand-green" },
               { label: "Tek brief = tek koordinasyon", value: "1 ekip", color: "bg-brand-orange" }
             ].map((stat, i) => (
               <Reveal key={i} delay={i * 80}>

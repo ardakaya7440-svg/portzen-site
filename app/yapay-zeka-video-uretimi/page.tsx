@@ -242,39 +242,6 @@ const videoTypes = [
   }
 ];
 
-const processSteps = [
-  {
-    step: "01",
-    title: "Brief alımı",
-    duration: "2-4 saat",
-    desc: "Hedef kitle, kampanya amacı, ton, marka rehberi, mevcut görsel materyaller. 30 dakikalık keşif görüşmesi ve doldurulan kreatif brief ile başlıyoruz."
-  },
-  {
-    step: "02",
-    title: "Senaryo + storyboard",
-    duration: "1 gün",
-    desc: "Sahne sahne senaryo, replikler, kamera hareketleri, alt yazı tasarımı. Storyboard onayınızı aldıktan sonra üretime geçiyoruz. Bu adımda büyük değişiklik mümkün."
-  },
-  {
-    step: "03",
-    title: "Prompt mühendisliği",
-    duration: "0.5 gün",
-    desc: "Her sahne için optimize edilmiş prompt yazımı. MCSLA formülü (Motion, Camera, Subject, Lighting, Action) ile sahne tutarlılığı sağlanır. Karakter Soul ID ve marka renkleri tanımlanır."
-  },
-  {
-    step: "04",
-    title: "AI üretim + post-prodüksiyon",
-    duration: "1-1.5 gün",
-    desc: "5 farklı AI motorunda paralel render, en iyi take seçimi, color grading (renk düzenleme), ses tasarımı, ElevenLabs Türkçe seslendirme, logo overlay, alt yazı."
-  },
-  {
-    step: "05",
-    title: "Teslim + revizyon",
-    duration: "0.5 gün",
-    desc: "Üç formatta (9:16, 1:1, 16:9) final teslim. WeTransfer ve Google Drive üzerinden MP4 + source files. Revizyon talepleri 24 saat içinde işleme alınır."
-  }
-];
-
 const costComparison = [
   { kriter: "Maliyet aralığı", traditional: "25.000 - 150.000 ₺", ai: "3.000 - 15.000 ₺" },
   { kriter: "Üretim süresi", traditional: "3 - 6 hafta", ai: "2 - 5 gün" },
@@ -587,37 +554,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 5. PROCESS */}
-      <section className="bg-ink text-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-3xl">
-              <div className="inline-block border-3 border-paper bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Çalışma süreci
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight">
-                Brief'ten teslime: 5 adımda yapay zeka video üretimi
-              </h2>
-              <p className="mt-4 text-body opacity-85 max-w-prose">
-                Standart bir tekil video için toplam süre 3 iş günü, kampanya seti için 1 hafta. Her adımın süresini ve içeriğini aşağıda açıklıyoruz. Bu süreç boyunca Notion veya Google Drive üzerinden tüm aşamaları takip edebiliyorsunuz.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
-            {processSteps.map((s, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-ink p-6 shadow-[8px_8px_0_#FFFDF5] h-full">
-                  <div className="font-display text-5xl font-black text-brand-yellow mb-3">{s.step}</div>
-                  <div className="font-bold text-base mb-1">{s.title}</div>
-                  <div className="text-xs font-bold uppercase text-brand-pink mb-2">{s.duration}</div>
-                  <div className="text-sm opacity-75 leading-relaxed">{s.desc}</div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* 6. COST COMPARISON TABLE */}
       <section className="bg-paper py-section">
         <div className="mx-auto max-w-container px-6">
@@ -717,7 +653,7 @@ export default function Page() {
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-4 text-body opacity-90 max-w-prose">
-                  PORTZEN İzmir Bornova merkezli çalışır. Ama yapay zeka video üretimi sürecinin hiçbir adımı fiziksel mevcudiyet gerektirmez. Brief görüşmesi Google Meet üzerinden, dosya teslimi WeTransfer ve Drive ile, revizyonlar Notion üzerinden ilerler. İstanbul, Ankara, Antalya, Bursa, Konya, Gaziantep gibi şehirlerden 40+ markaya hizmet verdik.
+                  PORTZEN İzmir Bornova merkezli çalışır. Ama yapay zeka video üretimi sürecinin hiçbir adımı fiziksel mevcudiyet gerektirmez. Brief görüşmesi Google Meet üzerinden, dosya teslimi WeTransfer ve Drive ile, revizyonlar Notion üzerinden ilerler. İstanbul, Ankara, Antalya, Bursa, Konya, Gaziantep dahil Türkiye'nin her şehrindeki markalarla aynı tempoda çalışıyoruz.
                 </p>
               </Reveal>
               <Reveal delay={300}>

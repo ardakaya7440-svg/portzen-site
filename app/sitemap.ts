@@ -10,11 +10,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: BASE, lastModified: now, changeFrequency: "weekly", priority: 1 },
-    { url: `${BASE}/hizmetler`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE}/referanslar`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/hakkimizda`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE}/iletisim`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.9 }
+    { url: `${BASE}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE}/kvkk`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${BASE}/gizlilik-politikasi`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${BASE}/kullanim-sartlari`, lastModified: now, changeFrequency: "yearly", priority: 0.3 }
   ];
 
   // SEO landing pages (money pages — yüksek priority)
@@ -23,7 +25,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/instagram-dm-otomasyonu`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
     { url: `${BASE}/ai-reklam-videosu`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
     { url: `${BASE}/web-tasarim`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
-    { url: `${BASE}/crm-otomasyonu`, lastModified: now, changeFrequency: "monthly", priority: 0.95 }
+    { url: `${BASE}/crm-otomasyonu`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE}/sosyal-medya-ajansi`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE}/meta-reklam-ajansi`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE}/yapay-zeka-video-uretimi`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE}/yapay-zeka-call-center`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE}/web-sitesi-tasarimi`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE}/sosyal-medya-yonetimi`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE}/sosyal-medya-viral-video`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${BASE}/hizmetler/web-yazilim`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE}/hizmetler/mobil-uygulama`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE}/hizmetler/mobil-oyun`, lastModified: now, changeFrequency: "monthly", priority: 0.85 }
   ];
 
   // Phase 4: Karşılaştırma + niş landing'ler
@@ -33,6 +45,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/hubspot-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE}/tidio-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE}/intercom-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/sambapos-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/iyzico-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/ticimax-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/ideasoft-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/shopier-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/logo-yazilim-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/netgsm-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/mailchimp-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/klaviyo-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/salesforce-alternatifi`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE}/whatsapp-chatbot-fiyat`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE}/ai-chatbot-turkce`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE}/n8n-kurulum-hizmeti`, lastModified: now, changeFrequency: "monthly", priority: 0.9 }

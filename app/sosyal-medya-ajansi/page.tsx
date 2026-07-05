@@ -175,8 +175,8 @@ const breadcrumbSchema = {
 
 const heroStats = [
   { metric: "5 kanal", label: "Instagram, Facebook, TikTok, LinkedIn, YouTube" },
-  { metric: "3.2x", label: "Ortalama erişim artışı (90 gün)" },
-  { metric: "%48", label: "Etkileşim oranı artışı" },
+  { metric: "20+", label: "Aylık içerik üretimi (post + video)" },
+  { metric: "7/24", label: "Community management ve DM takibi" },
   { metric: "8 metrik", label: "Aylık şeffaf raporlama" }
 ];
 
@@ -189,12 +189,12 @@ const differentiators = [
   {
     icon: Sparkles,
     title: "AI destekli içerik motoru",
-    desc: "Trend tespiti, hashtag stratejisi, içerik takvimi ve görsel üretiminde AI araçlarını ekip iş akışına entegre ettik. Aynı bütçeyle %3-4 katı içerik çıkıyor, kalite düşmüyor."
+    desc: "Trend tespiti, hashtag stratejisi, içerik takvimi ve görsel üretiminde AI araçlarını ekip iş akışına entegre ettik. Aynı bütçeyle daha fazla içerik çıkıyor, kalite düşmüyor."
   },
   {
     icon: HeartHandshake,
     title: "KOBİ odaklı yaklaşım",
-    desc: "Müşterilerimizin %85'i 5-50 kişilik KOBİ. Ajans dili konuşmak yerine sahibinin anladığı dilde konuşuyoruz. Aylık 10 sayfalık rapor değil, 1 sayfalık net özet."
+    desc: "Odağımız 5-50 kişilik KOBİ'ler. Ajans dili konuşmak yerine işletme sahibinin anladığı dilde konuşuyoruz. Aylık 10 sayfalık rapor değil, 1 sayfalık net özet."
   },
   {
     icon: BarChart3,
@@ -232,7 +232,7 @@ const services = [
   {
     icon: Megaphone,
     title: "Sosyal medya reklamları",
-    desc: "Meta Ads (Facebook + Instagram) ve TikTok Ads yönetimi. Kampanya kurulumu, kreatif testi, hedef kitle optimizasyonu, ROAS odaklı bütçe yönetimi. Ortalama CPM %25 düşüş, ROAS 2.8x.",
+    desc: "Meta Ads (Facebook + Instagram) ve TikTok Ads yönetimi. Kampanya kurulumu, kreatif testi, hedef kitle optimizasyonu, ROAS odaklı bütçe yönetimi. Haftalık optimizasyon, aylık bütçe revizyonu.",
     color: "bg-brand-orange"
   },
   {
@@ -258,34 +258,6 @@ const services = [
     title: "Community management",
     desc: "DM, yorum, mention, story yanıtları - 7/24 takip. Kriz anında 2 saat içinde aksiyon. Olumlu yorumlar tag'lenir, olumsuzlar diplomatik çözülür, marka itibarı korunur.",
     color: "bg-brand-blue"
-  }
-];
-
-const process = [
-  {
-    step: "01",
-    title: "Brief ve marka denetimi",
-    desc: "1 hafta - mevcut sosyal medya hesaplarınızı, rakiplerinizi ve hedef kitlenizi analiz ederiz. Mevcut içerik tonu, görsel dil ve performans verisi çıkar."
-  },
-  {
-    step: "02",
-    title: "Strateji ve içerik takvimi",
-    desc: "1 hafta - 90 günlük büyüme stratejisi, kanal-bazlı yaklaşım, içerik temaları, hashtag stratejisi ve ilk ayın günlük takvimi hazırlanır."
-  },
-  {
-    step: "03",
-    title: "Üretim",
-    desc: "Sürekli - foto çekim, video çekim, grafik tasarım, metin yazımı. Her ay 30-80 görsel, 8-20 video, 4-8 reels. Onay panelinden müşteri görür."
-  },
-  {
-    step: "04",
-    title: "Yayın ve community",
-    desc: "Günlük - içerikler optimum saatlerde yayınlanır, DM ve yorumlar 2 saat içinde yanıtlanır, kriz yönetimi aktif. Reklam kampanyaları paralel optimize edilir."
-  },
-  {
-    step: "05",
-    title: "Raporlama ve revize",
-    desc: "Aylık - 8 metrikli rapor, 60 dakikalık strateji toplantısı, sonraki ay için içerik teması revize. Hedef tutmazsa düzeltici aksiyon planı çıkarılır."
   }
 ];
 
@@ -350,7 +322,7 @@ const cities = [
   {
     name: "İstanbul",
     slug: "istanbul",
-    desc: "Avrupa ve Anadolu yakasında 40+ aktif müşteri. Çekim ekibimiz haftalık İstanbul'a iniyor; Levent, Maslak, Kadıköy ve Ataşehir'de yerinde hizmet.",
+    desc: "Avrupa ve Anadolu yakasındaki markalarla çalışıyoruz. Çekim ekibimiz haftalık İstanbul'a iniyor; Levent, Maslak, Kadıköy ve Ataşehir'de yerinde hizmet.",
     badge: "Aktif"
   },
   {
@@ -440,7 +412,7 @@ const faqs = [
   },
   {
     q: "Reklam yönetimi paketlere dahil mi?",
-    a: "Büyüme ve Kurumsal paketlerde Meta Ads (Facebook + Instagram) ve TikTok Ads yönetimi dahildir. Başlangıç paketinde reklam yönetimi opsiyonel olarak eklenebilir. Reklam bütçesi ayrı olarak Meta'ya ve TikTok'a ödenir; ajans yönetim ücreti reklam harcamasının %15-20'sidir veya pakete dahil sabittir. Ortalama ROAS'ımız 2.8x; düşük bütçeli kampanyalarda bile pozitif dönüş hedefliyoruz."
+    a: "Büyüme ve Kurumsal paketlerde Meta Ads (Facebook + Instagram) ve TikTok Ads yönetimi dahildir. Başlangıç paketinde reklam yönetimi opsiyonel olarak eklenebilir. Reklam bütçesi ayrı olarak Meta'ya ve TikTok'a ödenir; ajans yönetim ücreti reklam harcamasının %15-20'sidir veya pakete dahil sabittir. Düşük bütçeli kampanyalarda bile pozitif dönüş hedefliyoruz."
   },
   {
     q: "Sosyal medya yönetimi sözleşmesi kaç ay?",
@@ -606,36 +578,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 4. ÇALIŞMA SÜRECİ */}
-      <section className="bg-ink text-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Çalışma süreci
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight">
-                Brief'ten ilk raporlamaya - 5 adımda işleyiş
-              </h2>
-              <p className="mt-4 text-body opacity-85 max-w-prose leading-relaxed">
-                Sosyal medya ajansı ile çalışırken en sık şikâyet "ne zaman ne olacağı belli değil" yakınmasıdır. PORTZEN'de süreç ilk günden net. İlk iki hafta strateji ve hazırlık, sonraki haftalar üretim + yayın + community. Aylık raporlama ve revize ile döngü kapanır.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
-            {process.map((p, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-ink p-6 shadow-[8px_8px_0_#FFFDF5] h-full">
-                  <div className="font-display text-5xl font-black text-brand-yellow mb-3">{p.step}</div>
-                  <div className="font-bold text-lg mb-2">{p.title}</div>
-                  <div className="text-sm opacity-75 leading-relaxed">{p.desc}</div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* 5. SEKTÖRLERE GÖRE YAKLAŞIM */}
       <section className="bg-paper py-section">
         <div className="mx-auto max-w-container px-6">
@@ -674,7 +616,7 @@ export default function Page() {
           </div>
           <Reveal delay={400}>
             <p className="mt-8 text-sm text-ink/60 max-w-2xl">
-              Sektörünüz listede değil mi? Endişelenmeyin - 20+ sektörde aktif çalışıyoruz. Keşif görüşmesinde sektörünüze özel strateji önerisi sunuyoruz.
+              Sektörünüz listede değil mi? Endişelenmeyin, keşif görüşmesinde sektörünüze özel strateji önerisi sunuyoruz.
             </p>
           </Reveal>
         </div>

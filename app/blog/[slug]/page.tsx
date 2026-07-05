@@ -273,7 +273,7 @@ export default async function BlogPostPage({ params }: Props) {
                       <ArrowUpRight className="h-4 w-4" />
                     </Link>
                     <Link
-                      href="/hizmetler"
+                      href="/#hizmetler"
                       className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
                     >
                       Hizmetleri Gör
