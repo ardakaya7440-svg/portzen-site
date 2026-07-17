@@ -213,60 +213,7 @@ export function SectorLandingTemplate({ service, data }: Props) {
         </div>
       </section>
 
-      {/* PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-3 shadow-brutal-sm">
-                Şeffaf Fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                {data.sectorName} paketleri
-              </h2>
-              <p className="mt-3 text-body text-ink/70 max-w-prose">
-                Net fiyat, gizli ücret yok. Sektörünüze göre hangi paketin uygun olduğunu 15 dakikada netleştirelim.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {data.pricing.map((p, i) => (
-              <Reveal key={i} delay={i * 80}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal h-full flex flex-col",
-                    p.highlighted ? "bg-brand-yellow shadow-brutal-lg -translate-y-2" : "bg-paper"
-                  )}
-                >
-                  {p.highlighted && (
-                    <div className="inline-block border-3 border-ink bg-ink text-paper px-2 py-0.5 text-xs font-black uppercase tracking-wider mb-3 self-start">
-                      Öneri
-                    </div>
-                  )}
-                  <h3 className="font-display text-xl font-black leading-tight mb-1 text-ink">{p.name}</h3>
-                  <div className="font-display text-3xl font-black leading-none mb-3 text-ink">{p.price}</div>
-                  <p className="text-sm text-ink/70 mb-5">{p.description}</p>
-                  <ul className="space-y-2 text-sm text-ink/85 mb-6 flex-1">
-                    {p.features.map((f, j) => (
-                      <li key={j} className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-sm font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
-                  >
-                    Bu Paketi Seç
-                    <ArrowUpRight className="h-4 w-4" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* NOT: Pricing bölümü kaldırıldı — fiyat bilgisi brief görüşmesinde paylaşılır. */}
 
       {/* FAQ */}
       <section className="bg-ink text-paper py-section">
@@ -380,13 +327,7 @@ export function buildServiceSchema(service: ServiceSlug, data: SectorLandingData
     },
     serviceType: meta.label,
     areaServed: { "@type": "Country", name: "Turkey" },
-    offers: data.pricing.map((p) => ({
-      "@type": "Offer",
-      name: p.name,
-      price: p.price.replace(/[^0-9]/g, "") || "0",
-      priceCurrency: "TRY",
-      description: p.description
-    }))
+    // Fiyat brief görüşmesinde paylaşılır — offers schema kaldırıldı.
   };
 }
 

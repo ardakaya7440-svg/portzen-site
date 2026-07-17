@@ -58,9 +58,9 @@ const organizationSchema = {
   "@type": ["Organization", "ProfessionalService"],
   "@id": "https://portzenai.com/#organization",
   name: "PORTZEN",
-  alternateName: ["PORTZEN AI", "PORTZEN AI Ajansı"],
+  alternateName: ["PORTZEN AI", "PORTZEN"],
   description:
-    "İzmir merkezli, KOBİ'ler için AI destekli sosyal medya yönetimi, WhatsApp asistanı, otomasyon ve web tasarım hizmetleri sunan dijital ajans. Beş ayrı ajans yerine tek ekipten tüm sistem.",
+    "İzmir merkezli, KOBİ'ler için AI reklam videosu, WhatsApp asistanı, otomasyon, sosyal medya içerik ve web tasarım hizmetleri sunan dijital ajans. Beş ayrı ajans yerine tek ekipten tüm sistem.",
   url: "https://portzenai.com",
   logo: {
     "@type": "ImageObject",
@@ -191,7 +191,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <span className="font-display text-xl font-black text-ink">PORTZEN</span>
               </div>
               <p className="mt-4 text-sm leading-relaxed text-paper/80 max-w-sm">
-                Sosyal medya tarafında klasik ajanslardan farklı çalışıyoruz — AI destekli içerik, DM yönetimi ve büyüme sistemleri.
+                Beş ajans yerine tek ekip. AI reklam videosu, WhatsApp asistanı, otomasyon, sosyal medya ve web tasarım — hepsi tek koordinasyonla.
               </p>
               <div className="mt-5 space-y-1.5 text-sm">
                 <div>

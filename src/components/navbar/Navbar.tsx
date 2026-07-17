@@ -3,11 +3,24 @@
 import * as React from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { MessageSquare, Menu, X, ChevronDown, ArrowUpRight } from "lucide-react";
-import { SERVICES, NAV_GROUPS, TONE_BG, TONE_TEXT } from "@/data/services";
+import { MessageSquare, Menu, X, ArrowUpRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const SECONDARY_NAV = [
+/**
+ * Navbar — sade, dikkat dağıtmayan.
+ * Dropdown/mega menu yok. Direkt 5 hizmet + Referanslar + Blog + Hakkımızda.
+ * Mobil: drawer.
+ */
+
+const NAV = [
+  { label: "AI Video", href: "/yapay-zeka-video-uretimi" },
+  { label: "WhatsApp AI", href: "/whatsapp-ai-asistani" },
+  { label: "Otomasyon", href: "/crm-otomasyonu" },
+  { label: "Sosyal Medya", href: "/sosyal-medya-yonetimi" },
+  { label: "Web Tasarım", href: "/web-tasarim" }
+];
+
+const SECONDARY = [
   { label: "Referanslar", href: "/referanslar" },
   { label: "Blog", href: "/blog" },
   { label: "Hakkımızda", href: "/hakkimizda" }
@@ -15,7 +28,6 @@ const SECONDARY_NAV = [
 
 export function Navbar() {
   const [scrolled, setScrolled] = React.useState(false);
-  const [openGroup, setOpenGroup] = React.useState<string | null>(null);
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   React.useEffect(() => {
@@ -33,47 +45,32 @@ export function Navbar() {
           ? "bg-paper border-b-3 border-ink shadow-brutal-sm"
           : "bg-transparent border-b-3 border-transparent"
       )}
-      onMouseLeave={() => setOpenGroup(null)}
     >
       <div className="mx-auto flex max-w-container items-center gap-2 px-6 py-3">
-        <Link href="/" className="flex items-center shrink-0" onMouseEnter={() => setOpenGroup(null)}>
+        <Link href="/" className="flex items-center shrink-0">
           <div className="border-3 border-ink bg-brand-yellow px-3 py-1.5 shadow-brutal-sm">
             <span className="font-display text-xl font-black tracking-tight text-ink">PORTZEN</span>
           </div>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-1 ml-6">
-          {NAV_GROUPS.map((group) => {
-            const isOpen = openGroup === group.slug;
-            return (
-              <div
-                key={group.slug}
-                className="relative"
-                onMouseEnter={() => setOpenGroup(group.slug)}
-              >
-                <button
-                  type="button"
-                  className={cn(
-                    "flex items-center gap-1.5 border-3 border-transparent px-3 py-2 text-sm font-bold uppercase tracking-wide transition-colors whitespace-nowrap",
-                    isOpen
-                      ? "border-ink bg-ink text-paper"
-                      : "text-ink hover:bg-ink/5"
-                  )}
-                >
-                  <span>{group.shortLabel}</span>
-                  <ChevronDown className={cn("h-3.5 w-3.5 shrink-0 transition-transform", isOpen && "rotate-180")} />
-                </button>
-              </div>
-            );
-          })}
-
-          <span className="mx-2 h-5 w-px bg-ink/20" />
-
-          {SECONDARY_NAV.map((item) => (
+        {/* Desktop nav — sade, tek satır */}
+        <nav className="hidden lg:flex items-center gap-1 ml-6">
+          {NAV.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              onMouseEnter={() => setOpenGroup(null)}
+              className="border-3 border-transparent px-3 py-2 text-sm font-bold uppercase tracking-wide text-ink hover:bg-ink/5 transition-colors whitespace-nowrap"
+            >
+              {item.label}
+            </Link>
+          ))}
+
+          <span className="mx-2 h-5 w-px bg-ink/20" />
+
+          {SECONDARY.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
               className="border-3 border-transparent px-3 py-2 text-sm font-bold uppercase tracking-wide text-ink hover:bg-ink/5 transition-colors whitespace-nowrap"
             >
               {item.label}
@@ -81,17 +78,17 @@ export function Navbar() {
           ))}
         </nav>
 
-        <div className="ml-auto flex items-center gap-2" onMouseEnter={() => setOpenGroup(null)}>
+        <div className="ml-auto flex items-center gap-2">
           <Link
             href="/iletisim"
-            className="hidden sm:inline-flex items-center gap-2 border-3 border-ink bg-brand-green px-4 py-2 text-sm font-bold uppercase text-paper shadow-brutal-sm transition-all hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal whitespace-nowrap"
+            className="hidden sm:inline-flex items-center gap-2 border-3 border-ink bg-ink px-4 py-2 text-sm font-bold uppercase text-paper shadow-brutal-sm transition-all hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal whitespace-nowrap"
           >
-            <MessageSquare className="h-4 w-4" />
-            İletişim
+            Görüşme Al
+            <ArrowUpRight className="h-4 w-4" />
           </Link>
           <button
             onClick={() => setMobileOpen(true)}
-            className="md:hidden border-3 border-ink bg-paper p-2 shadow-brutal-sm"
+            className="lg:hidden border-3 border-ink bg-paper p-2 shadow-brutal-sm"
             aria-label="Menü"
           >
             <Menu className="h-5 w-5" />
@@ -99,63 +96,14 @@ export function Navbar() {
         </div>
       </div>
 
-      {/* KOMPAKT RENKLİ DROPDOWN — icon + başlık grid */}
-      <AnimatePresence>
-        {openGroup && (
-          <motion.div
-            key={openGroup}
-            initial={{ opacity: 0, y: -6 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -6 }}
-            transition={{ duration: 0.15, ease: [0.2, 0.9, 0.3, 1] }}
-            className="absolute left-0 right-0 top-full"
-          >
-            {NAV_GROUPS.filter((g) => g.slug === openGroup).map((group) => {
-              const groupServices = SERVICES.filter((s) => group.serviceSlugs.includes(s.slug));
-              // Tek satırda göstermek için kompakt kart genişliği
-              const gridCols = groupServices.length <= 2 ? "grid-cols-2" : "grid-cols-2 sm:grid-cols-3";
-              return (
-                <div key={group.slug} className="mx-auto max-w-container px-6 pb-4">
-                  <div className="border-3 border-ink bg-paper shadow-brutal-lg p-3 max-w-2xl">
-                    <div className={cn("grid gap-2", gridCols)}>
-                      {groupServices.map((svc) => {
-                        const Icon = svc.icon;
-                        return (
-                          <Link
-                            key={svc.slug}
-                            href={svc.href}
-                            className={cn(
-                              "group flex items-center gap-2.5 border-3 border-ink px-3 py-2.5 shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all",
-                              TONE_BG[svc.tone],
-                              TONE_TEXT[svc.tone]
-                            )}
-                          >
-                            <div className="border-3 border-ink bg-paper text-ink p-1 flex-shrink-0">
-                              <Icon className="h-3.5 w-3.5" />
-                            </div>
-                            <span className="text-sm font-black leading-tight flex-1">
-                              {svc.title}
-                            </span>
-                          </Link>
-                        );
-                      })}
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      {/* MOBİL DRAWER */}
+      {/* MOBİL DRAWER — sade dikey liste */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="md:hidden fixed inset-0 bg-ink/80 z-50"
+            className="lg:hidden fixed inset-0 bg-ink/80 z-50"
             onClick={() => setMobileOpen(false)}
           >
             <motion.aside
@@ -176,33 +124,22 @@ export function Navbar() {
                   <X className="h-4 w-4" />
                 </button>
               </div>
-              <div className="p-4 space-y-3">
-                {NAV_GROUPS.map((group) => (
-                  <div key={group.slug}>
-                    <div className="text-xs font-black uppercase tracking-wider text-ink/60 mb-2 px-1">
-                      {group.label}
-                    </div>
-                    <div className="space-y-2">
-                      {SERVICES.filter((s) => group.serviceSlugs.includes(s.slug)).map((svc) => (
-                        <Link
-                          key={svc.slug}
-                          href={svc.href}
-                          onClick={() => setMobileOpen(false)}
-                          className={cn(
-                            "flex items-center gap-3 border-3 border-ink p-3 shadow-brutal-sm",
-                            TONE_BG[svc.tone],
-                            TONE_TEXT[svc.tone]
-                          )}
-                        >
-                          <svc.icon className="h-5 w-5" />
-                          <span className="font-bold uppercase text-sm">{svc.shortTitle}</span>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
+              <div className="p-4 space-y-2">
+                <div className="text-xs font-black uppercase tracking-wider text-ink/60 mb-2 px-1">
+                  Hizmetler
+                </div>
+                {NAV.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setMobileOpen(false)}
+                    className="block border-3 border-ink bg-brand-yellow p-3 font-bold uppercase text-sm text-ink shadow-brutal-sm"
+                  >
+                    {item.label}
+                  </Link>
                 ))}
                 <div className="h-px bg-ink/20 my-3" />
-                {SECONDARY_NAV.map((item) => (
+                {SECONDARY.map((item) => (
                   <Link
                     key={item.href}
                     href={item.href}
@@ -212,6 +149,14 @@ export function Navbar() {
                     {item.label}
                   </Link>
                 ))}
+                <Link
+                  href="/iletisim"
+                  onClick={() => setMobileOpen(false)}
+                  className="mt-4 flex items-center justify-between border-3 border-ink bg-ink p-3 font-bold uppercase text-sm text-paper shadow-brutal-sm"
+                >
+                  <span>Görüşme Al</span>
+                  <ArrowUpRight className="h-4 w-4" />
+                </Link>
               </div>
             </motion.aside>
           </motion.div>

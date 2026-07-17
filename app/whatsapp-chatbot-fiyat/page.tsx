@@ -20,9 +20,9 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "WhatsApp Chatbot Fiyatı Ne Kadar? — 2026 Türkiye Rehberi | PORTZEN",
+  title: "WhatsApp Chatbot Fiyat Rehberi — 2026 Türkiye | PORTZEN",
   description:
-    "WhatsApp chatbot fiyatları 2026: aylık ₺8.500'den başlayan paketler, ManyChat/Tidio/Wati karşılaştırması. Mesaj hacmi, entegrasyon ve AI etkisi. Şeffaf fiyat rehberi.",
+    "WhatsApp chatbot maliyetini belirleyen faktörler: mesaj hacmi, entegrasyon, AI etkisi. Kişiselleştirilmiş fiyat için ücretsiz brief görüşmesi.",
   keywords: [
     "whatsapp chatbot fiyat",
     "whatsapp chatbot fiyatları 2026",
