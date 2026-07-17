@@ -99,7 +99,7 @@ export default function HomePage() {
                 <div className="relative border-3 border-ink bg-mute rounded-[2rem] overflow-hidden">
                   <div className="aspect-[9/16] bg-ink/5 relative">
                     <video
-                      src="/assets/videos/ai-video/sample-2.mp4"
+                      src="/assets/hero/hero-bg.mp4"
                       autoPlay
                       loop
                       muted
