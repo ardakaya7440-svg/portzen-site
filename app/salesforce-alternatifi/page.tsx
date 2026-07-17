@@ -247,7 +247,7 @@ const packages = [
       "WhatsApp + e-mail kutusu",
       "KVKK paketi dahil"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

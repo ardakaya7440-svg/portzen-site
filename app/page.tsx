@@ -104,7 +104,7 @@ export default function HomePage() {
                   href="/iletisim"
                   className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-6 py-4 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
                 >
-                  Görüşme Al
+                  Projeyi Konuşalım
                   <ArrowUpRight className="h-4 w-4" />
                 </Link>
               </div>
@@ -297,7 +297,7 @@ export default function HomePage() {
                       href="/iletisim"
                       className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-6 py-4 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
                     >
-                      Görüşme Al
+                      Projeyi Konuşalım
                       <ArrowUpRight className="h-4 w-4" />
                     </Link>
                   </div>

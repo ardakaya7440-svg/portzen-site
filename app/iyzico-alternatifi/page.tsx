@@ -247,7 +247,7 @@ const packages = [
       "Test ortamı ve canlı geçiş",
       "30 gün destek"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

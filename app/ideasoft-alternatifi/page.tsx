@@ -249,7 +249,7 @@ const packages = [
       "PWA standart dahil",
       "3 ay bakım dahil"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

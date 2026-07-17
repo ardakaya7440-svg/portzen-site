@@ -161,7 +161,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <div className="border-3 border-ink bg-brand-yellow p-8 shadow-brutal-lg">
             <h2 className="font-display text-h2 font-black leading-tight mb-3">Sonraki referans sizinki olabilir.</h2>
-            <Link href="/iletisim" className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">Görüşme Al <ArrowUpRight className="h-4 w-4" /></Link>
+            <Link href="/iletisim" className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">Projeyi Konuşalım <ArrowUpRight className="h-4 w-4" /></Link>
           </div>
         </div>
       </section>

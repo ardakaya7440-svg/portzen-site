@@ -243,7 +243,7 @@ const packages = [
       "Iyzico veya Param entegre",
       "KVKK aydınlatma paketi"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

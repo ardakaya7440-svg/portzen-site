@@ -196,9 +196,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="mx-auto max-w-container px-6 py-12 grid gap-8 md:grid-cols-[1.5fr_1fr_1fr]">
             {/* Sol: Marka + iletişim */}
             <div>
-              <div className="inline-flex items-center border-3 border-paper bg-ink p-1.5 shadow-[6px_6px_0_#FFFDF5]">
-                <img src="/logo.png" alt="PORTZEN" width={56} height={56} className="h-14 w-14 object-contain" />
-              </div>
+              {/* Footer logo — dark zeminde beyaz varyant */}
+              <img src="/logo-white.png" alt="PORTZEN" width={60} height={60} style={{ width: 60, height: 60 }} className="object-contain" />
               <p className="mt-4 text-sm leading-relaxed text-paper/80 max-w-sm">
                 Beş ajans yerine tek ekip. AI reklam videosu, WhatsApp asistanı, otomasyon, sosyal medya ve web tasarım — hepsi tek koordinasyonla.
               </p>

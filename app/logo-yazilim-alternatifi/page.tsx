@@ -246,7 +246,7 @@ const packages = [
       "1 e-ticaret connector",
       "KVKK paketi dahil"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

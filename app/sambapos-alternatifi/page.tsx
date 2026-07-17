@@ -247,7 +247,7 @@ const packages = [
       "Aylık AI içgörü raporu",
       "Türkçe canlı destek"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

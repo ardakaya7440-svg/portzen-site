@@ -237,7 +237,7 @@ const packages = [
       "Türkçe video kılavuz",
       "30 gün e-posta destek"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

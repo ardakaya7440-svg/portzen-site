@@ -246,7 +246,7 @@ const packages = [
       "Aylık 1 optimizasyon turu",
       "E-posta destek"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

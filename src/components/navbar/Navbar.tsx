@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
  * - Sol: yeni dark logo (public/logo.png) — dark kutu içinde
  * - Orta: "Hizmetler" TEK dropdown (eski renkli mini grid — sade 5 hizmet)
  *         + Referanslar / Blog / Hakkımızda düz linkler (yeni sadelik)
- * - Sağ: "Görüşme Al" CTA
+ * - Sağ: "Projeyi Konuşalım" CTA
  * - Mobil: drawer (sade, hizmetler + secondary)
  */
 
@@ -61,22 +61,20 @@ export function Navbar() {
       onMouseLeave={() => setServicesOpen(false)}
     >
       <div className="mx-auto flex max-w-container items-center gap-2 px-6 py-3">
-        {/* Sol: Yeni dark logo — bg-ink kutu içinde */}
+        {/* Sol: Logo — yes.tools tarzı direkt, kutu yok. Ink siyah, transparan bg. */}
         <Link
           href="/"
           className="flex items-center shrink-0"
           onMouseEnter={() => setServicesOpen(false)}
         >
-          <div className="border-3 border-ink bg-ink p-1 shadow-brutal-sm flex items-center">
-            <Image
-              src="/logo.png"
-              alt="PORTZEN"
-              width={44}
-              height={44}
-              priority
-              className="h-11 w-11 object-contain"
-            />
-          </div>
+          <Image
+            src="/logo-inked.png"
+            alt="PORTZEN"
+            width={48}
+            height={48}
+            priority
+            className="h-12 w-12 object-contain"
+          />
         </Link>
 
         {/* Orta nav — desktop */}
@@ -124,7 +122,7 @@ export function Navbar() {
             href="/iletisim"
             className="hidden sm:inline-flex items-center gap-2 border-3 border-ink bg-ink px-4 py-2 text-sm font-bold uppercase text-paper shadow-brutal-sm transition-all hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal whitespace-nowrap"
           >
-            Görüşme Al
+            Projeyi Konuşalım
             <ArrowUpRight className="h-4 w-4" />
           </Link>
           <button
@@ -197,9 +195,7 @@ export function Navbar() {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex items-center justify-between p-4 border-b-3 border-ink">
-                <div className="border-3 border-ink bg-ink p-1 flex items-center">
-                  <Image src="/logo.png" alt="PORTZEN" width={36} height={36} className="h-9 w-9 object-contain" />
-                </div>
+                <Image src="/logo-inked.png" alt="PORTZEN" width={40} height={40} className="h-10 w-10 object-contain" />
                 <button
                   onClick={() => setMobileOpen(false)}
                   className="border-3 border-ink bg-paper p-1.5 shadow-brutal-sm"
@@ -246,7 +242,7 @@ export function Navbar() {
                   onClick={() => setMobileOpen(false)}
                   className="mt-4 flex items-center justify-between border-3 border-ink bg-ink p-3 font-bold uppercase text-sm text-paper shadow-brutal-sm"
                 >
-                  <span>Görüşme Al</span>
+                  <span>Projeyi Konuşalım</span>
                   <ArrowUpRight className="h-4 w-4" />
                 </Link>
               </div>

@@ -246,7 +246,7 @@ const packages = [
       "2 operatör hesabı",
       "KVKK paketi dahil"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

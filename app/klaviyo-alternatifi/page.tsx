@@ -247,7 +247,7 @@ const packages = [
       "Temel RFM segment",
       "1 e-ticaret entegrasyonu"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

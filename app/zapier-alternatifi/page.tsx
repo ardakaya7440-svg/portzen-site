@@ -242,7 +242,7 @@ const packages = [
       "n8n cloud (PORTZEN yönetir)",
       "Aylık 2 saat akış güncelleme"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

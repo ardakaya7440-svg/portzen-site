@@ -211,7 +211,7 @@ const packages = [
       "Aylık 1 optimizasyon",
       "Temel performans raporu"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

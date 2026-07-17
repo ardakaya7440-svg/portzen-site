@@ -236,7 +236,7 @@ const packages = [
       "KVKK aydınlatma akışı",
       "Aylık 1 optimizasyon turu"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",

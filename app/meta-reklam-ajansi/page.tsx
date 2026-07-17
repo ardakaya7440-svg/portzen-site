@@ -295,7 +295,7 @@ const packages = [
       "Aylık dashboard + rapor",
       "Aylık 1 strateji toplantısı"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Büyüme",

@@ -248,7 +248,7 @@ const packages = [
       "Temel segmentasyon",
       "Türkçe şablon kütüphanesi"
     ],
-    cta: "Görüşme Al"
+    cta: "Projeyi Konuşalım"
   },
   {
     name: "Pro",
