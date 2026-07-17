@@ -79,7 +79,7 @@ export const SERVICES: ServiceCategory[] = [
     ],
     faqs: [
       { q: "Gerçek oyuncu veya kameraman kullanmıyor musunuz?", a: "Hayır. Sahnenin hepsi yapay zeka ile üretilir. Bu sayede çekim, ekip ve stüdyo masrafı tamamen kalkar." },
-      { q: "Bir video kaç para?", a: "Tek video ₺2.500'den başlar. Aylık 4 videoluk seri ₺8.500'dür. Detaylı paket için bize yazın." },
+      { q: "Bir video kaç para?", a: "Fiyatı brief görüşmesinde netleştiriyoruz — sektör, sahne sayısı, teslim süresi ve dağıtım kanalı belirleyici. Ücretsiz 30 dakikalık görüşme için bize yazın." },
       { q: "Kaç revize hakkım var?", a: "Tek video pakette 1 revize, seri pakette aylık 8 revize. Senaryo onaylanınca büyük dönüşler nadir olur." },
       { q: "Hangi formatlarda teslim alıyorum?", a: "Dikey (kısa video), kare (sosyal medya feed) ve yatay (YouTube) — üçü birden tek üretimden çıkar." }
     ]
@@ -204,7 +204,7 @@ export const SERVICES: ServiceCategory[] = [
       { step: "04", title: "Aylık Rapor", description: "Erişim, etkileşim, takipçi büyümesi → bir sonraki ay optimize." }
     ],
     faqs: [
-      { q: "Aylık paket ne kadar?", a: "Başlangıç paketi ₺2.500 (4 video). Büyüme paketi ₺8.500 (4 video + görsel set + hikaye takvimi). Özel paket için bize yazın." },
+      { q: "Aylık paket ne kadar?", a: "Fiyatı ihtiyacına göre kişiselleştiriyoruz — kaç platform, kaç içerik, ne kadar yönetim istiyorsun. Ücretsiz görüşmede net rakam veriyoruz." },
       { q: "Sen mi yayınlıyorsun, biz mi?", a: "İkisi de mümkün. Genelde biz planlı yayına alıyoruz, sen sadece onay veriyorsun. İstersen sen yayınlarsın." },
       { q: "İçerik stilini biz mi siz mi belirliyoruz?", a: "Birlikte. İlk hafta brief'te markanın tonu, görsel dili ve sınırları netleştirilir. Sonrasında biz üretiriz, sen onaylarsın." },
       { q: "Sonuç garantisi veriyor musunuz?", a: "Belli bir büyüme oranı garantileyemiyoruz çünkü içerik kalitesi + tutarlılık + zaman birleşik etki. Ama 3 ay sonu net rapor + optimizasyon sözümüz var." }
