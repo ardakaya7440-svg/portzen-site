@@ -235,25 +235,27 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </ul>
             </div>
 
-            {/* Kolon 3: Karşılaştırma / Alternatif sayfaları */}
+            {/* Kolon 3: Piyasa Alternatifleri — marka adı yok, kategori odaklı */}
             <div>
-              <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Karşılaştırma</div>
+              <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">
+                <a href="/karsilastirma" className="hover:text-brand-yellow transition-colors">Karşılaştırma →</a>
+              </div>
               <ul className="space-y-2 text-sm">
-                <li><a href="/hubspot-alternatifi" className="hover:text-brand-yellow transition-colors">HubSpot Alternatifi</a></li>
-                <li><a href="/salesforce-alternatifi" className="hover:text-brand-yellow transition-colors">Salesforce Alternatifi</a></li>
-                <li><a href="/manychat-alternatifi" className="hover:text-brand-yellow transition-colors">ManyChat Alternatifi</a></li>
-                <li><a href="/tidio-alternatifi" className="hover:text-brand-yellow transition-colors">Tidio Alternatifi</a></li>
-                <li><a href="/intercom-alternatifi" className="hover:text-brand-yellow transition-colors">Intercom Alternatifi</a></li>
-                <li><a href="/zapier-alternatifi" className="hover:text-brand-yellow transition-colors">Zapier Alternatifi</a></li>
-                <li><a href="/mailchimp-alternatifi" className="hover:text-brand-yellow transition-colors">Mailchimp Alternatifi</a></li>
-                <li><a href="/klaviyo-alternatifi" className="hover:text-brand-yellow transition-colors">Klaviyo Alternatifi</a></li>
-                <li><a href="/iyzico-alternatifi" className="hover:text-brand-yellow transition-colors">iyzico Alternatifi</a></li>
-                <li><a href="/shopier-alternatifi" className="hover:text-brand-yellow transition-colors">Shopier Alternatifi</a></li>
-                <li><a href="/ideasoft-alternatifi" className="hover:text-brand-yellow transition-colors">Ideasoft Alternatifi</a></li>
-                <li><a href="/ticimax-alternatifi" className="hover:text-brand-yellow transition-colors">Ticimax Alternatifi</a></li>
-                <li><a href="/sambapos-alternatifi" className="hover:text-brand-yellow transition-colors">SambaPOS Alternatifi</a></li>
-                <li><a href="/logo-yazilim-alternatifi" className="hover:text-brand-yellow transition-colors">Logo Yazılım Alternatifi</a></li>
-                <li><a href="/netgsm-alternatifi" className="hover:text-brand-yellow transition-colors">Netgsm Alternatifi</a></li>
+                <li><a href="/hubspot-alternatifi" className="hover:text-brand-yellow transition-colors">Türkçe KOBİ CRM'i</a></li>
+                <li><a href="/salesforce-alternatifi" className="hover:text-brand-yellow transition-colors">Kurumsal Ölçekli CRM</a></li>
+                <li><a href="/manychat-alternatifi" className="hover:text-brand-yellow transition-colors">Sosyal Medya Chatbot</a></li>
+                <li><a href="/tidio-alternatifi" className="hover:text-brand-yellow transition-colors">Web Canlı Destek Botu</a></li>
+                <li><a href="/intercom-alternatifi" className="hover:text-brand-yellow transition-colors">Müşteri Mesajlaşma</a></li>
+                <li><a href="/zapier-alternatifi" className="hover:text-brand-yellow transition-colors">İş Akışı Otomasyonu</a></li>
+                <li><a href="/mailchimp-alternatifi" className="hover:text-brand-yellow transition-colors">Newsletter Aracı</a></li>
+                <li><a href="/klaviyo-alternatifi" className="hover:text-brand-yellow transition-colors">E-ticaret E-postası</a></li>
+                <li><a href="/iyzico-alternatifi" className="hover:text-brand-yellow transition-colors">Online Ödeme Servisi</a></li>
+                <li><a href="/shopier-alternatifi" className="hover:text-brand-yellow transition-colors">Basit Online Satış</a></li>
+                <li><a href="/ideasoft-alternatifi" className="hover:text-brand-yellow transition-colors">Yerli E-ticaret Yazılımı</a></li>
+                <li><a href="/ticimax-alternatifi" className="hover:text-brand-yellow transition-colors">Kurumsal E-ticaret</a></li>
+                <li><a href="/sambapos-alternatifi" className="hover:text-brand-yellow transition-colors">Restoran POS Sistemi</a></li>
+                <li><a href="/logo-yazilim-alternatifi" className="hover:text-brand-yellow transition-colors">Ön Muhasebe Yazılımı</a></li>
+                <li><a href="/netgsm-alternatifi" className="hover:text-brand-yellow transition-colors">Toplu SMS Servisi</a></li>
               </ul>
             </div>
 

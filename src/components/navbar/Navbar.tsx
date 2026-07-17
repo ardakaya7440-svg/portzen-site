@@ -31,6 +31,8 @@ const SERVICES: ServiceItem[] = [
 ];
 
 const NAV = [
+  { label: "Karşılaştırma", href: "/karsilastirma" },
+  { label: "Blog", href: "/blog" },
   { label: "Referanslar", href: "/referanslar" },
   { label: "SSS", href: "/#sss" },
   { label: "İletişim", href: "/iletisim" }
