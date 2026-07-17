@@ -22,15 +22,18 @@ const SERVICES = [
   { title: "Web Tasarım", tagline: "Hızlı, satış odaklı, mobil uyumlu site.", href: "/web-tasarim", icon: Globe, tone: "bg-brand-orange" }
 ] as const;
 
-// Kayan bant — sundağumuz hizmet başlıkları (uydurma referans değil, gerçek hizmetler)
-const REFS = [
-  "AI Reklam Videosu",
-  "WhatsApp Asistanı",
-  "Instagram DM Otomasyonu",
-  "CRM Otomasyonu",
-  "Sosyal Medya İçerik",
-  "Web Tasarım",
-  "AI Influencer Karakter"
+// Kayan bant — gerçek hizmet başlıkları, her biri kendi sayfasına bağlı
+const REFS: { label: string; href: string }[] = [
+  { label: "AI Reklam Videosu", href: "/yapay-zeka-video-uretimi" },
+  { label: "WhatsApp Asistanı", href: "/whatsapp-ai-asistani" },
+  { label: "Instagram DM Otomasyonu", href: "/instagram-dm-otomasyonu" },
+  { label: "CRM Otomasyonu", href: "/crm-otomasyonu" },
+  { label: "Sosyal Medya İçerik", href: "/sosyal-medya-yonetimi" },
+  { label: "Web Tasarım", href: "/web-tasarim" },
+  { label: "Meta Reklam Ajansı", href: "/meta-reklam-ajansi" },
+  { label: "AI Chatbot Türkçe", href: "/ai-chatbot-turkce" },
+  { label: "n8n Kurulum Hizmeti", href: "/n8n-kurulum-hizmeti" },
+  { label: "Yapay Zeka Call Center", href: "/yapay-zeka-call-center" }
 ];
 
 const AI_EXAMPLES = [
@@ -122,16 +125,17 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Alt bant — kayan referans marka isimleri (Fraunces serif) */}
+        {/* Alt bant — kayan hizmet linkleri (Fraunces serif, tıklanabilir) */}
         <div className="border-t-3 border-b-3 border-ink bg-paper overflow-hidden">
           <div className="marquee-track flex items-center gap-14 py-6 whitespace-nowrap">
-            {[...REFS, ...REFS, ...REFS].map((name, i) => (
-              <span
+            {[...REFS, ...REFS, ...REFS].map((item, i) => (
+              <Link
                 key={i}
-                className="font-serif text-2xl md:text-3xl font-bold italic text-ink/70 tracking-tight"
+                href={item.href}
+                className="font-serif text-2xl md:text-3xl font-bold italic text-ink/70 hover:text-brand-orange transition-colors tracking-tight"
               >
-                {name}
-              </span>
+                {item.label}
+              </Link>
             ))}
           </div>
         </div>

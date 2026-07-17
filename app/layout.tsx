@@ -193,10 +193,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
         <footer className="border-t-3 border-ink bg-ink text-paper mt-section">
-          <div className="mx-auto max-w-container px-6 py-12 grid gap-8 md:grid-cols-[1.5fr_1fr_1fr]">
-            {/* Sol: Marka + iletişim */}
+          <div className="mx-auto max-w-container px-6 py-14 grid gap-10 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
+            {/* Kolon 1: Marka + iletişim */}
             <div>
-              {/* Footer logo — dark zeminde beyaz varyant */}
               <img src="/logo-white.png" alt="PORTZEN" width={60} height={60} style={{ width: 60, height: 60 }} className="object-contain" />
               <p className="mt-4 text-sm leading-relaxed text-paper/80 max-w-sm">
                 Beş ajans yerine tek ekip. AI reklam videosu, WhatsApp asistanı, otomasyon, sosyal medya ve web tasarım — hepsi tek koordinasyonla.
@@ -216,33 +215,73 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
             </div>
 
-            {/* Orta: Hizmetler */}
+            {/* Kolon 2: Ana Hizmetler */}
             <div>
               <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Hizmetler</div>
               <ul className="space-y-2 text-sm">
-                <li><a href="/sosyal-medya-ajansi" className="hover:text-brand-yellow transition-colors">Sosyal Medya Ajansı</a></li>
-                <li><a href="/meta-reklam-ajansi" className="hover:text-brand-yellow transition-colors">Meta Reklam Ajansı</a></li>
-                <li><a href="/yapay-zeka-video-uretimi" className="hover:text-brand-yellow transition-colors">Yapay Zeka Video Üretimi</a></li>
+                <li><a href="/yapay-zeka-video-uretimi" className="hover:text-brand-yellow transition-colors">AI Reklam Videosu</a></li>
                 <li><a href="/whatsapp-ai-asistani" className="hover:text-brand-yellow transition-colors">WhatsApp AI Asistanı</a></li>
                 <li><a href="/instagram-dm-otomasyonu" className="hover:text-brand-yellow transition-colors">Instagram DM Otomasyonu</a></li>
-                <li><a href="/ai-reklam-videosu" className="hover:text-brand-yellow transition-colors">AI Reklam Videosu</a></li>
                 <li><a href="/crm-otomasyonu" className="hover:text-brand-yellow transition-colors">CRM Otomasyonu</a></li>
+                <li><a href="/sosyal-medya-yonetimi" className="hover:text-brand-yellow transition-colors">Sosyal Medya Yönetimi</a></li>
+                <li><a href="/sosyal-medya-ajansi" className="hover:text-brand-yellow transition-colors">Sosyal Medya Ajansı</a></li>
+                <li><a href="/sosyal-medya-viral-video" className="hover:text-brand-yellow transition-colors">Viral Video Üretimi</a></li>
+                <li><a href="/meta-reklam-ajansi" className="hover:text-brand-yellow transition-colors">Meta Reklam Ajansı</a></li>
                 <li><a href="/web-tasarim" className="hover:text-brand-yellow transition-colors">Web Tasarım</a></li>
+                <li><a href="/web-sitesi-tasarimi" className="hover:text-brand-yellow transition-colors">Web Sitesi Tasarımı</a></li>
+                <li><a href="/yapay-zeka-call-center" className="hover:text-brand-yellow transition-colors">AI Call Center</a></li>
+                <li><a href="/n8n-kurulum-hizmeti" className="hover:text-brand-yellow transition-colors">n8n Kurulum</a></li>
+                <li><a href="/ai-chatbot-turkce" className="hover:text-brand-yellow transition-colors">AI Chatbot Türkçe</a></li>
               </ul>
             </div>
 
-            {/* Sağ: Kurumsal */}
+            {/* Kolon 3: Karşılaştırma / Alternatif sayfaları */}
+            <div>
+              <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Karşılaştırma</div>
+              <ul className="space-y-2 text-sm">
+                <li><a href="/hubspot-alternatifi" className="hover:text-brand-yellow transition-colors">HubSpot Alternatifi</a></li>
+                <li><a href="/salesforce-alternatifi" className="hover:text-brand-yellow transition-colors">Salesforce Alternatifi</a></li>
+                <li><a href="/manychat-alternatifi" className="hover:text-brand-yellow transition-colors">ManyChat Alternatifi</a></li>
+                <li><a href="/tidio-alternatifi" className="hover:text-brand-yellow transition-colors">Tidio Alternatifi</a></li>
+                <li><a href="/intercom-alternatifi" className="hover:text-brand-yellow transition-colors">Intercom Alternatifi</a></li>
+                <li><a href="/zapier-alternatifi" className="hover:text-brand-yellow transition-colors">Zapier Alternatifi</a></li>
+                <li><a href="/mailchimp-alternatifi" className="hover:text-brand-yellow transition-colors">Mailchimp Alternatifi</a></li>
+                <li><a href="/klaviyo-alternatifi" className="hover:text-brand-yellow transition-colors">Klaviyo Alternatifi</a></li>
+                <li><a href="/iyzico-alternatifi" className="hover:text-brand-yellow transition-colors">iyzico Alternatifi</a></li>
+                <li><a href="/shopier-alternatifi" className="hover:text-brand-yellow transition-colors">Shopier Alternatifi</a></li>
+                <li><a href="/ideasoft-alternatifi" className="hover:text-brand-yellow transition-colors">Ideasoft Alternatifi</a></li>
+                <li><a href="/ticimax-alternatifi" className="hover:text-brand-yellow transition-colors">Ticimax Alternatifi</a></li>
+                <li><a href="/sambapos-alternatifi" className="hover:text-brand-yellow transition-colors">SambaPOS Alternatifi</a></li>
+                <li><a href="/logo-yazilim-alternatifi" className="hover:text-brand-yellow transition-colors">Logo Yazılım Alternatifi</a></li>
+                <li><a href="/netgsm-alternatifi" className="hover:text-brand-yellow transition-colors">Netgsm Alternatifi</a></li>
+              </ul>
+            </div>
+
+            {/* Kolon 4: Kurumsal + Kaynaklar + Yasal */}
             <div>
               <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Kurumsal</div>
-              <ul className="space-y-2 text-sm">
-                <li><a href="/blog" className="hover:text-brand-yellow transition-colors">Blog</a></li>
-                <li><a href="/referanslar" className="hover:text-brand-yellow transition-colors">Referanslar</a></li>
+              <ul className="space-y-2 text-sm mb-6">
                 <li><a href="/hakkimizda" className="hover:text-brand-yellow transition-colors">Hakkımızda</a></li>
+                <li><a href="/referanslar" className="hover:text-brand-yellow transition-colors">Referanslar</a></li>
+                <li><a href="/blog" className="hover:text-brand-yellow transition-colors">Blog</a></li>
                 <li><a href="/iletisim" className="hover:text-brand-yellow transition-colors">İletişim</a></li>
-                <li className="pt-2 mt-2 border-t border-paper/15"><a href="/kvkk" className="text-paper/60 hover:text-brand-yellow transition-colors text-xs">KVKK</a></li>
-                <li><a href="/gizlilik-politikasi" className="text-paper/60 hover:text-brand-yellow transition-colors text-xs">Gizlilik Politikası</a></li>
-                <li><a href="/kullanim-sartlari" className="text-paper/60 hover:text-brand-yellow transition-colors text-xs">Kullanım Şartları</a></li>
-                <li><a href="/sitemap.xml" className="text-paper/40 hover:text-brand-yellow transition-colors text-xs">Sitemap</a></li>
+              </ul>
+
+              <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Sektörel Örnekler</div>
+              <ul className="space-y-2 text-sm mb-6">
+                <li><a href="/web-tasarim/restoran" className="hover:text-brand-yellow transition-colors">Restoran Web Tasarım</a></li>
+                <li><a href="/web-tasarim/klinik" className="hover:text-brand-yellow transition-colors">Klinik Web Tasarım</a></li>
+                <li><a href="/whatsapp-ai-asistani/emlak" className="hover:text-brand-yellow transition-colors">Emlak WhatsApp AI</a></li>
+                <li><a href="/instagram-dm-otomasyonu/butik" className="hover:text-brand-yellow transition-colors">Butik Instagram DM</a></li>
+                <li><a href="/ai-reklam-videosu/eczane" className="hover:text-brand-yellow transition-colors">Eczane AI Video</a></li>
+              </ul>
+
+              <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Yasal</div>
+              <ul className="space-y-2 text-xs">
+                <li><a href="/kvkk" className="text-paper/70 hover:text-brand-yellow transition-colors">KVKK</a></li>
+                <li><a href="/gizlilik-politikasi" className="text-paper/70 hover:text-brand-yellow transition-colors">Gizlilik Politikası</a></li>
+                <li><a href="/kullanim-sartlari" className="text-paper/70 hover:text-brand-yellow transition-colors">Kullanım Şartları</a></li>
+                <li><a href="/sitemap.xml" className="text-paper/50 hover:text-brand-yellow transition-colors">Sitemap</a></li>
               </ul>
             </div>
           </div>
