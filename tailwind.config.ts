@@ -19,9 +19,10 @@ const config: Config = {
         },
       },
       fontFamily: {
-        // Single typeface — both aliases map to Montserrat (revision §1)
         display: ["var(--font-sans)", "system-ui", "sans-serif"],
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        // Editorial serif — italic vurgu, hero mark, wordmark
+        serif: ["var(--font-serif)", "Georgia", "serif"],
       },
       maxWidth: {
         container: "1200px",

@@ -3,77 +3,61 @@ import { ArrowUpRight, Video, MessageSquare, Workflow, Sparkles, Globe } from "l
 import { Reveal } from "@/components/ui/reveal";
 
 /**
- * Anasayfa — sade, odaklı, dikkat dağıtmayan yapı.
- * Amaç: müşteri 10 saniye içinde PORTZEN'in ne yaptığını anlamalı.
+ * Anasayfa — editorial brutalism (Yön A rafine).
+ * Thumbnail'den ilham: iç içe sarı+paper offset kutu, büyük serif "P" mark, italic vurgu.
  *
  * Bölümler:
- * 1. Hero — headline + tek CTA + arka plan hero video
- * 2. 5 hizmet grid — icon + başlık + 1 satır tagline
- * 3. Vaka: Cihangir web sitesi (video + 3 rakam)
- * 4. AI video örnekleri (3 kart, autoplay muted loop)
- * 5. Final CTA
- *
- * FİYAT BİLGİSİ YOK. Brand adı: PORTZEN.
+ * 1. Hero — serif "P" mark + iç içe çerçeve + italic vurgu
+ * 2. 5 sade hizmet kart
+ * 3. Vaka: Cihangir (iç içe çerçeve pattern)
+ * 4. AI video örnekleri (3 kart 9:16)
+ * 5. Final CTA (iç içe çerçeve pattern)
  */
 
 const SERVICES = [
-  {
-    title: "AI Reklam Videosu",
-    tagline: "Oyuncu ve stüdyo yok. 3 günde teslim.",
-    href: "/yapay-zeka-video-uretimi",
-    icon: Video,
-    tone: "bg-brand-pink"
-  },
-  {
-    title: "WhatsApp AI Asistanı",
-    tagline: "60 saniyede müşteriyi karşılayan asistan.",
-    href: "/whatsapp-ai-asistani",
-    icon: MessageSquare,
-    tone: "bg-brand-green"
-  },
-  {
-    title: "Otomasyon & CRM",
-    tagline: "Tekrarlı işleri %80 azaltan iş akışı.",
-    href: "/crm-otomasyonu",
-    icon: Workflow,
-    tone: "bg-brand-blue"
-  },
-  {
-    title: "Sosyal Medya İçerik",
-    tagline: "Aylık video + görsel + hikaye paketi.",
-    href: "/sosyal-medya-yonetimi",
-    icon: Sparkles,
-    tone: "bg-brand-yellow"
-  },
-  {
-    title: "Web Tasarım",
-    tagline: "Hızlı, satış odaklı, mobil uyumlu site.",
-    href: "/web-tasarim",
-    icon: Globe,
-    tone: "bg-brand-orange"
-  }
+  { title: "AI Reklam Videosu", tagline: "Oyuncu ve stüdyo yok. 3 günde teslim.", href: "/yapay-zeka-video-uretimi", icon: Video, tone: "bg-brand-pink" },
+  { title: "WhatsApp AI Asistanı", tagline: "60 saniyede müşteriyi karşılayan asistan.", href: "/whatsapp-ai-asistani", icon: MessageSquare, tone: "bg-brand-green" },
+  { title: "Otomasyon & CRM", tagline: "Tekrarlı işleri %80 azaltan iş akışı.", href: "/crm-otomasyonu", icon: Workflow, tone: "bg-brand-blue" },
+  { title: "Sosyal Medya İçerik", tagline: "Aylık video + görsel + hikaye paketi.", href: "/sosyal-medya-yonetimi", icon: Sparkles, tone: "bg-brand-yellow" },
+  { title: "Web Tasarım", tagline: "Hızlı, satış odaklı, mobil uyumlu site.", href: "/web-tasarim", icon: Globe, tone: "bg-brand-orange" }
 ] as const;
 
 const AI_EXAMPLES = [
-  {
-    src: "/assets/videos/ai-video/sample-1.mp4",
-    caption: "Sinematik marka reklamı"
-  },
-  {
-    src: "/assets/videos/ai-video/sample-2.mp4",
-    caption: "AI karakter tanıtımı"
-  },
-  {
-    src: "/assets/videos/ai-video/sample-3.mp4",
-    caption: "Sektörel reklam"
-  }
+  { src: "/assets/videos/ai-video/sample-1.mp4", caption: "Sinematik marka reklamı" },
+  { src: "/assets/videos/ai-video/sample-2.mp4", caption: "AI karakter tanıtımı" },
+  { src: "/assets/videos/ai-video/sample-3.mp4", caption: "Sektörel reklam" }
 ];
+
+/**
+ * İç içe offset kutu wrapper — thumbnail'in imza pattern'i.
+ * Dış kutu: sarı + siyah kenarlık. İç kutu: paper + siyah kenarlık, sağa-aşağı offset.
+ */
+function NestedFrame({
+  children,
+  outerColor = "bg-brand-yellow",
+  className = ""
+}: {
+  children: React.ReactNode;
+  outerColor?: string;
+  className?: string;
+}) {
+  return (
+    <div className={`relative ${className}`}>
+      {/* Dış çerçeve */}
+      <div className={`absolute inset-0 border-3 border-ink ${outerColor} translate-x-3 translate-y-3`} aria-hidden />
+      {/* İç çerçeve — içerik */}
+      <div className="relative border-3 border-ink bg-paper">
+        {children}
+      </div>
+    </div>
+  );
+}
 
 export default function HomePage() {
   return (
     <>
       {/* ═════════════════════════════════════════════
-          1. HERO — sade, tek CTA
+          1. HERO — editorial serif "P" mark + iç içe çerçeve
           ═════════════════════════════════════════════ */}
       <section className="relative overflow-hidden">
         {/* Arka plan hero videosu */}
@@ -88,42 +72,62 @@ export default function HomePage() {
           >
             <source src="/assets/hero/hero-bg.mp4" type="video/mp4" />
           </video>
-          {/* Görüntüyü sakinleştirir — metin okunsun diye */}
-          <div className="absolute inset-0 bg-gradient-to-b from-paper/60 via-paper/75 to-paper" />
+          <div className="absolute inset-0 bg-gradient-to-b from-paper/70 via-paper/85 to-paper" />
         </div>
 
         <div className="mx-auto max-w-container px-6 pt-20 pb-28 md:pt-28 md:pb-36 relative">
-          <Reveal>
-            <div className="inline-block border-3 border-ink bg-brand-yellow px-3 py-1.5 text-xs font-black uppercase tracking-wider mb-6 shadow-brutal-sm">
-              PORTZEN
+          <div className="grid gap-16 lg:grid-cols-[1.4fr_1fr] items-center">
+            {/* Sol: Metin */}
+            <div>
+              <Reveal>
+                <div className="inline-block border-3 border-ink bg-brand-yellow px-3 py-1.5 text-xs font-black uppercase tracking-[0.15em] mb-6 shadow-brutal-sm">
+                  PORTZEN
+                </div>
+              </Reveal>
+
+              <Reveal delay={100}>
+                <h1 className="font-display text-h1 font-black leading-[0.95] text-ink">
+                  Beş ajans yerine <br />
+                  <span className="font-serif italic font-normal">tek</span>{" "}
+                  <span className="bg-ink text-paper px-3 -mx-1 inline-block">ekip</span>{" "}
+                  sistemini kursun.
+                </h1>
+              </Reveal>
+
+              <Reveal delay={200}>
+                <p className="mt-6 max-w-prose text-body text-ink/80">
+                  AI reklam videosu, WhatsApp asistanı, otomasyon, sosyal medya içerik ve web tasarım — hepsi tek ekipten. Brief bırak, sistemin çıksın.
+                </p>
+              </Reveal>
+
+              <Reveal delay={300}>
+                <div className="mt-8">
+                  <Link
+                    href="/iletisim"
+                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-6 py-4 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
+                  >
+                    Görüşme Al
+                    <ArrowUpRight className="h-4 w-4" />
+                  </Link>
+                </div>
+              </Reveal>
             </div>
-          </Reveal>
 
-          <Reveal delay={100}>
-            <h1 className="font-display text-h1 font-black leading-[0.95] text-ink max-w-4xl">
-              Beş ajans yerine <br />
-              <span className="bg-ink text-paper px-3 -mx-1 inline-block">tek ekip</span>{" "}
-              sistemini kursun.
-            </h1>
-          </Reveal>
-
-          <Reveal delay={200}>
-            <p className="mt-6 max-w-prose text-body text-ink/80">
-              AI reklam videosu, WhatsApp asistanı, otomasyon, sosyal medya içerik ve web tasarım — hepsi tek ekipten. Brief bırak, sistemin çıksın.
-            </p>
-          </Reveal>
-
-          <Reveal delay={300}>
-            <div className="mt-8">
-              <Link
-                href="/iletisim"
-                className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-6 py-4 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
-              >
-                Görüşme Al
-                <ArrowUpRight className="h-4 w-4" />
-              </Link>
-            </div>
-          </Reveal>
+            {/* Sağ: iç içe çerçeve + serif "P" mark */}
+            <Reveal delay={200}>
+              <NestedFrame outerColor="bg-brand-yellow" className="aspect-square max-w-[400px] mx-auto lg:mx-0 lg:ml-auto">
+                <div className="aspect-square flex items-center justify-center">
+                  <span
+                    className="font-serif font-black text-ink leading-none select-none"
+                    style={{ fontSize: "min(60vw, 240px)" }}
+                    aria-hidden
+                  >
+                    P
+                  </span>
+                </div>
+              </NestedFrame>
+            </Reveal>
+          </div>
         </div>
       </section>
 
@@ -135,7 +139,7 @@ export default function HomePage() {
           <Reveal>
             <div className="mb-12 max-w-2xl">
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Ne yapıyoruz.
+                Ne <span className="font-serif italic font-normal">yapıyoruz</span>.
               </h2>
               <p className="mt-3 text-body text-ink/70">
                 Beş hizmet, tek ekip. İşletmenin altyapısını tek koordinasyonla kuruyoruz.
@@ -166,17 +170,17 @@ export default function HomePage() {
       </section>
 
       {/* ═════════════════════════════════════════════
-          3. VAKA — Cihangir Brasserie web sitesi
+          3. VAKA — Cihangir Brasserie (iç içe çerçeve pattern)
           ═════════════════════════════════════════════ */}
       <section className="bg-ink text-paper py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-yellow px-3 py-1 text-ink text-xs font-black uppercase tracking-wider mb-3 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-paper bg-brand-yellow px-3 py-1 text-ink text-xs font-black uppercase tracking-[0.15em] mb-3 shadow-[6px_6px_0_#FFFDF5]">
                 Vaka Çalışması
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Cihangir Brasserie — 18 günde teslim.
+                Cihangir Brasserie — <span className="font-serif italic font-normal">18 günde</span> teslim.
               </h2>
               <p className="mt-3 text-body text-paper/80">
                 Online rezervasyon, dijital menü, harita entegrasyonu, atmosfer galerisi. Restoran sektörüne özel altyapı.
@@ -185,20 +189,23 @@ export default function HomePage() {
           </Reveal>
 
           <div className="grid gap-8 lg:grid-cols-[1.4fr_1fr] items-start">
-            {/* Video */}
+            {/* Video — iç içe offset paper çerçeve */}
             <Reveal>
-              <div className="border-3 border-paper bg-paper shadow-[8px_8px_0_#FFFDF5] overflow-hidden aspect-video">
-                <video
-                  src="/assets/videos/referanslar/restoran-web-ornegi.mp4"
-                  poster="/assets/videos/referanslar/restoran-web-ornegi-poster.jpg"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  controls
-                  preload="metadata"
-                  className="h-full w-full object-cover"
-                />
+              <div className="relative">
+                <div className="absolute inset-0 bg-brand-yellow border-3 border-paper translate-x-3 translate-y-3" aria-hidden />
+                <div className="relative border-3 border-paper bg-paper aspect-video overflow-hidden">
+                  <video
+                    src="/assets/videos/referanslar/restoran-web-ornegi.mp4"
+                    poster="/assets/videos/referanslar/restoran-web-ornegi-poster.jpg"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    controls
+                    preload="metadata"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
               </div>
             </Reveal>
 
@@ -216,7 +223,7 @@ export default function HomePage() {
                       <ArrowUpRight className="h-5 w-5" />
                       <span className="font-display text-4xl font-black leading-none">{stat.after}</span>
                     </div>
-                    <div className="text-xs font-bold uppercase tracking-wider opacity-75">{stat.label}</div>
+                    <div className="text-xs font-bold uppercase tracking-[0.15em] opacity-75">{stat.label}</div>
                   </div>
                 </Reveal>
               ))}
@@ -243,7 +250,7 @@ export default function HomePage() {
           <Reveal>
             <div className="mb-12 max-w-2xl">
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                AI ile ürettiğimiz videolar.
+                AI ile <span className="font-serif italic font-normal">ürettiğimiz</span> videolar.
               </h2>
               <p className="mt-3 text-body text-ink/70">
                 Oyuncu, stüdyo, ekipman yok. Marka mesajı ve ürün odağı var. 3 gün içinde teslim.
@@ -289,30 +296,32 @@ export default function HomePage() {
       </section>
 
       {/* ═════════════════════════════════════════════
-          5. FINAL CTA — sade, tek buton
+          5. FINAL CTA — iç içe çerçeve pattern
           ═════════════════════════════════════════════ */}
       <section className="py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="border-3 border-ink bg-brand-yellow p-8 md:p-16 shadow-brutal-lg">
-              <div className="max-w-2xl">
-                <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                  Brief bırak.
-                </h2>
-                <p className="mt-3 text-body text-ink/80">
-                  30 dakikalık analiz görüşmesi. İşletmenize hangi hizmetin en hızlı sonuç vereceğini birlikte belirleyelim.
-                </p>
-                <div className="mt-6">
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-6 py-4 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
-                  >
-                    Görüşme Al
-                    <ArrowUpRight className="h-4 w-4" />
-                  </Link>
+            <NestedFrame outerColor="bg-brand-yellow">
+              <div className="p-8 md:p-16">
+                <div className="max-w-2xl">
+                  <h2 className="font-display text-h2 font-black leading-tight text-ink">
+                    <span className="font-serif italic font-normal">Brief</span> bırak.
+                  </h2>
+                  <p className="mt-3 text-body text-ink/80">
+                    30 dakikalık analiz görüşmesi. İşletmenize hangi hizmetin en hızlı sonuç vereceğini birlikte belirleyelim.
+                  </p>
+                  <div className="mt-6">
+                    <Link
+                      href="/iletisim"
+                      className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-6 py-4 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
+                    >
+                      Görüşme Al
+                      <ArrowUpRight className="h-4 w-4" />
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            </NestedFrame>
           </Reveal>
         </div>
       </section>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Montserrat, Fraunces } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Navbar } from "@/components/navbar/Navbar";
 import "./globals.css";
@@ -9,6 +9,15 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-ZKZGB9GPB2";
 const montserrat = Montserrat({
   subsets: ["latin", "latin-ext"],
   variable: "--font-sans",
+  display: "swap"
+});
+
+// Editorial serif — display italic vurguları ve marka wordmark için
+const fraunces = Fraunces({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-serif",
+  weight: ["400", "600", "800", "900"],
+  style: ["normal", "italic"],
   display: "swap"
 });
 
@@ -169,7 +178,7 @@ const websiteSchema = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="tr" className={montserrat.variable}>
+    <html lang="tr" className={`${montserrat.variable} ${fraunces.variable}`}>
       <body className="bg-paper text-ink antialiased">
         <Navbar />
         <main className="pt-[80px]">{children}</main>
