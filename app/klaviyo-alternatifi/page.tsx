@@ -9,11 +9,8 @@ import {
   Sparkles,
   ShieldCheck,
   Users,
-  BookOpen,
   HeadphonesIcon,
   CheckCircle2,
-  Building2,
-  Wallet,
   TrendingUp,
   Mail,
   ShoppingCart
@@ -24,7 +21,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Klaviyo Alternatifi | E-Ticaret İçin Daha Ekonomik Otomasyon - PORTZEN",
   description:
-    "Klaviyo profil sayısı 25.000'i aşınca fatura $700+/ay. PORTZEN; cart abandonment, win-back, post-purchase otomasyonlarını Klaviyo'nun yarısı maliyetle, TL faturalı kurar.",
+    "Klaviyo profil sayısı arttıkça fatura hızla büyür. PORTZEN; cart abandonment, win-back, post-purchase otomasyonlarını KVKK uyumlu ve Türkçe destekli kurar.",
   keywords: [
     "klaviyo alternatifi",
     "klaviyo türkçe",
@@ -42,13 +39,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Klaviyo Alternatifi | E-Ticaret İçin Daha Ekonomik Otomasyon - PORTZEN",
     description:
-      "Klaviyo'nun e-ticaret özelliklerini TL faturalı, KVKK uyumlu, Türkçe destekli olarak yarı maliyetle alın."
+      "Klaviyo'nun e-ticaret özelliklerini KVKK uyumlu, Türkçe destekli, brief bazlı olarak alın."
   },
   twitter: {
     card: "summary_large_image",
     title: "Klaviyo Alternatifi | PORTZEN",
     description:
-      "E-ticaret için cart abandonment, post-purchase, win-back otomasyonu - Klaviyo'nun yarı maliyetinde."
+      "E-ticaret için cart abandonment, post-purchase, win-back otomasyonu - KVKK uyumlu ve Türkçe destekli."
   },
   alternates: { canonical: "https://portzenai.com/klaviyo-alternatifi" },
   robots: { index: true, follow: true }
@@ -68,13 +65,7 @@ const serviceSchema = {
   serviceType: "E-commerce Marketing Automation",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Klaviyo'nun profil bazlı USD fiyatlandırması yerine PORTZEN; Shopify, WooCommerce, Trendyol entegre, n8n + Resend altyapısıyla cart abandonment, post-purchase ve win-back akışlarını yarı maliyetle çalıştırır.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺10000-₺40000",
-    availability: "https://schema.org/InStock"
-  }
+    "Klaviyo'nun profil bazlı ücretlendirmesi yerine PORTZEN; Shopify, WooCommerce, Trendyol entegre, n8n + Resend altyapısıyla cart abandonment, post-purchase ve win-back akışlarını kapsam bazlı çalıştırır."
 };
 
 const faqSchema = {
@@ -86,7 +77,7 @@ const faqSchema = {
       name: "Klaviyo gerçekten pahalı mı? Free tier var değil mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Klaviyo 250 kişiye kadar ücretsiz. 25.000 aktif profil ve unlimited email aylık $700 (≈₺28.000), 50.000 profilde $1.000+ (≈₺40.000). SMS modülü ayrı kredi, push notification ayrı modül. PORTZEN aynı kapsamı yarı fiyata, TL fatura ile sunar."
+        text: "Klaviyo 250 kişiye kadar ücretsiz. Aktif profil arttıkça fatura hızla büyür, SMS modülü ayrı kredi, push notification ayrı modüldür. PORTZEN aynı kapsamı KVKK uyumlu ve Türkçe destekli sunar. Fiyat brief görüşmesinde net paylaşılıyor."
       }
     },
     {
@@ -155,7 +146,7 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "%50", label: "Klaviyo'nun yarı maliyeti" },
+  { metric: "AI", label: "RFM + predictive segment" },
   { metric: "3 kanal", label: "Email + WhatsApp + SMS" },
   { metric: "İYS", label: "Uyumlu, TR sunucu opsiyonu" },
   { metric: "16 gün", label: "Klaviyo'dan taşıma" }
@@ -164,7 +155,7 @@ const stats = [
 const painPoints = [
   {
     title: "Profil bazlı USD ücretlendirme",
-    desc: "Aktif profil sayısı arttıkça fatura katlanır. 25.000 profilde $700/ay (≈₺28.000), 50.000'de $1.000+/ay."
+    desc: "Aktif profil sayısı arttıkça fatura katlanır. USD bazlı ücretlendirme, kur dalgalanmalarında bütçe planlamasını zorlaştırır."
   },
   {
     title: "SMS ve push ek modül",
@@ -189,7 +180,7 @@ const painPoints = [
 ];
 
 const comparisonRows = [
-  { feature: "Aylık fiyat (25.000 profil)", manychat: "Klaviyo: $700/ay (≈₺28.000)", portzen: "₺14.000/ay sabit" },
+  { feature: "Fiyat modeli", manychat: "USD bazlı", portzen: "TL, brief bazlı" },
   { feature: "Fatura para birimi", manychat: "USD", portzen: "TL, KDV dahil, e-Arşiv" },
   { feature: "Email + WhatsApp + SMS tek pakette", manychat: "Hayır, ayrı modüller", portzen: "Evet, tek altyapı" },
   { feature: "İYS native entegrasyon", manychat: "Yok", portzen: "Var, otomatik kontrol" },
@@ -233,61 +224,10 @@ const features = [
   { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile Türkçe destek tüm paketlerde dahil. 4 saatlik kurulum eğitimi ve Türkçe video kütüphanesi." }
 ];
 
-const packages = [
-  {
-    name: "Başlangıç",
-    price: "10.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 30.000 TL",
-    color: "bg-paper",
-    features: [
-      "15.000 profil + 100.000 mail/ay",
-      "Email + WhatsApp + SMS",
-      "Welcome + cart abandonment + post-purchase",
-      "Temel RFM segment",
-      "1 e-ticaret entegrasyonu"
-    ],
-    cta: "Projeyi Konuşalım"
-  },
-  {
-    name: "Pro",
-    price: "22.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 55.000 TL",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "50.000 profil + 500.000 mail/ay",
-      "Sınırsız flow + segment",
-      "Predictive analytics (CLV, churn)",
-      "3 e-ticaret + Trendyol/Hepsiburada",
-      "WhatsApp AI cevap akışı",
-      "Aylık optimizasyon toplantısı"
-    ],
-    cta: "Pro Paketi Konuşalım"
-  },
-  {
-    name: "Kurumsal",
-    price: "40.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 90.000 TL+",
-    color: "bg-paper",
-    features: [
-      "Sınırsız profil + gönderim",
-      "Adanmış IP + ısıtma",
-      "Self-hosted TR sunucu opsiyonu",
-      "Özel API + SLA",
-      "Çoklu marka + domain yönetimi",
-      "7/24 öncelikli destek"
-    ],
-    cta: "Kurumsal Teklif"
-  }
-];
-
 const faqs = [
   {
     q: "Klaviyo gerçekten pahalı mı? Free tier var değil mi?",
-    a: "Klaviyo 250 aktif profile kadar ücretsiz, küçük testler için yeterli. 5.000 profilde ayda $100 (≈₺4.000), 25.000 profilde $700 (≈₺28.000), 50.000 profilde $1.000+ (≈₺40.000) seviyesine çıkar. SMS modülü ayrı kredi sistemiyle gelir, push notification ayrı paket. Çok kanallı strateji izleyen Türk e-ticaret markalarında aylık fatura kolayca ₺50.000+ olur. PORTZEN aynı kapsamı yarı fiyata, TL fatura ile sunar."
+    a: "Klaviyo 250 aktif profile kadar ücretsiz, küçük testler için yeterli. Aktif profil sayısı arttıkça fatura basamak basamak büyür. SMS modülü ayrı kredi sistemiyle gelir, push notification ayrı paket. Çok kanallı strateji izleyen Türk e-ticaret markalarında aylık toplam iletişim gideri hızla yükselir. PORTZEN aynı kapsamı KVKK uyumlu ve Türkçe destekli sunar. Fiyat brief görüşmesinde net paylaşılıyor."
   },
   {
     q: "Cart abandonment akışını PORTZEN'de nasıl kurulur?",
@@ -343,12 +283,12 @@ export default function Page() {
               </Reveal>
               <Reveal delay={100}>
                 <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
-                  Klaviyo Alternatifi: E-Ticaret Otomasyonu Yarı Maliyetle, TL Faturalı
+                  Klaviyo Alternatifi: E-Ticaret Otomasyonu KVKK Uyumlu ve Türkçe Destekli
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Klaviyo profil bazlı USD üzerinden ücretlendirir; 25.000 profilde aylık $700 (≈₺28.000) seviyesine çıkar. PORTZEN; cart abandonment, post-purchase, win-back, RFM segmentasyon ve WhatsApp + email + SMS karması akışları yarı maliyetle, TL faturalı, KVKK uyumlu kurar.
+                  Klaviyo profil bazlı USD üzerinden ücretlendirir; profil sayısı arttıkça fatura hızla büyür. PORTZEN; cart abandonment, post-purchase, win-back, RFM segmentasyon ve WhatsApp + email + SMS karması akışları KVKK uyumlu, Türkçe destekli olarak brief bazlı kurar.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -467,7 +407,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> Klaviyo fiyatları klaviyo.com/pricing referans alınmıştır; Omnisend ve Brevo karşılaştırması müşteri taşıma deneyimlerine dayanır.
+              <strong>Kaynak:</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
             </p>
           </Reveal>
         </div>
@@ -545,7 +485,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Klaviyo $850/ay'dan PORTZEN'e - cart abandonment geliri 2.8x, fatura yarı yarıya.
+              Klaviyo'dan PORTZEN'e - cart abandonment geliri 2.8x, kanal sayısı 3'e çıktı.
             </h2>
           </Reveal>
 
@@ -553,7 +493,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  İstanbul'da bir DTC kozmetik markası 3 yıldır Klaviyo kullanıyordu. 32.000 aktif profil, Shopify mağazası, ayda 18-22 kampanya. Klaviyo fiyatı $850/ay (≈₺34.000), SMS modülü ek $180/ay (≈₺7.200). Aylık iletişim faturası toplam ₺41.000 civarındaydı.
+                  İstanbul'da bir DTC kozmetik markası 3 yıldır Klaviyo kullanıyordu. 32.000 aktif profil, Shopify mağazası, ayda 18-22 kampanya. Klaviyo profil bazlı USD ücretlendirmesi ve ayrı SMS modülü nedeniyle iletişim bütçesi her ay büyüyordu.
                 </p>
                 <p>
                   3 ana sıkıntı vardı: (1) Cart abandonment akışı sadece e-mail + SMS, açılma oranı %22 / %14, sepet kurtarmadan aylık 240 sipariş geliyordu, (2) Trendyol mağazası vardı ama müşteri verisi Klaviyo'ya aktarılamıyor, segmentasyon sadece Shopify ile yapılıyordu, (3) KVKK aydınlatma akışı manuel, İYS izin kontrolü ayrı script ile yapılıyor, denetim riski oluşuyordu.
@@ -562,7 +502,7 @@ export default function Page() {
                   PORTZEN 16 günde devreye alındı. Klaviyo API üzerinden 32.000 profil + 18 segment + 11 flow taşındı. Shopify + Trendyol n8n köprüsü kuruldu, çift yönlü müşteri ve sipariş datası senkronize edildi (Trendyol siparişi de PORTZEN segmentlerine düştü). Cart abandonment akışı çok kanallı kuruldu: 1. saat WhatsApp (ürün görseli + sepet linki), 24. saat e-mail (alternatif önerileri), 72. saat SMS (kupon kodu). İYS entegrasyonu otomatik kuruldu, 2.400 izinsiz adres ayıklandı.
                 </p>
                 <p>
-                  3 ay sonra: cart abandonment'tan aylık sipariş 240'tan 672'ye çıktı (2.8x). WhatsApp utility açılma oranı %78, ek gelir aylık ₺520.000+. Toplam iletişim faturası ₺41.000'den ₺22.000'e düştü (%46 tasarruf). KVKK denetimine hazır rapor formatı kuruldu, müşteri hizmetleri yükü WhatsApp AI cevap akışı ile %30 azaldı.
+                  3 ay sonra: cart abandonment'tan aylık sipariş 240'tan 672'ye çıktı (2.8x). WhatsApp utility açılma oranı %78, ek gelir belirgin şekilde büyüdü. İletişim altyapısı tek panele indi, KVKK denetimine hazır rapor formatı kuruldu, müşteri hizmetleri yükü WhatsApp AI cevap akışı ile %30 azaldı.
                 </p>
               </div>
             </Reveal>
@@ -570,100 +510,23 @@ export default function Page() {
             <Reveal delay={300}>
               <div className="grid gap-4">
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Klaviyo + SMS</div>
-                  <div className="font-display text-3xl font-black mb-1">$1.030/ay</div>
-                  <div className="text-sm">≈ ₺41.000 (toplam)</div>
-                  <div className="mt-4 text-xs font-bold uppercase opacity-70 mb-1">PORTZEN</div>
-                  <div className="font-display text-3xl font-black text-brand-green">₺22.000/ay</div>
-                  <div className="text-sm">Sabit, 3 kanal dahil</div>
-                </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Cart abandonment</div>
                   <div className="font-display text-4xl font-black mb-1">240 → 672</div>
                   <div className="text-sm">Aylık sipariş (2.8x)</div>
                 </div>
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">İletişim faturası</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">-%46</div>
-                  <div className="text-sm">Tek altyapı, TL fatura</div>
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">WhatsApp açılma</div>
+                  <div className="font-display text-4xl font-black mb-1">%78</div>
+                  <div className="text-sm">Utility mesaj oranı</div>
+                </div>
+                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Kanal sayısı</div>
+                  <div className="font-display text-4xl font-black text-brand-pink">1 → 3</div>
+                  <div className="text-sm">Email + WhatsApp + SMS tek panelde</div>
                 </div>
               </div>
             </Reveal>
           </div>
-        </div>
-      </section>
-
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket - profil bazlı ekstra yok
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Klaviyo'nun profil bazlı artan ücretlendirmesinin aksine PORTZEN sabit pakettir. Müşteri listeniz büyüdükçe faturanız katlanmaz.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <div className="font-display text-lg font-black mb-1">Sepet bırakma şablon kütüphanesi</div>
-                <p className="text-sm opacity-90">
-                  Hazır WhatsApp, e-mail ve SMS sepet bırakma şablonları, en yüksek dönüşüm veren versiyonlar.
-                </p>
-              </div>
-              <Link
-                href="/blog/abandoned-cart-email-sablonlari"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                Şablonları Gör <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
         </div>
       </section>
 
@@ -724,12 +587,12 @@ export default function Page() {
           <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Klaviyo faturasını yarıya indirelim.
+                Klaviyo'dan modern altyapıya geçelim.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut Klaviyo kurulumunuzu, aktif profil sayınızı ve flow'larınızı analiz ediyoruz. Hangi akışların PORTZEN'de daha güçlü kurulabileceğini netleştiriyor, tahmini tasarruf ve dönüşüm artışı raporu çıkarıyoruz.
+                15 dakikalık ücretsiz keşif görüşmesinde mevcut Klaviyo kurulumunuzu, aktif profil sayınızı ve flow'larınızı analiz ediyoruz. Hangi akışların PORTZEN'de daha güçlü kurulabileceğini netleştiriyor, iyileşme alanlarını ve dönüşüm potansiyelini raporluyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>

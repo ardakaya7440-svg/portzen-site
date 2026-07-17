@@ -74,13 +74,7 @@ const serviceSchema = {
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Facebook ve Instagram reklamlarının kurulumu, kreatif üretimi, A/B testleme, Pixel + Conversions API entegrasyonu ve haftalık raporlama dahil tam kapsamlı Meta reklam yönetimi. KOBİ ve markalar için ROAS odaklı yönetim.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺5000-₺50000/ay ajans + reklam bütçesi ayrı",
-    availability: "https://schema.org/InStock"
-  }
+    "Facebook ve Instagram reklamlarının kurulumu, kreatif üretimi, A/B testleme, Pixel + Conversions API entegrasyonu ve haftalık raporlama dahil tam kapsamlı Meta reklam yönetimi. KOBİ ve markalar için ROAS odaklı yönetim."
 };
 
 const faqSchema = {
@@ -92,7 +86,7 @@ const faqSchema = {
       name: "Meta reklam ajansı ile çalışmak ne kadara mal olur?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "PORTZEN'de ajans yönetim ücreti 5.000 TL/aydan başlar. Bunun üstüne Meta'ya ödenen reklam bütçesi gelir, minimum öneri 10.000 TL/ay reklam harcamasıdır. Büyüme paketinde ajans 15.000 TL/ay, önerilen reklam bütçesi 25.000 TL+/ay olur. Kurumsal paketler ciro ve sektör hedeflerine göre özel fiyatlanır."
+        text: "Fiyat, ihtiyacına göre kişiselleştiriliyor. Ajans yönetim ücreti ile Meta'ya ödenen reklam bütçesi ayrı işler; brief görüşmesinde sektör, hedef ve reklam bütçesine göre net rakam paylaşıyoruz. 30 dakikalık ücretsiz brief görüşmesinde belirliyoruz."
       }
     },
     {
@@ -108,7 +102,7 @@ const faqSchema = {
       name: "ROAS nedir ve sizden ne kadar ROAS bekleyebilirim?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ROAS (Return on Ad Spend), her 1 TL reklam harcamasından kaç TL ciro döndüğünüzü gösterir. E-ticaret projelerinde 3.5x ROAS hedefliyoruz, hizmet sektöründe lead başına maliyet (CPA) odaklı çalışıyoruz. İlk ay sektör ortalaması, ikinci aydan itibaren yüzde 20-40 üzerinde performans hedefliyoruz."
+        text: "ROAS (Return on Ad Spend), her 1 birim reklam harcamasından kaç birim ciro döndüğünüzü gösterir. E-ticaret projelerinde 3.5x ROAS hedefliyoruz, hizmet sektöründe lead başına maliyet (CPA) odaklı çalışıyoruz. İlk ay sektör ortalaması, ikinci aydan itibaren yüzde 20-40 üzerinde performans hedefliyoruz."
       }
     },
     {
@@ -284,9 +278,7 @@ const cities = [
 const packages = [
   {
     name: "Başlangıç",
-    price: "5.000 TL",
-    period: "/ay ajans",
-    setup: "Min. 10.000 TL/ay reklam bütçesi (Meta'ya ayrı)",
+    scope: "Tek kampanya hedefi + temel kreatif",
     color: "bg-paper",
     features: [
       "1 kampanya hedefi (lead veya satış)",
@@ -295,13 +287,11 @@ const packages = [
       "Aylık dashboard + rapor",
       "Aylık 1 strateji toplantısı"
     ],
-    cta: "Projeyi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Büyüme",
-    price: "15.000 TL",
-    period: "/ay ajans",
-    setup: "Önerilen 25.000 TL+/ay reklam bütçesi (Meta'ya ayrı)",
+    scope: "Tam funnel + çoklu kreatif üretimi",
     color: "bg-brand-yellow",
     badge: "En Çok Tercih Edilen",
     features: [
@@ -312,13 +302,11 @@ const packages = [
       "Haftalık dashboard + optimizasyon",
       "Aylık 2 strateji toplantısı"
     ],
-    cta: "Büyüme Paketi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Kurumsal",
-    price: "Özel",
-    period: "",
-    setup: "50.000 TL+/ay reklam bütçesi üzeri",
+    scope: "Çoklu marka/şube + adanmış ekip",
     color: "bg-paper",
     features: [
       "Çoklu ürün/marka/şube yönetimi",
@@ -328,14 +316,14 @@ const packages = [
       "SLA + öncelikli destek",
       "Haftalık canlı raporlama"
     ],
-    cta: "Kurumsal Teklif"
+    cta: "Görüşme Al"
   }
 ];
 
 const faqs = [
   {
     q: "Meta reklam ajansı ile çalışmak ne kadara mal olur?",
-    a: "PORTZEN'de ajans yönetim ücreti 5.000 TL/aydan başlar. Bunun üstüne Meta'ya ödenen reklam bütçesi gelir, minimum önerimiz 10.000 TL/ay reklam harcamasıdır. Büyüme paketinde ajans 15.000 TL/ay, önerilen reklam bütçesi 25.000 TL ve üzeridir. Kurumsal paketler ciro ve sektör hedeflerine göre özel fiyatlanır. Reklam bütçesi her zaman ajans ücretinden ayrı işler ve direkt Meta'ya ödenir, bu şeffaflık standartlarımızın temelidir."
+    a: "Fiyat, ihtiyacına göre kişiselleştiriliyor. PORTZEN'de ajans yönetim ücreti ile Meta'ya ödenen reklam bütçesi ayrı kalemler halinde işler; reklam bütçesi her zaman direkt Meta'ya ödenir, komisyon almıyoruz. 30 dakikalık ücretsiz brief görüşmesinde sektör, hedef ve reklam bütçenize göre net rakam paylaşıyoruz. Hemen /iletisim üzerinden yaz."
   },
   {
     q: "Facebook ve Instagram reklamları kaç günde sonuç verir?",
@@ -343,7 +331,7 @@ const faqs = [
   },
   {
     q: "ROAS nedir ve sizden ne kadar ROAS bekleyebilirim?",
-    a: "ROAS (Return on Ad Spend), her 1 TL reklam harcamasından kaç TL ciro döndüğünüzü gösterir. Örnek: 10.000 TL harcayıp 35.000 TL satış yaptıysanız ROAS 3.5x'tir. E-ticaret projelerinde 3.5x ROAS hedefliyoruz; ürün marjı yüksek nişlerde hedef 5x'in üstüne çıkabilir. Hizmet sektöründe CPA (lead başına maliyet) odaklı çalışıyoruz, sektörünüze göre net hedef ilk audit sonrası verilir. Hiçbir zaman 'garanti ROAS' vaadi yapmıyoruz çünkü sektör, marj ve ürün-pazar uyumu sonucu birinci derece etkiler."
+    a: "ROAS (Return on Ad Spend), her 1 birim reklam harcamasından kaç birim ciro döndüğünüzü gösterir. Örneğin bir kampanyada 3.5 katı satış yaptıysanız ROAS 3.5x'tir. E-ticaret projelerinde 3.5x ROAS hedefliyoruz; ürün marjı yüksek nişlerde hedef 5x'in üstüne çıkabilir. Hizmet sektöründe CPA (lead başına maliyet) odaklı çalışıyoruz, sektörünüze göre net hedef ilk audit sonrası verilir. Hiçbir zaman 'garanti ROAS' vaadi yapmıyoruz çünkü sektör, marj ve ürün-pazar uyumu sonucu birinci derece etkiler."
   },
   {
     q: "Reklam kreatiflerini ben mi hazırlıyorum, ajans mı?",
@@ -693,13 +681,13 @@ export default function Page() {
           <Reveal>
             <div className="mb-12 max-w-2xl">
               <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf fiyat modeli
+                Çalışma modeli
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 Ajans ücreti ve reklam bütçesi ayrı işler
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                PORTZEN size ajans yönetim ücreti faturalar. Reklam bütçesi her zaman direkt Meta'ya ödenir, kazanılan komisyon yapısı kullanılmaz. Bu şeffaflık iş modelimizin temelidir.
+                PORTZEN size ajans yönetim ücreti faturalar. Reklam bütçesi her zaman direkt Meta'ya ödenir, kazanılan komisyon yapısı kullanılmaz. Kapsam bazlı çalışıyoruz; net rakam brief görüşmesinde paylaşılır.
               </p>
             </div>
           </Reveal>
@@ -719,11 +707,7 @@ export default function Page() {
                     </div>
                   )}
                   <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
+                  <div className="text-sm font-bold opacity-75 mb-6">{p.scope}</div>
                   <ul className="space-y-2 mb-6 flex-1">
                     {p.features.map((f, fi) => (
                       <li key={fi} className="flex items-start gap-2 text-sm">
@@ -748,7 +732,7 @@ export default function Page() {
                 <Zap className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-lg font-black mb-2 text-ink">Komisyon yok, performans modeli yok</h3>
                 <p className="text-sm text-ink/70">
-                  Bazı ajanslar "reklam bütçenizin yüzde 15'i" der. Bu model büyük bütçede ajansa motivasyon yaratır, küçükte unutulursunuz. PORTZEN sabit ücretle çalışır, sizin tarafınızda durur.
+                  Bazı ajanslar reklam bütçesi yüzdesi üzerinden fiyatlanır. Bu model büyük bütçede ajansa motivasyon yaratır, küçükte unutulursunuz. PORTZEN sabit kapsam bazlı çalışır, sizin tarafınızda durur.
                 </p>
               </div>
               <div className="border-3 border-ink bg-paper p-5 shadow-brutal-sm">

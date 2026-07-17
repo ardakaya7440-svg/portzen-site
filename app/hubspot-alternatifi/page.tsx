@@ -14,16 +14,15 @@ import {
   CheckCircle2,
   Building2,
   Languages,
-  Wallet,
   TrendingUp
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "HubSpot Alternatifi | KOBİ için TL Fiyatlı CRM — PORTZEN",
+  title: "HubSpot Alternatifi | KOBİ için Türkçe CRM — PORTZEN",
   description:
-    "HubSpot Pro $800/ay yerine PORTZEN CRM ₺25.000 TL'den başlar. Logo/Mikro entegre, KVKK uyumlu, Türkçe arayüz, hızlı kurulum. KOBİ için tasarlandı.",
+    "HubSpot yerine PORTZEN CRM: Logo/Mikro entegre, KVKK uyumlu, Türkçe arayüz, hızlı kurulum. KOBİ için tasarlandı.",
   keywords: [
     "hubspot alternatifi",
     "hubspot türkçe",
@@ -39,15 +38,15 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://portzenai.com/hubspot-alternatifi",
     siteName: "PORTZEN",
-    title: "HubSpot Alternatifi | KOBİ için TL Fiyatlı CRM — PORTZEN",
+    title: "HubSpot Alternatifi | KOBİ için Türkçe CRM — PORTZEN",
     description:
-      "HubSpot'un $800/ay başlangıç fiyatı yerine ₺25.000 TL/ay. Türk muhasebe entegre, KVKK uyumlu, hızlı kurulum."
+      "HubSpot yerine Türk muhasebe entegre, KVKK uyumlu, hızlı kurulum sunan CRM alternatifi."
   },
   twitter: {
     card: "summary_large_image",
     title: "HubSpot Alternatifi | PORTZEN",
     description:
-      "KOBİ'ler için tasarlanmış, TL faturalı, Logo/Mikro entegre CRM otomasyonu."
+      "KOBİ'ler için tasarlanmış, Logo/Mikro entegre, KVKK uyumlu CRM otomasyonu."
   },
   alternates: { canonical: "https://portzenai.com/hubspot-alternatifi" },
   robots: { index: true, follow: true }
@@ -67,13 +66,7 @@ const serviceSchema = {
   serviceType: "CRM Software",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "HubSpot'un KOBİ için fazla pahalı ve karmaşık olduğu noktada PORTZEN; Türk muhasebe entegre, KVKK uyumlu, TL faturalı ve hızlı kurulum sunan CRM çözümü.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺12000-₺50000",
-    availability: "https://schema.org/InStock"
-  }
+    "HubSpot'un KOBİ için fazla karmaşık olduğu noktada PORTZEN; Türk muhasebe entegre, KVKK uyumlu, hızlı kurulum sunan CRM çözümü."
 };
 
 const faqSchema = {
@@ -90,10 +83,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "HubSpot Starter ($20/user/ay) bana yetmiyor mu, neden Pro alıyorum?",
+      name: "HubSpot Starter bana yetmiyor mu, neden Pro alıyorum?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "HubSpot Starter çoğu KOBİ için kısıtlı — workflow otomasyonu yok, custom reporting yok, sequences yok. Bu özelliklerin hepsi Pro'da ($800/ay) başlıyor. PORTZEN'in giriş paketinde bu özelliklerin hepsi var."
+        text: "HubSpot Starter çoğu KOBİ için kısıtlı — workflow otomasyonu yok, custom reporting yok, sequences yok. Bu özelliklerin hepsi HubSpot Pro planında başlıyor. PORTZEN'in giriş paketinde bu özelliklerin hepsi var."
       }
     },
     {
@@ -114,10 +107,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Aylık değişim/güncelleme ücreti var mı?",
+      name: "Aylık değişim/güncelleme kapsamı ne?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Aylık pakete dahil: yeni özel alan ekleme, yeni pipeline tanımlama, otomasyon güncelleme. Büyük yeniden yapılandırma talepleri ayrı teklif olarak ele alınır."
+        text: "Anlaşma kapsamında yeni özel alan ekleme, yeni pipeline tanımlama, otomasyon güncelleme dahildir. Büyük yeniden yapılandırma talepleri ayrı teklif olarak ele alınır."
       }
     },
     {
@@ -133,7 +126,7 @@ const faqSchema = {
       name: "WhatsApp + e-mail + form — hepsi CRM'e düşer mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Resmi WhatsApp Business API, e-mail (IMAP/SMTP), web formları, Instagram DM ve telefon kayıtları otomatik CRM'e düşer. HubSpot'ta WhatsApp Conversations sadece Marketing Hub Professional+ planda var ($800+/ay)."
+        text: "Evet. Resmi WhatsApp Business API, e-mail (IMAP/SMTP), web formları, Instagram DM ve telefon kayıtları otomatik CRM'e düşer. HubSpot'ta WhatsApp Conversations sadece Marketing Hub Professional+ planda vardır."
       }
     }
   ]
@@ -154,16 +147,16 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "%75", label: "Aylık maliyet tasarrufu" },
+  { metric: "Sade", label: "KOBİ için tasarım" },
   { metric: "21 gün", label: "Kurulum + veri taşıma" },
   { metric: "KVKK", label: "TR sunucu + aydınlatma" },
-  { metric: "WhatsApp", label: "Giriş paketinde dahil" }
+  { metric: "WhatsApp", label: "Native entegre" }
 ];
 
 const painPoints = [
   {
-    title: "Pro fiyatı $800/ay'dan başlıyor",
-    desc: "HubSpot CRM ücretsiz görünür ama gerçek özellikler (workflow, sequences, custom report) Pro'da ($800/ay ≈ ₺32.000). KOBİ için orantısız."
+    title: "Gerçek özellikler Pro planında",
+    desc: "HubSpot CRM ücretsiz görünür ama gerçek özellikler (workflow, sequences, custom report) sadece Pro planında açılır. KOBİ için orantısız bir sıçrama."
   },
   {
     title: "KOBİ için fazla feature",
@@ -188,16 +181,16 @@ const painPoints = [
 ];
 
 const comparisonRows = [
-  { feature: "Başlangıç fiyatı (gerçek özelliklerle)", manychat: "Pro: $800/ay (≈₺32.000)", portzen: "₺12.000/ay" },
+  { feature: "Ticari model", manychat: "Kullanıcı başı + eklenti bazlı", portzen: "Kapsam bazlı, brief görüşmesinde net" },
   { feature: "Türkçe canlı destek", manychat: "Enterprise plana özel", portzen: "Tüm paketlerde dahil" },
   { feature: "Türk muhasebe entegre", manychat: "Yok (custom dev gerekir)", portzen: "Logo/Mikro/Netsis hazır" },
   { feature: "KVKK paketi", manychat: "Sizin sorumluluğunuzda", portzen: "Tam paket dahil" },
-  { feature: "WhatsApp Business API resmi", manychat: "$800+/ay plana özel", portzen: "Giriş paketinde dahil" },
+  { feature: "WhatsApp Business API resmi", manychat: "Üst planlara özel", portzen: "Giriş paketinde dahil" },
   { feature: "Kurulum süresi", manychat: "4-8 hafta self-onboarding", portzen: "14-21 gün full kurulum" },
   { feature: "Ekip eğitimi", manychat: "Self-service Academy (İng)", portzen: "Canlı Türkçe eğitim dahil" },
   { feature: "Sözleşme süresi", manychat: "Yıllık peşin tercih edilir", portzen: "Aylık esnek" },
   { feature: "Veri lokalizasyonu", manychat: "ABD/AB sunucu", portzen: "Türkiye sunucu opsiyonu" },
-  { feature: "Aylık ek modül ücreti", manychat: "Var (Marketing, Service, vs.)", portzen: "Yok — pakette her şey dahil" }
+  { feature: "Ek modül kuralı", manychat: "Var (Marketing, Service, vs.)", portzen: "Yok — pakette her şey dahil" }
 ];
 
 const solutionSteps = [
@@ -225,7 +218,7 @@ const solutionSteps = [
 
 const features = [
   { icon: TrendingUp, title: "Pipeline + deal yönetimi", desc: "Sürükle-bırak pipeline, otomatik stage geçişi, kazanma/kaybetme analizi — HubSpot Pro'daki özelliklerin hepsi giriş paketinde." },
-  { icon: MessageCircle, title: "WhatsApp + e-mail birleşik kutu", desc: "Resmi WhatsApp Business API, e-mail, web form, IG DM — tek panelde. HubSpot'ta sadece $800+ planda." },
+  { icon: MessageCircle, title: "WhatsApp + e-mail birleşik kutu", desc: "Resmi WhatsApp Business API, e-mail, web form, IG DM — tek panelde. HubSpot'ta sadece üst planlarda gelir." },
   { icon: Building2, title: "Logo/Mikro/Netsis entegre", desc: "Müşteri PORTZEN'de açılınca Logo'da cari kart otomatik oluşur. Fatura geri sync olur. Tek veri kaynağı." },
   { icon: ShieldCheck, title: "KVKK paketi dahil", desc: "Türkiye sunucu, açık rıza akışı, veri silme talep formu, VERBİS kayıt desteği — paket dahil." },
   { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile aynı gün dönüş. Tüm paketlerde, Enterprise'a yükselmeden." },
@@ -235,9 +228,6 @@ const features = [
 const packages = [
   {
     name: "Başlangıç",
-    price: "12.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 35.000 TL",
     color: "bg-paper",
     features: [
       "5 kullanıcıya kadar",
@@ -246,13 +236,10 @@ const packages = [
       "WhatsApp + e-mail kutusu",
       "KVKK paketi dahil"
     ],
-    cta: "Projeyi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Pro",
-    price: "25.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 55.000 TL",
     color: "bg-brand-yellow",
     badge: "En Çok Tercih Edilen",
     features: [
@@ -263,13 +250,10 @@ const packages = [
       "Custom report + dashboard",
       "Haftalık optimizasyon"
     ],
-    cta: "Pro Paketi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Kurumsal",
-    price: "50.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 90.000 TL+",
     color: "bg-paper",
     features: [
       "Sınırsız kullanıcı",
@@ -279,7 +263,7 @@ const packages = [
       "SLA + 7/24 öncelikli destek",
       "Aylık detaylı analiz raporu"
     ],
-    cta: "Kurumsal Teklif"
+    cta: "Görüşme Al"
   }
 ];
 
@@ -289,8 +273,8 @@ const faqs = [
     a: "Veri hacmine bağlı. 5.000 kişi altı için 14 gün, 20.000+ kişi için 21 gün tipik. HubSpot API'sinden kişi + şirket + deal + activity history çekilip PORTZEN'e eşleniyor. Pipeline aşamaları, custom field'lar, etiketler ve aktivite kayıtları korunur."
   },
   {
-    q: "HubSpot Starter ($20/user/ay) bana yetmiyor mu, neden Pro alıyorum?",
-    a: "HubSpot Starter çoğu KOBİ için kısıtlı — workflow otomasyonu yok, custom reporting yok, sequences yok, A/B test yok, conversation routing yok. Bu özelliklerin hepsi Pro'da ($800/ay sabit, kullanıcı sayısı arttıkça artar) başlıyor. PORTZEN'in giriş paketinde (₺12.000/ay) bu özelliklerin tamamı dahildir."
+    q: "HubSpot Starter bana yetmiyor mu, neden Pro alıyorum?",
+    a: "HubSpot Starter çoğu KOBİ için kısıtlı — workflow otomasyonu yok, custom reporting yok, sequences yok, A/B test yok, conversation routing yok. Bu özelliklerin hepsi Pro planında başlıyor. PORTZEN'in giriş paketinde bu özelliklerin tamamı dahildir."
   },
   {
     q: "Logo, Mikro, Netsis gibi Türk muhasebe yazılımlarına entegre olur mu?",
@@ -301,8 +285,8 @@ const faqs = [
     a: "PORTZEN tüm verileri Türkiye lokasyonlu sunucularda saklar (Pro+ paketlerde isteğe bağlı self-hosted da var). KVKK aydınlatma metni, açık rıza akışı, veri silme talep formu (KVKK Madde 11), VERBİS kayıt desteği ve veri ihlal bildirim prosedürü paket dahildir. HubSpot ABD/AB sunucu kullanır; KVKK uyum yükümlülüğü tamamen sizdedir."
   },
   {
-    q: "Aylık değişim/güncelleme ücreti var mı?",
-    a: "Aylık pakete dahil olarak: yeni özel alan, yeni pipeline tanımı, otomasyon güncelleme, yeni kullanıcı ekleme/silme. Büyük yeniden yapılandırma talepleri (örneğin tüm pipeline mantığının değişmesi) ayrı teklif olarak ele alınır."
+    q: "Fiyat nasıl belirleniyor?",
+    a: "Fiyat, ihtiyacına göre kişiselleştiriliyor. 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz."
   },
   {
     q: "Türkçe destek nasıl çalışıyor?",
@@ -310,7 +294,7 @@ const faqs = [
   },
   {
     q: "WhatsApp + e-mail + form — hepsi CRM'e düşer mi?",
-    a: "Evet. Resmi WhatsApp Business API (Meta iş ortağı), e-mail (IMAP/SMTP), web formları, Instagram DM, telefon kayıtları (CTI entegrasyonu) — hepsi tek panelden takip edilir. HubSpot'ta WhatsApp Conversations sadece Marketing Hub Professional+ planda ($800/ay üzeri) vardır; PORTZEN'de giriş paketinde dahildir."
+    a: "Evet. Resmi WhatsApp Business API (Meta iş ortağı), e-mail (IMAP/SMTP), web formları, Instagram DM, telefon kayıtları (CTI entegrasyonu) — hepsi tek panelden takip edilir. HubSpot'ta WhatsApp Conversations sadece Marketing Hub Professional+ planda vardır; PORTZEN'de giriş paketinde dahildir."
   }
 ];
 
@@ -342,12 +326,12 @@ export default function Page() {
               </Reveal>
               <Reveal delay={100}>
                 <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
-                  HubSpot Alternatifi: KOBİ için TL Fiyatlı, Türk Muhasebeye Entegre CRM
+                  HubSpot Alternatifi: KOBİ için Türk Muhasebeye Entegre CRM
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  HubSpot CRM ücretsiz görünür, ama gerçek özellikler $800/ay Pro planında başlar — KOBİ için orantısız. PORTZEN, HubSpot Pro'nun tüm özelliklerini ₺12.000 TL/ay'dan, Türk muhasebeye entegre, KVKK uyumlu ve Türkçe destekli olarak sunar.
+                  HubSpot CRM ücretsiz görünür, ama gerçek özellikler Pro planında başlar — KOBİ için orantısız. PORTZEN, HubSpot Pro'nun tüm özelliklerini Türk muhasebeye entegre, KVKK uyumlu ve Türkçe destekli olarak sunar.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -399,7 +383,7 @@ export default function Page() {
                 HubSpot'un KOBİ için 6 zayıflığı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                HubSpot ücretsiz başlıyor ama gerçek fiyat $800/ay'dan başlıyor.
+                HubSpot ücretsiz başlıyor ama gerçek özellikler Pro planında.
               </h2>
             </div>
           </Reveal>
@@ -466,7 +450,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> HubSpot fiyatları hubspot.com/pricing'den (Ocak 2026), karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Kaynak:</strong> HubSpot özellik ve modül bilgileri hubspot.com/products'tan, karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
             </p>
           </Reveal>
         </div>
@@ -544,7 +528,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              HubSpot Starter $800/ay'dan PORTZEN'e — lead-müşteri dönüşümü %14'ten %38'e.
+              HubSpot Starter'dan PORTZEN'e — lead-müşteri dönüşümü %14'ten %38'e.
             </h2>
           </Reveal>
 
@@ -552,7 +536,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Ankara Çankaya'da 12 kişilik bir mali müşavirlik + danışmanlık firması 2 yıldır HubSpot Starter ($20/user × 5 user × 12 ay yıllık peşin ≈ $1.200/yıl) + Marketing Hub Starter kullanıyordu. Ama workflow ve sequences olmadığı için manuel takip yapıyorlardı. Pro'ya geçmek istediler — fiyat: $800/ay sabit + $50/user (Marketing Hub Pro ek). Toplam aylık $1.050 ≈ ₺42.000.
+                  Ankara Çankaya'da 12 kişilik bir mali müşavirlik + danışmanlık firması 2 yıldır HubSpot Starter + Marketing Hub Starter kullanıyordu. Ama workflow ve sequences olmadığı için manuel takip yapıyorlardı. Pro'ya geçmek istediler; ancak lisans + kullanıcı başı marketing eklentileri KOBİ bütçesi için orantısız kalıyordu.
                 </p>
                 <p>
                   3 ana sorun vardı: (1) Lead'ler HubSpot'a düşüyor ama Logo Tiger'a cari kartı açmak için her seferinde manuel veri girişi yapıyorlardı — günde 10-15 lead, ayda yüzlerce saat kayıp, (2) Lead scoring olmadığı için ekip hangi lead'in sıcak olduğunu bilmiyor, hepsine aynı zamanı veriyordu, (3) KVKK aydınlatma metni bir form üzerinden alınıyordu ama HubSpot'ta açık rıza akışı kurulu değildi, denetim ihtiyacında zor durumda kaldılar.
@@ -561,21 +545,13 @@ export default function Page() {
                   21 günde tüm CRM'lerini PORTZEN'e taşıdık: 3.200 kişi + 480 deal + tüm aktivite history. Logo Tiger entegrasyonunu hazır webhook ile bağladık (PORTZEN'de yeni müşteri = Logo'da otomatik cari kart). Lead scoring kurduk (5 kriter: kaynak, sektör, bütçe aralığı, etkileşim, son temas), ekip artık sadece skoru 70+ lead'lerle ilgileniyor. KVKK için web formuna açık rıza, WhatsApp girişine otomatik aydınlatma mesajı eklendi.
                 </p>
                 <p>
-                  Aylık fatura $1.050 USD (≈₺42.000) yerine sabit ₺25.000. İlk 3 ayın raporunda: lead-müşteri dönüşümü %14'ten %38'e çıktı (lead scoring sayesinde sıcak lead'lere odaklanma), manuel veri girişi haftada 22 saatten 3 saate düştü.
+                  İlk 3 ayın raporunda: lead-müşteri dönüşümü %14'ten %38'e çıktı (lead scoring sayesinde sıcak lead'lere odaklanma), manuel veri girişi haftada 22 saatten 3 saate düştü. Kur dalgalanmasından etkilenmeyen sabit, öngörülebilir bir çalışma modeline geçtiler.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">HubSpot Pro hedefi</div>
-                  <div className="font-display text-3xl font-black mb-1">$1.050/ay</div>
-                  <div className="text-sm">≈ ₺42.000 (kur dalgalı)</div>
-                  <div className="mt-4 text-xs font-bold uppercase opacity-70 mb-1">PORTZEN'de</div>
-                  <div className="font-display text-3xl font-black text-brand-green">₺25.000/ay</div>
-                  <div className="text-sm">Sabit, KDV dahil, e-Arşiv</div>
-                </div>
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Lead → müşteri</div>
                   <div className="font-display text-4xl font-black mb-1">%14 → %38</div>
@@ -585,6 +561,11 @@ export default function Page() {
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Manuel iş</div>
                   <div className="font-display text-4xl font-black text-brand-pink">22 sa → 3 sa</div>
                   <div className="text-sm">Haftalık, Logo otomasyonu</div>
+                </div>
+                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Kurulum</div>
+                  <div className="font-display text-4xl font-black">21 gün</div>
+                  <div className="text-sm">Veri taşıma + eğitim dahil</div>
                 </div>
               </div>
             </Reveal>
@@ -598,13 +579,13 @@ export default function Page() {
           <Reveal>
             <div className="mb-12 max-w-2xl">
               <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
+                Çalışma modeli
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 3 paket — kullanıcı başına ekstra ücret yok
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                HubSpot'un kullanıcı başına aylık ücretlendirmesinin aksine PORTZEN sabit paket. Ekibinizi büyütmek faturanızı katlayan değildir.
+                HubSpot'un kullanıcı başına ücretlendirmesinin aksine PORTZEN sabit paket mantığı ile çalışır. Ekibinizi büyütmek faturanızı katlayan değildir. Net rakamlar brief görüşmesinde paylaşılır.
               </p>
             </div>
           </Reveal>
@@ -624,11 +605,7 @@ export default function Page() {
                     </div>
                   )}
                   <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
+                  <div className="text-xs font-bold opacity-75 mb-6">Kapsam brief görüşmesinde netleştirilir</div>
                   <ul className="space-y-2 mb-6 flex-1">
                     {p.features.map((f, fi) => (
                       <li key={fi} className="flex items-start gap-2 text-sm">
@@ -723,12 +700,12 @@ export default function Page() {
           <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                HubSpot faturasını yarıya indirelim.
+                HubSpot'tan Türkiye'ye özel bir CRM'e geçelim.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut HubSpot kurulumunuzu analiz ediyoruz, hangi özellikleri PORTZEN'de kuracağımızı netleştiriyoruz. Tahmini tasarruf raporu çıkarıyoruz.
+                30 dakikalık ücretsiz brief görüşmesinde mevcut HubSpot kurulumunuzu analiz ediyoruz, hangi özellikleri PORTZEN'de kuracağımızı netleştiriyoruz. Kapsam ve net rakamı bu görüşmede paylaşıyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>

@@ -15,7 +15,6 @@ import {
   Building2,
   ShoppingCart,
   TrendingUp,
-  Code,
   Zap
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
@@ -68,13 +67,7 @@ const serviceSchema = {
   serviceType: "E-Commerce Platform",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "IdeaSoft'un modüler hazır paket modelinin sınırlı kaldığı yerde PORTZEN, KOBİ markalarına özel Next.js tabanlı, AI destekli, ölçeklenebilir e-ticaret platformu geliştirir.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺55000-₺250000",
-    availability: "https://schema.org/InStock"
-  }
+    "IdeaSoft'un modüler hazır paket modelinin sınırlı kaldığı yerde PORTZEN, KOBİ markalarına özel Next.js tabanlı, AI destekli, ölçeklenebilir e-ticaret platformu geliştirir."
 };
 
 const faqSchema = {
@@ -94,7 +87,7 @@ const faqSchema = {
       name: "IdeaSoft fiyatları PORTZEN ile karşılaştırınca nasıl?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "IdeaSoft paket bazında aylık 2.500 ile 12.500 TL arasında lisans ücreti alır. Modüller ek ücretlidir. PORTZEN tek seferlik proje ücreti modelidir. 18 ile 24 ay arasında IdeaSoft toplam maliyeti PORTZEN proje bedelini geçer."
+        text: "IdeaSoft aylık lisans + modül başı ek ücret modelidir. PORTZEN brief bazlı, tek seferlik proje modeli sunar. Fiyat brief görüşmesinde net paylaşılıyor."
       }
     },
     {
@@ -110,7 +103,7 @@ const faqSchema = {
       name: "AI hangi noktalarda devreye giriyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Otomatik ürün açıklaması üretimi, ürün görsel iyileştirme, kişiselleştirilmiş öneri motoru, sepet terk e-mail kişiselleştirme, AI WhatsApp + site chatbot, kategori sayfa SEO içerik üretimi. IdeaSoft'ta hiçbiri yerleşik değildir."
+        text: "Otomatik ürün açıklaması üretimi, ürün görsel iyileştirme, kişiselleştirilmiş öneri motoru, sepet terk e-mail kişiselleştirme, AI WhatsApp + site chatbot, kategori sayfa SEO içerik üretimi. IdeaSoft'ta hiçbiri yerleşik değildir; üçüncü parti SaaS abonelikleri ayrı sözleşme gerektirir."
       }
     },
     {
@@ -134,7 +127,7 @@ const faqSchema = {
       name: "Hosting maliyeti ne olur?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Vercel veya Netlify üzerinde aylık 200 ile 1.000 TL arasında hosting masrafı tipik. IdeaSoft hosting lisansa dahildir fakat lisans aylık 2.500 ile 12.500 TL arası, dolayısıyla PORTZEN tarafında toplam maliyet daha düşük."
+        text: "Vercel veya Netlify üzerinde trafiğe göre değişen sabit bir hosting kalemi olur. Kurumsal trafik için AWS, GCP veya self-hosted altyapı seçilebilir. Fiyat brief görüşmesinde net paylaşılıyor."
       }
     }
   ]
@@ -157,8 +150,8 @@ const breadcrumbSchema = {
 const stats = [
   { metric: "AI dahil", label: "Öneri, içerik, chatbot" },
   { metric: "PWA", label: "Standart mobil uygulama" },
-  { metric: "0 TL", label: "Aylık lisans ücreti" },
-  { metric: "18 ay", label: "Ortalama amorti süresi" }
+  { metric: "Kod size ait", label: "Custom Next.js kaynak kod sahiplik" },
+  { metric: "Multi-PSP", label: "Ödeme sağlayıcı yönlendirme" }
 ];
 
 const painPoints = [
@@ -172,11 +165,11 @@ const painPoints = [
   },
   {
     title: "Aylık lisans yükü",
-    desc: "Paket bazında aylık 2.500 ile 12.500 TL arasında sabit lisans gideri. 5 yılda toplam 150.000 ile 750.000 TL arasında, kod size ait değil."
+    desc: "Paket bazında sabit lisans gideri devam eder. Kod size ait değildir; çıkış esnekliği kısıtlıdır ve platform bağımlılığı büyür."
   },
   {
     title: "AI yerleşik değil",
-    desc: "Ürün önerisi, otomatik açıklama, AI chatbot için üçüncü parti SaaS abonelikleri gerekir. Insider, Klevu, Algolia aylık 5.000 ile 25.000 TL ek maliyet."
+    desc: "Ürün önerisi, otomatik açıklama, AI chatbot için üçüncü parti SaaS abonelikleri gerekir. Insider, Klevu, Algolia gibi ek servisler ayrı sözleşme + entegrasyon çıkarır."
   },
   {
     title: "SEO kontrolü sınırlı",
@@ -190,7 +183,7 @@ const painPoints = [
 
 const comparisonRows = [
   { feature: "Tasarım esnekliği", idea: "Tema kalıbı", portzen: "Markaya özel custom" },
-  { feature: "Aylık lisans", idea: "2.500 ile 12.500 TL", portzen: "Yok, kod size ait" },
+  { feature: "Fiyat modeli", idea: "Aylık lisans bazlı", portzen: "Brief'te belirlenir" },
   { feature: "Modül başı ücret", idea: "Her modül ek", portzen: "Tek proje, her şey dahil" },
   { feature: "AI ürün önerisi", idea: "Üçüncü parti SaaS", portzen: "Yerleşik, dahil" },
   { feature: "AI chatbot", idea: "Üçüncü parti", portzen: "Site + WhatsApp dahil" },
@@ -233,60 +226,6 @@ const features = [
   { icon: ShieldCheck, title: "KVKK ve PCI hazır", desc: "Açık rıza akışı, veri silme talebi, tokenizasyon ile kart bilgisi PSP'de. KOBİ uyum yükümlülüğü minimize edilir." }
 ];
 
-const packages = [
-  {
-    name: "Başlangıç",
-    price: "55.000 TL",
-    period: "/proje",
-    setup: "6 hafta teslim",
-    color: "bg-paper",
-    features: [
-      "300 ürüne kadar",
-      "Markaya özel tasarım",
-      "Next.js + headless backend",
-      "Tek ödeme sağlayıcı entegre",
-      "SEO temel optimizasyon",
-      "PWA standart dahil",
-      "3 ay bakım dahil"
-    ],
-    cta: "Projeyi Konuşalım"
-  },
-  {
-    name: "Pro",
-    price: "120.000 TL",
-    period: "/proje",
-    setup: "8 hafta teslim",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "2.000 ürüne kadar",
-      "AI öneri + chatbot dahil",
-      "Multi-PSP ödeme routing",
-      "Logo/Mikro/Netsis entegre",
-      "Çoklu dil destek",
-      "Sosyal medya satış kanalı",
-      "6 ay bakım dahil"
-    ],
-    cta: "Pro Paketi Konuşalım"
-  },
-  {
-    name: "Kurumsal",
-    price: "250.000 TL+",
-    period: "/proje",
-    setup: "12 hafta teslim",
-    color: "bg-paper",
-    features: [
-      "Sınırsız ürün ve kategori",
-      "B2B + B2C modüller",
-      "Mobil uygulama API'si",
-      "Self hosted altyapı",
-      "Adanmış proje ekibi",
-      "12 ay bakım + SLA"
-    ],
-    cta: "Kurumsal Teklif"
-  }
-];
-
 const faqs = [
   {
     q: "IdeaSoft KOBİ için yetersiz mi?",
@@ -294,7 +233,7 @@ const faqs = [
   },
   {
     q: "IdeaSoft fiyatları PORTZEN ile karşılaştırınca nasıl?",
-    a: "IdeaSoft paket bazında aylık 2.500 TL (Mini) ile 12.500 TL (Kurumsal) arasında lisans ücreti alır. Modüller (B2B, çoklu dil, hediye paketi, sadakat) ayrı ücretlendirilir. PORTZEN tek seferlik proje ücreti modelidir. Hesap basit: IdeaSoft Pro paketi (aylık 6.500 TL) + 3 ek modül (aylık 4.000 TL) = aylık 10.500 TL. 24 ayda toplam 252.000 TL. PORTZEN Pro paketi 120.000 TL tek seferlik, 18 ay sonra amorti olur, sonrasında sıfır lisans gider."
+    a: "IdeaSoft aylık lisans + modül başı ek ücret modeliyle çalışır. PORTZEN ise brief bazlı, tek seferlik proje modeli üzerine kuruludur. Katalog büyüklüğü, entegrasyon sayısı, AI özellikleri ve marka gereksinimleri brief görüşmesinde birlikte netleştirilir. Fiyat brief görüşmesinde net paylaşılıyor."
   },
   {
     q: "IdeaSoft'tan PORTZEN'e taşıma süresi ne kadar?",
@@ -302,11 +241,11 @@ const faqs = [
   },
   {
     q: "AI hangi noktalarda devreye giriyor?",
-    a: "Otomatik ürün açıklaması üretimi (yeni ürün eklendiğinde SEO uyumlu açıklama AI ile gelir), ürün görsel iyileştirme (arka plan temizleme, boyut standartlaştırma), kişiselleştirilmiş öneri motoru (her kullanıcıya farklı anasayfa), sepet terk e-mail kişiselleştirme, AI WhatsApp + site chatbot (sipariş takibi, kargo sorgu, basit ürün soruları), kategori sayfa SEO içerik üretimi. IdeaSoft'ta hiçbiri yerleşik değildir; Insider, Klevu, Algolia gibi üçüncü parti SaaS abonelikleri gerekir, aylık 5.000 ile 25.000 TL ek maliyet."
+    a: "Otomatik ürün açıklaması üretimi (yeni ürün eklendiğinde SEO uyumlu açıklama AI ile gelir), ürün görsel iyileştirme (arka plan temizleme, boyut standartlaştırma), kişiselleştirilmiş öneri motoru (her kullanıcıya farklı anasayfa), sepet terk e-mail kişiselleştirme, AI WhatsApp + site chatbot (sipariş takibi, kargo sorgu, basit ürün soruları), kategori sayfa SEO içerik üretimi. IdeaSoft'ta hiçbiri yerleşik değildir; Insider, Klevu, Algolia gibi üçüncü parti SaaS abonelikleri ayrı sözleşme + entegrasyon gerektirir."
   },
   {
     q: "Mobil uyumluluk ve PWA destekleniyor mu?",
-    a: "Evet. Next.js tabanlı geliştirme standart olarak mobil uyumludur, Progressive Web App (PWA) standardında uygulama deneyimi sunar. Müşteri siteyi telefon ana ekranına ekler, uygulama gibi açar, offline temel kullanım yapar, push notification alır. IdeaSoft'ta PWA ek modül olarak aylık ücretlidir, push notification ayrı SaaS aboneliği ister."
+    a: "Evet. Next.js tabanlı geliştirme standart olarak mobil uyumludur, Progressive Web App (PWA) standardında uygulama deneyimi sunar. Müşteri siteyi telefon ana ekranına ekler, uygulama gibi açar, offline temel kullanım yapar, push notification alır. IdeaSoft'ta PWA ek modül olarak sunulur, push notification ayrı SaaS aboneliği ister."
   },
   {
     q: "Logo, Mikro, Netsis entegrasyonu var mı?",
@@ -314,7 +253,7 @@ const faqs = [
   },
   {
     q: "Hosting maliyeti ne olur?",
-    a: "Next.js Vercel veya Netlify üzerinde aylık 200 ile 1.000 TL arasında hosting masrafı çıkarır (trafiğe bağlı). Kurumsal trafik için AWS, GCP veya self-hosted altyapı 2.000 ile 8.000 TL arasında. IdeaSoft hosting lisans paketine dahildir fakat lisans aylık 2.500 ile 12.500 TL aralığında, dolayısıyla PORTZEN tarafında toplam altyapı maliyeti daha düşük çıkar."
+    a: "Next.js Vercel veya Netlify üzerinde trafiğe göre değişen sabit bir hosting kalemi olur; kurumsal trafik için AWS, GCP veya self-hosted altyapı seçilebilir. IdeaSoft hosting lisans paketine dahildir fakat lisans + modül birleşimi devam ettiği sürece toplam yapı bağımlı kalır. Fiyat brief görüşmesinde net paylaşılıyor."
   }
 ];
 
@@ -470,7 +409,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak.</strong> IdeaSoft paket ve modül fiyat listesi (ideasoft.com.tr), PORTZEN müşteri kurulum deneyimleri, Lighthouse PageSpeed testleri, Ocak 2026.
+              <strong>Kaynak.</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
             </p>
           </Reveal>
         </div>
@@ -556,16 +495,16 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  <strong>İzmir, el yapımı seramik atölyesi, 250 SKU.</strong> IdeaSoft Mini pakette aylık 2.500 TL lisans, +1.500 TL B2B modülü, +1.000 TL çoklu dil modülü, toplam aylık 5.000 TL. Marka kimliği güçlü ama IdeaSoft tema kalıbında ezildi. PORTZEN Başlangıç paketi (55.000 TL tek seferlik) ile markaya özel custom tasarım, Next.js altyapı, AI ürün açıklaması (her seramiğe özgün hikaye AI ile yazıldı), PWA mobil app deneyimi kuruldu. 11 ay sonra IdeaSoft lisansı toplam maliyeti geçti.
+                  <strong>İzmir, el yapımı seramik atölyesi, 250 SKU.</strong> IdeaSoft paket + modül birleşimi hızlı başladı ama marka kimliği tema kalıbında ezildi. PORTZEN ile markaya özel custom tasarım, Next.js altyapı, AI ürün açıklaması (her seramiğe özgün hikaye AI ile yazıldı), PWA mobil app deneyimi kuruldu. Marka kimliği ayrıştı, mobil oturum süresi belirgin arttı.
                 </p>
                 <p>
-                  <strong>Bursa, organik gıda markası, 800 ürün.</strong> IdeaSoft Pro pakette aylık 6.500 TL, +3.500 TL Logo entegrasyonu modülü. Toplam aylık 10.000 TL. PageSpeed 62, dönüşüm %1.3. PORTZEN Pro paketi (120.000 TL) ile geçiş yapıldı. PageSpeed 97'ye çıktı, AI öneri motoru ile dönüşüm %2.8'e yükseldi. Logo Tiger entegrasyonu hazır olarak geldi, e-Arşiv fatura otomasyonu kuruldu. 12 ay sonra amorti.
+                  <strong>Bursa, organik gıda markası, 800 ürün.</strong> IdeaSoft Pro pakette Logo entegrasyonu modülü eklendi. PageSpeed 62, dönüşüm %1.3. PORTZEN ile geçiş yapıldı. PageSpeed 97'ye çıktı, AI öneri motoru ile dönüşüm %2.8'e yükseldi. Logo Tiger entegrasyonu hazır olarak geldi, e-Arşiv fatura otomasyonu kuruldu.
                 </p>
                 <p>
                   <strong>Ankara, butik mücevher markası, 1.500 SKU.</strong> Mobil trafik %78 ama IdeaSoft mobil PWA yoktu, mobil dönüşüm %0.8. PORTZEN'de PWA standart geldi, push notification kuruldu (sepet terk, yeni koleksiyon, kampanya). Mobil dönüşüm %2.1'e çıktı. AI chatbot WhatsApp + site üzerinden 7/24 ürün sorularını yanıtladı, müşteri hizmetlerine düşen ticket sayısı %60 azaldı.
                 </p>
                 <p>
-                  <strong>İstanbul, çocuk giyim markası, hızlı büyüyen KOBİ.</strong> Aylık ciro 350.000 TL'den 1.2 milyon TL'ye çıkmıştı, IdeaSoft sunucusu kampanya saatinde yavaşlıyordu. PORTZEN Pro paketinde Vercel edge ağına taşındı, eşzamanlı 30.000 kullanıcıya sorunsuz çıktı. Anneler Günü kampanyasında 6 saat süresince sıfır kesinti, normal trafiğin 12 katı sipariş aldı.
+                  <strong>İstanbul, çocuk giyim markası, hızlı büyüyen KOBİ.</strong> Ciro hızla katlanmıştı, IdeaSoft sunucusu kampanya saatinde yavaşlıyordu. PORTZEN altyapısında Vercel edge ağına taşındı, eşzamanlı 30.000 kullanıcıya sorunsuz çıktı. Anneler Günü kampanyasında 6 saat süresince sıfır kesinti, normal trafiğin 12 katı sipariş aldı.
                 </p>
               </div>
             </Reveal>
@@ -590,80 +529,6 @@ export default function Page() {
               </div>
             </Reveal>
           </div>
-        </div>
-      </section>
-
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket, modül başı ücret yok, AI standart dahil
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                IdeaSoft'un aylık lisans + modül başı ücret modeli yerine PORTZEN tek seferlik proje ücreti alır. Yıllık ciroya göre amorti 12 ile 18 ay arasında değişir.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <div className="font-display text-lg font-black mb-1">CRM ve sosyal medya birleşik</div>
-                <p className="text-sm opacity-90">
-                  E-ticaret altyapısı + CRM + sosyal medya yönetimi tek ajansta kurulur, veri tek panelde toplanır.
-                </p>
-              </div>
-              <Link
-                href="/crm-otomasyonu"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                CRM Otomasyonu <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
         </div>
       </section>
 
@@ -724,12 +589,12 @@ export default function Page() {
           <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                IdeaSoft modül faturasını yatırıma çevirelim
+                IdeaSoft kurulumunuzu modern altyapıya taşıyalım
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut IdeaSoft kurulumunuzu inceliyoruz. Aylık lisans + modül + üçüncü parti SaaS toplamı hesaplanıyor, PORTZEN amorti süresi raporu çıkarılıyor.
+                15 dakikalık ücretsiz keşif görüşmesinde mevcut IdeaSoft kurulumunuzu inceliyoruz. Hangi modüllerin custom altyapıya taşınacağı, AI ve PWA'nın nasıl yerleşeceği net bir taşıma haritası olarak paylaşılıyor.
               </p>
             </Reveal>
             <Reveal delay={200}>

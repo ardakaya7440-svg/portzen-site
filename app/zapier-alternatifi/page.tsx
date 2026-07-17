@@ -23,7 +23,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Zapier Alternatifi | Türk Uygulamalarına Entegre Otomasyon — PORTZEN",
   description:
-    "Zapier'in dolar fiyatı yerine n8n + Make + özel kod ile Logo, Mikro, NetGSM, Iyzico entegre TL otomasyon. KOBİ için 24.000 TL'den, KVKK uyumlu.",
+    "Zapier'in dolar bağımlılığı yerine n8n + Make + özel kod ile Logo, Mikro, NetGSM, Iyzico entegre otomasyon. KOBİ için, KVKK uyumlu.",
   keywords: [
     "zapier alternatifi",
     "zapier türkçe",
@@ -41,13 +41,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Zapier Alternatifi | PORTZEN n8n + Make + Özel Kod",
     description:
-      "Zapier'in $99 USD/ay yerine ₺24.000 TL/ay. Logo, Mikro, NetGSM, Iyzico hazır entegrasyon. Türkçe panel, KVKK uyumlu."
+      "Zapier yerine n8n + Make + özel kod. Logo, Mikro, NetGSM, Iyzico hazır entegrasyon. Türkçe panel, KVKK uyumlu."
   },
   twitter: {
     card: "summary_large_image",
     title: "Zapier Alternatifi | PORTZEN",
     description:
-      "Türk uygulamaları (Logo, Mikro, NetGSM) entegre, TL fiyat, KVKK uyumlu otomasyon."
+      "Türk uygulamaları (Logo, Mikro, NetGSM) entegre, KVKK uyumlu otomasyon."
   },
   alternates: { canonical: "https://portzenai.com/zapier-alternatifi" },
   robots: { index: true, follow: true }
@@ -67,13 +67,7 @@ const serviceSchema = {
   serviceType: "Business Process Automation",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Zapier'in eksik kaldığı Türk uygulamalarına (Logo, Mikro, Netsis, NetGSM, Iyzico) entegre, TL faturalı, Türkçe destekli ve KVKK uyumlu otomasyon altyapısı.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺12000-₺50000",
-    availability: "https://schema.org/InStock"
-  }
+    "Zapier'in eksik kaldığı Türk uygulamalarına (Logo, Mikro, Netsis, NetGSM, Iyzico) entegre, Türkçe destekli ve KVKK uyumlu otomasyon altyapısı."
 };
 
 const faqSchema = {
@@ -109,7 +103,7 @@ const faqSchema = {
       name: "NetGSM, Iletimerkezi gibi Türk SMS sağlayıcıları için connector var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. NetGSM, İletimerkezi, Verimor, Sms.net ve Mutlu Cep için kurulu connector. Zapier'in Twilio (USD bazlı) zorunluluğu yok."
+        text: "Evet. NetGSM, İletimerkezi, Verimor, Sms.net ve Mutlu Cep için kurulu connector. Zapier'in Twilio bağımlılığı yok."
       }
     },
     {
@@ -154,7 +148,7 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "%70", label: "Aylık maliyet tasarrufu" },
+  { metric: "n8n + Make", label: "Hibrit otomasyon motoru" },
   { metric: "40+", label: "Türk uygulama connector" },
   { metric: "KVKK", label: "Türkiye sunucu opsiyonu" },
   { metric: "21 gün", label: "Taşıma + kurulum süresi" }
@@ -162,15 +156,15 @@ const stats = [
 
 const painPoints = [
   {
-    title: "USD fiyat acımasız",
-    desc: "Zapier Pro $29 USD/ay (≈ ₺1.200), Team $69 USD (≈ ₺2.800). Task arttıkça katlanır, kur tutmaz."
+    title: "USD bazlı, kur riski",
+    desc: "USD bazlı fiyat. Kur arttıkça faturanız katlanır, Task arttıkça katlanır. TL fatura yok."
   },
   {
     title: "Türk uygulamaları yok",
     desc: "Logo, Mikro, Netsis, NetGSM, İletimerkezi, Param, Iyzico, Sipay — Zapier'in 7.000+ app listesinde hiçbiri yok. Hepsini elle webhook'la çözmek zorundasınız."
   },
   {
-    title: "Karmaşık akışlarda pahalı",
+    title: "Karmaşık akışlarda verimsiz",
     desc: "Bir Multi-step Zap birden çok Task harcar. Günde 100 lead getirmek bile aylık limiti hızla bitirir, paket büyütmek zorunda kalırsınız."
   },
   {
@@ -184,7 +178,7 @@ const painPoints = [
 ];
 
 const comparisonRows = [
-  { feature: "Para birimi", manychat: "USD ($29-$799)", portzen: "TL (₺12.000-₺48.000)" },
+  { feature: "Fiyat modeli", manychat: "USD bazlı", portzen: "Brief'te belirlenir" },
   { feature: "Türk muhasebe (Logo/Mikro/Netsis)", manychat: "Yok", portzen: "Hazır connector" },
   { feature: "Türk SMS (NetGSM/İletimerkezi)", manychat: "Yok — Twilio zorunlu", portzen: "5+ Türk sağlayıcı" },
   { feature: "Türk ödeme (Iyzico/Param/PayTR)", manychat: "Yok", portzen: "Hazır entegrasyon" },
@@ -215,7 +209,7 @@ const solutionSteps = [
   {
     icon: CheckCircle2,
     title: "Canlı",
-    description: "Eski Zap'lar açık kalır, paralel 5 gün test ediyoruz. Onaydan sonra Zapier hesabınızı iptal edip TL faturaya geçiyorsunuz."
+    description: "Eski Zap'lar açık kalır, paralel 5 gün test ediyoruz. Onaydan sonra Zapier hesabınızı iptal edip yerel faturaya geçiyorsunuz."
   }
 ];
 
@@ -225,58 +219,7 @@ const features = [
   { icon: Languages, title: "Türkçe panel + dokümentasyon", desc: "Ekibinizin n8n editörünü görsel olarak Türkçe kullanması için özel dokümantasyon ve video eğitim." },
   { icon: ShieldCheck, title: "KVKK + TR sunucu", desc: "İsteğe bağlı self-hosted Türkiye sunucusu. KVKK aydınlatma metni, VERBİS kayıt desteği paket dahil." },
   { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile aynı gün dönüş. Zapier'in e-mail-only İngilizce desteği yerine gerçek insan." },
-  { icon: Wallet, title: "TL faturalama", desc: "Sabit aylık TL fatura, KDV dahil, e-Arşiv. Task aşım sürprizleri yok, execution bazlı şeffaf limit." }
-];
-
-const packages = [
-  {
-    name: "Başlangıç",
-    price: "12.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 30.000 TL",
-    color: "bg-paper",
-    features: [
-      "5 aktif otomasyon akışı",
-      "Aylık 10.000 execution",
-      "10 Türk connector aktif",
-      "n8n cloud (PORTZEN yönetir)",
-      "Aylık 2 saat akış güncelleme"
-    ],
-    cta: "Projeyi Konuşalım"
-  },
-  {
-    name: "Pro",
-    price: "24.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 45.000 TL",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "20 aktif akış",
-      "Aylık 50.000 execution",
-      "Sınırsız Türk connector",
-      "n8n + Make + WhatsApp API",
-      "Logo/Mikro hazır entegre",
-      "Aylık 8 saat geliştirme"
-    ],
-    cta: "Pro Paketi Konuşalım"
-  },
-  {
-    name: "Kurumsal",
-    price: "48.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 75.000 TL+",
-    color: "bg-paper",
-    features: [
-      "Sınırsız akış + execution",
-      "Self-hosted TR sunucu (KVKK)",
-      "Özel API geliştirme",
-      "Adanmış proje yöneticisi",
-      "SLA + öncelikli destek",
-      "Aylık detaylı analiz raporu"
-    ],
-    cta: "Kurumsal Teklif"
-  }
+  { icon: Wallet, title: "Sabit e-Arşiv fatura", desc: "Sabit fatura, KDV dahil, e-Arşiv. Task aşım sürprizleri yok, execution bazlı şeffaf limit." }
 ];
 
 const faqs = [
@@ -294,7 +237,7 @@ const faqs = [
   },
   {
     q: "NetGSM, Iletimerkezi gibi Türk SMS sağlayıcıları için connector var mı?",
-    a: "NetGSM, İletimerkezi, Verimor, Sms.net, Mutlu Cep ve Vodafone Mesaj Servisleri için hazır connector. Zapier'in Twilio (USD faturalı) zorunluluğu yok — Türk SMS sağlayıcısıyla TL fatura."
+    a: "NetGSM, İletimerkezi, Verimor, Sms.net, Mutlu Cep ve Vodafone Mesaj Servisleri için hazır connector. Zapier'in Twilio bağımlılığı yok — Türk SMS sağlayıcısıyla yerel fatura."
   },
   {
     q: "Aylık operasyon ücreti dahilinde ne var?",
@@ -343,7 +286,7 @@ export default function Page() {
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Zapier'in USD faturası, Türk uygulamalarına entegrasyon eksikliği ve İngilizce paneli yerine PORTZEN n8n + Make + özel kod kombinasyonunu kullanır. Logo, Mikro, NetGSM, Iyzico hazır bağlı; TL fatura, Türkçe destek, KVKK uyumlu.
+                  Zapier'in dolar faturası, Türk uygulamalarına entegrasyon eksikliği ve İngilizce paneli yerine PORTZEN n8n + Make + özel kod kombinasyonunu kullanır. Logo, Mikro, NetGSM, Iyzico hazır bağlı; yerel fatura, Türkçe destek, KVKK uyumlu.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -462,7 +405,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> Zapier fiyatları zapier.com/pricing'den (Ocak 2026), karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Kaynak:</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
             </p>
           </Reveal>
         </div>
@@ -540,7 +483,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Aylık $99'dan ₺12.000'e — Logo entegre, NetGSM ile SMS, n8n + Make hibrit.
+              Logo entegre, NetGSM ile SMS, n8n + Make hibrit yapıya taşındı.
             </h2>
           </Reveal>
 
@@ -548,13 +491,13 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  İstanbul Şişli'de 22 kişilik bir dijital reklam ajansı 2 yıldır Zapier Team planı kullanıyordu. Aylık $99 USD (≈ ₺4.000), ek Task paketleriyle bazı aylarda $145'e çıkıyordu. 14 aktif Zap vardı: Facebook Lead Ads → Google Sheets, Sheets → Slack, Sheets → e-mail bildirimi, Sheets → Trello, Calendly → Notion, vs.
+                  İstanbul Şişli'de 22 kişilik bir dijital reklam ajansı 2 yıldır Zapier Team planı kullanıyordu. Ek Task paketleriyle bazı aylarda fatura fırlıyordu. 14 aktif Zap vardı: Facebook Lead Ads → Google Sheets, Sheets → Slack, Sheets → e-mail bildirimi, Sheets → Trello, Calendly → Notion, vs.
                 </p>
                 <p>
-                  3 büyük sorun vardı: (1) Yeni gelen lead'leri Logo Tiger'a müşteri kaydı olarak da açmak istiyorlardı ama Zapier'de Logo connector yoktu — geliştirici tutup 8 ay önce kurduğu webhook çoktan bozulmuştu, (2) SMS bildirimleri Twilio üzerinden USD ödeniyordu, Türk numarasına SMS başına $0.04 yani ₺1.60 — pahalı, (3) KVKK aydınlatma metni Zapier'in kayıt akışında devrede değildi, bir uyarı geldi.
+                  3 büyük sorun vardı: (1) Yeni gelen lead'leri Logo Tiger'a müşteri kaydı olarak da açmak istiyorlardı ama Zapier'de Logo connector yoktu — geliştirici tutup 8 ay önce kurduğu webhook çoktan bozulmuştu, (2) SMS bildirimleri Twilio üzerinden dolar bazlı ödeniyordu, kur dalgalanması ciddi bir maliyet kalemi haline gelmişti, (3) KVKK aydınlatma metni Zapier'in kayıt akışında devrede değildi, bir uyarı geldi.
                 </p>
                 <p>
-                  18 günde tüm akışları n8n + Make hibridine taşıdık: Logo Tiger için hazır API katmanımızı bağladık (her yeni lead otomatik cari kayıt + cari kart), Twilio yerine NetGSM bağladık (SMS başına ₺0.18 — Twilio'nun 1/9'u), KVKK aydınlatma formunu Notion'da otomatik tutan akış kurduk. Aylık fatura $99 (≈₺4.000) + ek SMS'lerle ortalama ₺8.500'den, sabit ₺12.000'e çıktı — ama SMS maliyeti $400 USD'den (≈₺16.000) ₺2.200'e düştü. Net tasarruf ayda ₺13.700.
+                  18 günde tüm akışları n8n + Make hibridine taşıdık: Logo Tiger için hazır API katmanımızı bağladık (her yeni lead otomatik cari kayıt + cari kart), Twilio yerine NetGSM bağladık (yerel SMS sağlayıcısıyla kur riski yok), KVKK aydınlatma formunu Notion'da otomatik tutan akış kurduk.
                 </p>
                 <p>
                   En önemlisi: 14 Zap'tan 9 n8n akışına indirdik. Aynı iş, daha az node, daha az execution.
@@ -565,17 +508,14 @@ export default function Page() {
             <Reveal delay={300}>
               <div className="grid gap-4">
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Zapier (toplam)</div>
-                  <div className="font-display text-3xl font-black mb-1">$99 + SMS</div>
-                  <div className="text-sm">Aylık ortalama ≈ ₺24.000</div>
-                  <div className="mt-4 text-xs font-bold uppercase opacity-70 mb-1">PORTZEN'de</div>
-                  <div className="font-display text-3xl font-black text-brand-green">₺12.000/ay</div>
-                  <div className="text-sm">Sabit, SMS dahil, KDV dahil</div>
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">SMS altyapısı</div>
+                  <div className="font-display text-3xl font-black mb-1">Twilio → NetGSM</div>
+                  <div className="text-sm">Yerel sağlayıcı, kur riski yok</div>
                 </div>
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">SMS maliyeti</div>
-                  <div className="font-display text-4xl font-black mb-1">₺16k → ₺2.2k</div>
-                  <div className="text-sm">Twilio → NetGSM</div>
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Muhasebe entegrasyonu</div>
+                  <div className="font-display text-3xl font-black mb-1">Logo Tiger</div>
+                  <div className="text-sm">Otomatik cari kart açma</div>
                 </div>
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Aktif akış</div>
@@ -588,81 +528,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket — execution bazlı, Task sürpriz yok
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Zapier'in Task aşımında otomatik üst plana atma alışkanlığı bizde yok. Sabit TL fatura, KDV dahil.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <div className="font-display text-lg font-black mb-1">Detaylı çözüm sayfası</div>
-                <p className="text-sm opacity-90">
-                  PORTZEN'in CRM ve süreç otomasyonu sistemi tam olarak ne içeriyor.
-                </p>
-              </div>
-              <Link
-                href="/crm-otomasyonu"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                CRM Otomasyonu <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* 8. FAQ */}
+      {/* 7. FAQ */}
       <section className="bg-ink text-paper py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
@@ -692,7 +558,7 @@ export default function Page() {
                 <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
                 <h3 className="font-display text-base font-black mb-2">ManyChat'i de mi düşünüyorsunuz?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  ManyChat'in dolar fiyatı ve KVKK uyumsuzluğu yerine yerel WhatsApp + IG çözümü.
+                  ManyChat'in dolar bağımlılığı ve KVKK uyumsuzluğu yerine yerel WhatsApp + IG çözümü.
                 </p>
                 <Link href="/manychat-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
                   ManyChat Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
@@ -702,7 +568,7 @@ export default function Page() {
                 <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
                 <h3 className="font-display text-base font-black mb-2">HubSpot pahalı geliyor mu?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  HubSpot Starter $800/ay yerine TL fiyatlı, Türk muhasebe entegre CRM otomasyonu.
+                  HubSpot Starter yerine TL bazlı, Türk muhasebe entegre CRM otomasyonu.
                 </p>
                 <Link href="/hubspot-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
                   HubSpot Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
@@ -713,18 +579,18 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 9. FINAL CTA */}
+      {/* 8. FINAL CTA */}
       <section className="py-section bg-paper">
         <div className="mx-auto max-w-container px-6">
           <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Zapier faturasını TL'ye çevirelim.
+                Zapier akışlarınızı n8n + Make hibride taşıyalım.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut Zap'larınızı listeliyoruz, hangilerinin n8n'de daha verimli kurulacağını gösteriyoruz. Tahmini tasarruf hesabı çıkarıyoruz.
+                15 dakikalık ücretsiz keşif görüşmesinde mevcut Zap'larınızı listeliyoruz, hangilerinin n8n'de daha verimli kurulacağını gösteriyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>

@@ -68,13 +68,7 @@ const serviceSchema = {
   serviceType: "E-Commerce Platform",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Ticimax'in hazır kalıp altyapısı yerine PORTZEN, markanıza özel Next.js tabanlı, AI destekli, ölçeklenebilir e-ticaret platformu geliştirir. SEO, hız ve dönüşüm odaklı.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺85000-₺400000",
-    availability: "https://schema.org/InStock"
-  }
+    "Ticimax'in hazır kalıp altyapısı yerine PORTZEN, markanıza özel Next.js tabanlı, AI destekli, ölçeklenebilir e-ticaret platformu geliştirir. SEO, hız ve dönüşüm odaklı."
 };
 
 const faqSchema = {
@@ -118,7 +112,7 @@ const faqSchema = {
       name: "Aylık lisans ücreti ödüyor muyum?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hayır. PORTZEN tek seferlik proje ücreti + opsiyonel aylık bakım paketi modelidir. Ticimax'ın aylık 4.500 TL ile 18.000 TL arasındaki lisans ücreti yoktur. Lisansı siz sahipsiniz, kod size aittir."
+        text: "Hayır. PORTZEN tek seferlik proje ücreti + opsiyonel aylık bakım paketi modelidir. Ticimax'ın aylık lisans ücretinin aksine kod size aittir. Fiyat brief görüşmesinde net paylaşılıyor."
       }
     },
     {
@@ -126,7 +120,7 @@ const faqSchema = {
       name: "Hosting maliyeti ne olur?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Next.js Vercel veya Netlify üzerinde aylık 200 ile 1.000 TL arasında hosting masrafı çıkarır. Ticimax kendi hosting'inde tutar fakat lisansa dahil değildir, ayrı abonelik. Toplam maliyet PORTZEN tarafında daha düşük."
+        text: "Next.js Vercel veya Netlify üzerinde uygun bir hosting masrafı çıkarır. Ticimax kendi hosting'inde tutar fakat lisansa dahil değildir, ayrı abonelik gerekir. Toplam maliyet PORTZEN tarafında daha düşük."
       }
     },
     {
@@ -157,7 +151,7 @@ const breadcrumbSchema = {
 const stats = [
   { metric: "100ms", label: "TTFB Next.js ile" },
   { metric: "AI", label: "Ürün önerisi ve içerik" },
-  { metric: "%0", label: "Aylık lisans, kod sizin" },
+  { metric: "0 lisans", label: "Kod size ait" },
   { metric: "6 hafta", label: "Tipik taşıma süresi" }
 ];
 
@@ -172,7 +166,7 @@ const painPoints = [
   },
   {
     title: "Aylık lisans ücreti",
-    desc: "Paket bazında aylık 4.500 ile 18.000 TL arasında lisans ücreti. Yıllık 54.000 ile 216.000 TL arasında sabit gider, kod size ait değil."
+    desc: "Paket bazında aylık lisans ücreti her ay sabit gider olarak devam eder, kod size ait değildir. Yıllık toplamda ciddi bir kalıcı maliyet birikir."
   },
   {
     title: "Modül başı ücret",
@@ -184,7 +178,7 @@ const painPoints = [
   },
   {
     title: "AI yerleşik değil",
-    desc: "Ürün öneri motoru, otomatik içerik üretimi, AI chatbot için ayrı SaaS abonelikleri (Algolia, Insider, Klevu) gerekir, aylık ek 5.000 ile 25.000 TL maliyet."
+    desc: "Ürün öneri motoru, otomatik içerik üretimi, AI chatbot için ayrı SaaS abonelikleri (Algolia, Insider, Klevu) gerekir, aylık ek maliyet çıkarır."
   }
 ];
 
@@ -192,7 +186,7 @@ const comparisonRows = [
   { feature: "Tasarım esnekliği", ticimax: "Tema kalıbı", portzen: "Markaya özel custom" },
   { feature: "Time To First Byte", ticimax: "800ms ile 1500ms", portzen: "100ms altı (Vercel edge)" },
   { feature: "Google PageSpeed", ticimax: "60 altı tipik", portzen: "95 üzeri tipik" },
-  { feature: "Aylık lisans", ticimax: "4.500 ile 18.000 TL", portzen: "Yok, kod size ait" },
+  { feature: "Fiyat modeli", ticimax: "Aylık lisans bazlı", portzen: "Brief'te belirlenir, kod size ait" },
   { feature: "Modül başı ücret", ticimax: "Her modül ek", portzen: "Tek proje, her şey dahil" },
   { feature: "AI ürün önerisi", ticimax: "Üçüncü parti SaaS", portzen: "Yerleşik, dahil" },
   { feature: "SEO kontrolü", ticimax: "Sınırlı", portzen: "Tam, schema dahil" },
@@ -233,59 +227,6 @@ const features = [
   { icon: ShieldCheck, title: "KVKK ve PCI", desc: "Tokenizasyon ile kart bilgisi sitenizde tutulmaz, PCI DSS yükü sağlayıcıda. KVKK aydınlatma, açık rıza, veri silme akışları yerleşik." }
 ];
 
-const packages = [
-  {
-    name: "Başlangıç",
-    price: "85.000 TL",
-    period: "/proje",
-    setup: "8 hafta teslim",
-    color: "bg-paper",
-    features: [
-      "500 ürüne kadar",
-      "Markaya özel tasarım",
-      "Next.js + headless backend",
-      "Tek ödeme sağlayıcı entegre",
-      "SEO temel optimizasyon",
-      "3 ay bakım dahil"
-    ],
-    cta: "Projeyi Konuşalım"
-  },
-  {
-    name: "Pro",
-    price: "180.000 TL",
-    period: "/proje",
-    setup: "10 hafta teslim",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "5.000 ürüne kadar",
-      "AI öneri motoru + chatbot",
-      "Multi-PSP ödeme routing",
-      "CRM ve e-Arşiv entegre",
-      "Çoklu dil, para birimi",
-      "Sosyal medya satış kanalı",
-      "6 ay bakım dahil"
-    ],
-    cta: "Pro Paketi Konuşalım"
-  },
-  {
-    name: "Kurumsal",
-    price: "400.000 TL+",
-    period: "/proje",
-    setup: "16 hafta teslim",
-    color: "bg-paper",
-    features: [
-      "Sınırsız ürün ve kategori",
-      "B2B + B2C ayrı modüller",
-      "Mobil uygulama API'si",
-      "Self hosted altyapı",
-      "Adanmış proje ekibi",
-      "12 ay bakım + SLA"
-    ],
-    cta: "Kurumsal Teklif"
-  }
-];
-
 const faqs = [
   {
     q: "Ticimax kötü bir platform mu, hiç kullanılmamalı mı?",
@@ -301,15 +242,15 @@ const faqs = [
   },
   {
     q: "AI hangi noktalarda kullanılıyor?",
-    a: "Ürün açıklaması otomatik yazımı (yeni ürün eklediğinizde SEO uyumlu açıklama AI ile gelir), ürün görseli iyileştirme (arka plan temizleme, boyut standartlaştırma), kişiselleştirilmiş öneri motoru (her kullanıcıya farklı anasayfa), sepet terk e-mail kişiselleştirmesi, müşteri sorularını yanıtlayan WhatsApp + site chatbot, kategori sayfa SEO içeriği otomatik üretimi, A/B test fikir önerisi. Ticimax'ta hiçbiri yerleşik değildir, üçüncü parti SaaS abonelikleri (Insider, Algolia, Klevu) gerekir, aylık 5.000 ile 25.000 TL ek maliyet çıkarır."
+    a: "Ürün açıklaması otomatik yazımı (yeni ürün eklediğinizde SEO uyumlu açıklama AI ile gelir), ürün görseli iyileştirme (arka plan temizleme, boyut standartlaştırma), kişiselleştirilmiş öneri motoru (her kullanıcıya farklı anasayfa), sepet terk e-mail kişiselleştirmesi, müşteri sorularını yanıtlayan WhatsApp + site chatbot, kategori sayfa SEO içeriği otomatik üretimi, A/B test fikir önerisi. Ticimax'ta hiçbiri yerleşik değildir, üçüncü parti SaaS abonelikleri (Insider, Algolia, Klevu) gerekir, aylık ek maliyet çıkarır."
   },
   {
     q: "Aylık lisans ücreti ödüyor muyum?",
-    a: "Hayır. PORTZEN tek seferlik proje ücreti + opsiyonel aylık bakım paketi modelidir. Ticimax'ın aylık 4.500 TL (Başlangıç paket) ile 18.000 TL (Kurumsal paket) arasındaki lisans ücreti yoktur. Kod tamamen size aittir, GitHub repo'sunda kalır, isterseniz başka bir ajansa devredebilirsiniz. PORTZEN aylık bakım almasanız bile site sahibi sizsiniz, kilitlenme yoktur."
+    a: "Hayır. PORTZEN tek seferlik proje ücreti + opsiyonel aylık bakım paketi modelidir. Ticimax'ın her ay tekrarlayan lisans ücretinin aksine kod tamamen size aittir, GitHub repo'sunda kalır, isterseniz başka bir ajansa devredebilirsiniz. PORTZEN aylık bakım almasanız bile site sahibi sizsiniz, kilitlenme yoktur. Fiyat brief görüşmesinde net paylaşılıyor."
   },
   {
     q: "Hosting maliyeti ne olur?",
-    a: "Next.js Vercel, Netlify veya Cloudflare Pages üzerinde aylık 200 ile 1.000 TL arasında hosting masrafı çıkarır (trafiğe bağlı). Kurumsal trafik için AWS, GCP veya self-hosted altyapı 2.000 ile 8.000 TL arasında. Ticimax kendi hosting'inde tutar fakat lisansa dahil değildir, ayrı abonelik gerekir. Toplam maliyet (lisans + hosting + modüller) PORTZEN tarafında uzun vadede daha düşük çıkar."
+    a: "Next.js Vercel, Netlify veya Cloudflare Pages üzerinde uygun bir aylık hosting masrafı çıkar (trafiğe bağlı). Kurumsal trafik için AWS, GCP veya self-hosted altyapı seçenekleri mevcut. Ticimax kendi hosting'inde tutar fakat lisansa dahil değildir, ayrı abonelik gerekir. Toplam maliyet (lisans + hosting + modüller) PORTZEN tarafında uzun vadede daha düşük çıkar."
   },
   {
     q: "Ödeme sağlayıcısı entegrasyonu var mı?",
@@ -469,7 +410,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak.</strong> Ticimax paket fiyat listesi (ticimax.com), PORTZEN müşteri taşıma deneyimleri, Lighthouse benchmark testleri, Ocak 2026.
+              <strong>Kaynak:</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
             </p>
           </Reveal>
         </div>
@@ -555,13 +496,13 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  <strong>İstanbul, 1.200 SKU'lu butik moda markası.</strong> Ticimax Profesyonel pakette aylık 9.500 TL lisans ödüyordu, PageSpeed skoru 38'di, dönüşüm oranı %0.9 seviyesindeydi. PORTZEN ile Next.js'e taşındı, tasarım sıfırdan markaya özel kurguladı. PageSpeed 96'ya çıktı, dönüşüm oranı %2.4'e yükseldi, sepet terk e-mail AI ile kişiselleştirildi. Yıllık lisans tasarrufu 114.000 TL, ek dönüşüm artışı 6 ayda proje maliyetini karşıladı.
+                  <strong>İstanbul, 1.200 SKU'lu butik moda markası.</strong> Ticimax Profesyonel pakette aylık sabit lisans ödüyordu, PageSpeed skoru 38'di, dönüşüm oranı %0.9 seviyesindeydi. PORTZEN ile Next.js'e taşındı, tasarım sıfırdan markaya özel kurguladı. PageSpeed 96'ya çıktı, dönüşüm oranı %2.4'e yükseldi, sepet terk e-mail AI ile kişiselleştirildi. Ek dönüşüm artışı proje maliyetini kısa sürede karşıladı.
                 </p>
                 <p>
-                  <strong>Ankara, B2B endüstriyel ürün satıcısı.</strong> 4.000 SKU, hem B2C hem B2B satış. Ticimax'ta B2B modülü aylık 6.500 TL ek ücret istiyordu, fiyat farklılaştırma sınırlıydı. PORTZEN custom backend kurdu, B2B müşteriye giriş sonrası farklı fiyat, vade ve sepet kuralları gösterildi. SKU başı dinamik fiyat hesaplama, kurumsal proforma fatura otomasyonu eklendi.
+                  <strong>Ankara, B2B endüstriyel ürün satıcısı.</strong> 4.000 SKU, hem B2C hem B2B satış. Ticimax'ta B2B modülü ek modül ücreti istiyordu, fiyat farklılaştırma sınırlıydı. PORTZEN custom backend kurdu, B2B müşteriye giriş sonrası farklı fiyat, vade ve sepet kuralları gösterildi. SKU başı dinamik fiyat hesaplama, kurumsal proforma fatura otomasyonu eklendi.
                 </p>
                 <p>
-                  <strong>İzmir, kozmetik markası, ihracat ağırlıklı.</strong> Türkiye, Almanya, Hollanda, Birleşik Krallık'a satış yapıyordu. Ticimax çoklu dil modülü aylık 4.000 TL, çoklu para birimi 2.500 TL, hreflang otomatik değildi. PORTZEN'de TR, DE, NL, EN dilleri standart geldi, hreflang otomatik, ülkeye göre fiyat ve KDV otomatik hesaplandı. EU müşteri için Stripe + TR müşteri için iyzico routing kuruldu.
+                  <strong>İzmir, kozmetik markası, ihracat ağırlıklı.</strong> Türkiye, Almanya, Hollanda, Birleşik Krallık'a satış yapıyordu. Ticimax çoklu dil ve çoklu para birimi ek modül olarak faturalanıyordu, hreflang otomatik değildi. PORTZEN'de TR, DE, NL, EN dilleri standart geldi, hreflang otomatik, ülkeye göre fiyat ve KDV otomatik hesaplandı. EU müşteri için Stripe + TR müşteri için iyzico routing kuruldu.
                 </p>
                 <p>
                   <strong>Bursa, ev tekstili markası, hızlı büyüyen.</strong> Yılda %180 büyüyordu, Ticimax altyapısı kampanya saatinde çöküyordu. Vercel edge network'e taşındı, eşzamanlı 50.000 kullanıcıya sorunsuz çıktı. Black Friday günü 12 saat boyunca sıfır kesinti, normal trafiğin 8 katı sipariş aldı.
@@ -582,87 +523,13 @@ export default function Page() {
                   <div className="text-sm">Hız + AI öneri ile</div>
                 </div>
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Yıllık lisans tasarrufu</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">114.000 TL</div>
-                  <div className="text-sm">Tek seferlik proje modeli</div>
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Aylık lisans</div>
+                  <div className="font-display text-4xl font-black text-brand-pink">0</div>
+                  <div className="text-sm">Tek seferlik proje, kod size ait</div>
                 </div>
               </div>
             </Reveal>
           </div>
-        </div>
-      </section>
-
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket, aylık lisans yok, kod size ait
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Ticimax'ın aylık 4.500 ile 18.000 TL arasındaki lisans modelinin aksine, PORTZEN tek seferlik proje ücreti alır. Yıl sonunda yatırım amorti olur.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <div className="font-display text-lg font-black mb-1">Daha fazla okuma</div>
-                <p className="text-sm opacity-90">
-                  Shopify vs WooCommerce, WordPress vs Shopify karşılaştırmalı blog yazılarımızı inceleyin.
-                </p>
-              </div>
-              <Link
-                href="/blog/shopify-vs-woocommerce-turkiye"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                Blog: Shopify vs WooCommerce <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
         </div>
       </section>
 

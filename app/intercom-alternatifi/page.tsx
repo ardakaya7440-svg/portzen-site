@@ -12,8 +12,6 @@ import {
   Users,
   Sparkles,
   HeadphonesIcon,
-  Building2,
-  CheckCircle2,
   Zap,
   RefreshCw
 } from "lucide-react";
@@ -21,9 +19,9 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Intercom Alternatifi | Türkçe, Uygun Fiyatlı KOBİ Çözümü — PORTZEN",
+  title: "Intercom Alternatifi | Türkçe KOBİ Çözümü — PORTZEN",
   description:
-    "Intercom çok mu pahalı? PORTZEN, KOBİ'ler için Türkçe destekli, KVKK uyumlu, TL fiyatlı Intercom alternatifidir. WhatsApp + Instagram + Web Chat tek panelde. 14 günde geçiş.",
+    "PORTZEN, KOBİ'ler için Türkçe destekli, KVKK uyumlu Intercom alternatifidir. WhatsApp + Instagram + Web Chat tek panelde. 14 günde geçiş.",
   keywords: [
     "intercom alternatifi",
     "intercom türkçe",
@@ -38,15 +36,15 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://portzenai.com/intercom-alternatifi",
     siteName: "PORTZEN",
-    title: "Intercom Alternatifi | Türkçe, Uygun Fiyatlı KOBİ Çözümü — PORTZEN",
+    title: "Intercom Alternatifi | Türkçe KOBİ Çözümü — PORTZEN",
     description:
-      "Intercom Starter $74/ay yerine TL fiyat, Türkçe destek, KVKK uyumu. WhatsApp + Instagram + Web Chat tek panelde."
+      "Intercom yerine Türkçe destek, KVKK uyumu. WhatsApp + Instagram + Web Chat tek panelde."
   },
   twitter: {
     card: "summary_large_image",
     title: "Intercom Alternatifi — PORTZEN",
     description:
-      "Türkçe destekli, KVKK uyumlu, TL fiyatlı Intercom alternatifi. 14 günde geçiş."
+      "Türkçe destekli, KVKK uyumlu Intercom alternatifi. 14 günde geçiş."
   },
   alternates: { canonical: "https://portzenai.com/intercom-alternatifi" },
   robots: { index: true, follow: true }
@@ -66,13 +64,7 @@ const serviceSchema = {
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Intercom yerine Türkçe destekli, KVKK uyumlu, TL fiyatlı KOBİ müşteri destek platformu. WhatsApp, Instagram DM ve Web Chat tek panelde, AI asistan destekli.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺8500-₺32000",
-    availability: "https://schema.org/InStock"
-  }
+    "Intercom yerine Türkçe destekli, KVKK uyumlu KOBİ müşteri destek platformu. WhatsApp, Instagram DM ve Web Chat tek panelde, AI asistan destekli."
 };
 
 const faqSchema = {
@@ -116,7 +108,7 @@ const faqSchema = {
       name: "Sözleşme süresi var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Aylık ödeme seçeneği vardır, taahhüt yoktur. Yıllık ödemede %15 indirim uygulanır. İptal istediğinizde 30 gün önceden bildirim yeterlidir, veri export desteği ücretsiz sunulur."
+        text: "Aylık ödeme seçeneği vardır, taahhüt yoktur. İptal istediğinizde 30 gün önceden bildirim yeterlidir, veri export desteği ücretsiz sunulur."
       }
     },
     {
@@ -132,7 +124,7 @@ const faqSchema = {
       name: "AI asistan özellikleri Intercom Fin AI ile karşılaştırılabilir mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. PORTZEN AI asistanı GPT-4 ve Türkçeye özel modellerle çalışır, sektör bazlı eğitilir. Intercom Fin AI'nin yanıt başına $0.99 ücreti yerine sabit aylık paket içinde sınırsız AI yanıt sunulur."
+        text: "Evet. PORTZEN AI asistanı GPT-4 ve Türkçeye özel modellerle çalışır, sektör bazlı eğitilir. Intercom Fin AI'nin yanıt başına ekstra ücreti yerine paket içinde sınırsız AI yanıt sunulur."
       }
     }
   ]
@@ -153,17 +145,17 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "%75", label: "Aylık fatura tasarrufu" },
+  { metric: "3'ü 1'de", label: "WhatsApp + IG + Web Chat tek panel" },
   { metric: "14 gün", label: "Standart geçiş süresi" },
-  { metric: "₺8.500", label: "Aylık başlangıç paketi" },
+  { metric: "Sınırsız", label: "AI yanıt + Türkçe eğitim" },
   { metric: "100%", label: "KVKK + Türkiye sunucu" }
 ];
 
 const problems = [
-  "Intercom Starter paketi $74/ay; Türk Lirası karşılığı her ay artıyor. KOBİ bütçesi USD bazlı bir SaaS'a kilitleniyor.",
-  "WhatsApp Business API ve Instagram entegrasyonu Intercom'da ekstra paket; toplam fatura aylık $200-400'e ulaşıyor.",
+  "Intercom USD bazlı fatura kesiyor; kur arttıkça KOBİ bütçesi USD bazlı bir SaaS'a kilitleniyor.",
+  "WhatsApp Business API ve Instagram entegrasyonu Intercom'da ekstra paket; toplam fatura ekstra kalemlerle katlanıyor.",
   "Türkçe canlı destek yok; sorun yaşadığınızda 7-10 saat aralıklı İngilizce e-posta yazışması.",
-  "AI asistan (Fin AI) yanıt başına $0.99 — yüksek mesaj hacmiyle aylık $1000+ ekstra fatura.",
+  "AI asistan (Fin AI) yanıt başına ekstra ücret alır — yüksek mesaj hacmiyle fatura hızla büyür.",
   "KVKK uyum sertifikası net değil, Türkiye sunucu opsiyonu yok; veri sorumlusu sözleşmesi tedarikçi standart şablonuna sıkışmış durumda."
 ];
 
@@ -193,8 +185,8 @@ const solutionSteps = [
 const features = [
   {
     icon: Wallet,
-    title: "Türk Lirası fiyatlandırma",
-    desc: "Aylık ₺8.500'den başlar. Dolar kurundan etkilenmez, bütçe planı net yapılır."
+    title: "Sabit çalışma modeli",
+    desc: "Dolar kurundan etkilenmez, sabit fatura ile bütçe planı net yapılır."
   },
   {
     icon: HeadphonesIcon,
@@ -209,7 +201,7 @@ const features = [
   {
     icon: Bot,
     title: "Sınırsız AI yanıt",
-    desc: "GPT-4 + Türkçe model, sektör bazlı eğitim. Yanıt başına ek ücret yok, aylık paket içinde."
+    desc: "GPT-4 + Türkçe model, sektör bazlı eğitim. Yanıt başına ek ücret yok, paket içinde."
   },
   {
     icon: Globe2,
@@ -224,70 +216,16 @@ const features = [
 ];
 
 const comparison = [
-  { feature: "Aylık başlangıç ücreti", intercom: "$74 (Starter)", portzen: "₺8.500" },
-  { feature: "WhatsApp Business API", intercom: "Ekstra paket ($35+)", portzen: "Dahil" },
+  { feature: "Fiyat modeli", intercom: "USD bazlı", portzen: "Brief'te belirlenir" },
+  { feature: "WhatsApp Business API", intercom: "Ekstra paket", portzen: "Dahil" },
   { feature: "Instagram DM", intercom: "Ekstra paket", portzen: "Dahil" },
-  { feature: "AI yanıt ücreti", intercom: "$0.99 / yanıt (Fin AI)", portzen: "Sınırsız (dahil)" },
+  { feature: "AI yanıt ücreti", intercom: "Yanıt başına ekstra ücret (Fin AI)", portzen: "Sınırsız (dahil)" },
   { feature: "Türkçe canlı destek", intercom: false, portzen: true },
   { feature: "Türkçe arayüz", intercom: "Kısmi çeviri", portzen: "Tam Türkçe" },
   { feature: "KVKK aydınlatma akışı", intercom: false, portzen: true },
   { feature: "Türkiye sunucu", intercom: false, portzen: true },
-  { feature: "Türk Lirası fatura", intercom: false, portzen: true },
+  { feature: "e-Arşiv / yerel fatura", intercom: false, portzen: true },
   { feature: "Sözleşme taahhüdü", intercom: "Yıllık zorunlu", portzen: "Aylık opsiyonu var" }
-];
-
-const packages = [
-  {
-    name: "Başlangıç",
-    price: "8.500 TL",
-    period: "/ay",
-    setup: "Geçiş + kurulum: 15.000 TL",
-    color: "bg-paper",
-    features: [
-      "3 kullanıcı koltuğu",
-      "Aylık 3.000 konuşmaya kadar",
-      "WhatsApp + Instagram + Web Chat",
-      "Standart AI yanıt + makrolar",
-      "KVKK aydınlatma akışı",
-      "E-posta destek"
-    ],
-    cta: "Projeyi Konuşalım"
-  },
-  {
-    name: "Pro",
-    price: "17.000 TL",
-    period: "/ay",
-    setup: "Geçiş + kurulum: 25.000 TL",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "10 kullanıcı koltuğu",
-      "Aylık 12.000 konuşmaya kadar",
-      "Tüm kanallar + Telegram",
-      "Sektör bazlı eğitilmiş AI asistan",
-      "CRM entegrasyonu (HubSpot/Pipedrive)",
-      "Türkçe canlı WhatsApp destek",
-      "Aylık optimizasyon raporu"
-    ],
-    cta: "Pro Paketi Konuşalım"
-  },
-  {
-    name: "Kurumsal",
-    price: "32.000 TL",
-    period: "/ay",
-    setup: "Geçiş + kurulum: 45.000 TL+",
-    color: "bg-paper",
-    features: [
-      "Sınırsız kullanıcı",
-      "Sınırsız konuşma",
-      "Özel AI eğitimi + bilgi tabanı",
-      "Özel API entegrasyonları",
-      "Adanmış müşteri başarı yöneticisi",
-      "SLA + öncelikli destek",
-      "DPA + güvenlik denetim raporu"
-    ],
-    cta: "Kurumsal Teklif"
-  }
 ];
 
 const crossLinks = [
@@ -332,7 +270,7 @@ const faqs = [
   },
   {
     q: "Sözleşme süresi var mı? Çıkış zor mu?",
-    a: "Aylık ödeme opsiyonu vardır, taahhüt yoktur. Yıllık ödemede %15 indirim uygulanır. İptal istediğinizde 30 gün önceden e-posta bildirimi yeterli; veri export desteği (CSV + JSON) ücretsiz verilir. Intercom'un aksine yıllık zorunlu kontrat yoktur."
+    a: "Aylık ödeme opsiyonu vardır, taahhüt yoktur. İptal istediğinizde 30 gün önceden e-posta bildirimi yeterli; veri export desteği (CSV + JSON) ücretsiz verilir. Intercom'un aksine yıllık zorunlu kontrat yoktur."
   },
   {
     q: "Hangi kanalları tek panelde toplayabilirim?",
@@ -340,7 +278,7 @@ const faqs = [
   },
   {
     q: "AI asistan kapasitesi Intercom Fin AI ile yarışır mı?",
-    a: "Evet. PORTZEN AI asistanı GPT-4 + Türkçeye optimize edilmiş modellerle çalışır, sizin bilgi tabanınızla eğitilir. Intercom Fin AI yanıt başına $0.99 ücret alırken PORTZEN AI yanıtları aylık paket içinde sınırsızdır. Türk müşteri profiline (sen/siz ayrımı, ton, sektör jargonu) hassas yanıtlar üretir."
+    a: "Evet. PORTZEN AI asistanı GPT-4 + Türkçeye optimize edilmiş modellerle çalışır, sizin bilgi tabanınızla eğitilir. Intercom Fin AI yanıt başına ekstra ücret alırken PORTZEN AI yanıtları paket içinde sınırsızdır. Türk müşteri profiline (sen/siz ayrımı, ton, sektör jargonu) hassas yanıtlar üretir."
   }
 ];
 
@@ -372,12 +310,12 @@ export default function Page() {
               </Reveal>
               <Reveal delay={100}>
                 <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
-                  Intercom Alternatifi | KOBİ İçin Türkçe, KVKK Uyumlu, TL Fiyatlı
+                  Intercom Alternatifi | KOBİ İçin Türkçe ve KVKK Uyumlu
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Intercom Starter paketi $74/ay — KOBİ bütçesi için fazla. WhatsApp ve Instagram ekstra ücret; AI yanıt başına $0.99. PORTZEN tüm bu kanalları TL fiyatla, Türkçe destekle, KVKK uyumlu olarak tek panelde sunar. Mevcut Intercom verileriniz 14 günde taşınır.
+                  Intercom KOBİ bütçesi için ağır: WhatsApp ve Instagram ekstra ücret, AI yanıtları yanıt başına ek ücretli. PORTZEN tüm bu kanalları Türkçe destekle, KVKK uyumlu olarak tek panelde sunar. Mevcut Intercom verileriniz 14 günde taşınır.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -572,7 +510,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Intercom'dan PORTZEN'e geçen İzmirli SaaS startup, aylık $74'tan ₺14.000 sabit fiyata indi.
+              Intercom'dan PORTZEN'e geçen İzmirli SaaS startup, 3 kanalı tek panele aldı.
             </h2>
           </Reveal>
 
@@ -580,7 +518,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  İzmir merkezli B2B SaaS şirketi, 18 aydır Intercom Starter paketinde çalışıyordu. WhatsApp eklendiğinde aylık fatura $74'tan $189'a fırladı. Instagram DM entegrasyonu ek $50, Fin AI yanıtları aylık $200'ü buluyordu. Toplam aylık fatura yaklaşık $440 — Mart 2025 kuruyla ₺17.000+ yapıyordu, fakat dolar yükseldikçe öngörülemez bir maliyet.
+                  İzmir merkezli B2B SaaS şirketi, 18 aydır Intercom Starter paketinde çalışıyordu. WhatsApp eklendiğinde fatura fırladı, Instagram DM entegrasyonu ekstra kalem, Fin AI yanıtları da yanıt başına ekstra ücretli. Dolar bazlı öngörülemez bir maliyet birikmişti.
                 </p>
                 <p>
                   Şikayetleri tek değildi: Türkçe destek alamıyorlardı, KVKK uyum için hukuk danışmanına 12 saat ödediler, müşteri verileri Avrupa sunucularındaydı. Kurum içi denetimde "veri yerelleştirme" maddesi takıldı.
@@ -589,7 +527,7 @@ export default function Page() {
                   PORTZEN'e geçiş 12 iş günü sürdü. Son 18 ayın 47.000 konuşma kaydı, 2.300 müşteri profili ve 84 makro yanıt API üzerinden taşındı. WhatsApp + Instagram + Web Chat tek panelde aktif oldu. AI asistanı şirketin SaaS dokümantasyonuyla eğitildi.
                 </p>
                 <p>
-                  Geçişten 3 ay sonraki tablo net: aylık fatura ₺17.000+'dan sabit ₺14.000'e düştü (kur etkisinden bağımsız), Türkçe canlı destek WhatsApp üzerinden anında, KVKK denetimi temiz geçti. Ekip arayüze 1 günde uyum sağladı, müşteri yanıt süresi 4 saatten 22 dakikaya indi.
+                  Geçişten 3 ay sonraki tablo net: sabit fatura (kur etkisinden bağımsız), Türkçe canlı destek WhatsApp üzerinden anında, KVKK denetimi temiz geçti. Ekip arayüze 1 günde uyum sağladı, müşteri yanıt süresi 4 saatten 22 dakikaya indi.
                 </p>
               </div>
             </Reveal>
@@ -597,11 +535,9 @@ export default function Page() {
             <Reveal delay={300}>
               <div className="grid gap-4">
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Önce (Intercom)</div>
-                  <div className="font-display text-4xl font-black mb-1">$440</div>
-                  <div className="text-sm">Aylık fatura (≈₺17.000+)</div>
-                  <div className="mt-4 text-xs font-bold uppercase opacity-70 mb-1">Sonra (PORTZEN)</div>
-                  <div className="font-display text-4xl font-black text-brand-green">₺14.000</div>
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Kanal sayısı</div>
+                  <div className="font-display text-4xl font-black mb-1">3 → 1</div>
+                  <div className="text-sm">WhatsApp + IG + Web Chat tek panel</div>
                 </div>
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Yanıt süresi</div>
@@ -619,65 +555,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 6. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                TL fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Sabit aylık fiyat, sürpriz fatura yok
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Intercom'un katmanlı + kullanım bazlı fiyatı yerine sabit aylık TL fiyat. Tüm kanallar ve AI yanıt dahil.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 7. FAQ */}
+      {/* 6. FAQ */}
       <section className="bg-ink text-paper py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
@@ -703,7 +581,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 8. CROSS-LINK STRIP */}
+      {/* 7. CROSS-LINK STRIP */}
       <section className="bg-paper py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
@@ -735,18 +613,18 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 9. FINAL CTA */}
+      {/* 8. FINAL CTA */}
       <section className="py-section">
         <div className="mx-auto max-w-container px-6">
           <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Intercom faturanızı yarıya indirelim.
+                3 kanalı tek panelde birleştirelim.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz geçiş analizi: mevcut Intercom kullanımınızı inceliyor, PORTZEN'e taşıma planını ve net maliyet farkını çıkarıyoruz. Aynı gün dönüyoruz.
+                15 dakikalık ücretsiz geçiş analizi: mevcut Intercom kullanımınızı inceliyor, PORTZEN'e taşıma planını ve kapsam farkını çıkarıyoruz. Aynı gün dönüyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>

@@ -63,13 +63,7 @@ const serviceSchema = {
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Instagram DM, hikaye yanıtları, yorumlar ve reklam etkileşimlerine otomatik yanıt veren, randevu açan, ürün öneren AI tabanlı DM otomasyon sistemi. Estetik klinik, butik, e-ticaret ve danışmanlar için 7 günde kurulum.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺6500-₺45000",
-    availability: "https://schema.org/InStock"
-  }
+    "Instagram DM, hikaye yanıtları, yorumlar ve reklam etkileşimlerine otomatik yanıt veren, randevu açan, ürün öneren AI tabanlı DM otomasyon sistemi. Estetik klinik, butik, e-ticaret ve danışmanlar için 7 günde kurulum."
 };
 
 const faqSchema = {
@@ -105,7 +99,7 @@ const faqSchema = {
       name: "Fiyatı ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Kurulum 15.000-30.000 TL aralığında, aylık operasyon 6.500 TL'den başlar. Aylık DM hacmi, ürün/hizmet sayısı ve entegrasyon ihtiyacına göre net fiyat keşif görüşmesinde verilir."
+        text: "Fiyat, ihtiyacına göre kişiselleştiriliyor. Aylık DM hacmi, ürün/hizmet sayısı ve entegrasyon ihtiyacına göre kapsam bazlı çalışıyoruz. 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz."
       }
     },
     {
@@ -200,9 +194,7 @@ const features = [
 const packages = [
   {
     name: "Başlangıç",
-    price: "6.500 TL",
-    period: "/ay",
-    setup: "Kurulum: 15.000 TL",
+    scope: "Tek hesap + temel senaryolar",
     color: "bg-paper",
     features: [
       "Aylık 1.500 DM'e kadar",
@@ -211,13 +203,11 @@ const packages = [
       "Aylık 1 optimizasyon",
       "Temel performans raporu"
     ],
-    cta: "Projeyi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Pro",
-    price: "12.500 TL",
-    period: "/ay",
-    setup: "Kurulum: 22.000 TL",
+    scope: "Yoğun hacim + reklam entegrasyonu",
     color: "bg-brand-pink text-paper",
     badge: "En Çok Tercih Edilen",
     features: [
@@ -228,13 +218,11 @@ const packages = [
       "Haftalık optimizasyon + A/B",
       "Detaylı performans raporu"
     ],
-    cta: "Pro Paketi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Kurumsal",
-    price: "Özel",
-    period: "",
-    setup: "Kurulum: 30.000 TL+",
+    scope: "Çoklu hesap + e-ticaret + CRM",
     color: "bg-paper",
     features: [
       "Sınırsız DM hacmi",
@@ -244,7 +232,7 @@ const packages = [
       "Adanmış stratejist",
       "SLA + öncelikli destek"
     ],
-    cta: "Kurumsal Teklif"
+    cta: "Görüşme Al"
   }
 ];
 
@@ -263,7 +251,7 @@ const faqs = [
   },
   {
     q: "Fiyatı ne kadar, kurulum sonrası ek masraf var mı?",
-    a: "Kurulum 15.000-30.000 TL aralığında, aylık operasyon 6.500 TL'den başlar. Meta API kullanım ücreti yok (Instagram DM şu an ücretsiz). Aylık paket; senaryo güncelleme, yeni akış ekleme, performans raporu ve hata düzeltmeyi içerir."
+    a: "Fiyat, ihtiyacına göre kişiselleştiriliyor. Meta API kullanım ücreti yok (Instagram DM şu an ücretsiz). Aylık paket; senaryo güncelleme, yeni akış ekleme, performans raporu ve hata düzeltmeyi içerir. 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz. Hemen /iletisim üzerinden yaz."
   },
   {
     q: "WhatsApp asistanımla birlikte çalışır mı?",
@@ -364,7 +352,7 @@ export default function Page() {
                 Tanıdık geliyor mu?
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Reklama harcadığınız her TL, cevapsız DM'de eriyor olabilir.
+                Reklama harcadığınız her kuruş, cevapsız DM'de eriyor olabilir.
               </h2>
             </div>
           </Reveal>
@@ -475,13 +463,13 @@ export default function Page() {
           <Reveal>
             <div className="mb-12 max-w-2xl">
               <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf fiyatlandırma
+                Çalışma modeli
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 Hangi paket size uygun?
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                3 paket — tek mağazadan çoklu hesabı olan e-ticarete kadar. Net rakam keşif görüşmesinde verilir.
+                3 paket — tek mağazadan çoklu hesabı olan e-ticarete kadar. Kapsam bazlı çalışıyoruz; net rakam brief görüşmesinde paylaşılır.
               </p>
             </div>
           </Reveal>
@@ -500,11 +488,7 @@ export default function Page() {
                     </div>
                   )}
                   <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
+                  <div className="text-sm font-bold opacity-75 mb-6">{p.scope}</div>
                   <ul className="space-y-2 mb-6 flex-1">
                     {p.features.map((f, fi) => (
                       <li key={fi} className="flex items-start gap-2 text-sm">
@@ -528,7 +512,7 @@ export default function Page() {
           </div>
           <Reveal delay={300}>
             <p className="mt-8 text-sm text-ink/60 max-w-2xl">
-              <strong>Not:</strong> Tam fiyat sektör + DM hacmine göre değişir — 15 dakikalık keşif görüşmesinde netleşir. Meta'nın Instagram DM API'si şu an ücretsizdir.
+              <strong>Not:</strong> Kapsam bazlı çalışıyoruz; sektör ve DM hacmine göre net rakam 15 dakikalık keşif görüşmesinde paylaşılır. Meta'nın Instagram DM API'si şu an ücretsizdir.
             </p>
           </Reveal>
           <Reveal delay={400}>

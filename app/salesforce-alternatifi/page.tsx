@@ -9,13 +9,9 @@ import {
   Sparkles,
   ShieldCheck,
   Users,
-  BookOpen,
   HeadphonesIcon,
   CheckCircle2,
   Building2,
-  Languages,
-  Wallet,
-  TrendingUp,
   Briefcase
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
@@ -24,7 +20,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Salesforce Alternatifi | KOBİ İçin Esnek CRM + AI - PORTZEN",
   description:
-    "Salesforce KOBİ için overkill ve pahalı. PORTZEN; HubSpot Free + Zoho + Pipedrive seviyesinde sade CRM + custom workflow + AI ile Salesforce maliyetinin onda biri.",
+    "Salesforce KOBİ için overkill. PORTZEN; HubSpot Free + Zoho + Pipedrive seviyesinde sade CRM + custom workflow + AI ile Salesforce'un yerini alır.",
   keywords: [
     "salesforce alternatifi",
     "salesforce türkçe",
@@ -42,13 +38,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Salesforce Alternatifi | KOBİ İçin Esnek CRM + AI - PORTZEN",
     description:
-      "Salesforce'un karmaşıklığı ve dolar fiyatı yerine sade, esnek, TL faturalı CRM + custom workflow + AI."
+      "Salesforce'un karmaşıklığı yerine sade, esnek, Türkçe destekli CRM + custom workflow + AI."
   },
   twitter: {
     card: "summary_large_image",
     title: "Salesforce Alternatifi | PORTZEN",
     description:
-      "KOBİ için Salesforce'a değil ihtiyaca uygun CRM. Esnek, TL faturalı, hızlı kurulum."
+      "KOBİ için Salesforce'a değil ihtiyaca uygun CRM. Esnek, Türkçe destekli, hızlı kurulum."
   },
   alternates: { canonical: "https://portzenai.com/salesforce-alternatifi" },
   robots: { index: true, follow: true }
@@ -68,13 +64,7 @@ const serviceSchema = {
   serviceType: "CRM Software for SMB",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Salesforce'un karmaşık ve pahalı yapısı yerine PORTZEN; KOBİ ihtiyacına uygun, esnek, TL faturalı, hızlı kurulan CRM ve satış otomasyonu çözümü. Logo / Mikro / Netsis entegre, KVKK uyumlu.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺12000-₺55000",
-    availability: "https://schema.org/InStock"
-  }
+    "Salesforce'un karmaşık yapısı yerine PORTZEN; KOBİ ihtiyacına uygun, esnek, hızlı kurulan CRM ve satış otomasyonu çözümü. Logo / Mikro / Netsis entegre, KVKK uyumlu."
 };
 
 const faqSchema = {
@@ -86,7 +76,7 @@ const faqSchema = {
       name: "Salesforce gerçekten KOBİ için fazla mı geliyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Salesforce Sales Cloud Professional planı $80/user/ay (≈₺3.200), Enterprise $165/user/ay (≈₺6.600). 10 kullanıcılı bir ekipte Enterprise aylık $1.650 (≈₺66.000). Üstüne implementasyon partneri 250.000 TL+ tutar. KOBİ ihtiyacı genelde %15-20'sini kullanır. PORTZEN aynı temel CRM ihtiyacını ₺25.000/ay sabit fiyatla karşılar."
+        text: "Salesforce kullanıcı başına ücretlendirir; enterprise ölçekli implementasyon partneri bütçesi eklenince KOBİ için orantısız kalır. KOBİ ekibi genelde Salesforce'un sadece %15-20'sini kullanır. PORTZEN aynı temel CRM ihtiyacını sabit paket mantığı ile karşılar."
       }
     },
     {
@@ -110,7 +100,7 @@ const faqSchema = {
       name: "Salesforce'un AI Einstein özelliği önemli, bunu nasıl yapacaksınız?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Einstein'in temel kullanım alanları: lead scoring, opportunity forecasting, next best action, e-mail içerik önerisi. PORTZEN; OpenAI GPT ve custom LLM ile bu yetenekleri sunar. Üstelik prompt'lar sizin kontrolünüzdedir, kara kutu değil."
+        text: "Einstein'in temel kullanım alanları: lead scoring, opportunity forecasting, next best action, e-mail içerik önerisi. PORTZEN; OpenAI GPT ve custom LLM ile bu yetenekleri sunar. Üstelik prompt'lar sizin kontrolünüzdedir, kara kutu değildir ve ek lisans yoktur."
       }
     },
     {
@@ -155,7 +145,7 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "1/10", label: "Salesforce maliyetine göre" },
+  { metric: "Sade", label: "KOBİ ihtiyacına göre" },
   { metric: "30 gün", label: "Salesforce'tan tam taşıma" },
   { metric: "KVKK", label: "TR sunucu opsiyonu" },
   { metric: "Türkçe", label: "Arayüz + destek + eğitim" }
@@ -163,16 +153,16 @@ const stats = [
 
 const painPoints = [
   {
-    title: "Kullanıcı başına dolar fiyatı",
-    desc: "Salesforce Sales Cloud Enterprise $165/user/ay. 10 kullanıcılı KOBİ'de aylık $1.650 (≈₺66.000), yıllık ₺792.000."
+    title: "Kullanıcı başına ücretlendirme",
+    desc: "Salesforce Sales Cloud kullanıcı başı lisans mantığıyla çalışır. Ekibiniz büyüdükçe fatura katlanır, bütçe öngörülemez hale gelir."
   },
   {
     title: "Karmaşıklık ve öğrenme eğrisi",
-    desc: "Salesforce'un %80'i KOBİ'nin kullanmadığı modüllerden oluşur. Ekibinizin etkin kullanması için 8-12 hafta eğitim."
+    desc: "Salesforce'un %80'i KOBİ'nin kullanmadığı modüllerden oluşur. Ekibinizin etkin kullanması için 8-12 hafta eğitim gerekir."
   },
   {
     title: "Implementasyon partneri zorunluluğu",
-    desc: "Salesforce kurulumu genelde bir partner üzerinden yapılır. Implementasyon bütçesi 250.000 - 1.500.000 TL bandındadır."
+    desc: "Salesforce kurulumu genelde bir partner üzerinden yapılır. Implementasyon bütçesi kurulum aşamasında sürpriz kalemler getirir."
   },
   {
     title: "Türk muhasebe entegrasyonu yok",
@@ -180,7 +170,7 @@ const painPoints = [
   },
   {
     title: "WhatsApp Business yok",
-    desc: "Salesforce Service Cloud'da WhatsApp Conversations modülü var ama ek lisans, ek setup ve yüksek maliyet getirir."
+    desc: "Salesforce Service Cloud'da WhatsApp Conversations modülü var ama ek lisans ve ek setup gerektirir."
   },
   {
     title: "KVKK uyumu sizde",
@@ -189,13 +179,13 @@ const painPoints = [
 ];
 
 const comparisonRows = [
-  { feature: "Aylık fiyat (10 kullanıcı)", manychat: "Salesforce Enterprise: $1.650 (≈₺66.000)", portzen: "₺25.000/ay sabit" },
-  { feature: "Implementasyon bedeli", manychat: "250.000 - 1.500.000 TL", portzen: "55.000 - 90.000 TL" },
+  { feature: "Ticari model", manychat: "Kullanıcı başı + implementasyon partneri", portzen: "Kapsam bazlı, brief görüşmesinde net" },
+  { feature: "Implementasyon süreci", manychat: "Partner zorunlu, uzun süreç", portzen: "PORTZEN ekibi, tek muhatap" },
   { feature: "Kurulum süresi", manychat: "3-9 ay (partner ile)", portzen: "21-30 iş günü" },
   { feature: "Türkçe destek", manychat: "Plana özel, sınırlı", portzen: "Tüm paketlerde dahil" },
   { feature: "Logo / Mikro / Netsis entegre", manychat: "Yok, custom dev", portzen: "Hazır connector" },
   { feature: "WhatsApp Business API", manychat: "Service Cloud ek modül", portzen: "Giriş paketinde dahil" },
-  { feature: "AI (lead scoring, forecasting)", manychat: "Einstein: ek lisans $50/user", portzen: "OpenAI + custom LLM dahil" },
+  { feature: "AI (lead scoring, forecasting)", manychat: "Einstein: ek lisans", portzen: "OpenAI + custom LLM dahil" },
   { feature: "KVKK + TR sunucu", manychat: "ABD/AB sunucu", portzen: "TR opsiyonu, Kurumsal pakette" },
   { feature: "Sözleşme süresi", manychat: "Yıllık peşin tipik", portzen: "Aylık esnek" },
   { feature: "Ek modül kuralı", manychat: "Service / Marketing / CPQ ayrı lisans", portzen: "Tek pakette her şey dahil" }
@@ -236,9 +226,6 @@ const features = [
 const packages = [
   {
     name: "Başlangıç",
-    price: "12.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 35.000 TL",
     color: "bg-paper",
     features: [
       "5 kullanıcıya kadar",
@@ -247,13 +234,10 @@ const packages = [
       "WhatsApp + e-mail kutusu",
       "KVKK paketi dahil"
     ],
-    cta: "Projeyi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Pro",
-    price: "25.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 55.000 TL",
     color: "bg-brand-yellow",
     badge: "En Çok Tercih Edilen",
     features: [
@@ -264,13 +248,10 @@ const packages = [
       "Custom report + dashboard",
       "Haftalık optimizasyon"
     ],
-    cta: "Pro Paketi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Kurumsal",
-    price: "55.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 90.000 TL+",
     color: "bg-paper",
     features: [
       "Sınırsız kullanıcı",
@@ -280,14 +261,14 @@ const packages = [
       "7/24 öncelikli destek",
       "Çoklu marka + departman yönetimi"
     ],
-    cta: "Kurumsal Teklif"
+    cta: "Görüşme Al"
   }
 ];
 
 const faqs = [
   {
     q: "Salesforce gerçekten KOBİ için fazla mı geliyor?",
-    a: "Salesforce Sales Cloud Professional planı $80/user/ay (≈₺3.200), Enterprise $165/user/ay (≈₺6.600), Unlimited $330/user/ay (≈₺13.200). 10 kullanıcılı bir KOBİ ekibinde Enterprise aylık $1.650 (≈₺66.000), yıllık ₺792.000 eder. Üstüne implementasyon partneri 250.000 - 1.500.000 TL bandında ekstra ister. KOBİ ekibi genellikle Salesforce'un sadece %15-20'sini (pipeline, deal, contact, basic otomasyon) kullanır. PORTZEN aynı temel CRM ihtiyacını ₺25.000/ay sabit fiyatla, 55.000 TL kurulum bedeliyle karşılar."
+    a: "Salesforce Sales Cloud kullanıcı başına ücretlendirir; Professional, Enterprise ve Unlimited planlarında kullanıcı sayısı arttıkça fatura katlanır. Üstüne implementasyon partneri bütçesi ekstra ister. KOBİ ekibi genellikle Salesforce'un sadece %15-20'sini (pipeline, deal, contact, basic otomasyon) kullanır — geri kalanı atıl kalır. PORTZEN aynı temel CRM ihtiyacını sabit paket mantığı ile karşılar. Fiyat, ihtiyacına göre kişiselleştiriliyor; 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz."
   },
   {
     q: "HubSpot Free + Pipedrive + Zoho yetmez mi, neden PORTZEN?",
@@ -299,7 +280,7 @@ const faqs = [
   },
   {
     q: "Salesforce'un AI Einstein özelliği önemli, bunu nasıl yapacaksınız?",
-    a: "Einstein'in pratik kullanım alanları: lead scoring, opportunity forecasting, next best action, e-mail içerik önerisi, anomali tespiti. PORTZEN bu yetenekleri OpenAI GPT ve custom LLM kombinasyonu ile sunar. Lead scoring için kendi promptlarınızı yazabilir veya hazır şablonları kullanabilirsiniz. Forecasting için geçmiş deal verisi ile pattern recognition. Üstelik kullanılan modeller ve promptlar sizin kontrolünüzdedir, Einstein'in kara kutu yapısı yerine şeffaftır. Einstein ek lisansı kullanıcı başına $50/ay; PORTZEN'de AI Pro paketinde dahildir."
+    a: "Einstein'in pratik kullanım alanları: lead scoring, opportunity forecasting, next best action, e-mail içerik önerisi, anomali tespiti. PORTZEN bu yetenekleri OpenAI GPT ve custom LLM kombinasyonu ile sunar. Lead scoring için kendi promptlarınızı yazabilir veya hazır şablonları kullanabilirsiniz. Forecasting için geçmiş deal verisi ile pattern recognition. Üstelik kullanılan modeller ve promptlar sizin kontrolünüzdedir, Einstein'in kara kutu yapısı yerine şeffaftır. Einstein ek lisans olarak faturalanır; PORTZEN'de AI Pro paketinde dahildir."
   },
   {
     q: "Enterprise için ne kadar ölçeklenebilir?",
@@ -343,12 +324,12 @@ export default function Page() {
               </Reveal>
               <Reveal delay={100}>
                 <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
-                  Salesforce Alternatifi: KOBİ İçin Esnek, TL Faturalı CRM + AI
+                  Salesforce Alternatifi: KOBİ İçin Esnek, Türkçe Destekli CRM + AI
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Salesforce KOBİ için fazla geliyor: 10 kullanıcılı bir ekipte Enterprise plan aylık $1.650 (≈₺66.000), implementasyon partneri 250.000 TL+. Ekibiniz Salesforce'un sadece %15-20'sini kullanıyor. PORTZEN; HubSpot Free / Zoho / Pipedrive seviyesinde sade CRM + custom workflow + AI ile aynı işi onda bir maliyetle yapar.
+                  Salesforce KOBİ için fazla geliyor: kullanıcı başına lisanslama + implementasyon partneri zorunluluğu bütçeyi katlar. Üstelik ekibiniz Salesforce'un sadece %15-20'sini kullanıyor. PORTZEN; HubSpot Free / Zoho / Pipedrive seviyesinde sade CRM + custom workflow + AI ile aynı işi çok daha sade bir modelle yapar.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -400,7 +381,7 @@ export default function Page() {
                 Salesforce'un KOBİ için 6 zayıf yönü
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Salesforce enterprise için iyi, KOBİ için orantısız.
+                Salesforce enterprise için iyi, KOBİ ihtiyacı için orantısız.
               </h2>
             </div>
           </Reveal>
@@ -467,7 +448,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> Salesforce fiyatları salesforce.com/eu/editions-pricing/sales-cloud referans alınmıştır; implementasyon bedelleri Türk partner pazar ortalamasına dayanır.
+              <strong>Kaynak:</strong> Salesforce özellik ve modül bilgileri salesforce.com/products'tan derlenmiştir; karşılaştırma PORTZEN taşıma deneyimlerine dayanır.
             </p>
           </Reveal>
         </div>
@@ -545,7 +526,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Salesforce Enterprise ₺780.000/yıl'dan PORTZEN'e - aynı ekip, %85 tasarruf.
+              Salesforce Enterprise'dan PORTZEN'e - aynı ekip, çok daha sade sistem.
             </h2>
           </Reveal>
 
@@ -553,30 +534,22 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  İstanbul'da bir B2B yazılım firması (12 satış temsilcisi, 4 müşteri yöneticisi, 2 satış müdürü) 4 yıldır Salesforce Sales Cloud Enterprise kullanıyordu. Yıllık lisans bedeli $19.800 (≈₺792.000), Einstein AI ek lisans $9.600 (≈₺384.000), implementasyon partnerinden danışmanlık aylık ₺45.000. Toplam yıllık maliyet ₺1.7 milyon civarındaydı.
+                  İstanbul'da bir B2B yazılım firması (12 satış temsilcisi, 4 müşteri yöneticisi, 2 satış müdürü) 4 yıldır Salesforce Sales Cloud Enterprise kullanıyordu. Kullanıcı başı lisans + Einstein AI ek lisans + implementasyon partnerinden aylık danışmanlık — birlikte KOBİ ölçeğinde ciddi bir yıllık bütçe kalemine dönüşmüştü.
                 </p>
                 <p>
                   3 ana sıkıntı vardı: (1) Salesforce'un kullanılan kısmı pipeline + deal + activity history + temel rapor; %80 modül atıl kalıyordu, (2) Logo Tiger entegrasyonu olmadığı için müşteri ve fatura verisi sürekli copy-paste ile aktarılıyordu, (3) Trendyol B2B / Hepsiburada Kurumsal mağazasından gelen lead'ler Salesforce'a manuel giriliyor, çoğu kayboluyordu.
                 </p>
                 <p>
-                  PORTZEN 28 günde devreye alındı. Salesforce'tan 4.200 account + 18.000 contact + 980 açık opportunity + 240.000 activity history taşındı. Backend CRM olarak Pipedrive Advanced ($24.90/user/ay × 18 = ₺18.000) seçildi; üzerine PORTZEN orkestrasyon katmanı kuruldu. Logo Tiger çift yönlü entegre edildi (müşteri = otomatik cari, deal kapanışı = otomatik fatura). WhatsApp Business API resmi olarak aktive edildi, lead'lerin %40'ı WhatsApp üzerinden geliyor zaten. AI lead scoring + opportunity forecasting OpenAI GPT-4 ile kuruldu.
+                  PORTZEN 28 günde devreye alındı. Salesforce'tan 4.200 account + 18.000 contact + 980 açık opportunity + 240.000 activity history taşındı. Backend CRM olarak Pipedrive Advanced seçildi; üzerine PORTZEN orkestrasyon katmanı kuruldu. Logo Tiger çift yönlü entegre edildi (müşteri = otomatik cari, deal kapanışı = otomatik fatura). WhatsApp Business API resmi olarak aktive edildi, lead'lerin %40'ı WhatsApp üzerinden geliyor zaten. AI lead scoring + opportunity forecasting OpenAI GPT-4 ile kuruldu.
                 </p>
                 <p>
-                  3 ay sonra: aynı ekip aynı pipeline ile çalışıyor ama günlük manuel iş %60 azaldı. Lead-müşteri dönüşümü %12'den %29'a çıktı (AI scoring + sıcak lead odağı). Toplam yıllık maliyet ₺1.7 milyon'dan ₺250.000'e düştü (₺25.000 PORTZEN + ₺18.000 Pipedrive aylık + ₺55.000 bir kerelik kurulum). %85 tasarruf, daha iyi sonuç.
+                  3 ay sonra: aynı ekip aynı pipeline ile çalışıyor ama günlük manuel iş %60 azaldı. Lead-müşteri dönüşümü %12'den %29'a çıktı (AI scoring + sıcak lead odağı). Toplam yıllık maliyet ciddi ölçüde düştü, kur farkından etkilenmeyen öngörülebilir bir çalışma modeli oldu.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Salesforce Enterprise</div>
-                  <div className="font-display text-3xl font-black mb-1">₺1.7M/yıl</div>
-                  <div className="text-sm">+ implementasyon + Einstein</div>
-                  <div className="mt-4 text-xs font-bold uppercase opacity-70 mb-1">PORTZEN + Pipedrive</div>
-                  <div className="font-display text-3xl font-black text-brand-green">₺250K/yıl</div>
-                  <div className="text-sm">Toplam, sabit fiyat</div>
-                </div>
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Lead - müşteri</div>
                   <div className="font-display text-4xl font-black mb-1">%12 → %29</div>
@@ -586,6 +559,11 @@ export default function Page() {
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Manuel iş yükü</div>
                   <div className="font-display text-4xl font-black text-brand-pink">-%60</div>
                   <div className="text-sm">Logo + WhatsApp otomasyonu</div>
+                </div>
+                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Devreye alış</div>
+                  <div className="font-display text-4xl font-black text-brand-green">28 gün</div>
+                  <div className="text-sm">240K activity history dahil</div>
                 </div>
               </div>
             </Reveal>
@@ -599,13 +577,13 @@ export default function Page() {
           <Reveal>
             <div className="mb-12 max-w-2xl">
               <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
+                Çalışma modeli
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket - kullanıcı başı dolar yok
+                3 paket - kullanıcı başına ekstra yok
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Salesforce'un kullanıcı başına aylık dolar ücretlendirmesinin aksine PORTZEN sabit TL pakettir. Ekibinizi büyütmek faturanızı katlayan değildir.
+                Salesforce'un kullanıcı başına ücretlendirmesinin aksine PORTZEN sabit paket mantığı ile çalışır. Ekibinizi büyütmek faturanızı katlayan değildir. Net rakamlar brief görüşmesinde paylaşılır.
               </p>
             </div>
           </Reveal>
@@ -625,11 +603,7 @@ export default function Page() {
                     </div>
                   )}
                   <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
+                  <div className="text-xs font-bold opacity-75 mb-6">Kapsam brief görüşmesinde netleştirilir</div>
                   <ul className="space-y-2 mb-6 flex-1">
                     {p.features.map((f, fi) => (
                       <li key={fi} className="flex items-start gap-2 text-sm">
@@ -724,12 +698,12 @@ export default function Page() {
           <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Salesforce faturasını onda bire indirelim.
+                Salesforce'tan sade bir CRM'e geçelim.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut Salesforce kurulumunuzu, gerçekten kullanılan modülleri ve gereksiz kalan yetenekleri analiz ediyoruz. Hangi backend CRM (HubSpot Free / Zoho / Pipedrive) sizin senaryonuza uyacağını netleştiriyor, tahmini tasarruf raporu çıkarıyoruz.
+                30 dakikalık ücretsiz brief görüşmesinde mevcut Salesforce kurulumunuzu, gerçekten kullanılan modülleri ve gereksiz kalan yetenekleri analiz ediyoruz. Hangi backend CRM (HubSpot Free / Zoho / Pipedrive) sizin senaryonuza uyacağını netleştiriyor, kapsam ve net rakamı bu görüşmede paylaşıyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>

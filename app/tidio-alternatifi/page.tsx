@@ -13,9 +13,7 @@ import {
   HeadphonesIcon,
   CheckCircle2,
   Building2,
-  Languages,
-  Wallet,
-  Globe2
+  Languages
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
@@ -23,7 +21,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Tidio Alternatifi | WhatsApp+IG+Chat Tek Panelde — PORTZEN",
   description:
-    "Tidio'nun chat-only odağı yerine WhatsApp Business API + Instagram DM + canlı chat tek panelde. TL fiyat, KVKK uyumlu, Türkçe doğal yanıt.",
+    "Tidio'nun chat-only odağı yerine WhatsApp Business API + Instagram DM + canlı chat tek panelde. KVKK uyumlu, Türkçe doğal yanıt.",
   keywords: [
     "tidio alternatifi",
     "tidio türkçe",
@@ -41,13 +39,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Tidio Alternatifi | PORTZEN WhatsApp + IG + Chat Tek Panel",
     description:
-      "Tidio'nun chat-only ürünü yerine WhatsApp + Instagram DM + chat birleşik gelen kutusu. TL fiyat, KVKK uyumlu."
+      "Tidio'nun chat-only ürünü yerine WhatsApp + Instagram DM + chat birleşik gelen kutusu. KVKK uyumlu."
   },
   twitter: {
     card: "summary_large_image",
     title: "Tidio Alternatifi | PORTZEN",
     description:
-      "Tidio'da WhatsApp ekstra ödeme. PORTZEN'de hepsi tek pakette, TL fiyatlı."
+      "Tidio'da WhatsApp ekstra ödeme. PORTZEN'de hepsi tek pakette."
   },
   alternates: { canonical: "https://portzenai.com/tidio-alternatifi" },
   robots: { index: true, follow: true }
@@ -67,13 +65,7 @@ const serviceSchema = {
   serviceType: "Customer Communication Platform",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Tidio'nun chat-only odaklı ürünü yerine WhatsApp Business API, Instagram DM ve canlı chat'i tek panelde birleştiren, Türkiye pazarına özel müşteri iletişim platformu.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺7000-₺26000",
-    availability: "https://schema.org/InStock"
-  }
+    "Tidio'nun chat-only odaklı ürünü yerine WhatsApp Business API, Instagram DM ve canlı chat'i tek panelde birleştiren, Türkiye pazarına özel müşteri iletişim platformu."
 };
 
 const faqSchema = {
@@ -155,7 +147,7 @@ const breadcrumbSchema = {
 
 const stats = [
   { metric: "3'ü 1'de", label: "WhatsApp + IG + Chat tek panel" },
-  { metric: "%60", label: "Aylık maliyet tasarrufu" },
+  { metric: "Meta Resmi", label: "WhatsApp Business API ortağı" },
   { metric: "KVKK", label: "Türkiye sunucu + aydınlatma" },
   { metric: "14 gün", label: "Kurulum + taşıma süresi" }
 ];
@@ -167,15 +159,15 @@ const painPoints = [
   },
   {
     title: "WhatsApp ekstra ödeme",
-    desc: "Tidio'nun WhatsApp Business entegrasyonu Plus + Premium plana özel ($25-$50/ay ekstra). Mesaj başına da ekstra ücret işler."
+    desc: "Tidio'nun WhatsApp Business entegrasyonu Plus + Premium plana özel, ekstra ödemeli. Mesaj başına da ekstra ücret işler."
   },
   {
     title: "Türk müşteri profili düşük",
     desc: "Tidio'nun ana pazarı ABD/AB. Türkiye'de KOBİ kitlesi, davranış desenleri ve sektör özelliklerine göre optimizasyon yok."
   },
   {
-    title: "USD fiyatlı, sabit değil",
-    desc: "Tidio Starter $29 USD, Growth $59 USD, Plus $749 USD/ay. Kur arttıkça faturanız katlanır. TL fatura yok."
+    title: "USD bazlı, kur riski",
+    desc: "USD bazlı fiyat. Kur arttıkça faturanız katlanır. TL fatura yok."
   },
   {
     title: "KVKK belirsiz",
@@ -188,7 +180,7 @@ const painPoints = [
 ];
 
 const comparisonRows = [
-  { feature: "Para birimi", manychat: "USD ($29-$749)", portzen: "TL (₺7.000-₺26.000)" },
+  { feature: "Fiyat modeli", manychat: "USD bazlı", portzen: "Brief'te belirlenir" },
   { feature: "WhatsApp Business API (resmi)", manychat: "Plus+ planda + mesaj başı", portzen: "Tüm paketlerde dahil" },
   { feature: "Instagram DM tek panel", manychat: "Ayrı entegrasyon", portzen: "Tek gelen kutusu" },
   { feature: "Canlı chat widget", manychat: "Var", portzen: "Var + mobile-first" },
@@ -232,57 +224,6 @@ const features = [
   { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile aynı gün dönüş. Tidio'nun e-mail-only İngilizce desteği yerine gerçek insan." }
 ];
 
-const packages = [
-  {
-    name: "Başlangıç",
-    price: "7.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 20.000 TL",
-    color: "bg-paper",
-    features: [
-      "Aylık 2.000 konuşmaya kadar",
-      "Chat + WhatsApp + IG tek kutu",
-      "5 hazır bot senaryosu",
-      "2 operatör hesabı",
-      "KVKK paketi dahil"
-    ],
-    cta: "Projeyi Konuşalım"
-  },
-  {
-    name: "Pro",
-    price: "14.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 30.000 TL",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "Aylık 8.000 konuşmaya kadar",
-      "Sınırsız bot senaryosu",
-      "8 operatör hesabı",
-      "Özel akışlar + AI yanıt",
-      "Iyzico/Param ödeme link",
-      "Haftalık optimizasyon"
-    ],
-    cta: "Pro Paketi Konuşalım"
-  },
-  {
-    name: "Kurumsal",
-    price: "26.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 45.000 TL+",
-    color: "bg-paper",
-    features: [
-      "Sınırsız konuşma + operatör",
-      "Çoklu site + numara yönetimi",
-      "Özel API entegrasyonları",
-      "Adanmış proje yöneticisi",
-      "SLA + öncelikli destek",
-      "Aylık detaylı analiz raporu"
-    ],
-    cta: "Kurumsal Teklif"
-  }
-];
-
 const faqs = [
   {
     q: "Tidio'dan PORTZEN'e taşıma süresi ne kadar?",
@@ -290,7 +231,7 @@ const faqs = [
   },
   {
     q: "Tidio'da WhatsApp neden ekstra ödeme?",
-    a: "Tidio'nun WhatsApp Business entegrasyonu sadece Plus ($749/ay) ve Premium planlarına özeldir, ayrıca mesaj başına ek ücret işler. PORTZEN'de resmi WhatsApp Business API tüm paketlerde dahildir — giriş paketinde bile."
+    a: "Tidio'nun WhatsApp Business entegrasyonu sadece Plus ve Premium planlarına özeldir, ayrıca mesaj başına ek ücret işler. PORTZEN'de resmi WhatsApp Business API tüm paketlerde dahildir — giriş paketinde bile."
   },
   {
     q: "Instagram DM de aynı panelden yönetilir mi?",
@@ -347,7 +288,7 @@ export default function Page() {
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Tidio chat-only bir üründür; WhatsApp ekstra ödeme, Instagram ayrı entegrasyon, KVKK belirsiz, mobile UX zayıf. PORTZEN aynı işi tek panelde, TL fiyatlı ve Türkiye sunucusunda yapar — KOBİ için 14 günde devreye girer.
+                  Tidio chat-only bir üründür; WhatsApp ekstra ödeme, Instagram ayrı entegrasyon, KVKK belirsiz, mobile UX zayıf. PORTZEN aynı işi tek panelde, Türkiye sunucusunda yapar — KOBİ için 14 günde devreye girer.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -466,7 +407,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> Tidio fiyatları tidio.com/pricing'den (Ocak 2026), karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Kaynak:</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
             </p>
           </Reveal>
         </div>
@@ -544,7 +485,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Tidio'dan PORTZEN'e — chat + WhatsApp + IG tek panelde, aylık $59'dan ₺14.000'e.
+              Tidio'dan PORTZEN'e — chat + WhatsApp + IG tek panelde birleşti.
             </h2>
           </Reveal>
 
@@ -552,13 +493,13 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Antalya Lara'da bir saç ekim kliniği 14 aydır Tidio Growth ($59 USD/ay ≈ ₺2.400, kur farkıyla ₺3.500'e çıkmıştı) kullanıyordu. Web sitesi chat widget'ı vardı ama WhatsApp ekstra Plus paketi ($749 USD/ay) istiyordu — almıyorlardı, ayrı bir WhatsApp uygulamasıyla manuel yönetiyorlardı. Instagram için bir başka 3rd party kullanıyorlardı.
+                  Antalya Lara'da bir saç ekim kliniği 14 aydır Tidio Growth planında çalışıyordu. Web sitesi chat widget'ı vardı ama WhatsApp ekstra Plus paketi istiyordu — almıyorlardı, ayrı bir WhatsApp uygulamasıyla manuel yönetiyorlardı. Instagram için bir başka 3rd party kullanıyorlardı.
                 </p>
                 <p>
                   3 büyük sorun vardı: (1) 3 ayrı panelden cevap veriyorlardı (Tidio chat + WhatsApp Business app + Sociality.io IG), aynı müşteri 3 kanaldan yazınca tekrar tekrar bilgi soruluyordu, (2) Web chat widget'ı mobilde sıkışıktı — klavye açıkken son mesaj görünmüyordu, sitede çıkış oranı %68'di, (3) KVKK aydınlatma metni hiçbirinde otomatik akmıyordu, manuel formla alıyorlardı.
                 </p>
                 <p>
-                  10 günde tüm sistemi PORTZEN'e taşıdık: chat widget + WhatsApp Business API (resmi) + Instagram DM tek panelde birleşti. Mobil widget'ı tam ekran moduna geçecek şekilde özelleştirdik. KVKK aydınlatma metnini ilk mesajda otomatik gönderen akış kurduk. Aylık fatura $59 + manuel iş yükü maliyeti yerine sabit ₺14.000 — kur farkı dahil bile %60 düşüş.
+                  10 günde tüm sistemi PORTZEN'e taşıdık: chat widget + WhatsApp Business API (resmi) + Instagram DM tek panelde birleşti. Mobil widget'ı tam ekran moduna geçecek şekilde özelleştirdik. KVKK aydınlatma metnini ilk mesajda otomatik gönderen akış kurduk. Manuel iş yükü ve 3 ayrı sistem yerine tek panel — operasyonel yük belirgin biçimde düştü.
                 </p>
                 <p>
                   İlk ay raporda: müşteri başına ortalama yanıt süresi 4 dakikadan 45 saniyeye düştü (3 panel arası geçiş yok), mobil chat dönüşümü %32'den %58'e çıktı, WhatsApp + IG'den gelen randevu sayısı %85 arttı.
@@ -569,12 +510,9 @@ export default function Page() {
             <Reveal delay={300}>
               <div className="grid gap-4">
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Tidio (Growth)</div>
-                  <div className="font-display text-3xl font-black mb-1">$59/ay</div>
-                  <div className="text-sm">+ WhatsApp/IG manuel iş</div>
-                  <div className="mt-4 text-xs font-bold uppercase opacity-70 mb-1">PORTZEN'de</div>
-                  <div className="font-display text-3xl font-black text-brand-green">₺14.000/ay</div>
-                  <div className="text-sm">Hepsi dahil, sabit, TL fatura</div>
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Kanal sayısı</div>
+                  <div className="font-display text-4xl font-black mb-1">3 → 1</div>
+                  <div className="text-sm">WhatsApp + IG + chat tek panel</div>
                 </div>
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Yanıt süresi</div>
@@ -592,81 +530,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket — WhatsApp + IG + chat hepsi dahil
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Tidio'da WhatsApp ve IG için ayrı paket ödüyorsunuz. PORTZEN'de giriş paketinde bile üçü birden var.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <div className="font-display text-lg font-black mb-1">Detaylı çözüm sayfası</div>
-                <p className="text-sm opacity-90">
-                  PORTZEN WhatsApp AI asistan sistemi tam olarak ne içeriyor — özellikler, vakalar, detaylar.
-                </p>
-              </div>
-              <Link
-                href="/whatsapp-ai-asistani"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                WhatsApp AI Asistanı <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* 8. FAQ */}
+      {/* 7. FAQ */}
       <section className="bg-ink text-paper py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
@@ -696,7 +560,7 @@ export default function Page() {
                 <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
                 <h3 className="font-display text-base font-black mb-2">ManyChat'i de mi düşünüyorsunuz?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  ManyChat'in dolar fiyatı ve KVKK uyumsuzluğu yerine yerel WhatsApp + IG çözümü.
+                  ManyChat'in dolar bağımlılığı ve KVKK uyumsuzluğu yerine yerel WhatsApp + IG çözümü.
                 </p>
                 <Link href="/manychat-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
                   ManyChat Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
@@ -706,7 +570,7 @@ export default function Page() {
                 <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
                 <h3 className="font-display text-base font-black mb-2">HubSpot pahalı geliyor mu?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  HubSpot Pro $800/ay yerine TL fiyatlı, Türk muhasebe entegre CRM otomasyonu.
+                  HubSpot Pro yerine TL bazlı, Türk muhasebe entegre CRM otomasyonu.
                 </p>
                 <Link href="/hubspot-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
                   HubSpot Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
@@ -717,7 +581,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 9. FINAL CTA */}
+      {/* 8. FINAL CTA */}
       <section className="py-section bg-paper">
         <div className="mx-auto max-w-container px-6">
           <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">

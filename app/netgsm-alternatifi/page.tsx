@@ -10,7 +10,6 @@ import {
   ShieldCheck,
   Mail,
   Send,
-  HeadphonesIcon,
   CheckCircle2,
   Building2,
   Wallet,
@@ -23,7 +22,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Netgsm Alternatifi | WhatsApp + Email + SMS Çok Kanallı Otomasyon - PORTZEN",
   description:
-    "Sadece SMS yerine WhatsApp + Email + SMS çoklu kanal kullanarak %40 daha düşük maliyetle %3x daha yüksek dönüşüm. PORTZEN çok kanallı otomasyon kurar.",
+    "Sadece SMS yerine WhatsApp + Email + SMS çoklu kanal ile daha yüksek dönüşüm ve iki yönlü müşteri iletişimi. PORTZEN çok kanallı mesajlaşma otomasyonu kurar.",
   keywords: [
     "netgsm alternatifi",
     "toplu sms alternatif",
@@ -41,13 +40,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Netgsm Alternatifi | Çok Kanallı Mesajlaşma Otomasyonu - PORTZEN",
     description:
-      "SMS gönderim ücreti ödemek yerine WhatsApp + Email + SMS karmasıyla daha ucuz, daha açılır, daha dönüşür kampanyalar."
+      "Tek yönlü SMS yerine WhatsApp + Email + SMS karmasıyla daha açılır, daha dönüşür ve iki yönlü kampanyalar."
   },
   twitter: {
     card: "summary_large_image",
     title: "Netgsm Alternatifi | PORTZEN",
     description:
-      "Sadece SMS yerine çoklu kanal (WhatsApp + Email + SMS) ile %40 tasarruf, %3x dönüşüm."
+      "Sadece SMS yerine çoklu kanal (WhatsApp + Email + SMS) ile iki yönlü müşteri iletişimi ve daha yüksek dönüşüm."
   },
   alternates: { canonical: "https://portzenai.com/netgsm-alternatifi" },
   robots: { index: true, follow: true }
@@ -67,13 +66,7 @@ const serviceSchema = {
   serviceType: "Multi-channel Messaging Automation",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Toplu SMS yerine WhatsApp Business API, Email ve SMS'i bir arada kullanarak müşteriye doğru kanaldan ulaşan, daha düşük maliyetli ve daha yüksek dönüşümlü mesajlaşma otomasyon sistemi.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺10000-₺40000",
-    availability: "https://schema.org/InStock"
-  }
+    "Toplu SMS yerine WhatsApp Business API, Email ve SMS'i bir arada kullanarak müşteriye doğru kanaldan ulaşan, iki yönlü ve yüksek dönüşümlü mesajlaşma otomasyon sistemi."
 };
 
 const faqSchema = {
@@ -101,7 +94,7 @@ const faqSchema = {
       name: "WhatsApp Business API ücretsiz mi, SMS'ten ucuz mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Meta, WhatsApp Business API mesajlarını kategori bazlı ücretlendirir: utility (sipariş, bildirim) yaklaşık 0.15 TL, marketing (promosyon) yaklaşık 0.30 TL. SMS gönderimi 0.20-0.40 TL arası. Marketing'de SMS'le yakın, utility'de daha ucuz, üstelik dönüşüm çok daha yüksek."
+        text: "Meta, WhatsApp Business API mesajlarını kategori bazlı (utility, marketing, authentication) ücretlendirir. Utility ve authentication kategorilerinde birim maliyet SMS'ten belirgin şekilde düşer, marketing kategorisinde ise dönüşüm SMS'ten çok daha yüksek olur. Fiyat brief görüşmesinde net paylaşılıyor."
       }
     },
     {
@@ -154,7 +147,7 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "%40", label: "Daha düşük mesajlaşma maliyeti" },
+  { metric: "İki yön", label: "Karşılıklı müşteri konuşması" },
   { metric: "3x", label: "Daha yüksek dönüşüm oranı" },
   { metric: "%98", label: "WhatsApp açılma oranı" },
   { metric: "3 kanal", label: "WhatsApp + Email + SMS" }
@@ -167,7 +160,7 @@ const painPoints = [
   },
   {
     title: "Mesaj başı maliyet birikiyor",
-    desc: "0.20 - 0.40 TL gibi görünür ama aylık 50.000 SMS = 15.000 - 20.000 TL. WhatsApp utility ile aynı içerik 7.500 TL'ye düşer."
+    desc: "Tek başına SMS, yüksek gönderim hacminde birim birim toplanır. WhatsApp utility kategorisiyle aynı içerik daha düşük birim maliyetle iletilir, üstelik iki yönlü konuşma açılır."
   },
   {
     title: "Karakter limiti karmaşası",
@@ -188,7 +181,7 @@ const painPoints = [
 ];
 
 const comparisonRows = [
-  { feature: "Birim mesaj maliyeti (Utility)", manychat: "SMS: 0.25 TL", portzen: "WhatsApp Utility: 0.15 TL" },
+  { feature: "Fiyat modeli", manychat: "SMS başı sabit birim", portzen: "Kanal karması, brief bazlı" },
   { feature: "Karakter limiti", manychat: "160 / 70 (Türkçe karakter)", portzen: "WhatsApp 1.024 / Email sınırsız" },
   { feature: "İki yönlü iletişim", manychat: "Yok, sadece tek yön", portzen: "WhatsApp + Email reply otomatik" },
   { feature: "Açılma + tıklama takibi", manychat: "SMS'te sınırlı", portzen: "Tüm kanallar detay rapor" },
@@ -229,58 +222,7 @@ const features = [
   { icon: Send, title: "SMS yedek olarak (NetGSM, İletimerkezi)", desc: "Acil bildirim için SMS yine devrede. NetGSM, İletimerkezi, Verimor seçenekleri arasından seçiyoruz." },
   { icon: Boxes, title: "Akıllı kanal dağıtımı", desc: "Önce WhatsApp dener, 1 saat içinde okunmazsa email yollar, 24 saat içinde açılmazsa SMS gönderir. Optimum maliyet, maksimum dönüşüm." },
   { icon: ShieldCheck, title: "KVKK + açık rıza yönetimi", desc: "Web form, WhatsApp girişi, email signup üzerinden otomatik rıza toplama. Aydınlatma metni, geri çekme, VERBİS dahil." },
-  { icon: Wallet, title: "TL fatura, kullandığın kadar öde", desc: "Aylık sabit altyapı ücreti + gönderim başı kanal maliyeti. Sürpriz yok, e-Arşiv fatura." }
-];
-
-const packages = [
-  {
-    name: "Başlangıç",
-    price: "10.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 25.000 TL",
-    color: "bg-paper",
-    features: [
-      "WhatsApp Business API kurulumu",
-      "Email altyapısı (10.000/ay)",
-      "SMS yedek kanal (1.000/ay dahil)",
-      "5 otomasyon akışı",
-      "KVKK paketi dahil"
-    ],
-    cta: "Projeyi Konuşalım"
-  },
-  {
-    name: "Pro",
-    price: "22.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 45.000 TL",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "WhatsApp sınırsız mesaj",
-      "Email (50.000/ay)",
-      "SMS yedek (5.000/ay dahil)",
-      "20 otomasyon akışı",
-      "Akıllı kanal dağıtımı",
-      "CRM / Logo entegrasyonu"
-    ],
-    cta: "Pro Paketi Konuşalım"
-  },
-  {
-    name: "Kurumsal",
-    price: "40.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 75.000 TL+",
-    color: "bg-paper",
-    features: [
-      "Sınırsız tüm kanallar",
-      "Adanmış IP + domain",
-      "Self-hosted TR sunucu",
-      "Özel API geliştirme",
-      "Adanmış proje yöneticisi",
-      "SLA + 7/24 destek"
-    ],
-    cta: "Kurumsal Teklif"
-  }
+  { icon: Wallet, title: "Şeffaf kanal raporlaması", desc: "Kanal başı gönderim, açılma, tıklama ve dönüşüm tek panelde şeffaf raporlanır. Sürpriz kalem yok, e-Arşiv fatura." }
 ];
 
 const faqs = [
@@ -294,7 +236,7 @@ const faqs = [
   },
   {
     q: "WhatsApp Business API ücretsiz mi, SMS'ten ucuz mu?",
-    a: "Ücretsiz değil ama daha verimli. Meta, WhatsApp Business API mesajlarını kategori bazlı ücretlendirir (Türkiye fiyatları, Ocak 2026 yaklaşık): utility (sipariş bildirimi, randevu hatırlatma) ~0.15 TL, marketing (promosyon, kampanya) ~0.30 TL, authentication (doğrulama kodu) ~0.10 TL. SMS gönderimi sağlayıcıya göre 0.20-0.40 TL arası, Türkçe karakter girdiğinizde 2 mesaja bölünüp 0.40-0.80 TL'ye çıkar. Yani utility ve authentication'da WhatsApp belirgin ucuz, marketing'de yakın ama dönüşümü çok daha yüksek."
+    a: "Ücretsiz değil ama daha verimli. Meta, WhatsApp Business API mesajlarını kategori bazlı ücretlendirir: utility (sipariş bildirimi, randevu hatırlatma), marketing (promosyon, kampanya) ve authentication (doğrulama kodu). Utility ve authentication kategorilerinde birim maliyet SMS'e kıyasla belirgin şekilde düşer; marketing kategorisinde ise dönüşüm SMS'ten çok daha yüksektir. Türkçe karakter içeren SMS'lerin iki mesaja bölünmesi maliyet farkını daha da açar. Fiyat brief görüşmesinde net paylaşılıyor."
   },
   {
     q: "Email göndermek için ek hizmet mi alacağım?",
@@ -466,7 +408,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Not:</strong> SMS fiyatları sağlayıcıya göre değişir (Ocak 2026 ortalama). WhatsApp Business API fiyatları Meta resmi tarifesinden alınmıştır.
+              <strong>Kaynak.</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
             </p>
           </Reveal>
         </div>
@@ -554,7 +496,7 @@ export default function Page() {
                 <div className="text-xs font-black uppercase tracking-wider text-brand-green mb-2">Senaryo 1</div>
                 <h3 className="font-display text-lg font-black mb-3">Sepette unutulan ürün</h3>
                 <p className="text-sm leading-relaxed">
-                  E-ticaret müşterisi sepete ürün koymuş, ödemeden çıkmış. PORTZEN 1 saat sonra WhatsApp'tan ürün resmiyle hatırlatır. 6 saat sonra email yedek. SMS gerek yok. Maliyet: 0.15 TL.
+                  E-ticaret müşterisi sepete ürün koymuş, ödemeden çıkmış. PORTZEN 1 saat sonra WhatsApp'tan ürün resmiyle hatırlatır. 6 saat sonra email yedek. SMS gerek yok. Optimum kanal karması, düşük birim maliyet.
                 </p>
               </div>
             </Reveal>
@@ -590,7 +532,7 @@ export default function Page() {
                 <div className="text-xs font-black uppercase tracking-wider text-brand-green mb-2">Senaryo 5</div>
                 <h3 className="font-display text-lg font-black mb-3">Doğrulama kodu</h3>
                 <p className="text-sm leading-relaxed">
-                  Login / işlem doğrulama kodu. WhatsApp authentication şablonu (0.10 TL). SMS yedek (kullanıcı WhatsApp'ta değilse). En ucuz + en hızlı kombinasyon.
+                  Login / işlem doğrulama kodu. WhatsApp authentication şablonu birim başı en düşük kanaldır. SMS yedek (kullanıcı WhatsApp'ta değilse). Hızlı + kanal karması ile optimize.
                 </p>
               </div>
             </Reveal>
@@ -599,85 +541,11 @@ export default function Page() {
                 <div className="text-xs font-black uppercase tracking-wider text-brand-green mb-2">Senaryo 6</div>
                 <h3 className="font-display text-lg font-black mb-3">Sipariş takibi</h3>
                 <p className="text-sm leading-relaxed">
-                  Sipariş alındı, hazırlanıyor, kargoya verildi, teslim edildi. Her aşamada WhatsApp utility (0.15 TL). Müşteri tek bir konuşma içinde tüm bilgilendirmeyi alır.
+                  Sipariş alındı, hazırlanıyor, kargoya verildi, teslim edildi. Her aşamada WhatsApp utility. Müşteri tek bir konuşma içinde tüm bilgilendirmeyi alır.
                 </p>
               </div>
             </Reveal>
           </div>
-        </div>
-      </section>
-
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket - üç kanal birden, sürpriz yok
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Aylık sabit altyapı ücreti + kanal başı gerçek kullanım. SMS başı, WhatsApp başı, email başı maliyet şeffaf raporlanır.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <div className="font-display text-lg font-black mb-1">WhatsApp toplu mesaj yasal rehberi</div>
-                <p className="text-sm opacity-90">
-                  Toplu WhatsApp gönderiminin yasal sınırları, açık rıza yönetimi, Meta şablon onayı detayları.
-                </p>
-              </div>
-              <Link
-                href="/blog/whatsapp-toplu-mesaj-yasal-otomasyon"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                Blog Rehberi <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
         </div>
       </section>
 
@@ -738,12 +606,12 @@ export default function Page() {
           <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                SMS faturanızı yarıya indirelim, dönüşümünüzü 3 katına çıkaralım.
+                Tek yönlü SMS akışını çok kanallı otomasyona taşıyalım.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut Netgsm kullanımınızı analiz ediyoruz. Hangi mesajların hangi kanala kayacağını, ne kadar tasarruf edeceğinizi raporluyoruz.
+                15 dakikalık ücretsiz keşif görüşmesinde mevcut Netgsm kullanımınızı analiz ediyoruz. Hangi mesajların hangi kanala (WhatsApp / Email / SMS) kayacağını ve iki yönlü müşteri konuşmasının nasıl kurulacağını raporluyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>

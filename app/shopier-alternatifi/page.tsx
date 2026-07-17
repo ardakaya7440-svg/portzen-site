@@ -22,9 +22,9 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Shopier Alternatifi | Kendi Mağazanız + Düşük Komisyon - PORTZEN",
+  title: "Shopier Alternatifi | Kendi Mağazanız + Marka Kimliği - PORTZEN",
   description:
-    "Shopier her satışta %3.5+ komisyon kesiyor. Kendi web mağazanız ile %0 platform komisyonu, güçlü marka kimliği. PORTZEN ile bağımsız e-ticaret kurulumu.",
+    "Shopier platform komisyonundan kurtulun. Kendi web mağazanızla marka kimliği, SEO ve müşteri verisi sizde. PORTZEN ile bağımsız e-ticaret kurulumu.",
   keywords: [
     "shopier alternatifi",
     "shopier komisyon",
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://portzenai.com/shopier-alternatifi",
     siteName: "PORTZEN",
-    title: "Shopier Alternatifi | Kendi Mağazanız + Düşük Komisyon - PORTZEN",
+    title: "Shopier Alternatifi | Kendi Mağazanız + Marka Kimliği - PORTZEN",
     description:
-      "Shopier %3.5+ komisyon yerine kendi mağazanız, kendi marka kimliği, %0 platform komisyonu."
+      "Shopier yerine kendi mağazanız, kendi marka kimliği, tam sahiplik."
   },
   twitter: {
     card: "summary_large_image",
@@ -68,13 +68,7 @@ const serviceSchema = {
   serviceType: "E-Commerce Setup",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Shopier ve benzeri pazaryeri komisyon yapısının yerine PORTZEN, butik markalar için kendi domain'i, kendi tasarımı, kendi sahipliği olan e-ticaret mağazası kurar. Platform komisyonu yok, marka kimliği güçlü.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺28000-₺120000",
-    availability: "https://schema.org/InStock"
-  }
+    "Shopier ve benzeri pazaryeri komisyon yapısının yerine PORTZEN, butik markalar için kendi domain'i, kendi tasarımı, kendi sahipliği olan e-ticaret mağazası kurar. Platform komisyonu yok, marka kimliği güçlü."
 };
 
 const faqSchema = {
@@ -86,7 +80,7 @@ const faqSchema = {
       name: "Shopier komisyonu ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Shopier işlem başına %3.49 ile %5.5 arasında komisyon alır. Taksitli satışlarda komisyon yükselir, hızlı havale opsiyonunda ek ücret çıkar. Aylık 30.000 TL satış yapan markada yıllık 12.000 TL'nin üstünde platform komisyonu çıkar."
+        text: "Shopier işlem başına platform komisyonu alır, taksitli satışlarda komisyon yükselir, hızlı havale opsiyonunda ek ücret çıkabilir. Kendi mağazanızda bu platform kesintisi olmaz. Fiyat brief görüşmesinde net paylaşılıyor."
       }
     },
     {
@@ -94,7 +88,7 @@ const faqSchema = {
       name: "Kendi sitemi kurmak için Shopier'dan ne kazanırım?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Platform komisyonundan %100 tasarruf, ödeme sağlayıcısına direkt sözleşme ile %1.49 ile %2.5 arasında komisyon, kendi marka kimliği, SEO ile organik trafik, müşteri verisi tamamen size ait. Shopier sitenizi kapatamaz."
+        text: "Platform komisyonundan tam tasarruf, ödeme sağlayıcısıyla doğrudan sözleşme, kendi marka kimliği, SEO ile organik trafik, müşteri verisi tamamen size ait. Shopier sitenizi kapatamaz."
       }
     },
     {
@@ -126,7 +120,7 @@ const faqSchema = {
       name: "Tek ürün satıyorum, kendi site kurmaya değer mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Aylık 5.000 TL altı satış için Shopier başlangıç için uygun. Aylık 15.000 TL üzeri satış yapıyorsanız kendi siteniz 12 ay içinde amorti olur. Marka inşa etmek istiyorsanız ilk günden kendi siteniz mantıklıdır."
+        text: "Düşük hacimli satışta Shopier başlangıç için uygun olabilir. Belirli bir hacmin üzerinde kendi siteniz belirli bir sürede kendini karşılamaya başlar. Marka inşa etmek istiyorsanız ilk günden kendi siteniz mantıklıdır. Fiyat brief görüşmesinde net paylaşılıyor."
       }
     },
     {
@@ -155,16 +149,16 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "%0", label: "Platform komisyonu" },
-  { metric: "12 ay", label: "Ortalama amorti süresi" },
-  { metric: "Kendi", label: "Domain + marka kimliği" },
-  { metric: "Sahip", label: "Müşteri verisi ve site size ait" }
+  { metric: "Sıfır", label: "Platform komisyonu" },
+  { metric: "Whitelabel", label: "Kendi domain + marka kimliği" },
+  { metric: "KVKK", label: "Türkiye sunucu + veri sahipliği" },
+  { metric: "Sahip", label: "Kod ve müşteri verisi sizde" }
 ];
 
 const painPoints = [
   {
-    title: "Komisyon oranı yüksek",
-    desc: "Shopier işlem başına %3.49 ile %5.5 arasında komisyon alır. Aylık 30.000 TL satışta yıllık 13.000 TL üzeri platform komisyonu, doğrudan kar kaybı."
+    title: "Platform komisyonu yüksek",
+    desc: "Shopier işlem başına platform komisyonu keser, taksitli satışta daha da artar. Yıl boyunca birikip doğrudan kar kaybına dönüşür."
   },
   {
     title: "Marka kimliği zayıf",
@@ -189,7 +183,7 @@ const painPoints = [
 ];
 
 const comparisonRows = [
-  { feature: "Platform komisyonu", shopier: "%3.49 ile %5.5", portzen: "%0 (sadece PSP komisyonu)" },
+  { feature: "Fiyat modeli", shopier: "Sabit komisyon", portzen: "Brief'te belirlenir" },
   { feature: "Domain", shopier: "markaniz.shopier.com", portzen: "markanizadi.com" },
   { feature: "Marka tasarımı", shopier: "Shopier kalıbı", portzen: "Markaya özel custom" },
   { feature: "SEO ve organik trafik", shopier: "Çok zayıf", portzen: "Tam kontrol, sıralama" },
@@ -225,76 +219,22 @@ const solutionSteps = [
 ];
 
 const features = [
-  { icon: Wallet, title: "Platform komisyonu sıfır", desc: "Sadece ödeme sağlayıcısına (%1.49 ile %2.5 arası) komisyon ödersiniz. Shopier'ın %3.49+ üzeri komisyonu cebinizde kalır." },
+  { icon: Wallet, title: "Platform komisyonu sıfır", desc: "Yalnızca doğrudan sözleşmeli ödeme sağlayıcısına ödersiniz. Shopier platform kesintisi ortadan kalkar." },
   { icon: Store, title: "Kendi domain'iniz", desc: "markanizadi.com altında çalışırsınız. Instagram bio'da, kartvizitte, faturada kendi adresiniz. Marka değeri uzun vadede size birikir." },
   { icon: TrendingUp, title: "SEO ile organik trafik", desc: "Kendi domain otoriteniz Google'da sıralanır. Ücretli reklam dışında organik trafik kanalı açılır, tek pazarlama kanalına bağımlı kalmazsınız." },
   { icon: Heart, title: "Müşteri verisi size ait", desc: "E-mail, telefon, sipariş geçmişi sizin CRM'inizde. Segmentlere göre kampanya, retargeting, sadakat programı yapma özgürlüğünüz var." },
   { icon: MessageCircle, title: "WhatsApp + Instagram entegre", desc: "Story'den DM otomasyonu, ürün linki paylaşımı, WhatsApp tek tık sipariş ve ödeme akışı yerleşik gelir." },
-  { icon: ShieldCheck, title: "Mağaza tamamen sizin", desc: "Yarın politika değişikliği, fiyat artışı veya hesap askıya alınması riski yok. Kod ve veri sizde, hosting sağlayıcısı bağımsız." }
-];
-
-const packages = [
-  {
-    name: "Başlangıç",
-    price: "28.000 TL",
-    period: "/proje",
-    setup: "3 hafta teslim",
-    color: "bg-paper",
-    features: [
-      "100 ürüne kadar",
-      "Kendi domain + tasarım",
-      "iyzico veya PayTR entegre",
-      "WhatsApp tek tık sipariş",
-      "Instagram bio link kurulumu",
-      "Yurtiçi Kargo, MNG entegre",
-      "2 ay bakım dahil"
-    ],
-    cta: "Projeyi Konuşalım"
-  },
-  {
-    name: "Pro",
-    price: "65.000 TL",
-    period: "/proje",
-    setup: "5 hafta teslim",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "500 ürüne kadar",
-      "AI öneri motoru + chatbot",
-      "Multi-PSP ödeme routing",
-      "Instagram DM otomasyonu",
-      "Sepet terk e-mail akışı",
-      "Sadakat ve kupon sistemi",
-      "4 ay bakım dahil"
-    ],
-    cta: "Pro Paketi Konuşalım"
-  },
-  {
-    name: "Kurumsal",
-    price: "120.000 TL",
-    period: "/proje",
-    setup: "8 hafta teslim",
-    color: "bg-paper",
-    features: [
-      "Sınırsız ürün",
-      "Çoklu dil + para birimi",
-      "Yurt dışı satış kurulumu",
-      "Mobil app API'si",
-      "Adanmış proje yöneticisi",
-      "12 ay bakım + sosyal medya entegre"
-    ],
-    cta: "Kurumsal Teklif"
-  }
+  { icon: ShieldCheck, title: "Mağaza tamamen sizin", desc: "Politika değişikliği, koşul değişimi veya hesap askıya alınması riski yok. Kod ve veri sizde, hosting sağlayıcısı bağımsız." }
 ];
 
 const faqs = [
   {
-    q: "Shopier komisyonu ne kadar, gerçekten yüksek mi?",
-    a: "Shopier işlem başına %3.49 ile %5.5 arasında komisyon alır (sektör, taksit ve ödeme tipine göre değişir). Hızlı havale (T+1 yerine aynı gün) için ek %1.5 komisyon vardır. Aylık 30.000 TL satış yapan butik markada yıllık 13.000 TL üzeri platform komisyonu çıkar, aylık 100.000 TL satışta yıllık 42.000 TL üzeri. Bu komisyon doğrudan kar kaybıdır, sitenizi kurarsanız aynı satış için sadece PSP komisyonu (%1.49 ile %2.5) öderssiniz."
+    q: "Shopier komisyonu gerçekten yüksek mi?",
+    a: "Shopier işlem başına platform komisyonu alır (sektör, taksit ve ödeme tipine göre değişir). Hızlı havale opsiyonunda ek komisyon devreye girer. Yüksek satış hacminde bu kesintiler doğrudan kar kaybına dönüşür; kendi mağazanızda ise yalnızca ödeme sağlayıcı (PSP) komisyonu ödersiniz. Fiyat brief görüşmesinde net paylaşılıyor."
   },
   {
     q: "Kendi sitemi kurmak için Shopier'dan ne kazanırım?",
-    a: "(1) Platform komisyonundan %100 tasarruf, sadece PSP komisyonu (%1.49 ile %2.5 arası), (2) Kendi marka kimliği ve domain'i, müşteri sizi platform değil marka olarak görür, (3) SEO ile Google'dan organik trafik, ücretli reklam dışında satış kanalı, (4) Müşteri verisi tamamen size ait, e-mail kampanyası, retargeting, segmentasyon özgürlüğü, (5) Mağaza sahipliği, Shopier yarın hesabınızı kapatamaz, fiyat değiştiremez."
+    a: "(1) Platform komisyonundan tam tasarruf, sadece doğrudan sözleşmeli PSP komisyonu, (2) Kendi marka kimliği ve domain'i, müşteri sizi platform değil marka olarak görür, (3) SEO ile Google'dan organik trafik, ücretli reklam dışında satış kanalı, (4) Müşteri verisi tamamen size ait, e-mail kampanyası, retargeting, segmentasyon özgürlüğü, (5) Mağaza sahipliği, Shopier yarın hesabınızı kapatamaz, koşul değiştiremez."
   },
   {
     q: "Shopier ile aynı kolay satış akışı kurulabilir mi?",
@@ -302,7 +242,7 @@ const faqs = [
   },
   {
     q: "Shopier'da hazır gelen kargo entegrasyonu siteye gelir mi?",
-    a: "Daha fazlası. Yurtiçi Kargo, MNG, Aras, PTT, Sürat, Hepsijet entegrasyonları PORTZEN paketinde standarttır. Sipariş onayında otomatik kargo etiketi basılır (PDF), kargo firması API'si ile takip numarası alınır, müşteriye WhatsApp ve e-mail ile bildirim gider. Kargo fiyatları otomatik hesaplanır (ürün ağırlığı, şehir, kampanyalı kargo). Shopier'ın sunduğu kargo seçeneklerinin tümü dahil, ek olarak markaya özel kargo kuralları kurulabilir (örneğin 500 TL üzeri ücretsiz kargo)."
+    a: "Daha fazlası. Yurtiçi Kargo, MNG, Aras, PTT, Sürat, Hepsijet entegrasyonları PORTZEN paketinde standarttır. Sipariş onayında otomatik kargo etiketi basılır (PDF), kargo firması API'si ile takip numarası alınır, müşteriye WhatsApp ve e-mail ile bildirim gider. Kargo ücretleri otomatik hesaplanır (ürün ağırlığı, şehir, kampanyalı kargo). Shopier'ın sunduğu kargo seçeneklerinin tümü dahil, ek olarak markaya özel kargo kuralları kurulabilir (belirli tutar üzeri ücretsiz kargo, VIP müşteri hızlı kargo, vb.)."
   },
   {
     q: "Instagram Bio link Shopier yerine ne gösterilecek?",
@@ -310,7 +250,7 @@ const faqs = [
   },
   {
     q: "Tek ürün satıyorum, kendi site kurmaya değer mi?",
-    a: "Aylık 5.000 TL altı satış için Shopier başlangıç için uygun, kurulum hızı ve bakım maliyeti açısından mantıklıdır. Aylık 15.000 TL üzeri satış yapıyorsanız kendi siteniz 12 ay içinde amorti olur (platform komisyonu tasarrufu projeyi karşılar). Marka inşa etmek istiyorsanız, uzun vadeli müşteri tabanı kurmak istiyorsanız ilk günden kendi siteniz mantıklıdır, çünkü marka değeri ve müşteri verisi zamanla katlanarak değer kazanır."
+    a: "Düşük hacimli satışta Shopier başlangıç için uygun olabilir; kurulum hızı ve bakım kolaylığı açısından mantıklıdır. Belirli bir satış hacminin üzerine çıktığınızda platform komisyonu birikimi kendi sitenin proje maliyetini belirli bir sürede karşılamaya başlar. Marka inşa etmek istiyorsanız, uzun vadeli müşteri tabanı kurmak istiyorsanız ilk günden kendi siteniz mantıklıdır, çünkü marka değeri ve müşteri verisi zamanla katlanarak değer kazanır. Fiyat brief görüşmesinde net paylaşılıyor."
   },
   {
     q: "Instagram DM otomasyonu site ile uyumlu mu?",
@@ -351,7 +291,7 @@ export default function Page() {
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Shopier her satışta %3.5 ile %5.5 arasında komisyon kesiyor, mağazanız markaniz.shopier.com altında kalıyor, müşteri verisi platforma ait. PORTZEN size kendi domain'inizde, kendi tasarımınızda, kendi marka kimliğinizle mağaza kurar; platform komisyonu sıfır olur.
+                  Shopier her satışta platform komisyonu kesiyor, mağazanız markaniz.shopier.com altında kalıyor, müşteri verisi platforma ait. PORTZEN size kendi domain'inizde, kendi tasarımınızda, kendi marka kimliğinizle mağaza kurar; platform komisyonu sıfır olur.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -360,7 +300,7 @@ export default function Page() {
                     href="/iletisim"
                     className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
                   >
-                    Ücretsiz Komisyon Hesabı <ArrowUpRight className="h-4 w-4" />
+                    Görüşme Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/web-tasarim/butik"
@@ -470,7 +410,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak.</strong> Shopier komisyon listesi (shopier.com/yardim), PORTZEN müşteri kurulum deneyimleri, Ocak 2026.
+              <strong>Kaynak.</strong> Ürün karşılaştırma PORTZEN müşteri kurulum deneyimlerinden derlenmiştir.
             </p>
           </Reveal>
         </div>
@@ -556,16 +496,16 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  <strong>İzmir, el yapımı takı markası, aylık 45.000 TL Shopier satışı.</strong> Shopier komisyonu %4.5, aylık 2.025 TL platform komisyonu, yıllık 24.300 TL. Müşteri verisi Shopier'da, e-mail kampanyası yapamıyordu. PORTZEN Başlangıç paketi (28.000 TL) ile kendi siteye geçti, iyzico ile %2.1 komisyon pazarlığı yapıldı. Yıllık 13.000 TL platform komisyonu tasarrufu + Instagram bio'da kendi domain. 14 ay sonra amorti, müşteri listesi 1.800'e ulaştı, e-mail kampanyaları ile aylık satış 75.000 TL'ye çıktı.
+                  <strong>İzmir, el yapımı takı markası.</strong> Shopier'da satış yapıyor, platform komisyonu her ay kar marjını daraltıyordu. Müşteri verisi Shopier'da kilitliydi, e-mail kampanyası yapamıyordu. PORTZEN ile kendi siteye geçti, doğrudan PSP sözleşmesiyle komisyon yükü düştü, Instagram bio'da artık kendi domain'i var. Müşteri listesi CRM'e aktı, e-mail kampanyaları başladı, aylık satış anlamlı ölçüde büyüdü.
                 </p>
                 <p>
-                  <strong>İstanbul, butik moda markası, aylık 120.000 TL Shopier satışı.</strong> Komisyon %5.5 (taksitli + hızlı havale). Aylık 6.600 TL, yıllık 79.200 TL. Müşteri Shopier'da görüyordu, marka kimliği zayıftı. PORTZEN Pro (65.000 TL) ile geçiş, PayTR ile %1.89 komisyon. Yıllık 53.000 TL tasarruf. AI öneri motoru ile sepet ortalaması %22 arttı, Instagram DM otomasyonu ile story'den gelen dönüşüm %18'e çıktı. 10 ayda amorti.
+                  <strong>İstanbul, butik moda markası.</strong> Shopier'da taksitli + hızlı havale kombinasyonuyla toplam komisyon yükü katlanıyordu. Müşteri Shopier'da görüyordu, marka kimliği zayıftı. PORTZEN ile geçiş, doğrudan PSP sözleşmesi yapıldı. AI öneri motoru sepet ortalamasını yükseltti, Instagram DM otomasyonu story'den gelen dönüşümü artırdı, marka kendi domain'inde büyümeye başladı.
                 </p>
                 <p>
-                  <strong>Ankara, ev dekorasyonu markası.</strong> Shopier'da aylık 25.000 TL satış ama büyüme yavaştı, Google'dan trafik gelmiyordu. PORTZEN kendi sitesi kuruldu, SEO optimize edildi, blog stratejisi geliştirildi. 8 ayda Google organik trafik aylık 4.500 ziyarete çıktı, organik satış toplam cironun %35'i oldu. Tek pazarlama kanalı (Instagram reklam) yerine üç kanal (organik, Instagram, e-mail) açıldı.
+                  <strong>Ankara, ev dekorasyonu markası.</strong> Shopier'da satış yapıyor ama büyüme yavaştı, Google'dan trafik gelmiyordu. PORTZEN kendi sitesi kuruldu, SEO optimize edildi, blog stratejisi geliştirildi. Aylar içinde Google organik trafik anlamlı büyüklüğe çıktı, organik satış toplam cironun önemli bir dilimine ulaştı. Tek pazarlama kanalı (Instagram reklam) yerine üç kanal (organik, Instagram, e-mail) açıldı.
                 </p>
                 <p>
-                  <strong>Bursa, organik sabun markası.</strong> Shopier'da 2 yıldır satıyordu, müşteri verisi Shopier'da kilitliydi, retargeting yapamıyordu. PORTZEN'e geçti, son 12 ayın siparişlerini Shopier API'den çekti, müşteri listesi CRM'e aktarıldı, segmentlere ayrıldı (yeni, sadık, kayıp). Win-back kampanyası ile kayıp müşterilerin %22'si geri kazanıldı.
+                  <strong>Bursa, organik sabun markası.</strong> Shopier'da 2 yıldır satıyordu, müşteri verisi Shopier'da kilitliydi, retargeting yapamıyordu. PORTZEN'e geçti, son 12 ayın siparişleri Shopier API'den çekildi, müşteri listesi CRM'e aktarıldı, segmentlere ayrıldı (yeni, sadık, kayıp). Win-back kampanyası ile kayıp müşterilerin belirgin bir kısmı geri kazanıldı.
                 </p>
               </div>
             </Reveal>
@@ -573,19 +513,19 @@ export default function Page() {
             <Reveal delay={300}>
               <div className="grid gap-4">
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Yıllık komisyon tasarrufu</div>
-                  <div className="font-display text-4xl font-black mb-1">53.000 TL</div>
-                  <div className="text-sm">120.000 TL aylık satışta</div>
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Platform komisyonu</div>
+                  <div className="font-display text-4xl font-black mb-1">Sıfır</div>
+                  <div className="text-sm">Doğrudan PSP sözleşmesi</div>
                 </div>
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Organik trafik (8 ay)</div>
-                  <div className="font-display text-4xl font-black mb-1">0 → 4.500</div>
-                  <div className="text-sm">Aylık ziyaret, SEO ile</div>
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Organik trafik kanalı</div>
+                  <div className="font-display text-4xl font-black mb-1">Açıldı</div>
+                  <div className="text-sm">SEO ile Google'dan ziyaret</div>
                 </div>
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Win-back oranı</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">%22</div>
-                  <div className="text-sm">Kayıp müşteri geri kazanımı</div>
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Müşteri verisi</div>
+                  <div className="font-display text-4xl font-black text-brand-pink">Sizin</div>
+                  <div className="text-sm">Kampanya, retargeting, sadakat</div>
                 </div>
               </div>
             </Reveal>
@@ -593,65 +533,26 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 7. PRICING */}
+      {/* 7. ÇALIŞMA MODELİ */}
       <section className="bg-paper py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="mb-12 max-w-2xl">
+            <div className="mb-8 max-w-2xl">
               <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
+                Çalışma modeli
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket, tek seferlik proje ücreti, kod size ait
+                Tek seferlik proje, kod size ait
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Shopier'ın her satışta komisyon kesmesi yerine PORTZEN tek seferlik proje ücreti alır. Aylık 30.000 TL üzeri satışta 12 ay içinde amorti olur.
+                Shopier'ın her satışta komisyon kesmesi yerine PORTZEN tek seferlik proje modeliyle çalışır. Kapsam brief görüşmesinde birlikte belirlenir; ürün sayısı, tasarım özelleştirmesi, entegrasyon setine göre teklif çıkar.
               </p>
             </div>
           </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
           <Reveal delay={300}>
             <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
               <div>
-                <div className="font-display text-lg font-black mb-1">Instagram DM otomasyonu paket</div>
+                <div className="font-display text-lg font-black mb-1">Instagram DM otomasyonu</div>
                 <p className="text-sm opacity-90">
                   Butik markalar için Instagram DM ile sipariş ve sepet terk otomasyonu detayları.
                 </p>
@@ -724,12 +625,12 @@ export default function Page() {
           <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Shopier komisyonunu yatırıma çevirelim
+                Shopier'dan kendi mağazanıza geçelim
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz komisyon analizinde mevcut Shopier satışınızı inceliyoruz. Yıllık platform komisyonu hesaplanıyor, PORTZEN kendi siteye geçiş ile amorti süresi raporu çıkarılıyor.
+                15 dakikalık ücretsiz keşif görüşmesinde mevcut Shopier kullanımınızı inceliyoruz. Marka konumlandırması, kanal karışımı ve kendi siteye geçiş planı brief'e uygun şekilde çıkarılır.
               </p>
             </Reveal>
             <Reveal delay={200}>
@@ -738,7 +639,7 @@ export default function Page() {
                   href="/iletisim"
                   className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
                 >
-                  Ücretsiz Komisyon Hesabı <ArrowUpRight className="h-4 w-4" />
+                  Görüşme Al <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
                   href="https://wa.me/905015884853"

@@ -6,7 +6,6 @@ import {
   X,
   MessageCircle,
   Phone,
-  Mail,
   Sparkles,
   ShieldCheck,
   Bot,
@@ -24,7 +23,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "ManyChat Alternatifi | Türkiye için Yerel WhatsApp+IG AI — PORTZEN",
   description:
-    "ManyChat yerine Türkçe destek + resmi WhatsApp Business API + yerel ödeme entegrasyonu. KOBİ'lere özel TL paketler, KVKK uyumlu, 14 günde devreye girer.",
+    "ManyChat yerine Türkçe destek + resmi WhatsApp Business API + yerel ödeme entegrasyonu. KOBİ'lere özel, KVKK uyumlu, 14 günde devreye girer.",
   keywords: [
     "manychat alternatifi",
     "manychat türkçe",
@@ -42,13 +41,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "ManyChat Alternatifi | Türkiye için Yerel WhatsApp+IG AI — PORTZEN",
     description:
-      "Türkçe destek, TL fiyat, resmi WhatsApp Business API, Iyzico entegre, KVKK uyumlu — ManyChat'in KOBİ için gerçek alternatifi."
+      "Türkçe destek, resmi WhatsApp Business API, Iyzico entegre, KVKK uyumlu — ManyChat'in KOBİ için gerçek alternatifi."
   },
   twitter: {
     card: "summary_large_image",
     title: "ManyChat Alternatifi | PORTZEN",
     description:
-      "ManyChat'in dolar fiyatı ve İngilizce arayüzü yerine Türkçe, TL ve KVKK uyumlu çözüm."
+      "ManyChat'in İngilizce arayüzü ve dolar faturası yerine Türkçe ve KVKK uyumlu çözüm."
   },
   alternates: { canonical: "https://portzenai.com/manychat-alternatifi" },
   robots: { index: true, follow: true }
@@ -68,13 +67,7 @@ const serviceSchema = {
   serviceType: "Conversational AI",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Türkiye pazarına özel WhatsApp Business API ve Instagram DM otomasyonu. ManyChat'in eksik kaldığı Türkçe destek, TL fiyat, KVKK uyumu ve yerel entegrasyonlar.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺8500-₺50000",
-    availability: "https://schema.org/InStock"
-  }
+    "Türkiye pazarına özel WhatsApp Business API ve Instagram DM otomasyonu. ManyChat'in eksik kaldığı Türkçe destek, KVKK uyumu ve yerel entegrasyonlar."
 };
 
 const faqSchema = {
@@ -110,7 +103,7 @@ const faqSchema = {
       name: "İptal koşulları nasıl?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ManyChat'in yıllık peşin ödemesinin aksine PORTZEN aylık esnek faturalama yapar. 30 gün önceden bildirimle istediğiniz zaman iptal edebilirsiniz, ceza yok."
+        text: "ManyChat'in yıllık peşin ödemesinin aksine PORTZEN aylık esnek çalışır. 30 gün önceden bildirimle istediğiniz zaman iptal edebilirsiniz, ceza yok."
       }
     },
     {
@@ -126,7 +119,7 @@ const faqSchema = {
       name: "Iyzico ve Param gibi yerel ödeme sistemleri entegre olur mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet, Iyzico, Param, PayTR ve Sipay ile hazır entegrasyonumuz var. ManyChat'in sadece Stripe (USD bazlı) ödeme akışı yerine TL ödeme alabilirsiniz."
+        text: "Evet, Iyzico, Param, PayTR ve Sipay ile hazır entegrasyonumuz var. ManyChat'in sadece Stripe ödeme akışı yerine yerel ödeme sistemlerini native kullanabilirsiniz."
       }
     },
     {
@@ -155,7 +148,7 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "%62", label: "Aylık maliyet tasarrufu (USD→TL)" },
+  { metric: "Yerel", label: "Iyzico + Param + PayTR" },
   { metric: "Resmi", label: "WhatsApp Business API" },
   { metric: "KVKK", label: "Türkiye sunucusu + aydınlatma" },
   { metric: "14 gün", label: "Taşıma + kurulum süresi" }
@@ -167,8 +160,8 @@ const painPoints = [
     desc: "ManyChat'in tüm paneli, eğitim materyali ve destek belgeleri İngilizce. Ekibinizin bot kuran kişisi bile akışları kurarken Google Translate ile boğuşuyor."
   },
   {
-    title: "USD fiyat, TL kazanç",
-    desc: "Aylık $15-$145 USD ödüyorsunuz, kur arttıkça maliyetiniz katlanıyor. ManyChat'in TL faturalama veya yerel ödeme seçeneği yok."
+    title: "Dolar bazlı fatura, TL kazanç",
+    desc: "Aboneliği USD üzerinden ödüyorsunuz, kur arttıkça maliyetiniz katlanıyor. ManyChat'in yerel faturalama veya yerel ödeme seçeneği yok."
   },
   {
     title: "WhatsApp resmi değil",
@@ -176,7 +169,7 @@ const painPoints = [
   },
   {
     title: "Türk ödeme sistemleri entegre değil",
-    desc: "Iyzico, Param, PayTR yok. Sadece Stripe ile USD ödeme alabiliyorsunuz; KOBİ müşterileri 3D Secure'la TL ödeyemiyor."
+    desc: "Iyzico, Param, PayTR yok. Sadece Stripe ile ödeme alabiliyorsunuz; KOBİ müşterileri 3D Secure'la yerel kartla ödeyemiyor."
   },
   {
     title: "KVKK uyumu sizin sorununuz",
@@ -186,7 +179,7 @@ const painPoints = [
 
 const comparisonRows = [
   { feature: "Arayüz dili", manychat: "Sadece İngilizce", portzen: "Türkçe + İngilizce", manychatYes: false, portzenYes: true },
-  { feature: "Para birimi", manychat: "USD", portzen: "TL (KDV dahil)", manychatYes: false, portzenYes: true },
+  { feature: "Faturalama modeli", manychat: "USD abonelik, kur riski", portzen: "Yerel çalışma modeli, sabit paket", manychatYes: false, portzenYes: true },
   { feature: "WhatsApp Business API (resmi)", manychat: "3rd party gateway", portzen: "Meta resmi iş ortağı", manychatYes: false, portzenYes: true },
   { feature: "KVKK uyumu", manychat: "Sizin sorumluluğunuzda", portzen: "Tam paket dahil", manychatYes: false, portzenYes: true },
   { feature: "Türk ödeme (Iyzico/Param/PayTR)", manychat: "Yok", portzen: "Hazır entegre", manychatYes: false, portzenYes: true },
@@ -194,7 +187,7 @@ const comparisonRows = [
   { feature: "Yerel canlı destek", manychat: "E-mail, 24-48 sa", portzen: "WhatsApp + telefon, aynı gün", manychatYes: false, portzenYes: true },
   { feature: "Sözleşme süresi", manychat: "Yıllık peşin", portzen: "Aylık esnek", manychatYes: false, portzenYes: true },
   { feature: "Veri lokalizasyonu", manychat: "ABD/AB sunucu", portzen: "Türkiye sunucusu", manychatYes: false, portzenYes: true },
-  { feature: "Başlangıç fiyatı", manychat: "$15-$145/ay USD", portzen: "₺8.500-₺32.000/ay", manychatYes: false, portzenYes: true }
+  { feature: "Ticari model", manychat: "Sabit dolar plan basamakları", portzen: "Kapsam bazlı, brief görüşmesinde net", manychatYes: false, portzenYes: true }
 ];
 
 const solutionSteps = [
@@ -223,18 +216,15 @@ const solutionSteps = [
 const features = [
   { icon: Languages, title: "Türkçe NLP", desc: "GPT-4 tabanlı motoru Türkçe konuşma örnekleriyle özel eğitim — 'fiyatınız ne acaba' ile 'fiyat ne' aynı algılanır." },
   { icon: ShieldCheck, title: "Resmi WhatsApp API", desc: "Meta'nın resmi iş ortağı altyapısı. 3rd party banlanma riski yok, yeşil tik onayı dahil." },
-  { icon: CreditCard, title: "Iyzico + Param + PayTR", desc: "Müşteri WhatsApp'tan link tıklayıp 3D Secure ile TL kart ödemesi yapar — komisyon Stripe'tan düşük." },
+  { icon: CreditCard, title: "Iyzico + Param + PayTR", desc: "Müşteri WhatsApp'tan link tıklayıp 3D Secure ile yerel kart ödemesi yapar — komisyon Stripe'tan düşük." },
   { icon: Globe2, title: "KVKK Aydınlatma", desc: "Açık rıza akışı, veri silme talep formu, Türkiye sunucusu — hepsi hazır kurulur." },
   { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile aynı gün dönüş. ManyChat'in e-mail-only desteği yerine gerçek insan." },
-  { icon: Wallet, title: "TL faturalama", desc: "Aylık TL fatura, KDV dahil, e-Arşiv. Kur dalgalanmasından etkilenmezsiniz." }
+  { icon: Wallet, title: "Yerel çalışma modeli", desc: "Yerel fatura, KDV dahil, e-Arşiv. Kur dalgalanmasından etkilenmezsiniz." }
 ];
 
 const packages = [
   {
     name: "Başlangıç",
-    price: "8.500 TL",
-    period: "/ay",
-    setup: "Kurulum: 25.000 TL",
     color: "bg-paper",
     features: [
       "Aylık 2.000 mesaja kadar",
@@ -243,13 +233,10 @@ const packages = [
       "Iyzico veya Param entegre",
       "KVKK aydınlatma paketi"
     ],
-    cta: "Projeyi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Pro",
-    price: "17.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 35.000 TL",
     color: "bg-brand-yellow",
     badge: "En Çok Tercih Edilen",
     features: [
@@ -260,13 +247,10 @@ const packages = [
       "Logo/Mikro muhasebe webhook",
       "Haftalık optimizasyon"
     ],
-    cta: "Pro Paketi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Kurumsal",
-    price: "32.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 50.000 TL+",
     color: "bg-paper",
     features: [
       "Sınırsız mesaj + numara",
@@ -276,7 +260,7 @@ const packages = [
       "SLA + öncelikli destek",
       "Aylık detaylı analiz raporu"
     ],
-    cta: "Kurumsal Teklif"
+    cta: "Görüşme Al"
   }
 ];
 
@@ -295,7 +279,7 @@ const faqs = [
   },
   {
     q: "İptal koşulları nasıl?",
-    a: "ManyChat genellikle yıllık peşin ödeme talep eder, iadesi karmaşıktır. PORTZEN aylık esnek faturalama yapar — 30 gün önceden bildirimle istediğiniz zaman iptal edebilirsiniz, ceza veya iade prosedürü yok."
+    a: "ManyChat genellikle yıllık peşin ödeme talep eder, iadesi karmaşıktır. PORTZEN aylık esnek çalışır — 30 gün önceden bildirimle istediğiniz zaman iptal edebilirsiniz, ceza veya iade prosedürü yok."
   },
   {
     q: "KVKK uyumu için ne yapmam gerekiyor?",
@@ -303,7 +287,7 @@ const faqs = [
   },
   {
     q: "Iyzico ve Param gibi yerel ödeme sistemleri entegre olur mu?",
-    a: "Evet. Iyzico, Param, PayTR ve Sipay ile hazır entegrasyonumuz var. Müşteri WhatsApp'tan ödeme linkine tıklar, 3D Secure ile TL kart ödemesi yapar — başarılı olunca otomatik teyit mesajı gider. ManyChat'in sadece Stripe (USD) ödeme akışı yerine bu yerlidir."
+    a: "Evet. Iyzico, Param, PayTR ve Sipay ile hazır entegrasyonumuz var. Müşteri WhatsApp'tan ödeme linkine tıklar, 3D Secure ile yerel kart ödemesi yapar — başarılı olunca otomatik teyit mesajı gider. ManyChat'in sadece Stripe ödeme akışı yerine bu yerlidir."
   },
   {
     q: "Türkçe doğal dil işleme ManyChat'ten farklı mı?",
@@ -344,7 +328,7 @@ export default function Page() {
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  ManyChat KOBİ için fazla pahalı, sadece İngilizce, USD faturalı ve KVKK'ya uyumsuz. PORTZEN aynı işi resmi WhatsApp Business API, Türkçe panel, TL fiyat ve Iyzico/Param entegrasyonu ile yapıyor — üstelik 14 günde taşıma garantisi.
+                  ManyChat sadece İngilizce, USD faturalı ve KVKK'ya uyumsuz. PORTZEN aynı işi resmi WhatsApp Business API, Türkçe panel ve Iyzico/Param entegrasyonu ile yapıyor — üstelik 14 günde taşıma garantisi.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -396,7 +380,7 @@ export default function Page() {
                 Neden ManyChat'ten kaçıyorsunuz?
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                ManyChat KOBİ için fazla pahalı, fazla yabancı, fazla uyumsuz.
+                ManyChat KOBİ için fazla yabancı ve fazla uyumsuz.
               </h2>
             </div>
           </Reveal>
@@ -463,7 +447,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> ManyChat fiyatları manychat.com/pricing'den (Ocak 2026), karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Kaynak:</strong> ManyChat özellik ve entegrasyon bilgileri manychat.com'dan derlenmiştir, karşılaştırma PORTZEN müşteri taşıma deneyimlerinden çıkarılmıştır.
             </p>
           </Reveal>
         </div>
@@ -541,7 +525,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Aylık $89'dan ₺17.000'e — Iyzico entegre, KVKK uyumlu, TL faturalı.
+              ManyChat'ten PORTZEN'e — Iyzico entegre, KVKK uyumlu, yerel faturalı.
             </h2>
           </Reveal>
 
@@ -549,30 +533,22 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  İzmir Alsancak'taki bir kadın giyim butiği 18 aydır ManyChat Pro kullanıyordu. Aylık $89 USD (yaklaşık ₺3.000 başlangıçta, kur farkıyla ₺4.500'e çıkmıştı), üstelik Stripe komisyonu da USD bazında. Müşterilerinin %95'i Türkçe ödeme yapmak istiyor ama 3D Secure ile TL kart ödemesi alamıyordu.
+                  İzmir Alsancak'taki bir kadın giyim butiği 18 aydır ManyChat Pro kullanıyordu. Aylık fatura USD üzerinden geliyordu, üstelik Stripe komisyonu da USD bazında. Müşterilerinin %95'i yerel kartla ödeme yapmak istiyor ama 3D Secure ile ödeme alamıyordu.
                 </p>
                 <p>
-                  Brief görüşmesinde 3 ana sorunu listelediler: (1) WhatsApp numaraları 3 kez askıya alınmıştı çünkü ManyChat resmi WBA değildi, (2) KVKK aydınlatma metnini avukatlarına 4.500 TL ödeyip yazdırmışlardı ama akış kurulu değildi, (3) abone listesi 8.400 kişiydi ve kaybetmekten korkuyorlardı.
+                  Brief görüşmesinde 3 ana sorunu listelediler: (1) WhatsApp numaraları 3 kez askıya alınmıştı çünkü ManyChat resmi WBA değildi, (2) KVKK aydınlatma metnini avukatlarına yazdırmışlardı ama akış kurulu değildi, (3) abone listesi 8.400 kişiydi ve kaybetmekten korkuyorlardı.
                 </p>
                 <p>
-                  10 günde tüm akışlarını PORTZEN'e taşıdık: resmi WhatsApp Business API ile yeşil tik aldık, Iyzico entegre edip TL ödeme akışı kurduk, KVKK aydınlatma metnini WhatsApp şablonu olarak onaylattık. 8.400 abone CSV ile geçti, etiketler dahil. İlk ay raporda: ödeme dönüşümü %23'ten %41'e çıktı (3D Secure ile güven arttı), aylık maliyet $89'dan ₺17.000'e — kur farkı dahil bile %62 düşüş.
+                  10 günde tüm akışlarını PORTZEN'e taşıdık: resmi WhatsApp Business API ile yeşil tik aldık, Iyzico entegre edip yerel ödeme akışı kurduk, KVKK aydınlatma metnini WhatsApp şablonu olarak onaylattık. 8.400 abone CSV ile geçti, etiketler dahil. İlk ay raporda: ödeme dönüşümü %23'ten %41'e çıktı (3D Secure ile güven arttı), kur dalgalanmasından etkilenmeyen sabit ve öngörülebilir bir çalışma modeline geçtiler.
                 </p>
                 <p>
-                  Şu an müşterinin aylık WhatsApp üzerinden TL gelirinin %38'i bu sistemden geliyor. Kur ne olursa olsun fatura sabit.
+                  Şu an müşterinin aylık WhatsApp üzerinden gelirinin %38'i bu sistemden geliyor. Kur ne olursa olsun ödeme akışı ve müşteri deneyimi tutarlı.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">ManyChat'te</div>
-                  <div className="font-display text-3xl font-black mb-1">$89/ay</div>
-                  <div className="text-sm">≈ ₺4.500 (kur dalgalı)</div>
-                  <div className="mt-4 text-xs font-bold uppercase opacity-70 mb-1">PORTZEN'de</div>
-                  <div className="font-display text-3xl font-black text-brand-green">₺17.000/ay</div>
-                  <div className="text-sm">Sabit, KDV dahil, e-Arşiv</div>
-                </div>
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Ödeme dönüşümü</div>
                   <div className="font-display text-4xl font-black mb-1">%23 → %41</div>
@@ -582,6 +558,11 @@ export default function Page() {
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Taşınan abone</div>
                   <div className="font-display text-4xl font-black text-brand-pink">8.400</div>
                   <div className="text-sm">Veri kaybı sıfır, etiketler dahil</div>
+                </div>
+                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Devreye alış</div>
+                  <div className="font-display text-4xl font-black text-brand-green">10 gün</div>
+                  <div className="text-sm">Resmi WhatsApp + Iyzico</div>
                 </div>
               </div>
             </Reveal>
@@ -595,13 +576,13 @@ export default function Page() {
           <Reveal>
             <div className="mb-12 max-w-2xl">
               <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
+                Çalışma modeli
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket — hepsi TL, hepsi KDV dahil
+                3 paket — kapsam bazlı, kur riskinden bağımsız
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                ManyChat'in dolar bazlı planlarının aksine sabit TL fiyat. Kur arttı diye faturalanız artmaz.
+                ManyChat'in dolar bazlı plan basamaklarının aksine PORTZEN sabit paket mantığı ile çalışır. Kapsam ve net rakamlar brief görüşmesinde paylaşılır.
               </p>
             </div>
           </Reveal>
@@ -621,11 +602,7 @@ export default function Page() {
                     </div>
                   )}
                   <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
+                  <div className="text-xs font-bold opacity-75 mb-6">Kapsam brief görüşmesinde netleştirilir</div>
                   <ul className="space-y-2 mb-6 flex-1">
                     {p.features.map((f, fi) => (
                       <li key={fi} className="flex items-start gap-2 text-sm">
@@ -725,7 +702,7 @@ export default function Page() {
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut ManyChat akışlarınızı analiz edip TL'li, KVKK uyumlu PORTZEN paketini netleştiriyoruz. Aynı gün dönüş.
+                30 dakikalık ücretsiz brief görüşmesinde mevcut ManyChat akışlarınızı analiz edip yerel, KVKK uyumlu PORTZEN kurulumunu netleştiriyoruz. Kapsam ve net rakam bu görüşmede paylaşılır.
               </p>
             </Reveal>
             <Reveal delay={200}>

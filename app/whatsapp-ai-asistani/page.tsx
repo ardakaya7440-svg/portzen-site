@@ -63,13 +63,7 @@ const serviceSchema = {
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "WhatsApp Business API üzerinden çalışan, gelen mesajlara 7/24 yanıt veren, randevu oluşturan, sipariş alan AI asistan kurulumu. KOBİ ve markalar için 14 günde devreye giren sistem.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺8500-₺75000",
-    availability: "https://schema.org/InStock"
-  }
+    "WhatsApp Business API üzerinden çalışan, gelen mesajlara 7/24 yanıt veren, randevu oluşturan, sipariş alan AI asistan kurulumu. KOBİ ve markalar için 14 günde devreye giren sistem."
 };
 
 const faqSchema = {
@@ -89,7 +83,7 @@ const faqSchema = {
       name: "WhatsApp AI asistanı fiyatı ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Kurulum 25.000 TL'den başlar, aylık operasyon bakım ücreti 8.500 TL'den itibarendir. Kesin fiyat günlük mesaj hacmi, entegrasyon sayısı ve sektör karmaşıklığına göre keşif görüşmesinde netleşir."
+        text: "Fiyat, ihtiyacına göre kişiselleştiriliyor. 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz. Mesaj hacmi, entegrasyon sayısı ve sektör karmaşıklığı toplam kapsamı belirliyor."
       }
     },
     {
@@ -200,9 +194,7 @@ const features = [
 const packages = [
   {
     name: "Başlangıç",
-    price: "8.500 TL",
-    period: "/ay",
-    setup: "Kurulum: 25.000 TL",
+    scope: "KOBİ için hızlı başlangıç",
     color: "bg-paper",
     features: [
       "Aylık 2.000 mesaja kadar",
@@ -211,13 +203,11 @@ const packages = [
       "Google Takvim entegrasyonu",
       "Aylık 1 optimizasyon turu"
     ],
-    cta: "Projeyi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Pro",
-    price: "16.500 TL",
-    period: "/ay",
-    setup: "Kurulum: 35.000 TL",
+    scope: "Yoğun trafik ve özel akış",
     color: "bg-brand-yellow",
     badge: "En Çok Tercih Edilen",
     features: [
@@ -228,13 +218,11 @@ const packages = [
       "Haftalık optimizasyon",
       "İnsan devir yönetimi"
     ],
-    cta: "Pro Paketi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Kurumsal",
-    price: "Özel",
-    period: "",
-    setup: "Kurulum: 45.000 TL+",
+    scope: "Çoklu şube ve özel entegrasyon",
     color: "bg-paper",
     features: [
       "Sınırsız mesaj",
@@ -244,7 +232,7 @@ const packages = [
       "SLA ve öncelikli destek",
       "Aylık detaylı analiz raporu"
     ],
-    cta: "Kurumsal Teklif"
+    cta: "Görüşme Al"
   }
 ];
 
@@ -255,7 +243,7 @@ const faqs = [
   },
   {
     q: "Fiyatlandırma nasıl çalışıyor?",
-    a: "Kurulum tek seferlik 25.000-45.000 TL aralığındadır. Aylık operasyon ve bakım ücreti 8.500 TL'den başlar, mesaj hacmi ve entegrasyon sayısına göre değişir. WhatsApp Business API'nin Meta'ya ödenen mesaj başına ücreti ayrıca işler."
+    a: "Fiyat, ihtiyacına göre kişiselleştiriliyor. 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz. Mesaj hacmi, entegrasyon sayısı ve sektöre göre kapsam bazlı çalışıyoruz. Hemen /iletisim üzerinden yaz."
   },
   {
     q: "Mevcut WhatsApp numaramı kaybeder miyim?",
@@ -469,13 +457,13 @@ export default function Page() {
           <Reveal>
             <div className="mb-12 max-w-2xl">
               <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf fiyatlandırma
+                Çalışma modeli
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 Hangi paket size uygun?
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                3 paket var — başlangıç KOBİ'sinden çoklu şubeli markaya kadar. Net rakam keşif görüşmesinde verilir.
+                3 paket var — başlangıç KOBİ'sinden çoklu şubeli markaya kadar. Kapsam bazlı çalışıyoruz; net rakam brief görüşmesinde paylaşılır.
               </p>
             </div>
           </Reveal>
@@ -495,11 +483,7 @@ export default function Page() {
                     </div>
                   )}
                   <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
+                  <div className="text-sm font-bold opacity-75 mb-6">{p.scope}</div>
                   <ul className="space-y-2 mb-6 flex-1">
                     {p.features.map((f, fi) => (
                       <li key={fi} className="flex items-start gap-2 text-sm">
@@ -520,7 +504,7 @@ export default function Page() {
           </div>
           <Reveal delay={300}>
             <p className="mt-8 text-sm text-ink/60 max-w-2xl">
-              <strong>Not:</strong> Tam fiyat sektör + müşteri yoğunluğuna göre değişir — 15 dakikalık keşif görüşmesinde netleşir. WhatsApp Business API'nin Meta'ya ödenen mesaj başına ücreti ayrıca işler.
+              <strong>Not:</strong> Kapsam bazlı çalışıyoruz; net rakam sektör ve müşteri yoğunluğuna göre 15 dakikalık keşif görüşmesinde paylaşılır. WhatsApp Business API'nin Meta'ya ödenen mesaj başına servis ücreti ayrıca işler.
             </p>
           </Reveal>
           <Reveal delay={400}>

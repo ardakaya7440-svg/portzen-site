@@ -13,7 +13,6 @@ import {
   HeadphonesIcon,
   CheckCircle2,
   Building2,
-  Wallet,
   Boxes,
   TrendingUp
 } from "lucide-react";
@@ -47,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Logo Yazılım Alternatifi | PORTZEN",
     description:
-      "Logo Tiger/Mikro/Netsis üstüne n8n + AI otomasyon. Daha esnek, daha ucuz, KOBİ için."
+      "Logo Tiger/Mikro/Netsis üstüne n8n + AI otomasyon. Daha esnek, ölçeklenebilir, KOBİ için."
   },
   alternates: { canonical: "https://portzenai.com/logo-yazilim-alternatifi" },
   robots: { index: true, follow: true }
@@ -67,13 +66,7 @@ const serviceSchema = {
   serviceType: "ERP Automation Layer",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Logo Tiger, Mikro Fly, Netsis Wings gibi geleneksel ERP yazılımlarına n8n + Make + custom workflow ile modern otomasyon katmanı ekleyen, KOBİ için tasarlanmış esnek çözüm.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺15000-₺55000",
-    availability: "https://schema.org/InStock"
-  }
+    "Logo Tiger, Mikro Fly, Netsis Wings gibi geleneksel ERP yazılımlarına n8n + Make + custom workflow ile modern otomasyon katmanı ekleyen, KOBİ için tasarlanmış esnek çözüm."
 };
 
 const faqSchema = {
@@ -109,7 +102,7 @@ const faqSchema = {
       name: "Logo Yazılım yıllık bakım ücretini ödüyorum, üstüne PORTZEN ödemek mantıklı mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Logo bakım ücreti (yıllık 8.000 - 25.000 TL arası) ERP modülleri için. PORTZEN otomasyon katmanı için aylık ödersiniz ve genelde 4-6 ayda kendi maliyetini çıkarır - manuel veri girişi azaldığı için. İki çözüm farklı katmanlarda, birbirini tamamlar."
+        text: "Logo bakım ücreti ERP temel modülleri için. PORTZEN otomasyon katmanı ayrı bir hizmet olarak WhatsApp + lead + email + e-ticaret + AI tarafını kapsar. İki çözüm farklı katmanlarda birbirini tamamlar. Fiyat brief görüşmesinde net paylaşılıyor."
       }
     },
     {
@@ -163,7 +156,7 @@ const stats = [
 const painPoints = [
   {
     title: "Logo CRM modülü temel kalıyor",
-    desc: "Logo CRM, cari kart + pipeline yapısı sunar ama WhatsApp Business API, AI lead scoring ve modern email otomasyonu yok. Üstüne ek modül lisansı pahalı."
+    desc: "Logo CRM, cari kart + pipeline yapısı sunar ama WhatsApp Business API, AI lead scoring ve modern email otomasyonu yok. Ek modül lisansı ayrı sözleşme + entegrasyon çıkarır."
   },
   {
     title: "Mobil deneyim zayıf",
@@ -171,7 +164,7 @@ const painPoints = [
   },
   {
     title: "Otomasyon için Logo Workflow ek lisans",
-    desc: "Logo Workflow Plus modülü tek başına 35.000 - 70.000 TL bir defalık lisans, üstüne yıllık bakım. KOBİ için fazla."
+    desc: "Logo Workflow Plus modülü bir defalık lisans + yıllık bakım gerektirir. KOBİ için ek bir yatırım kalemi olarak devreye girer."
   },
   {
     title: "Modern entegrasyonlar eksik",
@@ -188,7 +181,7 @@ const painPoints = [
 ];
 
 const comparisonRows = [
-  { feature: "Aylık maliyet", manychat: "Logo modül + bakım: ~₺25.000+", portzen: "₺15.000 - ₺55.000/ay sabit" },
+  { feature: "Fiyat modeli", manychat: "Aylık lisans + bakım bazlı", portzen: "Brief'te belirlenir" },
   { feature: "WhatsApp Business API resmi", manychat: "Yok (3rd party gerekir)", portzen: "Meta resmi iş ortağı, dahil" },
   { feature: "Modern lead scoring + AI", manychat: "Yok", portzen: "n8n + LLM ile dahil" },
   { feature: "E-ticaret entegrasyon", manychat: "Hep middleware gerekir", portzen: "Shopify/Woo/Trendyol direkt" },
@@ -232,57 +225,6 @@ const features = [
   { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile aynı gün dönüş. Logo bayisi geç dönüşleri yerine direkt PORTZEN ekibi." }
 ];
 
-const packages = [
-  {
-    name: "Başlangıç",
-    price: "15.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 40.000 TL",
-    color: "bg-paper",
-    features: [
-      "Logo / Mikro / Netsis API bağlantısı",
-      "5 aktif otomasyon akışı",
-      "WhatsApp Business API",
-      "1 e-ticaret connector",
-      "KVKK paketi dahil"
-    ],
-    cta: "Projeyi Konuşalım"
-  },
-  {
-    name: "Pro",
-    price: "30.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 65.000 TL",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "15 aktif otomasyon akışı",
-      "3 e-ticaret connector",
-      "Lead scoring + AI özet",
-      "Web form + landing page",
-      "Custom dashboard",
-      "Aylık 8 saat geliştirme"
-    ],
-    cta: "Pro Paketi Konuşalım"
-  },
-  {
-    name: "Kurumsal",
-    price: "55.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 100.000 TL+",
-    color: "bg-paper",
-    features: [
-      "Sınırsız akış + connector",
-      "Self-hosted TR sunucu",
-      "Özel API geliştirme",
-      "Adanmış proje yöneticisi",
-      "SLA + 7/24 destek",
-      "Aylık detaylı analiz raporu"
-    ],
-    cta: "Kurumsal Teklif"
-  }
-];
-
 const faqs = [
   {
     q: "Logo Tiger kurulumumu kaldırmam mı gerekecek?",
@@ -298,7 +240,7 @@ const faqs = [
   },
   {
     q: "Logo Yazılım yıllık bakım ücretini ödüyorum, üstüne PORTZEN ödemek mantıklı mı?",
-    a: "Logo bakım ücreti (yıllık 8.000 - 25.000 TL arası, kullanıcı sayısına ve modüle göre) ERP temel modülleri için. PORTZEN otomasyon katmanı farklı bir hizmet: WhatsApp + lead + email + e-ticaret + AI tarafı. İki çözüm farklı katmanlarda, birbirinin yerine geçmez, tamamlar. Çoğu PORTZEN müşterimiz Logo bakımını da ödemeye devam eder. PORTZEN'in maliyeti genellikle 4-6 ayda kendi kendini çıkarır: manuel veri girişi azalır, kaçırılan lead sayısı düşer, WhatsApp + email otomasyon sayesinde satış döngüsü hızlanır."
+    a: "Logo bakım ücreti ERP temel modülleri (muhasebe, stok, fatura) için ödenir. PORTZEN otomasyon katmanı farklı bir hizmet: WhatsApp + lead + email + e-ticaret + AI tarafı. İki çözüm farklı katmanlarda, birbirinin yerine geçmez, tamamlar. Çoğu PORTZEN müşterimiz Logo bakımını da ödemeye devam eder. Manuel veri girişi azalır, kaçırılan lead sayısı düşer, WhatsApp + email otomasyon sayesinde satış döngüsü hızlanır. Fiyat brief görüşmesinde net paylaşılıyor."
   },
   {
     q: "Mevcut Logo verilerimi PORTZEN okuyabilir mi?",
@@ -466,7 +408,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Not:</strong> Logo lisans + bakım fiyatları logoyazilim.com.tr ve bayi tekliflerinden (Ocak 2026) derlenmiştir. Konfigürasyona göre değişebilir.
+              <strong>Kaynak.</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
             </p>
           </Reveal>
         </div>
@@ -607,80 +549,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket - Logo lisansınızı bozmadan
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Mevcut Logo / Mikro / Netsis kurulumunuz aynen kalır. PORTZEN aylık otomasyon katmanı ücreti olarak gelir. Sözleşme aylık esnek, sürpriz yok.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <div className="font-display text-lg font-black mb-1">n8n kurulum hizmeti</div>
-                <p className="text-sm opacity-90">
-                  Sadece n8n self-hosted kurulum mu istiyorsunuz? Ayrı bir hizmet olarak da sunuyoruz.
-                </p>
-              </div>
-              <Link
-                href="/n8n-kurulum-hizmeti"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                n8n Kurulum <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
-
       {/* 8. FAQ */}
       <section className="bg-ink text-paper py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
@@ -709,9 +577,9 @@ export default function Page() {
             <div className="mt-12 grid md:grid-cols-2 gap-4">
               <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
                 <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
-                <h3 className="font-display text-base font-black mb-2">Zapier de mi pahalı geliyor?</h3>
+                <h3 className="font-display text-base font-black mb-2">Zapier alternatifi mi arıyorsunuz?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  Zapier'in USD fiyatı yerine n8n + Make + Türk uygulama entegrasyonu.
+                  Zapier yerine n8n + Make + Türk uygulama entegrasyonu kuruyoruz.
                 </p>
                 <Link href="/zapier-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
                   Zapier Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />

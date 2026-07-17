@@ -5,12 +5,10 @@ import {
   MessageCircle,
   Check,
   X,
-  Wallet,
   Bot,
   Layers,
   Plug,
   ShieldCheck,
-  Sparkles,
   TrendingUp,
   CheckCircle2,
   Calculator,
@@ -40,13 +38,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "WhatsApp Chatbot Fiyatı Ne Kadar? — 2026 Türkiye Rehberi",
     description:
-      "WhatsApp chatbot fiyatları, fiyatı etkileyen 5 faktör, rakip karşılaştırması ve PORTZEN'in 3 paketi. ₺8.500'den başlar."
+      "WhatsApp chatbot fiyatını belirleyen faktörler, rakip karşılaştırması ve PORTZEN'in çalışma modeli. Net rakam brief görüşmesinde paylaşılır."
   },
   twitter: {
     card: "summary_large_image",
     title: "WhatsApp Chatbot Fiyatı 2026",
     description:
-      "Aylık ₺8.500'den başlayan paketler. Şeffaf TL fiyatlandırma rehberi."
+      "Kapsam bazlı çalışan, brief görüşmesinde net rakam paylaşan Türkçe fiyatlandırma rehberi."
   },
   alternates: { canonical: "https://portzenai.com/whatsapp-chatbot-fiyat" },
   robots: { index: true, follow: true }
@@ -66,13 +64,7 @@ const serviceSchema = {
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "WhatsApp Business API üzerinden çalışan, sektör bazlı eğitilmiş AI chatbot. Aylık ₺8.500'den başlayan paketler, Logo/Mikro/Iyzico entegrasyonu, KVKK uyumlu.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺8500-₺32000",
-    availability: "https://schema.org/InStock"
-  }
+    "WhatsApp Business API üzerinden çalışan, sektör bazlı eğitilmiş AI chatbot. Kapsam bazlı çalışan paketler, Logo/Mikro/Iyzico entegrasyonu, KVKK uyumlu."
 };
 
 const faqSchema = {
@@ -84,7 +76,7 @@ const faqSchema = {
       name: "WhatsApp chatbot fiyatı 2026'da ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Türkiye'de WhatsApp chatbot fiyatı aylık ₺8.500-₺32.000 arasında değişir. Mesaj hacmi, sektör karmaşıklığı, entegrasyon sayısı ve AI kapasitesi ana fiyat belirleyicileri."
+        text: "Fiyat, ihtiyacına göre kişiselleştiriliyor. Mesaj hacmi, sektör karmaşıklığı, entegrasyon sayısı ve AI kapasitesi ana belirleyiciler. 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz."
       }
     },
     {
@@ -92,7 +84,7 @@ const faqSchema = {
       name: "Aylık ek mesaj ücreti var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "PORTZEN paketleri aylık belirli mesaj limitiyle gelir. Limit aşıldığında ek mesaj ücreti 0.85-1.20 TL/mesaj arasındadır. WhatsApp Business API'nin Meta'ya ödenen mesaj başına servis ücreti ayrıca işler (yaklaşık 0.30-0.80 TL)."
+        text: "PORTZEN paketleri aylık belirli mesaj limitiyle gelir. Limit aşıldığında ek mesaj ücreti kapsam bazlı belirlenir. WhatsApp Business API'nin Meta'ya ödenen mesaj başına servis ücreti ayrıca işler."
       }
     },
     {
@@ -100,7 +92,7 @@ const faqSchema = {
       name: "Kurulum tek seferlik mi, aylık mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Kurulum tek seferlik ücrettir, 25.000-45.000 TL arasında değişir. Aylık ücret sadece operasyon, bakım, optimizasyon ve sunucu maliyetlerini içerir."
+        text: "Kurulum tek seferlik bir çalışmadır, aylık ücret sadece operasyon, bakım, optimizasyon ve sunucu maliyetlerini içerir. Kapsam bazlı çalışıyoruz; net rakam brief görüşmesinde paylaşılır."
       }
     },
     {
@@ -108,7 +100,7 @@ const faqSchema = {
       name: "Sözleşme süresi var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Aylık ödeme opsiyonu vardır, taahhüt yoktur. Yıllık ödemede %15 indirim. İptal istediğinizde 30 gün önceden bildirim yeterli."
+        text: "Aylık ödeme opsiyonu vardır, taahhüt yoktur. Yıllık ödemede indirim uygulanır. İptal istediğinizde 30 gün önceden bildirim yeterli."
       }
     },
     {
@@ -116,7 +108,7 @@ const faqSchema = {
       name: "İlk ay deneme imkanı var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Pilot kurulum sonrası ilk 2 hafta test sürecidir. Bu süre içinde performanstan memnun kalmazsanız geçişten vazgeçebilirsiniz, kurulum ücretinin %50'si iade edilir."
+        text: "Evet. Pilot kurulum sonrası ilk 2 hafta test sürecidir. Bu süre içinde performanstan memnun kalmazsanız geçişten vazgeçebilirsiniz; kurulum ücretinin bir bölümü iade edilir."
       }
     },
     {
@@ -124,7 +116,7 @@ const faqSchema = {
       name: "WhatsApp Business API resmi maliyeti nedir?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Meta'nın WhatsApp Business API tarifesi konuşma kategorisine göre değişir: pazarlama mesajları yaklaşık 0.45 TL, hizmet/destek mesajları 0.18 TL, doğrulama mesajları 0.10 TL civarındadır. Müşteri başlatan konuşmaların ilk 24 saati ücretsizdir."
+        text: "Meta'nın WhatsApp Business API tarifesi konuşma kategorisine göre değişir (pazarlama, hizmet/destek, doğrulama). Müşteri başlatan konuşmaların ilk 24 saati ücretsizdir. Brief görüşmesinde güncel Meta tarifesini birlikte hesaplıyoruz."
       }
     },
     {
@@ -132,7 +124,7 @@ const faqSchema = {
       name: "Hangi entegrasyonlar fiyatı artırır?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Standart entegrasyonlar (Google Takvim, HubSpot, Bitrix, Calendly) Pro pakete dahildir. Logo, Mikro, Iyzico, Netgsm gibi özel entegrasyonlar başına 5.000-15.000 TL tek seferlik geliştirme ücretine tabidir."
+        text: "Standart entegrasyonlar (Google Takvim, HubSpot, Bitrix, Calendly) Pro pakete dahildir. Logo, Mikro, Iyzico, Netgsm gibi özel entegrasyonlar için tek seferlik geliştirme kapsamı çıkarıyoruz; net rakam brief görüşmesinde paylaşılır."
       }
     }
   ]
@@ -153,17 +145,17 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "₺8.500", label: "Aylık başlangıç paketi" },
   { metric: "5", label: "Fiyatı belirleyen faktör" },
   { metric: "14 gün", label: "Standart kurulum" },
-  { metric: "TL", label: "Sabit, kur etkilenmez" }
+  { metric: "3", label: "Farklı kapsam paketi" },
+  { metric: "7/24", label: "Aktif operasyon" }
 ];
 
 const problems = [
-  "Yurtdışı chatbot sağlayıcıları (ManyChat $89, Wati $49) USD bazlı; dolar arttıkça aylık fatura tahmin edilemiyor.",
+  "Yurtdışı chatbot sağlayıcıları (ManyChat, Wati) döviz bazlı çalışır; kur arttıkça aylık fatura tahmin edilemiyor.",
   "Türk sektörlerine özel entegrasyon (Logo, Mikro, Iyzico, NetGSM) yurtdışı platformlarda yok veya zor.",
   "WhatsApp Business API'nin Meta tarafından ücretlendirilen mesaj maliyetleri konuşma türüne göre değişiyor; net hesap zor.",
-  "Kurulum + aylık operasyon ayrımı net değil, fiyatlandırma kafa karıştırıcı.",
+  "Kurulum ile aylık operasyon ayrımı net değil, fiyatlandırma kafa karıştırıcı.",
   "AI yanıt kapasitesi sınırsız mı, kullanım bazlı mı belirsiz; sürpriz fatura geliyor."
 ];
 
@@ -181,7 +173,7 @@ const factors = [
   {
     icon: Plug,
     title: "Entegrasyon sayısı",
-    desc: "Google Takvim ve HubSpot standart. Logo, Mikro, Iyzico, NetGSM, özel CRM her biri 5.000-15.000 TL ek geliştirme."
+    desc: "Google Takvim ve HubSpot standart. Logo, Mikro, Iyzico, NetGSM, özel CRM her biri kapsam bazlı tek seferlik geliştirme gerektirir."
   },
   {
     icon: ShieldCheck,
@@ -196,8 +188,8 @@ const factors = [
 ];
 
 const comparison = [
-  { feature: "Aylık başlangıç", manychat: "$89 (Pro)", tidio: "$59", wati: "$49", portzen: "₺8.500" },
-  { feature: "Para birimi", manychat: "USD", tidio: "USD", wati: "USD", portzen: "TL (sabit)" },
+  { feature: "Aylık başlangıç", manychat: "Kapsam bazlı", tidio: "Kapsam bazlı", wati: "Kapsam bazlı", portzen: "Brief görüşmesinde" },
+  { feature: "Para birimi", manychat: "Döviz", tidio: "Döviz", wati: "Döviz", portzen: "Yerli, sabit" },
   { feature: "Türkçe arayüz", manychat: false, tidio: false, wati: false, portzen: true },
   { feature: "Türkçe destek", manychat: false, tidio: false, wati: false, portzen: true },
   { feature: "Logo/Mikro entegrasyon", manychat: false, tidio: false, wati: false, portzen: true },
@@ -211,22 +203,19 @@ const sectorPricing = [
   {
     sector: "Eczane",
     desc: "Reçete bilgisi, stok sorgulama, kampanya bildirimi, hatırlatma",
-    setup: "25.000 TL",
-    monthly: "8.500 TL",
+    scope: "Tek şube, standart senaryolar",
     volume: "~2.500 mesaj/ay"
   },
   {
     sector: "Estetik Klinik",
-    desc: "Randevu açma, fiyat bilgisi, tedavi süreç anlatımı, takip",
-    setup: "35.000 TL",
-    monthly: "17.000 TL",
+    desc: "Randevu açma, tedavi süreç anlatımı, hatırlatma, takip",
+    scope: "Google Takvim + CRM entegrasyonu",
     volume: "~8.000 mesaj/ay"
   },
   {
     sector: "E-Ticaret",
     desc: "Sipariş takibi, iade, kampanya, Iyzico ödeme entegrasyonu",
-    setup: "45.000 TL",
-    monthly: "32.000 TL",
+    scope: "Çoklu entegrasyon + katalog",
     volume: "~25.000 mesaj/ay"
   }
 ];
@@ -234,9 +223,7 @@ const sectorPricing = [
 const packages = [
   {
     name: "Başlangıç",
-    price: "8.500 TL",
-    period: "/ay",
-    setup: "Kurulum: 25.000 TL",
+    scope: "KOBİ için hızlı başlangıç",
     color: "bg-paper",
     features: [
       "Aylık 2.500 mesaja kadar",
@@ -246,13 +233,11 @@ const packages = [
       "Aylık 1 optimizasyon turu",
       "E-posta destek"
     ],
-    cta: "Projeyi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Pro",
-    price: "17.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 35.000 TL",
+    scope: "Yoğun trafik + AI doğal dil",
     color: "bg-brand-yellow",
     badge: "En Çok Tercih Edilen",
     features: [
@@ -264,13 +249,11 @@ const packages = [
       "WhatsApp + telefon destek",
       "Aylık performans raporu"
     ],
-    cta: "Pro Paketi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Kurumsal",
-    price: "32.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 45.000 TL+",
+    scope: "Çoklu şube ve özel entegrasyon",
     color: "bg-paper",
     features: [
       "Sınırsız mesaj",
@@ -281,7 +264,7 @@ const packages = [
       "Özel API geliştirme",
       "Aylık detaylı analiz raporu"
     ],
-    cta: "Kurumsal Teklif"
+    cta: "Görüşme Al"
   }
 ];
 
@@ -293,7 +276,7 @@ const crossLinks = [
   },
   {
     title: "Intercom Alternatifi",
-    desc: "Türkçe, KVKK uyumlu, TL fiyatlı Intercom alternatifi.",
+    desc: "Türkçe, KVKK uyumlu, yerli Intercom alternatifi.",
     href: "/intercom-alternatifi"
   },
   {
@@ -311,31 +294,31 @@ const crossLinks = [
 const faqs = [
   {
     q: "WhatsApp chatbot fiyatı 2026'da ne kadar?",
-    a: "Türkiye'de WhatsApp chatbot fiyatı aylık ₺8.500-₺32.000 arasında değişir. Kurulum ücreti tek seferlik 25.000-45.000 TL'dir. Net fiyat 5 faktöre bağlıdır: aylık mesaj hacmi, sektör karmaşıklığı, entegrasyon sayısı, AI kapasitesi ve resmi BSP üzerinden mesaj maliyeti."
+    a: "Fiyat, ihtiyacına göre kişiselleştiriliyor. Net fiyat 5 faktöre bağlıdır: aylık mesaj hacmi, sektör karmaşıklığı, entegrasyon sayısı, AI kapasitesi ve resmi BSP üzerinden mesaj maliyeti. 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz. Hemen /iletisim üzerinden yaz."
   },
   {
     q: "Aylık ek mesaj ücreti var mı?",
-    a: "PORTZEN paketleri belirli aylık mesaj limitiyle gelir (2.500 / 10.000 / sınırsız). Başlangıç ve Pro pakette limit aşılırsa ek mesaj ücreti 0.85-1.20 TL/mesaj. Buna ek olarak WhatsApp Business API'nin Meta'ya ödenen servis ücreti vardır: pazarlama mesajları ~0.45 TL, hizmet/destek mesajları ~0.18 TL."
+    a: "PORTZEN paketleri belirli aylık mesaj limitiyle gelir (2.500 / 10.000 / sınırsız). Başlangıç ve Pro pakette limit aşılırsa ek mesaj ücreti kapsam bazlı belirlenir. Buna ek olarak WhatsApp Business API'nin Meta'ya ödenen servis ücreti vardır (pazarlama, hizmet/destek, doğrulama mesajları için Meta'nın güncel tarifesi geçerlidir)."
   },
   {
     q: "Kurulum tek seferlik mi, aylık mı?",
-    a: "Kurulum tek seferlik ücrettir, 25.000-45.000 TL arasında değişir. İlk brief, bilgi tabanı oluşturma, senaryo geliştirme, API bağlama, test ve canlıya alma aşamalarını içerir. Aylık ücret sadece operasyon, bakım, optimizasyon, sunucu maliyetleri ve düzenli güncellemeleri kapsar."
+    a: "Kurulum tek seferlik bir çalışmadır. İlk brief, bilgi tabanı oluşturma, senaryo geliştirme, API bağlama, test ve canlıya alma aşamalarını içerir. Aylık ücret sadece operasyon, bakım, optimizasyon, sunucu maliyetleri ve düzenli güncellemeleri kapsar. Kapsam bazlı çalışıyoruz; net rakam brief görüşmesinde paylaşılır."
   },
   {
     q: "Sözleşme süresi var mı?",
-    a: "Aylık ödeme opsiyonu vardır, taahhüt yoktur. Yıllık ödemede %15 indirim uygulanır. İptal istediğinizde 30 gün önceden e-posta bildirimi yeterli. Veri ve konuşma geçmişi export desteği ücretsiz verilir."
+    a: "Aylık ödeme opsiyonu vardır, taahhüt yoktur. Yıllık ödemede indirim uygulanır. İptal istediğinizde 30 gün önceden e-posta bildirimi yeterli. Veri ve konuşma geçmişi export desteği ücretsiz verilir."
   },
   {
     q: "İlk ay deneme imkanı var mı?",
-    a: "Evet. Kurulum sonrası ilk 2 hafta pilot/test sürecidir. Bu süre içinde gerçek müşteri mesajlarıyla canlı test yapılır; performans veya yanıt kalitesinden memnun kalmazsanız geçişten vazgeçebilirsiniz. Bu durumda kurulum ücretinin %50'si iade edilir."
+    a: "Evet. Kurulum sonrası ilk 2 hafta pilot/test sürecidir. Bu süre içinde gerçek müşteri mesajlarıyla canlı test yapılır; performans veya yanıt kalitesinden memnun kalmazsanız geçişten vazgeçebilirsiniz. Bu durumda kurulum bedelinin bir bölümü iade edilir."
   },
   {
     q: "WhatsApp Business API resmi maliyeti nedir?",
-    a: "Meta'nın WhatsApp Business API tarifesi konuşma kategorisine göre değişir: pazarlama mesajları yaklaşık 0.45 TL, hizmet/destek mesajları 0.18 TL, doğrulama mesajları 0.10 TL, fayda mesajları 0.30 TL civarındadır. Müşteri başlatan konuşmaların ilk 24 saati ücretsizdir. Bu maliyetler aylık paket ücrete dahil değildir; Meta tarafından doğrudan faturalandırılır veya BSP üzerinden yansıtılır."
+    a: "Meta'nın WhatsApp Business API tarifesi konuşma kategorisine göre değişir (pazarlama, hizmet/destek, doğrulama, fayda mesajları). Müşteri başlatan konuşmaların ilk 24 saati ücretsizdir. Bu maliyetler aylık paket ücrete dahil değildir; Meta tarafından doğrudan faturalandırılır veya BSP üzerinden yansıtılır. Güncel Meta tarifesini brief görüşmesinde birlikte hesaplıyoruz."
   },
   {
     q: "Hangi entegrasyonlar fiyatı artırır?",
-    a: "Standart entegrasyonlar Pro pakete dahildir: Google Takvim, HubSpot, Bitrix24, Calendly, Notion, Trello. Türk sektörüne özel entegrasyonlar tek seferlik ek ücret gerektirir: Logo Tiger (12.000 TL), Mikro (10.000 TL), Iyzico (8.000 TL), NetGSM SMS (5.000 TL), özel ERP API'leri (15.000 TL+). Bu ücretler tek seferlik kurulum maliyetine eklenir."
+    a: "Standart entegrasyonlar Pro pakete dahildir: Google Takvim, HubSpot, Bitrix24, Calendly, Notion, Trello. Türk sektörüne özel entegrasyonlar (Logo Tiger, Mikro, Iyzico, NetGSM SMS, özel ERP API'leri) için tek seferlik kapsam çıkarıyoruz; net rakam brief görüşmesinde paylaşılır."
   }
 ];
 
@@ -372,7 +355,7 @@ export default function Page() {
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Türkiye'de WhatsApp chatbot fiyatları aylık ₺8.500-₺32.000 arasında değişiyor. Bu sayfada fiyatı belirleyen 5 faktörü, yurtdışı rakiplerle (ManyChat, Tidio, Wati) net karşılaştırmayı, 3 sektörden gerçek fiyat örneklerini ve PORTZEN'in şeffaf TL paketlerini bulacaksınız.
+                  WhatsApp chatbot fiyatı ihtiyacına göre kişiselleştiriliyor. Bu sayfada fiyatı belirleyen 5 faktörü, yurtdışı rakiplerle (ManyChat, Tidio, Wati) net karşılaştırmayı, 3 sektörden kapsam örneklerini ve PORTZEN'in çalışma modelini bulacaksınız. Net rakam brief görüşmesinde paylaşılır.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -548,12 +531,12 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Sektör bazlı gerçek fiyatlandırma
+              Sektör bazlı kapsam örnekleri
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl mb-10">
-              3 sektörden gerçek WhatsApp chatbot maliyet örnekleri
+              3 sektörden gerçek WhatsApp chatbot kapsam örnekleri
             </h2>
           </Reveal>
 
@@ -567,12 +550,12 @@ export default function Page() {
                   <p className="text-sm text-ink/70 mb-6 leading-relaxed">{s.desc}</p>
                   <div className="space-y-3 border-t-3 border-ink/10 pt-4">
                     <div>
-                      <div className="text-xs font-bold uppercase opacity-60">Kurulum</div>
-                      <div className="font-display text-2xl font-black">{s.setup}</div>
+                      <div className="text-xs font-bold uppercase opacity-60">Kapsam</div>
+                      <div className="text-base font-black">{s.scope}</div>
                     </div>
                     <div>
-                      <div className="text-xs font-bold uppercase opacity-60">Aylık ücret</div>
-                      <div className="font-display text-2xl font-black text-brand-pink">{s.monthly}</div>
+                      <div className="text-xs font-bold uppercase opacity-60">Fiyat</div>
+                      <div className="text-sm font-bold text-brand-pink">Brief görüşmesinde</div>
                     </div>
                     <div>
                       <div className="text-xs font-bold uppercase opacity-60">Hacim</div>
@@ -586,7 +569,7 @@ export default function Page() {
 
           <Reveal delay={400}>
             <p className="mt-8 text-sm opacity-90 max-w-3xl">
-              <strong>Not:</strong> Yukarıdaki fiyatlar gerçek müşteri projelerinden ortalanmış değerlerdir. Sizin özel ihtiyacınız için net rakam, 15 dakikalık keşif görüşmesinde çıkar.
+              <strong>Not:</strong> Yukarıdaki kapsamlar gerçek müşteri projelerinden özetlenmiştir. Sizin özel ihtiyacınız için net rakam, 15 dakikalık keşif görüşmesinde çıkar.
             </p>
           </Reveal>
         </div>
@@ -598,13 +581,13 @@ export default function Page() {
           <Reveal>
             <div className="mb-12 max-w-2xl">
               <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
+                Çalışma modeli
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 PORTZEN'in 3 WhatsApp Chatbot paketi
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Sabit aylık TL fiyat, sürpriz kalem yok. Tüm paketler resmi WhatsApp Business API üzerinden çalışır.
+                Kapsam bazlı çalışıyoruz; sürpriz kalem yok. Tüm paketler resmi WhatsApp Business API üzerinden çalışır. Net rakam brief görüşmesinde paylaşılır.
               </p>
             </div>
           </Reveal>
@@ -624,11 +607,7 @@ export default function Page() {
                     </div>
                   )}
                   <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
+                  <div className="text-sm font-bold opacity-75 mb-6">{p.scope}</div>
                   <ul className="space-y-2 mb-6 flex-1">
                     {p.features.map((f, fi) => (
                       <li key={fi} className="flex items-start gap-2 text-sm">
@@ -654,7 +633,7 @@ export default function Page() {
                 <div>
                   <div className="font-display text-lg font-black mb-1">WhatsApp Business API maliyeti</div>
                   <p className="text-sm opacity-90">
-                    Meta'nın mesaj başına ücreti (pazarlama ~0.45 TL, hizmet ~0.18 TL) paket ücrete dahil değildir. Doğrudan Meta tarafından faturalandırılır.
+                    Meta'nın mesaj başına ücreti (pazarlama, hizmet/destek, doğrulama kategorileri) paket ücrete dahil değildir. Doğrudan Meta tarafından faturalandırılır; güncel tarife brief görüşmesinde birlikte hesaplanır.
                   </p>
                 </div>
               </div>
@@ -738,7 +717,7 @@ export default function Page() {
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık keşif görüşmesinde sektörünüze ve mesaj hacminize göre net TL teklif veriyoruz. Aynı gün dönüyoruz, taahhüt yok.
+                15 dakikalık keşif görüşmesinde sektörünüze ve mesaj hacminize göre net teklif paylaşıyoruz. Aynı gün dönüyoruz, taahhüt yok.
               </p>
             </Reveal>
             <Reveal delay={200}>

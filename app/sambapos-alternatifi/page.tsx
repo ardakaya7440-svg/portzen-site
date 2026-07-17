@@ -68,13 +68,7 @@ const serviceSchema = {
   serviceType: "Restaurant Management Software",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "SambaPOS sadece kasa yönetimine odaklanırken PORTZEN restoranınızın POS verisini yorumlayan, CRM, WhatsApp sipariş, web rezervasyon ve sosyal medya yönetimini birleştiren bütünsel bir sistemdir.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺8000-₺40000",
-    availability: "https://schema.org/InStock"
-  }
+    "SambaPOS sadece kasa yönetimine odaklanırken PORTZEN restoranınızın POS verisini yorumlayan, CRM, WhatsApp sipariş, web rezervasyon ve sosyal medya yönetimini birleştiren bütünsel bir sistemdir."
 };
 
 const faqSchema = {
@@ -172,7 +166,7 @@ const painPoints = [
   },
   {
     title: "WhatsApp sipariş ekstra",
-    desc: "WhatsApp üzerinden sipariş için Glovo, Yemeksepeti veya üçüncü parti çözüm gerekir. Her sipariş üzerinden %15 ile %30 arasında komisyon ödersiniz."
+    desc: "WhatsApp üzerinden sipariş için Glovo, Yemeksepeti veya üçüncü parti çözüm gerekir. Her sipariş üzerinden platform komisyonu ödersiniz."
   },
   {
     title: "Sosyal medya kopuk",
@@ -197,7 +191,7 @@ const comparisonRows = [
   { feature: "Sosyal medya yönetimi", samba: "Yok", portzen: "Pro ve Kurumsal pakette dahil" },
   { feature: "Çoklu şube merkezi panel", samba: "Ek lisans", portzen: "Tüm paketlerde dahil" },
   { feature: "Kurulum süresi", samba: "1 ile 2 hafta sadece POS", portzen: "21 gün tüm sistem" },
-  { feature: "Aylık başlangıç fiyatı", samba: "Lisans + modül başı ücret", portzen: "₺8.000/ay sabit paket" },
+  { feature: "Fiyat modeli", samba: "Kapsam bazlı", portzen: "Brief'te belirlenir" },
   { feature: "Türkçe canlı destek", samba: "Forum ve bayi", portzen: "WhatsApp ve telefon, aynı gün" }
 ];
 
@@ -233,57 +227,6 @@ const features = [
   { icon: ShieldCheck, title: "Türk donanım uyumlu", desc: "Epson, Star Micronics, Ingenico, Verifone, e-Belge entegrasyonu hazır. Yeni kurulum için anahtar teslim donanım paketi." }
 ];
 
-const packages = [
-  {
-    name: "Başlangıç",
-    price: "8.000 TL",
-    period: "/ay",
-    setup: "Kurulum, 25.000 TL",
-    color: "bg-paper",
-    features: [
-      "Tek şube",
-      "POS, CRM, WhatsApp sipariş",
-      "Web rezervasyon takvimi",
-      "Aylık AI içgörü raporu",
-      "Türkçe canlı destek"
-    ],
-    cta: "Projeyi Konuşalım"
-  },
-  {
-    name: "Pro",
-    price: "20.000 TL",
-    period: "/ay",
-    setup: "Kurulum, 50.000 TL",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "5 şubeye kadar",
-      "Tüm Başlangıç özellikleri",
-      "Sosyal medya yönetimi dahil",
-      "Haftalık AI içgörü raporu",
-      "Çoklu şube merkezi panel",
-      "Influencer pazarlama desteği"
-    ],
-    cta: "Pro Paketi Konuşalım"
-  },
-  {
-    name: "Kurumsal",
-    price: "40.000 TL",
-    period: "/ay",
-    setup: "Kurulum, 90.000 TL+",
-    color: "bg-paper",
-    features: [
-      "Sınırsız şube",
-      "Self hosted TR sunucu",
-      "Özel API geliştirme",
-      "Adanmış proje yöneticisi",
-      "7/24 öncelikli destek",
-      "Aylık strateji toplantısı"
-    ],
-    cta: "Kurumsal Teklif"
-  }
-];
-
 const faqs = [
   {
     q: "PORTZEN mevcut SambaPOS kurulumumun yerini alıyor mu?",
@@ -295,7 +238,7 @@ const faqs = [
   },
   {
     q: "WhatsApp sipariş sistemi resmi mi, banlanma riski var mı?",
-    a: "Evet, resmi. Meta iş ortağı WhatsApp Business API kullanılır, banlanma riski yoktur. Müşteri menüyü WhatsApp üzerinden görür, sepete ekler, sipariş verir, ödeme linki ile öder, sipariş mutfağa otomatik düşer. SambaPOS'ta yerleşik değildir, üçüncü parti modül veya Glovo, Yemeksepeti gibi platformlar gerekir, komisyon %15 ile %30 arasında değişir."
+    a: "Evet, resmi. Meta iş ortağı WhatsApp Business API kullanılır, banlanma riski yoktur. Müşteri menüyü WhatsApp üzerinden görür, sepete ekler, sipariş verir, ödeme linki ile öder, sipariş mutfağa otomatik düşer. SambaPOS'ta yerleşik değildir, üçüncü parti modül veya Glovo, Yemeksepeti gibi platformlar gerekir, her sipariş üzerinden platform komisyonu ödenir."
   },
   {
     q: "Web rezervasyon ile takvim ve hatırlatma entegrasyonu var mı?",
@@ -307,7 +250,7 @@ const faqs = [
   },
   {
     q: "POS donanımı, yazıcı ve terminal, PORTZEN ile uyumlu mu?",
-    a: "Mevcut Epson TM serisi yazıcılar, Star Micronics mutfak yazıcıları, Ingenico ve Verifone kart terminalleri, e-Belge cihazları PORTZEN ile sorunsuz çalışır. Yeni kurulum ise tavsiye paketi sunarız, anahtar teslim kurulum yaparız. Donanım maliyeti şube başı 25.000 ile 60.000 TL arasında değişir."
+    a: "Mevcut Epson TM serisi yazıcılar, Star Micronics mutfak yazıcıları, Ingenico ve Verifone kart terminalleri, e-Belge cihazları PORTZEN ile sorunsuz çalışır. Yeni kurulum ise tavsiye paketi sunarız, anahtar teslim kurulum yaparız. Donanım kapsamı ve maliyeti brief görüşmesinde net paylaşılıyor."
   },
   {
     q: "Kaç şubeli işletme için uygun mu?",
@@ -467,7 +410,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak.</strong> SambaPOS bayi fiyat listeleri ve PORTZEN müşteri kurulum deneyimleri, Ocak 2026 itibarıyla.
+              <strong>Kaynak:</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
             </p>
           </Reveal>
         </div>
@@ -559,7 +502,7 @@ export default function Page() {
                   <strong>Ankara Çankaya, 3 şubeli kafe zinciri.</strong> Her şubede SambaPOS, ama merkezi raporlama Excel'den yapılıyordu. Personel kim ne kadar satıyor, hangi şube hangi ürünü iyi satıyor, manuel görülemiyordu. PORTZEN merkezi panel kuruldu, üç şube tek ekranda gözlemlenmeye başlandı. Hangi şubenin hangi saat dilimi düştüğü ortaya çıktı, şubeye özel happy hour kampanyaları yapıldı. Sosyal medya yönetimi PORTZEN'e geçti, üç şubenin de Instagram'ı tek planda yönetildi, içerik POS verisine göre kurgulandı, en çok satan menüler vurgulandı.
                 </p>
                 <p>
-                  <strong>Bodrum, sezonluk fine dining restoranı.</strong> Yaz sezonu rezervasyon yönetimi OpenTable üzerinden yapılıyordu, aylık 12.500 TL ödeniyordu. PORTZEN web rezervasyon takvimi kuruldu, OpenTable iptal edildi. Rezervasyon öncesi WhatsApp hatırlatma mesajı kuruldu, no-show oranı %22'den %6'ya düştü. Sezon sonunda POS verisi analiz edildi, hangi şarap eşleştirmesinin sepeti yükselttiği tespit edildi, ertesi sezona menü stratejisi buna göre güncellendi.
+                  <strong>Bodrum, sezonluk fine dining restoranı.</strong> Yaz sezonu rezervasyon yönetimi OpenTable üzerinden yapılıyordu, aylık sabit abonelik gideri vardı. PORTZEN web rezervasyon takvimi kuruldu, OpenTable iptal edildi. Rezervasyon öncesi WhatsApp hatırlatma mesajı kuruldu, no-show oranı %22'den %6'ya düştü. Sezon sonunda POS verisi analiz edildi, hangi şarap eşleştirmesinin sepeti yükselttiği tespit edildi, ertesi sezona menü stratejisi buna göre güncellendi.
                 </p>
                 <p>
                   <strong>İstanbul Kadıköy, 2 şubeli Türk mutfağı.</strong> Yemeksepeti, Getir Yemek, Trendyol Yemek üzerinden gelen siparişlerin komisyonu aylık ciroyu sıkıştırıyordu. PORTZEN WhatsApp sipariş sistemi kuruldu, mevcut müşterilere WhatsApp ile menü gönderildi, sadakat indirimi tanıtıldı. Altı ayda WhatsApp üzerinden gelen siparişler toplam teslimatın %40'ına çıktı, platform komisyonu net kar olarak işletmeye kaldı.
@@ -587,80 +530,6 @@ export default function Page() {
               </div>
             </Reveal>
           </div>
-        </div>
-      </section>
-
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket, sipariş ya da modül başı ekstra ücret yok
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                SambaPOS bayi lisansı + her ek modül için ayrı ücret modelinin aksine PORTZEN sabit aylık paket sunar.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <div className="font-display text-lg font-black mb-1">Restoran odaklı çözüm sayfası</div>
-                <p className="text-sm opacity-90">
-                  PORTZEN'in restoran sektörüne özel CRM, web tasarım ve WhatsApp AI çözümlerini inceleyin.
-                </p>
-              </div>
-              <Link
-                href="/web-tasarim/restoran"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                Restoran Web Tasarım <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
         </div>
       </section>
 

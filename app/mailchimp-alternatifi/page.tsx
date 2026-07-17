@@ -9,12 +9,9 @@ import {
   Sparkles,
   ShieldCheck,
   Users,
-  BookOpen,
   HeadphonesIcon,
   CheckCircle2,
   Building2,
-  Languages,
-  Wallet,
   TrendingUp,
   Mail,
   Inbox
@@ -25,7 +22,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Mailchimp Alternatifi | Türk KOBİ İçin Email Otomasyonu - PORTZEN",
   description:
-    "Mailchimp dolar fiyatlı, KVKK uyumu sizde, Türkçe destek yok. PORTZEN; Brevo / Resend backend, dinamik segment, KVKK + İYS uyumlu, TL faturalı email otomasyonu.",
+    "Mailchimp KVKK uyumu sizde, Türkçe destek yok. PORTZEN; Brevo / Resend backend, dinamik segment, KVKK + İYS uyumlu email otomasyonu.",
   keywords: [
     "mailchimp alternatifi",
     "mailchimp türkçe",
@@ -43,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Mailchimp Alternatifi | Türk KOBİ İçin Email Otomasyonu - PORTZEN",
     description:
-      "Mailchimp'in dolar faturası yerine TL fiyatlı, KVKK uyumlu, Türkçe destekli email otomasyonu."
+      "Mailchimp yerine KVKK uyumlu, Türkçe destekli, İYS entegre email otomasyonu."
   },
   twitter: {
     card: "summary_large_image",
@@ -69,13 +66,7 @@ const serviceSchema = {
   serviceType: "Email Marketing Automation",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Mailchimp'in dolar fiyatı, sınırlı KVKK uyumu ve İngilizce desteği yerine PORTZEN; Türkçe arayüz, TL fatura, İYS entegrasyonu ve dinamik segment destekli email otomasyonu sunar.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺6000-₺35000",
-    availability: "https://schema.org/InStock"
-  }
+    "Mailchimp'in sınırlı KVKK uyumu ve İngilizce desteği yerine PORTZEN; Türkçe arayüz, İYS entegrasyonu ve dinamik segment destekli email otomasyonu sunar."
 };
 
 const faqSchema = {
@@ -87,7 +78,7 @@ const faqSchema = {
       name: "Mailchimp'in Essentials planı ucuz görünüyor, neden alternatif?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Mailchimp Essentials kişi başına ücretlendirir, liste 10.000'i aşınca aylık fatura $135 (≈₺5.500) seviyesine çıkar. Otomasyon journey sayısı kısıtlı, gelişmiş segmentasyon ve A/B test Standard / Premium plana özel. PORTZEN'de bu özellikler giriş paketinde dahildir."
+        text: "Mailchimp Essentials kişi başına ücretlendirir; liste büyüdükçe fatura katlanır. Otomasyon journey sayısı kısıtlı, gelişmiş segmentasyon ve A/B test Standard / Premium plana özel. PORTZEN'de bu özellikler giriş paketinde dahildir."
       }
     },
     {
@@ -119,7 +110,7 @@ const faqSchema = {
       name: "Transactional email (sipariş onayı, şifre sıfırlama) da gönderebilir miyim?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. PORTZEN aynı altyapı üzerinden marketing + transactional email gönderir. Resend / SES API ile uygulamanız PORTZEN'e bağlanır, kullanıcı işlemlerinde otomatik mail tetiklenir. Mailchimp Transactional (Mandrill) ek lisanstır, PORTZEN'de paket dahildir."
+        text: "Evet. PORTZEN aynı altyapı üzerinden marketing + transactional email gönderir. Resend / SES API ile uygulamanız PORTZEN'e bağlanır, kullanıcı işlemlerinde otomatik mail tetiklenir. Mailchimp Transactional (Mandrill) ayrı lisans gerektirir, PORTZEN'de paket dahildir."
       }
     },
     {
@@ -156,7 +147,7 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "TL", label: "Sabit fiyat, kur riski yok" },
+  { metric: "Sabit", label: "Kur riskinden bağımsız" },
   { metric: "%99", label: "Teslim oranı (SPF/DKIM/DMARC)" },
   { metric: "İYS", label: "Uyumlu, otomatik kontrol" },
   { metric: "14 gün", label: "Mailchimp'ten taşıma" }
@@ -164,12 +155,12 @@ const stats = [
 
 const painPoints = [
   {
-    title: "Dolar fiyatı, kur riski",
+    title: "Dolar bazlı fatura, kur riski",
     desc: "Mailchimp aylık faturası USD üzerinden gelir. Türk müşteri için kur dalgalanmasında bütçe sürprizi yaratır."
   },
   {
     title: "Kişi başına ödeme",
-    desc: "Liste büyüdükçe fatura katlanır. 25.000 kişide Essentials planı $270/ay (≈₺11.000), Standard $400+/ay."
+    desc: "Liste büyüdükçe fatura katlanır. Essentials plan basamakları kısıtlıdır, Standard'a çıkmadan gelişmiş özellikler açılmaz."
   },
   {
     title: "KVKK uyumu sizde",
@@ -190,8 +181,8 @@ const painPoints = [
 ];
 
 const comparisonRows = [
-  { feature: "Aylık fiyat (25.000 kişi)", manychat: "Standard: $400+/ay (≈₺16.000)", portzen: "₺12.000/ay sabit" },
-  { feature: "Fatura para birimi", manychat: "USD", portzen: "TL, KDV dahil, e-Arşiv" },
+  { feature: "Ticari model", manychat: "Kişi başı + USD abonelik", portzen: "Kapsam bazlı, brief görüşmesinde net" },
+  { feature: "Faturalama modeli", manychat: "USD, kur riski", portzen: "Yerel çalışma modeli, sabit paket" },
   { feature: "İYS entegrasyonu", manychat: "Yok", portzen: "Native, otomatik" },
   { feature: "KVKK aydınlatma + açık rıza akışı", manychat: "Yok (sizde)", portzen: "Şablon + akış dahil" },
   { feature: "Türkçe canlı destek", manychat: "Plana özel + sınırlı", portzen: "Tüm paketlerde dahil" },
@@ -226,7 +217,7 @@ const solutionSteps = [
 ];
 
 const features = [
-  { icon: Mail, title: "TL faturalı email altyapısı", desc: "Aylık sabit TL fiyat, e-Arşiv fatura, KDV dahil. USD kur riski yok, bütçe öngörülebilir." },
+  { icon: Mail, title: "Yerel çalışma modeli", desc: "Sabit paket mantığı, e-Arşiv fatura, KDV dahil. USD kur riski yok, bütçe öngörülebilir." },
   { icon: Inbox, title: "Transactional + Marketing tek yer", desc: "Sipariş onayı, şifre sıfırlama, fatura mailleri ve kampanyalar aynı altyapıdan, ayrı lisans yok." },
   { icon: TrendingUp, title: "Dinamik segment + RFM", desc: "Davranış, sıklık ve sepet tutarına göre dinamik segment. Mailchimp Premium özelliği giriş paketinde." },
   { icon: ShieldCheck, title: "İYS + KVKK uyum motoru", desc: "Her gönderim öncesi İYS izin kontrolü, aydınlatma metni şablonu, veri silme talep yönetimi dahil." },
@@ -237,9 +228,6 @@ const features = [
 const packages = [
   {
     name: "Başlangıç",
-    price: "6.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 20.000 TL",
     color: "bg-paper",
     features: [
       "10.000 kişiye kadar liste",
@@ -248,13 +236,10 @@ const packages = [
       "Temel segmentasyon",
       "Türkçe şablon kütüphanesi"
     ],
-    cta: "Projeyi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Pro",
-    price: "15.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 40.000 TL",
     color: "bg-brand-yellow",
     badge: "En Çok Tercih Edilen",
     features: [
@@ -265,13 +250,10 @@ const packages = [
       "Transactional email dahil",
       "Aylık optimizasyon toplantısı"
     ],
-    cta: "Pro Paketi Konuşalım"
+    cta: "Görüşme Al"
   },
   {
     name: "Kurumsal",
-    price: "35.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 75.000 TL+",
     color: "bg-paper",
     features: [
       "Sınırsız kişi + gönderim",
@@ -281,14 +263,14 @@ const packages = [
       "Aylık detaylı performans raporu",
       "Çoklu marka + domain yönetimi"
     ],
-    cta: "Kurumsal Teklif"
+    cta: "Görüşme Al"
   }
 ];
 
 const faqs = [
   {
     q: "Mailchimp'in Essentials planı ucuz görünüyor, neden alternatif?",
-    a: "Mailchimp Essentials kişi başına ücretlendirir. Liste 10.000'i aşınca aylık fatura $135 (≈₺5.500), 25.000'de $270 (≈₺11.000) seviyesine çıkar. Üstelik otomasyon journey sayısı kısıtlı, gelişmiş segmentasyon, multivariate test, predictive segmentation gibi özellikler Standard / Premium plana özeldir. PORTZEN'de bu özelliklerin tamamı giriş paketinde dahildir ve fiyat TL üzerinden sabittir."
+    a: "Mailchimp Essentials kişi başına ücretlendirir; liste büyüdükçe fatura basamak basamak katlanır. Üstelik otomasyon journey sayısı kısıtlı, gelişmiş segmentasyon, multivariate test, predictive segmentation gibi özellikler Standard / Premium plana özeldir. PORTZEN'de bu özelliklerin tamamı giriş paketinde dahildir. Fiyat, ihtiyacına göre kişiselleştiriliyor; 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz."
   },
   {
     q: "Domain doğrulama ve teslim oranı nasıl?",
@@ -304,7 +286,7 @@ const faqs = [
   },
   {
     q: "Transactional email (sipariş onayı, şifre sıfırlama) da gönderebilir miyim?",
-    a: "Evet. PORTZEN aynı altyapı üzerinden hem marketing hem transactional email gönderir. Resend / SES API ile uygulamanız PORTZEN'e bağlanır, kullanıcı işlemlerinde otomatik mail tetiklenir. Mailchimp'te Transactional (Mandrill) ek lisans gerektirir ve aylık başlangıç $20 + kullanım kredisi getirir; PORTZEN'de aynı pakette dahildir."
+    a: "Evet. PORTZEN aynı altyapı üzerinden hem marketing hem transactional email gönderir. Resend / SES API ile uygulamanız PORTZEN'e bağlanır, kullanıcı işlemlerinde otomatik mail tetiklenir. Mailchimp'te Transactional (Mandrill) ayrı lisans ve kullanım kredisi gerektirir; PORTZEN'de aynı pakette dahildir."
   },
   {
     q: "Shopify, WooCommerce, Trendyol entegrasyonu var mı?",
@@ -344,12 +326,12 @@ export default function Page() {
               </Reveal>
               <Reveal delay={100}>
                 <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
-                  Mailchimp Alternatifi: TL Fiyatlı, KVKK Uyumlu Email Otomasyonu
+                  Mailchimp Alternatifi: KVKK Uyumlu, Türkçe Email Otomasyonu
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Mailchimp dolar üzerinden faturalanır, kişi başına ücret artar, KVKK uyumu sizde, Türkçe destek zayıftır. PORTZEN; TL fiyatlı, İYS entegre, dinamik segment destekli, transactional + marketing email otomasyonunu tek altyapıda sunar.
+                  Mailchimp dolar üzerinden faturalanır, kişi başına ücret artar, KVKK uyumu sizde, Türkçe destek zayıftır. PORTZEN; İYS entegre, dinamik segment destekli, transactional + marketing email otomasyonunu tek altyapıda sunar.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -401,7 +383,7 @@ export default function Page() {
                 Mailchimp'in Türk KOBİ için 6 zayıf yönü
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Mailchimp global standart, ama yerel uyum ve fiyatlama tarafı sancılı.
+                Mailchimp global standart, ama yerel uyum tarafı sancılı.
               </h2>
             </div>
           </Reveal>
@@ -468,7 +450,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> Mailchimp fiyatları mailchimp.com/pricing referans alınmıştır; Brevo, MailerSend, MailerLite ile karşılaştırma müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Kaynak:</strong> Mailchimp özellik ve plan bilgileri mailchimp.com'dan derlenmiştir; Brevo, MailerSend, MailerLite ile karşılaştırma müşteri taşıma deneyimlerinden çıkarılmıştır.
             </p>
           </Reveal>
         </div>
@@ -546,7 +528,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Mailchimp Standard $400/ay'dan PORTZEN'e - aylık email geliri %52 arttı.
+              Mailchimp Standard'dan PORTZEN'e - aylık email geliri %52 arttı.
             </h2>
           </Reveal>
 
@@ -554,30 +536,22 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  İstanbul'da bir moda perakende markası 4 yıldır Mailchimp Standard planı ($400/ay ≈ ₺16.000) kullanıyordu. 38.000 kişilik liste, 4 otomasyon (welcome, sepet bırakma, post-purchase, win-back), aylık 6-8 kampanya. Açılma %22, tıklama %2.8, email kaynaklı aylık ciro yaklaşık ₺320.000.
+                  İstanbul'da bir moda perakende markası 4 yıldır Mailchimp Standard planı kullanıyordu. 38.000 kişilik liste, 4 otomasyon (welcome, sepet bırakma, post-purchase, win-back), aylık 6-8 kampanya. Açılma %22, tıklama %2.8, email kaynaklı ciro istikrarlı ama sınırlıydı.
                 </p>
                 <p>
-                  3 ana sıkıntı: (1) Kişi sayısı 40.000'i aşınca aylık fatura $480 (≈₺19.000) seviyesine çıkmak üzereydi, (2) İYS entegrasyonu olmadığı için izinli/izinsiz takibi manuel CSV ile yapılıyor, denetim riski oluşuyordu, (3) Shopify entegrasyonu var ama Trendyol mağazasındaki müşteri verisi sisteme akmıyordu, segmentasyon eksikti.
+                  3 ana sıkıntı: (1) Kişi sayısı arttıkça USD fatura kur farkıyla katlanacaktı, (2) İYS entegrasyonu olmadığı için izinli/izinsiz takibi manuel CSV ile yapılıyor, denetim riski oluşuyordu, (3) Shopify entegrasyonu var ama Trendyol mağazasındaki müşteri verisi sisteme akmıyordu, segmentasyon eksikti.
                 </p>
                 <p>
-                  PORTZEN 14 günde devreye alındı. Mailchimp'ten 38.000 kişi + 12 segment + tüm gönderim geçmişi taşındı, İYS izin kontrolü taşıma sırasında otomatik yapıldı (1.800 izinsiz adres ayıklandı). Shopify + Trendyol n8n köprüsü ile çift yönlü senkronize edildi. 7 Türkçe şablon (welcome 3 adım, sepet bırakma 3 adım, post-purchase, çapraz satış, win-back 30/60/90, doğum günü, VIP) kuruldu. Aylık fiyat ₺12.000'e düştü.
+                  PORTZEN 14 günde devreye alındı. Mailchimp'ten 38.000 kişi + 12 segment + tüm gönderim geçmişi taşındı, İYS izin kontrolü taşıma sırasında otomatik yapıldı (1.800 izinsiz adres ayıklandı). Shopify + Trendyol n8n köprüsü ile çift yönlü senkronize edildi. 7 Türkçe şablon (welcome 3 adım, sepet bırakma 3 adım, post-purchase, çapraz satış, win-back 30/60/90, doğum günü, VIP) kuruldu.
                 </p>
                 <p>
-                  3 ay sonra: açılma oranı %22'den %31'e, tıklama %2.8'den %4.6'ya çıktı (Türkçe şablonlar + segmentasyon iyileştirmesi). Email kaynaklı aylık ciro ₺320.000'den ₺486.000'e (+%52). Mailchimp + Mandrill transactional faturası ($420 ≈ ₺17.000) tek PORTZEN faturasına birleşti, aylık ₺5.000+ tasarruf.
+                  3 ay sonra: açılma oranı %22'den %31'e, tıklama %2.8'den %4.6'ya çıktı (Türkçe şablonlar + segmentasyon iyileştirmesi). Email kaynaklı aylık ciro +%52 arttı. Mailchimp + Mandrill transactional faturası tek PORTZEN çalışma modeline birleşti, kur farkından etkilenmeyen öngörülebilir bir yapı elde edildi.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Mailchimp Standard</div>
-                  <div className="font-display text-3xl font-black mb-1">$400/ay</div>
-                  <div className="text-sm">≈ ₺16.000 + transactional</div>
-                  <div className="mt-4 text-xs font-bold uppercase opacity-70 mb-1">PORTZEN</div>
-                  <div className="font-display text-3xl font-black text-brand-green">₺12.000/ay</div>
-                  <div className="text-sm">Sabit, transactional dahil</div>
-                </div>
                 <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Email kaynaklı ciro</div>
                   <div className="font-display text-4xl font-black mb-1">+%52</div>
@@ -587,6 +561,11 @@ export default function Page() {
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Açılma oranı</div>
                   <div className="font-display text-4xl font-black text-brand-pink">%22 → %31</div>
                   <div className="text-sm">Türkçe + segment iyileştirme</div>
+                </div>
+                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Devreye alış</div>
+                  <div className="font-display text-4xl font-black text-brand-green">14 gün</div>
+                  <div className="text-sm">38K kişi + 12 segment taşındı</div>
                 </div>
               </div>
             </Reveal>
@@ -600,13 +579,13 @@ export default function Page() {
           <Reveal>
             <div className="mb-12 max-w-2xl">
               <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf TL fiyatlandırma
+                Çalışma modeli
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 3 paket - kişi başı ekstra yok
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Mailchimp'in kişi başına artan fiyatlamasının aksine PORTZEN sabit pakettir. Listeniz büyüdükçe fatura katlanmaz.
+                Mailchimp'in kişi başına artan fiyatlamasının aksine PORTZEN sabit paket mantığı ile çalışır. Listeniz büyüdükçe fatura katlanmaz. Kapsam ve net rakam brief görüşmesinde paylaşılır.
               </p>
             </div>
           </Reveal>
@@ -626,11 +605,7 @@ export default function Page() {
                     </div>
                   )}
                   <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
+                  <div className="text-xs font-bold opacity-75 mb-6">Kapsam brief görüşmesinde netleştirilir</div>
                   <ul className="space-y-2 mb-6 flex-1">
                     {p.features.map((f, fi) => (
                       <li key={fi} className="flex items-start gap-2 text-sm">
@@ -725,12 +700,12 @@ export default function Page() {
           <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Mailchimp faturasını TL'ye çevirelim.
+                Mailchimp'ten Türkçe, KVKK uyumlu bir kuruluma geçelim.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut Mailchimp listenizi, otomasyon akışlarınızı ve gönderim verinizi analiz ediyoruz. Hangi şablonların PORTZEN'de Türkçeleşeceğini, hangi entegrasyonların ekleneceğini netleştiriyor, tahmini tasarruf raporu çıkarıyoruz.
+                30 dakikalık ücretsiz brief görüşmesinde mevcut Mailchimp listenizi, otomasyon akışlarınızı ve gönderim verinizi analiz ediyoruz. Hangi şablonların PORTZEN'de Türkçeleşeceğini, hangi entegrasyonların ekleneceğini ve net rakamı bu görüşmede paylaşıyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>
