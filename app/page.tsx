@@ -22,14 +22,15 @@ const SERVICES = [
   { title: "Web Tasarım", tagline: "Hızlı, satış odaklı, mobil uyumlu site.", href: "/web-tasarim", icon: Globe, tone: "bg-brand-orange" }
 ] as const;
 
-// Kayan bant — referans marka isimleri (design'daki alt strip)
+// Kayan bant — sundağumuz hizmet başlıkları (uydurma referans değil, gerçek hizmetler)
 const REFS = [
-  "Aksoy Hukuk",
-  "Marina Otomotiv",
-  "Vera Butik",
-  "Nova Klinik",
-  "Cihangir Brasserie",
-  "Denta İzmir"
+  "AI Reklam Videosu",
+  "WhatsApp Asistanı",
+  "Instagram DM Otomasyonu",
+  "CRM Otomasyonu",
+  "Sosyal Medya İçerik",
+  "Web Tasarım",
+  "AI Influencer Karakter"
 ];
 
 const AI_EXAMPLES = [
