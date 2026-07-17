@@ -70,10 +70,10 @@ export function Navbar() {
           <Image
             src="/logo-inked.png"
             alt="PORTZEN"
-            width={48}
-            height={48}
+            width={96}
+            height={96}
             priority
-            className="h-12 w-12 object-contain"
+            className="h-24 w-24 object-contain"
           />
         </Link>
 
