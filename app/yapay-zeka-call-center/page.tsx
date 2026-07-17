@@ -80,7 +80,7 @@ const serviceSchema = {
     { "@type": "Country", name: "Turkey" }
   ],
   description:
-    "PORTZEN, KOBİ ve kurumsal işletmeler için Türkçe konuşan yapay zeka call center kurar. 7/24 çağrı karşılama, randevu açma, fiyat bilgisi, sipariş alma ve gerektiğinde insan operatöre aktarım. ElevenLabs, OpenAI Realtime API, Deepgram ve Twilio altyapısı ile düşük gecikmeli, doğal Türkçe aksanlı sesli AI asistan.",
+    "PORTZEN, KOBİ ve kurumsal işletmeler için Türkçe konuşan yapay zeka call center kurar. 7/24 çağrı karşılama, randevu açma, fiyat bilgisi, sipariş alma ve gerektiğinde insan operatöre aktarım. Premium Türkçe ses kütüphanesi, kurumsal sesli AI konuşma altyapısı, kurumsal konuşma tanıma motoru ve kurumsal telefon altyapısı ile düşük gecikmeli, doğal Türkçe aksanlı sesli AI asistan.",
   offers: {
     "@type": "AggregateOffer",
     priceCurrency: "TRY",
@@ -100,7 +100,7 @@ const faqSchema = {
       name: "Müşteri robot olduğunu anlar mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ElevenLabs Türkçe sesleri ve OpenAI Realtime API'nin düşük gecikmeli konuşma altyapısı sayesinde ilk 30-60 saniyede fark edilmesi zor. Yine de biz baştan dürüst konumlandırmayı öneriyoruz: 'Merhaba, ben AI asistanıyım' cümlesi güveni artırıyor ve şikayet oranını düşürüyor. Marka tercih ederse tam gizli mod da mümkün."
+        text: "Premium Türkçe ses kütüphanesi ve düşük gecikmeli kurumsal sesli AI konuşma altyapısı sayesinde ilk 30-60 saniyede fark edilmesi zor. Yine de biz baştan dürüst konumlandırmayı öneriyoruz: 'Merhaba, ben AI asistanıyım' cümlesi güveni artırıyor ve şikayet oranını düşürüyor. Marka tercih ederse tam gizli mod da mümkün."
       }
     },
     {
@@ -108,7 +108,7 @@ const faqSchema = {
       name: "Türkçe aksanı nasıl?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ElevenLabs'in Türkçe optimize edilmiş sesleri artık İstanbul Türkçesine çok yakın telaffuz sunuyor. Bölgesel aksanlar (Ege, Karadeniz, Doğu) da opsiyonel. Vurgu, tonlama ve doğal duraklar var, robotik değil. 1 haftalık test sürecinde 20-30 gerçek çağrı dinlenip ince ayar yapılır - jargon, sektörel terim ve markaya özel kelimeler eklenir."
+        text: "Premium Türkçe ses kütüphanemiz artık İstanbul Türkçesine çok yakın telaffuz sunuyor. Bölgesel aksanlar (Ege, Karadeniz, Doğu) da opsiyonel. Vurgu, tonlama ve doğal duraklar var, robotik değil. 1 haftalık test sürecinde 20-30 gerçek çağrı dinlenip ince ayar yapılır - jargon, sektörel terim ve markaya özel kelimeler eklenir."
       }
     },
     {
@@ -124,7 +124,7 @@ const faqSchema = {
       name: "Telefon numarası nasıl alınır?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "İki seçenek var. Birincisi: Twilio veya Vonage üzerinden yeni bir Türkiye numarası (0850, 0212, 0216 gibi) alıp AI'ya bağlarız - 3-5 iş gününde kullanılabilir. İkincisi: mevcut numaranıza SIP trunk veya çağrı yönlendirme kurulur, arayanları AI karşılar. Mevcut PBX santral (3CX, Netgsm, Vodafone İş Ortağım vb.) çoğu senaryoda desteklenir. Kurulum bir kez, aylık numara bedeli 300-800 TL aralığındadır."
+        text: "İki seçenek var. Birincisi: kurumsal telefon altyapımız üzerinden yeni bir Türkiye numarası (0850, 0212, 0216 gibi) alıp AI'ya bağlarız - 3-5 iş gününde kullanılabilir. İkincisi: mevcut numaranıza SIP trunk veya çağrı yönlendirme kurulur, arayanları AI karşılar. Mevcut PBX santral (3CX, Netgsm, Vodafone İş Ortağım vb.) çoğu senaryoda desteklenir. Kurulum bir kez, aylık numara bedeli 300-800 TL aralığındadır."
       }
     },
     {
@@ -140,7 +140,7 @@ const faqSchema = {
       name: "KVKK uyumu var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. AI call center KVKK aydınlatma metni çağrının başında oynatılır, kayıt ve kişisel veri işleme onayı alınır. Ses kayıtları AB veya Türkiye lokasyonlu sunucularda saklanır (Twilio EU, Vonage EU seçenekleri). Kişisel veriler şifrelenmiş şekilde tutulur, süreli imha politikası uygulanır. Aydınlatma metni ve açık rıza şablonları PORTZEN tarafından hukuk danışmanı desteğiyle hazırlanır."
+        text: "Evet. AI call center KVKK aydınlatma metni çağrının başında oynatılır, kayıt ve kişisel veri işleme onayı alınır. Ses kayıtları AB veya Türkiye lokasyonlu sunucularda saklanır (kurumsal EU veri merkezi seçenekleri). Kişisel veriler şifrelenmiş şekilde tutulur, süreli imha politikası uygulanır. Aydınlatma metni ve açık rıza şablonları PORTZEN tarafından hukuk danışmanı desteğiyle hazırlanır."
       }
     },
     {
@@ -194,7 +194,7 @@ const differentiators = [
   {
     icon: Mic,
     title: "Türkçe doğal aksan, sektöre özel dil",
-    desc: "ElevenLabs Türkçe sesler ile İstanbul Türkçesine yakın doğal telaffuz. Sağlık, restoran, emlak gibi sektörlerin kendi jargonu bilgi tabanına yüklenir. Robotik ton yok, tonlama var, duraklar doğal. Bölgesel aksanlar (Ege, Karadeniz) opsiyonel."
+    desc: "Premium Türkçe ses kütüphanesi ile İstanbul Türkçesine yakın doğal telaffuz. Sağlık, restoran, emlak gibi sektörlerin kendi jargonu bilgi tabanına yüklenir. Robotik ton yok, tonlama var, duraklar doğal. Bölgesel aksanlar (Ege, Karadeniz) opsiyonel."
   }
 ];
 
@@ -240,28 +240,28 @@ const capabilities = [
 const techStack = [
   {
     icon: Mic,
-    name: "ElevenLabs",
+    name: "Premium Türkçe Ses Kütüphanesi",
     role: "Türkçe konuşan AI ses",
     desc: "Türkçe optimize edilmiş nöral ses modelleri ile İstanbul Türkçesine yakın doğal telaffuz. Kadın, erkek, farklı yaş ve ton seçenekleri. Bölgesel aksan ve markaya özel klon ses seçeneği. Endüstri lideri konuşma kalitesi.",
     color: "bg-brand-pink"
   },
   {
     icon: Zap,
-    name: "OpenAI Realtime API",
+    name: "Kurumsal Sesli AI Motoru",
     role: "Düşük gecikmeli konuşma motoru",
     desc: "Konuşmaya cevap verme gecikmesi 300-500 ms - yani doğal insan tempo. Klasik çağrı botlarındaki 2-3 saniye sessizlik burada yok. Aynı anda dinler ve yanıt üretir, sözü kesme (interrupt) tanır.",
     color: "bg-brand-yellow"
   },
   {
     icon: Headphones,
-    name: "Deepgram",
+    name: "Kurumsal Konuşma Tanıma",
     role: "Türkçe konuşma tanıma (STT)",
-    desc: "Speech-to-text (konuşmayı yazıya çevirme) motorumuz Deepgram. Türkçe için %92-95 doğruluk. Gürültülü ortamda bile isim, adres ve sipariş detayı doğru anlaşılır. Sektörel jargon eğitilebilir.",
+    desc: "Speech-to-text (konuşmayı yazıya çevirme) motorumuz kurumsal seviye. Türkçe için %92-95 doğruluk. Gürültülü ortamda bile isim, adres ve sipariş detayı doğru anlaşılır. Sektörel jargon eğitilebilir.",
     color: "bg-brand-blue"
   },
   {
     icon: Phone,
-    name: "Twilio + Vonage",
+    name: "Kurumsal Telefon Altyapısı",
     role: "Telefon altyapısı",
     desc: "Türkiye numaraları (0850, 0212, 0216), SIP trunk desteği, çağrı kayıt, IVR (interactive voice response - sesli menü) altyapısı. AB lokasyonu KVKK uyumu için kritik. Mevcut PBX santralinizle entegrasyon mümkün.",
     color: "bg-brand-green"
@@ -317,7 +317,7 @@ const packages = [
     features: [
       "Aylık 500 dakika konuşma hakkı",
       "1 sektör, 1 senaryo",
-      "Türkçe ElevenLabs sesi (1 karakter)",
+      "Premium Türkçe ses karakteri (1 adet)",
       "Temel FAQ bilgi tabanı",
       "Google Sheets veya Excel kayıt",
       "KVKK aydınlatma metni",
@@ -414,11 +414,11 @@ const comparison = [
 const faqs = [
   {
     q: "Müşteri robot olduğunu anlar mı?",
-    a: "ElevenLabs Türkçe sesleri ve OpenAI Realtime API'nin düşük gecikmeli konuşma altyapısı sayesinde ilk 30-60 saniyede fark edilmesi zor. Yine de biz baştan dürüst konumlandırmayı öneriyoruz: 'Merhaba, ben AI asistanıyım' cümlesi güveni artırıyor ve şikayet oranını düşürüyor. Marka tercih ederse tam gizli mod da mümkün, ancak KVKK ve tüketici hukuku açısından dürüst yaklaşım daha güvenli."
+    a: "Premium Türkçe ses kütüphanesi ve düşük gecikmeli kurumsal sesli AI konuşma altyapımız sayesinde ilk 30-60 saniyede fark edilmesi zor. Yine de biz baştan dürüst konumlandırmayı öneriyoruz: 'Merhaba, ben AI asistanıyım' cümlesi güveni artırıyor ve şikayet oranını düşürüyor. Marka tercih ederse tam gizli mod da mümkün, ancak KVKK ve tüketici hukuku açısından dürüst yaklaşım daha güvenli."
   },
   {
     q: "Türkçe aksanı nasıl?",
-    a: "ElevenLabs'in Türkçe optimize edilmiş sesleri artık İstanbul Türkçesine çok yakın telaffuz sunuyor. Bölgesel aksanlar (Ege, Karadeniz, Doğu) da opsiyonel olarak eklenebilir. Vurgu, tonlama ve doğal duraklar var, robotik değil. 1 haftalık test sürecinde 20-30 gerçek çağrı dinlenip ince ayar yapılır. Jargon, sektörel terim, marka ismi ve özel kelimeler telaffuz sözlüğüne eklenir - örneğin 'PORTZEN', 'ekshoz', 'radyoterapi' gibi kelimeler doğru telaffuz edilir."
+    a: "Premium Türkçe ses kütüphanemiz artık İstanbul Türkçesine çok yakın telaffuz sunuyor. Bölgesel aksanlar (Ege, Karadeniz, Doğu) da opsiyonel olarak eklenebilir. Vurgu, tonlama ve doğal duraklar var, robotik değil. 1 haftalık test sürecinde 20-30 gerçek çağrı dinlenip ince ayar yapılır. Jargon, sektörel terim, marka ismi ve özel kelimeler telaffuz sözlüğüne eklenir - örneğin 'PORTZEN', 'ekshoz', 'radyoterapi' gibi kelimeler doğru telaffuz edilir."
   },
   {
     q: "Karmaşık soruda ne olur, AI kaybolur mu?",
@@ -426,7 +426,7 @@ const faqs = [
   },
   {
     q: "Telefon numarası nasıl alınır, mevcut numarama bağlanır mı?",
-    a: "İki seçenek var. Birincisi: Twilio veya Vonage üzerinden yeni bir Türkiye numarası (0850, 0212, 0216, 0232 gibi) alıp AI'ya bağlarız - 3-5 iş gününde kullanılabilir hâle gelir. İkincisi: mevcut numaranıza SIP trunk (IP tabanlı telefon hattı) veya çağrı yönlendirme kurulur, arayanları AI karşılar. Mevcut PBX santral (3CX, Netgsm, Vodafone İş Ortağım, Türk Telekom Kurumsal vb.) çoğu senaryoda desteklenir. Kurulum ücreti bir kez alınır, aylık numara bedeli 300-800 TL aralığındadır ve pakete ek olarak faturalanır."
+    a: "İki seçenek var. Birincisi: kurumsal telefon altyapımız üzerinden yeni bir Türkiye numarası (0850, 0212, 0216, 0232 gibi) alıp AI'ya bağlarız - 3-5 iş gününde kullanılabilir hâle gelir. İkincisi: mevcut numaranıza SIP trunk (IP tabanlı telefon hattı) veya çağrı yönlendirme kurulur, arayanları AI karşılar. Mevcut PBX santral (3CX, Netgsm, Vodafone İş Ortağım, Türk Telekom Kurumsal vb.) çoğu senaryoda desteklenir. Kurulum ücreti bir kez alınır, aylık numara bedeli 300-800 TL aralığındadır ve pakete ek olarak faturalanır."
   },
   {
     q: "Mevcut CRM'e bağlanır mı?",
@@ -434,7 +434,7 @@ const faqs = [
   },
   {
     q: "KVKK uyumu var mı, ses kayıtları nerede saklanıyor?",
-    a: "Evet, tam KVKK uyumu var. AI call center KVKK aydınlatma metni çağrının başında otomatik oynatılır, kayıt ve kişisel veri işleme onayı alınır. Ses kayıtları AB veya Türkiye lokasyonlu sunucularda saklanır (Twilio EU, Vonage EU seçenekleri kullanılır). Kişisel veriler AES-256 şifreleme ile tutulur, süreli imha politikası (varsayılan 90 gün) uygulanır. Aydınlatma metni ve açık rıza şablonları PORTZEN tarafından hukuk danışmanı desteğiyle hazırlanır, sözleşmenizle birlikte teslim edilir."
+    a: "Evet, tam KVKK uyumu var. AI call center KVKK aydınlatma metni çağrının başında otomatik oynatılır, kayıt ve kişisel veri işleme onayı alınır. Ses kayıtları AB veya Türkiye lokasyonlu sunucularda saklanır (kurumsal EU veri merkezi seçenekleri kullanılır). Kişisel veriler AES-256 şifreleme ile tutulur, süreli imha politikası (varsayılan 90 gün) uygulanır. Aydınlatma metni ve açık rıza şablonları PORTZEN tarafından hukuk danışmanı desteğiyle hazırlanır, sözleşmenizle birlikte teslim edilir."
   },
   {
     q: "Kaç günde kurulur, süreç ne kadar sürer?",
@@ -475,7 +475,7 @@ export default function Page() {
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  7/24 Türkçe konuşan yapay zeka call center kurulumu. Personel maliyeti olmadan çağrı karşılama, randevu açma, sipariş alma ve fiyat bilgisi. 5 kişilik ekibin maliyetinin altıda birine, aynı anda 50 çağrı kapasitesi. ElevenLabs Türkçe sesi, OpenAI Realtime API ve Twilio altyapısı ile doğal aksan, düşük gecikme, KVKK uyumlu.
+                  7/24 Türkçe konuşan yapay zeka call center kurulumu. Personel maliyeti olmadan çağrı karşılama, randevu açma, sipariş alma ve fiyat bilgisi. 5 kişilik ekibin maliyetinin altıda birine, aynı anda 50 çağrı kapasitesi. Premium Türkçe ses kütüphanesi, kurumsal sesli AI konuşma altyapısı ve kurumsal telefon altyapısı ile doğal aksan, düşük gecikme, KVKK uyumlu.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -618,7 +618,7 @@ export default function Page() {
                 Endüstri lideri altyapı, Türkçe'ye özel optimize.
               </h2>
               <p className="mt-4 text-body opacity-85 max-w-prose leading-relaxed">
-                AI call center'ın kalitesi kullandığı altyapıdan geliyor. PORTZEN tek bir sağlayıcıya değil, her katmanda en iyisine bağlanıyor: ses üretiminde ElevenLabs, konuşma anlamada Deepgram, düşünme motorunda OpenAI Realtime API, telefon hattında Twilio ve Vonage. Bu kombinasyon Türkçe için özel ayarlanır.
+                AI call center'ın kalitesi kullandığı altyapıdan geliyor. PORTZEN tek bir sağlayıcıya değil, her katmanda kurumsal seviye en iyisine bağlanıyor: ses üretiminde premium Türkçe ses kütüphanesi, konuşma anlamada kurumsal STT motoru, düşünme motorunda kurumsal sesli AI altyapısı, telefon hattında kurumsal PSTN operatörleri. Bu kombinasyon Türkçe için özel ayarlanır. Hangi sağlayıcıları kullandığımız iş sırrımızdır; sözleşme aşamasında NDA altında paylaşılır.
               </p>
             </div>
           </Reveal>
@@ -742,7 +742,7 @@ export default function Page() {
           </div>
           <Reveal delay={300}>
             <p className="mt-8 text-sm text-ink/60 max-w-2xl">
-              <strong>Not:</strong> Dakika hakkı aşılırsa ek dakika 4-8 TL aralığında faturalanır. Numara bedeli (Twilio/Vonage) aylık 300-800 TL, pakete ek. Kurumsal pakette fair use politikası uygulanır - aylık 10.000 dakika üzeri kullanımlar önceden bildirilir.
+              <strong>Not:</strong> Dakika hakkı aşılırsa ek dakika 4-8 TL aralığında faturalanır. Numara bedeli (kurumsal telefon altyapısı) aylık 300-800 TL, pakete ek. Kurumsal pakette fair use politikası uygulanır - aylık 10.000 dakika üzeri kullanımlar önceden bildirilir.
             </p>
           </Reveal>
 

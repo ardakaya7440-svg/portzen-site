@@ -20,16 +20,16 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Yapay Zeka Video Üretimi | AI Reklam ve Tanıtım Videosu - PORTZEN",
   description:
-    "Yapay zeka video üretimi ile profesyonel reklam ve tanıtım videoları. Higgsfield, Seedance, Veo 3 ile stüdyo maliyetinin onda biri. 3 günde teslim.",
+    "Yapay zeka video üretimi ile profesyonel reklam ve tanıtım videoları. Premium AI motor stack'i ile stüdyo maliyetinin onda biri. 3 günde teslim.",
   keywords: [
     "yapay zeka video üretimi",
     "ai video üretimi",
     "ai reklam videosu",
     "yapay zeka reklam",
     "ai tanıtım videosu",
-    "higgsfield türkiye",
-    "seedance video",
-    "veo 3 video üretimi",
+    "ai video ajansı türkiye",
+    "kurumsal ai video",
+    "premium ai video üretimi",
     "ai film yapımı"
   ],
   openGraph: {
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Yapay Zeka Video Üretimi | AI Reklam ve Tanıtım Videosu - PORTZEN",
     description:
-      "Yapay zeka video üretimi ile profesyonel reklam ve tanıtım videoları. Higgsfield, Seedance, Veo 3 ile stüdyo maliyetinin onda biri. 3 günde teslim."
+      "Yapay zeka video üretimi ile profesyonel reklam ve tanıtım videoları. Premium AI motor stack'i ile stüdyo maliyetinin onda biri. 3 günde teslim."
   },
   twitter: {
     card: "summary_large_image",
     title: "Yapay Zeka Video Üretimi | PORTZEN",
     description:
-      "Higgsfield, Seedance, Veo 3, Kling, Sora 2 ile profesyonel video üretimi. 3 günde teslim. Stüdyo maliyetinin onda biri."
+      "Sektör lideri AI motor altyapısı ile profesyonel video üretimi. 3 günde teslim. Stüdyo maliyetinin onda biri."
   },
   alternates: { canonical: "https://portzenai.com/yapay-zeka-video-uretimi" },
   robots: { index: true, follow: true }
@@ -65,7 +65,7 @@ const serviceSchema = {
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Yapay zeka video üretimi hizmeti: Higgsfield, Seedance, Veo 3, Kling ve Sora 2 araçları ile profesyonel reklam, tanıtım, sosyal medya ve brand film üretimi. Stüdyo maliyetinin onda biri, 3 günde teslim.",
+    "Yapay zeka video üretimi hizmeti: Kurumsal AI motor altyapısı ile profesyonel reklam, tanıtım, sosyal medya ve brand film üretimi. Stüdyo maliyetinin onda biri, 3 günde teslim.",
   offers: {
     "@type": "Offer",
     priceCurrency: "TRY",
@@ -83,7 +83,7 @@ const faqSchema = {
       name: "Yapay zeka ile üretilen videonun telif hakkı kime ait olur?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Teslim edilen tüm yapay zeka video üretimi çıktılarının ticari kullanım hakkı size aittir. PORTZEN üretim sürecinde lisanslı kurumsal hesaplar (Higgsfield Pro, Veo 3 Enterprise, Seedance Pro) üzerinden çalışır. Sözleşmede; videonun marka adına, reklam panolarında, sosyal medyada ve TV mecralarında kullanım hakkı net biçimde devredilir."
+        text: "Teslim edilen tüm yapay zeka video üretimi çıktılarının ticari kullanım hakkı size aittir. PORTZEN üretim sürecinde premium AI motor lisansları üzerinden, kurumsal düzey AI video altyapısı ile çalışır. Sözleşmede; videonun marka adına, reklam panolarında, sosyal medyada ve TV mecralarında kullanım hakkı net biçimde devredilir."
       }
     },
     {
@@ -91,7 +91,7 @@ const faqSchema = {
       name: "Müşterimin gerçek yüzü yapay zeka videoda kullanılabilir mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Müşteriden veya marka temsilcisinden 3-10 fotoğraf alıp Higgsfield Soul ID veya HeyGen Avatar ile dijital ikiz çıkarıyoruz. Yüz, ses ve hareket tutarlılığı korunur. Bu işlem için kişiden yazılı onay (KVKK uyumlu rıza formu) zorunludur. İsterseniz tamamen üretilmiş, gerçek olmayan oyuncular da kullanabiliriz."
+        text: "Evet. Müşteriden veya marka temsilcisinden 3-10 fotoğraf alıp kurumsal düzeyde dijital ikiz üretimi yapıyoruz. Yüz, ses ve hareket tutarlılığı korunur. Bu işlem için kişiden yazılı onay (KVKK uyumlu rıza formu) zorunludur. İsterseniz tamamen üretilmiş, gerçek olmayan oyuncular da kullanabiliriz."
       }
     },
     {
@@ -99,7 +99,7 @@ const faqSchema = {
       name: "Türkçe konuşan video üretilir mi, dudak senkronu doğru mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. ElevenLabs Türkçe ses kütüphanesi ve Veo 3 native ses üretimi ile Türkçe dialog hazırlıyoruz. Lip-sync (dudak senkronu) doğruluğu 2026 modellerinde yaklaşık %95 seviyesinde. Sektörel terimler ve marka isimleri için manuel ses kayıt ve dudak hizalama yapabiliyoruz."
+        text: "Evet. Premium Türkçe TTS sistemi ve native ses üretimli AI motorları ile Türkçe dialog hazırlıyoruz. Lip-sync (dudak senkronu) doğruluğu 2026 modellerinde yaklaşık %95 seviyesinde. Sektörel terimler ve marka isimleri için manuel ses kayıt ve dudak hizalama yapabiliyoruz."
       }
     },
     {
@@ -179,31 +179,31 @@ const whyAIVideo = [
 const aiTools = [
   {
     icon: Film,
-    name: "Higgsfield AI",
-    use: "Cinema Studio ile multi-shot kurumsal reklam",
-    desc: "Çoklu kamera açısı, sahne tutarlılığı ve Soul Cast karakter sistemi ile 30-60 saniyelik kurumsal anlatım videoları için kullanıyoruz. Marketing Studio modülü ile UGC tarzı reklam üretimi yapıyoruz."
+    name: "Sinematik Anlatım Motoru",
+    use: "Multi-shot kurumsal reklam üretimi",
+    desc: "Çoklu kamera açısı, sahne tutarlılığı ve karakter sürekliliği sağlayan üretim hattı ile 30-60 saniyelik kurumsal anlatım videoları hazırlıyoruz. UGC tarzı reklam formatı için ayrı bir üretim modülüyle birlikte çalışır."
   },
   {
     icon: Sparkles,
-    name: "Seedance 2.0",
+    name: "Premium Sinematik Motor",
     use: "Cinematic dark fantasy ve premium reklam",
-    desc: "Premium markalar, mücevher, otomotiv ve butik moda için sinematik renk paleti, derin alan derinliği ve hareketli kamera koreografisi. Bytedance'in 2026 modeli; ışık tutarlılığında lider."
+    desc: "Premium markalar, mücevher, otomotiv ve butik moda için sinematik renk paleti, derin alan derinliği ve hareketli kamera koreografisi. 2026 kuşağı görsel motorlar arasında ışık tutarlılığında öne çıkanları kullanıyoruz."
   },
   {
     icon: Video,
-    name: "Veo 3 (Google)",
+    name: "Sesli Dialog Motoru",
     use: "Sesli dialog senaryolar",
     desc: "Native ses üretimi ile Türkçe konuşan karakterler, gerçek dudak senkronu, ortam sesleri (ambient sound) ve dialog. Yemek reklamları, kullanıcı yorumu videoları ve hizmet anlatımı için ideal."
   },
   {
     icon: Camera,
-    name: "Kling 3.0",
+    name: "Hızlı Render Motoru",
     use: "Hızlı kısa form içerik (Reels/TikTok)",
-    desc: "9-15 saniyelik viral içerik için en hızlı render motoru. Aksiyon, dans, hızlı hook açılışları ve trend bazlı içerik için kullanıyoruz. Düşük credit maliyeti sayesinde haftalık üretim için ideal."
+    desc: "9-15 saniyelik viral içerik için en hızlı render altyapısı. Aksiyon, dans, hızlı hook açılışları ve trend bazlı içerik için kullanıyoruz. Düşük üretim maliyeti sayesinde haftalık ölçekli üretim için ideal."
   },
   {
     icon: Zap,
-    name: "Sora 2 (OpenAI)",
+    name: "Yaratıcı Konsept Motoru",
     use: "Yaratıcı konsept ve sürreal videolar",
     desc: "Gerçeklik sınırını aşan yaratıcı konseptler, ürün metaforları, soyut marka anlatımları için kullanıyoruz. Uzun süreli sahne tutarlılığında öne çıkar. Brand film, ajans işi ve festival reklamları için."
   }
@@ -228,7 +228,7 @@ const videoTypes = [
   {
     icon: Zap,
     name: "Sosyal medya hook (Reels/TikTok)",
-    desc: "9-15 saniyelik dikkat çekici açılış videoları. Trend ses kullanımı, ilk 2 saniyede hook, hızlı kesim. Kling 3.0 ile hızlı render edip A/B testine sokuyoruz."
+    desc: "9-15 saniyelik dikkat çekici açılış videoları. Trend ses kullanımı, ilk 2 saniyede hook, hızlı kesim. Hızlı render motoruyla üretip A/B testine sokuyoruz."
   },
   {
     icon: Film,
@@ -248,7 +248,7 @@ const costComparison = [
   { kriter: "Ekip büyüklüğü", traditional: "6 - 12 kişi", ai: "1 - 2 kişi" },
   { kriter: "Revizyon yöntemi", traditional: "Yeni çekim günü", ai: "Yeni prompt + render" },
   { kriter: "Lokasyon kısıtı", traditional: "Mekan, hava, ışık", ai: "Hayal gücü" },
-  { kriter: "Oyuncu ihtiyacı", traditional: "Ajans + casting", ai: "Soul ID veya AI karakter" },
+  { kriter: "Oyuncu ihtiyacı", traditional: "Ajans + casting", ai: "Dijital ikiz veya AI karakter" },
   { kriter: "Format çeşitliliği", traditional: "Ayrı kurgu işi", ai: "3 oran tek brief" }
 ];
 
@@ -312,15 +312,15 @@ const packages = [
 const faqs = [
   {
     q: "Yapay zeka ile üretilen videonun telif hakkı kime ait olur?",
-    a: "Teslim edilen tüm yapay zeka video üretimi çıktılarının ticari kullanım hakkı size aittir. PORTZEN üretim sürecinde lisanslı kurumsal hesaplar (Higgsfield Pro, Veo 3 Enterprise, Seedance Pro) üzerinden çalışır. Sözleşmede videonun marka adına, reklam panolarında, sosyal medyada ve TV mecralarında kullanım hakkı net biçimde devredilir. Yeniden satış (stock olarak başka markaya satmak) hakkı bizde kalır; tek tarafı kısıtlayan unsur budur."
+    a: "Teslim edilen tüm yapay zeka video üretimi çıktılarının ticari kullanım hakkı size aittir. PORTZEN üretim sürecinde premium AI motor lisansları ile kurumsal düzey AI video altyapısı üzerinden çalışır. Sözleşmede videonun marka adına, reklam panolarında, sosyal medyada ve TV mecralarında kullanım hakkı net biçimde devredilir. Yeniden satış (stock olarak başka markaya satmak) hakkı bizde kalır; tek tarafı kısıtlayan unsur budur."
   },
   {
     q: "Müşterimin gerçek yüzü yapay zeka videoda kullanılabilir mi?",
-    a: "Evet. Marka temsilcisinden veya rıza veren kişiden 3-10 farklı açıdan fotoğraf alıyoruz, ardından Higgsfield Soul ID veya HeyGen Avatar ile dijital ikiz (digital twin) oluşturuyoruz. Yüz tutarlılığı, ses tonu ve mimik korunur. Bu işlem için kişiden yazılı onay (KVKK uyumlu rıza formu) almak zorunludur. İsterseniz tamamen yapay zeka tarafından üretilmiş, gerçek olmayan oyuncular da kullanabiliriz; bu durumda telif ve rıza sorunu da olmaz."
+    a: "Evet. Marka temsilcisinden veya rıza veren kişiden 3-10 farklı açıdan fotoğraf alıyoruz, ardından kurumsal düzeyde dijital ikiz (digital twin) oluşturuyoruz. Yüz tutarlılığı, ses tonu ve mimik korunur. Bu işlem için kişiden yazılı onay (KVKK uyumlu rıza formu) almak zorunludur. İsterseniz tamamen yapay zeka tarafından üretilmiş, gerçek olmayan oyuncular da kullanabiliriz; bu durumda telif ve rıza sorunu da olmaz."
   },
   {
     q: "Türkçe konuşan video üretilir mi, dudak senkronu doğru mu?",
-    a: "Evet. ElevenLabs Türkçe ses kütüphanesi ve Veo 3 native ses üretimi ile Türkçe dialog hazırlıyoruz. Lip-sync (dudak senkronu) doğruluğu 2026 modellerinde yaklaşık %95 seviyesinde. Sektörel terimler, marka isimleri ve özel telaffuz gerektiren bölümler için manuel ses kayıt ve dudak hizalama (lip-sync correction) yapıyoruz. Tonlama kontrolü için 4-5 farklı ses örneği sunuyoruz; siz seçtiğiniz tonla üretime geçiyoruz."
+    a: "Evet. Premium Türkçe TTS sistemi ve native ses üretimli AI motorları ile Türkçe dialog hazırlıyoruz. Lip-sync (dudak senkronu) doğruluğu 2026 modellerinde yaklaşık %95 seviyesinde. Sektörel terimler, marka isimleri ve özel telaffuz gerektiren bölümler için manuel ses kayıt ve dudak hizalama (lip-sync correction) yapıyoruz. Tonlama kontrolü için 4-5 farklı ses örneği sunuyoruz; siz seçtiğiniz tonla üretime geçiyoruz."
   },
   {
     q: "Yapay zeka video hangi sosyal medya formatlarında üretilir?",
@@ -378,7 +378,7 @@ export default function Page() {
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Yapay zeka video üretimi sayesinde profesyonel reklam, tanıtım ve sosyal medya videolarını çekim ekibi olmadan, lokasyon kirası ödemeden, oyuncu ajansı ile uğraşmadan üretiyoruz. PORTZEN; Higgsfield, Seedance 2.0, Veo 3, Kling 3.0 ve Sora 2 başta olmak üzere 5 farklı yapay zeka motorunu tek üretim hattında çalıştırır. Brief'i siz verirsiniz, marka tonunuza özel video 3 iş gününde teslim edilir.
+                  Yapay zeka video üretimi sayesinde profesyonel reklam, tanıtım ve sosyal medya videolarını çekim ekibi olmadan, lokasyon kirası ödemeden, oyuncu ajansı ile uğraşmadan üretiyoruz. PORTZEN; sektör lideri AI motor stack'ini tek üretim hattında birleştirir — sinematik anlatım, sesli dialog, hızlı render ve yaratıcı konsept motorlarını sahnenin ihtiyacına göre seçeriz. Brief'i siz verirsiniz, marka tonunuza özel video 3 iş gününde teslim edilir.
                 </p>
               </Reveal>
               <Reveal delay={300}>
@@ -476,7 +476,7 @@ export default function Page() {
                 Hangi yapay zeka video araçlarını kullanıyoruz?
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Tek bir AI motoruna bağlı kalmıyoruz. Her sahnenin ihtiyacına göre 5 farklı motor arasında seçim yapıyoruz. Aşağıda her aracın hangi sahnede en iyi olduğunu açıklıyoruz. Bu sayede bir reklam filminin sahne 1'i Higgsfield'de, sahne 2'si Seedance'de, sahne 3'ü Veo 3'te render edilebilir, sonra tek kurguda birleştirilir.
+                Tek bir AI motoruna bağlı kalmıyoruz. Her sahnenin ihtiyacına göre 5 farklı motor kategorisi arasında seçim yapıyoruz. Aşağıda her motorun hangi sahnede en iyi olduğunu açıklıyoruz. Bu sayede bir reklam filminin sahne 1'i sinematik motorda, sahne 2'si premium sinematik motorda, sahne 3'ü sesli dialog motorunda render edilebilir, sonra tek kurguda birleştirilir.
               </p>
             </div>
           </Reveal>

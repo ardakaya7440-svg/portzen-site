@@ -127,7 +127,7 @@ const faqSchema = {
       name: "Türkçe doğal dil işleme ManyChat'ten farklı mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ManyChat'in İngilizce odaklı NLP'si Türkçe çekim eklerinde ve kibarlık kalıplarında zayıftır. PORTZEN, GPT-4 tabanlı motoru Türkçe konuşma örnekleriyle özel olarak ayarlar — 'fiyatınız ne kadar acaba?' ile 'fiyat ne' aynı şekilde anlaşılır."
+        text: "ManyChat'in İngilizce odaklı NLP'si Türkçe çekim eklerinde ve kibarlık kalıplarında zayıftır. PORTZEN, premium dil modeli tabanlı motoru Türkçe konuşma örnekleriyle özel olarak ayarlar — 'fiyatınız ne kadar acaba?' ile 'fiyat ne' aynı şekilde anlaşılır."
       }
     }
   ]
@@ -214,7 +214,7 @@ const solutionSteps = [
 ];
 
 const features = [
-  { icon: Languages, title: "Türkçe NLP", desc: "GPT-4 tabanlı motoru Türkçe konuşma örnekleriyle özel eğitim — 'fiyatınız ne acaba' ile 'fiyat ne' aynı algılanır." },
+  { icon: Languages, title: "Türkçe NLP", desc: "Premium dil modeli tabanlı motoru Türkçe konuşma örnekleriyle özel eğitim — 'fiyatınız ne acaba' ile 'fiyat ne' aynı algılanır." },
   { icon: ShieldCheck, title: "Resmi WhatsApp API", desc: "Meta'nın resmi iş ortağı altyapısı. 3rd party banlanma riski yok, yeşil tik onayı dahil." },
   { icon: CreditCard, title: "Iyzico + Param + PayTR", desc: "Müşteri WhatsApp'tan link tıklayıp 3D Secure ile yerel kart ödemesi yapar — komisyon Stripe'tan düşük." },
   { icon: Globe2, title: "KVKK Aydınlatma", desc: "Açık rıza akışı, veri silme talep formu, Türkiye sunucusu — hepsi hazır kurulur." },
@@ -291,7 +291,7 @@ const faqs = [
   },
   {
     q: "Türkçe doğal dil işleme ManyChat'ten farklı mı?",
-    a: "ManyChat'in İngilizce odaklı NLP'si Türkçe çekim eklerinde ('alabilir miyim', 'alır mıyım', 'alma') ve kibarlık kalıplarında ('acaba', 'lütfen', 'ricam') zayıftır. PORTZEN, GPT-4 motoru Türkçe konuşma örnekleriyle özel ayarlanır — KOBİ müşterinizin kendiliğinden konuştuğu cümleleri ilk seferde anlar."
+    a: "ManyChat'in İngilizce odaklı NLP'si Türkçe çekim eklerinde ('alabilir miyim', 'alır mıyım', 'alma') ve kibarlık kalıplarında ('acaba', 'lütfen', 'ricam') zayıftır. PORTZEN, premium dil modeli motoru Türkçe konuşma örnekleriyle özel ayarlanır — KOBİ müşterinizin kendiliğinden konuştuğu cümleleri ilk seferde anlar."
   }
 ];
 

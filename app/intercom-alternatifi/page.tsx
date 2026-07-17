@@ -124,7 +124,7 @@ const faqSchema = {
       name: "AI asistan özellikleri Intercom Fin AI ile karşılaştırılabilir mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. PORTZEN AI asistanı GPT-4 ve Türkçeye özel modellerle çalışır, sektör bazlı eğitilir. Intercom Fin AI'nin yanıt başına ekstra ücreti yerine paket içinde sınırsız AI yanıt sunulur."
+        text: "Evet. PORTZEN AI asistanı premium dil modelleri ve Türkçeye özel katmanlarla çalışır, sektör bazlı eğitilir. Intercom Fin AI'nin yanıt başına ekstra ücreti yerine paket içinde sınırsız AI yanıt sunulur."
       }
     }
   ]
@@ -201,7 +201,7 @@ const features = [
   {
     icon: Bot,
     title: "Sınırsız AI yanıt",
-    desc: "GPT-4 + Türkçe model, sektör bazlı eğitim. Yanıt başına ek ücret yok, paket içinde."
+    desc: "Premium dil modeli + Türkçe optimizasyon katmanı, sektör bazlı eğitim. Yanıt başına ek ücret yok, paket içinde."
   },
   {
     icon: Globe2,
@@ -278,7 +278,7 @@ const faqs = [
   },
   {
     q: "AI asistan kapasitesi Intercom Fin AI ile yarışır mı?",
-    a: "Evet. PORTZEN AI asistanı GPT-4 + Türkçeye optimize edilmiş modellerle çalışır, sizin bilgi tabanınızla eğitilir. Intercom Fin AI yanıt başına ekstra ücret alırken PORTZEN AI yanıtları paket içinde sınırsızdır. Türk müşteri profiline (sen/siz ayrımı, ton, sektör jargonu) hassas yanıtlar üretir."
+    a: "Evet. PORTZEN AI asistanı premium dil modelleri + Türkçeye optimize edilmiş katmanlarla çalışır, sizin bilgi tabanınızla eğitilir. Intercom Fin AI yanıt başına ekstra ücret alırken PORTZEN AI yanıtları paket içinde sınırsızdır. Türk müşteri profiline (sen/siz ayrımı, ton, sektör jargonu) hassas yanıtlar üretir."
   }
 ];
 

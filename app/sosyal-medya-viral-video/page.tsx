@@ -100,7 +100,7 @@ const faqSchema = {
       name: "Videolar yapay zeka ile mi üretiliyor, gerçek çekim mi yapıyorsunuz?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "İkisi de. Restoran, kafe, klinik, kuaför gibi mekan içerikleri için aylık 1 kez saha çekim ekibi gönderiyoruz, kalan içerikleri gönderdiğiniz kısa telefon çekimlerinden ve yapay zeka üretiminden montajlıyoruz. UGC tarzı reklamlarda Higgsfield Marketing Studio ve Kling 3.0 kullanıyoruz. Karma model hem doğallığı hem üretim hızını koruyor."
+        text: "İkisi de. Restoran, kafe, klinik, kuaför gibi mekan içerikleri için aylık 1 kez saha çekim ekibi gönderiyoruz, kalan içerikleri gönderdiğiniz kısa telefon çekimlerinden ve yapay zeka üretiminden montajlıyoruz. UGC tarzı reklamlarda kurumsal AI video altyapımızın UGC/hızlı render motorlarını kullanıyoruz. Karma model hem doğallığı hem üretim hızını koruyor."
       }
     },
     {
@@ -257,7 +257,7 @@ const aiSupport = [
   {
     icon: Sparkles,
     title: "Script AI ile ilk taslak",
-    desc: "Her hook için Claude ve GPT ile 8-12 varyant üretiyoruz. En güçlü olanı seçip insan editörle rafine ediyoruz. Bu, haftalık üretimi ciddi biçimde hızlandırıyor, kalite düşmüyor."
+    desc: "Her hook için premium dil modelleri ile 8-12 varyant üretiyoruz. En güçlü olanı seçip insan editörle rafine ediyoruz. Bu, haftalık üretimi ciddi biçimde hızlandırıyor, kalite düşmüyor."
   },
   {
     icon: Music,
@@ -417,7 +417,7 @@ const faqs = [
   },
   {
     q: "Videolar yapay zeka ile mi üretiliyor, gerçek çekim mi yapıyorsunuz?",
-    a: "İkisi de. Restoran, kafe, klinik, kuaför gibi mekan içerikleri için aylık 1 kez saha çekim ekibi gönderiyoruz, kalan içerikleri gönderdiğiniz kısa telefon çekimlerinden ve yapay zeka üretiminden montajlıyoruz. UGC tarzı reklamlarda Higgsfield Marketing Studio ve Kling 3.0 kullanıyoruz. Karma model hem doğallığı hem üretim hızını koruyor. Yapay zeka ile üretim tarafını detaylı görmek için /yapay-zeka-video-uretimi sayfasına bakabilirsiniz."
+    a: "İkisi de. Restoran, kafe, klinik, kuaför gibi mekan içerikleri için aylık 1 kez saha çekim ekibi gönderiyoruz, kalan içerikleri gönderdiğiniz kısa telefon çekimlerinden ve yapay zeka üretiminden montajlıyoruz. UGC tarzı reklamlarda kurumsal AI video altyapımızın UGC/hızlı render motorlarını kullanıyoruz. Karma model hem doğallığı hem üretim hızını koruyor. Yapay zeka ile üretim tarafını detaylı görmek için /yapay-zeka-video-uretimi sayfasına bakabilirsiniz."
   },
   {
     q: "Kullandığınız trending sound telif hakkı sorun çıkarır mı?",

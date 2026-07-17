@@ -183,7 +183,7 @@ const factors = [
   {
     icon: Bot,
     title: "AI kapasitesi",
-    desc: "Sadece kural bazlı bot mu, yoksa GPT-4 destekli doğal dil mi? AI ne kadar gelişmişse aylık ücret artar; manuel iş azalır."
+    desc: "Sadece kural bazlı bot mu, yoksa premium dil modeli destekli doğal dil mi? AI ne kadar gelişmişse aylık ücret artar; manuel iş azalır."
   }
 ];
 
@@ -242,7 +242,7 @@ const packages = [
     badge: "En Çok Tercih Edilen",
     features: [
       "Aylık 10.000 mesaja kadar",
-      "AI doğal dil yanıtı (GPT-4)",
+      "AI doğal dil yanıtı (premium dil modeli)",
       "CRM entegrasyonu (HubSpot/Bitrix)",
       "Sipariş alma + ödeme akışı",
       "Haftalık optimizasyon",

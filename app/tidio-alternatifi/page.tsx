@@ -101,7 +101,7 @@ const faqSchema = {
       name: "Türkçe doğal dil işleme Tidio'dan farklı mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tidio'nun Lyro AI'sı İngilizce odaklıdır, Türkçe çekim eklerinde ve günlük konuşma kalıplarında zayıftır. PORTZEN GPT-4 motorunu Türkçe konuşma örnekleriyle özel olarak eğitir."
+        text: "Tidio'nun Lyro AI'sı İngilizce odaklıdır, Türkçe çekim eklerinde ve günlük konuşma kalıplarında zayıftır. PORTZEN premium dil modeli motorunu Türkçe konuşma örnekleriyle özel olarak eğitir."
       }
     },
     {
@@ -185,7 +185,7 @@ const comparisonRows = [
   { feature: "Instagram DM tek panel", manychat: "Ayrı entegrasyon", portzen: "Tek gelen kutusu" },
   { feature: "Canlı chat widget", manychat: "Var", portzen: "Var + mobile-first" },
   { feature: "KVKK aydınlatma + TR sunucu", manychat: "Yok", portzen: "Paket dahil" },
-  { feature: "Türkçe doğal yanıt (NLP)", manychat: "Lyro AI zayıf TR", portzen: "GPT-4 + Türkçe eğitim" },
+  { feature: "Türkçe doğal yanıt (NLP)", manychat: "Lyro AI zayıf TR", portzen: "Premium dil modeli + Türkçe eğitim" },
   { feature: "Kurulum + ekip eğitimi", manychat: "Self-service", portzen: "Tam kurulum + canlı eğitim" },
   { feature: "Sözleşme süresi", manychat: "Yıllık peşin tercih", portzen: "Aylık esnek" },
   { feature: "Veri lokalizasyonu", manychat: "AB sunucu", portzen: "Türkiye sunucu opsiyonu" },
@@ -219,7 +219,7 @@ const features = [
   { icon: MessageCircle, title: "Birleşik gelen kutusu", desc: "WhatsApp + Instagram DM + canlı chat tek panelde. Bir operatör hepsini aynı yerden cevaplar — Tidio'da her biri ayrı." },
   { icon: ShieldCheck, title: "Resmi WhatsApp API + dahil", desc: "Meta'nın resmi iş ortağı altyapısı, giriş paketinde dahil. Tidio'da Plus+ planda ekstra ödeme." },
   { icon: Instagram, title: "Instagram DM entegre", desc: "Story yanıtları, gönderi yorumları, DM'ler — hepsi aynı kutuda. Ek entegrasyon ücreti yok." },
-  { icon: Languages, title: "Türkçe NLP", desc: "GPT-4 motoru Türkçe konuşma örnekleriyle özel eğitim. 'Fiyat ne acaba' ile 'fiyatınız nedir' aynı algılanır." },
+  { icon: Languages, title: "Türkçe NLP", desc: "Premium dil modeli motoru Türkçe konuşma örnekleriyle özel eğitim. 'Fiyat ne acaba' ile 'fiyatınız nedir' aynı algılanır." },
   { icon: Smartphone, title: "Mobile-first chat widget", desc: "Klavye açıkken müşteri tüm konuşmayı görür. Tam ekran moduna otomatik geçer. Türk mobil dönüşüm verilerine göre tasarlandı." },
   { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile aynı gün dönüş. Tidio'nun e-mail-only İngilizce desteği yerine gerçek insan." }
 ];
@@ -239,7 +239,7 @@ const faqs = [
   },
   {
     q: "Türkçe doğal dil işleme Tidio'dan farklı mı?",
-    a: "Tidio'nun Lyro AI'sı İngilizce odaklıdır, Türkçe çekim eklerinde ('alabilir miyim', 'almak istiyorum') ve günlük kibarlık kalıplarında ('acaba', 'lütfen', 'rica etsem') zayıftır. PORTZEN GPT-4 motorunu Türkçe konuşma örnekleriyle özel olarak ayarlar — müşterinin kendiliğinden konuştuğu cümleler ilk seferde anlaşılır."
+    a: "Tidio'nun Lyro AI'sı İngilizce odaklıdır, Türkçe çekim eklerinde ('alabilir miyim', 'almak istiyorum') ve günlük kibarlık kalıplarında ('acaba', 'lütfen', 'rica etsem') zayıftır. PORTZEN premium dil modeli motorunu Türkçe konuşma örnekleriyle özel olarak ayarlar — müşterinin kendiliğinden konuştuğu cümleler ilk seferde anlaşılır."
   },
   {
     q: "KVKK için ne yapmam gerekiyor?",

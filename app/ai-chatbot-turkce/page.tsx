@@ -82,7 +82,7 @@ const faqSchema = {
       name: "GPT mi kullanıyorsunuz, kendi modeliniz mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hibrit yaklaşım kullanıyoruz: GPT-4 ve Claude temel modellerini Türkçeye optimize edilmiş katmanlarla birleştiriyoruz. Bu sayede hem yüksek genel zeka hem de doğal Türkçe yanıt elde ediliyor."
+        text: "Hibrit yaklaşım kullanıyoruz: birden fazla premium dil modelini Türkçeye optimize edilmiş katmanlarla birleştiren orkestrasyon altyapımız var. Bu sayede hem yüksek genel zeka hem de doğal Türkçe yanıt elde ediliyor."
       }
     },
     {
@@ -114,7 +114,7 @@ const faqSchema = {
       name: "Hangi modeller destekleniyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "GPT-4, GPT-4o, Claude 3.5 Sonnet, Llama 3.1 (self-hosted) ve Türkçeye özel açık kaynak modeller. Müşteri ihtiyacına göre uygun model seçilir; veri hassasiyeti yüksek projelerde self-hosted opsiyon önerilir."
+        text: "Birden fazla premium dil modeline bağlanan hibrit orkestrasyon altyapısı ve Türkçeye özel eğitilmiş modeller. Müşteri ihtiyacına göre uygun katman seçilir; veri hassasiyeti yüksek projelerde self-hosted opsiyon önerilir."
       }
     },
     {
@@ -158,7 +158,7 @@ const stats = [
 ];
 
 const problems = [
-  "GPT-4 İngilizce ağırlıklı eğitilmiş; doğrudan Türkçe sorduğunuzda yanıtlar resmi, soğuk ve doğal değil.",
+  "Standart dil modelleri İngilizce ağırlıklı eğitilmiş; doğrudan Türkçe sorduğunuzda yanıtlar resmi, soğuk ve doğal değil.",
   "Çeviri tabanlı chatbotlar 'robot dili' konuşuyor: 'Size nasıl yardımcı olabilirim?' yerine 'Sana ne yapabilirim?' gibi tuhaf cümleler.",
   "Türkçe nüansları (sen/siz, kibarlık seviyesi, yöresel ifade) yurtdışı modeller anlamıyor.",
   "Türk sektör terimleri (reçete, irsaliye, tapu, e-fatura, KDV, SGK) yabancı modellerde eksik veya yanlış.",
@@ -169,7 +169,7 @@ const solutionSteps = [
   {
     icon: Languages,
     title: "Türkçe Eğit",
-    description: "Türk dil modelleri (GPT-4 + Türkçe fine-tune) ile sen/siz ayrımı ve doğal ifade öğretilir."
+    description: "Türkçeye özel eğitilmiş premium dil modelleri ile sen/siz ayrımı ve doğal ifade öğretilir."
   },
   {
     icon: Database,
@@ -230,7 +230,7 @@ const packages = [
     color: "bg-paper",
     features: [
       "Aylık 2.500 konuşmaya kadar",
-      "GPT-4 + Türkçe fine-tune",
+      "Premium dil modeli + Türkçe fine-tune",
       "Sen/siz tutarlı yanıt",
       "WhatsApp veya Web Chat",
       "KVKK aydınlatma akışı",
@@ -301,7 +301,7 @@ const crossLinks = [
 const faqs = [
   {
     q: "GPT mi kullanıyorsunuz, kendi modeliniz mi?",
-    a: "Hibrit yaklaşım kullanıyoruz. Temel olarak GPT-4, GPT-4o ve Claude 3.5 Sonnet modellerini Türkçeye optimize edilmiş prompt ve fine-tune katmanlarıyla birleştiriyoruz. Bu sayede hem yüksek genel zeka hem de doğal, akıcı Türkçe yanıt elde ediliyor. Veri hassasiyeti yüksek projelerde Llama 3.1 self-hosted opsiyonu da sunuyoruz."
+    a: "Hibrit yaklaşım kullanıyoruz. Birden fazla premium dil modelini Türkçeye optimize edilmiş prompt ve fine-tune katmanlarıyla birleştiren orkestrasyon altyapısı üzerine kurulu. Bu sayede hem yüksek genel zeka hem de doğal, akıcı Türkçe yanıt elde ediliyor. Veri hassasiyeti yüksek projelerde self-hosted model opsiyonu da sunuyoruz. Hangi motoru kullandığımız iş sırrımızdır, ancak çıktının kalitesi demo görüşmesinde birebir test edilebilir."
   },
   {
     q: "Türk dili nasıl iyileştiriliyor?",
@@ -317,7 +317,7 @@ const faqs = [
   },
   {
     q: "Hangi modeller destekleniyor?",
-    a: "OpenAI GPT-4 ve GPT-4o, Anthropic Claude 3.5 Sonnet, Meta Llama 3.1 (self-hosted), Mistral ve Türkçeye özel açık kaynak modeller. Müşteri ihtiyacına göre uygun model seçilir. Genel KOBİ için GPT-4o, veri hassas projeler için self-hosted Llama, çok dilli ihracat için Claude önerilir."
+    a: "Kurumsal seviye premium dil modellerinden oluşan hibrit bir orkestrasyon altyapısı kullanıyoruz; Türkçeye özel eğitilmiş fine-tune katmanları ve self-hosted opsiyon dahil. Müşteri ihtiyacına göre uygun katman seçilir: genel KOBİ için hızlı yanıt profili, veri hassas projeler için self-hosted mod, çok dilli ihracat için çok dilli katman. Hangi sağlayıcıların kullanıldığı ticari sırrımızdır; sözleşme aşamasında NDA altında paylaşılır."
   },
   {
     q: "Sen/siz seçimi nasıl yapılıyor?",
@@ -614,7 +614,7 @@ export default function Page() {
                 <div>
                   <div className="font-display text-lg font-black mb-1">Self-hosted opsiyonu</div>
                   <p className="text-sm opacity-90">
-                    Hassas veri (sağlık, hukuk, finans) için Llama 3.1 self-hosted opsiyonu — hiçbir veri yurt dışına çıkmaz. Kurumsal pakette dahil.
+                    Hassas veri (sağlık, hukuk, finans) için self-hosted model opsiyonu — hiçbir veri yurt dışına çıkmaz. Kurumsal pakette dahil.
                   </p>
                 </div>
               </div>

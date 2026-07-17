@@ -100,7 +100,7 @@ const faqSchema = {
       name: "Salesforce'un AI Einstein özelliği önemli, bunu nasıl yapacaksınız?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Einstein'in temel kullanım alanları: lead scoring, opportunity forecasting, next best action, e-mail içerik önerisi. PORTZEN; OpenAI GPT ve custom LLM ile bu yetenekleri sunar. Üstelik prompt'lar sizin kontrolünüzdedir, kara kutu değildir ve ek lisans yoktur."
+        text: "Einstein'in temel kullanım alanları: lead scoring, opportunity forecasting, next best action, e-mail içerik önerisi. PORTZEN; kurumsal AI motor altyapısı ve custom LLM katmanı ile bu yetenekleri sunar. Üstelik prompt'lar sizin kontrolünüzdedir, kara kutu değildir ve ek lisans yoktur."
       }
     },
     {
@@ -185,7 +185,7 @@ const comparisonRows = [
   { feature: "Türkçe destek", manychat: "Plana özel, sınırlı", portzen: "Tüm paketlerde dahil" },
   { feature: "Logo / Mikro / Netsis entegre", manychat: "Yok, custom dev", portzen: "Hazır connector" },
   { feature: "WhatsApp Business API", manychat: "Service Cloud ek modül", portzen: "Giriş paketinde dahil" },
-  { feature: "AI (lead scoring, forecasting)", manychat: "Einstein: ek lisans", portzen: "OpenAI + custom LLM dahil" },
+  { feature: "AI (lead scoring, forecasting)", manychat: "Einstein: ek lisans", portzen: "Kurumsal AI motor + custom LLM dahil" },
   { feature: "KVKK + TR sunucu", manychat: "ABD/AB sunucu", portzen: "TR opsiyonu, Kurumsal pakette" },
   { feature: "Sözleşme süresi", manychat: "Yıllık peşin tipik", portzen: "Aylık esnek" },
   { feature: "Ek modül kuralı", manychat: "Service / Marketing / CPQ ayrı lisans", portzen: "Tek pakette her şey dahil" }
@@ -217,7 +217,7 @@ const solutionSteps = [
 const features = [
   { icon: Briefcase, title: "Sade ama yeterli CRM", desc: "Pipeline, deal, contact, account, activity history. Salesforce'un %15-20'sini hızlı ve sade kullanım." },
   { icon: MessageCircle, title: "WhatsApp + e-mail + telefon birleşik", desc: "Tüm kanallar tek panelden takip edilir. Salesforce'ta WhatsApp ek lisans, PORTZEN'de giriş paketinde dahil." },
-  { icon: Sparkles, title: "AI lead scoring + forecasting", desc: "OpenAI + custom LLM ile lead skorlama, opportunity forecast, next best action önerisi. Einstein'in pratik karşılığı." },
+  { icon: Sparkles, title: "AI lead scoring + forecasting", desc: "Premium AI motor altyapısı ve custom LLM katmanı ile lead skorlama, opportunity forecast, next best action önerisi. Einstein'in pratik karşılığı." },
   { icon: Building2, title: "Logo / Mikro / Netsis entegre", desc: "Türk muhasebe yazılımları için hazır connector. Müşteri PORTZEN'de açılınca otomatik Logo cari kartı oluşur." },
   { icon: ShieldCheck, title: "KVKK + TR sunucu opsiyonu", desc: "Kurumsal pakette self-hosted Türkiye sunucu. Açık rıza akışı, veri silme talep yönetimi ve VERBİS kayıt desteği dahil." },
   { icon: HeadphonesIcon, title: "Türkçe canlı destek + eğitim", desc: "WhatsApp + telefon ile Türkçe destek tüm paketlerde. 8 saatlik canlı ekip eğitimi ve Türkçe video kütüphanesi." }
@@ -280,7 +280,7 @@ const faqs = [
   },
   {
     q: "Salesforce'un AI Einstein özelliği önemli, bunu nasıl yapacaksınız?",
-    a: "Einstein'in pratik kullanım alanları: lead scoring, opportunity forecasting, next best action, e-mail içerik önerisi, anomali tespiti. PORTZEN bu yetenekleri OpenAI GPT ve custom LLM kombinasyonu ile sunar. Lead scoring için kendi promptlarınızı yazabilir veya hazır şablonları kullanabilirsiniz. Forecasting için geçmiş deal verisi ile pattern recognition. Üstelik kullanılan modeller ve promptlar sizin kontrolünüzdedir, Einstein'in kara kutu yapısı yerine şeffaftır. Einstein ek lisans olarak faturalanır; PORTZEN'de AI Pro paketinde dahildir."
+    a: "Einstein'in pratik kullanım alanları: lead scoring, opportunity forecasting, next best action, e-mail içerik önerisi, anomali tespiti. PORTZEN bu yetenekleri kurumsal AI motor altyapısı ve custom LLM kombinasyonu ile sunar. Lead scoring için kendi promptlarınızı yazabilir veya hazır şablonları kullanabilirsiniz. Forecasting için geçmiş deal verisi ile pattern recognition. Üstelik kullanılan modeller ve promptlar sizin kontrolünüzdedir, Einstein'in kara kutu yapısı yerine şeffaftır. Einstein ek lisans olarak faturalanır; PORTZEN'de AI Pro paketinde dahildir."
   },
   {
     q: "Enterprise için ne kadar ölçeklenebilir?",
@@ -288,7 +288,7 @@ const faqs = [
   },
   {
     q: "Salesforce'ın AppExchange ekosistemi yok, eksiklik olmaz mı?",
-    a: "AppExchange'in en çok kullanılan alanları (e-posta entegrasyonu, takvim sync, doküman imza, telefon CTI, marketing automation, anket, doküman üretimi) PORTZEN'de native gelir veya hazır connector ile bağlanır. Google Workspace + Microsoft 365 + DocuSign + Twilio + Calendly + Typeform + Notion + Slack + Zoom için kutudan çıkar çıkmaz çalışır. Çok özel ihtiyaçlar için n8n + custom workflow ile aynı çözümü 4-8 günde kurar, ayrı lisans ödemezsiniz."
+    a: "AppExchange'in en çok kullanılan alanları (e-posta entegrasyonu, takvim sync, doküman imza, telefon CTI, marketing automation, anket, doküman üretimi) PORTZEN'de native gelir veya hazır connector ile bağlanır. Google Workspace + Microsoft 365 + DocuSign + Calendly + Typeform + Notion + Slack + Zoom için kutudan çıkar çıkmaz çalışır. Çok özel ihtiyaçlar için n8n + custom workflow ile aynı çözümü 4-8 günde kurar, ayrı lisans ödemezsiniz."
   },
   {
     q: "Türkçe destek ve eğitim nasıl?",
@@ -540,7 +540,7 @@ export default function Page() {
                   3 ana sıkıntı vardı: (1) Salesforce'un kullanılan kısmı pipeline + deal + activity history + temel rapor; %80 modül atıl kalıyordu, (2) Logo Tiger entegrasyonu olmadığı için müşteri ve fatura verisi sürekli copy-paste ile aktarılıyordu, (3) Trendyol B2B / Hepsiburada Kurumsal mağazasından gelen lead'ler Salesforce'a manuel giriliyor, çoğu kayboluyordu.
                 </p>
                 <p>
-                  PORTZEN 28 günde devreye alındı. Salesforce'tan 4.200 account + 18.000 contact + 980 açık opportunity + 240.000 activity history taşındı. Backend CRM olarak Pipedrive Advanced seçildi; üzerine PORTZEN orkestrasyon katmanı kuruldu. Logo Tiger çift yönlü entegre edildi (müşteri = otomatik cari, deal kapanışı = otomatik fatura). WhatsApp Business API resmi olarak aktive edildi, lead'lerin %40'ı WhatsApp üzerinden geliyor zaten. AI lead scoring + opportunity forecasting OpenAI GPT-4 ile kuruldu.
+                  PORTZEN 28 günde devreye alındı. Salesforce'tan 4.200 account + 18.000 contact + 980 açık opportunity + 240.000 activity history taşındı. Backend CRM olarak Pipedrive Advanced seçildi; üzerine PORTZEN orkestrasyon katmanı kuruldu. Logo Tiger çift yönlü entegre edildi (müşteri = otomatik cari, deal kapanışı = otomatik fatura). WhatsApp Business API resmi olarak aktive edildi, lead'lerin %40'ı WhatsApp üzerinden geliyor zaten. AI lead scoring + opportunity forecasting kurumsal dil modeli altyapısı ile kuruldu.
                 </p>
                 <p>
                   3 ay sonra: aynı ekip aynı pipeline ile çalışıyor ama günlük manuel iş %60 azaldı. Lead-müşteri dönüşümü %12'den %29'a çıktı (AI scoring + sıcak lead odağı). Toplam yıllık maliyet ciddi ölçüde düştü, kur farkından etkilenmeyen öngörülebilir bir çalışma modeli oldu.

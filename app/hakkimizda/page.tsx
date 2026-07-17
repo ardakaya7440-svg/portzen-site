@@ -45,7 +45,7 @@ const services = [
   {
     icon: Video,
     title: "AI Reklam Videosu",
-    desc: "Higgsfield, Seedance ve Veo 3 ile profesyonel reklam videoları üretiyoruz. Stüdyo maliyetinin onda biri.",
+    desc: "Kurumsal AI motor altyapısı ile profesyonel reklam videoları üretiyoruz. Stüdyo maliyetinin onda biri.",
     color: "bg-brand-yellow text-ink"
   },
   {
