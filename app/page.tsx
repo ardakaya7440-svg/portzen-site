@@ -37,9 +37,9 @@ const REFS: { label: string; href: string }[] = [
 ];
 
 const AI_EXAMPLES = [
-  { src: "/assets/videos/ai-video/sample-1.mp4", caption: "Sinematik marka reklamı" },
-  { src: "/assets/videos/ai-video/sample-2.mp4", caption: "AI karakter tanıtımı" },
-  { src: "/assets/videos/ai-video/sample-3.mp4", caption: "Sektörel reklam" }
+  { src: "/assets/videos/ai-video/sample-hero-a.mp4", caption: "Sinematik marka reklamı" },
+  { src: "/assets/videos/ai-video/sample-hero-b.mp4", caption: "Sektörel ürün odağı" },
+  { src: "/assets/videos/ai-video/sample-hero-c.mp4", caption: "Lifestyle sahne" }
 ];
 
 export default function HomePage() {

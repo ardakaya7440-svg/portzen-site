@@ -69,7 +69,7 @@ const serviceSchema = {
   offers: {
     "@type": "Offer",
     priceCurrency: "TRY",
-    priceRange: "₺3000-₺50000/proje",
+    // priceRange: brief görüşmesinde paylaşılıyor
     availability: "https://schema.org/InStock"
   }
 };
@@ -161,7 +161,7 @@ const stats = [
 const whyAIVideo = [
   {
     icon: Zap,
-    title: "Geleneksel çekim 25-150 bin ₺, yapay zeka video 3-15 bin ₺",
+    title: "Geleneksel çekim yerine — çok daha uygun maliyet",
     desc: "Bir reklam filmi için yönetmen, oyuncu, kameraman, ışıkçı, ses, lokasyon, post-prodüksiyon zinciri yerine sadece prompt mühendisi ve editor çalışır. Maliyet ortalama 10 kat düşer."
   },
   {
@@ -243,7 +243,7 @@ const videoTypes = [
 ];
 
 const costComparison = [
-  { kriter: "Maliyet aralığı", traditional: "25.000 - 150.000 ₺", ai: "3.000 - 15.000 ₺" },
+  { kriter: "Maliyet", traditional: "Yüksek prodüksiyon bütçesi", ai: "Kesirli maliyet" },
   { kriter: "Üretim süresi", traditional: "3 - 6 hafta", ai: "2 - 5 gün" },
   { kriter: "Ekip büyüklüğü", traditional: "6 - 12 kişi", ai: "1 - 2 kişi" },
   { kriter: "Revizyon yöntemi", traditional: "Yeni çekim günü", ai: "Yeni prompt + render" },
@@ -261,11 +261,11 @@ const sectors = [
   { name: "Eğitim ve Kurs", slug: "egitim", desc: "Tanıtım filmi, ders önizleme, başarı hikayesi." }
 ];
 
+// Fiyat gösterilmez — brief görüşmesinde net rakam paylaşılır.
+// Paket adları ve içerikleri sadece kapsam anlatımı için tutuldu (fiyat yok).
 const packages = [
   {
     name: "Tekil Video",
-    price: "3.000 - 6.000 ₺",
-    period: "/proje",
     duration: "3 gün teslim",
     color: "bg-paper",
     features: [
@@ -276,15 +276,13 @@ const packages = [
       "Logo ve alt yazı",
       "MP4 + source files"
     ],
-    cta: "Tekil Video Al"
+    cta: "Görüşme Al"
   },
   {
     name: "Kampanya Seti",
-    price: "12.000 - 25.000 ₺",
-    period: "/proje",
     duration: "1 hafta teslim",
     color: "bg-brand-yellow",
-    badge: "En Popüler",
+    badge: "Öneri",
     features: [
       "5 video farklı format",
       "1 brand film (60 sn) + 4 sosyal medya hook",
@@ -293,23 +291,21 @@ const packages = [
       "A/B testi için 2 varyant",
       "Reklam motoru için bidding setup notu"
     ],
-    cta: "Kampanya Planla"
+    cta: "Görüşme Al"
   },
   {
     name: "Aylık Abonelik",
-    price: "25.000 - 50.000 ₺",
-    period: "/ay",
     duration: "Sürekli üretim",
     color: "bg-paper",
     features: [
-      "8-15 video/ay (paket boyuna göre)",
+      "Aylık düzenli video akışı (paket boyuna göre)",
       "Sınırsız revizyon",
       "Adanmış proje yöneticisi",
       "Aylık kreatif strateji toplantısı",
       "Performans raporlama",
       "Trend takibi ve hızlı reaksiyon içerikleri"
     ],
-    cta: "Aboneliği Konuş"
+    cta: "Görüşme Al"
   }
 ];
 
@@ -710,13 +706,13 @@ export default function Page() {
           <Reveal>
             <div className="mb-12 max-w-3xl">
               <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf fiyatlandırma
+                Çalışma Modeli
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Yapay zeka video üretimi paketleri ve fiyat aralıkları
+                Video üretim kapsamları
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                3 paket var: tek video deneme için tekil pakettan, sürekli içerik üretimi gerektiren markalar için aylık aboneliğe kadar. Net rakam, keşif görüşmesinde video süresi, sahne sayısı, karakter sayısı ve özel efekt ihtiyacına göre belirlenir.
+                3 farklı çalışma modeli sunuyoruz: tek videoluk deneme, kampanya seti veya sürekli aylık üretim. Kapsamı ihtiyacına göre birlikte belirleyip, net teklifi keşif görüşmesinde paylaşıyoruz — video süresi, sahne sayısı, karakter ve özel efekt gereksinimlerine göre.
               </p>
             </div>
           </Reveal>
@@ -736,11 +732,9 @@ export default function Page() {
                     </div>
                   )}
                   <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-3xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
+                  <div className="text-xs font-bold uppercase tracking-wider opacity-75 mb-6">
+                    {p.duration}
                   </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.duration}</div>
                   <ul className="space-y-2 mb-6 flex-1">
                     {p.features.map((f, fi) => (
                       <li key={fi} className="flex items-start gap-2 text-sm">
