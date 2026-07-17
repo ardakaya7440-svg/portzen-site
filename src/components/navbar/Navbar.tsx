@@ -4,16 +4,14 @@ import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ChevronDown, ArrowUpRight, Video, MessageSquare, Workflow, Sparkles, Globe, LucideIcon } from "lucide-react";
+import { Menu, X, ChevronDown, ArrowUpRight, Contrast, Video, MessageSquare, Workflow, Sparkles, Globe, LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 /**
- * Navbar — hibrit yaklaşım:
- * - Sol: yeni dark logo (public/logo.png) — dark kutu içinde
- * - Orta: "Hizmetler" TEK dropdown (eski renkli mini grid — sade 5 hizmet)
- *         + Referanslar / Blog / Hakkımızda düz linkler (yeni sadelik)
- * - Sağ: "Projeyi Konuşalım" CTA
- * - Mobil: drawer (sade, hizmetler + secondary)
+ * Navbar — design ekran görüntüsüne tam sadık.
+ * - Sol: logo-inked.png + "PORTZEN" wordmark
+ * - Orta: Hizmetler (dropdown) / Referanslar / SSS / İletişim
+ * - Sağ: Dark mode toggle (decorative) + sarı Görüşme Al
  */
 
 interface ServiceItem {
@@ -32,10 +30,10 @@ const SERVICES: ServiceItem[] = [
   { title: "Web Tasarım", href: "/web-tasarim", icon: Globe, tone: "bg-brand-orange", textTone: "text-paper" }
 ];
 
-const SECONDARY = [
+const NAV = [
   { label: "Referanslar", href: "/referanslar" },
-  { label: "Blog", href: "/blog" },
-  { label: "Hakkımızda", href: "/hakkimizda" }
+  { label: "SSS", href: "/#sss" },
+  { label: "İletişim", href: "/iletisim" }
 ];
 
 export function Navbar() {
@@ -56,29 +54,32 @@ export function Navbar() {
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-brutal",
         scrolled
           ? "bg-paper border-b-3 border-ink shadow-brutal-sm"
-          : "bg-transparent border-b-3 border-transparent"
+          : "bg-paper/95 backdrop-blur border-b-3 border-transparent"
       )}
       onMouseLeave={() => setServicesOpen(false)}
     >
-      <div className="mx-auto flex max-w-container items-center gap-2 px-6 py-3">
-        {/* Sol: Logo — yes.tools tarzı direkt, kutu yok. Ink siyah, transparan bg. */}
+      <div className="mx-auto flex max-w-container items-center gap-2 px-6 py-4">
+        {/* Sol: Logo + PORTZEN wordmark (design'a sadık) */}
         <Link
           href="/"
-          className="flex items-center shrink-0"
+          className="flex items-center gap-3 shrink-0"
           onMouseEnter={() => setServicesOpen(false)}
         >
           <Image
             src="/logo-inked.png"
             alt="PORTZEN"
-            width={96}
-            height={96}
+            width={56}
+            height={56}
             priority
-            className="h-24 w-24 object-contain"
+            className="h-14 w-14 object-contain"
           />
+          <span className="font-display text-lg font-black tracking-[0.15em] text-ink leading-none">
+            PORTZEN
+          </span>
         </Link>
 
         {/* Orta nav — desktop */}
-        <nav className="hidden lg:flex items-center gap-1 ml-6">
+        <nav className="hidden lg:flex items-center gap-2 ml-auto mr-6">
           {/* Hizmetler dropdown */}
           <div
             className="relative"
@@ -87,44 +88,48 @@ export function Navbar() {
             <button
               type="button"
               className={cn(
-                "flex items-center gap-1.5 border-3 border-transparent px-3 py-2 text-sm font-bold uppercase tracking-wide transition-colors whitespace-nowrap",
-                servicesOpen
-                  ? "border-ink bg-ink text-paper"
-                  : "text-ink hover:bg-ink/5"
+                "flex items-center gap-1.5 px-3 py-2 text-base font-medium transition-colors whitespace-nowrap",
+                servicesOpen ? "text-ink" : "text-ink/85 hover:text-ink"
               )}
             >
               <span>Hizmetler</span>
-              <ChevronDown className={cn("h-3.5 w-3.5 shrink-0 transition-transform", servicesOpen && "rotate-180")} />
+              <ChevronDown className={cn("h-4 w-4 shrink-0 transition-transform", servicesOpen && "rotate-180")} />
             </button>
           </div>
 
-          <span className="mx-2 h-5 w-px bg-ink/20" />
-
-          {/* Secondary linkler — düz */}
-          {SECONDARY.map((item) => (
+          {NAV.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onMouseEnter={() => setServicesOpen(false)}
-              className="border-3 border-transparent px-3 py-2 text-sm font-bold uppercase tracking-wide text-ink hover:bg-ink/5 transition-colors whitespace-nowrap"
+              className="px-3 py-2 text-base font-medium text-ink/85 hover:text-ink transition-colors whitespace-nowrap"
             >
               {item.label}
             </Link>
           ))}
         </nav>
 
-        {/* Sağ: CTA + mobil hamburger */}
+        {/* Sağ: Dark toggle + CTA */}
         <div
-          className="ml-auto flex items-center gap-2"
+          className="ml-auto lg:ml-0 flex items-center gap-2"
           onMouseEnter={() => setServicesOpen(false)}
         >
+          {/* Dark mode toggle — şimdilik decorative */}
+          <button
+            aria-label="Tema"
+            type="button"
+            className="hidden sm:flex items-center justify-center border-3 border-ink bg-paper p-2 shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
+          >
+            <Contrast className="h-5 w-5 text-ink" />
+          </button>
+
           <Link
             href="/iletisim"
-            className="hidden sm:inline-flex items-center gap-2 border-3 border-ink bg-ink px-4 py-2 text-sm font-bold uppercase text-paper shadow-brutal-sm transition-all hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal whitespace-nowrap"
+            className="hidden sm:inline-flex items-center gap-2 border-3 border-ink bg-brand-yellow px-5 py-3 text-sm font-black uppercase tracking-wide text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all whitespace-nowrap"
           >
-            Projeyi Konuşalım
-            <ArrowUpRight className="h-4 w-4" />
+            Görüşme Al
           </Link>
+
           <button
             onClick={() => setMobileOpen(true)}
             className="lg:hidden border-3 border-ink bg-paper p-2 shadow-brutal-sm"
@@ -146,7 +151,7 @@ export function Navbar() {
             className="absolute left-0 right-0 top-full"
           >
             <div className="mx-auto max-w-container px-6 pb-4">
-              <div className="border-3 border-ink bg-paper shadow-brutal-lg p-3 max-w-3xl">
+              <div className="border-3 border-ink bg-paper shadow-brutal-lg p-3 max-w-3xl mx-auto">
                 <div className="grid gap-2 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
                   {SERVICES.map((svc) => {
                     const Icon = svc.icon;
@@ -195,7 +200,10 @@ export function Navbar() {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex items-center justify-between p-4 border-b-3 border-ink">
-                <Image src="/logo-inked.png" alt="PORTZEN" width={40} height={40} className="h-10 w-10 object-contain" />
+                <div className="flex items-center gap-2">
+                  <Image src="/logo-inked.png" alt="PORTZEN" width={44} height={44} className="h-11 w-11 object-contain" />
+                  <span className="font-display text-base font-black tracking-[0.15em] text-ink">PORTZEN</span>
+                </div>
                 <button
                   onClick={() => setMobileOpen(false)}
                   className="border-3 border-ink bg-paper p-1.5 shadow-brutal-sm"
@@ -227,7 +235,7 @@ export function Navbar() {
                   );
                 })}
                 <div className="h-px bg-ink/20 my-3" />
-                {SECONDARY.map((item) => (
+                {NAV.map((item) => (
                   <Link
                     key={item.href}
                     href={item.href}
@@ -240,9 +248,9 @@ export function Navbar() {
                 <Link
                   href="/iletisim"
                   onClick={() => setMobileOpen(false)}
-                  className="mt-4 flex items-center justify-between border-3 border-ink bg-ink p-3 font-bold uppercase text-sm text-paper shadow-brutal-sm"
+                  className="mt-4 flex items-center justify-between border-3 border-ink bg-brand-yellow p-3 font-black uppercase text-sm text-ink shadow-brutal-sm"
                 >
-                  <span>Projeyi Konuşalım</span>
+                  <span>Görüşme Al</span>
                   <ArrowUpRight className="h-4 w-4" />
                 </Link>
               </div>

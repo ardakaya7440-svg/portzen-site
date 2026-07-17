@@ -5,12 +5,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Neobrutalist base (revision §2)
-        paper: "var(--paper)", // #FFFDF5 page background
-        ink: "var(--ink)", // #0A0A0A text + all borders
+        // Neobrutalist base
+        paper: "var(--paper)", // #FBFAF5 page background
+        ink: "var(--ink)", // #0B0B0C text + all borders
+        mute: "#F0EEE6", // hero video kutu bg
         // Vivid block palette
         brand: {
-          yellow: "#FFD23F",
+          yellow: "#FFE04A",
           pink: "#FF5CA8",
           blue: "#2D6CDF",
           green: "#22C55E",
