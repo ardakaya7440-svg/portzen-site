@@ -2,22 +2,34 @@
 
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { MessageSquare, Menu, X, ArrowUpRight } from "lucide-react";
+import { Menu, X, ChevronDown, ArrowUpRight, Video, MessageSquare, Workflow, Sparkles, Globe, LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 /**
- * Navbar — sade, dikkat dağıtmayan.
- * Dropdown/mega menu yok. Direkt 5 hizmet + Referanslar + Blog + Hakkımızda.
- * Mobil: drawer.
+ * Navbar — hibrit yaklaşım:
+ * - Sol: yeni dark logo (public/logo.png) — dark kutu içinde
+ * - Orta: "Hizmetler" TEK dropdown (eski renkli mini grid — sade 5 hizmet)
+ *         + Referanslar / Blog / Hakkımızda düz linkler (yeni sadelik)
+ * - Sağ: "Görüşme Al" CTA
+ * - Mobil: drawer (sade, hizmetler + secondary)
  */
 
-const NAV = [
-  { label: "AI Video", href: "/yapay-zeka-video-uretimi" },
-  { label: "WhatsApp AI", href: "/whatsapp-ai-asistani" },
-  { label: "Otomasyon", href: "/crm-otomasyonu" },
-  { label: "Sosyal Medya", href: "/sosyal-medya-yonetimi" },
-  { label: "Web Tasarım", href: "/web-tasarim" }
+interface ServiceItem {
+  title: string;
+  href: string;
+  icon: LucideIcon;
+  tone: string;
+  textTone: string;
+}
+
+const SERVICES: ServiceItem[] = [
+  { title: "AI Reklam Videosu", href: "/yapay-zeka-video-uretimi", icon: Video, tone: "bg-brand-pink", textTone: "text-paper" },
+  { title: "WhatsApp AI Asistanı", href: "/whatsapp-ai-asistani", icon: MessageSquare, tone: "bg-brand-green", textTone: "text-paper" },
+  { title: "Otomasyon & CRM", href: "/crm-otomasyonu", icon: Workflow, tone: "bg-brand-blue", textTone: "text-paper" },
+  { title: "Sosyal Medya İçerik", href: "/sosyal-medya-yonetimi", icon: Sparkles, tone: "bg-brand-yellow", textTone: "text-ink" },
+  { title: "Web Tasarım", href: "/web-tasarim", icon: Globe, tone: "bg-brand-orange", textTone: "text-paper" }
 ];
 
 const SECONDARY = [
@@ -28,6 +40,7 @@ const SECONDARY = [
 
 export function Navbar() {
   const [scrolled, setScrolled] = React.useState(false);
+  const [servicesOpen, setServicesOpen] = React.useState(false);
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   React.useEffect(() => {
@@ -45,32 +58,56 @@ export function Navbar() {
           ? "bg-paper border-b-3 border-ink shadow-brutal-sm"
           : "bg-transparent border-b-3 border-transparent"
       )}
+      onMouseLeave={() => setServicesOpen(false)}
     >
       <div className="mx-auto flex max-w-container items-center gap-2 px-6 py-3">
-        <Link href="/" className="flex items-center shrink-0">
-          <div className="border-3 border-ink bg-brand-yellow px-3 py-1.5 shadow-brutal-sm">
-            <span className="font-display text-xl font-black tracking-tight text-ink">PORTZEN</span>
+        {/* Sol: Yeni dark logo — bg-ink kutu içinde */}
+        <Link
+          href="/"
+          className="flex items-center shrink-0"
+          onMouseEnter={() => setServicesOpen(false)}
+        >
+          <div className="border-3 border-ink bg-ink p-1 shadow-brutal-sm flex items-center">
+            <Image
+              src="/logo.png"
+              alt="PORTZEN"
+              width={44}
+              height={44}
+              priority
+              className="h-11 w-11 object-contain"
+            />
           </div>
         </Link>
 
-        {/* Desktop nav — sade, tek satır */}
+        {/* Orta nav — desktop */}
         <nav className="hidden lg:flex items-center gap-1 ml-6">
-          {NAV.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="border-3 border-transparent px-3 py-2 text-sm font-bold uppercase tracking-wide text-ink hover:bg-ink/5 transition-colors whitespace-nowrap"
+          {/* Hizmetler dropdown */}
+          <div
+            className="relative"
+            onMouseEnter={() => setServicesOpen(true)}
+          >
+            <button
+              type="button"
+              className={cn(
+                "flex items-center gap-1.5 border-3 border-transparent px-3 py-2 text-sm font-bold uppercase tracking-wide transition-colors whitespace-nowrap",
+                servicesOpen
+                  ? "border-ink bg-ink text-paper"
+                  : "text-ink hover:bg-ink/5"
+              )}
             >
-              {item.label}
-            </Link>
-          ))}
+              <span>Hizmetler</span>
+              <ChevronDown className={cn("h-3.5 w-3.5 shrink-0 transition-transform", servicesOpen && "rotate-180")} />
+            </button>
+          </div>
 
           <span className="mx-2 h-5 w-px bg-ink/20" />
 
+          {/* Secondary linkler — düz */}
           {SECONDARY.map((item) => (
             <Link
               key={item.href}
               href={item.href}
+              onMouseEnter={() => setServicesOpen(false)}
               className="border-3 border-transparent px-3 py-2 text-sm font-bold uppercase tracking-wide text-ink hover:bg-ink/5 transition-colors whitespace-nowrap"
             >
               {item.label}
@@ -78,7 +115,11 @@ export function Navbar() {
           ))}
         </nav>
 
-        <div className="ml-auto flex items-center gap-2">
+        {/* Sağ: CTA + mobil hamburger */}
+        <div
+          className="ml-auto flex items-center gap-2"
+          onMouseEnter={() => setServicesOpen(false)}
+        >
           <Link
             href="/iletisim"
             className="hidden sm:inline-flex items-center gap-2 border-3 border-ink bg-ink px-4 py-2 text-sm font-bold uppercase text-paper shadow-brutal-sm transition-all hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal whitespace-nowrap"
@@ -96,7 +137,48 @@ export function Navbar() {
         </div>
       </div>
 
-      {/* MOBİL DRAWER — sade dikey liste */}
+      {/* HİZMETLER DROPDOWN — renkli mini grid */}
+      <AnimatePresence>
+        {servicesOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -6 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -6 }}
+            transition={{ duration: 0.15, ease: [0.2, 0.9, 0.3, 1] }}
+            className="absolute left-0 right-0 top-full"
+          >
+            <div className="mx-auto max-w-container px-6 pb-4">
+              <div className="border-3 border-ink bg-paper shadow-brutal-lg p-3 max-w-3xl">
+                <div className="grid gap-2 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
+                  {SERVICES.map((svc) => {
+                    const Icon = svc.icon;
+                    return (
+                      <Link
+                        key={svc.href}
+                        href={svc.href}
+                        className={cn(
+                          "group flex items-center gap-2 border-3 border-ink px-3 py-2.5 shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all",
+                          svc.tone,
+                          svc.textTone
+                        )}
+                      >
+                        <div className="border-3 border-ink bg-paper text-ink p-1 flex-shrink-0">
+                          <Icon className="h-3.5 w-3.5" />
+                        </div>
+                        <span className="text-xs font-black leading-tight flex-1">
+                          {svc.title}
+                        </span>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* MOBİL DRAWER */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
@@ -115,7 +197,9 @@ export function Navbar() {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex items-center justify-between p-4 border-b-3 border-ink">
-                <span className="font-display font-black text-lg">MENÜ</span>
+                <div className="border-3 border-ink bg-ink p-1 flex items-center">
+                  <Image src="/logo.png" alt="PORTZEN" width={36} height={36} className="h-9 w-9 object-contain" />
+                </div>
                 <button
                   onClick={() => setMobileOpen(false)}
                   className="border-3 border-ink bg-paper p-1.5 shadow-brutal-sm"
@@ -128,16 +212,24 @@ export function Navbar() {
                 <div className="text-xs font-black uppercase tracking-wider text-ink/60 mb-2 px-1">
                   Hizmetler
                 </div>
-                {NAV.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={() => setMobileOpen(false)}
-                    className="block border-3 border-ink bg-brand-yellow p-3 font-bold uppercase text-sm text-ink shadow-brutal-sm"
-                  >
-                    {item.label}
-                  </Link>
-                ))}
+                {SERVICES.map((svc) => {
+                  const Icon = svc.icon;
+                  return (
+                    <Link
+                      key={svc.href}
+                      href={svc.href}
+                      onClick={() => setMobileOpen(false)}
+                      className={cn(
+                        "flex items-center gap-3 border-3 border-ink p-3 shadow-brutal-sm",
+                        svc.tone,
+                        svc.textTone
+                      )}
+                    >
+                      <Icon className="h-5 w-5" />
+                      <span className="font-bold uppercase text-sm">{svc.title}</span>
+                    </Link>
+                  );
+                })}
                 <div className="h-px bg-ink/20 my-3" />
                 {SECONDARY.map((item) => (
                   <Link
