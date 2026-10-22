@@ -6,6 +6,7 @@ import { getPublicContent } from "@/server/cms";
 import { BrandStrip } from "@/components/cms/BrandStrip";
 import { TestimonialGrid } from "@/components/cms/Testimonials";
 import { ProcessDiagram } from "@/components/visual/ProcessDiagram";
+import { OFFICES } from "@/data/offices";
 
 /**
  * Ana sayfa sırası: kısa giriş → marka şeridi → çalışma süreci → müşteri yorumları → SSS → iletişim.
@@ -317,12 +318,22 @@ export default async function HomePage() {
                   <a href="mailto:destek@portzenai.com" className="inline-flex items-center gap-3 hover:text-slate/60">
                     <Mail className="h-4 w-4" /> destek@portzenai.com
                   </a>
-                  <span className="inline-flex items-center gap-3 text-slate/70">
-                    <MapPin className="h-4 w-4" /> İzmir, Türkiye
-                  </span>
-                  <span className="inline-flex items-center gap-3 text-slate/70">
-                    <MapPin className="h-4 w-4" /> Kazan IT Park, Rusya
-                  </span>
+                  <div className="mt-4">
+                    <p className="text-xs font-bold uppercase tracking-wider text-slate/50">Ofislerimiz</p>
+                    <ul className="mt-3 grid gap-4 sm:grid-cols-2">
+                      {OFFICES.map((o) => (
+                        <li key={o.country} className="flex items-start gap-3">
+                          <MapPin className="mt-0.5 h-4 w-4 shrink-0" />
+                          <span>
+                            <span className="block font-bold text-slate">{o.country}</span>
+                            <span className="block text-slate/70">
+                              {o.city} · {o.detail}
+                            </span>
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </Reveal>

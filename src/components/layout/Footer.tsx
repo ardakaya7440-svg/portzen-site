@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight, Mail, MapPin } from "lucide-react";
+import { OFFICES } from "@/data/offices";
 
 /**
  * Footer — Studiova düzeni, koyu zemin.
@@ -105,14 +106,22 @@ export function Footer() {
                 <Mail className="h-4 w-4 text-lime" />
                 destek@portzenai.com
               </a>
-              <span className="inline-flex items-center gap-3 text-white/80">
-                <MapPin className="h-4 w-4 text-lime" />
-                İzmir, Türkiye
-              </span>
-              <span className="inline-flex items-center gap-3 text-white/80">
-                <MapPin className="h-4 w-4 text-lime" />
-                Kazan IT Park, Rusya
-              </span>
+              <div className="mt-3">
+                <p className="text-xs font-bold uppercase tracking-wider text-white/50">Ofislerimiz</p>
+                <ul className="mt-3 space-y-3">
+                  {OFFICES.map((o) => (
+                    <li key={o.country} className="flex items-start gap-3">
+                      <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-lime" />
+                      <span>
+                        <span className="block font-bold text-white">{o.country}</span>
+                        <span className="block text-sm text-white/70">
+                          {o.city} · {o.detail}
+                        </span>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
             <p className="text-sm text-white/60 max-w-sm">
               İzmir merkezli, Kazan IT Park ofisli sosyal medya ve yazılım ajansı. Sosyal medyanızı yönetiriz, yazılımınızı geliştiririz.

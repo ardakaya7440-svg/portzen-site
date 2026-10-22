@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 import type { FormEvent } from "react";
-import { ArrowUpRight, MessageSquare, Mail, Calendar, Phone, CheckCircle2 } from "lucide-react";
+import { ArrowUpRight, MessageSquare, Mail, Calendar, Phone, CheckCircle2, MapPin } from "lucide-react";
+import { OFFICES } from "@/data/offices";
 import { Reveal } from "@/components/ui/reveal";
 import { trackLeadFormSubmit, trackWhatsAppClick, trackEmailClick, trackPhoneClick } from "@/lib/analytics";
 import { SERVICE_OPTIONS, TIER_NAMES, WHATSAPP_NUMBER, whatsappUrl } from "@/data/pricing";
@@ -204,8 +205,20 @@ export default function Page() {
               <span className="text-sm text-slate/70 leading-relaxed">
                 <span className="block font-bold text-slate text-base">Çalışma saatleri</span>
                 Pazartesi – Cumartesi, 09:30 – 18:30
-                <br />
-                İzmir merkez ekip · Kazan IT Park ofisi (Rusya)
+              </span>
+            </div>
+          </Reveal>
+          <Reveal delay={350}>
+            <div className="flex items-start gap-4 rounded-2xl border border-slate/15 bg-white p-5">
+              <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-slate" />
+              <span className="text-sm text-slate/70 leading-relaxed">
+                <span className="block font-bold text-slate text-base">Ofislerimiz</span>
+                {OFFICES.map((o) => (
+                  <span key={o.country} className="mt-2 block">
+                    <span className="block font-semibold text-slate">{o.country}</span>
+                    {o.city} · {o.detail}
+                  </span>
+                ))}
               </span>
             </div>
           </Reveal>
