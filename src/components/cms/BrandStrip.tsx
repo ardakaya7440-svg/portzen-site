@@ -28,10 +28,11 @@ function Logo({ b, hidden = false }: { b: PublicBrand; hidden?: boolean }) {
       loading="lazy"
       decoding="async"
       style={{ width: box.width, height: box.height }}
-      className="object-contain"
+      // Siyah-beyaz ve hafif silik; üzerine gelince veya klavyeyle odaklanınca renkli
+      className="object-contain opacity-60 grayscale transition duration-300 group-hover/logo:opacity-100 group-hover/logo:grayscale-0 group-focus-visible/logo:opacity-100 group-focus-visible/logo:grayscale-0"
     />
   );
-  const cls = "flex h-20 shrink-0 items-center justify-center px-6 sm:px-8";
+  const cls = "group/logo flex h-20 shrink-0 items-center justify-center px-6 sm:px-8";
   if (b.url && !hidden) {
     return (
       <a href={b.url} target="_blank" rel="noopener noreferrer nofollow" className={cn(cls, "rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-slate")}>
