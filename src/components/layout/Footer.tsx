@@ -109,9 +109,13 @@ export function Footer() {
                 <MapPin className="h-4 w-4 text-lime" />
                 İzmir, Türkiye
               </span>
+              <span className="inline-flex items-center gap-3 text-white/80">
+                <MapPin className="h-4 w-4 text-lime" />
+                Kazan IT Park, Rusya
+              </span>
             </div>
             <p className="text-sm text-white/60 max-w-sm">
-              İzmir merkezli sosyal medya ve yazılım ajansı. Sosyal medyanızı yönetiriz, yazılımınızı geliştiririz.
+              İzmir merkezli, Kazan IT Park ofisli sosyal medya ve yazılım ajansı. Sosyal medyanızı yönetiriz, yazılımınızı geliştiririz.
             </p>
           </div>
 

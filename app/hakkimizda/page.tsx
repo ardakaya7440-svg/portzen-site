@@ -61,7 +61,7 @@ const sectors = [
   "E-Ticaret", "Eğitim Kurumu"
 ];
 
-const cities = ["İzmir", "İstanbul", "Ankara"];
+const cities = ["İzmir", "İstanbul", "Ankara", "Kazan (Rusya)"];
 
 export default function Page() {
   return (
@@ -259,7 +259,7 @@ export default function Page() {
                 Hizmet Verdiğimiz Şehirler
               </div>
               <h2 className="font-display text-2xl font-black mb-4">
-                İzmir merkez, Türkiye geneli uzaktan.
+                İzmir merkez, Kazan IT Park ofisi.
               </h2>
               <div className="flex flex-wrap gap-2">
                 {cities.map((c) => (
@@ -273,7 +273,7 @@ export default function Page() {
                 ))}
               </div>
               <p className="mt-4 text-sm text-ink/70 leading-relaxed">
-                İzmir&apos;de yüz yüze görüşme, Türkiye geneli için uzaktan iş birliği.
+                İzmir&apos;deki merkezimiz ve Kazan IT Park&apos;taki ofisimizle Türkiye ve Rusya&apos;daki işletmelerle çalışıyoruz.
                 Görüşmeler online yapılır; şehir fark etmez.
               </p>
             </div>

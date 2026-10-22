@@ -205,7 +205,7 @@ export default function Page() {
                 <span className="block font-bold text-slate text-base">Çalışma saatleri</span>
                 Pazartesi – Cumartesi, 09:30 – 18:30
                 <br />
-                İzmir merkez ekip
+                İzmir merkez ekip · Kazan IT Park ofisi (Rusya)
               </span>
             </div>
           </Reveal>

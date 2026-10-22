@@ -37,7 +37,7 @@ const FAQ = [
   },
   {
     q: "Nerede çalışıyorsunuz?",
-    a: "İzmir merkezliyiz. Türkiye'nin her yerinden işletmelerle uzaktan çalışıyoruz; görüşmeler online yapılır."
+    a: "İzmir merkezliyiz; Rusya'da Kazan IT Park'ta da ofisimiz var. Türkiye'nin her yerinden ve Rusya'dan işletmelerle uzaktan çalışıyoruz; görüşmeler online yapılır."
   },
   {
     q: "Ne kadar sürer?",
@@ -319,6 +319,9 @@ export default async function HomePage() {
                   </a>
                   <span className="inline-flex items-center gap-3 text-slate/70">
                     <MapPin className="h-4 w-4" /> İzmir, Türkiye
+                  </span>
+                  <span className="inline-flex items-center gap-3 text-slate/70">
+                    <MapPin className="h-4 w-4" /> Kazan IT Park, Rusya
                   </span>
                 </div>
               </div>

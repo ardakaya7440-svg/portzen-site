@@ -85,17 +85,29 @@ const organizationSchema = {
   telephone: "+905318639117",
   foundingDate: "2026",
   slogan: "Sosyal medyanızı yönetiriz. Yazılımınızı geliştiririz.",
-  address: {
-    "@type": "PostalAddress",
-    addressCountry: "TR",
-    addressRegion: "İzmir",
-    addressLocality: "İzmir"
-  },
+  address: [
+    {
+      "@type": "PostalAddress",
+      addressCountry: "TR",
+      addressRegion: "İzmir",
+      addressLocality: "İzmir"
+    },
+    {
+      "@type": "PostalAddress",
+      name: "PORTZEN Kazan ofisi (IT Park)",
+      streetAddress: "IT Park, Peterburgskaya ul. 52",
+      addressLocality: "Kazan",
+      addressRegion: "Tataristan",
+      addressCountry: "RU"
+    }
+  ],
   areaServed: [
     { "@type": "Country", name: "Türkiye" },
     { "@type": "City", name: "İzmir" },
     { "@type": "City", name: "İstanbul" },
-    { "@type": "City", name: "Ankara" }
+    { "@type": "City", name: "Ankara" },
+    { "@type": "Country", name: "Rusya" },
+    { "@type": "City", name: "Kazan" }
   ],
   knowsAbout: [
     "Sosyal Medya Yönetimi",
