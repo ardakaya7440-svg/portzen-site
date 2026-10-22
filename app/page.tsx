@@ -1,18 +1,14 @@
 import Link from "next/link";
 import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
-import { PriceOverview } from "@/components/pricing/PriceOverview";
 import { PRICING, SINGLE, formatTL } from "@/data/pricing";
 import { getPublicContent } from "@/server/cms";
 import { BrandStrip } from "@/components/cms/BrandStrip";
-import { ServiceGroups } from "@/components/cms/ServiceCards";
-import { WorksGrid } from "@/components/cms/Works";
 import { TestimonialGrid } from "@/components/cms/Testimonials";
 import { ProcessDiagram } from "@/components/visual/ProcessDiagram";
 
 /**
- * Ana sayfa sırası: kısa giriş → marka şeridi → görselli hizmetler → seçilmiş işler → çalışma süreci
- * → fiyat özeti → müşteri yorumları → SSS → iletişim.
+ * Ana sayfa sırası: kısa giriş → marka şeridi → çalışma süreci → müşteri yorumları → SSS → iletişim.
  * Fiyatlar src/data/pricing.ts'ten, logolar/yorumlar/işler/hizmet görselleri admin panelinden (src/server/cms.ts) gelir.
  * Logo veya yayımlanmış yorum yoksa ilgili bölüm hiç çizilmez.
  */
@@ -211,43 +207,6 @@ export default async function HomePage() {
         </section>
       )}
 
-      {/* ───────── HİZMETLER ───────── */}
-      <section id="hizmetler" className="bg-white text-slate py-20 lg:py-28 border-t border-slate/10">
-        <div className="mx-auto max-w-container px-6 flex flex-col gap-12 lg:gap-16">
-          <div className="grid gap-8 xl:grid-cols-[1fr_2fr]">
-            <Reveal>
-              <SectionTag n={no()} label="Hizmetler" />
-            </Reveal>
-            <Reveal>
-              <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Üç alanda hizmet</h2>
-              <p className="mt-6 text-lg text-slate/70 max-w-2xl">
-                Sosyal medya ve içerik, AI ve otomasyon, web ve yazılım. Ayrıntılar, süreç ve paketler her hizmetin kendi
-                sayfasında.
-              </p>
-            </Reveal>
-          </div>
-          <ServiceGroups visuals={cms.services} />
-        </div>
-      </section>
-
-      {/* ───────── SEÇİLMİŞ İŞLER ───────── */}
-      <section id="isler" className="bg-white py-20 lg:py-28 border-t border-slate/10">
-        <div className="mx-auto max-w-container px-6 flex flex-col gap-12">
-          <div className="grid gap-8 xl:grid-cols-[1fr_2fr]">
-            <Reveal>
-              <SectionTag n={no()} label="Seçilmiş işler" />
-            </Reveal>
-            <Reveal>
-              <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Neler üretiyoruz</h2>
-              <p className="mt-6 text-lg text-slate/70 max-w-2xl">
-                İçerik, akış ve ekran örnekleri. “Demo” etiketli kartlar temsili örneklerdir.
-              </p>
-            </Reveal>
-          </div>
-          <WorksGrid works={cms.works} />
-        </div>
-      </section>
-
       {/* ───────── ÇALIŞMA SÜRECİ ───────── */}
       <section id="nasil" className="bg-white py-20 lg:py-28 border-t border-slate/10">
         <div className="mx-auto max-w-container px-6 flex flex-col gap-12 lg:gap-16">
@@ -262,27 +221,6 @@ export default async function HomePage() {
           </div>
           <Reveal>
             <ProcessDiagram steps={STEPS} />
-          </Reveal>
-        </div>
-      </section>
-
-      {/* ───────── FİYAT ÖZETİ ───────── */}
-      <section id="fiyatlar" className="bg-white py-20 lg:py-32 border-t border-slate/10">
-        <div className="mx-auto max-w-container px-6 flex flex-col gap-12 lg:gap-16">
-          <div className="grid gap-8 xl:grid-cols-[1fr_2fr]">
-            <Reveal>
-              <SectionTag n={no()} label="Fiyatlar" />
-            </Reveal>
-            <Reveal>
-              <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Net paketler, yazılı fiyatlar</h2>
-              <p className="mt-6 text-lg text-slate/70 max-w-2xl">
-                Her hizmette üç paket. Çoğu işletme için Büyüme paketini öneriyoruz. Tutarlar TL ve KDV hariçtir; kurulum
-                bedelleri fiyatın yanında yazılıdır.
-              </p>
-            </Reveal>
-          </div>
-          <Reveal>
-            <PriceOverview />
           </Reveal>
         </div>
       </section>

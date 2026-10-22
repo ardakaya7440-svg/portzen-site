@@ -20,7 +20,7 @@ export function WorkForm({ initial, status }: { initial: PublicWork; status: "dr
         {initial.id > 0 && <input type="hidden" name="id" value={initial.id} />}
         <input type="hidden" name="kind" value={w.kind} />
         {isService ? (
-          <Field label="Hizmet sayfası" htmlFor="service_key" required hint="Görsel, ana sayfadaki bu hizmetin kartında kullanılır.">
+          <Field label="Hizmet sayfası" htmlFor="service_key" required hint="Görsel, bu hizmet sayfasının “Kısaca” bölümünde kullanılır.">
             <select
               id="service_key"
               name="service_key"

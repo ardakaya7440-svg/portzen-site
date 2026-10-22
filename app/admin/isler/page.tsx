@@ -76,7 +76,7 @@ export default async function WorksPage({ searchParams }: { searchParams: { ok?:
     <>
       <PageHead
         title="Görseller ve işler"
-        intro="Seçilmiş işler ana sayfadaki “Seçilmiş işler” bölümünde, hizmet görselleri ise hizmet kartlarında görünür. Örnek/temsili çalışmalar “Demo” etiketiyle yayımlanır."
+        intro="Seçilmiş işler Referanslar sayfasında, hizmet görselleri ise hizmet sayfalarının “Kısaca” bölümünde görünür. Örnek/temsili çalışmalar “Demo” etiketiyle yayımlanır."
       />
       <Flash ok={searchParams.ok} err={searchParams.err} />
       <section className="mt-8">
@@ -86,7 +86,7 @@ export default async function WorksPage({ searchParams }: { searchParams: { ok?:
             Yeni iş
           </LinkButton>
         </div>
-        <p className="mt-1 text-sm text-slate/60">Yayımlanmış iş yokken ana sayfada kodla çizilmiş üç “Demo” kartı görünür.</p>
+        <p className="mt-1 text-sm text-slate/60">Yayımlanmış iş yoksa Referanslar sayfasında bu bölüm görünmez.</p>
         <div className="mt-3">
           <List rows={rows.filter((r) => r.kind === "work")} empty="Henüz iş eklenmedi." />
         </div>

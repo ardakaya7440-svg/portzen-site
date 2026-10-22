@@ -41,8 +41,8 @@ Fiyatlar hiçbir zaman kendiliğinden değişmez; başlangıç sürümü (v1) si
 - Taslak / yayımla / yayından kaldır / sırala / sil. Yayımlanmış yorum yoksa sitede yorum bölümü görünmez.
 
 ### Görseller ve işler
-- **Seçilmiş işler**: ana sayfadaki "Seçilmiş işler" kartları. Yayımlanmış iş yokken üç temsili "Demo" kartı görünür.
-- **Hizmet görselleri**: ana sayfadaki hizmet kartlarında ve hizmet sayfalarının "Kısaca" bölümünde kullanılır. Görsel yoksa kodla çizilmiş temsili görsel kullanılır.
+- **Seçilmiş işler**: Referanslar sayfasındaki "Seçilmiş işler" kartları. Yayımlanmış iş yoksa bölüm görünmez.
+- **Hizmet görselleri**: hizmet sayfalarının "Kısaca" bölümünde kullanılır. Görsel yoksa kodla çizilmiş temsili görsel kullanılır.
 - Alanlar: görsel/video (birden fazla), başlık, kısa açıklama, kategori, alternatif metin (yayın için zorunlu), proje ve video bağlantısı, **Demo** işareti (varsayılan açık).
 - Kapak seçimi, dosya sırası, dosya kaldırma, taslak/yayımla.
 
