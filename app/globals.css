@@ -360,3 +360,22 @@
   .pz-marquee-track > ul:first-child { flex-wrap: wrap; justify-content: center; flex-shrink: 1; width: 100%; }
   .pz-marquee-dup, .pz-marquee-btn { display: none; }
 }
+
+/* ── "Nasıl çalışıyoruz" kedisi (CatWalk) ── */
+@keyframes pz-leg-a { 0%,100% { transform: rotate(22deg); } 50% { transform: rotate(-22deg); } }
+@keyframes pz-leg-b { 0%,100% { transform: rotate(-22deg); } 50% { transform: rotate(22deg); } }
+@keyframes pz-head-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(1.5px); } }
+@keyframes pz-tail { 0%,100% { transform: rotate(0deg); } 50% { transform: rotate(8deg); } }
+@keyframes pz-flag { 0%,100% { transform: skewY(0deg); } 50% { transform: skewY(-8deg); } }
+.pz-cat-leg--a { animation: pz-leg-a .5s ease-in-out infinite; }
+.pz-cat-leg--b { animation: pz-leg-b .5s ease-in-out infinite; }
+.pz-cat-head { animation: pz-head-bob .25s ease-in-out infinite; }
+.pz-cat-tail { transform-origin: 22px 40px; }
+.pz-cat-tail--on { animation: pz-tail .5s ease-in-out infinite; }
+.pz-flag { transform-box: fill-box; transform-origin: 100% 0%; animation: pz-flag .6s ease-in-out infinite; }
+.pz-flag-wave { transform-box: fill-box; transform-origin: 0% 50%; animation: pz-flag .7s ease-in-out infinite; }
+.pz-step-dot { transition: background-color .3s ease, border-color .3s ease; }
+.pz-step-dot[data-reached] { background-color: #7ED957; border-color: #7ED957; color: #1F2A2E; }
+@media (prefers-reduced-motion: reduce) {
+  .pz-cat-leg--a, .pz-cat-leg--b, .pz-cat-head, .pz-cat-tail--on, .pz-flag, .pz-flag-wave { animation: none; }
+}

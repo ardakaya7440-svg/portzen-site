@@ -221,7 +221,7 @@ export default async function HomePage() {
             </Reveal>
           </div>
           <Reveal>
-            <ProcessDiagram steps={STEPS} />
+            <ProcessDiagram steps={STEPS} mascot />
           </Reveal>
         </div>
       </section>
