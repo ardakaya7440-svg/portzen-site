@@ -1,8 +1,6 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
 
-import * as React from "react";
-import { Pause, Play } from "lucide-react";
 import type { PublicBrand } from "@/server/cms";
 import { cn } from "@/lib/utils";
 import { logoBox } from "@/lib/logo-box";
@@ -11,7 +9,7 @@ import { logoBox } from "@/lib/logo-box";
 /**
  * Logo şeridi.
  * - Logolar kırpılmaz (object-contain); farklı en-boy oranları yaklaşık eşit görsel ağırlığa getirilir.
- * - Yeterli logo varsa yavaş, kesintisiz kayar; durdur/başlat düğmesi vardır, üzerine gelince/odaklanınca durur.
+ * - Yeterli logo varsa yavaş, kesintisiz kayar (durmadan).
  * - prefers-reduced-motion açıksa ve az logo varsa sabit dizilir.
  */
 const MIN_FOR_MARQUEE = 6;
@@ -44,7 +42,6 @@ function Logo({ b, hidden = false }: { b: PublicBrand; hidden?: boolean }) {
 }
 
 function Row({ items, label }: { items: PublicBrand[]; label: string }) {
-  const [paused, setPaused] = React.useState(false);
   const animate = items.length >= MIN_FOR_MARQUEE;
   if (!animate) {
     return (
@@ -62,7 +59,6 @@ function Row({ items, label }: { items: PublicBrand[]; label: string }) {
     <div className="relative">
       <div
         className="pz-marquee group relative overflow-hidden [mask-image:linear-gradient(to_right,transparent,#000_8%,#000_92%,transparent)]"
-        data-paused={paused || undefined}
       >
         <div className="pz-marquee-track flex w-max" style={{ animationDuration: `${duration}s` }}>
           <ul className="flex shrink-0 items-center" aria-label={label}>
@@ -80,17 +76,6 @@ function Row({ items, label }: { items: PublicBrand[]; label: string }) {
             ))}
           </ul>
         </div>
-      </div>
-      <div className="mt-3 flex justify-end">
-        <button
-          type="button"
-          onClick={() => setPaused((p) => !p)}
-          aria-pressed={paused}
-          className="pz-marquee-btn inline-flex h-11 items-center gap-1.5 rounded-full border border-slate/15 bg-white px-3 text-xs font-bold text-slate hover:bg-light"
-        >
-          {paused ? <Play className="h-3.5 w-3.5" aria-hidden /> : <Pause className="h-3.5 w-3.5" aria-hidden />}
-          {paused ? "Kaydırmayı başlat" : "Kaydırmayı durdur"}
-        </button>
       </div>
     </div>
   );

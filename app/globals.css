@@ -349,16 +349,11 @@
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.pz-marquee:hover .pz-marquee-track,
-.pz-marquee:focus-within .pz-marquee-track,
-.pz-marquee[data-paused] .pz-marquee-track {
-  animation-play-state: paused;
-}
 @media (prefers-reduced-motion: reduce) {
   .pz-marquee { -webkit-mask-image: none; mask-image: none; }
   .pz-marquee-track { animation: none; width: auto; }
   .pz-marquee-track > ul:first-child { flex-wrap: wrap; justify-content: center; flex-shrink: 1; width: 100%; }
-  .pz-marquee-dup, .pz-marquee-btn { display: none; }
+  .pz-marquee-dup { display: none; }
 }
 
 /* ── "Nasıl çalışıyoruz" kedisi (CatWalk) ── */
