@@ -15,21 +15,21 @@ ogImage: "/blog/og/klinik-online-randevu-sistemi-2026.png"
 
 Türkiye'de özel klinik sayısı her yıl yüzde 8-10 artarken hasta beklentisi de hızla değişiyor. 2026'da bir hasta, kliniği aramadan önce Instagram'dan inceliyor, Google Maps'ten yorumlara bakıyor, web sitesini açıyor ve eğer randevu almak için telefon etmesi gerekirse büyük ihtimalle başka bir klinik arıyor. Çünkü artık standart, **çevrimiçi randevu almaktan geçiyor**. Hem de WhatsApp üzerinden, çünkü hasta zaten orada.
 
-Klinikler için online randevu sistemi sadece "siteye takvim koymak" değil. Triaj, anamnez ön formu, hatırlatma, no-show önleme, doktor takvim eşleştirme, sigorta sorgu ve ödeme akışını birleştiren bir mimari. Bu yazıda PORTZEN olarak bizim 50+ kliniğe (estetik, diş, fizyoterapi, psikoloji, dermatoloji) kurduğumuz sistemin tüm adımlarını paylaşacağız. Sonunda kendi kliniğinizde hangi modüllerin gerekli olduğunu, hangi yazılımları seçeceğinizi ve maliyetin neye karşılık geldiğini netleştirmiş olacaksınız.
+Klinikler için online randevu sistemi sadece "siteye takvim koymak" değil. Triaj, anamnez ön formu, hatırlatma, no-show önleme, doktor takvim eşleştirme, sigorta sorgu ve ödeme akışını birleştiren bir mimari. Bu yazıda estetik, diş, fizyoterapi, psikoloji ve dermatoloji gibi branşlarda kullanılabilecek bir sistemin tüm adımlarını paylaşacağız. Sonunda kendi kliniğinizde hangi modüllerin gerekli olduğunu, hangi yazılımları seçeceğinizi ve maliyetin neye karşılık geldiğini netleştirmiş olacaksınız.
 
 ## Klinikte Randevu Akışı Neden Manuel Olarak Sürdürülemez?
 
 Orta ölçekli bir özel klinik günde 30-80 arası randevu yönetiyor. Bu randevular farklı kanallardan geliyor: telefon, WhatsApp, Instagram DM, Google'dan, web sitesinden, yüz yüze. Klasik akışta tüm bu kanalların ortak buluşma noktası **resepsiyon** oluyor.
 
-PORTZEN'in saha gözlemine göre bir resepsiyonist günde:
+Yoğun bir klinikte bir resepsiyonist gün içinde:
 
-- 60-100 telefon yanıtlıyor
-- 100-200 WhatsApp mesajı okuyor
-- 30-50 Instagram DM'i takip ediyor
-- 20-40 randevu defterine yazıyor / siliyor / değiştiriyor
+- Çok sayıda telefon yanıtlıyor
+- WhatsApp mesajlarını okuyor
+- Instagram DM'lerini takip ediyor
+- Randevuları deftere yazıyor / siliyor / değiştiriyor
 - Bunların arasında hasta karşılıyor, ödeme alıyor, dosya açıyor
 
-Sonuç: hatalı randevu, çakışma, hastayla yarım kalan iletişim, no-show oranının yüzde 18-25'e çıkması. **Online randevu sistemi bu yükün yüzde 60-70'ini otomatikleştirip resepsiyona insan yüzü gereken kısmı bırakıyor.**
+Sonuç: hatalı randevu, çakışma, hastayla yarım kalan iletişim, no-show oranının yükselmesi. **Online randevu sistemi bu yükün tekrar eden kısmını otomatikleştirip resepsiyona insan yüzü gereken kısmı bırakıyor.**
 
 ## Klinik Randevu Sistemi Hangi Modüllerden Oluşur?
 
@@ -63,7 +63,7 @@ Estetik, fizyoterapi, dermatoloji gibi branşlarda hastanın hangi hekime gitmes
 - Bölge (yüz, vücut, eklem vb.)
 - Aciliyet seviyesi
 
-Sonuçta sistem en uygun hekime yönlendiriyor. Bu hem hasta memnuniyetini hem doktor verimliliğini artırıyor. Triaj formuna trafik akıtmak için klinikler genelde Meta lead form kampanyaları kullanıyor; bu noktada profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle lead form → WhatsApp → randevu sistemi entegrasyonu kurulduğunda lead başına maliyet belirgin düşüyor.
+Sonuçta sistem en uygun hekime yönlendiriyor. Bu hem hasta memnuniyetini hem doktor verimliliğini artırıyor. Triaj formuna trafik akıtmak için klinikler genelde Meta lead form kampanyaları kullanıyor; bu noktada profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle lead form → WhatsApp → randevu sistemi entegrasyonu kurulduğunda lead'den randevuya kadar her adım ölçülebilir hale geliyor.
 
 ### 4. Anamnez ön formu
 
@@ -74,11 +74,11 @@ Randevu onaylandıktan sonra hastaya WhatsApp veya SMS ile kısa anamnez formu g
 - Daha önceki ameliyat / tedavi
 - Sigara, alkol, kronik hastalık
 
-Hasta kliniğe geldiğinde hekimin önünde dolu form duruyor, 10 dakikalık veri toplama süresi 2 dakikaya iniyor.
+Hasta kliniğe geldiğinde hekimin önünde dolu form duruyor, muayenedeki veri toplama süresi kısalıyor.
 
 ### 5. Hatırlatma ve no-show önleme
 
-No-show (gelmeyen hasta) klinik için en büyük kayıp kalemi. Tipik bir klinikte no-show oranı yüzde 18-25 arası. Doğru hatırlatma akışıyla bu oran yüzde 5-8'e iniyor.
+No-show (gelmeyen hasta) klinik için en büyük kayıp kalemi. Tipik bir klinikte no-show oranı yüzde 18-25 arası. Doğru hatırlatma akışı bu oranı düşürmenin en etkili yollarından biri.
 
 PORTZEN'in standart hatırlatma akışı:
 
@@ -87,7 +87,7 @@ PORTZEN'in standart hatırlatma akışı:
 - Randevudan 2 saat önce: "yola çıkmadan önce" kısa not
 - Randevu sonrası: takip mesajı + memnuniyet anketi
 
-İptal eden hasta otomatik olarak yedek listedeki hastaya yer açıyor. Boş slot oluşmuyor.
+İptal eden hasta otomatik olarak yedek listedeki hastaya yer açıyor. Böylece boş slot riski azalıyor.
 
 ### 6. Sigorta ve ödeme sorgu
 
@@ -129,21 +129,21 @@ Medula uyumlu, faturalandırma + randevu birleşik. Yıllık 8.000-25.000 TL ara
 Global, kolay kurulum, ucuz (aylık 200-600 TL). Avantaj: hızlı başlangıç. Dezavantaj: Türkçe destek yok, KVKK uyumsuz, klinik-özgü akış (triaj, anamnez) yok.
 
 ### Özel geliştirme (PORTZEN yaklaşımı)
-Klinik özelinde, mevcut yazılım ve WhatsApp ile entegre, branş bazlı triaj. Tek seferlik 40.000-120.000 TL kurulum + aylık bakım. Avantaj: tam ihtiyaca uyum, ölçek geldikçe genişleme. Dezavantaj: başlangıç maliyeti hazır yazılımdan yüksek.
+Klinik özelinde, mevcut yazılım ve WhatsApp ile entegre, branş bazlı triaj. PORTZEN'de bu yapı AI müşteri asistanı paketleriyle ({{fiyatlar:ai-musteri-asistani}}) kurulur; tamamen özel bir randevu paneli gerekiyorsa özel web uygulaması olarak ({{tekil:ozel-web-uygulamasi}}) tekliflendirilir. Tutarlar KDV hariçtir. Avantaj: tam ihtiyaca uyum, ölçek geldikçe genişleme. Dezavantaj: başlangıç maliyeti hazır yazılımdan yüksek.
 
 PORTZEN olarak biz 8-10 hekime kadar olan kliniklerde hibrit yaklaşım öneriyoruz: kullandığınız klinik yönetim yazılımının üzerine WhatsApp bot + triaj + hatırlatma katmanı kuruyoruz, mevcut faturalandırma ve hasta dosyası akışınızı bozmuyoruz.
 
-## Beklenen Sonuçlar ve Yatırım Geri Dönüşü
+## Kurulumdan Sonra Neler Değişir?
 
-Saha verisinden ortalama rakamlar (kurulumdan sonra ilk 6 ay):
+Kurulumdan sonraki ilk aylarda izlenmesi gereken değişimler:
 
-- No-show oranı yüzde 18-25'ten yüzde 5-8'e düşüyor
-- Randevu doluluk oranı yüzde 15-25 artıyor
-- Resepsiyon iş yükü yüzde 50-60 azalıyor
-- Hasta memnuniyet skorunda "ulaşılabilirlik" puanı belirgin yükseliyor
-- Aylık yeni hasta kazanım oranı yüzde 20-35 artıyor (organik + reklam birleşik)
+- No-show oranı (hatırlatma akışının etkisi)
+- Randevu doluluk oranı
+- Resepsiyonun telefon ve mesaja ayırdığı süre
+- Hasta memnuniyet anketlerinde "ulaşılabilirlik" puanı
+- Aylık yeni hasta sayısı ve geldiği kanal (organik + reklam)
 
-Tipik bir klinikte sistem 4-7 ay içinde kendini amorti ediyor. Estetik gibi ortalama gelir yüksek branşlarda 2-3 ay yetiyor.
+Sistemin kendini ne kadar sürede amorti edeceği kliniğin randevu hacmine, branşına ve ortalama tedavi bedeline göre değişir; bu metrikleri kurulum öncesi değerlerle karşılaştırarak net olarak görebilirsiniz.
 
 ## Sıkça Sorulan Sorular
 
@@ -164,6 +164,6 @@ Google Ads ve Meta Ads kampanyalarınızdan gelen trafik direkt web sitesindeki 
 
 ## PORTZEN ile Klinik İçin Online Randevu Sistemi Kurmak
 
-Kliniğinizde no-show'u düşürmek, resepsiyon yükünü hafifletmek ve hastaya 7/24 ulaşılabilir olmak istiyorsanız PORTZEN olarak biz uçtan uca çözüm sunuyoruz: WhatsApp randevu botu, triaj modülü, anamnez ön formu, hatırlatma otomasyonu ve mevcut klinik yazılımınızla entegrasyon. Web siteniz yoksa veya yenilenmesi gerekiyorsa [klinik web tasarım](/web-tasarim/klinik) hizmetimizle birlikte tek paket olarak sunuyoruz.
+Kliniğinizde no-show'u düşürmek, resepsiyon yükünü hafifletmek ve hastaya 7/24 ulaşılabilir olmak istiyorsanız PORTZEN olarak biz uçtan uca çözüm sunuyoruz: WhatsApp randevu botu, triaj modülü, anamnez ön formu, hatırlatma otomasyonu ve mevcut klinik yazılımınızla entegrasyon. Web siteniz yoksa veya yenilenmesi gerekiyorsa [klinik web tasarım](/web-tasarim/klinik) hizmetimizle birlikte kurabiliyoruz; her hizmet kendi paket fiyatıyla [fiyatlar sayfasında](/fiyatlar) yer alır.
 
 Kliniğinizin günlük randevu hacmine, branş yapısına ve mevcut yazılımına uygun özel teklif almak için [iletişime geçin](/iletisim). İlk görüşmede biz iş akışınızı dinliyoruz, ardından net ve şeffaf bir kurulum planı çıkarıyoruz.

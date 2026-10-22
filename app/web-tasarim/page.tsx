@@ -25,11 +25,15 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 import { RelatedSectorsSection } from "@/components/landing/RelatedSectorsSection";
 import { RelatedLocationsSection } from "@/components/landing/RelatedLocationsSection";
+import { PricingSection, WebExtrasSection } from "@/components/pricing/PricingSection";
+import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
+import { MoreDetails } from "@/components/visual/MoreDetails";
+import { PRICING, SINGLE, familyOffersSchema, familyPriceSummary, singlePriceLabel } from "@/data/pricing";
 
 const URL = "https://portzenai.com/web-tasarim";
 const TITLE = "Web Tasarım | Marka Sitesi & Landing Page — PORTZEN";
 const DESCRIPTION =
-  "İzmir merkezli web tasarım ajansı. Mobil uyumlu, hızlı ve SEO uyumlu landing page, kurumsal web sitesi ve e-ticaret çözümleri. 14 günde teslim, sabit fiyat. Ücretsiz görüşme alın.";
+  "İzmir merkezli web tasarım ajansı. Mobil uyumlu, hızlı ve SEO uyumlu landing page, kurumsal web sitesi ve e-ticaret çözümleri. Yazılı paket fiyatları; teslim süresi kapsama göre teklifte yazılı. Ücretsiz görüşme alın.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -72,18 +76,13 @@ const serviceJsonLd = {
     name: "PORTZEN",
     image: "https://portzenai.com/og-image.png",
     url: "https://portzenai.com",
-    telephone: "+90-501-588-48-53",
+    telephone: "+90-531-863-91-17",
     email: "destek@portzenai.com",
     address: { "@type": "PostalAddress", addressLocality: "İzmir", addressCountry: "TR" },
-    priceRange: "₺₺",
   },
   areaServed: { "@type": "Country", name: "Türkiye" },
   description: DESCRIPTION,
-  offers: [
-    { "@type": "Offer", name: "Landing Page", price: "8000", priceCurrency: "TRY" },
-    { "@type": "Offer", name: "Marka Sitesi", price: "15000", priceCurrency: "TRY" },
-    { "@type": "Offer", name: "E-Ticaret", price: "35000", priceCurrency: "TRY" },
-  ],
+  offers: [...familyOffersSchema(PRICING["kurumsal-web-sitesi"]), ...familyOffersSchema(PRICING["e-ticaret"])],
 };
 
 const faqJsonLd = {
@@ -95,7 +94,7 @@ const faqJsonLd = {
       name: "Web tasarım fiyatları ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Landing Page 8.000-15.000 TL, kurumsal marka sitesi 15.000-35.000 TL, e-ticaret sitesi 35.000-75.000 TL bandında çalışıyoruz. Brief'iniz net olduğunda 24 saat içinde sabit fiyat teklifi paylaşıyoruz.",
+        text: `Fiyatlarımız yazılıdır (KDV hariç, proje başı). Landing page ${singlePriceLabel(SINGLE["landing-page"])}. Kurumsal web sitesi: ${familyPriceSummary("kurumsal-web-sitesi")}. E-ticaret sitesi: ${familyPriceSummary("e-ticaret")}. Hosting, alan adı, çeviri ve harici lisanslar hariçtir.`,
       },
     },
     {
@@ -103,7 +102,7 @@ const faqJsonLd = {
       name: "Web sitemi kaç günde teslim ediyorsunuz?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Landing Page 7-10 iş günü, kurumsal marka sitesi 14-21 iş günü, e-ticaret 30-45 iş günü içinde canlıya alınır. İçerik (metin + görsel) zamanında geldiğinde takvim sapmaz.",
+        text: "Teslim süresi landing page, kurumsal site veya e-ticaret kapsamına göre teklifte yazılı olarak belirtilir. İçeriğin (metin + görsel) zamanında gelmesi takvimin korunması için önemlidir.",
       },
     },
     {
@@ -111,7 +110,7 @@ const faqJsonLd = {
       name: "Hangi teknolojiyi kullanıyorsunuz, WordPress mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "WordPress kullanmıyoruz. Tüm sitelerimizi Next.js + React ile geliştiriyoruz. Eklenti şişmesi olmadığı için site belirgin şekilde daha hızlı ve güvenli çalışıyor. Lighthouse skorlarımız 90 üzerinde.",
+        text: "WordPress kullanmıyoruz. Tüm sitelerimizi Next.js + React ile geliştiriyoruz. Eklenti şişmesi olmadığı için site belirgin şekilde daha hızlı ve güvenli çalışıyor. Lighthouse skorunda 90+ hedefliyoruz.",
       },
     },
     {
@@ -119,7 +118,7 @@ const faqJsonLd = {
       name: "Mobil uyumlu mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tüm projelerimiz mobile-first prensibiyle tasarlanır. Önce mobil, sonra tablet, en son masaüstü. Trafiğinizin %70+ mobilden geldiğini biliyoruz.",
+        text: "Tüm projelerimiz mobile-first prensibiyle tasarlanır. Önce mobil, sonra tablet, en son masaüstü. Trafiğin büyük kısmının mobilden geldiğini biliyoruz.",
       },
     },
     {
@@ -127,7 +126,7 @@ const faqJsonLd = {
       name: "İzmir dışındaki firmalarla çalışıyor musunuz?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Merkezimiz İzmir'de ama Türkiye'nin her şehrinden müşterimiz var. İstanbul, Ankara, Bursa, Antalya başta olmak üzere uzaktan tüm süreci yönetiyoruz. Görüşmeler Google Meet üzerinden yapılır.",
+        text: "Evet. Merkezimiz İzmir'de; İstanbul, Ankara, Bursa, Antalya dahil Türkiye'nin her şehrindeki firmalarla tüm süreci uzaktan yönetebiliyoruz. Görüşmeler Google Meet üzerinden yapılır.",
       },
     },
     {
@@ -135,7 +134,7 @@ const faqJsonLd = {
       name: "Site teslim edildikten sonra ben mi güncelleyeceğim?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "İki seçenek sunuyoruz: (1) Kendi paneliniz üzerinden içerik güncelleyebileceğiniz bir CMS kuruyoruz, (2) Aylık bakım paketi ile tüm güncellemeleri biz yapıyoruz (2.500 TL/ay'dan başlıyor).",
+        text: `İki seçenek sunuyoruz: (1) Büyüme ve Kurumsal paketlerde kendi panelinizden içerik güncelleyebileceğiniz bir CMS kuruyoruz, (2) aylık web bakımıyla güncellemeleri biz yapıyoruz: ${familyPriceSummary("web-bakim")}, KDV hariç. Saatler o paketin aylık toplam hakkıdır, birbirine eklenmez ve devretmez; yeni modül ve kapsamlı tasarım ayrıca tekliflendirilir.`,
       },
     },
     {
@@ -143,7 +142,7 @@ const faqJsonLd = {
       name: "SEO çalışması da yapıyor musunuz?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Teknik SEO standart olarak dahil: sitemap, robots.txt, schema markup, meta etiketleri, Open Graph, sayfa hızı optimizasyonu. İçerik SEO'su (blog yazıları, keyword araştırması) ayrı paket olarak sunulur.",
+        text: "SEO temeli her pakette dahil: sitemap, robots.txt, meta etiketleri, Open Graph, sayfa hızı optimizasyonu. Schema markup dahil teknik SEO Büyüme ve Kurumsal paketlerde yer alır. İçerik SEO'su (blog yazıları, keyword araştırması) ayrı paket olarak sunulur.",
       },
     },
   ],
@@ -175,7 +174,7 @@ export default function WebTasarimPage() {
       />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section border-b-3 border-ink">
+      <section className="bg-white py-section border-b-3 border-ink/15">
         <div className="mx-auto max-w-container px-6">
           {/* Breadcrumb */}
           <Reveal>
@@ -189,22 +188,22 @@ export default function WebTasarimPage() {
           <div className="grid lg:grid-cols-[1.4fr_1fr] gap-10 lg:gap-16 items-start">
             <div>
               <Reveal delay={50}>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-yellow px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-lime px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Sparkles className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Web Tasarım Ajansı — İzmir</span>
                 </div>
               </Reveal>
 
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] text-ink">
-                  Web Tasarım | Marka Sitesi, Landing Page, E-Ticaret — 14 Günde Teslim
+                <h1 className="font-display text-h1 font-black leading-tight text-ink">
+                  Web Tasarım | Marka Sitesi, Landing Page, E-Ticaret
                 </h1>
               </Reveal>
 
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
                   Mobil uyumlu, hızlı yüklenen ve dönüşüm odaklı{" "}
-                  <strong className="text-ink">profesyonel web sitesi</strong> tasarımı. WordPress değil — Next.js + React ile geliştiriyoruz. KOBİ, butik marka ve dijital girişimciler için sabit fiyat, sabit teslim takvimi.
+                  <strong className="text-ink">profesyonel web sitesi</strong> tasarımı. WordPress değil — Next.js + React ile geliştiriyoruz. KOBİ, butik marka ve dijital girişimciler için yazılı paket fiyatı, teklifte yazılı teslim takvimi.
                 </p>
               </Reveal>
 
@@ -212,15 +211,15 @@ export default function WebTasarimPage() {
                 <div className="mt-8 flex flex-col sm:flex-row gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-6 py-3.5 text-sm font-black uppercase text-paper shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
+                    className="inline-flex items-center justify-center gap-2 border-3 border-ink/15 bg-slate px-6 py-3.5 text-sm font-black text-white shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
                   >
                     Ücretsiz Teklif Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <a
-                    href="https://wa.me/905015884853"
+                    href="https://wa.me/905318639117"
                     target="_blank"
                     rel="noopener"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-brand-green px-6 py-3.5 text-sm font-black uppercase text-paper shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
+                    className="inline-flex items-center justify-center gap-2 border-3 border-ink/15 bg-slate px-6 py-3.5 text-sm font-black text-white shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
                   >
                     <MessageCircle className="h-4 w-4" /> WhatsApp ile Konuş
                   </a>
@@ -229,9 +228,9 @@ export default function WebTasarimPage() {
 
               <Reveal delay={400}>
                 <div className="mt-6 flex flex-wrap gap-4 text-xs font-bold uppercase tracking-wider text-ink/70">
-                  <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-brand-green" /> Sabit Fiyat</span>
-                  <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-brand-green" /> 14 Gün Teslim</span>
-                  <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-brand-green" /> Lighthouse 90+</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-ink" /> Sabit Fiyat</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-ink" /> Teslim Takvimi Teklifte</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-ink" /> Lighthouse 90+ Hedefi</span>
                 </div>
               </Reveal>
             </div>
@@ -239,21 +238,21 @@ export default function WebTasarimPage() {
             {/* Right: Stat grid */}
             <Reveal delay={350}>
               <div className="grid grid-cols-2 gap-4">
-                <div className="border-3 border-ink bg-brand-pink p-5 shadow-brutal">
-                  <div className="font-display text-5xl font-black text-paper leading-none">16x</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-paper/90">Organik trafik artışı (restoran vakası, 3 ay)</div>
+                <div className="border-3 border-ink/15 bg-light p-5 shadow-brutal rounded-2xl">
+                  <div className="font-display text-5xl font-black text-ink leading-none">Next.js</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/90">Altyapı (WordPress değil)</div>
                 </div>
-                <div className="border-3 border-ink bg-brand-blue p-5 shadow-brutal">
-                  <div className="font-display text-5xl font-black text-paper leading-none">14g</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-paper/90">Marka sitesi teslim süresi</div>
+                <div className="border-3 border-ink/15 bg-light p-5 shadow-brutal rounded-2xl">
+                  <div className="font-display text-5xl font-black text-ink leading-none">Mobil</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/90">Öncelikli tasarım</div>
                 </div>
-                <div className="border-3 border-ink bg-brand-yellow p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-light p-5 shadow-brutal rounded-2xl">
                   <div className="font-display text-5xl font-black text-ink leading-none">90+</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/85">Lighthouse skoru, her projede</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/85">Lighthouse hedefi, her projede</div>
                 </div>
-                <div className="border-3 border-ink bg-brand-green p-5 shadow-brutal">
-                  <div className="font-display text-5xl font-black text-paper leading-none">0.9sn</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-paper/90">Sayfa yükleme hedefi</div>
+                <div className="border-3 border-ink/15 bg-light p-5 shadow-brutal rounded-2xl">
+                  <div className="font-display text-5xl font-black text-ink leading-none">SEO</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/90">Temel SEO her pakette</div>
                 </div>
               </div>
             </Reveal>
@@ -261,27 +260,29 @@ export default function WebTasarimPage() {
         </div>
       </section>
 
+      <ServiceAtAGlance href="/web-tasarim" />
+
       {/* 2. CANLI ÖRNEK — video showcase */}
-      <section className="bg-paper py-section border-b-3 border-ink">
+      <section className="bg-white py-section border-b-3 border-ink/15">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-8 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-3 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-3 shadow-brutal-sm rounded-full">
                 Canlı Örnek
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 Yaptığımız iş nasıl görünüyor?
               </h2>
               <p className="mt-3 text-body text-ink/70">
-                Cihangir&apos;de brasserie restoran için tasarladığımız web sitesi. Online rezervasyon,
+                Bir brasserie restoran için hazırlanan örnek web sitesi. Online rezervasyon,
                 dijital menü, Google Maps entegrasyonu, atmosfer galerisi. Aşağıda canlı ekran kaydı.
               </p>
             </div>
           </Reveal>
 
           <Reveal delay={100}>
-            <div className="border-3 border-ink bg-paper shadow-brutal-lg overflow-hidden">
-              <div className="relative border-b-3 border-ink bg-ink aspect-video">
+            <div className="border-3 border-ink/15 bg-paper shadow-brutal-lg overflow-hidden rounded-2xl">
+              <div className="relative border-b-3 border-ink/15 bg-light aspect-video">
                 <video
                   src="/assets/videos/referanslar/restoran-web-ornegi.mp4"
                   poster="/assets/videos/referanslar/restoran-web-ornegi-poster.jpg"
@@ -296,28 +297,28 @@ export default function WebTasarimPage() {
 
               <div className="p-6 md:p-8 grid gap-6 lg:grid-cols-[1fr_1.2fr]">
                 <div>
-                  <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-yellow text-ink px-3 py-1.5 shadow-brutal-sm mb-4">
+                  <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-lime text-ink px-3 py-1.5 shadow-brutal-sm mb-4 rounded-full">
                     <Building2 className="h-4 w-4" />
                     <span className="text-xs font-black uppercase tracking-wider">Restoran</span>
                   </div>
                   <h3 className="font-display text-2xl md:text-3xl font-black leading-tight text-ink mb-2">
-                    Cihangir Brasserie
+                    Restoran web sitesi örneği
                   </h3>
                   <p className="text-body text-ink/70 mb-5">
-                    Online rezervasyon + dijital menü + atmosfer galerisi. 18 günde teslim, 3 ay
-                    sonu organik trafik 16x arttı.
+                    Online rezervasyon + dijital menü + atmosfer galerisi. Rezervasyon talebi
+                    telefon yerine siteden geliyor, menü tek yerden güncelleniyor.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <Link
                       href="/web-tasarim/restoran"
-                      className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
+                      className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-4 py-2.5 text-sm font-bold text-white shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
                     >
                       Restoran Web Tasarım
                       <ArrowUpRight className="h-4 w-4" />
                     </Link>
                     <Link
                       href="/referanslar"
-                      className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-4 py-2.5 text-sm font-bold uppercase text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
+                      className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-4 py-2.5 text-sm font-bold text-ink shadow-brutal-sm hover:shadow-brutal transition-all rounded-full"
                     >
                       Tüm Referanslar
                     </Link>
@@ -326,18 +327,18 @@ export default function WebTasarimPage() {
 
                 <div className="grid gap-3">
                   <div className="text-xs font-black uppercase tracking-wider text-ink/50 mb-1">
-                    3 ayda kazanım
+                    Önce / sonra
                   </div>
                   {[
-                    { label: "Aylık Organik Trafik", before: "220", after: "3.600" },
-                    { label: "Online Rezervasyon", before: "0", after: "180/ay" },
-                    { label: "Hafta Sonu Doluluk", before: "%72", after: "%94" }
+                    { label: "Rezervasyon", before: "Telefonla", after: "Online form" },
+                    { label: "Menü", before: "PDF", after: "Dijital menü" },
+                    { label: "Konum", before: "Adres metni", after: "Google Maps" }
                   ].map((s, j) => (
                     <div
                       key={j}
                       className={cn(
-                        "border-3 border-ink p-4 shadow-brutal-sm flex items-center justify-between gap-3",
-                        j === 1 ? "bg-brand-green text-paper" : "bg-brand-yellow text-ink"
+                        "border-3 border-ink/15 p-4 shadow-brutal-sm flex items-center justify-between gap-3 rounded-2xl",
+                        j === 1 ? "bg-light text-ink" : "bg-light text-ink"
                       )}
                     >
                       <div className="text-xs font-bold uppercase tracking-wider opacity-80">
@@ -357,11 +358,12 @@ export default function WebTasarimPage() {
         </div>
       </section>
 
+      <MoreDetails title="Ayrıntılar: Siteniz neden satmıyor olabilir?" summary="Mobil, hız, SEO ve yönlendirme sorunları">
       {/* 3. PROBLEM */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+            <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
               Tanıdık geliyor mu?
             </div>
           </Reveal>
@@ -375,11 +377,11 @@ export default function WebTasarimPage() {
             {[
               {
                 title: "Mobilde berbat görünüyor",
-                body: "Müşteri telefonundan açıyor, yazılar üst üste biniyor, buton bulunamıyor. Trafiğin %70'i mobilden ama site masaüstüne göre tasarlanmış.",
+                body: "Müşteri telefonundan açıyor, yazılar üst üste biniyor, buton bulunamıyor. Trafiğin büyük kısmı mobilden ama site masaüstüne göre tasarlanmış.",
               },
               {
                 title: "Sayfalar yavaş açılıyor",
-                body: "5 saniyede açılmayan sayfa demek %50 ziyaretçi kaybı demek. Eski tema, kötü hosting, optimize edilmemiş görseller hız öldürüyor.",
+                body: "Google'a göre mobil sayfanın yüklenmesi 3 saniyeyi geçerse ziyaretlerin yarısından fazlası terk ediliyor. Eski tema, kötü hosting, optimize edilmemiş görseller hız öldürüyor.",
               },
               {
                 title: "Google'da görünmüyor",
@@ -391,7 +393,7 @@ export default function WebTasarimPage() {
               },
               {
                 title: "Tema şablonu kokuyor",
-                body: "Aynı WordPress temasından 10.000 site var. Markanız bir kasaba pizzacısına benziyor. Kurumsallık ve güven kaybı.",
+                body: "Aynı WordPress temasını kullanan binlerce site var. Markanız bir kasaba pizzacısına benziyor. Kurumsallık ve güven kaybı.",
               },
               {
                 title: "Güncelleme korkutuyor",
@@ -399,10 +401,10 @@ export default function WebTasarimPage() {
               },
             ].map((p, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-3 border-paper bg-ink p-6 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <XCircle className="h-6 w-6 text-brand-pink mb-3" />
+                <div className="border-3 border-ink/10 bg-light p-6 h-full rounded-2xl">
+                  <XCircle className="h-6 w-6 text-ink mb-3" />
                   <h3 className="font-display text-xl font-black mb-2">{p.title}</h3>
-                  <p className="text-sm text-paper/75 leading-relaxed">{p.body}</p>
+                  <p className="text-sm text-ink/75 leading-relaxed">{p.body}</p>
                 </div>
               </Reveal>
             ))}
@@ -410,33 +412,34 @@ export default function WebTasarimPage() {
         </div>
       </section>
 
+      </MoreDetails>
       {/* 4. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+            <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
               Standart özellikler
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-3xl mb-12 text-ink">
-              Her projede ücretsiz dahil.
+              Paketlerdeki temel özellikler.
             </h2>
           </Reveal>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {[
-              { icon: Smartphone, color: "bg-brand-pink", title: "Mobil-First Tasarım", body: "Telefon, tablet, masaüstü — her ekran boyutunda kusursuz. Trafiğin çoğunluğu mobilden geliyor, biz de oradan başlıyoruz." },
-              { icon: Gauge, color: "bg-brand-yellow", title: "Lighthouse 90+ Hız", body: "Görsel optimizasyonu, lazy loading, edge caching, CDN. Sayfa 2 saniyede açılır — Google bunu seviyor, müşteriniz de." },
-              { icon: Search, color: "bg-brand-blue", title: "Teknik SEO Hazır", body: "Sitemap, robots.txt, meta etiketleri, schema markup, Open Graph. Google sayfanızı doğru indeksler, AI arama motorları sizi cite eder." },
-              { icon: ShieldCheck, color: "bg-brand-green", title: "Güvenli & SSL", body: "Plugin yok = güvenlik açığı yok. SSL otomatik, DDoS koruması Vercel/Cloudflare üzerinden. Hacklenme paranoyası bitti." },
-              { icon: LayoutTemplate, color: "bg-brand-purple", title: "Şablon Değil — Özel Tasarım", body: "Markanıza özel renk paleti, tipografi, ikon seti, illüstrasyonlar. Aynı temadan 10.000 site arasında kaybolmazsınız." },
-              { icon: Code2, color: "bg-brand-orange", title: "Modern Teknoloji Stack'i", body: "Next.js 14 + React + TypeScript + Tailwind. Eklenti ve tema şişmesi yok, kod tabanı size özel. Edge deployment ile dünya çapında hızlı." },
+              { icon: Smartphone, color: "bg-light", title: "Mobil-First Tasarım", body: "Telefon, tablet, masaüstü — her ekran boyutunda kusursuz. Trafiğin çoğunluğu mobilden geliyor, biz de oradan başlıyoruz." },
+              { icon: Gauge, color: "bg-light", title: "Lighthouse 90+ Hedefi", body: "Görsel optimizasyonu, lazy loading, edge caching, CDN. Sayfanın 2 saniyenin altında açılması hedeflenir — Google bunu seviyor, müşteriniz de." },
+              { icon: Search, color: "bg-light", title: "SEO Temeli Hazır", body: "Sitemap, robots.txt, meta etiketleri, Open Graph her pakette; schema markup dahil teknik SEO Büyüme ve Kurumsal paketlerde. Google'ın sayfanızı doğru indekslemesi için gereken temel hazırlanır." },
+              { icon: ShieldCheck, color: "bg-light", title: "Güvenli & SSL", body: "Plugin yok = eklenti kaynaklı güvenlik açığı yok. SSL otomatik, DDoS koruması Vercel/Cloudflare üzerinden." },
+              { icon: LayoutTemplate, color: "bg-light", title: "Markanıza Uyarlanan Tasarım", body: "Başlangıç paketinde standart bileşenler markanızın renk ve tipografisine uyarlanır; Büyüme paketinde markaya özel sayfa şablonları, Kurumsal pakette tamamen özel tasarım. Aynı temayı kullanan binlerce site arasında kaybolmazsınız." },
+              { icon: Code2, color: "bg-light", title: "Modern Teknoloji Stack'i", body: "Next.js 14 + React + TypeScript + Tailwind. Eklenti ve tema şişmesi yok, kod tabanı size özel. Edge deployment ile dünya çapında hızlı." },
             ].map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                  <div className={cn("inline-flex items-center justify-center w-12 h-12 border-3 border-ink mb-4", f.color)}>
-                    <f.icon className={cn("h-6 w-6", f.color === "bg-brand-yellow" ? "text-ink" : "text-paper")} />
+                <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                  <div className={cn("inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 mb-4 rounded-full", f.color)}>
+                    <f.icon className={cn("h-6 w-6", f.color === "bg-light" ? "text-ink" : "text-ink")} />
                   </div>
                   <h3 className="font-display text-xl font-black text-ink mb-2">{f.title}</h3>
                   <p className="text-sm text-ink/70 leading-relaxed">{f.body}</p>
@@ -447,51 +450,52 @@ export default function WebTasarimPage() {
         </div>
       </section>
 
+      <MoreDetails title="Ayrıntılar: Örnek senaryo — butik" summary="Koleksiyon lansmanı için tek hedefli landing page">
       {/* 6. CASE STUDY */}
-      <section className="bg-brand-yellow py-section border-y-3 border-ink">
+      <section className="bg-white py-section border-y-3 border-ink/15">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Vaka Çalışması — İzmir
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek Senaryo — Butik
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl text-ink mb-6">
-              "Bir İzmir butiği için kurduğumuz landing page, 30 günde 1.240 lead getirdi."
+              Bir butik için örnek kurulum: koleksiyon lansmanına tek hedefli landing page.
             </h2>
           </Reveal>
           <Reveal delay={200}>
             <div className="grid lg:grid-cols-[1.3fr_1fr] gap-10">
               <div className="space-y-5 text-body text-ink/85 max-w-prose">
                 <p>
-                  <strong className="text-ink">Durum:</strong> İzmir Alsancak'ta concept butik. Instagram'da güzel takipçi var ama satışa dönüşmüyor. Eski site WordPress, mobilde berbat, ürün katalogu güncellenemiyor.
+                  <strong className="text-ink">Durum:</strong> Örnek senaryoda bir concept butiğin Instagram hesabı ilgi görüyor ama bu ilgi satışa dönüşmüyor. Eski site WordPress, mobilde zor kullanılıyor, ürün katalogu güncellenemiyor.
                 </p>
                 <p>
-                  <strong className="text-ink">Yaptıklarımız:</strong> Önce tek bir kampanya landing page'i kurduk — koleksiyon lansmanı için. Next.js, Lighthouse 98, üzerinde tek bir hedef: WhatsApp'a yönlendirme + email toplama. Instagram bio link'i değişti.
+                  <strong className="text-ink">Kurulum:</strong> Önce tek bir kampanya landing page&apos;i kurulur — koleksiyon lansmanı için. Next.js altyapısı, Lighthouse 90+ hedefi, üzerinde tek bir hedef: WhatsApp&apos;a yönlendirme + e-posta toplama. Instagram bio linki bu sayfaya yönlendirilir.
                 </p>
                 <p>
-                  <strong className="text-ink">Sonuç (30 gün):</strong> 12.400 ziyaret, 1.240 lead (10% conversion), 340 WhatsApp mesajı, 87 satış. Maliyet 12.000 TL — geri dönüş ilk hafta.
+                  <strong className="text-ink">Ne değişir:</strong> Ziyaretçi tek bir aksiyona yönlendirilir; WhatsApp&apos;tan gelen talepler ve toplanan e-postalar tek yerde birikir. Kampanya bittiğinde aynı sayfa yeni koleksiyon için güncellenebilir.
                 </p>
-                <p className="text-sm text-ink/70 italic border-l-3 border-ink pl-4">
-                  "Hızı görünce şok olduk. Eskiden mailimi açan kimse sayfaya geçmiyordu. Şimdi tıklayan herkes alıma kadar gidiyor." — Marka kurucu
+                <p className="text-sm text-ink/70 italic border-l-3 border-ink/15 pl-4">
+                  Bu bölüm açıklayıcı bir örnek senaryodur; gerçek bir müşteri sonucu veya alıntısı değildir.
                 </p>
               </div>
 
               <div className="grid grid-cols-1 gap-4">
-                <div className="border-3 border-ink bg-paper p-5 shadow-brutal">
-                  <TrendingUp className="h-6 w-6 text-brand-pink mb-2" />
-                  <div className="font-display text-5xl font-black text-ink leading-none">1.240</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/70">Lead (30 gün)</div>
+                <div className="border-3 border-ink/15 bg-paper p-5 shadow-brutal rounded-2xl">
+                  <TrendingUp className="h-6 w-6 text-ink mb-2" />
+                  <div className="font-display text-5xl font-black text-ink leading-none">Tek hedef</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/70">WhatsApp + e-posta toplama</div>
                 </div>
-                <div className="border-3 border-ink bg-paper p-5 shadow-brutal">
-                  <Gauge className="h-6 w-6 text-brand-blue mb-2" />
-                  <div className="font-display text-5xl font-black text-ink leading-none">98</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/70">Lighthouse skoru</div>
+                <div className="border-3 border-ink/15 bg-paper p-5 shadow-brutal rounded-2xl">
+                  <Gauge className="h-6 w-6 text-ink mb-2" />
+                  <div className="font-display text-5xl font-black text-ink leading-none">90+</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/70">Lighthouse hedefi</div>
                 </div>
-                <div className="border-3 border-ink bg-paper p-5 shadow-brutal">
-                  <Star className="h-6 w-6 text-brand-green mb-2" />
-                  <div className="font-display text-5xl font-black text-ink leading-none">10%</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/70">Dönüşüm oranı</div>
+                <div className="border-3 border-ink/15 bg-paper p-5 shadow-brutal rounded-2xl">
+                  <Star className="h-6 w-6 text-ink mb-2" />
+                  <div className="font-display text-5xl font-black text-ink leading-none">Bio link</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/70">Instagram trafiği sayfaya yönlenir</div>
                 </div>
               </div>
             </div>
@@ -499,121 +503,19 @@ export default function WebTasarimPage() {
         </div>
       </section>
 
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Fiyatlandırma
-            </div>
-          </Reveal>
-          <Reveal delay={100}>
-            <h2 className="font-display text-h2 font-black leading-tight max-w-3xl text-ink mb-4">
-              Sabit fiyat. Sürpriz yok.
-            </h2>
-          </Reveal>
-          <Reveal delay={150}>
-            <p className="text-body text-ink/70 max-w-2xl mb-12">
-              Saatlik ücret değil — sabit proje fiyatı. Brief netleştiğinde fiyat değişmez. Tüm paketlerde teknik SEO, mobil uyum, SSL ve 30 gün destek dahil.
-            </p>
-          </Reveal>
+      </MoreDetails>
+      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
 
-          <div className="grid gap-6 lg:grid-cols-3">
-            {/* Landing */}
-            <Reveal delay={150}>
-              <div className="border-3 border-ink bg-paper p-7 shadow-brutal h-full flex flex-col">
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-yellow px-2.5 py-1 text-xs font-black uppercase mb-4 self-start">
-                  <LayoutTemplate className="h-3.5 w-3.5" /> Landing Page
-                </div>
-                <h3 className="font-display text-2xl font-black text-ink mb-2">Kampanya Sayfası</h3>
-                <p className="text-sm text-ink/70 mb-5">Tek hedefli, hızlı dönüşüm odaklı sayfa. Reklam trafiği almak için ideal.</p>
-                <div className="border-t-3 border-ink/15 pt-5 mb-5">
-                  <div className="font-display text-4xl font-black text-ink">8.000 - 15.000 ₺</div>
-                  <div className="text-xs font-bold uppercase tracking-wider text-ink/60 mt-1">7-10 iş günü teslim</div>
-                </div>
-                <ul className="space-y-2.5 text-sm text-ink/85 mb-7 flex-1">
-                  {["Tek sayfa, mobil-first tasarım", "Form + WhatsApp + Email entegrasyonu", "Lighthouse 90+ garantili hız", "Teknik SEO + analytics kurulumu", "2 revizyon hakkı + 30 gün destek"].map((b, i) => (
-                    <li key={i} className="flex gap-2"><CheckCircle2 className="h-4 w-4 text-brand-green shrink-0 mt-0.5" /> {b}</li>
-                  ))}
-                </ul>
-                <Link href="/iletisim" className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-black uppercase text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
-                  Teklif Al <ArrowRight className="h-4 w-4" />
-                </Link>
-              </div>
-            </Reveal>
+      <PricingSection family="kurumsal-web-sitesi" heading="Kurumsal web sitesi fiyatları" />
+      <PricingSection family="e-ticaret" id="e-ticaret" badge="E-ticaret" heading="E-ticaret sitesi fiyatları" />
+      <WebExtrasSection />
 
-            {/* Marka Sitesi - featured */}
-            <Reveal delay={250}>
-              <div className="border-3 border-ink bg-brand-pink p-7 shadow-brutal-lg h-full flex flex-col relative">
-                <div className="absolute -top-3 left-7 inline-flex items-center gap-1 border-3 border-ink bg-brand-yellow px-2.5 py-1 text-xs font-black uppercase">
-                  <Star className="h-3.5 w-3.5" /> En Çok Tercih
-                </div>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-paper text-ink px-2.5 py-1 text-xs font-black uppercase mb-4 self-start">
-                  <Building2 className="h-3.5 w-3.5" /> Kurumsal Marka Sitesi
-                </div>
-                <h3 className="font-display text-2xl font-black text-paper mb-2">Marka Sitesi</h3>
-                <p className="text-sm text-paper/90 mb-5">5-8 sayfalık tam kurumsal site. Hizmet sayfaları, hakkımızda, blog, iletişim, referanslar.</p>
-                <div className="border-t-3 border-paper/30 pt-5 mb-5">
-                  <div className="font-display text-4xl font-black text-paper">15.000 - 35.000 ₺</div>
-                  <div className="text-xs font-bold uppercase tracking-wider text-paper/80 mt-1">14-21 iş günü teslim</div>
-                </div>
-                <ul className="space-y-2.5 text-sm text-paper mb-7 flex-1">
-                  {["5-8 özel tasarım sayfa", "Blog modülü (CMS panel dahil)", "Çoklu form + entegrasyonlar", "Schema + Open Graph + sitemap", "Lighthouse 90+ + 30 gün destek", "İçerik girişi (10 sayfaya kadar)"].map((b, i) => (
-                    <li key={i} className="flex gap-2"><CheckCircle2 className="h-4 w-4 text-brand-yellow shrink-0 mt-0.5" /> {b}</li>
-                  ))}
-                </ul>
-                <Link href="/iletisim" className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-black uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
-                  Teklif Al <ArrowRight className="h-4 w-4" />
-                </Link>
-              </div>
-            </Reveal>
-
-            {/* E-ticaret */}
-            <Reveal delay={350}>
-              <div className="border-3 border-ink bg-paper p-7 shadow-brutal h-full flex flex-col">
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-blue text-paper px-2.5 py-1 text-xs font-black uppercase mb-4 self-start">
-                  <ShoppingBag className="h-3.5 w-3.5" /> E-Ticaret
-                </div>
-                <h3 className="font-display text-2xl font-black text-ink mb-2">E-Ticaret Sitesi</h3>
-                <p className="text-sm text-ink/70 mb-5">Ürün katalogu, sepet, ödeme (Iyzico/Stripe), kargo entegrasyonu. Tam çözüm.</p>
-                <div className="border-t-3 border-ink/15 pt-5 mb-5">
-                  <div className="font-display text-4xl font-black text-ink">35.000 - 75.000 ₺</div>
-                  <div className="text-xs font-bold uppercase tracking-wider text-ink/60 mt-1">30-45 iş günü teslim</div>
-                </div>
-                <ul className="space-y-2.5 text-sm text-ink/85 mb-7 flex-1">
-                  {["Ürün katalogu + varyantlar", "Iyzico / Stripe ödeme entegrasyonu", "Kargo (Yurtiçi, MNG, Aras) entegrasyonu", "Yönetim paneli (Sanity / Strapi)", "Stok takibi + sipariş bildirimleri", "Mobil-first + Lighthouse 90+"].map((b, i) => (
-                    <li key={i} className="flex gap-2"><CheckCircle2 className="h-4 w-4 text-brand-green shrink-0 mt-0.5" /> {b}</li>
-                  ))}
-                </ul>
-                <Link href="/iletisim" className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-black uppercase text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
-                  Teklif Al <ArrowRight className="h-4 w-4" />
-                </Link>
-              </div>
-            </Reveal>
-          </div>
-
-          {/* Internal link strip */}
-          <Reveal delay={500}>
-            <div className="mt-12 border-3 border-ink bg-paper p-6 shadow-brutal-sm">
-              <p className="text-sm text-ink/70 mb-3 font-bold uppercase tracking-wider">İlgili kaynaklar:</p>
-              <div className="flex flex-wrap gap-3">
-                <Link href="/blog/kurumsal-web-sitesi-rehberi" className="inline-flex items-center gap-1.5 border-3 border-ink bg-brand-yellow px-3 py-1.5 text-xs font-black uppercase shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
-                  Kurumsal Web Sitesi Rehberi <ArrowUpRight className="h-3.5 w-3.5" />
-                </Link>
-                <Link href="/blog/web-sitesi-olmayan-isletmeler-ne-kaybediyor" className="inline-flex items-center gap-1.5 border-3 border-ink bg-paper px-3 py-1.5 text-xs font-black uppercase shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
-                  Web Sitesi Olmayan İşletmeler <ArrowUpRight className="h-3.5 w-3.5" />
-                </Link>
-              </div>
-            </div>
-          </Reveal>
-        </div>
-      </section>
 
       {/* 8. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+            <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
               Sıkça Sorulan
             </div>
           </Reveal>
@@ -625,18 +527,18 @@ export default function WebTasarimPage() {
 
           <div className="grid gap-4 lg:grid-cols-2">
             {[
-              { q: "Web tasarım fiyatları ne kadar?", a: "Landing Page 8.000-15.000 TL, kurumsal marka sitesi 15.000-35.000 TL, e-ticaret sitesi 35.000-75.000 TL bandında çalışıyoruz. Brief'iniz net olduğunda 24 saat içinde sabit fiyat teklifi paylaşıyoruz." },
-              { q: "Kaç günde teslim ediyorsunuz?", a: "Landing 7-10 gün, marka sitesi 14-21 gün, e-ticaret 30-45 gün. İçerik (metin + görsel) zamanında geldiğinde takvim sapmaz." },
-              { q: "WordPress mi kullanıyorsunuz?", a: "Hayır. Tüm sitelerimizi Next.js + React ile geliştiriyoruz. Eklenti şişmesi olmadığı için site belirgin şekilde daha hızlı ve güvenli. Lighthouse skorlarımız 90 üzerinde." },
-              { q: "Mobil uyumlu mu olacak?", a: "Tüm projelerimiz mobile-first tasarlanır. Önce mobil, sonra tablet, en son masaüstü. Trafiğinizin %70+ mobilden geldiğini biliyoruz." },
-              { q: "İzmir dışından çalışıyor musunuz?", a: "Evet. Merkezimiz İzmir'de ama İstanbul, Ankara, Bursa dahil Türkiye'nin her şehrinden müşterimiz var. Görüşmeler Google Meet üzerinden, süreç tamamen uzaktan yönetilir." },
-              { q: "Teslim sonrası ben mi güncelleyeceğim?", a: "İki seçenek: (1) CMS panel kuruyoruz, içeriği siz güncelliyorsunuz, (2) Aylık bakım paketi (2.500 TL/ay'dan başlar) — biz güncelliyoruz." },
-              { q: "SEO çalışması dahil mi?", a: "Teknik SEO standart dahil: sitemap, robots.txt, schema markup, meta etiketleri, Open Graph, sayfa hızı. İçerik SEO'su (blog yazıları, keyword) ayrı paket." },
+              { q: "Web tasarım fiyatları ne kadar?", a: `Fiyatlarımız yazılıdır (KDV hariç, proje başı). Landing page ${singlePriceLabel(SINGLE["landing-page"])}. Kurumsal web sitesi: ${familyPriceSummary("kurumsal-web-sitesi")}. E-ticaret sitesi: ${familyPriceSummary("e-ticaret")}. Hosting, alan adı, çeviri ve harici lisanslar hariçtir.` },
+              { q: "Kaç günde teslim ediyorsunuz?", a: "Teslim süresi landing page, marka sitesi veya e-ticaret kapsamına göre teklifte yazılı olarak belirtilir. İçeriğin (metin + görsel) zamanında gelmesi takvimin korunması için önemlidir." },
+              { q: "WordPress mi kullanıyorsunuz?", a: "Hayır. Tüm sitelerimizi Next.js + React ile geliştiriyoruz. Eklenti şişmesi olmadığı için site belirgin şekilde daha hızlı ve güvenli. Lighthouse skorunda 90+ hedefliyoruz." },
+              { q: "Mobil uyumlu mu olacak?", a: "Tüm projelerimiz mobile-first tasarlanır. Önce mobil, sonra tablet, en son masaüstü. Trafiğin büyük kısmının mobilden geldiğini biliyoruz." },
+              { q: "İzmir dışından çalışıyor musunuz?", a: "Evet. Merkezimiz İzmir'de; İstanbul, Ankara, Bursa dahil Türkiye'nin her şehrindeki firmalarla çalışabiliyoruz. Görüşmeler Google Meet üzerinden, süreç tamamen uzaktan yönetilir." },
+              { q: "Teslim sonrası ben mi güncelleyeceğim?", a: `İki seçenek: (1) Büyüme ve Kurumsal paketlerde CMS panel kuruyoruz, içeriği siz güncelliyorsunuz; (2) aylık web bakım — biz güncelliyoruz: ${familyPriceSummary("web-bakim")}, KDV hariç. Saatler o paketin aylık toplam hakkıdır, birbirine eklenmez ve devretmez; yeni modül ve kapsamlı tasarım ayrıca tekliflendirilir.` },
+              { q: "SEO çalışması dahil mi?", a: "SEO temeli her pakette dahil: sitemap, robots.txt, meta etiketleri, Open Graph, sayfa hızı. Schema markup dahil teknik SEO Büyüme ve Kurumsal paketlerde. İçerik SEO'su (blog yazıları, keyword) ayrı paket." },
             ].map((f, i) => (
               <Reveal key={i} delay={i * 50}>
-                <div className="border-3 border-paper bg-ink p-5 shadow-[6px_6px_0_#FFFDF5]">
-                  <h3 className="font-display text-lg font-black text-brand-yellow mb-2">{f.q}</h3>
-                  <p className="text-sm text-paper/80 leading-relaxed">{f.a}</p>
+                <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                  <h3 className="font-display text-lg font-black text-ink mb-2">{f.q}</h3>
+                  <p className="text-sm text-ink/80 leading-relaxed">{f.a}</p>
                 </div>
               </Reveal>
             ))}
@@ -648,32 +550,32 @@ export default function WebTasarimPage() {
       <RelatedSectorsSection service="web-tasarim" />
       <RelatedLocationsSection service="web-tasarim" />
 
-      <section className="bg-brand-yellow py-section border-t-3 border-ink">
+      <section className="bg-white py-section border-t-3 border-ink/15">
         <div className="mx-auto max-w-container px-6">
           <div className="grid lg:grid-cols-[1.5fr_1fr] gap-10 items-center">
             <Reveal>
               <div>
-                <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+                <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                   Sıra sizde
                 </div>
                 <h2 className="font-display text-h2 font-black leading-tight text-ink mb-5">
-                  14 gün sonra yeni sitenizle satışa başlamaya hazır mısınız?
+                  Yeni sitenizi birlikte planlayalım mı?
                 </h2>
                 <p className="text-body text-ink/80 mb-7 max-w-prose">
-                  30 dakikalık ücretsiz görüşmede sektörünüze, hedefinize ve bütçenize göre özel öneri çıkarıyoruz. Sabit fiyat. Sabit takvim. Sürpriz yok.
+                  30 dakikalık ücretsiz görüşmede sektörünüze, hedefinize ve bütçenize göre özel öneri çıkarıyoruz. Yazılı fiyat. Teklifte yazılı takvim. Sürpriz yok.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-6 py-3.5 text-sm font-black uppercase text-paper shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
+                    className="inline-flex items-center justify-center gap-2 border-3 border-ink/15 bg-slate px-6 py-3.5 text-sm font-black text-white shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
                   >
                     Ücretsiz Projeyi Konuşalım <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <a
-                    href="https://wa.me/905015884853"
+                    href="https://wa.me/905318639117"
                     target="_blank"
                     rel="noopener"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-brand-green px-6 py-3.5 text-sm font-black uppercase text-paper shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
+                    className="inline-flex items-center justify-center gap-2 border-3 border-ink/15 bg-slate px-6 py-3.5 text-sm font-black text-white shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
                   >
                     <MessageCircle className="h-4 w-4" /> WhatsApp
                   </a>
@@ -682,12 +584,12 @@ export default function WebTasarimPage() {
             </Reveal>
 
             <Reveal delay={150}>
-              <div className="border-3 border-ink bg-paper p-6 shadow-brutal-lg space-y-4">
+              <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal-lg space-y-4 rounded-2xl">
                 <div className="flex items-start gap-3">
                   <Phone className="h-5 w-5 text-ink shrink-0 mt-0.5" />
                   <div>
                     <div className="text-xs font-bold uppercase tracking-wider text-ink/60">Telefon</div>
-                    <a href="tel:+905015884853" className="font-display text-lg font-black text-ink hover:underline">0501 588 48 53</a>
+                    <a href="tel:+905318639117" className="font-display text-lg font-black text-ink hover:underline">0531 863 91 17</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -707,13 +609,13 @@ export default function WebTasarimPage() {
                 <div className="border-t-3 border-ink/15 pt-4">
                   <p className="text-xs font-bold uppercase tracking-wider text-ink/60 mb-2">Diğer hizmetler</p>
                   <div className="flex flex-wrap gap-2">
-                    <Link href="/crm-otomasyonu" className="text-xs font-black uppercase border-3 border-ink bg-brand-blue text-paper px-2 py-1 shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
+                    <Link href="/crm-otomasyonu" className="text-xs font-black border-3 border-ink/15 bg-slate text-white px-2 py-1 shadow-brutal-sm transition-all rounded-full">
                       CRM Otomasyonu
                     </Link>
-                    <Link href="/whatsapp-ai-asistani" className="text-xs font-black uppercase border-3 border-ink bg-brand-green text-paper px-2 py-1 shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
+                    <Link href="/whatsapp-ai-asistani" className="text-xs font-black border-3 border-ink/15 bg-slate text-white px-2 py-1 shadow-brutal-sm transition-all rounded-full">
                       WhatsApp AI
                     </Link>
-                    <Link href="/instagram-dm-otomasyonu" className="text-xs font-black uppercase border-3 border-ink bg-brand-pink text-paper px-2 py-1 shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
+                    <Link href="/instagram-dm-otomasyonu" className="text-xs font-black border-3 border-ink/15 bg-slate text-white px-2 py-1 shadow-brutal-sm transition-all rounded-full">
                       Instagram DM
                     </Link>
                   </div>

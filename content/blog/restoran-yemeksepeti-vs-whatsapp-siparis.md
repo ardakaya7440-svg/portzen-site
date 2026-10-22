@@ -15,7 +15,7 @@ ogImage: "/blog/og/restoran-yemeksepeti-vs-whatsapp-siparis.png"
 
 Ay sonu geldi. Muhasebeci tabloyu masaya koydu. Cironuz fena değil, hatta geçen yıla göre yüzde 18 artmış. Ama net kâra baktığınızda yüzünüzdeki ifade değişiyor. Çünkü cironun büyük bir kısmı yemeksepeti, getir ve trendyol yemek komisyonlarına gidiyor. 100.000 TL ciro yapıyorsunuz, 15.000 TL komisyon ödüyorsunuz. Üstüne KDV %10 fatura kesimi, paket malzemesi, kurye ücreti derken eliniz boş kalıyor. Restoran sahibi olarak en sık duyduğumuz cümle şu: "Çalışıyoruz ama yemeksepeti'ne çalışıyoruz."
 
-Bu yazıda yemeksepeti, getir ve trendyol yemek gibi agregatör platformların gerçek maliyetini, WhatsApp sipariş sisteminin alternatif modelini ve hibrit yaklaşımı detaylı karşılaştıracağız. 100.000 TL aylık cirolu bir restoran üzerinden net rakamlarla hesap yapacağız. Müşteri sahipliği meselesini açacağız, KDV ve muhasebe akışını netleştireceğiz. Sonunda paket servis operasyonunuzu hangi modelin daha kârlı çevireceğini siz karar vereceksiniz. PORTZEN olarak İzmir başta olmak üzere onlarca restoranın hibrit modele geçişini kurguladık, sahada gördüklerimizi paylaşacağız.
+Bu yazıda yemeksepeti, getir ve trendyol yemek gibi agregatör platformların gerçek maliyetini, WhatsApp sipariş sisteminin alternatif modelini ve hibrit yaklaşımı detaylı karşılaştıracağız. 100.000 TL aylık cirolu bir restoran üzerinden net rakamlarla hesap yapacağız. Müşteri sahipliği meselesini açacağız, KDV ve muhasebe akışını netleştireceğiz. Sonunda paket servis operasyonunuzu hangi modelin daha kârlı çevireceğini siz karar vereceksiniz. Son bölümde PORTZEN olarak hibrit modele geçişi nasıl kurguladığımızı adım adım paylaşacağız.
 
 ## Yemeksepeti, Getir ve Trendyol Yemek Komisyon Oranları 2026
 
@@ -31,7 +31,7 @@ Bir de "platform indirimi" konusu var. Yemeksepeti bazen kullanıcıya yüzde 20
 
 ## WhatsApp Sipariş Sisteminin Maliyet Modeli
 
-WhatsApp sipariş sistemi tamamen farklı bir mantıkla çalışıyor. Burada komisyon yok, tek seferlik kurulum ve aylık sabit bir hizmet bedeli var. Modeli şöyle açabiliriz:
+WhatsApp sipariş sistemi tamamen farklı bir mantıkla çalışıyor. Burada komisyon yok, tek seferlik kurulum ve aylık sabit bir hizmet bedeli var. Piyasadaki tipik maliyet modelini şöyle açabiliriz:
 
 - WhatsApp kurulum maliyeti: 8.000-15.000 TL tek seferlik (WhatsApp Business API, AI asistan eğitimi, menü entegrasyonu, ödeme linki)
 - Aylık hizmet bedeli: 1.500-3.000 TL (mesaj ücreti, asistan bakımı, raporlama)
@@ -84,9 +84,9 @@ Pratik uygulama şöyle ilerliyor:
 - 2-3 sipariş sonra müşteri WhatsApp'ı tercih etmeye başlıyor çünkü daha hızlı, indirimli ve direkt iletişim var
 - Yemeksepeti tarafında "üst sıra reklam paketi" gibi maliyetli kalemler azaltılıyor, sadece görünür olmaya yetecek minimum paket alınıyor
 
-Bu modelde 6 ayın sonunda cironun yüzde 40-50'si WhatsApp'a kayıyor. Restoran komisyon ödediği oranı yüzde 15'ten yüzde 7-8'e düşürüyor. PORTZEN'in kurduğu sistemlerde gördüğümüz tipik geçiş süresi 4-6 ay arasında. Aynı modeli [QR menü ve online sipariş](/blog/restoran-qr-menu-online-siparis) yazımızda masa içi senaryolar için de açıklamıştık.
+Bu modelde WhatsApp'a kayan her sipariş komisyonsuz hale gelir; cironun ne kadarının kayacağı müşteri profiline, teşvikin gücüne ve paket kartlarının düzenli kullanılmasına bağlıdır. Geçiş kademeli ilerler ve kanal dağılımı her ay raporlanarak izlenir. Aynı modeli [QR menü ve online sipariş](/blog/restoran-qr-menu-online-siparis) yazımızda masa içi senaryolar için de açıklamıştık.
 
-Hibrit model için ek olarak Instagram DM otomasyonu da kuruyoruz. Müşteri Instagram'dan "menü?" yazdığında otomatik olarak WhatsApp linki ve menü gönderiliyor. Detayları [Instagram DM otomasyonu restoran](/instagram-dm-otomasyonu/restoran) sayfasında inceleyebilirsiniz. Restoranın yeni müşteri bulmasını yemeksepeti reklamına bağımlı tutmak yerine, mahalle ve şehir bazlı [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle Facebook ve Instagram üzerinden hedefli reklam yürütmek, komisyonsuz müşteri akışını çoğaltıyor.
+Hibrit model için ek olarak kural tabanlı Instagram DM otomasyonu da kuruyoruz. Müşteri Instagram'dan "menü" anahtar kelimesini yazdığında önceden tanımlı mesajla WhatsApp linki ve menü otomatik gönderiliyor. Detayları [Instagram DM otomasyonu restoran](/instagram-dm-otomasyonu/restoran) sayfasında inceleyebilirsiniz. Restoranın yeni müşteri bulmasını yemeksepeti reklamına bağımlı tutmak yerine, mahalle ve şehir bazlı [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle Facebook ve Instagram üzerinden hedefli reklam yürütmek, komisyonsuz müşteri akışını çoğaltıyor.
 
 ## KDV %10 Fatura Kesimi ve Muhasebe Akışı
 
@@ -96,7 +96,7 @@ Yemeksepeti tarafında platform size haftalık veya iki haftalık dönemler hali
 
 WhatsApp tarafında durum çok daha basit. Müşteri ödemeyi doğrudan size yapıyor (iyzico, sanal pos veya elden). Aldığınız tutar üzerinden KDV %10 fatura kesimi yapıyorsunuz. Komisyon yok, indirim platformdan değil sizden geliyor, muhasebe tek katmanlı.
 
-Hibrit modelde iki kanalı ayrı muhasebeleştirmek gerekiyor. Çoğu POS sistemi (örneğin Logo, Mikro, Tatlısöz) iki kanalı ayrı raporlama imkanı sunuyor. PORTZEN'in kurduğu WhatsApp sistemlerinde aylık satış raporu otomatik olarak muhasebeye gidecek formatta hazırlanıyor. Sipariş sayısı, ortalama sepet tutarı, indirim tutarı, KDV matrahı tek sayfada çıkıyor.
+Hibrit modelde iki kanalı ayrı muhasebeleştirmek gerekiyor. Çoğu POS sistemi (örneğin Logo, Mikro, Tatlısöz) iki kanalı ayrı raporlama imkanı sunuyor. PORTZEN'in kurduğu WhatsApp sistemleri iş otomasyonu ile birlikte kurgulandığında, aylık satış raporu muhasebeye gidecek formatta otomatik hazırlanabilir. Sipariş sayısı, ortalama sepet tutarı, indirim tutarı, KDV matrahı tek sayfada çıkıyor.
 
 Bir not daha: yemeksepeti üzerinden satışlarda banka hesabınıza giren tutar ile gerçek ciro arasındaki farkı (komisyon, reklam, indirim katkısı) gider olarak gösterebilirsiniz. Bu kalemleri kayda almazsanız vergi yükü olduğundan fazla görünür. Muhasebecinizle bu konuyu mutlaka konuşun.
 
@@ -106,7 +106,7 @@ Paket servis bir restoran için en stresli operasyondur. Sipariş alma, doğru h
 
 - Sipariş yanlış anlaşılmıyor: AI asistan müşteriye seçenekleri yazıyor, müşteri seçiyor, mutfağa net bir sipariş düşüyor. Telefonda "bir tane karışık pide, bir tane de o sizin meşhur tatlınızdan" gibi muğlak siparişler bitiyor
 - Adres karmaşası azalıyor: WhatsApp konum paylaşımı özelliği ile müşteri tam konumunu gönderebiliyor, kurye Google Maps üzerinden direkt navigasyon yapıyor
-- Yoğun saatte sipariş kaybı olmuyor: Telefon meşgul çaldığında müşteri başka restorana geçer. WhatsApp asistan eş zamanlı 50 müşteriye birden cevap verebiliyor
+- Yoğun saatte sipariş kaybı azalıyor: Telefon meşgul çaldığında müşteri başka restorana geçer. WhatsApp asistan aynı anda birden fazla müşteriye cevap verebiliyor
 - Tekrar siparişler kolaylaşıyor: "Geçen haftaki gibi olsun" diyen müşteriye AI asistan geçmiş siparişi hatırlatıp onay alıyor
 - Tahsilat sorunu azalıyor: Ödeme linki WhatsApp'tan gönderiliyor, müşteri kurye gelmeden ödüyor, kuryenin para üstü derdi kalkıyor
 
@@ -120,11 +120,11 @@ Hayır, tavsiye etmiyoruz. Yemeksepeti yeni müşteri keşfi için hala değerli
 
 ### WhatsApp sipariş sistemi yasal mı?
 
-Tamamen yasal. WhatsApp Business API üzerinden çalışan resmi bir sistem. Meta'nın onayladığı kanallar üzerinden ilerliyor, KVKK uyumlu veri toplama yapılıyor. Müşteri açık rıza ile sisteme dahil oluyor.
+Tamamen yasal. WhatsApp Business API üzerinden çalışan resmi bir sistem. Meta'nın resmi WhatsApp Business API'si üzerinden ilerliyor; veri toplama KVKK gerekliliklerini dikkate alarak (aydınlatma metni, açık rıza) kurgulanıyor. Müşteri açık rıza ile sisteme dahil oluyor.
 
 ### Kurulum ne kadar sürer?
 
-PORTZEN'in standart kurulum süresi 7-14 gün. WhatsApp Business API onayı, menü yüklemesi, AI asistan eğitimi, ödeme entegrasyonu ve test bu süre içinde tamamlanıyor. Restoranın menü karmaşıklığına göre değişiyor.
+Kurulum; WhatsApp Business API onayı, menü yüklemesi, AI asistan eğitimi, ödeme entegrasyonu ve test adımlarından oluşuyor. Süre restoranın menü karmaşıklığına göre değiştiği için teslim süresi kapsama göre teklifte yazılı olarak belirtilir.
 
 ### Personelim ek bir şey öğrenmek zorunda mı?
 
@@ -136,14 +136,14 @@ Evet, özellikle aylık 80.000 TL üstü ciro yapan restoranlar müzakere edebil
 
 ## PORTZEN ile Sistem Kurmak
 
-PORTZEN olarak İzmir merkezli çalışıyoruz ama Türkiye genelinde onlarca restorana hizmet veriyoruz. Restoran sahiplerine kurduğumuz dijital paket üç ayaktan oluşuyor:
+PORTZEN olarak İzmir merkezli çalışıyoruz ve Türkiye genelindeki restoranlara uzaktan da hizmet verebiliyoruz. Restoran sahiplerine kurduğumuz yapı, her biri ayrı fiyatlanan üç hizmetten oluşuyor:
 
 - WhatsApp AI asistanı: menü gösterimi, sipariş alma, ödeme linki, adres toplama, kuryeye yönlendirme
 - Restoran web sitesi: SEO uyumlu, QR menü entegre, Google Haritalar bağlantılı, hızlı yüklenen tek sayfa tasarım
-- Instagram DM otomasyonu: Instagram'dan gelen menü ve fiyat sorularına otomatik yanıt, WhatsApp'a yönlendirme
+- Instagram DM otomasyonu (kural tabanlı): Instagram'da menü ve fiyat için belirlenen anahtar kelimelere önceden tanımlı otomatik yanıt, WhatsApp'a yönlendirme
 
-Hibrit model kurulumu için önce restoranınızın mevcut sipariş akışını analiz ediyoruz. Yemeksepeti, getir ve trendyol yemek üzerinden hangi oranda satış yapıyorsunuz, telefon siparişleri ne kadar, Instagram trafiği var mı bakıyoruz. Sonra 4-6 aylık bir geçiş planı kuruyoruz. Bu plan yemeksepeti reklam bütçesini kademeli azaltma, WhatsApp müşteri tabanını büyütme ve hibrit oranı yüzde 40-60 dengesine oturtma adımlarını içeriyor.
+Hibrit model kurulumu için önce restoranınızın mevcut sipariş akışını analiz ediyoruz. Yemeksepeti, getir ve trendyol yemek üzerinden hangi oranda satış yapıyorsunuz, telefon siparişleri ne kadar, Instagram trafiği var mı bakıyoruz. Sonra kademeli bir geçiş planı kuruyoruz. Bu plan yemeksepeti reklam bütçesini kademeli azaltma, WhatsApp müşteri tabanını büyütme ve kanal dağılımını her ay ölçerek hedef dengeyi belirleme adımlarını içeriyor.
 
-Tipik bir kurulum maliyeti 12.000-18.000 TL tek seferlik (WhatsApp + menü + temel web sayfası), aylık 2.500-3.500 TL hizmet bedeli aralığında. Restoranınızın ciro hacmine göre 4-8 ay içinde sistem kendini amorti ediyor, sonrası net kâr olarak cebinizde kalıyor.
+Fiyatlar: WhatsApp AI asistanı {{fiyatlar:ai-musteri-asistani}}; tek sayfalık restoran sitesi landing page olarak {{tekil:landing-page}}; Instagram DM pazarlama otomasyonu {{tekil:instagram-dm}} (hepsi KDV hariç; Meta mesaj ve platform ücretleri hariç). Geri dönüş süresi restoranınızın ciro hacmine ve WhatsApp'a kayan sipariş oranına göre değişir.
 
 Restoranınız için hibrit modelin matematiğini birlikte çıkarmak ve size özel bir teklif hazırlamak istiyorsak [iletişim sayfamızdan](/iletisim) ulaşabilirsiniz. İlk görüşme ücretsiz, mevcut yemeksepeti, getir ve trendyol yemek raporlarınız üzerinden net bir tasarruf hesabı sunuyoruz.

@@ -13,7 +13,7 @@ ogImage: "/blog/og/isletmeler-icin-surec-otomasyonu.png"
 
 # İşletmeler İçin Süreç Otomasyonu: Hangi İşler Otomatikleşmeli?
 
-Bir KOBİ sahibi gününün ortalama 3 saat 20 dakikasını "kopyala-yapıştır" tarzı işlere harcıyor. WhatsApp'tan gelen siparişi Excel'e geçirme, e-faturayı muhasebe yazılımına işleme, müşteri listesinden mail çekme, tedarikçiye PDF gönderme... İşletmeler için süreç otomasyonu, tam bu noktada devreye giren ve "bu işi makine yapsın, sen büyük resme bak" diyen disiplin. Doğru kurulduğunda haftada 20-30 saat kazandırıyor, hata oranını sıfıra yaklaştırıyor ve veri akışını şeffaflaştırıyor. Bu yazıda hangi süreçlerin otomatikleştirilmesi gerektiğini, hangilerinin insana bırakılmasının daha mantıklı olduğunu ve KOBİ'lerin bu yolculuğa nereden başlaması gerektiğini somut örneklerle anlatacağım.
+Bir KOBİ sahibi gününün ortalama 3 saat 20 dakikasını "kopyala-yapıştır" tarzı işlere harcıyor. WhatsApp'tan gelen siparişi Excel'e geçirme, e-faturayı muhasebe yazılımına işleme, müşteri listesinden mail çekme, tedarikçiye PDF gönderme... İşletmeler için süreç otomasyonu, tam bu noktada devreye giren ve "bu işi makine yapsın, sen büyük resme bak" diyen disiplin. Doğru kurulduğunda tekrar eden işlere harcanan zamanı ve elle veri girişinden kaynaklanan hataları azaltıyor, veri akışını şeffaflaştırıyor. Bu yazıda hangi süreçlerin otomatikleştirilmesi gerektiğini, hangilerinin insana bırakılmasının daha mantıklı olduğunu ve KOBİ'lerin bu yolculuğa nereden başlaması gerektiğini somut örneklerle anlatacağım.
 
 ## Süreç Otomasyonu Tam Olarak Nedir?
 
@@ -173,40 +173,40 @@ Akışların çalışıp çalışmadığını izleyen bir dashboard kurun. Bir a
 
 ### Restoran: Rezervasyon ve Tedarik
 
-3 şubeli bir İtalyan restoranı şu otomasyonları kurdu:
+Örnek senaryo: 3 şubeli bir İtalyan restoranı için şu otomasyonlar kurgulanabilir:
 
 - Instagram DM rezervasyon → AI ile masa kontrolü → onay
 - Stoğu biten malzeme → tedarikçiye otomatik WhatsApp siparişi
 - Müşteri yorumu (Google, TripAdvisor) → kayıt
 - Haftalık satış raporu → işletme sahibine PDF olarak Pazartesi 09:00
 
-Aylık kazanım: 38 saat. Müşteri memnuniyeti %18 arttı çünkü hiç soru cevapsız kalmıyor.
+Kazanım: rezervasyon ve tedarik yazışmalarına harcanan zaman azalır, müşteri soruları cevapsız kalmaz.
 
 ### Hukuk Bürosu: Dosya Yönetimi
 
-12 avukatlı bir hukuk bürosu UYAP entegrasyonu ile şu akışı kurdu:
+Örnek senaryo: 12 avukatlı bir hukuk bürosu için UYAP verisiyle şu akış kurgulanabilir:
 
 - Duruşma tarihi UYAP'tan çekiliyor → ilgili avukatın takvimine düşüyor
 - Duruşmadan 24 saat önce müvekkile otomatik SMS hatırlatma
 - Yeni dosya açılınca müvekkile karşılama maili + sözleşme PDF
 - Aylık dosya durumu özeti müvekkillere otomatik gönderiliyor
 
-Sekretere haftada 22 saat zaman kazandırdı. Müvekkil memnuniyeti ölçülebilir şekilde arttı.
+Sekreterin takvim ve hatırlatma işleri büyük ölçüde otomatikleşir; müvekkil süreç hakkında düzenli bilgi alır.
 
 ### Emlak Ofisi: Lead Yönetimi
 
-İzmir'de 4 ofisli bir emlak şirketi:
+Örnek senaryo: İzmir'de 4 ofisli bir emlak şirketi için:
 
 - sahibinden.com / hepsiemlak'tan gelen ilanlar → CRM'e otomatik düşüyor
 - Yeni lead → segmentlere ayrılıyor (kira/satılık, lokasyon, bütçe)
 - Uygun ilan çıkınca → tüm uygun müşterilere WhatsApp ile öneri
 - Görüşme sonrası → otomatik geri bildirim formu
 
-Lead'den göstermeye dönüşüm %23'ten %41'e çıktı. [İnstagram'dan müşteri bulma rehberi](/blog/instagramdan-musteri-bulma-rehberi) yazısında da bu sektöre özel taktikler var.
+Böylece hiçbir lead takipsiz kalmaz ve uygun ilan çıktığında ilgili müşteriler hemen bilgilendirilir. [İnstagram'dan müşteri bulma rehberi](/blog/instagramdan-musteri-bulma-rehberi) yazısında da bu sektöre özel taktikler var.
 
 ## Otomasyon Maliyetleri ve ROI Hesabı
 
-Bir orta ölçekli KOBİ için tipik otomasyon yatırımı:
+Piyasada orta ölçekli bir KOBİ için tipik otomasyon yatırımı şöyle görünüyor (PORTZEN'de bu iş tek seferlik iş otomasyonu paketleriyle yapılır: {{fiyatlar:is-otomasyonu}}, KDV hariç):
 
 | Kalem | Tutar (TL) |
 |-------|------------|
@@ -248,10 +248,10 @@ Bu yeni yapıyı [yapay zeka müşteri hizmetleri](/blog/yapay-zeka-musteri-hizm
 
 ## PORTZEN ile Süreç Otomasyonu: Sıfırdan Sisteme
 
-PORTZEN olarak KOBİ'lere "sadece akış kurmuyoruz", iş süreçlerini baştan tasarlıyoruz. Önce 5-7 günlük bir keşif yapıyoruz: işletmenizdeki tüm tekrar eden işleri haritalandırıyoruz, hangi sistemler birbirleriyle konuşmalı çıkarıyoruz, hangi süreçlerin önce otomatikleştirilmesi gerektiğini ROI'a göre sıralıyoruz.
+PORTZEN olarak KOBİ'lere "sadece akış kurmuyoruz", iş süreçlerini baştan tasarlıyoruz. Önce bir keşif çalışması yapıyoruz: işletmenizdeki tüm tekrar eden işleri haritalandırıyoruz, hangi sistemler birbirleriyle konuşmalı çıkarıyoruz, hangi süreçlerin önce otomatikleştirilmesi gerektiğini ROI'a göre sıralıyoruz.
 
-Sonraki 3-4 hafta içinde n8n veya Make üzerinde sisteminizi kuruyor, mevcut yazılımlarınızla (Logo, Mikro, Netsis, NetGSM, e-ticaret platformları, WhatsApp Business API) entegre ediyor, ekibinize kullanım eğitimi veriyoruz. [Otomasyon Sistemleri](/crm-otomasyonu) hizmetimiz [AI Bot Kurulumu](/whatsapp-ai-asistani) ile birleştiğinde gerçek anlamda "kendi kendine çalışan işletme" deneyimini yaşıyorsunuz.
+Ardından n8n veya Make üzerinde sisteminizi kuruyor (teslim süresi kapsama göre teklifte yazılı olarak belirtilir), mevcut yazılımlarınızla (Logo, Mikro, Netsis, NetGSM, e-ticaret platformları, WhatsApp Business API) entegre ediyor, Büyüme ve Kurumsal paketlerde ekibinize kullanım eğitimi veriyoruz. [Otomasyon Sistemleri](/crm-otomasyonu) hizmetimiz [AI Bot Kurulumu](/whatsapp-ai-asistani) ile birleştiğinde tekrar eden işlerin büyük kısmı kendi kendine yürür.
 
-Sonraki 6 ay boyunca aylık optimizasyon görüşmeleri yapıyor, kırılan akışları izliyor, yeni süreçleri ekliyoruz. Çünkü otomasyon kur-bırak değil, yaşayan bir sistem.
+Kurulum tek seferliktir ve ilk 30 gün kurulum hatalarının giderilmesi dahildir. İkinci aydan itibaren isteğe bağlı aylık bakımla ({{bakim:baslangic}} / {{bakim:buyume}} / {{bakim:kurumsal}}, KDV hariç) akışları izliyor, kırılanları onarıyoruz. Çünkü otomasyon kur-bırak değil, yaşayan bir sistem.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir görüşmede işletmeniz için uygun yapıyı netleştiririz.

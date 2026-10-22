@@ -23,18 +23,18 @@ Düzensiz paylaşım yapan bir KOBİ hesabına bakın: gönderiler arasında bir
 
 ### İmprovize Etmenin Gerçek Maliyeti
 
-Sahada çalışırken gördüğüm bir gerçek: içerik takvimi olmayan KOBİ'ler ay başına ortalama **6-8 gönderi** çıkarabiliyor. Takvimi olanlar aynı insan kaynağıyla **20-25 gönderiye** ulaşıyor. Yani aynı çabayla 3 katı içerik üretmek mümkün. Bunun sebebi basit: takvim olduğunda toplu üretim (batch production) yapılabiliyor. Tek bir çekim günüyle haftanın tüm Reels'ları, tek bir tasarım oturumuyla ayın tüm carousel'leri hazırlanabiliyor.
+İçerik takvimi olmayan KOBİ'ler genellikle ayın bir bölümünü boş geçiriyor; takvimi olanlar ise aynı insan kaynağıyla çok daha düzenli ve daha fazla içerik çıkarabiliyor. Bunun sebebi basit: takvim olduğunda toplu üretim (batch production) yapılabiliyor. Tek bir çekim günüyle haftanın tüm Reels'ları, tek bir tasarım oturumuyla ayın tüm carousel'leri hazırlanabiliyor.
 
 ## Format Dağılımı: %40-30-20-10 Kuralı
 
-Türkiye'deki KOBİ'ler için test ettiğimiz ve sürekli iyi sonuç veren format dağılımı şu şekilde:
+Türkiye'deki KOBİ'ler için başlangıç noktası olarak önerdiğimiz format dağılımı şu şekilde:
 
 - **Reels: %40** — Organik erişimin lokomotifi. Algoritma en çok bu formatı taşıyor.
 - **Carousel: %30** — Kayıt ve paylaşım için en güçlü format. Eğitici içerikte mükemmel.
 - **Story: %20** — Günlük etkileşim, anket, soru-cevap. Mevcut takipçiyle bağ kurar.
 - **Statik post: %10** — Sadece "açıklama yapması gereken" duyurular (yeni şube, kampanya, çalışma saatleri).
 
-Bu oranlar matematiksel kesinlikte değil ama bir referans noktası. Eğer ayda 20 gönderi planlıyorsanız 8 Reels, 6 carousel, 4 story serisi ve 2 statik post hedefleyebilirsiniz. Reels üretmekte zorlanan KOBİ'ler için [AI reklam video](/ai-reklam-videosu) çözümlerimiz vakit ve maliyet açısından ciddi avantaj sağlıyor; tek bir brief'le birden fazla varyasyon çıkarmak mümkün. Higgsfield, Seedance ve Veo 3 ile çalışan [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetimiz ise haftada 4-6 sinema kalitesinde Reels üretmeyi mümkün kılıyor.
+Bu oranlar matematiksel kesinlikte değil ama bir referans noktası. Eğer ayda 20 gönderi planlıyorsanız 8 Reels, 6 carousel, 4 story serisi ve 2 statik post hedefleyebilirsiniz. Reels üretmekte zorlanan KOBİ'ler için [AI reklam video](/ai-reklam-videosu) çözümlerimiz vakit ve maliyet açısından ciddi avantaj sağlıyor; tek bir brief'le birden fazla varyasyon çıkarmak mümkün. Higgsfield, Seedance ve Veo 3 ile çalışan [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetimiz ise pakete göre ayda 4, 12 veya 24 kısa video üretiyor.
 
 ### Format Seçerken Sektör Farkı
 
@@ -101,7 +101,7 @@ Bir estetik kliniği için içerik kurgusu daha eğitim odaklı olmalı çünkü
 | Cumartesi | Reels: "Bu hafta randevu açtık" CTA + DM |
 | Pazar | Story: Highlight güncelleme (yeni hizmetler) |
 
-Klinik için anahtar nokta: **güven inşası**. Doktorun yüzü görünmeli, klinik ortamı görünmeli, müşteri yorumları sürekli akmalı. Sadece "kampanya" ya da "fiyat" paylaşan klinikler hızla itibar kaybediyor; eğitim ağırlıklı içerik üreten klinikler ise sürekli DM akışı yakalıyor. Klinik hesabı için DM otomasyonu da kritik; ilgilenen kişiye 15 dakika içinde dönülmediğinde satış kaçıyor. [Instagram DM otomasyonu](/instagram-dm-otomasyonu) sistemi bu süreyi sıfıra indiriyor.
+Klinik için anahtar nokta: **güven inşası**. Doktorun yüzü görünmeli, klinik ortamı görünmeli, müşteri yorumları sürekli akmalı. Sadece "kampanya" ya da "fiyat" paylaşan klinikler hızla itibar kaybediyor; eğitim ağırlıklı içerik üreten klinikler ise sürekli DM akışı yakalıyor. Klinik hesabı için DM otomasyonu da kritik; ilgilenen kişiye geç dönüldüğünde satış kaçabiliyor. Kural tabanlı [Instagram DM otomasyonu](/instagram-dm-otomasyonu), belirlenen anahtar kelime, yorum ve hikâye etkileşimlerine önceden tanımlı mesajla otomatik yanıt verir ve kişiyi randevu adımına yönlendirir; serbest soruları yapay zekâ ile yanıtlamak ise ayrı bir hizmet olan AI müşteri asistanının kapsamındadır.
 
 ## Sektörel Örnek 3: Butik Kıyafet İçin Haftalık Takvim
 
@@ -121,7 +121,7 @@ Butik sektöründe Reels'ın gücü tartışılmaz çünkü kıyafet **hareketle
 
 ## Aylık Tetikleyici Günler Takvimi
 
-KOBİ'lerin sürekli kaçırdığı bir fırsat: **tetikleyici günler**. Bu günlerden 1-2 hafta önce planlama yapmak satışı katlıyor. 2026 için ana takvim:
+KOBİ'lerin sürekli kaçırdığı bir fırsat: **tetikleyici günler**. Bu günlerden 1-2 hafta önce planlama yapmak, kampanyaya hazırlıklı girmeyi sağlıyor. 2026 için ana takvim:
 
 - **Ocak:** Yılbaşı sonrası "yeni yıl-yeni başlangıç" temaları, indirim sonu kampanyaları
 - **Şubat:** 14 Şubat (Sevgililer Günü) — hediye odaklı içerik
@@ -156,7 +156,7 @@ Takvimi nerede tutacağınız da işin önemli kısmı. Defter üzerinde tutmakt
 
 ### Notion: KOBİ'ler İçin Tatlı Nokta
 
-Sahada en çok kurduğumuz sistem **Notion**. Sebebi şu: hem takvim görünümü (calendar view) var, hem liste görünümü (table view) var, hem de her gönderi için ayrı bir sayfa açıp brief, görsel referansı, caption taslağı, hashtag listesi gibi tüm detayları tek yerde tutuyor. Üstelik ücretsiz planı KOBİ için fazlasıyla yeterli.
+KOBİ'ler için çoğunlukla önerdiğimiz sistem **Notion**. Sebebi şu: hem takvim görünümü (calendar view) var, hem liste görünümü (table view) var, hem de her gönderi için ayrı bir sayfa açıp brief, görsel referansı, caption taslağı, hashtag listesi gibi tüm detayları tek yerde tutuyor. Üstelik ücretsiz planı KOBİ için fazlasıyla yeterli.
 
 Notion'da kurulabilecek temel veritabanı kolonları: tarih, platform, format, tema, başlık/hook, caption, görsel referansı, durum (taslak/onaylı/yayınlandı), performans notu. Bu yapı tutulduğunda ay sonunda "hangi format en çok kazandırıyor" gibi sorulara veriyle cevap vermek mümkün oluyor.
 
@@ -218,10 +218,10 @@ Eğer ekibinizde bu işi yapacak insan yoksa ya da patron tek başına yetişemi
 
 ## PORTZEN ile İçerik Yönetimi: Profesyonel Yaklaşım
 
-PORTZEN olarak Türk KOBİ'leri için sıfırdan bir içerik takvimi sistemi kuruyoruz. Yalnızca takvim hazırlamakla kalmıyor; içerik üretimini AI destekli akışlarımızla hızlandırıyor, yayın planlamasını Notion ve Buffer entegrasyonuyla otomatikleştiriyor, gelen DM'leri AI asistanlarımızla anında yanıtlayarak satışa dönüştürüyoruz. Bir KOBİ patronunun "ne paylaşsak" stresini tamamen üstümüze alıyoruz; siz işinizi büyütmeye odaklanıyorsunuz.
+PORTZEN olarak Türk KOBİ'leri için sıfırdan bir içerik takvimi sistemi kuruyoruz. Yalnızca takvim hazırlamakla kalmıyor; içerik üretimini AI destekli akışlarımızla hızlandırıyor, yayın planlamasını otomatikleştiriyoruz. Gelen DM'leri yapay zekâ ile yanıtlamak isterseniz bu ayrı bir hizmet olan AI müşteri asistanıyla kurulur (Instagram kanalı Kurumsal pakette); yorum ve hikâyeye kural tabanlı otomatik DM ise Instagram DM otomasyonu hizmetinin kapsamındadır. Bir KOBİ patronunun "ne paylaşsak" stresini tamamen üstümüze alıyoruz; siz işinizi büyütmeye odaklanıyorsunuz.
 
-Restoranlardan butik markalara, estetik kliniklerinden e-ticaret işletmelerine kadar 50'den fazla KOBİ ile içerik takvimi sistemleri kurduk. Çıktılarımız net: aylık çıkan gönderi sayısı **3 katına** çıkıyor, içerik üretim süresi **%60** azalıyor, takipçi-DM dönüşüm oranı **2 kat** artıyor. AI destekli Reels üretim akışlarımız sayesinde haftalık 3-5 Reels çıkarmak artık bir yük değil, otomatik bir süreç.
+Restoranlardan butik markalara, estetik kliniklerinden e-ticaret işletmelerine kadar her sektör için aynı omurgayı kullanıyoruz: aylık tema planı, format dağılımı, toplu üretim günü ve ay sonu performans notu. Böylece içerik üretimi plansız bir uğraş olmaktan çıkıp takvime bağlı, ölçülebilir bir sürece dönüşüyor. Sosyal medya paketlerimizde ayda toplam 10, 20 veya 30 özgün içerik (2, 8 veya 12 video dahil) üretiyoruz: {{fiyatlar:sosyal-medya}} (KDV hariç).
 
 Sosyal medyanız büyümüyor, içerik üretmekten yorgunsunuz ya da bir türlü düzenli paylaşıma geçemiyorsanız doğru zamandayız. Hizmetlerimizi inceleyip işletmeniz için uygun yapıyı netleştirmek için aşağıdaki linkten ulaşabilirsiniz.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

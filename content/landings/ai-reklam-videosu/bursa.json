@@ -4,7 +4,7 @@
   "sectorName": "Bursa",
   "sectorPlural": "Bursa'daki Markalar",
   "title": "Bursa AI Reklam Videosu | Sanayi Tanıtım & Reels - PORTZEN",
-  "description": "Bursa'daki tekstil, mobilya, otomotiv ve KOBİ markaları için AI reklam videosu. Sanayi tanıtım filmleri + Reels & TikTok içerikleri. Aylık 15 videoya kadar paketler.",
+  "description": "Bursa'daki tekstil, mobilya, otomotiv ve KOBİ markaları için AI reklam videosu. Sanayi tanıtım filmleri + Reels & TikTok içerikleri. Aylık 24 videoya kadar paketler.",
   "keywords": [
     "bursa ai reklam videosu",
     "bursa reels üretimi",
@@ -14,12 +14,24 @@
     "bursa sanayi tanıtım"
   ],
   "h1": "Bursa İçin AI Reklam Videosu Üretimi",
-  "heroSubtitle": "Nilüfer'de tekstil firması, İnegöl'de mobilyacı, OSB'de otomotiv yan sanayi - sanayi ruhunuzu ve ürün kalitenizi gösteren AI üretimli Reels, TikTok ve tanıtım filmleri. Aylık 6-15 video.",
+  "heroSubtitle": "Nilüfer'de tekstil firması, İnegöl'de mobilyacı, OSB'de otomotiv yan sanayi - sanayi ruhunuzu ve ürün kalitenizi gösteren AI üretimli Reels, TikTok ve tanıtım filmleri. Aylık 4, 12 veya 24 video.",
   "stats": [
-    {"value": "Bursa", "label": "B2B + B2C"},
-    {"value": "15 video", "label": "Aylık Max"},
-    {"value": "%70", "label": "Maliyet Azaltma"},
-    {"value": "72 saat", "label": "İlk Teslim"}
+    {
+      "value": "Bursa",
+      "label": "B2B + B2C"
+    },
+    {
+      "value": "24 video",
+      "label": "Aylık Max"
+    },
+    {
+      "value": "Çekim ekibi yok",
+      "label": "AI ile uzaktan üretim"
+    },
+    {
+      "value": "Kapsama göre",
+      "label": "Teslim süresi teklifte yazılı"
+    }
   ],
   "problems": [
     "Bursalı tekstil veya mobilya markası olarak fuara (CNR, ITM, Evteks) gidiyorsunuz ama tanıtım filminiz amatör cep çekimi; rakipler 4K prodüksiyonla geliyor, sizin standınız zayıf kalıyor.",
@@ -39,11 +51,11 @@
     },
     {
       "title": "AI Video Üretimi",
-      "description": "Seedance, Kling, Veo, Sora gibi premium modellerle 5-30 saniyelik reklam ve tanıtım videoları. Türkçe + İngilizce ses + altyazı + müzik dahil."
+      "description": "Seedance, Kling, Veo, Sora gibi premium modellerle 5-30 saniyelik reklam ve tanıtım videoları. Türkçe ses + altyazı + müzik dahil; İngilizce versiyon ek iş olarak ayrıca tekliflendirilir."
     },
     {
       "title": "Teslim + Optimizasyon",
-      "description": "İlk teslim 72 saat, revizyon sınırsız (revize talep limiti 2). Aylık performans raporu, hangi video daha çok döndü analizi."
+      "description": "Teslim süresi kapsama göre teklifte yazılı olarak belirtilir, revize kapsamı teklifte yazılı olarak belirlenir. Aylık performans raporu, hangi video daha çok döndü analizi."
     }
   ],
   "features": [
@@ -57,15 +69,15 @@
     },
     {
       "title": "Türkçe + İngilizce Ses",
-      "description": "ElevenLabs ile Türkçe + İngilizce seslendirme (yurt dışı fuar için), otomatik altyazı, marka müziği dahil."
+      "description": "ElevenLabs ile Türkçe seslendirme, otomatik altyazı ve marka müziği dahil; yurt dışı fuar için İngilizce seslendirme ek iş olarak ayrıca tekliflendirilir."
     },
     {
       "title": "Dikey + Yatay Format",
-      "description": "Reels, TikTok (9:16), YouTube Shorts (9:16), feed (1:1, 4:5), YouTube ads + fuar ekranı (16:9) - tek brifle 4 format."
+      "description": "Reels, TikTok (9:16), YouTube Shorts (9:16), feed (1:1, 4:5), YouTube ads + fuar ekranı (16:9) - tek brifle pakete göre 1, 2 veya 3 format; ek formatlar ayrıca tekliflendirilir."
     },
     {
       "title": "Telifsiz + Marka Sahiplik",
-      "description": "Üretilen tüm videoların ticari kullanım hakkı %100 sizin. Fuar, reklam fonlu kampanya, sunum - sınırsız kullanım."
+      "description": "Üretilen tüm videoların ticari kullanım hakkı tamamen sizin. Fuar, reklam fonlu kampanya, sunum - süre ve kanal sınırı olmadan kullanım."
     },
     {
       "title": "Performans Raporu",
@@ -73,60 +85,30 @@
     }
   ],
   "caseStudy": {
-    "title": "İnegöl'de bir mobilya markası: 3 ayda 18 AI Reels, CNR fuarında 240 yeni B2B lead",
+    "title": "Örnek senaryo: İnegöl'de bir mobilya markası için fuar filmi ve Reels seti",
     "paragraphs": [
-      "İnegöl'de orta ölçekli, oturma grubu üreten bir mobilya markası, Instagram'da haftada 1-2 cep çekimi atıyordu. Erişim 8-15K arası takılı kalmıştı. CNR Mobilya Fuarı yaklaşıyor, standında dönecek profesyonel bir tanıtım filmi yoktu. İstanbul prodüksiyondan teklif 110.000 TL geldi, bütçe yetmedi.",
-      "PORTZEN olarak 3 aylık AI Reels + 2 adet 30 saniyelik premium tanıtım filmi paketine başladık; mevcut ürünler AI modellere yüklendi; lüks bir İtalyan showroom havasında, cinematic kamera hareketleriyle ürünlerin sanal showroom shot'ları üretildi. Türkçe + İngilizce seslendirme, marka müziği eklendi. Fuar standında 4K ekranda döndü.",
-      "3 ay sonunda 18 AI Reels üretildi; Instagram erişim 12K'dan 84K'ya yükseldi. CNR fuarında stand önünde durup tanıtımı izleyen B2B müşteri sayısı 3 kat arttı, fuardan 240 yeni B2B lead toplandı (önceki yıl 80). Video birim maliyeti 110K → 2.500 TL'ye düştü; maliyet %97 azaldı."
+      "Örnek bir kurulum: İnegöl'de oturma grubu üreten, Instagram'da ara sıra cep çekimi paylaşan orta ölçekli bir mobilya markası düşünün. CNR Mobilya Fuarı yaklaşıyor; standında dönecek profesyonel bir tanıtım filmi yok ve klasik prodüksiyon teklifi bütçeyi aşıyor.",
+      "Bu senaryoda aylık kısa video paketiyle Reels üretimi ve fuar için 30 saniyeye kadar bir AI reklam filmi (Büyüme) birlikte planlanır. Mevcut ürün fotoğrafları AI modellere referans olarak yüklenir; lüks bir showroom havasında, sinematik kamera hareketleriyle sanal showroom sahneleri üretilir. Türkçe seslendirme ve marka müziği eklenir, İngilizce seslendirme ek iş olarak ayrıca tekliflendirilir. Film fuar ekranı için 16:9 formatta teslim edilir.",
+      "Marka, fuar standında dönecek bir tanıtım filmine ve sosyal medyada düzenli paylaşacağı Reels'lere aynı görsel dille sahip olur; ürün yenilendiğinde ayrı çekim organize etmesi gerekmez. Erişim ve fuar görüşmesi sonuçları ürüne, standa ve kitleye göre değişir; burada rakam vaat etmiyoruz."
     ],
     "beforeAfter": [
-      {"label": "Aylık Video Üretimi", "before": "5 (cep çekimi)", "after": "6 AI Reels + tanıtım"},
-      {"label": "Fuar B2B Lead", "before": "80 (önceki yıl)", "after": "240"},
-      {"label": "Video Birim Maliyeti", "before": "110.000 TL", "after": "~2.500 TL"}
+      {
+        "label": "Aylık Video Üretimi",
+        "before": "Ara sıra cep çekimi",
+        "after": "Pakete göre aylık AI Reels + fuar tanıtım filmi"
+      },
+      {
+        "label": "Fuar standı",
+        "before": "Ekranda gösterilecek profesyonel film yok",
+        "after": "Fuar ekranı için 16:9 AI tanıtım filmi"
+      },
+      {
+        "label": "Ürün sahneleri",
+        "before": "Showroom çekimi için ekip ve set gerekiyor",
+        "after": "Sanal showroom sahneleri ürün fotoğraflarından AI ile üretiliyor"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "8.000 TL/ay",
-      "description": "Yeni başlayan marka, küçük üretici, lokal restoran için",
-      "features": [
-        "Aylık 4 AI Reels (5-10 sn)",
-        "Dikey format (9:16)",
-        "Türkçe altyazı",
-        "Müzik dahil",
-        "1 revizyon hakkı",
-        "E-posta destek"
-      ]
-    },
-    {
-      "name": "Profesyonel",
-      "price": "18.000 TL/ay",
-      "description": "Aktif sosyal medya yapan, fuara hazırlanan B2B/B2C marka için",
-      "features": [
-        "Aylık 8 AI Reels (5-12 sn)",
-        "Dikey + Kare format",
-        "Türkçe seslendirme + altyazı",
-        "Marka müziği",
-        "Aylık performans raporu",
-        "Öncelikli WhatsApp destek"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Kurumsal",
-      "price": "35.000 TL/ay",
-      "description": "Ulusal/uluslararası satış yapan, premium üretici, ihracatçı için",
-      "features": [
-        "Aylık 15 AI Reels + 2 uzun tanıtım filmi (30 sn)",
-        "4 format (9:16, 1:1, 4:5, 16:9)",
-        "Premium seslendirme (TR + EN + DE)",
-        "A/B test paketleri",
-        "Adanmış Bursa hesap yöneticisi",
-        "Aylık strateji toplantısı"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "Bursa tekstili veya mobilyası AI ile gerçekçi üretilebilir mi?",
@@ -134,11 +116,11 @@
     },
     {
       "question": "Fuar (CNR, ITM, Evteks) için 4K tanıtım filmi üretebilir misiniz?",
-      "answer": "Evet. Premium pakette 30 saniyelik 4K çıktı + fuar ekran formatı (16:9) dahil. İstanbul prodüksiyona göre %80 daha uygun fiyat."
+      "answer": "Evet. Fuar ekranı için 16:9 yatay format brief'te planlanır. 30 saniyeye kadar bir tanıtım filmi Büyüme, özel konseptli ve storyboard'lu 60 saniyeye kadar bir lansman filmi Kurumsal AI reklam filmi kapsamındadır. 4K çıktı paketlerde standart değildir; ihtiyacınız varsa ek iş olarak ayrıca tekliflendirilir. Ekip, set ve çekim günü gerekmediği için maliyet klasik prodüksiyona göre genelde belirgin şekilde düşük kalır."
     },
     {
       "question": "Üretilen videoların telifi kime ait?",
-      "answer": "Tamamen size. Marka, fuar ve reklam kullanımı için sınırsız hak. Sözleşmede ve teslim PDF'inde garanti veriliyor."
+      "answer": "Tamamen size. Marka, fuar ve reklam kullanımı için süre ve kanal sınırı olmadan kullanım hakkı. Bu hak sözleşmede ve teslim belgesinde yazılı olarak belirtilir."
     },
     {
       "question": "Bursa'daki markama özel görsel dil kuruluyor mu?",
@@ -146,15 +128,15 @@
     },
     {
       "question": "Canlı çekim de yapıyor musunuz?",
-      "answer": "Birincil odağımız AI üretim. Ama gerçek ürün shot (mobilya, kumaş, otomotiv parça) gerektiğinde Bursa'da stüdyo partnerimizle entegre çalışıyoruz."
+      "answer": "Birincil odağımız AI üretim; saha çekimi paketlere dahil değildir. Gerçek ürün görüntüsü (mobilya, kumaş, otomotiv parça) gerektiğinde mevcut fotoğraf ve videolarınızı AI sahnelerle birlikte kullanabiliyoruz; ayrı çekim ihtiyacı varsa teklif aşamasında konuşulur."
     },
     {
       "question": "Reklam (Meta Ads, TikTok Ads) yönetimi de yapıyor musunuz?",
-      "answer": "İçerik üretimi odağımız. Reklam yönetimi için ayrı 'Paid Ads' paketimiz var, ikisini bundle alabilirsiniz."
+      "answer": "Evet, ayrı bir hizmet olarak. AI reklam filmi paketleri üretimi kapsar; Meta veya Google'da kampanya kurulumu ve yönetimi Reklam yönetimi hizmetiyle yapılır: {{fiyatlar:reklam-yonetimi}} (KDV hariç, reklam harcaması hariç). Sosyal medya yönetimini de bize veriyorsanız Büyüme ve Kurumsal sosyal medya paketlerinde reklam yönetimi zaten dahildir. TikTok Ads paketlerimizde yer almıyor; ihtiyacınız varsa ayrıca tekliflendiririz. Bursa'daki tekstil ve mobilya markaları için filmi ve kampanyayı birlikte planlamak en verimlisi."
     },
     {
       "question": "Bursa'da ekipte mi çalışıyorsunuz, ofise gelebilir miyim?",
-      "answer": "PORTZEN İzmir merkezli, Bursa'da 6+ aktif müşterimiz var. Toplantıları online yapıyoruz; bu sayede ekibi büyük tutmadan size daha uygun fiyat sunabiliyoruz. Bursa'da yerel ajanslar tanıtım filmi için %40 daha fazla istiyor."
+      "answer": "PORTZEN İzmir merkezli; Bursa'daki markalarla toplantıları online yapıyoruz. Ofis ve set maliyetini büyük tutmadığımız için fiyatlarımızı paket bazında net tutabiliyoruz."
     }
   ],
   "finalCtaHeadline": "Bursa markanızı AI video ile fuara ve dünyaya çıkaralım.",

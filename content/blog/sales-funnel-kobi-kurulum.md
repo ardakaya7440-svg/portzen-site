@@ -46,7 +46,7 @@ Modern pazarlamada bu 4 aşamaya **5.** ekleniyor: **Retention** (Sadakat) — m
 
 **Tipik dönüşüm:** %1-3 (1.000 görüntülenmenin 10-30'u sonraki aşamaya geçer)
 
-Çoğu KOBİ için TOFU akışını besleyen en hızlı kaynak Facebook + Instagram reklamı; doğru kurulduğunda CPL'i 5-10 TL bandında tutmak için profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile çalışmak ilk 3 ayın sonuçlarını ciddi şekilde değiştirir.
+Çoğu KOBİ için TOFU akışını besleyen en hızlı kaynak Facebook + Instagram reklamı; lead başına maliyeti (CPL) düzenli izleyip optimize etmek için profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile çalışmak, ilk aylardaki deneme-yanılma sürecini kısaltır.
 
 ### Aşama 2: MOFU (Middle of Funnel) — İlgi
 
@@ -93,9 +93,9 @@ Modern pazarlamada bu 4 aşamaya **5.** ekleniyor: **Retention** (Sadakat) — m
 
 **Metrikler:** Churn rate, NPS (memnuniyet skoru), CLV (müşteri yaşam değeri), referans sayısı
 
-## Funnel Conversion Hesabı — Gerçek Örnek
+## Funnel Conversion Hesabı — Örnek Hesap
 
-Bir e-ticaret butiği için 30 günlük data:
+Örnek bir e-ticaret butiği için 30 günlük temsili veri (rakamlar hesaplama yöntemini göstermek içindir):
 
 | Aşama | Sayı | Aşama Dönüşümü | Toplam Dönüşüm |
 |---|---|---|---|
@@ -171,8 +171,8 @@ Yeni müşteri 5-7x daha pahalı. Mevcut müşteri tekrar alır, referans verir.
 
 ## PORTZEN ile Funnel Kurulumu
 
-PORTZEN olarak KOBİ'ler için **uçtan uca sales funnel** kuruyoruz: landing page tasarımı + lead magnet üretimi + email otomasyonu + CRM entegrasyonu + WhatsApp follow-up. [CRM Otomasyonu](/crm-otomasyonu) sayfamızda paketleri görebilir, [Lead Scoring AI rehberi](/blog/lead-scoring-ai-rehberi) yazımızda funnel sonrası adımı okuyabilirsiniz.
+PORTZEN olarak KOBİ'ler için **uçtan uca sales funnel** kuruyoruz: landing page tasarımı + email otomasyonu + CRM entegrasyonu + WhatsApp follow-up. [CRM Otomasyonu](/crm-otomasyonu) sayfamızda paketleri görebilir, [Lead Scoring AI rehberi](/blog/lead-scoring-ai-rehberi) yazımızda funnel sonrası adımı okuyabilirsiniz.
 
-Tipik bir KOBİ için kurulum **4 hafta**, aylık ₺12.000'den başlıyor.
+Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Funnel akışları iş otomasyonu paketleriyle tek seferlik kurulur: {{fiyatlar:is-otomasyonu}} (KDV hariç); landing page ayrıca {{tekil:landing-page}} (KDV hariç). İlk 30 gün kurulum hataları giderilir, sonrasında aylık bakım isteğe bağlıdır. Tüm paketler için [fiyatlar sayfası](/fiyatlar).
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun funnel yapısını birlikte belirleyelim.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun funnel yapısını birlikte belirleyelim.

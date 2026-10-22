@@ -59,13 +59,13 @@ Güzellik salonlarının takvim yönetimi karmaşık çünkü her ustanın yetki
 
 Müşteri "saç boyama" istediğinde sistem otomatik olarak sadece Selma usta'nın takvimine bakmalı. "Lazer" derken hem Ayşe hem Ahmet usta uygunsa ikisini de göstermeli. Cihaz bazlı kaynak yönetimi de kritik: lazer cihazı tekse, aynı saate iki lazer randevusu kabul edilmemeli.
 
-Bu mantık AI asistana kurulurken bilgi tabanına yazılır. Sistem hatalı çakışma yapmaz, müşteriyi yanlış usta'ya yazmaz.
+Bu mantık AI asistana kurulurken bilgi tabanına yazılır. Böylece hatalı çakışma ve yanlış ustaya yazma riski azalır.
 
 ## No-Show Azaltma: Hatırlatma Sisteminin Sihri
 
 Sektörün en büyük gizli kaybı no-show. Müşteri 1 hafta önce randevu alır, araya unutur, gün gelir kapıyı çalmaz. Boş kalan koltuk doldurulamaz çünkü bekleyen müşteri o anda haber edilemez.
 
-Doğru kurulmuş bir WhatsApp hatırlatma sistemi no-show oranını %15-20'den **%3-5'e** düşürebiliyor. Akış şöyle:
+Doğru kurulmuş bir WhatsApp hatırlatma sistemi, müşterinin randevuyu unutmasının önüne geçerek no-show'u azaltmanın en pratik yoludur. Akış şöyle:
 
 1. Randevu alındığı an onay mesajı: "Randevunuz X tarihinde Y saatinde onaylandı."
 2. Randevudan 24 saat önce: "Yarın 14.00'da Ayşe usta ile randevunuz var. Onaylıyor musunuz? Cevap: EVET / DEĞİŞTİR / İPTAL"
@@ -79,7 +79,7 @@ Bu hatırlatma akışı sadece no-show'u düşürmüyor, aynı zamanda müşteri
 
 İptal olan randevuların yerini doldurmak için AI asistan bekleme listesini de yönetiyor. Yoğun saatlere randevu bulamayan müşteriler "Cuma 17.00'da yer var mı?" diye sorduğunda AI "Şu an dolu ama bekleme listesine almak ister misiniz? Bir iptal olursa size haber veririm" diyor.
 
-İptal anında bekleme listesindeki müşteriye otomatik mesaj gidiyor: "Cuma 17.00 müsait hale geldi, halen ilgileniyor musunuz?" Müşteri "evet" derse randevu açılıyor. Bu yapı sayesinde boş koltuk oranı %5'in altına iniyor.
+İptal anında bekleme listesindeki müşteriye otomatik mesaj gidiyor: "Cuma 17.00 müsait hale geldi, halen ilgileniyor musunuz?" Müşteri "evet" derse randevu açılıyor. Bu yapı sayesinde iptal edilen saatlerin boş kalma ihtimali azalıyor.
 
 ## Online Randevu + Web Site Entegrasyonu
 
@@ -87,13 +87,13 @@ WhatsApp randevuya ek olarak, web sitesi üzerinden de randevu alabilen bir sist
 
 - Yeni müşteri kazanımı için kritik (WhatsApp'a yazmak istemeyen, hızlı çözüm arayan müşteri için).
 - SEO açısından değerli (Google'da "salon randevu" aramalarında çıkıyorsunuz).
-- Ön ödeme alarak no-show'u tamamen sıfıra indirebiliyor.
+- Ön ödeme alarak no-show riskini ciddi şekilde azaltabiliyor.
 
-Sadece organik gelen mesajlarla doluluk istediğiniz seviyeye gelmiyorsa, [Meta reklam ajansı](/meta-reklam-ajansi) ile Instagram ve Facebook üzerinden yakın çevredeki kadınlara Click-to-WhatsApp reklamları çıkarmak randevu hacmini 2-3 katına çıkarıyor.
+Sadece organik gelen mesajlarla doluluk istediğiniz seviyeye gelmiyorsa, [Meta reklam ajansı](/meta-reklam-ajansi) ile Instagram ve Facebook üzerinden yakın çevredeki kadınlara Click-to-WhatsApp reklamları çıkarmak yeni randevu talebi için ek bir kanal açıyor.
 
-[Güzellik salonu web tasarımı paketimiz](/web-tasarim/guzellik-salonu) içinde online randevu sistemi standart olarak yer alıyor. Sadece statik bir web sitesi değil, doğrudan satış üreten bir altyapı sunuyoruz.
+[Güzellik salonu web tasarımı](/web-tasarim/guzellik-salonu) projelerinde hazır bir online randevu aracını sitenize entegre edebiliyoruz (Kurumsal web sitesi paketinde 2 standart entegrasyon dahildir); markanıza özel randevu paneli özel web uygulaması olarak tekliflendirilir. Sadece statik bir web sitesi değil, doğrudan randevu alabilen bir altyapı sunuyoruz.
 
-### Ön Ödeme ile No-Show'u Sıfırlamak
+### Ön Ödeme ile No-Show'u Azaltmak
 
 Yoğun salonlar veya yüksek bütçeli hizmetler (lazer kürü, kalıcı makyaj, saç boyama paketi) için ön ödeme almak en etkili no-show önleme yöntemi. Müşteri randevu alırken iyzico veya Paytr üzerinden hizmet bedelinin %30-50'sini ödüyor. Gelmeme durumunda ödenen tutar iade edilmiyor (kullanım şartlarında belirtiliyor).
 
@@ -139,7 +139,7 @@ Sistem üzerinden paket takibi şöyle yapılıyor:
 - Sonraki seans için hatırlatma 4. hafta sonu otomatik gidiyor.
 - Kür bittiğinde "İdame seansı için 3 ay sonra hatırlatma yapayım mı?" diye soruluyor.
 
-Bu yapı müşteriye profesyonel bir takip hissi veriyor ve idame randevularını da garanti altına alıyor. Manuel takipte unutulan idame randevuları, sistemli takiple geri kazanılıyor.
+Bu yapı müşteriye profesyonel bir takip hissi veriyor ve idame randevularının unutulmasını önlüyor. Manuel takipte unutulan idame randevuları, sistemli takiple geri kazanılıyor.
 
 ## Müşteri Geçmişi ve Kişiselleştirme
 
@@ -183,10 +183,10 @@ Hayır, opsiyonel. Pek çok salon sadece yüksek bütçeli hizmetlerde (saç boy
 
 ## PORTZEN ile Güzellik Salonu İçin Sistem Kurmak
 
-PORTZEN olarak İzmir merkezli çalışıyoruz. Karşıyaka, Bostanlı, Alsancak, Bornova bölgelerinde 25'i aşkın güzellik salonu, kuaför ve estetik klinik projesi tamamladık. Tek koltuklu küçük salondan, 8 ustalı büyük güzellik merkezine kadar farklı ölçekte sistemler kurduk.
+PORTZEN olarak İzmir merkezli çalışıyoruz. Tek koltuklu küçük salondan çok ustalı büyük güzellik merkezine kadar farklı ölçekteki işletmeler için sistem kuruyoruz.
 
-Sahada öğrendiğimiz şey şu: her salonun **kendine özgü ritmi** var. Bir salon randevuları sıkı sıkıya saat 30 dakika dilimlerine sığdırırken, başka bir salon "hizmet bitince bitti" mantığıyla çalışıyor. Bir merkez sadece kadın müşteri kabul ederken, başkası karma. Birinde lazer ağırlıklı iş varken, diğerinde saç boyama yoğun. Bu yüzden hazır paket dayatmıyoruz; her salonun çalışma şeklini tanıyıp ona göre kurulum yapıyoruz.
+Bilinmesi gereken şey şu: her salonun **kendine özgü ritmi** var. Bir salon randevuları sıkı sıkıya saat 30 dakika dilimlerine sığdırırken, başka bir salon "hizmet bitince bitti" mantığıyla çalışıyor. Bir merkez sadece kadın müşteri kabul ederken, başkası karma. Birinde lazer ağırlıklı iş varken, diğerinde saç boyama yoğun. Bu yüzden paketlerimizi her salonun çalışma şeklini tanıyıp ona göre yapılandırıyoruz.
 
-[Güzellik salonu için WhatsApp AI asistan hizmetimiz](/whatsapp-ai-asistani/guzellik-salonu) ile randevu otomasyonunu, [güzellik salonu web tasarımı paketimiz](/web-tasarim/guzellik-salonu) ile online görünürlüğü ve web tabanlı randevu sistemini kuruyoruz. İkisini birlikte yaptığımız projelerde randevu hacmi ilk 3 ay içinde ortalama %35-50 artıyor, no-show oranı %15'lerden %5'lere iniyor.
+[Güzellik salonu için WhatsApp AI asistan hizmetimiz](/whatsapp-ai-asistani/guzellik-salonu) ile randevu otomasyonunu, [güzellik salonu web tasarımı paketimiz](/web-tasarim/guzellik-salonu) ile online görünürlüğü ve web tabanlı randevu sistemini kuruyoruz. İkisi birlikte kurulduğunda randevu talepleri hem WhatsApp'tan hem web sitesinden aynı takvime düşer, hatırlatmalar otomatik gider.
 
-Kurulum süreci 7-12 iş günü, ilk ay aktif optimizasyon. Salonunuzun yapısına uygun bir yol haritası çıkarmak için: [portzenai.com/iletisim](/iletisim). 15 dakikalık ücretsiz keşif görüşmesi.
+Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Paket fiyatları: {{fiyatlar:ai-musteri-asistani}} (KDV hariç). Salonunuzun yapısına uygun bir yol haritası çıkarmak için: [portzenai.com/iletisim](/iletisim). Ücretsiz keşif görüşmesi.

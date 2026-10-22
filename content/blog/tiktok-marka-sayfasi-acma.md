@@ -88,7 +88,7 @@ Ne yapmak gerekiyor şimdiden? TikTok Shop'a hazırlık olarak:
 - TikTok Business hesabınızda "Product Showcase" deneyimi için içerik üretmeye başlayın
 - Cargo/iade akışlarınızı 24 saatlik hızda işleyebilecek hâle getirin
 
-Şu an için satışı **bio link üzerinden** yönlendiriyoruz; TikTok Shop açıldığında geçiş 1-2 günlük teknik işlem olacak.
+Şu an için satışı **bio link üzerinden** yönlendirmek gerekiyor; TikTok Shop açıldığında geçiş için gereken teknik adımlar, o günkü entegrasyon koşullarına göre planlanır.
 
 ## İlk 30 Gün Aksiyon Planı: Sıfırdan Yetkili Hesaba
 
@@ -117,14 +117,14 @@ Kazanan formatlardan günde 1, ek olarak günde 1 deneysel = günde 2 video. 7 g
 
 Organik trafikten en iyi performansı veren 3 videoyu Spark Ads (organik içeriği reklama dönüştürme) ile destekleyin. Günlük 200-500 TL bütçeyle başlayın. Hedefleme: Türkiye, 18-45, sektörünüze uygun ilgi alanları.
 
-| Hafta | Video Sayısı | Hedef KPI | Ortalama Görüntülenme |
+| Hafta | Video Sayısı | Hedef KPI | Takip Edilecek Metrik |
 |-------|--------------|-----------|----------------------|
-| 1 | 5 | Hesabı tanıt | 200-1.500 |
-| 2 | 5 | Format testi | 500-5.000 |
-| 3 | 14 | Kazananı yay | 2.000-30.000 |
-| 4 | 14 + Spark | Reklam ölçeği | 5.000-100.000+ |
+| 1 | 5 | Hesabı tanıt | Görüntülenme ve ortalama izleme süresi |
+| 2 | 5 | Format testi | Format bazında engagement oranı |
+| 3 | 14 | Kazananı yay | Kazanan formatların tekrar performansı |
+| 4 | 14 + Spark | Reklam ölçeği | Spark Ads maliyeti ve profil ziyareti |
 
-Bu plana sadık kalan KOBİ'lerin %65'i 30 gün sonunda 1.000+ takipçiye ulaşıyor. 1.000 takipçi eşiği önemli çünkü TikTok bu eşikten sonra hesabı "yetişkin" sayıp daha geniş bir kullanıcı havuzuna açıyor.
+Bu planın amacı 30 günün sonunda hangi formatın sizin hesabınızda işe yaradığını veriyle görmek. 1.000 takipçi eşiği de önemli bir ara hedef çünkü TikTok bu eşikten sonra hesabı "yetişkin" sayıp daha geniş bir kullanıcı havuzuna açıyor.
 
 ## For You Page Algoritması Nasıl Çalışıyor?
 
@@ -187,7 +187,7 @@ Sadece sound değil, format trendi de var. Örneğin "POV: müşteri ilk geldiğ
 
 ## KOBİ İçin Önerilen 5 Video Formatı
 
-Her sektör için işe yarayan, üretmesi kolay ve algoritma dostu beş ana format. Bu formatlar binlerce kez test edildi.
+Her sektöre uyarlanabilen, üretmesi kolay ve algoritma dostu beş ana format. Bu formatlar platformda yaygın olarak kullanılan, kendini kanıtlamış kalıplardır.
 
 ### Format 1: BTS (Behind The Scenes)
 
@@ -209,7 +209,7 @@ Her sektör için işe yarayan, üretmesi kolay ve algoritma dostu beş ana form
 
 ### Format 3: Founder Story / Kurucu Hikayesi
 
-İşletme sahibinin kameraya bakarak konuşması. Markaya "yüz" verir, güven inşa eder. Özellikle hizmet sektöründe (klinik, emlak, danışmanlık) dönüşüm oranını ikiye katlıyor.
+İşletme sahibinin kameraya bakarak konuşması. Markaya "yüz" verir, güven inşa eder. Özellikle hizmet sektöründe (klinik, emlak, danışmanlık) güven inşasında güçlü bir format.
 
 ### Format 4: Ürün Showcase
 
@@ -229,31 +229,33 @@ Gerçek müşteri yorumu video formatında. Yazılı yorum yerine müşterinin k
 
 İdeal haftalık karışım: 2 BTS + 1 Tutorial + 1 Founder + 2 Showcase + 1 Testimonial = 7 video.
 
-## Sektörel Örnekler: Gerçek Hayattan Senaryolar
+## Sektörel Örnek Senaryolar
 
-### Restoran Senaryosu (Karaköy Kafe)
+Aşağıdaki senaryolar gerçek müşteri sonuçları değil; her sektörde stratejinin nasıl kurgulanabileceğini gösteren örneklerdir.
+
+### Restoran Senaryosu (Kafe)
 
 **Hedef:** Hafta sonu rezervasyon ve yürüyen müşteri artışı.
 
-**Strateji:** Günde 1 video, %60 yemek showcase, %20 BTS (aşçı, mutfak), %20 müşteri anı. Trend sound'larda yemek hazırlama temposu yakalanıyor. Sonuç: 60 günde 12K takipçi, hafta sonu rezervasyonları %40 arttı, bio'daki WhatsApp linkinden ayda 350+ mesaj.
+**Strateji:** Günde 1 video, %60 yemek showcase, %20 BTS (aşçı, mutfak), %20 müşteri anı. Trend sound'larda yemek hazırlama temposu yakalanıyor. **Takip:** Takipçi artışı, hafta sonu rezervasyon sayısı ve bio'daki WhatsApp linkinden gelen mesaj sayısı.
 
-### Butik Senaryosu (Nişantaşı Concept)
+### Butik Senaryosu (Concept Mağaza)
 
 **Hedef:** Vitrin görmeden direkt mağazaya gelmesini sağlamak.
 
-**Strateji:** Tutorial format ağırlıklı ("Bu sezon en şık 5 kombin"), trend ses kullanımı yüksek. Founder (mağaza sahibi) haftada 1 kez kameraya çıkıyor. 90 günde 25K takipçi, mağaza ziyaretçi sayısı haftada %35 arttı.
+**Strateji:** Tutorial format ağırlıklı ("Bu sezon en şık 5 kombin"), trend ses kullanımı yüksek. Founder (mağaza sahibi) haftada 1 kez kameraya çıkıyor. **Takip:** Takipçi artışı ve TikTok'u gördüğünü söyleyen mağaza ziyaretçileri.
 
 ### Klinik Senaryosu (Estetik Diş)
 
 **Hedef:** Diş beyazlatma ve veneer için randevu.
 
-**Strateji:** Hasta yüzü göstermeden öncesi-sonrası, hekim founder story, sık sorulan sorular tutorial. Bio'da randevu linki. 4 ayda 8K takipçi, ayda 22 yeni hasta TikTok kanalından geldi.
+**Strateji:** Hasta yüzü göstermeden öncesi-sonrası, hekim founder story, sık sorulan sorular tutorial. Bio'da randevu linki. **Takip:** Bio linkinden gelen randevu talepleri ve TikTok kaynaklı yeni hasta sayısı.
 
-### Emlak Senaryosu (Bodrum Villa)
+### Emlak Senaryosu (Villa Projesi)
 
 **Hedef:** Yurt dışı alıcıya satış.
 
-**Strateji:** Drone şekilli villa turları + lifestyle (denizde tekne, akşam yemeği) videoları. Trend ses ile yabancı kitleye de görünme. 6 ayda 18K takipçi, kanaldan 4 villa satışı (4 milyon Euro hacim).
+**Strateji:** Drone şekilli villa turları + lifestyle (denizde tekne, akşam yemeği) videoları. Trend ses ile yabancı kitleye de görünme. **Takip:** Yabancı kitleden gelen profil ziyareti, mesaj ve görüşme talepleri.
 
 ## TikTok'u Diğer Kanallarınızla Entegre Etmek
 
@@ -261,8 +263,8 @@ TikTok yalnız değil; diğer sosyal kanallarınızla birleşince dönüşüm zi
 
 1. TikTok video → ilgi çekti
 2. Profil ziyareti → bio'daki Instagram/WhatsApp linki
-3. [Instagram DM otomasyonu](/instagram-dm-otomasyonu) → otomatik karşılama, soru sorma
-4. AI bot → segmentasyon, randevu önerisi
+3. [Instagram DM otomasyonu](/instagram-dm-otomasyonu) → kural tabanlı otomatik karşılama, önceden tanımlı sorular
+4. AI müşteri asistanı (ayrı hizmet) → serbest soruları yanıtlama, segmentasyon, randevu önerisi
 5. Satış ekibi → sıcak lead ile görüşme
 
 AI tarafında ürettiğiniz [reklam videolarını](/ai-reklam-videosu) TikTok'ta hem organik hem Spark Ads olarak kullanabilirsiniz; üretim maliyeti düşüyor, varyasyon hızınız artıyor.
@@ -279,10 +281,10 @@ AI tarafında ürettiğiniz [reklam videolarını](/ai-reklam-videosu) TikTok'ta
 
 ## PORTZEN ile TikTok Marka Yönetimi: Profesyonel Yaklaşım
 
-PORTZEN olarak TikTok'ta bir KOBİ hesabını sıfırdan kurup üç ay içinde ölçeklenebilir bir kanala dönüştürüyoruz. Sadece "video çekip atalım" değil; hesap kurulumu, kategori-bio-link optimizasyonu, içerik takvimi, AI destekli üretim altyapısı, Spark Ads stratejisi ve dönüşüm otomasyonu birlikte tasarlanıyor. Restoran, butik, klinik, emlak ofisleri için sektöre özel format kütüphaneleri ve trend uyarlama playbook'larıyla çalışıyoruz.
+PORTZEN olarak TikTok'ta bir KOBİ hesabını sıfırdan kurup ölçeklenebilir bir kanala dönüştürmeyi hedefliyoruz. Sadece "video çekip atalım" değil; hesap kurulumu, kategori-bio-link optimizasyonu, içerik takvimi ve AI destekli üretim altyapısı birlikte tasarlanıyor; videolar Spark Ads'te kullanılmaya hazır teslim edilir, dönüşüm otomasyonu ise ayrı bir hizmet olarak eklenebilir. Restoran, butik, klinik, emlak ofisleri için sektöre özel format kütüphaneleri ve trend uyarlama playbook'larıyla çalışıyoruz.
 
-Tipik bir paketimizde ayda 25-40 dikey video üretiyoruz. Sora 2, Veo 3.1, Kling 3.0 gibi AI modelleriyle ürün showcase ve sahne köprülerini, gerçek BTS ve founder videoları ile özgünlüğü dengeliyoruz. TikTok'tan gelen trafiği WhatsApp/Instagram DM otomasyonuna bağlayıp dönüşümü ölçüyoruz. Sıfırdan başlayan bir KOBİ, dördüncü ayda kanaldan organik kazanca geçer hale geliyor.
+Kısa video paketlerimizde ayda 4, 12 veya 24 dikey video üretiyoruz ({{fiyatlar:kisa-video}}, KDV hariç). Sora 2, Veo 3.1, Kling 3.0 gibi AI modelleriyle ürün showcase ve sahne köprülerini, gerçek BTS ve founder videoları ile özgünlüğü dengeliyoruz. İsterseniz TikTok'tan gelen trafiği ayrı hizmetler olan WhatsApp AI müşteri asistanına veya kural tabanlı Instagram DM otomasyonuna bağlayıp dönüşümü ölçüyoruz.
 
-Önemli olan tek bir viral video değil, **sürekli üretim disipliniyle** algoritmanın güvenini kazanan bir hesap inşa etmek. Üretim, ölçüm, optimizasyon — bu üçlü doğru kurulduğunda TikTok marka sayfası bir KOBİ için 12 ay içinde en güçlü dijital satış kanalına dönüşüyor.
+Önemli olan tek bir viral video değil, **sürekli üretim disipliniyle** algoritmanın güvenini kazanan bir hesap inşa etmek. Üretim, ölçüm, optimizasyon — bu üçlü doğru kurulduğunda TikTok marka sayfası bir KOBİ için güçlü bir dijital satış kanalına dönüşebilir.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

@@ -199,10 +199,10 @@ Bu entegrasyon yapılmazsa scoring sadece "güzel grafik" olur, satışa dönmez
 
 ## PORTZEN ile Lead Scoring
 
-PORTZEN olarak KOBİ'ler için kurduğumuz lead scoring sistemleri ya HubSpot/Pipedrive üzerinde hazır predictive modellerle, ya da n8n + OpenAI API ile özel kurulan hibrit yapılarla çalışıyor. Tipik bir kurulum 2-3 hafta sürüyor ve aylık 500-2.000 TL aralığında operasyonel maliyetle hizmet veriyor. Geçmiş 12 ayın satış verilerini analiz ederek hangi sinyallerin gerçekten satışa dönüştüğünü tespit ediyor, ona göre puanlama modelini kuruyoruz.
+PORTZEN olarak KOBİ'ler için kurduğumuz lead scoring sistemleri ya HubSpot/Pipedrive üzerinde hazır predictive modellerle, ya da n8n + OpenAI API ile özel kurulan hibrit yapılarla çalışıyor. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir; kurulum tek seferlik iş otomasyonu paketleriyle yapılır ({{fiyatlar:is-otomasyonu}}, KDV hariç; CRM ve harici yazılım lisansları hariç), isteğe bağlı aylık bakım ikinci aydan itibaren başlar. Geçmiş 12 ayın satış verilerini analiz ederek hangi sinyallerin gerçekten satışa dönüştüğünü tespit ediyor, ona göre puanlama modelini kuruyoruz.
 
-Yapay zekâ destekli sistem kurduğumuz danışmanlık firmalarında satış ekibinin yanıt süresi ortalama 4 saatten 12 dakikaya, lead-to-sale konversiyonu ise %3,5'tan %8,2'ye çıkıyor. Yani aynı reklam bütçesiyle 2 kattan fazla satış. Sistem yeşil lead bildirimi olduğunda satış temsilcisine WhatsApp'tan anlık uyarı gönderiyor, satış aktivitesi tek kanaldan yönetilebiliyor.
+Yapay zekâ destekli sistemde yeşil lead bildirimi olduğunda satış temsilcisine WhatsApp'tan anlık uyarı gidiyor; böylece en sıcak lead'ler bekletilmiyor ve satış aktivitesi tek kanaldan yönetilebiliyor.
 
 Eğer mevcut CRM'iniz varsa onun üzerine inşa ediyoruz; yoksa sıfırdan KOBİ ölçeğine uygun bir yapı kuruyoruz. Hedef her zaman aynı: satış temsilcilerinizin zamanını en olası kazançlara odaklamak.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir görüşmede işletmeniz için uygun yapıyı netleştiririz.

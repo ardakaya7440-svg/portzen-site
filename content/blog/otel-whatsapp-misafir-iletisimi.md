@@ -46,11 +46,11 @@ Otellerin en sık karıştırdığı konu şu: WhatsApp'ı sadece "soru cevap" k
 5. Ödeme linkini WhatsApp'a düşürür, ödeme yapıldığında otomatik voucher gönderir
 6. Bilgileri PMS'ye yazar, kanal yöneticisinde oda kapanır
 
-Bu akışı manuel resepsiyonla yapan bir otelin ortalama tamamlanma süresi 4-6 saat. AI asistan ile 6-8 dakika. Üstelik OTA komisyonu ödenmeden, doğrudan satış yapılıyor. Booking veya Expedia üzerinden gelen rezervasyonların %15-20 komisyonunu hatırlayın: WhatsApp üzerinden gelen her direkt satış, otel için net %18'e yakın ekstra kar demek.
+Manuel resepsiyonla bu akış, resepsiyonun müsait olmasına bağlı olarak saatlere yayılabiliyor; AI asistan ile misafir sohbetten çıkmadan ve beklemeden süreci tamamlayabiliyor. Üstelik OTA komisyonu ödenmeden, doğrudan satış yapılıyor. Booking veya Expedia üzerinden gelen rezervasyonların %15-20 komisyonunu hatırlayın: WhatsApp üzerinden gelen her direkt satış, otel için net %18'e yakın ekstra kar demek.
 
 ### OTA Trafiğini WhatsApp'a Çekmek
 
-İlginç bir taktik: pek çok otel OTA'larda gözükmek için reklam veriyor ama o trafiği kendi kanalına çekmiyor. WhatsApp üzerinden çalışan bir sistem kurduğunuzda, OTA'lardan size yazan misafire "doğrudan rezervasyon yaparsanız %10 indirim + ücretsiz transfer" teklifi sunabilirsiniz. Bu, sezon boyunca cironuzun %12-18'ini OTA komisyonundan kurtarıp kendi cebinize aktarmanın en kolay yolu.
+İlginç bir taktik: pek çok otel OTA'larda gözükmek için reklam veriyor ama o trafiği kendi kanalına çekmiyor. WhatsApp üzerinden çalışan bir sistem kurduğunuzda, OTA'lardan size yazan misafire "doğrudan rezervasyon yaparsanız %10 indirim + ücretsiz transfer" teklifi sunabilirsiniz. Bu, OTA komisyonu ödenen rezervasyonların bir kısmını doğrudan kanalınıza taşımanın pratik bir yolu.
 
 Tabii bunun için kendi sitenizin de hızlı, mobil uyumlu ve direkt rezervasyon altyapısına sahip olması gerekiyor. [Otel web sitesi tasarımı](/web-tasarim/otel) konusunda neye dikkat edilmesi gerektiğini ayrı bir yazıda detaylandırdık. OTA trafiğinin yanı sıra doğrudan rezervasyonu büyütmek için Facebook ve Instagram'da bölgesel kampanyalar yürüten bir [Meta reklam ajansı](/meta-reklam-ajansi) ile çalışmak, sezon öncesi erken rezervasyonu önemli ölçüde tetikliyor.
 
@@ -58,7 +58,7 @@ Tabii bunun için kendi sitenizin de hızlı, mobil uyumlu ve direkt rezervasyon
 
 Otel sektörünün en sinir bozucu meselelerinden biri **no-show**: rezervasyon yapan ama gelmeyen misafir. Türkiye genelinde butik otellerde no-show oranı ortalama %8-12 arasında. Yani 100 rezervasyondan 10'u boşa düşüyor. Bu, sezon ortasında haftada bir günlük tam doluluk kaybı anlamına geliyor.
 
-WhatsApp tabanlı bir hatırlatma sistemi no-show oranını **%2-4'e** düşürüyor. Mantık çok basit:
+WhatsApp tabanlı bir hatırlatma sistemi no-show'u azaltmaya yardımcı olur. Mantık çok basit:
 
 - Rezervasyon onaylandığında otomatik teşekkür ve voucher
 - Geliş tarihinden 3 gün önce hatırlatma, hava durumu, yol tarifi
@@ -66,18 +66,18 @@ WhatsApp tabanlı bir hatırlatma sistemi no-show oranını **%2-4'e** düşür�
 - Geliş günü sabahı oda hazırlık durumu güncellemesi
 - Erken gelmek isteyen misafir için anlık müsaitlik teyidi
 
-Bu süreçte misafir mesajını okuduğunda iki şey oluyor: ya gelmeyecekse iptal ediyor (siz odayı yeniden satabiliyorsunuz), ya da geliş heyecanı artıyor ve no-show olasılığı sıfırlanıyor. Her iki durum da işletme için kazanç.
+Bu süreçte misafir mesajını okuduğunda iki şey oluyor: ya gelmeyecekse iptal ediyor (siz odayı yeniden satabiliyorsunuz), ya da geliş planı netleşiyor ve no-show olasılığı azalıyor. Her iki durum da işletme için kazanç.
 
 ### Dijital Check-in ile Resepsiyon Kuyruğunu Yok Etmek
 
 Özellikle 30 oda altı butik otellerde yaz aylarında check-in saatleri kabusa dönüşüyor. 14.00-16.00 arası resepsiyonda 8-10 kişi sıra bekliyor, hepsi yorgun, hepsi acele. WhatsApp üzerinden dijital check-in ile bu süreci tamamen değiştirebilirsiniz:
 
 - Misafir geliş günü sabahı kimlik fotoğrafını WhatsApp'tan gönderir
-- Sistem KVKK uyumlu olarak bilgileri kaydeder
+- Bilgiler KVKK gerekliliklerini dikkate alan bir akışla (aydınlatma metni, açık rıza, saklama süresi) kaydedilir
 - Misafir geldiğinde sadece oda kartını alır, hiç beklemez
 - Faturalandırma bilgileri önceden alındığı için çıkışta da kuyruk olmaz
 
-Bu süreçte misafir memnuniyeti ortalama 1.2 puan artıyor (5 üzerinden), resepsiyon ekibi de gerçek misafir hizmetine zaman ayırabiliyor.
+Bu süreçte misafir girişte sıra beklemiyor, resepsiyon ekibi de evrak işi yerine gerçek misafir hizmetine zaman ayırabiliyor.
 
 ## Oda Servisi ve Concierge: Misafir Konforu Kanalı
 
@@ -116,33 +116,30 @@ Bu yönlendirme, [iç süreç otomasyonu](/crm-otomasyonu) ile birleştiğinde o
 - 3 ay sonra "geçen yıl bu zamanlar bizdeydiniz, tekrar bekleriz" mesajı
 - Yıldönümlerinde otomatik özel teklif
 
-Bu akış doğru kurulduğunda tekrar rezervasyon oranı **%14'ten %32'ye** çıkıyor. Yani 100 misafirden 32'si bir sonraki tatilini de sizde geçiriyor. Otelcilikte bir misafiri elde tutmanın yeni misafir kazanmaktan 6 kat daha ucuz olduğunu hatırlayın.
+Bu akış doğru kurulduğunda misafirle ilişki çıkışta kopmaz; bir sonraki tatil planı yapılırken otel misafirin aklında ve WhatsApp sohbet listesinde kalır. Otelcilikte bir misafiri elde tutmanın yeni misafir kazanmaktan 6 kat daha ucuz olduğunu hatırlayın.
 
 ### Yorum Yönetimi ve Negatif Geri Bildirim
 
-WhatsApp anketinin gizli faydası şu: misafir gerçekten memnun değilse yorumunu Google'a yazmadan önce **size** yazıyor. AI asistan negatif geri bildirimi algıladığında otomatik olarak yönetici telefonuna alarm gönderiyor. Yönetici daha misafir Google'a yorum yazmadan önce arıyor, problemi çözüyor, telafi sunuyor. Bu yaklaşım Google puanınızın 4.2'den 4.7'ye çıkması için en hızlı yoldur.
+WhatsApp anketinin gizli faydası şu: misafir gerçekten memnun değilse yorumunu Google'a yazmadan önce **size** yazıyor. AI asistan negatif geri bildirimi algıladığında otomatik olarak yönetici telefonuna alarm gönderiyor. Yönetici daha misafir Google'a yorum yazmadan önce arıyor, problemi çözüyor, telafi sunuyor. Bu yaklaşım, olumsuz deneyimin herkese açık bir yoruma dönüşmeden çözülmesine fırsat verir.
 
 Sosyal kanıt yönetimi konusunda daha geniş bir perspektif için [CRM otomasyonu rehberi](/blog/crm-otomasyonu-rehberi) yazımıza bakabilirsiniz.
 
-## Gerçek Vaka: 32 Odalı Bir Butik Otelin Dönüşümü
+## Örnek Senaryo: 32 Odalı Bir Butik Otelde Kurulum
 
-Çeşme'de hizmet veren 32 odalı bir butik otel için 2025 sezonunda kurduğumuz WhatsApp AI sistemi, sezon kapanışında çarpıcı sonuçlar üretti. Sezon öncesi durum şuydu: ortalama mesaj cevap süresi 2 saat 40 dakika, no-show oranı %11, OTA payı toplam rezervasyonun %78'i, doğrudan rezervasyon %22.
+Aşağıdaki senaryo gerçek bir müşteri sonucu değil; butik bir otelde WhatsApp AI asistanının nasıl kurgulandığını gösteren örnek bir kurulumdur.
 
-Sistem 1 Mayıs'ta devreye girdi. Çalışan altyapı: Cloud API üzerinden WhatsApp Business hesabı, Elektra PMS entegrasyonu, Booking ve Otelz kanal yöneticisi ile çift yönlü senkron, iyzico ödeme bağlantısı, Türkçe-İngilizce-Almanca dil desteği.
+Başlangıç durumu: misafir mesajları resepsiyon vardiyasına bağlı olarak yanıtlanıyor, gece gelen sorular sabahı bekliyor, rezervasyonların büyük kısmı OTA üzerinden geliyor ve geliş öncesi hatırlatma yapılmıyor.
 
-Sezon sonu (15 Ekim) rakamları:
+Kurulan altyapı: Cloud API üzerinden WhatsApp Business hesabı, otelin PMS'iyle (ör. Elektra) entegrasyon, Booking ve Otelz gibi OTA'lara bağlı kanal yöneticisiyle senkron, iyzico ödeme bağlantısı, Türkçe-İngilizce-Almanca dil desteği.
 
-- Ortalama mesaj cevap süresi: 11 saniye
-- No-show oranı: %2.8
-- OTA payı: %61
-- Doğrudan rezervasyon: %39
-- Misafir başına gönderilen mesaj sayısı: 14 (önceden 6)
-- TripAdvisor puanı: 4.4 → 4.8
-- Sezon cirosunda yıllık artış: %23
+Önce ve sonra:
 
-En belirgin kazanç doğrudan rezervasyon oranındaki sıçramaydı. OTA'lardan kurtulan komisyon, sezon boyunca tek başına 480 bin TL'ye denk geldi. Sistemin yıllık toplam maliyeti 48 bin TL idi. ROI 10 kat üzerinde.
+- Önce: Misafir sorusu resepsiyon müsait olduğunda yanıtlanıyor. Sonra: Sık sorulan sorulara asistan otomatik yanıt veriyor, karmaşık talepler resepsiyona devrediliyor.
+- Önce: Geliş öncesi hatırlatma yapılmıyor. Sonra: Geliş tarihinden 3 gün ve 1 gün önce otomatik hatırlatma ve check-in saati teyidi gidiyor; gelemeyecek misafir iptalini önceden bildiriyor.
+- Önce: WhatsApp'tan gelen talep rezervasyon için telefona veya OTA'ya yönlendiriliyor. Sonra: Müsaitlik PMS'den çekiliyor, ödeme linki sohbet içinde gönderiliyor, doğrudan rezervasyon kanalı açılıyor.
+- Önce: Çıkıştan sonra misafirle iletişim kopuyor. Sonra: Anket, yorum talebi ve sezon dışı teklif otomatik akışla gidiyor; olumsuz geri bildirim yöneticiye uyarı olarak düşüyor.
 
-Otel sahibi en çok şu noktaya değer veriyor: "Gece 02.00'de yazan misafire ben uyurken cevap gidiyor, sabah uyandığımda 4 rezervasyon onayımı bekliyor." Operasyonel zihinsel yük tamamen ortadan kalkmış durumda.
+Bu kurulumda takip edilen metrikler ilk yanıt süresi, no-show oranı, OTA ve doğrudan rezervasyon dağılımı ile yorum puanıdır. Sonuçlar otelin kanal yapısına, sezonuna ve ekibin devir süreçlerine göre değişir; bu yüzden ölçüm, otelin kurulum öncesi değerleri baz alınarak yapılır.
 
 ## Otel WhatsApp Sistemi Kurarken Dikkat Edilmesi Gerekenler
 
@@ -152,7 +149,7 @@ Otel için WhatsApp AI asistanı kurulumu, restoran veya e-ticaretten çok daha 
 
 **PMS entegrasyonu:** Otelin kullandığı PMS yazılımı (Elektra, Sentire, Sirius, Opera vs.) ile WhatsApp asistanı arasındaki köprü olmadan sistem gerçek değerini vermez. Müsaitlik, fiyat ve oda durumu canlı çekilmeli.
 
-**Kanal yöneticisi entegrasyonu:** Booking, Expedia, Otelz, Hotels.com gibi OTA'larla çift yönlü senkronizasyon olmazsa overbooking riski doğar. İyi bir kurulum bu riski sıfırlar.
+**Kanal yöneticisi entegrasyonu:** Booking, Expedia, Otelz, Hotels.com gibi OTA'larla çift yönlü senkronizasyon olmazsa overbooking riski doğar. İyi bir kurulum bu riski en aza indirir.
 
 **Çok dilli destek:** Misafirin dilinde otomatik cevap vermek opsiyonel değil, yaz sezonunda zorunluluktur.
 
@@ -163,16 +160,16 @@ Otel için WhatsApp AI asistanı kurulumu, restoran veya e-ticaretten çok daha 
 ## Sıkça Sorulan Sorular
 
 **WhatsApp AI asistanı küçük bir butik otel için pahalı değil mi?**
-Aksine, bir resepsiyon vardiyasından çok daha ucuz. Aylık ortalama maliyet 2.500 TL ile 6.000 TL arasında değişir. Kazandırdığı ekstra direkt rezervasyon ve OTA komisyonundan kurtulduğunuz miktar ilk ayda kendini amorti eder.
+Aksine, bir resepsiyon vardiyasından çok daha ucuz. PORTZEN'de WhatsApp AI asistanı paketleri {{fiyatlar:ai-musteri-asistani}} (KDV hariç); Meta mesaj ücretleri hizmet bedeline dahil değildir. Maliyeti; doğrudan kanala kayan rezervasyonlar, OTA komisyonu ödenmeyen talepler ve resepsiyonun tekrarlı sorulardan kurtulan zamanı üzerinden değerlendirmek gerekir.
 
 **Mevcut PMS'imizle çalışır mı?**
-Türkiye'de yaygın kullanılan PMS yazılımlarının büyük çoğunluğu (Elektra, Sentire, Sirius, Opera, Protel) API üzerinden entegre edilebilir. Entegrasyon süresi PMS'nize göre 5-15 iş günü arasında değişir.
+Türkiye'de yaygın kullanılan PMS yazılımlarının büyük çoğunluğu (Elektra, Sentire, Sirius, Opera, Protel) API üzerinden entegre edilebilir. Entegrasyon süresi PMS'nize göre değişir; teslim süresi kapsama göre teklifte yazılı olarak belirtilir.
 
 **Misafir yapay zekayla konuştuğunu fark eder mi?**
-İyi kurulmuş bir sistemde fark etmez. Üstelik fark etse bile rahatsız olmaz çünkü cevaplar hızlı ve doğru. Şikayet veya kompleks talep durumunda zaten otomatik olarak insana devredilir.
+Asistan kendini dijital asistan olarak tanıtabilir; misafir için asıl önemli olan sorusuna beklemeden ve doğru yanıt alması. Şikayet veya kompleks talep durumunda zaten otomatik olarak insana devredilir.
 
 **Sezon dışında da fayda sağlar mı?**
-Evet. Sezon dışında ekibi daraltan otellerde bile WhatsApp asistanı 7/24 çalışır. Bahar aylarında gelen "yaz için fiyatlarınız ne?" mesajlarına anında cevap vererek erken rezervasyonları yakalar. Bu dönemde otelin Instagram ve TikTok hesabını da besleyen [yapay zeka video üretimi](/yapay-zeka-video-uretimi) ile oda ve tesis turu videoları üretmek, erken rezervasyon talebini katlıyor.
+Evet. Sezon dışında ekibi daraltan otellerde bile WhatsApp asistanı 7/24 çalışır. Bahar aylarında gelen "yaz için fiyatlarınız ne?" mesajlarına anında cevap vererek erken rezervasyonları yakalar. Bu dönemde otelin Instagram ve TikTok hesabını da besleyen [yapay zeka video üretimi](/yapay-zeka-video-uretimi) ile oda ve tesis turu videoları üretmek, erken rezervasyon dönemine hazırlıklı girmeyi kolaylaştırır.
 
 **Çok dilli destek için ek ücret var mı?**
 Hayır. AI asistan altyapı olarak çok dilli çalışır. Türkçe, İngilizce, Almanca, Rusça, Arapça aynı sistem içinden yönetilir.
@@ -181,6 +178,6 @@ Hayır. AI asistan altyapı olarak çok dilli çalışır. Türkçe, İngilizce,
 
 PORTZEN olarak Ege ve Akdeniz bölgesindeki butik ve orta ölçekli otellere WhatsApp AI asistanı, PMS entegrasyonu ve rezervasyon otomasyonu kurulumu sağlıyoruz. Otelinizin operasyonel akışını birlikte haritalandırıp, ekibinizin gerçekten ihtiyaç duyduğu noktalara odaklanan bir sistem tasarlıyoruz.
 
-İlk görüşmemizde otelinizin mevcut rezervasyon kanallarını, no-show oranını, ortalama mesaj cevap süresini ve OTA komisyon yükünü inceliyoruz. Sonrasında 5-10 iş günü içinde resmi WhatsApp Business API entegrasyonuyla sisteminizi devreye alıyoruz. İlk aydan itibaren OTA komisyonlarından kurtulan miktar, sistemin maliyetini kendisi karşılıyor.
+İlk görüşmemizde otelinizin mevcut rezervasyon kanallarını, no-show oranını, ortalama mesaj cevap süresini ve OTA komisyon yükünü inceliyoruz. Sonrasında resmi WhatsApp Business API entegrasyonuyla sisteminizi devreye alıyoruz. Paketler tek seferlik kurulum + aylık ücretle çalışır: {{fiyatlar:ai-musteri-asistani}} (KDV hariç); PMS ve kanal yöneticisi bağlantıları Büyüme ve Kurumsal paketlerdeki standart entegrasyon hakları içinde planlanır.
 
 Otelinize özel demo ve ücretsiz analiz için [iletişim sayfamız](/iletisim) üzerinden bizimle bağlantıya geçebilirsiniz.

@@ -15,7 +15,7 @@ ogImage: "/blog/og/turkce-seo-anahtar-kelime-arastirma.png"
 
 Türkçe SEO'da en pahalı hata, yanlış anahtar kelimeyi hedeflemektir. İngilizce SEO içeriklerine bakarak çevirisini yapmak, Türkiye'de aylık 100 arama bile almayan kelimelere haftalarca emek vermek, kasım ayında bekledikçe ocak ayında bile tek bir organik ziyaretçi getirmeyen sayfalar üretmek; bunlar her yıl binlerce KOBİ'nin yaşadığı senaryo. Oysa doğru anahtar kelime araştırması yapıldığında, 6 ay sonra organik trafiğin %70-80'ini sadece 10-15 sayfa getirir. Geriye kalan tüm sayfalar bu yıldız sayfaların desteğiyle yaşar.
 
-Bu rehberde, ücretli araçlara para vermeden Türkçe SEO için anahtar kelime araştırmasını sıfırdan nasıl yapacağınızı 10 adımda anlatıyoruz. Google Keyword Planner'ı doğru kullanma, ücretsiz alternatif araçlar, Türkçe eklerin ve çekimlerin SEO'ya etkisi, arama niyeti (search intent) analizi, long-tail kelime keşfi, rakip analizi, keyword difficulty değerlendirmesi ve manuel SERP testiyle "çalışılır mı" kararı; her şey içeride. Bu yöntemi uygulayan bir İzmirli web tasarım ajansı, 9 ayda organik trafiğini 240 ziyaretçiden 8.400 ziyaretçiye çıkardı. Yöntem işliyor ve ücretsiz araçlarla başlayabilirsiniz. Tek ihtiyacınız 4-5 saat sabırlı bir çalışma ve bu rehber.
+Bu rehberde, ücretli araçlara para vermeden Türkçe SEO için anahtar kelime araştırmasını sıfırdan nasıl yapacağınızı 10 adımda anlatıyoruz. Google Keyword Planner'ı doğru kullanma, ücretsiz alternatif araçlar, Türkçe eklerin ve çekimlerin SEO'ya etkisi, arama niyeti (search intent) analizi, long-tail kelime keşfi, rakip analizi, keyword difficulty değerlendirmesi ve manuel SERP testiyle "çalışılır mı" kararı; her şey içeride. Yöntemin tamamına ücretsiz araçlarla başlayabilirsiniz. Tek ihtiyacınız 4-5 saat sabırlı bir çalışma ve bu rehber.
 
 ## Anahtar Kelime Araştırması Nedir, Neden Sıralamadan Önce Bu?
 
@@ -212,7 +212,7 @@ Temel araştırmayı tamamladıysanız bir üst seviye için:
 - Voice search optimizasyonu: "Sesli aramada" sorulan soru kalıplarını hedefleyin
 - Multilingual genişletme: Aynı içeriği İngilizce versiyonla bağlayın
 
-Ahrefs gibi profesyonel araçların ücretli paketine geçmeye karar verirseniz aylık 30-50$ bütçe ayırın. PORTZEN'in [web tasarım](/web-tasarim) paketlerinde aylık keyword izleme ve içerik üretimi de yer alıyor. Yerel SEO ile birlikte çalışırsanız sonuç katlanır; [Google İşletme Profili optimizasyon rehberi](/blog/google-isletme-profili-optimizasyon) ile birlikte uygulamanızı öneririz.
+Ahrefs gibi profesyonel araçların ücretli paketine geçmeye karar verirseniz aylık 30-50$ bütçe ayırın. PORTZEN'in [web tasarım](/web-tasarim) paketlerinde Başlangıç'ta temel SEO, Büyüme ve Kurumsal'da teknik SEO ve ölçümleme kurulumu yer alıyor; Büyüme paketindeki CMS + blog altyapısıyla içerik takviminizi kendiniz sürdürebilirsiniz. Yerel SEO ile birlikte çalışırsanız sonuç katlanır; [Google İşletme Profili optimizasyon rehberi](/blog/google-isletme-profili-optimizasyon) ile birlikte uygulamanızı öneririz.
 
 ## Sıkça Sorulan Sorular
 
@@ -233,4 +233,4 @@ Google Keyword Planner Türkçe pazar için en doğru hacimleri verir (kaynak). 
 
 ## PORTZEN ile Türkçe SEO İçin Sistem Kurmak
 
-Anahtar kelime araştırması, SEO işinin başlangıcıdır; ancak yalnız değildir. PORTZEN olarak KOBİ'ler için anahtar kelime araştırması, içerik takvimi planlama, on-page optimizasyon, teknik SEO denetimi ve aylık raporlamayı içeren paketler sunuyoruz. İzmir, İstanbul ve Ankara'da 50+ KOBİ'nin organik trafiğini 6 ayda ortalama %180 artırdık. SEO yatırımınızı doğru kelimelerle başlatmak için [iletişim](/iletisim) sayfamızdan ücretsiz keşif görüşmesi planlayabilir, mevcut sitenizi 24 saat içinde değerlendirebiliriz.
+Anahtar kelime araştırması, SEO işinin başlangıcıdır; ancak yalnız değildir. PORTZEN olarak SEO'yu web sitesi projelerinin parçası olarak kuruyoruz: kurumsal web sitesi paketlerinde Başlangıç'ta temel SEO, Büyüme ve Kurumsal'da anahtar kelime araştırmasına dayalı teknik SEO ve ölçümleme kurulumu dahildir: {{fiyatlar:kurumsal-web-sitesi}} (KDV hariç). SEO yatırımınızı doğru kelimelerle başlatmak için [iletişim](/iletisim) sayfamızdan ücretsiz keşif görüşmesi planlayabilirsiniz; mevcut sitenizi değerlendirip en kısa sürede dönüş yapıyoruz.

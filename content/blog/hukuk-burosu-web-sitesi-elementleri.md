@@ -15,7 +15,7 @@ ogImage: "/blog/og/hukuk-burosu-web-sitesi-elementleri.png"
 
 Bir hukuk bürosunun web sitesi, fiziksel ofisin dijital uzantısıdır. Müvekkil adayı kapıdan girmeden önce siteyi gezer, sayfaları okur, hangi avukatla görüşeceğine, hangi büroya vekalet vereceğine dair ilk izlenimi orada oluşturur. Bu yüzden hukuk bürosu web sitesi sıradan bir kartvizit değil, güven inşa eden bir araç olmak zorundadır. Diş hekimi sitesi gibi randevu odaklı, ya da e-ticaret sitesi gibi satış odaklı değildir. Müvekkilin "bu büro işini biliyor, bana yardımcı olabilir" hissine ulaşmasını sağlayan, profesyonel ve içerik ağırlıklı bir yapıdır.
 
-2026 itibarıyla Türkiye'de avukat aramak isteyen kişilerin yüzde sekseni Google üzerinden başlıyor. "İzmir boşanma avukatı" diye aratıyor, ilk 5 sonuca tıklıyor ve siteleri karşılaştırıyor. Bu karşılaştırmada 3 saniyede açılmayan, mobilde bozuk görünen, kim olduğu anlaşılmayan büroların elenmesi an meselesi. PORTZEN olarak İzmir merkezli birçok hukuk bürosuyla çalışırken gözlemlediğimiz tablo şu. Avukatların büyük çoğunluğu içerik üretebilecek bilgiye sahip, ancak sitelerini sunum biçimi yetersiz. Bu yazıda hukuk bürosu web sitesinde mutlaka olması gereken 8 elementi ve her birinin müvekkil güvenini nasıl inşa ettiğini ele alacağız.
+2026 itibarıyla Türkiye'de avukat aramak isteyen kişilerin yüzde sekseni Google üzerinden başlıyor. "İzmir boşanma avukatı" diye aratıyor, ilk 5 sonuca tıklıyor ve siteleri karşılaştırıyor. Bu karşılaştırmada 3 saniyede açılmayan, mobilde bozuk görünen, kim olduğu anlaşılmayan büroların elenmesi an meselesi. Pek çok hukuk bürosunda tablo şu. Avukatların büyük çoğunluğu içerik üretebilecek bilgiye sahip, ancak sitelerini sunum biçimi yetersiz. Bu yazıda hukuk bürosu web sitesinde mutlaka olması gereken 8 elementi ve her birinin müvekkil güvenini nasıl inşa ettiğini ele alacağız.
 
 ## 1. Net Uzmanlık Alanı Sayfaları
 
@@ -148,7 +148,7 @@ Bu konuda detaylı karşılaştırmayı [Next.js vs WordPress 2026](/blog/nextjs
 ## Sıkça Sorulan Sorular
 
 **Hukuk bürosu web sitesi maliyeti ne kadar?**
-İzmir piyasası baz alındığında profesyonel bir hukuk bürosu sitesi, kapsama göre 25.000 TL ile 80.000 TL arasında değişiyor. Bu fark genellikle özel uzmanlık alanı sayfası sayısı, blog altyapısı, CRM entegrasyonu ve WhatsApp asistan kurulumundan kaynaklanıyor. Detaylı fiyatlandırma için [İzmir web tasarım fiyatları 2026](/blog/izmir-web-tasarim-fiyatlari-2026) yazımızı okuyabilirsiniz.
+İzmir piyasası baz alındığında profesyonel bir hukuk bürosu sitesi, kapsama göre 25.000 TL ile 80.000 TL arasında değişiyor. Bu fark genellikle özel uzmanlık alanı sayfası sayısı, blog altyapısı, CRM entegrasyonu ve WhatsApp asistan kurulumundan kaynaklanıyor. Detaylı fiyatlandırma için [İzmir web tasarım fiyatları 2026](/blog/izmir-web-tasarim-fiyatlari-2026) yazımızı okuyabilirsiniz. PORTZEN'de hukuk bürosu siteleri kurumsal web sitesi paketleriyle yapılır: {{fiyatlar:kurumsal-web-sitesi}} (KDV hariç).
 
 **Sitede müvekkil yorumları yayınlayabilir miyim?**
 TBB etik kuralları açısından doğrudan müvekkil ismiyle ve davasıyla yorum yayınlamak tartışmalı bir alan. Güvenli yol, sosyal sorumluluk projelerinizi, akademik çalışmalarınızı, baro etkinliklerinizi öne çıkarmak.
@@ -163,7 +163,7 @@ Vekalet ücreti gibi büyük tutarlar genellikle havale ile alınıyor. Ancak da
 Yabancı müvekkille çalışan, ticaret hukuku, fikri mülkiyet, uluslararası tahkim alanında uzmanlaşan bürolar için İngilizce versiyon ciddi bir avantaj. Sadece yerel müvekkille çalışan büroların öncelikleri arasında değil. İngilizce çeviri yapılırken hukuki terimlerin doğru karşılıklarının kullanılması, makine çevirisi yerine alan bilgisi olan bir çevirmenin tercih edilmesi kritik. Yanlış çevrilmiş hukuki terim büronun profesyonel imajını zedeler.
 
 **Site kurulumundan sonra bakım nasıl yapılır?**
-Profesyonel bir hukuk bürosu sitesi kurulum sonrası kendiliğinden çalışmıyor. Düzenli içerik üretimi, mevzuat değişikliklerinin sayfalara yansıtılması, teknik güncellemeler, güvenlik yamaları, hız optimizasyonları, yedekleme kontrolleri gerekli. PORTZEN olarak hukuk bürosu sitelerinde aylık bakım paketi öneriyoruz. Bu paket içerik üretimi, teknik bakım, SEO takibi ve performans raporunu kapsıyor. Site bir kez kurulup unutulan bir varlık değil, sürekli güncellenen bir araç olarak kalmalı.
+Profesyonel bir hukuk bürosu sitesi kurulum sonrası kendiliğinden çalışmıyor. Düzenli içerik üretimi, mevzuat değişikliklerinin sayfalara yansıtılması, teknik güncellemeler, güvenlik yamaları, hız optimizasyonları, yedekleme kontrolleri gerekli. PORTZEN'de yayından sonraki bakım ayrı bir aylık hizmettir (Web bakım): {{fiyatlar:web-bakim}} (KDV hariç). Saatler toplam haktır, birikmez ve devretmez; yeni modül ve kapsamlı tasarım çalışmaları ayrıca tekliflendirilir, düzenli içerik üretimi bakım kapsamında değildir. Site bir kez kurulup unutulan bir varlık değil, sürekli güncellenen bir araç olarak kalmalı.
 
 **SSL sertifikası ve güvenlik için ne yapmalıyım?**
 2026 itibarıyla SSL artık standart. Her hukuk bürosu sitesinin HTTPS üzerinden çalışması, formdan giden verinin şifrelenmesi, admin panelinin iki faktörlü doğrulama ile korunması zorunlu. Düzenli güvenlik taraması, yazılım güncellemeleri ve yedekleme prosedürleri olmadan site bir gün hack saldırısının kurbanı olabilir. Müvekkil verisinin sızdığı bir büronun toparlanması çok zor.
@@ -172,6 +172,6 @@ Profesyonel bir hukuk bürosu sitesi kurulum sonrası kendiliğinden çalışmı
 
 Hukuk bürosu web sitesi, sıradan bir kartvizit site değil, müvekkil yolculuğunun ilk durağıdır. Doğru kurulduğunda görünmeden çalışan bir asistan gibi gece gündüz iş yapar. Yanlış kurulduğunda ise büronun profesyonelliğine gölge düşüren bir riske dönüşür.
 
-PORTZEN olarak [hukuk bürosu web tasarımı](/web-tasarim/avukat) projelerimizde bu yazıda anlattığımız 8 elementi standart kapsama dahil ediyoruz. Uzmanlık alanı sayfaları, avukat profilleri, blog altyapısı, KVKK uyumlu yasal sayfalar, mobil optimizasyon, WhatsApp entegrasyonu ve CRM bağlantısı tek pakette geliyor. İzmir başta olmak üzere Türkiye genelindeki hukuk bürolarıyla çalışıyoruz.
+PORTZEN olarak [hukuk bürosu web tasarımı](/web-tasarim/avukat) projelerimizde bu yazıda anlattığımız elementleri kurumsal web sitesi paketlerine göre kurguluyoruz. Büyüme paketinde 10 sayfa, CMS ve blog, teknik SEO ve ölçümleme; Kurumsal pakette 20 sayfa, 2 dil ve 2 standart entegrasyon (ör. CRM bağlantısı) yer alır. WhatsApp AI asistanı ayrı bir hizmettir. İzmir başta olmak üzere Türkiye genelindeki hukuk bürolarıyla çalışıyoruz.
 
 Mevcut sitenizi değerlendirmek ya da yeni bir proje başlatmak için [iletişim sayfamızdan](/iletisim) bize ulaşabilirsiniz. İlk görüşmede sitenizin mevcut durumunu ücretsiz olarak inceleyip iyileştirme noktalarını paylaşıyoruz. Genel [web tasarım hizmetimiz](/web-tasarim) sayfamızdan diğer sektörel çalışmalarımızı da inceleyebilirsiniz.

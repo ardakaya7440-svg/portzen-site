@@ -108,11 +108,11 @@ Güçlü yönler:
 - Tam özelleştirme: Müşterinin sesini, marka tonunu, hatta ürün kataloğunuza özel davranışı tasarlayabilirsiniz.
 - Türkçe LLM yetkinliği: GPT-4o ve Claude 3.5+ Türkçeyi neredeyse anadil seviyesinde anlıyor; intent çıkarımı SaaS platformlardan belirgin biçimde daha iyi.
 - Ölçeklenirken maliyet düşer: Sabit aylık kullanıcı ücreti yoktur; sadece sunucu + LLM + Meta konuşma maliyetleri vardır.
-- Veri sahipliği sizde: Müşteri verileri kendi sunucunuzda kalır; KVKK uyumu için tam kontrol.
-- ERP/CRM entegrasyonu sınırsız: Logo, Mikro, Netsis, ideasoft, iyzico gibi yerel sistemlerle doğrudan konuşur.
+- Veri sahipliği sizde: Verinin hangi sağlayıcıda ve bölgede tutulacağı projede belirlenir; bu da KVKK gerekliliklerini yönetmeyi kolaylaştırır.
+- ERP/CRM entegrasyonu esnek: Logo, Mikro, Netsis, ideasoft, iyzico gibi yerel sistemlerle doğrudan konuşabilir (PORTZEN'de entegrasyon sayısı pakete göre belirlenir).
 
 Zayıf yönler:
-- İlk kurulum maliyeti yüksek: 25-100K TL bandında tek seferlik kurulum yatırımı gerekir.
+- İlk kurulum maliyeti yüksek: piyasada 25-100K TL bandında tek seferlik kurulum yatırımı gerekebilir (PORTZEN'in paket fiyatları aşağıdaki fiyat tablosunda).
 - Teknik destek gerektirir: Kendi ekibiniz yoksa, devamlı destek anlaşması yapacağınız bir partner şarttır.
 - Hazır arayüz yok: Agent inbox, raporlama gibi modülleri açık kaynaklı (Chatwoot gibi) ya da özel olarak geliştirmek gerekir.
 
@@ -136,7 +136,7 @@ Yukarıdaki dört ana grup dışında, Türkiye pazarında karşınıza çıkabi
 | Türkçe NLP performansı | Orta | Orta | Orta-İyi | Çok İyi (LLM bazlı) |
 | AI/LLM yerleşik | Sınırlı | Sınırlı | İyi (Respond AI) | Tam özelleştirilebilir |
 | Çoklu agent | Var (planlı) | Çok İyi | Çok İyi | Özel geliştirme |
-| CRM entegrasyonu | HubSpot, Zoho | HubSpot, Salesforce | 50+ konnektör | Sınırsız (özel) |
+| CRM entegrasyonu | HubSpot, Zoho | HubSpot, Salesforce | 50+ konnektör | Esnek (özel; PORTZEN'de pakete göre) |
 | Template yönetimi | Çok İyi | İyi | Çok İyi | Manuel/API |
 | Broadcast | Var | Var | Var | Özel script |
 | Raporlama | Temel | İyi | Çok İyi | Özel dashboard |
@@ -158,7 +158,7 @@ Aşağıdaki fiyatlar 2026 ikinci çeyrek verileriyle hazırlanmıştır. Meta k
 | Respond.io Business | 159 USD/ay | ~6.040 TL | Meta tarifesi + %5-10 markup | 5K MAU dahil |
 | Respond.io Enterprise | 499 USD/ay | ~18.960 TL | Meta tarifesi | 10K MAU + öncelikli destek |
 | 360dialog | 49 EUR/ay | ~1.960 TL | Meta tarifesi (markup yok) | Sadece API, arayüz yok |
-| Custom AI (PORTZEN) | 5-15K TL/ay bakım | 5.000-15.000 TL | Meta + LLM (~0.10-0.30 TL/konuşma) | + 25-100K TL tek seferlik kurulum |
+| Custom AI (PORTZEN) | {{fiyat:ai-musteri-asistani:baslangic}} – {{fiyat:ai-musteri-asistani:kurumsal}} | {{fiyat:ai-musteri-asistani:baslangic}} (Başlangıç, KDV hariç) | Meta + LLM (konuşma başına, kullanım bazlı) | + tek seferlik kurulum {{kurulum:ai-musteri-asistani:baslangic}} – {{kurulum:ai-musteri-asistani:kurumsal}} |
 | Twilio | Sabit ücret yok | Değişken | Meta + ~%20-30 markup | Pay-as-you-go |
 | Infobip | Sözleşmeli | 20.000+ TL | Negotiable | Kurumsal odaklı |
 
@@ -178,7 +178,7 @@ Senaryo 1: 50 sipariş/gün alan Shopify mağazası
 WATI Growth planı + Shopify entegrasyonu burada en hızlı çözüm. Aylık ~1.800 TL + 1.500 TL Meta konuşma maliyeti = toplam ~3.300 TL. Custom AI çözümü ise kurulum yatırımı yüksek olduğundan ilk yıl daha pahalı çıkar. Ancak ek hizmet (AI ürün önerisi, mağaza içi sepet kurtarma) eklenmek isteniyorsa Custom AI önerilir.
 
 Senaryo 2: 3 şubeli klinik (estetik/diş)
-Randevu rezervasyonu, ön bilgilendirme, hatırlatma gibi senaryolar var. Respond.io workflow editörü güçlü olduğundan ilk tercih olabilir, fakat aylık 6.000 TL + ek maliyetlerle KOBİ bütçesini zorlar. PORTZEN gibi bir partnerle kurulacak Custom AI, hem klinik yönetim yazılımıyla (Klinik365, Vetera gibi) doğrudan konuşur hem de uzun vadede %40 daha ekonomik olur.
+Randevu rezervasyonu, ön bilgilendirme, hatırlatma gibi senaryolar var. Respond.io workflow editörü güçlü olduğundan ilk tercih olabilir, fakat aylık 6.000 TL + ek maliyetlerle KOBİ bütçesini zorlar. PORTZEN gibi bir partnerle kurulacak Custom AI, hem klinik yönetim yazılımıyla (Klinik365, Vetera gibi) doğrudan konuşabilir hem de uzun vadede daha ekonomik olabilir; 3 şubeli yapı için PORTZEN'de Kurumsal paket uygundur ({{fiyat:ai-musteri-asistani:kurumsal}} + {{kurulum:ai-musteri-asistani:kurumsal}} kurulum, KDV hariç).
 
 Senaryo 3: B2B yedek parça satıcısı, 15 saha satış temsilcisi
 Trengo'nun çoklu agent ve ekip işbirliği tarafı bu senaryoda öne çıkar. Aylık 12.000-15.000 TL bandında bir maliyetle 15 kullanıcı yönetilir. Custom AI çözümünde ise Chatwoot tabanlı bir agent panel kurularak agent başı sabit ücret ödemeden 15+ kullanıcı yönetilebilir; toplam maliyet 1. yıldan sonra ciddi şekilde düşer.
@@ -204,7 +204,7 @@ Aşağıdaki tablo, bütçenize göre hangi yaklaşımın daha doğru olduğunu 
 - 10.000-20.000 TL/ay bütçe: Respond.io Business ya da kurumsal seviye Custom AI (Claude 3.5 Sonnet, GPT-4o + Chatwoot inbox + ERP entegrasyon). Bu bant uzun vadeli ROI açısından en sağlıklı olanıdır.
 - 20.000+ TL/ay bütçe: Respond.io Enterprise, Infobip ya da çoklu numara/çoklu marka yöneten Custom AI. Genelde 100+ konuşma/gün hacmi olan, dijital olgunluğu yüksek firmalar bu bandadır.
 
-Kurulum maliyetlerini de hesaba katmak şart. SaaS platformlarda kurulum 0-1.000 USD bandında değişir. Custom AI kurulumu sektör ve entegrasyon derinliğine göre 25.000-100.000 TL bandındadır; fakat tek seferlik ödenir ve aylık ücret üzerinden sürekli tasarruf sağlar.
+Kurulum maliyetlerini de hesaba katmak şart. SaaS platformlarda kurulum 0-1.000 USD bandında değişir. Piyasada custom AI kurulumu sektör ve entegrasyon derinliğine göre 25.000-100.000 TL bandındadır. PORTZEN'de kurulum bedeli pakete göre değişir ve aylık ücretle birlikte çalışır (yukarıdaki fiyat tablosu, KDV hariç).
 
 İlgili konular için [yapay zeka müşteri hizmetleri](/blog/yapay-zeka-musteri-hizmetleri) ve [ManyChat vs AI chatbot karşılaştırması](/blog/manychat-vs-ai-chatbot-karsilastirma) yazılarımızı inceleyebilirsiniz.
 
@@ -217,16 +217,16 @@ WhatsApp Business uygulaması ile WhatsApp Business API arasındaki fark nedir?
 WhatsApp Business uygulaması; tek telefonda, tek kullanıcıda, sınırlı otomasyonla çalışır. Maksimum 4 cihaza bağlanabilir ve API'si yoktur. WhatsApp Business API ise sunucu üzerinden çalışır, sınırsız agent destekler, otomasyon ve AI entegrasyonu sağlar. KOBİ ölçeği büyüdükçe API'ye geçiş zorunlu hale gelir. Detaylı karşılaştırma için [WhatsApp Business vs API yazımıza](/blog/whatsapp-business-vs-api-karsilastirma) göz atabilirsiniz.
 
 Meta'nın template message onayı neden bu kadar uzun sürüyor?
-Pazarlama amaçlı template'lerin Meta tarafından manuel incelemesi 24-72 saat sürer. Reddedilme nedenleri arasında en yaygın olanlar: spam algısı yaratan dil, izin (opt-in) belirsizliği, kişisel olmayan metinler. WATI ve Respond.io gibi olgun BSP'ler, redde uğrama oranınızı düşürecek template önerileri sunar. Custom AI çözümlerinde PORTZEN gibi partnerlerle çalışmak, template başvuru sürecini deneyim sayesinde hızlandırır.
+Pazarlama amaçlı template'lerin Meta tarafından manuel incelemesi 24-72 saat sürer. Reddedilme nedenleri arasında en yaygın olanlar: spam algısı yaratan dil, izin (opt-in) belirsizliği, kişisel olmayan metinler. WATI ve Respond.io gibi olgun BSP'ler, redde uğrama oranınızı düşürecek template önerileri sunar. Custom AI çözümlerinde PORTZEN gibi bir partnerle çalışmak, template metinlerinin baştan Meta politikalarına uygun hazırlanmasına yardımcı olur; onay süresi ise Meta'nın kendi sürecine bağlıdır.
 
 KVKK ve veri yerelliği açısından hangi çözüm daha uygun?
-Custom AI çözümleri sunucularınız Türkiye ya da AB'de barındırıldığında en yüksek KVKK uyumunu sağlar; veri sahipliği tamamen sizdedir. Trengo Avrupa veri merkezini kullanır, GDPR/KVKK uyumlu sayılır. WATI ve Respond.io ABD/Hindistan/Singapur sunucularını kullandığından, KVKK uyumu için sözleşme ekleri ve aktarım izinleri gereklidir. Sağlık ve finans sektörü için Custom AI yüksek önerilir.
+Custom AI çözümlerinde verinin barındırılacağı bölgeyi (ör. Türkiye veya AB) projede siz belirleyebildiğiniz için KVKK gerekliliklerini yönetmek daha kolaydır; veri sahipliği sizdedir. Trengo Avrupa veri merkezini kullanır, GDPR/KVKK uyumlu sayılır. WATI ve Respond.io ABD/Hindistan/Singapur sunucularını kullandığından, KVKK uyumu için sözleşme ekleri ve aktarım izinleri gereklidir. Sağlık ve finans sektörü için Custom AI yüksek önerilir.
 
 LLM tabanlı AI bot'un yanlış cevap verme riski nasıl yönetilir?
 İyi tasarlanmış bir Custom AI bot; system prompt katı kurallar, RAG (Retrieval Augmented Generation), confidence skoru, insan-agent devri (handover) ve günlük log izleme ile çalışır. Hassas bir konu (örneğin fiyat teklifi, tıbbi tavsiye) algılandığında bot otomatik olarak insana devreder. PORTZEN'in kurduğu sistemlerde bu güvenlik katmanları varsayılan olarak yer alır.
 
 ## PORTZEN ile WhatsApp AI Çözümü
 
-WhatsApp Business çözümünüzü seçerken sektörünüze, ekip büyüklüğünüze ve bütçe sınırlarınıza özel bir değerlendirme yapmanız gerekiyor. PORTZEN olarak biz; hazır SaaS araçların sunamadığı Türkçe LLM derinliği, ERP/CRM entegrasyonu ve veri sahipliği avantajıyla, KOBİ'lere özel WhatsApp AI bot çözümleri kuruyoruz. n8n + GPT-4o/Claude 3.5 tabanlı altyapımız sayesinde, kurulumdan itibaren 2-4 hafta içinde sektörünüze özel çalışan, Türkçe konuşan ve ERP'nizle entegre bir asistana sahip olabilirsiniz.
+WhatsApp Business çözümünüzü seçerken sektörünüze, ekip büyüklüğünüze ve bütçe sınırlarınıza özel bir değerlendirme yapmanız gerekiyor. PORTZEN olarak biz; hazır SaaS araçların sunamadığı Türkçe LLM derinliği, ERP/CRM entegrasyonu ve veri sahipliği avantajıyla, KOBİ'lere özel WhatsApp AI bot çözümleri kuruyoruz. n8n + GPT-4o/Claude 3.5 tabanlı altyapımızla sektörünüze özel çalışan, Türkçe konuşan bir asistan kuruyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir; standart CRM entegrasyonu Büyüme, ERP dahil 4 standart entegrasyon Kurumsal pakette yer alır.
 
-Ücretsiz bir keşif görüşmesi için [iletişim sayfamızı ziyaret edin](/iletisim) ya da [AI Bot hizmetimiz](/ai-bot) hakkında detaylı bilgi alın. İhtiyacınızı dinleyip, size en uygun çözümü (kendi platformumuz, hazır SaaS önerisi veya hibrit yaklaşım) tarafsız biçimde önereceğiz.
+Ücretsiz bir keşif görüşmesi için [iletişim sayfamızı ziyaret edin](/iletisim) ya da [AI Bot hizmetimiz](/whatsapp-ai-asistani) hakkında detaylı bilgi alın. İhtiyacınızı dinleyip, size en uygun çözümü (kendi platformumuz, hazır SaaS önerisi veya hibrit yaklaşım) tarafsız biçimde önereceğiz.

@@ -3,21 +3,41 @@
   "sectorName": "Eğitim Kurumu",
   "sectorPlural": "Eğitim Kurumları",
   "title": "Eğitim Kurumları İçin CRM Otomasyonu | Lead → Öğrenci — PORTZEN",
-  "description": "Eğitim kurumunuza gelen başvuruları öğrenciye çeviren CRM otomasyonu. WhatsApp, email, Calendly entegre — kayıp lead sıfırlanır, kohort doluluk %42'ye.",
-  "keywords": ["eğitim crm", "kurs crm otomasyonu", "öğrenci lead yönetimi", "eğitim danışman crm", "kurs satış otomasyonu", "okul crm sistemi", "kohort takip sistemi"],
+  "description": "Eğitim kurumunuza gelen başvuruları karşılayan, danışmana atayan ve takip eden CRM otomasyonu. WhatsApp, email, Calendly entegre — her başvuru kayıt altında ve takipte.",
+  "keywords": [
+    "eğitim crm",
+    "kurs crm otomasyonu",
+    "öğrenci lead yönetimi",
+    "eğitim danışman crm",
+    "kurs satış otomasyonu",
+    "okul crm sistemi",
+    "kohort takip sistemi"
+  ],
   "h1": "Eğitim Kurumları için CRM Otomasyonu",
-  "heroSubtitle": "Başvuru formu doldu — sonra ne? Kursunuza gelen lead'in %60'ı 1 hafta içinde kayboluyor çünkü kimse zamanında aramıyor. Bizim sistem 60 saniyede otomatik karşılıyor, danışmana atıyor, follow-up serisi açıyor. Lead-öğrenci dönüşümünüz üçe katlanıyor.",
+  "heroSubtitle": "Başvuru formu doldu — sonra ne? Kimse zamanında aramadığında lead kolayca kayboluyor. Kurduğumuz sistem başvuruya otomatik yanıt veriyor, danışmana atıyor ve follow-up serisini başlatıyor; hiçbir başvuru takipsiz kalmıyor.",
   "stats": [
-    {"value": "60 sn", "label": "Lead Karşılama"},
-    {"value": "%42", "label": "Lead-Öğrenci Dönüşümü"},
-    {"value": "4 hafta", "label": "Kurulum"},
-    {"value": "%80", "label": "Manuel İş Azalır"}
+    {
+      "value": "Otomatik",
+      "label": "Lead karşılama"
+    },
+    {
+      "value": "Round-robin",
+      "label": "Danışman ataması"
+    },
+    {
+      "value": "Tek seferlik",
+      "label": "Kurulum bedeli"
+    },
+    {
+      "value": "WhatsApp + email",
+      "label": "Follow-up kanalı"
+    }
   ],
   "problems": [
     "Form dolduran lead'in unutulması — gece 23:00'de gelen başvuru ertesi sabah 11:00'de aranıyor, lead bu sırada rakip kursa kayıt yaptırmış oluyor",
     "Hangi danışmanın hangi başvuruyu aldığı belli değil — aynı lead'i iki danışman arıyor (müşteri sinirleniyor) ya da kimse aramıyor (lead kayboluyor)",
     "Ödeme takibi excel'de, taksitli ödemelerde hangi öğrenci hangi taksidi ödedi karışıyor, ay sonu hesap kaybediliyor",
-    "Kayıt sonrası iletişim kesiliyor — öğrenci kursu satın aldı, kursa erişimi var ama 'nasıl başlayayım' sorusu sorulmuyor, dropout oranı %35",
+    "Kayıt sonrası iletişim kesiliyor — öğrenci kursu satın aldı, kursa erişimi var ama 'nasıl başlayayım' sorusu sorulmuyor, kursu yarıda bırakan öğrenci fark edilmiyor",
     "Mezunlar var, başarı hikayeleri var ama hiçbiri toplanıp pazarlamada kullanılmıyor — yeni lead karar verirken sosyal kanıt görmüyor",
     "Kohort bittikten sonra 'bu kohort kaçtan başladı kaçı bitirdi, hangi modül en zor algılandı, mezun memnuniyeti ne' — hiçbir veri yok"
   ],
@@ -32,21 +52,21 @@
     },
     {
       "title": "3. WhatsApp + Email Otomasyon",
-      "description": "WhatsApp Business API entegre — lead karşılama (60 sn auto-yanıt), danışman ataması (round-robin), alfabe sıralı follow-up serisi (3-7-15 gün), kayıt sonrası onboarding emaili (sertifika programı, LMS girişi), mezuniyet sonrası referans isteği."
+      "description": "WhatsApp Business API entegre — lead karşılama (otomatik yanıt), danışman ataması (round-robin), alfabe sıralı follow-up serisi (3-7-15 gün), kayıt sonrası onboarding emaili (sertifika programı, LMS girişi), mezuniyet sonrası referans isteği."
     },
     {
       "title": "4. Eğitim + Raporlama Dashboard",
-      "description": "Danışmanlar, kurs koordinatörü ve kurum sahibi için ayrı eğitim (2 saat canlı). Aylık dashboard: lead kaynağı dağılımı, lead-öğrenci dönüşümü, danışman performansı, kohort doluluk, mezun memnuniyeti — net sayılar."
+      "description": "Danışmanlar, kurs koordinatörü ve kurum sahibi için ayrı eğitim (ekip eğitimi Büyüme ve Kurumsal paketlerde dahil). Aylık dashboard: lead kaynağı dağılımı, lead-öğrenci dönüşümü, danışman performansı, kohort doluluk, mezun memnuniyeti — net sayılar."
     }
   ],
   "features": [
     {
-      "title": "Lead Karşılama (60 Saniye Auto-Yanıt)",
-      "description": "Form dolduran lead 60 saniyede WhatsApp ve email ile karşılanır: 'Merhaba [İsim], [Kurs] başvurunuz alındı, danışmanımız 1 saat içinde dönecek. Bu arada kurs müfredatı için: [link]'. Lead 'unutuldum' hissi yaşamıyor, sıcaklığı korunuyor."
+      "title": "Lead Karşılama (Otomatik Yanıt)",
+      "description": "Form dolduran lead'e WhatsApp ve email ile otomatik yanıt gider: 'Merhaba [İsim], [Kurs] başvurunuz alındı, danışmanımız en kısa sürede dönecek. Bu arada kurs müfredatı için: [link]'. Lead 'unutuldum' hissi yaşamıyor, sıcaklığı korunuyor."
     },
     {
       "title": "Kurs Danışmanı Atama (Round-Robin)",
-      "description": "Yeni lead geldiğinde sistem otomatik olarak müsait danışmana atıyor (round-robin veya kurs uzmanlığına göre). Danışman 'sıra bende' bildirimini WhatsApp ile alıyor, 1 saat içinde lead'i aramazsa otomatik başka danışmana yeniden atanıyor — lead asla unutulmuyor."
+      "description": "Yeni lead geldiğinde sistem otomatik olarak müsait danışmana atıyor (round-robin veya kurs uzmanlığına göre). Danışman 'sıra bende' bildirimini WhatsApp ile alıyor, belirlenen süre içinde (ör. 1 saat) lead'i aramazsa otomatik başka danışmana yeniden atanıyor — lead takipsiz kalmıyor."
     },
     {
       "title": "Ödeme Takip & Taksit Yönetimi",
@@ -54,7 +74,7 @@
     },
     {
       "title": "Alfabe Sıralı Follow-Up Serisi (3-7-15 Gün)",
-      "description": "Lead karar vermediyse: 3. gün 'aklımıza takılan oldu mu' WhatsApp, 7. gün 'bu hafta indirim haberleri' email, 15. gün 'son hatırlatma + bonus' kampanya. Her mesaj kişiselleştirilmiş, satış değil yardımcı tonlu. Soğuk lead sıcağa dönüyor."
+      "description": "Lead karar vermediyse: 3. gün 'aklımıza takılan oldu mu' WhatsApp, 7. gün 'bu hafta indirim haberleri' email, 15. gün 'son hatırlatma + bonus' kampanya. Her mesaj kişiselleştirilmiş, satış değil yardımcı tonlu; karar aşamasındaki lead ile temas düzenli sürüyor."
     },
     {
       "title": "Mezun Yorum & Referans Motoru",
@@ -66,93 +86,66 @@
     }
   ],
   "caseStudy": {
-    "title": "İstanbul'da Bir Online Eğitim Platformunun 4 Aylık Dönüşümü",
+    "title": "Örnek senaryo: Çok kurslu bir online eğitim platformu için lead → öğrenci akışı",
     "paragraphs": [
-      "İstanbul Şişli merkezli, yazılım ve veri analitiği üzerine 12 farklı kurs sunan bir online eğitim platformu, aylık 380-420 lead alıyor ama bunların sadece %14'ü öğrenciye dönüyordu. 4 danışman vardı ama lead dağıtımı sistemsizdi, bazı lead'ler 2 danışman tarafından aranıyor, bazıları hiç aranmıyordu. Ödeme takibi excel'deydi, mezun yorumları toplanmıyordu, kohort başarı verisi hiç yoktu.",
-      "PORTZEN olarak HubSpot CRM kurulumu yaptık (eğitim özelinde özelleştirilmiş alanlar: kurs ilgi alanı, kohort, ödeme planı), WhatsApp Business API entegrasyonu, n8n ile lead karşılama (60 sn) + danışman atama (round-robin) otomasyonu kurduk. Alfabe sıralı follow-up serisi (3-7-15 gün), ödeme takip ve taksit hatırlatma sistemleri, mezun yorum toplama otomasyonu ekledik.",
-      "4 ay sonra lead-öğrenci dönüşüm oranı %14'ten %42'ye çıktı (3 kat), ay başı yeni öğrenci 53'ten 178'e yükseldi. Mezun memnuniyet skoru (NPS) %85, mezun referansından gelen lead oranı %0'dan %22'ye çıktı. Danışmanlar 'artık lead unutmuyoruz, lead'ler de bizi unutmuyor' dedi. Kohort doluluk oranı %58'den %94'e çıktı."
+      "Örnek senaryo: Yazılım ve veri analitiği üzerine birden fazla kurs sunan, birkaç danışmanla çalışan bir online eğitim platformu düşünün. Lead dağıtımı sistemsiz; bazı lead'ler iki danışman tarafından aranıyor, bazıları hiç aranmıyor. Ödeme takibi excel'de, mezun yorumları toplanmıyor, kohort başarı verisi yok.",
+      "Örnek bir kurulumda HubSpot CRM eğitim özelinde özelleştirilmiş alanlarla (kurs ilgi alanı, kohort, ödeme planı) kurulur; WhatsApp Business API entegrasyonu, n8n ile otomatik lead karşılama ve danışman atama (round-robin) otomasyonu eklenir. Alfabe sıralı follow-up serisi (3-7-15 gün), ödeme takip ve taksit hatırlatma, mezun yorum toplama akışları da kapsama alınabilir.",
+      "Bu kurulumla iş akışında değişen şudur: her başvuru otomatik karşılanır ve tek bir danışmana atanır, aranmayan lead başka danışmana yeniden atanır, karar vermeyen lead'e takip serisi otomatik gider. Kohort bittiğinde başlangıç-bitiş, memnuniyet ve referans verileri raporda toplanır."
     ],
     "beforeAfter": [
-      {"label": "Lead-Öğrenci Dönüşümü", "before": "%14", "after": "%42"},
-      {"label": "Ay Başı Yeni Öğrenci", "before": "53", "after": "178"},
-      {"label": "Kohort Doluluk Oranı", "before": "%58", "after": "%94"},
-      {"label": "Mezun Memnuniyet (NPS)", "before": "ölçülmüyor", "after": "%85"},
-      {"label": "Referansdan Gelen Lead", "before": "%0", "after": "%22"}
+      {
+        "label": "Lead Karşılama",
+        "before": "Danışman müsait olunca, elle",
+        "after": "WhatsApp + email ile otomatik yanıt"
+      },
+      {
+        "label": "Danışman Ataması",
+        "before": "Sistemsiz, çift arama veya hiç arama",
+        "after": "Round-robin ile otomatik atama"
+      },
+      {
+        "label": "Ödeme Takibi",
+        "before": "Taksitler excel'de",
+        "after": "Vade gelince otomatik hatırlatma"
+      },
+      {
+        "label": "Mezun Memnuniyet (NPS)",
+        "before": "ölçülmüyor",
+        "after": "Kohort sonunda otomatik anket ve rapor"
+      },
+      {
+        "label": "Mezun Referansı",
+        "before": "İstenmiyor, toplanmıyor",
+        "after": "Mezuniyet sonrası otomatik referans isteği"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "12.000 TL/ay",
-      "description": "Tek danışman + koordinatör çalışan eğitim kurumları için temel lead karşılama + WhatsApp paketi.",
-      "features": [
-        "HubSpot CRM ücretsiz versiyonu kurulum",
-        "WhatsApp Business API entegrasyonu",
-        "Lead karşılama otomasyonu (60 sn)",
-        "Basit öğrenci profili",
-        "Ödeme takip (manuel)",
-        "Aylık temel rapor",
-        "2 saat canlı eğitim"
-      ]
-    },
-    {
-      "name": "Pro",
-      "price": "25.000 TL/ay",
-      "description": "Büyüyen eğitim kurumları için danışman atama, follow-up serisi, ödeme yönetimi ve mezun motoru dahil tam paket.",
-      "features": [
-        "Başlangıç paketinin tamamı",
-        "Kurs danışmanı otomatik atama (round-robin)",
-        "Alfabe sıralı follow-up serisi (3-7-15 gün)",
-        "Taksitli ödeme takip + e-fatura entegre",
-        "Mezun yorum + referans motoru",
-        "Kohort başarı raporu",
-        "Danışman performans dashboard",
-        "Sürekli optimizasyon ve destek"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Premium Eğitim Paketi",
-      "price": "50.000 TL/ay",
-      "description": "Çoklu programlı, kurumsal eğitim platformları için LMS entegrasyonu, B2B müşteri ve pazarlama yönetimi paketi.",
-      "features": [
-        "Pro paketinin tamamı",
-        "LMS entegrasyonu (Moodle, Thinkific, TalentLMS)",
-        "Kurumsal müşteri (B2B eğitim) CRM",
-        "Çoklu danışman + komisyon takibi",
-        "Reklam (Meta + Google) yönetimi dahil",
-        "İçerik pazarlama danışmanlığı",
-        "Aylık performans + büyüme danışmanlığı",
-        "Özel API entegrasyonları"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "HubSpot ücretsiz versiyonu yeterli mi? Ne zaman ücretliye geçmem gerekir?",
-      "answer": "HubSpot ücretsiz versiyonu aylık 1.000 lead'e kadar yeterli. Başlangıç paketinde bunu kuruyoruz. Aylık lead sayınız 1.000'i geçtiğinde HubSpot Starter (50$/ay) veya Pipedrive'a geçiş öneriyoruz — Pro pakette CRM lisans ücretleri zaten dahil."
+      "answer": "Başlangıç aşamasındaki birçok eğitim kurumu için HubSpot'un ücretsiz sürümü yeterli oluyor ve kurulumu bununla yapabiliyoruz. Lead hacminiz, danışman sayınız veya otomasyon ihtiyacınız arttığında HubSpot Starter'a ya da Pipedrive'a geçiş öneriyoruz; bu planlar aylık ücretlidir ve güncel tutarlar sağlayıcının tarifesine göre değişir. CRM lisans ücretleri PORTZEN kurulum bedeline dahil değildir; lisansı doğrudan sağlayıcıya siz ödersiniz."
     },
     {
       "question": "Round-robin danışman atama nasıl çalışıyor?",
-      "answer": "Yeni lead geldiğinde sistem müsait danışmanları kontrol ediyor (mesai saatleri içinde, son 30 dakikada lead almamış olanı önceliklendiriyor) ve sıradakine atıyor. Danışman 1 saat içinde lead'i aramazsa otomatik başka danışmana yeniden atanıyor — lead asla 'unutulmuş' kalmıyor."
+      "answer": "Yeni lead geldiğinde sistem müsait danışmanları kontrol ediyor (mesai saatleri içinde, son 30 dakikada lead almamış olanı önceliklendiriyor) ve sıradakine atıyor. Danışman belirlenen süre içinde (ör. 1 saat) lead'i aramazsa otomatik başka danışmana yeniden atanıyor — lead takipsiz kalmıyor."
     },
     {
       "question": "WhatsApp Business API onayı zor mu, ne kadar sürer?",
-      "answer": "Meta onayı 5-10 iş günü. Tüm süreci sizin adınıza yürütüyoruz — vergi levhası, eğitim kurumunuza ait domain ve resmi tanım yeterli. Onay gelene kadar WhatsApp Web entegrasyonu ile geçici çözüm kullanıyoruz, kesinti olmuyor."
+      "answer": "Onay süresi Meta'nın inceleme sürecine bağlıdır ve işletmeden işletmeye değişir. Başvuru sürecini sizinle birlikte yürütüyoruz — vergi levhası, eğitim kurumunuza ait domain ve resmi tanım genelde istenen bilgiler. Onay gelene kadar başvurular form ve e-posta kanalından karşılanmaya devam edebilir; bağlantı Meta'nın resmi WhatsApp Business API'si üzerinden kurulur."
     },
     {
       "question": "Follow-up mesajları spam algılanır mı?",
-      "answer": "Hayır. Mesajlar lead'in onayıyla (form gönderirken KVKK kutucuğu) gönderiliyor, satış değil yardımcı tonlu ('Aklınıza takılan oldu mu?', 'Müfredat detayı için link'), 3-7-15 gün aralığı standart sektör pratiği. Geri dönüş istemeyen lead 'iptal' yazınca seriden çıkıyor — Meta politikasına %100 uyumlu."
+      "answer": "Riski azaltacak şekilde kurgulanıyor. Mesajlar lead'in onayıyla (form gönderirken KVKK kutucuğu) gönderiliyor, satış değil yardımcı tonlu ('Aklınıza takılan oldu mu?', 'Müfredat detayı için link') ve aralıklar seyrek tutuluyor (3-7-15 gün). Geri dönüş istemeyen lead 'iptal' yazınca seriden çıkıyor; WhatsApp mesaj şablonları Meta'nın politikalarına göre hazırlanıp Meta onayına sunuluyor."
     },
     {
       "question": "LMS (Moodle, Thinkific) entegrasyonu nasıl çalışıyor?",
-      "answer": "Premium pakette mevcut. Öğrenci ödeme yaptığında CRM otomatik LMS'e kayıt yapıyor, kurs erişimini açıyor, hoşgeldin emaili gönderiyor. Öğrenci kursu tamamladığında LMS'ten 'tamamlandı' sinyali geliyor, sertifika otomatik düzenleniyor ve email ile gönderiliyor. Manuel iş sıfır."
+      "answer": "LMS, paketteki uygulama bağlantılarından biri olarak CRM'e bağlanıyor; standart bağlantının yetmediği durumlarda özel API bağlantısı gerekir ve Kurumsal paket 2 özel API bağlantısı içerir. Öğrenci ödeme yaptığında CRM otomatik olarak LMS'e kayıt yapıyor, kurs erişimini açıyor ve hoş geldin e-postası gönderiyor. Öğrenci kursu tamamladığında LMS'ten 'tamamlandı' sinyali geliyor, sertifika otomatik düzenlenip e-postayla gönderiliyor. Bu adımlar birkaç ayrı iş akışı olarak planlandığı için kapsam brief'te netleştirilir; manuel iş büyük ölçüde ortadan kalkar."
     },
     {
-      "question": "Aylık 12.000 TL'ye değiyor mu? ROI nedir?",
-      "answer": "İstanbul case study örneği: ay başı öğrenci 53 → 178 = 125 ekstra öğrenci. Ortalama kurs ücreti 8.500 TL. 125 x 8.500 = 1.062.500 TL ek aylık ciro. Pro paket 25.000 TL/ay. Geri dönüş 1. haftada görünür. Kohort doluluk artışı (boş kontenjan maliyeti) da bonus."
+      "question": "Eğitim kurumu için CRM otomasyonu yatırımına değer mi?",
+      "answer": "Kurulum aylık değil, tek seferliktir ({{fiyatlar:is-otomasyonu}}, KDV hariç); ilk 30 gün kurulum hataları giderilir, sonrasında aylık bakım isteğe bağlıdır. Getiriyi kendi rakamlarınızla hesaplamanızı öneriyoruz: örneğin ortalama kurs ücretiniz 8.500 TL ise, takip edilmediği için kaybolan lead'lerden ayda birkaç öğrenci kazanmanın kurulum bedeline oranla ne ifade ettiğini kolayca görebilirsiniz. Sonuç lead hacminize, danışman ekibinize ve kampanyalarınıza bağlıdır, belirli bir artış vaat etmiyoruz."
     }
   ],
-  "finalCtaHeadline": "Eğitim Kurumunuzun Kayıp Lead Sorunu Bugün Bitsin",
-  "finalCtaSubtitle": "30 dakikalık ücretsiz akış analizi — başvuru formundan gelen lead'lerinizin neden öğrenciye dönmediğini ve PORTZEN ile 4 ayda dönüşümünüzü nasıl üçe katlayacağımızı konuşalım."
+  "finalCtaHeadline": "Eğitim Kurumunuzun Lead Takibini Otomatikleştirelim",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz akış analizi — başvuru formundan gelen lead'lerinizin nerede takipsiz kaldığını ve PORTZEN ile bu takibi nasıl otomatikleştirebileceğimizi konuşalım."
 }

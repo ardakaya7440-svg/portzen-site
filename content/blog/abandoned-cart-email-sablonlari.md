@@ -206,12 +206,12 @@ WhatsApp ile entegre çalışan otomasyonlar için [WhatsApp AI Asistanı](/what
 
 ## Hangi Tool Kullanılır?
 
-| Tool | Email Otomasyon | WhatsApp Entegrasyonu | Aylık Maliyet |
+| Tool | Email Otomasyon | WhatsApp Entegrasyonu | Maliyet (araçlar aylık; PORTZEN kurulumu tek seferlik) |
 |---|---|---|---|
 | **Klaviyo** | ✅ Çok güçlü | ⚠️ Sınırlı | $20-150 |
 | **ActiveCampaign** | ✅ İyi | ⚠️ Plugin | $19-150 |
 | **Mailchimp** | ✅ Standart | ❌ | $13-60 |
-| **PORTZEN (n8n + Klaviyo + WhatsApp API)** | ✅ Tam kontrol | ✅ Native | ₺12.000+ |
+| **PORTZEN (n8n + Klaviyo + WhatsApp API)** | ✅ Tam kontrol | ✅ Native | {{fiyat:is-otomasyonu:baslangic}} – {{fiyat:is-otomasyonu:kurumsal}} |
 
 E-ticaret için **Klaviyo + PORTZEN WhatsApp** karması en yaygın çözüm.
 
@@ -234,10 +234,10 @@ KVKK ihlali + Meta cezası. Checkout sırasında **explicit onay** şart.
 
 ## PORTZEN ile Abandoned Cart Recovery
 
-PORTZEN olarak e-ticaret markaları için **Klaviyo + WhatsApp Business API + n8n** üzerinde uçtan uca recovery serisi kuruyoruz. Hangi şablonun çalıştığını A/B test ile ölçüyoruz, aylık olarak optimize ediyoruz.
+PORTZEN olarak e-ticaret markaları için **Klaviyo + WhatsApp Business API + n8n** üzerinde uçtan uca recovery serisi kuruyoruz. Hangi şablonun çalıştığını A/B test ile ölçüyoruz. Kurulum tek seferliktir; ilk 30 gün kurulum hatalarının giderilmesi dahildir, sonrasında isteğe bağlı aylık bakım alabilirsiniz.
 
 [Email pazarlama otomasyonu rehberi](/blog/email-pazarlama-otomasyonu-rehber) yazımızda diğer email akışları detayında, [CRM Otomasyonu](/crm-otomasyonu) sayfamızda paketlerimizi görebilirsiniz.
 
-Tipik bir e-ticaret markası için kurulum **3 hafta**, aylık ₺15.000'den başlıyor. ROI genelde 2. ayda dönüyor.
+Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Kurulum tek seferlik iş otomasyonu paketleriyle yapılır: {{fiyatlar:is-otomasyonu}} (KDV hariç); isteğe bağlı aylık bakım ikinci aydan itibaren {{bakim:baslangic}} / {{bakim:buyume}} / {{bakim:kurumsal}}. Klaviyo, WhatsApp API ve diğer platform ücretleri hariçtir. Güncel kapsam için [fiyatlar sayfası](/fiyatlar).
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun recovery yapısını birlikte belirleyelim.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir görüşmede işletmeniz için uygun recovery yapısını birlikte belirleyelim.

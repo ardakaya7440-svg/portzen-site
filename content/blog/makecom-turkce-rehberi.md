@@ -70,7 +70,7 @@ Instagram reklamlarınızdan veya organik DM'lerinizden gelen potansiyel müşte
 - **Adım 1:** Pipedrive > Create deal
 - **Adım 2:** WhatsApp Business Cloud > Send message (ekibe bildirim)
 
-Bir estetik kliniği bu akışı kurduktan sonra Instagram'dan gelen lead'lerin %85'ine 5 dakika içinde dönüş yapmaya başladı. Bu konuyu daha derin işlediğimiz [Instagram DM otomasyonu](/instagram-dm-otomasyonu) sayfamıza, profil yönetimini de aynı ekipten almak isteyenler için [sosyal medya ajansı](/sosyal-medya-ajansi) hizmetimize bakabilirsiniz.
+Örnek bir kurulumda, örneğin bir estetik kliniğinde, Instagram'dan gelen her lead CRM'e kaydedilir ve ekibe anında WhatsApp bildirimi düşer; kimin dönüş yapacağı ve talebin nerede takip edileceği baştan belli olur. Bu konuyu daha derin işlediğimiz [Instagram DM otomasyonu](/instagram-dm-otomasyonu) sayfamıza, profil yönetimini de aynı ekipten almak isteyenler için [sosyal medya ajansı](/sosyal-medya-ajansi) hizmetimize bakabilirsiniz.
 
 ### Akış 2: Gmail → Notion Bilgi Tabanı
 
@@ -81,7 +81,7 @@ Müşteri destek ekibinize gelen tüm soruların otomatik olarak Notion'daki bir
 - **Adım 2:** Notion > Create database item
 - **Adım 3:** Eğer "aciliyet" tespit edilirse Slack'e #destek-acil kanalına push
 
-Bu akış ayda 800-1000 email işleyen bir hukuk bürosunda manuel kayıt yükünü %90 azalttı.
+Örneğin yoğun e-posta alan bir hukuk bürosunda bu akış, gelen soruların tek tek elle kaydedilmesi yerine Notion'da otomatik ve özetlenmiş olarak birikmesini sağlar.
 
 ### Akış 3: Stripe Ödeme → Google Sheets + Slack Kutlama
 
@@ -156,8 +156,8 @@ Make.com hata olduğunda senaryoyu otomatik durdurur. Bildirim almak için Setti
 
 ## PORTZEN ile Make.com Kurulumu: Sıfırdan Sisteme
 
-Make.com KOBİ'ler için harika bir araç ama "doğru senaryoyu tasarlamak" ayrı bir uzmanlık alanı. PORTZEN olarak müşterilerimize Make.com hesabı kurulumundan başlayarak işletmenizin spesifik ihtiyaçlarına göre 5-15 akış tasarlıyor, Türk uygulamalarınızı (Paraşüt, NetGSM, Iyzico, Logo) bağlıyor ve ekibinize eğitim veriyoruz.
+Make.com KOBİ'ler için harika bir araç ama "doğru senaryoyu tasarlamak" ayrı bir uzmanlık alanı. PORTZEN olarak müşterilerimize Make.com hesabı kurulumundan başlayarak işletmenizin ihtiyaçlarına göre pakete bağlı olarak 2, 6 veya 12 iş akışı tasarlıyor, Türk uygulamalarınızı (Paraşüt, NetGSM, Iyzico, Logo) bağlıyoruz; Büyüme ve Kurumsal paketlerde ekibinize eğitim de veriyoruz.
 
-Bir spa zincirinden bir mimarlık ofisine kadar 30+ Make.com kurulumu yaptık. Tipik bir proje 5-7 iş gününde teslim ediliyor; ardından aylık bakım paketleriyle akışlarınızı izliyoruz, hata olduğunda 1 saat içinde müdahale ediyoruz.
+Bu kurulum spa zincirinden mimarlık ofisine kadar farklı sektörlerin akışlarına uyarlanabilir. Kurulum tek seferlik ücretlendirilir: {{fiyatlar:is-otomasyonu}} (KDV hariç). İlk 30 gün kurulum hatalarının giderilmesi dahildir; ikinci aydan itibaren isteğe bağlı aylık bakımla ({{bakim:baslangic}}, {{bakim:buyume}} veya {{bakim:kurumsal}}, KDV hariç) akışlarınızı izliyoruz.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

@@ -64,7 +64,7 @@ Türk pazarında pratikte 3-4 ana seçenek var:
 - Türkçe destek
 - Dezavantaj: bazıları henüz Meta resmi BSP değil — kontrol edin
 
-PORTZEN olarak biz **360dialog + custom backend** kombinasyonu kullanıyoruz çünkü hem Meta resmi hem de Türk uygulamalarla (Logo, Mikro, Iyzico) entegre edebiliyoruz. Click-to-WhatsApp reklamlarıyla bu altyapıyı doğrudan besleyen bir [Meta reklam ajansı](/meta-reklam-ajansi) iş birliği, API'nin günlük mesaj hacmini ölçeklendirmek için en hızlı yol. Detaylı karşılaştırma için [WhatsApp AI Asistanı nedir?](/blog/whatsapp-ai-asistani-nedir) yazımıza bakabilirsiniz.
+PORTZEN'de BSP seçimi projeye göre yapılır; örneğin **360dialog gibi Meta'nın resmi BSP'lerinden biri + özel backend** kombinasyonunda hem Meta'nın resmi WhatsApp Business API'si kullanılır hem de Türk uygulamalarla (Logo, Mikro, Iyzico) entegrasyon kurulabilir. Click-to-WhatsApp reklamlarıyla bu altyapıyı doğrudan besleyen bir [Meta reklam ajansı](/meta-reklam-ajansi) iş birliği, API'nin günlük mesaj hacmini ölçeklendirmek için en hızlı yol. Detaylı karşılaştırma için [WhatsApp AI Asistanı nedir?](/blog/whatsapp-ai-asistani-nedir) yazımıza bakabilirsiniz.
 
 ## Kurulum Adımları — Adım Adım
 
@@ -96,7 +96,7 @@ WhatsApp politikası: bot ilk mesajı **şablon mesaj** olarak göndermek zorund
 
 Tüm kurulum tamamlandığında BSP panelinden ya da kendi sisteminizden test mesajı gönderebilirsiniz. Başarılı geliyorsa **canlıya almaya hazırsınız**.
 
-Tüm süreç deneyimli birinin elinde **3-5 iş günü** sürer. Acemi biri 2-3 hafta uğraşabilir çünkü Meta onayları gecikebilir, şablon redleri olur, doğrulama hatalarıyla karşılaşırsınız.
+Toplam süre büyük ölçüde Meta'nın doğrulama ve şablon onaylarına bağlıdır. Süreci ilk kez yürüten biri için daha uzun sürebilir çünkü Meta onayları gecikebilir, şablon redleri olur, doğrulama hatalarıyla karşılaşırsınız.
 
 ## Mesaj Fiyatlandırması — Ne Kadar Tutar?
 
@@ -165,8 +165,8 @@ WhatsApp API'ye **mutlaka bir BSP üzerinden** erişiliyor. Meta direkt erişim 
 
 ## PORTZEN ile WhatsApp Business API: Tam Kurulum
 
-PORTZEN olarak işletmeler için **WhatsApp Business API kurulumunu sıfırdan** üstleniyoruz. Meta onayı, BSP seçimi, şablon hazırlama, bilgi tabanı eğitimi, chatbot bağlantısı — hepsi tek kalemde. Detaylı paketler için [WhatsApp AI Asistanı](/whatsapp-ai-asistani) sayfamıza göz atabilir, [ManyChat alternatifi](/manychat-alternatifi) yazımızda Türk pazarı için neden tercih edildiğimizi okuyabilirsiniz.
+PORTZEN olarak işletmeler için **WhatsApp Business API kurulumunu sıfırdan** üstleniyoruz. Meta onayı, BSP seçimi, şablon hazırlama, bilgi tabanı eğitimi, chatbot bağlantısı — hepsi tek kalemde. Detaylı paketler için [WhatsApp AI Asistanı](/whatsapp-ai-asistani) sayfamıza göz atabilir, [ManyChat alternatifi](/manychat-alternatifi) yazımızda Türk pazarı için bu yaklaşımı neden önerdiğimizi okuyabilirsiniz.
 
-Tipik bir KOBİ için kurulum süresi **14 iş günü**, ilk ay deneme dahil aylık ₺8.500'den başlıyor.
+Teslim süresi kapsama göre teklifte yazılı olarak belirtilir; Meta onay süreleri Meta'nın kendi sürecine bağlıdır. AI müşteri asistanı paketleri tek seferlik kurulum + aylık ücretle çalışır: {{fiyatlar:ai-musteri-asistani}} (KDV hariç; Meta mesaj ücretleri ve BSP platform ücreti hariç).
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun WhatsApp Business API yapısını birlikte netleştirelim.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun WhatsApp Business API yapısını birlikte netleştirelim.

@@ -21,7 +21,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Tidio Alternatifi | WhatsApp+IG+Chat Tek Panelde — PORTZEN",
   description:
-    "Tidio'nun chat-only odağı yerine WhatsApp Business API + Instagram DM + canlı chat tek panelde. KVKK uyumlu, Türkçe doğal yanıt.",
+    "Tidio'nun chat-only odağı yerine WhatsApp Business API + Instagram DM + canlı chat tek panelde (üç kanal birlikte Kurumsal pakette). KVKK gereklilikleri dikkate alınarak kurgulanır, Türkçe doğal yanıt.",
   keywords: [
     "tidio alternatifi",
     "tidio türkçe",
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Tidio Alternatifi | PORTZEN WhatsApp + IG + Chat Tek Panel",
     description:
-      "Tidio'nun chat-only ürünü yerine WhatsApp + Instagram DM + chat birleşik gelen kutusu. KVKK uyumlu."
+      "Tidio'nun chat-only ürünü yerine WhatsApp + Instagram DM + chat birleşik gelen kutusu (Kurumsal pakette). KVKK gereklilikleri dikkate alınarak kurgulanır."
   },
   twitter: {
     card: "summary_large_image",
     title: "Tidio Alternatifi | PORTZEN",
     description:
-      "Tidio'da WhatsApp ekstra ödeme. PORTZEN'de hepsi tek pakette."
+      "Tidio'da WhatsApp ekstra ödeme. PORTZEN'de kanallar pakete göre; WhatsApp, web ve Instagram birlikte Kurumsal pakette."
   },
   alternates: { canonical: "https://portzenai.com/tidio-alternatifi" },
   robots: { index: true, follow: true }
@@ -59,7 +59,7 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   serviceType: "Customer Communication Platform",
@@ -77,7 +77,7 @@ const faqSchema = {
       name: "Tidio'dan PORTZEN'e taşıma süresi ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Mevcut Tidio bot akışlarınızı ve operatör hesaplarınızı 10-14 iş gününde PORTZEN üzerinde yeniden kuruyoruz. Konuşma geçmişi CSV olarak export edip arşivde tutulur."
+        text: "Mevcut Tidio bot akışlarınızı ve operatör hesaplarınızı PORTZEN üzerinde yeniden kuruyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Konuşma geçmişi CSV olarak export edip arşivde tutulur."
       }
     },
     {
@@ -85,7 +85,7 @@ const faqSchema = {
       name: "Tidio'da WhatsApp neden ekstra ödeme?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tidio'nun WhatsApp Business entegrasyonu Plus + Premium planlarına özeldir ve mesaj başına ek ücret alır. PORTZEN'de WhatsApp Business API tüm paketlerde dahildir."
+        text: "Tidio'nun WhatsApp Business entegrasyonu Plus + Premium planlarına özeldir ve mesaj başına ek ücret alır. PORTZEN'de WhatsApp her pakette kanal olarak seçilebilir; Başlangıç paketinde tek kanal (WhatsApp veya web sitesi) bulunur. Meta mesaj ücretleri hizmet bedeline dahil değildir."
       }
     },
     {
@@ -93,7 +93,7 @@ const faqSchema = {
       name: "Instagram DM de aynı panelden yönetilir mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. PORTZEN'de WhatsApp + Instagram DM + canlı chat tek gelen kutusunda — bir operatör hepsini aynı yerden cevaplar. Tidio'da Instagram için ayrı entegrasyon ve ayrı paket gerekiyor."
+        text: "Kurumsal pakette evet: WhatsApp + Instagram DM + canlı chat tek gelen kutusunda — bir operatör hepsini aynı yerden cevaplar. Başlangıç ve Büyüme paketlerinde kanal sayısı daha azdır ve Instagram yer almaz. Tidio'da Instagram için ayrı entegrasyon ve ayrı paket gerekiyor."
       }
     },
     {
@@ -109,7 +109,7 @@ const faqSchema = {
       name: "KVKK için ne yapmam gerekiyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "PORTZEN tüm konuşma verilerini Türkiye lokasyonlu sunucularda saklar. KVKK aydınlatma metni, açık rıza akışı ve VERBİS kayıt desteği paket dahil. Tidio AB sunucu kullanır, KVKK uyum yükümlülüğü sizdedir."
+        text: "PORTZEN kurulumu KVKK gerekliliklerini dikkate alarak kurgular: aydınlatma metni ve açık rıza akışı sohbet akışına eklenir. Konuşma verisinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre, VERBİS kayıt desteği gibi kalemlerle birlikte teklifte yazılı olarak belirtilir. Tidio AB sunucu kullanır; hangi araç kullanılırsa kullanılsın veri sorumlusu işletmenizdir."
       }
     },
     {
@@ -117,7 +117,7 @@ const faqSchema = {
       name: "Vendor lock-in var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hayır. Tidio'nun aksine PORTZEN tüm konuşma verilerinizi istediğiniz zaman JSON/CSV olarak export etmenize izin verir. Numara sizin, veri sizin, hesap sizin — istediğiniz zaman bırakabilirsiniz."
+        text: "Hayır. Tidio'nun aksine PORTZEN tüm konuşma verilerinizi istediğiniz zaman JSON/CSV olarak export etmenize izin verir. Numara sizin, veri sizin, hesap sizin. Sözleşme süresi ve fesih koşulları teklifte yazılı olarak belirtilir."
       }
     },
     {
@@ -125,7 +125,7 @@ const faqSchema = {
       name: "Mobile-first deneyim Tidio'da var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tidio'nun chat widget'ı mobilde sıkışık durur, müşteri klavye açıkken yarısını göremez. PORTZEN'in widget'ı tam ekran moduna otomatik geçer, Türk e-ticaret mobil dönüşüm oranlarına göre tasarlanmıştır."
+        text: "Tidio'nun chat widget'ı mobilde sıkışık durur, müşteri klavye açıkken yarısını göremez. PORTZEN'in widget'ı tam ekran moduna otomatik geçer, mobil kullanım dikkate alınarak tasarlanır."
       }
     }
   ]
@@ -146,10 +146,10 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "3'ü 1'de", label: "WhatsApp + IG + Chat tek panel" },
-  { metric: "Meta Resmi", label: "WhatsApp Business API ortağı" },
-  { metric: "KVKK", label: "Türkiye sunucu + aydınlatma" },
-  { metric: "14 gün", label: "Kurulum + taşıma süresi" }
+  { metric: "3'ü 1'de", label: "WhatsApp + IG + Chat tek panel (Kurumsal)" },
+  { metric: "Resmi API", label: "Meta'nın WhatsApp Business API'si üzerinden" },
+  { metric: "KVKK", label: "Açık rıza + aydınlatma akışı" },
+  { metric: "TL", label: "Aylık ücret + tek seferlik kurulum" }
 ];
 
 const painPoints = [
@@ -175,20 +175,20 @@ const painPoints = [
   },
   {
     title: "Mobile UX zayıf",
-    desc: "Tidio chat widget mobilde sıkışık, klavye açıkken müşteri yarısını göremez. Türk e-ticaret %75 mobil — kayıp büyük."
+    desc: "Tidio chat widget mobilde sıkışık, klavye açıkken müşteri yarısını göremez. Türk e-ticaret trafiğinin büyük kısmı mobil — kayıp büyük."
   }
 ];
 
 const comparisonRows = [
-  { feature: "Fiyat modeli", manychat: "USD bazlı", portzen: "Brief'te belirlenir" },
-  { feature: "WhatsApp Business API (resmi)", manychat: "Plus+ planda + mesaj başı", portzen: "Tüm paketlerde dahil" },
-  { feature: "Instagram DM tek panel", manychat: "Ayrı entegrasyon", portzen: "Tek gelen kutusu" },
+  { feature: "Fiyat modeli", manychat: "USD bazlı", portzen: "TL; aylık ücret + tek seferlik kurulum" },
+  { feature: "WhatsApp Business API (resmi)", manychat: "Plus+ planda + mesaj başı", portzen: "Her pakette kanal olarak seçilebilir" },
+  { feature: "Instagram DM tek panel", manychat: "Ayrı entegrasyon", portzen: "Kurumsal pakette tek gelen kutusu" },
   { feature: "Canlı chat widget", manychat: "Var", portzen: "Var + mobile-first" },
-  { feature: "KVKK aydınlatma + TR sunucu", manychat: "Yok", portzen: "Paket dahil" },
+  { feature: "KVKK aydınlatma + veri konumu", manychat: "Yok", portzen: "Aydınlatma akışı; veri konumu teklifte yazılı" },
   { feature: "Türkçe doğal yanıt (NLP)", manychat: "Lyro AI zayıf TR", portzen: "Premium dil modeli + Türkçe eğitim" },
   { feature: "Kurulum + ekip eğitimi", manychat: "Self-service", portzen: "Tam kurulum + canlı eğitim" },
-  { feature: "Sözleşme süresi", manychat: "Yıllık peşin tercih", portzen: "Aylık esnek" },
-  { feature: "Veri lokalizasyonu", manychat: "AB sunucu", portzen: "Türkiye sunucu opsiyonu" },
+  { feature: "Sözleşme süresi", manychat: "Yıllık peşin tercih", portzen: "Teklifte yazılı" },
+  { feature: "Veri lokalizasyonu", manychat: "AB sunucu", portzen: "Altyapıya göre teklifte yazılı" },
   { feature: "Vendor lock-in", manychat: "Veri export sınırlı", portzen: "JSON/CSV her zaman export" }
 ];
 
@@ -201,7 +201,7 @@ const solutionSteps = [
   {
     icon: Sparkles,
     title: "Kurulum",
-    description: "WhatsApp Business API başvurusu + Instagram bağlantı + chat widget + Türkçe NLP eğitimi 5-7 günde tamamlanır."
+    description: "WhatsApp Business API başvurusu + Instagram bağlantısı (Kurumsal pakette) + chat widget + Türkçe NLP eğitimi kurulur."
   },
   {
     icon: Smartphone,
@@ -211,47 +211,47 @@ const solutionSteps = [
   {
     icon: CheckCircle2,
     title: "Canlı",
-    description: "Tidio paralel açık kalır, 3 gün test ediyoruz. Onaydan sonra Tidio hesabınızı iptal edip geçiş yapıyorsunuz."
+    description: "Tidio paralel açık kalırken yeni kurulumu test ediyoruz. Onaydan sonra Tidio hesabınızı iptal edip geçiş yapıyorsunuz."
   }
 ];
 
 const features = [
-  { icon: MessageCircle, title: "Birleşik gelen kutusu", desc: "WhatsApp + Instagram DM + canlı chat tek panelde. Bir operatör hepsini aynı yerden cevaplar — Tidio'da her biri ayrı." },
-  { icon: ShieldCheck, title: "Resmi WhatsApp API + dahil", desc: "Meta'nın resmi iş ortağı altyapısı, giriş paketinde dahil. Tidio'da Plus+ planda ekstra ödeme." },
-  { icon: Instagram, title: "Instagram DM entegre", desc: "Story yanıtları, gönderi yorumları, DM'ler — hepsi aynı kutuda. Ek entegrasyon ücreti yok." },
+  { icon: MessageCircle, title: "Birleşik gelen kutusu", desc: "WhatsApp + Instagram DM + canlı chat tek panelde (üç kanal birlikte Kurumsal pakette). Bir operatör hepsini aynı yerden cevaplar — Tidio'da her biri ayrı." },
+  { icon: ShieldCheck, title: "Resmi WhatsApp Business API", desc: "Meta'nın resmi WhatsApp Business API'si üzerinden; WhatsApp her pakette kanal olarak seçilebilir, Meta mesaj ücretleri ayrıca belirtilir. Tidio'da Plus+ planda ekstra ödeme." },
+  { icon: Instagram, title: "Instagram DM entegre", desc: "Story yanıtları ve DM'ler aynı kutuda. Instagram kanalı Kurumsal pakette dahildir; yorum ve hikâyeye otomatik DM gönderen kural tabanlı otomasyon ayrı bir hizmettir." },
   { icon: Languages, title: "Türkçe NLP", desc: "Premium dil modeli motoru Türkçe konuşma örnekleriyle özel eğitim. 'Fiyat ne acaba' ile 'fiyatınız nedir' aynı algılanır." },
-  { icon: Smartphone, title: "Mobile-first chat widget", desc: "Klavye açıkken müşteri tüm konuşmayı görür. Tam ekran moduna otomatik geçer. Türk mobil dönüşüm verilerine göre tasarlandı." },
-  { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile aynı gün dönüş. Tidio'nun e-mail-only İngilizce desteği yerine gerçek insan." }
+  { icon: Smartphone, title: "Mobile-first chat widget", desc: "Klavye açıkken müşteri tüm konuşmayı görür. Tam ekran moduna otomatik geçer. Mobil kullanım dikkate alınarak tasarlandı." },
+  { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile en kısa sürede dönüş yapıyoruz. Tidio'nun e-mail-only İngilizce desteği yerine gerçek insan." }
 ];
 
 const faqs = [
   {
     q: "Tidio'dan PORTZEN'e taşıma süresi ne kadar?",
-    a: "Mevcut Tidio bot akışlarınızı ve operatör hesaplarınızı 10-14 iş gününde PORTZEN üzerinde yeniden kuruyoruz. Konuşma geçmişiniz CSV olarak export edip arşiv olarak saklanır. Pilot 3 gün, sonra canlı geçiş — kesinti sıfır."
+    a: "Mevcut Tidio bot akışlarınızı ve operatör hesaplarınızı PORTZEN üzerinde yeniden kuruyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Konuşma geçmişiniz CSV olarak export edip arşiv olarak saklanır. Önce paralel test, sonra canlı geçiş — kesintiyi en aza indiriyoruz."
   },
   {
     q: "Tidio'da WhatsApp neden ekstra ödeme?",
-    a: "Tidio'nun WhatsApp Business entegrasyonu sadece Plus ve Premium planlarına özeldir, ayrıca mesaj başına ek ücret işler. PORTZEN'de resmi WhatsApp Business API tüm paketlerde dahildir — giriş paketinde bile."
+    a: "Tidio'nun WhatsApp Business entegrasyonu sadece Plus ve Premium planlarına özeldir, ayrıca mesaj başına ek ücret işler. PORTZEN'de resmi WhatsApp Business API her pakette kanal olarak seçilebilir; Başlangıç paketinde tek kanal (WhatsApp veya web sitesi) bulunur. Meta mesaj ücretleri hizmet bedeline dahil değildir ve teklifte ayrıca belirtilir."
   },
   {
     q: "Instagram DM de aynı panelden yönetilir mi?",
-    a: "Evet. PORTZEN'de WhatsApp + Instagram DM (story yanıtları, gönderi yorumları, doğrudan mesajlar) + canlı chat tek gelen kutusunda birleşir. Bir operatör hepsini aynı yerden cevaplar. Tidio'da Instagram için ayrı entegrasyon kurmanız + ayrı pakete geçmeniz gerekir."
+    a: "Kurumsal pakette evet: WhatsApp + Instagram DM (story yanıtları ve doğrudan mesajlar) + canlı chat tek gelen kutusunda birleşir. Başlangıç ve Büyüme paketlerinde kanal sayısı daha azdır ve Instagram yer almaz; yorum ve hikâyeye otomatik DM gönderen kural tabanlı otomasyon ayrı bir hizmettir. Bir operatör hepsini aynı yerden cevaplar. Tidio'da Instagram için ayrı entegrasyon kurmanız + ayrı pakete geçmeniz gerekir."
   },
   {
     q: "Türkçe doğal dil işleme Tidio'dan farklı mı?",
-    a: "Tidio'nun Lyro AI'sı İngilizce odaklıdır, Türkçe çekim eklerinde ('alabilir miyim', 'almak istiyorum') ve günlük kibarlık kalıplarında ('acaba', 'lütfen', 'rica etsem') zayıftır. PORTZEN premium dil modeli motorunu Türkçe konuşma örnekleriyle özel olarak ayarlar — müşterinin kendiliğinden konuştuğu cümleler ilk seferde anlaşılır."
+    a: "Tidio'nun Lyro AI'sı İngilizce odaklıdır, Türkçe çekim eklerinde ('alabilir miyim', 'almak istiyorum') ve günlük kibarlık kalıplarında ('acaba', 'lütfen', 'rica etsem') zayıftır. PORTZEN premium dil modeli motorunu Türkçe konuşma örnekleriyle özel olarak ayarlar — amaç, müşterinin kendiliğinden kurduğu cümleleri doğru anlamaktır; anlaşılmayan konuşmalar ekibinize devredilir."
   },
   {
     q: "KVKK için ne yapmam gerekiyor?",
-    a: "Hiçbir şey. PORTZEN tüm konuşma verilerini Türkiye lokasyonlu sunucularda saklar (Pro+ paketlerde isteğe bağlı self-hosted da var). KVKK aydınlatma metni, açık rıza akışı, veri silme talep formu ve VERBİS kayıt desteği paket dahildir. Tidio AB sunucu kullanır, KVKK uyum yükümlülüğü tamamen sizdedir."
+    a: "PORTZEN kurulumu KVKK gerekliliklerini dikkate alarak kurgular: aydınlatma metni, açık rıza akışı ve veri silme talep formu sohbet akışına eklenir. Konuşma verisinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre, VERBİS kayıt desteği gibi kalemlerle birlikte teklifte yazılı olarak belirtilir. Tidio AB sunucu kullanır; hangi araç kullanılırsa kullanılsın veri sorumlusu işletmenizdir."
   },
   {
     q: "Vendor lock-in var mı?",
-    a: "Hayır. PORTZEN tüm konuşma verilerinizi, müşteri listelerinizi ve bot akışlarınızı istediğiniz zaman JSON/CSV/PDF olarak export etmenize izin verir. WhatsApp numarası sizin (Business Account sizin adınıza), Instagram hesap sizin, veri sizin — istediğiniz zaman bırakabilirsiniz, ceza yok."
+    a: "Hayır. PORTZEN tüm konuşma verilerinizi, müşteri listelerinizi ve bot akışlarınızı istediğiniz zaman JSON/CSV/PDF olarak export etmenize izin verir. WhatsApp numarası sizin (Business Account sizin adınıza), Instagram hesap sizin, veri sizin. Sözleşme süresi ve fesih koşulları teklifte yazılı olarak belirtilir."
   },
   {
     q: "Mobile-first deneyim Tidio'da var mı?",
-    a: "Tidio chat widget'ı mobilde küçük bir baloncuk olarak açılır, klavye açıldığında müşteri konuşmanın yarısını göremez. Türk e-ticaret trafiğinin %75'i mobilden geliyor — bu kritik bir kayıp. PORTZEN widget'ı klavye açıldığında otomatik tam ekran moduna geçer ve giriş alanı kayboldıktan sonra mesaj akışı hep görünür."
+    a: "Tidio chat widget'ı mobilde küçük bir baloncuk olarak açılır, klavye açıldığında müşteri konuşmanın yarısını göremez. Türk e-ticaret trafiğinin büyük kısmı mobilden geliyor — bu kritik bir kayıp. PORTZEN widget'ı klavye açıldığında otomatik tam ekran moduna geçer ve giriş alanı kayboldıktan sonra mesaj akışı hep görünür."
   }
 ];
 
@@ -263,7 +263,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -276,32 +276,32 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-blue text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <MessageCircle className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Tidio Alternatifi</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   Tidio Alternatifi: WhatsApp + Instagram + Chat Tek Panelde
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Tidio chat-only bir üründür; WhatsApp ekstra ödeme, Instagram ayrı entegrasyon, KVKK belirsiz, mobile UX zayıf. PORTZEN aynı işi tek panelde, Türkiye sunucusunda yapar — KOBİ için 14 günde devreye girer.
+                  Tidio chat-only bir üründür; WhatsApp ekstra ödeme, Instagram ayrı entegrasyon, KVKK belirsiz, mobile UX zayıf. PORTZEN aynı işi tek panelde, Meta&apos;nın resmi WhatsApp Business API&apos;si üzerinden yapar (WhatsApp, web chat ve Instagram birlikte Kurumsal pakette); verinin tutulacağı bölge ve teslim süresi teklifte yazılı olarak belirtilir.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/instagram-dm-otomasyonu"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     Instagram DM Otomasyonu <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -315,8 +315,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-blue text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -332,12 +332,12 @@ export default function Page() {
       </section>
 
       {/* 2. NEDEN ALTERNATİF */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Tidio'nun Türk pazarında 6 zayıflığı
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
+                Tidio&apos;nun Türk pazarında 6 zayıflığı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
                 Tidio chat ürünüdür; WhatsApp + IG için 3 ayrı sistem kurmak zorunda kalırsınız.
@@ -347,8 +347,8 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {painPoints.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-paper bg-brand-blue text-paper mb-4">
+                <div className="border-3 border-ink/10 bg-light p-5 h-full rounded-2xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-ink/10 bg-slate text-white mb-4 rounded-full">
                     <X className="h-5 w-5" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2">{p.title}</h3>
@@ -361,11 +361,11 @@ export default function Page() {
       </section>
 
       {/* 3. KARŞILAŞTIRMA TABLOSU */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Yan yana karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -375,12 +375,12 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">Tidio</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -393,7 +393,7 @@ export default function Page() {
                           <span className="text-xs">{row.manychat}</span>
                         </div>
                       </td>
-                      <td className="p-4 text-center text-sm bg-brand-yellow/30 text-ink">
+                      <td className="p-4 text-center text-sm bg-light text-ink">
                         <div className="flex flex-col items-center gap-1">
                           <Check className="h-4 w-4 text-green-700" />
                           <span className="text-xs font-bold">{row.portzen}</span>
@@ -407,22 +407,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Not:</strong> Karşılaştırma genel ürün özelliklerine dayanır; Tidio plan içerikleri ve ücretleri için güncel bilgiyi Tidio&apos;dan teyit edin.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 4. PORTZEN ÇÖZÜMÜ */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Taşıma süreci
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Tidio'dan 14 günde nasıl çıkarsınız?
+                Tidio&apos;dan 4 adımda nasıl çıkarsınız?
               </h2>
             </div>
           </Reveal>
@@ -431,8 +431,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -446,15 +446,15 @@ export default function Page() {
       </section>
 
       {/* 5. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                PORTZEN'in farkı
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                PORTZEN&apos;in farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Tidio'da olmayan 6 özellik
+                Tidio&apos;da olmayan 6 özellik
               </h2>
             </div>
           </Reveal>
@@ -463,7 +463,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -476,16 +476,16 @@ export default function Page() {
       </section>
 
       {/* 6. CASE STUDY */}
-      <section className="bg-brand-blue text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Gerçek bir taşıma: Antalya kliniği
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek senaryo: klinik
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Tidio'dan PORTZEN'e — chat + WhatsApp + IG tek panelde birleşti.
+              Örnek bir taşıma: chat + WhatsApp + IG tek panelde (Kurumsal paket).
             </h2>
           </Reveal>
 
@@ -493,36 +493,36 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Antalya Lara'da bir saç ekim kliniği 14 aydır Tidio Growth planında çalışıyordu. Web sitesi chat widget'ı vardı ama WhatsApp ekstra Plus paketi istiyordu — almıyorlardı, ayrı bir WhatsApp uygulamasıyla manuel yönetiyorlardı. Instagram için bir başka 3rd party kullanıyorlardı.
+                  Örnek senaryoda bir saç ekim kliniği web sitesinde Tidio chat widget&apos;ı kullanıyor. WhatsApp için Tidio&apos;nun üst planı gerektiğinden WhatsApp&apos;ı ayrı uygulamadan elle yönetiyor, Instagram için de başka bir araç kullanıyor.
                 </p>
                 <p>
-                  3 büyük sorun vardı: (1) 3 ayrı panelden cevap veriyorlardı (Tidio chat + WhatsApp Business app + Sociality.io IG), aynı müşteri 3 kanaldan yazınca tekrar tekrar bilgi soruluyordu, (2) Web chat widget'ı mobilde sıkışıktı — klavye açıkken son mesaj görünmüyordu, sitede çıkış oranı %68'di, (3) KVKK aydınlatma metni hiçbirinde otomatik akmıyordu, manuel formla alıyorlardı.
+                  Bu durumda 3 sorun çıkar: (1) 3 ayrı panelden cevap verilir; aynı müşteri farklı kanaldan yazınca bilgiler tekrar tekrar sorulur, (2) web chat widget&apos;ı mobilde sıkışıktır — klavye açıkken son mesaj görünmez, (3) KVKK aydınlatma metni hiçbir kanalda otomatik akmaz, manuel formla alınır.
                 </p>
                 <p>
-                  10 günde tüm sistemi PORTZEN'e taşıdık: chat widget + WhatsApp Business API (resmi) + Instagram DM tek panelde birleşti. Mobil widget'ı tam ekran moduna geçecek şekilde özelleştirdik. KVKK aydınlatma metnini ilk mesajda otomatik gönderen akış kurduk. Manuel iş yükü ve 3 ayrı sistem yerine tek panel — operasyonel yük belirgin biçimde düştü.
+                  Kurulumda chat widget + WhatsApp Business API (resmi) + Instagram DM tek panelde birleştirilir (üç kanal birlikte Kurumsal pakette). Mobil widget klavye açıldığında tam ekran moduna geçecek şekilde özelleştirilir. KVKK aydınlatma metnini ilk mesajda otomatik gönderen akış kurulur.
                 </p>
                 <p>
-                  İlk ay raporda: müşteri başına ortalama yanıt süresi 4 dakikadan 45 saniyeye düştü (3 panel arası geçiş yok), mobil chat dönüşümü %32'den %58'e çıktı, WhatsApp + IG'den gelen randevu sayısı %85 arttı.
+                  Bu noktadan sonra iş akışı değişir: operatör tüm kanalları tek gelen kutusundan yanıtlar, müşterinin önceki konuşmaları aynı kayıtta görünür, sık sorulan sorulara asistan yanıt verir ve gerektiğinde konuşmayı ekibe devreder.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Kanal sayısı</div>
-                  <div className="font-display text-4xl font-black mb-1">3 → 1</div>
-                  <div className="text-sm">WhatsApp + IG + chat tek panel</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Panel</div>
+                  <div className="font-display text-4xl font-black mb-1">Tek panel</div>
+                  <div className="text-sm">3 ayrı uygulama yerine WhatsApp + IG + chat (Kurumsal)</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Yanıt süresi</div>
-                  <div className="font-display text-4xl font-black mb-1">4 dk → 45 sn</div>
-                  <div className="text-sm">Birleşik panel sayesinde</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Müşteri geçmişi</div>
+                  <div className="font-display text-4xl font-black mb-1">Tek kayıt</div>
+                  <div className="text-sm">Aynı müşteri farklı kanaldan yazınca bilgi tekrar sorulmuyor</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Mobil chat dönüşüm</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">%32 → %58</div>
-                  <div className="text-sm">Mobile-first widget ile</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Mobil widget</div>
+                  <div className="font-display text-4xl font-black text-ink">Tam ekran</div>
+                  <div className="text-sm">Klavye açıkken son mesaj görünür kalıyor</div>
                 </div>
               </div>
             </Reveal>
@@ -531,22 +531,22 @@ export default function Page() {
       </section>
 
       {/* 7. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Tidio'dan geçmeden önce merak edilenler
+                Tidio&apos;dan geçmeden önce merak edilenler
               </h2>
             </div>
           </Reveal>
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -556,23 +556,23 @@ export default function Page() {
 
           <Reveal delay={300}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
-                <h3 className="font-display text-base font-black mb-2">ManyChat'i de mi düşünüyorsunuz?</h3>
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
+                <h3 className="font-display text-base font-black mb-2">ManyChat&apos;i de mi düşünüyorsunuz?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  ManyChat'in dolar bağımlılığı ve KVKK uyumsuzluğu yerine yerel WhatsApp + IG çözümü.
+                  ManyChat&apos;in dolar bağımlılığı ve KVKK uyumsuzluğu yerine yerel WhatsApp + IG çözümü.
                 </p>
-                <Link href="/manychat-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/manychat-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   ManyChat Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">HubSpot pahalı geliyor mu?</h3>
                 <p className="text-sm opacity-85 mb-3">
                   HubSpot Pro yerine TL bazlı, Türk muhasebe entegre CRM otomasyonu.
                 </p>
-                <Link href="/hubspot-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/hubspot-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   HubSpot Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
@@ -582,12 +582,12 @@ export default function Page() {
       </section>
 
       {/* 8. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Tidio'yu bırakın. Üç kanalı tek panele alalım.
+                Tidio&apos;yu bırakın. Üç kanalı tek panele alalım.
               </h2>
             </Reveal>
             <Reveal delay={100}>
@@ -599,21 +599,21 @@ export default function Page() {
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905015884853"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  href="tel:+905318639117"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
                 </a>
@@ -623,7 +623,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

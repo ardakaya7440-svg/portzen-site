@@ -44,7 +44,7 @@ Feed'de her araç için tutarlı bir çekim açısı kullanın: 3/4 ön, 3/4 ark
 
 ## Reels ile Araç Tanıtım Stratejisi
 
-Reels, oto galeriler için 2026'nın en güçlü organik erişim aracı. Bir aracı 15-30 saniyelik bir Reels ile tanıttığınızda, 10 bin ile 200 bin arası görüntülenmeye ulaşmanız mümkün, üstelik tamamen ücretsiz. Ancak rastgele çekilen videolar bu sonuçları getirmiyor. İşe yarayan bir formül var.
+Reels, oto galeriler için 2026'nın en güçlü organik erişim aracı. Bir aracı 15-30 saniyelik bir Reels ile tanıttığınızda, takipçiniz olmayan alıcılara da ücretsiz olarak ulaşma şansınız var. Ancak rastgele çekilen videolar bu sonuçları getirmiyor. İşe yarayan bir formül var.
 
 ### 15-30 Saniyelik Tanıtım Formülü
 
@@ -72,7 +72,7 @@ Lead form reklamlarının görseli ve videosu vitrinden farklı olmalı. Tek ara
 
 ### Lead Form İçeriği
 
-Form alanları minimum tutulmalı: ad, telefon, ilgilendiği segment, takas yapacağı araç (varsa), kredi kullanma niyeti. Çok fazla alan, dönüşüm oranını düşürür. Aylık reklam bütçesi galerinin büyüklüğüne göre 8.000-25.000 ₺ arasında olmalı, lead başına maliyet ortalama 35-90 ₺ aralığında tutulabilir.
+Form alanları minimum tutulmalı: ad, telefon, ilgilendiği segment, takas yapacağı araç (varsa), kredi kullanma niyeti. Çok fazla alan, dönüşüm oranını düşürür. Aylık reklam bütçesi galerinin büyüklüğüne göre 8.000-25.000 ₺ arasında olmalı; lead başına maliyet segmente ve şehre göre değişir, kampanyalar bu metrik üzerinden izlenip optimize edilir.
 
 Profesyonel Meta Ads kampanyası kurulumu için [Meta reklam ajansı hizmetimiz](/meta-reklam-ajansi) hakkında bilgi alabilirsiniz.
 
@@ -98,7 +98,7 @@ Bu sorular sayesinde satış temsilcisi telefonu açtığında karşısında zat
 
 ### CRM Entegrasyonu
 
-Her lead, otomatik olarak CRM sistemine kaydedilmeli: hangi araçla ilgileniyor, hangi aşamada (yeni, fiyat soruldu, test sürüşü randevusu alındı, ekspertiz yapıldı, satıldı, kaybedildi). Bu sayede hiçbir lead unutulmaz ve takipli müşteri kazancı yüzde 40-60 oranında artar.
+Her lead, otomatik olarak CRM sistemine kaydedilmeli: hangi araçla ilgileniyor, hangi aşamada (yeni, fiyat soruldu, test sürüşü randevusu alındı, ekspertiz yapıldı, satıldı, kaybedildi). Bu sayede hiçbir lead unutulmaz; her lead'in hangi aşamada kaldığı ve kimin takip edeceği görünür olur.
 
 ## Test Sürüşü ve Ekspertiz Randevu Sistemi
 
@@ -110,7 +110,7 @@ WhatsApp üzerinden çalışan bir randevu botu, alıcıya uygun gün ve saat ar
 
 ### Hatırlatma Otomasyonu
 
-Randevudan 24 saat önce hatırlatma, 2 saat önce konum bilgisi içeren ikinci hatırlatma gönderilmeli. Bu sayede no-show oranı yüzde 40'lardan yüzde 10-15 seviyesine iner. Hatırlatma mesajına test sürüşü öncesi hazırlanması gereken belgeler (ehliyet, takas aracı varsa ruhsat, plaka fotoğrafı) de eklenebilir.
+Randevudan 24 saat önce hatırlatma, 2 saat önce konum bilgisi içeren ikinci hatırlatma gönderilmeli. Bu hatırlatmalar no-show'u azaltmaya ve gelemeyecek alıcının randevuyu önceden iptal etmesine yardımcı olur. Hatırlatma mesajına test sürüşü öncesi hazırlanması gereken belgeler (ehliyet, takas aracı varsa ruhsat, plaka fotoğrafı) de eklenebilir.
 
 ### Ekspertiz Randevu Yönetimi
 
@@ -130,11 +130,11 @@ Teslimden 3 gün sonra otomatik gönderilen kısa bir WhatsApp anketi, hem geri 
 
 ### Referans Programı
 
-"Tanıdığınızı yönlendirin, satış gerçekleşirse aracınızın kaskosunu hediye edelim" ya da "1.000 ₺ akaryakıt çeki kazanın" gibi somut teşvikler referans akışını başlatır. Bu sistem 6 ay içinde galerinin müşteri akışının yüzde 25-35'ini oluşturabilir.
+"Tanıdığınızı yönlendirin, satış gerçekleşirse aracınızın kaskosunu hediye edelim" ya da "1.000 ₺ akaryakıt çeki kazanın" gibi somut teşvikler referans akışını başlatır. Teşvik, teslimden sonraki memnuniyet mesajıyla birlikte hatırlatıldığında referans akışı sistemli hale gelir.
 
 ### Yıllık Hatırlatma Akışları
 
-Müşterinin aracını sattığı tarihten 18-24 ay sonra "Aracınızı yenilemeyi düşünür müsünüz, takas teklifimiz hazır" mesajı, çok yüksek dönüşüm oranıyla satış üretir. Bu uzun vadeli akışlar [Instagram DM otomasyonu oto servis](/instagram-dm-otomasyonu/oto-servis) altyapısı ile entegre çalıştırılabilir.
+Müşterinin aracını sattığı tarihten 18-24 ay sonra "Aracınızı yenilemeyi düşünür müsünüz, takas teklifimiz hazır" mesajı, müşteriyle ilişkiyi yeniden başlatmanın doğal bir yoludur. Bu tür zamanlanmış hatırlatmalar WhatsApp Business API ve CRM üzerinden kurulan otomasyon akışlarıyla çalışır; [Instagram DM otomasyonu oto servis](/instagram-dm-otomasyonu/oto-servis) hizmetimiz ise kural tabanlıdır ve yorum, hikâye ya da anahtar kelime etkileşimine önceden tanımlı mesajla yanıt vermek için kullanılır.
 
 ## Sıkça Sorulan Sorular
 
@@ -148,20 +148,20 @@ Galeri büyüklüğüne ve stok adedine göre değişir. 10-25 araçlık küçü
 
 ### Sahibinden.com'u tamamen bırakıp sadece Instagram'a geçebilir miyim?
 
-Hayır, en azından şu an için tavsiye edilmez. Sahibinden ve arabam.com hâlâ Türkiye'de aktif alıcıların ilk başvurduğu platformlar. Ancak ilan sayınızı yarıya indirip vitrin ücretlerinden tasarruf ettiğiniz bütçeyi Instagram reklam ve içerik üretimine yönlendirebilirsiniz. 6 ay içinde Instagram kaynaklı satış oranınız ilan sitesi kaynaklı satışları geçebilir.
+Hayır, en azından şu an için tavsiye edilmez. Sahibinden ve arabam.com hâlâ Türkiye'de aktif alıcıların ilk başvurduğu platformlar. Ancak ilan sayınızı yarıya indirip vitrin ücretlerinden tasarruf ettiğiniz bütçeyi Instagram reklam ve içerik üretimine yönlendirebilirsiniz. Kaynak bazında satışları CRM'de izlediğinizde hangi kanala ne kadar bütçe ayıracağınıza verinizle karar verebilirsiniz.
 
 ### Lead form'dan gelen müşterilerin ne kadarı gerçek alıcı?
 
-İyi kurulmuş bir kampanyada, lead'lerin yüzde 30-45'i 30 gün içinde test sürüşü randevusuna gelir, bunların yüzde 20-30'u satışla sonuçlanır. Yani 100 lead için ortalama 8-13 satış beklenebilir. Bu oran, WhatsApp anlık yanıt sistemi ve profesyonel takip akışı ile yüzde 40 daha yükseğe çıkabilir.
+Bu oran segmente, bütçeye ve takip hızına göre çok değişir. Bu yüzden lead → test sürüşü → satış dönüşümlerini CRM'de ayrı ayrı izlemek gerekir; WhatsApp üzerinden otomatik ilk yanıt ve düzenli takip akışı, lead'lerin cevapsız kalıp soğumasını önler.
 
 ### Galerimde sadece 2 kişi çalışıyor, bu sistemi nasıl yönetebilirim?
 
-Otomasyon tam da bu noktada devreye girer. WhatsApp AI asistanı ilk yanıtı, soru akışını ve randevu organizasyonunu sizin adınıza yapar. Siz ve ekibiniz sadece sıcak lead'lerle (test sürüşü randevusu almış, ekspertiz randevusu istemiş alıcılar) ilgilenirsiniz. Bu sayede 2 kişilik bir galeri, ayda 200-300 lead'i rahatlıkla yönetebilir.
+Otomasyon tam da bu noktada devreye girer. WhatsApp AI asistanı ilk yanıtı, soru akışını ve (Büyüme ve Kurumsal paketlerde) randevu organizasyonunu sizin adınıza yapar. Siz ve ekibiniz ağırlıklı olarak sıcak lead'lerle (test sürüşü randevusu almış, ekspertiz randevusu istemiş alıcılar) ilgilenirsiniz; tekrarlı sorular ekibin önüne düşmez.
 
 ## PORTZEN ile Oto Galeri Dijital Sistemi Kurmak
 
 Oto galeri için Instagram vitrini, Reels stratejisi, Meta Ads lead form kampanyası, WhatsApp anlık yanıt sistemi, randevu otomasyonu ve referans kampanyaları, ayrı ayrı kurulduğunda dağınık ve verimsiz çalışır. PORTZEN olarak biz tüm bu parçaları tek bir entegre sistem olarak tasarlıyoruz: reklamdan satışa kadar her adımın birbiriyle konuştuğu, her lead'in takibinin kaybolmadığı, sahibinizin sadece sıcak müşterilerle ilgilendiği bir dijital satış altyapısı.
 
-İlk 90 günde galerinizin Instagram takipçi tabanını büyütmek, ilan başına gelen kaliteli lead sayısını 3-5 katına çıkarmak ve aylık satış adedinizi yüzde 35-60 artırmak hedeflenir. Sektörde hangi segmentte (ekonomik, orta, lüks) çalıştığınıza ve şehir dinamiklerine göre özel strateji kurarız.
+Bu sistem sosyal medya yönetimi, reklam yönetimi ve AI müşteri asistanı hizmetlerinin birleşimidir; her biri kendi paketiyle fiyatlanır, güncel tutarlar [fiyatlar sayfasında](/fiyatlar) (KDV hariç). Kurulumdan itibaren Instagram takipçi tabanı, kaliteli lead sayısı ve satış adedi düzenli raporlanır; sonuç segmentinize, stokunuza ve reklam bütçenize göre değişir. Sektörde hangi segmentte (ekonomik, orta, lüks) çalıştığınıza ve şehir dinamiklerine göre özel strateji kurarız.
 
-Galeriniz için ücretsiz dijital sistem analizi ve özel teklif almak için [iletişim sayfamız](/iletisim) üzerinden bize ulaşabilirsiniz. Ekibimiz 24 saat içinde sizinle iletişime geçer, mevcut Instagram hesabınızı ve satış akışınızı inceleyerek size özel bir yol haritası sunar.
+Galeriniz için ücretsiz dijital sistem analizi ve özel teklif almak için [iletişim sayfamız](/iletisim) üzerinden bize ulaşabilirsiniz. En kısa sürede dönüş yapıyor, mevcut Instagram hesabınızı ve satış akışınızı inceleyerek size özel bir yol haritası sunuyoruz.

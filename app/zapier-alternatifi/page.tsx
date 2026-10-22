@@ -23,7 +23,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Zapier Alternatifi | Türk Uygulamalarına Entegre Otomasyon — PORTZEN",
   description:
-    "Zapier'in dolar bağımlılığı yerine n8n + Make + özel kod ile Logo, Mikro, NetGSM, Iyzico entegre otomasyon. KOBİ için, KVKK uyumlu.",
+    "Zapier'in dolar bağımlılığı yerine n8n + Make + özel kod ile Logo, Mikro, NetGSM, Iyzico entegre otomasyon. KOBİ için; KVKK gereklilikleri dikkate alınarak kurgulanır.",
   keywords: [
     "zapier alternatifi",
     "zapier türkçe",
@@ -41,13 +41,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Zapier Alternatifi | PORTZEN n8n + Make + Özel Kod",
     description:
-      "Zapier yerine n8n + Make + özel kod. Logo, Mikro, NetGSM, Iyzico hazır entegrasyon. Türkçe panel, KVKK uyumlu."
+      "Zapier yerine n8n + Make + özel kod. Logo, Mikro, NetGSM, Iyzico hazır entegrasyon. Türkçe panel; KVKK gereklilikleri dikkate alınarak kurgulanır."
   },
   twitter: {
     card: "summary_large_image",
     title: "Zapier Alternatifi | PORTZEN",
     description:
-      "Türk uygulamaları (Logo, Mikro, NetGSM) entegre, KVKK uyumlu otomasyon."
+      "Türk uygulamaları (Logo, Mikro, NetGSM) entegre, KVKK gerekliliklerini dikkate alan otomasyon."
   },
   alternates: { canonical: "https://portzenai.com/zapier-alternatifi" },
   robots: { index: true, follow: true }
@@ -61,13 +61,13 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   serviceType: "Business Process Automation",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Zapier'in eksik kaldığı Türk uygulamalarına (Logo, Mikro, Netsis, NetGSM, Iyzico) entegre, Türkçe destekli ve KVKK uyumlu otomasyon altyapısı."
+    "Zapier'in eksik kaldığı Türk uygulamalarına (Logo, Mikro, Netsis, NetGSM, Iyzico) entegre, Türkçe destekli ve KVKK gerekliliklerini dikkate alarak kurgulanan otomasyon altyapısı."
 };
 
 const faqSchema = {
@@ -79,7 +79,7 @@ const faqSchema = {
       name: "Zapier'den n8n'e taşıma süresi ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Mevcut Zap'larınızı analiz edip 14-21 iş gününde n8n + Make üzerinde yeniden kuruyoruz. Eski sistemi kapatmadan paralel test ediyoruz, kesinti sıfır."
+        text: "Mevcut Zap'larınızı analiz edip n8n + Make üzerinde yeniden kuruyoruz; teslim süresi Zap sayısı ve kapsama göre teklifte yazılı olarak belirtilir. Eski sistemi kapatmadan paralel test ediyoruz, kesintiyi en aza indiriyoruz."
       }
     },
     {
@@ -87,7 +87,7 @@ const faqSchema = {
       name: "n8n self-hosted mı yoksa Zapier gibi cloud mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "İkisi de mümkün. Çoğu KOBİ için PORTZEN'in yönettiği bulut sunucuda n8n çalıştırıyoruz — Zapier gibi bakım dert değil. KVKK için isteyene Türkiye sunucusunda self-hosted kurulum da yapıyoruz."
+        text: "İkisi de mümkün. Çoğu KOBİ için n8n'i yönetilen bir bulut sunucuda çalıştırıyoruz; isteyene self-hosted kurulum da yapıyoruz. KVKK açısından verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Sunucu ve lisans bedelleri hizmet bedeline dahil değildir; bakım isteğe bağlı aylık hizmettir."
       }
     },
     {
@@ -108,10 +108,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Aylık operasyon ücreti dahilinde ne var?",
+      name: "Aylık ücret var mı, bakıma neler dahil?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sunucu kira, n8n + Make lisans, bakım, hata izleme, ayda 4 saatlik akış güncelleme, Türkçe canlı destek (WhatsApp + telefon) ve aylık performans raporu."
+        text: "İş otomasyonu kurulumu tek seferliktir; ilk 30 gün kurulum hatalarının giderilmesi dahildir. İkinci aydan itibaren isteğe bağlı aylık bakım alabilirsiniz, bakım bedeli pakete göre değişir. Hata bildirimi Büyüme ve Kurumsal paketlerde dahildir. Sunucu, n8n/Make ve diğer harici yazılım lisansları hizmet bedeline dahil değildir."
       }
     },
     {
@@ -119,7 +119,7 @@ const faqSchema = {
       name: "Mevcut Zapier Zap'larım taşınır mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Zapier'in JSON export dosyasını alıp n8n eşdeğer akışlarına manuel dönüştürüyoruz. Birebir taşıma değil; aynı işin daha verimli kurulması. Genelde toplam node sayısı %30-40 azalır."
+        text: "Zapier'in JSON export dosyasını alıp n8n eşdeğer akışlarına manuel dönüştürüyoruz. Birebir taşıma değil; aynı işin daha verimli kurulması. Çoğu durumda birbirine bağlı Zap'lar tek akışta birleştirilerek daha az adımla kurulur."
       }
     },
     {
@@ -127,7 +127,7 @@ const faqSchema = {
       name: "Limit aşımında ne olur?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Zapier'in Task tabanlı sayacı yerine PORTZEN aylık execution + sunucu kaynağı limiti koyar. Aşımda otomatik durmaz, paket büyütme önerisi gelir. Sürpriz fatura yok."
+        text: "PORTZEN'de Zapier'deki gibi Task bazlı ücretlendirme yoktur; kurulum tek seferlik, bakım isteğe bağlı sabit aylık bedeldir. Sunucu ve n8n/Make lisans maliyetleri kullanıma göre değişir, hizmet bedeline dahil değildir ve teklifte ayrıca belirtilir."
       }
     }
   ]
@@ -150,8 +150,8 @@ const breadcrumbSchema = {
 const stats = [
   { metric: "n8n + Make", label: "Hibrit otomasyon motoru" },
   { metric: "40+", label: "Türk uygulama connector" },
-  { metric: "KVKK", label: "Türkiye sunucu opsiyonu" },
-  { metric: "21 gün", label: "Taşıma + kurulum süresi" }
+  { metric: "KVKK", label: "Aydınlatma + rıza akışı" },
+  { metric: "Tek seferlik", label: "Kurulum + isteğe bağlı bakım" }
 ];
 
 const painPoints = [
@@ -178,16 +178,16 @@ const painPoints = [
 ];
 
 const comparisonRows = [
-  { feature: "Fiyat modeli", manychat: "USD bazlı", portzen: "Brief'te belirlenir" },
+  { feature: "Fiyat modeli", manychat: "USD bazlı", portzen: "Tek seferlik kurulum + isteğe bağlı bakım" },
   { feature: "Türk muhasebe (Logo/Mikro/Netsis)", manychat: "Yok", portzen: "Hazır connector" },
   { feature: "Türk SMS (NetGSM/İletimerkezi)", manychat: "Yok — Twilio zorunlu", portzen: "5+ Türk sağlayıcı" },
   { feature: "Türk ödeme (Iyzico/Param/PayTR)", manychat: "Yok", portzen: "Hazır entegrasyon" },
-  { feature: "WhatsApp Business API resmi", manychat: "Sınırlı, 3rd party", portzen: "Meta resmi iş ortağı" },
+  { feature: "WhatsApp Business API resmi", manychat: "Sınırlı, 3rd party", portzen: "Meta'nın resmi API'si üzerinden" },
   { feature: "Otomasyon motoru", manychat: "Sadece Zapier", portzen: "n8n + Make + özel kod" },
   { feature: "Yerel canlı destek", manychat: "E-mail, İngilizce", portzen: "Türkçe WhatsApp + telefon" },
-  { feature: "Sözleşme süresi", manychat: "Aylık ama Task sayar", portzen: "Aylık esnek, execution bazlı" },
-  { feature: "KVKK + veri lokalizasyonu", manychat: "ABD sunucu, sorumluluk sizde", portzen: "TR sunucu opsiyonel, paket dahil" },
-  { feature: "Kurulum + ilk akış desteği", manychat: "Self-service", portzen: "Tam kurulum + ekip eğitimi" }
+  { feature: "Sözleşme süresi", manychat: "Aylık ama Task sayar", portzen: "Teklifte yazılı" },
+  { feature: "KVKK + veri lokalizasyonu", manychat: "ABD sunucu, sorumluluk sizde", portzen: "Veri konumu teklifte yazılı (sunucu bedeli hariç)" },
+  { feature: "Kurulum + ilk akış desteği", manychat: "Self-service", portzen: "Tam kurulum; eğitim Büyüme ve Kurumsal'da" }
 ];
 
 const solutionSteps = [
@@ -199,37 +199,37 @@ const solutionSteps = [
   {
     icon: Plug,
     title: "Entegrasyon",
-    description: "Logo/Mikro/NetGSM/Iyzico gibi Türk uygulamalarına webhook + API bağlantıları 5-10 günde kurulur."
+    description: "Logo/Mikro/NetGSM/Iyzico gibi Türk uygulamalarına webhook + API bağlantıları kurulur."
   },
   {
     icon: Sparkles,
     title: "Eğitim",
-    description: "Ekibinize 3 saatlik canlı eğitim — n8n panelini Türkçe gösteriyoruz, basit akış değişikliklerini kendiniz yapabilirsiniz."
+    description: "Büyüme ve Kurumsal paketlerde ekibinize canlı eğitim — n8n panelini Türkçe gösteriyoruz, basit akış değişikliklerini kendiniz yapabilirsiniz."
   },
   {
     icon: CheckCircle2,
     title: "Canlı",
-    description: "Eski Zap'lar açık kalır, paralel 5 gün test ediyoruz. Onaydan sonra Zapier hesabınızı iptal edip yerel faturaya geçiyorsunuz."
+    description: "Eski Zap'lar açık kalırken yeni akışları paralel test ediyoruz. Onaydan sonra Zapier hesabınızı iptal edip yerel faturaya geçiyorsunuz."
   }
 ];
 
 const features = [
   { icon: Boxes, title: "n8n + Make + özel kod", desc: "Tek motor değil; üç ayrı otomasyon altyapısını birlikte kullanıp her senaryoya en verimlisini seçiyoruz." },
   { icon: Plug, title: "40+ Türk connector", desc: "Logo Tiger/Go, Mikro Run, Netsis, NetGSM, İletimerkezi, Iyzico, Param, PayTR, Trendyol, N11, Hepsiburada — hepsi hazır." },
-  { icon: Languages, title: "Türkçe panel + dokümentasyon", desc: "Ekibinizin n8n editörünü görsel olarak Türkçe kullanması için özel dokümantasyon ve video eğitim." },
-  { icon: ShieldCheck, title: "KVKK + TR sunucu", desc: "İsteğe bağlı self-hosted Türkiye sunucusu. KVKK aydınlatma metni, VERBİS kayıt desteği paket dahil." },
-  { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile aynı gün dönüş. Zapier'in e-mail-only İngilizce desteği yerine gerçek insan." },
-  { icon: Wallet, title: "Sabit e-Arşiv fatura", desc: "Sabit fatura, KDV dahil, e-Arşiv. Task aşım sürprizleri yok, execution bazlı şeffaf limit." }
+  { icon: Languages, title: "Türkçe panel + dokümentasyon", desc: "Ekibinizin n8n editörünü Türkçe kullanabilmesi için ekip eğitimi (Büyüme ve Kurumsal) ve dokümantasyon (Kurumsal)." },
+  { icon: ShieldCheck, title: "KVKK + veri konumu", desc: "İsteğe bağlı self-hosted kurulum (sunucu bedeli hariç); verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. KVKK aydınlatma metni ve VERBİS kayıt desteği gibi kalemler teklifte yazılı olarak belirtilir." },
+  { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile en kısa sürede dönüş yapıyoruz. Zapier'in e-mail-only İngilizce desteği yerine gerçek insan." },
+  { icon: Wallet, title: "TL bazlı e-Arşiv fatura", desc: "Tek seferlik kurulum ve isteğe bağlı sabit aylık bakım; TL bazlı e-Arşiv fatura, tutarlar KDV hariç yazılır. Task bazlı aşım ücreti yok." }
 ];
 
 const faqs = [
   {
     q: "Zapier'den n8n'e taşıma süresi ne kadar?",
-    a: "Mevcut Zap sayısına bağlı. 5-10 Zap için 14 gün, 20-30 Zap için 21 gün tipik. Zapier'in JSON export'unu alıp her akışı n8n eşdeğeriyle yeniden kuruyoruz. Eski sistemi kapatmadan paralel test ediyoruz."
+    a: "Teslim süresi mevcut Zap sayısı ve kapsama göre teklifte yazılı olarak belirtilir. Zapier'in JSON export'unu alıp her akışı n8n eşdeğeriyle yeniden kuruyoruz. Eski sistemi kapatmadan paralel test ediyoruz."
   },
   {
     q: "n8n self-hosted mı, cloud mu?",
-    a: "İkisi de mümkün. Başlangıç ve Pro pakette PORTZEN'in yönettiği bulut sunucuda n8n çalıştırıyoruz — bakım, güncelleme, monitör dert değil. Kurumsal pakette KVKK için Türkiye lokasyonlu self-hosted opsiyonu var."
+    a: "İkisi de mümkün. Başlangıç ve Büyüme kurulumlarında n8n'i yönetilen bir bulut sunucuda çalıştırıyoruz; isteğe bağlı aylık bakımla güncelleme ve izleme bizde kalır. Kurumsal kurulumda test ortamı da kurulur; self-hosted opsiyonu mümkündür ve verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Sunucu ve harici yazılım lisansları hizmet bedeline dahil değildir."
   },
   {
     q: "Logo, Mikro, Netsis gibi Türk muhasebe yazılımlarına entegre olur mu?",
@@ -240,16 +240,16 @@ const faqs = [
     a: "NetGSM, İletimerkezi, Verimor, Sms.net, Mutlu Cep ve Vodafone Mesaj Servisleri için hazır connector. Zapier'in Twilio bağımlılığı yok — Türk SMS sağlayıcısıyla yerel fatura."
   },
   {
-    q: "Aylık operasyon ücreti dahilinde ne var?",
-    a: "Sunucu kira (eğer cloud), n8n + Make lisans, otomatik bakım + güncelleme, hata izleme + alarm, aylık 2-8 saatlik akış güncelleme veya yeni akış kurulumu, Türkçe canlı destek (WhatsApp + telefon, aynı gün dönüş) ve aylık performans raporu."
+    q: "Aylık ücret var mı, bakıma neler dahil?",
+    a: "İş otomasyonu kurulumu tek seferliktir; ilk 30 gün kurulum hatalarının giderilmesi dahildir. İkinci aydan itibaren isteğe bağlı aylık bakım alabilirsiniz, bakım bedeli pakete göre değişir. Hata bildirimi (alarm) Büyüme ve Kurumsal paketlerde dahildir. Türkçe canlı destek WhatsApp ve telefon üzerinden verilir, en kısa sürede dönüş yapıyoruz. Sunucu, n8n/Make ve diğer harici yazılım lisansları hizmet bedeline dahil değildir."
   },
   {
     q: "Mevcut Zapier Zap'larım birebir taşınır mı?",
-    a: "Birebir değil; aynı işin daha verimli kurulması. Zapier'de 5 Task harcayan bir multi-step Zap, n8n'de tek node ile çözülebilir. Genelde toplam node/execution sayısı %30-40 azalır, maliyet düşer."
+    a: "Birebir değil; aynı işin daha verimli kurulması. Zapier'de 5 Task harcayan bir multi-step Zap, n8n'de tek node ile çözülebilir. Çoğu durumda birbirine bağlı adımlar tek akışta birleştirilerek daha sade kurulur."
   },
   {
     q: "Limit aşımında sürpriz fatura olur mu?",
-    a: "Hayır. Zapier'in Task aşımında otomatik üst plana atma davranışı bizde yok. Execution limit dolduğunda akışlar durmaz, sadece size 'paket büyütme' önerisi gelir ve onay verirseniz yeni paket başlar. Onaysız fatura artışı yok."
+    a: "PORTZEN'de Zapier'deki gibi Task bazlı ücretlendirme ve otomatik üst plana atma yoktur; kurulum tek seferlik, bakım isteğe bağlı sabit aylık bedeldir. Sunucu ve n8n/Make lisans maliyetleri kullanıma göre değişir, hizmet bedeline dahil değildir ve teklifte ayrıca belirtilir."
   }
 ];
 
@@ -261,7 +261,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -274,32 +274,32 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-orange text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Workflow className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Zapier Alternatifi</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   Zapier Alternatifi: n8n + Make + Türk Uygulamalarına Entegre Otomasyon
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Zapier'in dolar faturası, Türk uygulamalarına entegrasyon eksikliği ve İngilizce paneli yerine PORTZEN n8n + Make + özel kod kombinasyonunu kullanır. Logo, Mikro, NetGSM, Iyzico hazır bağlı; yerel fatura, Türkçe destek, KVKK uyumlu.
+                  Zapier&apos;in dolar faturası, Türk uygulamalarına entegrasyon eksikliği ve İngilizce paneli yerine PORTZEN n8n + Make + özel kod kombinasyonunu kullanır. Logo, Mikro, NetGSM, Iyzico hazır bağlı; yerel fatura, Türkçe destek; KVKK gereklilikleri dikkate alınarak kurgulanır.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/crm-otomasyonu"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     CRM Otomasyonu <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -313,8 +313,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-orange text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -330,12 +330,12 @@ export default function Page() {
       </section>
 
       {/* 2. NEDEN ALTERNATİF */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Zapier'in Türk pazarında 5 zayıflığı
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
+                Zapier&apos;in Türk pazarında 5 zayıflığı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
                 Zapier KOBİ için lüks — Türk uygulamalarına bağlanamadığında daha da pahalı.
@@ -345,8 +345,8 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {painPoints.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-paper bg-brand-orange text-paper mb-4">
+                <div className="border-3 border-ink/10 bg-light p-5 h-full rounded-2xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-ink/10 bg-slate text-white mb-4 rounded-full">
                     <X className="h-5 w-5" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2">{p.title}</h3>
@@ -359,11 +359,11 @@ export default function Page() {
       </section>
 
       {/* 3. KARŞILAŞTIRMA TABLOSU */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Yan yana karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -373,12 +373,12 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">Zapier</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -391,7 +391,7 @@ export default function Page() {
                           <span className="text-xs">{row.manychat}</span>
                         </div>
                       </td>
-                      <td className="p-4 text-center text-sm bg-brand-yellow/30 text-ink">
+                      <td className="p-4 text-center text-sm bg-light text-ink">
                         <div className="flex flex-col items-center gap-1">
                           <Check className="h-4 w-4 text-green-700" />
                           <span className="text-xs font-bold">{row.portzen}</span>
@@ -405,22 +405,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Not:</strong> Karşılaştırma genel ürün özelliklerine dayanır; Zapier plan içerikleri ve ücretleri için güncel bilgiyi Zapier&apos;den teyit edin.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 4. PORTZEN ÇÖZÜMÜ */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Taşıma süreci
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Zapier'den 21 günde nasıl çıkarsınız?
+                Zapier&apos;den 4 adımda nasıl çıkarsınız?
               </h2>
             </div>
           </Reveal>
@@ -429,8 +429,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -444,15 +444,15 @@ export default function Page() {
       </section>
 
       {/* 5. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                PORTZEN'in farkı
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                PORTZEN&apos;in farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Zapier'de olmayan 6 özellik
+                Zapier&apos;de olmayan 6 özellik
               </h2>
             </div>
           </Reveal>
@@ -461,7 +461,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -474,16 +474,16 @@ export default function Page() {
       </section>
 
       {/* 6. CASE STUDY */}
-      <section className="bg-brand-orange text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Gerçek bir taşıma: İstanbul ajansı
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek senaryo: dijital ajans
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Logo entegre, NetGSM ile SMS, n8n + Make hibrit yapıya taşındı.
+              Örnek kurulum: Logo entegrasyonu, NetGSM ile SMS, n8n + Make hibrit yapı.
             </h2>
           </Reveal>
 
@@ -491,36 +491,36 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  İstanbul Şişli'de 22 kişilik bir dijital reklam ajansı 2 yıldır Zapier Team planı kullanıyordu. Ek Task paketleriyle bazı aylarda fatura fırlıyordu. 14 aktif Zap vardı: Facebook Lead Ads → Google Sheets, Sheets → Slack, Sheets → e-mail bildirimi, Sheets → Trello, Calendly → Notion, vs.
+                  Örnek senaryoda bir dijital reklam ajansı Zapier Team planı kullanıyor; ek Task paketleri nedeniyle bazı aylarda fatura yükseliyor. Aktif Zap&apos;lar şunlar: Facebook Lead Ads → Google Sheets, Sheets → Slack, Sheets → e-posta bildirimi, Sheets → Trello, Calendly → Notion vb.
                 </p>
                 <p>
-                  3 büyük sorun vardı: (1) Yeni gelen lead'leri Logo Tiger'a müşteri kaydı olarak da açmak istiyorlardı ama Zapier'de Logo connector yoktu — geliştirici tutup 8 ay önce kurduğu webhook çoktan bozulmuştu, (2) SMS bildirimleri Twilio üzerinden dolar bazlı ödeniyordu, kur dalgalanması ciddi bir maliyet kalemi haline gelmişti, (3) KVKK aydınlatma metni Zapier'in kayıt akışında devrede değildi, bir uyarı geldi.
+                  Bu durumda 3 sorun çıkar: (1) Yeni gelen lead&apos;lerin Logo Tiger&apos;a müşteri kaydı olarak da açılması isteniyor ama Zapier&apos;de Logo connector yok; elle kurulan webhook zamanla bozuluyor, (2) SMS bildirimleri Twilio üzerinden dolar bazlı ödeniyor, kur dalgalanması maliyeti öngörülemez kılıyor, (3) KVKK aydınlatma metni kayıt akışında devrede değil.
                 </p>
                 <p>
-                  18 günde tüm akışları n8n + Make hibridine taşıdık: Logo Tiger için hazır API katmanımızı bağladık (her yeni lead otomatik cari kayıt + cari kart), Twilio yerine NetGSM bağladık (yerel SMS sağlayıcısıyla kur riski yok), KVKK aydınlatma formunu Notion'da otomatik tutan akış kurduk.
+                  Kurulumda akışlar n8n + Make hibridine taşınır: Logo Tiger için API katmanı bağlanır (her yeni lead otomatik cari kayıt + cari kart), Twilio yerine NetGSM bağlanır (yerel SMS sağlayıcısıyla TL fatura), KVKK aydınlatma onaylarını Notion&apos;da kayıt altına alan akış kurulur.
                 </p>
                 <p>
-                  En önemlisi: 14 Zap'tan 9 n8n akışına indirdik. Aynı iş, daha az node, daha az execution.
+                  Birbirine bağlı Zap&apos;lar mümkün olduğunda tek n8n akışında birleştirilir; aynı iş daha az adımla yürür.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">SMS altyapısı</div>
                   <div className="font-display text-3xl font-black mb-1">Twilio → NetGSM</div>
-                  <div className="text-sm">Yerel sağlayıcı, kur riski yok</div>
+                  <div className="text-sm">Yerel sağlayıcı, TL fatura</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Muhasebe entegrasyonu</div>
                   <div className="font-display text-3xl font-black mb-1">Logo Tiger</div>
                   <div className="text-sm">Otomatik cari kart açma</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Aktif akış</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">14 → 9</div>
-                  <div className="text-sm">Daha az node, aynı iş</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Akış yapısı</div>
+                  <div className="font-display text-4xl font-black text-ink">Birleşik</div>
+                  <div className="text-sm">Birbirine bağlı Zap&apos;lar tek akışta</div>
                 </div>
               </div>
             </Reveal>
@@ -529,22 +529,22 @@ export default function Page() {
       </section>
 
       {/* 7. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Zapier'den geçmeden önce merak edilenler
+                Zapier&apos;den geçmeden önce merak edilenler
               </h2>
             </div>
           </Reveal>
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -554,23 +554,23 @@ export default function Page() {
 
           <Reveal delay={300}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
-                <h3 className="font-display text-base font-black mb-2">ManyChat'i de mi düşünüyorsunuz?</h3>
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
+                <h3 className="font-display text-base font-black mb-2">ManyChat&apos;i de mi düşünüyorsunuz?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  ManyChat'in dolar bağımlılığı ve KVKK uyumsuzluğu yerine yerel WhatsApp + IG çözümü.
+                  ManyChat&apos;in dolar bağımlılığı ve KVKK uyumsuzluğu yerine yerel WhatsApp + IG çözümü.
                 </p>
-                <Link href="/manychat-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/manychat-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   ManyChat Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">HubSpot pahalı geliyor mu?</h3>
                 <p className="text-sm opacity-85 mb-3">
                   HubSpot Starter yerine TL bazlı, Türk muhasebe entegre CRM otomasyonu.
                 </p>
-                <Link href="/hubspot-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/hubspot-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   HubSpot Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
@@ -580,9 +580,9 @@ export default function Page() {
       </section>
 
       {/* 8. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
                 Zapier akışlarınızı n8n + Make hibride taşıyalım.
@@ -590,28 +590,28 @@ export default function Page() {
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut Zap'larınızı listeliyoruz, hangilerinin n8n'de daha verimli kurulacağını gösteriyoruz.
+                15 dakikalık ücretsiz keşif görüşmesinde mevcut Zap&apos;larınızı listeliyoruz, hangilerinin n8n&apos;de daha verimli kurulacağını gösteriyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905015884853"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  href="tel:+905318639117"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
                 </a>
@@ -621,7 +621,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

@@ -15,7 +15,7 @@ ogImage: "/blog/og/oto-galeri-ai-chatbot-degerleme.png"
 
 İkinci el oto galeri işletmek Türkiye'de en rekabetçi perakende sektörlerinden biri. Sahibinden, Arabam, Letgo gibi platformlarda binlerce ilan arasında öne çıkmak; sosyal medyada hareket yaratmak; gelen aramalara hızlı cevap verebilmek; takas tekliflerini değerlendirmek. Tüm bu süreçler 3-5 personelli orta ölçekli bir galeride günde 10-12 saat zaman tüketiyor. Üstelik müşterinin yüzde 70'i akşam saat 19:00'dan sonra veya hafta sonu mesaj atıyor; bu saatlerde insan personeliyle cevap verme imkanı yok.
 
-AI chatbot bu boşluğu doldurmanın en etkili yoludur. Doğru kurulmuş bir sistem 7/24 müşteri sorularına cevap verir, araç değerleme yapar, takas teklifi hesaplar, test sürüşü randevusu oluşturur, finans önerileri sunar ve yetkin satıcılara nitelikli lead aktarır. PORTZEN olarak son 2 yılda 18'den fazla oto galeri, oto servis ve plaza ile çalıştık; bu rehberde sahada test edilmiş ve cirosunu yüzde 30-60 artırdığı kanıtlanmış chatbot mimarisini paylaşacağız.
+AI chatbot bu boşluğu doldurmanın en etkili yoludur. Doğru kurulmuş bir sistem 7/24 müşteri sorularına cevap verir, araç değerleme yapar, takas teklifi hesaplar, test sürüşü randevusu oluşturur, finans önerileri sunar ve yetkin satıcılara nitelikli lead aktarır. Bu rehberde PORTZEN olarak oto galeri, oto servis ve plazalar için önerdiğimiz chatbot mimarisini; hangi modüllerden oluştuğunu, hangi adımları otomatikleştirdiğini ve satış ekibinin iş akışında neyi değiştirdiğini paylaşacağız.
 
 ## Oto Galeri Müşteri Davranışının Yapısı
 
@@ -51,11 +51,11 @@ Değerleme algoritması şu parametreleri değerlendirir: marka/model/yıl, kilo
 
 ### Kullanıcı Akışı
 
-Müşteri "araç değerletmek istiyorum" dediğinde chatbot adım adım soru sorar: marka, model, yıl, kilometre, hasar geçmişi, boya bilgisi, donanım. Her cevap kayıt altına alınır. Son adımda 3 dakika içinde değerleme raporu PDF olarak müşteriye gönderilir: alt değer 580.000 TL, orta değer 620.000 TL, üst değer 670.000 TL.
+Müşteri "araç değerletmek istiyorum" dediğinde chatbot adım adım soru sorar: marka, model, yıl, kilometre, hasar geçmişi, boya bilgisi, donanım. Her cevap kayıt altına alınır. Son adımda değerleme raporu PDF olarak müşteriye otomatik gönderilir: alt değer 580.000 TL, orta değer 620.000 TL, üst değer 670.000 TL.
 
 ### Takas Teklifi
 
-Değerleme sonrası "bu aracı takas için bize getirin, takas + nakit ödeme opsiyonu önerebiliriz" mesajı gider. Müşteri kabul ederse fiziksel inceleme randevusu otomatik açılır. Bu yaklaşım dönüşümü yüzde 40+ veriyor; klasik "ekspertizi bilgilerimi gönderin" yaklaşımından 3 kat daha etkili. [CRM otomasyonu](/crm-otomasyonu/oto-servis) takas süreçlerinin tamamını kayıt altına alır.
+Değerleme sonrası "bu aracı takas için bize getirin, takas + nakit ödeme opsiyonu önerebiliriz" mesajı gider. Müşteri kabul ederse fiziksel inceleme randevusu otomatik açılır. Bu yaklaşım, klasik "ekspertiz bilgilerini gönderin" yaklaşımına göre müşteriye somut bir sonraki adım sunar: değer aralığını gören müşteri doğrudan inceleme randevusuna yönlendirilir. [CRM otomasyonu](/crm-otomasyonu/oto-servis) takas süreçlerinin tamamını kayıt altına alır.
 
 ## Test Sürüşü Randevu Sistemi
 
@@ -67,7 +67,7 @@ Chatbot galerinin müsaitlik takvimine entegre çalışır. Müşteri "Cumartesi
 
 ### Belge Hazırlama
 
-Test sürüşü öncesi müşteriden ehliyet fotoğrafı, kimlik fotoğrafı, telefon doğrulama istenir. Bu belgeler chatbot tarafından otomatik toplanır, CRM'e kayıt edilir; randevu saatinde personel hazır belgelerle müşteriyi karşılar. Manuel toplama yöntemine kıyasla işlem süresi 20 dakikadan 3 dakikaya iner.
+Test sürüşü öncesi müşteriden ehliyet fotoğrafı, kimlik fotoğrafı, telefon doğrulama istenir. Bu belgeler chatbot tarafından otomatik toplanır, CRM'e kayıt edilir; randevu saatinde personel hazır belgelerle müşteriyi karşılar. Böylece belge toplama işi galeride, müşteri karşıdayken yapılmaz.
 
 ### Test Sürüşü Sözleşmesi
 
@@ -75,7 +75,7 @@ Türkiye'de test sürüşü sırasında oluşacak hasarın sorumluluğu hukuki t
 
 ### Hatırlatma ve Onay
 
-Randevu saatinden 24 saat önce, 2 saat önce ve 15 dakika önce hatırlatma mesajları gider. Test sürüşü no-show oranı sektörde yüzde 30 bandında; bu mesajlarla yüzde 8'e iner. Boşluklarda yedek müşterilere otomatik bildirim gidebilir.
+Randevu saatinden 24 saat önce, 2 saat önce ve 15 dakika önce hatırlatma mesajları gider. Test sürüşüne gelmeme sektörde sık görülen bir sorun; bu hatırlatmalar no-show'u azaltmaya ve gelemeyecek müşterinin randevuyu önceden iptal etmesine yardımcı olur. Boşluklarda yedek müşterilere otomatik bildirim gidebilir.
 
 ## Finansman ve Vade Önerileri
 
@@ -87,7 +87,7 @@ Chatbot araç fiyatına ve müşterinin peşinat tutarına göre vade hesaplamas
 
 ### Bankalarla Entegrasyon
 
-Galerinin anlaşmalı olduğu bankaların (Yapı Kredi, Akbank, İş Bankası, QNB) kredi başvuru formları chatbot üzerinden başlatılabilir. Müşterinin ön onayı dakikalar içinde alınır. Bu özellik satışı 2-3 katı hızlandırır.
+Galerinin anlaşmalı olduğu bankaların (Yapı Kredi, Akbank, İş Bankası, QNB) kredi başvuru formları chatbot üzerinden başlatılabilir. Ön onay süresi bankanın kendi sürecine bağlıdır; ancak müşteri başvuruyu galeriye gelmeden başlatabildiği için satış görüşmesi daha hazırlıklı yapılır.
 
 ### Takas + Nakit + Vade Kombinasyonu
 
@@ -95,7 +95,7 @@ En sık görülen senaryo: müşterinin elinde bir aracı var, takas vermek isti
 
 ### Sigorta ve Kasko
 
-Araç teslimi sırasında sigorta ve kasko teklifi anında gönderilir. Galerinin anlaşmalı sigorta acentesinden alınan fiyat 1-2 dakika içinde müşteriye sunulur. Bu hizmet hem müşteriye kolaylık sağlar hem galerinin acenteden komisyon almasına olanak verir.
+Araç teslimi sırasında sigorta ve kasko teklifi anında gönderilir. Galerinin anlaşmalı sigorta acentesinden fiyat geldiğinde müşteriye otomatik iletilir. Bu hizmet hem müşteriye kolaylık sağlar hem galerinin acenteden komisyon almasına olanak verir.
 
 ## Lead Yönetimi ve Satıcı Yönlendirme
 
@@ -111,11 +111,11 @@ Galerinin satıcı kadrosu içinde performans skoru, uzmanlık alanı (SUV uzman
 
 ### CRM Entegrasyonu
 
-Tüm chatbot konuşmaları, sorulan sorular, müşteri verileri CRM'e otomatik kayıt edilir. Satıcı müşteriyle telefon görüşmesi yapmadan önce müşterinin geçmişini, sorduğu soruları, hangi araca baktığını görür. Konuşmaya hazırlıklı girer; dönüşüm yüzde 50+ artar.
+Tüm chatbot konuşmaları, sorulan sorular, müşteri verileri CRM'e otomatik kayıt edilir. Satıcı müşteriyle telefon görüşmesi yapmadan önce müşterinin geçmişini, sorduğu soruları, hangi araca baktığını görür. Konuşmaya hazırlıklı girer; müşteri aynı bilgileri ikinci kez anlatmak zorunda kalmaz.
 
 ### Yeniden Pazarlama
 
-Test sürüşü yapmış ama satın almamış müşteriye 7 gün sonra yeni gelen araçlardan benzer modeller önerilir. "Geçen hafta baktığınız Megane modeline benzer 2 yeni araç geldi" mesajı yüzde 30-35 yanıt oranı veriyor. [Yapay zeka ile satış süreçleri](/blog/yapay-zeka-ile-satis-surecleri) yazımızda detaylı işliyoruz.
+Test sürüşü yapmış ama satın almamış müşteriye 7 gün sonra yeni gelen araçlardan benzer modeller önerilir. "Geçen hafta baktığınız Megane modeline benzer 2 yeni araç geldi" gibi kişiselleştirilmiş bir mesaj, müşteriyle konuşmayı yeniden başlatmanın doğal bir yoludur. [Yapay zeka ile satış süreçleri](/blog/yapay-zeka-ile-satis-surecleri) yazımızda detaylı işliyoruz.
 
 ## Sosyal Medya ve Reklam Entegrasyonu
 
@@ -127,7 +127,7 @@ Bu platformlarda yayınlanan ilanlarınıza gelen mesajlar otomatik olarak chatb
 
 ### Instagram ve Facebook DM
 
-Galerinin sosyal medya hesabından gelen DM'ler chatbot tarafından karşılanır. Aynı zamanda Meta reklam kampanyalarından gelen "ilgilenenler" doğrudan WhatsApp'a yönlendirilir. [Meta reklam ajansı](/meta-reklam-ajansi) hizmetimiz bu trafiği maksimize eder. [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ile DM trafiği CRM'e bağlanır.
+Galerinin Instagram hesabına gelen DM'ler iki farklı hizmetle karşılanabilir: kural tabanlı [Instagram DM otomasyonu](/instagram-dm-otomasyonu), yorum, hikâye ve anahtar kelime tetikleyicilerine önceden tanımlı mesajlarla yanıt verir ve müşteriyi WhatsApp'a yönlendirir; DM'deki serbest soruları yapay zekâ ile anlayıp yanıtlamak ise ayrı bir hizmet olan AI müşteri asistanının kapsamındadır (Instagram kanalı Kurumsal pakette). Aynı zamanda Meta reklam kampanyalarından gelen "ilgilenenler" doğrudan WhatsApp'a yönlendirilir. [Meta reklam ajansı](/meta-reklam-ajansi) hizmetimiz bu kampanyaları yönetir.
 
 ### TikTok ve YouTube
 
@@ -163,11 +163,11 @@ Sistem kurulumunun finansal boyutu.
 
 ### Kurulum Maliyetleri
 
-AI chatbot geliştirme: 25.000-60.000 TL tek seferlik. WhatsApp Business API entegrasyonu: 5.000-10.000 TL. CRM ve takvim entegrasyonu: 8.000-18.000 TL. Sahibinden/Arabam veri besleme: 5.000-12.000 TL. Aylık AI işlem ücreti (OpenAI/Anthropic API): 1.500-5.000 TL. WhatsApp mesaj başına: 0,20-0,40 TL. İlk yıl yatırım: 60.000-130.000 TL.
+Piyasada tipik kalemler şöyle: AI chatbot geliştirme 25.000-60.000 TL tek seferlik, WhatsApp Business API entegrasyonu 5.000-10.000 TL, CRM ve takvim entegrasyonu 8.000-18.000 TL, Sahibinden/Arabam veri besleme 5.000-12.000 TL, aylık AI işlem ücreti (OpenAI/Anthropic API) 1.500-5.000 TL, WhatsApp mesaj başına 0,20-0,40 TL; sektörde ilk yıl yatırımı 60.000-130.000 TL. PORTZEN'in paket fiyatları için aşağıdaki SSS bölümüne ve [fiyatlar sayfasına](/fiyatlar) bakabilirsiniz.
 
 ### Gelir Etkisi
 
-Aylık 50 araç satan bir galeride tipik sonuçlar: cevapsız mesaj kaybı yüzde 25'ten yüzde 3'e düşer (aylık 6-8 ek satış, ortalama araç başına 30.000 TL kar = 180.000-240.000 TL ek gelir), test sürüşü dönüşümü yüzde 35'ten yüzde 50'ye çıkar (aylık 4-6 ek satış), takas teklifi otomasyonu aylık 5-8 ek takas getiriyor. Toplam aylık ek gelir 300.000-500.000 TL. Yatırım geri dönüşü 1-3 ay.
+Gelir etkisini kendi galeriniz için hesaplarken üç kaleme bakın: mesai dışında yanıtsız kalan mesaj sayısı (bu mesajlar artık otomatik yanıtlanır), test sürüşü randevusuna dönüşen talepler (hatırlatmalar sayesinde daha az boşa düşer) ve otomatik değerleme sonrası gelen takas talepleri. Bu üç kalemdeki değişimi araç başına ortalama kârınızla çarparak yatırımın geri dönüşünü kendi verinizle değerlendirebilirsiniz; ilk görüşmede bu hesabı birlikte yapıyoruz.
 
 ## Yaygın Hatalar
 
@@ -185,7 +185,7 @@ Aylık 50 araç satan bir galeride tipik sonuçlar: cevapsız mesaj kaybı yüzd
 
 ### Küçük bir galeri (15-25 araç) için bu sistem mantıklı mı?
 
-Evet. Küçük galerinin en büyük problemi tek satıcılı yapı; chatbot bu eksiği kapatır. Başlangıç paketi 30.000-50.000 TL bandında, ilk 3 ayda yatırımını çıkarır. Tek satıcılı galeride bile aylık 20-30 araç satışı mümkün hale gelir.
+Evet. Küçük galerinin en büyük problemi tek satıcılı yapı; chatbot bu eksiği kapatır. PORTZEN'in AI müşteri asistanı Başlangıç paketi {{fiyat:ai-musteri-asistani:baslangic}} + tek seferlik {{kurulum:ai-musteri-asistani:baslangic}} kurulumdur (ilk ay {{ilkay:ai-musteri-asistani:baslangic}}, KDV hariç); diğer paketler [fiyatlar sayfasında](/fiyatlar). Tek satıcılı galeride asistan tekrarlı soruları üstlenir, satıcı zamanını müşteriyle yüz yüze görüşmeye ayırır.
 
 ### Müşterilerim chatbot olduğunu anlar mı?
 
@@ -193,11 +193,11 @@ Modern AI sistemleri (GPT-4 ve sonrası) doğal dilde konuşur; çoğu müşteri
 
 ### Sahibinden'de yayınladığım ilanlara entegre edebilir miyim?
 
-Sahibinden'in mesajlaşma sistemi tek tarafından kapalı; doğrudan entegrasyon zor. Ancak ilanın iletişim alanına WhatsApp numarası eklenebilir; gelen WhatsApp mesajları chatbot tarafından yönetilir. Bu yöntem yüzde 90 lead'i yakalar.
+Sahibinden'in mesajlaşma sistemi tek tarafından kapalı; doğrudan entegrasyon zor. Ancak ilanın iletişim alanına WhatsApp numarası eklenebilir; gelen WhatsApp mesajları chatbot tarafından yönetilir. Böylece ilandan WhatsApp'a geçen talepler aynı akışta toplanır.
 
 ### Vade hesaplarını kim güncel tutar?
 
-PORTZEN sistemi banka faiz oranlarını otomatik scraping ile günlük günceller. Manuel müdahale gerekmez. Banka değişikliklerinde uyarı verir; galeri sahibi onay verir.
+Faiz oranları, galerinin anlaşmalı bankalarından aldığı güncel oranlarla güncellenir; bankanın kullanılabilir bir veri kaynağı varsa bu adım otomatikleştirilebilir. Oran değişikliklerinde sistem uyarı verir, galeri sahibi onaylamadan yeni oran kullanılmaz.
 
 ### Test sürüşü sırasında hasar oluşursa ne olur?
 
@@ -207,6 +207,6 @@ Chatbot ile imzalattığınız dijital sözleşme, sürücünün sorumlu olduğu
 
 Oto galeri işletmek, sürekli iletişim ve hızlı karar gerektiren yorucu bir sektör. Müşterinin akşam 22:00'da attığı mesaja sabah cevap vermek, lead'in rakibe kaçması demek. Doğru kurulmuş bir AI chatbot, satıcı kadronuzun ulaşamadığı saatlerde işin başında durur, değerleme ve test sürüşü gibi en kritik işlemleri otomatik tamamlar, satıcılara sadece yüksek nitelikli ve hazır lead'leri iletir.
 
-PORTZEN olarak ikinci el oto galeri, plaza, oto servis ve filo yönetim şirketleri için özel olarak geliştirdiğimiz AI chatbot altyapısını 3-5 hafta içinde devreye alıyoruz. Araç değerleme, test sürüşü randevu, takas teklifi, finansman hesaplama ve CRM entegrasyonu paketin standardında geliyor. [Otomasyon servisi](/crm-otomasyonu) ile birlikte 360 derece bir satış makinesi kuruyoruz.
+PORTZEN olarak ikinci el oto galeri, plaza, oto servis ve filo yönetim şirketleri için özel olarak geliştirdiğimiz AI chatbot altyapısını kademeli olarak devreye alıyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Araç değerleme, takas teklifi ve finansman hesaplama akışları her pakette kurgulanır; test sürüşü randevusu ve CRM entegrasyonu Büyüme ve Kurumsal paketlerde dahildir. [Otomasyon servisi](/crm-otomasyonu) ile birlikte 360 derece bir satış makinesi kuruyoruz.
 
 Galeriniz için hangi modülün öncelikli olduğunu, mevcut lead trafiğinizden ne kadar ek satış çıkarabileceğinizi ve kurulumun maliyetini netleştirmek için [iletişim sayfamız](/iletisim) üzerinden ücretsiz keşif görüşmesi planlayın. 30 dakikalık görüşmede mevcut süreçlerinizi analiz edip size özel yol haritası hazırlayalım.

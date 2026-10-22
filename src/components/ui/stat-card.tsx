@@ -15,10 +15,10 @@ export interface MetricCard {
 }
 
 const barColors = [
-  "bg-brand-yellow",
-  "bg-brand-green",
-  "bg-brand-pink",
-  "bg-brand-blue",
+  "bg-light",
+  "bg-light",
+  "bg-light",
+  "bg-light",
 ];
 
 export function StatCard({
@@ -29,12 +29,12 @@ export function StatCard({
   index?: number;
 }) {
   return (
-    <div className="rounded-base border-3 border-ink bg-paper p-6 shadow-brutal">
+    <div className="rounded-base border-3 border-ink/15 bg-paper p-6 shadow-brutal">
       <div className="flex items-center justify-between">
         <span className="text-small font-bold uppercase tracking-[0.06em] text-ink/70">
           {metric.title}
         </span>
-        <span className="grid h-8 min-w-8 place-items-center rounded-md border-3 border-ink bg-ink px-2 text-small font-black text-paper">
+        <span className="grid h-8 min-w-8 place-items-center rounded-md border-3 border-ink/15 bg-slate px-2 text-small font-black text-white">
           {metric.icon}
         </span>
       </div>
@@ -44,7 +44,7 @@ export function StatCard({
       <p className="mt-1 text-small font-bold text-ink/70">{metric.change}</p>
       {/* Chunky 8-bit-style progress bar */}
       <div
-        className="mt-4 h-4 w-full overflow-hidden rounded-sm border-3 border-ink bg-paper"
+        className="mt-4 h-4 w-full overflow-hidden rounded-sm border-3 border-ink/15 bg-paper"
         role="progressbar"
         aria-valuenow={metric.progress}
         aria-valuemin={0}

@@ -62,7 +62,7 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   serviceType: "E-Commerce Setup",
@@ -96,7 +96,7 @@ const faqSchema = {
       name: "Shopier ile aynı kolay satış akışı kurulabilir mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Kendi sitenize WhatsApp tek tık sipariş, hızlı ödeme (cüzdan, tek kart), Instagram Story link entegrasyonu, kupon ve indirim akışları kurulur. Müşteri deneyimi Shopier kadar pürüzsüz olur, ek olarak markanız öne çıkar."
+        text: "Evet. Kendi sitenize WhatsApp tek tık sipariş, hızlı ödeme (cüzdan, tek kart), Instagram Story link entegrasyonu kurulur; kampanya ve kupon akışları Büyüme ve Kurumsal paketlerde yer alır. Satın alma akışı Shopier'daki kadar kısa kurgulanır; ek olarak markanız öne çıkar."
       }
     },
     {
@@ -104,7 +104,7 @@ const faqSchema = {
       name: "Shopier'da bana hazır gelen kargo entegrasyonu siteye gelir mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yurtiçi Kargo, MNG, Aras, PTT, Sürat entegrasyonları PORTZEN paketinde standarttır. Sipariş onayında otomatik kargo etiketi basılır, müşteriye takip numarası WhatsApp ve e-mail ile gönderilir."
+        text: "Evet. Kargo bağlantısı tüm e-ticaret paketlerinde dahildir; Yurtiçi Kargo, MNG, Aras, PTT veya Sürat arasından ihtiyacınıza uygun firma bağlanır. Sipariş onayında otomatik kargo etiketi basılır, müşteriye takip numarası WhatsApp ve e-mail ile gönderilir."
       }
     },
     {
@@ -128,7 +128,7 @@ const faqSchema = {
       name: "Instagram DM otomasyonu site ile uyumlu mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tamamen uyumlu. Müşteri Instagram Story'ye yorum yazınca otomatik DM ile ürün linki gelir, sepete eklenir, sitenizden ödeme alır. /instagram-dm-otomasyonu/butik sayfasında detaylar mevcut."
+        text: "Evet. Instagram DM otomasyonu (ayrı hizmet) kural tabanlıdır: müşteri Story'ye ya da gönderiye belirlenen anahtar kelimeyle yanıt verdiğinde önceden tanımlı DM ile ürün linki gider, ödeme sitenizden yapılır. Serbest sorulara AI ile yanıt ise AI müşteri asistanı kapsamındadır (ayrı hizmet; Instagram kanalı Kurumsal pakette). /instagram-dm-otomasyonu/butik sayfasında detaylar mevcut."
       }
     }
   ]
@@ -151,7 +151,7 @@ const breadcrumbSchema = {
 const stats = [
   { metric: "Sıfır", label: "Platform komisyonu" },
   { metric: "Whitelabel", label: "Kendi domain + marka kimliği" },
-  { metric: "KVKK", label: "Türkiye sunucu + veri sahipliği" },
+  { metric: "KVKK", label: "Veri sahipliği; hosting bölgesi teklifte yazılı" },
   { metric: "Sahip", label: "Kod ve müşteri verisi sizde" }
 ];
 
@@ -185,13 +185,13 @@ const painPoints = [
 const comparisonRows = [
   { feature: "Fiyat modeli", shopier: "Sabit komisyon", portzen: "Brief'te belirlenir" },
   { feature: "Domain", shopier: "markaniz.shopier.com", portzen: "markanizadi.com" },
-  { feature: "Marka tasarımı", shopier: "Shopier kalıbı", portzen: "Markaya özel custom" },
-  { feature: "SEO ve organik trafik", shopier: "Çok zayıf", portzen: "Tam kontrol, sıralama" },
+  { feature: "Marka tasarımı", shopier: "Shopier kalıbı", portzen: "Tema uyarlaması veya özel arayüz (pakete göre)" },
+  { feature: "SEO ve organik trafik", shopier: "Çok zayıf", portzen: "Tam kontrol, SEO altyapısı" },
   { feature: "Müşteri verisi sahipliği", shopier: "Shopier'da", portzen: "Tamamen sizin" },
   { feature: "Instagram bio link", shopier: "Shopier linki", portzen: "Kendi domain'iniz" },
   { feature: "Kargo entegrasyonu", shopier: "Var", portzen: "Var, daha geniş seçenek" },
-  { feature: "AI ürün önerisi", shopier: "Yok", portzen: "Yerleşik dahil" },
-  { feature: "Çoklu dil ve para", shopier: "Yok", portzen: "Standart dahil" },
+  { feature: "AI ürün önerisi", shopier: "Yok", portzen: "Kapsama göre eklenir" },
+  { feature: "Çoklu dil ve para", shopier: "Yok", portzen: "Kurumsal pakette çok dilli" },
   { feature: "Mağaza sahipliği", shopier: "Platform kontrolünde", portzen: "Tamamen sizin" }
 ];
 
@@ -204,17 +204,17 @@ const solutionSteps = [
   {
     icon: Sparkles,
     title: "Tasarım ve geliştirme",
-    description: "Markaya özel tasarım, Next.js + Tailwind ile geliştirme, ödeme + kargo entegrasyonu. 3 ile 5 hafta arasında prototip hazır."
+    description: "Markaya özel tasarım, Next.js + Tailwind ile geliştirme, ödeme + kargo entegrasyonu. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
   },
   {
     icon: BookOpen,
     title: "Veri ve trafik taşıma",
-    description: "Shopier ürün katalogunuz, müşteri listeniz aktarılır. Instagram bio link güncellenir, Shopier mağazasına 301 redirect kurulur, trafik kaybı önlenir."
+    description: "Shopier ürün katalogunuz, müşteri listeniz aktarılır. Instagram bio link güncellenir ve mevcut trafik yeni siteye yönlendirilir."
   },
   {
     icon: CheckCircle2,
     title: "Eğitim ve büyüme",
-    description: "Yönetim paneli eğitimi, canlı geçiş. Sonraki 60 gün sosyal medya entegrasyonu, AI öneri, sepet terk akışları optimize edilir."
+    description: "Yönetim paneli eğitimi, canlı geçiş. Yayından sonraki bakım ve optimizasyon ayrı aylık Web bakım hizmetiyle sürdürülür."
   }
 ];
 
@@ -223,7 +223,7 @@ const features = [
   { icon: Store, title: "Kendi domain'iniz", desc: "markanizadi.com altında çalışırsınız. Instagram bio'da, kartvizitte, faturada kendi adresiniz. Marka değeri uzun vadede size birikir." },
   { icon: TrendingUp, title: "SEO ile organik trafik", desc: "Kendi domain otoriteniz Google'da sıralanır. Ücretli reklam dışında organik trafik kanalı açılır, tek pazarlama kanalına bağımlı kalmazsınız." },
   { icon: Heart, title: "Müşteri verisi size ait", desc: "E-mail, telefon, sipariş geçmişi sizin CRM'inizde. Segmentlere göre kampanya, retargeting, sadakat programı yapma özgürlüğünüz var." },
-  { icon: MessageCircle, title: "WhatsApp + Instagram entegre", desc: "Story'den DM otomasyonu, ürün linki paylaşımı, WhatsApp tek tık sipariş ve ödeme akışı yerleşik gelir." },
+  { icon: MessageCircle, title: "WhatsApp + Instagram entegre", desc: "WhatsApp tek tık sipariş butonu ve ürün linki paylaşımı. Story'den otomatik DM, ayrı Instagram DM otomasyonu hizmetiyle eklenir." },
   { icon: ShieldCheck, title: "Mağaza tamamen sizin", desc: "Politika değişikliği, koşul değişimi veya hesap askıya alınması riski yok. Kod ve veri sizde, hosting sağlayıcısı bağımsız." }
 ];
 
@@ -238,11 +238,11 @@ const faqs = [
   },
   {
     q: "Shopier ile aynı kolay satış akışı kurulabilir mi?",
-    a: "Evet, hatta daha pürüzsüz. Kendi sitenize WhatsApp tek tık sipariş (müşteri WhatsApp butonuna basar, ürün ve telefon önceden dolu gelir), hızlı ödeme akışı (cüzdan, tek kart), Instagram Story link entegrasyonu (story swipe up direkt ürün sayfasına), kupon ve indirim akışları, sepet terk e-mail otomasyonu kurulur. Müşteri deneyimi Shopier kadar kolay, ek olarak markanız ön planda, müşteri size güven oluşturuyor."
+    a: "Evet. Kendi sitenize WhatsApp tek tık sipariş (müşteri WhatsApp butonuna basar, ürün ve telefon önceden dolu gelir), hızlı ödeme akışı (cüzdan, tek kart), Instagram Story link entegrasyonu (story swipe up direkt ürün sayfasına), kampanya ve kupon akışları (Büyüme ve Kurumsal paketlerde) kurulur; sepet terk e-mail otomasyonu iş otomasyonu kapsamında eklenebilir. Satın alma akışı Shopier'daki kadar kısa kurgulanır; ek olarak markanız ön plana çıkar."
   },
   {
     q: "Shopier'da hazır gelen kargo entegrasyonu siteye gelir mi?",
-    a: "Daha fazlası. Yurtiçi Kargo, MNG, Aras, PTT, Sürat, Hepsijet entegrasyonları PORTZEN paketinde standarttır. Sipariş onayında otomatik kargo etiketi basılır (PDF), kargo firması API'si ile takip numarası alınır, müşteriye WhatsApp ve e-mail ile bildirim gider. Kargo ücretleri otomatik hesaplanır (ürün ağırlığı, şehir, kampanyalı kargo). Shopier'ın sunduğu kargo seçeneklerinin tümü dahil, ek olarak markaya özel kargo kuralları kurulabilir (belirli tutar üzeri ücretsiz kargo, VIP müşteri hızlı kargo, vb.)."
+    a: "Evet. Kargo bağlantısı tüm e-ticaret paketlerinde dahildir; Yurtiçi Kargo, MNG, Aras, PTT, Sürat veya Hepsijet arasından ihtiyacınıza uygun firma bağlanır. Sipariş onayında otomatik kargo etiketi basılır (PDF), kargo firması API'si ile takip numarası alınır, müşteriye WhatsApp ve e-mail ile bildirim gider. Kargo ücretleri otomatik hesaplanır (ürün ağırlığı, şehir, kampanyalı kargo). Ek kargo firması bağlantıları ayrıca tekliflendirilir; markaya özel kargo kuralları kurulabilir (belirli tutar üzeri ücretsiz kargo, VIP müşteri hızlı kargo, vb.)."
   },
   {
     q: "Instagram Bio link Shopier yerine ne gösterilecek?",
@@ -254,7 +254,7 @@ const faqs = [
   },
   {
     q: "Instagram DM otomasyonu site ile uyumlu mu?",
-    a: "Tamamen uyumlu, hatta daha güçlü. Müşteri Instagram Story'ye yorum yazınca otomatik DM ile ürün linki gelir, sepete eklenir, sitenizden ödeme alır. Sepet terk akışında DM hatırlatma yapılır, müşteri 10 dakika içinde geri gelir. /instagram-dm-otomasyonu/butik sayfasında detaylı süreç anlatılmıştır. Shopier'da bu seviyede otomasyon yoktur."
+    a: "Evet. Instagram DM otomasyonu ayrı bir hizmettir ve kural tabanlı çalışır: müşteri Story'ye ya da gönderiye belirlenen anahtar kelimeyle yanıt verdiğinde önceden tanımlı DM ile ürün linki gider, ödeme sitenizden yapılır. Sepet terk akışında DM hatırlatma kurulabilir. Serbest sorulara AI ile yanıt ise AI müşteri asistanı kapsamındadır (ayrı hizmet; Instagram kanalı Kurumsal pakette). /instagram-dm-otomasyonu/butik sayfasında detaylı süreç anlatılmıştır. Shopier'da bu seviyede otomasyon yoktur."
   }
 ];
 
@@ -266,7 +266,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -279,32 +279,32 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-purple text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Store className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Shopier Alternatifi</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   Shopier alternatifi, kendi mağazanız ve sıfır platform komisyonu
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Shopier her satışta platform komisyonu kesiyor, mağazanız markaniz.shopier.com altında kalıyor, müşteri verisi platforma ait. PORTZEN size kendi domain'inizde, kendi tasarımınızda, kendi marka kimliğinizle mağaza kurar; platform komisyonu sıfır olur.
+                  Shopier her satışta platform komisyonu kesiyor, mağazanız markaniz.shopier.com altında kalıyor, müşteri verisi platforma ait. PORTZEN size kendi domain&apos;inizde, kendi tasarımınızda, kendi marka kimliğinizle mağaza kurar; platform komisyonu sıfır olur.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
-                    Görüşme Al <ArrowUpRight className="h-4 w-4" />
+                    Teklif İsteyin <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/web-tasarim/butik"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     Butik Web Tasarım <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -318,8 +318,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-purple text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -335,12 +335,12 @@ export default function Page() {
       </section>
 
       {/* 2. NEDEN ALTERNATİF */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Shopier'ın 6 sınırı
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
+                Shopier&apos;ın 6 sınırı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
                 Shopier başlangıçta kolay, ama uzun vadede markaya zarar.
@@ -350,8 +350,8 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {painPoints.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-paper bg-brand-purple text-paper mb-4">
+                <div className="border-3 border-ink/10 bg-light p-5 h-full rounded-2xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-ink/10 bg-slate text-white mb-4 rounded-full">
                     <X className="h-5 w-5" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2">{p.title}</h3>
@@ -364,11 +364,11 @@ export default function Page() {
       </section>
 
       {/* 3. KARŞILAŞTIRMA TABLOSU */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Yan yana karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -378,12 +378,12 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">Shopier</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN Kendi Mağazanız</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN Kendi Mağazanız</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -396,7 +396,7 @@ export default function Page() {
                           <span className="text-xs">{row.shopier}</span>
                         </div>
                       </td>
-                      <td className="p-4 text-center text-sm bg-brand-yellow/30 text-ink">
+                      <td className="p-4 text-center text-sm bg-light text-ink">
                         <div className="flex flex-col items-center gap-1">
                           <Check className="h-4 w-4 text-green-700" />
                           <span className="text-xs font-bold">{row.portzen}</span>
@@ -410,22 +410,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak.</strong> Ürün karşılaştırma PORTZEN müşteri kurulum deneyimlerinden derlenmiştir.
+              <strong>Not.</strong> Karşılaştırma genel bilgilendirme amaçlıdır; Shopier komisyon ve özellikleri değişebilir, güncel bilgi için resmi sayfayı kontrol edin.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 4. PORTZEN ÇÖZÜMÜ */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Süreç
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Shopier'dan kendi mağazanıza 3 ile 5 hafta arasında geçiş
+                Shopier&apos;dan kendi mağazanıza 4 adımda geçiş
               </h2>
             </div>
           </Reveal>
@@ -434,8 +434,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -449,15 +449,15 @@ export default function Page() {
       </section>
 
       {/* 5. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                PORTZEN'in farkı
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                PORTZEN&apos;in farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Shopier'da hiç sahip olamadığınız 6 özellik
+                Shopier&apos;da hiç sahip olamadığınız 6 özellik
               </h2>
             </div>
           </Reveal>
@@ -466,7 +466,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -479,16 +479,16 @@ export default function Page() {
       </section>
 
       {/* 6. USE CASES */}
-      <section className="bg-brand-purple text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
               Kullanım örnekleri
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Butik markalar Shopier'dan kendi sitelerine geçince ne oluyor?
+              Butik markalar Shopier&apos;dan kendi sitelerine geçince ne oluyor?
             </h2>
           </Reveal>
 
@@ -496,35 +496,35 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  <strong>İzmir, el yapımı takı markası.</strong> Shopier'da satış yapıyor, platform komisyonu her ay kar marjını daraltıyordu. Müşteri verisi Shopier'da kilitliydi, e-mail kampanyası yapamıyordu. PORTZEN ile kendi siteye geçti, doğrudan PSP sözleşmesiyle komisyon yükü düştü, Instagram bio'da artık kendi domain'i var. Müşteri listesi CRM'e aktı, e-mail kampanyaları başladı, aylık satış anlamlı ölçüde büyüdü.
+                  <strong>Örnek senaryo: el yapımı takı markası.</strong> Shopier&apos;da satış yapıyor, platform komisyonu kar marjını daraltıyor; müşteri verisi platformda kaldığı için e-posta kampanyası yapamıyor. Kendi siteye geçişte ödeme sağlayıcısıyla doğrudan sözleşme yapılır, Instagram bio&apos;ya kendi domain&apos;i eklenir. Müşteri listesi CRM&apos;e aktarılır, e-posta kampanyaları bu liste üzerinden planlanabilir.
                 </p>
                 <p>
-                  <strong>İstanbul, butik moda markası.</strong> Shopier'da taksitli + hızlı havale kombinasyonuyla toplam komisyon yükü katlanıyordu. Müşteri Shopier'da görüyordu, marka kimliği zayıftı. PORTZEN ile geçiş, doğrudan PSP sözleşmesi yapıldı. AI öneri motoru sepet ortalamasını yükseltti, Instagram DM otomasyonu story'den gelen dönüşümü artırdı, marka kendi domain'inde büyümeye başladı.
+                  <strong>Örnek senaryo: butik moda markası.</strong> Taksitli satış ve hızlı havale kombinasyonuyla komisyon yükü artıyor, müşteri markayı Shopier içinde görüyor. Geçişte doğrudan PSP sözleşmesi yapılır. Kapsama göre AI ürün önerisi eklenebilir; Story yorumlarına ürün linki gönderen kural tabanlı Instagram DM otomasyonu ayrı hizmet olarak bağlanır.
                 </p>
                 <p>
-                  <strong>Ankara, ev dekorasyonu markası.</strong> Shopier'da satış yapıyor ama büyüme yavaştı, Google'dan trafik gelmiyordu. PORTZEN kendi sitesi kuruldu, SEO optimize edildi, blog stratejisi geliştirildi. Aylar içinde Google organik trafik anlamlı büyüklüğe çıktı, organik satış toplam cironun önemli bir dilimine ulaştı. Tek pazarlama kanalı (Instagram reklam) yerine üç kanal (organik, Instagram, e-mail) açıldı.
+                  <strong>Örnek senaryo: ev dekorasyonu markası.</strong> Satışlar tek pazarlama kanalına (Instagram reklamı) bağlı, Google&apos;dan trafik gelmiyor. Kendi sitesi kurulur, SEO altyapısı hazırlanır, blog içerik planı çıkarılır. Böylece organik arama, Instagram ve e-posta olmak üzere üç ayrı kanal üzerinde çalışılabilir.
                 </p>
                 <p>
-                  <strong>Bursa, organik sabun markası.</strong> Shopier'da 2 yıldır satıyordu, müşteri verisi Shopier'da kilitliydi, retargeting yapamıyordu. PORTZEN'e geçti, son 12 ayın siparişleri Shopier API'den çekildi, müşteri listesi CRM'e aktarıldı, segmentlere ayrıldı (yeni, sadık, kayıp). Win-back kampanyası ile kayıp müşterilerin belirgin bir kısmı geri kazanıldı.
+                  <strong>Örnek senaryo: organik sabun markası.</strong> Müşteri verisi Shopier&apos;da kaldığı için retargeting yapılamıyor. Geçişte geçmiş siparişler dışa aktarılır, müşteri listesi CRM&apos;e taşınır ve segmentlere ayrılır (yeni, sadık, kayıp). Kayıp müşterilere yönelik win-back kampanyası bu segment üzerinden kurgulanabilir.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Platform komisyonu</div>
                   <div className="font-display text-4xl font-black mb-1">Sıfır</div>
                   <div className="text-sm">Doğrudan PSP sözleşmesi</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Organik trafik kanalı</div>
                   <div className="font-display text-4xl font-black mb-1">Açıldı</div>
-                  <div className="text-sm">SEO ile Google'dan ziyaret</div>
+                  <div className="text-sm">SEO ile Google&apos;dan ziyaret</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Müşteri verisi</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">Sizin</div>
+                  <div className="font-display text-4xl font-black text-ink">Sizin</div>
                   <div className="text-sm">Kampanya, retargeting, sadakat</div>
                 </div>
               </div>
@@ -534,23 +534,23 @@ export default function Page() {
       </section>
 
       {/* 7. ÇALIŞMA MODELİ */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-8 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Çalışma modeli
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 Tek seferlik proje, kod size ait
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Shopier'ın her satışta komisyon kesmesi yerine PORTZEN tek seferlik proje modeliyle çalışır. Kapsam brief görüşmesinde birlikte belirlenir; ürün sayısı, tasarım özelleştirmesi, entegrasyon setine göre teklif çıkar.
+                Shopier&apos;ın her satışta komisyon kesmesi yerine PORTZEN tek seferlik proje modeliyle çalışır. Kapsam brief görüşmesinde birlikte belirlenir; ürün sayısı, tasarım özelleştirmesi, entegrasyon setine göre teklif çıkar.
               </p>
             </div>
           </Reveal>
           <Reveal delay={300}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
+            <div className="mt-8 border-3 border-ink/15 bg-light text-ink p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4 rounded-2xl">
               <div>
                 <div className="font-display text-lg font-black mb-1">Instagram DM otomasyonu</div>
                 <p className="text-sm opacity-90">
@@ -559,7 +559,7 @@ export default function Page() {
               </div>
               <Link
                 href="/instagram-dm-otomasyonu/butik"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                className="inline-flex items-center gap-1 border-3 border-ink/10 bg-paper text-ink px-4 py-2 text-xs font-bold transition-all rounded-full"
               >
                 Butik DM Otomasyonu <ArrowUpRight className="h-3.5 w-3.5" />
               </Link>
@@ -569,22 +569,22 @@ export default function Page() {
       </section>
 
       {/* 8. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Shopier'dan kendi sitenize geçmeden önce
+                Shopier&apos;dan kendi sitenize geçmeden önce
               </h2>
             </div>
           </Reveal>
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -594,23 +594,23 @@ export default function Page() {
 
           <Reveal delay={300}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <HeadphonesIcon className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <HeadphonesIcon className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">Butik Web Tasarım</h3>
                 <p className="text-sm opacity-85 mb-3">
                   Butik markalar için markaya özel web tasarım hizmetimiz.
                 </p>
-                <Link href="/web-tasarim/butik" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/web-tasarim/butik" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   Butik Web Tasarım <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">iyzico Alternatifi</h3>
                 <p className="text-sm opacity-85 mb-3">
                   Ödeme sağlayıcısı seçimi ve komisyon pazarlığı.
                 </p>
-                <Link href="/iyzico-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/iyzico-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   iyzico Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
@@ -620,38 +620,38 @@ export default function Page() {
       </section>
 
       {/* 9. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Shopier'dan kendi mağazanıza geçelim
+                Shopier&apos;dan kendi mağazanıza geçelim
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut Shopier kullanımınızı inceliyoruz. Marka konumlandırması, kanal karışımı ve kendi siteye geçiş planı brief'e uygun şekilde çıkarılır.
+                15 dakikalık ücretsiz keşif görüşmesinde mevcut Shopier kullanımınızı inceliyoruz. Marka konumlandırması, kanal karışımı ve kendi siteye geçiş planı brief&apos;e uygun şekilde çıkarılır.
               </p>
             </Reveal>
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
-                  Görüşme Al <ArrowUpRight className="h-4 w-4" />
+                  Teklif İsteyin <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905015884853"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  href="tel:+905318639117"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
                 </a>
@@ -661,7 +661,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

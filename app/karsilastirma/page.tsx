@@ -25,8 +25,8 @@ const CATEGORIES = [
   {
     icon: MessageSquare,
     title: "CRM Sistemleri",
-    tone: "bg-brand-blue text-paper",
-    desc: "Müşteri kayıt, satış hunisi, iletişim geçmişi. Türkçe destek + KVKK uyumlu.",
+    tone: "bg-light text-ink",
+    desc: "Müşteri kayıt, satış hunisi, iletişim geçmişi. Türkçe destek, KVKK gerekliliklerini dikkate alan kurgu.",
     links: [
       { label: "Türkçe KOBİ CRM'i", href: "/hubspot-alternatifi" },
       { label: "Kurumsal Ölçekli CRM", href: "/salesforce-alternatifi" }
@@ -35,8 +35,8 @@ const CATEGORIES = [
   {
     icon: Bot,
     title: "Chatbot & Canlı Destek",
-    tone: "bg-brand-green text-paper",
-    desc: "WhatsApp, Instagram DM, web sitesi canlı destek. Türkçe eğitilmiş yapay zeka.",
+    tone: "bg-light text-ink",
+    desc: "WhatsApp ve web sitesinde Türkçe AI asistan; Instagram'da kural tabanlı DM otomasyonu.",
     links: [
       { label: "Sosyal Medya Chatbot", href: "/manychat-alternatifi" },
       { label: "Web Canlı Destek Botu", href: "/tidio-alternatifi" },
@@ -46,7 +46,7 @@ const CATEGORIES = [
   {
     icon: Zap,
     title: "Otomasyon Araçları",
-    tone: "bg-brand-purple text-paper",
+    tone: "bg-light text-ink",
     desc: "İş akışı, entegrasyon, tetikleyici bazlı süreç. Türkçe arayüz + Türk servisleri.",
     links: [
       { label: "İş Akışı Otomasyon Aracı", href: "/zapier-alternatifi" }
@@ -55,8 +55,8 @@ const CATEGORIES = [
   {
     icon: Mail,
     title: "E-posta Pazarlama",
-    tone: "bg-brand-orange text-paper",
-    desc: "Newsletter, damla e-posta, otomatik seri. KVKK uyumlu izin yönetimi.",
+    tone: "bg-light text-ink",
+    desc: "Newsletter, damla e-posta, otomatik seri. KVKK gerekliliklerine göre kurgulanan izin yönetimi.",
     links: [
       { label: "Newsletter Aracı", href: "/mailchimp-alternatifi" },
       { label: "E-ticaret E-posta Otomasyonu", href: "/klaviyo-alternatifi" }
@@ -65,7 +65,7 @@ const CATEGORIES = [
   {
     icon: ShoppingCart,
     title: "E-ticaret Platformları",
-    tone: "bg-brand-pink text-paper",
+    tone: "bg-light text-ink",
     desc: "Online mağaza, ödeme, kargo entegrasyon. Türk pazarına uyumlu.",
     links: [
       { label: "Yerli E-ticaret Yazılımı", href: "/ideasoft-alternatifi" },
@@ -76,7 +76,7 @@ const CATEGORIES = [
   {
     icon: CreditCard,
     title: "Ödeme Altyapıları",
-    tone: "bg-brand-yellow text-ink",
+    tone: "bg-light text-ink",
     desc: "Sanal POS, taksit, abonelik. Türkiye BDDK onaylı sağlayıcı entegrasyonları.",
     links: [
       { label: "Online Ödeme Servisi", href: "/iyzico-alternatifi" }
@@ -85,7 +85,7 @@ const CATEGORIES = [
   {
     icon: Utensils,
     title: "Restoran & POS",
-    tone: "bg-brand-orange text-paper",
+    tone: "bg-light text-ink",
     desc: "Sipariş yönetimi, adisyon, mutfak ekranı. Restoran zincirlerine uygun.",
     links: [
       { label: "Restoran POS Sistemi", href: "/sambapos-alternatifi" }
@@ -94,7 +94,7 @@ const CATEGORIES = [
   {
     icon: Calculator,
     title: "Muhasebe Yazılımları",
-    tone: "bg-brand-blue text-paper",
+    tone: "bg-light text-ink",
     desc: "Ön muhasebe, fatura, e-fatura, gelir-gider takibi. Türk mali mevzuatına uygun.",
     links: [
       { label: "Ön Muhasebe Yazılımı", href: "/logo-yazilim-alternatifi" }
@@ -103,7 +103,7 @@ const CATEGORIES = [
   {
     icon: Send,
     title: "SMS & Mesajlaşma Servisleri",
-    tone: "bg-brand-green text-paper",
+    tone: "bg-light text-ink",
     desc: "Toplu SMS, doğrulama SMS, WhatsApp Business API entegrasyonu.",
     links: [
       { label: "Toplu SMS Servisi", href: "/netgsm-alternatifi" }
@@ -115,39 +115,39 @@ export default function KarsilastirmaPage() {
   return (
     <>
       {/* HERO */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-ink text-paper px-3 py-1.5 text-[11px] font-black uppercase tracking-[0.2em] mb-6 shadow-brutal-sm">
+            <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1.5 text-[11px] font-black tracking-[0.2em] mb-6 shadow-brutal-sm rounded-full">
               Karşılaştırma
             </div>
           </Reveal>
           <Reveal delay={80}>
-            <h1 className="font-serif font-black text-ink leading-[1.02] tracking-tight text-[clamp(2.5rem,6vw,5rem)] max-w-4xl">
+            <h1 className="font-bold text-ink leading-tight text-h1 max-w-4xl">
               Türkiye pazarına uygun{" "}
-              <span className="text-brand-orange italic font-normal">alternatifler</span>.
+              alternatifler.
             </h1>
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-6 max-w-2xl text-lg text-ink/75 leading-relaxed">
-              Kategoriye göre eşleştirilmiş, yerel destek + KVKK uyumlu + Türkçe arayüz sunan sistemler. Marka bağımsız — ihtiyacınıza göre kurgu.
+              Kategoriye göre eşleştirilmiş; yerel destek, Türkçe arayüz ve KVKK gerekliliklerini dikkate alan kurgu sunan sistemler. Marka bağımsız — ihtiyacınıza göre kurgu.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* KATEGORİLER */}
-      <section className="py-section bg-paper border-t-3 border-ink">
+      <section className="py-section bg-white border-t-3 border-ink/15">
         <div className="mx-auto max-w-container px-6">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {CATEGORIES.map((cat, i) => {
               const Icon = cat.icon;
               return (
                 <Reveal key={cat.title} delay={i * 60}>
-                  <div className="border-3 border-ink bg-paper shadow-brutal h-full flex flex-col">
+                  <div className="border-3 border-ink/15 bg-paper shadow-brutal h-full flex flex-col rounded-2xl">
                     {/* Icon başlık kutusu */}
-                    <div className={`p-5 border-b-3 border-ink ${cat.tone}`}>
-                      <div className="border-3 border-ink bg-paper text-ink p-2 inline-block shadow-brutal-sm mb-3">
+                    <div className={`p-5 border-b-3 border-ink/15 ${cat.tone}`}>
+                      <div className="border-3 border-ink/15 bg-paper text-ink p-2 inline-block shadow-brutal-sm mb-3 rounded-full">
                         <Icon className="h-5 w-5" />
                       </div>
                       <h2 className="font-display text-xl font-black leading-tight">
@@ -163,7 +163,7 @@ export default function KarsilastirmaPage() {
                           <li key={link.href}>
                             <Link
                               href={link.href}
-                              className="group flex items-center justify-between gap-2 border-3 border-ink bg-paper px-3 py-2 text-sm font-bold text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
+                              className="group flex items-center justify-between gap-2 border-3 border-ink/15 bg-paper px-3 py-2 text-sm font-bold text-ink shadow-brutal-sm hover:shadow-brutal transition-all rounded-full"
                             >
                               <span>{link.label}</span>
                               <ArrowUpRight className="h-4 w-4 opacity-50 group-hover:opacity-100 transition-opacity" />
@@ -185,12 +185,12 @@ export default function KarsilastirmaPage() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="relative">
-              <div className="absolute inset-0 border-3 border-ink bg-brand-yellow translate-x-3 translate-y-3" aria-hidden />
-              <div className="relative border-3 border-ink bg-paper p-8 md:p-16">
+              <div className="absolute inset-0 border-3 border-ink/15 bg-light translate-x-3 translate-y-3 rounded-2xl" aria-hidden />
+              <div className="relative border-3 border-ink/15 bg-paper p-8 md:p-16 rounded-2xl">
                 <div className="max-w-2xl">
-                  <h2 className="font-serif text-4xl md:text-5xl font-black leading-tight text-ink">
+                  <h2 className="text-4xl md:text-5xl font-black leading-tight text-ink">
                     Sistemini{" "}
-                    <span className="italic font-normal text-brand-orange">birlikte</span>{" "}
+                    birlikte{" "}
                     kuralım.
                   </h2>
                   <p className="mt-3 text-body text-ink/80">
@@ -199,9 +199,9 @@ export default function KarsilastirmaPage() {
                   <div className="mt-6">
                     <Link
                       href="/iletisim"
-                      className="inline-flex items-center gap-2 border-3 border-ink bg-brand-yellow px-6 py-4 text-sm font-black uppercase tracking-wide text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
+                      className="inline-flex items-center gap-2 border-3 border-ink/15 bg-lime px-6 py-4 text-sm font-black tracking-wide text-ink shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
                     >
-                      Görüşme Al
+                      Teklif İsteyin
                       <ArrowUpRight className="h-4 w-4" />
                     </Link>
                   </div>

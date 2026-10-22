@@ -16,13 +16,13 @@ import { cn } from "@/lib/utils";
  * prefers-reduced-motion.
  */
 const cardVariants = cva(
-  "group relative flex h-full flex-col gap-5 rounded-base border-3 border-ink p-6 shadow-brutal",
+  "group relative flex h-full flex-col gap-5 rounded-base border-3 border-ink/15 p-6 shadow-brutal",
   {
     variants: {
       color: {
-        blue: "bg-brand-blue text-paper",
-        pink: "bg-brand-pink text-ink",
-        green: "bg-brand-green text-ink",
+        blue: "bg-light text-ink",
+        pink: "bg-light text-ink",
+        green: "bg-light text-ink",
       },
     },
     defaultVariants: { color: "blue" },
@@ -46,8 +46,8 @@ export function ServiceCard({
   ctaHref,
 }: ServiceCardProps) {
   const onPaper = color === "blue"; // blue uses light text
-  const subtext = onPaper ? "text-paper" : "text-ink/80";
-  const rule = onPaper ? "border-paper/40" : "border-ink/25";
+  const subtext = onPaper ? "text-ink" : "text-ink/80";
+  const rule = onPaper ? "border-ink/10" : "border-ink/25";
 
   return (
     <motion.article
@@ -56,7 +56,7 @@ export function ServiceCard({
       transition={{ duration: 0.2, ease: [0.2, 0.9, 0.3, 1] }}
     >
       {image && (
-        <div className="overflow-hidden rounded-md border-3 border-ink bg-paper">
+        <div className="overflow-hidden rounded-md border-3 border-ink/15 bg-paper">
           <Image
             src={image.src}
             alt={image.alt}
@@ -86,7 +86,7 @@ export function ServiceCard({
         className="flex items-center gap-2 text-small font-extrabold uppercase tracking-[0.04em] underline-offset-4 group-hover:underline"
       >
         Подробнее
-        <ArrowRight className="size-4 stroke-[3] transition-transform duration-200 group-hover:translate-x-1" />
+        <ArrowRight className="size-4 stroke-[3] transition-transform duration-200" />
       </a>
     </motion.article>
   );

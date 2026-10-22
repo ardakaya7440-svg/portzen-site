@@ -19,11 +19,12 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
+import { PricingSection, SinglePriceSection } from "@/components/pricing/PricingSection";
 
 export const metadata: Metadata = {
-  title: "ManyChat Alternatifi | Türkiye için Yerel WhatsApp+IG AI — PORTZEN",
+  title: "ManyChat Alternatifi | Türkiye için WhatsApp + Instagram Otomasyonu — PORTZEN",
   description:
-    "ManyChat yerine Türkçe destek + resmi WhatsApp Business API + yerel ödeme entegrasyonu. KOBİ'lere özel, KVKK uyumlu, 14 günde devreye girer.",
+    "ManyChat yerine Türkçe destek, Meta'nın resmi WhatsApp Business API'si ve yerel ödeme entegrasyonu. Instagram'da kural tabanlı DM otomasyonu; serbest sorulara AI yanıtı ayrı hizmet olan AI müşteri asistanında. KVKK gerekliliklerini dikkate alarak kurgulanır.",
   keywords: [
     "manychat alternatifi",
     "manychat türkçe",
@@ -39,15 +40,15 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://portzenai.com/manychat-alternatifi",
     siteName: "PORTZEN",
-    title: "ManyChat Alternatifi | Türkiye için Yerel WhatsApp+IG AI — PORTZEN",
+    title: "ManyChat Alternatifi | Türkiye için WhatsApp + Instagram Otomasyonu — PORTZEN",
     description:
-      "Türkçe destek, resmi WhatsApp Business API, Iyzico entegre, KVKK uyumlu — ManyChat'in KOBİ için gerçek alternatifi."
+      "Türkçe destek, resmi WhatsApp Business API, Iyzico entegre, KVKK gerekliliklerini dikkate alan kurgu — ManyChat'in KOBİ için yerel alternatifi."
   },
   twitter: {
     card: "summary_large_image",
     title: "ManyChat Alternatifi | PORTZEN",
     description:
-      "ManyChat'in İngilizce arayüzü ve dolar faturası yerine Türkçe ve KVKK uyumlu çözüm."
+      "ManyChat'in İngilizce arayüzü ve dolar faturası yerine Türkçe, KVKK gerekliliklerini dikkate alan çözüm."
   },
   alternates: { canonical: "https://portzenai.com/manychat-alternatifi" },
   robots: { index: true, follow: true }
@@ -56,18 +57,18 @@ export const metadata: Metadata = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "ManyChat Alternatifi — PORTZEN WhatsApp+IG AI Asistanı",
+  name: "ManyChat Alternatifi — PORTZEN WhatsApp ve Instagram Otomasyonu",
   provider: {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
-  serviceType: "Conversational AI",
+  serviceType: "Messaging Automation",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Türkiye pazarına özel WhatsApp Business API ve Instagram DM otomasyonu. ManyChat'in eksik kaldığı Türkçe destek, KVKK uyumu ve yerel entegrasyonlar."
+    "Türkiye pazarına özel WhatsApp Business API ve kural tabanlı Instagram DM otomasyonu; serbest sorulara AI ile yanıt, ayrı bir hizmet olan AI müşteri asistanı kapsamındadır. Türkçe destek, KVKK gerekliliklerini dikkate alan kurgu ve yerel entegrasyonlar."
 };
 
 const faqSchema = {
@@ -79,7 +80,7 @@ const faqSchema = {
       name: "ManyChat'ten PORTZEN'e taşınma süresi ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Mevcut ManyChat akışlarınızı analiz edip 10-14 iş gününde PORTZEN üzerinde yeniden kuruyoruz. Eski sistemi kapatmadan paralel test edip onaydan sonra geçiş yapıyoruz, böylece kesinti olmuyor."
+        text: "Mevcut ManyChat akışlarınızı analiz edip PORTZEN üzerinde yeniden kuruyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Eski sistemi kapatmadan paralel test edip onaydan sonra geçiş yapıyoruz, böylece kesinti olmuyor."
       }
     },
     {
@@ -95,7 +96,7 @@ const faqSchema = {
       name: "ManyChat'in WhatsApp entegrasyonu resmi değil mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ManyChat WhatsApp için 3rd party çözümler kullanır ve Meta'nın resmi WhatsApp Business Platform iş ortağı listesinde değildir. PORTZEN doğrudan Meta'nın resmi WhatsApp Business API'sini kullanır — banlanma riski yoktur."
+        text: "ManyChat WhatsApp için 3rd party çözümler kullanır ve Meta'nın resmi WhatsApp Business Platform iş ortağı listesinde değildir. PORTZEN doğrudan Meta'nın resmi WhatsApp Business API'sini kullanır — böylece 3rd party gateway kaynaklı askıya alınma riski belirgin şekilde azalır."
       }
     },
     {
@@ -103,7 +104,7 @@ const faqSchema = {
       name: "İptal koşulları nasıl?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ManyChat'in yıllık peşin ödemesinin aksine PORTZEN aylık esnek çalışır. 30 gün önceden bildirimle istediğiniz zaman iptal edebilirsiniz, ceza yok."
+        text: "ManyChat genellikle yıllık peşin ödeme ister. PORTZEN'de sözleşme süresi ve fesih koşulları teklifte yazılı olarak belirtilir."
       }
     },
     {
@@ -111,7 +112,7 @@ const faqSchema = {
       name: "KVKK uyumu için ne yapmam gerekiyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "PORTZEN, tüm konuşma verilerini Türkiye lokasyonlu sunucularda saklar. KVKK aydınlatma metni, açık rıza akışı ve veri silme talep süreçlerini sizin için hazır kurarız — ManyChat'te bu süreçleri kendiniz yönetmek zorundasınız."
+        text: "Kurulum KVKK gerekliliklerini dikkate alarak kurgulanır: açık rıza ve aydınlatma akışı ile veri silme talep süreci kurulur. Konuşma verisinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. ManyChat'te bu akışları kendiniz kurmanız gerekir."
       }
     },
     {
@@ -127,7 +128,7 @@ const faqSchema = {
       name: "Türkçe doğal dil işleme ManyChat'ten farklı mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ManyChat'in İngilizce odaklı NLP'si Türkçe çekim eklerinde ve kibarlık kalıplarında zayıftır. PORTZEN, premium dil modeli tabanlı motoru Türkçe konuşma örnekleriyle özel olarak ayarlar — 'fiyatınız ne kadar acaba?' ile 'fiyat ne' aynı şekilde anlaşılır."
+        text: "ManyChat'in İngilizce odaklı NLP'si Türkçe çekim eklerinde ve kibarlık kalıplarında zayıftır. PORTZEN'in AI müşteri asistanı (ayrı hizmet; Instagram kanalı Kurumsal pakette) premium dil modeli tabanlıdır ve Türkçe konuşma örnekleriyle ayarlanır — 'fiyatınız ne kadar acaba?' ile 'fiyat ne' aynı şekilde anlaşılır. Instagram DM otomasyonu ise kural tabanlıdır: anahtar kelime, yorum ve hikâye tetikleyicilerine önceden tanımlı mesajlarla yanıt verir."
       }
     }
   ]
@@ -150,8 +151,8 @@ const breadcrumbSchema = {
 const stats = [
   { metric: "Yerel", label: "Iyzico + Param + PayTR" },
   { metric: "Resmi", label: "WhatsApp Business API" },
-  { metric: "KVKK", label: "Türkiye sunucusu + aydınlatma" },
-  { metric: "14 gün", label: "Taşıma + kurulum süresi" }
+  { metric: "KVKK", label: "Açık rıza + aydınlatma akışı" },
+  { metric: "Kural + AI", label: "DM otomasyonu kural tabanlı; AI asistan ayrı hizmet" }
 ];
 
 const painPoints = [
@@ -180,13 +181,13 @@ const painPoints = [
 const comparisonRows = [
   { feature: "Arayüz dili", manychat: "Sadece İngilizce", portzen: "Türkçe + İngilizce", manychatYes: false, portzenYes: true },
   { feature: "Faturalama modeli", manychat: "USD abonelik, kur riski", portzen: "Yerel çalışma modeli, sabit paket", manychatYes: false, portzenYes: true },
-  { feature: "WhatsApp Business API (resmi)", manychat: "3rd party gateway", portzen: "Meta resmi iş ortağı", manychatYes: false, portzenYes: true },
-  { feature: "KVKK uyumu", manychat: "Sizin sorumluluğunuzda", portzen: "Tam paket dahil", manychatYes: false, portzenYes: true },
+  { feature: "WhatsApp Business API (resmi)", manychat: "3rd party gateway", portzen: "Meta'nın resmi API'si üzerinden", manychatYes: false, portzenYes: true },
+  { feature: "KVKK uyumu", manychat: "Sizin sorumluluğunuzda", portzen: "Açık rıza + aydınlatma akışı kurulur", manychatYes: false, portzenYes: true },
   { feature: "Türk ödeme (Iyzico/Param/PayTR)", manychat: "Yok", portzen: "Hazır entegre", manychatYes: false, portzenYes: true },
   { feature: "Türk muhasebe (Logo/Mikro)", manychat: "Yok", portzen: "Webhook + API", manychatYes: false, portzenYes: true },
-  { feature: "Yerel canlı destek", manychat: "E-mail, 24-48 sa", portzen: "WhatsApp + telefon, aynı gün", manychatYes: false, portzenYes: true },
-  { feature: "Sözleşme süresi", manychat: "Yıllık peşin", portzen: "Aylık esnek", manychatYes: false, portzenYes: true },
-  { feature: "Veri lokalizasyonu", manychat: "ABD/AB sunucu", portzen: "Türkiye sunucusu", manychatYes: false, portzenYes: true },
+  { feature: "Yerel canlı destek", manychat: "E-mail, 24-48 sa", portzen: "WhatsApp + telefon, en kısa sürede dönüş", manychatYes: false, portzenYes: true },
+  { feature: "Sözleşme süresi", manychat: "Yıllık peşin", portzen: "Teklifte yazılı", manychatYes: false, portzenYes: true },
+  { feature: "Veri lokalizasyonu", manychat: "ABD/AB sunucu", portzen: "Teklifte yazılı (altyapıya göre)", manychatYes: false, portzenYes: true },
   { feature: "Ticari model", manychat: "Sabit dolar plan basamakları", portzen: "Kapsam bazlı, brief görüşmesinde net", manychatYes: false, portzenYes: true }
 ];
 
@@ -199,75 +200,33 @@ const solutionSteps = [
   {
     icon: Bot,
     title: "Kurulum",
-    description: "Resmi WhatsApp Business API başvurusu + Instagram bağlantısı + Türkçe NLP eğitimi 5-7 günde tamamlanır."
+    description: "Resmi WhatsApp Business API başvurusu ve Instagram bağlantısı yapılır; Instagram'da kural tabanlı DM akışları (anahtar kelime, yorum, hikâye tetikleyicileri) kurulur. Serbest sorulara AI yanıtı istenirse AI müşteri asistanı (ayrı hizmet) yapılandırılır."
   },
   {
     icon: Sparkles,
     title: "Eğitim",
-    description: "Ekibinize 2 saatlik canlı eğitim. Türkçe panelden senaryo değiştirmeyi gösteriyoruz, kimseye ManyChat dökümanı okutturmuyoruz."
+    description: "Ekibinize Türkçe panelden senaryo değiştirmeyi canlı olarak gösteriyoruz, kimseye ManyChat dökümanı okutturmuyoruz."
   },
   {
     icon: CheckCircle2,
     title: "Canlı",
-    description: "Eski sistemle paralel 3 gün test, sonra geçiş. Aboneler, etiketler, akışlar — hiçbir veri kaybolmaz."
+    description: "Eski sistemle paralel test, sonra geçiş. Aboneler, etiketler ve akışlar eksiksiz taşınacak şekilde planlanır."
   }
 ];
 
 const features = [
-  { icon: Languages, title: "Türkçe NLP", desc: "Premium dil modeli tabanlı motoru Türkçe konuşma örnekleriyle özel eğitim — 'fiyatınız ne acaba' ile 'fiyat ne' aynı algılanır." },
-  { icon: ShieldCheck, title: "Resmi WhatsApp API", desc: "Meta'nın resmi iş ortağı altyapısı. 3rd party banlanma riski yok, yeşil tik onayı dahil." },
+  { icon: Languages, title: "Türkçe NLP (AI müşteri asistanı)", desc: "AI müşteri asistanı (ayrı hizmet) premium dil modeli tabanlıdır, Türkçe konuşma örnekleriyle ayarlanır — 'fiyatınız ne acaba' ile 'fiyat ne' aynı algılanır. Instagram DM otomasyonu ise kural tabanlıdır." },
+  { icon: ShieldCheck, title: "Resmi WhatsApp API", desc: "Meta'nın resmi WhatsApp Business API'si üzerinden; 3rd party gateway kullanılmaz. Yeşil tik başvurusunda destek veriyoruz, onay Meta'nın kararıdır." },
   { icon: CreditCard, title: "Iyzico + Param + PayTR", desc: "Müşteri WhatsApp'tan link tıklayıp 3D Secure ile yerel kart ödemesi yapar — komisyon Stripe'tan düşük." },
-  { icon: Globe2, title: "KVKK Aydınlatma", desc: "Açık rıza akışı, veri silme talep formu, Türkiye sunucusu — hepsi hazır kurulur." },
-  { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile aynı gün dönüş. ManyChat'in e-mail-only desteği yerine gerçek insan." },
-  { icon: Wallet, title: "Yerel çalışma modeli", desc: "Yerel fatura, KDV dahil, e-Arşiv. Kur dalgalanmasından etkilenmezsiniz." }
-];
-
-const packages = [
-  {
-    name: "Başlangıç",
-    color: "bg-paper",
-    features: [
-      "Aylık 2.000 mesaja kadar",
-      "WhatsApp Business API resmi",
-      "Türkçe panel + 5 senaryo",
-      "Iyzico veya Param entegre",
-      "KVKK aydınlatma paketi"
-    ],
-    cta: "Görüşme Al"
-  },
-  {
-    name: "Pro",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "Aylık 8.000 mesaja kadar",
-      "WhatsApp + Instagram DM birlikte",
-      "Sınırsız senaryo + akış",
-      "Iyzico + Param + PayTR üçü birden",
-      "Logo/Mikro muhasebe webhook",
-      "Haftalık optimizasyon"
-    ],
-    cta: "Görüşme Al"
-  },
-  {
-    name: "Kurumsal",
-    color: "bg-paper",
-    features: [
-      "Sınırsız mesaj + numara",
-      "Çoklu şube yönetimi",
-      "Özel API geliştirme",
-      "Adanmış proje yöneticisi",
-      "SLA + öncelikli destek",
-      "Aylık detaylı analiz raporu"
-    ],
-    cta: "Görüşme Al"
-  }
+  { icon: Globe2, title: "KVKK Aydınlatma", desc: "Açık rıza akışı ve veri silme talep formu kurulur; verinin hangi sağlayıcıda ve bölgede tutulacağı teklifte yazılı olarak belirtilir." },
+  { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile en kısa sürede dönüş yapıyoruz. ManyChat'in e-mail-only desteği yerine gerçek insan." },
+  { icon: Wallet, title: "Yerel çalışma modeli", desc: "TL fiyat (KDV hariç), yerel e-Arşiv fatura. Kur dalgalanmasından etkilenmezsiniz." }
 ];
 
 const faqs = [
   {
     q: "ManyChat'ten PORTZEN'e taşınma süresi ne kadar?",
-    a: "Mevcut ManyChat akışlarınızı analiz edip 10-14 iş gününde PORTZEN üzerinde yeniden kuruyoruz. Eski sistemi kapatmadan paralel test edip onaydan sonra geçiş yapıyoruz, böylece kesinti olmuyor."
+    a: "Mevcut ManyChat akışlarınızı analiz edip PORTZEN üzerinde yeniden kuruyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Eski sistemi kapatmadan paralel test edip onaydan sonra geçiş yapıyoruz, böylece kesinti olmuyor."
   },
   {
     q: "ManyChat'teki mevcut abonelerimi/kullanıcılarımı kaybeder miyim?",
@@ -279,11 +238,11 @@ const faqs = [
   },
   {
     q: "İptal koşulları nasıl?",
-    a: "ManyChat genellikle yıllık peşin ödeme talep eder, iadesi karmaşıktır. PORTZEN aylık esnek çalışır — 30 gün önceden bildirimle istediğiniz zaman iptal edebilirsiniz, ceza veya iade prosedürü yok."
+    a: "ManyChat genellikle yıllık peşin ödeme talep eder, iadesi karmaşıktır. PORTZEN'de sözleşme süresi ve fesih koşulları teklifte yazılı olarak belirtilir."
   },
   {
     q: "KVKK uyumu için ne yapmam gerekiyor?",
-    a: "Hiçbir şey. PORTZEN tüm konuşma verilerini Türkiye lokasyonlu sunucularda saklar. KVKK aydınlatma metni, açık rıza akışı, veri silme talep süreci ve VERBİS uyumlu kayıt sürecini sizin için hazır kurarız. ManyChat'te bu yükümlülük tamamen sizdedir."
+    a: "Kurulum KVKK gerekliliklerini dikkate alarak kurgulanır: açık rıza ve aydınlatma akışı ile veri silme talep süreci kurulur. Konuşma verisinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Aydınlatma metninin hukuki içeriği ve VERBİS kaydı gibi yükümlülükler veri sorumlusu olarak işletmenizdedir; ManyChat'te ise akışların tamamını da kendiniz kurmanız gerekir."
   },
   {
     q: "Iyzico ve Param gibi yerel ödeme sistemleri entegre olur mu?",
@@ -291,7 +250,7 @@ const faqs = [
   },
   {
     q: "Türkçe doğal dil işleme ManyChat'ten farklı mı?",
-    a: "ManyChat'in İngilizce odaklı NLP'si Türkçe çekim eklerinde ('alabilir miyim', 'alır mıyım', 'alma') ve kibarlık kalıplarında ('acaba', 'lütfen', 'ricam') zayıftır. PORTZEN, premium dil modeli motoru Türkçe konuşma örnekleriyle özel ayarlanır — KOBİ müşterinizin kendiliğinden konuştuğu cümleleri ilk seferde anlar."
+    a: "ManyChat'in İngilizce odaklı NLP'si Türkçe çekim eklerinde ('alabilir miyim', 'alır mıyım', 'alma') ve kibarlık kalıplarında ('acaba', 'lütfen', 'ricam') zayıftır. PORTZEN'in AI müşteri asistanı (ayrı hizmet; Instagram kanalı Kurumsal pakette) premium dil modeli tabanlıdır ve KOBİ müşterinizin kendiliğinden kurduğu cümleleri anlamak üzere Türkçe konuşma örnekleriyle ayarlanır. Instagram DM otomasyonu ise kural tabanlıdır: anahtar kelime, yorum ve hikâye tetikleyicilerine önceden tanımlı mesajlarla yanıt verir."
   }
 ];
 
@@ -303,7 +262,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -316,32 +275,32 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-pink text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Sparkles className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">ManyChat Alternatifi</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
-                  ManyChat Alternatifi: Türkiye için Yerel WhatsApp + Instagram AI
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
+                  ManyChat Alternatifi: Türkiye için Yerel WhatsApp + Instagram Otomasyonu
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  ManyChat sadece İngilizce, USD faturalı ve KVKK'ya uyumsuz. PORTZEN aynı işi resmi WhatsApp Business API, Türkçe panel ve Iyzico/Param entegrasyonu ile yapıyor — üstelik 14 günde taşıma garantisi.
+                  ManyChat sadece İngilizce, USD faturalı ve KVKK&apos;ya uyumsuz. PORTZEN aynı işi resmi WhatsApp Business API, Türkçe panel ve Iyzico/Param entegrasyonu ile yapıyor. Instagram&apos;da DM otomasyonu kural tabanlıdır (anahtar kelime, yorum ve hikâye tetikleyicileri); serbest sorulara AI ile yanıt, ayrı bir hizmet olan AI müşteri asistanı kapsamındadır. Taşıma ve kurulum süresi kapsama göre teklifte yazılı olarak belirtilir.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/whatsapp-ai-asistani"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     WhatsApp AI Asistanı <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -355,8 +314,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-pink text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -372,12 +331,12 @@ export default function Page() {
       </section>
 
       {/* 2. NEDEN ALTERNATİF */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Neden ManyChat'ten kaçıyorsunuz?
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
+                Neden ManyChat&apos;ten kaçıyorsunuz?
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
                 ManyChat KOBİ için fazla yabancı ve fazla uyumsuz.
@@ -387,8 +346,8 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {painPoints.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-paper bg-brand-pink text-paper mb-4">
+                <div className="border-3 border-ink/10 bg-light p-5 h-full rounded-2xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-ink/10 bg-slate text-white mb-4 rounded-full">
                     <X className="h-5 w-5" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2">{p.title}</h3>
@@ -401,11 +360,11 @@ export default function Page() {
       </section>
 
       {/* 3. KARŞILAŞTIRMA TABLOSU */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Yan yana karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -415,12 +374,12 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">ManyChat</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -433,7 +392,7 @@ export default function Page() {
                           <span className="text-xs">{row.manychat}</span>
                         </div>
                       </td>
-                      <td className="p-4 text-center text-sm bg-brand-yellow/30 text-ink">
+                      <td className="p-4 text-center text-sm bg-light text-ink">
                         <div className="flex flex-col items-center gap-1">
                           <Check className="h-4 w-4 text-green-700" />
                           <span className="text-xs font-bold">{row.portzen}</span>
@@ -447,22 +406,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> ManyChat özellik ve entegrasyon bilgileri manychat.com'dan derlenmiştir, karşılaştırma PORTZEN müşteri taşıma deneyimlerinden çıkarılmıştır.
+              <strong>Kaynak:</strong> ManyChat özellik ve entegrasyon bilgileri manychat.com&apos;dan derlenmiştir; özellik ve fiyatlar değişebilir, güncel bilgi için resmi sayfayı kontrol edin.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 4. PORTZEN ÇÖZÜMÜ */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Taşıma süreci
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                ManyChat'ten 14 günde nasıl çıkarsınız?
+                ManyChat&apos;ten 4 adımda nasıl çıkarsınız?
               </h2>
             </div>
           </Reveal>
@@ -471,8 +430,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -486,15 +445,15 @@ export default function Page() {
       </section>
 
       {/* 5. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                PORTZEN'in farkı
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                PORTZEN&apos;in farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                ManyChat'te olmayan 6 özellik
+                ManyChat&apos;te olmayan 6 özellik
               </h2>
             </div>
           </Reveal>
@@ -503,7 +462,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -516,16 +475,16 @@ export default function Page() {
       </section>
 
       {/* 6. CASE STUDY */}
-      <section className="bg-brand-green text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Gerçek bir taşıma: İzmir butiği
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek senaryo: kadın giyim butiği
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              ManyChat'ten PORTZEN'e — Iyzico entegre, KVKK uyumlu, yerel faturalı.
+              ManyChat&apos;ten PORTZEN&apos;e örnek bir geçiş — Iyzico entegre, KVKK akışı kurulu, yerel faturalı.
             </h2>
           </Reveal>
 
@@ -533,36 +492,36 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  İzmir Alsancak'taki bir kadın giyim butiği 18 aydır ManyChat Pro kullanıyordu. Aylık fatura USD üzerinden geliyordu, üstelik Stripe komisyonu da USD bazında. Müşterilerinin %95'i yerel kartla ödeme yapmak istiyor ama 3D Secure ile ödeme alamıyordu.
+                  Örnek senaryoda ManyChat kullanan bir kadın giyim butiği düşünelim. Aylık fatura USD üzerinden geliyor, ödeme akışı Stripe&apos;a bağlı; müşterilerin çoğu yerel kartla 3D Secure ödeme yapmak istiyor.
                 </p>
                 <p>
-                  Brief görüşmesinde 3 ana sorunu listelediler: (1) WhatsApp numaraları 3 kez askıya alınmıştı çünkü ManyChat resmi WBA değildi, (2) KVKK aydınlatma metnini avukatlarına yazdırmışlardı ama akış kurulu değildi, (3) abone listesi 8.400 kişiydi ve kaybetmekten korkuyorlardı.
+                  Bu tür geçişlerde tipik 3 sorun görülür: (1) WhatsApp tarafında üçüncü parti gateway kullanıldığı için numaranın askıya alınma endişesi, (2) KVKK aydınlatma metni hazır ama akış kurulu değil, (3) mevcut abone listesini kaybetme endişesi.
                 </p>
                 <p>
-                  10 günde tüm akışlarını PORTZEN'e taşıdık: resmi WhatsApp Business API ile yeşil tik aldık, Iyzico entegre edip yerel ödeme akışı kurduk, KVKK aydınlatma metnini WhatsApp şablonu olarak onaylattık. 8.400 abone CSV ile geçti, etiketler dahil. İlk ay raporda: ödeme dönüşümü %23'ten %41'e çıktı (3D Secure ile güven arttı), kur dalgalanmasından etkilenmeyen sabit ve öngörülebilir bir çalışma modeline geçtiler.
+                  Örnek kurulumda akışlar PORTZEN&apos;e taşınır: WhatsApp, Meta&apos;nın resmi WhatsApp Business API&apos;si üzerinden bağlanır (yeşil tik başvurusunda destek verilir, onay Meta&apos;nın kararıdır), Iyzico entegre edilip yerel ödeme akışı kurulur, KVKK aydınlatma mesajı WhatsApp şablonu olarak Meta onayına gönderilir. Abone listesi CSV ile etiketleriyle birlikte aktarılır. Instagram&apos;daki yorum ve hikâye tetikleyicili DM akışları kural tabanlı olarak yeniden kurulur.
                 </p>
                 <p>
-                  Şu an müşterinin aylık WhatsApp üzerinden gelirinin %38'i bu sistemden geliyor. Kur ne olursa olsun ödeme akışı ve müşteri deneyimi tutarlı.
+                  İş akışında değişen: müşteri WhatsApp&apos;tan ödeme linkine tıklayıp yerel kartla 3D Secure ödeme yapar, başarılı ödemede teyit mesajı otomatik gider; hizmet bedeli TL ve yerel çalışma modeliyle faturalanır, kur dalgalanmasından etkilenmez.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Ödeme dönüşümü</div>
-                  <div className="font-display text-4xl font-black mb-1">%23 → %41</div>
-                  <div className="text-sm">Iyzico 3D Secure ile</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Ödeme</div>
+                  <div className="font-display text-4xl font-black mb-1">Iyzico</div>
+                  <div className="text-sm">3D Secure ile yerel kart</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Taşınan abone</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">8.400</div>
-                  <div className="text-sm">Veri kaybı sıfır, etiketler dahil</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Abone taşıma</div>
+                  <div className="font-display text-4xl font-black text-ink">CSV</div>
+                  <div className="text-sm">Etiketlerle birlikte aktarılır</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Devreye alış</div>
-                  <div className="font-display text-4xl font-black text-brand-green">10 gün</div>
-                  <div className="text-sm">Resmi WhatsApp + Iyzico</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">WhatsApp</div>
+                  <div className="font-display text-4xl font-black text-ink">Resmi API</div>
+                  <div className="text-sm">Meta&apos;nın WhatsApp Business API&apos;si</div>
                 </div>
               </div>
             </Reveal>
@@ -570,93 +529,28 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Çalışma modeli
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket — kapsam bazlı, kur riskinden bağımsız
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                ManyChat'in dolar bazlı plan basamaklarının aksine PORTZEN sabit paket mantığı ile çalışır. Kapsam ve net rakamlar brief görüşmesinde paylaşılır.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="text-xs font-bold opacity-75 mb-6">Kapsam brief görüşmesinde netleştirilir</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <div className="font-display text-lg font-black mb-1">Detaylı çözüm sayfası</div>
-                <p className="text-sm opacity-90">
-                  PORTZEN'in WhatsApp AI asistan sistemi tam olarak ne içeriyor — özellikler, vakalar, detaylar.
-                </p>
-              </div>
-              <Link
-                href="/whatsapp-ai-asistani"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                WhatsApp AI Asistanı <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+
+      <SinglePriceSection id="instagram-dm" heading="Instagram DM otomasyonu fiyatı" intro="Kural tabanlı DM otomasyonu. Serbest sorulara AI ile yanıt için AI müşteri asistanı paketleri geçerlidir. Tutarlar TL ve KDV hariçtir." />
+      <PricingSection family="ai-musteri-asistani" id="ai-asistan" badge="AI müşteri asistanı" heading="AI müşteri asistanı fiyatları" />
 
       {/* 8. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                ManyChat'ten geçmeden önce merak edilenler
+                ManyChat&apos;ten geçmeden önce merak edilenler
               </h2>
             </div>
           </Reveal>
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -666,23 +560,23 @@ export default function Page() {
 
           <Reveal delay={300}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">Zapier de mi pahalı geliyor?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  Zapier'in USD fiyatları ve Türk uygulamalarına entegrasyon eksikliği yerine yerel n8n+Make kombinasyonu.
+                  Zapier&apos;in USD fiyatları ve Türk uygulamalarına entegrasyon eksikliği yerine yerel n8n+Make kombinasyonu.
                 </p>
-                <Link href="/zapier-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/zapier-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   Zapier Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">Tidio kullanıyorsanız?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  Tidio'nun chat-only odağı yerine WhatsApp + IG + chat tek panelde — Türk pazarına özel.
+                  Tidio&apos;nun chat-only odağı yerine WhatsApp + IG + chat tek panelde — Türk pazarına özel.
                 </p>
-                <Link href="/tidio-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/tidio-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   Tidio Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
@@ -692,38 +586,38 @@ export default function Page() {
       </section>
 
       {/* 9. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                ManyChat'i bırakın. PORTZEN'i kuralım.
+                ManyChat&apos;i bırakın. PORTZEN&apos;i kuralım.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                30 dakikalık ücretsiz brief görüşmesinde mevcut ManyChat akışlarınızı analiz edip yerel, KVKK uyumlu PORTZEN kurulumunu netleştiriyoruz. Kapsam ve net rakam bu görüşmede paylaşılır.
+                30 dakikalık ücretsiz brief görüşmesinde mevcut ManyChat akışlarınızı analiz edip yerel, KVKK gerekliliklerini dikkate alan PORTZEN kurulumunu netleştiriyoruz. Kapsam ve net rakam bu görüşmede paylaşılır.
               </p>
             </Reveal>
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905015884853"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  href="tel:+905318639117"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
                 </a>
@@ -733,7 +627,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

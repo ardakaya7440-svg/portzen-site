@@ -62,7 +62,7 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   serviceType: "Payment Gateway Integration",
@@ -120,7 +120,7 @@ const faqSchema = {
       name: "Birden fazla ödeme sağlayıcı kullanılabilir mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Bir sağlayıcının onaylamadığı kart için diğerine fallback yapılabilir, taksitli işlemde uygun sağlayıcıya yönlendirilebilir. Çoklu sağlayıcı kurulumu PORTZEN paketinde standart."
+        text: "Evet. Bir sağlayıcının onaylamadığı kart için diğerine fallback yapılabilir, taksitli işlemde uygun sağlayıcıya yönlendirilebilir. Çoklu sağlayıcı kurulumunun kapsamı teklifte yazılı olarak belirtilir."
       }
     },
     {
@@ -128,7 +128,7 @@ const faqSchema = {
       name: "PCI DSS uyumluluğu beni nasıl etkiler?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Modern sağlayıcılar (iyzico, PayTR, Param) tokenizasyon ile kart bilgilerini sitenizde saklamadan işler. PCI DSS uyumluluk yükü sağlayıcıdadır. Geleneksel sanal POS entegrasyonunda kart bilgisi sitenizden geçerse PCI DSS sizin sorumluluğunuza geçer."
+        text: "Modern sağlayıcılar (iyzico, PayTR, Param) tokenizasyon ile kart bilgilerini sitenizde saklamadan işler. Bu durumda PCI DSS kapsamındaki yükün büyük kısmı sağlayıcıya geçer. Geleneksel sanal POS entegrasyonunda kart bilgisi sitenizden geçerse PCI DSS sizin sorumluluğunuza geçer."
       }
     }
   ]
@@ -151,8 +151,8 @@ const breadcrumbSchema = {
 const stats = [
   { metric: "Multi-PSP", label: "Çoklu sağlayıcı routing" },
   { metric: "5 sağlayıcı", label: "Karşılaştırmalı seçim" },
-  { metric: "7 gün", label: "Entegrasyon süresi" },
-  { metric: "PCI DSS", label: "Tokenizasyon ile uyum" }
+  { metric: "Tek akış", label: "PSP + CRM + e-fatura entegrasyonu" },
+  { metric: "PCI DSS", label: "Kart bilgisi sağlayıcıda tokenize" }
 ];
 
 const painPoints = [
@@ -187,12 +187,12 @@ const comparisonRows = [
   { feature: "Para erişim süresi", iyzico: "T+1, T+2", portzen: "Sağlayıcıya göre aynı gün" },
   { feature: "Yurt dışı kart kabulü", iyzico: "Yüksek red oranı", portzen: "Stripe TR ihracat odaklı" },
   { feature: "Abonelik modülü", iyzico: "Karmaşık kurulum", portzen: "Stripe veya PayTR ile sade" },
-  { feature: "Çoklu sağlayıcı routing", iyzico: "Tek sağlayıcı", portzen: "Multi-PSP fallback dahil" },
+  { feature: "Çoklu sağlayıcı routing", iyzico: "Tek sağlayıcı", portzen: "Multi-PSP fallback kurulabilir" },
   { feature: "Taksit yapısı", iyzico: "Sınırlı esneklik", portzen: "Banka pazarlığı ile esnek" },
-  { feature: "PCI DSS yükü", iyzico: "Sağlayıcıda", portzen: "Tokenizasyon ile sizden alınır" },
+  { feature: "PCI DSS yükü", iyzico: "Sağlayıcıda", portzen: "Tokenizasyon ile büyük ölçüde sağlayıcıda" },
   { feature: "KOBİ onay süresi", iyzico: "Hızlı (1, 2 gün)", portzen: "Sağlayıcıya göre 1 ile 7 gün" },
   { feature: "Marketplace çok satıcı", iyzico: "Güçlü", portzen: "iyzico veya Param tercih edilir" },
-  { feature: "CRM ve e-fatura entegre", iyzico: "Sınırlı", portzen: "Logo/Mikro/Netsis hazır" }
+  { feature: "CRM ve e-fatura entegre", iyzico: "Sınırlı", portzen: "Logo/Mikro/Netsis; API erişimine göre" }
 ];
 
 const solutionSteps = [
@@ -209,12 +209,12 @@ const solutionSteps = [
   {
     icon: BookOpen,
     title: "Entegrasyon",
-    description: "Seçilen sağlayıcı(lar) web sitenize, CRM'inize ve e-fatura sisteminize 7 gün içinde entegre edilir. Test ortamı ve canlı geçiş yönetimi dahil."
+    description: "Seçilen sağlayıcı(lar) web sitenize, CRM'inize ve e-fatura sisteminize entegre edilir; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Test ortamı ve canlı geçiş yönetimi dahil."
   },
   {
     icon: CheckCircle2,
     title: "Optimizasyon",
-    description: "Üç ayda bir reddedilen işlem analizi, komisyon raporu ve sağlayıcı performans karşılaştırması. Gerekiyorsa pazarlık yenilemesi."
+    description: "İsteğe bağlı dönemsel reddedilen işlem analizi, komisyon raporu ve sağlayıcı performans karşılaştırması; kapsamı teklifte yazılı olarak belirtilir."
   }
 ];
 
@@ -222,8 +222,8 @@ const features = [
   { icon: CreditCard, title: "Çoklu sağlayıcı routing", desc: "Akıllı yönlendirme ile kart bin numarasına göre en uygun sağlayıcıya işlem düşer. Reddedilen işlem fallback ile diğer sağlayıcıya iletilir." },
   { icon: TrendingUp, title: "Komisyon pazarlığı", desc: "Cironuzu kullanarak Garanti Sanal POS, PayTR ve Param ile komisyon pazarlığını sizin adınıza yürütüyoruz." },
   { icon: Wallet, title: "Para erişim hızı", desc: "Sağlayıcı seçimi para erişim hızınızı belirler. Aynı gün havale, T+1 veya T+2 seçenekleri arasında işletmenize uygun olanı seçiyoruz." },
-  { icon: ShieldCheck, title: "PCI DSS tokenizasyon", desc: "Kart bilgileri sitenizde saklanmaz, sağlayıcıda token olarak tutulur. PCI DSS uyumluluk yükü tamamen sağlayıcıdadır." },
-  { icon: Building2, title: "Logo/Mikro/Netsis entegre", desc: "Başarılı ödeme sonrası otomatik e-Arşiv fatura kesilir, muhasebe sisteminize sync edilir. Manuel veri girişi sıfırlanır." },
+  { icon: ShieldCheck, title: "PCI DSS tokenizasyon", desc: "Kart bilgileri sitenizde saklanmaz, sağlayıcıda token olarak tutulur. PCI DSS kapsamındaki yükün büyük kısmı sağlayıcıya geçer." },
+  { icon: Building2, title: "Logo/Mikro/Netsis entegre", desc: "Başarılı ödeme sonrası otomatik e-Arşiv fatura kesilir, muhasebe sisteminize sync edilir; manuel veri girişi büyük ölçüde ortadan kalkar." },
   { icon: Banknote, title: "Marketplace ve abonelik", desc: "Çok satıcı pazaryeri için iyzico veya Param, abonelik SaaS için Stripe TR veya PayTR. İş modeline göre kurulum yapılır." }
 ];
 
@@ -250,11 +250,11 @@ const faqs = [
   },
   {
     q: "Birden fazla ödeme sağlayıcı kullanılabilir mi?",
-    a: "Evet. Bir sağlayıcının onaylamadığı kart için diğerine fallback yapılabilir (örneğin iyzico'nun reddettiği bir kart PayTR'ye düşer ve başarılı geçer, satış kaybedilmez). Taksitli işlemde uygun sağlayıcıya yönlendirilebilir, yurt dışı kart için Stripe'a yönlendirilebilir. Çoklu sağlayıcı routing kurulumu PORTZEN yaklaşımında standarttır."
+    a: "Evet. Bir sağlayıcının onaylamadığı kart için diğerine fallback yapılabilir (örneğin iyzico'nun reddettiği bir kart PayTR'ye yönlendirilip yeniden denenir, satış kaybı azalır). Taksitli işlemde uygun sağlayıcıya yönlendirilebilir, yurt dışı kart için Stripe'a yönlendirilebilir. Çoklu sağlayıcı routing kurulumunun kapsamı teklifte yazılı olarak belirtilir."
   },
   {
     q: "PCI DSS uyumluluğu beni nasıl etkiler?",
-    a: "Modern sağlayıcılar (iyzico, PayTR, Param, Stripe) tokenizasyon ile kart bilgilerini sitenizde hiç saklamadan işler; müşteri kart bilgisini sağlayıcının iframe'ine girer, size token döner, siz token ile işlem yaparsınız. Bu kurulumda PCI DSS uyumluluk yükü tamamen sağlayıcıdadır. Geleneksel sanal POS entegrasyonunda (Garanti, Akbank klasik POS) kart bilgisi sitenizden geçerse PCI DSS sertifikasyonu sizin sorumluluğunuza geçer, ciddi bir uyum yükü doğar. PORTZEN tüm kurulumlarında tokenizasyon yöntemini kullanır."
+    a: "Modern sağlayıcılar (iyzico, PayTR, Param, Stripe) tokenizasyon ile kart bilgilerini sitenizde hiç saklamadan işler; müşteri kart bilgisini sağlayıcının iframe'ine girer, size token döner, siz token ile işlem yaparsınız. Bu kurulumda PCI DSS kapsamındaki yükün büyük kısmı sağlayıcıya geçer. Geleneksel sanal POS entegrasyonunda (Garanti, Akbank klasik POS) kart bilgisi sitenizden geçerse PCI DSS sertifikasyonu sizin sorumluluğunuza geçer, ciddi bir uyum yükü doğar. PORTZEN tüm kurulumlarında tokenizasyon yöntemini kullanır."
   }
 ];
 
@@ -266,7 +266,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -279,13 +279,13 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-purple text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <CreditCard className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">iyzico Alternatifi</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   iyzico alternatifi, düşük komisyonlu ödeme sistemleri ve doğru seçim
                 </h1>
               </Reveal>
@@ -298,13 +298,13 @@ export default function Page() {
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
-                    Görüşme Al <ArrowUpRight className="h-4 w-4" />
+                    Teklif İsteyin <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/web-tasarim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     Web Tasarım <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -318,8 +318,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-purple text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -335,12 +335,12 @@ export default function Page() {
       </section>
 
       {/* 2. NEDEN ALTERNATİF */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                iyzico'nun 6 sınırı
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
+                iyzico&apos;nun 6 sınırı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
                 iyzico kötü değil, ama bazı işletmeler için artık optimal değil.
@@ -350,8 +350,8 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {painPoints.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-paper bg-brand-purple text-paper mb-4">
+                <div className="border-3 border-ink/10 bg-light p-5 h-full rounded-2xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-ink/10 bg-slate text-white mb-4 rounded-full">
                     <X className="h-5 w-5" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2">{p.title}</h3>
@@ -364,11 +364,11 @@ export default function Page() {
       </section>
 
       {/* 3. KARŞILAŞTIRMA TABLOSU */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Yan yana karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -378,12 +378,12 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">iyzico Standart</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN Multi-PSP</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN Multi-PSP</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -396,7 +396,7 @@ export default function Page() {
                           <span className="text-xs">{row.iyzico}</span>
                         </div>
                       </td>
-                      <td className="p-4 text-center text-sm bg-brand-yellow/30 text-ink">
+                      <td className="p-4 text-center text-sm bg-light text-ink">
                         <div className="flex flex-col items-center gap-1">
                           <Check className="h-4 w-4 text-green-700" />
                           <span className="text-xs font-bold">{row.portzen}</span>
@@ -410,22 +410,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak.</strong> iyzico dokümantasyonu (iyzico.com), PayTR ve Garanti Sanal POS kurumsal pazarlık deneyimleri, Ocak 2026 itibarıyla.
+              <strong>Kaynak.</strong> iyzico dokümantasyonu (iyzico.com), Ocak 2026 itibarıyla. Komisyon ve onay koşulları sağlayıcıya ve işletmeye göre değişir; güncel koşullar için sağlayıcıların kendi sayfaları esas alınmalıdır.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 4. PORTZEN ÇÖZÜMÜ */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Süreç
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Doğru sağlayıcıyı 7 günde nasıl seçer ve entegre ederiz?
+                Doğru sağlayıcıyı nasıl seçer ve entegre ederiz?
               </h2>
             </div>
           </Reveal>
@@ -434,8 +434,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -449,12 +449,12 @@ export default function Page() {
       </section>
 
       {/* 5. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                PORTZEN'in farkı
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                PORTZEN&apos;in farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 Tek sağlayıcı yerine, akıllı çoklu yapı
@@ -466,7 +466,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -479,10 +479,10 @@ export default function Page() {
       </section>
 
       {/* 6. USE CASES */}
-      <section className="bg-brand-purple text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
               Kullanım örnekleri
             </div>
           </Reveal>
@@ -496,36 +496,36 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  <strong>İstanbul, yüksek cirolu kozmetik markası.</strong> iyzico'da yüksek komisyon oranıyla çalışıyordu, taksitli işlemlerde daha da artıyordu. PORTZEN analizi: Garanti Sanal POS pazarlığı yapıldı, komisyon anlamlı ölçüde düşürüldü. iyzico fallback olarak tutuldu (Garanti reddederse iyzico'ya düşer, satış kaybı sıfır).
+                  <strong>Örnek senaryo: yüksek cirolu kozmetik markası.</strong> iyzico&apos;da standart komisyonla çalışıyor, taksitli işlemlerde oran daha da artıyor. PORTZEN analizinden sonra Garanti Sanal POS ile komisyon pazarlığı yapılır; iyzico yedek sağlayıcı olarak tutulur (Garanti reddederse işlem iyzico&apos;ya düşer, satış kaybı azaltılır).
                 </p>
                 <p>
-                  <strong>Ankara, B2B SaaS girişimi.</strong> Abonelik satıyordu, iyzico abonelik modülü kurulumu karmaşık geliyordu. PORTZEN, Stripe Atlas ile Delaware LLC kurulumunu yönlendirdi, Stripe ile otomatik tahsilat akışı kuruldu. Yurt içi satış için PayTR ikincil sağlayıcı olarak entegre edildi, abonelik churn yönetimi kolaylaştı.
+                  <strong>Örnek senaryo: B2B SaaS girişimi.</strong> Abonelik satıyor, iyzico abonelik modülü kurulumu karmaşık geliyor. Stripe Atlas ile kurulmuş Delaware LLC yapısı olan girişim için Stripe ile otomatik tahsilat akışı kurulur; yurt içi satış için PayTR ikincil sağlayıcı olarak entegre edilir.
                 </p>
                 <p>
-                  <strong>İzmir, butik moda markası.</strong> Taksitli satış payı yüksekti. iyzico taksit yükü artıyordu. PORTZEN, Akbank Sanal POS pazarlığı yaptı, taksit yapısı optimize edildi. Aynı gün havale opsiyonu eklendi, müşteriden gelen para haftalık değil günlük hesaba geçmeye başladı, nakit akışı rahatladı.
+                  <strong>Örnek senaryo: butik moda markası.</strong> Taksitli satış payı yüksek, iyzico&apos;da taksit maliyeti artıyor. Akbank Sanal POS ile pazarlık yapılır, taksit yapısı yeniden kurgulanır. Sağlayıcının sunduğu aynı gün havale seçeneği eklendiğinde ödemeler daha sık aralıklarla hesaba geçer.
                 </p>
                 <p>
-                  <strong>Bursa, ihracat yapan tekstil markası.</strong> Almanya ve Hollanda'dan yurt dışı satış alıyordu, iyzico yurt dışı kart reddi yüksekti, sepet terk oranı ciddi seviyedeydi. PORTZEN, Estonya e-Residency ile Stripe kurulumu yaptı, yabancı para hesabı açıldı, AB kartı kabulü belirgin şekilde arttı, sepet terk düştü.
+                  <strong>Örnek senaryo: ihracat yapan tekstil markası.</strong> Almanya ve Hollanda&apos;dan sipariş alıyor, yurt dışı kartlarda ret sorunu yaşıyor. Yurt dışı şirket yapısıyla (ör. Estonya e-Residency) Stripe kurulumu yapılır, yabancı para hesabı açılır; yurt dışı kartlar global sağlayıcı üzerinden işlenir.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Fallback routing</div>
                   <div className="font-display text-3xl font-black mb-1">Multi-PSP</div>
-                  <div className="text-sm">Reddedilen işlem başka sağlayıcıya düşer, satış kaybı sıfırlanır</div>
+                  <div className="text-sm">Reddedilen işlem başka sağlayıcıya düşer, satış kaybı azaltılır</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Entegre kanal</div>
                   <div className="font-display text-3xl font-black mb-1">PSP + CRM + e-Fatura</div>
                   <div className="text-sm">Sipariş, tahsilat ve muhasebe tek akışta senkron</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">PCI DSS</div>
-                  <div className="font-display text-3xl font-black text-brand-pink">Tokenizasyon</div>
-                  <div className="text-sm">Uyumluluk yükü sağlayıcıya devrolur, sitenizde kart saklanmaz</div>
+                  <div className="font-display text-3xl font-black text-ink">Tokenizasyon</div>
+                  <div className="text-sm">Sitenizde kart saklanmaz, PCI DSS yükünün büyük kısmı sağlayıcıdadır</div>
                 </div>
               </div>
             </Reveal>
@@ -534,11 +534,11 @@ export default function Page() {
       </section>
 
       {/* 7. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
@@ -549,7 +549,7 @@ export default function Page() {
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -559,23 +559,23 @@ export default function Page() {
 
           <Reveal delay={300}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <HeadphonesIcon className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <HeadphonesIcon className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">CRM Otomasyonu</h3>
                 <p className="text-sm opacity-85 mb-3">
                   Başarılı ödeme sonrası otomatik CRM kaydı, segmente göre kampanya akışı.
                 </p>
-                <Link href="/crm-otomasyonu" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/crm-otomasyonu" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   CRM Otomasyonu <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">Sosyal Medya Ajansı</h3>
                 <p className="text-sm opacity-85 mb-3">
                   Ödeme akışı tamamlandı, ziyaretçiyi nereden çekiyorsunuz?
                 </p>
-                <Link href="/sosyal-medya-ajansi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/sosyal-medya-ajansi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   Sosyal Medya <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
@@ -585,12 +585,12 @@ export default function Page() {
       </section>
 
       {/* 8. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Ödeme komisyonunuzu düşürelim, doğru sağlayıcıyı seçelim
+                Ödeme yapınızı inceleyelim, doğru sağlayıcıyı seçelim
               </h2>
             </Reveal>
             <Reveal delay={100}>
@@ -602,21 +602,21 @@ export default function Page() {
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
-                  Görüşme Al <ArrowUpRight className="h-4 w-4" />
+                  Teklif İsteyin <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905015884853"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  href="tel:+905318639117"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
                 </a>
@@ -626,7 +626,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

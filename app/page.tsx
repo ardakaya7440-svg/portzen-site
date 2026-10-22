@@ -1,355 +1,393 @@
 import Link from "next/link";
-import { ArrowUpRight, Play, Video, MessageSquare, Workflow, Sparkles, Globe } from "lucide-react";
+import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
+import { PriceOverview } from "@/components/pricing/PriceOverview";
+import { PRICING, SINGLE, formatTL } from "@/data/pricing";
+import { getPublicContent } from "@/server/cms";
+import { BrandStrip } from "@/components/cms/BrandStrip";
+import { ServiceGroups } from "@/components/cms/ServiceCards";
+import { WorksGrid } from "@/components/cms/Works";
+import { TestimonialGrid } from "@/components/cms/Testimonials";
+import { ProcessDiagram } from "@/components/visual/ProcessDiagram";
 
 /**
- * Anasayfa — design ekran görüntüsüne tam sadık.
- *
- * Hero (design):
- * - Sol: eyebrow "BEŞ AJANS YERINE TEK EKIP" + serif başlık "AI ile kurulan büyüme altyapısı"
- *        ("büyüme" turuncu italic serif vurgu) + açıklama + 2 CTA
- * - Sağ: 9:16 video iç içe sarı çerçeve içinde + "▶ LUXURY REELS · 00:20 LOOP" alt caption overlay
- * - Alt bant: kayan referans marka isimleri (Fraunces serif)
- *
- * Diğer bölümler: 5 hizmet, Cihangir vaka, AI örnek videolar, final CTA.
+ * Ana sayfa sırası: kısa giriş → marka şeridi → görselli hizmetler → seçilmiş işler → çalışma süreci
+ * → fiyat özeti → müşteri yorumları → SSS → iletişim.
+ * Fiyatlar src/data/pricing.ts'ten, logolar/yorumlar/işler/hizmet görselleri admin panelinden (src/server/cms.ts) gelir.
+ * Logo veya yayımlanmış yorum yoksa ilgili bölüm hiç çizilmez.
  */
 
-const SERVICES = [
-  { title: "AI Reklam Videosu", tagline: "Oyuncu ve stüdyo yok. 3 günde teslim.", href: "/yapay-zeka-video-uretimi", icon: Video, tone: "bg-brand-pink" },
-  { title: "WhatsApp AI Asistanı", tagline: "60 saniyede müşteriyi karşılayan asistan.", href: "/whatsapp-ai-asistani", icon: MessageSquare, tone: "bg-brand-green" },
-  { title: "Otomasyon & CRM", tagline: "Tekrarlı işleri %80 azaltan iş akışı.", href: "/crm-otomasyonu", icon: Workflow, tone: "bg-brand-blue" },
-  { title: "Sosyal Medya İçerik", tagline: "Aylık video + görsel + hikaye paketi.", href: "/sosyal-medya-yonetimi", icon: Sparkles, tone: "bg-brand-yellow" },
-  { title: "Web Tasarım", tagline: "Hızlı, satış odaklı, mobil uyumlu site.", href: "/web-tasarim", icon: Globe, tone: "bg-brand-orange" }
-] as const;
+const WHATSAPP = "https://wa.me/905318639117?text=" + encodeURIComponent("Merhaba, PORTZEN ile çalışmak istiyorum.");
+const WHATSAPP_TEKLIF = "https://wa.me/905318639117?text=" + encodeURIComponent("Merhaba, PORTZEN'den teklif almak istiyorum.");
 
-// Kayan bant — gerçek hizmet başlıkları, her biri kendi sayfasına bağlı
-const REFS: { label: string; href: string }[] = [
-  { label: "AI Reklam Videosu", href: "/yapay-zeka-video-uretimi" },
-  { label: "WhatsApp Asistanı", href: "/whatsapp-ai-asistani" },
-  { label: "Instagram DM Otomasyonu", href: "/instagram-dm-otomasyonu" },
-  { label: "CRM Otomasyonu", href: "/crm-otomasyonu" },
-  { label: "Sosyal Medya İçerik", href: "/sosyal-medya-yonetimi" },
-  { label: "Web Tasarım", href: "/web-tasarim" },
-  { label: "Meta Reklam Ajansı", href: "/meta-reklam-ajansi" },
-  { label: "AI Chatbot Türkçe", href: "/ai-chatbot-turkce" },
-  { label: "n8n Kurulum Hizmeti", href: "/n8n-kurulum-hizmeti" },
-  { label: "Yapay Zeka Call Center", href: "/yapay-zeka-call-center" }
+const STEPS = [
+  { title: "Yazın", text: "WhatsApp'tan ya da e-postayla ne istediğinizi kısaca anlatın. Uzun brief gerekmez." },
+  { title: "Görüşelim", text: "30 dakikalık ücretsiz görüşmede ihtiyacı netleştiririz. Ardından kapsam, süre ve fiyat içeren yazılı teklif göndeririz." },
+  { title: "Başlayalım", text: "Teklif onaylanınca işe başlarız. Her hafta nerede olduğumuzu görürsünüz; teslimden sonra da yanınızdayız." }
 ];
 
-const AI_EXAMPLES = [
-  { src: "/assets/videos/ai-video/sample-hero-a.mp4", caption: "Sinematik marka reklamı" },
-  { src: "/assets/videos/ai-video/sample-hero-b.mp4", caption: "Sektörel ürün odağı" },
-  { src: "/assets/videos/ai-video/sample-hero-c.mp4", caption: "Lifestyle sahne" }
+const FAQ = [
+  {
+    q: "Fiyatlar ne kadar?",
+    a: `Paket fiyatlarımız sitede yazılı ve KDV hariçtir. Örneğin sosyal medya yönetimi aylık ${formatTL(PRICING["sosyal-medya"].tiers.baslangic.price)} (Başlangıç), ${formatTL(PRICING["sosyal-medya"].tiers.buyume.price)} (Büyüme) ve ${formatTL(PRICING["sosyal-medya"].tiers.kurumsal.price)} (Kurumsal); kurumsal web sitesi ${formatTL(PRICING["kurumsal-web-sitesi"].tiers.baslangic.price)}'den itibaren üç paket. Özel web uygulaması ${formatTL(SINGLE["ozel-web-uygulamasi"].price)}'den, mobil uygulama ${formatTL(SINGLE["mobil-uygulama"].price)}'den başlar. Tüm paketler Fiyatlar sayfasında.`
+  },
+  {
+    q: "Sadece sosyal medya ya da sadece yazılım alabilir miyim?",
+    a: "Evet. İki hizmet birbirinden bağımsızdır. İkisini birlikte isteyen işletmelerde de tek ekip olarak çalışırız."
+  },
+  {
+    q: "Mevcut hesaplarımı veya sistemimi devralır mısınız?",
+    a: "Evet. Mevcut sosyal medya hesaplarınızı devralıp devam ederiz. Mevcut bir yazılımınız varsa önce inceler, üzerine geliştirme yapılıp yapılamayacağını söyleriz."
+  },
+  {
+    q: "Nerede çalışıyorsunuz?",
+    a: "İzmir merkezliyiz. Türkiye'nin her yerinden işletmelerle uzaktan çalışıyoruz; görüşmeler online yapılır."
+  },
+  {
+    q: "Ne kadar sürer?",
+    a: "Sosyal medya yönetiminin başlangıç tarihi ve yazılım projelerinin teslim süresi kapsama göre değişir; teklifte yazılı olarak belirtilir."
+  }
 ];
 
-export default function HomePage() {
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://portzenai.com/#faq",
+  mainEntity: FAQ.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a }
+  }))
+};
+
+/** Bölüm başlığı: numara + çizgi + rozet (Studiova) */
+function SectionTag({ n, label, dark = false }: { n: string; label: string; dark?: boolean }) {
   return (
-    <>
-      {/* ═════════════════════════════════════════════
-          HERO — design'a tam sadık
-          ═════════════════════════════════════════════ */}
-      <section className="relative overflow-hidden bg-paper">
-        <div className="mx-auto max-w-container px-6 pt-12 pb-16 md:pt-16 md:pb-20">
-          <div className="grid gap-10 lg:gap-16 lg:grid-cols-[1.15fr_1fr] items-center">
-            {/* Sol: Eyebrow + başlık + açıklama + CTA'lar */}
-            <div>
-              <Reveal>
-                <div className="inline-block border-3 border-ink bg-ink text-paper px-3 py-1.5 text-[11px] font-black uppercase tracking-[0.2em] mb-8 shadow-brutal-sm">
-                  Beş Ajans Yerine Tek Ekip
-                </div>
-              </Reveal>
+    <div className="flex items-center gap-6 py-2">
+      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-lime text-slate text-sm font-semibold">
+        {n}
+      </span>
+      <span className={`h-px w-12 ${dark ? "bg-white/20" : "bg-slate/20"}`} />
+      <span
+        className={`rounded-full px-3 py-1 text-xs font-semibold ${
+          dark ? "bg-white text-slate" : "bg-slate text-white"
+        }`}
+      >
+        {label}
+      </span>
+    </div>
+  );
+}
 
-              <Reveal delay={80}>
-                <h1 className="font-serif font-black text-ink leading-[1.02] tracking-tight text-[clamp(3rem,7vw,6.5rem)]">
-                  AI ile kurulan{" "}
-                  <span className="text-brand-orange italic font-normal">büyüme</span>{" "}
-                  altyapısı.
-                </h1>
-              </Reveal>
+function PillButton({
+  href,
+  children,
+  external = false,
+  tone = "lime"
+}: {
+  href: string;
+  children: React.ReactNode;
+  external?: boolean;
+  tone?: "lime" | "outline-dark" | "outline-light";
+}) {
+  const cls =
+    tone === "lime"
+      ? "bg-lime text-slate hover:bg-lime/90"
+      : tone === "outline-dark"
+        ? "border border-slate/20 text-slate hover:bg-slate hover:text-white"
+        : "border border-white/25 text-white hover:bg-white/10";
+  const circle = tone === "outline-light" ? "bg-white text-slate" : "bg-white text-slate";
+  const props = external ? { target: "_blank", rel: "noopener noreferrer" } : {};
+  const Comp: any = external ? "a" : Link;
+  return (
+    <Comp
+      href={href}
+      {...props}
+      className={`inline-flex items-center gap-3 rounded-full pl-6 pr-2 py-2 text-sm font-bold transition-colors ${cls}`}
+    >
+      {children}
+      <span className={`flex h-9 w-9 items-center justify-center rounded-full ${circle}`}>
+        <ArrowUpRight className="h-4 w-4" />
+      </span>
+    </Comp>
+  );
+}
 
-              <Reveal delay={160}>
-                <p className="mt-8 max-w-xl text-lg text-ink/75 leading-relaxed">
-                  Sosyal medya, WhatsApp asistanı, otomasyon, web. Hepsi tek ekipten, tek sistemde. Sen işine bak — altyapı bizden.
-                </p>
-              </Reveal>
+export default async function HomePage() {
+  const cms = await getPublicContent();
+  const hasBrands = cms.brands.some((b) => b.logo);
+  const hasReviews = cms.testimonials.length > 0;
+  // Görünen bölümlere göre sıra numarası
+  let n = 0;
+  const no = () => String(++n).padStart(2, "0");
+  return (
+    <div className="font-sans text-slate">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-              <Reveal delay={240}>
-                <div className="mt-10 flex flex-wrap items-center gap-4">
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-brand-yellow px-6 py-4 text-sm font-black uppercase tracking-wide text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
-                  >
-                    Görüşme Al
-                  </Link>
-                  <Link
-                    href="/referanslar"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-6 py-4 text-sm font-bold uppercase tracking-wide text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
-                  >
-                    Vaka Çalışmasını İzle
-                  </Link>
-                </div>
-              </Reveal>
+      {/* ───────── HERO ───────── */}
+      <section className="relative flex min-h-[calc(100svh-68px)] lg:min-h-[calc(100svh-76px)] items-end overflow-hidden bg-slate">
+        <video
+          src="/assets/hero/hero-studiova.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          className="absolute inset-0 h-full w-full object-cover"
+          aria-hidden
+        />
+        <div className="absolute inset-0 bg-black/40" aria-hidden />
+        <div className="relative mx-auto w-full max-w-container px-6 pb-14 lg:pb-20 pt-32">
+          <Reveal>
+            <div className="flex items-start gap-4 max-w-xl">
+              <span className="mt-1 h-7 w-7 shrink-0 rounded-full bg-lime" aria-hidden />
+              <p className="text-white/80 text-lg leading-relaxed">
+                Sosyal medyanızı <span className="text-lime">yönetiriz</span>. Yazılımınızı{" "}
+                <span className="text-lime">geliştiririz</span>. İzmir merkezli sosyal medya ve yazılım ajansı.
+              </p>
             </div>
-
-            {/* Sağ: 9:16 video iç içe çerçeve + LUXURY REELS caption */}
-            <Reveal delay={200}>
-              <div className="relative mx-auto lg:ml-auto lg:mr-0 w-full max-w-[420px]">
-                {/* Dış sarı çerçeve — offset */}
-                <div
-                  className="absolute inset-0 border-3 border-ink bg-brand-yellow translate-x-4 translate-y-4 rounded-[2rem]"
-                  aria-hidden
-                />
-                {/* İç çerçeve — video */}
-                <div className="relative border-3 border-ink bg-mute rounded-[2rem] overflow-hidden">
-                  <div className="aspect-[9/16] bg-ink/5 relative">
-                    <video
-                      src="/assets/hero/hero-bg.mp4"
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      preload="metadata"
-                      className="absolute inset-0 h-full w-full object-cover"
-                    />
-                    {/* Alt caption overlay — "▶ LUXURY REELS · 00:20 LOOP" */}
-                    <div className="absolute bottom-4 left-4 border-3 border-paper bg-ink text-paper px-3 py-1.5 flex items-center gap-2 shadow-[4px_4px_0_#FFFDF5]">
-                      <Play className="h-3.5 w-3.5 fill-paper" />
-                      <span className="text-[10px] font-black uppercase tracking-[0.15em]">
-                        Luxury Reels · 00:20 Loop
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Reveal>
-          </div>
-        </div>
-
-        {/* Alt bant — kayan hizmet linkleri (Fraunces serif, tıklanabilir) */}
-        <div className="border-t-3 border-b-3 border-ink bg-paper overflow-hidden">
-          <div className="marquee-track flex items-center gap-14 py-6 whitespace-nowrap">
-            {[...REFS, ...REFS, ...REFS].map((item, i) => (
-              <Link
-                key={i}
-                href={item.href}
-                className="font-serif text-2xl md:text-3xl font-bold italic text-ink/70 hover:text-brand-orange transition-colors tracking-tight"
+          </Reveal>
+          <Reveal delay={120}>
+            <div className="mt-6 flex items-end gap-4 flex-wrap">
+              <h1 className="text-white font-bold leading-[0.95] tracking-tight text-[clamp(3.5rem,12vw,9.5rem)]">
+                PORTZEN
+              </h1>
+              <a
+                href={WHATSAPP}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp'tan yazın"
+                className="mb-3 inline-flex items-center rounded-full bg-lime p-1 pl-7"
               >
-                {item.label}
-              </Link>
-            ))}
-          </div>
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-slate">
+                  <ArrowUpRight className="h-5 w-5" />
+                </span>
+              </a>
+            </div>
+          </Reveal>
         </div>
       </section>
 
-      {/* Marquee CSS — tek yerde inline */}
-      <style dangerouslySetInnerHTML={{ __html: `
-        .marquee-track {
-          animation: marquee 40s linear infinite;
-        }
-        @keyframes marquee {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-33.333%); }
-        }
-        @media (prefers-reduced-motion: reduce) {
-          .marquee-track { animation: none; }
-        }
-      `}} />
-
-      {/* ═════════════════════════════════════════════
-          HİZMETLER — 5 sade kart
-          ═════════════════════════════════════════════ */}
-      <section id="hizmetler" className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
+      {/* ───────── KISA GİRİŞ ───────── */}
+      <section className="relative overflow-hidden bg-white py-16 lg:py-24">
+        <div className="mx-auto max-w-container px-6 grid gap-10 xl:grid-cols-[1fr_2fr]">
           <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <h2 className="font-serif text-4xl md:text-5xl font-black leading-tight text-ink">
-                Ne <span className="italic font-normal text-brand-orange">yapıyoruz</span>.
-              </h2>
-              <p className="mt-3 text-body text-ink/70">
-                Beş hizmet, tek ekip. İşletmenin altyapısını tek koordinasyonla kuruyoruz.
-              </p>
-            </div>
+            <SectionTag n={no()} label="Kısa giriş" />
           </Reveal>
-
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {SERVICES.map((svc, i) => (
-              <Reveal key={svc.href} delay={i * 60}>
-                <Link
-                  href={svc.href}
-                  className={`group block border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full ${svc.tone} text-ink`}
-                >
-                  <div className="flex items-start justify-between mb-6">
-                    <div className="border-3 border-ink bg-paper text-ink p-2.5 shadow-brutal-sm">
-                      <svc.icon className="h-5 w-5" />
-                    </div>
-                    <ArrowUpRight className="h-5 w-5 opacity-60 group-hover:opacity-100 transition-opacity" />
-                  </div>
-                  <h3 className="font-display text-xl font-black leading-tight mb-2">{svc.title}</h3>
-                  <p className="text-sm opacity-85">{svc.tagline}</p>
-                </Link>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═════════════════════════════════════════════
-          VAKA — Cihangir Brasserie
-          ═════════════════════════════════════════════ */}
-      <section className="bg-ink text-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-yellow px-3 py-1 text-ink text-xs font-black uppercase tracking-[0.15em] mb-3 shadow-[6px_6px_0_#FFFDF5]">
-                Vaka Çalışması
-              </div>
-              <h2 className="font-serif text-4xl md:text-5xl font-black leading-tight">
-                Cihangir Brasserie —{" "}
-                <span className="italic font-normal text-brand-yellow">18 günde</span>{" "}
-                teslim.
-              </h2>
-              <p className="mt-3 text-body text-paper/80">
-                Online rezervasyon, dijital menü, harita entegrasyonu, atmosfer galerisi. Restoran sektörüne özel altyapı.
-              </p>
-            </div>
-          </Reveal>
-
-          <div className="grid gap-8 lg:grid-cols-[1.4fr_1fr] items-start">
+          <div className="flex flex-col gap-10">
             <Reveal>
-              <div className="relative">
-                <div className="absolute inset-0 bg-brand-yellow border-3 border-paper translate-x-3 translate-y-3" aria-hidden />
-                <div className="relative border-3 border-paper bg-paper aspect-video overflow-hidden">
-                  <video
-                    src="/assets/videos/referanslar/restoran-web-ornegi.mp4"
-                    poster="/assets/videos/referanslar/restoran-web-ornegi-poster.jpg"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    controls
-                    preload="metadata"
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold leading-tight max-w-2xl">
+                Sosyal medya, AI asistanlar ve yazılım. Tek ekip, tek muhatap.
+              </h2>
+              <p className="mt-6 text-lg text-slate/70 max-w-2xl leading-relaxed">
+                İçerikten reklama, WhatsApp asistanından web sitesine kadar işleri aynı ekip yürütür. Her hizmet tek başına
+                alınabilir; kapsam, süre ve fiyat baştan yazılıdır.
+              </p>
             </Reveal>
-
-            <div className="grid gap-4">
+            <div className="grid gap-6 sm:grid-cols-3">
               {[
-                { before: "220", after: "3.600", label: "Aylık organik trafik" },
-                { before: "%72", after: "%94", label: "Hafta sonu doluluk" },
-                { before: "6.8 sn", after: "1.2 sn", label: "Site yüklenme süresi" }
-              ].map((stat, i) => (
-                <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-paper bg-brand-yellow p-5 shadow-[6px_6px_0_#FFFDF5] text-ink">
-                    <div className="flex items-center gap-3 mb-1">
-                      <span className="text-lg font-black line-through opacity-50">{stat.before}</span>
-                      <ArrowUpRight className="h-5 w-5" />
-                      <span className="font-display text-4xl font-black leading-none">{stat.after}</span>
-                    </div>
-                    <div className="text-xs font-bold uppercase tracking-[0.15em] opacity-75">{stat.label}</div>
+                { big: "7 kişi", text: "İçerik, tasarım, video ve yazılım aynı ekipte" },
+                { big: "30 dk", text: "Ücretsiz ilk görüşme, online" },
+                { big: "Yazılı", text: "Kapsam, süre ve fiyat içeren teklif" }
+              ].map((s, i) => (
+                <Reveal key={s.big} delay={i * 100}>
+                  <div className="border-t border-slate/15 pt-6">
+                    <div className="text-4xl lg:text-5xl font-bold tracking-tight">{s.big}</div>
+                    <p className="mt-3 text-slate/70">{s.text}</p>
                   </div>
                 </Reveal>
               ))}
-
-              <Reveal delay={280}>
-                <Link
-                  href="/referanslar"
-                  className="inline-flex items-center gap-2 border-3 border-paper bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-[6px_6px_0_#FFFDF5] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                >
-                  Diğer Referanslar
-                  <ArrowUpRight className="h-4 w-4" />
-                </Link>
-              </Reveal>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ═════════════════════════════════════════════
-          AI VİDEO ÖRNEKLERİ
-          ═════════════════════════════════════════════ */}
-      <section className="bg-paper py-section border-t-3 border-ink">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <h2 className="font-serif text-4xl md:text-5xl font-black leading-tight text-ink">
-                AI ile <span className="italic font-normal text-brand-orange">ürettiğimiz</span> videolar.
-              </h2>
-              <p className="mt-3 text-body text-ink/70">
-                Oyuncu, stüdyo, ekipman yok. Marka mesajı ve ürün odağı var. 3 gün içinde teslim.
+      {/* ───────── MARKA ŞERİDİ (yalnızca logo varsa) ───────── */}
+      {hasBrands && (
+        <section aria-label="Markalar" className="border-t border-slate/10 bg-white py-12 lg:py-16">
+          <div className="mx-auto max-w-container px-6">
+            <BrandStrip brands={cms.brands} />
+          </div>
+        </section>
+      )}
+
+      {/* ───────── HİZMETLER ───────── */}
+      <section id="hizmetler" className="bg-white text-slate py-20 lg:py-28 border-t border-slate/10">
+        <div className="mx-auto max-w-container px-6 flex flex-col gap-12 lg:gap-16">
+          <div className="grid gap-8 xl:grid-cols-[1fr_2fr]">
+            <Reveal>
+              <SectionTag n={no()} label="Hizmetler" />
+            </Reveal>
+            <Reveal>
+              <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Üç alanda hizmet</h2>
+              <p className="mt-6 text-lg text-slate/70 max-w-2xl">
+                Sosyal medya ve içerik, AI ve otomasyon, web ve yazılım. Ayrıntılar, süreç ve paketler her hizmetin kendi
+                sayfasında.
               </p>
-            </div>
-          </Reveal>
-
-          <div className="grid gap-6 md:grid-cols-3">
-            {AI_EXAMPLES.map((v, i) => (
-              <Reveal key={v.src} delay={i * 80}>
-                <div className="border-3 border-ink bg-paper shadow-brutal overflow-hidden">
-                  <div className="aspect-[9/16] bg-ink">
-                    <video
-                      src={v.src}
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      preload="metadata"
-                      className="h-full w-full object-cover"
-                    />
-                  </div>
-                  <div className="p-4 border-t-3 border-ink">
-                    <div className="text-sm font-bold text-ink">{v.caption}</div>
-                  </div>
-                </div>
-              </Reveal>
-            ))}
+            </Reveal>
           </div>
+          <ServiceGroups visuals={cms.services} />
+        </div>
+      </section>
 
-          <Reveal delay={280}>
-            <div className="mt-10">
-              <Link
-                href="/yapay-zeka-video-uretimi"
-                className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
-              >
-                AI Video Detayları
-                <ArrowUpRight className="h-4 w-4" />
-              </Link>
-            </div>
+      {/* ───────── SEÇİLMİŞ İŞLER ───────── */}
+      <section id="isler" className="bg-white py-20 lg:py-28 border-t border-slate/10">
+        <div className="mx-auto max-w-container px-6 flex flex-col gap-12">
+          <div className="grid gap-8 xl:grid-cols-[1fr_2fr]">
+            <Reveal>
+              <SectionTag n={no()} label="Seçilmiş işler" />
+            </Reveal>
+            <Reveal>
+              <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Neler üretiyoruz</h2>
+              <p className="mt-6 text-lg text-slate/70 max-w-2xl">
+                İçerik, akış ve ekran örnekleri. “Demo” etiketli kartlar temsili örneklerdir.
+              </p>
+            </Reveal>
+          </div>
+          <WorksGrid works={cms.works} />
+        </div>
+      </section>
+
+      {/* ───────── ÇALIŞMA SÜRECİ ───────── */}
+      <section id="nasil" className="bg-white py-20 lg:py-28 border-t border-slate/10">
+        <div className="mx-auto max-w-container px-6 flex flex-col gap-12 lg:gap-16">
+          <div className="grid gap-8 xl:grid-cols-[1fr_2fr]">
+            <Reveal>
+              <SectionTag n={no()} label="Süreç" />
+            </Reveal>
+            <Reveal>
+              <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Nasıl çalışıyoruz</h2>
+              <p className="mt-6 text-lg text-slate/70">Üç adım. Uzun brief, uzun form yok.</p>
+            </Reveal>
+          </div>
+          <Reveal>
+            <ProcessDiagram steps={STEPS} />
           </Reveal>
         </div>
       </section>
 
-      {/* ═════════════════════════════════════════════
-          FINAL CTA
-          ═════════════════════════════════════════════ */}
-      <section className="py-section">
-        <div className="mx-auto max-w-container px-6">
+      {/* ───────── FİYAT ÖZETİ ───────── */}
+      <section id="fiyatlar" className="bg-white py-20 lg:py-32 border-t border-slate/10">
+        <div className="mx-auto max-w-container px-6 flex flex-col gap-12 lg:gap-16">
+          <div className="grid gap-8 xl:grid-cols-[1fr_2fr]">
+            <Reveal>
+              <SectionTag n={no()} label="Fiyatlar" />
+            </Reveal>
+            <Reveal>
+              <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Net paketler, yazılı fiyatlar</h2>
+              <p className="mt-6 text-lg text-slate/70 max-w-2xl">
+                Her hizmette üç paket. Çoğu işletme için Büyüme paketini öneriyoruz. Tutarlar TL ve KDV hariçtir; kurulum
+                bedelleri fiyatın yanında yazılıdır.
+              </p>
+            </Reveal>
+          </div>
           <Reveal>
-            <div className="relative">
-              <div className="absolute inset-0 border-3 border-ink bg-brand-yellow translate-x-3 translate-y-3" aria-hidden />
-              <div className="relative border-3 border-ink bg-paper p-8 md:p-16">
-                <div className="max-w-2xl">
-                  <h2 className="font-serif text-4xl md:text-5xl font-black leading-tight text-ink">
-                    <span className="italic font-normal text-brand-orange">Görüşme</span> al.
-                  </h2>
-                  <p className="mt-3 text-body text-ink/80">
-                    30 dakikalık analiz görüşmesi. İşletmenize hangi hizmetin en hızlı sonuç vereceğini birlikte belirleyelim.
-                  </p>
-                  <div className="mt-6">
-                    <Link
-                      href="/iletisim"
-                      className="inline-flex items-center gap-2 border-3 border-ink bg-brand-yellow px-6 py-4 text-sm font-black uppercase tracking-wide text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
-                    >
-                      Görüşme Al
+            <PriceOverview />
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ───────── MÜŞTERİ YORUMLARI (yalnızca yayımlanmış yorum varsa) ───────── */}
+      {hasReviews && (
+        <section id="yorumlar" className="bg-white py-20 lg:py-28 border-t border-slate/10">
+          <div className="mx-auto max-w-container px-6 flex flex-col gap-12">
+            <div className="grid gap-8 xl:grid-cols-[1fr_2fr]">
+              <Reveal>
+                <SectionTag n={no()} label="Müşteri yorumları" />
+              </Reveal>
+              <Reveal>
+                <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Müşterilerimiz ne diyor</h2>
+              </Reveal>
+            </div>
+            <TestimonialGrid items={cms.testimonials} />
+          </div>
+        </section>
+      )}
+
+      {/* ───────── SSS ───────── */}
+      <section id="sss" className="bg-white py-20 lg:py-32 border-t border-slate/10">
+        <div className="mx-auto max-w-container px-6 flex flex-col gap-12 lg:gap-20">
+          <div className="grid gap-8 xl:grid-cols-[1fr_2fr]">
+            <Reveal>
+              <SectionTag n={no()} label="Sık sorulanlar" />
+            </Reveal>
+            <Reveal>
+              <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Kısa cevaplar</h2>
+              <p className="mt-6 text-lg text-slate/70">Görüşmeden önce en çok sorulanlar.</p>
+            </Reveal>
+          </div>
+          <div className="xl:grid xl:grid-cols-[1fr_2fr]">
+            <div className="hidden xl:block" />
+            <Reveal>
+              <div className="divide-y divide-slate/15 border-y border-slate/15">
+                {FAQ.map((f) => (
+                  <details key={f.q} className="group">
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-6 py-5 text-lg font-bold [&::-webkit-details-marker]:hidden">
+                      {f.q}
+                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-slate/20 text-xl font-light transition-transform group-open:rotate-45">
+                        +
+                      </span>
+                    </summary>
+                    <p className="pb-6 text-slate/70 max-w-2xl leading-relaxed">{f.a}</p>
+                  </details>
+                ))}
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* ───────── İLETİŞİM ───────── */}
+      <section id="iletisim" className="bg-white py-20 lg:py-32 border-t border-slate/10">
+        <div className="mx-auto max-w-container px-6 flex flex-col gap-12 lg:gap-16">
+          <div className="grid gap-8 xl:grid-cols-[1fr_2fr]">
+            <Reveal>
+              <SectionTag n={no()} label="İletişim" />
+            </Reveal>
+            <Reveal>
+              <h2 className="text-4xl lg:text-5xl font-bold leading-tight max-w-2xl">
+                Ne yapmak istediğinizi yazın. En kısa sürede dönüş yapıyoruz.
+              </h2>
+            </Reveal>
+          </div>
+          <div className="grid gap-10 xl:grid-cols-[1fr_2fr]">
+            <Reveal>
+              <p className="text-lg text-slate/70">En hızlısı WhatsApp. Form da olur; ikisi de aynı yere düşer.</p>
+            </Reveal>
+            <Reveal delay={100}>
+              <div className="flex flex-col gap-8">
+                <div className="flex flex-wrap gap-3">
+                  <a
+                    href={WHATSAPP_TEKLIF}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-3 rounded-full bg-[#25D366] pl-6 pr-2 py-2 text-sm font-bold text-[#0b1a10] hover:brightness-105"
+                  >
+                    WhatsApp&apos;tan yazın
+                    <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white text-slate">
                       <ArrowUpRight className="h-4 w-4" />
-                    </Link>
-                  </div>
+                    </span>
+                  </a>
+                  <PillButton href="/iletisim" tone="outline-dark">
+                    Formu doldurun
+                  </PillButton>
+                </div>
+                <div className="flex flex-col gap-2 text-[15px]">
+                  <a href="tel:+905318639117" className="inline-flex items-center gap-3 hover:text-slate/60">
+                    <Phone className="h-4 w-4" /> +90 531 863 91 17
+                  </a>
+                  <a href="mailto:destek@portzenai.com" className="inline-flex items-center gap-3 hover:text-slate/60">
+                    <Mail className="h-4 w-4" /> destek@portzenai.com
+                  </a>
+                  <span className="inline-flex items-center gap-3 text-slate/70">
+                    <MapPin className="h-4 w-4" /> İzmir, Türkiye
+                  </span>
                 </div>
               </div>
-            </div>
-          </Reveal>
+            </Reveal>
+          </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

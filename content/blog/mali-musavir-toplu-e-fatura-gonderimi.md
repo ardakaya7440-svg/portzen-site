@@ -15,7 +15,7 @@ ogImage: "/blog/og/mali-musavir-toplu-e-fatura-gonderimi.png"
 
 Mali müşavir ofisi işletmek, mevzuat değişikliklerini takip etmek, müşterilerden belge toplamak ve beyannameleri zamanında vermek arasında sürekli koşmak demek. Ortalama 80-150 müşteriyle çalışan bir SMMM ofisi, her ay yaklaşık 600-1.200 e-fatura kesiyor, 80-150 KDV beyannamesi veriyor, 80-150 muhtasar beyannamesi gönderiyor, 3 ayda bir geçici vergi, yılda bir kurumlar ve gelir beyannameleri hazırlıyor. Tüm bu işlemler manuel yapıldığında ay başında ofis cehenneme dönüyor; gece 02:00'a kadar çalışılan günler oluyor.
 
-Otomasyon sistemleri bu yükü ortadan kaldırırken hata oranını da minimize ediyor. Doğru kurulmuş bir altyapı, müşteri belgelerinin WhatsApp üzerinden otomatik toplanmasını, e-faturaların GİB sistemine toplu gönderilmesini, KDV ve geçici vergi beyannamelerinin hazırlanmasını, müşteri portalı üzerinden takip edilmesini sağlar. PORTZEN olarak son 3 yılda 35'in üzerinde SMMM, YMM, muhasebe bürosu ve danışmanlık firması ile çalıştık; bu rehberde sahada test edilmiş ve ofislerin verimliliğini iki katına çıkardığı kanıtlanmış sistemleri paylaşacağız.
+Otomasyon sistemleri bu yükü ortadan kaldırırken hata oranını da minimize ediyor. Doğru kurulmuş bir altyapı, müşteri belgelerinin WhatsApp üzerinden otomatik toplanmasını, e-faturaların GİB sistemine toplu gönderilmesini, KDV ve geçici vergi beyannamelerinin hazırlanmasını, müşteri portalı üzerinden takip edilmesini sağlar. Bu rehberde PORTZEN olarak SMMM, YMM, muhasebe bürosu ve danışmanlık firmaları için önerdiğimiz sistemin parçalarını, hangi adımların otomatikleştiğini ve ofisin iş akışında neyin değiştiğini paylaşacağız.
 
 ## Mali Müşavir Ofisinin Gerçek İş Yükü
 
@@ -43,7 +43,7 @@ E-fatura otomasyonu mali müşavir ofisinde en büyük zaman tasarrufu sağlayan
 
 ### Müşteri Belgelerinin Toplanması
 
-Müşteri WhatsApp üzerinden gelir-gider belgelerinin fotoğrafını gönderir. OCR (Optical Character Recognition) teknolojisi belgeyi okur, tarih, tutar, KDV, müşteri/satıcı bilgisi gibi alanları çıkarır. Bu veri otomatik olarak muhasebe yazılımına aktarılır. Belge başına 5 dakikalık manuel işlem 30 saniyeye iner.
+Müşteri WhatsApp üzerinden gelir-gider belgelerinin fotoğrafını gönderir. OCR (Optical Character Recognition) teknolojisi belgeyi okur, tarih, tutar, KDV, müşteri/satıcı bilgisi gibi alanları çıkarır. Bu veri otomatik olarak muhasebe yazılımına aktarılır. Personel belgeyi baştan yazmak yerine yalnızca çıkarılan veriyi kontrol eder.
 
 ### E-Fatura Hazırlama
 
@@ -51,7 +51,7 @@ Müşterinin satış faturaları için sistem otomatik e-fatura üretir. Müşte
 
 ### Toplu Gönderim
 
-GİB'e gönderim toplu yapılır. Sabah saat 09:00'da 200 müşterinin tüm faturaları tek seferde GİB sistemine gönderilir. Manuel gönderimde 200 fatura yaklaşık 6-8 saat sürerken otomatik gönderimle 15-20 dakikada tamamlanır.
+GİB'e gönderim toplu yapılır. Sabah saat 09:00'da 200 müşterinin tüm faturaları tek seferde GİB sistemine gönderilir. Manuel gönderimde saatler süren tek tek gönderim yerine faturalar tek seferde kuyruğa alınır ve sonuçları sistemde izlenir.
 
 ### Gönderim Onayları ve Hata Yönetimi
 
@@ -71,7 +71,7 @@ Ay sonunda sistem müşterinin gelir-gider hareketlerinden KDV beyannamesini oto
 
 ### Geçici Vergi ve Kurumlar Vergisi
 
-3 aylık dönem sonlarında geçici vergi beyannamesi taslağı otomatik hazırlanır. Müşteri onayı, gönderim, ödeme planı tek pencereden yönetilir. Yıllık kurumlar vergisi beyannamesi için 12 aylık tüm veriler toplanıp birleştirilir; manuel kontrol süresi 10 saatten 1-2 saate iner.
+3 aylık dönem sonlarında geçici vergi beyannamesi taslağı otomatik hazırlanır. Müşteri onayı, gönderim, ödeme planı tek pencereden yönetilir. Yıllık kurumlar vergisi beyannamesi için 12 aylık tüm veriler toplanıp birleştirilir; personel dağınık dosyalar yerine tek bir taslak üzerinden kontrol yapar.
 
 ### Gönderim Takvimi ve Hatırlatma
 
@@ -107,7 +107,7 @@ Modern muhasebe yazılımlarının çoğu API sunar. Bu API üzerinden müşteri
 
 ### Toplu Veri Aktarımı
 
-API olmayan eski yazılımlar için CSV/Excel toplu aktarım kullanılır. Günde 1-2 kez otomatik veri çekilir, sisteme aktarılır. Manuel kopya-yapıştır yöntemine kıyasla 10 kat daha hızlı.
+API olmayan eski yazılımlar için CSV/Excel toplu aktarım kullanılır. Günde 1-2 kez otomatik veri çekilir, sisteme aktarılır. Böylece manuel kopya-yapıştır adımı ortadan kalkar.
 
 ### Banka Hareket Entegrasyonu
 
@@ -155,7 +155,7 @@ Vergi Usul Kanunu kapsamında muhasebe belgeleri 5 yıl, beyannameler 10 yıl sa
 
 ### E-Fatura ve E-Defter Zorunluluğu
 
-2023 yılından itibaren ciro 3 milyon TL üzeri tüm mükellefler e-fatura zorunlu. E-defter zorunluluğu da yaygınlaşıyor. Otomasyon sistemi GİB'in özel entegratör listesinde yer almalı veya entegratör hizmeti almalı. [PORTZEN'in geliştirdiği özel CRM altyapısı](/crm-otomasyonu) bu entegrasyonları paket olarak sunuyor.
+2023 yılından itibaren ciro 3 milyon TL üzeri tüm mükellefler e-fatura zorunlu. E-defter zorunluluğu da yaygınlaşıyor. Otomasyon sistemi GİB'in özel entegratör listesinde yer almalı veya entegratör hizmeti almalı. PORTZEN'in [CRM otomasyonu](/crm-otomasyonu) kurulumlarında entegratörünüzle bağlantı, iş otomasyonu paketlerindeki uygulama bağlantısı ve (Kurumsal pakette) özel API bağlantısı hakları içinde kurulur; entegratör hizmet ücreti ayrıca ödenir.
 
 ## Maliyet ve Geri Dönüş Hesabı
 
@@ -163,19 +163,19 @@ Sistem kurulumunun finansal boyutu.
 
 ### Kurulum Maliyetleri
 
-CRM ve müşteri portalı geliştirme: 35.000-80.000 TL tek seferlik. Muhasebe yazılımı entegrasyonu: 10.000-25.000 TL. WhatsApp Business API entegrasyonu: 5.000-12.000 TL. OCR belge okuma altyapısı: 8.000-20.000 TL. Aylık yazılım ücreti: 2.500-6.000 TL. WhatsApp mesaj başına: 0,15-0,35 TL. İlk yıl yatırım: 80.000-180.000 TL bandında.
+Piyasada tipik kalemler şöyle: CRM ve müşteri portalı geliştirme 35.000-80.000 TL tek seferlik, muhasebe yazılımı entegrasyonu 10.000-25.000 TL, WhatsApp Business API entegrasyonu 5.000-12.000 TL, OCR belge okuma altyapısı 8.000-20.000 TL, aylık yazılım ücreti 2.500-6.000 TL, WhatsApp mesaj başına 0,15-0,35 TL; sektörde ilk yıl yatırımı 80.000-180.000 TL bandında. PORTZEN'in paket fiyatları için aşağıdaki SSS bölümüne ve [fiyatlar sayfasına](/fiyatlar) bakabilirsiniz.
 
 ### Zaman Tasarrufu
 
-Tipik 100 müşterili SMMM ofisinde manuel iş yükü ayda 280-340 saat. Otomasyonla bu süre 120-150 saate iner. Yıllık 1.800-2.300 saat tasarruf; personel başına 80.000-120.000 TL gizli maliyet kurtarımı.
+Tipik 100 müşterili SMMM ofisinde manuel iş yükü ayda 280-340 saat. Otomasyon bu yükün tekrarlı kısmını (belge toplama, veri girişi, toplu gönderim, durum bildirimi ve hatırlatmalar) akışa taşır; personelin zamanı kontrol ve danışmanlık işine kalır. Ofisinizdeki gerçek tasarruf, müşteri sayınız ve aylık belge/beyanname hacminiz üzerinden ayrıca hesaplanmalıdır.
 
 ### Müşteri Kapasitesi Artışı
 
-Aynı personel kadrosuyla müşteri sayısı yüzde 60-80 artırılabilir. 100 müşteriden 170-180 müşteriye çıkmak yıllık ek 700.000-1.200.000 TL ciro demek. Yatırım geri dönüşü 4-8 ay arasında.
+Rutin işler otomatik akışa taşındığında aynı personel kadrosu daha fazla müşteriye zaman ayırabilir. Kapasitenin ne ölçüde artacağı ve yatırımın geri dönüş süresi ofisin müşteri yapısına ve hangi modüllerin kurulduğuna göre değişir; bu hesabı ilk görüşmede sizin verilerinizle yapıyoruz.
 
 ### Hata Maliyeti Azalması
 
-Manuel sistemde beyanname hata oranı yüzde 8-12 bandında; her hata 5.000-25.000 TL ceza, müşteri kaybı, prestij zedelenmesi demek. Otomasyon hata oranını yüzde 1-2'ye düşürür; yıllık ortalama 150.000-400.000 TL kayıp önler.
+Manuel sistemde beyanname hata oranı yüzde 8-12 bandında; her hata 5.000-25.000 TL ceza, müşteri kaybı, prestij zedelenmesi demek. Otomasyon, veri girişi ve kopyalama kaynaklı hataları azaltmaya yardımcı olur: veriler tek kaynaktan aktarılır, eksik alanlar ve GİB'den dönen hatalar personele uyarı olarak düşer, son kontrol yine müşavirde kalır.
 
 ## Yaygın Hatalar
 
@@ -194,15 +194,15 @@ Manuel sistemde beyanname hata oranı yüzde 8-12 bandında; her hata 5.000-25.0
 
 ### Küçük bir SMMM ofisi (40-60 müşteri) için bu sistem mantıklı mı?
 
-Evet. Küçük ofisin en büyük problemi büyüyememe; otomasyon büyüme kapasitesini iki katına çıkarır. Başlangıç paketi 50.000-80.000 TL bandında, 6-10 ay içinde yatırımını çıkarır. Önemli olan baştan ölçeklenebilir bir altyapı kurmak.
+Evet. Küçük ofisin en büyük problemi büyüyememe; otomasyon rutin işleri akışa taşıyarak aynı ekiple daha fazla müşteriye zaman ayırmayı kolaylaştırır. PORTZEN'in iş otomasyonu paketleri {{fiyatlar:is-otomasyonu}}; isteğe bağlı aylık bakım ikinci aydan itibaren {{bakim:baslangic}} / {{bakim:buyume}} / {{bakim:kurumsal}} (KDV hariç); hangisinin yeteceği akış ve entegrasyon sayısına bağlıdır. Önemli olan baştan ölçeklenebilir bir altyapı kurmak.
 
 ### Hangi muhasebe yazılımı en uyumlu?
 
-Logo Tiger ve Mikro Fly modern API'leri ile öne çıkıyor. Netsis ve ETA de iyi entegrasyonlar sunuyor. Luca, son yıllarda hızla gelişen Türk yazılımı. PORTZEN olarak tüm bu yazılımlarla entegrasyon paketleri geliştirdik; mevcut yazılımınızı değiştirmeden otomasyon kurulabilir.
+Logo Tiger ve Mikro Fly modern API'leri ile öne çıkıyor. Netsis ve ETA de iyi entegrasyonlar sunuyor. Luca, son yıllarda hızla gelişen Türk yazılımı. PORTZEN olarak bu yazılımlarla entegrasyon deneyimimiz var; bağlantılar iş otomasyonu paketlerinin uygulama bağlantısı ve özel API hakları içinde kurulur, mevcut yazılımınızı değiştirmeden otomasyon kurulabilir.
 
 ### Müşterilerim teknolojiye uzak, kullanır mı?
 
-Müşterinin sadece WhatsApp kullanması yeterli. Portal müşteriye sunulur ancak zorunlu değildir; WhatsApp üzerinden tüm işlemler yapılabilir. Yaş ortalaması 55+ olan müşteri kitlesinde bile yüzde 80+ kullanım yakaladık.
+Müşterinin sadece WhatsApp kullanması yeterli. Portal müşteriye sunulur ancak zorunlu değildir; WhatsApp üzerinden tüm işlemler yapılabilir. Bu sayede teknolojiye uzak müşteriler de belge gönderme ve bildirim alma adımlarını zaten alışkın oldukları kanaldan yürütebilir.
 
 ### KDV beyannamesinin yasal sorumluluğu kimde?
 
@@ -210,7 +210,7 @@ Sistem hazırlasa da son onay ve gönderim mali müşavirin sorumluluğunda. Oto
 
 ### E-defter ve e-arşive geçmek için ne yapmalıyım?
 
-GİB'in özel entegratör listesindeki firmalardan hizmet alabilir veya kendi sistemini kurabilirsiniz. PORTZEN olarak entegratör firmalar ile çalışan müşterilerimizin entegrasyonunu paket olarak sunuyoruz. [Web tasarım hizmeti](/web-tasarim) ile birlikte müşteri portalını da kurabiliyoruz.
+GİB'in özel entegratör listesindeki firmalardan hizmet alabilir veya kendi sistemini kurabilirsiniz. PORTZEN olarak entegratör firmalar ile çalışan müşterilerimizin entegrasyonunu iş otomasyonu paketleri kapsamında kuruyoruz. Müşteri portalı ise özel web uygulaması olarak ayrıca tekliflendirilir ({{tekil:ozel-web-uygulamasi}}, KDV hariç).
 
 ### Hata olduğunda kim sorumlu?
 
@@ -218,8 +218,8 @@ Otomasyon sistemi hata yapsa da yasal sorumluluk mesleki sahip üyededir. Bu yü
 
 ## PORTZEN ile Mali Müşavir Otomasyonu Kurmak
 
-Mali müşavirlik mesleği değişen mevzuat, artan müşteri beklentileri ve sıkışan zaman arasında dengelenen bir uğraş. Otomasyon, bu mesleğin geleceğini kuracak en kritik araç. Doğru kurulmuş bir altyapı, ofisinizin kapasitesini iki katına çıkarır, personelinizin gece çalışma alışkanlığını sona erdirir, müşteri memnuniyetinizi yükseltir, hata oranınızı sıfıra yakın indirir.
+Mali müşavirlik mesleği değişen mevzuat, artan müşteri beklentileri ve sıkışan zaman arasında dengelenen bir uğraş. Otomasyon, bu mesleğin geleceğini kuracak en kritik araç. Doğru kurulmuş bir altyapı; belge toplama, toplu gönderim, hatırlatma ve müşteri bilgilendirme adımlarını otomatik akışa taşır, personelin zamanını kontrol ve danışmanlık işine bırakır.
 
-PORTZEN olarak SMMM, YMM, muhasebe bürosu ve mali danışmanlık firmaları için özel olarak geliştirdiğimiz otomasyon altyapısını 4-8 hafta içinde devreye alıyoruz. E-fatura toplu gönderim, beyanname hazırlama, müşteri portalı, OCR belge okuma, WhatsApp entegrasyonu ve mevzuat takibi paketin standardında geliyor. [Sosyal medya ajansı](/sosyal-medya-ajansi) hizmetimiz ile yeni müşteri kazanımını da entegre kurguluyoruz.
+PORTZEN olarak SMMM, YMM, muhasebe bürosu ve mali danışmanlık firmaları için otomasyon altyapısını kademeli olarak devreye alıyoruz. E-fatura toplu gönderim, beyanname hazırlık akışları ve OCR belge okuma iş otomasyonu paketleriyle, WhatsApp tarafı AI müşteri asistanı paketleriyle, müşteri portalı ise özel web uygulaması olarak kurulur; her parça kendi paketiyle fiyatlanır, güncel tutarlar [fiyatlar sayfasında](/fiyatlar). [Sosyal medya ajansı](/sosyal-medya-ajansi) hizmetimiz ile yeni müşteri kazanımını da entegre kurguluyoruz.
 
 Ofisiniz için hangi modülün öncelikli olduğunu, mevcut iş yükünüzden ne kadar tasarruf edebileceğinizi ve yatırımın geri dönüş süresini netleştirmek için [iletişim sayfamız](/iletisim) üzerinden ücretsiz keşif görüşmesi planlayın. 30 dakikalık görüşmede ofisinizin mevcut süreçlerini analiz edip size özel yol haritası hazırlayalım.

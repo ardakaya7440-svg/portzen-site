@@ -15,7 +15,7 @@ ogImage: "/blog/og/avukat-dijital-pazarlama-etik.png"
 
 Avukatlık mesleği, Türkiye Barolar Birliği (TBB) Meslek Kurallarının çizdiği etik sınırlar içinde yürütülen, reklam yasağı altındaki özel bir alandır. Buna rağmen 2026 itibarıyla potansiyel müvekkillerin neredeyse tamamı Google, Instagram ya da WhatsApp üzerinden hukuk bürosu araştırıyor. Bu iki gerçek arasındaki gerilim, çoğu avukatın dijital pazarlamadan uzak durmasına ya da yanlış araçlarla etik sınırı zorlamasına yol açıyor. Oysa doğru kurgulanmış bir dijital sistem, reklam yapmadan da bürosunu güvenilir bir referans noktasına dönüştürebilir.
 
-PORTZEN olarak İzmir başta olmak üzere Türkiye genelindeki hukuk bürolarıyla çalışırken gördüğümüz tablo net. Mevcut müvekkil ilişkileri WhatsApp üzerinden yürüyor, yeni müvekkil aramaları Google'dan geliyor, ancak büronun bunu yönetecek altyapısı yok. Sekreter telefonu açıyor, vekalet süreci hâlâ kağıt üzerinde dönüyor, web sitesi 2014'ten kalma statik bir kartvizit. Bu yazıda hukuk bürolarının 2026'da etik sınırlar içinde nasıl bir dijital varlık inşa edebileceğini, hangi araçların gerçekten faydalı olduğunu ve müvekkil kazanım sistemini nasıl kuracağını ele alacağız. Konuyu reklam değil, bilgi paylaşımı ve süreç yönetimi perspektifinden işleyeceğiz çünkü TBB kuralları bu çerçevede serbestlik tanıyor.
+Pek çok hukuk bürosunda tablo benzer. Mevcut müvekkil ilişkileri WhatsApp üzerinden yürüyor, yeni müvekkil aramaları Google'dan geliyor, ancak büronun bunu yönetecek altyapısı yok. Sekreter telefonu açıyor, vekalet süreci hâlâ kağıt üzerinde dönüyor, web sitesi 2014'ten kalma statik bir kartvizit. Bu yazıda hukuk bürolarının 2026'da etik sınırlar içinde nasıl bir dijital varlık inşa edebileceğini, hangi araçların gerçekten faydalı olduğunu ve müvekkil kazanım sistemini nasıl kuracağını ele alacağız. Konuyu reklam değil, bilgi paylaşımı ve süreç yönetimi perspektifinden işleyeceğiz çünkü TBB kuralları bu çerçevede serbestlik tanıyor.
 
 ## TBB Etik Kuralları ve Dijital Pazarlamanın Sınırları
 
@@ -98,7 +98,7 @@ Dijital sistemde KVKK uyumu için şunlar gerekli.
 - WhatsApp ve CRM'de saklanan verinin amaç dışı kullanılmaması
 - Veri saklama sürelerinin tanımlı olması
 - VERBİS kaydının yapılmış olması (kapsama giriyorsa)
-- Müvekkil verisinin yurtdışı sunucuda tutulmaması (tercihen yurt içi sunucu)
+- Müvekkil verisinin hangi sağlayıcıda ve bölgede tutulduğunun bilinmesi; yurt dışında tutuluyorsa KVKK'daki yurt dışı aktarım şartlarına uyulması
 
 PORTZEN olarak hukuk bürolarına kurduğumuz sistemlerde verinin nerede tutulduğu, kimin eriştiği ve nasıl şifrelendiği konusunda şeffaflık sağlıyoruz. [KVKK ve müşteri verisi rehberi](/blog/kvkk-musteri-verisi-rehberi) yazımız konuya genel bir bakış sağlıyor, ancak hukuk büroları için ek dikkat noktaları var.
 
@@ -136,7 +136,7 @@ Türkiye'deki hukuk bürolarının dijital yatırım aralıkları büronun büy�
 - 2-5 avukatlık orta büyüklükte büro: 8.000-20.000 TL aylık (içerik, sosyal medya, WhatsApp altyapısı)
 - 5+ avukatlık büyük büro: 20.000-50.000 TL aylık (içerik, SEO, CRM, asistan, marka çalışması)
 
-Bu rakamlar PORTZEN gibi profesyonel bir ajansla çalışıldığında geçerli, freelance kişilerle daha düşük olabilir ancak süreklilik ve etik konularında risk artıyor. Web sitesi maliyetlerinin detayı için [İzmir web tasarım fiyatları 2026](/blog/izmir-web-tasarim-fiyatlari-2026) yazımız faydalı.
+Bu rakamlar piyasada profesyonel ajanslarla çalışıldığında görülen aralıklardır; freelance kişilerle daha düşük olabilir ancak süreklilik ve etik konularında risk artıyor. PORTZEN'de sosyal medya yönetimi paketleri {{fiyatlar:sosyal-medya}} (KDV hariç); web sitesi ve diğer hizmetler [fiyatlar sayfasında](/fiyatlar). Web sitesi maliyetlerinin detayı için [İzmir web tasarım fiyatları 2026](/blog/izmir-web-tasarim-fiyatlari-2026) yazımız faydalı.
 
 ## Sıkça Sorulan Sorular
 
@@ -147,10 +147,10 @@ Bu konu TBB tarafından net düzenlenmemiş gri bir alan. Doğrudan "en iyi avuk
 Hukuki bilgilendirme yazıları, mevzuat yorumları, kanun değişikliği özetleri, genel hukuki süreç açıklamaları paylaşılabilir. Müvekkil davası, kazanılmış sonuç, vaat içeren ifadeler, başka avukatları eleştiren paylaşımlar yasak.
 
 **WhatsApp ile müvekkille çalışmak güvenli mi?**
-WhatsApp Business API üzerinden kurulu profesyonel bir altyapıyla, KVKK uyumlu şekilde mümkün. Şahsi numaradan iletişim hem güvenlik hem de profesyonellik açısından önerilmez. PORTZEN kurulumlarında veri yurt içinde tutulur, erişim loglanır.
+WhatsApp Business API üzerinden kurulu profesyonel bir altyapıyla, KVKK gerekliliklerini dikkate alarak (açık rıza, aydınlatma akışı) mümkün. Şahsi numaradan iletişim hem güvenlik hem de profesyonellik açısından önerilmez. PORTZEN kurulumlarında verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir.
 
 **Hukuk bürosu sitesi için SEO ne kadar sürede sonuç verir?**
-Yeni alan adı için 6-12 ay, mevcut alan adına eklenen yeni içerikler için 2-4 ay arası. Düzenli içerik üretimi yapılan büroların 12. ayda organik ziyaretçi sayılarının başlangıca göre 5-10 katına çıktığını görüyoruz.
+Yeni alan adı için 6-12 ay, mevcut alan adına eklenen yeni içerikler için 2-4 ay arası. Düzenli içerik üretimi yapılan sitelerde organik görünürlük zamanla birikerek artar; ilerlemeyi Search Console verileriyle aylık izlemek gerekir.
 
 **AI asistan müvekkille konuşurken etik ihlal olur mu?**
 AI asistanın "bilgilendirme ve yönlendirme" yapması, hukuki tavsiye vermemesi şartıyla etik sınırlar içindedir. PORTZEN kurulumlarında asistanın yanıt sınırları net olarak tanımlanır ve hukuki konular avukata yönlendirilir.
@@ -159,6 +159,6 @@ AI asistanın "bilgilendirme ve yönlendirme" yapması, hukuki tavsiye vermemesi
 
 Bir hukuk bürosunda dijital pazarlama, parça parça kurulan araçların toplamı olarak değil, müvekkil yolculuğunun tamamını gözeten bir sistem olarak ele alınmalı. Web sitesinden gelen ilk temas, WhatsApp'taki ilk yanıt, CRM'deki kayıt, randevu hatırlatması, vekalet sonrası süreç bildirimleri. Hepsi tek bir akışta olmalı ve etik sınırlar içinde kalmalı.
 
-PORTZEN olarak İzmir başta olmak üzere Türkiye genelindeki hukuk bürolarına bu sistemi anahtar teslim kuruyoruz. [Avukat web tasarımı](/web-tasarim/avukat), [WhatsApp AI asistan](/whatsapp-ai-asistani/avukat) ve [CRM otomasyonu](/crm-otomasyonu/avukat) hizmetlerimiz, TBB etik kuralları gözetilerek tasarlanıyor. KVKK uyumu, verinin yurt içi saklanması, asistanın yanıt sınırlarının net olarak çizilmesi standart yaklaşımımız.
+PORTZEN olarak İzmir başta olmak üzere Türkiye genelindeki hukuk bürolarına bu sistemi anahtar teslim kuruyoruz. [Avukat web tasarımı](/web-tasarim/avukat), [WhatsApp AI asistan](/whatsapp-ai-asistani/avukat) ve [CRM otomasyonu](/crm-otomasyonu/avukat) hizmetlerimiz, TBB etik kuralları gözetilerek tasarlanıyor. KVKK gerekliliklerini dikkate alan kurgu (açık rıza, aydınlatma akışı), verinin hangi sağlayıcıda ve bölgede tutulacağının teklifte yazılı olarak belirtilmesi ve asistanın yanıt sınırlarının net olarak çizilmesi standart yaklaşımımız.
 
 Büronuzun mevcut durumunu inceleyip size özel bir dijital strateji önermek için [iletişim sayfamızdan](/iletisim) ulaşabilirsiniz. İlk görüşme ücretsiz, mevcut sistemlerinizi inceleyip nereye yatırım yapmanız gerektiğine dair net bir yol haritası sunuyoruz.

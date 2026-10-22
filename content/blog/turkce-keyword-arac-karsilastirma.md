@@ -219,7 +219,7 @@ Küçük bir blog veya tek bir KOBİ sitesi için evet, yeterli. Ancak ajans vey
 
 PORTZEN olarak müşterilerimiz için keyword araştırma süreçlerinde hibrit yaklaşım uyguluyoruz. Ana araç olarak Ahrefs ve SEMrush, doğrulama için Google Keyword Planner, Türkçe lokalizasyon için Zeo Tools kullanıyoruz. Müşterinin sektörüne ve hedef kitlesine göre Yandex Wordstat ve sektörel niş araçları da devreye alıyoruz.
 
-Sadece araç seçmek tek başına yeterli değil. Bu araçlardan çıkan veriyi doğru yorumlamak, içerik stratejisine dönüştürmek ve teknik SEO ile birleştirmek esas işin büyük kısmıdır. [SEO hizmetlerimiz](/seo) kapsamında keyword araştırma, içerik briefi üretimi, teknik denetim ve aylık raporlama yapıyoruz. Sitenizin teknik altyapısı yetersizse, [web tasarım hizmetimiz](/web-tasarim) ile SEO uyumlu yeniden tasarım da seçenekler arasında.
+Sadece araç seçmek tek başına yeterli değil. Bu araçlardan çıkan veriyi doğru yorumlamak, içerik stratejisine dönüştürmek ve teknik SEO ile birleştirmek esas işin büyük kısmıdır. SEO çalışmasını web sitesi projelerimizin parçası olarak yürütüyoruz: kurumsal web sitesi paketlerinde Başlangıç'ta temel SEO, Büyüme ve Kurumsal'da keyword araştırmasına dayalı teknik SEO ve ölçümleme kurulumu dahildir ({{fiyatlar:kurumsal-web-sitesi}}, KDV hariç). Sitenizin teknik altyapısı yetersizse, [web tasarım hizmetimiz](/web-tasarim) ile SEO uyumlu yeniden tasarım da seçenekler arasında.
 
 Hangi aracın size en uygun olduğundan emin değilseniz, mevcut SEO stratejinizi gözden geçirmek için ücretsiz bir görüşme talep edebilirsiniz. Sektörünüzü, rakiplerinizi ve hedeflerinizi değerlendirip somut bir araç ve süreç önerisi sunuyoruz.
 

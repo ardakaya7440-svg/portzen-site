@@ -15,7 +15,7 @@ ogImage: "/blog/og/mali-musavir-musteri-portali-whatsapp.png"
 
 Mali müşavirlik ofislerinin gündelik gerçeği, bir mevzuat ve takvim koşusudur. Her ayın ilk 5 günü muhtasar beyannamesi, 25'i KDV beyannamesi, ay sonu e-Beyanname kapanış, ara dönemlerde geçici vergi, yıllık dönemde kurumlar vergisi ve gelir vergisi beyannameleri. Bu döngünün arka planında onlarca, yüzlerce müşteri evrak gönderiyor, "beyanname çıktı mı", "tahakkuk ne kadar", "ne zaman ödeyeceğim" sorularıyla telefonu çaldırıyor, fatura görsellerini WhatsApp'a gönderiyor. Mali müşavirlik personeli zamanının yüzde altmışını mevzuat işine değil, müşteriye bilgi vermeye ayırıyor.
 
-2026 itibarıyla bu manzara değişebilir durumda. Müşteri portalı + WhatsApp Business API üzerine kurulu bir bildirim sistemi, ofisin idari yükünün önemli bir bölümünü ortadan kaldırıyor. Müşteri "beyannamemi gönderdiniz mi" yerine portala giriyor, tahakkuklarını oradan görüyor. Vergi takvimi yaklaştığında otomatik WhatsApp hatırlatması alıyor. Evrak gönderirken portala yükleyebiliyor, e-postaya gömülü gitmiyor. PORTZEN olarak İzmir merkezli ve farklı şehirlerden birçok mali müşavirlik ofisiyle çalışırken kurduğumuz bu sistemi bu yazıda detaylı paylaşacağız. Hem ofis yöneticisi hem büyüme planlayan smmm için yol haritası niteliğinde olacak.
+2026 itibarıyla bu manzara değişebilir durumda. Müşteri portalı + WhatsApp Business API üzerine kurulu bir bildirim sistemi, ofisin idari yükünün önemli bir bölümünü ortadan kaldırıyor. Müşteri "beyannamemi gönderdiniz mi" yerine portala giriyor, tahakkuklarını oradan görüyor. Vergi takvimi yaklaştığında otomatik WhatsApp hatırlatması alıyor. Evrak gönderirken portala yükleyebiliyor, e-postaya gömülü gitmiyor. Bu yazıda PORTZEN olarak mali müşavirlik ofisleri için önerdiğimiz bu sistemin nasıl kurgulandığını, hangi parçalardan oluştuğunu ve iş akışında neyi değiştirdiğini detaylı paylaşacağız. Hem ofis yöneticisi hem büyüme planlayan smmm için yol haritası niteliğinde olacak.
 
 ## Mali Müşavirlik Ofisinin İletişim Yükü Tablosu
 
@@ -46,7 +46,7 @@ Müşteri portalı, mali müşavirlik ofisinin müşteriye sunduğu kendi kendin
 - Yıllık beyanname ve bilanço arşivi
 - KVKK uyumlu güvenli giriş
 
-Portal, müşteriye 7/24 erişim sağlıyor. Gece "ben dün KDV beyannamesini görmemiştim" sorusu için sabah ofise telefon açmıyor, portala giriyor. Bu kullanım, çoğu KOBİ'de ilk aylarda yavaş benimseniyor ama 3-4 ay sonra alışkanlık haline geliyor. PORTZEN olarak [web tasarım hizmetimiz](/web-tasarim) kapsamında bu portal yapısını mali müşavirlik için özelleştiriyoruz.
+Portal, müşteriye 7/24 erişim sağlıyor. Gece "ben dün KDV beyannamesini görmemiştim" sorusu için sabah ofise telefon açmıyor, portala giriyor. Bu kullanım, çoğu KOBİ'de ilk aylarda yavaş benimseniyor ama 3-4 ay sonra alışkanlık haline geliyor. PORTZEN olarak bu portal yapısını mali müşavirlik için özel web uygulaması olarak geliştiriyoruz ({{tekil:ozel-web-uygulamasi}}, KDV hariç); kesin bedel kapsama göre teklifte belirlenir.
 
 ## WhatsApp Bildirim Akışları: Vergi Takvimi Otomasyonu
 
@@ -74,7 +74,7 @@ Mali müşavir ofisinin e-Beyanname ve e-Fatura ile günlük etkileşimi yoğun.
 - Geçmiş arşiv aramak zorlaşıyor
 - Önemli mevzuat değişikliği e-postanın sonunda kalıyor, okunmuyor
 
-Müşteri portalı bu evrakı kategorize bir şekilde sunuyor. Yıl/ay bazında ayrılmış, beyanname türüne göre etiketlenmiş, son durum bilgisiyle birlikte. Bunun üstüne WhatsApp bildirimi ile "yeni beyannameniz portala yüklendi" mesajı gidiyor. Müşteri linke tıklıyor, gönderilen evrakı görüyor, gerekirse indiriyor. Bu basit akış mali müşavirlik ofisinin günlük 20-30 telefon trafiğini ortadan kaldırıyor.
+Müşteri portalı bu evrakı kategorize bir şekilde sunuyor. Yıl/ay bazında ayrılmış, beyanname türüne göre etiketlenmiş, son durum bilgisiyle birlikte. Bunun üstüne WhatsApp bildirimi ile "yeni beyannameniz portala yüklendi" mesajı gidiyor. Müşteri linke tıklıyor, gönderilen evrakı görüyor, gerekirse indiriyor. Bu basit akış, "beyannamem yüklendi mi" türünden soruları telefondan portala ve WhatsApp bildirimine taşır; ofis aynı bilgiyi tek tek aktarmak zorunda kalmaz.
 
 Belge yükleme açısından ters yönde de aynı yapı çalışıyor. Müşteri fatura çekiyor, WhatsApp'a gönderiyor. PORTZEN kurulumlarında bu görseller doğrudan müşteri klasörüne ayrılıyor, OCR ile temel bilgileri ayıklanıyor ve mali müşavir ekibinin gözden geçirmesi için işaretleniyor.
 
@@ -136,7 +136,7 @@ Mali müşavirlik ofisi, müşterinin tüm finansal verisini tutuyor. Bu KVKK ka
 - Bordrolar ve personel bilgileri
 - Beyanname geçmişi ve ödeme bilgileri
 
-Bu verinin saklandığı sistemin yurt içi sunucuda olması, erişimin loglanması, müşteri başına erişim yetkisinin doğru tanımlanması gerekiyor. PORTZEN olarak kurduğumuz portal ve CRM altyapısında bu standartları zorunlu tutuyoruz. KVKK genel rehberi için [KVKK müşteri verisi rehberi](/blog/kvkk-musteri-verisi-rehberi) yazımız faydalı bir kaynak.
+Bu verinin hangi sağlayıcıda ve hangi bölgede saklandığının bilinmesi, erişimin loglanması, müşteri başına erişim yetkisinin doğru tanımlanması gerekiyor. PORTZEN olarak portal ve CRM altyapısını KVKK gerekliliklerini dikkate alarak kurguluyoruz (açık rıza, aydınlatma akışı, erişim yetkileri); verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. KVKK genel rehberi için [KVKK müşteri verisi rehberi](/blog/kvkk-musteri-verisi-rehberi) yazımız faydalı bir kaynak.
 
 VERBİS kaydı mali müşavirlik ofisleri için çoğu durumda zorunlu. Ofisin kendi bu yükümlülüğünü atlamış olması paradoksal bir tutarsızlık yaratıyor.
 
@@ -165,13 +165,13 @@ Bu sınırlar net çizildiğinde AI, ofisin yorulan personelinin yükünü alıy
 
 ## Ofis Büyüklüğüne Göre Sistem Önerileri
 
-Tek SMMM + 1-2 personel ofis. Bu ölçekte ana ihtiyaç WhatsApp Business altyapısı ve basit bir müşteri portalı. Karmaşık CRM gereksiz, basit bir takip sistemi yeterli. Aylık yatırım 2.500-4.500 TL aralığında çalışan paketler mümkün.
+Tek SMMM + 1-2 personel ofis. Bu ölçekte ana ihtiyaç WhatsApp Business altyapısı ve basit bir müşteri portalı. Karmaşık CRM gereksiz, basit bir takip sistemi yeterli. PORTZEN'de bu ölçeğe genellikle tek kanallı AI müşteri asistanı Başlangıç paketi uyar: {{fiyat:ai-musteri-asistani:baslangic}} + {{kurulum:ai-musteri-asistani:baslangic}} kurulum (KDV hariç).
 
-Orta ölçekli ofis (3-7 personel, 50-200 müşteri). Bu ölçekte tam paket. Portal, WhatsApp Business API, CRM, otomatik bildirim akışları, vergi takvimi entegrasyonu. Aylık yatırım 4.500-9.000 TL aralığında.
+Orta ölçekli ofis (3-7 personel, 50-200 müşteri). Bu ölçekte tam paket. Portal, WhatsApp Business API, CRM, otomatik bildirim akışları, vergi takvimi entegrasyonu. PORTZEN'de WhatsApp tarafı AI müşteri asistanı Büyüme paketiyle ({{fiyat:ai-musteri-asistani:buyume}} + {{kurulum:ai-musteri-asistani:buyume}} kurulum), bildirim ve CRM akışları ise tek seferlik iş otomasyonu paketiyle kurulur (KDV hariç).
 
-Büyük ofis (8+ personel, 200+ müşteri). Tam paket + sektörel uzmanlaşma sayfaları, müşteri segmentasyonu, gelişmiş raporlama. Aylık yatırım 9.000-20.000 TL aralığında. Kurulum maliyeti tek seferlik 15.000-40.000 TL.
+Büyük ofis (8+ personel, 200+ müşteri). Tam paket + sektörel uzmanlaşma sayfaları, müşteri segmentasyonu, gelişmiş raporlama. Bu ölçekte AI müşteri asistanı Kurumsal paketi ({{fiyat:ai-musteri-asistani:kurumsal}} + {{kurulum:ai-musteri-asistani:kurumsal}} kurulum) ile iş otomasyonu paketleri ({{fiyatlar:is-otomasyonu}}) öne çıkar; fiyatlar KDV hariçtir.
 
-Geri dönüş süresi genelde 4-8 ay. Bunu hem personel verimliliği hem müşteri kayıp önleme üzerinden hesaplıyoruz. [Whatsapp chatbot fiyat](/whatsapp-chatbot-fiyat) sayfamız genel fiyat bandını gösteriyor.
+Geri dönüş süresi ofisin müşteri sayısına ve mevcut iş yüküne göre değişir; bunu ilk görüşmede personel verimliliği ve müşteri kaybını önleme üzerinden sizinle birlikte hesaplıyoruz. Müşteri portalı ise özel web uygulaması olarak ayrıca tekliflendirilir ({{tekil:ozel-web-uygulamasi}}, KDV hariç). Tüm paketler için [fiyatlar sayfası](/fiyatlar).
 
 ## Süreç Otomasyonu: n8n ve Make Rolü
 
@@ -191,10 +191,10 @@ Sistem hibrit çalışıyor. Müşteri portala girmek istemese de tüm bildiriml
 Tam otomatik değil. OCR ile tarayıp ilk veri çıkarımı yapılıyor (tarih, tutar, tedarikçi). Bu veri muhasebe ekibinin onayına düşüyor. Doğrudan defter girişi yapılmıyor çünkü hata payı kabul edilemez. Hız kazanıyorsunuz ama kontrol ekipte kalıyor.
 
 **Sistem kurulurken ofis kapanıyor mu?**
-Hayır. Geçiş 3-6 hafta süreyle paralel çalışma şeklinde yapılıyor. Mevcut akış devam ediyor, yeni sistem yan yana kuruluyor, müşteriler kademeli olarak yeni sisteme geçiyor. Kesinti yaşanmıyor.
+Hayır. Geçiş paralel çalışma şeklinde yapılıyor; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Mevcut akış devam ediyor, yeni sistem yan yana kuruluyor, müşteriler kademeli olarak yeni sisteme geçiyor. Kesinti yaşanmıyor.
 
 **Yıllık abonelik mi kuruluş paketi mi mantıklı?**
-Tek seferlik kurulum + aylık abonelik modeli en yaygın. Kurulum yatırımı sistemi mülkiyetinize alıyor. Aylık abonelik bakım, güncelleme, mevzuat değişikliği uyumu, teknik destek için. PORTZEN olarak iki modeli de sunuyoruz.
+PORTZEN'de model hizmete göre değişir. WhatsApp AI asistanı tek seferlik kurulum + aylık ücretle çalışır: {{fiyatlar:ai-musteri-asistani}} (KDV hariç). CRM ve bildirim otomasyonları ise tek seferlik kurulumdur: {{fiyatlar:is-otomasyonu}} (KDV hariç); ilk 30 gün kurulum hataları giderilir, ikinci aydan itibaren isteğe bağlı aylık bakım alınabilir.
 
 **Mali müşavir asistan robot olmayacak mı gelecekte?**
 AI'ın bazı işleri devralacağı kesin ama mali müşavirin yerini tamamen alması yakın gelecekte mümkün değil. Çünkü sorumluluk ve yorum kısmı mevzuat tarafından muhasebeciye verilmiş durumda. AI, mali müşavirin yerine geçen değil onunla çalışan bir asistan olacak.
@@ -203,6 +203,6 @@ AI'ın bazı işleri devralacağı kesin ama mali müşavirin yerini tamamen alm
 
 Mali müşavirlik ofisinin günlük gerçeği telefon, WhatsApp ve e-posta seli. Bu selin içinde mevzuat işine yoğunlaşmak zorlaşıyor, hata riski artıyor, personel tükeniyor. Doğru kurulmuş bir müşteri portalı + WhatsApp bildirim sistemi, bu seli akıcı bir nehre dönüştürüyor. Müşteri kendi verisini görüyor, hatırlatmaları otomatik alıyor, ofis personeli mevzuat işine odaklanıyor.
 
-PORTZEN olarak İzmir başta olmak üzere Türkiye genelindeki mali müşavirlik ofisleri için bu sistemi anahtar teslim sunuyoruz. [WhatsApp AI asistan](/whatsapp-ai-asistani), [CRM otomasyonu](/crm-otomasyonu) ve [web tasarım hizmetimiz](/web-tasarim) tek pakette müşteri portalını içeriyor. Geçiş süreci kademeli, mevcut LUCA/Mikro gibi muhasebe programlarınızla uyumlu çalışıyor.
+PORTZEN olarak İzmir başta olmak üzere Türkiye genelindeki mali müşavirlik ofisleri için bu sistemi anahtar teslim sunuyoruz. Sistem [WhatsApp AI asistan](/whatsapp-ai-asistani), [CRM otomasyonu](/crm-otomasyonu) ve özel web uygulaması olarak geliştirilen müşteri portalından oluşur; her parça kendi paketiyle fiyatlanır, güncel tutarlar [fiyatlar sayfasında](/fiyatlar). Geçiş süreci kademeli, mevcut LUCA/Mikro gibi muhasebe programlarınızla uyumlu çalışıyor.
 
 Ofisinizin yapısına özel bir kurulum önerisi almak için [iletişim sayfamızdan](/iletisim) bize ulaşabilirsiniz. İlk görüşmede mevcut iş akışınızı ücretsiz olarak inceliyor, hangi parçanın otomasyondan en büyük geri dönüşü sağlayacağını size paylaşıyoruz.

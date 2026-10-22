@@ -13,7 +13,7 @@ ogImage: "/blog/og/kafe-qr-menu-tasarim-rehberi.png"
 
 # Kafe ve Restoran İçin QR Menü Tasarım Rehberi 2026
 
-Laminasyonlu menülerin dönemi çoktan kapandı. Her fiyat güncellemesinde matbaaya gitmek, lekelenen menüleri yenilemek, sezonluk ürünü eklemek için yeni baskı sipariş etmek 2026 yılında ne işletmeye ne de misafire mantıklı geliyor. Üstelik bir misafiriniz fıstık alerjisi olduğunu söylediğinde garsonunuzun mutfağa koşması, ya da turistik bir bölgedeki kafenizde İngilizce konuşan bir misafiri "abi bunlar mantı işte" diye anlatmaya çalışan bir personeliniz olması artık kabul edilebilir bir durum değil. PORTZEN olarak son üç yılda 40'tan fazla kafe, restoran ve özel konsept mekanın dijital menü altyapısını kurduk, bu süreçte gördüğümüz şu: doğru kurgulanmış bir QR menü hem operasyonel yükü düşürüyor hem ortalama sepet tutarını gözle görülür şekilde artırıyor. Bu rehberde, bir kahveciden 80 koltuklu bir restorana kadar her ölçekteki işletmenin QR menü tasarımında neye dikkat etmesi gerektiğini, gerçek piyasa fiyatlarıyla ve uyguladığımız çözümlerle anlatıyoruz. Eğer hâlâ A4 kağıda yapıştırılmış bir QR kodun arkasına sıkıştırılmış 12 sayfalık PDF dosyasıyla menüyü yönetiyorsanız, bu yazı sizin için. Konuyu tamamen restoran tarafından ele aldığımız [Restoran QR Menü + Online Sipariş yazımız](/blog/restoran-qr-menu-online-siparis) ile birlikte okumanızı öneririz.
+Laminasyonlu menülerin dönemi çoktan kapandı. Her fiyat güncellemesinde matbaaya gitmek, lekelenen menüleri yenilemek, sezonluk ürünü eklemek için yeni baskı sipariş etmek 2026 yılında ne işletmeye ne de misafire mantıklı geliyor. Üstelik bir misafiriniz fıstık alerjisi olduğunu söylediğinde garsonunuzun mutfağa koşması, ya da turistik bir bölgedeki kafenizde İngilizce konuşan bir misafiri "abi bunlar mantı işte" diye anlatmaya çalışan bir personeliniz olması artık kabul edilebilir bir durum değil. Doğru kurgulanmış bir QR menü hem operasyonel yükü düşürür hem menüyü güncel, okunaklı ve satışa yönlendiren bir araca dönüştürür. Bu rehberde, bir kahveciden 80 koltuklu bir restorana kadar her ölçekteki işletmenin QR menü tasarımında neye dikkat etmesi gerektiğini, gerçek piyasa fiyatlarıyla ve uyguladığımız çözümlerle anlatıyoruz. Eğer hâlâ A4 kağıda yapıştırılmış bir QR kodun arkasına sıkıştırılmış 12 sayfalık PDF dosyasıyla menüyü yönetiyorsanız, bu yazı sizin için. Konuyu tamamen restoran tarafından ele aldığımız [Restoran QR Menü + Online Sipariş yazımız](/blog/restoran-qr-menu-online-siparis) ile birlikte okumanızı öneririz.
 
 ## QR Menü Neden Vazgeçilmez Hale Geldi
 
@@ -25,7 +25,7 @@ Pandemiyle birlikte hayatımıza giren QR menü, başta sadece "temassız" oldu�
 
 ### Anlık Fiyat Güncellemesi
 
-Kahve çekirdeği fiyatı bir gecede yüzde 15 zamlanıyor, süt fiyatı sürekli oynuyor. Statik menüde fiyat yapıştırmak hem amatörce duruyor hem TKHK mevzuatına aykırı. Dinamik QR menüde admin panelinden 30 saniyede tüm fiyatlar güncellenir.
+Kahve çekirdeği fiyatı bir gecede yüzde 15 zamlanıyor, süt fiyatı sürekli oynuyor. Statik menüde fiyat yapıştırmak hem amatörce duruyor hem TKHK mevzuatına aykırı. Dinamik QR menüde admin panelinden tüm fiyatlar anında güncellenebilir.
 
 ### Alerjen ve İçerik Şeffaflığı
 
@@ -61,7 +61,7 @@ Bir kahveci için ideal kategori sıralaması şudur: Sıcak Kahveler, Soğuk Ka
 
 ### Görsel Kalitesi
 
-Ürün fotoğrafları 1:1 (kare) oranda, en az 1080x1080 piksel ve profesyonel ışıkta çekilmiş olmalı. Beyaz arka plan ya da ahşap doku üzerine çekim yapın. Telefonla çekilen, yamuk açılı, sarı ışıklı fotoğraflar menünüzü değil ürününüzü ucuzlatır. PORTZEN olarak [kafeler için web tasarım](/web-tasarim/kafe) hizmetimizde menü için profesyonel ürün fotoğraf çekimini de paket içine alıyoruz.
+Ürün fotoğrafları 1:1 (kare) oranda, en az 1080x1080 piksel ve profesyonel ışıkta çekilmiş olmalı. Beyaz arka plan ya da ahşap doku üzerine çekim yapın. Telefonla çekilen, yamuk açılı, sarı ışıklı fotoğraflar menünüzü değil ürününüzü ucuzlatır. PORTZEN'in [kafeler için web tasarım](/web-tasarim/kafe) paketlerinde ürün fotoğraf çekimi dahil değildir; gerekirse ayrıca planlanır.
 
 ### Performans
 
@@ -85,7 +85,7 @@ Türkçe ve İngilizce minimum standarttır. Antalya, Bodrum, Alanya, Marmaris g
 
 ## Sipariş Alma Entegrasyonu: QR'dan Direkt Mutfağa
 
-Burada QR menünün gerçek gücü ortaya çıkıyor. Misafirinizin sadece menüyü okuduğu değil, doğrudan sipariş verdiği bir sistem kurarsanız ortalama sepet tutarınız yüzde 18-25 arasında artar (kendi müşterilerimizin gerçek verisi).
+Burada QR menünün gerçek gücü ortaya çıkıyor. Misafirinizin sadece menüyü okuduğu değil, doğrudan sipariş verdiği bir sistem kurarsanız menüdeki öneri ve ek ürün alanları sayesinde ortalama sepet tutarını artırma fırsatı doğar.
 
 ### Masa Numarası ile QR Eşleştirme
 
@@ -117,7 +117,7 @@ Türkiye piyasasında QR menü kurulum maliyetleri kabaca şu şekilde:
 - Çoklu dil ek modülü: 1.000-2.500 TL tek seferlik
 - WhatsApp sipariş entegrasyonu: 3.000-6.000 TL tek seferlik
 
-PORTZEN olarak orta ölçekli bir kafe için tipik bir QR menü projesini 8.500 TL kurulum, 750 TL/ay bakım ile kapatıyoruz. Bu rakam, ürün fotoğraf çekimi ve 2 dil desteğini de içeriyor.
+PORTZEN'de QR menü kapsamına göre fiyatlanır: tek sayfalık menü sayfası landing page olarak ({{tekil:landing-page}}), içeriğini kendiniz güncelleyebileceğiniz CMS'li yapı kurumsal web sitesi Büyüme paketiyle ({{fiyat:kurumsal-web-sitesi:buyume}}), masa siparişi ve yönetim paneli gerektiren sistemler ise özel web uygulaması olarak ({{tekil:ozel-web-uygulamasi}}) kurulur; tutarlar KDV hariçtir. Ürün fotoğraf çekimi ve çeviri paketlere dahil değildir.
 
 ### TKHK ve Fiyat Etiketi Mevzuatı
 
@@ -144,15 +144,15 @@ QR menü projelerinde en sık karşılaştığımız hatalar:
 
 ### QR menü için ayrı bir alan adı almam gerekir mi?
 
-Şart değil. Ana web sitenizin alt adresi olarak menu.kafeismi.com şeklinde kullanabilirsiniz. Henüz web siteniz yoksa /menu uzantısıyla doğrudan domain üzerine de kurabilirsiniz. PORTZEN olarak [WhatsApp AI asistanı](/whatsapp-ai-asistani) hizmetimizi alan müşterilere kurumsal web sitesi içinde menü modülünü dahil ediyoruz.
+Şart değil. Ana web sitenizin alt adresi olarak menu.kafeismi.com şeklinde kullanabilirsiniz. Henüz web siteniz yoksa /menu uzantısıyla doğrudan domain üzerine de kurabilirsiniz. PORTZEN'de menü sayfası web sitesi paketlerimiz kapsamında kurulur; [WhatsApp AI asistanı](/whatsapp-ai-asistani) paketlerine dahil değildir.
 
 ### Mevcut PDF menümü QR menüye çevirebilir miyiz?
 
-Evet, mevcut PDF içeriğinizi referans alarak dinamik bir HTML menü kurgularız. Ancak doğrudan PDF'i QR'a bağlamak yerine içeriği yeniden yapılandırmanızı, ürün fotoğraflarını yenilemenizi ve kategori akışını mobile uyumlu hale getirmenizi öneririz. Bu süreç tipik olarak 7-10 iş gününde tamamlanır.
+Evet, mevcut PDF içeriğinizi referans alarak dinamik bir HTML menü kurgularız. Ancak doğrudan PDF'i QR'a bağlamak yerine içeriği yeniden yapılandırmanızı, ürün fotoğraflarını yenilemenizi ve kategori akışını mobile uyumlu hale getirmenizi öneririz. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir.
 
 ### QR menü ile birlikte yorum toplama özelliği eklenebilir mi?
 
-Kesinlikle. Misafir siparişini bitirdikten sonra otomatik bir mesajla Google İşletme veya TripAdvisor yorum linkine yönlendirilebilir. Bu özellik, Google üzerindeki yıldız ortalamanızı 6 ayda yüzde 35-40 oranında artırma potansiyeline sahip. Detaylı dijital sipariş kıyaslamasını [Yemeksepeti vs WhatsApp sipariş karşılaştırması](/blog/restoran-yemeksepeti-vs-whatsapp-siparis) yazımızda anlattık.
+Kesinlikle. Misafir siparişini bitirdikten sonra otomatik bir mesajla Google İşletme veya TripAdvisor yorum linkine yönlendirilebilir. Bu özellik, memnun misafirlerin yorum bırakmasını kolaylaştırır ve Google profilinizdeki yorum akışını düzenli hale getirir. Detaylı dijital sipariş kıyaslamasını [Yemeksepeti vs WhatsApp sipariş karşılaştırması](/blog/restoran-yemeksepeti-vs-whatsapp-siparis) yazımızda anlattık.
 
 ### Birden fazla şubem var, tek panelden yönetebilir miyim?
 
@@ -160,4 +160,4 @@ Evet. Çok şubeli bir yapı için merkezi yönetim paneli kurguluyoruz. Her şu
 
 ## PORTZEN ile QR Menü Kurmak
 
-QR menü, doğru kurgulandığında sadece bir görsel araç değil, gerçek anlamda bir satış artırma ve operasyon kolaylaştırma sistemidir. Eğer hâlâ laminasyonlu menüyle ya da statik PDF QR ile çalışıyorsanız, her gün bilmediğiniz bir gelir kaybı yaşıyorsunuz. PORTZEN olarak kafe, restoran, kahveci, pastane ve özel konsept mekanlar için baştan sona QR menü, [kafeler için web tasarım](/web-tasarim/kafe) ve sipariş otomasyonu projelerini ortalama 10 iş gününde teslim ediyoruz. Projeye, ürün fotoğraf çekimi, çoklu dil çevirisi, alerjen ikon tasarımı ve admin panel eğitimi dahil. Kendi işletmeniz için detaylı bir analiz ve teklif almak isterseniz [bizimle iletişime geçin](/iletisim), 24 saat içinde size ön görüşme planlayalım.
+QR menü, doğru kurgulandığında sadece bir görsel araç değil, gerçek anlamda bir satış artırma ve operasyon kolaylaştırma sistemidir. Eğer hâlâ laminasyonlu menüyle ya da statik PDF QR ile çalışıyorsanız, her gün bilmediğiniz bir gelir kaybı yaşıyorsunuz. PORTZEN olarak kafe, restoran, kahveci, pastane ve özel konsept mekanlar için baştan sona QR menü, [kafeler için web tasarım](/web-tasarim/kafe) ve sipariş otomasyonu projelerini kuruyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Ürün fotoğraf çekimi ve çeviri paketlere dahil değildir; ihtiyaca göre ayrıca planlanır. Kendi işletmeniz için detaylı bir analiz ve teklif almak isterseniz [bizimle iletişime geçin](/iletisim), en kısa sürede dönüş yapıp ön görüşme planlayalım.

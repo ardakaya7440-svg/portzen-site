@@ -38,7 +38,7 @@ Bir kullanıcı sitenize girip lead magnet indirir ya da newsletter'a kaydolur �
 - İçerik: Demo / keşif görüşmesi teklifi, Calendly linki
 - CTA: "Görüşme ayır"
 
-Bu 3 mail toplamda %40-60 dönüşüm oranı verir (lead → ilk müşteri etkileşimi). Email listenizin sürekli büyümesi için lead gen tarafında profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile Facebook/Instagram lead form kampanyaları çalıştırmak welcome serisinin hacmini katlıyor.
+Bu 3 mail toplamda %40-60 dönüşüm oranı verir (lead → ilk müşteri etkileşimi). Email listenizin sürekli büyümesi için lead gen tarafında profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile Facebook/Instagram lead form kampanyaları çalıştırmak welcome serisine sürekli yeni abone akışı sağlar.
 
 ## 2. Nurture Serisi (Eğitici 5 Mail — 2-3 Hafta)
 
@@ -54,8 +54,8 @@ Nurture = besleme. Henüz satın almaya hazır olmayan ama ilgilenen ziyaretçiy
 |---|---|---|---|
 | 1 | 1 | "Otomasyonun gerçekten işe yaradığı 3 sektör" | Eczane, klinik, emlak örnekleri |
 | 2 | 4 | "Kendi başına kurmak mı, ajansa vermek mi?" | Karar tablosu |
-| 3 | 7 | "n8n vs Make vs Zapier — gerçek fark" | Karşılaştırma + link [blog]({{base_url}}/blog/zapier-make-n8n-karsilastirma) |
-| 4 | 11 | "Bir müşterimizin 14 günlük otomasyon yolculuğu" | Vaka çalışması |
+| 3 | 7 | "n8n vs Make vs Zapier — gerçek fark" | Karşılaştırma + link [blog](/blog/zapier-make-n8n-karsilastirma) |
+| 4 | 11 | "Örnek bir otomasyon kurulumu adım adım" | Örnek senaryo |
 | 5 | 15 | "Bu seriyi tamamladınız — bir sonraki adım?" | Demo daveti + indirim |
 
 Nurture serisi sonunda lead'in **%15-25'i** demo/satış görüşmesine geçer. Geri kalanı uzun vadeli pazarlama listesinde kalır.
@@ -134,7 +134,7 @@ Müşteri sadakatini hatırlatır:
 - Mail 2: VIP indirim (kayıp müşteriye özel)
 - Mail 3: "Belki sizi rahatsız ediyoruz, ses verin" — pasif farewell
 
-CLV uzatma için kritik. Çoğu KOBİ bu adımı atlıyor, oysa **müşteri kazanmak müşteri tutmaktan 5x daha pahalı**. Win-back kampanyalarının görselleri, kısa video reklamları ve sosyal kanıt içeriklerini düzenli üretmek için bir [sosyal medya ajansı](/sosyal-medya-ajansi) desteğiyle email + sosyal medya birlikte çalıştığında yeniden satın alma oranı belirgin artıyor.
+CLV uzatma için kritik. Çoğu KOBİ bu adımı atlıyor, oysa **müşteri kazanmak müşteri tutmaktan 5x daha pahalı**. Win-back kampanyalarının görselleri, kısa video reklamları ve sosyal kanıt içeriklerini düzenli üretmek için bir [sosyal medya ajansı](/sosyal-medya-ajansi) desteğiyle email + sosyal medya birlikte çalıştığında geri kazanma mesajı birden fazla kanaldan desteklenmiş olur.
 
 ## Hangi Tool Kullanılır?
 
@@ -178,10 +178,10 @@ Yeni abonenin **en sıcak anı** ilk 48 saat. Bu anı manuel "ileride bakarız" 
 
 ## PORTZEN ile Email Otomasyonu
 
-PORTZEN olarak KOBİ'ler için **ConvertKit / Klaviyo + n8n + WhatsApp** üçlüsünü birleştirip eğitiyoruz. Hangi seri ne zamana, hangi kanaldan gönderilecek — A/B test ile sürekli optimize ediyoruz.
+PORTZEN olarak KOBİ'ler için **ConvertKit / Klaviyo + n8n + WhatsApp** üçlüsünü birleştirip eğitiyoruz. Hangi seri ne zamana, hangi kanaldan gönderilecek — A/B test ile ölçüyoruz; kurulum tek seferliktir, sonrasında isteğe bağlı aylık bakım alabilirsiniz.
 
 [CRM Otomasyonu](/crm-otomasyonu) sayfamızda paketleri, [n8n kurulum hizmeti](/n8n-kurulum-hizmeti) ile self-hosted seçeneklerimizi görebilirsiniz.
 
-Tipik bir KOBİ için kurulum **2-3 hafta**, aylık ₺12.000'den başlıyor (platform ücreti hariç).
+Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Kurulum tek seferlik iş otomasyonu paketleriyle yapılır: {{fiyatlar:is-otomasyonu}} (KDV hariç; platform ücretleri hariç); isteğe bağlı aylık bakım ikinci aydan itibaren {{bakim:baslangic}} / {{bakim:buyume}} / {{bakim:kurumsal}}. Güncel kapsam için [fiyatlar sayfası](/fiyatlar).
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun email otomasyon yapısını birlikte belirleyelim.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir görüşmede işletmeniz için uygun email otomasyon yapısını birlikte belirleyelim.

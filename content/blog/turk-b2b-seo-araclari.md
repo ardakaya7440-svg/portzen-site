@@ -188,21 +188,21 @@ Aracın seçimi kadar, bu aracın getireceği iş yükünü taşıyacak insan ka
 - Ana araç: Ubersuggest veya SEOPital
 - Tamamlayıcı: Google Search Console, Google Analytics 4 (ücretsiz), Google Keyword Planner
 - Önerilen kullanım: Haftada 1 gün SEO çalışması, ayda 2-4 blog yazısı, temel teknik SEO.
-- Hedef: İlk 6 ay aylık 500-1.000 organik ziyaretçi.
+- Hedef: İlk aylarda organik ziyaretçi ve sıralanan anahtar kelime sayısında düzenli artış görmek.
 
 **Growth (Aylık 3.000 - 8.000 TL bütçe):**
 
 - Ana araç: SE Ranking veya SEMrush Pro
 - Tamamlayıcı: Zeo Tools (Türkçe SERP analizleri için), Screaming Frog (ücretsiz sürüm)
 - Önerilen kullanım: Haftada 2-3 gün SEO, ayda 4-8 içerik, düzenli backlink çalışması.
-- Hedef: 12 ayda aylık 5.000+ organik ziyaretçi ve aylık 20+ kalifiye lead.
+- Hedef: Organik trafiği kalifiye lead'e çeviren sayfaları belirleyip bu sayfaları büyütmek.
 
 **Enterprise (Aylık 8.000 TL üzeri bütçe):**
 
 - Ana araç: Ahrefs Standard + SEMrush Guru kombinasyonu
 - Tamamlayıcı: Looker Studio (raporlama), Sitebulb (teknik audit), DeepCrawl (büyük site auditi)
 - Önerilen kullanım: 1-2 kişilik SEO ekibi, haftada 5 gün, ajans desteği, aylık 12+ içerik.
-- Hedef: Yıllık 100.000+ organik ziyaretçi ve sektörde top 3 görünürlük.
+- Hedef: Sektörün ana anahtar kelime kümelerinde kalıcı görünürlük ve ölçülebilir lead akışı.
 
 Bütçe senaryonuzu belirledikten sonra teknik altyapınızın performansa hazır olup olmadığını da değerlendirmelisiniz. [Lighthouse skoru 90 üzeri optimizasyon rehberimiz](/blog/lighthouse-skoru-90-optimizasyon) ve [PageSpeed Insights rehberimiz](/blog/pagespeed-insights-rehber) bu konuda yardımcı olacaktır. Hızlı yüklenen sayfalar, SEO sıralamasını doğrudan etkiler.
 
@@ -230,17 +230,16 @@ Belirli senaryolarda evet. Türkçe içerik optimizasyonu, Türkçe SERP analizi
 
 ## PORTZEN ile B2B SEO Stratejisi
 
-SEO aracı seçimi, başarılı bir B2B stratejisinin yalnızca ilk adımıdır. Doğru araç doğru ellerde kullanıldığında değer üretir. PORTZEN olarak Türk B2B işletmelerine; sektör ve bütçe analizinden başlayarak araç seçimi, kurulum, anahtar kelime stratejisi, içerik üretimi, teknik SEO ve backlink çalışmalarına kadar uçtan uca destek sunuyoruz.
+SEO aracı seçimi, başarılı bir B2B stratejisinin yalnızca ilk adımıdır. Doğru araç doğru ellerde kullanıldığında değer üretir. PORTZEN olarak Türk B2B işletmelerine; sektör ve bütçe analizinden başlayarak araç seçimi, anahtar kelime stratejisi ve teknik SEO'ya kadar web sitesi projeleri kapsamında destek sunuyoruz.
 
 Sunduğumuz hizmetler arasında:
 
-- B2B sektörel SEO audit ve rekabet analizi
-- Türkçe odaklı anahtar kelime stratejisi ve içerik kümesi planlaması
-- Teknik SEO ve site hızı optimizasyonu (Lighthouse 90+)
-- B2B blog ve içerik pazarlama (Surfer SEO ve yerel araç entegrasyonu)
-- Google İşletme Profili ve yerel SEO yönetimi
-- Aylık performans raporlaması ve danışmanlık
+- Kurumsal web sitesi: Başlangıç paketinde temel SEO, Büyüme ve Kurumsal paketlerde teknik SEO ve ölçümleme kurulumu ({{fiyatlar:kurumsal-web-sitesi}}, KDV hariç)
+- Site projesi kapsamında Türkçe odaklı anahtar kelime stratejisi ve sayfa/içerik kümesi planlaması
+- Site hızı optimizasyonu (Core Web Vitals odaklı)
+- Büyüme paketinde CMS + blog altyapısı
+- Yayın sonrası güncellemeler için web bakım paketleri ({{fiyatlar:web-bakim}}, KDV hariç)
 
-Yerel SEO ihtiyaçlarınız için [Google İşletme Profili optimizasyon rehberimizi](/blog/google-isletme-profili-optimizasyon) inceleyebilir, kurumsal web sitesi yenileme süreçleri için [web tasarım hizmetlerimize](/web-tasarim) göz atabilirsiniz. Detaylı SEO hizmetlerimiz için [SEO sayfamızı](/seo) ziyaret edin.
+Yerel SEO ihtiyaçlarınız için [Google İşletme Profili optimizasyon rehberimizi](/blog/google-isletme-profili-optimizasyon) inceleyebilir, kurumsal web sitesi yenileme süreçleri için [web tasarım hizmetlerimize](/web-tasarim) göz atabilirsiniz. Detaylı SEO hizmetlerimiz için [SEO sayfamızı](/web-sitesi-tasarimi) ziyaret edin.
 
 İşletmenize özel bir SEO yol haritası ve araç önerisi almak için bizimle [iletişime geçin](/iletisim). İlk 30 dakikalık keşif görüşmesi ücretsizdir; sektörünüze, hedef pazarınıza ve bütçenize göre 60 günlük B2B SEO yol haritası hazırlıyoruz.

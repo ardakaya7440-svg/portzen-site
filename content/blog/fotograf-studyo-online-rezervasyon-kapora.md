@@ -13,7 +13,7 @@ ogImage: "/blog/og/fotograf-studyo-online-rezervasyon-kapora.png"
 
 # Fotoğraf Stüdyosu İçin Online Rezervasyon + Kapora Sistemi
 
-Bir fotoğraf stüdyosu işletiyorsanız sabah saat 9'da telefonu açtığınızda 14 DM, 6 Instagram mesajı, 3 WhatsApp ve 2 cevapsız çağrıyla karşılaşmak hayatınızın olağan rutini. Bu mesajların hangisi gerçek rezervasyon, hangisi sadece "fiyat sormak için yazdım", hangisi geçen ay konuştuğumuz ama hâlâ kesin tarih vermeyen biri, ayırt etmek başlı başına bir iş. Üstüne bir de aynı gün aynı saate iki ayrı rezervasyon aldığınızı çekim sabahı fark ettiğinizde yaşanan kabusu, ya da hamilelik çekimi için stüdyoyu hazırlayıp ışıkçıyı çağırdığınız bir cumartesi sabahı son dakika "ben gelemiyorum" mesajı geldiğinde boşa giden 4 saatlik blok ve 1500 TL operasyon maliyetini hesaba katın. PORTZEN olarak son iki yılda bebek, hamilelik, kurumsal headshot ve düğün öncesi (prenuptial) çekim yapan onlarca stüdyo için rezervasyon ve kapora altyapısı kurduk. Bu sistemlerin ortak noktası şu: doğru kurulduklarında stüdyonun gelir kaybını yüzde 30-40 azaltıyor, fotoğrafçıyı yaratıcı işine geri döndürüyor ve müşteri deneyimini bir butik markaya yakıştığı şekilde profesyonelleştiriyor. Bu yazıda online rezervasyon ve kapora altyapısının nasıl kurulduğunu, hangi araçların kullanıldığını ve hangi hatalardan kaçınmanız gerektiğini somut Türkiye piyasası rakamlarıyla anlatıyoruz.
+Bir fotoğraf stüdyosu işletiyorsanız sabah saat 9'da telefonu açtığınızda 14 DM, 6 Instagram mesajı, 3 WhatsApp ve 2 cevapsız çağrıyla karşılaşmak hayatınızın olağan rutini. Bu mesajların hangisi gerçek rezervasyon, hangisi sadece "fiyat sormak için yazdım", hangisi geçen ay konuştuğumuz ama hâlâ kesin tarih vermeyen biri, ayırt etmek başlı başına bir iş. Üstüne bir de aynı gün aynı saate iki ayrı rezervasyon aldığınızı çekim sabahı fark ettiğinizde yaşanan kabusu, ya da hamilelik çekimi için stüdyoyu hazırlayıp ışıkçıyı çağırdığınız bir cumartesi sabahı son dakika "ben gelemiyorum" mesajı geldiğinde boşa giden 4 saatlik blok ve 1500 TL operasyon maliyetini hesaba katın. Online rezervasyon ve kapora altyapısı doğru kurulduğunda çift rezervasyon ve son dakika iptallerinin yarattığı kayıpları sınırlar, fotoğrafçıyı yaratıcı işine geri döndürür ve müşteri deneyimini bir butik markaya yakıştığı şekilde profesyonelleştirir. Bu yazıda online rezervasyon ve kapora altyapısının nasıl kurulduğunu, hangi araçların kullanıldığını ve hangi hatalardan kaçınmanız gerektiğini somut Türkiye piyasası rakamlarıyla anlatıyoruz.
 
 ## Neden Online Rezervasyon Sistemine Geçmelisiniz
 
@@ -40,7 +40,7 @@ Online rezervasyon kurulumunun ilk adımı, hangi takvim ve rezervasyon altyapı
 - Calendly: Basit, hızlı kurulum, ancak kapora alma yerel ödeme altyapısıyla zayıf. Aylık 12-20 dolar.
 - Setmore: Daha gelişmiş, takvim ve müşteri yönetimi var, Türkçe arayüz sınırlı. Aylık 9-25 dolar.
 - Booksy: Güzellik sektörü odaklı, fotoğraf stüdyosuna birebir uymuyor.
-- Özel geliştirilmiş çözüm: PORTZEN olarak müşterilerimize web sitesine entegre, kendi markanız altında çalışan özel rezervasyon paneli kuruyoruz. Aylık 500-1.500 TL bakım ile sahip oluyorsunuz.
+- Özel geliştirilmiş çözüm: PORTZEN olarak müşterilerimize web sitesine entegre, kendi markanız altında çalışan özel rezervasyon paneli kuruyoruz. Bu iş özel web uygulaması kapsamındadır: {{tekil:ozel-web-uygulamasi}} (KDV hariç); kesin bedel kapsama göre teklifte belirlenir.
 
 ### Paket ve Süre Tanımları
 
@@ -74,7 +74,7 @@ Sektör pratiği yüzde 30-50 arası kapora almak yönünde. Daha düşük paket
 - Param: Yeni nesil, daha modern arayüz. İşlem ücreti yüzde 2.8 bandında.
 - Stripe: Yurt dışı müşteri ağırlıklı çalışıyorsanız ideal. Türkiye'de USD/EUR tahsilatı için kullanılabilir.
 
-PORTZEN olarak müşterilerimize çoğunlukla Iyzico kurulumunu öneriyoruz. Hem dökümentasyonu sağlam hem destek ekibi sorunlara hızlı dönüyor. Detaylı entegrasyon hikayelerini [CRM otomasyon hizmetimiz](/crm-otomasyonu) sayfamızda anlatıyoruz.
+PORTZEN olarak müşterilerimize çoğunlukla Iyzico kurulumunu öneriyoruz. Hem dökümentasyonu sağlam hem destek ekibi sorunlara hızlı dönüyor. Entegrasyon kapsamını [CRM otomasyon hizmetimiz](/crm-otomasyonu) sayfamızda anlatıyoruz.
 
 ### Kapora Geri İade Politikası
 
@@ -154,11 +154,11 @@ Fotoğraf stüdyosu rezervasyon ve operasyon kurgularında en sık karşılaşt�
 
 ### Online rezervasyon sistemini kurmadan önce sosyal medyada zaten rezervasyon alıyorum, geçiş süreci nasıl olacak?
 
-Geçiş aşamalı yapılır. Önce yeni rezervasyonları sisteme yönlendiriyorsunuz, sosyal medya bio'sundaki linki rezervasyon sayfasına çeviriyorsunuz. DM'den yazan müşterilere "Rezervasyon için lütfen şu linki kullanın" yanıtını otomatik kuruyoruz. 4-6 hafta içinde müşteri trafiğinin yüzde 80'i sisteme geçer.
+Geçiş aşamalı yapılır. Önce yeni rezervasyonları sisteme yönlendiriyorsunuz, sosyal medya bio'sundaki linki rezervasyon sayfasına çeviriyorsunuz. DM'den yazan müşterilere "Rezervasyon için lütfen şu linki kullanın" yanıtını otomatik kuruyoruz. Geçişin hızı müşteri kitlenize göre değişir; bio linki ve otomatik yanıt sayesinde yeni talepler giderek sisteme yönelir.
 
 ### Kapora alırsam müşteri kaybeder miyim?
 
-Tam tersine. Kapora aldığınızda müşteri profilinin kalitesi yükselir. "Bir bakayım fiyatları" diyen fiyat avcıları elenir, gerçek niyetli müşteriler kalır. Müşterilerimizin verilerine göre kapora uygulamasından sonra toplam rezervasyon sayısı yüzde 10-15 düşse de no-show kaybı yüzde 80 azaldığı için net gelir yüzde 20-25 artıyor.
+Tam tersine. Kapora aldığınızda müşteri profilinin kalitesi yükselir. "Bir bakayım fiyatları" diyen fiyat avcıları elenir, gerçek niyetli müşteriler kalır. Kapora uygulamasından sonra bazı fiyat soran müşteriler elenebilir; ancak gelen rezervasyonların arkasında gerçek bir taahhüt olduğu için son dakika iptallerinden doğan kayıp sınırlanır.
 
 ### Birden fazla fotoğrafçı çalıştırıyorum, sistem buna uygun mu?
 
@@ -170,4 +170,4 @@ Mevcut sitenize entegre edilebilir. WordPress, Shopify, özel kodlu siteler dahi
 
 ## PORTZEN ile Rezervasyon Sistemi Kurmak
 
-Bir fotoğraf stüdyosu için online rezervasyon ve kapora sistemi, çoğu zaman "bir gün yaparız" diye ertelenen ama her ertelenen ayda binlerce TL gelir kaybı yaratan bir yatırımdır. Doğru kurulduğunda hem operasyonel yükünüzü azaltır hem müşteri deneyimini yukarı taşır hem markanızı butik bir kimliğe taşır. PORTZEN olarak hamilelik, newborn, aile, prenuptial ve kurumsal çekim yapan stüdyolar için rezervasyon, kapora ödemesi, otomatik iletişim, KVKK ve sözleşme altyapısı dahil tam paket çözüm sunuyoruz. Tipik bir kurulum 2-3 hafta sürüyor, kurulum maliyeti 12.000-25.000 TL, aylık bakım 750-1.500 TL bandında. Kendi stüdyonuz için ihtiyaca özel bir teklif almak isterseniz [bizimle iletişime geçin](/iletisim), ilk görüşmede mevcut akışınızı dinleyip somut bir yol haritası çıkaralım.
+Bir fotoğraf stüdyosu için online rezervasyon ve kapora sistemi, çoğu zaman "bir gün yaparız" diye ertelenen ama her ertelenen ayda binlerce TL gelir kaybı yaratan bir yatırımdır. Doğru kurulduğunda hem operasyonel yükünüzü azaltır hem müşteri deneyimini yukarı taşır hem markanızı butik bir kimliğe taşır. PORTZEN olarak hamilelik, newborn, aile, prenuptial ve kurumsal çekim yapan stüdyolar için rezervasyon, kapora ödemesi, otomatik iletişim, KVKK aydınlatma ve açık rıza adımları ile sözleşme onay akışı dahil tam paket çözüm sunuyoruz. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Hazır rezervasyon ve ödeme araçlarıyla kurulan otomasyon akışları tek seferlik iş otomasyonu paketleriyle ({{fiyatlar:is-otomasyonu}}), markanıza özel rezervasyon paneli ise özel web uygulaması olarak ({{tekil:ozel-web-uygulamasi}}) fiyatlanır; tutarlar KDV hariçtir. Kendi stüdyonuz için ihtiyaca özel bir teklif almak isterseniz [bizimle iletişime geçin](/iletisim), ilk görüşmede mevcut akışınızı dinleyip somut bir yol haritası çıkaralım.

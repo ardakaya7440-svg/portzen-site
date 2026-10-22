@@ -15,7 +15,7 @@ ogImage: "/blog/og/dis-hekimi-instagram-icerik-stratejisi.png"
 
 Diş hekimliği Türkiye'de Instagram'da en rekabetçi sağlık dallarından biri. İstanbul, Ankara, İzmir gibi büyük şehirlerde yüzlerce klinik aynı hashtag'lerde, aynı önce-sonra fotoğraflarıyla, aynı implant videolarıyla çıkıyor. Hasta için ayırt etme kriterleri belirsiz. Sonuç: yüksek reklam maliyeti, düşük dönüşüm, doygun beğeni hayranlığı.
 
-Bu yazıda diş hekimleri için **Instagram'da gerçekten dönüşüm getiren içerik stratejisini** ve **30 günlük hazır yayın planını** paylaşacağız. Hangi format ne zaman, hangi konu hangi gün, etik sınırlar nerede, hangi hashtag stratejisi işe yarıyor adım adım anlatacağız. PORTZEN olarak biz İzmir başta olmak üzere 25+ diş kliniğine içerik stratejisi kurduk. Yazıda paylaşacaklarımız teori değil, ölçülmüş gerçek sonuçlardan damıtıldı. Sonunda kendi kliniğinizde uygulayabileceğiniz somut bir takvim ve içerik repertuarına sahip olacaksınız.
+Bu yazıda diş hekimleri için **Instagram'da gerçekten dönüşüm getiren içerik stratejisini** ve **30 günlük hazır yayın planını** paylaşacağız. Hangi format ne zaman, hangi konu hangi gün, etik sınırlar nerede, hangi hashtag stratejisi işe yarıyor adım adım anlatacağız. Yazıda paylaşacaklarımız, diş hekimliğinin etik sınırları ve Instagram'ın çalışma mantığı üzerine kurulu pratik bir çerçeve. Sonunda kendi kliniğinizde uygulayabileceğiniz somut bir takvim ve içerik repertuarına sahip olacaksınız.
 
 ## Diş Hekimi Instagram İçeriği Neden Çoğu Zaman Tıkanıyor?
 
@@ -61,14 +61,14 @@ Soru-cevap, mit-gerçek, anket, yorum yanıtı, mizahi içerik. Hedef: algoritma
 
 ## Format Dağılımı: Reels Neden Bu Kadar Önemli?
 
-2026'da Instagram'da en yüksek erişim **Reels'te**. Diş hekimliği gibi görsel ağırlıklı bir dalda Reels organik erişimi carousel'in 3-5 katı. PORTZEN'in yönettiği klinik hesaplarında ortalama format dağılımı şu:
+2026'da Instagram'da en yüksek erişim **Reels'te**. Diş hekimliği gibi görsel ağırlıklı bir dalda Reels organik erişimi carousel'in 3-5 katı. Başarılı klinik hesaplarında tipik format dağılımı şu:
 
 - Reels: yüzde 55 (haftada 4-5)
 - Carousel: yüzde 25 (haftada 2)
 - Tek fotoğraf: yüzde 10 (haftada 1)
 - Story: günlük 3-5 adet (ayrı sayım)
 
-Reels üretimini hızlandırmak için yapay zeka araçları kullanmak günlük operasyonu kolaylaştırıyor. Detaylar için [Reels yapay zeka ile üretim](/blog/reels-yapay-zeka-ile-uretim) yazımıza bakabilirsiniz. Klinik içi çekim için zaman ayıramayan hekimler ise profesyonel [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetiyle haftada 4-5 sinema kalitesinde Reels'i tek bir brief üzerinden üretebiliyor.
+Reels üretimini hızlandırmak için yapay zeka araçları kullanmak günlük operasyonu kolaylaştırıyor. Detaylar için [Reels yapay zeka ile üretim](/blog/reels-yapay-zeka-ile-uretim) yazımıza bakabilirsiniz. Klinik içi çekim için zaman ayıramayan hekimler ise profesyonel [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetiyle pakete göre ayda 4 ila 24 kısa videoyu tek bir brief üzerinden üretebiliyor.
 
 ## 30 Günlük Yayın Planı
 
@@ -127,14 +127,16 @@ Konum etiketi her paylaşımda mutlaka olmalı: klinik adresi + bulunduğunuz se
 
 Instagram'da içerik üretmek tek başına yetmiyor. Hasta beğeni veriyor, yoruma "fiyat?" yazıyor, DM atıyor ama eğer 30 dakika içinde cevap gelmezse büyük olasılıkla rakip klinik kazanıyor. Burada **Instagram DM otomasyonu** devreye giriyor.
 
-Doğru kurulduğunda DM bot:
+Doğru kurulduğunda kural tabanlı DM otomasyonu:
 
 - "Fiyat" yazan yorumlara otomatik DM gönderiyor (genel bilgi + randevu daveti)
-- DM'e gelen ilk mesajda 24/7 cevap veriyor
-- Hastanın şikayetini sorup uygun branşa yönlendiriyor
-- Randevu takvimine ya da WhatsApp'a aktarıyor
+- DM'e gelen ilk mesajda 24/7 hazır karşılama mesajı gönderiyor
+- Hazır seçeneklerle (buton/anahtar kelime) hastanın ilgilendiği tedaviyi sorup uygun akışa yönlendiriyor
+- Randevu linkine ya da WhatsApp'a yönlendiriyor
 
-DM otomasyonunun dönüşüm üzerindeki etkisini [Instagram DM dönüşüm artırma](/blog/instagram-dm-donusum-artirma) yazımız ölçülü vakalarla anlatıyor. Diş kliniği için özel kurulum detayları için [Instagram DM otomasyonu diş hekimi sayfasına](/instagram-dm-otomasyonu/dis-hekimi) bakabilirsiniz.
+Hastanın serbest yazdığı mesajları yapay zekayla anlayıp yanıtlamak ve takvimde randevu oluşturmak ise ayrı bir hizmet olan AI müşteri asistanının kapsamındadır (Instagram kanalı Kurumsal pakette).
+
+DM otomasyonunun dönüşüm üzerindeki etkisini [Instagram DM dönüşüm artırma](/blog/instagram-dm-donusum-artirma) yazımız ayrıntılı anlatıyor. Diş kliniği için özel kurulum detayları için [Instagram DM otomasyonu diş hekimi sayfasına](/instagram-dm-otomasyonu/dis-hekimi) bakabilirsiniz.
 
 ## İçerik Üretiminde Tutarlılığı Nasıl Sağlamak?
 
@@ -147,19 +149,21 @@ Ayda 1 gün, 4-6 saatlik blokta 12-16 video çekiyorsunuz. Sonra ekip ya da ajan
 Aynı format, farklı konu. "Bugün konuşacağımız konu: X" başlangıcıyla 12 ayrı Reels üretilebiliyor.
 
 ### AI destekli düzenleme
-Çekilen ham videoyu AI ile alt yazı, kapak, müzik eşleştirme yapıp dağıtım yapan akış. Üretim hızını 4-5 kat artırıyor.
+Çekilen ham videoyu AI ile alt yazı, kapak, müzik eşleştirme yapıp dağıtım yapan akış. Kurgu ve yayın hazırlığını belirgin şekilde hızlandırıyor.
 
 İçerik takvimini sistematik tutmak için [sosyal medya içerik takvimi](/blog/sosyal-medya-icerik-takvimi) rehberimiz somut şablon sunuyor.
 
-## Beklenen Sonuçlar
+## Hangi Metrikleri İzlemelisiniz?
 
-Sistemli içerik stratejisi uygulanan diş kliniklerinde ilk 90 günde tipik değişimler:
+Sistemli içerik stratejisinin etkisini ilk 90 günde şu metriklerle izleyebilirsiniz:
 
-- Takipçi sayısı yüzde 60-120 artışı (organik)
-- Reels izlenme yüzde 200-400 artışı
-- DM trafiği yüzde 80-150 artışı
-- DM'den randevuya dönüşüm yüzde 12-22 (otomasyon ile)
-- Reklam yapıldığında tıklama maliyeti yüzde 25-40 düşüşü (çünkü hesap "canlı" görünüyor)
+- Organik takipçi değişimi
+- Reels izlenme ve kaydetme sayıları
+- DM trafiği
+- DM'den randevuya dönüşüm (otomasyon kuruluysa ayrıca izlenir)
+- Reklam yapıldığında tıklama maliyeti (hesap "canlı" göründüğünde genelde olumlu etkilenir)
+
+Bu metrikler kliniğin şehrine, tedavi çeşidine ve başlangıç noktasına göre değişir; önemli olan aylık karşılaştırma yapıp içerik sütunlarını buna göre ayarlamaktır.
 
 ## Sıkça Sorulan Sorular
 
@@ -176,10 +180,10 @@ Hastanın yazılı açık rızası olduğu sürece yasal. Ama abartılı vaat i�
 Instagram'ın kendi müzik kütüphanesinden seçtiğiniz sürece sorun yok. Dışarıdan eklenmiş telifli müzik kullanırsanız erişim düşüyor ya da içerik kaldırılıyor.
 
 **Reklam (Meta Ads) yapmak şart mı?**
-Şart değil ama organik büyüme 6-9 ayda olurken, reklamla 2-3 aya iniyor. İçerik kalitesi yüksekse reklam çok daha verimli çalışıyor. Reklam öncesi içerik altyapısının kurulu olması kritik. Yerel hedefli Facebook ve Instagram kampanyalarınızı profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile yürütmek, klinik bütçenizdeki kayıpları ciddi şekilde azaltıyor.
+Şart değil ama organik büyüme 6-9 ayda olurken, reklamla 2-3 aya iniyor. İçerik kalitesi yüksekse reklam çok daha verimli çalışıyor. Reklam öncesi içerik altyapısının kurulu olması kritik. Yerel hedefli Facebook ve Instagram kampanyalarınızı profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile yürütmek, bütçenin hangi kampanyada nasıl harcandığını düzenli izlemeyi kolaylaştırıyor.
 
 ## PORTZEN ile Diş Hekimi İçin Instagram Stratejisi Kurmak
 
-Diş kliniğinizde Instagram'ı tesadüfi paylaşımlardan çıkarıp **hastaya dönüşen sistem** hâline getirmek istiyorsanız PORTZEN olarak biz uçtan uca paket sunuyoruz: içerik stratejisi, aylık 20-25 paylaşım üretimi (Reels + carousel + story), DM otomasyonu kurulumu, Meta Ads kampanyaları ve aylık performans raporu. İçerik üretiminin yanında [Instagram'dan müşteri bulma rehberi](/blog/instagramdan-musteri-bulma-rehberi) ve [TikTok marka sayfası açma](/blog/tiktok-marka-sayfasi-acma) yazılarımız da görsel pazarlama vizyonunuzu genişletebilir.
+Diş kliniğinizde Instagram'ı tesadüfi paylaşımlardan çıkarıp **hastaya dönüşen sistem** hâline getirmek istiyorsanız PORTZEN olarak biz bunu sosyal medya paketlerimizle kuruyoruz: örneğin Büyüme paketinde ayda 20 özgün içerik (12 tasarım + 8 video), 12 Story uyarlaması ve Meta reklam yönetimi dahildir ({{fiyat:sosyal-medya:buyume}}, KDV hariç; reklam harcaması hariç). DM otomasyonu ayrı bir hizmet olarak eklenebilir. İçerik üretiminin yanında [Instagram'dan müşteri bulma rehberi](/blog/instagramdan-musteri-bulma-rehberi) ve [TikTok marka sayfası açma](/blog/tiktok-marka-sayfasi-acma) yazılarımız da görsel pazarlama vizyonunuzu genişletebilir.
 
 Kliniğiniz için özel içerik takvimi ve dönüşüm odaklı kurulum teklifi almak için [iletişime geçin](/iletisim). İlk görüşmede biz mevcut hesabınızı analiz ediyoruz, sektör verileriyle karşılaştırıyoruz, ardından 30-90 günlük net bir yol haritası sunuyoruz.

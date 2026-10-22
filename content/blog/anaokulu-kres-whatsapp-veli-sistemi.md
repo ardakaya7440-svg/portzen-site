@@ -15,7 +15,7 @@ ogImage: "/blog/og/anaokulu-kres-whatsapp-veli-sistemi.png"
 
 Anaokulu ve kreş yönetiminin gündelik gerçeği şudur. Müdür ya da müdür yardımcısı, gün içinde onlarca veli mesajına yanıt yetiştirmeye çalışır. "Bugün öğle yemeği neydi?", "Pazartesi geziye gidiyorlar mı?", "Aidat hangi günden ödenmeli?", "Gelişim raporu ne zaman gelecek?", "Çocuğum bugün nasıldı?", "Yarın velayet günü için kayıt geliyorum, hâlâ uygun mu?". Bu mesajların yüzde sekseni bilgilendirme niteliğinde ve tekrarlayan sorular. Geri kalan yüzde yirmi gerçekten okul yönetiminin müdahalesini gerektiren durumlar. Sorun, yöneticilerin bu yüzde sekseni elemek için yapıya sahip olmaması.
 
-WhatsApp veli grupları çözüm gibi görünüyor ama yeni problemler getiriyor. Bir velinin yazdığı mesaj 80 kişiye gidiyor. Gece 11'de "yarın gezi var mı" sorusu, sabah 7'de "öğle yemeği menüsünü unuttum" sorusu. Veli gruplarındaki gürültü, hem yöneticiyi hem velileri yoruyor. 2026 itibarıyla bu kaotik yapının yerini WhatsApp Business altyapısı üzerine kurulu profesyonel veli iletişim sistemleri alıyor. PORTZEN olarak İzmir'de birçok anaokulu ve kreş ile bu sistemi kurduk. Bu yazıda hem mevcut sorunları, hem de doğru kurulan bir sistemin neye benzediğini detaylı işleyeceğiz.
+WhatsApp veli grupları çözüm gibi görünüyor ama yeni problemler getiriyor. Bir velinin yazdığı mesaj 80 kişiye gidiyor. Gece 11'de "yarın gezi var mı" sorusu, sabah 7'de "öğle yemeği menüsünü unuttum" sorusu. Veli gruplarındaki gürültü, hem yöneticiyi hem velileri yoruyor. 2026 itibarıyla bu kaotik yapının yerini WhatsApp Business altyapısı üzerine kurulu profesyonel veli iletişim sistemleri alıyor. Bu yazıda hem mevcut sorunları, hem de doğru kurulan bir sistemin neye benzediğini detaylı işleyeceğiz.
 
 ## Veli Grubu Modelinin Sınırları
 
@@ -82,7 +82,7 @@ Bir kreş yöneticisinin günlük WhatsApp mesajlarının yüzde sekseni şu 30 
 - Çocuğum okula alışamıyor, ne yapmalıyım?
 - Müdürle randevu nasıl alınır?
 
-Bu 30 sorunun her birine WhatsApp AI asistan, okulun bilgi tabanından beslenerek doğru yanıt veriyor. Müdürün telefonu sürekli çalmıyor. Velinin sorusu 30 saniye içinde yanıtlanıyor. Hem veli mutlu hem yönetici verimli. PORTZEN'in [eğitim CRM otomasyonu](/crm-otomasyonu/egitim) hizmeti bu bilgi tabanını CRM ile birleştirip kişiselleştiriyor.
+Bu 30 sorunun her birine WhatsApp AI asistan, okulun bilgi tabanından beslenerek doğru yanıt veriyor. Müdürün telefonu sürekli çalmıyor. Velinin sorusuna otomatik yanıt veriliyor, veli beklemiyor. Hem veli mutlu hem yönetici verimli. PORTZEN'in [eğitim CRM otomasyonu](/crm-otomasyonu/egitim) hizmeti bu bilgi tabanını CRM ile birleştirip kişiselleştiriyor.
 
 ## Sınıf Bazlı Etiketleme ve Hedefli Duyurular
 
@@ -95,7 +95,7 @@ Doğru kurulmuş WhatsApp Business altyapısında her veli sınıfa göre etiket
 - Aidat durumu bazlı duyuru: "Bu ayın aidatı henüz ödenmedi, IBAN bilgisi şudur"
 - Kayıt yenileme dönemi: "Önümüzdeki yıl kayıt yenileme süresi 1-15 Mart aralığındadır"
 
-Veliye giden mesaj kişiselleştirilmiş hissi veriyor, yöneticinin emeği yarı yarıya azalıyor. Bu konsept temelde [yapay zeka ile müşteri hizmetleri](/blog/yapay-zeka-musteri-hizmetleri) yaklaşımının eğitime uyarlaması.
+Veliye giden mesaj kişiselleştirilmiş hissi veriyor, yöneticinin emeği belirgin şekilde azalıyor. Bu konsept temelde [yapay zeka ile müşteri hizmetleri](/blog/yapay-zeka-musteri-hizmetleri) yaklaşımının eğitime uyarlaması.
 
 ## Aylık Etkinlik Takvimi ve Otomatik Hatırlatma
 
@@ -169,7 +169,7 @@ Sistemde alınacak önlemler.
 
 - Veliden açık rıza ile veri toplama
 - Çocuk fotoğraf paylaşımı için ayrı açık rıza
-- Sistemin yurt içi sunucuda barındırılması
+- Verinin hangi sağlayıcıda ve bölgede barındırılacağının belirlenmesi (yurt dışı aktarım varsa KVKK'daki aktarım şartlarına uyulması)
 - Veri saklama süresinin tanımlanması (genelde kayıt yenilenmediği yıl + 5 yıl)
 - Personelin erişim yetkilerinin sınırlanması
 - VERBİS kaydının yapılması
@@ -185,7 +185,9 @@ Türkiye'deki anaokulu ve kreşlerin WhatsApp veli iletişim sistemine yatırım
 - 60-150 öğrencilik orta ölçek: 8.000-15.000 TL kurulum, 2.500-4.500 TL aylık
 - 150+ öğrencilik anaokulu zinciri: 15.000-30.000 TL kurulum, 4.500-8.000 TL aylık
 
-Geri dönüş süresi genelde 3-6 ay. Çünkü tek bir yöneticinin günde 2-3 saatlik mesaj yükü ortadan kalkıyor, kayıt döneminde dönüşüm oranı yüzde 20-40 oranında artıyor. Veli memnuniyeti ölçülemiyor ama veli sirkülasyonu azalıyor.
+Bunlar piyasa aralıklarıdır; PORTZEN'de bu yapı AI müşteri asistanı paketleriyle kurulur: {{fiyatlar:ai-musteri-asistani}} (KDV hariç).
+
+Geri dönüş süresi kurumun mesaj hacmine ve kayıt dönemine göre değişir. Sistemin katkısı, yöneticinin tekrar eden mesajlara ayırdığı zamanın azalması ve kayıt dönemindeki her temasın kayda alınıp takip edilmesidir. Veli memnuniyeti doğrudan ölçülemese de iletişimin düzenli ve öngörülebilir hale gelmesi veli tarafında da hissedilir.
 
 ## Sıkça Sorulan Sorular
 
@@ -196,7 +198,7 @@ Hayır. Grubu sosyal etkileşim için tutabilirsiniz. Yönetim duyuruları ve ki
 WhatsApp Business API mantığı tam da bu. Tek numara, arka planda etiketleme. Yeni gelen kişi etiketlenmemiş, sistem ilk soruyla onu sınıflandırıyor (mevcut veli mi, kayıt arayan mı, başka mı). Sonrasında doğru akışa yönlendiriliyor.
 
 **AI asistan velinin sorusuna yanlış cevap verirse?**
-PORTZEN kurulumlarında asistan bilmediği konuda asla "bilmediği" cevabı vermiyor, yöneticiye yönlendiriyor. Bilgi tabanı dışındaki sorular otomatik olarak müdür ya da müdür yardımcısına aktarılıyor. Bu sayede yanlış bilgi paylaşılma riski yok.
+PORTZEN kurulumlarında asistan, bilgi tabanında olmayan bir konuda tahmin yürütmek yerine yöneticiye yönlendirecek şekilde yapılandırılır. Bilgi tabanı dışındaki sorular otomatik olarak müdür ya da müdür yardımcısına aktarılır. Bu yapı ve düzenli bilgi tabanı güncellemesi yanlış bilgi riskini azaltır.
 
 **Eski WhatsApp yazışmalarımız sisteme aktarılabilir mi?**
 Geçmiş bireysel yazışmalar teknik olarak aktarılamıyor (Meta sınırlandırması). Ancak yeni sistem kurulduktan sonra tüm yazışmalar kayıt altında, aranabilir oluyor.
@@ -211,6 +213,6 @@ WhatsApp Business API her ölçeğe uygun. 200, 500, hatta 2000+ veliye sahip ok
 
 Anaokulu ve kreşler, eğitim hizmeti veren ama aynı zamanda her gün onlarca veliye yanıt vermek, kayıt yönetmek, etkinlik organize etmek zorunda olan zor işletmelerdir. Yönetimin tüm gücünü WhatsApp mesajlarına ayırması, eğitim kalitesinden alınan bir vergidir.
 
-PORTZEN olarak İzmir başta olmak üzere Türkiye genelindeki anaokulları ve kreşler için [eğitim sektörü WhatsApp AI asistan](/whatsapp-ai-asistani/egitim), [eğitim CRM otomasyonu](/crm-otomasyonu/egitim) ve [eğitim sektörü web tasarımı](/web-tasarim/egitim) hizmetlerini anahtar teslim sunuyoruz. Yöneticinin günde 2 saatini geri kazandırmayı, kayıt dönemi dönüşümünü yüzde 30 artırmayı ve veli memnuniyetini yükseltmeyi hedefliyoruz.
+PORTZEN olarak İzmir başta olmak üzere Türkiye genelindeki anaokulları ve kreşler için [eğitim sektörü WhatsApp AI asistan](/whatsapp-ai-asistani/egitim), [eğitim CRM otomasyonu](/crm-otomasyonu/egitim) ve [eğitim sektörü web tasarımı](/web-tasarim/egitim) hizmetlerini anahtar teslim sunuyoruz. Amacımız tekrar eden veli sorularını otomatik yanıtlara devretmek, kayıt dönemindeki her temasın takip edilmesini sağlamak ve yöneticinin zamanını eğitime ayırabilmesini kolaylaştırmak.
 
 Kurumunuz için size özel bir kurulum önerisi almak isterseniz [iletişim sayfamızdan](/iletisim) bize yazabilirsiniz. İlk görüşmede mevcut iletişim akışınızı ücretsiz olarak inceliyor, hangi parçanın otomasyonla iyileştirilebileceğini gösteriyoruz.

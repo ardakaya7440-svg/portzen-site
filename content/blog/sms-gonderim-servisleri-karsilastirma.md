@@ -159,7 +159,7 @@ Bu matris bir başlangıç noktasıdır. Gerçek karar için sektörünüze, mev
 
 **Mikro İşletme (Aylık 500-2.000 SMS):** Kuaför, küçük klinik, butik gibi yapılar için aylık bütçe 50-200 TL bandında kalır. Posta Güvercini veya Vatan SMS bu segment için ideal. Yıllık maliyet 600-2.400 TL civarındadır. [Kuaför SMS randevu hatırlatma rehberimizde](/blog/kuafor-sms-randevu-hatirlatma) bu segmenti detaylandırıyoruz.
 
-**Küçük Ölçekli E-ticaret (Aylık 5.000-15.000 SMS):** Aylık maliyet 360-1.000 TL bandında. Vatan SMS fiyat avantajıyla öne çıkar. Yıllık maliyet 4.300-12.000 TL civarındadır. CRM otomasyonu ile birleştirildiğinde gönderim verimliliği iki katına çıkabiliyor. [CRM otomasyonu rehberimizde](/blog/crm-otomasyonu-rehberi) bu sinerjiyi anlatıyoruz.
+**Küçük Ölçekli E-ticaret (Aylık 5.000-15.000 SMS):** Aylık maliyet 360-1.000 TL bandında. Vatan SMS fiyat avantajıyla öne çıkar. Yıllık maliyet 4.300-12.000 TL civarındadır. CRM otomasyonu ile birleştirildiğinde mesajlar segment ve tetikleyiciye göre gittiği için gereksiz gönderim azalır. [CRM otomasyonu rehberimizde](/blog/crm-otomasyonu-rehberi) bu sinerjiyi anlatıyoruz.
 
 **Orta Ölçek (Aylık 50.000-100.000 SMS):** Aylık maliyet 2.900-8.200 TL bandında. Bu hacimde sağlayıcılarla doğrudan pazarlık yapılmalı, liste fiyatından yüzde 20-30 indirim alınabiliyor. Vatan SMS, Posta Güvercini ve İleti Merkezi rekabet eder. Yıllık maliyet 35-100 bin TL bandında oluşur.
 
@@ -186,6 +186,6 @@ Evet, başlık onayını yeni sağlayıcıda yenilemeniz ve IYS izinlerini taş�
 
 Doğru SMS sağlayıcısını seçmek hikayenin yalnızca yarısı. Asıl değer, bu altyapıyı CRM, e-ticaret, randevu sistemi ve müşteri destek araçlarınızla otomatik akışlar üzerinden birleştirdiğinizde ortaya çıkıyor. Müşteri sipariş verdiğinde otomatik teyit, kargo çıktığında bilgilendirme, randevu gününden bir gün önce hatırlatma, sepetini terk eden müşteriye 24 saat sonra kupon, doğum gününde tebrik mesajı gibi senaryoların hepsi insan eli değmeden işleyebiliyor.
 
-PORTZEN olarak işletmeniz için doğru SMS sağlayıcısını seçmenizden başlayarak, [otomasyon altyapımız](/otomasyon) üzerinden CRM, e-ticaret ve operasyon sistemlerinizle entegre uçtan uca akışlar kuruyoruz. Netgsm, Vatan SMS, İleti Merkezi veya Posta Güvercini fark etmez; mevcut sağlayıcınızın API'sini, sizin için en verimli iş akışına çeviriyoruz. IYS ve KVKK uyumlu segmentasyon, AB testi destekli kampanya yönetimi, otomatik raporlama ve ay sonu performans değerlendirmesi paketin parçası.
+PORTZEN olarak işletmeniz için doğru SMS sağlayıcısını seçmenizden başlayarak, [otomasyon altyapımız](/crm-otomasyonu) üzerinden CRM, e-ticaret ve operasyon sistemlerinizle entegre uçtan uca akışlar kuruyoruz. Netgsm, Vatan SMS, İleti Merkezi veya Posta Güvercini fark etmez; mevcut sağlayıcınızın API'sini, sizin için en verimli iş akışına çeviriyoruz. Bu akışlar iş otomasyonu paketleriyle tek seferlik kurulur: {{fiyatlar:is-otomasyonu}} (KDV hariç; SMS sağlayıcı ücretleri hariç). İlk 30 gün kurulum hataları giderilir; ikinci aydan itibaren isteğe bağlı aylık bakım alınabilir.
 
 Hangi sağlayıcının sizin için doğru olduğundan emin değilseniz ya da mevcut sisteminizi otomatikleştirmek istiyorsanız, [iletişim formumuzdan](/iletisim) bize ulaşın. 30 dakikalık ücretsiz keşif görüşmesinde sektörünüz, hacminiz ve hedefleriniz üzerinden net bir yol haritası çıkaralım.

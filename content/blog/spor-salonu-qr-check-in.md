@@ -15,7 +15,7 @@ ogImage: "/blog/og/spor-salonu-qr-check-in.png"
 
 Spor salonu işletmeciliğinin en sinsi sorunu, üyenin abone olduktan sonra sessizce yok olmasıdır. Aidat ödemesi geçen ay yapılmıştır, kart hâlâ aktiftir ve siz bu üyenin son 18 gündür tesisinize girmediğini fark etmemişsinizdir. Üye fark ettiğinde ise zaten "ben buraya gelmiyorum, dondurayım" cümlesi WhatsApp'tan düşer. Oradan tek adım sonra üyelik iptali gelir. Türkiye'deki orta ölçekli bir spor salonunda yıllık churn oranının yüzde 45 ile 70 arasında değiştiğini söylesek, çoğu işletme sahibi şaşırmaz; çünkü bu sızıntıyı her ay tabloda görüyor ama nereden başlayacağını bilmiyor.
 
-PORTZEN olarak Ankara, İstanbul ve İzmir'deki spor salonu, CrossFit kutusu ve pilates stüdyosu projelerimizde gördüğümüz tablo net: temel sorun pazarlama değil, operasyonel sessizlik. Üyenin gelmediğini sistem görmüyor, gördüğünde uyarmıyor, uyardığında da kimse o üyeyi geri kazanmak için aramıyor. Bu yazıda, kapıya yerleştireceğiniz basit bir QR check-in noktasından başlayarak üye devam takibi, 14 gün devamsızlık alerti, dondurma talepleri, PT randevuları, aidat hatırlatma ve NPS anketine kadar uçtan uca bir otomasyon mimarisini anlatacağız. Hem teknoloji seçimini hem maliyet kalemlerini hem de gerçek hayatta görülen ölçülebilir sonuçları paylaşacağız; böylece kararı tahmine değil, sayılara dayandırırsınız.
+Spor salonu, CrossFit kutusu ve pilates stüdyolarında çoğu zaman temel sorun pazarlama değil, operasyonel sessizliktir. Üyenin gelmediğini sistem görmüyor, gördüğünde uyarmıyor, uyardığında da kimse o üyeyi geri kazanmak için aramıyor. Bu yazıda, kapıya yerleştireceğiniz basit bir QR check-in noktasından başlayarak üye devam takibi, 14 gün devamsızlık alerti, dondurma talepleri, PT randevuları, aidat hatırlatma ve NPS anketine kadar uçtan uca bir otomasyon mimarisini anlatacağız. Hem teknoloji seçimini hem maliyet kalemlerini hem de takip etmeniz gereken ölçülebilir göstergeleri paylaşacağız; böylece kararı tahmine değil, kendi sayılarınıza dayandırırsınız.
 
 ## QR Check-in Sisteminin Mantığı ve Donanım Kurulumu
 
@@ -35,7 +35,7 @@ Her üyeye özel, dinamik bir QR üretmek doğru yaklaşımdır. Üye uygulamada
 
 ## Üye Devam Takibi ve Davranış Skorlama
 
-QR ile veri akışı başladıktan sonra her üyenin haftalık, aylık ve dönemlik devam profili oluşur. Bu noktada artık "X üyemiz var" değil, "X üyemiz var ve şu kadarı düzenli geliyor, şu kadarı sallantıda, şu kadarı risk altında" diyebilirsiniz. PORTZEN'in birlikte çalıştığı kutu ve stüdyolarda kurguladığımız davranış skoru genellikle üç segmente bölünür.
+QR ile veri akışı başladıktan sonra her üyenin haftalık, aylık ve dönemlik devam profili oluşur. Bu noktada artık "X üyemiz var" değil, "X üyemiz var ve şu kadarı düzenli geliyor, şu kadarı sallantıda, şu kadarı risk altında" diyebilirsiniz. PORTZEN olarak önerdiğimiz davranış skoru üç segmente bölünür.
 
 ### Aktif, Pasifleşen ve Risk Altındaki Üye Segmentleri
 
@@ -51,7 +51,7 @@ Yöneticiye sade bir panel sunmak şarttır. Excel kullanan bir işletme bile, G
 
 ## 14 Gün Devamsızlık Alerti ve Otomatik Geri Kazanım
 
-Sektörün en güçlü tek otomasyonu, 14 gün gelmeyen üyeye atılan kişiselleştirilmiş mesajdır. Bu basit akışı doğru kurgulayan salonlar, dondurma talebini yüzde 25 ile 40 arasında azaltabiliyor; tamamen iptal edilen üyelik oranını ise yüzde 15-20 bandında düşürebiliyor.
+Sektörün en güçlü tek otomasyonu, 14 gün gelmeyen üyeye atılan kişiselleştirilmiş mesajdır. Bu basit akış, üye dondurma ya da iptal kararını vermeden önce salonla yeniden temas kurmasını sağlar; etkisi dondurma ve iptal oranları üzerinden ölçülür.
 
 ### Doğru Tetikleyici Zamanlaması
 
@@ -59,11 +59,11 @@ Devamsızlık alerti için en uygun pencere 12 ile 18 gün arasıdır. 7 gün ç
 
 ### Mesaj İçeriği ve Kişiselleştirme
 
-Mesaj kuru kuruya "bir süredir gelmiyorsun" olmamalı. PORTZEN ekibiyle test ettiğimiz en iyi performans veren şablon şu yapıdadır: ismiyle hitap, son geliş tarihini hatırlatma, kısa bir motivasyon cümlesi, somut bir teklif. Örneğin: "Merhaba Mert, son ziyaretin 3 Haziran'dı. Antrenmana ara vermek normal, ama tempoyu tekrar yakalamak için bu hafta PT Burak ile 1 ücretsiz seans hediyemiz var. Hangi gün uygun olur?" Bu mesaj, otomatik olarak [WhatsApp AI asistanı](/whatsapp-ai-asistani) üzerinden gönderilir ve cevap geldiğinde takvime oturur.
+Mesaj kuru kuruya "bir süredir gelmiyorsun" olmamalı. Önerdiğimiz şablon şu yapıdadır: ismiyle hitap, son geliş tarihini hatırlatma, kısa bir motivasyon cümlesi, somut bir teklif. Örneğin: "Merhaba Mert, son ziyaretin 3 Haziran'dı. Antrenmana ara vermek normal, ama tempoyu tekrar yakalamak için bu hafta PT Burak ile 1 ücretsiz seans hediyemiz var. Hangi gün uygun olur?" Bu mesaj, otomatik olarak [WhatsApp AI asistanı](/whatsapp-ai-asistani) üzerinden gönderilir ve cevap geldiğinde takvime oturur.
 
 ### Cevap Yönetimi ve Sahaya Aktarma
 
-Otomasyonun zayıf halkası genellikle "üye cevap verdi ama kimse görmedi" senaryosudur. Bunu önlemek için cevaplar resepsiyon WhatsApp'ına düşmeli, panelde "cevapladı, takip ediliyor" etiketi açılmalı ve 24 saat içinde insan elinden geçmelidir. Bot başlatır, insan kapatır kuralı her zaman geçerlidir. Cevap verme oranları ortalama yüzde 22-35 bandındadır ve bu mesajların yüzde 60'ı geri dönen üyeye dönüşebilir.
+Otomasyonun zayıf halkası genellikle "üye cevap verdi ama kimse görmedi" senaryosudur. Bunu önlemek için cevaplar resepsiyon WhatsApp'ına düşmeli, panelde "cevapladı, takip ediliyor" etiketi açılmalı ve 24 saat içinde insan elinden geçmelidir. Bot başlatır, insan kapatır kuralı her zaman geçerlidir. Cevap oranı ve cevap verenlerden kaçının tekrar salona geldiği panelde ayrı ayrı izlenmelidir.
 
 ## Üyelik Dondurma, Aidat ve Sözleşme Otomasyonu
 
@@ -71,11 +71,11 @@ Spor salonunun arka ofis işleri ne kadar düzenli ise çalışan memnuniyeti ve
 
 ### Dondurma Talepleri ve Limit Yönetimi
 
-Türkiye'deki tipik bir yıllık üyelikte 4 ile 8 hafta arası dondurma hakkı tanınır. Bu hakkın takibinin manuel yapılması ciddi hatalara ve müşteri şikayetine yol açar. Otomasyonda dondurma talebi WhatsApp üzerinden gelir, sistem üyenin kalan hakkını kontrol eder, uygunsa otomatik onaylar ve üyeliğin bitiş tarihini günceller. Uygun değilse resepsiyona düşer. Bu basit akış bile haftada 2-3 saat zaman kazandırır.
+Türkiye'deki tipik bir yıllık üyelikte 4 ile 8 hafta arası dondurma hakkı tanınır. Bu hakkın takibinin manuel yapılması ciddi hatalara ve müşteri şikayetine yol açar. Otomasyonda dondurma talebi WhatsApp üzerinden gelir, sistem üyenin kalan hakkını kontrol eder, uygunsa otomatik onaylar ve üyeliğin bitiş tarihini günceller. Uygun değilse resepsiyona düşer. Bu basit akış bile dondurma hakkının elle takibini ortadan kaldırır.
 
 ### Aidat Hatırlatma ve Tahsilat
 
-Aylık üyeliklerde aidatın yenileme tarihinden 5 gün önce, 1 gün önce ve gününde olmak üzere üç kademeli WhatsApp hatırlatma kurmak idealdir. Yıllık üyeliklerde 30 gün ve 7 gün önce hatırlatma yapmak ve son hafta bir kampanya teklifi sunmak, üye kaybının önüne geçer. Tahsilat linkini mesajın içine eklemek (iyzico, Param veya benzeri sanal POS), ofise gelme zahmetini ortadan kaldırır ve ödeme oranlarını yüzde 30'a kadar artırır.
+Aylık üyeliklerde aidatın yenileme tarihinden 5 gün önce, 1 gün önce ve gününde olmak üzere üç kademeli WhatsApp hatırlatma kurmak idealdir. Yıllık üyeliklerde 30 gün ve 7 gün önce hatırlatma yapmak ve son hafta bir kampanya teklifi sunmak, üye kaybının önüne geçer. Tahsilat linkini mesajın içine eklemek (iyzico, Param veya benzeri sanal POS), ofise gelme zahmetini ortadan kaldırır ve zamanında ödemeyi kolaylaştırır.
 
 ### Sözleşme ve KVKK Yönetimi
 
@@ -87,7 +87,7 @@ Salonun temel ürünü grup dersi veya serbest çalışma olsa da müşteri sada
 
 ### PT Randevu Yönetimi
 
-Antrenörlerin takvimi WhatsApp üzerinden açılabilir. Üye "Burak hocayla PT istiyorum" yazdığında bot Burak'ın boş saatlerini gösterir, üye seçer, sistem her iki tarafa onay mesajı gönderir, randevudan 24 saat önce ve 2 saat önce otomatik hatırlatma yapılır. No-show oranı bu kurguyla yüzde 30'lardan yüzde 8-10 bandına iner.
+Antrenörlerin takvimi WhatsApp üzerinden açılabilir. Üye "Burak hocayla PT istiyorum" yazdığında bot Burak'ın boş saatlerini gösterir, üye seçer, sistem her iki tarafa onay mesajı gönderir, randevudan 24 saat önce ve 2 saat önce otomatik hatırlatma yapılır. Bu hatırlatmalar no-show'u azaltmaya ve boş kalacak PT saatinin önceden bilinmesine yardımcı olur.
 
 ### Beslenme Programı ve İçerik Dağıtımı
 
@@ -103,15 +103,15 @@ Antrenörlerin takvimi WhatsApp üzerinden açılabilir. Üye "Burak hocayla PT 
 
 ### Aylık ve Tek Seferlik Maliyetler
 
-Tek seferlik kurulum giderleri: tablet (15.000-25.000 TL), zemin standı (1.500-3.000 TL), QR yazılımı geliştirme veya entegrasyon (15.000-40.000 TL). Aylık tekrarlayan giderler: CRM yazılımı (500-1.500 TL/ay), WhatsApp Business API mesaj ücreti (üye sayısına bağlı, ortalama 1.000-3.500 TL/ay), otomasyon platformu (n8n self-host ücretsiz, Make 800-2.500 TL/ay), SMS paketi (gerekirse, 0,15 TL/adet).
+Piyasada tek seferlik kurulum giderleri: tablet (15.000-25.000 TL), zemin standı (1.500-3.000 TL), QR yazılımı geliştirme veya entegrasyon (15.000-40.000 TL). PORTZEN'de entegrasyon ve otomasyon akışları iş otomasyonu paketleriyle tek seferlik kurulur: {{fiyatlar:is-otomasyonu}} (KDV hariç; donanım, yazılım lisansı ve mesaj ücretleri hariç). Aylık tekrarlayan giderler: CRM yazılımı (500-1.500 TL/ay), WhatsApp Business API mesaj ücreti (üye sayısına bağlı, ortalama 1.000-3.500 TL/ay), otomasyon platformu (n8n self-host ücretsiz, Make 800-2.500 TL/ay), SMS paketi (gerekirse, 0,15 TL/adet).
 
 ### Beklenen Tasarruf
 
-400 aktif üyeli orta ölçekli bir salonda otomasyon sonrası tipik kazanımlar: dondurma talebinde yüzde 25 azalma, churn'da yüzde 15-20 düşüş, no-show'da yüzde 60'a varan iyileşme, resepsiyon iş yükünde haftada 8-12 saat tasarruf. Yıllık üyelik ortalaması 9.000 TL kabul edersek, 30 üye daha az kaybetmek 270.000 TL doğrudan ciro demektir. Bu rakamın yanında 12.000 TL/yıl yazılım maliyeti tartışmasız geri döner.
+Tasarrufu kendi salonunuz için hesaplarken dört kaleme bakın: dondurma talepleri, iptal edilen üyelikler, PT no-show'ları ve resepsiyonun manuel takip için harcadığı zaman. Örneğin yıllık üyelik ortalaması 9.000 TL ise, otomasyon sayesinde elde tutulan her üye yılda 9.000 TL ciro demektir; bu hesabı kendi kayıp oranınızla yapmak, yazılım maliyetini doğru değerlendirmenizi sağlar.
 
 ### Geri Dönüş Süresi
 
-PORTZEN projelerinde uçtan uca kurulan sistemlerin başabaş süresi ortalama 3 ile 5 ay arasıdır. Bu süre küçük stüdyolarda 6 aya çıkabilir, büyük zincirlerde 2 aya kadar inebilir. Karar verirken sadece maliyeti değil, fırsat maliyetini de hesaplamak gerekir.
+Başabaş süresi salonun üye sayısına, mevcut kayıp oranına ve kurulan modüllere göre değişir; küçük stüdyolarda genellikle büyük zincirlere göre daha uzundur. Karar verirken sadece maliyeti değil, fırsat maliyetini de hesaplamak gerekir.
 
 ## Yaygın Hatalar
 
@@ -135,7 +135,7 @@ Sistem üyenin TC kimlik, telefon numarası veya 4 haneli özel PIN ile manuel g
 
 ### Manuel devam takibine kıyasla otomasyon ne kazandırır?
 
-PORTZEN olarak ölçtüğümüz ortalama; resepsiyon iş yükünde yüzde 35 azalma, üye memnuniyet skorunda 12-18 puan artış, yıllık churn'da yüzde 20'ye varan iyileşme. Sayısal etki salonun mevcut disiplinine göre değişir; halihazırda Excel'de düzenli takip yapan bir işletmenin kazanımı, hiç takip yapmayana göre daha sınırlıdır.
+Otomasyon; devamsızlığın fark edilmesini, dondurma ve aidat takibini, PT hatırlatmalarını ve memnuniyet anketlerini manuel işten çıkarıp sisteme taşır. Sayısal etki salonun mevcut disiplinine göre değişir; halihazırda Excel'de düzenli takip yapan bir işletmenin kazanımı, hiç takip yapmayana göre daha sınırlıdır.
 
 ### Hangi CRM veya yazılımı seçmeliyim?
 
@@ -143,8 +143,8 @@ Hazır çözümlerden Wellnesse, Fitnessbox, Mindbody ve Gymify yaygın seçimle
 
 ### Üye verilerinin güvenliği nasıl sağlanır?
 
-KVKK kapsamında üye verileri Türkiye'de bulunan sunucularda tutulmalı, açık rıza alınmalı, üyenin verisini silme ve düzeltme hakkı net olarak sözleşmede yer almalıdır. Yedekleme, şifreleme ve yetki yönetimi olmadan kurulan hiçbir sistem güvenli sayılmaz.
+KVKK kapsamında üye verilerinin hangi sağlayıcıda ve hangi ülkede tutulduğu bilinmeli, yurt dışına aktarım varsa KVKK'nın aktarım şartları karşılanmalı, açık rıza alınmalı, üyenin verisini silme ve düzeltme hakkı net olarak sözleşmede yer almalıdır. Yedekleme, şifreleme ve yetki yönetimi olmadan kurulan hiçbir sistem güvenli sayılmaz.
 
 ## PORTZEN ile Spor Salonu Otomasyonu Kurmak
 
-QR check-in, devam takibi ve WhatsApp tabanlı üye iletişimi tek başına bir yazılım değil; sahanızı tanıyan, hata noktalarını gözlemleyen ve günden güne iyileştirilen bir sistemdir. PORTZEN olarak Ankara merkezli olarak Türkiye'nin farklı şehirlerinde spor salonu, CrossFit kutusu, pilates ve yoga stüdyosu projeleri yürütüyoruz. Size özel donanım, yazılım ve süreç önerisi için [iletişim sayfamızdan](/iletisim) ulaşabilir; [spor salonu için WhatsApp AI asistanı](/whatsapp-ai-asistani/spor-salonu) ve [spor salonu web tasarım](/web-tasarim/spor-salonu) hizmetlerimizi inceleyebilirsiniz. İlk demo görüşmesinde mevcut üye verinizden çıkardığımız kaba bir kayıp tablosu paylaşıyoruz; rakamı görmek karar vermeyi kolaylaştırıyor.
+QR check-in, devam takibi ve WhatsApp tabanlı üye iletişimi tek başına bir yazılım değil; sahanızı tanıyan, hata noktalarını gözlemleyen ve günden güne iyileştirilen bir sistemdir. PORTZEN olarak spor salonu, CrossFit kutusu, pilates ve yoga stüdyoları için bu sistemi kurguluyoruz. Size özel donanım, yazılım ve süreç önerisi için [iletişim sayfamızdan](/iletisim) ulaşabilir; [spor salonu için WhatsApp AI asistanı](/whatsapp-ai-asistani/spor-salonu) ve [spor salonu web tasarım](/web-tasarim/spor-salonu) hizmetlerimizi inceleyebilirsiniz. İlk demo görüşmesinde mevcut üye verinizden çıkardığımız kaba bir kayıp tablosu paylaşıyoruz; rakamı görmek karar vermeyi kolaylaştırıyor.

@@ -3,7 +3,7 @@
   "sectorName": "Restoran",
   "sectorPlural": "Restoranlar",
   "title": "Restoranlar İçin CRM Otomasyonu | Sadakat, No-Show ve Tekrar Müşteri Takibi - PORTZEN",
-  "description": "Restoran için CRM otomasyonu. Sadakat puanı, doğum günü kampanyası, no-show takibi, paket sipariş segmentasyonu, masa rezervasyon sürekliliği. Tekrar müşteri oranı %62'ye çıkar.",
+  "description": "Restoran için CRM otomasyonu. Sadakat puanı, doğum günü kampanyası, no-show takibi, paket sipariş segmentasyonu, masa rezervasyon sürekliliği. Tekrar müşteri oranınızı artırmaya odaklanır.",
   "keywords": [
     "restoran crm",
     "restoran sadakat sistemi",
@@ -14,16 +14,28 @@
     "paket sipariş segmentasyon"
   ],
   "h1": "Restoranlar için CRM Otomasyonu",
-  "heroSubtitle": "Cuma akşamı dolu, salı akşamı boş. Aynı müşteri 3 kez geliyor ama isim ve tercihini hatırlamıyorsunuz. No-show oranı %18, paket sipariş veren müşteri kayıtta yok. CRM ile tekrar müşteri oranı iki katına çıkar, AOV yükselir.",
+  "heroSubtitle": "Cuma akşamı dolu, salı akşamı boş. Aynı müşteri 3 kez geliyor ama isim ve tercihini hatırlamıyorsunuz. Rezervasyona gelmeyenler masayı boş bırakıyor, paket sipariş veren müşteri kayıtta yok. CRM ile tekrar müşteriyi ve AOV'yi artırmaya odaklanın.",
   "stats": [
-    {"value": "%62", "label": "Tekrar Müşteri Oranı"},
-    {"value": "%38", "label": "AOV Artışı"},
-    {"value": "%70", "label": "No-Show Azalması"},
-    {"value": "21 gün", "label": "Kurulum"}
+    {
+      "value": "Sadakat puanı",
+      "label": "Kasada görünür"
+    },
+    {
+      "value": "Paket + salon",
+      "label": "Tek müşteri profili"
+    },
+    {
+      "value": "24 sa + 2 sa",
+      "label": "Rezervasyon hatırlatma"
+    },
+    {
+      "value": "Tek seferlik",
+      "label": "Kurulum bedeli"
+    }
   ],
   "problems": [
     "Aynı müşteri ayda 3 kez geliyor, garson hatırlıyor ama sistem hatırlamıyor, müşteriye 'her zamanki' diyemiyorsunuz, ilişki yüzeysel kalıyor.",
-    "Hafta sonu rezervasyon dolu ama %18 no-show oranı var, masa boş kalıyor, kapı önündeki sıradaki çift tablo görünce ayrılıyor, çift kayıp.",
+    "Hafta sonu rezervasyon dolu ama gelmeyen müşteriler oluyor, masa boş kalıyor, kapı önündeki sıradaki çift tablo görünce ayrılıyor, çift kayıp.",
     "Doğum günü, yıldönümü, mezuniyet rezervasyonu yaptıran müşterinin bilgisi tek seferlik form'da kalıyor, gelecek yıl o tarihte hatırlatma yok, müşteri başka mekana gidiyor.",
     "Paket sipariş veren müşteri ile restoran müşterisi ayrı veritabanlarında, hangisi sadık, hangisi tek seferlik bilmiyorsunuz, ortalama sipariş tutarı (AOV) yıllarca aynı kalıyor.",
     "Salı, çarşamba boş günler için 'bu hafta %15 indirim' kampanyası yapmak istiyorsunuz, kime hangi mesajı atacağınızı bilmiyorsunuz, herkes spam alıyor.",
@@ -39,8 +51,8 @@
       "description": "HubSpot (orta ve büyük restoranlar) veya n8n + WhatsApp Business API tabanlı (KOBİ restoran) sistem kuruluyor. Sadakat puanı motoru, segmentasyon kuralları (VIP, sadık, uyuyan, yeni), no-show takibi, doğum günü hatırlatma akışları aktif ediliyor."
     },
     {
-      "title": "3. Ekip Eğitimi ve KVKK Uyumu",
-      "description": "Restoran müdürü, garson ve kasiyer için 2 saat eğitim. Müşteri verisi alırken KVKK aydınlatma metni nasıl gösterilir, açık rıza nasıl alınır, sadakat puanı kasada nasıl görünür uygulamalı anlatılır. KVKK uyum dökümanları hazırlanır."
+      "title": "3. Ekip Eğitimi ve KVKK Hazırlığı",
+      "description": "Restoran müdürü, garson ve kasiyer için eğitim (ekip eğitimi Büyüme ve Kurumsal paketlerde dahil). Müşteri verisi alırken KVKK aydınlatma metni nasıl gösterilir, açık rıza nasıl alınır, sadakat puanı kasada nasıl görünür uygulamalı anlatılır. KVKK aydınlatma ve açık rıza metinleri KVKK gerekliliklerini dikkate alarak hazırlanır."
     },
     {
       "title": "4. Canlı Sistem ve Aylık Raporlama",
@@ -54,11 +66,11 @@
     },
     {
       "title": "Doğum Günü ve Yıldönümü Kampanyası",
-      "description": "Müşterinin doğum günü, evlilik yıldönümü, mezuniyet günü gibi özel tarihleri sisteme alınınca her yıl 7 gün önce WhatsApp ile 'sizi bekliyoruz, masa hazır' mesajı + özel jest (tatlı ikram, bardakta yazılı kart) önerisi gider. Müvekkil bağlılığı katlanır."
+      "description": "Müşterinin doğum günü, evlilik yıldönümü, mezuniyet günü gibi özel tarihleri sisteme alınınca her yıl 7 gün önce WhatsApp ile 'sizi bekliyoruz, masa hazır' mesajı + özel jest (tatlı ikram, bardakta yazılı kart) önerisi gider. Özel günü hatırlamak garsonun hafızasına kalmaz."
     },
     {
       "title": "No-Show Takip ve Önleme",
-      "description": "Rezervasyon yapan müşteriye 24 saat önce WhatsApp onay mesajı, 2 saat önce hatırlatma. Onaylamayan müşteri için garson aranır. Sürekli no-show yapan müşteri sistem tarafından işaretlenir, gelecek rezervasyonda depozit istenebilir. No-show oranı %18'den %5'in altına düşer."
+      "description": "Rezervasyon yapan müşteriye 24 saat önce WhatsApp onay mesajı, 2 saat önce hatırlatma. Onaylamayan müşteri için garson aranır. Sürekli no-show yapan müşteri sistem tarafından işaretlenir, gelecek rezervasyonda depozit istenebilir."
     },
     {
       "title": "Tekrar Müşteri ve Uyuyan Müşteri Segmentasyonu",
@@ -70,87 +82,60 @@
     },
     {
       "title": "Boş Gün Kampanya Motoru",
-      "description": "Salı, çarşamba gibi boş günler için 'Salı %20 ana yemek indirimi, sadece VIP segment' tipi hedefli kampanya. Herkesin değil, sadece o günde gelme olasılığı yüksek müşterilere WhatsApp gider. Doluluk oranı %30 artar, marjı korur."
+      "description": "Salı, çarşamba gibi boş günler için 'Salı %20 ana yemek indirimi, sadece VIP segment' tipi hedefli kampanya. Herkesin değil, sadece o günde gelme olasılığı yüksek müşterilere WhatsApp gider. Hafta içi doluluğu artırmaya yardımcı olur, marjı korur."
     }
   ],
   "caseStudy": {
-    "title": "Beşiktaş'ta Bir Brasserie'nin 5 Aylık CRM Dönüşümü",
+    "title": "Örnek senaryo: Hafta içi boş kalan bir brasserie için CRM kurgusu",
     "paragraphs": [
-      "Beşiktaş Akaretler'de 7 yıllık brasserie konsept restoran, hafta sonu dolu, hafta içi boştu. Tekrar müşteri oranı %38, no-show oranı %18, ortalama sipariş tutarı (AOV) 480 TL idi. Adisyo POS'ta günlük 80-120 kapı var ama müşteri kim, kaç kez geldi, neyi sever bilinmiyordu. Doğum günü rezervasyonu yapan müşteri ertesi yıl yok, paket sipariş veren müşteri restoran müşterisiyle aynı kişi mi belirsiz.",
-      "Ocak 2026'da PORTZEN ile çalışmaya başladılar. İlk 21 günde HubSpot CRM kuruldu, Adisyo POS entegre edildi (8.400 müşteri kaydı aktarıldı), Getir ve Yemeksepeti paket sipariş veritabanı telefon numarası ile eşleştirildi (1.200 paket müşteri restoran müşterisi olarak tanımlandı). KVKK aydınlatma metni kasada gösterildi, sadakat puanı sistemi aktif edildi, WhatsApp Business API ile hatırlatma akışları kuruldu.",
-      "5 ay sonra tekrar müşteri oranı %38'den %62'ye çıktı, AOV 480 TL'den 660 TL'ye yükseldi (+%38). No-show oranı %18'den %5'e düştü. Salı ve çarşamba boş günler için yapılan hedefli kampanyalar sayesinde hafta içi doluluk %34'ten %58'e çıktı. Doğum günü kampanyası ay başı 18 yeni rezervasyon getirdi. Aylık ciro %42 arttı."
+      "Örnek senaryo: Hafta sonu dolu, hafta içi boş bir brasserie konsept restoran düşünün. POS'tan her gün çok sayıda adisyon geçiyor ama müşteri kim, kaç kez geldi, neyi sever bilinmiyor. Doğum günü rezervasyonu yapan müşteriye ertesi yıl ulaşılmıyor, paket sipariş veren müşterinin restoran müşterisiyle aynı kişi olup olmadığı belirsiz.",
+      "Örnek bir kurulumda HubSpot CRM kurulur, POS sistemi (ör. Adisyo) bağlanır ve müşteri kayıtları aktarılır; paket sipariş verisi, platformların sunduğu imkâna göre telefon numarası ile eşleştirilir. KVKK aydınlatma metni kasada gösterilir, sadakat puanı sistemi aktif edilir, WhatsApp Business API ile hatırlatma akışları kurulur.",
+      "Bu kurulumla iş akışında değişen şudur: rezervasyon onay ve hatırlatma mesajları otomatik gider, müşteri kasada tanınır ve puanı görünür, salı-çarşamba gibi boş günler için kampanya yalnızca ilgili segmente gönderilir, doğum günü rezervasyonu yapan müşteriye ertesi yıl davet kendiliğinden çıkar. Hangi kampanyanın kaç müşteri getirdiği aylık raporda görünür."
     ],
     "beforeAfter": [
-      {"label": "Tekrar Müşteri Oranı", "before": "%38", "after": "%62"},
-      {"label": "Ortalama Sipariş Tutarı (AOV)", "before": "480 TL", "after": "660 TL"},
-      {"label": "No-Show Oranı", "before": "%18", "after": "%5"},
-      {"label": "Hafta İçi Doluluk", "before": "%34", "after": "%58"},
-      {"label": "Aylık Ciro", "before": "Baz", "after": "+%42"}
+      {
+        "label": "Müşteri Tanıma",
+        "before": "Sadece garsonun hafızasında",
+        "after": "Profil ve puan kasada görünür"
+      },
+      {
+        "label": "Paket ve Salon Müşterisi",
+        "before": "Ayrı veritabanlarında",
+        "after": "Telefonla eşleşen tek profil"
+      },
+      {
+        "label": "Rezervasyon Hatırlatma",
+        "before": "Yok",
+        "after": "24 saat onay + 2 saat hatırlatma"
+      },
+      {
+        "label": "Hafta İçi Kampanya",
+        "before": "Herkese aynı mesaj",
+        "after": "Sadece ilgili segmente hedefli mesaj"
+      },
+      {
+        "label": "Özel Gün Daveti",
+        "before": "Bilgi tek seferlik formda kalıyor",
+        "after": "Her yıl 7 gün önce otomatik davet"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "12.000 TL/ay",
-      "description": "Tek lokasyon restoran ve kafeler için temel CRM paketi",
-      "features": [
-        "3.000 müşteriye kadar kayıt",
-        "Sadakat puanı sistemi",
-        "Doğum günü hatırlatma akışı",
-        "No-show takip ve onay mesajları",
-        "POS entegrasyonu (Adisyo, Logo, MikroPOS)",
-        "KVKK uyum dökümanları",
-        "Aylık temel rapor"
-      ]
-    },
-    {
-      "name": "Pro",
-      "price": "22.000 TL/ay",
-      "description": "Aktif restoran, brasserie ve fine dining için en popüler paket",
-      "features": [
-        "10.000 müşteriye kadar kayıt",
-        "Tüm Başlangıç özellikleri",
-        "Paket sipariş müşteri birleştirme",
-        "Segment bazlı kampanya motoru",
-        "Uyuyan ve kayıp müşteri geri kazanım akışları",
-        "Boş gün hedefli kampanya",
-        "WhatsApp + SMS çift kanal",
-        "Aylık detaylı dashboard ve optimizasyon"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Premium",
-      "price": "42.000 TL/ay",
-      "description": "Zincir restoran, çoklu şube ve agresif büyüme için",
-      "features": [
-        "Sınırsız müşteri kaydı",
-        "Çoklu şube koordinasyon ve şube bazlı segment",
-        "Şubeler arası müşteri görünürlüğü",
-        "Özel marka sadakat uygulaması (mobil app)",
-        "Otomatik kampanya A/B test motoru",
-        "BI bağlantısı ve özel rapor",
-        "Aylık büyüme danışmanlığı",
-        "Öncelikli teknik destek"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "KVKK açısından müşteri verisi toplamak güvenli mi, ceza riski var mı?",
-      "answer": "Sistem KVKK uyumlu kurulur. Kasada aydınlatma metni gösterilir, müşteri açık rıza verir (yazılı veya dijital), veri Türkiye sunucularında şifreli saklanır. VERBIS kayıt başvurunuzu biz yapıyoruz. Müşteri her zaman veri silme talebi yapabilir, sistem otomatik siler. Şu ana kadar müşterimiz KVKK uyarısı almadı."
+      "answer": "Kurgu KVKK gerekliliklerini dikkate alarak yapılır: kasada aydınlatma metni gösterilir, müşteri açık rıza verir (yazılı veya dijital). Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. VERBIS kaydı paketlere dahil değildir; veri sorumlusu olarak işletmeniz tarafından yapılır. Müşterinin veri silme talebi için takip akışı kurulur; hukuki değerlendirme işletmenize aittir."
     },
     {
       "question": "Mevcut Adisyo, Logo, MikroPOS sistemimle entegre olur mu?",
-      "answer": "Evet. Adisyo, Logo Tiger, MikroPOS, FastPOS, Restorent, Simpra gibi yaygın POS sistemleriyle çift yönlü entegre. Sipariş ve müşteri verisi otomatik akar, çift kayıt yapmazsınız. Yeni satış olduğunda sadakat puanı otomatik birikir, kasiyer ek iş yapmaz."
+      "answer": "Adisyo, Logo Tiger, MikroPOS, FastPOS, Restorent, Simpra gibi POS sistemleri, sürümünüzün sunduğu erişim imkânına göre paketteki uygulama bağlantılarından biri olarak CRM'e bağlanabiliyor; hazır bağlantı yoksa özel API bağlantısı gerekir (Kurumsal pakette 2 adet dahil, diğer paketlerde ayrıca tekliflendirilir). Bağlantı kurulduğunda sipariş ve müşteri verisi otomatik akar, yeni satışta sadakat puanı otomatik birikir."
     },
     {
       "question": "Getir, Yemeksepeti paket sipariş verisi nasıl entegre ediliyor?",
-      "answer": "Getir Yemek ve Yemeksepeti yönetici panelinden günlük sipariş verisi (telefon, sipariş içeriği, tutar) çekiliyor. Restoran müşterisiyle telefon numarası bazında eşleştiriliyor. Aynı kişi hem restoranda yiyor hem paket alıyorsa tek profilde tüm harcaması görünür, gerçek müşteri değeri ortaya çıkar."
+      "answer": "Getir Yemek ve Yemeksepeti sipariş verisi (telefon, sipariş içeriği, tutar), platformların sunduğu dışa aktarım veya entegrasyon imkânına göre CRM'e alınır; kapsam brief'te kontrol edilir. Restoran müşterisiyle telefon numarası bazında eşleştirilir. Aynı kişi hem restoranda yiyor hem paket alıyorsa tek profilde tüm harcaması görünür."
     },
     {
       "question": "No-show yapan müşteriye depozit isteyebilir miyim, yasal mı?",
-      "answer": "Evet. Rezervasyon koşullarında belirtilmesi şartıyla depozit (genelde 100-200 TL) yasal. Sistem sürekli no-show yapan müşteriyi işaretler, gelecek rezervasyonda otomatik depozit talep eder (iyzico veya Paytr entegre). Müşteri gelirse depozit sipariş tutarından düşer veya iade edilir."
+      "answer": "Depozit uygulamasının rezervasyon koşullarında açıkça belirtilmesi gerekir; hukuki değerlendirmeyi danışmanınızla yapmanızı öneriyoruz. Sistem sürekli no-show yapan müşteriyi işaretler, gelecek rezervasyonda otomatik depozit talep eder (iyzico veya Paytr entegre). Müşteri gelirse depozit sipariş tutarından düşer veya iade edilir."
     },
     {
       "question": "Sadakat puanı sistemi nasıl çalışıyor, müşteri nasıl harcıyor?",
@@ -162,9 +147,9 @@
     },
     {
       "question": "Kurulum ne kadar sürer ve eğitim nasıl yapılıyor?",
-      "answer": "Kurulum brief sonrası 14-21 iş günü sürer (POS entegrasyon ve veri aktarımı dahil). Restoran ekibine 2 saat yerinde eğitim (kasiyer, garson, müdür için ayrı modüller). İlk ay haftalık check-in görüşmesi yapılır. Premium pakette aylık optimizasyon toplantısı süreklidir."
+      "answer": "Teslim süresi, bağlanacak sistem sayısına göre değişir ve kapsama göre teklifte yazılı olarak belirtilir (POS entegrasyonu ve veri aktarımı dahil). Ekip eğitimi Büyüme ve Kurumsal paketlerde dahil; kasiyer, garson ve müdür için ayrı modüller halinde planlanıyor. Kurulumdan sonraki ilk 30 gün kurulum hataları giderilir. Sonrasında isteğe bağlı aylık bakım alabilirsiniz (ör. Büyüme paketi için {{bakim:buyume}}, KDV hariç)."
     }
   ],
   "finalCtaHeadline": "Aynı müşteri 3 kez gelmişse, garson hatırlasın, sistem hatırlasın",
-  "finalCtaSubtitle": "30 dakikalık ücretsiz restoran akış analizi. Mevcut tekrar müşteri oranınızı ve no-show kaybınızı hesaplayalım, CRM ile ne kadar geri kazanabileceğinizi konuşalım."
+  "finalCtaSubtitle": "30 dakikalık ücretsiz restoran akış analizi. Mevcut tekrar müşteri ve rezervasyon akışınıza bakalım, CRM ile hangi otomasyonların işinize yarayacağını konuşalım."
 }

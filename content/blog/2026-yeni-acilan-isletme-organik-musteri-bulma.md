@@ -11,7 +11,7 @@ readingTime: "9 dakika"
 
 # Yeni Açtım İşletme Müşteri Nasıl Bulurum? Düşük Bütçeli 2026 Rehberi
 
-Yeni bir işletme açtığınızda kapıyı ilk gün açtığınız o sabah karşınıza tuhaf bir sessizlik çıkar. Vitrin hazırlandı, sosyal medya hesabı açıldı, tabela asıldı ama müşteri gelmedi. İlk hafta boyunca giren kişi sayısı elle sayılır. İlk aydan sonra çevrenizdeki iyi niyetli arkadaş ve akrabaların ziyareti biter, gerçek müşteri hâlâ oluşmaz. Bu yazı tam bu dönemde olan işletme sahibi için yazıldı. Reklam bütçeniz kısıtlı, referans ağınız henüz yok, marka bilinirliği sıfır. Ama önünüzde çok net araçlar var. Bu araçları doğru sırayla kullanırsanız ilk üç ay sonunda kapıdan kendiliğinden gelen müşteri akışını başlatabilirsiniz. Anlatacağımız yaklaşımlar PORTZEN'in Ege bölgesinde son iki yılda yeni açılan 40'ı aşkın KOBİ ile birlikte test ettiği pratik uygulamalar.
+Yeni bir işletme açtığınızda kapıyı ilk gün açtığınız o sabah karşınıza tuhaf bir sessizlik çıkar. Vitrin hazırlandı, sosyal medya hesabı açıldı, tabela asıldı ama müşteri gelmedi. İlk hafta boyunca giren kişi sayısı elle sayılır. İlk aydan sonra çevrenizdeki iyi niyetli arkadaş ve akrabaların ziyareti biter, gerçek müşteri hâlâ oluşmaz. Bu yazı tam bu dönemde olan işletme sahibi için yazıldı. Reklam bütçeniz kısıtlı, referans ağınız henüz yok, marka bilinirliği sıfır. Ama önünüzde çok net araçlar var. Bu araçları doğru sırayla kullanırsanız ilk üç ay sonunda kapıdan kendiliğinden gelen müşteri akışını başlatabilirsiniz. Anlatacağımız yaklaşımlar, yeni açılan bir KOBİ'nin ilk aylarında uygulayabileceği pratik adımlardan oluşuyor.
 
 ## İlk 90 Gün Neden Kritik?
 
@@ -39,7 +39,7 @@ Instagram'ın ikinci gücü DM üzerinden randevu veya sipariş almaktır. Yeni 
 
 Yeni işletmenin en değerli varlığı ilk 100 müşteridir. Bu müşteriler sadece sizden alışveriş yapmadılar, size şans verdiler. Bu farkındalık bir referans sistemi kurmanın temelini oluşturur. Her ilk 100 müşteri özel bir kart, kupon ya da hediye ile "kurucu üye" konumuna alınabilir. Bu üyelere özel indirim, öncelikli randevu ya da özel etkinlik davetleri sunulur. Karşılığında sizi tanıdıklarına önermeleri istenir.
 
-Referans sistemi somut mekanikle kurulduğunda çalışır. Örneğin bir estetik kliniği ilk 100 danışanına "arkadaşını getir seans kazan" mekaniği kurar. Bir restoran "arkadaşınla gel yemek özel indirimli olsun" kampanyası yürütür. Bir butik "yeni müşteri kod paylaş, kombin taksitli" mekaniği tanıtır. Bu mekanikler sözlü tavsiyenin aksine ölçülebilir. Kimin kimi getirdiği takip edilir, referans veren müşteri ödüllendirilir. PORTZEN'in çalıştığı yeni işletmelerde referans sistemi kurulduktan sonra ikinci ay müşteri akışının yüzde 32'si referanstan geliyor.
+Referans sistemi somut mekanikle kurulduğunda çalışır. Örneğin bir estetik kliniği ilk 100 danışanına "arkadaşını getir seans kazan" mekaniği kurar. Bir restoran "arkadaşınla gel yemek özel indirimli olsun" kampanyası yürütür. Bir butik "yeni müşteri kod paylaş, kombin taksitli" mekaniği tanıtır. Bu mekanikler sözlü tavsiyenin aksine ölçülebilir. Kimin kimi getirdiği takip edilir, referans veren müşteri ödüllendirilir. Referans sistemi kurulduğunda hangi müşterinin hangi kaynaktan geldiği görünür hale gelir; böylece referansın toplam müşteri akışındaki payını kendi verinizle izleyebilirsiniz.
 
 Referans sisteminin bir diğer boyutu da müşterinin gönüllü içerik üretmesi. Fotoğraf çekip Instagram'da paylaşan, story'de etiketleyen müşteriye küçük bir teşekkür göndermek yeni içerik üretimini besliyor. Bu içerik marka güvenilirliğini artırıyor ve organik yayılım yaratıyor. Yeni işletmenin ilk 90 gününde belki de en değerli metrik "kaç müşteri işletmeyi story'sinde etiketledi" sorusudur. Bu sayı 30'u geçtiğinde bir sonraki 90 gün organik olarak hızlanır.
 
@@ -49,7 +49,7 @@ Yeni işletmenin en pahalı hatalarından biri ilk müşterileri kaybetmektir. K
 
 Müşteri işletmeye geldiğinde ya alışveriş sırasında ya çıkışta WhatsApp'a kayıt olur. Karşılığında ilk alışverişinde küçük bir indirim ya da gelecek alışverişte hediye sunulur. Listeye giren müşteriye haftada bir kez ya da iki haftada bir kısa bir mesaj gider. Bu mesaj yeni ürün duyurusu, kampanya bildirimi ya da özel bir davet olabilir. Aşırı sık mesaj listenin sağlığını bozar, ayda 2-3 mesaj ölçülü bir tempodur. Bu tempoyla yönetilen listelerde 3 ay sonra listeden gelen tekrar eden müşteri oranı yüzde 24'e çıkıyor.
 
-WhatsApp listesi kurulduktan sonra tekrar eden müşteri yaratmak için ikinci katman hatırlatma mesajıdır. Örneğin bir estetik kliniği müşterisinin son randevusundan 45 gün sonra "seans zamanı geldi" mesajı gönderir. Bir güzellik salonu 30 gün sonra bakım hatırlatması yollar. Bu hatırlatmalar müşteriyi düşünmesine bile gerek bırakmadan geri getiriyor. Otomatik hatırlatma sistemleri kurulduğunda tekrar eden müşteri oranı ortalama yüzde 18-25 artıyor.
+WhatsApp listesi kurulduktan sonra tekrar eden müşteri yaratmak için ikinci katman hatırlatma mesajıdır. Örneğin bir estetik kliniği müşterisinin son randevusundan 45 gün sonra "seans zamanı geldi" mesajı gönderir. Bir güzellik salonu 30 gün sonra bakım hatırlatması yollar. Bu hatırlatmalar müşteriyi düşünmesine bile gerek bırakmadan geri getiriyor. Otomatik hatırlatma sistemleri kurulduğunda bu hatırlatmalar hiçbir müşteride atlanmaz.
 
 ## Katman 5: İçerik Dönüşümü ve Ücretsiz Öğretme Modeli
 
@@ -79,18 +79,17 @@ Yeni işletmenizin ilk 90 gününü net bir yol haritasına oturtmak için öner
 
 Bu yedi adım tamamlandığında 90 gün sonunda kapıdan kendiliğinden gelen müşteri akışı başlamış olur. Ekstra reklam yatırımı olmadan organik hacim taban oluşturur, sonrasında reklam yatırımı bu tabanı hızlandırır.
 
-## Vaka Örneği: Bornova'da Yeni Açılan Bir Kahve Dükkanı
+## Örnek Senaryo: Yeni Açılan Bir Kahve Dükkanı
 
-PORTZEN'in danışmanlık verdiği Bornova merkezli yeni açılan bir kahve dükkanı ilk açıldığı ay günde ortalama 12 müşteri alıyordu. Sahibin marka bilinirliği yoktu, çevredeki yerleşik kafeler ile rekabet zordu. 90 günlük organik büyüme planı uygulandıktan sonra veriler şöyle:
+Örnek bir senaryo üzerinden düşünelim: yeni açılmış, marka bilinirliği olmayan ve çevredeki yerleşik kafelerle rekabet eden bir kahve dükkanı. 90 günlük organik büyüme planında şu adımlar uygulanır:
 
-- Google İşletme yorumu 0'dan 87'ye çıktı.
-- Instagram takipçi 240'tan 4.100'e büyüdü.
-- Günlük ortalama müşteri 12'den 68'e çıktı.
-- Haftada tekrar eden müşteri oranı yüzde 8'den yüzde 38'e ulaştı.
-- WhatsApp listesindeki müşteri sayısı 340'a ulaştı.
-- Referans sisteminden gelen müşteri oranı toplamın yüzde 22'sini oluşturdu.
+- Google İşletme kaydı açılır, fotoğraflar yüklenir ve masalara yorum QR kodu konur.
+- Instagram'da konum etiketli düzenli paylaşım ve Reels temposu başlatılır.
+- Kasada WhatsApp listesine kayıt teşviki sunulur, ayda birkaç ölçülü mesaj gönderilir.
+- İlk müşterilere referans mekaniği tanıtılır; kimin kimi getirdiği takip edilir.
+- Yorum sayısı, takipçi, liste büyüklüğü, tekrar eden müşteri oranı ve referans payı haftalık izlenir.
 
-Sahip 90 gün sonunda reklam yatırımına başladığında organik taban zaten sağlam olduğu için reklam getirisi çok daha yüksek çıktı. İlk ayın reklam getirisi ortalama sektör verisinin 2.3 katı oldu.
+Bu planın amacı reklam yatırımından önce organik bir taban oluşturmaktır. Sahip reklama başladığında reklamla gelen kişiler yorumları, içerik arşivini ve aktif bir profili görür; reklam bütçesi boş bir profil yerine güven veren bir vitrine yönlendirilmiş olur.
 
 ## SSS
 
@@ -111,7 +110,7 @@ C: Organik taban oluştuktan sonra reklam yatırımına geçilir. Meta ve Google
 
 ## Sonraki Adım
 
-Yeni açtığınız işletmede ilk 90 günde organik müşteri akışını başlatmak istiyorsanız somut bir plan kurmanın vakti gelmiş demektir. PORTZEN olarak işletmenizin sektörünü, konumunu ve mevcut kaynaklarınızı inceliyor, size özgü 90 günlük büyüme yol haritası çıkarıyoruz ve 30 dakikalık bir teşhis sunuyoruz. [portzen.com/iletisim](https://portzen.com/iletisim) üzerinden **Görüşme Al** butonuna tıklayarak ilk 90 gününüzü sistemli bir plana bağlayabilirsiniz.
+Yeni açtığınız işletmede ilk 90 günde organik müşteri akışını başlatmak istiyorsanız somut bir plan kurmanın vakti gelmiş demektir. PORTZEN olarak işletmenizin sektörünü, konumunu ve mevcut kaynaklarınızı inceliyor, size özgü 90 günlük büyüme yol haritası çıkarıyoruz ve 30 dakikalık bir teşhis sunuyoruz. [portzenai.com/iletisim](/iletisim) üzerinden **Görüşme Al** butonuna tıklayarak ilk 90 gününüzü sistemli bir plana bağlayabilirsiniz.
 
 ---
 

@@ -95,19 +95,11 @@ Google 2021'den beri **mobile-first indexing** uyguluyor. Yani Google sitenizi m
 | Blog (Next.js) | 98 | 92 |
 | Haber sitesi | 55 | 28 |
 
-Bu rakamlar PORTZEN'in 2025-2026 boyunca denetlediği 180+ Türk sitesinden çıkardığı ortalamadır.
+Bu rakamlar fikir vermesi için verilmiş temsili değerlerdir; kendi sitenizin durumunu PageSpeed Insights'ta ölçerek görmeniz gerekir.
 
-## Türkiye'nin En Popüler 100 Sitesi: Skor Durumu
+## Büyük Siteler de Mobilde Zorlanıyor
 
-PORTZEN'in 2026 Q1 denetlemesinde Türkiye'nin en çok ziyaret edilen 100 sitesi üzerinde yapılan Lighthouse taramasının özeti:
-
-| Skor Aralığı | Mobil (Site Sayısı) | Masaüstü (Site Sayısı) |
-|--------------|---------------------|------------------------|
-| 90 - 100 | 8 | 22 |
-| 50 - 89 | 41 | 63 |
-| 0 - 49 | 51 | 15 |
-
-Yani **mobilde her 2 büyük siteden 1'i kırmızı bölgede**. Bu, küçük işletmeler için bir fırsat: rakip büyük markalar mobil hızda kötüyse, doğru kurulmuş bir Next.js sitenizle SEO'da öne geçmeniz çok mümkün. [Lighthouse skoru 90 üstü optimizasyon](/blog/lighthouse-skoru-90-optimizasyon) yazımızda bu süreci detaylıca anlattık. Hızlı bir altyapıya organik trafik akıtmak için profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile düzenli içerik üretimi PSI yatırımının geri dönüşünü hızlandıran ikinci motor.
+Çok ziyaret edilen büyük siteler bile mobil PSI skorunda çoğu zaman turuncu ya da kırmızı bölgede kalabiliyor. Bunu kendi sektörünüzdeki büyük rakiplerin sayfalarını PageSpeed Insights'ta test ederek kolayca görebilirsiniz. Bu, küçük işletmeler için bir fırsat: rakip büyük markalar mobil hızda kötüyse, doğru kurulmuş bir Next.js sitenizle SEO'da öne geçmeniz çok mümkün. [Lighthouse skoru 90 üstü optimizasyon](/blog/lighthouse-skoru-90-optimizasyon) yazımızda bu süreci detaylıca anlattık. Hızlı bir altyapıya organik trafik akıtmak için profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile düzenli içerik üretimi PSI yatırımının geri dönüşünü hızlandıran ikinci motor.
 
 ## En Sık Görülen 5 Performans Problemi ve Çözümü
 
@@ -165,45 +157,45 @@ Web fontları yüklenmediği sürece metin görünmüyor (FOIT) veya sistem font
 - Sadece kullandığınız weight'leri yükleyin (3 weight çoğu site için yeterli)
 - Kritik fontları `<link rel="preload">` ile önceden yükleyin
 
-## Sektör Bazlı Örnekler: Gerçek Site Senaryoları
+## Sektör Bazlı Örnek Senaryolar
 
-Teori bir yere kadar; gerçek hayatta nasıl davranır görmek lazım. Aşağıda PORTZEN'in çalıştığı üç farklı sektörden gerçek vakalar.
+Teori bir yere kadar; pratikte nasıl uygulandığını görmek lazım. Aşağıdaki üç senaryo gerçek müşteri sonuçları değil; sektörlerde sık görülen sorunları ve uygulanan adımları gösteren örnek kurulumlardır.
 
 ### E-Ticaret Butik: Shopify Mağazası
 
-İstanbul Beyoğlu'nda butik bir aksesuar markası, Shopify üzerinde mağaza işletiyor. PSI mobil skoru başlangıçta **34**. Sebep: anasayfada otomatik oynayan 24 MB'lık banner videosu, 6 farklı pazarlama scripti, lazy-load olmayan ürün ızgarası.
+Örnek senaryo: Shopify üzerinde mağaza işleten butik bir aksesuar markasında PSI mobil skoru kırmızı bölgede. Sebep: anasayfada otomatik oynayan ağır bir banner videosu, çok sayıda pazarlama scripti, lazy-load olmayan ürün ızgarası.
 
 **Yapılan iyileştirmeler:**
-- Otomatik video, statik WebP banner ile değiştirildi (LCP 5.8sn → 2.3sn)
-- 6 script 3'e indirildi (INP 480ms → 180ms)
+- Otomatik video, statik WebP banner ile değiştirilir (LCP öğesi hafifler)
+- Pazarlama scriptleri gözden geçirilip gereksizleri kaldırılır (INP iyileşir)
 - Tüm ürün görselleri WebP ve lazy-load
 - Kritik CSS inline
 
-**Sonuç:** Mobil skor 34 → 81. Aylık dönüşüm oranı %1.8'den %2.9'a yükseldi. Reklam maliyeti aynıyken aylık ciro %42 arttı.
+**Takip:** Mobil skor ve Core Web Vitals değerleri, aynı reklam bütçesi altında dönüşüm oranıyla birlikte izlenir.
 
 ### Estetik Klinik: WordPress Tabanlı Kurumsal Site
 
-İzmir'de bir estetik klinik. Site WordPress + Elementor. PSI mobil skoru **22**. Sebep: 14 farklı plugin, ağır sayfa builder, kompres edilmemiş "before-after" fotoğrafları, 4 farklı chat widget.
+Örnek senaryo: WordPress + Elementor ile kurulmuş bir estetik klinik sitesinde PSI mobil skoru çok düşük. Sebep: çok sayıda plugin, ağır sayfa builder, sıkıştırılmamış "before-after" fotoğrafları, birden fazla chat widget.
 
 **Yapılan iyileştirmeler:**
-- Kullanılmayan 6 plugin kaldırıldı
+- Kullanılmayan plugin'ler kaldırılır
 - "Before-after" galerisi lazy-load + WebP
-- Chat widget tek bir araçta birleştirildi, 5 saniye gecikmeli yüklendi
-- Cloudflare APO devreye alındı (TTFB 1.4sn → 320ms)
+- Chat widget'ları tek bir araçta birleştirilir ve gecikmeli yüklenir
+- Cloudflare APO devreye alınır (TTFB kısalır)
 
-**Sonuç:** Mobil skor 22 → 68. SEO sıralaması "izmir burun estetiği" anahtar kelimesinde 14. sıradan 6. sıraya çıktı. [Mobil site hızı artırma](/blog/mobil-site-hizi-artirma) yazısında bu sürecin teknik detaylarını paylaştık.
+**Takip:** Mobil skor, Core Web Vitals ve hedef anahtar kelimelerdeki sıralama Search Console üzerinden izlenir. [Mobil site hızı artırma](/blog/mobil-site-hizi-artirma) yazısında bu sürecin teknik detaylarını paylaştık.
 
 ### Emlak Ofisi: Özel Geliştirilmiş Next.js Site
 
-Ankara'da bir emlak ofisi, 800+ ilan portföyüyle Next.js tabanlı site kullanıyor. Başlangıç mobil skoru **76**. Sorun: ilan detay sayfalarında 30+ fotoğraflık galeri, Google Maps embed, ağır filtre paneli.
+Örnek senaryo: yüzlerce ilanlık portföyü olan, Next.js tabanlı bir emlak sitesinde mobil skor turuncu bölgede. Sorun: ilan detay sayfalarında kalabalık fotoğraf galerisi, Google Maps embed, ağır filtre paneli.
 
 **Yapılan iyileştirmeler:**
-- Galerinin ilk 4 fotoğrafı `priority`, geri kalanı lazy-load
+- Galerinin ilk birkaç fotoğrafı `priority`, geri kalanı lazy-load
 - Google Maps yerine statik harita görseli, tıklanınca interaktif harita yükleniyor
-- Filtre paneli `dynamic import` ile kullanıldığında yüklenir oldu
-- İlan resimleri Cloudflare R2 + Image Resizing ile servis edildi
+- Filtre paneli `dynamic import` ile kullanıldığında yükleniyor
+- İlan resimleri Cloudflare R2 + Image Resizing ile servis ediliyor
 
-**Sonuç:** Mobil skor 76 → 94. Ortalama oturum süresi 2:14'ten 3:48'e çıktı. İlan detay sayfasından iletişim formu doldurma oranı %72 arttı.
+**Takip:** Mobil skorun yanında oturum süresi ve ilan detay sayfasından iletişim formu doldurma oranı analitikte izlenir.
 
 ## PageSpeed Skoru Sürdürülebilir Olmalı: Sürekli Ölçüm
 
@@ -211,7 +203,7 @@ Bir kez 90 puana ulaşmak yetmiyor. Pazarlama yeni bir script ekler, içerik eki
 
 ### Aylık Performans Denetimi Akışı
 
-PORTZEN'in müşterilerine uyguladığı standart akış:
+PORTZEN'in web bakım müşterilerine önerdiği akış (bakım saatleri pakete göre ayda toplam 1, 3 veya 6 saattir):
 
 1. Her ay 1'inde PageSpeed Insights raporu çekilir (mobil + masaüstü)
 2. En kritik 5 sayfa için ayrı ayrı ölçüm yapılır
@@ -225,10 +217,10 @@ Modern CI/CD süreçlerine **Lighthouse CI** entegre edilebilir. Her deploy önc
 
 ## PORTZEN ile PageSpeed Optimizasyonu
 
-PORTZEN olarak performans optimizasyonunu "tek seferlik bir hız ayarı" olarak değil, sitenizin uzun vadeli sağlığını koruyan bir süreç olarak ele alıyoruz. Tipik denetim sürecimiz 2 hafta içinde tamamlanır: önce mevcut sitenin saha verisi ve laboratuvar verisi birlikte incelenir, sonra öncelik sırasına göre 15-25 maddelik iyileştirme yol haritası çıkarılır. Mobilde 90+ skoru hedeflemeyen bir teklif bizim için eksik tekliftir.
+PORTZEN olarak performans optimizasyonunu "tek seferlik bir hız ayarı" olarak değil, sitenizin uzun vadeli sağlığını koruyan bir süreç olarak ele alıyoruz. Denetim sürecimiz iki adımdan oluşur: önce mevcut sitenin saha verisi ve laboratuvar verisi birlikte incelenir, sonra öncelik sırasına göre maddelenmiş bir iyileştirme yol haritası çıkarılır; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Yol haritasının odağı, mobilde Core Web Vitals eşiklerini geçmek ve dönüşüme etki eden sorunları önce gidermektir.
 
-Hizmetimizin farkı şu: sadece "skoru yükseltmek" yerine **dönüşüme etki eden hızı** önceliklendiriyoruz. Yani LCP'yi 4 saniyeden 2 saniyeye indirmek, INP'yi 600ms'den 180ms'ye çekmek, CLS'i 0.0'a yaklaştırmak — bunlar gerçek satış metriklerini değiştiren değişiklikler. [Web Tasarım](/web-tasarim) hizmetimiz bu altyapıyı sıfırdan kuran projeler için, mevcut sitesini iyileştirmek isteyenler için ise ayrı optimizasyon paketlerimiz var. Detayları öğrenmek isteyenlere [kurumsal web sitesi rehberi](/blog/kurumsal-web-sitesi-rehberi) yazımızı da öneririz.
+Hizmetimizin farkı şu: sadece "skoru yükseltmek" yerine **dönüşüme etki eden hızı** önceliklendiriyoruz. Yani LCP'yi 4 saniyeden 2 saniyeye indirmek, INP'yi 600ms'den 180ms'ye çekmek, CLS'i 0.0'a yaklaştırmak — bunlar gerçek satış metriklerini değiştiren değişiklikler. [Web Tasarım](/web-tasarim) hizmetimiz bu altyapıyı sıfırdan kuran projeler için; mevcut sitesini iyileştirmek isteyenlerde küçük iyileştirmeler web bakım paketlerinin aylık saatleri içinde yapılır ({{fiyatlar:web-bakim}}, KDV hariç), kapsamlı optimizasyon ise ayrıca tekliflendirilir. Detayları öğrenmek isteyenlere [kurumsal web sitesi rehberi](/blog/kurumsal-web-sitesi-rehberi) yazımızı da öneririz.
 
-Performans kalıcı bir yatırımdır. Mobilde 90+ skora ulaşan bir site, Google sıralamasında 3-5 sıra yükselir, reklam Quality Score'u artar, organik tıklama oranı yükselir. Bu üç etki birleştiğinde 6 ay içinde yapılan yatırımın 4-8 katı geri döner. Reklam Quality Score'unu landing page hızı ile birleştirip ciroya çevirmek için profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) desteği bu döngünün son halkası.
+Performans kalıcı bir yatırımdır. Mobilde hızlı bir site, Google'ın sayfa deneyimi sinyalinde avantaj sağlar, reklamlarda açılış sayfası deneyimini iyileştirir ve ziyaretçinin sayfada kalmasını kolaylaştırır. Bu etkilerin ne kadar karşılık bulacağı sektöre, rekabete ve trafiğe göre değişir. Reklam Quality Score'unu landing page hızı ile birleştirip ciroya çevirmek için profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) desteği bu döngünün son halkası.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

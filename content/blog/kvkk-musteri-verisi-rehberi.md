@@ -15,7 +15,7 @@ ogImage: "/blog/og/kvkk-musteri-verisi-rehberi.png"
 
 **KVKK** (Kişisel Verilerin Korunması Kanunu), 2016'dan beri Türkiye'de yürürlükte. 2024'te güncellenen ceza tutarları ve denetim sıklığıyla birlikte artık **küçük işletmenin bile görmezden gelemeyeceği** bir mevzuat haline geldi. WhatsApp listesi, CRM kayıtları, web sitesi cookie'leri — her biri kişisel veri kapsamında ve doğru kurulmadığında **1.000 TL ile 1.965.000 TL arası** ceza riskine açıksınız.
 
-Bu yazıda KVKK'nın 7 ilkesini, VERBİS kayıt zorunluluğunu, açık rıza ile aydınlatma metni arasındaki kritik farkı ve KOBİ'ler için **pratik bir uyum checklist'i** vereceğim. Avukat değilim ama 50+ KOBİ'ye KVKK altyapısı kurmuş bir teknoloji ekibinden konuşuyorum.
+Bu yazıda KVKK'nın 7 ilkesini, VERBİS kayıt zorunluluğunu, açık rıza ile aydınlatma metni arasındaki kritik farkı ve KOBİ'ler için **pratik bir uyum checklist'i** vereceğim. Avukat değilim; bu yazı, KVKK gerekliliklerini teknik kurulumlara yansıtan bir teknoloji ekibinin bakış açısını yansıtıyor.
 
 ## KVKK Neden Bu Kadar Önemli?
 
@@ -23,7 +23,7 @@ Bu yazıda KVKK'nın 7 ilkesini, VERBİS kayıt zorunluluğunu, açık rıza ile
 
 1. **Mali ceza:** İhlal durumunda 2025 itibarıyla **47.300 TL ile 1.965.000 TL** arası idari para cezası.
 2. **İtibar yıkımı:** Kişisel Verileri Koruma Kurulu (KVKK) ihlali olan firmaları kamuya açıklıyor — Google'da firma adı arayan müşteri görüyor.
-3. **Müşteri güveni:** 2026 müşterisi "verilerim ne olacak?" sorusunu açıkça soruyor. Cevabınız net değilse rakibe gider. Marka iletişiminin sosyal medya tarafını yürüten ekipler de KVKK gerekliliklerini iyi bilen profesyonel olmalı; bu yüzden KVKK uyumlu çalışan bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak müşteri veri akışınızı baştan korumalı hale getiriyor.
+3. **Müşteri güveni:** 2026 müşterisi "verilerim ne olacak?" sorusunu açıkça soruyor. Cevabınız net değilse rakibe gider. Marka iletişiminin sosyal medya tarafını yürüten ekipler de KVKK gerekliliklerini iyi bilen profesyonel olmalı; bu yüzden KVKK gerekliliklerini bilen bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak, müşteri veri akışınızın baştan doğru kurgulanmasına yardımcı oluyor.
 
 ## Kişisel Veri Nedir?
 
@@ -147,7 +147,7 @@ WhatsApp listeniz **kişisel veri**. Her numara için açık rıza ya da meşru 
 Çalışan ayrıldı → CRM erişimi devam ediyor → veri sızıntısı. **Çıkış prosedürü** olmalı.
 
 **Hata 3: Veri yedeği yurtdışı buluta atmak.**  
-Google Drive (US), Dropbox (US) hassas veri için riskli. **TR sunucu** ya da KVKK uyumlu hosting önerilir.
+Google Drive (US), Dropbox (US) gibi yurt dışı bulutlara hassas veri aktarıyorsanız KVKK'daki yurt dışı aktarım şartlarına uymanız gerekir; verinin hangi sağlayıcıda ve bölgede tutulduğunu bilin ve sözleşmelerle güvenceye alın.
 
 **Hata 4: Veri silme talebine yanıt vermemek.**  
 Müşteri "verilerimi silin" der → 30 gün içinde yanıt vermek zorundasınız. Süre içinde silmezseniz para cezası.
@@ -177,13 +177,13 @@ Sipariş verileri ticari kayıt amacıyla **10 yıl** saklanabilir. Pazarlama am
 ### Emlak
 Müşteri portföy bilgisi (bütçe, lokasyon tercihi vs.) profilleme kapsamında — açık rıza şart.
 
-## PORTZEN ile KVKK Uyumlu Sistem Kurulumu
+## PORTZEN ile KVKK Gerekliliklerini Gözeten Sistem Kurulumu
 
-PORTZEN olarak CRM, WhatsApp, web sitesi, otomasyon — tüm kanalları **KVKK uyumlu** kuruyoruz. Aydınlatma metni şablonları, açık rıza akışları, cookie banner, veri saklama politikası — hepsi pakette.
+PORTZEN olarak CRM, WhatsApp, web sitesi ve otomasyon kurulumlarını **KVKK gerekliliklerini dikkate alarak** kurguluyoruz; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Açık rıza akışları ve cookie banner gibi teknik adımları kurulum sırasında uyguluyoruz; aydınlatma metni ve veri saklama politikası hukuki metin olduğu için avukatınızla birlikte netleştirilir.
 
-Kurulum öncesi avukat görüşmesi gerekirse partner avukat ağımız var. Detaylı paketler için [CRM Otomasyonu](/crm-otomasyonu) ve sektörel sayfalar için [CRM Otomasyonu + Klinik](/crm-otomasyonu/klinik), [CRM Otomasyonu + Avukat](/crm-otomasyonu/avukat) sayfalarımıza bakabilirsiniz.
+Hukuki metinler için kurulum öncesinde kendi avukatınızla ya da bir KVKK uzmanıyla çalışmanızı öneririz. Detaylı paketler için [CRM Otomasyonu](/crm-otomasyonu) ve sektörel sayfalar için [CRM Otomasyonu + Klinik](/crm-otomasyonu/klinik), [CRM Otomasyonu + Avukat](/crm-otomasyonu/avukat) sayfalarımıza bakabilirsiniz.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun KVKK uyumlu sistem yapısını birlikte belirleyelim.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir görüşmede işletmeniz için KVKK gerekliliklerini gözeten sistem yapısını birlikte belirleyelim.
 
 ---
 

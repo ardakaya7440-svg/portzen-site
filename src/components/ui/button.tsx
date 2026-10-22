@@ -11,16 +11,16 @@ import { cn } from "@/lib/utils";
  * shadow that collapses toward the surface on hover; vivid fills (revision §2).
  */
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-base border-3 border-ink font-extrabold uppercase tracking-[0.02em] shadow-brutal transition-all duration-150 ease-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg active:translate-x-0 active:translate-y-0 active:shadow-brutal-sm focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-60 [&_svg]:size-[18px] [&_svg]:shrink-0 [&_svg]:stroke-[2.5]",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-base border-3 border-ink/15 font-extrabold tracking-[0.02em] shadow-brutal transition-all duration-150 ease-brutal hover:shadow-brutal-lg active:shadow-brutal-sm focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-60 [&_svg]:size-[18px] [&_svg]:shrink-0 [&_svg]:stroke-[2.5]",
   {
     variants: {
       variant: {
-        primary: "bg-brand-yellow text-ink",
-        dark: "bg-ink text-paper",
+        primary: "bg-light text-ink",
+        dark: "bg-light text-ink",
         white: "bg-paper text-ink",
-        pink: "bg-brand-pink text-ink",
-        green: "bg-brand-green text-ink",
-        blue: "bg-brand-blue text-paper",
+        pink: "bg-light text-ink",
+        green: "bg-light text-ink",
+        blue: "bg-light text-ink",
       },
       size: {
         default: "h-12 px-6 text-small",

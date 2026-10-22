@@ -1,3 +1,4 @@
+import { familyPriceSummary } from "@/data/pricing";
 import { Video, MessageSquare, Workflow, Sparkles, Globe, LucideIcon } from "lucide-react";
 
 export type ServiceTone = "yellow" | "pink" | "blue" | "green" | "orange" | "purple";
@@ -48,40 +49,40 @@ export const SERVICES: ServiceCategory[] = [
     shortTitle: "AI Video",
     icon: Video,
     tone: "pink",
-    tagline: "Çekim ekibi yok, stüdyo yok — 3 günde teslim.",
+    tagline: "Çekim ekibi yok, stüdyo yok — teslim süresi teklifte yazılı.",
     href: "/yapay-zeka-video-uretimi",
     explainer:
-      "Bir kamera ekibi, kameraman, oyuncu kiralamak yerine — biz yapay zekaya \"şu sektör için şöyle bir sahne çek\" diyip 3 günde tamamlanmış reklam videosunu sana teslim ediyoruz. Stüdyo kirası yok, oyuncu maaşı yok, tekrar çekim yok. Sahneler minyatür, sinematik veya samimi sözcü tarzında olur.",
+      "Bir kamera ekibi, kameraman, oyuncu kiralamak yerine — biz yapay zekaya \"şu sektör için şöyle bir sahne çek\" diyip tamamlanmış reklam videosunu sana teslim ediyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Stüdyo kirası yok, oyuncu maaşı yok, tekrar çekim yok. Sahneler minyatür, sinematik veya samimi sözcü tarzında olur.",
     operationRole:
-      "Pazarlama ekibinin yerine geçer. Sosyal medya yöneticin haftada 1-2 reklam videosuna ihtiyaç duyuyorsa, biz sana ayda 4-12 video üretiriz.",
+      "Pazarlama ekibinin yerine geçer. Sosyal medya yöneticin haftada 1-2 reklam videosuna ihtiyaç duyuyorsa, biz paketine göre her ay düzenli video üretiriz.",
     workloadStats: [
-      { metric: "3 gün", label: "Tek video teslim süresi (eski yöntemde 2-3 haftaydı)" },
+      { metric: "Proje", label: "Proje bazlı paket fiyatı" },
       { metric: "₺0", label: "Stüdyo + oyuncu + mekan maliyeti" },
-      { metric: "%85", label: "Maliyet azalma — klasik prodüksiyona göre" }
+      { metric: "AI ses", label: "Seslendirme tüm paketlerde dahil" }
     ],
     useCases: [
       "Eczane için minyatür sahne reklam — sosyal medyada paylaşılır",
       "Hukuk bürosu için kurumsal anlatım videosu — sayfaya pinlenir",
-      "Restoran için ürün ve atmosfer reklamı — sipariş artırır",
+      "Restoran için ürün ve atmosfer reklamı — sipariş kanallarında kullanılır",
       "İnşaat firması için sinematik proje tanıtım videosu"
     ],
     subServices: [
       { title: "Sektörel Kısa Video", href: "/yapay-zeka-video-uretimi#reels", description: "Eczane, hukuk, inşaat için minyatür sahne reklamlar — 15-30 saniye." },
       { title: "Marka Tanıtım Videosu", href: "/yapay-zeka-video-uretimi#brand", description: "Sözcü + sahne geçişli markaya özel anlatım — 30-45 saniye." },
       { title: "Yapay Zeka Influencer'lar", href: "/yapay-zeka-video-uretimi#ugc", description: "Markaya özel AI avatar — sosyal medyada yüzünüz olur, müşteri yorumu samimiyetinde içerik üretir." },
-      { title: "Reklam Setleri", href: "/yapay-zeka-video-uretimi#ads", description: "Sosyal medya reklamları için 5-10 varyantlı paket." }
+      { title: "Reklam Setleri", href: "/yapay-zeka-video-uretimi#ads", description: "Sosyal medya reklamları için varyantlı reklam setleri — kapsam teklifte belirlenir." }
     ],
     process: [
       { step: "01", title: "Brief", description: "30 dakikalık görüşme — sektör, mesaj, hedef kitle, ton birlikte belirlenir." },
-      { step: "02", title: "Senaryo", description: "1 gün içinde 3-5 sahne taslağı sunulur — onay alıp ilerleriz." },
+      { step: "02", title: "Senaryo", description: "3-5 sahne taslağı sunulur — onay alıp ilerleriz." },
       { step: "03", title: "Üretim", description: "Yapay zeka modelleriyle sahneler hazırlanır — sen sadece beklersin." },
-      { step: "04", title: "Edit + Teslim", description: "Türkçe altyazı + marka logosu + müzik eklenir. 3. gün elinde." }
+      { step: "04", title: "Edit + Teslim", description: "Türkçe altyazı + marka logosu + müzik eklenir; teslim süresi teklifte yazılı olarak belirtilir." }
     ],
     faqs: [
       { q: "Gerçek oyuncu veya kameraman kullanmıyor musunuz?", a: "Hayır. Sahnenin hepsi yapay zeka ile üretilir. Bu sayede çekim, ekip ve stüdyo masrafı tamamen kalkar." },
-      { q: "Bir video kaç para?", a: "Fiyatı brief görüşmesinde netleştiriyoruz — sektör, sahne sayısı, teslim süresi ve dağıtım kanalı belirleyici. Ücretsiz 30 dakikalık görüşme için bize yazın." },
-      { q: "Kaç revize hakkım var?", a: "Tek video pakette 1 revize, seri pakette aylık 8 revize. Senaryo onaylanınca büyük dönüşler nadir olur." },
-      { q: "Hangi formatlarda teslim alıyorum?", a: "Dikey (kısa video), kare (sosyal medya feed) ve yatay (YouTube) — üçü birden tek üretimden çıkar." }
+      { q: "Bir video kaç para?", a: "AI reklam filmi fiyatları proje başına yazılıdır (KDV hariç); paketler süre, sahne ve format sayısına göre ayrılır. Güncel tutarlar hizmet sayfasındaki fiyat kartlarında yer alır." },
+      { q: "Kaç revize hakkım var?", a: "Revizyon kapsamı teklifte yazılı olarak belirtilir. Senaryo onaylanınca büyük dönüşler nadir olur." },
+      { q: "Hangi formatlarda teslim alıyorum?", a: "Dikey (kısa video), kare (sosyal medya feed) ve yatay (YouTube). Format sayısı pakete göre değişir; üçünün birlikte teslimi Kurumsal pakette yer alır." }
     ]
   },
   {
@@ -90,16 +91,16 @@ export const SERVICES: ServiceCategory[] = [
     shortTitle: "AI Bot",
     icon: MessageSquare,
     tone: "green",
-    tagline: "WhatsApp, Telegram, Instagram — müşteriyi 60 saniyede karşılayan asistan.",
+    tagline: "WhatsApp, web sitesi, Instagram — müşteriyi otomatik karşılayan asistan.",
     href: "/whatsapp-ai-asistani",
     explainer:
-      "Bir müşteri \"yarın saat 17:00'da randevu var mı?\" diye yazdığında, normalde bir personelin görüp cevaplaması saatler sürer. Biz bunun yerine yapay zeka destekli bir asistan kuruyoruz: 60 saniye içinde müşteriye yanıt verir, randevu açar, fiyat bilgisi verir, ilgili müşteriyi kayıt defterine düşürür. WhatsApp, Telegram veya Instagram — hangisinde olursan ol.",
+      "Bir müşteri \"yarın saat 17:00'da randevu var mı?\" diye yazdığında, normalde bir personelin görüp cevaplaması saatler sürer. Biz bunun yerine yapay zeka destekli bir asistan kuruyoruz: müşteriye otomatik yanıt verir, randevu açar, fiyat bilgisi verir, ilgili müşteriyi kayıt defterine düşürür. WhatsApp, web sitesi veya Instagram — kanal sayısı pakete göre değişir, Instagram Kurumsal pakette.",
     operationRole:
       "Müşteri hizmetleri ekibinin önüne geçer. Personelin sadece sıcak ve karmaşık konuşmaları görmesini sağlar — basit soruları bot halleder.",
     workloadStats: [
-      { metric: "60 sn", label: "İlk yanıt süresi (eskiden 4 saat)" },
-      { metric: "%87", label: "Randevu doluluğu artışı (ortalama)" },
-      { metric: "%75", label: "Müşteri hizmetleri iş yükü azalma" }
+      { metric: "Otomatik", label: "Gelen mesajlara ilk yanıt" },
+      { metric: "WhatsApp + web", label: "Kanal (Instagram Kurumsal pakette)" },
+      { metric: "İnsan devri", label: "Karmaşık konuşmalar ekibe aktarılır" }
     ],
     useCases: [
       "Klinik: tedavi türü + bütçe bilgisi alır → randevu açar",
@@ -108,22 +109,22 @@ export const SERVICES: ServiceCategory[] = [
       "E-ticaret: sipariş takibi + iade süreci + ürün önerisi yapar"
     ],
     subServices: [
-      { title: "WhatsApp Asistanı", href: "/whatsapp-ai-asistani#whatsapp", description: "Türkiye'nin %95'inin kullandığı platform — profesyonel kurulum." },
-      { title: "Telegram Asistanı", href: "/whatsapp-ai-asistani#telegram", description: "Hızlı, çoklu kullanıcı destekli — topluluk ve müşteri hizmeti." },
-      { title: "Instagram DM Asistanı", href: "/whatsapp-ai-asistani#instagram", description: "DM'ye düşen ilgili kişileri otomatik karşılar, randevu açar." },
-      { title: "Çoklu Platform Müşteri Hizmetleri", href: "/whatsapp-ai-asistani#multi", description: "WhatsApp + Telegram + Instagram tek panelden yönetilir." }
+      { title: "WhatsApp Asistanı", href: "/whatsapp-ai-asistani#whatsapp", description: "Türkiye'de en yaygın mesajlaşma platformlarından biri — profesyonel kurulum." },
+      { title: "Web Sitesi Asistanı", href: "/whatsapp-ai-asistani#web", description: "Sitenizdeki ziyaretçiyi karşılar, sık soruları yanıtlar, bilgi toplar." },
+      { title: "Instagram DM Asistanı", href: "/whatsapp-ai-asistani#instagram", description: "DM'ye düşen ilgili kişileri AI ile karşılar, randevu açar. Instagram kanalı AI müşteri asistanının Kurumsal paketinde; yorum ve hikâyeye kural tabanlı otomatik DM ayrı hizmettir (Instagram DM otomasyonu)." },
+      { title: "Çoklu Platform Müşteri Hizmetleri", href: "/whatsapp-ai-asistani#multi", description: "WhatsApp + web + Instagram tek panelden yönetilir (Kurumsal paket)." }
     ],
     process: [
       { step: "01", title: "Persona", description: "Asistanın nasıl konuşacağını birlikte belirleriz — samimi mi, kurumsal mı?" },
       { step: "02", title: "Bilgi Tabanı", description: "Sektör + fiyatlar + sıkça sorulanlar + portföyünü asistana öğretiriz." },
       { step: "03", title: "Entegrasyon", description: "Takvim, kayıt defteri ve diğer sistemlerine bağlanır." },
-      { step: "04", title: "Test + Canlı", description: "1 hafta test → tüm uç durumlar düzeltilir → canlıya alınır." }
+      { step: "04", title: "Test + Canlı", description: "Test → uç durumlar düzeltilir → canlıya alınır." }
     ],
     faqs: [
-      { q: "Asistan gerçek insan gibi konuşuyor mu?", a: "Evet. Sektörel persona ile eğittiğimiz için müşteri çoğunlukla yapay zeka olduğunu anlamaz." },
+      { q: "Asistan gerçek insan gibi konuşuyor mu?", a: "Sektörel persona ile eğittiğimiz için doğal bir dil hedeflenir. Yine de asistanın yapay zeka olduğunu baştan belirtmenizi öneririz." },
       { q: "Personelimin işi bitiyor mu?", a: "Hayır. Asistan basit soruları ve ilgili leadleri halleder — personel sıcak ve karmaşık konuşmalara odaklanır." },
       { q: "Hangi sektörlerde kullanılıyor?", a: "Klinik, restoran, emlak, e-ticaret, eğitim, hukuk, kişisel marka — müşteri ile yazılı iletişim kuran her sektör." },
-      { q: "Kurulum süresi?", a: "1-2 hafta. İlk hafta brief + persona + bilgi tabanı, ikinci hafta entegrasyon + test." }
+      { q: "Kurulum süresi?", a: "Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Süreç brief + persona + bilgi tabanı ile başlar, ardından entegrasyon + test gelir." }
     ]
   },
   {
@@ -132,19 +133,19 @@ export const SERVICES: ServiceCategory[] = [
     shortTitle: "Otomasyon",
     icon: Workflow,
     tone: "blue",
-    tagline: "Manuel işleri %80 azaltan iş akışı altyapısı.",
+    tagline: "Tekrarlı manuel işleri otomatik akışlara dönüştüren altyapı.",
     href: "/crm-otomasyonu",
     explainer:
       "Her gün tekrar tekrar yaptığın işleri — formdan gelen veriyi kayıt defterine yazmak, müşteriye e-posta yollamak, faturayı muhasebeye atmak — biz otomatik iş akışlarına dönüştürüyoruz. Gece 03:00'te bile çalışır; sen sabah uyandığında işler hallolmuş olur.",
     operationRole:
-      "Operasyon yöneticinin yerine — bilmediğin işleri sessizce yapar. Personelinin günde 2-4 saat tekrarlı işlerini ortadan kaldırır.",
+      "Operasyon yöneticinin yerine — bilmediğin işleri sessizce yapar. Personelinin tekrarlı işlerini otomatik akışlara taşır.",
     workloadStats: [
-      { metric: "%80", label: "Tekrarlı manuel iş azalma" },
-      { metric: "5 dk", label: "Yeni müşteri kayıt süresi (eskiden 4 saat)" },
+      { metric: "Tek seferlik", label: "Kurulum + isteğe bağlı bakım" },
+      { metric: "Otomatik", label: "Form ve DM'den kayıt defterine aktarım" },
       { metric: "7/24", label: "Çalışır — uyumaz, hastalanmaz, izine çıkmaz" }
     ],
     useCases: [
-      "Instagram DM → yapay zeka ile kalifiye → kayıt defteri → WhatsApp takibi",
+      "Instagram DM → AI müşteri asistanı ile ön eleme (ayrı hizmet) → kayıt defteri → WhatsApp takibi",
       "Web sitesi form → e-posta + kayıt defteri + randevu slotu otomatik açılır",
       "Terk edilmiş sepet → 2 saat sonra WhatsApp kurtarma mesajı gider",
       "Her gece 03:00 → günlük satış raporu ekibe iletilir"
@@ -158,14 +159,14 @@ export const SERVICES: ServiceCategory[] = [
     process: [
       { step: "01", title: "Akış Analizi", description: "Hangi işlerini ne kadar zaman alıyorsun? Birlikte haritalayalım." },
       { step: "02", title: "Tasarım", description: "Görsel iş akışı çizilir — sen onaylarsın." },
-      { step: "03", title: "Kurulum + Test", description: "İş akışı canlıya alınır, 1 hafta gözlem altında." },
-      { step: "04", title: "Eğitim + Devir", description: "Sana nasıl yöneteceğini gösteririz — istersen biz bakarız." }
+      { step: "03", title: "Kurulum + Test", description: "İş akışı canlıya alınır ve ilk dönemde gözlem altında tutulur; ilk 30 gün kurulum hatalarının giderilmesi dahildir." },
+      { step: "04", title: "Eğitim + Devir", description: "Büyüme ve Kurumsal paketlerde ekip eğitimi dahil — istersen isteğe bağlı aylık bakımla biz bakarız." }
     ],
     faqs: [
-      { q: "Teknik bilgi gerekli mi?", a: "Sen kullanmayacaksın — biz kuruyoruz, sen sadece sonucunu görüyorsun. İstersen sistemi sana öğretiriz." },
+      { q: "Teknik bilgi gerekli mi?", a: "Sen kullanmayacaksın — biz kuruyoruz, sen sadece sonucunu görüyorsun. İstersen sistemi sana öğretiriz; ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir." },
       { q: "Diğer otomasyon araçlarından farkı ne?", a: "Daha ekonomik, daha esnek, daha güvenli. Verilerin senin kontrolünde kalır." },
-      { q: "Hangi araçlara bağlanıyor?", a: "300+ servise: kayıt defterleri, ödeme sistemleri, mesajlaşma uygulamaları, e-posta servisleri ve daha fazlası." },
-      { q: "Ortalama kaç iş akışı kuruyorsunuz?", a: "Büyüme pakette aylık 10 iş akışı tipik. Çoğu müşteri 5-7 iş akışı ile yetinir." }
+      { q: "Hangi araçlara bağlanıyor?", a: "300+ servise: kayıt defterleri, ödeme sistemleri, mesajlaşma uygulamaları, e-posta servisleri ve daha fazlası. Pakete dahil bağlanan uygulama sayısı her pakette yazılıdır." },
+      { q: "Ortalama kaç iş akışı kuruyorsunuz?", a: "İş akışı sayısı her pakette yazılıdır ve kurulum tek seferliktir; en fazla iş akışı Kurumsal pakette yer alır. Çoğu müşteri birkaç temel iş akışıyla başlar." }
     ]
   },
   {
@@ -177,37 +178,37 @@ export const SERVICES: ServiceCategory[] = [
     tagline: "Aylık paket — kısa video, görsel set, hikaye tek yerden.",
     href: "/sosyal-medya-yonetimi",
     explainer:
-      "Senin yerine Instagram, TikTok, LinkedIn için her hafta yeni kısa video, görsel set ve hikaye üretiyoruz. Markanın diline, sektörüne ve hedef kitlene uygun planlanmış aylık takvim — sen sadece onay veriyorsun, biz yayınlıyoruz. \"Bugün ne paylaşsam\" derdi tamamen kalkar.",
+      "Senin yerine Instagram, TikTok, LinkedIn için pakete göre her ay planlı kısa video, görsel set ve hikaye üretiyoruz. Markanın diline, sektörüne ve hedef kitlene uygun planlanmış aylık takvim — sen sadece onay veriyorsun, biz yayınlıyoruz. \"Bugün ne paylaşsam\" derdi tamamen kalkar.",
     operationRole:
-      "Sosyal medya yöneticisinin yerine geçer. Genelde 1 kişiye verdiğin maaşın yarısı kadar fiyata haftada 5-7 içerik elde edersin.",
+      "Sosyal medya yöneticisinin yerine geçer. Pakete göre her ay belirli sayıda özgün içerik, video ve Story uyarlaması elde edersin; en yüksek adet Kurumsal pakette.",
     workloadStats: [
-      { metric: "20+", label: "İçerik / ay (video + görsel + hikaye)" },
-      { metric: "%54", label: "Ortalama takipçi artışı (3 ay)" },
-      { metric: "0", label: "İçerik fikri bulmaya harcadığın zaman" }
+      { metric: "Aylık", label: "Pakete göre özgün içerik planı (video + tasarım + Story)" },
+      { metric: "Aylık rapor", label: "Erişim, etkileşim ve takipçi takibi" },
+      { metric: "Onay", label: "Sen onaylarsın, biz yayına alırız" }
     ],
     useCases: [
-      "Estetik klinik: aylık 20 kısa video + her hafta görsel set",
+      "Estetik klinik: aylık kısa video planı + her hafta görsel set",
       "Online koç: kişisel marka odaklı içerik + hikaye takvimi",
       "E-ticaret: ürün showcase video + reklam görselleri",
-      "Restoran: günlük menü hikayesi + haftalık atmosfer videosu"
+      "Restoran: menü hikayeleri + düzenli atmosfer videosu"
     ],
     subServices: [
-      { title: "Kısa Video Üretimi", href: "/sosyal-medya-yonetimi#reels", description: "Haftada 3-5 yapay zeka destekli video — platforma ve hedef kitleye uygun format." },
-      { title: "Görsel Set Tasarımı", href: "/sosyal-medya-yonetimi#carousel", description: "Eğitici + satış odaklı 10 slayt set — kayıt ve paylaşım canavarı." },
+      { title: "Kısa Video Üretimi", href: "/sosyal-medya-yonetimi#reels", description: "Pakete göre aylık yapay zeka destekli video — platforma ve hedef kitleye uygun format." },
+      { title: "Görsel Set Tasarımı", href: "/sosyal-medya-yonetimi#carousel", description: "Eğitici + satış odaklı 10 slayt set — kaydedilmeye ve paylaşılmaya uygun format." },
       { title: "Hikaye Şablonu", href: "/sosyal-medya-yonetimi#story", description: "Markaya özel haftalık hikaye takvimi + etkileşim stratejisi." },
       { title: "Reklam Görseli", href: "/sosyal-medya-yonetimi#ad", description: "Sosyal medya reklamları için varyantlı tasarım paketi." }
     ],
     process: [
       { step: "01", title: "Strateji", description: "Hedef kitle + ana konular + ton + haftalık takvim çıkarılır." },
-      { step: "02", title: "Üretim", description: "Yapay zeka + manuel tasarım karması — her hafta 5-7 içerik hazır olur." },
+      { step: "02", title: "Üretim", description: "Yapay zeka + manuel tasarım karması — paketindeki aylık içerikler haftalık takvimle hazırlanır." },
       { step: "03", title: "Onay + Yayın", description: "Sen onaylarsın → biz planlı yayına alırız → otomatik paylaşım." },
       { step: "04", title: "Aylık Rapor", description: "Erişim, etkileşim, takipçi büyümesi → bir sonraki ay optimize." }
     ],
     faqs: [
-      { q: "Aylık paket ne kadar?", a: "Fiyatı ihtiyacına göre kişiselleştiriyoruz — kaç platform, kaç içerik, ne kadar yönetim istiyorsun. Ücretsiz görüşmede net rakam veriyoruz." },
+      { q: "Aylık paket ne kadar?", a: `Sosyal medya yönetimi aylık, KDV hariç: ${familyPriceSummary("sosyal-medya")}.` },
       { q: "Sen mi yayınlıyorsun, biz mi?", a: "İkisi de mümkün. Genelde biz planlı yayına alıyoruz, sen sadece onay veriyorsun. İstersen sen yayınlarsın." },
       { q: "İçerik stilini biz mi siz mi belirliyoruz?", a: "Birlikte. İlk hafta brief'te markanın tonu, görsel dili ve sınırları netleştirilir. Sonrasında biz üretiriz, sen onaylarsın." },
-      { q: "Sonuç garantisi veriyor musunuz?", a: "Belli bir büyüme oranı garantileyemiyoruz çünkü içerik kalitesi + tutarlılık + zaman birleşik etki. Ama 3 ay sonu net rapor + optimizasyon sözümüz var." }
+      { q: "Sonuç garantisi veriyor musunuz?", a: "Belli bir büyüme oranı garantileyemiyoruz çünkü içerik kalitesi + tutarlılık + zaman birleşik etki. Bunun yerine her ay aynı metriklerle rapor paylaşır, bir sonraki ayı bu verilere göre planlarız." }
     ]
   },
   {
@@ -216,16 +217,16 @@ export const SERVICES: ServiceCategory[] = [
     shortTitle: "Web Tasarım",
     icon: Globe,
     tone: "orange",
-    tagline: "Hızlı, mobil uyumlu, satış odaklı — şablonsuz markaya özel site.",
+    tagline: "Hızlı, mobil uyumlu, satış odaklı — markana uyarlanan site.",
     href: "/web-tasarim",
     explainer:
-      "Hazır şablonlu sitelerden farklı — sana özel tasarlanmış, 1 saniyenin altında yüklenen, telefonda da kusursuz çalışan modern bir web sitesi. Form gönderildiğinde otomatik olarak WhatsApp'ına bildirim gelir, müşteri kaydı sistemine düşer. Sadece görünmek için değil — satmak için kurulur.",
+      "Hazır şablonlu sitelerden farklı — markana uyarlanmış, hızlı yüklenen (Lighthouse 90+ hedefi), telefonda da kusursuz çalışan modern bir web sitesi. İletişim formu her pakette dahildir; WhatsApp bildirimi veya müşteri kaydı entegrasyonu Kurumsal pakette standart entegrasyon olarak kurulur. Sadece görünmek için değil — satmak için kurulur.",
     operationRole:
       "Pazarlama altyapının kalbinde durur. Reklamlar buraya gelir, lead formu burada doldurulur, satış buradan başlar.",
     workloadStats: [
-      { metric: "0.9 sn", label: "Sayfa yükleme süresi (klasik sitelerde 4-5 sn)" },
-      { metric: "%30+", label: "Mobil dönüşüm oranı artışı" },
-      { metric: "14 gün", label: "Lansman süresi (klasik ajansta 8-12 hafta)" }
+      { metric: "90+", label: "Lighthouse performans hedefi" },
+      { metric: "Mobil", label: "Öncelikli tasarım" },
+      { metric: "Yazılı", label: "Paket fiyatı; teslim süresi teklifte" }
     ],
     useCases: [
       "Tek sayfa satış sitesi — reklam trafiği toplama",
@@ -235,21 +236,21 @@ export const SERVICES: ServiceCategory[] = [
     ],
     subServices: [
       { title: "Satış Sayfası", href: "/web-tasarim#landing", description: "Tek sayfa dönüşüm odaklı satış sitesi — reklam buraya çekilir." },
-      { title: "Kurumsal Site", href: "/web-tasarim#kurumsal", description: "5-10 sayfalık marka anlatımı + blog + iletişim formu." },
+      { title: "Kurumsal Site", href: "/web-tasarim#kurumsal", description: "Marka anlatımı + iletişim formu; sayfa sayısı pakete göre, blog Büyüme paketinde." },
       { title: "Online Mağaza", href: "/web-tasarim#eticaret", description: "Sepet + ödeme + stok yönetimi — büyümeye hazır altyapı." },
       { title: "Üyelikli Platform", href: "/web-tasarim#app", description: "Kullanıcı girişi + özel panel + ödeme entegrasyonu." }
     ],
     process: [
       { step: "01", title: "Brief", description: "Hedef, kitle, içerik mimarisi belirlenir. Sayfa haritası çıkar." },
-      { step: "02", title: "Tasarım", description: "Yüksek detaylı görsel tasarım — 2-3 turla onay alınır." },
-      { step: "03", title: "Geliştirme", description: "Site kodlanır. WhatsApp bildirim + müşteri kaydı entegrasyonu kurulur." },
-      { step: "04", title: "Lansman", description: "Domain bağlanır. Arama motoru ayarları yapılır. 14. günde canlı." }
+      { step: "02", title: "Tasarım", description: "Yüksek detaylı görsel tasarım — onay turları teklifte yazılı olarak belirtilir." },
+      { step: "03", title: "Geliştirme", description: "Site kodlanır. Kurumsal pakette WhatsApp bildirimi veya müşteri kaydı gibi standart entegrasyonlar kurulur." },
+      { step: "04", title: "Lansman", description: "Domain bağlanır. Arama motoru ayarları yapılır. Site canlıya alınır; teslim süresi teklifte yazılı olarak belirtilir." }
     ],
     faqs: [
       { q: "Hazır şablonlardan farkı ne?", a: "Hazır şablonlar yavaş ve güvenlik açıkları olur. Sana özel kodlanmış site çok daha hızlı, güvenli ve markaya uygundur." },
-      { q: "İçerik yönetimini ben yapabilir miyim?", a: "Evet. Kullanması kolay bir panel kurarız — sen yazılı içeriği kendi yönetirsin." },
-      { q: "Arama motoru optimizasyonuna iyi mi?", a: "Çok iyi. Hızlı ve doğru yapılandırılmış site Google'da yükselir. Performans skoru genelde 95+ olur." },
-      { q: "Form gönderildiğinde ne olur?", a: "Otomatik akış tetiklenir — WhatsApp bildirim + e-posta + müşteri kayıt sistemi. Tek formdan 4 yere düşer." }
+      { q: "İçerik yönetimini ben yapabilir miyim?", a: "Büyüme ve Kurumsal paketlerde kullanması kolay bir CMS paneli kurarız — sen yazılı içeriği kendin yönetirsin. Başlangıç paketinde güncellemeler aylık Web bakım hizmetiyle yapılır." },
+      { q: "Arama motoru optimizasyonuna iyi mi?", a: "Hızlı ve doğru yapılandırılmış site Google'da daha iyi değerlendirilir. Lighthouse performans skorunda 90+ hedefliyoruz." },
+      { q: "Form gönderildiğinde ne olur?", a: "Form her pakette size e-posta ile ulaşır. WhatsApp bildirimi veya müşteri kayıt sistemine aktarım gibi entegrasyonlar Kurumsal pakette standart entegrasyon olarak yer alır; diğer paketlerde ayrıca tekliflendirilir." }
     ]
   },
   {
@@ -265,9 +266,9 @@ export const SERVICES: ServiceCategory[] = [
     operationRole:
       "İşletmenin teknik altyapısı. Tüm dijital sistemlerin merkezi — diğer hizmetlerle (otomasyon, bot, sosyal medya) konuşan beyin.",
     workloadStats: [
-      { metric: "%60+", label: "Operasyonel verimlilik artışı" },
-      { metric: "4-8 hafta", label: "Tipik proje süresi" },
-      { metric: "0", label: "Lisans veya eklenti maliyeti" }
+      { metric: "Size özel", label: "Kaynak kod teslim edilir" },
+      { metric: "Teklifte", label: "Proje süresi kapsama göre yazılı" },
+      { metric: "0", label: "PORTZEN lisans ücreti (sunucu ve üçüncü taraf servisler hariç)" }
     ],
     useCases: [
       "Klinik için müşteri portalı + randevu yönetimi",
@@ -285,12 +286,12 @@ export const SERVICES: ServiceCategory[] = [
       { step: "01", title: "İhtiyaç Analizi", description: "Hangi sorunu çözüyor? Kim kullanacak? Net plan çıkarılır." },
       { step: "02", title: "Tasarım + Prototip", description: "Ekran tasarımları + tıklanabilir prototip — onay alınır." },
       { step: "03", title: "Geliştirme", description: "Modüler şekilde yazılır — sen test edersin, biz iyileştiririz." },
-      { step: "04", title: "Lansman + Destek", description: "Canlıya alınır, eğitim verilir, 1 ay ücretsiz destek." }
+      { step: "04", title: "Lansman + Destek", description: "Canlıya alınır, eğitim verilir; destek ve bakım kapsamı teklifte yazılı olarak belirtilir." }
     ],
     faqs: [
       { q: "Hazır yazılımdan farkı ne?", a: "Hazır yazılımlar sizin işinize göre değil — siz onların kalıbına göre çalışmak zorundasınız. Özel yazılımda sistem size uyar." },
-      { q: "Ne kadar sürer?", a: "Küçük panel: 3-4 hafta. Orta ölçekli yazılım: 6-8 hafta. Karmaşık platform: 3-4 ay." },
-      { q: "Bakım nasıl yapılıyor?", a: "Aylık bakım paketi var — küçük düzenlemeler, güvenlik güncellemeleri, performans takibi dahil." },
+      { q: "Ne kadar sürer?", a: "Süre kapsama göre teklifte yazılı olarak belirtilir; küçük bir panel, orta ölçekli bir yazılıma veya karmaşık bir platforma göre daha kısa sürer." },
+      { q: "Bakım nasıl yapılıyor?", a: "Bakım kapsamı (küçük düzenlemeler, güvenlik güncellemeleri, performans takibi) teklifte yazılı olarak belirtilir." },
       { q: "Kod kime ait?", a: "Tamamen size. Tüm kaynak kod teslim edilir — istediğiniz zaman başka ekipler de devam edebilir." }
     ]
   },
@@ -307,8 +308,8 @@ export const SERVICES: ServiceCategory[] = [
     operationRole:
       "Müşteri sadakatinin teknik temeli. Push bildirim, kişiselleştirme, ölçümleme — geleneksel web sitesinin yapamadığı şeyler.",
     workloadStats: [
-      { metric: "5x", label: "Web sitesine göre etkileşim oranı" },
-      { metric: "8-12 hafta", label: "Tipik lansman süresi" },
+      { metric: "Push", label: "Bildirimle doğrudan erişim" },
+      { metric: "Teklifte", label: "Lansman süresi kapsama göre yazılı" },
       { metric: "iOS + Android", label: "Tek üretimle iki platformda" }
     ],
     useCases: [
@@ -318,7 +319,7 @@ export const SERVICES: ServiceCategory[] = [
       "Mağaza: stok kontrol + kupon + bildirim"
     ],
     subServices: [
-      { title: "Sipariş & Randevu Uygulaması", href: "/hizmetler/mobil-uygulama#siparis", description: "Müşteri sipariş açar, sen anlık bildirim alırsın — telefon trafiği biter." },
+      { title: "Sipariş & Randevu Uygulaması", href: "/hizmetler/mobil-uygulama#siparis", description: "Müşteri sipariş açar, sen anlık bildirim alırsın — telefonla gelen siparişler uygulamaya taşınır." },
       { title: "Sadakat Programı", href: "/hizmetler/mobil-uygulama#sadakat", description: "Puan toplama + kampanya + kişiye özel teklif." },
       { title: "Saha Çalışan Uygulaması", href: "/hizmetler/mobil-uygulama#saha", description: "Servis, kurye, teknik destek için iş takibi + raporlama." },
       { title: "Bildirim Sistemi", href: "/hizmetler/mobil-uygulama#bildirim", description: "Doğru zamanda doğru mesaj — yeni kampanya, hatırlatma, geri kazanım." }
@@ -332,7 +333,7 @@ export const SERVICES: ServiceCategory[] = [
     faqs: [
       { q: "Sadece iOS veya Android olur mu?", a: "Evet ama önerimiz ikisi birden — tek üretimden hibrit teknoloji ile çıkıyor, ek maliyet düşük kalıyor." },
       { q: "Mağaza ücreti ne kadar?", a: "Apple yıllık 99 USD, Google Play tek seferlik 25 USD hesap ücreti — ayrı, biz kuruluma yardımcı olabiliriz." },
-      { q: "Güncelleme nasıl olur?", a: "Aylık küçük güncellemeler bakım paketinde. Büyük yeni özellikler ayrı brief'le." },
+      { q: "Güncelleme nasıl olur?", a: "Küçük güncellemelerin bakım kapsamı teklifte yazılı olarak belirtilir. Büyük yeni özellikler ayrı brief'le." },
       { q: "Native mi hibrit mi?", a: "Hibrit teknoloji kullanıyoruz — native gibi hızlı, daha ucuz, tek kod tabanı." }
     ]
   },
@@ -349,9 +350,9 @@ export const SERVICES: ServiceCategory[] = [
     operationRole:
       "Pazarlama kampanyalarının dönüşüm motoru. Sosyal medya reklamı + e-posta kampanyası + mağaza içi etkileşim — hepsi oyuna yönlenir, oyundan satışa gider.",
     workloadStats: [
-      { metric: "3-4x", label: "Klasik kupona göre etkileşim" },
-      { metric: "%40+", label: "Oynayan müşteri dönüşüm oranı" },
-      { metric: "2-3 hafta", label: "Lansman süresi" }
+      { metric: "Link", label: "Uygulama indirmeden tarayıcıdan oynanır" },
+      { metric: "Kupon", label: "Tek kullanımlık kod üretimi" },
+      { metric: "Teklifte", label: "Lansman süresi kapsama göre yazılı" }
     ],
     useCases: [
       "Restoran: Pizza Yarışı — kazanan ücretsiz tatlı",
@@ -363,7 +364,7 @@ export const SERVICES: ServiceCategory[] = [
       { title: "Çark / Şans Oyunları", href: "/hizmetler/mobil-oyun#cark", description: "Klasik çark, kazı-kazan, kupa çekilişi — markaya özel temalı." },
       { title: "Refleks Oyunları", href: "/hizmetler/mobil-oyun#refleks", description: "Hızlı tıkla, hedef vur, kart eşle — bağımlılık yaratan kısa oyunlar." },
       { title: "Marka Hikayesi Oyunu", href: "/hizmetler/mobil-oyun#hikaye", description: "Kısa interaktif hikaye — müşteri sizin dünyanızı keşfeder." },
-      { title: "Sosyal Yarışma", href: "/hizmetler/mobil-oyun#sosyal", description: "Liderlik tablosu + arkadaş davet — viral mekanik." }
+      { title: "Sosyal Yarışma", href: "/hizmetler/mobil-oyun#sosyal", description: "Liderlik tablosu + arkadaş davet — paylaşım odaklı mekanik." }
     ],
     process: [
       { step: "01", title: "Konsept", description: "Hangi oyun türü size en uygun? Ödül mekaniği nasıl olacak?" },
@@ -381,21 +382,21 @@ export const SERVICES: ServiceCategory[] = [
 ];
 
 export const TONE_BG: Record<ServiceTone, string> = {
-  yellow: "bg-brand-yellow",
-  pink: "bg-brand-pink",
-  blue: "bg-brand-blue",
-  green: "bg-brand-green",
-  orange: "bg-brand-orange",
-  purple: "bg-brand-purple"
+  yellow: "bg-white",
+  pink: "bg-white",
+  blue: "bg-white",
+  green: "bg-white",
+  orange: "bg-white",
+  purple: "bg-white"
 };
 
 export const TONE_TEXT: Record<ServiceTone, string> = {
   yellow: "text-ink",
-  pink: "text-paper",
-  blue: "text-paper",
-  green: "text-paper",
-  orange: "text-paper",
-  purple: "text-paper"
+  pink: "text-ink",
+  blue: "text-ink",
+  green: "text-ink",
+  orange: "text-ink",
+  purple: "text-ink"
 };
 
 export interface NavGroup {

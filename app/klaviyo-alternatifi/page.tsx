@@ -21,7 +21,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Klaviyo Alternatifi | E-Ticaret İçin Daha Ekonomik Otomasyon - PORTZEN",
   description:
-    "Klaviyo profil sayısı arttıkça fatura hızla büyür. PORTZEN; cart abandonment, win-back, post-purchase otomasyonlarını KVKK uyumlu ve Türkçe destekli kurar.",
+    "Klaviyo profil sayısı arttıkça fatura hızla büyür. PORTZEN; cart abandonment, win-back, post-purchase otomasyonlarını KVKK gerekliliklerini dikkate alarak, Türkçe destekle kurar.",
   keywords: [
     "klaviyo alternatifi",
     "klaviyo türkçe",
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Klaviyo Alternatifi | E-Ticaret İçin Daha Ekonomik Otomasyon - PORTZEN",
     description:
-      "Klaviyo'nun e-ticaret özelliklerini KVKK uyumlu, Türkçe destekli, brief bazlı olarak alın."
+      "Klaviyo'nun e-ticaret özelliklerini KVKK gerekliliklerini dikkate alan, Türkçe destekli, brief bazlı bir kurulumla alın."
   },
   twitter: {
     card: "summary_large_image",
     title: "Klaviyo Alternatifi | PORTZEN",
     description:
-      "E-ticaret için cart abandonment, post-purchase, win-back otomasyonu - KVKK uyumlu ve Türkçe destekli."
+      "E-ticaret için cart abandonment, post-purchase, win-back otomasyonu - KVKK gerekliliklerini dikkate alan, Türkçe destekli kurulum."
   },
   alternates: { canonical: "https://portzenai.com/klaviyo-alternatifi" },
   robots: { index: true, follow: true }
@@ -59,7 +59,7 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   serviceType: "E-commerce Marketing Automation",
@@ -77,7 +77,7 @@ const faqSchema = {
       name: "Klaviyo gerçekten pahalı mı? Free tier var değil mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Klaviyo 250 kişiye kadar ücretsiz. Aktif profil arttıkça fatura hızla büyür, SMS modülü ayrı kredi, push notification ayrı modüldür. PORTZEN aynı kapsamı KVKK uyumlu ve Türkçe destekli sunar. Fiyat brief görüşmesinde net paylaşılıyor."
+        text: "Klaviyo 250 kişiye kadar ücretsiz. Aktif profil arttıkça fatura hızla büyür, SMS modülü ayrı kredi, push notification ayrı modüldür. PORTZEN aynı kapsamı KVKK gerekliliklerini (açık rıza, aydınlatma akışı) dikkate alarak ve Türkçe destekle kurar. Fiyat brief görüşmesinde net paylaşılıyor."
       }
     },
     {
@@ -93,7 +93,7 @@ const faqSchema = {
       name: "Klaviyo'dan veri taşıma mümkün mü?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Klaviyo API üzerinden profiller, segmentler, flow'lar, gönderim geçmişi ve metric verisi çekilir. Flow'lar PORTZEN editöründe yeniden kurulur, segmentler korunur. Taşıma 14-18 iş günü sürer."
+        text: "Evet. Klaviyo API üzerinden profiller, segmentler, flow'lar, gönderim geçmişi ve metric verisi çekilir. Flow'lar PORTZEN editöründe yeniden kurulur, segmentler korunur. Taşıma süresi kapsama göre teklifte yazılı olarak belirtilir."
       }
     },
     {
@@ -125,7 +125,7 @@ const faqSchema = {
       name: "Teslim oranı ve domain yönetimi nasıl?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "SPF, DKIM, DMARC kayıtları kurulum aşamasında yapılır. Resend / Amazon SES backend kullanılır, teslim oranı %99 bandındadır. IP reputation ve spam puanı haftalık raporlanır."
+        text: "SPF, DKIM, DMARC kayıtları kurulum aşamasında yapılır. Resend / Amazon SES backend kullanılır; teslim oranı domain doğrulaması, liste kalitesi ve gönderim servisine göre değişir. IP reputation ve spam puanı haftalık raporlanır."
       }
     }
   ]
@@ -148,8 +148,8 @@ const breadcrumbSchema = {
 const stats = [
   { metric: "AI", label: "RFM + predictive segment" },
   { metric: "3 kanal", label: "Email + WhatsApp + SMS" },
-  { metric: "İYS", label: "Uyumlu, TR sunucu opsiyonu" },
-  { metric: "16 gün", label: "Klaviyo'dan taşıma" }
+  { metric: "İYS", label: "İzin kontrolü + KVKK akışı" },
+  { metric: "API ile", label: "Klaviyo'dan veri taşıma" }
 ];
 
 const painPoints = [
@@ -181,15 +181,15 @@ const painPoints = [
 
 const comparisonRows = [
   { feature: "Fiyat modeli", manychat: "USD bazlı", portzen: "TL, brief bazlı" },
-  { feature: "Fatura para birimi", manychat: "USD", portzen: "TL, KDV dahil, e-Arşiv" },
+  { feature: "Fatura para birimi", manychat: "USD", portzen: "TL (KDV hariç fiyat), e-Arşiv" },
   { feature: "Email + WhatsApp + SMS tek pakette", manychat: "Hayır, ayrı modüller", portzen: "Evet, tek altyapı" },
   { feature: "İYS native entegrasyon", manychat: "Yok", portzen: "Var, otomatik kontrol" },
   { feature: "Trendyol / Hepsiburada bağlantısı", manychat: "Yok", portzen: "n8n köprü, hazır" },
   { feature: "T-Soft / Ideasoft / Ticimax", manychat: "Yok", portzen: "Hazır connector" },
   { feature: "Cart abandonment çok kanal", manychat: "Sadece email + SMS (ek modül)", portzen: "Email + WhatsApp + SMS dahil" },
-  { feature: "RFM + predictive analytics", manychat: "Var", portzen: "Var (Pro+ paketinde)" },
+  { feature: "RFM + predictive analytics", manychat: "Var", portzen: "Var (Büyüme ve Kurumsal kurulumlarda)" },
   { feature: "Türkçe canlı destek", manychat: "Yok / partner", portzen: "Tüm paketlerde dahil" },
-  { feature: "KVKK + TR sunucu opsiyonu", manychat: "Yok", portzen: "Kurumsal pakette dahil" }
+  { feature: "KVKK + TR sunucu opsiyonu", manychat: "Yok", portzen: "KVKK akışı kurulur; veri bölgesi teklifte yazılı (sunucu gideri hariç)" }
 ];
 
 const solutionSteps = [
@@ -211,7 +211,7 @@ const solutionSteps = [
   {
     icon: CheckCircle2,
     title: "Optimizasyon",
-    description: "Pilot ay süresince A/B test, kanal mix optimizasyonu, segment iyileştirme. KPI panosu canlıya geçer."
+    description: "Canlıya geçişte A/B test, kanal mix ve segment ayarları yapılır; ilk 30 gün kurulum hataları giderilir, sonrası isteğe bağlı aylık bakımla sürer. KPI panosu canlıya geçer."
   }
 ];
 
@@ -219,23 +219,23 @@ const features = [
   { icon: ShoppingCart, title: "E-ticaret native entegrasyonu", desc: "Shopify, WooCommerce, T-Soft, Ideasoft, Ticimax, Magento için hazır connector. Trendyol, Hepsiburada, N11 n8n köprüsü." },
   { icon: Mail, title: "Cart abandonment çok kanallı", desc: "1. saat WhatsApp + ürün görseli, 24. saat email + alternatifler, 72. saat SMS + kupon. Klaviyo'da sadece email + SMS." },
   { icon: TrendingUp, title: "RFM + predictive segment", desc: "Recency, frequency, monetary dinamik segment. Churn risk skoru, lifetime value tahmini, next best offer önerisi." },
-  { icon: ShieldCheck, title: "İYS + KVKK uyum motoru", desc: "Her gönderim öncesi izin kontrolü. Açık rıza akışı, veri silme talep yönetimi, TR sunucu opsiyonu Kurumsal pakette." },
-  { icon: MessageCircle, title: "WhatsApp Business API resmi", desc: "Meta iş ortağı altyapısı. Cart abandonment, sipariş takibi, kargo bildirimi WhatsApp şablonlarıyla otomatik gider." },
-  { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile Türkçe destek tüm paketlerde dahil. 4 saatlik kurulum eğitimi ve Türkçe video kütüphanesi." }
+  { icon: ShieldCheck, title: "İYS izin kontrolü + KVKK akışı", desc: "Her gönderim öncesi izin kontrolü. Açık rıza akışı ve veri silme talep yönetimi KVKK gerekliliklerini dikkate alarak kurgulanır; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir (sunucu gideri hizmet bedeline dahil değildir)." },
+  { icon: MessageCircle, title: "WhatsApp Business API resmi", desc: "Meta'nın resmi WhatsApp Business API'si üzerinden. Cart abandonment, sipariş takibi, kargo bildirimi WhatsApp şablonlarıyla otomatik gider." },
+  { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile Türkçe destek. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir; Türkçe video kütüphanesi." }
 ];
 
 const faqs = [
   {
     q: "Klaviyo gerçekten pahalı mı? Free tier var değil mi?",
-    a: "Klaviyo 250 aktif profile kadar ücretsiz, küçük testler için yeterli. Aktif profil sayısı arttıkça fatura basamak basamak büyür. SMS modülü ayrı kredi sistemiyle gelir, push notification ayrı paket. Çok kanallı strateji izleyen Türk e-ticaret markalarında aylık toplam iletişim gideri hızla yükselir. PORTZEN aynı kapsamı KVKK uyumlu ve Türkçe destekli sunar. Fiyat brief görüşmesinde net paylaşılıyor."
+    a: "Klaviyo 250 aktif profile kadar ücretsiz, küçük testler için yeterli. Aktif profil sayısı arttıkça fatura basamak basamak büyür. SMS modülü ayrı kredi sistemiyle gelir, push notification ayrı paket. Çok kanallı strateji izleyen Türk e-ticaret markalarında aylık toplam iletişim gideri hızla yükselir. PORTZEN aynı kapsamı KVKK gerekliliklerini (açık rıza, aydınlatma akışı) dikkate alarak ve Türkçe destekle kurar. Fiyat brief görüşmesinde net paylaşılıyor."
   },
   {
     q: "Cart abandonment akışını PORTZEN'de nasıl kurulur?",
-    a: "Shopify / WooCommerce / T-Soft / Ideasoft / Ticimax cart event'leri n8n üzerinden PORTZEN'e webhook ile akar. Tipik 3 adımlı akış: 1. saat WhatsApp Business API (ürün görseli + direkt sepet linki), 24. saat e-mail (alternatif ürün önerileri + sosyal kanıt), 72. saat SMS (kupon kodu ile son hatırlatma). Türkçe şablonlar hazır gelir, Meta onayından geçirilir, ilk gün canlıya alınır."
+    a: "Shopify / WooCommerce / T-Soft / Ideasoft / Ticimax cart event'leri n8n üzerinden PORTZEN'e webhook ile akar. Tipik 3 adımlı akış: 1. saat WhatsApp Business API (ürün görseli + direkt sepet linki), 24. saat e-mail (alternatif ürün önerileri + sosyal kanıt), 72. saat SMS (kupon kodu ile son hatırlatma). Türkçe şablonlar hazır gelir ve Meta şablon onayından geçirilir; teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
   },
   {
     q: "Klaviyo'dan veri taşıma mümkün mü?",
-    a: "Evet. Klaviyo Public API üzerinden tüm profiller, segmentler, flow'lar, metric verisi, gönderim geçmişi ve form datası çekilir. Flow'lar PORTZEN'in workflow editöründe yeniden kurulur (kopya değil, optimize edilerek). Segment kriterleri ve etiketler korunur. Tipik taşıma 14-18 iş günü sürer. Pilot ay süresince Klaviyo paralel çalışmaya devam edebilir, sıfır kesinti riski."
+    a: "Evet. Klaviyo Public API üzerinden tüm profiller, segmentler, flow'lar, metric verisi, gönderim geçmişi ve form datası çekilir. Flow'lar PORTZEN'in workflow editöründe yeniden kurulur (kopya değil, optimize edilerek). Segment kriterleri ve etiketler korunur. Taşıma süresi profil, flow ve entegrasyon kapsamına göre teklifte yazılı olarak belirtilir. Geçiş sürecinde Klaviyo paralel çalışmaya devam edebilir, böylece kesinti riski en aza iner."
   },
   {
     q: "Türk e-ticaret platformlarına entegre mi?",
@@ -243,15 +243,15 @@ const faqs = [
   },
   {
     q: "RFM segmentasyon ve predictive analytics var mı?",
-    a: "Evet. PORTZEN Pro paket itibarıyla; recency (son alışveriş tarihi), frequency (alışveriş sıklığı), monetary (toplam harcama) değerlerine göre dinamik segment oluşturur. Üzerine lifetime value tahmini, churn risk skoru (60/90 günde ayrılma olasılığı), next best offer önerisi ve replenishment cycle tahmini gelir. Klaviyo'nun Predictive Analytics özelliklerinin pratik karşılığıdır."
+    a: "Evet. PORTZEN Büyüme ve Kurumsal kurulumlarda; recency (son alışveriş tarihi), frequency (alışveriş sıklığı), monetary (toplam harcama) değerlerine göre dinamik segment oluşturur. Üzerine lifetime value tahmini, churn risk skoru (60/90 günde ayrılma olasılığı), next best offer önerisi ve replenishment cycle tahmini gelir. Klaviyo'nun Predictive Analytics özelliklerinin pratik karşılığıdır."
   },
   {
     q: "WhatsApp ve SMS dahil mi, ek modül mü?",
-    a: "Email + resmi WhatsApp Business API + SMS aynı altyapıda gelir, ek modül lisansı yoktur. Üç kanal aynı flow editöründe orkestre edilir. Klaviyo'nun SMS modülü ayrı kredi gerektirir (ülke bazlı fiyat), WhatsApp ise henüz native değildir; üçüncü parti BSP entegrasyonu ister. PORTZEN tek faturada üç kanal sunar."
+    a: "Email + resmi WhatsApp Business API + SMS aynı altyapıda gelir, ek modül lisansı yoktur. Üç kanal aynı flow editöründe orkestre edilir. Klaviyo'nun SMS modülü ayrı kredi gerektirir (ülke bazlı fiyat), WhatsApp ise henüz native değildir; üçüncü parti BSP entegrasyonu ister. PORTZEN üç kanalı tek akışta yönetir; WhatsApp (Meta) ve SMS mesaj ücretleri hizmet bedeline dahil değildir, teklifte ayrıca belirtilir."
   },
   {
     q: "Teslim oranı ve domain yönetimi nasıl?",
-    a: "Gönderim domaini için SPF, DKIM ve DMARC DNS kayıtları kurulum aşamasında yapılır. Backend olarak Resend, Amazon SES veya Brevo kullanılır; teslim oranı tipik %99 bandındadır. Spam puanı, inbox placement, bounce ve complaint oranı haftalık raporlanır. Kurumsal pakette adanmış IP ve ısıtma süreci dahildir."
+    a: "Gönderim domaini için SPF, DKIM ve DMARC DNS kayıtları kurulum aşamasında yapılır. Backend olarak Resend, Amazon SES veya Brevo kullanılır; teslim oranı domain doğrulaması, liste kalitesi ve gönderim servisine göre değişir ve düzenli izlenir. Spam puanı, inbox placement, bounce ve complaint oranı haftalık raporlanır. Adanmış IP ve ısıtma süreci gerekiyorsa teklifte ayrıca belirtilir; gönderim servisi ücretleri hizmet bedeline dahil değildir."
   }
 ];
 
@@ -263,7 +263,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -276,32 +276,32 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-purple text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <ShoppingCart className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Klaviyo Alternatifi</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
-                  Klaviyo Alternatifi: E-Ticaret Otomasyonu KVKK Uyumlu ve Türkçe Destekli
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
+                  Klaviyo Alternatifi: E-Ticaret Otomasyonu KVKK Odaklı ve Türkçe Destekli
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Klaviyo profil bazlı USD üzerinden ücretlendirir; profil sayısı arttıkça fatura hızla büyür. PORTZEN; cart abandonment, post-purchase, win-back, RFM segmentasyon ve WhatsApp + email + SMS karması akışları KVKK uyumlu, Türkçe destekli olarak brief bazlı kurar.
+                  Klaviyo profil bazlı USD üzerinden ücretlendirir; profil sayısı arttıkça fatura hızla büyür. PORTZEN; cart abandonment, post-purchase, win-back, RFM segmentasyon ve WhatsApp + email + SMS karması akışları KVKK gerekliliklerini dikkate alarak, Türkçe destekle ve brief bazlı kurar.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/crm-otomasyonu/e-ticaret"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     E-Ticaret CRM <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -315,8 +315,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-purple text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -332,12 +332,12 @@ export default function Page() {
       </section>
 
       {/* 2. NEDEN ALTERNATİF */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Klaviyo'nun Türk e-ticareti için 6 zayıf yönü
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
+                Klaviyo&apos;nun Türk e-ticareti için 6 zayıf yönü
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
                 Klaviyo global lider, ama Türkiye e-ticareti için fazla pahalı ve kanal eksikli.
@@ -347,8 +347,8 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {painPoints.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-paper bg-brand-purple text-paper mb-4">
+                <div className="border-3 border-ink/10 bg-light p-5 h-full rounded-2xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-ink/10 bg-slate text-white mb-4 rounded-full">
                     <X className="h-5 w-5" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2">{p.title}</h3>
@@ -361,11 +361,11 @@ export default function Page() {
       </section>
 
       {/* 3. KARŞILAŞTIRMA TABLOSU */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Yan yana karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -375,12 +375,12 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">Klaviyo</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -393,7 +393,7 @@ export default function Page() {
                           <span className="text-xs">{row.manychat}</span>
                         </div>
                       </td>
-                      <td className="p-4 text-center text-sm bg-brand-yellow/30 text-ink">
+                      <td className="p-4 text-center text-sm bg-light text-ink">
                         <div className="flex flex-col items-center gap-1">
                           <Check className="h-4 w-4 text-green-700" />
                           <span className="text-xs font-bold">{row.portzen}</span>
@@ -407,22 +407,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Not:</strong> Karşılaştırma genel bilgilendirme amaçlıdır; Klaviyo özellikleri ve fiyatları değişebilir, güncel bilgi için resmi sayfasını kontrol edin.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 4. PORTZEN ÇÖZÜMÜ */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Taşıma süreci
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Klaviyo'dan 16 günde nasıl çıkarsınız?
+                Klaviyo&apos;dan 4 adımda nasıl çıkarsınız?
               </h2>
             </div>
           </Reveal>
@@ -431,8 +431,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -446,15 +446,15 @@ export default function Page() {
       </section>
 
       {/* 5. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                PORTZEN'in farkı
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                PORTZEN&apos;in farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                E-ticaret için Klaviyo'da olmayan 6 yetenek
+                E-ticaret için Klaviyo&apos;da olmayan 6 yetenek
               </h2>
             </div>
           </Reveal>
@@ -463,7 +463,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -476,16 +476,16 @@ export default function Page() {
       </section>
 
       {/* 6. USE CASE */}
-      <section className="bg-brand-purple text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Gerçek bir vaka: İstanbul kozmetik DTC markası
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek senaryo: DTC kozmetik markası
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Klaviyo'dan PORTZEN'e - cart abandonment geliri 2.8x, kanal sayısı 3'e çıktı.
+              Klaviyo&apos;dan PORTZEN&apos;e örnek bir geçiş kurulumu: sepet hatırlatması e-posta, WhatsApp ve SMS&apos;te tek akışta.
             </h2>
           </Reveal>
 
@@ -493,35 +493,35 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  İstanbul'da bir DTC kozmetik markası 3 yıldır Klaviyo kullanıyordu. 32.000 aktif profil, Shopify mağazası, ayda 18-22 kampanya. Klaviyo profil bazlı USD ücretlendirmesi ve ayrı SMS modülü nedeniyle iletişim bütçesi her ay büyüyordu.
+                  Örnek senaryoda Shopify mağazası olan ve Klaviyo kullanan bir DTC kozmetik markası düşünelim. Marka düzenli kampanya gönderiyor; profil bazlı USD ücretlendirme ve ayrı SMS modülü nedeniyle iletişim bütçesini öngörmekte zorlanıyor.
                 </p>
                 <p>
-                  3 ana sıkıntı vardı: (1) Cart abandonment akışı sadece e-mail + SMS, açılma oranı %22 / %14, sepet kurtarmadan aylık 240 sipariş geliyordu, (2) Trendyol mağazası vardı ama müşteri verisi Klaviyo'ya aktarılamıyor, segmentasyon sadece Shopify ile yapılıyordu, (3) KVKK aydınlatma akışı manuel, İYS izin kontrolü ayrı script ile yapılıyor, denetim riski oluşuyordu.
+                  Bu tür kurulumlarda tipik 3 sıkıntı görülür: (1) Cart abandonment akışı yalnızca e-posta + SMS ile çalışır, WhatsApp kullanılmaz, (2) Trendyol mağazası vardır ama müşteri verisi Klaviyo&apos;ya aktarılamaz, segmentasyon yalnızca Shopify verisiyle yapılır, (3) KVKK aydınlatma akışı manueldir, İYS izin kontrolü ayrı bir script ile yapılır.
                 </p>
                 <p>
-                  PORTZEN 16 günde devreye alındı. Klaviyo API üzerinden 32.000 profil + 18 segment + 11 flow taşındı. Shopify + Trendyol n8n köprüsü kuruldu, çift yönlü müşteri ve sipariş datası senkronize edildi (Trendyol siparişi de PORTZEN segmentlerine düştü). Cart abandonment akışı çok kanallı kuruldu: 1. saat WhatsApp (ürün görseli + sepet linki), 24. saat e-mail (alternatif önerileri), 72. saat SMS (kupon kodu). İYS entegrasyonu otomatik kuruldu, 2.400 izinsiz adres ayıklandı.
+                  Örnek kurulumda Klaviyo API üzerinden profiller, segmentler ve flow&apos;lar taşınır. Shopify + Trendyol n8n köprüsü kurulur, müşteri ve sipariş verisi çift yönlü senkronize edilir (Trendyol siparişi de PORTZEN segmentlerine düşer). Cart abandonment akışı çok kanallı kurulur: 1. saat WhatsApp (ürün görseli + sepet linki), 24. saat e-posta (alternatif öneriler), 72. saat SMS (kupon kodu). İYS entegrasyonu kurulur, izinsiz adresler gönderim listesinden ayıklanır.
                 </p>
                 <p>
-                  3 ay sonra: cart abandonment'tan aylık sipariş 240'tan 672'ye çıktı (2.8x). WhatsApp utility açılma oranı %78, ek gelir belirgin şekilde büyüdü. İletişim altyapısı tek panele indi, KVKK denetimine hazır rapor formatı kuruldu, müşteri hizmetleri yükü WhatsApp AI cevap akışı ile %30 azaldı.
+                  İş akışında değişen: sepetini bırakan müşteriye hatırlatma üç kanaldan sırayla gider, iletişim altyapısı tek panelde toplanır, izin ve rıza kayıtları raporlanabilir formatta tutulur. Sipariş ve kargo sorularına WhatsApp&apos;tan serbest metinle yanıt veren yapay zeka ise AI müşteri asistanı kapsamındadır (ayrı hizmet).
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Cart abandonment</div>
-                  <div className="font-display text-4xl font-black mb-1">240 → 672</div>
-                  <div className="text-sm">Aylık sipariş (2.8x)</div>
+                  <div className="font-display text-4xl font-black mb-1">3 adım</div>
+                  <div className="text-sm">WhatsApp → e-posta → SMS hatırlatma sırası</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">WhatsApp açılma</div>
-                  <div className="font-display text-4xl font-black mb-1">%78</div>
-                  <div className="text-sm">Utility mesaj oranı</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">WhatsApp altyapısı</div>
+                  <div className="font-display text-4xl font-black mb-1">Resmi API</div>
+                  <div className="text-sm">Meta&apos;nın WhatsApp Business API&apos;si üzerinden</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Kanal sayısı</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">1 → 3</div>
+                  <div className="font-display text-4xl font-black text-ink">1 → 3</div>
                   <div className="text-sm">Email + WhatsApp + SMS tek panelde</div>
                 </div>
               </div>
@@ -531,22 +531,22 @@ export default function Page() {
       </section>
 
       {/* 8. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Klaviyo'dan geçmeden önce merak edilenler
+                Klaviyo&apos;dan geçmeden önce merak edilenler
               </h2>
             </div>
           </Reveal>
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -556,23 +556,23 @@ export default function Page() {
 
           <Reveal delay={300}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Mail className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Mail className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">Mailchimp vs Klaviyo</h3>
                 <p className="text-sm opacity-85 mb-3">
                   Iki büyük rakibin yan yana karşılaştırması, hangisi hangi senaryoya uyar.
                 </p>
-                <Link href="/blog/mailchimp-vs-klaviyo-email" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/blog/mailchimp-vs-klaviyo-email" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   Blog Karşılaştırma <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <ShoppingCart className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <ShoppingCart className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">E-ticaret CRM detayı</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  E-ticaret odaklı CRM otomasyonu, modüller ve referans vakalar.
+                  E-ticaret odaklı CRM otomasyonu, modüller ve örnek senaryolar.
                 </p>
-                <Link href="/crm-otomasyonu/e-ticaret" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/crm-otomasyonu/e-ticaret" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   E-Ticaret CRM <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
@@ -582,38 +582,38 @@ export default function Page() {
       </section>
 
       {/* 9. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Klaviyo'dan modern altyapıya geçelim.
+                Klaviyo&apos;dan modern altyapıya geçelim.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut Klaviyo kurulumunuzu, aktif profil sayınızı ve flow'larınızı analiz ediyoruz. Hangi akışların PORTZEN'de daha güçlü kurulabileceğini netleştiriyor, iyileşme alanlarını ve dönüşüm potansiyelini raporluyoruz.
+                15 dakikalık ücretsiz keşif görüşmesinde mevcut Klaviyo kurulumunuzu, aktif profil sayınızı ve flow&apos;larınızı analiz ediyoruz. Hangi akışların PORTZEN&apos;de daha güçlü kurulabileceğini netleştiriyor, iyileşme alanlarını ve dönüşüm potansiyelini raporluyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905015884853"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  href="tel:+905318639117"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
                 </a>
@@ -623,7 +623,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

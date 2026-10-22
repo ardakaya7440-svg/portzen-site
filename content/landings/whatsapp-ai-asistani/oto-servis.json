@@ -16,10 +16,22 @@
   "h1": "Oto Servisler için WhatsApp AI Asistanı",
   "heroSubtitle": "Müşteri yolda kalmış, 'Megane 3'üm marşa basmıyor ne yapayım' diye mesaj atıyor — siz lift altında motor sökmüşsünüz. AI asistanımız modeli tanır, olası nedenleri söyler, en yakın slottan randevu açar. Siz kafanızı işten kaldırmadan iş gelir.",
   "stats": [
-    {"value": "45 sn", "label": "Yanıt Süresi"},
-    {"value": "+%340", "label": "Online Randevu"},
-    {"value": "7/24", "label": "Aktif"},
-    {"value": "10 gün", "label": "Kurulum"}
+    {
+      "value": "Otomatik",
+      "label": "İlk Yanıt"
+    },
+    {
+      "value": "Marka / model",
+      "label": "Fiyat Aralığı"
+    },
+    {
+      "value": "7/24",
+      "label": "Aktif"
+    },
+    {
+      "value": "Tek seferlik",
+      "label": "Kurulum"
+    }
   ],
   "problems": [
     "Lift altında motor sökerken telefon çalıyor, kaldıramıyorsunuz; arayan müşteri 5 dakika sonra başka servise gidiyor.",
@@ -39,11 +51,11 @@
     },
     {
       "title": "AI Eğitim + Ustadan Onay",
-      "description": "Sık karşılaşılan arıza belirtileri, sizin çalışma tarzınız, garanti politikanız ve özel notlarınız AI'ya öğretilir. 10 gün boyunca her teknik yanıt ustanızın onayından geçer; %95 doğruluk oranını yakaladıktan sonra otomatik moda alınır."
+      "description": "Sık karşılaşılan arıza belirtileri, sizin çalışma tarzınız, garanti politikanız ve özel notlarınız AI'ya öğretilir. Test döneminde her teknik yanıt ustanızın onayından geçer; yanıtlar ustanın onayıyla yeterli olgunluğa ulaştıktan sonra otomatik moda alınır."
     },
     {
-      "title": "Canlı Yayın + Aylık Optimizasyon",
-      "description": "Her ay hangi markaların geldiği, hangi arıza tiplerinin yoğun olduğu, fiyat tahmininin gerçek faturayla farkı raporlanır. Yanlış kalan tahminler düzeltilir, sezon (kış lastiği, yaz klima bakımı) bazlı kampanyalar kurulur."
+      "title": "Canlı Yayın + Aylık Rapor",
+      "description": "Her ay hangi markaların geldiği, hangi arıza tiplerinin yoğun olduğu, fiyat tahmininin gerçek faturayla farkı raporlanır. Yanlış kalan tahminler Büyüme ve Kurumsal paketlerdeki aylık iyileştirme saatlerinde düzeltilir; sezon (kış lastiği, yaz klima bakımı) bazlı kampanyaların kapsamı teklifte netleştirilir."
     }
   ],
   "features": [
@@ -73,62 +85,30 @@
     }
   ],
   "caseStudy": {
-    "title": "Ankara Sincan'da bir oto servis: 5 ayda ay başı 78 online randevu",
+    "title": "Örnek senaryo: Ankara Sincan'da bir oto servis için online randevu akışı",
     "paragraphs": [
-      "Sincan Organize Sanayi'de 12 yıllık bir oto servis, 2 lift ve 4 ustayla çalışıyordu. Aylık ortalama 220 araç giriş yapıyor, bunların yalnızca 12'si önceden randevulu geliyor, geri kalanlar kapıdan giriş yapıp 'müsait misiniz' diye soruyordu. Bu durum vardiya planlamasını zorlaştırıyor, bazı günler 5 saat bekleyen müşteri, bazı günler boş lift oluyordu.",
-      "PORTZEN entegrasyonu sonrası ilk ayda fiyat tahmin sistemi devreye alındı; müşteri WhatsApp'tan 'Fiesta 1.4 yağ bakımı kaç para' diye sorduğunda 850-1.100 TL aralığında cevap alıyor, randevu linkine tıklayıp slot seçiyordu. İkinci ay foto ile ön teşhis açıldı; bir müşteri kaporta hasarı fotoğrafı attı, AI 'sigorta dosyası açabilirsiniz, ekspertiz randevusu için çarşamba 14:00 müsait' dedi.",
-      "Beşinci ayın sonunda ay başı online randevu 12'den 78'e çıktı, sekreterin telefon yanıtlama yükü %70 azaldı, lift kullanım verimliliği %58'den %89'a yükseldi. Müşteri memnuniyet anketinde 'fiyat netliği' ve 'hızlı yanıt' puanı 4.7/5 oldu. Servis 6. ayda 3. lifti devreye aldı."
+      "Örnek bir kurulumu düşünelim: Sincan Organize Sanayi'de 2 lift ve 4 ustayla çalışan bir oto servis. Araçların çoğu önceden randevu almadan kapıdan geliyor; bu durum vardiya planlamasını zorlaştırıyor, bazı günler müşteri uzun süre bekliyor, bazı günler lift boş kalıyor.",
+      "Böyle bir yapıda önce fiyat aralığı sistemi devreye alınır: müşteri WhatsApp'tan 'Fiesta 1.4 yağ bakımı kaç para' diye sorduğunda servisin tanımladığı fiyat aralığını alır ve randevu linkinden slot seçer. Ardından foto ile ön bilgi akışı eklenir; kaporta hasarı fotoğrafı gönderen müşteriye ekspertiz için müsait saatler önerilir.",
+      "Bu kurulumda randevular lift ve usta kapasitesine göre takvime düşer, fiyat soruları tanımlı aralıklarla otomatik yanıtlanır, acil durumlar ustaya devredilir. Sekreter telefonda aynı soruları yanıtlamak yerine servisteki müşteriyle ilgilenir."
     ],
     "beforeAfter": [
-      {"label": "Aylık Online Randevu", "before": "12", "after": "78"},
-      {"label": "Lift Kullanım Verimliliği", "before": "%58", "after": "%89"},
-      {"label": "Müşteri Memnuniyet (Yanıt Hızı)", "before": "3.1/5", "after": "4.7/5"}
+      {
+        "label": "Randevu Alma",
+        "before": "Çoğu araç randevusuz geliyor",
+        "after": "WhatsApp'tan slot seçiliyor"
+      },
+      {
+        "label": "Lift Planlama",
+        "before": "Günlük tahminle",
+        "after": "Kapasiteye göre takvimden"
+      },
+      {
+        "label": "Fiyat Soruları",
+        "before": "Ustaya sorulup dönülüyor",
+        "after": "Tanımlı aralıkla otomatik yanıt"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "7.500 TL/ay",
-      "description": "1-2 liftli küçük servis için temel paket",
-      "features": [
-        "Ayda 800 görüşmeye kadar",
-        "WhatsApp Business API hattı",
-        "Temel fiyat tahmin (10 marka)",
-        "Online randevu sistemi",
-        "Sipariş durumu sorgu",
-        "Aylık 1 optimizasyon raporu"
-      ]
-    },
-    {
-      "name": "Pro",
-      "price": "15.000 TL/ay",
-      "description": "3-5 liftli orta ölçekli servis için tam donanım",
-      "highlighted": true,
-      "features": [
-        "Ayda 3.000 görüşmeye kadar",
-        "40+ marka detaylı fiyat tahmin",
-        "Foto ile ön teşhis (AI)",
-        "Parça stok sorgu sistemi",
-        "Garanti süresi otomatik takip",
-        "Acil durum yönlendirme + çekici entegrasyon",
-        "Ayda 2 optimizasyon"
-      ]
-    },
-    {
-      "name": "Premium",
-      "price": "28.000 TL/ay",
-      "description": "6+ liftli büyük servis / zincir servis",
-      "features": [
-        "Sınırsız görüşme",
-        "Çoklu şube yönetimi",
-        "Tüm marka + ağır vasıta + ticari araç",
-        "Sigorta şirketi entegrasyonu",
-        "Müşteri sadakat programı entegre",
-        "Sezonsal kampanya otomasyonu",
-        "Haftalık optimizasyon + canlı destek"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "Yedek parça stok bilgisi nereden geliyor, gerçek mi?",
@@ -136,15 +116,15 @@
     },
     {
       "question": "Fiyat tahmini doğru mu, müşteri serviste daha yüksek fiyat görürse ne olur?",
-      "answer": "AI fiyat aralığı verir (alt-üst limit), kesin fiyat değil. Her mesajda 'kesin fiyat aracı gördükten sonra belirlenir' notu otomatik düşer. Pro paket müşterilerimizde tahmin-fatura sapması ortalama %12 içindedir. Yanlış tahmin olan kalemler aylık raporda görünür ve düzeltilir."
+      "answer": "AI fiyat aralığı verir (alt-üst limit), kesin fiyat değil. Her mesajda 'kesin fiyat aracı gördükten sonra belirlenir' notu otomatik düşer. Tahmin ile fatura arasındaki fark raporlanır; sapması yüksek kalemler tespit edilip fiyat aralıkları güncellenir. Büyüme paketindeki ayda 2 saat ve Kurumsal paketteki ayda 6 saat iyileştirme bu tür düzeltmeler için kullanılır."
     },
     {
       "question": "Ustam onaylamadan teknik cevap verir mi, hata yapma riski var mı?",
-      "answer": "İlk 10 gün her teknik yanıt size onay için gelir. Onaylanan yanıt sisteme öğretilir, sonraki benzer sorularda otomatik gider. Karmaşık veya AI'nın emin olmadığı sorularda her zaman 'usta cevap verecek, dönüş yapılacak' der ve size aktarır. Asla tahmin üzerine teknik tavsiye vermez."
+      "answer": "Test döneminde her teknik yanıt size onay için gelir. Onaylanan yanıt sisteme öğretilir, sonraki benzer sorularda otomatik gider. Karmaşık veya AI'nın emin olmadığı sorularda her zaman 'usta cevap verecek, dönüş yapılacak' der ve size aktarır. Asla tahmin üzerine teknik tavsiye vermez."
     },
     {
       "question": "Kaç araç kayıt olabilir, mevcut müşteri veritabanım yüklenir mi?",
-      "answer": "Mevcut müşteri listenizi Excel olarak verirsiniz, otomatik yüklenir. Başlangıç pakette 2.000 araç, Pro pakette 10.000 araç, Premium pakette sınırsız kayıt desteklenir. Her aracın servis geçmişi, son bakım tarihi, garanti durumu sistemde tutulur."
+      "answer": "Mevcut müşteri listenizi Excel olarak verirsiniz, sisteme yüklenir. Kayıt hacmini veritabanınızın büyüklüğüne göre brief görüşmesinde planlıyoruz. Her aracın servis geçmişi, son bakım tarihi, garanti durumu sistemde tutulur; kullandığınız CRM'e bağlanmak isterseniz Büyüme paketinde standart CRM entegrasyonu dahildir."
     },
     {
       "question": "Çekici hizmeti entegrasyonu nasıl çalışıyor?",
@@ -152,13 +132,13 @@
     },
     {
       "question": "Sigorta şirketi entegrasyonu hangi şirketler için var?",
-      "answer": "Premium pakette Anadolu Sigorta, Allianz, Aksigorta, Mapfre ve AXA için online dosya açma entegrasyonu hazırdır. Hasar fotoğrafı + plaka + poliçe numarası ile dosya başlatılır. Pro pakette manuel dosya yönlendirme yapılır. Sigortasız servisler için bu özellik kapatılır."
+      "answer": "Anadolu Sigorta, Allianz, Aksigorta, Mapfre ve AXA için online dosya açma bağlantısı kurulabiliyor; hasar fotoğrafı + plaka + poliçe numarası ile dosya başlatılır. Bu entegrasyonun kapsamını brief görüşmesinde netleştiriyoruz, ek iş olarak ayrıca tekliflendirilir. Entegrasyon olmadan da asistan hasar fotoğrafı, plaka ve poliçe bilgisini toplayıp dosyayı ekibinize yönlendirir. Sigortasız servisler için bu özellik kapatılır."
     },
     {
       "question": "Sezonsal kampanyalar (kış lastiği, klima bakımı) otomatik mi açılıyor?",
-      "answer": "Premium pakette evet. Kasım başında kış lastiği hatırlatma, Mart sonunda klima bakımı, Haziran'da uzun yol bakımı kampanyaları otomatik kurulur. Geçmiş müşterilerinize segment bazlı (kış lastiği geçen sene değişen, bu sene değişmeyen vb.) hatırlatma gider. Pro pakette manuel kampanya kurulumu yapılır."
+      "answer": "Kasım başında kış lastiği hatırlatma, Mart sonunda klima bakımı, Haziran'da uzun yol bakımı kampanyaları kurgulanabilir. Geçmiş müşterilerinize segment bazlı (kış lastiği geçen sene değişen, bu sene değişmeyen vb.) hatırlatma gider. Bu otomatik kampanya akışlarının kapsamını brief görüşmesinde netleştiriyoruz, gerekirse ek iş olarak ayrıca tekliflendirilir; gönderimler Meta onaylı şablonla yapılır ve Meta mesaj ücretleri ayrıca ödenir."
     }
   ],
   "finalCtaHeadline": "Lift altındayken işi kaçırmayın",
-  "finalCtaSubtitle": "10 günde kurulum, ilk haftadan online randevu, müşteri sizi aramadan iş hazır. Bu sezonu hazır karşılayın, rakipler önce davranmadan sistemi kurun."
+  "finalCtaSubtitle": "Online randevu, fiyat aralığı ve acil durum yönlendirmesi; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Bu sezonu hazır karşılamak için şimdiden planlayalım."
 }

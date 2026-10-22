@@ -16,17 +16,29 @@
   "h1": "Eğitim Kurumları için WhatsApp AI Asistanı",
   "heroSubtitle": "Lead 'Python kursunuz nasıl?' yazıyor cumartesi gece 23:00 — kayıt danışmanı hafta sonu izinli. AI asistanımız müfredatı anlatır, demo dersi gönderir, taksit seçeneklerini sunar, pazartesi sabaha kadar 'kayıt olmak istiyorum' diyen sıcak lead olarak masaya gelir.",
   "stats": [
-    {"value": "30 sn", "label": "İlk Yanıt"},
-    {"value": "%316", "label": "Lead Dönüşümü"},
-    {"value": "7/24", "label": "Aktif"},
-    {"value": "10 gün", "label": "Kurulum"}
+    {
+      "value": "Otomatik",
+      "label": "İlk Yanıt"
+    },
+    {
+      "value": "Demo + taksit",
+      "label": "Otomatik Bilgilendirme"
+    },
+    {
+      "value": "7/24",
+      "label": "Aktif"
+    },
+    {
+      "value": "Tek seferlik",
+      "label": "Kurulum"
+    }
   ],
   "problems": [
     "Sosyal medya reklamından gelen lead 'kurs içeriği nedir' diye soruyor, kayıt danışmanı toplantıda, 4 saat sonra cevap geldiğinde lead başka platformdan kayıt olmuş oluyor.",
     "Aynı 'taksit imkanı var mı', 'kredi kartı dışında ödeme nasıl', 'kaç ay taksit' sorusu günde 50 kere geliyor; ekip bu yanıtlardan asıl kapanışa vakit ayıramıyor.",
     "Demo ders isteyen leadlere video linki manuel gönderiliyor, kim açtı kim açmadı takip edilemiyor, ısınmış lead soğuyor.",
     "Sertifika geçerliliği, eğitmen profili, mezun yorumu gibi 'satın alma öncesi son şüphe' sorularına anlık cevap verilemiyor, lead kararsızlıkta kayboluyor.",
-    "Kayıt yapan öğrencilere ödeme adımı (link, taksit seçimi, dekont) manuel anlatılıyor, ödeme süreci uzuyor, %22 oranında lead bu adımda da kayıp veriyor."
+    "Kayıt yapan öğrencilere ödeme adımı (link, taksit seçimi, dekont) manuel anlatılıyor, ödeme süreci uzuyor, lead'lerin bir kısmı bu adımda da kayboluyor."
   ],
   "solutionSteps": [
     {
@@ -39,10 +51,10 @@
     },
     {
       "title": "AI Test + Kayıt Danışmanı Onayı",
-      "description": "Marka tonunuz, satış akışınız ve itiraz karşılama yöntemleriniz AI'ya öğretilir. 10 gün boyunca her kapanış yakın konuşma kayıt danışmanı onayından geçer. %90 doğruluğa ulaşınca tam otomatik moda alınır."
+      "description": "Marka tonunuz, satış akışınız ve itiraz karşılama yöntemleriniz AI'ya öğretilir. Test döneminde her kapanışa yakın konuşma kayıt danışmanı onayından geçer. Yanıtlar danışmanın onayıyla yeterli olgunluğa ulaşınca tam otomatik moda alınır."
     },
     {
-      "title": "Canlı Yayın + Haftalık İyileştirme",
+      "title": "Canlı Yayın + Haftalık Rapor",
       "description": "Hangi kursların daha çok sorulduğu, hangi sorularda lead'in kaçtığı, hangi itirazların kapatılamadığı haftalık raporlanır. Yeni kohort açıldığında, kampanya başladığında AI bilgi tabanı anında güncellenir."
     }
   ],
@@ -73,84 +85,50 @@
     }
   ],
   "caseStudy": {
-    "title": "İstanbul'da bir online kurs platformu: 4 ayda aylık satış ₺240K → ₺820K",
+    "title": "Örnek senaryo: İstanbul'da bir online kurs platformu için kayıt akışı",
     "paragraphs": [
-      "Şişli'de yazılım ve veri bilimi alanlarında online kurs satan bir platform, Instagram ve Google reklamlarına aylık 80.000 TL harcıyor, ayda 540 lead topluyordu. Ancak bu lead'lerin yalnızca %12'si öğrenciye dönüyor (yani 65 kayıt), aylık satış yaklaşık 240.000 TL idi. Kayıt danışmanları gece 19:00'dan sonra ve hafta sonu erişilemiyordu, oysa lead'lerin %58'i bu saatlerde mesaj atıyordu.",
-      "PORTZEN entegrasyonu sonrası ilk ayda demo ders otomasyonu ve taksit bilgisi yanıt sistemi devreye alındı. İkinci ayda mezun yorumu paylaşma özelliği eklendi; kararsız lead'lere benzer profilden mezun yorumları gönderildi, dönüşüm anında yükseldi. Üçüncü ayda gece 22:00-02:00 arası gelen lead'lerden sabaha sıcak randevu olarak hazırlananların oranı %71'e ulaştı.",
-      "Dördüncü ayın sonunda lead-öğrenci dönüşümü %12'den %38'e çıktı, aylık satış 240.000 TL'den 820.000 TL'ye yükseldi. Kayıt danışmanı sayısı 3'ten 2'ye düştü (biri eğitim koordinatörlüğüne geçti) ama satış 3x oldu. Reklam bütçesi aynı kaldığı için CAC (müşteri edinme maliyeti) ortalama 1.200 TL'den 380 TL'ye düştü."
+      "Örnek bir kurulumu düşünelim: Şişli'de yazılım ve veri bilimi alanlarında online kurs satan bir platform, Instagram ve Google reklamlarından düzenli lead topluyor. Kayıt danışmanları akşam ve hafta sonu erişilemiyor, oysa lead'lerin önemli bir kısmı bu saatlerde mesaj atıyor; sorular yanıtsız kaldıkça ilgi soğuyor.",
+      "Böyle bir yapıda önce demo ders gönderimi ve taksit bilgisi yanıt sistemi devreye alınır. Ardından kararsız lead'lere kurumun kendi mezun yorumlarını paylaşma akışı eklenir; gece gelen lead'ler sabah kayıt danışmanına sıcak randevu talebi olarak hazırlanır.",
+      "Bu kurulumda müfredat, taksit ve sertifika soruları otomatik yanıtlanır, demo ders linki kişiselleştirilmiş şekilde gönderilir, kayıt adımları takip edilir. Kayıt danışmanları tekrar eden sorular yerine kapanışa yakın görüşmelere vakit ayırır; hangi sorularda lead'in takıldığı haftalık raporda görülür."
     ],
     "beforeAfter": [
-      {"label": "Lead-Öğrenci Dönüşümü", "before": "%12", "after": "%38"},
-      {"label": "Aylık Satış", "before": "₺240.000", "after": "₺820.000"},
-      {"label": "Müşteri Edinme Maliyeti (CAC)", "before": "₺1.200", "after": "₺380"}
+      {
+        "label": "Gece / Hafta Sonu Lead'leri",
+        "before": "Pazartesiye kadar yanıtsız",
+        "after": "Otomatik yanıt + sabah randevu talebi"
+      },
+      {
+        "label": "Demo Ders Gönderimi",
+        "before": "Link elle gönderiliyor, takip yok",
+        "after": "Otomatik gönderim ve açılma takibi"
+      },
+      {
+        "label": "Taksit / Ödeme Soruları",
+        "before": "Danışman tek tek anlatıyor",
+        "after": "Banka bazlı bilgi otomatik iletiliyor"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "8.000 TL/ay",
-      "description": "Tek branş / küçük kurs için temel paket",
-      "features": [
-        "Ayda 1.000 görüşmeye kadar",
-        "10 kursa kadar katalog",
-        "WhatsApp Business API hattı",
-        "Temel müfredat + fiyat yanıtı",
-        "Demo ders linki gönderimi",
-        "Aylık 1 optimizasyon raporu"
-      ]
-    },
-    {
-      "name": "Pro",
-      "price": "16.000 TL/ay",
-      "description": "Çok branşlı kurs platformu için tam donanım",
-      "highlighted": true,
-      "features": [
-        "Ayda 4.000 görüşmeye kadar",
-        "50 kursa kadar katalog",
-        "Detaylı müfredat + eğitmen profili",
-        "Taksit ve banka kampanya bilgisi",
-        "Demo ders açılma takibi + otomatik takip",
-        "Mezun yorumu paylaşma sistemi",
-        "Kayıt süreci tam otomasyon",
-        "Haftalık optimizasyon"
-      ]
-    },
-    {
-      "name": "Premium",
-      "price": "32.000 TL/ay",
-      "description": "Üniversite, MEB onaylı kurum, büyük platform",
-      "features": [
-        "Sınırsız görüşme",
-        "Sınırsız kurs + branş",
-        "Çoklu kayıt danışmanı yönetimi",
-        "Kohort takvimi otomasyonu",
-        "Ödeme gateway tam entegrasyon (iyzico, PayTR)",
-        "Kurumsal satış (B2B) ayrı akış",
-        "CRM entegrasyonu (Hubspot, Salesforce)",
-        "Günlük optimizasyon + canlı destek"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "Kaç kursu sisteme kayıt edebilirim?",
-      "answer": "Başlangıç pakette 10, Pro pakette 50 kursa kadar yüklenebilir. Premium pakette sınırsızdır. Her kurs için müfredat (hafta hafta), eğitmen profili, demo ders, fiyat, taksit seçenekleri ve mezun yorumları ayrı ayrı tanımlanır. Yeni kohort açıldığında 5 dakikada güncellenir."
+      "answer": "Kurs sayısını ve içerik yapısını brief görüşmesinde birlikte netleştiriyor, kurulumu kataloğunuza göre planlıyoruz. Her kurs için müfredat (hafta hafta), eğitmen profili, demo ders, fiyat, taksit seçenekleri ve mezun yorumları ayrı ayrı tanımlanır. Yeni kohort açıldığında bilgiler panelden güncellenir."
     },
     {
       "question": "Taksit bilgisi otomatik mi geliyor, banka kampanyaları nasıl güncelleniyor?",
-      "answer": "Anlaşmalı olduğunuz POS firmasının (iyzico, PayTR, Param, Vallet) kampanya bilgileri sisteme tanımlanır. Yeni kampanya açıldığında panel üzerinden 2 dakikada güncellenir. Müşteri 'Garanti BBVA Bonus'um var' dediğinde o banka için geçerli taksit ve indirim oranı anında gelir."
+      "answer": "Anlaşmalı olduğunuz POS firmasının (iyzico, PayTR, Param, Vallet) kampanya bilgileri sisteme tanımlanır. Yeni kampanya açıldığında panel üzerinden güncellenir. Müşteri 'Garanti BBVA Bonus'um var' dediğinde o banka için tanımlı taksit ve indirim bilgisi iletilir."
     },
     {
       "question": "Demo ders nasıl gönderiliyor, açılıp açılmadığını görebiliyor muyum?",
-      "answer": "Demo ders linkleri özel takip URL'i ile gönderilir. Lead linki açtığında, kaç dakika izlediğinde, video bitiminde sistem bilir. Pro pakette demo ders açıldıktan 24 saat sonra otomatik 'beğendin mi, kayıt olmak ister misin' takibi gider; bu mesaj sonrası dönüşüm ortalama %38'dir."
+      "answer": "Demo ders linkleri özel takip URL'i ile gönderilir. Lead linki açtığında, kaç dakika izlediğinde, video bitiminde sistem bilir. Demo ders açıldıktan 24 saat sonra 'beğendin mi, kayıt olmak ister misin' gibi otomatik takip akışlarının kapsamını kurulum öncesi birlikte planlıyoruz; gerekirse ek iş olarak ayrıca tekliflendirilir."
     },
     {
       "question": "Mezunlara hatırlatma / üst kurs satışı yapılabilir mi?",
-      "answer": "Evet. Mezun veritabanı sisteme yüklendiğinde, bitirdikleri kursa göre 'bir üst seviye' kurs önerisi otomatik kurulur. Örn: 'Python Başlangıç' bitiren mezunlara 3 ay sonra 'Data Science' kursu önerilir. Pro+ pakette segment bazlı kampanya hazırdır."
+      "answer": "Evet. Mezun veritabanı sisteme yüklendiğinde, bitirdikleri kursa göre 'bir üst seviye' kurs önerisi kurgulanabilir. Örn: 'Python Başlangıç' bitiren mezunlara 3 ay sonra 'Data Science' kursu önerilir. Segment bazlı kampanya gönderimlerinin kapsamını teklifte ayrıca belirtiyoruz; toplu mesajlar Meta onaylı şablonla ve mezunun onayıyla gönderilir."
     },
     {
       "question": "Ödeme entegrasyonu hangi gateway'ler için var?",
-      "answer": "iyzico, PayTR, Param, Vallet ve Stripe için hazır entegrasyon vardır. Müşteri kayıt olmak istediğinde sistem otomatik ödeme linki üretir, ödeme tamamlandığında dekont sisteme düşer, öğrenci ilgili kohorta otomatik atanır. Manuel dekont takibi gerekmez."
+      "answer": "iyzico, PayTR, Param, Vallet ve Stripe gibi ödeme altyapılarıyla bağlantı kurulabilir; entegrasyonun hangi paket kapsamına girdiği teklifte belirtilir. Müşteri kayıt olmak istediğinde sistem ödeme linki üretir, ödeme tamamlandığında bilgi sisteme düşer, öğrenci ilgili kohorta atanır. Manuel dekont takibi gerekmez."
     },
     {
       "question": "Sertifika geçerliliği konusunda yanlış bilgi verme riski var mı?",
@@ -158,9 +136,9 @@
     },
     {
       "question": "Kohort ataması, sınıf dolduğunda ne oluyor?",
-      "answer": "Her kursun kohort kapasitesi (örn: 30 kişi) sistemde tanımlıdır. Kapasite dolmaya yakın 'sınıf %80 doldu, hızlı kayıt' uyarısı otomatik gönderilir. Kapasite dolduğunda yeni kayıt almak yerine sonraki kohorta yönlendirir, bekleme listesi açar. Hiçbir kayıt 'sınıf doluydu' diye kaybolmaz."
+      "answer": "Her kursun kohort kapasitesi (örn: 30 kişi) sistemde tanımlıdır. Kapasite dolmaya yakın 'sınıf %80 doldu, hızlı kayıt' uyarısı otomatik gönderilir. Kapasite dolduğunda yeni kayıt almak yerine sonraki kohorta yönlendirir, bekleme listesi açar. Böylece 'sınıf doluydu' diye kayıt kaybı en aza iner."
     }
   ],
-  "finalCtaHeadline": "Gece gelen lead'i sabah satışa çevirin",
-  "finalCtaSubtitle": "10 günde kurulum, ilk haftadan demo ders otomasyonu, ikinci aydan satış patlaması. Bir sonraki kohorta hazır olun, lead'lerinizi rakibe vermeyin."
+  "finalCtaHeadline": "Gece gelen lead'e sabahı beklemeden yanıt verin",
+  "finalCtaSubtitle": "Demo ders otomasyonu, taksit bilgilendirmesi ve dönüşüm takibi; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Bir sonraki kohort öncesi planlayalım, lead'lerinizi yanıtsız bırakmayın."
 }

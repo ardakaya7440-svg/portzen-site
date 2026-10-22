@@ -5,14 +5,35 @@
   "sectorPlural": "Ankara'daki Markalar",
   "title": "Ankara İçin AI Reklam Videosu | Başkent Marka Görsel Üretimi — PORTZEN",
   "description": "Ankara'daki butikler, restoranlar, klinikler ve kurumsal markalar için AI ile reklam videosu üretimi. Kızılay, Tunalı, Çayyolu için lokal vurgulu Reels ve TikTok içerikleri.",
-  "keywords": ["ankara reels ajans", "ankara ai video", "ankara reklam videosu", "çankaya video prodüksiyon", "ankara dijital ajans video", "kızılay reklam", "tunalı reels", "ankara tiktok ajans"],
+  "keywords": [
+    "ankara reels ajans",
+    "ankara ai video",
+    "ankara reklam videosu",
+    "çankaya video prodüksiyon",
+    "ankara dijital ajans video",
+    "kızılay reklam",
+    "tunalı reels",
+    "ankara tiktok ajans"
+  ],
   "h1": "Ankara İçin AI Reklam Videosu",
   "heroSubtitle": "Kızılay'daki butikten Tunalı'daki restorana, Çayyolu'ndaki klinikten Bilkent'teki teknoloji markasına; Ankara'da prodüksiyon ekibi tutmadan, İstanbul ajans fiyatlarına çıkmadan, ulusala açılabilen AI Reels üretiyoruz.",
   "stats": [
-    {"value": "%92", "label": "Geleneksel prodüksiyona göre maliyet düşüşü"},
-    {"value": "14", "label": "Ankara markası için aylık ortalama reels üretimi"},
-    {"value": "40x", "label": "AI Reels ile organik erişim katsayısı"},
-    {"value": "5 gün", "label": "Konseptten yayına ortalama süre"}
+    {
+      "value": "4 / 12 / 24",
+      "label": "Pakete göre aylık reels"
+    },
+    {
+      "value": "Çekim ekibi yok",
+      "label": "AI ile uzaktan üretim"
+    },
+    {
+      "value": "9:16 · 1:1 · 16:9",
+      "label": "Pakete göre format"
+    },
+    {
+      "value": "Kapsama göre",
+      "label": "Teslim süresi teklifte yazılı"
+    }
   ],
   "problems": [
     "Ankara'daki marka ulusala açılmak istiyor, ama 'İstanbul prodüksiyon ajansı + oyuncu + ekip' maliyeti yıllık reklam bütçesinin yarısını yiyor; bu yüzden video çekimleri yılda 1–2 kampanya ile sınırlı kalıyor.",
@@ -28,7 +49,7 @@
     },
     {
       "title": "2. Konsept & Storyboard",
-      "description": "Aylık 4–14 reels için konsept, çekim listesi ve storyboard hazırlanır. Ankara'ya özel mekanlar (Anıtkabir manzarası, Kızılay, Tunalı vurgusu) ihtiyaca göre eklenir."
+      "description": "Pakete göre aylık 4, 12 veya 24 reels için konsept ve çekim listesi hazırlanır (senaryo ve hook yazımı Büyüme ve Kurumsal paketlerde dahil). Ankara'ya özel mekanlar (Anıtkabir manzarası, Kızılay, Tunalı vurgusu) ihtiyaca göre eklenir."
     },
     {
       "title": "3. AI Üretim & Post-Prodüksiyon",
@@ -36,62 +57,90 @@
     },
     {
       "title": "4. Yayın, A/B Test & Optimizasyon",
-      "description": "İlk hafta her reels 3 farklı varyantta yayınlanır, en iyi performans bulunur. 30 gün sonunda Ankara semtleri bazlı performans raporu çıkarılır ve içerik takvimi optimize edilir."
+      "description": "Reels'ler farklı hook varyantlarıyla test edilerek en iyi performans bulunur; yayın yönetimi sosyal medya yönetimi kapsamında sunulur. 30 gün sonunda Ankara semtleri bazlı performans raporu çıkarılır ve içerik takvimi optimize edilir."
     }
   ],
   "features": [
-    {"title": "Aylık Reels Paketi", "description": "Pakete göre 4, 8 veya 14 reels/ay; her ay yenilenen konseptlerle takvim doldurulur."},
-    {"title": "Ankara Lokal Vurgu", "description": "Anıtkabir, Kızılay, Tunalı Hilmi, Çayyolu gibi tanınır lokasyonlar AI ile gerçekçi şekilde işlenir; markanız 'gerçek Ankaralı' hissi verir."},
-    {"title": "Çoklu Kitle Dili", "description": "Aynı ürün/hizmet için biri öğrenciye (ODTÜ/Bilkent tonu), biri kurumsala (Çankaya tonu) yönelik iki ayrı video versiyonu üretilir."},
-    {"title": "Drone-Free Hava Çekimi", "description": "Yerleşim ve diplomatik bölgelerdeki drone yasağına takılmadan, AI ile havadan görünüm, dış cephe ve mekan tanıtımı üretilir."},
-    {"title": "Sesli Reklam & Dublaj", "description": "Türkçe/İngilizce profesyonel seslendirme; AI seslerle veya gerçek voiceover sanatçısıyla."},
-    {"title": "Telif Güvenli Müzik", "description": "Tüm müzik ve ses efektleri telif sorunsuz, ticari kullanım için lisanslı kütüphaneden seçilir."}
-  ],
-  "caseStudy": {
-    "title": "Çankaya'da Bir Butik — 3 Ayda 14 AI Reels, IG Erişim 8K → 320K, +120 Sipariş/Ay",
-    "paragraphs": [
-      "Çankaya'da 6 yıldır faaliyet gösteren bir tasarım butiği, Instagram'da düzenli içerik üretemediği için aylık erişimi 8.000'de takılı kalmış, online satış yok denecek kadar azdı. Mağaza sahibi telefonla içerik çekmeyi denemiş ama 'profesyonel' bir görünüm yakalayamamıştı.",
-      "PORTZEN, butik için ayda 14 AI reels üreten bir içerik takvimi kurguladı. Her kapsül koleksiyon için ayrı tema, Tunalı/Kızılay arka planlarında AI modeller, drone yasağı olmasına rağmen Çankaya manzaralı havadan AI çekimler ve genç-kurumsal iki ayrı kitleye yönelik versiyonlar üretildi.",
-      "3 ay sonunda Instagram organik erişimi 8.000'den 320.000'e çıktı, mağazaya gelen yüz yüze müşteri 2 katına ulaştı, online siparişler ise sıfırdan ayda 120 siparişe geldi. Marka 4. ayda ulusal pazara açılmak için PORTZEN ile yeni bir kampanya başlattı."
-    ],
-    "beforeAfter": [
-      {"label": "Aylık IG erişim", "before": "8.000", "after": "320.000"},
-      {"label": "Aylık online sipariş", "before": "0–5", "after": "120+"},
-      {"label": "Aylık reels üretimi", "before": "1–2 telefon çekimi", "after": "14 profesyonel AI reels"}
-    ]
-  },
-  "pricing": [
     {
-      "name": "Başlangıç",
-      "price": "8.000 TL/ay",
-      "description": "Küçük butik, kafe, tek lokasyon restoran için.",
-      "features": ["4 reels/ay", "Tek kitle dili", "Temel ses + müzik", "1 platform (IG)", "Aylık 1 revizyon turu", "Standart teslim"],
-      "highlighted": false
+      "title": "Aylık Reels Paketi",
+      "description": "Pakete göre 4, 12 veya 24 reels/ay; her ay yenilenen konseptlerle takvim doldurulur."
     },
     {
-      "name": "Marka",
-      "price": "18.000 TL/ay",
-      "description": "Çok şubeli markalar, klinikler, restoran zincirleri için en popüler paket.",
-      "features": ["8 reels/ay", "İki kitle dili (öğrenci+kurumsal)", "Profesyonel seslendirme", "IG + TikTok + YouTube Shorts", "A/B test", "Ankara lokal vurgu paketi", "Drone-free hava çekimi"],
-      "highlighted": true
+      "title": "Ankara Lokal Vurgu",
+      "description": "Anıtkabir, Kızılay, Tunalı Hilmi, Çayyolu gibi tanınır lokasyonlar AI ile gerçekçi şekilde işlenir; markanız 'gerçek Ankaralı' hissi verir."
     },
     {
-      "name": "Premium",
-      "price": "35.000 TL/ay",
-      "description": "Ulusala açılmak isteyen, kurumsal markalar için.",
-      "features": ["14 reels/ay", "Çoklu kitle ve dil", "AI + gerçek seslendirme", "Tüm sosyal kanallar", "Aylık 1 uzun video (60-90sn)", "Adanmış proje yöneticisi", "Sınırsız revizyon"],
-      "highlighted": false
+      "title": "Çoklu Kitle Dili",
+      "description": "Aynı ürün/hizmet için biri öğrenciye (ODTÜ/Bilkent tonu), biri kurumsala (Çankaya tonu) yönelik iki ayrı video versiyonu üretilir."
+    },
+    {
+      "title": "Drone-Free Hava Çekimi",
+      "description": "Yerleşim ve diplomatik bölgelerdeki drone yasağına takılmadan, AI ile havadan görünüm, dış cephe ve mekan tanıtımı üretilir."
+    },
+    {
+      "title": "Sesli Reklam & Dublaj",
+      "description": "Türkçe profesyonel AI seslendirme dahil; İngilizce versiyon veya gerçek voiceover sanatçısı ek iş olarak ayrıca tekliflendirilir."
+    },
+    {
+      "title": "Lisanslı Müzik",
+      "description": "Müzik ve ses efektleri ticari kullanıma uygun, lisanslı veya telifsiz kütüphanelerden seçilir."
     }
   ],
+  "caseStudy": {
+    "title": "Örnek senaryo: Çankaya'da bir butik için aylık AI reels takvimi",
+    "paragraphs": [
+      "Örnek bir kurulum: Çankaya'da faaliyet gösteren, Instagram'da düzenli içerik üretemeyen ve telefonla çektiği videolarda profesyonel görünümü yakalayamayan bir tasarım butiği düşünün. Online satış kanalı var ama onu besleyecek görsel içerik yok.",
+      "Bu senaryoda butik için aylık 12 reels'lik bir içerik takvimi kurgulanır. Her kapsül koleksiyon için ayrı tema, Tunalı/Kızılay arka planlarında AI modeller, drone çekimi yapılamayan bölgeler için AI ile üretilmiş Çankaya manzaralı havadan görüntüler ve genç ile kurumsal kitleye yönelik iki ayrı versiyon hazırlanır.",
+      "Butik her ay paylaşacağı hazır bir reels setine ve tutarlı bir görsel dile sahip olur; koleksiyon lansmanları ve kampanyalar için ayrı çekim organize etmesi gerekmez. Erişim ve satış sonuçları ürüne, kitleye ve reklam bütçesine göre değişir; burada rakam vaat etmiyoruz."
+    ],
+    "beforeAfter": [
+      {
+        "label": "İçerik düzeni",
+        "before": "Düzensiz, telefonla çekilen paylaşımlar",
+        "after": "Aylık takvime bağlı, planlı AI reels"
+      },
+      {
+        "label": "Koleksiyon görselleri",
+        "before": "Her koleksiyon için ayrı çekim gerekiyor",
+        "after": "Koleksiyon temaları AI sahnelerle üretiliyor"
+      },
+      {
+        "label": "Aylık reels üretimi",
+        "before": "Ara sıra telefon çekimi",
+        "after": "Pakete göre 4, 12 veya 24 AI reels"
+      }
+    ]
+  },
   "faq": [
-    {"question": "Reels'lerde Ankara'ya özgü mekanlar gerçekten görünür mü?", "answer": "Evet. Anıtkabir manzarası, Kızılay, Tunalı Hilmi, Çayyolu gibi tanınır lokasyonlar AI ile gerçekçi şekilde işlenir ve markanız 'gerçek Ankaralı' bir hissiyat verir. Talep ederseniz mağazanızın gerçek fotoğraflarını da AI base'e yükleyebiliyoruz."},
-    {"question": "Çankaya ve GOP'ta drone yasak, hava çekimleri nasıl olacak?", "answer": "Yerleşim alanı ve diplomatik bölge drone yasaklarına takılmadan, AI ile havadan görünüm üretiyoruz. Sonuç hem mevzuata uygun hem de daha kontrollü."},
-    {"question": "Telif ve yasal sorun çıkar mı?", "answer": "Tüm AI üretim modellerimiz ticari kullanım lisanslıdır; müzik ve ses efektleri telifsiz/lisanslı kütüphaneden seçilir. Marka kullanım hakkı tamamen size aittir."},
-    {"question": "Geleneksel prodüksiyondan ne kadar uygun?", "answer": "Geleneksel bir İstanbul prodüksiyon ajansından %85–92 daha uygundur. Bir günde bir Ankara projesi için harcadığınız bütçeyle aylarca üretim alabilirsiniz."},
-    {"question": "Ankara dışında da hizmet veriyor musunuz?", "answer": "Evet, tüm Türkiye'ye hizmet veriyoruz. Ancak Ankara paketimizde Başkent semtlerine özel görsel kütüphane ve kitle analizi entegre."},
-    {"question": "Hem öğrenci hem kurumsal kitleye hitap edebilir miyim?", "answer": "Evet. Aynı ürün/hizmet için iki ayrı versiyon üretiriz: biri ODTÜ-Bilkent tonunda, biri Çankaya kurumsal tonunda. İki kitleye eş zamanlı yayınlanır."},
-    {"question": "İçerik takvimi de hazırlıyor musunuz?", "answer": "Evet. Aylık konsept toplantısında bir sonraki ayın takvimini birlikte belirleriz; siz onay verirsiniz, üretim ve yayın bizden."}
+    {
+      "question": "Reels'lerde Ankara'ya özgü mekanlar gerçekten görünür mü?",
+      "answer": "Evet. Anıtkabir manzarası, Kızılay, Tunalı Hilmi, Çayyolu gibi tanınır lokasyonlar AI ile gerçekçi şekilde işlenir ve markanız 'gerçek Ankaralı' bir hissiyat verir. Talep ederseniz mağazanızın gerçek fotoğraflarını da AI base'e yükleyebiliyoruz."
+    },
+    {
+      "question": "Çankaya ve GOP'ta drone yasak, hava çekimleri nasıl olacak?",
+      "answer": "Yerleşim alanı ve diplomatik bölge drone yasaklarına takılmadan, AI ile havadan görünüm üretiyoruz. Gerçek drone uçuşu yapılmadığı için uçuş izni gerekmez ve görüntü tamamen kontrollü şekilde üretilir."
+    },
+    {
+      "question": "Telif ve yasal sorun çıkar mı?",
+      "answer": "Ticari kullanıma izin veren AI üretim araçları ve lisanslı/telifsiz müzik kütüphaneleri kullanıyoruz. Teslim edilen videoların kullanım hakkı size aittir; varsa kullanılan araçlardan doğan sınırlar teklifte yazılı olarak belirtilir."
+    },
+    {
+      "question": "Geleneksel prodüksiyondan ne kadar uygun?",
+      "answer": "Geleneksel prodüksiyonda ekip, ekipman, set ve oyuncu maliyeti oluşur; AI üretimde bu kalemler olmadığı için maliyet çoğu durumda belirgin şekilde düşer. Kesin tutar, video adedi ve kapsamınıza göre teklifte netleşir."
+    },
+    {
+      "question": "Ankara dışında da hizmet veriyor musunuz?",
+      "answer": "Evet, tüm Türkiye'ye hizmet veriyoruz. Ankara'daki işletmeler için ise Başkent semtlerine özgü görsel referansları ve yerel kitle özelliklerini brief'e dahil ederek içeriği şehre göre kurguluyoruz."
+    },
+    {
+      "question": "Hem öğrenci hem kurumsal kitleye hitap edebilir miyim?",
+      "answer": "Evet. Aynı ürün/hizmet için iki ayrı versiyon üretiriz: biri ODTÜ-Bilkent tonunda, biri Çankaya kurumsal tonunda. İki kitleye eş zamanlı yayınlanır."
+    },
+    {
+      "question": "İçerik takvimi de hazırlıyor musunuz?",
+      "answer": "Evet. Aylık konsept toplantısında bir sonraki ayın takvimini birlikte belirleriz; siz onay verirsiniz, üretim bizden; yayını da sosyal medya yönetimi kapsamında bize bırakabilirsiniz."
+    }
   ],
   "finalCtaHeadline": "Ankara'daki markanızı görsel olarak ulusala çıkaralım.",
-  "finalCtaSubtitle": "Kızılay'dan Çayyolu'na, Tunalı'dan Bilkent'e; AI ile profesyonel reels üreterek prodüksiyon maliyetini %90 azaltıyor, Başkent markanızı 5 gün içinde yayına alıyoruz."
+  "finalCtaSubtitle": "Kızılay'dan Çayyolu'na, Tunalı'dan Bilkent'e; prodüksiyon ekibi kurmadan AI ile profesyonel reels üretiyoruz. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 }

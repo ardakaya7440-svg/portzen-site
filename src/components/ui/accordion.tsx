@@ -26,7 +26,7 @@ export function Accordion({ items }: { items: AccordionItemData[] }) {
         return (
           <div
             key={item.id}
-            className="rounded-base border-3 border-ink bg-paper shadow-brutal"
+            className="rounded-base border-3 border-ink/15 bg-paper shadow-brutal"
           >
             <h3 className="m-0">
               <button
@@ -42,7 +42,7 @@ export function Accordion({ items }: { items: AccordionItemData[] }) {
                 </span>
                 <span
                   aria-hidden="true"
-                  className="grid size-9 shrink-0 place-items-center rounded-md border-3 border-ink bg-brand-yellow"
+                  className="grid size-9 shrink-0 place-items-center rounded-md border-3 border-ink/15 bg-light"
                 >
                   {isOpen ? (
                     <Minus className="size-5 stroke-[3]" />
@@ -57,7 +57,7 @@ export function Accordion({ items }: { items: AccordionItemData[] }) {
               role="region"
               aria-labelledby={buttonId}
               hidden={!isOpen}
-              className="border-t-3 border-ink px-5 py-5 md:px-6"
+              className="border-t-3 border-ink/15 px-5 py-5 md:px-6"
             >
               <p className="max-w-prose text-body font-medium text-ink">
                 {item.answer}

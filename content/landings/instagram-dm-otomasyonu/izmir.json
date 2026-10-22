@@ -4,7 +4,7 @@
   "sectorName": "İzmir",
   "sectorPlural": "İzmir'deki Markalar",
   "title": "İzmir Instagram DM Otomasyonu | Restoran & Kafe — PORTZEN",
-  "description": "İzmir'deki restoran, kafe ve butik markalar için Instagram DM otomasyonu. Alsancak'tan Bostanlı'ya, Reels gelen DM'leri siparişe çeviren AI sistemi.",
+  "description": "İzmir'deki restoran, kafe ve butik markalar için Instagram DM otomasyonu. Alsancak'tan Bostanlı'ya, Reels yorumlarına ve DM'lere anahtar kelimeye göre hazır mesaj gönderen kural tabanlı sistem.",
   "keywords": [
     "izmir instagram dm otomasyonu",
     "izmir sosyal medya ajansı",
@@ -14,12 +14,24 @@
     "izmir reels dm"
   ],
   "h1": "İzmir İçin Instagram DM Otomasyonu",
-  "heroSubtitle": "Alsancak'ta cafe, Bostanlı'da restoran, Karşıyaka'da butik — Reels'ten gelen DM yağmurunu otomatik siparişe ve rezervasyona çeviriyoruz.",
+  "heroSubtitle": "Alsancak'ta cafe, Bostanlı'da restoran, Karşıyaka'da butik — Reels'ten gelen DM'lere hazır mesajlarla otomatik yanıt veriyor, kullanıcıyı menü, sipariş ve rezervasyon linkine yönlendiriyoruz.",
   "stats": [
-    {"value": "İzmir", "label": "Yerel Destek"},
-    {"value": "%62", "label": "DM → Sipariş"},
-    {"value": "10 gün", "label": "Kurulum"},
-    {"value": "24/7", "label": "Aktif"}
+    {
+      "value": "İzmir",
+      "label": "Yerel Destek"
+    },
+    {
+      "value": "Kural tabanlı",
+      "label": "Akış tipi"
+    },
+    {
+      "value": "Yorum + Story",
+      "label": "Tetikleyici"
+    },
+    {
+      "value": "24/7",
+      "label": "Aktif"
+    }
   ],
   "problems": [
     "İzmir restoran/kafe ekibiniz haftada 5-10 Reels üretiyor, viral oluyor ama gelen 200-500 DM'ye yetişen kimse yok; menü, fiyat, rezervasyon soruları cevapsız kalıyor.",
@@ -31,33 +43,33 @@
   "solutionSteps": [
     {
       "title": "İzmir Marka Analizi",
-      "description": "Son 90 günlük DM trafiğinize, Reels performansınıza, en sık 50 soruya bakıyoruz. İzmir lokal davranış (örn. 'pazar günü kahvaltı', 'mangal var mı') AI'ya öğretiliyor."
+      "description": "Son 90 günlük DM trafiğinize, Reels performansınıza ve en sık gelen sorulara bakıyoruz. İzmir'e özgü ifadeler (örn. 'pazar günü kahvaltı', 'mangal var mı') akışlardaki anahtar kelimelere ve mesaj metinlerine işleniyor."
     },
     {
-      "title": "AI Konuşma Akışı",
-      "description": "Menü, fiyat, rezervasyon, paket sipariş, çalışma saati, ulaşım, otopark — sektöre özel 40-60 senaryo. Lokal İzmir ağzı tonlama."
+      "title": "Kural Tabanlı Mesaj Akışları",
+      "description": "Menü, fiyat, rezervasyon, paket sipariş, çalışma saati, ulaşım, otopark için anahtar kelime ve buton tabanlı senaryolar. Mesaj metinleri lokal İzmir tonunda yazılıp onayınıza sunulur."
     },
     {
       "title": "Reels → DM → Sipariş Funnel",
-      "description": "Belirli Reels'lere yorum yapanlara otomatik DM, DM'den menü kataloğu, siparişe yönlendirme, Yemeksepeti/Getir entegrasyonu opsiyonel."
+      "description": "Belirli Reels'lere anahtar kelimeyle yorum yapanlara otomatik DM, DM'den menü kataloğu, siparişe yönlendirme, Yemeksepeti / Getir sipariş linki gönderimi."
     },
     {
       "title": "Devreye Alma + Optimizasyon",
-      "description": "10 günde canlı, sonrası haftalık optimizasyon. Aylık dönüşüm raporu, en iyi performans gösteren Reels analizi."
+      "description": "Test ve yayın, ardından mesaj güncellemeleri. Hangi anahtar kelime ve akışın ne sıklıkla tetiklendiğinin ve en çok mesaj getiren Reels'lerin raporlanması."
     }
   ],
   "features": [
     {
       "title": "Reels Yorum → Otomatik DM",
-      "description": "Belirlediğiniz keyword (örn. 'menü', 'rezervasyon') yazana otomatik DM atan akış. Reels organic erişiminizi paraya çeviriyor."
+      "description": "Belirlediğiniz keyword (örn. 'menü', 'rezervasyon') yazana otomatik DM atan akış. Reels'e gelen sorular DM'de hazır yanıta ve linke yönlenir."
     },
     {
       "title": "Çoklu Şube Yönlendirmesi",
-      "description": "Alsancak, Bostanlı, Mavişehir şubelerinizi tek hesaptan yönetip müşteriyi konumuna en yakın şubeye yönlendiriyoruz."
+      "description": "Alsancak, Bostanlı, Mavişehir şubelerinizi tek hesaptan yönetiyoruz; kullanıcı şubeyi butonla seçer, seçilen şubenin menü, saat ve adres bilgisi otomatik gönderilir."
     },
     {
       "title": "Rezervasyon + Sipariş Akışı",
-      "description": "DM'den tarih/saat/kişi sayısı seçimi, masa rezervasyonu, paket sipariş, ödeme linki — el değmeden tamamlanıyor."
+      "description": "Rezervasyon soran kullanıcıya rezervasyon formu veya sayfası linki, paket sipariş soran kullanıcıya sipariş platformu linki, ödeme için ödeme linki otomatik gönderilir. Rezervasyonun DM içinden takvime işlenmesi standart kapsamda değildir."
     },
     {
       "title": "Sezonsal Kampanya Modülü",
@@ -65,68 +77,38 @@
     },
     {
       "title": "İnsan Devri (Handoff)",
-      "description": "AI çözemediği veya VIP müşteride otomatik personele devir. Müşteri kayıp yaşamıyor."
+      "description": "Akışın kapsamadığı mesajlarda veya kullanıcı 'yetkiliyle görüşmek istiyorum' butonunu seçtiğinde konuşma personele devredilir ve bildirim gider. Müşteri kaybı riski azalır."
     },
     {
       "title": "Aylık Performans Raporu",
-      "description": "Kaç DM geldi, kaçı siparişe döndü, hangi Reels en çok dönüştürdü — net rakamlarla raporlama."
+      "description": "Kaç DM geldi, hangi akışlar tetiklendi, sipariş ve rezervasyon linklerine kaç kez tıklandı, hangi Reels en çok mesaj getirdi — net rakamlarla raporlama."
     }
   ],
   "caseStudy": {
-    "title": "Alsancak'ta bir cafe: 3 ayda Instagram DM'den ay başı 240 sipariş",
+    "title": "Alsancak'ta bir brunch kafesi için örnek kurulum",
     "paragraphs": [
-      "Alsancak Kıbrıs Şehitleri Caddesi'nde küçük bir specialty coffee + brunch cafe, haftada 3 Reels üretiyordu. Erişimler iyiydi (haftalık 80-120K) ama DM'ye gelen 'menü var mı', 'glutensiz var mı', 'rezervasyon nasıl' sorularına 4-6 saat sonra cevap verebiliyorlardı. Cumartesi-pazar müşteri rezervasyon DM'sini gönderip cevap beklerken Bostanlı'daki rakip kafeye gidiyordu.",
-      "PORTZEN olarak Instagram DM otomasyonunu kurduk; menü kataloğu, brunch sezonu özel kampanya, masa rezervasyon akışı, Yemeksepeti paket sipariş linki, glutensiz/vegan filtreleme AI'ya yüklendi. Reels altına 'menü' yazana otomatik menü kataloğu gönderilen flow tasarlandı.",
-      "3 ay sonunda Instagram DM'den ay başı 240 ek sipariş geldi. Cumartesi rezervasyon doluluk %62'den %94'e çıktı. DM'den ilk yanıt süresi 4 saatten 35 saniyeye düştü. Reels yatırımı doğrudan ciroya dönüştü; aylık ek ciro 78.000 TL."
+      "Alsancak'ta küçük bir specialty kahve ve brunch kafesi düşünelim: Reels'leri ilgi görüyor, ama 'menü var mı', 'glutensiz var mı', 'rezervasyon nasıl' sorularına ancak saatler sonra cevap verilebiliyor. Hafta sonu rezervasyon DM'i gönderen müşteri, cevap beklerken başka kafeye gidiyor.",
+      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: menü kataloğu, brunch sezonu kampanyası, masa rezervasyonu linki, Yemeksepeti paket sipariş linki ve glutensiz/vegan seçenekleri için buton tabanlı mesajlar hazırlanır. Reels altına 'menü' yazan kullanıcıya menü kataloğu otomatik DM ile gider.",
+      "Böylece sık sorulan sorulara ekip servisten ayrılmadan hazır mesajlarla yanıt verilir, rezervasyon ve paket sipariş talepleri doğrudan ilgili linke yönlenir, personel yalnızca akışın kapsamadığı mesajlarla ilgilenir. Hangi anahtar kelimelerin ne sıklıkla tetiklendiği izlenerek menü ve kampanya mesajları güncellenir."
     ],
     "beforeAfter": [
-      {"label": "DM Yanıt Süresi", "before": "4-6 saat", "after": "35 saniye"},
-      {"label": "Cumartesi Doluluk", "before": "%62", "after": "%94"},
-      {"label": "Aylık Sipariş", "before": "Sayısı belirsiz", "after": "+240 ek"}
+      {
+        "label": "Sık sorulan sorular",
+        "before": "Saatler sonra elle yanıtlanıyor",
+        "after": "Hazır mesajla otomatik yanıtlanıyor"
+      },
+      {
+        "label": "Rezervasyon talebi",
+        "before": "DM'de bekliyor, müşteri başka yere gidiyor",
+        "after": "Rezervasyon linki DM'den gönderiliyor"
+      },
+      {
+        "label": "Paket sipariş",
+        "before": "Müşteri yönlendirme bekliyor",
+        "after": "Yemeksepeti linki otomatik gidiyor"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "7.000 TL/ay",
-      "description": "Tek lokasyonlu cafe, butik, küçük restoran için",
-      "features": [
-        "Instagram DM otomasyonu kurulum",
-        "AI konuşma akışı (30 senaryo)",
-        "Aylık 1.500 DM kapasitesi",
-        "Reels yorum → DM tetikleyici",
-        "Aylık rapor",
-        "E-posta destek"
-      ]
-    },
-    {
-      "name": "Profesyonel",
-      "price": "14.000 TL/ay",
-      "description": "Çok şubeli restoran, butik otel, marka cafe için",
-      "features": [
-        "Her şey + çoklu şube yönlendirme",
-        "Aylık 5.000 DM kapasitesi",
-        "Rezervasyon + sipariş akışı",
-        "Yemeksepeti/Getir entegrasyon",
-        "Sezonsal kampanya şablonları",
-        "Öncelikli WhatsApp destek"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Kurumsal",
-      "price": "26.000 TL/ay",
-      "description": "Marka zinciri, ulusal açılım planlayan markalar için",
-      "features": [
-        "Her şey + sınırsız DM",
-        "Çoklu hesap yönetimi (3 hesaba kadar)",
-        "Özel rapor dashboard",
-        "Adanmış İzmir hesap yöneticisi",
-        "Aylık 4 ek Reels stratejisi",
-        "SLA garantili destek"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "İzmir'deki butik markama özel ton kuruluyor mu?",
@@ -134,7 +116,7 @@
     },
     {
       "question": "Alsancak'taki cafe + Bostanlı'daki şubem var, ayrı yönetebilir miyim?",
-      "answer": "Evet. Çoklu şube modülünde müşteri konum/tercihine göre doğru şubeye yönlendirilir. Her şubenin menüsü, saati, ulaşım bilgisi ayrı yüklenebilir."
+      "answer": "Evet. Çoklu şube akışında müşteri şubeyi butonla seçer ve doğru şubenin bilgisine yönlendirilir. Her şubenin menüsü, saati, ulaşım bilgisi ayrı yüklenebilir."
     },
     {
       "question": "EXPO veya İzmir festivalleri için sezonsal kampanya yapabilir miyiz?",
@@ -142,21 +124,21 @@
     },
     {
       "question": "Reels viral olursa sistem çöküyor mu?",
-      "answer": "Hayır. Altyapımız saatlik 5.000+ DM'i kaldırır. Viral Reels yığını için tasarlandı."
+      "answer": "Genellikle hayır. Kural tabanlı akışlar yoğunlukta da aynı şekilde çalışır; yanıtlar Meta'nın gönderim limitleri dahilinde sırayla gider. Viral Reels dönemleri için beklenen hacmi önceden birlikte planlıyoruz."
     },
     {
       "question": "Yemeksepeti, Getir, Trendyol Yemek entegrasyonu var mı?",
-      "answer": "Evet. DM'den doğrudan sipariş linki gönderiyoruz; müşteri uygulamaya tıklamadan sepeti hazır buluyor."
+      "answer": "Sipariş verisi entegrasyonu yok; akış, 'paket' veya 'sipariş' yazan müşteriye Yemeksepeti, Getir veya Trendyol Yemek'teki işletme sayfanızın linkini otomatik gönderir. Müşteri siparişi platform üzerinden tamamlar."
     },
     {
-      "question": "İzmir'deki küçük markam için 7.000 TL/ay pahalı değil mi?",
-      "answer": "Tek müşteriyle 7.000 TL'lik paket kendini amorti ediyor. İlk 10 gün ücretsiz pilot çalışıyoruz, dönüşümü görmeden devam etme zorunluluğu yok."
+      "question": "İzmir'deki küçük markam için DM otomasyonuna geçmeye nasıl karar veririm?",
+      "answer": "Önce mevcut durumunuza bakıyoruz: haftada kaç yorum ve hikâye yanıtı alıyorsunuz, bunların ne kadarına geç dönülüyor, ortalama sepetiniz ne. Instagram DM otomasyonunun hizmet bedeli {{tekil:instagram-dm}} (KDV hariç), otomasyon platformu aboneliği ayrıca ödenir; bu tabloyu birlikte çıkarınca otomasyonun işletmenize uygun olup olmadığı netleşir. Etkileşimi henüz düşük olan hesaplarda önce içerik tarafını güçlendirmeyi önerebiliriz."
     },
     {
       "question": "Instagram hesabımın kapatılma riski var mı?",
-      "answer": "Hayır. Meta'nın resmi Instagram Messaging API'sini kullanıyoruz; 3. parti araç değil. Politika ihlali riski yok."
+      "answer": "Riski en aza indiriyoruz. Meta'nın resmi Instagram Messaging API'sini kullanıyoruz; şifre isteyen 3. parti bir araç değil. Akışları Meta politikalarına uygun şekilde kuruyoruz."
     }
   ],
-  "finalCtaHeadline": "İzmir'deki markanızı DM'den kazandıralım.",
-  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif. Reels performansınıza ve DM trafiğinize bakıp size özel funnel çıkaralım. 10 günde devrede."
+  "finalCtaHeadline": "İzmir'deki markanızın Instagram DM'lerini düzene sokalım.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif. Reels performansınıza ve DM trafiğinize bakıp size özel akış planı çıkaralım. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 }

@@ -4,102 +4,146 @@
   "sectorPlural": "Kafeler",
   "title": "Kafeler İçin Instagram DM Otomasyonu | Brunch Rezervasyonu + Menü Görseli - PORTZEN",
   "description": "Kafeler için Instagram DM otomasyonu. Reels yorumlarından brunch rezervasyonuna, story DM'lerinden menü görseline tam otomatik akış. Kadıköy, Cihangir specialty kafeler için.",
-  "keywords": ["kafe instagram otomasyonu", "kafe dm botu", "brunch instagram rezervasyon", "instagram menü gönderme", "kafe sosyal medya otomasyon", "yorumdan rezerve"],
+  "keywords": [
+    "kafe instagram otomasyonu",
+    "kafe dm botu",
+    "brunch instagram rezervasyon",
+    "instagram menü gönderme",
+    "kafe sosyal medya otomasyon",
+    "yorumdan rezerve"
+  ],
   "h1": "Kafeler için Instagram DM Otomasyonu",
-  "heroSubtitle": "Brunch reels'inize 'fiyat' yorumu yapan herkese otomatik menü + rezervasyon linki - story DM'lerine sezon kahvaltısı yanıtı, takipçiniz rezerve müşteriye dönüşsün.",
+  "heroSubtitle": "Brunch reels'inize 'fiyat' yorumu yapan herkese otomatik menü + rezervasyon linki, story DM'lerine sezon kahvaltısı yanıtı - ilgilenen takipçiyi kural tabanlı akışla rezervasyon linkine yönlendirin.",
   "stats": [
-    {"value": "<1 dk", "label": "Yorumdan Yanıt"},
-    {"value": "%52", "label": "Yorum → DM"},
-    {"value": "%24", "label": "DM → Rezervasyon"},
-    {"value": "Meta", "label": "Resmi Partner"}
+    {
+      "value": "Otomatik",
+      "label": "Yorumdan DM'e"
+    },
+    {
+      "value": "Anahtar kelime",
+      "label": "Tetikleyici"
+    },
+    {
+      "value": "Kural tabanlı",
+      "label": "Akış tipi"
+    },
+    {
+      "value": "Meta API",
+      "label": "Resmi bağlantı"
+    }
   ],
   "problems": [
-    "Brunch reels'iniz 50K view alıyor ama yorumların %80'i 'fiyat?', 'rezervasyon nasıl?' - manuel yanıtlayana kadar 200 yorum birikiyor",
+    "Brunch reels'iniz yüksek izlenme alıyor ama yorumların çoğu 'fiyat?', 'rezervasyon nasıl?' - manuel yanıtlayana kadar yüzlerce yorum birikiyor",
     "Story'de yeni sezon kahvaltısı paylaşıyorsunuz, 60 DM geliyor ama hepsi 'kaç TL, nerede' - barista bunlara bakamıyor",
     "Latte art reels'inize gelen 'kurs veriyor musunuz' yorumlarına saatler sonra dönüyorsunuz, müşteri başka kafeye yönelmiş oluyor",
     "Açık olduğunuz saat dışında gelen DM'ler sabah 50'ye birikiyor, hepsine cevap yetiştirilemiyor, müşteri kaçıyor",
     "Instagram bio'nuzda menü linki yok, takipçi menüyü görmek için ayrı websitesi açmak zorunda - dönüşüm düşüyor",
-    "Reels viral olduğunda yorum patlıyor, 30 dakika içinde yanıtlamayınca Instagram algoritması ölçeklendirmeyi durduruyor"
+    "Reels viral olduğunda yorum patlıyor, yanıtsız kalan sorular kaçan müşteriye dönüşüyor"
   ],
   "solutionSteps": [
-    {"title": "1. Instagram Hesap Analizi", "description": "Kafe Instagram hesabınızı inceleyip son 30 reels/post analiz ediyoruz. En çok hangi sorular geliyor, hangi yorumlar en sık tekrarlanıyor, hangi içerik en çok DM çekiyor - buna göre akış tasarlıyoruz."},
-    {"title": "2. Anahtar Kelime + Akış Tasarımı", "description": "'Fiyat', 'menü', 'rezervasyon', 'brunch', 'kahvaltı', 'lokasyon', 'wifi', 'çalışma' gibi anahtar kelimelere göre farklı akış. Yorum yapan kullanıcıya otomatik DM, DM içinde menü görseli + rezervasyon linki."},
-    {"title": "3. Meta Resmi API + Test", "description": "Meta Business resmi API ile bağlantı (üçüncü parti araç değil, Instagram banlamıyor). 3-5 günlük test aşaması - gerçek yorumlarla akışı doğruluyoruz."},
-    {"title": "4. Devir & Analitik", "description": "Karmaşık sorular (özel etkinlik, akademi rezervasyonu vb.) sizin telefonunuza yönlendirilir. Yönetim panelinden hangi reels en çok dönüşüm getirdi, hangi anahtar kelimeden kaç rezervasyon - tam analitik."}
-  ],
-  "features": [
-    {"title": "Yorumdan Otomatik DM", "description": "Brunch reels'inize 'fiyat' yazan herkese 60 saniye içinde otomatik menü görseli + rezervasyon linki DM olarak gidiyor. Yorum kalabalığını DM dönüşümüne çeviriyoruz."},
-    {"title": "Story DM Yanıtlama", "description": "Yeni sezon kahvaltı story'sine gelen DM'lere otomatik menü kart + fiyat + rezervasyon linki. Story 24 saatte 200 DM alsa bile tek tek yanıt verilmiş gibi olur."},
-    {"title": "Rezervasyon Akışı", "description": "DM içinde tarih, saat, kişi sayısı sorgulanır, otomatik rezervasyon oluşturulur. Müşteriye onay mesajı, kafenize WhatsApp/email bildirim gönderilir. Hafta sonu doluluk artar."},
-    {"title": "Menü + Lokasyon Otomatik Gönderim", "description": "'Menü', 'fiyat', 'nerede' anahtar kelimelerine güzel tasarlanmış menü görseli, lokasyon, çalışma saatleri, harita linki otomatik gönderilir."},
-    {"title": "Akademi / Kurs Yönlendirmesi", "description": "Latte art workshop, kahve akademisi, espresso kursu gibi etkinlikleri soran kullanıcılara otomatik bilgi paketi + kontenjan + ödeme linki."},
-    {"title": "Yönetim Paneli + Analitik", "description": "Hangi reels en çok DM getirdi, hangi anahtar kelime en çok dönüşüm yaptı, ortalama yanıt süresi, rezervasyona dönen DM sayısı - tüm metriklere erişim."}
-  ],
-  "caseStudy": {
-    "title": "Cihangir - Brunch Konsepti Kafe: Reels'ten Aylık 95 Rezervasyon, DM Yanıt Süresi 4 saatten 47 saniyeye",
-    "paragraphs": [
-      "Cihangir'de brunch + specialty kahve servis eden bir kafe 2025 Ocak'ında PORTZEN'e geldi. Instagram'da 48K takipçi, brunch reels'leri ortalama 80K view alıyor, ama yorumlar manuel yanıtlanıyor, çoğu DM 3-4 saat sonra dönülüyordu. Reels viral olunca 200 yorum birikiyordu.",
-      "8 günde Meta resmi API ile DM otomasyonu kurduk. 12 anahtar kelime, 6 farklı akış (brunch rezerve, menü sorgu, kahve workshop, lokasyon, çalışma uygun mu, sezon kahvaltı), sezon menü görseli kütüphanesi (18 ürün), rezervasyon akışı sisteme yüklendi.",
-      "İlk hafta yoruma yanıt süresi 4 saatten 47 saniyeye düştü. 3. ay sonunda Instagram DM'lerden aylık 95 brunch rezervasyonu geliyor. Bir reels viral olduğunda artık 800 yorumun hepsine otomatik DM gidiyor, Instagram algoritması ölçeklendirmeye devam ediyor."
-    ],
-    "beforeAfter": [
-      {"label": "Aylık Instagram Rezervasyonu", "before": "8", "after": "95"},
-      {"label": "Yorum → DM Dönüşüm", "before": "%0", "after": "%52"},
-      {"label": "DM Yanıt Süresi", "before": "4 saat", "after": "47 sn"},
-      {"label": "Reels Viral Ölçeklendirme", "before": "Sınırlı", "after": "Tam"}
-    ]
-  },
-  "pricing": [
     {
-      "name": "Starter",
-      "price": "4.500 TL + 700 TL/ay",
-      "description": "Butik kafe için temel DM otomasyonu",
-      "features": [
-        "5 anahtar kelime akışı",
-        "Yorumdan otomatik DM",
-        "Menü + lokasyon yanıtı",
-        "Basit rezervasyon akışı",
-        "Aylık 2.000 DM dahil"
-      ]
+      "title": "1. Instagram Hesap Analizi",
+      "description": "Kafe Instagram hesabınızı inceleyip son 30 reels/post analiz ediyoruz. En çok hangi sorular geliyor, hangi yorumlar en sık tekrarlanıyor, hangi içerik en çok DM çekiyor - buna göre akış tasarlıyoruz."
     },
     {
-      "name": "Pro",
-      "price": "9.500 TL + 1.400 TL/ay",
-      "description": "Aktif kafe ve yüksek etkileşimli hesaplar için en popüler",
-      "features": [
-        "Sınırsız anahtar kelime ve akış",
-        "Tam rezervasyon yönetimi (tarih/saat/kişi)",
-        "Sezon menü görseli kütüphanesi",
-        "Story DM otomasyonu",
-        "Workshop / akademi yönlendirmesi",
-        "Yönetim paneli + analitik",
-        "Aylık 8.000 DM dahil"
-      ],
-      "highlighted": true
+      "title": "2. Anahtar Kelime + Akış Tasarımı",
+      "description": "'Fiyat', 'menü', 'rezervasyon', 'brunch', 'kahvaltı', 'lokasyon', 'wifi', 'çalışma' gibi anahtar kelimelere göre farklı akış. Yorum yapan kullanıcıya otomatik DM, DM içinde menü görseli + rezervasyon linki."
     },
     {
-      "name": "Premium",
-      "price": "17.500 TL + 2.500 TL/ay",
-      "description": "Çoklu şube zincirleşen kafe markaları için",
-      "features": [
-        "Çoklu şube yönetimi (şubeye göre DM yönlendirme)",
-        "Influencer kampanya entegrasyonu",
-        "Sadakat sistemi entegrasyonu",
-        "A/B test akışları",
-        "Aylık 25.000 DM dahil",
-        "Özel proje yöneticisi"
-      ]
+      "title": "3. Meta Resmi API + Test",
+      "description": "Meta Business resmi API ile bağlantı (üçüncü parti araç değil, Meta'nın onayladığı yol). Test aşamasında gerçek yorumlarla akışı doğruluyoruz."
+    },
+    {
+      "title": "4. Devir & Analitik",
+      "description": "Karmaşık sorular (özel etkinlik, akademi rezervasyonu vb.) sizin telefonunuza yönlendirilir. Otomasyon platformunun panelinden hangi Reels'in ve anahtar kelimenin ne kadar DM tetiklediği, rezervasyon linkine kaç kez tıklandığı izlenir."
     }
   ],
-  "faq": [
-    {"question": "Instagram bu otomasyonu yasaklıyor mu?", "answer": "Hayır. Meta'nın resmi Instagram Graph API'sini kullanıyoruz, üçüncü parti tarayıcı / panel değil. Instagram resmi olarak desteklediği için banlama riski yok. Bilinmeyen üçüncü parti araçlar (ManyChat dışı) hesabı riske atabilir."},
-    {"question": "Asistan ne kadar sürede aktif olur?", "answer": "Starter 5-7 gün, Pro 8-12 gün, Premium 15-20 gün. Meta API onayı 24-48 saat sürüyor, bu süre dahil. Mevcut Business hesabınız yoksa kurulumu da biz yapıyoruz."},
-    {"question": "Restoran DM otomasyonundan farkı ne?", "answer": "Kafe konsepti farklı - brunch rezervasyonu daha kısa süreli, daha sık ziyaret eden müşteri profili, specialty kahve / workshop gibi ek hizmetler, atmosfer ve çalışma soruları daha sık geliyor. Kafe ajansı olarak konuma özel akış kuruyoruz."},
-    {"question": "Story'ye gelen DM'leri de otomatikleştirebilir miyim?", "answer": "Evet, Pro paketten itibaren story DM otomasyonu dahil. Yeni sezon kahvaltısı story'nize gelen DM'ler menü + fiyat + rezervasyon linki ile otomatik yanıtlanır. Story 24 saatte 300 DM alsa bile sorunsuz çalışır."},
-    {"question": "Mevcut DM'lerimle çakışır mı?", "answer": "Hayır. Sistem sadece belirlenen anahtar kelimelere yanıt verir, normal DM'lere müdahale etmez. Karmaşık konular (özel etkinlik talebi vb.) için 'Birazdan ekibimiz ulaşacak' mesajıyla size yönlendirir."},
-    {"question": "Yorumların %50'si dönüşüyor diyorsunuz, kanıt var mı?", "answer": "Vaka çalışmamızdaki Cihangir kafe ortalama %52 yorum → DM dönüşümü yakaladı. Sektör ortalaması %30-60 arası, kafenizin reels kalitesi ve içerik uyumu büyük etken. İlk ay sonunda raporda net rakamı görüyorsunuz."},
-    {"question": "Rezervasyon sistemim yok, asistan rezerve yapabilir mi?", "answer": "Evet, bizim hazırladığımız basit rezervasyon sistemi (paket dahil) çalışıyor. Mevcut sisteminiz varsa (OpenTable, kendi sistemi vb.) entegre ediyoruz. Premium pakette tam POS entegrasyonu da yapılır."}
+  "features": [
+    {
+      "title": "Yorumdan Otomatik DM",
+      "description": "Brunch reels'inize 'fiyat' yazan herkese otomatik menü görseli + rezervasyon linki DM olarak gidiyor. Yorumdaki soru, DM'de menü ve rezervasyon linkiyle karşılanır."
+    },
+    {
+      "title": "Story DM Yanıtlama",
+      "description": "Yeni sezon kahvaltı story'sine gelen DM'lere otomatik menü kart + fiyat + rezervasyon linki. Story çok sayıda yanıt alsa bile her yanıta aynı akış uygulanır."
+    },
+    {
+      "title": "Rezervasyon Akışı",
+      "description": "DM içinde tarih, saat ve kişi sayısı butonlar ve kısa sorularla alınır; talep kafenize bildirim olarak iletilir ve müşteriye 'talebiniz alındı, ekibimiz onaylayacak' mesajı gider ya da rezervasyon sayfanızın linki gönderilir. Rezervasyonun bir sistemde otomatik oluşturulması standart kapsamda değildir."
+    },
+    {
+      "title": "Menü + Lokasyon Otomatik Gönderim",
+      "description": "'Menü', 'fiyat', 'nerede' anahtar kelimelerine güzel tasarlanmış menü görseli, lokasyon, çalışma saatleri, harita linki otomatik gönderilir."
+    },
+    {
+      "title": "Akademi / Kurs Yönlendirmesi",
+      "description": "Latte art workshop, kahve akademisi, espresso kursu gibi etkinlikleri soran kullanıcılara otomatik bilgi paketi + kontenjan + ödeme linki."
+    },
+    {
+      "title": "Yönetim Paneli + Analitik",
+      "description": "Hangi reels en çok DM getirdi, hangi anahtar kelime en çok tetiklendi, hangi linklere tıklandı - otomasyon platformunun panelinden izlenir."
+    }
   ],
-  "finalCtaHeadline": "Brunch reels'inizi rezerve müşteriye 8 günde çevirin",
+  "caseStudy": {
+    "title": "Cihangir'de brunch konseptli bir kafe için örnek kurulum",
+    "paragraphs": [
+      "Cihangir'de brunch ve specialty kahve servis eden bir kafe düşünelim: brunch Reels'leri ilgi görüyor, ama yorumlar elle yanıtlanıyor ve DM'lere saatler sonra dönülüyor. Bir Reels çok ilgi gördüğünde yüzlerce yorum birikiyor.",
+      "Bu senaryoda Meta'nın resmi API'si üzerinden kural tabanlı DM otomasyonu kurulur: brunch rezervasyonu, menü sorgusu, kahve workshop'u, lokasyon, çalışmaya uygunluk ve sezon kahvaltısı için anahtar kelime akışları; sezon menüsü görselleri ve rezervasyon linki.",
+      "Böylece 'fiyat', 'menü', 'rezervasyon' yorumlarına barista beklenmeden menü görseli ve rezervasyon linki gider; ekip servise odaklanır, akışın kapsamadığı özel etkinlik talepleri telefona yönlenir. Hangi anahtar kelimelerin ve Reels'lerin daha çok DM tetiklediği izlenerek menü görselleri ve kampanyalar güncellenir."
+    ],
+    "beforeAfter": [
+      {
+        "label": "Rezervasyon talebi",
+        "before": "DM'de yazışarak, saatler sonra",
+        "after": "Rezervasyon linki otomatik gidiyor"
+      },
+      {
+        "label": "'Fiyat' ve 'menü' yorumları",
+        "before": "Elle, tek tek yanıtlanıyor",
+        "after": "Menü görseli otomatik DM'de"
+      },
+      {
+        "label": "Mesai dışı DM'ler",
+        "before": "Sabah birikmiş halde bulunuyor",
+        "after": "Anahtar kelimeye göre anında hazır yanıt"
+      },
+      {
+        "label": "Viral Reels dönemi",
+        "before": "Yorumlar birikiyor, yanıtsız kalıyor",
+        "after": "Anahtar kelimeli yorumlara aynı akış uygulanıyor"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Instagram bu otomasyonu yasaklıyor mu?",
+      "answer": "Riski en aza indiriyoruz. Meta'nın resmi Instagram Graph API'sini kullanıyoruz, üçüncü parti tarayıcı / panel değil. Instagram'ın resmi olarak desteklediği yöntem olduğu için hesap riski en aza iner. Bilinmeyen üçüncü parti araçlar (ManyChat dışı) hesabı riske atabilir."
+    },
+    {
+      "question": "Kurulum süresi neye bağlı?",
+      "answer": "Teslim süresi akış sayısına göre brief görüşmesinde netleşir ve teklifte yazılı olarak belirtilir. Meta tarafındaki bağlantı ve izin adımları Meta'nın kendi süreçlerine tabidir. Mevcut Business hesabınız yoksa kurulumu da biz yapıyoruz."
+    },
+    {
+      "question": "Restoran DM otomasyonundan farkı ne?",
+      "answer": "Kafe konsepti farklı - brunch rezervasyonu daha kısa süreli, daha sık ziyaret eden müşteri profili, specialty kahve / workshop gibi ek hizmetler, atmosfer ve çalışma soruları daha sık geliyor. Kafe ajansı olarak konuma özel akış kuruyoruz."
+    },
+    {
+      "question": "Story'ye gelen DM'leri de otomatikleştirebilir miyim?",
+      "answer": "Evet. Hikâye etkileşimlerine otomatik DM, hizmetin temel kapsamındadır. Yeni sezon kahvaltısı hikâyenize gelen yanıtlar menü, fiyat ve rezervasyon linkiyle otomatik karşılanır. Hikâye kısa sürede yüzlerce yanıt alsa bile mesajlar Meta'nın gönderim limitleri dahilinde sırayla gider."
+    },
+    {
+      "question": "Mevcut DM'lerimle çakışır mı?",
+      "answer": "Hayır. Sistem sadece belirlenen anahtar kelimelere yanıt verir, normal DM'lere müdahale etmez. Karmaşık konular (özel etkinlik talebi vb.) için 'Birazdan ekibimiz ulaşacak' mesajıyla size yönlendirir."
+    },
+    {
+      "question": "Yorumların ne kadarı DM'e ve rezervasyona dönüşür?",
+      "answer": "Bunu önceden söyleyemeyiz; oran Reels kalitesine, içerik uyumuna, fiyatlarınıza ve sezona bağlıdır ve belirli bir oran vaat etmiyoruz. Otomasyon platformunun raporlarında hangi anahtar kelimenin kaç DM tetiklediğini ve rezervasyon linkine kaç kez tıklandığını görürsünüz; akışları bu verilere göre güncelliyoruz."
+    },
+    {
+      "question": "Rezervasyon sistemim yok, akış rezervasyon alabilir mi?",
+      "answer": "DM akışı rezervasyon linkinizi gönderebilir; mevcut bir sisteminiz (OpenTable veya kendi rezervasyon sayfanız) varsa kullanıcı doğrudan oraya yönlendirilir. Sisteminiz yoksa akışta kişi sayısı, tarih ve saat bilgisini toplayıp ekibinize iletme kurgusunu brief görüşmesinde planlayabiliriz. Ayrı bir rezervasyon sistemi ya da POS entegrasyonu standart kapsamda değildir; iş otomasyonu veya özel web uygulaması olarak ayrıca tekliflendirilir. Müşteriyle serbest konuşarak rezervasyon alan bir asistan ise AI müşteri asistanı kapsamındadır."
+    }
+  ],
+  "finalCtaHeadline": "Brunch Reels'lerinize gelen soruları rezervasyon akışına bağlayın",
   "finalCtaSubtitle": "20 dakikalık tanıtım görüşmesi yeterli. Instagram hesabınızı inceleyip size özel DM akışı tasarlıyoruz, mevcut potansiyelinizi raporluyoruz. WhatsApp'tan veya formdan ulaşın."
 }

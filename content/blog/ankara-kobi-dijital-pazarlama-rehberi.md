@@ -13,7 +13,7 @@ ogImage: "/blog/og/ankara-kobi-dijital-pazarlama-rehberi.png"
 
 # Ankara KOBİ Dijital Pazarlama Rehberi: Yerelde Kazanmak
 
-**Ankara KOBİ dijital pazarlama** dinamiği İstanbul ve İzmir'den ciddi şekilde ayrışıyor. Çankaya'daki bir avukatlık ofisi, Kızılay'daki bir özel hastane, Söğütözü'ndeki bir B2B SaaS firması ve Çayyolu'ndaki butik bir kafe aynı şehirde ama dijital pazarlama gerçekleri tamamen farklı. Üstelik Ankara'nın "kamu merkezli ekonomi", "B2B ağırlıklı yapı" ve "tutumlu tüketici" karakteri dijital stratejiyi ciddi şekilde etkiliyor. PORTZEN olarak 2025 boyunca Ankara'da 20'ye yakın KOBİ ile çalıştık; Bilkent'ten Etimesgut'a, Yenimahalle'den Mamak'a çok farklı dinamikleri yakından gözlemledik. Bu rehberde Ankaralı bir KOBİ'nin 2026 için doğru dijital pazarlama stratejisini nasıl kuracağını, hangi kanallara hangi bütçeyle gireceğini ve yerel rakiplerini nasıl geçeceğini net olarak anlatıyorum.
+**Ankara KOBİ dijital pazarlama** dinamiği İstanbul ve İzmir'den ciddi şekilde ayrışıyor. Çankaya'daki bir avukatlık ofisi, Kızılay'daki bir özel hastane, Söğütözü'ndeki bir B2B SaaS firması ve Çayyolu'ndaki butik bir kafe aynı şehirde ama dijital pazarlama gerçekleri tamamen farklı. Üstelik Ankara'nın "kamu merkezli ekonomi", "B2B ağırlıklı yapı" ve "tutumlu tüketici" karakteri dijital stratejiyi ciddi şekilde etkiliyor. Bilkent'ten Etimesgut'a, Yenimahalle'den Mamak'a semtlerin dinamikleri de birbirinden çok farklı. Bu rehberde Ankaralı bir KOBİ'nin 2026 için doğru dijital pazarlama stratejisini nasıl kuracağını, hangi kanallara hangi bütçeyle gireceğini ve yerel rakiplerini nasıl geçeceğini net olarak anlatıyorum.
 
 ## Ankara Dijital Ekonomisinin 2026 Gerçeği
 
@@ -29,7 +29,7 @@ Birkaç çarpıcı veri (2025 sonu):
 
 Yani Ankaralı tüketici dijital; sorun KOBİ tarafında. Çankaya'daki bir doktor ofisinin %62'sinin hâlâ profesyonel sitesi yok, Söğütözü'ndeki bir B2B firmanın %48'i LinkedIn'i aktif kullanmıyor, Etimesgut'taki perakende dükkanların %71'i Google Business'i optimize etmemiş. Bu boşluk Ankaralı KOBİ için fırsat: doğru dijital stratejiyle yerel rakiplerinizi kolayca geçebilirsiniz.
 
-PORTZEN'de Çankaya'daki bir özel klinik için 4 ayda Google'da "Çankaya [hizmet]" aramasında 1.sayfaya çıkartıp lead'lerini 5 kat artırmıştık. Aynı işi İstanbul'da yapmak 12-18 ay sürerdi.
+Örneğin Çankaya'daki bir özel klinik için yerel SEO çalışmasında Google Business profili, semt bazlı hizmet sayfaları ve yerel atıflar birlikte ele alınır; "Çankaya [hizmet]" gibi semt + hizmet aramalarında görünürlük bu üç katmanla inşa edilir.
 
 ## Ankara'da Kanal Önceliklendirmesi: Hangi Kanal Hangi Sektör İçin?
 
@@ -37,7 +37,7 @@ Ankaralı KOBİ için kanal seçimi rastgele değil, sektörel mantıkla yapılm
 
 ### 1. WhatsApp Asistanı + Web (Sağlık, Hukuk, Danışmanlık, Eğitim)
 
-Ankaralı tüketici sağlık ve profesyonel hizmette WhatsApp'ı telefonun önüne geçirdi. Doktor, avukat, mali müşavir, eğitim kurumu için aylık 6.000-15.000 TL bütçeyle [WhatsApp AI asistanı Ankara](/whatsapp-ai-asistani/ankara) + iyi bir web sitesi en yüksek ROI'yi veriyor.
+Ankaralı tüketici sağlık ve profesyonel hizmette WhatsApp'ı telefonun önüne geçirdi. Doktor, avukat, mali müşavir, eğitim kurumu için [WhatsApp AI asistanı Ankara](/whatsapp-ai-asistani/ankara) + iyi bir web sitesi en yüksek ROI'yi veriyor.
 
 ### 2. Google Business + SEO (Perakende, Restoran, Hizmet)
 
@@ -45,11 +45,11 @@ Ankaralı tüketici sağlık ve profesyonel hizmette WhatsApp'ı telefonun önü
 
 ### 3. Instagram + Reels (Estetik, Cafe, Butik, Fitness)
 
-Görsel ağırlıklı işletmeler için Instagram öncelikli. Aylık 15.000-30.000 TL bandında içerik + DM otomasyonu. Tek başına içerik üretmek yetmediğinde profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak hem Reels üretim hızını hem de DM dönüşüm oranını ciddi şekilde yükseltiyor.
+Görsel ağırlıklı işletmeler için Instagram öncelikli. Aylık 15.000-30.000 TL bandında içerik + DM otomasyonu. Tek başına içerik üretmek yetmediğinde profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak, Reels üretimini düzenli bir takvime bağlıyor ve DM'den gelen ilginin takibini kolaylaştırıyor.
 
 ### 4. LinkedIn + İçerik (B2B, SaaS, Danışmanlık, Mühendislik)
 
-Söğütözü, Bilkent, ODTÜ Teknokent çevresindeki B2B firmalar için LinkedIn ve teknik içerik yatırımı %300+ ROI veriyor. Aylık 20.000-40.000 TL.
+Söğütözü, Bilkent, ODTÜ Teknokent çevresindeki B2B firmalar için LinkedIn ve teknik içerik yatırımı uzun vadede en verimli kanallardan biri. Aylık 20.000-40.000 TL.
 
 ### 5. Google Ads + Landing Page (Yüksek niyet aramaları olan sektörler)
 
@@ -81,7 +81,7 @@ Bu aramalarda 1.sayfaya çıkmanın 3 ana yolu var:
 - Müşteri yorumları (en az 30+ yorum, ortalama 4.5+)
 - Q&A bölümü dolu
 
-Bu altyapı tek başına "Ankara [hizmet]" aramasında local pack'te (üst kutuda) görünme şansını %70+ artırır.
+Bu altyapı, "Ankara [hizmet]" aramasında local pack'te (üst kutuda) görünmenin temelidir.
 
 ### 2. Semt Bazlı Landing Sayfaları
 
@@ -97,7 +97,7 @@ Her sayfada o semte özel içerik, fotoğraflar, müşteri yorumları ve "yakın
 
 Ankara Ticaret Odası, sektörel Ankara dernekleri, yerel haber siteleri (Yeni Şafak Ankara, Hürriyet Ankara), Ankara üniversitelerinin etkinlik sayfaları, lokal forum ve bloglar. Bu link profili Google için "Ankara'da gerçekten aktif" sinyali verir.
 
-PORTZEN'de bu üçlüyü uyguladığımız Çayyolu'ndaki bir veteriner klinik için 5 ayda organik trafik %340 arttı; aylık randevu sayısı 60'tan 220'ye yükseldi.
+Örnek bir kurulumda, Çayyolu'ndaki bir veteriner kliniği için bu üçlü birlikte uygulanır: Google Business profili güncellenir, semt bazlı hizmet sayfası açılır ve yerel atıflar toplanır; randevu talepleri de sitedeki form ve WhatsApp butonundan takip edilir.
 
 ## Ankara KOBİ İçin 2026 Aylık Bütçe Tablosu
 
@@ -111,7 +111,7 @@ Hedef ve sektöre göre Ankaralı bir KOBİ için aylık bütçe önerileri:
 | Kurumsal marka + B2B | 70.000-150.000 TL | %30 içerik üretim + %25 LinkedIn + %20 SEO + %15 ads + %10 otomasyon |
 | Çok şubeli marka | 100.000-250.000 TL | Custom dağılım |
 
-Bu rakamlara web sitesi maliyeti dahil değil; iyi bir web sitesi için 50.000-150.000 TL bandında tek seferlik yatırım önerilir.
+Bu rakamlara web sitesi maliyeti dahil değil; piyasada iyi bir web sitesi için 50.000-150.000 TL bandında tek seferlik yatırım konuşuluyor (PORTZEN web sitesi paketleri için [fiyatlar sayfası](/fiyatlar)).
 
 Ankaralı KOBİ'ler diğer şehirlere göre daha tutumlu davranıyor; bu sağlıklı ama "ben aylık 5.000 TL'ye dijital pazarlama yaptırırım" beklentisi 2026'da gerçeklik dışı. Bu bütçede ancak hazır şablon + basit otomasyon kurulur, performans beklemeyin.
 
@@ -122,43 +122,43 @@ Ankaralı KOBİ'ler diğer şehirlere göre daha tutumlu davranıyor; bu sağlı
 Hedef: Aylık 80-120 yeni hasta randevusu.
 Önerilen yapı: İyi bir kurumsal web sitesi + Google Business optimizasyonu + WhatsApp asistanı + Instagram aktif kullanım.
 Toplam aylık bütçe: 25.000-40.000 TL.
-3 aylık hedef: Aylık 60 yeni randevu; 6 aylık hedef: 120+ randevu.
+Takip edilecek metrikler: aylık yeni randevu talebi, talebin geldiği kanal (Google, WhatsApp, Instagram) ve gelmeyen hasta oranı.
 
 ### Senaryo 2: Söğütözü'nde B2B SaaS Firma
 
 Hedef: Aylık 30-50 nitelikli demo talebi.
 Önerilen yapı: LinkedIn ağırlıklı içerik + SEO blog stratejisi + Google Ads (yüksek niyet kelimeler) + email pazarlama otomasyonu.
 Toplam aylık bütçe: 45.000-80.000 TL.
-6 aylık hedef: Aylık 50 demo, ortalama deal değeri 8.000 USD+.
+Takip edilecek metrikler: demo talebi sayısı, talep kaynağı ve demo sonrası teklif aşamasına geçen fırsatlar.
 
 ### Senaryo 3: Kızılay'da Hukuk Bürosu
 
 Hedef: Aylık 25-40 nitelikli müvekkil görüşmesi.
 Önerilen yapı: İçerik ağırlıklı blog SEO + Google Business + Google Ads (yüksek niyet) + WhatsApp asistanı + Instagram (yumuşak içerik).
 Toplam aylık bütçe: 30.000-55.000 TL.
-6 aylık hedef: Aylık 35 görüşme, dönüşüm %25.
+Takip edilecek metrikler: görüşme talebi sayısı, talebin geldiği kanal ve görüşmeden vekalete dönüşen dosyalar.
 
 ### Senaryo 4: Çayyolu'nda Butik Cafe / Restoran
 
 Hedef: Hafta sonu doluluk %95+, sosyal medya bilinirlik.
 Önerilen yapı: Instagram + Reels + TikTok yoğun içerik + Google Business + Trendyol Yemek / Yemeksepeti optimizasyonu.
 Toplam aylık bütçe: 18.000-30.000 TL.
-3 aylık hedef: Instagram takipçi 3x, hafta sonu doluluk %85+.
+Takip edilecek metrikler: hafta sonu doluluk, Instagram etkileşimi ve paket servis platformlarındaki puan/yorumlar.
 
 ### Senaryo 5: Bilkent / ODTÜ Teknokent'te Mühendislik Firma
 
 Hedef: Aylık 15-25 büyük ölçek kurumsal teklif.
 Önerilen yapı: Kurumsal web sitesi + LinkedIn + sektörel teknik blog SEO + e-mail outreach + sektörel etkinlik sponsorluğu.
 Toplam aylık bütçe: 55.000-100.000 TL.
-6 aylık hedef: Aylık 20 teklif, ortalama proje değeri 250.000 TL+.
+Takip edilecek metrikler: kurumsal teklif talebi sayısı, talep kaynağı ve teklif aşamasındaki proje değerleri.
 
 ## WhatsApp Asistanı: Ankara'nın 2026 Dijital Silahı
 
 Ankara'da WhatsApp Business kullanım oranı Türkiye'nin en yükseği. Bu fırsatı kullanmak için [WhatsApp AI asistanı](/whatsapp-ai-asistani) en hızlı kazandıran yapı.
 
-Tipik bir senaryo: Çankaya'daki bir kliniğin sitesine giren ziyaretçi "WhatsApp ile randevu al" butonuna tıklıyor. AI asistan 7/24 çalışıyor, müsait saatleri kontrol ediyor, randevu açıyor, hatırlatma mesajı atıyor, gelmeyen hastayı bilgilendiriyor. Bu yapı sahibi olan klinikten örnek: aylık randevu sayısı %180 arttı, sekreter iş yükü %60 azaldı.
+Tipik bir senaryo: Çankaya'daki bir kliniğin sitesine giren ziyaretçi "WhatsApp ile randevu al" butonuna tıklıyor. AI asistan 7/24 çalışıyor, müsait saatleri kontrol ediyor, randevu açıyor, hatırlatma mesajı atıyor, gelmeyen hastayı bilgilendiriyor. Bu yapıda sekreter, rutin randevu mesajları yerine yalnızca asistanın yönlendirdiği konuşmalarla ilgilenir.
 
-Kurulum süreci ortalama 2-3 hafta; aylık maintenance bütçesi 4.000-12.000 TL. [WhatsApp AI asistanı nedir](/blog/whatsapp-ai-asistani-nedir) yazısında teknik altyapı detaylı.
+Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. PORTZEN'de bu kurulum AI müşteri asistanı paketleriyle yapılır: {{fiyatlar:ai-musteri-asistani}} (KDV hariç). [WhatsApp AI asistanı nedir](/blog/whatsapp-ai-asistani-nedir) yazısında teknik altyapı detaylı.
 
 Ankaralı bir KOBİ için WhatsApp asistanı + web sitesi + Google Business üçlüsü 2026'nın minimum dijital paketi olarak görülmeli.
 
@@ -166,7 +166,7 @@ Ankaralı bir KOBİ için WhatsApp asistanı + web sitesi + Google Business üç
 
 Ankaralı tüketici "agresif satış"a soğuk; "bilgilendirici, samimi, profesyonel" içeriğe sıcak. Bu yüzden Ankara için sosyal medya stratejisi diğer şehirlerden ayrışıyor.
 
-PORTZEN'in Ankara müşterileri için kullandığı içerik formülü:
+Ankara için önerdiğimiz içerik formülü:
 
 - **%40 eğitici içerik:** Sektörel bilgi, ipuçları, "bilinmeyenler"
 - **%25 davranış arkası:** Ekip, ofis, süreç videoları
@@ -174,7 +174,7 @@ PORTZEN'in Ankara müşterileri için kullandığı içerik formülü:
 - **%10 sektörel haber:** Gündem, trendler, yorum
 - **%5 promosyon:** Kampanya, indirim
 
-Bu dağılım Ankaralı kitlede %35-50 daha yüksek engagement getiriyor. [Sosyal medya içerik takvimi](/blog/sosyal-medya-icerik-takvimi) yazısında ayrıntılı şablonlar var.
+Bu dağılım, Ankaralı kitlenin bilgilendirici ve samimi içeriğe verdiği tepki gözetilerek kurgulanmıştır; kendi hesabınızda etkileşimi aylık izleyip oranları ayarlayabilirsiniz. [Sosyal medya içerik takvimi](/blog/sosyal-medya-icerik-takvimi) yazısında ayrıntılı şablonlar var.
 
 ## Ankara'da Sık Yapılan 5 Dijital Pazarlama Hatası
 
@@ -187,13 +187,13 @@ Bu önyargıyla dijital yatırımı geciktiren KOBİ rakibine kaybediyor. 2026'd
 Sosyal medya trafiği kalıcı değil; siteniz kalıcı. SEO yatırımı yapmayan KOBİ her ay reklam parası ödemeye devam eder; SEO yapan KOBİ 12-18 ay sonra organik trafikten ücretsiz lead alır.
 
 **Hata 3: WhatsApp Business'i hâlâ tek kişi mobil telefonundan yönetmek.**
-Ankaralı tüketici WhatsApp'ı yoğun kullanıyor. Tek kişiden yönetilen WhatsApp 8-12 saatte cevap dönüyor; AI asistan 30 saniyede cevap dönüyor. Bu fark sahip olduğunuz dönüşüm farkı.
+Ankaralı tüketici WhatsApp'ı yoğun kullanıyor. Tek kişiden yönetilen WhatsApp'ta yanıtlar saatlerce gecikebiliyor; AI asistan ise mesajlara otomatik yanıt veriyor. Bu fark sahip olduğunuz dönüşüm farkı.
 
 **Hata 4: Google Business profili açıp güncel tutmamak.**
 Çankaya'daki onlarca işletme Google Business profili oluşturmuş ama 2-3 yıldır güncellememiş. Eski fotoğraf, eski çalışma saati, cevapsız yorum. Bu profil sıralamada geri düşürür.
 
 **Hata 5: "Ajansa para vermek yerine kendim yaparım" yaklaşımı.**
-Küçük işletme için anlaşılabilir ama 25.000 TL+ aylık bütçede self-management ROI'yi %40-60 düşürüyor. Doğru ajansla çalışmak zaman ve para tasarrufu.
+Küçük işletme için anlaşılabilir; ancak 25.000 TL+ aylık bütçede deneyimsiz yönetim bütçenin önemli bir kısmının verimsiz harcanmasına yol açabiliyor. Doğru ajansla çalışmak zaman ve para tasarrufu.
 
 ## Sıkça Sorulan Sorular
 
@@ -214,6 +214,6 @@ Hayır. Sağlık, hukuk, eğitim, hizmet sektörleri için harika; pure e-ticare
 
 ## PORTZEN ile Ankara KOBİ Dijital Dönüşümü
 
-PORTZEN İzmir merkezli olsa da Ankara'da Çankaya, Kızılay, Söğütözü, Çayyolu, Bilkent, Bahçelievler, Etimesgut ve Yenimahalle'deki KOBİ'lere remote ve hibrit modelde hizmet veriyoruz. AI destekli sosyal medya yönetimi, [WhatsApp AI asistanı Ankara](/whatsapp-ai-asistani/ankara), [Ankara web tasarım](/web-tasarim/ankara), otomasyon ve yerel SEO tek bir ekipten yönetilerek operasyonel maliyetinizi %30-50 düşürüyoruz.
+PORTZEN İzmir merkezli olsa da Ankara'da Çankaya, Kızılay, Söğütözü, Çayyolu, Bilkent, Bahçelievler, Etimesgut ve Yenimahalle'deki KOBİ'lere remote ve hibrit modelde hizmet veriyoruz. AI destekli sosyal medya yönetimi, [WhatsApp AI asistanı Ankara](/whatsapp-ai-asistani/ankara), [Ankara web tasarım](/web-tasarim/ankara), otomasyon ve yerel SEO tek bir ekipten yönetilerek operasyonel maliyetinizi düşürmeyi hedefliyoruz.
 
-2026 paketlerimiz Ankaralı KOBİ için 18.000 TL'den başlıyor. Sektörünüze, hedeflerinize ve mevcut dijital durumunuza göre size en uygun yapıyı kurmak için [iletişim formundan](/iletisim) ulaşın; 30 dakikalık ücretsiz keşif görüşmesinde mevcut dijital varlıklarınızı analiz edip 90 günlük net bir yol haritası çıkaralım.
+Sosyal medya yönetimi paketlerimiz: {{fiyatlar:sosyal-medya}}; tutarlar KDV hariçtir, diğer hizmetler [fiyatlar sayfasında](/fiyatlar). Sektörünüze, hedeflerinize ve mevcut dijital durumunuza göre size en uygun yapıyı kurmak için [iletişim formundan](/iletisim) ulaşın; 30 dakikalık ücretsiz keşif görüşmesinde mevcut dijital varlıklarınızı analiz edip 90 günlük net bir yol haritası çıkaralım.

@@ -15,7 +15,7 @@ ogImage: "/blog/og/turk-yazilim-vs-uluslararasi-kobi-rehberi.png"
 
 Türkiye'de bir KOBİ (Küçük ve Orta Büyüklükteki İşletme) kurucusu, finans yöneticisi ya da operasyon sorumlusuysanız, son birkaç yıldır masanızda muhtemelen aynı tartışma dönüp duruyor. "Bu CRM'i (Customer Relationship Management, müşteri ilişkileri yönetimi) Türk firmasından mı alalım yoksa Amerika'daki büyük SaaS (Software as a Service, hizmet olarak yazılım) sağlayıcısından mı?" Cevap göründüğü kadar basit değil. Çünkü kararı yalnızca fiyat değil; Türkçe destek kalitesi, KVKK (Kişisel Verilerin Korunması Kanunu) uyumu, mevcut muhasebe ve e-fatura sistemleriyle entegrasyon, döviz kuru riski, ürün yol haritası ve şirketinizin büyüme hızı gibi onlarca faktör belirliyor.
 
-Bu rehberde, Türkiye pazarında faaliyet gösteren bir KOBİ olarak yazılım seçimi yaparken karşınıza çıkacak iki ana ekolü, yani yerli yazılımlar ile uluslararası SaaS çözümlerini, somut başlıklar üzerinden karşılaştıracağız. "Hangisi her zaman daha iyi?" sorusuna cevap aramayacağız; çünkü gerçek şu: her ikisinin de güçlü yanları var ve çoğu zaman doğru cevap "hibrit", yani karma bir yaklaşım. Yazının sonunda kendi senaryonuza göre hızlıca karar verebilmeniz için özellik tablosu, fiyat karşılaştırması, sektör bazlı karar matrisi ve üç farklı bütçe için somut yığın önerileri bulacaksınız. PORTZEN olarak yıllardır Türk KOBİ'lerine bu seçimleri yaptırırken edindiğimiz pratik gözlemleri de paylaşacağız.
+Bu rehberde, Türkiye pazarında faaliyet gösteren bir KOBİ olarak yazılım seçimi yaparken karşınıza çıkacak iki ana ekolü, yani yerli yazılımlar ile uluslararası SaaS çözümlerini, somut başlıklar üzerinden karşılaştıracağız. "Hangisi her zaman daha iyi?" sorusuna cevap aramayacağız; çünkü gerçek şu: her ikisinin de güçlü yanları var ve çoğu zaman doğru cevap "hibrit", yani karma bir yaklaşım. Yazının sonunda kendi senaryonuza göre hızlıca karar verebilmeniz için özellik tablosu, fiyat karşılaştırması, sektör bazlı karar matrisi ve üç farklı bütçe için somut yığın önerileri bulacaksınız. PORTZEN olarak bu seçimlerde dikkat ettiğimiz pratik noktaları da paylaşacağız.
 
 ## Bu Karar Neden Türk KOBİ'leri İçin Bu Kadar Kritik?
 
@@ -54,7 +54,7 @@ CRM tarafında HubSpot ve Zoho gibi araçların detaylı karşılaştırmasını
 
 ## Karma Yaklaşım: Hibrit Yığın Neden Çoğu KOBİ İçin Doğru?
 
-Pratikte gördüğümüz tablo şu: Türk KOBİ'lerinin yaklaşık yüzde 70'i "ya yerli ya uluslararası" değil, "ikisini de doğru noktalarda kullanan" bir yığını tercih ettiklerinde en iyi sonucu alıyor. Buna biz hibrit yığın diyoruz.
+Pratikte çoğu Türk KOBİ'si için en sağlıklı yapı "ya yerli ya uluslararası" değil, "ikisini de doğru noktalarda kullanan" bir yığın. Buna biz hibrit yığın diyoruz.
 
 Hibrit yaklaşımın mantığı basit: her aracı en güçlü olduğu işte kullanmak. Türkiye'ye özgü, mevzuat ağırlıklı ve yerel entegrasyon gerektiren işleri yerli yazılıma; küresel ölçekte rekabet eden, ürün olgunluğu kritik olan işleri uluslararası SaaS'a bırakmak.
 
@@ -70,7 +70,7 @@ Tipik bir hibrit yığın şöyle görünür:
 
 Shopify ile WooCommerce arasında karar vermeye çalışan e-ticaretçiler için [Shopify vs WooCommerce Türkiye](/blog/shopify-vs-woocommerce-turkiye) yazımız hibrit kararlarda yardımcı olabilir. Salesforce'tan kaçınmak isteyen ama benzer güçte bir altyapı arayanlar için [Salesforce Alternatifi](/salesforce-alternatifi) sayfamız, hibrit yığının CRM ayağını planlarken referans olabilir.
 
-Hibrit yığının başarısı, entegrasyon katmanının ne kadar iyi kurulduğuna bağlı. Yerli muhasebe yazılımınızdaki müşteri kartı, uluslararası CRM'inizdeki deal (fırsat) ile senkron çalışmıyorsa hibrit avantaj kaybolur. Burada [CRM otomasyonu](/crm-otomasyonu) hizmetimiz devreye giriyor; iki dünyayı temiz bir veri akışıyla birleştirmek, PORTZEN'in en sık devreye girdiği alanlardan biri.
+Hibrit yığının başarısı, entegrasyon katmanının ne kadar iyi kurulduğuna bağlı. Yerli muhasebe yazılımınızdaki müşteri kartı, uluslararası CRM'inizdeki deal (fırsat) ile senkron çalışmıyorsa hibrit avantaj kaybolur. Burada [CRM otomasyonu](/crm-otomasyonu) hizmetimiz devreye giriyor; iki dünyayı temiz bir veri akışıyla birleştirmek, PORTZEN'in odaklandığı alanlardan biri.
 
 ## Özellik Karşılaştırma Tablosu
 
@@ -153,7 +153,7 @@ Bu seviyedeki şirket genellikle 15-50 kişi arasında, yıllık 30-150 milyon T
 - CRM: HubSpot Starter veya Pipedrive (uluslararası)
 - E-posta pazarlama: Klaviyo veya Mailchimp (uluslararası)
 - Otomasyon: Make Pro veya n8n self-hosted
-- WhatsApp Business: Profesyonel paket, AI bot entegrasyonu ile
+- WhatsApp Business: API sürümü, AI bot entegrasyonu ile
 - Yardım masası: Freshdesk veya Zoho Desk
 
 Bu seviyede hibrit yığın artık bir "tercih" değil "gereklilik". Yerli muhasebe + uluslararası CRM/pazarlama kombinasyonu, çoğu büyüyen KOBİ için en sağlıklı çatıdır.
@@ -192,8 +192,8 @@ Bazı alanlarda evet, bazı alanlarda hayır. E-fatura, e-arşiv, yerel ödeme e
 
 ## PORTZEN ile Doğru Seçim
 
-PORTZEN olarak son yıllarda Türkiye'nin farklı sektörlerinden onlarca KOBİ ile yazılım yığını kurma, göç etme ve optimize etme projelerinde çalıştık. Bu süreçte gördüğümüz en büyük gerçek şu: "doğru yazılım" diye tek bir cevap yok; doğru yazılım kararı, sizin operasyonunuza, ekibinize, sektörünüze ve büyüme planınıza özel bir karardır. Bu yüzden bizim ilk işimiz hiçbir zaman ürün önermek değil; önce sizi dinlemek, mevcut süreçlerinizi haritalandırmak, kayıp noktaları ve fırsatları net olarak ortaya koymak olur.
+PORTZEN olarak yazılım yığını kurma, göç ve optimizasyon projelerine yaklaşımımızın temelinde şu gerçek var: "doğru yazılım" diye tek bir cevap yok; doğru yazılım kararı, sizin operasyonunuza, ekibinize, sektörünüze ve büyüme planınıza özel bir karardır. Bu yüzden bizim ilk işimiz hiçbir zaman ürün önermek değil; önce sizi dinlemek, mevcut süreçlerinizi haritalandırmak, kayıp noktaları ve fırsatları net olarak ortaya koymak olur.
 
-Hibrit yığın konusunda Türkiye'de en deneyimli ekiplerden biri olduğumuzu söyleyebiliriz. Paraşüt'ten Logo'ya, HubSpot'tan Salesforce'a, İkas'tan Shopify'a kadar geniş bir araç yelpazesinde uygulamalı tecrübemiz var. Bu birikim sayesinde size yalnızca "hangi aracı seçeceğinizi" değil; bu araçların birbiriyle nasıl temiz konuşacağını, ekibinizin yığını nasıl benimseyeceğini ve önümüzdeki 2-3 yılda yığının nasıl evrileceğini de planlayabiliyoruz. [CRM otomasyonu](/crm-otomasyonu) ve AI bot orkestrasyonu hizmetlerimiz, hibrit yığının kalbinde duran entegrasyon katmanını profesyonel şekilde kurmanıza yardımcı olur.
+Paraşüt'ten Logo'ya, HubSpot'tan Salesforce'a, İkas'tan Shopify'a kadar geniş bir araç yelpazesiyle çalışıyoruz. Bu sayede size yalnızca "hangi aracı seçeceğinizi" değil; bu araçların birbiriyle nasıl temiz konuşacağını, ekibinizin yığını nasıl benimseyeceğini ve önümüzdeki 2-3 yılda yığının nasıl evrileceğini de planlayabiliyoruz. [CRM otomasyonu](/crm-otomasyonu) ve AI bot orkestrasyonu hizmetlerimiz, hibrit yığının kalbinde duran entegrasyon katmanını profesyonel şekilde kurmanıza yardımcı olur.
 
 Eğer şu anda "biz hangi araçları kullanmalıyız?", "mevcut yığınımız bize pahalıya mı patlıyor?", "yerli mi uluslararası mı?" gibi sorularla boğuşuyorsanız, bir saatlik ücretsiz ön görüşme ile yola çıkmak çoğu zaman en hızlı yol oluyor. [İletişim sayfamız](/iletisim) üzerinden bize ulaşın; durumunuza özel bir karar matrisi hazırlayıp, önümüzdeki 90 günde atmanız gereken adımları net bir yol haritasıyla paylaşalım. Türkiye'de doğru kurulmuş bir yazılım yığını, sadece maliyet değil; bir KOBİ'nin gelecek 5 yılını şekillendiren stratejik bir varlıktır. Bu kararı doğru vermenize destek olmak için buradayız.

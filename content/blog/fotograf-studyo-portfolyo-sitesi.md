@@ -13,7 +13,7 @@ ogImage: "/blog/og/fotograf-studyo-portfolyo-sitesi.png"
 
 # Fotoğraf Stüdyosu İçin Portfolyo Sitesi ve Online Rezervasyon
 
-Bir fotoğraf stüdyosu işletiyorsanız, en büyük yatırımınız büyük ihtimalle ekipman ve mekan. Ancak müşterilerin sizinle ilk teması artık ne stüdyonuzda ne de telefonda gerçekleşiyor. İlk temas, Google'da yaptıkları aramayla ya da Instagram'da gördükleri bir karenin altındaki "web siteniz var mı" sorusuyla başlıyor. Instagram harika bir vitrin, fakat algoritma sizin değil. Bir paylaşımın 48 saat sonra erişimi düşüyor, hashtag sıralaması değişiyor ve bir gün hesabınız askıya alındığında geçmiş 5 yıllık çalışmanız da onunla beraber kayboluyor. Web siteniz ise sizin tapulu mülkünüz. Sizin belirlediğiniz galeri sırası, sizin yazdığınız paket fiyatları, sizin kontrol ettiğiniz rezervasyon takvimi. Hem de Google'da "düğün fotoğrafçısı [şehir]" araması yapan, yani gerçekten ödeme yapmaya hazır bir kitleyi sitenize çekecek bir SEO altyapısıyla. Bu rehberde, fotoğraf stüdyonuzun online dönüşüm makinesi olabilmesi için portfolyo yapısından kapora alma sistemine, retouching teslim akışından Google yorumu toplamaya kadar tüm süreçleri sizinle paylaşacağız. Hedefimiz, çekim takviminizi 3 ay önceden dolu tutmanız ve hiçbir potansiyel müşterinin "DM atayım, cevap gelirse görüşürüz" aşamasında kaybolmaması.
+Bir fotoğraf stüdyosu işletiyorsanız, en büyük yatırımınız büyük ihtimalle ekipman ve mekan. Ancak müşterilerin sizinle ilk teması artık ne stüdyonuzda ne de telefonda gerçekleşiyor. İlk temas, Google'da yaptıkları aramayla ya da Instagram'da gördükleri bir karenin altındaki "web siteniz var mı" sorusuyla başlıyor. Instagram harika bir vitrin, fakat algoritma sizin değil. Bir paylaşımın 48 saat sonra erişimi düşüyor, hashtag sıralaması değişiyor ve bir gün hesabınız askıya alındığında geçmiş 5 yıllık çalışmanız da onunla beraber kayboluyor. Web siteniz ise sizin tapulu mülkünüz. Sizin belirlediğiniz galeri sırası, sizin yazdığınız paket fiyatları, sizin kontrol ettiğiniz rezervasyon takvimi. Hem de Google'da "düğün fotoğrafçısı [şehir]" araması yapan, yani gerçekten ödeme yapmaya hazır bir kitleyi sitenize çekecek bir SEO altyapısıyla. Bu rehberde, fotoğraf stüdyonuzun online dönüşüm makinesi olabilmesi için portfolyo yapısından kapora alma sistemine, retouching teslim akışından Google yorumu toplamaya kadar tüm süreçleri sizinle paylaşacağız. Hedefimiz, rezervasyon sürecinizi düzenli hale getirmek ve hiçbir potansiyel müşterinin "DM atayım, cevap gelirse görüşürüz" aşamasında kaybolmaması.
 
 ## Fotoğrafçının Web Sitesi Neden Instagram'dan Farklı
 
@@ -25,11 +25,11 @@ Web siteniz, kira ödediğiniz bir mağaza değil sahip olduğunuz bir AVM gibid
 
 ### Karar Verme Hızı
 
-Bir müşteri DM'den bilgi istediğinde ortalama 4 saat sonra cevap alır. Web sitenizdeki rezervasyon formu ise saniyeler içinde tarih müsaitliğini gösterir, kapora linkini iletir ve sözleşmeyi imzaya açar. Bu hız farkı, dönüşüm oranınızı 3 katına çıkarır. Daha detaylı bir karşılaştırma için [Instagram'dan müşteri bulma rehberini](/blog/instagramdan-musteri-bulma-rehberi) inceleyebilirsiniz.
+Bir müşteri DM'den bilgi istediğinde ortalama 4 saat sonra cevap alır. Web sitenizdeki rezervasyon formu ise saniyeler içinde tarih müsaitliğini gösterir, kapora linkini iletir ve sözleşmeyi imzaya açar. Bu hız farkı, kararını vermeye hazır müşteriyi kaybetmemenizi sağlar. Daha detaylı bir karşılaştırma için [Instagram'dan müşteri bulma rehberini](/blog/instagramdan-musteri-bulma-rehberi) inceleyebilirsiniz.
 
 ### SEO Trafiği
 
-"Düğün fotoğrafçısı Bodrum", "newborn çekim İzmir", "kurumsal headshot Ankara" gibi aramalar her ay binlerce kez yapılıyor. Instagram bu trafiği yakalayamaz, Google ise sizin site mimarinize göre sıralar. Doğru kurulmuş bir [web tasarım](/web-tasarim) altyapısıyla, ay sonunda gelen sıcak rezervasyon talepleri reklamsız bile dolar.
+"Düğün fotoğrafçısı Bodrum", "newborn çekim İzmir", "kurumsal headshot Ankara" gibi aramalar her ay binlerce kez yapılıyor. Instagram bu trafiği yakalayamaz, Google ise sizin site mimarinize göre sıralar. Doğru kurulmuş bir [web tasarım](/web-tasarim) altyapısı, bu aramalardan reklam harcamadan da talep gelmesinin zeminini hazırlar.
 
 ## Portfolyo Sitesinde Olması Gereken 7 Bölüm
 
@@ -113,7 +113,7 @@ Paketlerin yanına ekstra olarak gelin paketi (makyaj + saç) 3.000-6.000 ₺, e
 
 ### Seçim Süresi ve Hatırlatma
 
-Müşteriye seçim yapması için 7-10 gün süre verilir. Bu süre dolmadan WhatsApp'tan 3 gün, 1 gün ve son gün hatırlatma gider. Otomatik hatırlatma akışı sayesinde "geç seçim yaptık, retouching gecikti" şikayetleri sıfıra iner.
+Müşteriye seçim yapması için 7-10 gün süre verilir. Bu süre dolmadan WhatsApp'tan 3 gün, 1 gün ve son gün hatırlatma gider. Otomatik hatırlatma akışı sayesinde "geç seçim yaptık, retouching gecikti" şikayetleri azalır.
 
 ### Paylaşım Kolaylığı
 
@@ -167,7 +167,7 @@ Site içinde her paketin altında ortalama yıldız puanı ve yorum sayısı gö
 
 ### Fotoğraf stüdyom için web sitesi maliyeti ne kadar olur?
 
-Temel bir portfolyo sitesi 15.000-30.000 ₺ bandında kurulabilir. Online rezervasyon, kapora ödemesi, müşteri paneli ve WhatsApp otomasyonu dahil tam paket bir altyapı için 35.000-70.000 ₺ arası bir bütçe ayırmanız gerekir. Bu yatırım, sezonun ilk 2-3 ayında geri döner çünkü reklamsız organik trafikten gelen rezervasyonlar başlar.
+Piyasada temel bir portfolyo sitesi 15.000-30.000 ₺ bandında kurulabiliyor; online rezervasyon, kapora ödemesi, müşteri paneli ve WhatsApp otomasyonu dahil tam paket bir altyapı için 35.000-70.000 ₺ arası bütçe konuşuluyor. PORTZEN'de portfolyo siteleri kurumsal web sitesi paketleriyle yapılır: {{fiyatlar:kurumsal-web-sitesi}} (KDV hariç); rezervasyon ve müşteri paneli gibi özel modüller ayrıca tekliflendirilir. Organik trafikten rezervasyon gelmeye başladığında bu yatırım sezon içinde geri dönebilir.
 
 ### Online rezervasyon sistemi olmadan da fotoğraf işi yürütebilir miyim?
 
@@ -175,7 +175,7 @@ Yürütebilirsiniz ancak büyüyemezsiniz. Manuel rezervasyon sürecinde günde 
 
 ### Sitemi Pixieset veya Wix gibi hazır araçlarla yapsam yetmez mi?
 
-Hazır araçlar başlangıç için iyidir ama 3 ciddi sorun yaratır: birincisi Türkçe SEO desteği zayıftır, ikincisi Türk ödeme altyapısı (iyzico, Param) tam entegre değildir, üçüncüsü tasarım esnekliği yoktur ve siteniz başka 10.000 fotoğrafçınınkine benzer. Özel geliştirilmiş bir site, hem markanızı korur hem de Google sıralamasında öne geçer.
+Hazır araçlar başlangıç için iyidir ama 3 ciddi sorun yaratır: birincisi Türkçe SEO desteği zayıftır, ikincisi Türk ödeme altyapısı (iyzico, Param) tam entegre değildir, üçüncüsü tasarım esnekliği yoktur ve siteniz başka 10.000 fotoğrafçınınkine benzer. Özel geliştirilmiş bir site, hem markanızı korur hem de Google sıralaması için daha esnek bir zemin sunar.
 
 ### Kapora almazsam müşteri kaçırır mıyım?
 
@@ -189,6 +189,6 @@ Sezon dışı dönemde online galeri arşiv satışı (eski çekimden ek baskı)
 
 PORTZEN olarak fotoğraf stüdyoları için yalnızca web sitesi değil, baştan sona dijital iş altyapısı kuruyoruz. Portfolyo galerisi, online rezervasyon takvimi, kapora ödeme sistemi, müşteri seçim paneli, WhatsApp otomasyonu ve Google yorum toplama akışı tek bir panelden yönetiliyor. Düğün sezonunda 50 müşteriyi aynı anda takip eden bir stüdyo için hazır olan altyapıyı, butik bir newborn fotoğrafçısı için sade ve hızlı versiyonuyla sunabiliyoruz.
 
-İşin daha güzel tarafı, sistem kurulduktan sonra her ay belirli aralıklarla performans raporu paylaşıyoruz: hangi paket en çok ilgi görüyor, hangi tarihler doluyor, hangi anahtar kelimelerden trafik geliyor. Bu sayede sadece rezervasyon almıyor, işinizi büyütüyorsunuz. Eğer mevcut Instagram hesabınız varsa, web sitesi bu hesabın değerini katlayan bir satış kapama makinesine dönüşüyor.
+Kurumsal web sitesi Büyüme ve Kurumsal paketlerinde ölçümleme kurulumu dahildir; böylece şunları görebilirsiniz: hangi paket en çok ilgi görüyor, hangi tarihler doluyor, hangi anahtar kelimelerden trafik geliyor. Bu sayede sadece rezervasyon almıyor, işinizi büyütüyorsunuz. Eğer mevcut Instagram hesabınız varsa, web sitesi bu hesabın değerini katlayan bir satış kapama makinesine dönüşüyor.
 
-Sizinle fotoğraf stüdyonuza özel çözüm için ücretsiz keşif görüşmesi yapmak istiyoruz. Mevcut durumunuzu, hedeflerinizi ve sezon planınızı konuşalım, size en uygun yapıyı önerelim. [İletişim sayfamızdan](/iletisim) bize ulaşabilir veya doğrudan WhatsApp üzerinden mesaj atabilirsiniz. Sezonun en yoğun ayları gelmeden önce sistemi devreye almak, takviminizi tam dolu tutmanın en güvenli yolu.
+Sizinle fotoğraf stüdyonuza özel çözüm için ücretsiz keşif görüşmesi yapmak istiyoruz. Mevcut durumunuzu, hedeflerinizi ve sezon planınızı konuşalım, size en uygun yapıyı önerelim. [İletişim sayfamızdan](/iletisim) bize ulaşabilir veya doğrudan WhatsApp üzerinden mesaj atabilirsiniz. Sezonun en yoğun ayları gelmeden önce sistemi devreye almak, sezonu hazırlıklı karşılamanın en güvenli yolu.

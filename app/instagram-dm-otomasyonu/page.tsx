@@ -17,11 +17,15 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 import { RelatedSectorsSection } from "@/components/landing/RelatedSectorsSection";
 import { RelatedLocationsSection } from "@/components/landing/RelatedLocationsSection";
+import { PricingSection, SinglePriceSection } from "@/components/pricing/PricingSection";
+import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
+import { MoreDetails } from "@/components/visual/MoreDetails";
+import { SINGLE, singlePriceLabel } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Instagram DM Otomasyonu | 60 Saniyede Yanıt — PORTZEN",
+  title: "Instagram DM Otomasyonu | Kural Tabanlı Otomatik DM — PORTZEN",
   description:
-    "Instagram DM otomasyonu ile gelen mesaj, hikaye yanıtı ve yorumlara 60 saniyede yanıt verin. Estetik, butik, e-ticaret için 7 günde kurulum. Ücretsiz keşif.",
+    "Instagram DM otomasyonu: gelen mesaj, hikaye yanıtı ve yorumlara anahtar kelimeye göre kural tabanlı otomatik DM. Estetik, butik, e-ticaret için; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Ücretsiz keşif.",
   keywords: [
     "instagram dm otomasyonu",
     "instagram dm bot",
@@ -35,15 +39,15 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://portzenai.com/instagram-dm-otomasyonu",
     siteName: "PORTZEN",
-    title: "Instagram DM Otomasyonu | 60 Saniyede Yanıt — PORTZEN",
+    title: "Instagram DM Otomasyonu | Kural Tabanlı Otomatik DM — PORTZEN",
     description:
-      "Instagram'a gelen DM, hikaye yanıtı ve yorumları otomatik karşılayıp müşteriye dönüştüren sistem. 7 günde kurulum."
+      "Instagram'a gelen DM, hikaye yanıtı ve yorumlara anahtar kelimeye göre önceden hazırlanmış mesajlar gönderen kural tabanlı sistem."
   },
   twitter: {
     card: "summary_large_image",
-    title: "Instagram DM Otomasyonu | 60 Saniyede Yanıt",
+    title: "Instagram DM Otomasyonu | Kural Tabanlı Otomatik DM",
     description:
-      "PORTZEN, markalar için Instagram DM otomasyonu kurar. 60 saniyede yanıt, 7 günde kurulum, 7/24 aktif."
+      "PORTZEN, markalar için kural tabanlı Instagram DM otomasyonu kurar: anahtar kelime, yorum ve hikâye tetikleyicileriyle otomatik mesaj, 7/24 aktif."
   },
   alternates: { canonical: "https://portzenai.com/instagram-dm-otomasyonu" },
   robots: { index: true, follow: true }
@@ -53,17 +57,17 @@ const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Instagram DM Otomasyonu Kurulumu",
-  serviceType: "Sosyal Medya Otomasyonu ve Instagram Chatbot",
+  serviceType: "Sosyal Medya Otomasyonu (kural tabanlı Instagram DM)",
   provider: {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Instagram DM, hikaye yanıtları, yorumlar ve reklam etkileşimlerine otomatik yanıt veren, randevu açan, ürün öneren AI tabanlı DM otomasyon sistemi. Estetik klinik, butik, e-ticaret ve danışmanlar için 7 günde kurulum."
+    "Instagram DM, hikaye yanıtları, yorumlar ve reklam etkileşimlerine anahtar kelimeye göre otomatik DM gönderen kural tabanlı otomasyon sistemi. Serbest sorulara AI ile yanıt AI müşteri asistanı kapsamındadır. Estetik klinik, butik, e-ticaret ve danışmanlar için; teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 };
 
 const faqSchema = {
@@ -75,15 +79,15 @@ const faqSchema = {
       name: "Instagram DM otomasyonu Meta politikalarına uygun mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Meta'nın resmi Messenger Platform API'sini kullanıyoruz. Hesabınız 'shadowban' veya askıya alma riski olmadan çalışır. Yetkisiz üçüncü parti araçlar değil, resmi entegrasyon."
+        text: "Evet. Meta'nın resmi Messenger Platform API'sini kullanıyoruz. Resmi entegrasyon, yetkisiz araçlara özgü shadowban ve askıya alma riskini en aza indirir. Yetkisiz üçüncü parti araçlar değil, resmi entegrasyon."
       }
     },
     {
       "@type": "Question",
-      name: "Kurulum kaç gün sürer?",
+      name: "Kurulum ne kadar sürer?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Standart kurulum 5-7 iş günüdür. Brief, senaryo yazımı, Meta Business Suite bağlantısı, test ve canlıya alma dahil. Karmaşık çoklu ürün katalogları için 10 güne çıkabilir."
+        text: "Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Kurulum; brief, senaryo yazımı, Meta Business Suite bağlantısı, test ve canlıya almayı kapsar. Çoklu ürün katalogları süreyi uzatır."
       }
     },
     {
@@ -91,7 +95,7 @@ const faqSchema = {
       name: "Hangi etkileşimlere yanıt verir?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "DM mesajları, hikaye yanıtları, post yorumları, reklam tıklamasından gelen sohbetler ve 'mesaj at' butonu — hepsi otomatize edilir. Anahtar kelimeye göre farklı akışlar tetiklenir."
+        text: "DM mesajları, hikaye yanıtları, post yorumları, reklam tıklamasından gelen sohbetler ve 'mesaj at' butonu — hepsi önceden hazırlanmış mesajlarla otomatize edilir. Anahtar kelimeye göre farklı akışlar tetiklenir; serbest sorulara AI ile yanıt AI müşteri asistanı kapsamındadır."
       }
     },
     {
@@ -99,7 +103,7 @@ const faqSchema = {
       name: "Fiyatı ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Fiyat, ihtiyacına göre kişiselleştiriliyor. Aylık DM hacmi, ürün/hizmet sayısı ve entegrasyon ihtiyacına göre kapsam bazlı çalışıyoruz. 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz."
+        text: `Instagram DM pazarlama otomasyonu ${singlePriceLabel(SINGLE["instagram-dm"])} (KDV hariç). Otomasyon platformu aboneliği hariçtir. Hizmet kural tabanlıdır; serbest sorulara AI ile yanıt AI müşteri asistanı kapsamındadır.`
       }
     },
     {
@@ -107,7 +111,7 @@ const faqSchema = {
       name: "WhatsApp asistanımla birlikte çalışır mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet, iki kanalı birlikte kurmanızı öneriyoruz. Aynı bilgi tabanı, aynı ton — sadece kanal farklı. Müşteri her yerden tutarlı yanıt alır."
+        text: "Evet. Instagram DM otomasyonu kural tabanlıdır; WhatsApp ve Instagram'da aynı bilgi tabanından AI ile yanıt istiyorsanız bu, AI müşteri asistanının Kurumsal paketinde (Web + WhatsApp + Instagram) yer alır. Aynı ton korunur, müşteri her yerden tutarlı yanıt alır."
       }
     },
     {
@@ -123,7 +127,7 @@ const faqSchema = {
       name: "Bot insan gibi mi konuşur, yoksa robotik mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Markanızın ses tonuna göre eğitiyoruz. Estetik klinikse sıcak ve güven veren, butikse genç ve enerjik. Hazır şablon değil — sizin markanız gibi konuşur."
+        text: "Mesaj şablonlarını markanızın ses tonuna göre yazıyoruz. Estetik klinikse sıcak ve güven veren, butikse genç ve enerjik. Hazır şablon değil — sizin markanız gibi konuşur. Bot serbest metni yorumlamaz; önceden yazılmış mesajları anahtar kelime, yorum ve hikâye tetikleyicilerine göre gönderir. Serbest sorulara AI ile yanıt, ayrı bir hizmet olan AI müşteri asistanı kapsamındadır."
       }
     }
   ]
@@ -144,14 +148,14 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "60 sn", label: "DM'ye ilk yanıt" },
-  { metric: "2.3x", label: "Butik vakasında sipariş artışı" },
+  { metric: "Kural", label: "Tetikleyiciye göre otomatik DM" },
+  { metric: "Resmi API", label: "Meta Messenger Platform" },
   { metric: "7/24", label: "DM, hikaye, yorum: hepsi otomatik" },
-  { metric: "7 gün", label: "Standart kurulum" }
+  { metric: "Türkçe", label: "Marka tonunda mesaj şablonları" }
 ];
 
 const problems = [
-  "Reklamdan gelen DM'lerin yarısı 30 dakikadan sonra cevap aldığı için müşteri ilgisini kaybetmiş oluyor.",
+  "Reklamdan gelen DM'ler geç cevap aldığında müşteri ilgisini kaybetmiş oluyor.",
   "Hikaye yanıtlarına bakmaya vakit yok — yüzlerce mesaj okunmadan kalıyor.",
   "Aynı 'fiyat ne kadar, randevu var mı, kargo dahil mi' sorularını günde 50 kere yanıtlamak ekibinizi tüketiyor.",
   "Reklam bütçesi DM'lere harcandı ama kimse cevap atmadığı için müşteri kaçtı — para boşa gitti.",
@@ -161,8 +165,8 @@ const problems = [
 const features = [
   {
     icon: Clock3,
-    title: "60 saniyede yanıt",
-    desc: "Reklam tıklamasından gelen DM bile bekletilmez. Müşteri sıcakken yakalanır."
+    title: "Otomatik ilk mesaj",
+    desc: "Reklam tıklamasından gelen DM'ye tanımlı anahtar kelimeye göre hazır mesaj otomatik gider."
   },
   {
     icon: Heart,
@@ -172,12 +176,12 @@ const features = [
   {
     icon: Filter,
     title: "Yorum filtreleme",
-    desc: "Posta gelen yorumlardaki müşteri sorularını yakalar, DM'ye yönlendirir."
+    desc: "Posta gelen yorumlarda tanımlı anahtar kelimeleri yakalar, yorumu yapana otomatik DM gönderir."
   },
   {
     icon: Calendar,
     title: "DM'den randevu",
-    desc: "Estetik, kuaför, klinik için DM içinden Google Takvim'e doğrudan randevu açar."
+    desc: "Estetik, kuaför, klinik için DM içinden randevu sayfanıza yönlendirir; takvime doğrudan randevu kaydı AI müşteri asistanının Büyüme ve Kurumsal paketlerindedir."
   },
   {
     icon: Hash,
@@ -186,80 +190,36 @@ const features = [
   },
   {
     icon: ShieldCheck,
-    title: "Meta onaylı API",
-    desc: "Resmi Messenger Platform API. Shadowban veya askıya alma riski yok."
+    title: "Resmi Meta API",
+    desc: "Resmi Messenger Platform API; yetkisiz araçlara özgü shadowban ve askıya alma riskini en aza indirir."
   }
 ];
 
-const packages = [
-  {
-    name: "Başlangıç",
-    scope: "Tek hesap + temel senaryolar",
-    color: "bg-paper",
-    features: [
-      "Aylık 1.500 DM'e kadar",
-      "5 hazır senaryo",
-      "Hikaye yanıtı + yorum",
-      "Aylık 1 optimizasyon",
-      "Temel performans raporu"
-    ],
-    cta: "Görüşme Al"
-  },
-  {
-    name: "Pro",
-    scope: "Yoğun hacim + reklam entegrasyonu",
-    color: "bg-brand-pink text-paper",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "Aylık 6.000 DM'e kadar",
-      "Sınırsız özel senaryo",
-      "Reklamdan DM otomasyonu",
-      "Google Takvim entegrasyonu",
-      "Haftalık optimizasyon + A/B",
-      "Detaylı performans raporu"
-    ],
-    cta: "Görüşme Al"
-  },
-  {
-    name: "Kurumsal",
-    scope: "Çoklu hesap + e-ticaret + CRM",
-    color: "bg-paper",
-    features: [
-      "Sınırsız DM hacmi",
-      "Çoklu hesap yönetimi",
-      "E-ticaret katalog bağlantısı",
-      "CRM entegrasyonu",
-      "Adanmış stratejist",
-      "SLA + öncelikli destek"
-    ],
-    cta: "Görüşme Al"
-  }
-];
 
 const faqs = [
   {
     q: "Instagram DM otomasyonu Meta politikalarına uygun mu?",
-    a: "Evet. Meta'nın resmi Messenger Platform API'sini kullanıyoruz — yetkisiz üçüncü parti araç değil. Hesabınız 'shadowban' veya askıya alma riski olmadan çalışır. Tüm akışlar Meta'nın 24 saat penceresi kuralına uygun tasarlanır."
+    a: "Evet. Meta'nın resmi Messenger Platform API'sini kullanıyoruz — yetkisiz üçüncü parti araç değil. Resmi entegrasyon, yetkisiz araçlara özgü shadowban ve askıya alma riskini en aza indirir. Akışlar Meta'nın 24 saatlik mesajlaşma penceresi kuralı dikkate alınarak tasarlanır."
   },
   {
-    q: "Kurulum kaç gün sürer ve neler dahil?",
-    a: "Standart kurulum 5-7 iş günü. İçinde brief görüşmesi, senaryo yazımı, Meta Business Suite bağlantısı, AI eğitimi, gerçek mesajlarla test ve canlıya alma var. E-ticaret katalogu olan markalar için 10 güne çıkabilir."
+    q: "Kurulum ne kadar sürer ve neler dahil?",
+    a: "Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Kurulumun içinde brief görüşmesi, senaryo yazımı, Meta Business Suite bağlantısı, anahtar kelime akışlarının kurulumu, gerçek mesajlarla test ve canlıya alma var. E-ticaret katalogu olan markalarda süre uzar."
   },
   {
     q: "Hangi etkileşimlere yanıt verir, hangilerine vermez?",
-    a: "Yanıt verir: DM mesajları, hikaye yanıtları, post yorumları, reklam tıklamasından gelen sohbetler, 'mesaj at' butonu. Yanıt vermez: özel mesajlardaki sesli mesajlar (transkript verilmedikçe), karmaşık şikayet veya hassas konular (bunlar otomatik insana devredilir)."
+    a: "Yanıt verir: DM mesajları, hikaye yanıtları, post yorumları, reklam tıklamasından gelen sohbetler, 'mesaj at' butonu. Yanıt vermez: özel mesajlardaki sesli mesajlar (transkript verilmedikçe), serbest metinli, tanımlı anahtar kelimeyle eşleşmeyen sorular, şikayet veya hassas konular (bunlar insana devredilir; serbest sorulara AI ile yanıt, ayrı bir hizmet olan AI müşteri asistanı kapsamındadır)."
   },
   {
     q: "Fiyatı ne kadar, kurulum sonrası ek masraf var mı?",
-    a: "Fiyat, ihtiyacına göre kişiselleştiriliyor. Meta API kullanım ücreti yok (Instagram DM şu an ücretsiz). Aylık paket; senaryo güncelleme, yeni akış ekleme, performans raporu ve hata düzeltmeyi içerir. 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz. Hemen /iletisim üzerinden yaz."
+    a: `Instagram DM pazarlama otomasyonu ${singlePriceLabel(SINGLE["instagram-dm"])} (KDV hariç). Otomasyon platformu aboneliği hariçtir; Meta, Instagram DM için şu an ayrıca ücret almıyor. Hizmet kural tabanlıdır; serbest sorulara AI ile yanıt istiyorsanız AI müşteri asistanı paketlerine bakın.`
   },
   {
     q: "WhatsApp asistanımla birlikte çalışır mı?",
-    a: "Evet, ideal kombinasyon. İki kanalı birlikte kurmanızı öneriyoruz. Aynı bilgi tabanı, aynı ton, aynı randevu sistemi — sadece kanal farklı. Müşteri Instagram'dan DM atıp WhatsApp'tan devam ettiğinde aynı yerden takip edersiniz."
+    a: "Evet. Instagram DM otomasyonu kural tabanlıdır; WhatsApp ve Instagram'da aynı bilgi tabanından AI ile yanıt istiyorsanız bu, AI müşteri asistanının Kurumsal paketinde (Web + WhatsApp + Instagram) yer alır. Aynı ton korunur. Müşteri Instagram'dan DM atıp WhatsApp'tan devam ettiğinde aynı yerden takip edersiniz."
   },
   {
     q: "Bot insan gibi mi konuşur?",
-    a: "Markanızın ses tonuna göre eğitiyoruz. Estetik klinikse sıcak ve güven veren, butikse genç ve enerjik, danışmansa profesyonel ve net. Hazır şablon değil. Yanıtların robotik veya genel görünmemesi için her sektöre özel diyalog kütüphanesi yazılır."
+    a: "Mesaj şablonlarını markanızın ses tonuna göre yazıyoruz. Estetik klinikse sıcak ve güven veren, butikse genç ve enerjik, danışmansa profesyonel ve net. Hazır şablon değil. Yanıtların robotik veya genel görünmemesi için her sektöre özel diyalog kütüphanesi yazılır. Bot serbest metni yorumlamaz; önceden yazılmış mesajları anahtar kelime, yorum ve hikâye tetikleyicilerine göre gönderir. Serbest sorulara AI ile yanıt, ayrı bir hizmet olan AI müşteri asistanı kapsamındadır."
   },
   {
     q: "İzmir merkezli misiniz, başka şehirlere de hizmet veriyor musunuz?",
@@ -275,45 +235,45 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-brand-pink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-paper/80">
-              <Link href="/" className="hover:text-paper transition-colors">Anasayfa</Link>
+            <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/80">
+              <Link href="/" className="hover:text-ink transition-colors">Anasayfa</Link>
               <span className="mx-2">/</span>
-              <span className="text-paper">Instagram DM Otomasyonu</span>
+              <span className="text-ink">Instagram DM Otomasyonu</span>
             </nav>
           </Reveal>
 
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-paper text-ink px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper text-ink px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Instagram className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Sosyal Medya Otomasyonu</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl">
-                  Instagram DM Otomasyonu | DM'lere 60 Saniyede Yanıt
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl">
+                  Instagram DM Otomasyonu | Kural Tabanlı Otomatik DM
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body opacity-95 font-medium">
-                  Instagram'a gelen DM, hikaye yanıtı, yorum ve reklam etkileşimlerini otomatik karşılayıp müşteriye dönüştüren AI sistemi. PORTZEN, estetik klinik, butik, e-ticaret ve danışmanlar için bu sistemi 7 günde kurar.
+                  Instagram&apos;a gelen DM, hikaye yanıtı, yorum ve reklam etkileşimlerini anahtar kelime, yorum ve hikâye tetikleyicilerine göre önceden hazırlanmış mesajlarla otomatik karşılayan kural tabanlı otomasyon sistemi. PORTZEN bu sistemi estetik klinik, butik, e-ticaret ve danışmanlar için kurar; serbest sorulara AI ile yanıt ise ayrı bir hizmet olan AI müşteri asistanı kapsamındadır.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/sosyal-medya-yonetimi"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     Hizmeti İncele <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -327,8 +287,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow text-ink" : "bg-paper text-ink"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light text-ink" : "bg-paper text-ink"
                     )}
                   >
                     <div className="font-display text-4xl md:text-5xl font-black leading-none mb-2">
@@ -343,23 +303,26 @@ export default function Page() {
         </div>
       </section>
 
+      <ServiceAtAGlance href="/instagram-dm-otomasyonu" />
+
+      <MoreDetails title="Ayrıntılar: Tanıdık sorunlar" summary="Cevapsız DM'ler, tekrar eden sorular, sahipsiz mesaj kutusu">
       {/* 2. PROBLEM */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Tanıdık geliyor mu?
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Reklama harcadığınız her kuruş, cevapsız DM'de eriyor olabilir.
+                Reklama harcadığınız her kuruş, cevapsız DM&apos;de eriyor olabilir.
               </h2>
             </div>
           </Reveal>
           <div className="grid gap-4 md:grid-cols-2">
             {problems.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
+                <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
                   <p className="text-body font-medium leading-relaxed">{p}</p>
                 </div>
               </Reveal>
@@ -368,12 +331,13 @@ export default function Page() {
         </div>
       </section>
 
+      </MoreDetails>
       {/* 4. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Sistemin tam içeriği
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -386,7 +350,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -398,17 +362,18 @@ export default function Page() {
         </div>
       </section>
 
+      <MoreDetails title="Ayrıntılar: Örnek senaryo — butik mağaza" summary="Anahtar kelime akışları nasıl kurulur?">
       {/* 6. CASE STUDY */}
-      <section className="bg-brand-purple text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Gerçek bir örnek: butik mağaza
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek senaryo: butik mağaza
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              İzmir'de bir butik için 7 günde kurduğumuz Instagram DM otomasyonu, ilk ay siparişi 2.3 katına çıkardı.
+              Örnek senaryo: bir butikte kural tabanlı Instagram DM otomasyonu nasıl kurulur?
             </h2>
           </Reveal>
 
@@ -416,40 +381,40 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Butik, Instagram'dan günde 80-120 DM alıyordu — 'fiyat ne', 'kargo dahil mi', 'X beden var mı', 'Y rengi geldi mi'. Reklam koymaya başlayınca bu sayı 250'ye çıktı. Tek sosyal medya sorumlusu mesajlara yetişemiyor, gece gelen DM'ler sabaha kadar bekliyor, müşteri başka sayfaya gidiyor, butik para kaybediyordu.
+                  Bu örnek senaryoda butik, Instagram&apos;dan her gün çok sayıda DM alıyor — &apos;fiyat ne&apos;, &apos;kargo dahil mi&apos;, &apos;X beden var mı&apos;, &apos;Y rengi geldi mi&apos;. Reklam başlayınca mesaj sayısı artıyor. Tek sosyal medya sorumlusu mesajlara yetişemiyor, gece gelen DM&apos;ler sabaha kadar bekliyor, müşteri başka sayfaya gidiyor.
                 </p>
                 <p>
-                  Brief'te ürün kataloğunu, sık sorulan beden/renk sorularını, kargo şartlarını, iade politikasını çıkardık. 3 günde tüm akışları kurduk: 'fiyat' anahtar kelimesi gelince ürün linkini + fiyatı paylaş, 'beden' gelince stok bilgisi gönder, 'kargo' gelince teslimat sürelerini anlat. Karmaşık vakaları (özel sipariş, dolar fiyat) sahibe devrettik.
+                  Brief&apos;te ürün kataloğu, sık sorulan beden/renk soruları, kargo şartları ve iade politikası çıkarılır. Ardından anahtar kelime akışları kurulur: &apos;fiyat&apos; anahtar kelimesi gelince ürün linki + fiyat paylaşılır, &apos;beden&apos; gelince beden tablosu gönderilir, &apos;kargo&apos; gelince teslimat koşulları anlatılır. Karmaşık vakalar (özel sipariş, dolar fiyat) sahibe devredilir.
                 </p>
                 <p>
-                  Hikaye yanıtlarına otomatik 'merhaba, ürünü Bio link'inden inceleyebilirsin' mesajı kurduk. Reklamdan gelen DM'lere 'hangi ürüne baktığını sor + ürün linkini paylaş' akışı yazdık. Ortalama yanıt süresi 4 saatten 42 saniyeye düştü.
+                  Hikaye yanıtlarına otomatik &apos;merhaba, ürünü Bio link&apos;inden inceleyebilirsin&apos; mesajı kurulur. Reklamdan gelen DM&apos;lere &apos;hangi ürüne baktığını sor + ürün linkini paylaş&apos; akışı yazılır. Tanımlı anahtar kelimeyle eşleşmeyen serbest sorular sorumluya devredilir; bunlara AI ile yanıt istenirse ayrı bir hizmet olan AI müşteri asistanı eklenir.
                 </p>
                 <p>
-                  İlk ay rapor: DM hacmi %180 arttı (artık geç yanıt nedeniyle düşmüyor), DM'den siparişe dönüşüm %18'den %41'e çıktı, toplam sipariş 2.3 katına ulaştı. Sosyal medya sorumlusu artık sadece içerik üretimi ve özel siparişlerle ilgileniyor.
+                  İş akışında değişen şu: sık gelen sorular tanımlı mesajlarla otomatik karşılanır, gece gelen DM&apos;ler de ilk mesajı alır, sosyal medya sorumlusu içerik üretimine ve özel siparişlere odaklanır.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Önce</div>
-                  <div className="font-display text-4xl font-black mb-1">4 sa</div>
-                  <div className="text-sm">DM yanıt süresi</div>
+                  <div className="font-display text-4xl font-black mb-1">Elle</div>
+                  <div className="text-sm">Her DM tek tek yanıtlanıyor</div>
                   <div className="mt-4 text-xs font-bold uppercase opacity-70 mb-1">Sonra</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">42 sn</div>
+                  <div className="font-display text-4xl font-black text-ink">Otomatik</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Önce</div>
-                  <div className="font-display text-4xl font-black mb-1">%18</div>
-                  <div className="text-sm">DM → sipariş dönüşümü</div>
+                  <div className="font-display text-4xl font-black mb-1">Dağınık</div>
+                  <div className="text-sm">Aynı sorular her gün yeniden yazılıyor</div>
                   <div className="mt-4 text-xs font-bold uppercase opacity-70 mb-1">Sonra</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">%41</div>
+                  <div className="font-display text-4xl font-black text-ink">Akış</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">İlk ay</div>
-                  <div className="font-display text-4xl font-black text-brand-yellow">2.3x</div>
-                  <div className="text-sm">Toplam sipariş artışı</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Devir</div>
+                  <div className="font-display text-4xl font-black text-ink">İnsana</div>
+                  <div className="text-sm">Özel sipariş ve serbest sorular sorumluya</div>
                 </div>
               </div>
             </Reveal>
@@ -457,89 +422,19 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Çalışma modeli
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Hangi paket size uygun?
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                3 paket — tek mağazadan çoklu hesabı olan e-ticarete kadar. Kapsam bazlı çalışıyoruz; net rakam brief görüşmesinde paylaşılır.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-yellow text-ink px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="text-sm font-bold opacity-75 mb-6">{p.scope}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className={cn(
-                      "inline-flex items-center justify-center gap-2 border-3 border-ink px-4 py-2.5 text-xs font-bold uppercase shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all",
-                      p.color === "bg-brand-pink text-paper" ? "bg-paper text-ink" : "bg-ink text-paper"
-                    )}
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <p className="mt-8 text-sm text-ink/60 max-w-2xl">
-              <strong>Not:</strong> Kapsam bazlı çalışıyoruz; sektör ve DM hacmine göre net rakam 15 dakikalık keşif görüşmesinde paylaşılır. Meta'nın Instagram DM API'si şu an ücretsizdir.
-            </p>
-          </Reveal>
-          <Reveal delay={400}>
-            <div className="mt-6 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <div className="font-display text-lg font-black mb-1">İlgili okuma</div>
-                <p className="text-sm opacity-90">
-                  Instagram DM'lerden dönüşüm nasıl artırılır — pratik taktikler için blog yazımız.
-                </p>
-              </div>
-              <Link
-                href="/blog/instagram-dm-donusum-artirma"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                Rehberi Oku <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      </MoreDetails>
+      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+
+      <SinglePriceSection id="instagram-dm" heading="Instagram DM otomasyonu fiyatı" intro="Kural tabanlı pazarlama otomasyonu: yorum ve hikâye etkileşimine otomatik DM. Serbest sorulara AI ile yanıt, dil algılama ve entegrasyonlar AI müşteri asistanı kapsamındadır; fiyatları hemen aşağıdadır. Tutarlar TL ve KDV hariçtir." />
+      <PricingSection family="ai-musteri-asistani" id="ai-asistan" badge="AI müşteri asistanı" heading="Instagram'da AI yanıt: AI müşteri asistanı fiyatları" intro="Instagram DM'lerine serbest metinle AI yanıtı gerekiyorsa bu paketler geçerlidir. Instagram kanalı Kurumsal pakette dahildir. Aylık ücretin altında kurulum bedeli ve ilk ay toplamı yazılıdır." />
+
 
       {/* 8. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
@@ -550,7 +445,7 @@ export default function Page() {
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-pink pl-6">
+                <div className="border-l-3 border-ink/15 pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -559,17 +454,17 @@ export default function Page() {
           </div>
 
           <Reveal delay={300}>
-            <div className="mt-12 border-3 border-paper bg-paper/5 p-6 shadow-[6px_6px_0_#FFFDF5]">
+            <div className="mt-12 border-3 border-ink/10 bg-light p-6 rounded-2xl">
               <div className="flex items-start gap-4 flex-wrap">
-                <Building2 className="h-6 w-6 shrink-0 text-brand-pink" />
+                <Building2 className="h-6 w-6 shrink-0 text-ink" />
                 <div className="flex-1 min-w-[200px]">
-                  <h3 className="font-display text-lg font-black mb-2">WhatsApp'a gelen mesajları da otomatize etmek mi istiyorsunuz?</h3>
+                  <h3 className="font-display text-lg font-black mb-2">WhatsApp&apos;a gelen mesajları da otomatize etmek mi istiyorsunuz?</h3>
                   <p className="text-sm opacity-85 mb-3">
-                    DM + WhatsApp'ı tek bilgi tabanından yönetmek isteyen markalar için WhatsApp AI Asistanı sayfamıza bakın.
+                    DM + WhatsApp&apos;ı tek bilgi tabanından AI ile yanıtlamak isteyen markalar için ayrı bir hizmet olan AI müşteri asistanı vardır (Instagram kanalı Kurumsal pakette); WhatsApp AI Asistanı sayfamıza bakın.
                   </p>
                   <Link
                     href="/whatsapp-ai-asistani"
-                    className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all"
+                    className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all"
                   >
                     WhatsApp AI Asistanı <ArrowUpRight className="h-3.5 w-3.5" />
                   </Link>
@@ -586,30 +481,30 @@ export default function Page() {
 
       <section className="py-section">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                DM'lerinizi yanıtlayalım. Müşterilerinizi kaybetmeyelim.
+                DM&apos;leriniz için otomatik ilk yanıtı kuralım.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut DM hacminizi inceleyip size uygun paketi öneriyoruz. WhatsApp'tan yazın veya iletişim formunu doldurun — aynı gün dönüyoruz.
+                15 dakikalık ücretsiz keşif görüşmesinde mevcut DM hacminizi inceleyip size uygun paketi öneriyoruz. WhatsApp&apos;tan yazın veya iletişim formunu doldurun — en kısa sürede dönüş yapıyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   <MessageSquare className="h-4 w-4" /> WhatsApp ile Mesaj At
                 </a>
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   İletişim Formu <ArrowUpRight className="h-4 w-4" />
                 </Link>
@@ -619,7 +514,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

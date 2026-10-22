@@ -29,7 +29,7 @@ TÜBİSAD'ın 2025 raporuna göre Türkiye e-ticaret hacmi **2,8 trilyon TL**'yi
 - **Entegrasyon duvarına çarpmak:** Iyzico bağlandı, kargo bağlanmadı; e-fatura ayrı modülde tıkanıyor.
 - **Mecburi göç:** 12. ayda platform değiştirmek zorunda kalıp tüm SEO'yu, URL yapısını ve müşteri verisini yeniden inşa etmek.
 
-[Kurumsal web sitesi rehberi](/blog/kurumsal-web-sitesi-rehberi) yazımızda altyapı kararlarının uzun vadeli etkisini detaylıca işlemiştik; e-ticarette bu etki daha da büyük çünkü operasyon doğrudan platforma bağımlı. Platform kararı verildikten sonra Facebook/Instagram Shop ve katalog reklamlarını profesyonel olarak yönetmek için bir [Meta reklam ajansı](/meta-reklam-ajansi) ile çalışmak ilk 90 günde sipariş hacmini gerçek anlamda büyütüyor.
+[Kurumsal web sitesi rehberi](/blog/kurumsal-web-sitesi-rehberi) yazımızda altyapı kararlarının uzun vadeli etkisini detaylıca işlemiştik; e-ticarette bu etki daha da büyük çünkü operasyon doğrudan platforma bağımlı. Platform kararı verildikten sonra Facebook/Instagram Shop ve katalog reklamlarını profesyonel olarak yönetmek için bir [Meta reklam ajansı](/meta-reklam-ajansi) ile çalışmak, katalog ve yeniden hedefleme kampanyalarının baştan doğru kurulmasını sağlar.
 
 ## Shopify vs WooCommerce: 10 Kriterli Karşılaştırma Tablosu
 
@@ -52,7 +52,7 @@ Bu tablo iki platformun karakterini özetliyor: Shopify "her şey hazır ama kir
 
 ### Sayılarla Pazar Payı
 
-Global verilere göre Shopify, dünyada e-ticaret sitelerinin **%10,3'üne**, WooCommerce **%23,4'üne** güç veriyor (BuiltWith, 2025). Türkiye özelinde WooCommerce hâlâ önde ancak Shopify'ın 2023-2025 arası KOBİ büyümesi **%180**. Yön net: Shopify pay alıyor, WooCommerce mevcut tabanını koruyor.
+Global verilere göre Shopify, dünyada e-ticaret sitelerinin **%10,3'üne**, WooCommerce **%23,4'üne** güç veriyor (BuiltWith, 2025). Türkiye özelinde WooCommerce hâlâ önde ancak Shopify son yıllarda KOBİ tarafında hızla büyüyor. Yön net: Shopify pay alıyor, WooCommerce mevcut tabanını koruyor.
 
 ## Shopify'ın Türk KOBİ İçin Avantajları
 
@@ -172,7 +172,7 @@ Karar "hangi platform daha iyi" değil, "sizin iş modeliniz için hangisi daha 
 
 **Profil:** 80-300 SKU, aylık 200-800 sipariş, 2 kişilik ekip, hızlı kampanya çevirimi.
 
-**Tercih:** **Shopify**. Sebep: butik moda satıcısı sürekli yeni koleksiyon, kampanya, Instagram entegrasyonu yapıyor. Shopify'ın hızlı tema değişimi, hazır email otomasyonu (Shopify Email, Klaviyo entegrasyonu) ve Instagram Shop bağlantısı bu tip işletme için altın değerinde. Aylık 3.500 TL maliyet, kazanılan zamanla fazlasıyla karşılanıyor. Bu modelde reels + story ekosistemini disiplinle besleyen bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak organik trafiği reklam üzerine bindirerek toplam ciroyu katlıyor.
+**Tercih:** **Shopify**. Sebep: butik moda satıcısı sürekli yeni koleksiyon, kampanya, Instagram entegrasyonu yapıyor. Shopify'ın hızlı tema değişimi, hazır email otomasyonu (Shopify Email, Klaviyo entegrasyonu) ve Instagram Shop bağlantısı bu tip işletme için altın değerinde. Aylık 3.500 TL maliyet, kazanılan zamanla fazlasıyla karşılanıyor. Bu modelde reels + story ekosistemini disiplinle besleyen bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak, organik trafiği reklam trafiğiyle birlikte büyütmeyi destekler.
 
 ### Senaryo 2: Klinik / Sağlık Hizmeti (Online Randevu + Ürün)
 
@@ -235,10 +235,10 @@ WooCommerce'in açık yapısı, özel otomasyon kurmak isteyen ekipler için bel
 
 ## PORTZEN ile E-Ticaret Sitesi Kurulumu
 
-PORTZEN olarak e-ticaret projelerini "tema açıp ürün yükledik" değil, **uçtan uca satış sistemi kurulumu** olarak ele alıyoruz. İlk hafta keşif: iş modeli, ürün katalogu yapısı, ödeme ve kargo gereksinimleri, KVKK durumu, mevcut müşteri verisi. Bu analizden sonra Shopify veya WooCommerce kararı veriliyor; bazı projelerde ikisi de uygun değil, müşteriye [özel web tasarım](/web-tasarim) çözümü öneriyoruz.
+PORTZEN olarak e-ticaret projelerini "tema açıp ürün yükledik" değil, **uçtan uca satış sistemi kurulumu** olarak ele alıyoruz. İlk aşama keşif: iş modeli, ürün katalogu yapısı, ödeme ve kargo gereksinimleri, KVKK durumu, mevcut müşteri verisi. Bu analizden sonra Shopify veya WooCommerce kararı veriliyor; bazı projelerde ikisi de uygun değil, müşteriye [özel web tasarım](/web-tasarim) çözümü öneriyoruz.
 
-Tipik bir proje 4-8 hafta sürer ve şu aşamalardan geçer: platform kurulumu, tema/tasarım, ürün katalog migrasyonu, Iyzico/PayTR + kargo + e-fatura entegrasyonu, KVKK & yasal sayfa düzenlemesi, GA4 + Meta Pixel + Search Console kurulumu, açılış sonrası 30 günlük destek. Müşterilerimizde açılış sonrası ilk 6 ay ortalama organik trafik artışı **%280**, terk edilmiş sepet kurtarma oranı **%34** seviyesinde gerçekleşiyor.
+Bir proje şu aşamalardan geçer (teslim süresi kapsama göre teklifte yazılı olarak belirtilir): platform kurulumu, tema/tasarım, dosyadan ürün aktarımı (pakete göre 50, 250 veya 1.000 ürün), Iyzico/PayTR ödeme ve kargo bağlantısı, KVKK & yasal sayfa düzenlemesi; pazaryeri bağlayıcıları Büyüme ve Kurumsal, ERP/muhasebe (e-fatura) bağlayıcısı Kurumsal pakette. E-ticaret paketleri {{fiyatlar:e-ticaret}} (KDV hariç; altyapı lisansları hariç). Açılış sonrası organik trafik ve terk edilmiş sepet oranı Search Console ve analitik üzerinden izlenir; sonuçlar sektöre, ürün yelpazesine ve rekabete göre değişir.
 
 E-ticaret platformu kararı **5 yıllık bir yatırım kararıdır**. Yanlış başlangıç sadece para değil, kaybedilen müşteri ve kaçırılan büyüme demek. Doğru platform seçimi için iş modelinizi, ölçek hedefinizi ve operasyonel kapasitenizi birlikte değerlendirmek şart.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

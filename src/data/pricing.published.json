@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "publishedAt": "2026-10-21T00:00:00.000Z",
+  "note": "V3 başlangıç fiyatları",
+  "data": {
+    "singles": {
+      "mobil-oyun": {
+        "price": 150000
+      },
+      "instagram-dm": {
+        "price": 4900,
+        "monthly": 1500,
+        "setupFee": 4900
+      },
+      "landing-page": {
+        "price": 5900
+      },
+      "mobil-uygulama": {
+        "price": 120000
+      },
+      "ai-telefon-asistani": {
+        "price": 4900,
+        "monthly": 4900,
+        "setupFee": 14900
+      },
+      "ozel-web-uygulamasi": {
+        "price": 79900
+      }
+    },
+    "families": {
+      "e-ticaret": {
+        "buyume": {
+          "price": 54900
+        },
+        "kurumsal": {
+          "price": 129900
+        },
+        "baslangic": {
+          "price": 24900
+        }
+      },
+      "web-bakim": {
+        "buyume": {
+          "price": 3500
+        },
+        "kurumsal": {
+          "price": 7500
+        },
+        "baslangic": {
+          "price": 1500
+        }
+      },
+      "kisa-video": {
+        "buyume": {
+          "price": 14900
+        },
+        "kurumsal": {
+          "price": 39900
+        },
+        "baslangic": {
+          "price": 6900
+        }
+      },
+      "sosyal-medya": {
+        "buyume": {
+          "price": 24900
+        },
+        "kurumsal": {
+          "price": 79900
+        },
+        "baslangic": {
+          "price": 9900
+        }
+      },
+      "is-otomasyonu": {
+        "buyume": {
+          "price": 34900,
+          "maintenance": 3500
+        },
+        "kurumsal": {
+          "price": 89900,
+          "maintenance": 9900
+        },
+        "baslangic": {
+          "price": 14900,
+          "maintenance": 1500
+        }
+      },
+      "ai-reklam-filmi": {
+        "buyume": {
+          "price": 7900
+        },
+        "kurumsal": {
+          "price": 19900
+        },
+        "baslangic": {
+          "price": 2900
+        }
+      },
+      "reklam-yonetimi": {
+        "buyume": {
+          "price": 9900
+        },
+        "kurumsal": {
+          "price": 24900
+        },
+        "baslangic": {
+          "price": 4900
+        }
+      },
+      "ai-musteri-asistani": {
+        "buyume": {
+          "price": 6900,
+          "setupFee": 14900
+        },
+        "kurumsal": {
+          "price": 19900,
+          "setupFee": 49900
+        },
+        "baslangic": {
+          "price": 2900,
+          "setupFee": 4900
+        }
+      },
+      "kurumsal-web-sitesi": {
+        "buyume": {
+          "price": 29900
+        },
+        "kurumsal": {
+          "price": 79900
+        },
+        "baslangic": {
+          "price": 9900
+        }
+      }
+    }
+  }
+}

@@ -29,11 +29,11 @@ export function RelatedLocationsSection({ service }: Props) {
   if (locations.length === 0) return null;
 
   return (
-    <section className="bg-ink text-paper py-section border-t-3 border-ink">
+    <section className="bg-white text-ink py-section border-t-3 border-ink/15">
       <div className="mx-auto max-w-container px-6">
         <Reveal>
           <div className="mb-10 max-w-2xl">
-            <div className="inline-flex items-center gap-2 border-3 border-paper bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-3 shadow-[6px_6px_0_#FFFDF5]">
+            <div className="inline-flex items-center gap-2 border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-3 rounded-full">
               <MapPin className="h-3 w-3" />
               Şehrinize Özel
             </div>
@@ -52,7 +52,7 @@ export function RelatedLocationsSection({ service }: Props) {
             <Reveal key={s.slug} delay={i * 60}>
               <Link
                 href={`/${service}/${s.slug}`}
-                className="group flex items-center justify-between gap-3 border-3 border-paper bg-paper/5 px-5 py-4 shadow-[6px_6px_0_#FFFDF5] hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[10px_10px_0_#FFFDF5] hover:bg-brand-yellow hover:text-ink transition-all"
+                className="group flex items-center justify-between gap-3 border-3 border-ink/10 bg-light px-5 py-4 hover:bg-lime hover:text-ink transition-all rounded-full"
               >
                 <div className="flex items-center gap-3">
                   <MapPin className="h-5 w-5 flex-shrink-0" />

@@ -1,8 +1,8 @@
 ---
-title: "Yapay Zeka ile Satış Süreçleri: KOBİ'lerin %80 Verim Artışı"
+title: "Yapay Zeka ile Satış Süreçleri: KOBİ'ler İçin Uygulama Rehberi"
 slug: "yapay-zeka-ile-satis-surecleri"
 category: "ai"
-description: "Yapay zeka ile satış süreçleri nasıl yönetilir? KOBİ'ler için lead skorlama, CRM entegrasyonu ve otomatik takip sistemleri ile %80 verim artışı."
+description: "Yapay zeka ile satış süreçleri nasıl yönetilir? KOBİ'ler için lead skorlama, CRM entegrasyonu ve otomatik takip sistemlerinin nasıl kurulduğunu adım adım anlatıyoruz."
 keywords: ["yapay zeka satış", "AI satış otomasyonu", "KOBİ satış süreçleri", "lead skorlama", "satış CRM yapay zeka", "satış asistanı AI"]
 publishedAt: "2026-06-20"
 author: "Arda Kaya"
@@ -11,9 +11,9 @@ relatedServices: ["ai-bot", "otomasyon"]
 ogImage: "/blog/og/yapay-zeka-ile-satis-surecleri.png"
 ---
 
-# Yapay Zeka ile Satış Süreçleri: KOBİ'lerin %80 Verim Artışı
+# Yapay Zeka ile Satış Süreçleri: KOBİ'ler İçin Uygulama Rehberi
 
-Türkiye'de bir KOBİ sahibinin masasında ortalama 47 farklı sekme açık duruyor. WhatsApp, Instagram DM, e-posta, CRM, muhasebe, Excel tabloları, takvim... Hepsi aynı anda. Yapay zeka ile satış süreçleri, bu kaosun tam ortasına düşen ve "ben buradan sonrasını yöneteyim" diyen yeni nesil bir katman. Bir eczane sahibinden tutun, üç şubeli bir restoran zincirine kadar her ölçekte işletme; lead karşılamayı, fiyat teklifi göndermeyi, randevu hatırlatmayı, müşteri sınıflandırmayı artık kendisi değil, eğitilmiş bir AI sisteminin yapmasını istiyor. Bu makalede, AI destekli satışın gerçekte ne yaptığını, hangi süreçleri %80'e varan oranlarda hızlandırdığını ve KOBİ'lerin bu dönüşümü nasıl hesaplı kurabileceğini sıfırdan ele alacağız.
+Türkiye'de bir KOBİ sahibinin masasında ortalama 47 farklı sekme açık duruyor. WhatsApp, Instagram DM, e-posta, CRM, muhasebe, Excel tabloları, takvim... Hepsi aynı anda. Yapay zeka ile satış süreçleri, bu kaosun tam ortasına düşen ve "ben buradan sonrasını yöneteyim" diyen yeni nesil bir katman. Bir eczane sahibinden tutun, üç şubeli bir restoran zincirine kadar her ölçekte işletme; lead karşılamayı, fiyat teklifi göndermeyi, randevu hatırlatmayı, müşteri sınıflandırmayı artık kendisi değil, eğitilmiş bir AI sisteminin yapmasını istiyor. Bu makalede, AI destekli satışın gerçekte ne yaptığını, hangi süreçleri hızlandırdığını ve KOBİ'lerin bu dönüşümü nasıl hesaplı kurabileceğini sıfırdan ele alacağız.
 
 ## Neden Geleneksel Satış Süreci Artık Yetmiyor?
 
@@ -21,7 +21,7 @@ Klasik KOBİ satış sürecinde bir lead'in geçtiği yolu düşünelim: Instagr
 
 ### Beklenti Süresi Satışın En Büyük Düşmanı
 
-Harvard Business Review'in 2024 araştırmasına göre lead'e ilk 5 dakikada cevap verirseniz dönüşüm oranı 21 kat artıyor. Türkiye'de ortalama KOBİ cevap süresi ise **3 saat 47 dakika**. Bu fark, kazanılan ile kaybedilen müşteri arasındaki fark. Yapay zeka tabanlı bir satış asistanı, 7/24 ortalama 4 saniyede cevap veriyor. Müşteri "merhaba" yazdığı an, ürün bilgisi, fiyat aralığı ve randevu seçeneği önüne düşüyor.
+Harvard Business Review'in 2024 araştırmasına göre lead'e ilk 5 dakikada cevap verirseniz dönüşüm oranı 21 kat artıyor. Türkiye'de ortalama KOBİ cevap süresi ise **3 saat 47 dakika**. Bu fark, kazanılan ile kaybedilen müşteri arasındaki fark. Yapay zeka tabanlı bir satış asistanı ise 7/24, mesaj geldiği anda otomatik yanıt veriyor. Müşteri "merhaba" yazdığı an, ürün bilgisi, fiyat aralığı ve randevu seçeneği önüne düşüyor.
 
 ### Veriyle Yönetilmeyen Satış, Tahminle Yönetilen Satıştır
 
@@ -31,19 +31,19 @@ Geleneksel KOBİ'lerde "hangi reklamdan kaç müşteri geldi?" sorusuna kesin ce
 
 AI ile satış otomasyonu tek bir araç değil, birbirine bağlı 5 katmandan oluşan bir sistem:
 
-| Katman | Görevi | Tipik Kazanç |
+| Katman | Görevi | Ne Değişir |
 |--------|--------|--------------|
-| Lead karşılama (AI bot) | İlk teması alır, niyeti anlar | Cevap süresi %95 düşer |
-| Niyet sınıflandırma | Soğuk/ılık/sıcak ayrımı | Satıcı zamanı %60 verimli |
-| Otomatik teklif | Ürün/fiyat eşleştirir | Teklif süresi 2 saat → 2 dk |
-| Takip otomasyonu | Drip mesajlar, hatırlatma | Hatırlanmayan lead %0 |
-| Analitik & raporlama | Gerçek zamanlı dashboard | Karar verme süresi %70 hızlanır |
+| Lead karşılama (AI bot) | İlk teması alır, niyeti anlar | İlk yanıt beklemeden, otomatik gider |
+| Niyet sınıflandırma | Soğuk/ılık/sıcak ayrımı | Satıcı zamanını sıcak lead'lere ayırır |
+| Otomatik teklif | Ürün/fiyat eşleştirir | Standart teklif elle hazırlanmaz |
+| Takip otomasyonu | Drip mesajlar, hatırlatma | Lead'ler takvime bağlı takip edilir, unutulmaz |
+| Analitik & raporlama | Gerçek zamanlı dashboard | Kararlar tahmine değil veriye dayanır |
 
-Bu beş katmanı doğru kurguladığınızda 1 kişilik satış ekibi 5 kişilik bir ekibin işini yapabilir hale geliyor. Bizim sahada gördüğümüz oran tam olarak buydu: ortalama %80 verim artışı.
+Bu beş katmanı doğru kurguladığınızda küçük bir satış ekibi, tekrarlı işleri sisteme bırakıp zamanını gerçekten satış konuşmasına ayırabilir hale geliyor.
 
 ### Lead Karşılama: AI Bot ile İlk Temas
 
-WhatsApp Business API veya Instagram DM üzerinden gelen ilk mesaj artık insana düşmüyor. AI bot devreye giriyor, müşteriyi selamlıyor, "Hangi hizmetimizle ilgileniyorsunuz?" diye soruyor ve cevaba göre dallanıyor. Bu konuda detaylı bir rehberi [WhatsApp AI asistanı nedir](/blog/whatsapp-ai-asistani-nedir) yazısında bulabilirsiniz.
+WhatsApp Business API veya (PORTZEN'in AI müşteri asistanında Kurumsal pakette) Instagram DM üzerinden gelen ilk mesaj artık insana düşmüyor. AI bot devreye giriyor, müşteriyi selamlıyor, "Hangi hizmetimizle ilgileniyorsunuz?" diye soruyor ve cevaba göre dallanıyor. Bu konuda detaylı bir rehberi [WhatsApp AI asistanı nedir](/blog/whatsapp-ai-asistani-nedir) yazısında bulabilirsiniz.
 
 Önemli olan botun "robotik" konuşmaması. Doğal Türkçe, sektöre özel terimler, hatta yerel ağız bile öğretilebiliyor. Bir Konyalı emlakçının botu "buyrun abicim" diye karşılarken, Nişantaşı'ndaki bir kliniğin botu "Hoş geldiniz, randevu talebiniz için sizi yönlendireyim" diyor. Persona ayarı kritik.
 
@@ -55,23 +55,23 @@ Her gelen lead aynı değerde değildir. AI sistemi sohbetin akışından, kulla
 - **Ilık lead** (40-79 puan): "Şöyle bir şey arıyorum, alternatifleriniz neler?" diyenler — drip e-posta dizisine alınır.
 - **Soğuk lead** (0-39 puan): Sadece bilgi toplayanlar — newsletter listesine eklenir.
 
-Bu sınıflandırma sayesinde satış ekibi günün tamamını sıcak lead'lere ayırıyor. Eskiden 100 mesajdan 8'i sıcakken, sistem onları öne çekince satıcı verimliliği 5 katına çıkıyor.
+Bu sınıflandırma sayesinde satış ekibi zamanının büyük kısmını sıcak lead'lere ayırıyor; sıcak lead'ler mesaj yığınının içinde kaybolmuyor.
 
 ## Sektör Bazlı Örnekler: AI Satış Pratikte Nasıl Çalışıyor?
 
-Teoriden çıkıp gerçek hayata bakalım. Türkiye'deki KOBİ'lerin AI ile satış süreçlerini nasıl dönüştürdüğüne dair üç farklı sektörden örnek vereceğim.
+Teoriden çıkıp pratiğe bakalım. Aşağıdaki üç örnek senaryo gerçek müşteri sonuçları değil; AI destekli satış sürecinin farklı sektörlerde nasıl kurgulandığını gösteren örnek kurulumlardır.
 
 ### Eczane Zinciri: Reçete Hazırlama ve Stok Sorgu
 
-5 şubeli bir eczane zinciri, WhatsApp üzerinden gelen reçete fotoğraflarını AI ile okuyup en yakın şubedeki stok durumunu kontrol ettirmeye başladı. Müşteri reçeteyi atıyor, sistem 30 saniye içinde "X ilaç Şubemizde mevcut, Y ilaç Kadıköy şubesinde var" cevabını dönüyor. Sonuç: telefonla stok soran müşteri sayısı %73 düştü, sipariş hazırlama süresi 12 dakikadan 4 dakikaya indi.
+Örnek senaryo: çok şubeli bir eczane zinciri, WhatsApp üzerinden gelen reçete fotoğraflarını AI ile okuyup en yakın şubedeki stok durumunu kontrol ettiriyor. Müşteri reçeteyi atıyor, sistem "X ilaç şubemizde mevcut, Y ilaç diğer şubemizde var" cevabını otomatik dönüyor. Önce: Stok bilgisi için telefonla şube şube aranıyor. Sonra: Stok sorgusu WhatsApp'tan yanıtlanıyor, eczacı yalnızca hazırlığı onaylıyor.
 
 ### Restoran: Rezervasyon ve Sipariş Yönetimi
 
-İstanbul'da iki şubeli bir et restoranı, Instagram DM ve WhatsApp'tan gelen tüm rezervasyon taleplerini AI'a devretti. Sistem boş masaları gerçek zamanlı görüyor, müşteriyle saat seçimi yapıyor, alerjen sorularını cevaplıyor, ön ödeme linkini gönderiyor. Patron eskiden günde 2 saatini sadece rezervasyona ayırırken, şimdi haftada 30 dakika kontrol etmek yetiyor. No-show oranı da %22'den %6'ya düştü çünkü AI otomatik hatırlatma gönderiyor.
+Örnek senaryo: iki şubeli bir restoran, WhatsApp'tan ve (AI müşteri asistanının Kurumsal paketinde) Instagram DM'den gelen rezervasyon taleplerini AI'a devrediyor. Sistem boş masaları gerçek zamanlı görüyor, müşteriyle saat seçimi yapıyor, alerjen sorularını cevaplıyor, ön ödeme linkini gönderiyor. Önce: Patron rezervasyonları gün içinde telefondan ve mesajlardan elle topluyor. Sonra: Rezervasyon takvime otomatik düşüyor, patron yalnızca istisnaları kontrol ediyor; otomatik hatırlatma no-show'u azaltmaya yardımcı oluyor.
 
 ### Klinik: Randevu ve Ön Konsültasyon
 
-Bir estetik kliniği, AI bot ile ön konsültasyon yaptırmaya başladı. Müşteri "burun estetiği fiyat" yazdığında bot önce 5 standart soruyu soruyor (daha önce operasyon, beklenti, bütçe, tarih, lokasyon), cevaplara göre uygun doktoru ve fiyat aralığını öneriyor, sonra konsültasyon randevusunu açıyor. Satış ekibinin işi sadece sıcak lead ile konuşmak. Aylık konsültasyon sayısı 3 ayda 80'den 240'a çıktı.
+Örnek senaryo: bir estetik kliniği, AI bot ile ön konsültasyon yaptırıyor. Müşteri "burun estetiği fiyat" yazdığında bot önce 5 standart soruyu soruyor (daha önce operasyon, beklenti, bütçe, tarih, lokasyon), cevaplara göre uygun doktoru ve fiyat aralığını öneriyor, sonra konsültasyon randevusunu açıyor. Satış ekibinin işi sıcak lead ile konuşmak; aylık konsültasyon sayısı CRM'de izleniyor.
 
 ## CRM Entegrasyonu: Verinin Bir Yerde Toplanması
 
@@ -116,7 +116,7 @@ Bu dizinin her mesajını AI, müşterinin önceki tepkilerine göre kişiselle�
 
 ### Konuşma Devamlılığı
 
-Eskiden bir müşteri bot ile konuşup gittikten 2 hafta sonra döndüğünde "kim ya bu" derdiniz. Şimdi AI önceki tüm konuşmayı hatırlıyor: "Geçen ay X ürün için fiyat sormuştunuz, hâlâ ilgileniyor musunuz?" diyebiliyor. Bu kişiselleştirme dönüşümü %35 artırıyor.
+Eskiden bir müşteri bot ile konuşup gittikten 2 hafta sonra döndüğünde "kim ya bu" derdiniz. Şimdi AI önceki tüm konuşmayı hatırlıyor: "Geçen ay X ürün için fiyat sormuştunuz, hâlâ ilgileniyor musunuz?" diyebiliyor. Bu kişiselleştirme, müşterinin konuşmaya kaldığı yerden devam etmesini kolaylaştırıyor.
 
 ## AI Satış Otomasyonu Maliyeti ve Geri Dönüşü
 
@@ -130,14 +130,9 @@ KOBİ'lerin en sık sorduğu soru: "Bu kaça mal olur, ne kadarda öder kendini?
 | Drip Otomasyon | 6.000 - 12.000 TL | 400 - 1.000 TL |
 | **Toplam** | **49.000 - 92.000 TL** | **3.200 - 8.000 TL** |
 
-Geri dönüş süresi sektöre göre değişiyor:
+Geri dönüş süresi sektöre, lead hacmine ve satış döngüsünün uzunluğuna göre değişir; kısa satış döngüsü olan restoran/perakende ve e-ticarette etki genelde daha erken görülürken, B2B satışta daha uzun sürer. Kendi işletmeniz için hesabı aylık lead sayınız ve ortalama satış değerinizle yapmanız gerekir.
 
-- **E-ticaret:** 2-3 ay
-- **Hizmet işletmesi (klinik, hukuk):** 3-5 ay
-- **B2B satış:** 4-7 ay
-- **Restoran/perakende:** 1-2 ay
-
-Tek bir satış elemanının maaşı + SGK + bonus aylık 35-50 bin TL aralığında. AI sistemi 1 satış elemanının yapamayacağı işi (7/24 cevap, sıfır unutma, anlık raporlama) 5-8 bin TL'ye yapıyor. Matematik açık.
+Tek bir satış elemanının maaşı + SGK + bonus aylık 35-50 bin TL aralığında. AI sistemi 1 satış elemanının yapamayacağı işi (7/24 cevap, sıfır unutma, anlık raporlama) piyasada aylık 5-8 bin TL'ye yapıyor. Matematik açık. PORTZEN'de bu yapı AI müşteri asistanı ({{fiyatlar:ai-musteri-asistani}}) ve tek seferlik iş otomasyonu ({{fiyatlar:is-otomasyonu}}) paketleriyle kurulur; fiyatlar KDV hariçtir.
 
 ## Yapay Zeka Müşteri Hizmetleri ile Satışın Birleşmesi
 
@@ -145,7 +140,7 @@ Modern KOBİ'lerde satış ve müşteri hizmetleri ayrı silolar değil. Aynı A
 
 ### Çapraz Satış Fırsatları
 
-AI satış sonrası süreçte de çalışmaya devam eder. Müşteri ürününü teslim aldıktan 7 gün sonra "memnun musunuz?" diye sorar. Olumlu cevap gelirse "şu tamamlayıcı ürün de ilginizi çekebilir" der. Bu küçük dokunuş ortalama sepet büyüklüğünü %18 artırıyor.
+AI satış sonrası süreçte de çalışmaya devam eder. Müşteri ürününü teslim aldıktan 7 gün sonra "memnun musunuz?" diye sorar. Olumlu cevap gelirse "şu tamamlayıcı ürün de ilginizi çekebilir" der. Bu küçük dokunuş, memnun müşteriye doğru zamanda ek ürün önermenin doğal bir yoludur.
 
 ### Geri Dönüş Sebebi Analizi
 
@@ -179,10 +174,10 @@ Henüz hazır değilseniz: önce [Instagram'dan müşteri bulma rehberi](/blog/i
 
 ## PORTZEN ile Yapay Zeka Satış Sistemleri: Sıfırdan Sisteme
 
-PORTZEN olarak KOBİ'lere özel yapay zeka satış sistemleri kuruyoruz. Standart bir bot satmıyoruz; işletmenizin ürün katalogunu, fiyatlama mantığını, müşteri personalarını ve hedef KPI'larını analiz edip size özel sistemi sıfırdan kurguluyoruz. WhatsApp Business API, Instagram, web sitesi ve telefon kanallarını tek motor altında topluyoruz.
+PORTZEN olarak KOBİ'lere özel yapay zeka satış sistemleri kuruyoruz. Standart bir bot satmıyoruz; işletmenizin ürün katalogunu, fiyatlama mantığını, müşteri personalarını ve hedef KPI'larını analiz edip size özel sistemi sıfırdan kurguluyoruz. WhatsApp Business API, web sitesi ve (Kurumsal pakette) Instagram kanallarını tek motor altında topluyoruz; telefon kanalı ayrı bir hizmet olan AI telefon asistanıyla eklenir.
 
-Tipik proje akışımız: 1 hafta keşif ve veri analizi, 2 hafta sistem kurulumu (bot + CRM + otomasyon), 1 hafta test ve eğitim. Toplam 4 hafta içinde sisteminiz canlıya alınıyor. Sonraki 90 gün boyunca konuşma analizleri yapıp botu kalibre ediyoruz. [AI Bot Kurulumu](/whatsapp-ai-asistani) ve [Otomasyon Sistemleri](/crm-otomasyonu) hizmetlerimizi birlikte alan müşterilerimizde ortalama dönüşüm artışı %62, satış ekibi verimliliği artışı %78 oldu.
+Proje akışımız: keşif ve veri analizi, sistem kurulumu (bot + CRM + otomasyon), test ve eğitim; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Sonrasında AI asistanı Büyüme paketinde ayda 2 saat, Kurumsal pakette ayda 6 saat iyileştirme ile kalibre ediyoruz; iş otomasyonu tarafında ilk 30 gün kurulum hataları giderilir. [AI Bot Kurulumu](/whatsapp-ai-asistani) ve [Otomasyon Sistemleri](/crm-otomasyonu) birlikte kurulduğunda lead'in ilk mesajından satışa kadar her adım CRM'de izlenebilir hale gelir.
 
-Önemli olan teknolojiyi satmak değil, sizin operasyonunuza oturan sistemi kurmak. O yüzden hiçbir proje "paket" değil; her biri sıfırdan tasarlanıyor.
+Önemli olan teknolojiyi satmak değil, sizin operasyonunuza oturan sistemi kurmak. Fiyatlar standart paketlerimize göre belirlenir ([fiyatlar sayfası](/fiyatlar)); akışlar ise her işletme için ayrı tasarlanıyor.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

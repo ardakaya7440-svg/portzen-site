@@ -32,7 +32,7 @@ function SuccessParticles({
       {[...Array(6)].map((_, i) => (
         <motion.div
           key={i}
-          className="pointer-events-none fixed z-[60] h-2 w-2 rounded-full bg-ink"
+          className="pointer-events-none fixed z-[60] h-2 w-2 rounded-full bg-slate"
           style={{ left: centerX, top: centerY }}
           initial={{ scale: 0, x: 0, y: 0 }}
           animate={{

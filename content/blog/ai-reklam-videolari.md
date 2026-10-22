@@ -183,7 +183,7 @@ Kling 3.0 yemek dokusu, su damlası, eriyen peynir gibi sahnelerde çok güçlü
 5. Eli alıp ısıran müşteri (gerçek çekim veya AI)
 6. Logo + CTA kart
 
-Bu format 6 saatte üretiliyor, geleneksel yöntemle 1 günlük çekim + 2 gün kurgu gerekirdi.
+Bu format, geleneksel yöntemdeki 1 günlük çekim + 2 gün kurgu ihtiyacı olmadan üretilebiliyor.
 
 ### Klinik / Estetik: Önce-Sonra Anlatımı
 
@@ -207,11 +207,11 @@ AI reklam tek başına etki etmiyor; doğru bir [sosyal medya içerik](/instagra
 
 1. AI reklam → dikkat çekiyor
 2. Tıklama → Instagram profil veya WhatsApp
-3. AI bot → karşılıyor, soruyor
+3. AI müşteri asistanı (WhatsApp/web; Instagram kanalı Kurumsal pakette) → karşılıyor, soruyor
 4. CRM → kayıt, segment, takip
 5. Satış ekibi → sıcak lead ile konuşuyor
 
-Bu zincir kurulduğunda reklam bütçenizin geri dönüşü 3-5 kat artıyor.
+Bu zincir kurulduğunda reklamdan gelen ilgi kaybolmadan karşılanır, kayda alınır ve takip edilir.
 
 ## Yasal ve Etik Konular
 
@@ -237,8 +237,8 @@ KOBİ'ler için aksiyon: şimdiden öğrenmeye başlayın. 2 yıl sonra reklam a
 
 PORTZEN olarak markaların AI reklam üretim altyapısını sıfırdan kuruyoruz. Sadece bir reklam üretip teslim etmiyoruz; size **sürdürülebilir bir reklam fabrikası** kurguluyoruz. Hangi modellerin hangi sahne için kullanılacağı, prompt kütüphaneniz, marka kit'iniz, post-production akışınız, A/B test süreciniz hep birlikte tasarlanıyor.
 
-Tipik bir paketimizde aylık 15-25 farklı reklam varyasyonu üretiyoruz. Sora 2, Veo 3.1, Kling 3.0, Runway ve Higgsfield gibi tüm büyük platformlarda hesabımız var, hangi iş hangisinde en iyi çıkıyorsa ona yönlendiriyoruz. [AI Reklam Video](/ai-reklam-videosu) ve [Sosyal Medya İçerik](/instagram-dm-otomasyonu) hizmetlerimizi alan markalar, geleneksel ajans bütçesinin 1/8'ine aylık 4-5 kat daha fazla içerik alıyor.
+AI reklam filmi paketlerimiz proje bazlıdır: 10–60 saniyelik tek film, 1–3 format; fiyatlar: {{fiyatlar:ai-reklam-filmi}} (KDV hariç). Sora 2, Veo 3.1, Kling 3.0, Runway ve Higgsfield gibi tüm büyük platformlarda hesabımız var, hangi iş hangisinde en iyi çıkıyorsa ona yönlendiriyoruz. [AI Reklam Video](/ai-reklam-videosu) ve [Sosyal Medya Yönetimi](/sosyal-medya-yonetimi) hizmetlerimizin kapsamı ve fiyatları [fiyatlar sayfasında](/fiyatlar) yer alıyor.
 
 Önemli olan teknolojiye yetişmek değil, doğru kullanım kültürünü işletmenize yerleştirmek. Eğitim ve süreç tasarımı, üretimin kendisi kadar önemli.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir görüşmede işletmeniz için uygun yapıyı netleştiririz.

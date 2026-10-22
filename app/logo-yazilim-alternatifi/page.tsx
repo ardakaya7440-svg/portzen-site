@@ -60,7 +60,7 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   serviceType: "ERP Automation Layer",
@@ -115,10 +115,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "KVKK uyumlu mu?",
+      name: "KVKK açısından nasıl kurgulanıyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. PORTZEN otomasyon katmanı Türkiye sunucularında çalışır, KVKK aydınlatma metni, açık rıza akışı, veri silme talep formu ve VERBİS kayıt desteği paket dahildir. Logo / Mikro / Netsis verileri Türkiye'de işlenir."
+        text: "Otomasyon katmanı KVKK gerekliliklerini dikkate alarak kurgulanır; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Açık rıza akışı ve veri silme talep formu kuruluma dahildir; aydınlatma metni ve VERBİS kaydı hukuki iş olduğundan paketlere dahil değildir. Logo / Mikro / Netsis verileri kendi sunucunuzda kalır."
       }
     },
     {
@@ -126,7 +126,7 @@ const faqSchema = {
       name: "Kurulum ne kadar sürer?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Mevcut ERP'nizin durumuna göre 14-30 iş günü. İlk hafta Logo / Mikro / Netsis API erişimi + veri haritalama, ikinci hafta n8n akışları + WhatsApp + e-mail entegrasyonu, üçüncü hafta test + ekip eğitimi."
+        text: "Teslim süresi, mevcut ERP'nizin durumuna ve kapsama göre teklifte yazılı olarak belirtilir. Tipik sıra: önce Logo / Mikro / Netsis API erişimi + veri haritalama, ardından n8n akışları + WhatsApp + e-mail entegrasyonu, son olarak test + ekip eğitimi."
       }
     }
   ]
@@ -147,9 +147,9 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "%60", label: "Manuel veri girişi azalır" },
-  { metric: "21 gün", label: "Otomasyon katmanı kurulumu" },
-  { metric: "KVKK", label: "TR sunucu, açık rıza dahil" },
+  { metric: "API", label: "Logo / Mikro / Netsis bağlantısı" },
+  { metric: "Tek seferlik", label: "Otomasyon katmanı kurulumu" },
+  { metric: "KVKK", label: "Açık rıza akışı kuruluma dahil" },
   { metric: "WhatsApp", label: "Logo verisiyle direkt bağlı" }
 ];
 
@@ -176,21 +176,21 @@ const painPoints = [
   },
   {
     title: "Esnek değil",
-    desc: "Yeni bir iş akışı ya da custom rapor için bayisinden teklif alıp 4-8 hafta beklersiniz. PORTZEN'de aynı işi 2-5 gün içinde n8n üstünde kurarız."
+    desc: "Yeni bir iş akışı ya da custom rapor için bayisinden teklif alıp 4-8 hafta beklersiniz. PORTZEN'de yeni akış n8n üstünde kurulur; teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
   }
 ];
 
 const comparisonRows = [
   { feature: "Fiyat modeli", manychat: "Aylık lisans + bakım bazlı", portzen: "Brief'te belirlenir" },
-  { feature: "WhatsApp Business API resmi", manychat: "Yok (3rd party gerekir)", portzen: "Meta resmi iş ortağı, dahil" },
+  { feature: "WhatsApp Business API resmi", manychat: "Yok (3rd party gerekir)", portzen: "Meta'nın resmi API'si üzerinden" },
   { feature: "Modern lead scoring + AI", manychat: "Yok", portzen: "n8n + LLM ile dahil" },
   { feature: "E-ticaret entegrasyon", manychat: "Hep middleware gerekir", portzen: "Shopify/Woo/Trendyol direkt" },
   { feature: "Logo / Mikro / Netsis okuma-yazma", manychat: "Tek ERP'ye kilitli", portzen: "Hepsine API ile bağlı" },
-  { feature: "Yeni akış kurulum süresi", manychat: "Bayisinden 4-8 hafta", portzen: "n8n üstünde 2-5 gün" },
+  { feature: "Yeni akış kurulum süresi", manychat: "Bayisinden 4-8 hafta", portzen: "Teklifte yazılı" },
   { feature: "Web form + lead capture", manychat: "Logo Web Site Suite ek ücret", portzen: "Custom React form dahil" },
-  { feature: "Türkçe canlı destek", manychat: "Bayi destek, geç dönüş", portzen: "WhatsApp + telefon aynı gün" },
-  { feature: "KVKK aydınlatma + VERBİS desteği", manychat: "Modülde değil", portzen: "Paket dahil" },
-  { feature: "Sözleşme süresi", manychat: "Yıllık lisans + bakım", portzen: "Aylık esnek" }
+  { feature: "Türkçe canlı destek", manychat: "Bayi destek, geç dönüş", portzen: "WhatsApp + telefon, en kısa sürede dönüş" },
+  { feature: "KVKK açık rıza akışı", manychat: "Modülde değil", portzen: "Kuruluma dahil" },
+  { feature: "Sözleşme süresi", manychat: "Yıllık lisans + bakım", portzen: "Teklifte yazılı" }
 ];
 
 const solutionSteps = [
@@ -202,7 +202,7 @@ const solutionSteps = [
   {
     icon: Plug,
     title: "API Bağlantısı",
-    description: "Logo Tiger REST API, Mikro Web Servisler veya Netsis HTSWeb'e güvenli bağlantı kuruyoruz. ERP veriniz Türkiye sunucusunda kalır."
+    description: "Logo Tiger REST API, Mikro Web Servisler veya Netsis HTSWeb'e güvenli bağlantı kuruyoruz. ERP veriniz kendi sunucunuzda kalır; otomasyon katmanının hangi sağlayıcıda ve bölgede çalışacağı teklifte yazılı olarak belirtilir."
   },
   {
     icon: Sparkles,
@@ -212,7 +212,7 @@ const solutionSteps = [
   {
     icon: CheckCircle2,
     title: "Eğitim + Canlı",
-    description: "Ekibinize 4 saatlik canlı Türkçe eğitim. Logo deneyiminiz aynen kalır, üstüne modern otomasyon paneli eklenir."
+    description: "Ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir. Logo deneyiminiz aynen kalır, üstüne modern otomasyon paneli eklenir."
   }
 ];
 
@@ -220,9 +220,9 @@ const features = [
   { icon: Boxes, title: "Logo / Mikro / Netsis üzerinde çalışır", desc: "ERP'nizi değiştirmiyoruz. Cari hesap, fatura, stok, sipariş verisi Logo'da kalır. PORTZEN sadece otomasyon katmanı ekler." },
   { icon: MessageCircle, title: "WhatsApp Business API + Logo cari", desc: "Müşteri WhatsApp'tan yazınca otomatik Logo cari kartı açılır, eski sipariş geçmişi cevap olarak gelir." },
   { icon: Plug, title: "E-ticaret connector'ları", desc: "Shopify, WooCommerce, Trendyol, n11, Hepsiburada siparişleri otomatik Logo'ya düşer. Stok geri sync olur." },
-  { icon: ShieldCheck, title: "KVKK + Türkiye sunucu", desc: "Otomasyon katmanı Türkiye lokasyonlu sunucuda. Aydınlatma metni, açık rıza, VERBİS kayıt desteği dahil." },
+  { icon: ShieldCheck, title: "KVKK + veri bölgesi", desc: "Otomasyon katmanı KVKK gerekliliklerini dikkate alarak kurgulanır; hangi sağlayıcıda ve bölgede çalışacağı teklifte yazılı olarak belirtilir. Açık rıza akışı kuruluma dahil; aydınlatma metni ve VERBİS kaydı hariç." },
   { icon: TrendingUp, title: "AI lead scoring + analiz", desc: "n8n + LLM kombinasyonu ile lead'lere skor verir, müşteri konuşmalarını özetler, fatura PDF'inden veri çıkarır." },
-  { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile aynı gün dönüş. Logo bayisi geç dönüşleri yerine direkt PORTZEN ekibi." }
+  { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile en kısa sürede dönüş yapıyoruz. Bayi yerine doğrudan PORTZEN ekibiyle görüşürsünüz." }
 ];
 
 const faqs = [
@@ -232,7 +232,7 @@ const faqs = [
   },
   {
     q: "Logo'nun kendi CRM modülü var, neden PORTZEN'e ihtiyacım var?",
-    a: "Logo CRM modülü temel cari hesap + pipeline yapısı sunar, geleneksel KOBİ için yeterli olabilir. Ancak şu özellikler eksik kalıyor: resmi WhatsApp Business API entegrasyonu, AI destekli lead scoring, otomatik e-mail kampanya, web form connector, Instagram / Facebook lead bağlantısı, modern dashboard ve mobil deneyim. Logo CRM'inde bu modüllerin hepsi ya ek lisans gerektirir (Logo Workflow Plus, Logo Connect vs.) ya da yoktur. PORTZEN bunları aylık paket içinde, Logo verisi üstüne çalışacak şekilde kurar."
+    a: "Logo CRM modülü temel cari hesap + pipeline yapısı sunar, geleneksel KOBİ için yeterli olabilir. Ancak şu özellikler eksik kalıyor: resmi WhatsApp Business API entegrasyonu, AI destekli lead scoring, otomatik e-mail kampanya, web form connector, Instagram / Facebook lead bağlantısı, modern dashboard ve mobil deneyim. Logo CRM'inde bu modüllerin hepsi ya ek lisans gerektirir (Logo Workflow Plus, Logo Connect vs.) ya da yoktur. PORTZEN bunları tek seferlik kurulum olarak (isteğe bağlı aylık bakımla) Logo verisi üstüne çalışacak şekilde kurar."
   },
   {
     q: "Logo Tiger'dan Netsis'e ya da Mikro'ya geçiş planlıyorum, beklemeli miyim?",
@@ -240,19 +240,19 @@ const faqs = [
   },
   {
     q: "Logo Yazılım yıllık bakım ücretini ödüyorum, üstüne PORTZEN ödemek mantıklı mı?",
-    a: "Logo bakım ücreti ERP temel modülleri (muhasebe, stok, fatura) için ödenir. PORTZEN otomasyon katmanı farklı bir hizmet: WhatsApp + lead + email + e-ticaret + AI tarafı. İki çözüm farklı katmanlarda, birbirinin yerine geçmez, tamamlar. Çoğu PORTZEN müşterimiz Logo bakımını da ödemeye devam eder. Manuel veri girişi azalır, kaçırılan lead sayısı düşer, WhatsApp + email otomasyon sayesinde satış döngüsü hızlanır. Fiyat brief görüşmesinde net paylaşılıyor."
+    a: "Logo bakım ücreti ERP temel modülleri (muhasebe, stok, fatura) için ödenir. PORTZEN otomasyon katmanı farklı bir hizmet: WhatsApp + lead + email + e-ticaret + AI tarafı. İki çözüm farklı katmanlarda, birbirinin yerine geçmez, tamamlar. Bu nedenle Logo bakımı genellikle devam eder. PORTZEN tarafında Logo verisi WhatsApp, e-posta ve web form akışlarına bağlanır; lead ve müşteri kayıtları elle girilmek yerine otomatik oluşturulur. Fiyat brief görüşmesinde net paylaşılıyor."
   },
   {
     q: "Mevcut Logo verilerimi PORTZEN okuyabilir mi?",
     a: "Evet. Logo Tiger'ın REST API'sini, Logo Diva web servislerini ve Logo Workflow modülünü kullanarak cari hesap, fatura, sipariş, irsaliye ve stok verilerini gerçek zamanlı okur. Yazma işlemleri için de aynı API'leri kullanır; örneğin PORTZEN'de yeni bir lead müşteri olunca otomatik Logo cari kartı açılır. Mikro Fly Web API ve Netsis HTSWeb için de hazır connector'larımız var. Veri okuma-yazma işlemleri Logo'nun standart güvenlik katmanından geçer, ek izin gerekmez."
   },
   {
-    q: "KVKK uyumlu mu, veri nerede saklanır?",
-    a: "Evet, KVKK tam uyumlu. PORTZEN otomasyon katmanı Türkiye lokasyonlu sunucularda çalışır (Kurumsal pakette self-hosted opsiyonu var). Kişisel veri (müşteri telefon, e-posta, isim) Türkiye'de işlenir. KVKK aydınlatma metni, açık rıza akışı, veri silme talep formu (KVKK Madde 11) ve VERBİS kayıt desteği paket dahildir. Logo / Mikro / Netsis verileri kendi sunucunuzda kalır, sadece otomasyon için gereken alanlar PORTZEN katmanına gelir."
+    q: "KVKK açısından nasıl kurgulanıyor, veri nerede saklanır?",
+    a: "Kurulum KVKK gerekliliklerini dikkate alarak kurgulanır (açık rıza, aydınlatma akışı). Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir (self-hosted kurulum da mümkündür; sunucu giderleri hizmet bedeline dahil değildir). Açık rıza akışı ve veri silme talep formu (KVKK Madde 11) kuruluma dahildir; aydınlatma metni ve VERBİS kaydı hukuki iş olduğundan paketlere dahil değildir. Logo / Mikro / Netsis verileri kendi sunucunuzda kalır, sadece otomasyon için gereken alanlar PORTZEN katmanına gelir."
   },
   {
     q: "Kurulum ne kadar sürer, ekibim ne zaman kullanmaya başlar?",
-    a: "Mevcut ERP'nizin durumuna ve istediğiniz akış sayısına göre 14-30 iş günü. Tipik program: ilk hafta Logo / Mikro / Netsis API erişimi + veri haritalama, ikinci hafta n8n akışları + WhatsApp + e-mail entegrasyonu, üçüncü hafta test + 4 saatlik canlı Türkçe ekip eğitimi. Ekibiniz mevcut Logo arayüzünü kullanmaya devam eder, PORTZEN paneli ek bir sekme gibi açılır. Otomasyon akışları arka planda çalışır, kullanıcı için fark sadece daha az manuel iş ve daha hızlı tepki süresidir."
+    a: "Teslim süresi; mevcut ERP'nizin durumuna ve istediğiniz akış sayısına göre kapsamla birlikte teklifte yazılı olarak belirtilir. Tipik sıra: önce Logo / Mikro / Netsis API erişimi + veri haritalama, ardından n8n akışları + WhatsApp + e-mail entegrasyonu, son olarak test + ekip eğitimi (Büyüme ve Kurumsal paketlerde dahil). Ekibiniz mevcut Logo arayüzünü kullanmaya devam eder, PORTZEN paneli ek bir sekme gibi açılır. Otomasyon akışları arka planda çalışır, kullanıcı için fark sadece daha az manuel iş ve daha hızlı tepki süresidir."
   }
 ];
 
@@ -264,7 +264,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -277,32 +277,32 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-blue text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Boxes className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Logo Yazılım Alternatifi</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   Logo Yazılım Alternatifi: Modern KOBİ İçin ERP Üstüne AI Otomasyon Katmanı
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Logo Tiger, Mikro Fly veya Netsis Wings güçlü ERP'lerdir ama WhatsApp, AI, e-ticaret entegrasyonu, modern lead yönetimi konusunda eksik kalırlar. PORTZEN mevcut ERP'nizi kaldırmadan üstüne n8n + Make + AI workflow katmanı ekler. ERP'niz aynen kalır, modern otomasyon ucuza gelir.
+                  Logo Tiger, Mikro Fly veya Netsis Wings güçlü ERP&apos;lerdir ama WhatsApp, AI, e-ticaret entegrasyonu, modern lead yönetimi konusunda eksik kalırlar. PORTZEN mevcut ERP&apos;nizi kaldırmadan üstüne n8n + Make + AI workflow katmanı ekler. ERP&apos;niz aynen kalır, modern otomasyon ucuza gelir.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/crm-otomasyonu"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     CRM Otomasyonu <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -316,8 +316,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-blue text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -333,23 +333,23 @@ export default function Page() {
       </section>
 
       {/* 2. NEDEN ALTERNATİF */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Logo / Mikro / Netsis'in modern KOBİ için 6 eksiği
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
+                Logo / Mikro / Netsis&apos;in modern KOBİ için 6 eksiği
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Logo geleneksel ERP'de iyidir, modern otomasyon ise farklı katman ister.
+                Logo geleneksel ERP&apos;de iyidir, modern otomasyon ise farklı katman ister.
               </h2>
             </div>
           </Reveal>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {painPoints.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-paper bg-brand-blue text-paper mb-4">
+                <div className="border-3 border-ink/10 bg-light p-5 h-full rounded-2xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-ink/10 bg-slate text-white mb-4 rounded-full">
                     <X className="h-5 w-5" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2">{p.title}</h3>
@@ -362,11 +362,11 @@ export default function Page() {
       </section>
 
       {/* 3. KARŞILAŞTIRMA TABLOSU */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Yan yana karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -376,12 +376,12 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">Logo + Ek Modüller</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -394,7 +394,7 @@ export default function Page() {
                           <span className="text-xs">{row.manychat}</span>
                         </div>
                       </td>
-                      <td className="p-4 text-center text-sm bg-brand-yellow/30 text-ink">
+                      <td className="p-4 text-center text-sm bg-light text-ink">
                         <div className="flex flex-col items-center gap-1">
                           <Check className="h-4 w-4 text-green-700" />
                           <span className="text-xs font-bold">{row.portzen}</span>
@@ -408,22 +408,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak.</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Not.</strong> Karşılaştırma genel bilgilendirme amaçlıdır; Logo / Mikro / Netsis modülleri ve lisans koşulları değişebilir, güncel bilgi için bayinizle kontrol edin.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 4. PORTZEN ÇÖZÜMÜ */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Kurulum süreci
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Logo'yu kaldırmadan 21 günde modern otomasyon
+                Logo&apos;yu kaldırmadan 4 adımda modern otomasyon
               </h2>
             </div>
           </Reveal>
@@ -432,8 +432,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -447,15 +447,15 @@ export default function Page() {
       </section>
 
       {/* 5. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                PORTZEN'in farkı
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                PORTZEN&apos;in farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Logo'da olmayan, ekstra modül gerektiren 6 yetenek
+                Logo&apos;da olmayan, ekstra modül gerektiren 6 yetenek
               </h2>
             </div>
           </Reveal>
@@ -464,7 +464,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -477,11 +477,11 @@ export default function Page() {
       </section>
 
       {/* 6. USE CASES */}
-      <section className="bg-brand-blue text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Gerçek senaryolar
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek senaryolar
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -492,56 +492,56 @@ export default function Page() {
 
           <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <Reveal delay={150}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                <div className="text-xs font-black uppercase tracking-wider text-brand-blue mb-2">Senaryo 1</div>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                <div className="text-xs font-black uppercase tracking-wider text-ink mb-2">Senaryo 1</div>
                 <h3 className="font-display text-lg font-black mb-3">WhatsApp lead Logo cari oluyor</h3>
                 <p className="text-sm leading-relaxed">
-                  Müşteri WhatsApp'tan ürün soruyor. PORTZEN AI cevap veriyor, ilgilenirse otomatik Logo Tiger'da cari kart açılıyor, satış temsilcisi mobilden takip ediyor. Manuel veri girişi sıfır.
+                  Müşteri WhatsApp&apos;tan ürün soruyor; soruyu AI müşteri asistanı (ayrı hizmet) yanıtlıyor. İlgilenirse otomatik Logo Tiger&apos;da cari kart açılıyor, satış temsilcisi mobilden takip ediyor. Cari kart elle girilmiyor.
                 </p>
               </div>
             </Reveal>
             <Reveal delay={200}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                <div className="text-xs font-black uppercase tracking-wider text-brand-blue mb-2">Senaryo 2</div>
-                <h3 className="font-display text-lg font-black mb-3">Trendyol siparişi Logo'ya akıyor</h3>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                <div className="text-xs font-black uppercase tracking-wider text-ink mb-2">Senaryo 2</div>
+                <h3 className="font-display text-lg font-black mb-3">Trendyol siparişi Logo&apos;ya akıyor</h3>
                 <p className="text-sm leading-relaxed">
-                  Trendyol'da yeni sipariş, PORTZEN otomatik Logo'ya irsaliye + fatura kaydı oluşturuyor. Stok düşüyor. Kargo bilgisi WhatsApp ile müşteriye gidiyor. Tek node n8n akışı.
+                  Trendyol&apos;da yeni sipariş, PORTZEN otomatik Logo&apos;ya irsaliye + fatura kaydı oluşturuyor. Stok düşüyor. Kargo bilgisi WhatsApp ile müşteriye gidiyor. Tek node n8n akışı.
                 </p>
               </div>
             </Reveal>
             <Reveal delay={250}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                <div className="text-xs font-black uppercase tracking-wider text-brand-blue mb-2">Senaryo 3</div>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                <div className="text-xs font-black uppercase tracking-wider text-ink mb-2">Senaryo 3</div>
                 <h3 className="font-display text-lg font-black mb-3">Tahsilat hatırlatması</h3>
                 <p className="text-sm leading-relaxed">
-                  Logo'da vadesi gelen fatura PORTZEN tarafından okunuyor. Müşteriye WhatsApp ile nazik hatırlatma. Tahsilat olunca Logo'da otomatik tahsilat girişi. Muhasebe ekibi 8 saatlik işi sıfırlıyor.
+                  Logo&apos;da vadesi gelen fatura PORTZEN tarafından okunuyor. Müşteriye WhatsApp ile nazik hatırlatma. Tahsilat olunca Logo&apos;da otomatik tahsilat girişi. Muhasebe ekibi hatırlatma ve tahsilat kaydını elle yapmıyor.
                 </p>
               </div>
             </Reveal>
             <Reveal delay={300}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                <div className="text-xs font-black uppercase tracking-wider text-brand-blue mb-2">Senaryo 4</div>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                <div className="text-xs font-black uppercase tracking-wider text-ink mb-2">Senaryo 4</div>
                 <h3 className="font-display text-lg font-black mb-3">Saha satış ekibi mobil</h3>
                 <p className="text-sm leading-relaxed">
-                  Saha satış temsilcisi WhatsApp'tan sipariş alıyor. PORTZEN tabletinde Logo cari + stok + fiyat listesini gösteriyor. Sipariş Logo'ya direkt düşüyor. Logo Mobile karmaşası bitti.
+                  Saha satış temsilcisi WhatsApp&apos;tan sipariş alıyor. PORTZEN tabletinde Logo cari + stok + fiyat listesini gösteriyor. Sipariş Logo&apos;ya direkt düşüyor. Logo Mobile karmaşası bitti.
                 </p>
               </div>
             </Reveal>
             <Reveal delay={350}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                <div className="text-xs font-black uppercase tracking-wider text-brand-blue mb-2">Senaryo 5</div>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                <div className="text-xs font-black uppercase tracking-wider text-ink mb-2">Senaryo 5</div>
                 <h3 className="font-display text-lg font-black mb-3">AI fatura okuma</h3>
                 <p className="text-sm leading-relaxed">
-                  Tedarikçilerden gelen PDF faturaları PORTZEN AI okuyor, alış faturası olarak Logo'ya kaydediyor. Muhasebe ekibi sadece onay veriyor. Aylık 200 fatura, 10 saatten 1 saate düşüyor.
+                  Tedarikçilerden gelen PDF faturaları PORTZEN AI okuyor, alış faturası olarak Logo&apos;ya kaydediyor. Muhasebe ekibi fatura verisini elle yazmıyor, yalnızca kontrol edip onay veriyor.
                 </p>
               </div>
             </Reveal>
             <Reveal delay={400}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                <div className="text-xs font-black uppercase tracking-wider text-brand-blue mb-2">Senaryo 6</div>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                <div className="text-xs font-black uppercase tracking-wider text-ink mb-2">Senaryo 6</div>
                 <h3 className="font-display text-lg font-black mb-3">Modern dashboard</h3>
                 <p className="text-sm leading-relaxed">
-                  Logo'nun raporu yerine PORTZEN üzerinde modern, mobil uyumlu satış + kar + tahsilat dashboard'u. Yönetici telefondan günlük rakamı görüyor. Logo raporlama modülü gerekmiyor.
+                  Logo&apos;nun raporu yerine PORTZEN üzerinde modern, mobil uyumlu satış + kar + tahsilat dashboard&apos;u. Yönetici telefondan günlük rakamı görüyor. Logo raporlama modülü gerekmiyor.
                 </p>
               </div>
             </Reveal>
@@ -550,11 +550,11 @@ export default function Page() {
       </section>
 
       {/* 8. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
@@ -565,7 +565,7 @@ export default function Page() {
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -575,23 +575,23 @@ export default function Page() {
 
           <Reveal delay={300}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">Zapier alternatifi mi arıyorsunuz?</h3>
                 <p className="text-sm opacity-85 mb-3">
                   Zapier yerine n8n + Make + Türk uygulama entegrasyonu kuruyoruz.
                 </p>
-                <Link href="/zapier-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/zapier-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   Zapier Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">CRM otomasyonu detayı?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  PORTZEN'in CRM otomasyon sistemi tam olarak ne yapıyor, hangi özellikler dahil.
+                  PORTZEN&apos;in CRM otomasyon sistemi tam olarak ne yapıyor, hangi özellikler dahil.
                 </p>
-                <Link href="/crm-otomasyonu" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/crm-otomasyonu" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   CRM Otomasyonu <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
@@ -601,38 +601,38 @@ export default function Page() {
       </section>
 
       {/* 9. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Logo'yu kaldırmadan ekibinizi modernleştirelim.
+                Logo&apos;yu kaldırmadan ekibinizi modernleştirelim.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık ücretsiz keşif görüşmesinde mevcut Logo / Mikro / Netsis kurulumunuzu analiz ediyoruz. Hangi otomasyon akışlarının en hızlı geri dönüş vereceğini gösteriyoruz.
+                15 dakikalık ücretsiz keşif görüşmesinde mevcut Logo / Mikro / Netsis kurulumunuzu analiz ediyoruz. Hangi otomasyon akışlarıyla başlamanın mantıklı olduğunu birlikte belirliyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905015884853"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  href="tel:+905318639117"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
                 </a>
@@ -642,7 +642,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

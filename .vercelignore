@@ -1,0 +1,4 @@
+_zips
+.env.local
+node_modules
+.next

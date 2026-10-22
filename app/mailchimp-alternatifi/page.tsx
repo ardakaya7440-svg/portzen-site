@@ -18,11 +18,13 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
+import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
+import { PricingSection } from "@/components/pricing/PricingSection";
 
 export const metadata: Metadata = {
   title: "Mailchimp Alternatifi | Türk KOBİ İçin Email Otomasyonu - PORTZEN",
   description:
-    "Mailchimp KVKK uyumu sizde, Türkçe destek yok. PORTZEN; Brevo / Resend backend, dinamik segment, KVKK + İYS uyumlu email otomasyonu.",
+    "Mailchimp KVKK uyumu sizde, Türkçe destek yok. PORTZEN; Brevo / Resend backend, dinamik segment, İYS izin kontrolü ve KVKK gerekliliklerini dikkate alan email otomasyonu kurar.",
   keywords: [
     "mailchimp alternatifi",
     "mailchimp türkçe",
@@ -40,13 +42,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Mailchimp Alternatifi | Türk KOBİ İçin Email Otomasyonu - PORTZEN",
     description:
-      "Mailchimp yerine KVKK uyumlu, Türkçe destekli, İYS entegre email otomasyonu."
+      "Mailchimp yerine KVKK gerekliliklerini dikkate alan, Türkçe destekli, İYS entegre email otomasyonu."
   },
   twitter: {
     card: "summary_large_image",
     title: "Mailchimp Alternatifi | PORTZEN",
     description:
-      "Türk KOBİ için tasarlanmış, KVKK + İYS uyumlu, çok kanallı email otomasyonu."
+      "Türk KOBİ için tasarlanmış, İYS izin kontrollü, KVKK gerekliliklerini dikkate alan email otomasyonu."
   },
   alternates: { canonical: "https://portzenai.com/mailchimp-alternatifi" },
   robots: { index: true, follow: true }
@@ -60,7 +62,7 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   serviceType: "Email Marketing Automation",
@@ -78,7 +80,7 @@ const faqSchema = {
       name: "Mailchimp'in Essentials planı ucuz görünüyor, neden alternatif?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Mailchimp Essentials kişi başına ücretlendirir; liste büyüdükçe fatura katlanır. Otomasyon journey sayısı kısıtlı, gelişmiş segmentasyon ve A/B test Standard / Premium plana özel. PORTZEN'de bu özellikler giriş paketinde dahildir."
+        text: "Mailchimp Essentials kişi başına ücretlendirir; liste büyüdükçe fatura katlanır. Otomasyon journey sayısı kısıtlı, gelişmiş segmentasyon ve A/B test Standard / Premium plana özel. PORTZEN'de bu özellikler plan kilidine bağlı değildir; kurulacak iş akışı ve uygulama bağlantısı sayısı seçilen pakete göre belirlenir."
       }
     },
     {
@@ -86,7 +88,7 @@ const faqSchema = {
       name: "Domain doğrulama ve teslim oranı nasıl?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "PORTZEN kurulumunda domain için SPF, DKIM, DMARC kayıtları yapılır. Backend olarak Resend / Amazon SES / Brevo kullanılır, teslim oranı %99 bandındadır. Spam puanı ve inbox placement haftalık raporlanır."
+        text: "PORTZEN kurulumunda domain için SPF, DKIM, DMARC kayıtları yapılır. Backend olarak Resend / Amazon SES / Brevo kullanılır; teslim oranı domain doğrulaması, liste kalitesi ve gönderim servisine göre değişir. Spam puanı ve inbox placement haftalık raporlanır."
       }
     },
     {
@@ -102,7 +104,7 @@ const faqSchema = {
       name: "Türkçe şablon ve eğitim var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. PORTZEN içerisinde Türkçe email şablonları (welcome, sepet bırakma, post-purchase, win-back, doğum günü, kampanya) hazır gelir. Ekibinize 4 saatlik canlı Türkçe eğitim verilir, video kütüphanesi paket dahildir."
+        text: "Evet. PORTZEN içerisinde Türkçe email şablonları (welcome, sepet bırakma, post-purchase, win-back, doğum günü, kampanya) hazır gelir. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir; Türkçe video kütüphanesi de sunulur."
       }
     },
     {
@@ -110,7 +112,7 @@ const faqSchema = {
       name: "Transactional email (sipariş onayı, şifre sıfırlama) da gönderebilir miyim?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. PORTZEN aynı altyapı üzerinden marketing + transactional email gönderir. Resend / SES API ile uygulamanız PORTZEN'e bağlanır, kullanıcı işlemlerinde otomatik mail tetiklenir. Mailchimp Transactional (Mandrill) ayrı lisans gerektirir, PORTZEN'de paket dahildir."
+        text: "Evet. PORTZEN aynı altyapı üzerinden marketing + transactional email gönderir. Resend / SES API ile uygulamanız PORTZEN'e bağlanır, kullanıcı işlemlerinde otomatik mail tetiklenir. Mailchimp Transactional (Mandrill) ayrı lisans gerektirir; PORTZEN'de aynı altyapıda kurulur, gönderim servisi ücreti hizmet bedeline dahil değildir."
       }
     },
     {
@@ -148,9 +150,9 @@ const breadcrumbSchema = {
 
 const stats = [
   { metric: "Sabit", label: "Kur riskinden bağımsız" },
-  { metric: "%99", label: "Teslim oranı (SPF/DKIM/DMARC)" },
-  { metric: "İYS", label: "Uyumlu, otomatik kontrol" },
-  { metric: "14 gün", label: "Mailchimp'ten taşıma" }
+  { metric: "SPF/DKIM", label: "Domain doğrulaması kurulumda" },
+  { metric: "İYS", label: "Otomatik izin kontrolü" },
+  { metric: "CSV + API", label: "Mailchimp'ten taşıma" }
 ];
 
 const painPoints = [
@@ -188,8 +190,8 @@ const comparisonRows = [
   { feature: "Türkçe canlı destek", manychat: "Plana özel + sınırlı", portzen: "Tüm paketlerde dahil" },
   { feature: "T-Soft / Ideasoft / Ticimax entegre", manychat: "Yok", portzen: "Hazır + n8n köprü" },
   { feature: "Trendyol / Hepsiburada veri akışı", manychat: "Yok", portzen: "n8n ile otomatik" },
-  { feature: "Transactional email dahil", manychat: "Mandrill ek lisans", portzen: "Aynı pakette dahil" },
-  { feature: "Dinamik segment + RFM", manychat: "Premium plana özel", portzen: "Giriş paketinde dahil" },
+  { feature: "Transactional email", manychat: "Mandrill ek lisans", portzen: "Aynı altyapıda kurulur" },
+  { feature: "Dinamik segment + RFM", manychat: "Premium plana özel", portzen: "Plan kilidi yok, kurulum kapsamında" },
   { feature: "Türkçe şablon kütüphanesi", manychat: "Yok", portzen: "Hazır 25+ şablon" }
 ];
 
@@ -217,64 +219,22 @@ const solutionSteps = [
 ];
 
 const features = [
-  { icon: Mail, title: "Yerel çalışma modeli", desc: "Sabit paket mantığı, e-Arşiv fatura, KDV dahil. USD kur riski yok, bütçe öngörülebilir." },
-  { icon: Inbox, title: "Transactional + Marketing tek yer", desc: "Sipariş onayı, şifre sıfırlama, fatura mailleri ve kampanyalar aynı altyapıdan, ayrı lisans yok." },
-  { icon: TrendingUp, title: "Dinamik segment + RFM", desc: "Davranış, sıklık ve sepet tutarına göre dinamik segment. Mailchimp Premium özelliği giriş paketinde." },
-  { icon: ShieldCheck, title: "İYS + KVKK uyum motoru", desc: "Her gönderim öncesi İYS izin kontrolü, aydınlatma metni şablonu, veri silme talep yönetimi dahil." },
+  { icon: Mail, title: "Yerel çalışma modeli", desc: "Sabit paket mantığı, TL fiyat (KDV hariç), e-Arşiv fatura. USD kur riski yok, bütçe öngörülebilir." },
+  { icon: Inbox, title: "Transactional + Marketing tek yer", desc: "Sipariş onayı, şifre sıfırlama, fatura mailleri ve kampanyalar aynı altyapıdan yönetilir; gönderim servisi ücreti ayrıdır." },
+  { icon: TrendingUp, title: "Dinamik segment + RFM", desc: "Davranış, sıklık ve sepet tutarına göre dinamik segment. Mailchimp'te Premium plana özel; PORTZEN'de plan kilidi yoktur." },
+  { icon: ShieldCheck, title: "İYS izin kontrolü + KVKK akışı", desc: "Her gönderim öncesi İYS izin kontrolü, aydınlatma metni şablonu, veri silme talep yönetimi dahil." },
   { icon: Building2, title: "Türk e-ticaret entegrasyonları", desc: "T-Soft, Ideasoft, Ticimax, Shopify, WooCommerce için hazır connector. Trendyol / Hepsiburada n8n köprüsü." },
-  { icon: HeadphonesIcon, title: "Türkçe destek + eğitim", desc: "WhatsApp + telefon ile Türkçe canlı destek. 4 saatlik canlı eğitim ve Türkçe video kütüphanesi paket dahil." }
-];
-
-const packages = [
-  {
-    name: "Başlangıç",
-    color: "bg-paper",
-    features: [
-      "10.000 kişiye kadar liste",
-      "10.000 mail/ay dahil",
-      "10 otomatik akış",
-      "Temel segmentasyon",
-      "Türkçe şablon kütüphanesi"
-    ],
-    cta: "Görüşme Al"
-  },
-  {
-    name: "Pro",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "50.000 kişiye kadar liste",
-      "200.000 mail/ay dahil",
-      "Sınırsız otomasyon akışı",
-      "Dinamik segment + RFM",
-      "Transactional email dahil",
-      "Aylık optimizasyon toplantısı"
-    ],
-    cta: "Görüşme Al"
-  },
-  {
-    name: "Kurumsal",
-    color: "bg-paper",
-    features: [
-      "Sınırsız kişi + gönderim",
-      "Adanmış IP + ısıtma",
-      "Özel API geliştirme",
-      "SLA + 7/24 destek",
-      "Aylık detaylı performans raporu",
-      "Çoklu marka + domain yönetimi"
-    ],
-    cta: "Görüşme Al"
-  }
+  { icon: HeadphonesIcon, title: "Türkçe destek + eğitim", desc: "WhatsApp + telefon ile Türkçe canlı destek. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahil; Türkçe video kütüphanesi." }
 ];
 
 const faqs = [
   {
     q: "Mailchimp'in Essentials planı ucuz görünüyor, neden alternatif?",
-    a: "Mailchimp Essentials kişi başına ücretlendirir; liste büyüdükçe fatura basamak basamak katlanır. Üstelik otomasyon journey sayısı kısıtlı, gelişmiş segmentasyon, multivariate test, predictive segmentation gibi özellikler Standard / Premium plana özeldir. PORTZEN'de bu özelliklerin tamamı giriş paketinde dahildir. Fiyat, ihtiyacına göre kişiselleştiriliyor; 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz."
+    a: `Mailchimp Essentials kişi başına ücretlendirir; liste büyüdükçe fatura basamak basamak katlanır. Üstelik otomasyon journey sayısı kısıtlı, gelişmiş segmentasyon, multivariate test, predictive segmentation gibi özellikler Standard / Premium plana özeldir. PORTZEN'de bu özellikler plan kilidine bağlı değildir; kurulacak iş akışı ve uygulama bağlantısı sayısı seçilen pakete göre belirlenir. PORTZEN iş otomasyonu paketleri tek seferliktir (KDV hariç): ${familyPriceSummary("is-otomasyonu")}. İsteğe bağlı aylık bakım ikinci aydan itibaren ${maintenanceSummary()}.`
   },
   {
     q: "Domain doğrulama ve teslim oranı nasıl?",
-    a: "PORTZEN kurulumunda gönderim domaini için SPF, DKIM ve DMARC DNS kayıtları yapılır. Backend olarak Resend, Amazon SES veya Brevo kullanılır; teslim oranı tipik olarak %99 bandındadır. Spam puanı, inbox placement, bounce ve complaint oranı haftalık raporlanır. IP reputation izlenir, sorun anında uyarı çıkar."
+    a: "PORTZEN kurulumunda gönderim domaini için SPF, DKIM ve DMARC DNS kayıtları yapılır. Backend olarak Resend, Amazon SES veya Brevo kullanılır; teslim oranı domain doğrulaması, liste kalitesi ve gönderim servisine göre değişir ve düzenli izlenir. Spam puanı, inbox placement, bounce ve complaint oranı haftalık raporlanır. IP reputation izlenir, sorun anında uyarı çıkar."
   },
   {
     q: "Mevcut Mailchimp listemi taşıyabilir miyim?",
@@ -282,11 +242,11 @@ const faqs = [
   },
   {
     q: "Türkçe şablon ve eğitim var mı?",
-    a: "Evet. PORTZEN içinde 25+ Türkçe email şablonu hazır gelir: welcome serisi (3 adımlı), sepet bırakma (3 adımlı), post-purchase teşekkür, çapraz satış, win-back (30/60/90 gün), doğum günü, kampanya duyurusu, ürün önerisi, anket. Ekibinize 4 saatlik canlı Türkçe kurulum eğitimi verilir, video kütüphanesi paket dahildir."
+    a: "Evet. PORTZEN içinde 25+ Türkçe email şablonu hazır gelir: welcome serisi (3 adımlı), sepet bırakma (3 adımlı), post-purchase teşekkür, çapraz satış, win-back (30/60/90 gün), doğum günü, kampanya duyurusu, ürün önerisi, anket. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir; Türkçe video kütüphanesi de sunulur."
   },
   {
     q: "Transactional email (sipariş onayı, şifre sıfırlama) da gönderebilir miyim?",
-    a: "Evet. PORTZEN aynı altyapı üzerinden hem marketing hem transactional email gönderir. Resend / SES API ile uygulamanız PORTZEN'e bağlanır, kullanıcı işlemlerinde otomatik mail tetiklenir. Mailchimp'te Transactional (Mandrill) ayrı lisans ve kullanım kredisi gerektirir; PORTZEN'de aynı pakette dahildir."
+    a: "Evet. PORTZEN aynı altyapı üzerinden hem marketing hem transactional email gönderir. Resend / SES API ile uygulamanız PORTZEN'e bağlanır, kullanıcı işlemlerinde otomatik mail tetiklenir. Mailchimp'te Transactional (Mandrill) ayrı lisans ve kullanım kredisi gerektirir; PORTZEN'de aynı altyapıda kurulur, gönderim servisi ücreti hizmet bedeline dahil değildir."
   },
   {
     q: "Shopify, WooCommerce, Trendyol entegrasyonu var mı?",
@@ -306,7 +266,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -319,14 +279,14 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-purple text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Mail className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Mailchimp Alternatifi</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
-                  Mailchimp Alternatifi: KVKK Uyumlu, Türkçe Email Otomasyonu
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
+                  Mailchimp Alternatifi: İYS Entegre, Türkçe Email Otomasyonu
                 </h1>
               </Reveal>
               <Reveal delay={200}>
@@ -338,13 +298,13 @@ export default function Page() {
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/crm-otomasyonu"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     CRM Otomasyonu <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -358,8 +318,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-purple text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -375,12 +335,12 @@ export default function Page() {
       </section>
 
       {/* 2. NEDEN ALTERNATİF */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Mailchimp'in Türk KOBİ için 6 zayıf yönü
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
+                Mailchimp&apos;in Türk KOBİ için 6 zayıf yönü
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
                 Mailchimp global standart, ama yerel uyum tarafı sancılı.
@@ -390,8 +350,8 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {painPoints.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-paper bg-brand-purple text-paper mb-4">
+                <div className="border-3 border-ink/10 bg-light p-5 h-full rounded-2xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-ink/10 bg-slate text-white mb-4 rounded-full">
                     <X className="h-5 w-5" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2">{p.title}</h3>
@@ -404,11 +364,11 @@ export default function Page() {
       </section>
 
       {/* 3. KARŞILAŞTIRMA TABLOSU */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Yan yana karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -418,12 +378,12 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">Mailchimp Standard</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -436,7 +396,7 @@ export default function Page() {
                           <span className="text-xs">{row.manychat}</span>
                         </div>
                       </td>
-                      <td className="p-4 text-center text-sm bg-brand-yellow/30 text-ink">
+                      <td className="p-4 text-center text-sm bg-light text-ink">
                         <div className="flex flex-col items-center gap-1">
                           <Check className="h-4 w-4 text-green-700" />
                           <span className="text-xs font-bold">{row.portzen}</span>
@@ -450,22 +410,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> Mailchimp özellik ve plan bilgileri mailchimp.com'dan derlenmiştir; Brevo, MailerSend, MailerLite ile karşılaştırma müşteri taşıma deneyimlerinden çıkarılmıştır.
+              <strong>Kaynak:</strong> Mailchimp özellik ve plan bilgileri mailchimp.com&apos;dan derlenmiştir; plan ve fiyatlar değişebilir, güncel bilgi için resmi sayfayı kontrol edin.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 4. PORTZEN ÇÖZÜMÜ */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Taşıma süreci
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Mailchimp'ten 14 günde nasıl çıkarsınız?
+                Mailchimp&apos;ten 4 adımda nasıl çıkarsınız?
               </h2>
             </div>
           </Reveal>
@@ -474,8 +434,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -489,15 +449,15 @@ export default function Page() {
       </section>
 
       {/* 5. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                PORTZEN'in farkı
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                PORTZEN&apos;in farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Mailchimp'te ek lisans gereken 6 özellik
+                Mailchimp&apos;te ek lisans gereken 6 özellik
               </h2>
             </div>
           </Reveal>
@@ -506,7 +466,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -519,16 +479,16 @@ export default function Page() {
       </section>
 
       {/* 6. USE CASE */}
-      <section className="bg-brand-purple text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Gerçek bir vaka: İstanbul moda perakende markası
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek senaryo: moda perakende markası
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Mailchimp Standard'dan PORTZEN'e - aylık email geliri %52 arttı.
+              Mailchimp Standard&apos;dan PORTZEN&apos;e örnek bir geçiş kurulumu.
             </h2>
           </Reveal>
 
@@ -536,36 +496,36 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  İstanbul'da bir moda perakende markası 4 yıldır Mailchimp Standard planı kullanıyordu. 38.000 kişilik liste, 4 otomasyon (welcome, sepet bırakma, post-purchase, win-back), aylık 6-8 kampanya. Açılma %22, tıklama %2.8, email kaynaklı ciro istikrarlı ama sınırlıydı.
+                  Örnek senaryoda Mailchimp Standard planı kullanan bir moda perakende markası düşünelim. Liste büyüyor; welcome, sepet bırakma, post-purchase ve win-back otomasyonları çalışıyor, düzenli kampanya gönderiliyor.
                 </p>
                 <p>
-                  3 ana sıkıntı: (1) Kişi sayısı arttıkça USD fatura kur farkıyla katlanacaktı, (2) İYS entegrasyonu olmadığı için izinli/izinsiz takibi manuel CSV ile yapılıyor, denetim riski oluşuyordu, (3) Shopify entegrasyonu var ama Trendyol mağazasındaki müşteri verisi sisteme akmıyordu, segmentasyon eksikti.
+                  Bu tür kurulumlarda tipik 3 sıkıntı görülür: (1) Kişi sayısı arttıkça USD fatura kur farkıyla büyür, (2) İYS entegrasyonu olmadığı için izinli/izinsiz takibi manuel CSV ile yapılır, (3) Shopify entegrasyonu vardır ama Trendyol mağazasındaki müşteri verisi sisteme akmaz, segmentasyon eksik kalır.
                 </p>
                 <p>
-                  PORTZEN 14 günde devreye alındı. Mailchimp'ten 38.000 kişi + 12 segment + tüm gönderim geçmişi taşındı, İYS izin kontrolü taşıma sırasında otomatik yapıldı (1.800 izinsiz adres ayıklandı). Shopify + Trendyol n8n köprüsü ile çift yönlü senkronize edildi. 7 Türkçe şablon (welcome 3 adım, sepet bırakma 3 adım, post-purchase, çapraz satış, win-back 30/60/90, doğum günü, VIP) kuruldu.
+                  Örnek kurulumda Mailchimp&apos;ten kişi listeleri, segmentler ve gönderim geçmişi taşınır; İYS izin kontrolü taşıma sırasında otomatik yapılır ve izinsiz adresler ayıklanır. Shopify + Trendyol n8n köprüsü ile çift yönlü senkronize edilir. Türkçe şablonlar (welcome 3 adım, sepet bırakma 3 adım, post-purchase, çapraz satış, win-back 30/60/90, doğum günü, VIP) kurulur.
                 </p>
                 <p>
-                  3 ay sonra: açılma oranı %22'den %31'e, tıklama %2.8'den %4.6'ya çıktı (Türkçe şablonlar + segmentasyon iyileştirmesi). Email kaynaklı aylık ciro +%52 arttı. Mailchimp + Mandrill transactional faturası tek PORTZEN çalışma modeline birleşti, kur farkından etkilenmeyen öngörülebilir bir yapı elde edildi.
+                  İş akışında değişen: kampanya ve otomasyon e-postaları Türkçe şablonlarla, segmentlere göre gider; her gönderim öncesi İYS izni otomatik kontrol edilir; Trendyol ve Shopify müşterileri aynı segmentlerde toplanır. Transactional e-postalar da aynı altyapıdan yönetilir (gönderim servisi ücreti hizmet bedeline dahil değildir).
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Email kaynaklı ciro</div>
-                  <div className="font-display text-4xl font-black mb-1">+%52</div>
-                  <div className="text-sm">3 ay içinde</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">İzin kontrolü</div>
+                  <div className="font-display text-4xl font-black mb-1">İYS</div>
+                  <div className="text-sm">Her gönderim öncesi otomatik</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Açılma oranı</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">%22 → %31</div>
-                  <div className="text-sm">Türkçe + segment iyileştirme</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Şablonlar</div>
+                  <div className="font-display text-4xl font-black text-ink">Türkçe</div>
+                  <div className="text-sm">Welcome, sepet, win-back, doğum günü</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Devreye alış</div>
-                  <div className="font-display text-4xl font-black text-brand-green">14 gün</div>
-                  <div className="text-sm">38K kişi + 12 segment taşındı</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Kurulum</div>
+                  <div className="font-display text-4xl font-black text-ink">Tek seferlik</div>
+                  <div className="text-sm">Liste, segment ve akışlar taşınır</div>
                 </div>
               </div>
             </Reveal>
@@ -573,93 +533,27 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Çalışma modeli
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket - kişi başı ekstra yok
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Mailchimp'in kişi başına artan fiyatlamasının aksine PORTZEN sabit paket mantığı ile çalışır. Listeniz büyüdükçe fatura katlanmaz. Kapsam ve net rakam brief görüşmesinde paylaşılır.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="text-xs font-bold opacity-75 mb-6">Kapsam brief görüşmesinde netleştirilir</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <div className="font-display text-lg font-black mb-1">Email pazarlama otomasyonu rehberi</div>
-                <p className="text-sm opacity-90">
-                  Welcome serisi, sepet bırakma, RFM segmentasyon ve KVKK pratik rehberi.
-                </p>
-              </div>
-              <Link
-                href="/blog/email-pazarlama-otomasyonu-rehber"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                Rehberi Oku <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+
+      <PricingSection family="is-otomasyonu" heading="E-posta ve iş otomasyonu fiyatları" intro="E-posta akışları iş otomasyonu paketleriyle kurulur. Kurulum tek seferliktir; isteğe bağlı aylık bakım ikinci aydan itibaren başlar. Gönderim servisi ve harici yazılım lisansları hariçtir. Tutarlar TL ve KDV hariçtir." />
 
       {/* 8. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Mailchimp'ten geçmeden önce merak edilenler
+                Mailchimp&apos;ten geçmeden önce merak edilenler
               </h2>
             </div>
           </Reveal>
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -669,23 +563,23 @@ export default function Page() {
 
           <Reveal delay={300}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Inbox className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Inbox className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">Mailchimp vs Klaviyo karar?</h3>
                 <p className="text-sm opacity-85 mb-3">
                   Iki büyük rakibin yan yana karşılaştırması, hangisi hangi senaryoya uyar.
                 </p>
-                <Link href="/blog/mailchimp-vs-klaviyo-email" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/blog/mailchimp-vs-klaviyo-email" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   Blog Karşılaştırma <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Mail className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Mail className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">Klaviyo da pahalı geliyorsa?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  E-ticaret için Klaviyo'nun yarı maliyetli alternatifi.
+                  E-ticaret için Klaviyo&apos;ya TL bazlı, kapsamı yazılı bir alternatif.
                 </p>
-                <Link href="/klaviyo-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/klaviyo-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   Klaviyo Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
@@ -695,38 +589,38 @@ export default function Page() {
       </section>
 
       {/* 9. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Mailchimp'ten Türkçe, KVKK uyumlu bir kuruluma geçelim.
+                Mailchimp&apos;ten Türkçe, İYS entegre bir kuruluma geçelim.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                30 dakikalık ücretsiz brief görüşmesinde mevcut Mailchimp listenizi, otomasyon akışlarınızı ve gönderim verinizi analiz ediyoruz. Hangi şablonların PORTZEN'de Türkçeleşeceğini, hangi entegrasyonların ekleneceğini ve net rakamı bu görüşmede paylaşıyoruz.
+                30 dakikalık ücretsiz brief görüşmesinde mevcut Mailchimp listenizi, otomasyon akışlarınızı ve gönderim verinizi analiz ediyoruz. Hangi şablonların PORTZEN&apos;de Türkçeleşeceğini, hangi entegrasyonların ekleneceğini ve net rakamı bu görüşmede paylaşıyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905015884853"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  href="tel:+905318639117"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
                 </a>
@@ -736,7 +630,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

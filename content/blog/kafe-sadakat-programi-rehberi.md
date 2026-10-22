@@ -53,7 +53,7 @@ Türkiye'deki kafelerin yaklaşık yüzde altmışı hâlâ kâğıt damga kart 
 
 ### QR Tabanlı Dijital Damga Sistemi Nasıl Çalışır?
 
-Kasada duran bir QR kodunu müşteri telefonuyla okutuyor. WhatsApp üzerinden veya web tabanlı bir mini uygulama üzerinden damgası anında düşüyor. Telefon numarası dışında uygulama indirme zorunluluğu olmuyor. Bu kullanım kolaylığı, dönüşüm oranını kâğıda göre üç katına çıkarıyor.
+Kasada duran bir QR kodunu müşteri telefonuyla okutuyor. WhatsApp üzerinden veya web tabanlı bir mini uygulama üzerinden damgası anında düşüyor. Telefon numarası dışında uygulama indirme zorunluluğu olmuyor. Bu kullanım kolaylığı, müşterinin programa katılmasını kolaylaştırıyor.
 
 ### Kâğıt Karta Göre Avantajları
 
@@ -91,15 +91,15 @@ WhatsApp, Türkiye'de açılma oranı yüzde doksan sekizi geçen tek pazarlama 
 
 ### Sabah Müdavimine Yağmurlu Gün Mesajı
 
-Hava durumu API'si üzerinden tetiklenen bir otomasyon kurgusu düşünün. Hava yağmurluysa ve saat 08:15 ise, son 30 gün içinde sabah saatlerinde gelmiş müşterilere otomatik mesaj gidiyor: "Bugün hava soğuk, sıcacık flat white sizi bekliyor. İlk 20 müşteriye croissant ikram." Bu tür bağlama duyarlı (context-aware) mesajlar açılma ve dönüşüm oranlarını üç katına çıkarıyor.
+Hava durumu API'si üzerinden tetiklenen bir otomasyon kurgusu düşünün. Hava yağmurluysa ve saat 08:15 ise, son 30 gün içinde sabah saatlerinde gelmiş müşterilere otomatik mesaj gidiyor: "Bugün hava soğuk, sıcacık flat white sizi bekliyor. İlk 20 müşteriye croissant ikram." Bu tür bağlama duyarlı (context-aware) mesajlar, genel kampanya mesajlarına göre çok daha ilgili algılanıyor.
 
 ### Hafta Sonu Brunch Rezervasyonu
 
-Cuma akşamı 18:00'de hafta sonu brunch müdavimlerine giden mesaj: "Bu hafta sonu yeni sezonsal menümüz hazır. Masa rezervasyonu için cevap yazın." Masa rezervasyonu sistemiyle entegre çalıştığında manuel telefon trafiği yüzde sekseni geçen oranda azalıyor.
+Cuma akşamı 18:00'de hafta sonu brunch müdavimlerine giden mesaj: "Bu hafta sonu yeni sezonsal menümüz hazır. Masa rezervasyonu için cevap yazın." Masa rezervasyonu sistemiyle entegre çalıştığında manuel telefon trafiği belirgin şekilde azalıyor.
 
 ### Sezonsal Menü Geçişleri
 
-Yaz menüsünden sonbahar menüsüne geçişte tüm müdavim listeye giden bir lansman mesajı. Pumpkin spice latte, sıcak çikolata, tarçınlı cappuccino gibi mevsimsel ürünlerin lansmanını ilk haftada yüzde kırk daha fazla satışla başlatabiliyorsunuz. Kampanya otomasyonlarının nasıl kurgulandığına dair detayları [CRM otomasyonu](/crm-otomasyonu) sayfamızda bulabilirsiniz.
+Yaz menüsünden sonbahar menüsüne geçişte tüm müdavim listeye giden bir lansman mesajı. Pumpkin spice latte, sıcak çikolata, tarçınlı cappuccino gibi mevsimsel ürünlerin lansmanını müdavimlerinizin önceden haberdar olduğu güçlü bir ilk haftayla başlatabiliyorsunuz. Kampanya otomasyonlarının nasıl kurgulandığına dair detayları [CRM otomasyonu](/crm-otomasyonu) sayfamızda bulabilirsiniz.
 
 ### Happy Hour Doluluk Yönetimi
 
@@ -111,11 +111,11 @@ Kafe deneyiminin en duygusal bağlandığı an, müşterinin kendini hatırlanm�
 
 ### Doğum Günü Otomasyonu Nasıl Kurulur?
 
-Müşteri damga kart sistemine kaydolurken doğum tarihini de giriyor. Doğum gününden 3 gün önce hatırlatma mesajı: "Doğum gününüze özel hediye kahveniz sizi bekliyor. Sevdiklerinizle birlikte gelin, masamız hazır." Doğum günü sahibine ücretsiz bir tatlı veya kahve, yanında gelen 3 kişiye yüzde yirmi indirim. Bu kurguyla doğum günü mesajı alanların yüzde altmış beşi kafeye geliyor ve ortalama sepet 480 ₺'yi buluyor.
+Müşteri damga kart sistemine kaydolurken doğum tarihini de giriyor. Doğum gününden 3 gün önce hatırlatma mesajı: "Doğum gününüze özel hediye kahveniz sizi bekliyor. Sevdiklerinizle birlikte gelin, masamız hazır." Doğum günü sahibine ücretsiz bir tatlı veya kahve, yanında gelen 3 kişiye yüzde yirmi indirim. Bu kurgu, doğum günü sahibinin arkadaşlarıyla birlikte gelmesi için somut bir sebep yaratır.
 
 ### Yıl Dönümü ve İlk Ziyaret Mesajları
 
-"Bir yıl önce bugün ilk kahvenizi bizimle içtiniz. Teşekkür için ikinci kahvenizi ikram ediyoruz." Bu tarz hatırlatmalar müşterinin sizinle olan ilişkisini bir yıllık bir yolculuk olarak konumlandırıyor. Duygusal bağlılık skorunu yüzde kırk artırıyor.
+"Bir yıl önce bugün ilk kahvenizi bizimle içtiniz. Teşekkür için ikinci kahvenizi ikram ediyoruz." Bu tarz hatırlatmalar müşterinin sizinle olan ilişkisini bir yıllık bir yolculuk olarak konumlandırıyor. Müşteride hatırlanmış olma hissi yaratıyor.
 
 ### Sevgililer Günü, Anneler Günü, 8 Mart
 
@@ -131,7 +131,7 @@ Yeni menüye eklenecek 5-6 ürünü, lansmandan 1 hafta önce en sadık 30-50 m�
 
 ### Erken Erişim Penceresi
 
-Yeni ürün resmi lansmandan 3 gün önce sadece müdavim listeye açılıyor. "Sadece sizin için, herkesten önce" mesajı sadakat hissini güçlendiriyor. Bu strateji yeni menü kalemlerinin ilk hafta satışlarını yüzde elliyi geçen oranda artırıyor.
+Yeni ürün resmi lansmandan 3 gün önce sadece müdavim listeye açılıyor. "Sadece sizin için, herkesten önce" mesajı sadakat hissini güçlendiriyor. Bu strateji yeni menü kalemlerinin ilk hafta görünürlüğünü artırıyor.
 
 ### Sezonsal Menü Hikayesi Anlatımı
 
@@ -141,11 +141,11 @@ Yeni gelen Etiyopya Yirgacheffe partisinin hikayesini, hangi rakımda yetiştiğ
 
 ### Küçük bir kafe için sadakat programı kurmak pahalı mı?
 
-Hayır, aksine küçük kafeler için en yüksek geri dönüş veren yatırımdır. Aylık 1.500-3.000 ₺ aralığında bir altyapı maliyetiyle aylık 25.000-60.000 ₺ ek ciro üretmek mümkün. Çünkü yeni müşteri reklam maliyetinin bir kısmı tasarruf ediliyor, mevcut müdavim ziyaret sıklığı artıyor ve ortalama sepet büyüyor. Geri ödeme süresi genelde 6-10 hafta arasında oluyor.
+Hayır; küçük kafeler için de mantıklı bir yatırımdır. Çünkü yeni müşteri reklam maliyetinin bir kısmı tasarruf edilir, mevcut müdavimin ziyaret sıklığı ve ortalama sepeti artırılmaya çalışılır. Geri dönüş süresi kafenizin müşteri sayısına ve kampanya kurgusuna göre değişir. PORTZEN'de bu sistem tek seferlik iş otomasyonu paketleriyle kurulur: {{fiyatlar:is-otomasyonu}} (KDV hariç); isteğe bağlı aylık bakım ikinci aydan itibaren başlar.
 
 ### Müşteriler telefon numarasını vermek istemezse ne yapmalıyım?
 
-Bu endişe gerçek ancak doğru iletişimle çözülebilir. Müşteriye "telefon numaranızı sadece damga puanınızı tutmak ve doğum gününüzde ikram göndermek için kullanacağız, spam mesaj yok" mesajını net şekilde verirseniz katılım oranı yüzde altmış beşi geçiyor. Ayrıca KVKK uyumlu açık rıza metni göstermek güveni artırıyor.
+Bu endişe gerçek ancak doğru iletişimle çözülebilir. Müşteriye "telefon numaranızı sadece damga puanınızı tutmak ve doğum gününüzde ikram göndermek için kullanacağız, spam mesaj yok" mesajını net şekilde verirseniz katılım oranı belirgin şekilde artıyor. Ayrıca KVKK uyumlu açık rıza metni göstermek güveni artırıyor.
 
 ### Hangi saatlerde WhatsApp mesajı göndermek doğru?
 
@@ -157,11 +157,11 @@ Evet ve çoğu kafe için ideal model bu. Standart espresso, americano, flat whi
 
 ### Sadakat programının başarısını nasıl ölçerim?
 
-Üç temel metrik takip edilmeli: tekrar ziyaret oranı (repeat rate), aylık aktif müdavim sayısı ve ortalama sepet büyüklüğü. Sağlıklı bir sistemde 90 gün içinde repeat rate yüzde otuzdan yüzde elli beşe çıkıyor, aktif müdavim sayısı iki katına yaklaşıyor ve ortalama sepet yüzde yirmi büyüyor. Bu metriklerin tamamı CRM panelinden anlık görülebilmeli.
+Üç temel metrik takip edilmeli: tekrar ziyaret oranı (repeat rate), aylık aktif müdavim sayısı ve ortalama sepet büyüklüğü. Bu metrikleri başlangıç değerleriyle aylık karşılaştırarak programın etkisini görebilirsiniz. Bu metriklerin tamamı CRM panelinden anlık görülebilmeli.
 
 ## PORTZEN ile Kafe Sadakat Sistemi Kurmak
 
-PORTZEN olarak Türkiye'deki onlarca kafeyle birlikte çalışıyor, her kafenin konseptine, müşteri profiline ve operasyon hacmine özel sadakat sistemleri kuruyoruz. Sabah müdavimi yoğun bir specialty coffee shop için kurgulanan sistemle, hafta sonu brunch ağırlıklı bir butik kafe için kurgulanan sistem birbirinden çok farklı. Biz size hazır bir paket satmıyoruz, sizin operasyonunuza özel bir kurgu tasarlıyoruz.
+PORTZEN olarak her kafenin konseptine, müşteri profiline ve operasyon hacmine özel sadakat sistemleri kuruyoruz. Sabah müdavimi yoğun bir specialty coffee shop için kurgulanan sistemle, hafta sonu brunch ağırlıklı bir butik kafe için kurgulanan sistem birbirinden çok farklı. Standart paketlerimizi sizin operasyonunuza göre kurguluyoruz.
 
 Kurduğumuz tipik bir kafe sadakat sistemi şunları içeriyor:
 
@@ -172,6 +172,6 @@ Kurduğumuz tipik bir kafe sadakat sistemi şunları içeriyor:
 - Sezonsal menü lansman ve erken erişim duyuru altyapısı
 - Masa rezervasyonu ve happy hour doluluk yönetimi
 - CRM paneli üzerinden anlık metrik takibi (repeat rate, aktif müdavim, ortalama sepet)
-- KVKK uyumlu açık rıza ve veri yönetimi süreçleri
+- KVKK gerekliliklerini dikkate alan açık rıza ve aydınlatma akışı (verinin hangi sağlayıcıda ve bölgede tutulacağı teklifte yazılı olarak belirtilir)
 
 Kafeniz için özel bir sadakat sistemi kurgusu konuşmak, mevcut müşteri verilerinizi analiz ettirmek veya pilot bir kampanya tasarlatmak için bizimle [iletişim sayfası](/iletisim) üzerinden iletişime geçebilirsiniz. İlk görüşmemizde kafenizin mevcut müdavim profilini analiz ediyor, hangi modelin sizin için en yüksek geri dönüşü vereceğini ücretsiz olarak raporluyoruz.

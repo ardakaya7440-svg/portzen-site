@@ -13,7 +13,7 @@ ogImage: "/blog/og/instagramdan-musteri-bulma-rehberi.png"
 
 # Instagram'dan Müşteri Bulma Rehberi: KOBİ'ler İçin 12 Pratik Yöntem
 
-Türkiye'de bir KOBİ'nin **Instagram'dan müşteri bulma** yolculuğu çoğu zaman aynı şekilde başlıyor: "İşletme hesabı açtık, takipçi sayısı 800-1000'i buldu, beğeni geliyor ama satış yok." Sorun aslında takipçi sayısında ya da içerik kalitesinde değil; **satışa giden yolun haritalanmamış** olmasında. Bu rehberde Instagram'dan organik ve reklamlı şekilde sürekli müşteri akışı yaratan 12 pratik yöntemi, gerçek KOBİ örnekleri üzerinden açıklayacağım. Eczaneden butik konaklamaya, dijital ajanstan emlak ofisine kadar farklı sektörlerde işe yarayan, 2026 algoritmasıyla uyumlu taktikler bunlar. Hiçbiri "100 bin takipçi yapmadan satış olmaz" gibi efsanelere dayanmıyor; aksine 1500-5000 takipçili işletmelerin nasıl ciddi iş hacmi ürettiğini göstereceğim.
+Türkiye'de bir KOBİ'nin **Instagram'dan müşteri bulma** yolculuğu çoğu zaman aynı şekilde başlıyor: "İşletme hesabı açtık, takipçi sayısı 800-1000'i buldu, beğeni geliyor ama satış yok." Sorun aslında takipçi sayısında ya da içerik kalitesinde değil; **satışa giden yolun haritalanmamış** olmasında. Bu rehberde Instagram'dan organik ve reklamlı şekilde sürekli müşteri akışı yaratan 12 pratik yöntemi, sektör örnekleri üzerinden açıklayacağım. Eczaneden butik konaklamaya, dijital ajanstan emlak ofisine kadar farklı sektörlerde işe yarayan, 2026 algoritmasıyla uyumlu taktikler bunlar. Hiçbiri "100 bin takipçi yapmadan satış olmaz" gibi efsanelere dayanmıyor; aksine küçük bir takipçi kitlesiyle de nasıl iş üretilebileceğini göstereceğim.
 
 ## Instagram Satışında Asıl Sorun Nedir?
 
@@ -63,11 +63,11 @@ Hook cümlesi olarak işe yarayan örnekler:
 - "Eğer bir [meslek] iseniz bu videoyu mutlaka izleyin."
 - "Sektörümde 5 yıldır kimsenin söylemediği bir şey söyleyeceğim."
 
-Hook'un işlevi izleyiciyi videoda **tutmak**. İlk 3 saniyede ilgi çekemeyen video algoritma tarafından öldürülüyor. Reels üretimi konusunda zorlanan KOBİ'ler için [AI reklam video](/ai-reklam-videosu) çözümleri ciddi vakit ve maliyet tasarrufu sağlıyor; Higgsfield, Seedance ve Veo 3 ile çalışan [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetimiz haftalık 4-6 sinema kalitesinde Reels üretmeyi mümkün kılıyor.
+Hook'un işlevi izleyiciyi videoda **tutmak**. İlk 3 saniyede ilgi çekemeyen video algoritma tarafından öldürülüyor. Reels üretimi konusunda zorlanan KOBİ'ler için [AI reklam video](/ai-reklam-videosu) çözümleri ciddi vakit ve maliyet tasarrufu sağlıyor; Higgsfield, Seedance ve Veo 3 ile çalışan [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetimiz pakete göre ayda 4 ila 24 kısa video üretmeyi mümkün kılıyor.
 
 ### Reels Yayın Sıklığı ve Saat Stratejisi
 
-Sahadan veri: Türkiye'de Instagram Reels için en yüksek etkileşim saatleri 12.30-14.00 ve 20.00-22.30 aralığı. Cumartesi gece 22.00-00.00 arası özellikle B2C içerikler için altın saat. Haftada **3-5 Reels** çıkaran KOBİ'ler 6 ay içinde takipçi sayısını 3-4 katına çıkarabiliyor.
+Genel gözlem: Türkiye'de Instagram Reels için en yüksek etkileşim saatleri 12.30-14.00 ve 20.00-22.30 aralığı. Cumartesi gece 22.00-00.00 arası özellikle B2C içerikler için altın saat. Haftada **3-5 Reels** düzenli yayın, büyüme için sağlıklı bir tempo.
 
 ## Yöntem 3: Carousel (Çoklu Görsel) Eğitim Postları
 
@@ -79,7 +79,7 @@ Carousel için işe yarayan başlık formülleri:
 - "Bu hataları yapmazsanız [konu]'da çok rahat edersiniz"
 - "[Sayı] adımda [sonuç] elde etmenin yolu"
 
-Bir hukuk bürosu "Kira sözleşmesinde mutlaka kontrol etmeniz gereken 9 madde" carousel'i ile binlerce kayıt almıştı. Hatta o gönderi sayesinde 3 hafta içinde 17 yeni danışan kazandılar.
+Örneğin bir hukuk bürosunun "Kira sözleşmesinde mutlaka kontrol etmeniz gereken 9 madde" carousel'i, tam da kaydedilmek için tasarlanmış bir içerik türüdür.
 
 ## Yöntem 4: Hikaye Soru Etiketleri ile Konuşma Açma
 
@@ -112,7 +112,7 @@ Collab için ideal partner kriterleri:
 - İçerik kalitesi benzer
 - Marka değerleri uyumlu
 
-Sosyal medya stratejinizi profesyonelce yönetmek istiyorsanız [sosyal medya içerik](/instagram-dm-otomasyonu) hizmetimizle uçtan uca destek alabilirsiniz.
+Collab ve diğer içeriklerden gelen yorum ve hikâye etkileşimlerine kural tabanlı otomatik DM göndermek için [Instagram DM otomasyonu](/instagram-dm-otomasyonu) hizmetimize bakabilirsiniz.
 
 ## Yöntem 7: Bio Linkinden Akıllı Lead Magnet
 
@@ -133,7 +133,7 @@ Bu lead magnet'leri otomatik gönderecek bir [otomasyon sistemi](/crm-otomasyonu
 3. **Ne kazandıracağınız** (sonuç odaklı vaat)
 4. **CTA + link** (lead magnet linki)
 
-Örnek: "Eczane sahiplerinin gelirini %30 artıran AI sistemleri kuruyoruz | Ücretsiz analiz için ↓"
+Örnek: "Eczaneler için WhatsApp sipariş ve hatırlatma sistemleri kuruyoruz | Ücretsiz analiz için ↓"
 
 ## Yöntem 8: DM Otomasyonu ile Hızlı Yanıt
 
@@ -143,7 +143,7 @@ Otomasyon kurarken iki katmanı düşünmek gerekir:
 
 **Birinci katman:** Anahtar kelime tabanlı otomatik cevap. "Fiyat" yazıldığında fiyat listesi otomatik gönderilir. "Adres" yazıldığında konum gönderilir.
 
-**İkinci katman:** AI tabanlı doğal dil. "Acaba sizden bir randevu alabilir miyim?" gibi serbest cümleleri anlayıp uygun cevap üreten AI asistan. [WhatsApp AI asistanı sistemimiz](/blog/whatsapp-ai-asistani-nedir) Instagram DM ile de entegre çalışıyor.
+**İkinci katman:** AI tabanlı doğal dil. "Acaba sizden bir randevu alabilir miyim?" gibi serbest cümleleri anlayıp uygun cevap üreten AI asistan. PORTZEN'de birinci katman kural tabanlı Instagram DM otomasyonu, ikinci katman ise ayrı bir hizmet olan AI müşteri asistanıdır; [WhatsApp AI asistanı sistemimizin](/blog/whatsapp-ai-asistani-nedir) Instagram kanalı Kurumsal pakette yer alır.
 
 ## Yöntem 9: Influencer Yerine Müşteri İçeriği (UGC)
 
@@ -153,7 +153,7 @@ Müşterilerinizin sizden aldığı ürünü/hizmeti deneyimlediği videolar, pr
 - Reels olarak paylaşın, müşteriyi etiketleyin
 - Müşteri kendi hesabında da paylaşırsa erişim katlanır
 
-Bir krepçi zincirinin "Müşteri Reels" stratejisiyle 3 ayda 12.000 takipçiden 47.000'e çıktığı vaka çok ses getirmişti.
+Müşteri Reels'ları, özellikle yeme-içme gibi deneyim odaklı sektörlerde markanın kendi çektiği videolardan daha inandırıcı bulunur.
 
 ## Yöntem 10: Reklamı Doğru Yapmak — Lookalike Audience
 
@@ -211,7 +211,7 @@ KOBİ için sürdürülebilir bir Instagram içerik takvimi haftada şöyle dağ
 - **Cumartesi:** Stories highlight güncelleme + DM kampanyası
 - **Pazar:** Mood / inspirasyon içeriği (algoritmaya marka değeri sinyali)
 
-Bu takvimi kendi başınıza tutmakta zorlanıyorsanız (ki çoğu KOBİ patronu zorlanıyor) profesyonel bir [sosyal medya yönetimi](/instagram-dm-otomasyonu) hizmeti devreye alınabilir. Instagram, Facebook, TikTok ve LinkedIn yönetimini tek elden vermek isteyen markalar için [sosyal medya ajansı](/sosyal-medya-ajansi) paketimiz içerik üretiminden DM cevaplamaya kadar tüm süreci kapsıyor.
+Bu takvimi kendi başınıza tutmakta zorlanıyorsanız (ki çoğu KOBİ patronu zorlanıyor) profesyonel bir [sosyal medya yönetimi](/sosyal-medya-yonetimi) hizmeti devreye alınabilir. Birden fazla kanalı tek elden vermek isteyen markalar için [sosyal medya ajansı](/sosyal-medya-ajansi) paketlerimiz 1, 3 veya 5 kanal yönetimi, aylık içerik üretimi ve (Büyüme ve Kurumsal paketlerde) hafta içi günlük moderasyon kontrolünü kapsıyor.
 
 ## En Sık Yapılan 5 Hata
 
@@ -227,10 +227,10 @@ Bu takvimi kendi başınıza tutmakta zorlanıyorsanız (ki çoğu KOBİ patronu
 
 ## PORTZEN ile Instagram'dan Müşteri Bulma: Sıfırdan Sisteme
 
-PORTZEN olarak Türk KOBİ'leri için Instagram pazarlama sistemleri kuruyoruz. Sadece içerik üretmiyor; içerikten gelen DM'leri AI ile cevaplayan, lead magnet'leri otomatik gönderen, müşteri verisini CRM'e işleyen uçtan uca bir akış inşa ediyoruz. Yani bir Reels paylaşıldığı andan müşterinin ödemeyi yaptığı ana kadar tüm süreç otomatik.
+PORTZEN olarak Türk KOBİ'leri için Instagram pazarlama sistemleri kuruyoruz. Sadece içerik üretmiyor; içerikten gelen yorum ve DM'lere kural tabanlı Instagram DM otomasyonuyla otomatik yanıt veren, gerektiğinde serbest soruları AI müşteri asistanıyla (ayrı hizmet; Instagram kanalı Kurumsal pakette) yanıtlayan, lead magnet'leri otomatik gönderen ve müşteri verisini CRM'e işleyen bir akış kuruyoruz. Böylece Reels paylaşıldığı andan satış görüşmesine kadar tekrar eden adımlar otomatikleşir.
 
-Restoranlardan emlak ofislerine, estetik kliniklerinden hukuk bürolarına 50'den fazla KOBİ ile Instagram odaklı sistemler kurduk. Ortalama 90 günde **takipçi sayısı 3 katına**, **DM dönüşüm oranı 2.5 katına** çıkıyor. Reels üretimini AI destekli akışlarımızla hızlandırıyor, sosyal medya yönetimi maliyetini geleneksel ajanslara göre %40-50 daha aşağıya çekiyoruz.
+Restoranlardan emlak ofislerine, estetik kliniklerinden hukuk bürolarına farklı sektörlerdeki KOBİ'ler için Instagram odaklı sistemler kuruyoruz. Reels üretimini AI destekli akışlarımızla hızlandırıyoruz; sosyal medya paketlerimiz {{fiyatlar:sosyal-medya}} (KDV hariç).
 
-Eğer Instagram hesabınız büyüyor ama satış üretmiyorsa ya da içerik üretiminden yorulduysanız, doğru zamanlamadayız. Hizmetlerimizi [sosyal medya içerik](/instagram-dm-otomasyonu) ve [AI reklam video](/ai-reklam-videosu) sayfalarımızdan inceleyebilirsiniz.
+Eğer Instagram hesabınız büyüyor ama satış üretmiyorsa ya da içerik üretiminden yorulduysanız, doğru zamanlamadayız. Hizmetlerimizi [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ve [AI reklam video](/ai-reklam-videosu) sayfalarımızdan inceleyebilirsiniz.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir görüşmede işletmeniz için uygun yapıyı netleştiririz.

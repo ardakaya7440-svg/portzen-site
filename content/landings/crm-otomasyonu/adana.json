@@ -4,7 +4,7 @@
   "sectorName": "Adana",
   "sectorPlural": "Adana'daki İşletmeler",
   "title": "Adana CRM Otomasyonu | Toplu Sipariş + İhracat Lead - PORTZEN",
-  "description": "Adana'daki kebap zincirleri, baharat ihracatçıları ve KOBİ'ler için CRM kurulum + otomasyon. KVKK uyumlu, toplu sipariş yönetimi, ihracat lead takibi dahil.",
+  "description": "Adana'daki kebap zincirleri, baharat ihracatçıları ve KOBİ'ler için CRM kurulum + otomasyon. KVKK gerekliliklerini dikkate alan kurgu, toplu sipariş yönetimi, ihracat lead takibi dahil.",
   "keywords": [
     "adana crm otomasyonu",
     "adana crm kurulum",
@@ -15,18 +15,30 @@
     "adana ihracat crm"
   ],
   "h1": "Adana İçin CRM Otomasyonu",
-  "heroSubtitle": "Seyhan'da kebap zinciri, Yüreğir'de baharat ihracatçısı, Çukurova'da modern KOBİ. Toplu sipariş, ihracat lead'leri ve müşteri verisini Excel'den kurtarıp KVKK uyumlu CRM'e taşıyoruz.",
+  "heroSubtitle": "Seyhan'da kebap zinciri, Yüreğir'de baharat ihracatçısı, Çukurova'da modern KOBİ. Toplu sipariş, ihracat lead'leri ve müşteri verisini Excel'den kurtarıp KVKK gerekliliklerini dikkate alarak kurgulanan bir CRM'e taşıyoruz.",
   "stats": [
-    {"value": "Adana", "label": "Uzaktan Destek"},
-    {"value": "KVKK", "label": "Uyumlu"},
-    {"value": "21 gün", "label": "Kurulum"},
-    {"value": "%47", "label": "Ort. Dönüşüm"}
+    {
+      "value": "Adana",
+      "label": "Uzaktan Destek"
+    },
+    {
+      "value": "KVKK",
+      "label": "Rıza ve aydınlatma akışı"
+    },
+    {
+      "value": "Tek seferlik",
+      "label": "Kurulum"
+    },
+    {
+      "value": "İlk 30 gün",
+      "label": "Kurulum hatası giderimi"
+    }
   ],
   "problems": [
-    "Adana baharat ihracatçısı olarak Suudi/BAE/Avrupa müşterilerinden gelen lead'leriniz WhatsApp, Email, Instagram DM, B2B fuarda topladığınız kartvizitler arasında dağınık; hangi alıcı hangi aşamada belli değil, %40'ı unutuluyor.",
+    "Adana baharat ihracatçısı olarak Suudi/BAE/Avrupa müşterilerinden gelen lead'leriniz WhatsApp, Email, Instagram DM, B2B fuarda topladığınız kartvizitler arasında dağınık; hangi alıcı hangi aşamada belli değil, takipler unutuluyor.",
     "Seyhan'daki kebap zincirinizin toplu sipariş (düğün, kına, kurumsal toplantı) trafiği yoğun ama her sipariş Excel'de takip ediliyor, hangi şube hangi siparişten sorumlu karışıyor, müşteriye yanlış fiyat veriliyor.",
     "Salesforce, HubSpot gibi kurumsal CRM'ler aylık 50-200 bin TL; Adana KOBİ'sinin bütçesini aşıyor, üstelik İngilizce arayüz ekibi yormuyor.",
-    "KVKK uyumlu lead toplama, izin yönetimi, silme talebi süreci yok; ihbar gelirse Kurum cezası 1.8M TL'ye kadar. Adana'da KVKK denetimleri arttı, risk üstünüzde.",
+    "KVKK uyumlu lead toplama, izin yönetimi, silme talebi süreci yok; bir şikâyet veya ihbar durumunda Kurul idari para cezası uygulayabilir ve bu risk doğrudan işletmenin üzerindedir.",
     "Yüreğir'deki baharat fabrikanızın satış ekibi (5-10 kişi) hangi alıcı kime ait, hangi proforma onaylandı, hangi numune gönderildi takip edemiyor; ekip içi karmaşa Suudi alıcı kaybına yol açıyor."
   ],
   "solutionSteps": [
@@ -40,11 +52,11 @@
     },
     {
       "title": "Otomasyon Akışları",
-      "description": "Lead geldi → WhatsApp/Email otomatik yanıt → satış temsilcisine atama → 24 saat takip → proforma/sözleşme akışı. İhracat için numune takip, gümrük belge bildirim. 15-25 senaryo."
+      "description": "Lead geldi → WhatsApp/Email otomatik yanıt → satış temsilcisine atama → 24 saat takip → proforma/sözleşme akışı. İhracat için numune takip, gümrük belge bildirim. Senaryo sayısı seçilen pakete göre belirlenir (Başlangıç 2, Büyüme 6, Kurumsal 12 iş akışı)."
     },
     {
       "title": "Ekip Eğitimi + Devreye",
-      "description": "Adana'daki ekibinize 2 oturum canlı online eğitim (Google Meet), video kütüphanesi, 1 aylık aktif destek. Sonrası aylık optimizasyon."
+      "description": "Adana'daki ekibinize canlı online eğitim (Google Meet; ekip eğitimi Büyüme ve Kurumsal paketlerde dahil). İlk 30 gün kurulum hatalarının giderilmesi dahil; sonrasında isteğe bağlı aylık bakım."
     }
   ],
   "features": [
@@ -65,75 +77,43 @@
       "description": "Çoklu şubeli kebap zinciri veya bayilik ağı için her şubeye özel kullanıcı, yetki, rapor. Merkez tüm şube performansını görür."
     },
     {
-      "title": "KVKK Tam Uyum",
-      "description": "Açık rıza, aydınlatma metni, silme talebi paneli, VERBİS uyum. Müşteri 'verilerimi sil' dediğinde tek tıkla silme. Hukuki risk sıfır."
+      "title": "KVKK Gerekliliklerine Göre Kurgu",
+      "description": "Açık rıza, aydınlatma metni akışı ve silme talebi takibi CRM içinde kurgulanır; VERBİS kaydı gibi yükümlülükler işletmenize aittir. Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Hukuki riskinizi azaltmaya yardımcı olur."
     },
     {
-      "title": "Uzaktan Destek + Aylık Optimizasyon",
-      "description": "İzmir merkezli PORTZEN ekibi tam destek, aylık dönüşüm raporu, A/B test, otomasyon ince ayarı. Adana ekibinize sürekli koçluk."
+      "title": "Uzaktan Destek + İsteğe Bağlı Bakım",
+      "description": "İzmir merkezli PORTZEN ekibi kurulumu uzaktan yürütür ve ilk 30 gün kurulum hatalarını giderir. İkinci aydan itibaren Adana ekibiniz isteğe bağlı aylık bakım alabilir; bakım kapsamı teklifte yazılı olarak belirlenir."
     }
   ],
   "caseStudy": {
-    "title": "Adana baharat ihracatçısı: 5 ayda Suudi/BAE numune dönüşüm %14 → %38",
+    "title": "Örnek senaryo: Adana'da bir baharat ihracatçısı için numune ve proforma takibi",
     "paragraphs": [
-      "Yüreğir'de üretim yapan, Suudi/BAE/Almanya'ya baharat ihraç eden orta ölçekli bir Adana firması, 8 kişilik satış ekibiyle çalışıyordu. Lead'leri Excel'de, WhatsApp'ta, Email'de dağınık tutuyor, fuar kartvizitlerini ay sonu birikip işleyemiyor, gönderilen numuneyi takip edemiyordu. Suudi/BAE alıcılar 'numune geldi mi, COA hangi tarihte' diye sorduğunda satış temsilcisi 3-4 günde cevap verebiliyordu. Numune → sipariş dönüşüm oranı %14'tü.",
-      "PORTZEN olarak Zoho CRM + WhatsApp Business API + Email entegrasyonu kurduk. Lead pipeline (Yeni → Numune Gönderildi → Proforma → Sözleşme → Sipariş), numune kargo takip (DHL/Aramex API), COA/Halal sertifika otomatik gönderim, Suudi/BAE/Almanya segmentasyon. KVKK + GDPR tam uyum.",
-      "5 ay sonunda numune → sipariş dönüşüm oranı %14'ten %38'e çıktı (2.7x). Suudi/BAE alıcı 'numune nerede' sorusu %92 azaldı (otomatik kargo takip bildirimi). Ekip satışa harcadığı zaman %35 azaldı, daha çok yeni lead'e odaklandı. Aylık ihracat cirosu 2.4M → 4.1M TL."
+      "Örnek senaryo: Yüreğir'de üretim yapan, Suudi/BAE/Almanya'ya baharat ihraç eden orta ölçekli bir firma düşünün. Lead'ler Excel'de, WhatsApp'ta ve Email'de dağınık tutuluyor, fuar kartvizitleri ay sonunda birikiyor, gönderilen numune takip edilemiyor. Alıcılar 'numune geldi mi, COA hangi tarihte' diye sorduğunda satış temsilcisi bilgiyi farklı yerlerden toplamak zorunda kalıyor.",
+      "Böyle bir yapıda örnek bir kurulum şöyle olur: Zoho CRM + WhatsApp Business API + Email entegrasyonu. Lead pipeline (Yeni → Numune Gönderildi → Proforma → Sözleşme → Sipariş), numune kargo takibi (kargo firmasının API'si üzerinden), COA/Halal sertifika gönderimi ve Suudi/BAE/Almanya segmentasyonu. Kurgu KVKK ve GDPR gerekliliklerini dikkate alarak yapılır.",
+      "Bu kurulumda iş akışında değişen şudur: her numune ve proforma tek bir pipeline'da görünür, kargo durumu alıcıya otomatik bildirilir, sertifika talepleri ekibin elle aramasını gerektirmez. Satış ekibi takip işini sistemden yürütür ve zamanını yeni lead'lere ayırabilir."
     ],
     "beforeAfter": [
-      {"label": "Numune → Sipariş Oranı", "before": "%14", "after": "%38 (2.7x)"},
-      {"label": "'Numune Nerede' Sorusu", "before": "Günde 8-12", "after": "Günde 1"},
-      {"label": "Aylık İhracat Ciro", "before": "2.4M TL", "after": "4.1M TL"}
+      {
+        "label": "Numune Takibi",
+        "before": "Numune durumu Excel ve mesajlarda dağınık",
+        "after": "Her numune pipeline'da aşamasıyla görünür"
+      },
+      {
+        "label": "'Numune Nerede' Sorusu",
+        "before": "Alıcı soruyor, temsilci elle araştırıp cevaplıyor",
+        "after": "Kargo durumu alıcıya otomatik bildiriliyor"
+      },
+      {
+        "label": "Satış Raporu",
+        "before": "Ay sonunda Excel'den elle derleniyor",
+        "after": "Pipeline ve segment raporları CRM'de hazır"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "18.000 TL (kurulum) + 4.000 TL/ay",
-      "description": "Tek lokasyonlu KOBİ, butik baharat üreticisi, küçük kebapçı için",
-      "features": [
-        "Zoho/Pipedrive Türkçe kurulum",
-        "5 kullanıcı (satış ekibi)",
-        "WhatsApp + Email entegrasyon",
-        "Temel KVKK modülü",
-        "Aylık 2 saat destek",
-        "Aylık rapor"
-      ]
-    },
-    {
-      "name": "Profesyonel",
-      "price": "35.000 TL (kurulum) + 8.500 TL/ay",
-      "description": "Kebap zinciri, baharat ihracatçısı, orta ölçekli için",
-      "features": [
-        "Her şey + 15 kullanıcı",
-        "İhracat pipeline + numune takip",
-        "Şube/bayilik yönetimi",
-        "WhatsApp + IG + Email + Web Form",
-        "Tam KVKK + GDPR uyum",
-        "Aylık 5 saat destek + optimizasyon",
-        "Adanmış hesap yöneticisi"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Kurumsal",
-      "price": "70.000 TL+ (kurulum) + 18.000 TL/ay",
-      "description": "Ulusal gıda markası, büyük ölçekli ihracatçı, çoklu bayilik için",
-      "features": [
-        "HubSpot/Salesforce kurulum",
-        "Sınırsız kullanıcı",
-        "ERP entegrasyon (Mikro/Logo/Netsis/SAP)",
-        "Özel rapor dashboard",
-        "Çoklu marka yönetimi",
-        "SLA garantili 4 saat yanıt",
-        "Aylık 15 saat destek"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "Adana'daki ekibim CRM'i nasıl öğrenir, Türkçe mi?",
-      "answer": "Tüm CRM'ler Türkçe arayüz kuruyoruz. Ekibinize 2 oturum canlı online eğitim (Google Meet) + video kütüphanesi + WhatsApp grubu destek hattı. 1 ay sonra otonom kullanır hale gelir."
+      "answer": "Tüm CRM'ler Türkçe arayüzle kuruluyor. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahil ve canlı online (Google Meet) yapılır; Başlangıç paketinde eğitim ihtiyacı brief'te planlanır ve ayrıca tekliflendirilir. İlk 30 gün kurulum hataları giderilir."
     },
     {
       "question": "İhracat lead'leri (Suudi, BAE, Almanya) için Arapça/İngilizce destek var mı?",
@@ -145,11 +125,11 @@
     },
     {
       "question": "Mevcut Excel'imdeki müşteri verisi kaybolmadan aktarılır mı?",
-      "answer": "Evet. Excel/Google Sheets/eski yazılım datalarınızı CRM'e tam aktarım yapıyoruz. Müşteri geçmişi, notlar, dosyalar - hiçbir veri kaybı yok. Eski sistem kapanmadan paralel çalışma dönemi de tanımlanabilir."
+      "answer": "Evet. Excel/Google Sheets/eski yazılım verilerinizi CRM'e aktarıyoruz: müşteri geçmişi, notlar, dosyalar. Aktarım öncesi verinin yedeği alınır ve aktarım sonrası kontrol edilir. Eski sistem kapanmadan paralel çalışma dönemi de tanımlanabilir."
     },
     {
       "question": "KVKK denetimi gelirse CRM hazır mı?",
-      "answer": "Evet. CRM'de açık rıza kayıtları, aydınlatma metni gösterim logu, silme talepleri panel, VERBİS uyum hazır. KVKK denetiminde 'gösterebilirim' rahatlığı."
+      "answer": "CRM'de açık rıza kayıtları, aydınlatma metni gösterim kaydı ve silme talepleri takibi KVKK gerekliliklerini dikkate alarak kurgulanır. VERBİS kaydı ve hukuki değerlendirme işletmenizin ve hukuk danışmanınızın sorumluluğundadır; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir."
     },
     {
       "question": "Toplu sipariş (düğün, kına, kurumsal) için özel akış var mı?",
@@ -157,9 +137,9 @@
     },
     {
       "question": "İzmir merkezli ajansla uzaktan CRM kurulumu yapılır mı?",
-      "answer": "Evet. CRM kurulumları %100 uzaktan yapılabilir. Adana'da aktif müşterilerimiz var, referans verebiliriz. Tüm kurulum + eğitim Google Meet üzerinden, gerektiğinde Adana'ya geliyoruz."
+      "answer": "Evet. CRM kurulumları tamamen uzaktan yapılabilir. Tüm kurulum ve eğitim Google Meet üzerinden yürütülür; yerinde çalışma gerekiyorsa teklifte ayrıca planlanır."
     }
   ],
   "finalCtaHeadline": "Adana'daki satış sürecinizi düzene sokalım.",
-  "finalCtaSubtitle": "60 dakikalık ücretsiz iş akışı analizi. Mevcut süreciniz + ekibiniz + lead kaynaklarınız incelenir, size özel CRM yol haritası çıkarılır. 21 günde sistem devrede."
+  "finalCtaSubtitle": "60 dakikalık ücretsiz iş akışı analizi. Mevcut süreciniz + ekibiniz + lead kaynaklarınız incelenir, size özel CRM yol haritası çıkarılır. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 }

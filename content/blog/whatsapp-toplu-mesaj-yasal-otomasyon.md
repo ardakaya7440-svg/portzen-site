@@ -15,7 +15,7 @@ ogImage: "/blog/og/whatsapp-toplu-mesaj-yasal-otomasyon.png"
 
 WhatsApp toplu mesaj gönderimi, KOBİ'ler için en yüksek dönüşümü getiren kanal olmaya devam ediyor. SMS'in açılma oranı %20, e-postanın %18 iken, WhatsApp mesajlarının açılma oranı %98, ilk saatte yanıt oranı %45 seviyesinde. Bu yüzden butiklerden e-ticaret sitelerine, kliniklerden emlak ofislerine kadar her sektör WhatsApp'tan toplu mesaj göndermek istiyor. Sorun şu: yanlış yolla göndermek hem işletmenizi kalıcı bana mahkum ediyor hem de KVKK denetimlerinde 50.000 TL'den başlayan idari para cezası getiriyor.
 
-Bu rehberde, WhatsApp toplu mesaj göndermenin yasal yollarını, hangi yöntemde ne kadar maliyet çıktığını, WhatsApp Business App ile Business API arasındaki farkları, BSP (Business Solution Provider) seçim kriterlerini, şablon onayı sürecini, conversation pricing modelini, KVKK uyumu için opt-in alma yöntemlerini ve kesinlikle yapılmaması gereken ban riskli uygulamaları detaylı anlatıyoruz. Bu sistemi doğru kuran bir İzmir butik mağazası, ayda 12.000 kontak listesine kampanya gönderirken hem KVKK uyumlu kalıyor hem de mesaj başına 0.10 TL altında maliyetle %42 satın alma oranı yakalıyor. Kurulum 3-7 iş günü sürer ve uzun vadede sürdürülebilir tek yoldur. Bu rehberle başlayalım.
+Bu rehberde, WhatsApp toplu mesaj göndermenin yasal yollarını, hangi yöntemde ne kadar maliyet çıktığını, WhatsApp Business App ile Business API arasındaki farkları, BSP (Business Solution Provider) seçim kriterlerini, şablon onayı sürecini, conversation pricing modelini, KVKK uyumu için opt-in alma yöntemlerini ve kesinlikle yapılmaması gereken ban riskli uygulamaları detaylı anlatıyoruz. Bu sistem doğru kurulduğunda butik bir mağaza bile kampanyalarını açık rızası alınmış kişilere, Meta onaylı şablonlarla ve ölçülebilir biçimde gönderebilir. Kurulum süresi büyük ölçüde Meta'nın doğrulama ve şablon onaylarına bağlıdır; uzun vadede sürdürülebilir tek yol budur. Bu rehberle başlayalım.
 
 ## WhatsApp Toplu Mesaj Yasal Mıdır, Yasak Mıdır?
 
@@ -88,7 +88,7 @@ sağlar. Türkiye'de aktif BSP'ler arasında Twilio, Infobip, MessageBird, 360di
 - API limitleri ve ek özellikler (chatbot, AI, CRM entegrasyonu)
 - KVKK uyumlu veri merkezi (AB/Türkiye konumlu sunucu)
 
-PORTZEN, BSP seçim danışmanlığı yaparken müşterinin işlem hacmine ve teknik kapasitesine göre öneriyi netleştirir. Eğer bu seçim aşamasını atlamak istiyorsanız [WhatsApp AI Asistanı](/whatsapp-ai-asistani) paketimizde BSP seçim, kurulum ve eğitim dahildir.
+PORTZEN, BSP seçim danışmanlığı yaparken müşterinin işlem hacmine ve teknik kapasitesine göre öneriyi netleştirir. Eğer bu seçim aşamasını atlamak istiyorsanız [WhatsApp AI Asistanı](/whatsapp-ai-asistani) paketlerimizde BSP seçimi ve kurulum dahildir.
 
 ## Adım 3: Facebook Business Manager ve Numara Doğrulama (30-60 dakika)
 
@@ -173,7 +173,7 @@ Türkiye fiyatları (BSP kar marjı hariç, Meta listesi):
 
 Aylık 5.000 marketing conversation = 5.000 x 2.40 = 12.000 TL Meta ücreti + BSP marjı (genelde %15-30 ekstra) = 14.000-16.000 TL.
 
-Service conversation (kullanıcı sizinle iletişim başlattığında) ücretsiz olduğu için, doğru bir asistan sistemi kurarak bütçenizi %40-60 düşürebilirsiniz. [WhatsApp chatbot fiyat](/whatsapp-chatbot-fiyat) sayfamızda gerçek senaryolar için tablolar yer alıyor.
+Service conversation (kullanıcı sizinle iletişim başlattığında) ücretsiz olduğu için, müşterinin kendisinin yazdığı konuşmaları doğru bir asistan sistemiyle karşılamak mesaj bütçenizi düşürmeye yardımcı olur. [WhatsApp chatbot fiyat](/whatsapp-chatbot-fiyat) sayfamızda gerçek senaryolar için tablolar yer alıyor.
 
 ## Adım 8: İlk Gönderiminizi Yapın ve İzleyin (1 saat)
 
@@ -236,11 +236,11 @@ WhatsApp resmi limit söylemiyor ancak günde 5-10 broadcast (her biri 256 kişi
 Sınır yok ama 5+ reddedilen şablon hesap puanınızı düşürür ve "Quality Rating" değeriniz sarı/kırmızıya döner. Kırmızı rating mesaj gönderim limitinizi düşürür.
 
 **Conversation pricing dolar bazlı, kur dalgalanmasından nasıl korunurum?**
-Meta fiyatları USD olarak listeler ama bazı BSP'ler 6 aylık TL sabit fiyat sözleşmesi sunabilir. PORTZEN ile çalışan müşterilerimize yıllık sabit TL fiyatı garanti ediyoruz.
+Meta fiyatları USD olarak listeler ama bazı BSP'ler 6 aylık TL sabit fiyat sözleşmesi sunabilir. Sabit TL fiyat istiyorsanız bunu BSP sözleşmesine yazılı olarak ekletin.
 
 **KVKK denetiminde hangi belgeler istenir?**
 Aydınlatma metni, açık rıza formları, opt-in tarih ve IP logları, opt-out işlem kayıtları, veri saklama politikası. Tüm bunları sistematik tutmak için CRM gerekir. [CRM otomasyonu](/crm-otomasyonu) sayfamızda detay var.
 
 ## PORTZEN ile WhatsApp Toplu Mesaj İçin Sistem Kurmak
 
-WhatsApp toplu mesaj sistemi tek seferlik bir kurulum değildir; sürekli izlenmesi, optimize edilmesi ve yasal değişikliklere uyarlanması gereken canlı bir altyapıdır. PORTZEN olarak BSP seçimi, Business Manager kurulumu, şablon yazımı ve onay alma, KVKK uyumlu opt-in form tasarımı, AI destekli yanıt sistemi ve aylık optimizasyon raporlamasını içeren paketler sunuyoruz. 150+ KOBİ'ye kurduğumuz sistemde ortalama mesaj başına maliyet 0.10 TL altı, açılma oranı %94, opt-out oranı %0.4 seviyesinde. Sisteminizi yasal ve sürdürülebilir bir altyapıyla kurmak için [WhatsApp AI Asistanı](/whatsapp-ai-asistani) sayfamızı inceleyebilir, fiyatlandırma detayı için [WhatsApp chatbot fiyat](/whatsapp-chatbot-fiyat) sayfamıza göz atabilir, ücretsiz keşif görüşmesi için [iletişim](/iletisim) sayfamızdan bize ulaşabilirsiniz.
+WhatsApp toplu mesaj sistemi tek seferlik bir kurulum değildir; sürekli izlenmesi, optimize edilmesi ve yasal değişikliklere uyarlanması gereken canlı bir altyapıdır. PORTZEN olarak BSP seçimi, Business Manager kurulumu, şablon yazımı ve onay alma ile AI destekli yanıt sistemini AI müşteri asistanı paketleriyle ({{fiyatlar:ai-musteri-asistani}}, KDV hariç; Meta mesaj ücretleri hariç), segmentli kampanya ve opt-in akışlarını iş otomasyonu paketleriyle kuruyoruz; Büyüme ve Kurumsal AI asistanı paketlerinde aylık iyileştirme saatleri dahildir. Kurulumdan sonra mesaj başına maliyet, teslim, açılma ve opt-out oranları panelden izlenir; hedefleme ve şablonlar bu verilere göre güncellenir. Sisteminizi yasal ve sürdürülebilir bir altyapıyla kurmak için [WhatsApp AI Asistanı](/whatsapp-ai-asistani) sayfamızı inceleyebilir, fiyatlandırma detayı için [WhatsApp chatbot fiyat](/whatsapp-chatbot-fiyat) sayfamıza göz atabilir, ücretsiz keşif görüşmesi için [iletişim](/iletisim) sayfamızdan bize ulaşabilirsiniz.

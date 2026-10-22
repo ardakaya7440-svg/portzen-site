@@ -43,3 +43,7 @@ next-env.d.ts
 .vscode
 *.swp
 *.swo
+
+# PORTZEN yerel önizleme verisi
+.data/
+/.next-dev/

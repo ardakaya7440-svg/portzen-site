@@ -2,7 +2,7 @@
 title: "Web Sitesi Olmayan İşletmeler Aylık Ne Kadar Müşteri Kaybediyor?"
 slug: "web-sitesi-olmayan-isletmeler-ne-kaybediyor"
 category: "web-tasarim"
-description: "Web sitesi olmayan KOBİ'ler ayda kaç müşteri kaybediyor? Gerçek rakamlarla maliyet analizi, Google Haritalar etkisi ve 2026 web sitesi rehberi."
+description: "Web sitesi olmayan KOBİ'ler ayda kaç müşteri kaybediyor? Örnek hesaplarla maliyet analizi, Google Haritalar etkisi ve 2026 web sitesi rehberi."
 keywords: ["web sitesi olmayan işletmeler", "kobi için web sitesi", "küçük işletme web tasarım", "web sitesi maliyeti", "google business profile", "yerel seo kaybı"]
 publishedAt: "2026-06-20"
 author: "Arda Kaya"
@@ -13,7 +13,7 @@ ogImage: "/blog/og/web-sitesi-olmayan-isletmeler-ne-kaybediyor.png"
 
 # Web Sitesi Olmayan İşletmeler Aylık Ne Kadar Müşteri Kaybediyor?
 
-"Bizim Instagram hesabımız var, web sitesine ne gerek var?" Bu cümleyi 2026'da hâlâ kuran bir KOBİ patronuysanız, bu yazı tam size hitap ediyor. Çünkü **web sitesi olmayan işletmeler**, kendileri hiç fark etmeden ay sonunda ciddi miktarda müşteriyi rakiplerine kaptırıyor. Kayıp görünmüyor çünkü o müşteri size hiç ulaşmıyor — Google'a yazıyor, web sitesi olan rakibinize tıklıyor, oradan satın alıyor. Sizin hesabınızda hiçbir "eksi" görünmüyor; ama büyüme imkânınız sessiz sedasız yok ediliyor. Bu yazıda gerçek rakamlarla bir KOBİ'nin web sitesi yokluğundan dolayı aylık tam olarak kaç müşteri ve kaç TL gelir kaybettiğini, web sitesi olmamanın görünmeyen maliyetlerini ve 2026'da KOBİ web sitesinin nasıl olması gerektiğini ele alacağız.
+"Bizim Instagram hesabımız var, web sitesine ne gerek var?" Bu cümleyi 2026'da hâlâ kuran bir KOBİ patronuysanız, bu yazı tam size hitap ediyor. Çünkü **web sitesi olmayan işletmeler**, kendileri hiç fark etmeden ay sonunda ciddi miktarda müşteriyi rakiplerine kaptırıyor. Kayıp görünmüyor çünkü o müşteri size hiç ulaşmıyor — Google'a yazıyor, web sitesi olan rakibinize tıklıyor, oradan satın alıyor. Sizin hesabınızda hiçbir "eksi" görünmüyor; ama büyüme imkânınız sessiz sedasız yok ediliyor. Bu yazıda örnek bir hesapla bir KOBİ'nin web sitesi yokluğundan dolayı aylık kaç müşteri ve kaç TL gelir kaybedebileceğini nasıl hesaplayacağınızı, web sitesi olmamanın görünmeyen maliyetlerini ve 2026'da KOBİ web sitesinin nasıl olması gerektiğini ele alacağız.
 
 ## Sessiz Müşteri Kaybı: Görünmeyen ama Gerçek
 
@@ -33,7 +33,7 @@ Web sitesi olan bir klinikte bu 270 ziyaretçinin %4-7'si telefon ediyor, randev
 
 **Ayda 15 yeni hasta × 8.000 TL ortalama gelir = 120.000 TL**
 
-Web sitesi yokluğundan dolayı **ayda 120.000 TL gelir** kapıdan dönüyor. Yıllık 1.4 milyon TL. Halbuki kurumsal düzeyde bir web sitesi 30.000-70.000 TL tek seferlik yatırımla yapılır. Yani sitenizin parası **birinci ayda 2 katıyla geri** dönüyor.
+Web sitesi yokluğundan dolayı **ayda 120.000 TL gelir** kapıdan dönüyor. Yıllık 1.4 milyon TL. Halbuki piyasada kurumsal düzeyde bir web sitesi 30.000-70.000 TL tek seferlik yatırımla yapılır. Bu varsayımlarla sitenin maliyeti, kazanılan ilk hastalarla karşılanabilir; kendi sektörünüzün arama hacmi ve müşteri değeriyle bu hesabı tekrar yapmanızı öneririz.
 
 Bu hesap restoran, butik konaklama, hukuk bürosu, emlakçı, estetisyen, fizyoterapist, mali müşavir gibi onlarca sektörde benzer şekilde çalışıyor.
 
@@ -78,7 +78,7 @@ KOBİ patronlarının kafasındaki en büyük yanılgı "Instagram yetiyor" dü�
 | Instagram | Marka bilinirliği, görsel inspirasyon, topluluk | Arama trafiği, dönüşüm, detaylı bilgi |
 | Web Sitesi | Google aramaları, dönüşüm, detaylı bilgi, otomasyon | Görsel ilham, viral içerik, topluluk |
 
-Doğru strateji: **Instagram'da yakaladığın insanı web sitesine indir, web sitesinde Google'dan gelen insanı da yine kendi sistemine al.** Bu iki kanal birlikte çalıştığında müşteri dönüşümü tek başına Instagram'a göre 5-7 kat artıyor. İçerik üretimini ve haftalık takvimi disiplinli yürütmek için bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak, KOBİ'nin patronunu içerik üretimi yükünden kurtarıp ana işine odaklanmasını sağlıyor.
+Doğru strateji: **Instagram'da yakaladığın insanı web sitesine indir, web sitesinde Google'dan gelen insanı da yine kendi sistemine al.** Bu iki kanal birlikte çalıştığında Instagram'da başlayan ilgi, Google'da ve sitede kaybolmadan dönüşüme ilerleyebiliyor. İçerik üretimini ve haftalık takvimi disiplinli yürütmek için bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak, KOBİ'nin patronunu içerik üretimi yükünden kurtarıp ana işine odaklanmasını sağlıyor.
 
 Bu yapıyı kuran [WhatsApp AI asistanı](/blog/whatsapp-ai-asistani-nedir) entegrasyonu ile her iki kanaldan gelen müşteriyi tek havuzda toplayabilirsiniz.
 
@@ -112,11 +112,11 @@ Türkiye'de KVKK denetimleri sıkılaşıyor. Uyumsuz siteler için 1 milyon TL'
 
 ### 7. AI Asistan / Sohbet Kutusu
 
-Site ziyaretçisinin sorusunu anında cevaplayan AI asistan dönüşüm oranını **2-3 katına** çıkarıyor. Klasik "iletişim formu" artık geçerli değil.
+Site ziyaretçisinin sorusunu anında cevaplayan AI asistan, ziyaretçinin form doldurmadan bilgi almasını ve iletişime geçmesini kolaylaştırıyor. Klasik "iletişim formu" artık geçerli değil.
 
 ## Web Sitesi Maliyeti: Şeffaf Fiyatlandırma
 
-KOBİ patronları "web sitesi" denince akıllarına 2015 fiyatları geliyor: "5.000 liraya yaptırırız". Bugün gerçek profesyonel bir site için maliyet aralıkları şöyle:
+KOBİ patronları "web sitesi" denince akıllarına 2015 fiyatları geliyor: "5.000 liraya yaptırırız". Bugün piyasada gerçek profesyonel bir site için maliyet aralıkları şöyle:
 
 | Site Tipi | Tahmini Maliyet | Süre |
 |---|---|---|
@@ -126,7 +126,7 @@ KOBİ patronları "web sitesi" denince akıllarına 2015 fiyatları geliyor: "5.
 | E-ticaret (50-200 ürünlü) | 60.000-150.000 TL | 4-8 hafta |
 | AI entegre, otomasyonlu site | 70.000-180.000 TL | 5-8 hafta |
 
-Aylık hosting, bakım, güvenlik, içerik güncelleme için ek 1.500-4.000 TL'lik düzenli bütçe ayırmak gerekiyor. Bu maliyetler bir KOBİ için yüksek görünse de kazandırdığı gelirle kıyaslandığında genelde 3-6 ay içinde kendini ödüyor.
+Aylık hosting, bakım, güvenlik, içerik güncelleme için ek 1.500-4.000 TL'lik düzenli bütçe ayırmak gerekiyor. Bu maliyetler bir KOBİ için yüksek görünse de, yukarıdaki gibi kendi arama hacminiz ve müşteri değerinizle hesaplandığında çoğu zaman kazandırdığı gelirle karşılanabilecek bir yatırımdır. PORTZEN'in kendi fiyatları ise şöyle: landing page {{tekil:landing-page}}, kurumsal web sitesi {{fiyatlar:kurumsal-web-sitesi}}, e-ticaret {{fiyatlar:e-ticaret}}, yayın sonrası web bakım {{fiyatlar:web-bakim}} (KDV hariç; hosting ve alan adı hariç).
 
 ### Ucuz Site Tuzağı
 
@@ -168,14 +168,14 @@ WhatsApp'a düşen insanları nereden alıyorsunuz? Yeni insanları nereden alac
 2. **AI asistan:** Sitedeki ziyaretçi ile WhatsApp'tan gelen mesajları aynı zekayla cevaplayan sistem.
 3. **Otomasyon altyapısı:** Form dolduran kişiyi CRM'e atan, müşteri verisini koruyan, satış sürecini hatırlatma e-postalarıyla destekleyen yapı.
 
-Bu üçlü sistem kurulduğunda KOBİ'nin müşteri kazanım maliyeti **%40-60 düşüyor**, dönüşüm oranı **3-5 katına** çıkıyor. Sahadan vaka: bir Ankara hukuk bürosu bu üç parçayı 3 ayda kurdu; aylık yeni müvekkil sayısı 7'den 23'e çıktı.
+Bu üçlü sistem kurulduğunda Google'dan, reklamdan ve WhatsApp'tan gelen talepler aynı akışta karşılanır, kaydedilir ve takip edilir. Örnek bir senaryoda bir hukuk bürosu; site üzerinden gelen başvuruyu AI asistanla ön elemeden geçirir, uygun başvuruyu CRM'e kaydeder ve avukata görüşme hatırlatması gönderir.
 
 ## PORTZEN ile Web Sitesi + Dijital Sistem: Sıfırdan Sisteme
 
-PORTZEN olarak Türk KOBİ'leri için sadece "güzel görünen" web sitesi yapmıyoruz; **müşteri kazanım sistemi** olarak çalışan, AI asistanla entegre, otomasyon altyapısı kurulu, KVKK uyumlu siteler inşa ediyoruz. Yaklaşımımızın farkı şu: site teslim edildiği gün Google'dan trafik almaya başlamış oluyor, çünkü teknik SEO ve içerik altyapısı kurulum aşamasında yapılıyor.
+PORTZEN olarak Türk KOBİ'leri için sadece "güzel görünen" web sitesi yapmıyoruz; **müşteri kazanım sistemi** olarak çalışan, AI asistanla entegre, otomasyon altyapısı kurulu, KVKK gerekliliklerini dikkate alarak kurgulanan (aydınlatma metni, çerez onayı, form izinleri) siteler inşa ediyoruz. Yaklaşımımızın farkı şu: SEO altyapısı (Başlangıç paketinde temel SEO, Büyüme ve Kurumsal'da teknik SEO) kurulum aşamasında yapıldığı için site, yayına girdiği gün Google'ın tarayıp indeksleyebileceği şekilde teslim ediliyor.
 
-Eczane, klinik, restoran, hukuk bürosu, emlak ofisi, mali müşavirlik, butik konaklama, B2B üretici gibi 80'den fazla sektörel projeyi tamamladık. Her projede [AI bot kurulumu](/whatsapp-ai-asistani), [otomasyon sistemleri](/crm-otomasyonu) ve [web tasarım](/web-tasarim) bileşenleri opsiyonel olarak eklenebiliyor — yani tek bir ekipten uçtan uca dijital sistem alıyorsunuz, parça parça farklı tedarikçilerle uğraşmıyorsunuz.
+Eczane, klinik, restoran, hukuk bürosu, emlak ofisi, mali müşavirlik, butik konaklama, B2B üretici gibi farklı sektörler için çalışıyoruz. Her projede [AI bot kurulumu](/whatsapp-ai-asistani), [otomasyon sistemleri](/crm-otomasyonu) ve [web tasarım](/web-tasarim) bileşenleri opsiyonel olarak eklenebiliyor — yani tek bir ekipten uçtan uca dijital sistem alıyorsunuz, parça parça farklı tedarikçilerle uğraşmıyorsunuz.
 
 Eğer "sitemiz var ama iş yapmıyor" ya da "site hiç yok, artık zamanı geldi" dediğiniz noktadaysanız, ücretsiz keşif görüşmesinde sektörünüze özel kayıp analizi yapıyoruz. Aylık ne kadar müşteri kaçırdığınızı somut rakamlarla görüyorsunuz.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

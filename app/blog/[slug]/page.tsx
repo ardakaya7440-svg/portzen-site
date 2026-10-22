@@ -109,7 +109,7 @@ export default async function BlogPostPage({ params }: Props) {
 
       <article className="bg-paper">
         {/* HEADER */}
-        <section className="border-b-3 border-ink">
+        <section className="border-b-3 border-ink/15">
           <div className="mx-auto max-w-container px-6 pt-10 pb-12 md:pt-16 md:pb-16">
             {/* Breadcrumb */}
             <nav aria-label="Breadcrumb" className="mb-6 text-sm text-ink/70 flex items-center gap-1.5 flex-wrap">
@@ -130,7 +130,7 @@ export default async function BlogPostPage({ params }: Props) {
               <Link
                 href={`/blog/kategori/${post.category}`}
                 className={cn(
-                  "inline-block border-3 border-ink px-3 py-1 text-xs font-black uppercase tracking-wider shadow-brutal-sm mb-6 hover:-translate-x-0.5 hover:-translate-y-0.5 transition-transform",
+                  "inline-block border-3 border-ink/15 px-3 py-1 text-xs font-black tracking-wider shadow-brutal-sm mb-6 transition-transform rounded-full",
                   catMeta.bg,
                   catMeta.text
                 )}
@@ -195,11 +195,11 @@ export default async function BlogPostPage({ params }: Props) {
         </section>
 
         {/* BLOG'A DÖN CTA */}
-        <section className="bg-paper pb-12">
+        <section className="bg-white pb-12">
           <div className="mx-auto max-w-container px-6">
             <Link
               href="/blog"
-              className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-4 py-2 text-sm font-bold uppercase shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
+              className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-4 py-2 text-sm font-bold shadow-brutal-sm hover:shadow-brutal transition-all rounded-full"
             >
               <ArrowLeft className="h-4 w-4" />
               Tüm Yazılar
@@ -209,11 +209,11 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* RELATED */}
         {related.length > 0 && (
-          <section className="bg-ink text-paper py-section">
+          <section className="bg-white text-ink py-section">
             <div className="mx-auto max-w-container px-6">
               <Reveal>
                 <div className="mb-10 max-w-2xl">
-                  <div className="inline-block border-3 border-paper bg-brand-yellow px-3 py-1 text-ink text-xs font-black uppercase tracking-wider mb-3 shadow-[6px_6px_0_#FFFDF5]">
+                  <div className="inline-block border-3 border-ink/10 bg-slate px-3 py-1 text-white text-xs font-black tracking-wider mb-3 rounded-full">
                     Devamı
                   </div>
                   <h2 className="font-display text-h2 font-black leading-tight">İlgili yazılar</h2>
@@ -225,12 +225,12 @@ export default async function BlogPostPage({ params }: Props) {
                   <Reveal key={r.slug} delay={i * 80}>
                     <Link
                       href={`/blog/${r.slug}`}
-                      className="group block border-3 border-paper bg-paper text-ink p-6 shadow-[8px_8px_0_#FFFDF5] hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0_#FFFDF5] transition-all h-full"
+                      className="group block border-3 border-ink/10 bg-paper text-ink p-6 transition-all h-full rounded-2xl"
                     >
                       <div className="flex items-start justify-between mb-3">
                         <span
                           className={cn(
-                            "border-3 border-ink px-2 py-0.5 text-xs font-black uppercase tracking-wider shadow-brutal-sm",
+                            "border-3 border-ink/15 px-2 py-0.5 text-xs font-black tracking-wider shadow-brutal-sm rounded-full",
                             CATEGORY_META[r.category].bg,
                             CATEGORY_META[r.category].text
                           )}
@@ -256,25 +256,25 @@ export default async function BlogPostPage({ params }: Props) {
         <section className="py-section">
           <div className="mx-auto max-w-container px-6">
             <Reveal>
-              <div className="border-3 border-ink bg-brand-yellow p-8 md:p-16 shadow-brutal-lg">
+              <div className="border-3 border-ink/15 bg-light p-8 md:p-16 shadow-brutal-lg rounded-2xl">
                 <div className="max-w-2xl">
                   <h2 className="font-display text-h2 font-black leading-tight text-ink">
                     Bu yazıyı sisteme dönüştürmek ister misin?
                   </h2>
                   <p className="mt-3 text-body text-ink/80">
-                    PORTZEN olarak işletmeler için AI asistanları, otomasyon ve dijital büyüme sistemleri kuruyoruz. 15 dakikalık ücretsiz keşif görüşmesinde sana özel yapıyı netleştirelim.
+                    PORTZEN olarak işletmeler için AI asistanları, otomasyon ve dijital büyüme sistemleri kuruyoruz. Ücretsiz keşif görüşmesinde sana özel yapıyı netleştirelim.
                   </p>
                   <div className="mt-6 flex flex-wrap gap-3">
                     <Link
                       href="/iletisim"
-                      className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
+                      className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
                     >
-                      Ücretsiz Projeyi Konuşalım
+                      Projeni Konuşalım
                       <ArrowUpRight className="h-4 w-4" />
                     </Link>
                     <Link
                       href="/#hizmetler"
-                      className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
+                      className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal-sm hover:shadow-brutal transition-all rounded-full"
                     >
                       Hizmetleri Gör
                     </Link>

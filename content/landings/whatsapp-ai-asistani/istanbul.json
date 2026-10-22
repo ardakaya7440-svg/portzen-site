@@ -18,12 +18,24 @@
     "istanbul çoklu şube whatsapp"
   ],
   "h1": "İstanbul İçin WhatsApp AI Asistanı",
-  "heroSubtitle": "Kadıköy'den Beylikdüzü'ne, Şişli'den Pendik'e — İstanbul'daki işletmeniz için 7/24 çalışan, Türkçe konuşan, çoklu şube yönetebilen WhatsApp AI asistanı. Mesai dışı kayıp müşteri yok, vardiya geçişinde aksama yok.",
+  "heroSubtitle": "Kadıköy'den Beylikdüzü'ne, Şişli'den Pendik'e — İstanbul'daki işletmeniz için 7/24 çalışan, Türkçe konuşan, çoklu şube yönetebilen WhatsApp AI asistanı. Mesai dışında gelen mesajlar otomatik yanıtlanır, vardiya geçişinde konuşma geçmişi sonraki ekibe aktarılır.",
   "stats": [
-    { "value": "7/24", "label": "Trafik mesai dışı bile aktif" },
-    { "value": "%89", "label": "Mesaj otomatik yanıtlama oranı" },
-    { "value": "<8sn", "label": "Ortalama ilk yanıt süresi" },
-    { "value": "13+", "label": "İstanbul ilçesinde aktif kurulum" }
+    {
+      "value": "7/24",
+      "label": "Trafik mesai dışı bile aktif"
+    },
+    {
+      "value": "Çoklu şube",
+      "label": "Mesajlar ilgili şubeye otomatik yönlendirilir"
+    },
+    {
+      "value": "Türkçe",
+      "label": "Doğal, samimi diyalog"
+    },
+    {
+      "value": "Anadolu + Avrupa",
+      "label": "Yakaya göre şube yönlendirme"
+    }
   ],
   "problems": [
     "İstanbul'da rakip yoğunluğu çok yüksek — müşteri 3 dakika içinde cevap alamazsa bir sonraki işletmeye geçiyor, satış kaybı yaşıyorsunuz.",
@@ -35,7 +47,7 @@
   "solutionSteps": [
     {
       "title": "İstanbul'a Özel Keşif & Şube Haritalama",
-      "description": "Şubelerinizi (Anadolu/Avrupa yakası), bölgesel müşteri profilinizi, en yoğun mesaj saatlerinizi ve sık sorulan ilçe bazlı soruları analiz ediyoruz. İstanbul KVKK uyumlu altyapı planı çıkarıyoruz."
+      "description": "Şubelerinizi (Anadolu/Avrupa yakası), bölgesel müşteri profilinizi, en yoğun mesaj saatlerinizi ve sık sorulan ilçe bazlı soruları analiz ediyoruz. KVKK gerekliliklerini dikkate alan altyapı planı çıkarıyoruz."
     },
     {
       "title": "Türkçe AI Eğitimi + Lokal Diyalog Kurgusu",
@@ -46,8 +58,8 @@
       "description": "Resmi WhatsApp Business API üzerinden kurulum, her şubeye otomatik yönlendirme, mesai içi/dışı senaryolar, vardiya geçişinde bağlam transferi, CRM/Google Sheets/sipariş sistemleri entegrasyonu."
     },
     {
-      "title": "Canlı Yayın, Eğitim & Sürekli İyileştirme",
-      "description": "Lansman sonrası 14 gün yoğun monitoring, ekibinize Türkçe eğitim, haftalık performans raporu (hangi şube, hangi saat, hangi soru). Aylık AI yeniden eğitim — büyüdükçe akıllanır."
+      "title": "Canlı Yayın, Eğitim & İyileştirme",
+      "description": "Lansman sonrası yoğun izleme dönemi, ekibinize Türkçe eğitim, haftalık performans raporu (hangi şube, hangi saat, hangi soru). Büyüme ve Kurumsal paketlerdeki aylık iyileştirme saatleriyle AI düzenli güncellenir."
     }
   ],
   "features": [
@@ -60,12 +72,12 @@
       "description": "Sabah ekibi konuşmayı bıraktığı yerden akşam ekibi devam eder. AI tüm geçmişi özet halinde sonraki ekibe sunar, müşteri tekrar anlatmaz."
     },
     {
-      "title": "İstanbul KVKK Uyumlu Veri İşleme",
-      "description": "Tüm müşteri verileri Türkiye sınırları içindeki sunucularda saklanır, KVKK aydınlatma metni otomatik gönderilir, açık rıza yönetimi sağlanır."
+      "title": "KVKK'yı Gözeten Veri İşleme",
+      "description": "KVKK aydınlatma metni otomatik gönderilir, açık rıza yönetimi sağlanır; akış KVKK gerekliliklerini dikkate alarak kurgulanır. Müşteri verilerinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir."
     },
     {
       "title": "Yoğun Saat Pik Yönetimi",
-      "description": "Akşam 19:00-23:00 ve hafta sonu mesaj patlamalarında bile her müşteriye 8 saniye altında ilk yanıt. AI rahat aralıkta ekibi yormaz."
+      "description": "Akşam 19:00-23:00 ve hafta sonu mesaj yoğunluğunda da her mesaja otomatik ilk yanıt verilir. Ekip yalnızca devredilen konuşmalarla ilgilenir."
     },
     {
       "title": "Sipariş, Rezervasyon & Randevu Akışları",
@@ -77,81 +89,38 @@
     }
   ],
   "caseStudy": {
-    "title": "Kadıköy Moda — Bir Cafe & Brunch İşletmesi: 3 Ayda 480 Paket Sipariş + 220 Rezervasyon",
+    "title": "Örnek senaryo: Kadıköy Moda'da bir cafe & brunch işletmesi için sipariş ve rezervasyon akışı",
     "paragraphs": [
-      "Kadıköy Moda'da 4 yıldır faaliyet gösteren popüler bir cafe & brunch işletmesi, WhatsApp üzerinden günde 60-80 mesaj alıyordu — rezervasyon, paket sipariş, menü sorgusu, hafta sonu yoğunluk bilgisi. Tek bir kasiyer kız bu mesajları yetiştirmeye çalışıyor, mesajların %35'i cevapsız kalıyor ve müşteriler komşu cafelere kayıyordu.",
-      "Portzen ile 3 hafta içinde WhatsApp AI asistanı kuruldu. Menü, fiyat, paket teslimat bölgesi (Moda, Caddebostan, Suadiye, Bağdat Caddesi), rezervasyon takvimi, hafta sonu yoğunluk bilgisi AI'a yüklendi. Vardiya geçişinde sabah-akşam ekip arası bağlam aktarımı sağlandı, mesai dışı paket sipariş otomatik alınmaya başlandı.",
-      "İlk 3 ayda WhatsApp üzerinden ay başı 480 paket sipariş ve 220 rezervasyon alındı. Cevapsız mesaj oranı %35'ten %3'e düştü. Akşam 22:00 sonrası gelen 'yarın brunch için 4 kişilik rezervasyon' mesajları artık otomatik onaylanıyor — kasiyer mesai içinde sadece kompleks vakalara odaklanıyor."
+      "Örnek bir kurulumu düşünelim: Kadıköy Moda'da popüler bir cafe & brunch işletmesine WhatsApp'tan rezervasyon, paket sipariş, menü sorgusu ve hafta sonu yoğunluk soruları geliyor. Bu mesajları tek bir kasiyer yetiştirmeye çalışıyor; yoğun saatlerde mesajlar cevapsız kalıyor.",
+      "Böyle bir yapıda WhatsApp AI asistanına menü, fiyat, paket teslimat bölgesi (Moda, Caddebostan, Suadiye, Bağdat Caddesi), rezervasyon takvimi ve hafta sonu yoğunluk bilgisi yüklenir. Vardiya geçişinde sabah ve akşam ekibi arasında konuşma özeti aktarılır, mesai dışı paket sipariş talepleri otomatik alınır.",
+      "Bu kurulumda akşam 22:00 sonrası gelen 'yarın brunch için 4 kişilik rezervasyon' mesajı kapasiteye göre otomatik işlenir, paket siparişler eksiksiz bilgiyle ekibe düşer; kasiyer mesai içinde yalnızca özel durumlara odaklanır."
     ],
     "beforeAfter": [
-      { "label": "Aylık WhatsApp dönüşümü", "before": "~95 sipariş + 60 rezervasyon (cevapsız %35)", "after": "480 paket sipariş + 220 rezervasyon (cevapsız %3)" },
-      { "label": "Ortalama ilk yanıt süresi", "before": "28-45 dakika (yoğun saatte 2 saat)", "after": "6 saniye (7/24)" },
-      { "label": "Mesai dışı alınan sipariş", "before": "0 (telefon kapalı)", "after": "ay başı 140 paket sipariş" }
+      {
+        "label": "Rezervasyon ve paket sipariş",
+        "before": "Kasiyer mesajları tek tek yanıtlıyor",
+        "after": "Talepler otomatik alınıp ekibe iletiliyor"
+      },
+      {
+        "label": "Yoğun saatte mesajlar",
+        "before": "Cevapsız kalabiliyor",
+        "after": "Otomatik yanıt (7/24)"
+      },
+      {
+        "label": "Mesai dışı sipariş",
+        "before": "Alınamıyor (telefon kapalı)",
+        "after": "WhatsApp'tan otomatik alınıyor"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "İstanbul Tek Şube",
-      "price": "8.500",
-      "currency": "TL",
-      "period": "/ay",
-      "description": "Tek şubeli Kadıköy/Beşiktaş/Şişli işletmeleri için.",
-      "features": [
-        "WhatsApp Business API kurulumu",
-        "Türkçe AI asistan eğitimi (80 soru)",
-        "Sipariş/rezervasyon/randevu akışı",
-        "KVKK uyumlu kurulum",
-        "Aylık 3.000 mesaj dahil",
-        "E-posta destek (mesai içi)"
-      ],
-      "highlighted": false
-    },
-    {
-      "name": "İstanbul Çoklu Şube",
-      "price": "17.000",
-      "currency": "TL",
-      "period": "/ay",
-      "description": "2-5 şubeli Anadolu+Avrupa yakası işletmeleri için. En popüler paket.",
-      "features": [
-        "Tek Şube paketinin tüm özellikleri",
-        "5 şubeye kadar otomatik yönlendirme",
-        "Vardiya geçişi bağlam aktarımı",
-        "150 soru AI eğitimi",
-        "CRM/Google Sheets entegrasyonu",
-        "Aylık 10.000 mesaj dahil",
-        "WhatsApp + telefon destek",
-        "Haftalık ilçe bazlı rapor"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "İstanbul Enterprise",
-      "price": "32.000",
-      "currency": "TL",
-      "period": "/ay",
-      "description": "5+ şubeli zincir, franchise ve kurumsal işletmeler için.",
-      "features": [
-        "Çoklu Şube paketinin tüm özellikleri",
-        "Sınırsız şube yönetimi",
-        "Özel API entegrasyonları (ERP, POS, sipariş)",
-        "300+ soru AI eğitimi",
-        "Sınırsız mesaj",
-        "Adanmış proje yöneticisi",
-        "7/24 öncelikli destek",
-        "Aylık AI yeniden eğitim",
-        "Özel raporlama dashboard"
-      ],
-      "highlighted": false
-    }
-  ],
   "faq": [
     {
       "question": "İstanbul dışında hizmet veriyor musunuz?",
-      "answer": "Evet, Türkiye'nin tüm şehirlerine hizmet veriyoruz. Ancak İstanbul'da fiziksel olarak da bulunuyoruz — Kadıköy ve Maslak'ta toplantı yapabiliyoruz. Diğer şehirler için tüm süreç online + Zoom üzerinden yürütülüyor."
+      "answer": "Evet, Türkiye'nin tüm şehirlerine hizmet veriyoruz. Süreç online + Zoom üzerinden yürütülüyor; gerektiğinde İstanbul'da yüz yüze görüşme planlanabilir."
     },
     {
       "question": "İstanbul'da fiziksel ofisiniz var mı, gelip görüşebilir miyiz?",
-      "answer": "Evet. Maslak ve Kadıköy'de toplantı noktalarımız var. Anadolu yakasındaysanız Kadıköy, Avrupa yakasındaysanız Maslak'ta yüz yüze keşif görüşmesi yapabiliriz. Online tercih ederseniz Zoom üzerinden de aynı verimle ilerliyoruz."
+      "answer": "Görüşmelerimizi ağırlıklı olarak online (Zoom) yapıyoruz ve süreç bu şekilde aynı verimle ilerliyor. Yüz yüze görüşme tercih ederseniz, uygun bir tarih ve yer için birlikte planlama yapabiliriz."
     },
     {
       "question": "Birden fazla şubem var (Kadıköy + Beylikdüzü gibi), nasıl yönetilecek?",
@@ -163,11 +132,11 @@
     },
     {
       "question": "İstanbul'da KVKK denetimi geldiğinde sorumluluk kimde?",
-      "answer": "Veri işleyici olarak biz teknik altyapıyı sağlıyoruz, veri sorumlusu siz kalıyorsunuz. KVKK aydınlatma metni şablonu, açık rıza akışı, veri saklama politikası gibi tüm dokümanları hazırlıyor, denetim anında destek veriyoruz. Tüm veriler Türkiye sınırları içinde tutulur."
+      "answer": "Veri işleyen olarak biz teknik altyapıyı sağlıyoruz, veri sorumlusu siz kalıyorsunuz. KVKK aydınlatma metni, açık rıza akışı ve veri saklama politikası kurulumda sizinle birlikte kurgulanır; metinlerin hukuki son kontrolü veri sorumlusu olarak sizdedir, denetim sürecinde teknik bilgi desteği veriyoruz. Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir."
     },
     {
       "question": "Mesaj hacmim çok yüksek (günlük 500+), sisteminiz kaldırır mı?",
-      "answer": "Evet. İstanbul'da günde 2.000+ mesaj alan zincir müşterilerimiz var. WhatsApp Business API üzerinden eş zamanlı yüzlerce konuşmayı sorunsuz yönetir. Mesaj hacminize göre Enterprise paket öneriyoruz."
+      "answer": "WhatsApp Business API eş zamanlı çok sayıda konuşmayı yönetebilecek şekilde tasarlanmıştır; sizin için belirleyici olan paketinizdeki aylık AI yanıt kotası. Yüksek hacim için Kurumsal paketi öneriyoruz: ayda {{ai-kota:kurumsal}} AI yanıtı, 3 şube ve Web + WhatsApp + Instagram kanalları içerir; bunun üzerindeki hacimler için kapsamı teklifte ayrıca netleştiriyoruz."
     },
     {
       "question": "Mevcut WhatsApp numaramı kullanabilir miyim, yoksa yeni numara mı almam gerekir?",
@@ -175,5 +144,5 @@
     }
   ],
   "finalCtaHeadline": "İstanbul'daki sisteminizi kuralım.",
-  "finalCtaSubtitle": "Kadıköy, Şişli, Beylikdüzü, Beşiktaş — ilçeniz neresi olursa olsun 14 gün içinde WhatsApp AI asistanınız canlıda. Ücretsiz İstanbul keşif görüşmesi için yazın."
+  "finalCtaSubtitle": "Kadıköy, Şişli, Beylikdüzü, Beşiktaş — ilçeniz neresi olursa olsun WhatsApp AI asistanınızı kuralım; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Ücretsiz İstanbul keşif görüşmesi için yazın."
 }

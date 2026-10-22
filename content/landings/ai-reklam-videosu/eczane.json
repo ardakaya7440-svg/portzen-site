@@ -3,7 +3,7 @@
   "sectorName": "Eczane",
   "sectorPlural": "Eczaneler",
   "title": "Eczaneler İçin AI Reklam Videosu | OTC Ürün ve Sezon Kampanya Reels - PORTZEN",
-  "description": "Eczaneniz için AI ile üretilmiş OTC ürün tanıtım, mevsim kampanyası ve semt bilinirliği videoları. TC İlaç Reklam Yönetmeliği uyumlu, 4 günde teslim, TikTok ve Reels için optimize.",
+  "description": "Eczaneniz için AI ile üretilmiş OTC ürün tanıtım, mevsim kampanyası ve semt bilinirliği videoları. TC İlaç Reklam Yönetmeliği sınırları gözetilerek hazırlanır, TikTok ve Reels için optimize.",
   "keywords": [
     "eczane reklam videosu",
     "eczane ai video",
@@ -14,12 +14,24 @@
     "semt eczanesi reklam"
   ],
   "h1": "Eczaneler için AI Reklam Videosu",
-  "heroSubtitle": "Sora, Veo, Kling, AI video modelleriyle OTC ürün close-up, sezon kampanyası ve eczane içi atmosfer videoları. TC İlaç Reklam Yönetmeliği sınırları içinde, 4 günde teslim, semt müşterinize ulaşacak.",
+  "heroSubtitle": "Sora, Veo, Kling, AI video modelleriyle OTC ürün close-up, sezon kampanyası ve eczane içi atmosfer videoları. TC İlaç Reklam Yönetmeliği sınırları gözetilerek, semt müşterinize ulaşacak şekilde hazırlanır.",
   "stats": [
-    {"value": "4 gün", "label": "Ortalama Teslim"},
-    {"value": "OTC", "label": "Mevzuat Uyumlu"},
-    {"value": "12 video", "label": "Aylık Paket"},
-    {"value": "4K", "label": "Çözünürlük"}
+    {
+      "value": "Kapsama göre",
+      "label": "Teslim süresi teklifte yazılı"
+    },
+    {
+      "value": "OTC",
+      "label": "Mevzuat sınırları gözetilir"
+    },
+    {
+      "value": "12 video",
+      "label": "Aylık Paket"
+    },
+    {
+      "value": "9:16",
+      "label": "Reels & TikTok"
+    }
   ],
   "problems": [
     "Semt eczanesisiniz ama Instagram'da kimse sizi tanımıyor, hasta yandaki zincir eczaneye gidiyor, semt müşterisi kaymaya başladı.",
@@ -35,8 +47,8 @@
       "description": "Eczanenizdeki OTC ürün portföyü (vitamin, takviye edici gıda, dermokozmetik, güneş ürünleri), sezonsal kampanya takvimi (kış nezle, yaz güneş, ilkbahar alerji), semt profili ve hedef kitle özellikleri brief'te toplanır. TC İlaç Reklam Yönetmeliği sınırları net çizilir."
     },
     {
-      "title": "2. Mevzuat Uyumlu Storyboard",
-      "description": "Her video için 9:16 dikey storyboard hazırlanır, mevzuat avukatı tarafından gözden geçirilir. Reçeteli ilaç görseli yok, tıbbi iddia yok, sadece OTC ürün ve genel sağlık bilgisi. Onay sonrası prompt setine dönüşür."
+      "title": "2. Mevzuatı Gözeten Storyboard",
+      "description": "Her video için 9:16 dikey storyboard, ilgili reklam mevzuatının sınırları gözetilerek hazırlanır. Reçeteli ilaç görseli yok, tıbbi iddia yok, sadece OTC ürün ve genel sağlık bilgisi. Onayınız sonrası prompt setine dönüşür."
     },
     {
       "title": "3. Sora / Veo / Kling Render + Edit",
@@ -44,7 +56,7 @@
     },
     {
       "title": "4. Reels & TikTok Teslim + Yayın",
-      "description": "MP4 dosyası, mevzuat uyumlu caption, hashtag seti (semt + kampanya odaklı), trend müzik önerisi paketi. İsterseniz haftalık takvimle Reels ve TikTok hesabınıza biz yayınlarız, semt etiketleri eklenir."
+      "description": "MP4 dosyası, mevzuat sınırları gözetilerek yazılmış caption, hashtag seti (semt + kampanya odaklı), trend müzik önerisi paketi. İsterseniz haftalık takvimle Reels ve TikTok yayınını sosyal medya yönetimi kapsamında biz üstleniriz, semt etiketleri eklenir."
     }
   ],
   "features": [
@@ -54,7 +66,7 @@
     },
     {
       "title": "Sezon Kampanya Videoları",
-      "description": "Kış nezle ve grip (Mart sonu hazır), yaz güneş ve cilt bakımı (Mayıs hazır), sonbahar bağışıklık (Ekim hazır), ilkbahar alerji (Şubat hazır). Sezon takvimine bağlı içerik motoru çalışıyor, kampanya başında elinizde hazır içerik bulunur."
+      "description": "Kış nezle ve grip, yaz güneş ve cilt bakımı, sonbahar bağışıklık, ilkbahar alerji. İçerikler sezon takvimine göre önceden planlanır; teslim takvimi teklifte yazılı olarak belirlenir."
     },
     {
       "title": "Eczane İçi Atmosfer Renderleri",
@@ -69,74 +81,44 @@
       "description": "Her video için 'Karşıyaka eczane', 'Bornova vitamin', 'Çankaya güneş ürünü' gibi semt etiketli caption ve hashtag setleri. Yerel arama ve keşfet için optimize, semt müşterisi çekme odaklı."
     },
     {
-      "title": "Mevzuat Avukat Kontrolü",
-      "description": "Her video TC İlaç Reklam Yönetmeliği açısından kontrol edilir. Reçeteli ilaç görseli, tıbbi iddia, karşılaştırma, hastalık tedavi vaadi yok. Sağlık Bakanlığı denetimi durumunda problem yaşamayacağınız içerik garantisi."
+      "title": "Mevzuat Sınırları Kontrolü",
+      "description": "Her senaryo ilgili reklam mevzuatı gözetilerek hazırlanır: reçeteli ilaç görseli, tıbbi iddia, karşılaştırma ve hastalık tedavi vaadi kullanılmaz. Bu bir hukuki uygunluk onayı değildir; son yayın onayı eczacı olarak sizdedir."
     }
   ],
   "caseStudy": {
-    "title": "Karşıyaka'da Bir Eczane: 4 Ayda Semt Bilinirliği %42 Artış, Aylık 220 Yeni Müşteri",
+    "title": "Örnek senaryo: Semt eczanesi için mevsim takvimine bağlı OTC videoları",
     "paragraphs": [
-      "Karşıyaka Bostanlı'da 11 yıllık bir eczane, semt nüfusunun büyük kısmı tarafından bilinmiyordu. Yandaki Watsons ve zincir eczaneler dermokozmetik ve vitamin satışında baskındı, eczacı 'OTC ürün satışı düşüyor, stok elimde kalıyor' diyordu. Aylık Instagram aktivitesi sıfır, TikTok hesabı yok, semt bilinirliği zayıftı.",
-      "Mart 2026'da PORTZEN AI reklam videosu paketini Başlangıç seviyesinden başlattık. Ayda 4 video üretildi, mevsim takvimine bağlı (Mart alerji ürünleri, Nisan güneş ürünü hazırlığı, Mayıs bahar bağışıklık, Haziran tatil çantası vitamin). Tüm videolar 9:16 dikey, Reels ve TikTok'a yayınlandı, Karşıyaka + Bostanlı + İzmir etiketleriyle.",
-      "4 ay sonra Reels aylık erişim 0'dan 84.000'e çıktı, TikTok hesabı 3 video ile 180.000 görüntülenme aldı (alerji ürünü ASMR videosu viral oldu). Eczanenin semt bilinirliği ankete göre %42 arttı, OTC ürün satışı %28 yükseldi. Ayda 220 yeni müşteri kasada 'sizin Reels videonuzu gördüm, sorgulayayım' diyerek geldi."
+      "Örnek bir kurulum: Yakınında zincir eczane ve kozmetik mağazaları bulunan, Instagram'da neredeyse hiç paylaşım yapmayan ve TikTok hesabı olmayan bir semt eczanesi düşünün. Dermokozmetik ve vitamin ürünleri rafta bekliyor; semt sakinlerine bunları anlatacak içerik yok.",
+      "Bu senaryoda Başlangıç kısa video paketiyle ayda 4 video planlanır ve mevsim takvimine bağlanır (ör. alerji ürünleri, güneş ürünü hazırlığı, bahar bağışıklık, tatil çantası vitamin). Videolar 9:16 dikey formatta, Reels ve TikTok için semt etiketli caption önerileriyle hazırlanır; reçeteli ilaç görseli ve tıbbi iddia kullanılmaz.",
+      "Eczane her sezon başında paylaşabileceği hazır videolara sahip olur; eczacının kameraya çıkması veya eczanede çekim yapılması gerekmez. Yayından önce son onay eczacıdadır. Erişim ve satış sonuçları semte, ürüne ve yayın düzenine göre değişir; burada rakam vaat etmiyoruz."
     ],
     "beforeAfter": [
-      {"label": "Aylık Reels Erişim", "before": "0", "after": "84.000"},
-      {"label": "TikTok Görüntülenme", "before": "0", "after": "180.000"},
-      {"label": "Semt Bilinirliği", "before": "Baz", "after": "+%42"},
-      {"label": "OTC Ürün Aylık Satış", "before": "Baz", "after": "+%28"}
+      {
+        "label": "Sosyal medya varlığı",
+        "before": "Paylaşım yok, TikTok hesabı yok",
+        "after": "Mevsim takvimine bağlı düzenli Reels ve TikTok videoları"
+      },
+      {
+        "label": "Eczacının rolü",
+        "before": "Videoya çıkması ve kurgu yapması gerekiyor",
+        "after": "Brief ve son yayın onayını veriyor"
+      },
+      {
+        "label": "Ürün görselleri",
+        "before": "Raf fotoğrafı veya marka görselleri",
+        "after": "AI ile üretilen OTC ürün close-up'ları"
+      },
+      {
+        "label": "Kampanya hazırlığı",
+        "before": "Sezon başladığında içerik yok",
+        "after": "Sezon takvimine göre önceden planlanan videolar"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "6.500 TL/ay",
-      "description": "Tek lokasyon eczane, OTC ürün ve sezon kampanyası için",
-      "features": [
-        "Ayda 4 AI video (OTC ürün + atmosfer)",
-        "9:16 dikey + 1:1 kare format",
-        "Mevzuat avukat kontrolü dahil",
-        "2 revize hakkı / video",
-        "Semt etiketli caption + hashtag",
-        "Sakin trend müzik önerisi"
-      ]
-    },
-    {
-      "name": "Pro",
-      "price": "13.500 TL/ay",
-      "description": "Aktif Instagram yürüten eczaneler için en popüler paket",
-      "features": [
-        "Ayda 12 AI video (OTC + sezon + bilgilendirme)",
-        "9:16 + 1:1 + 16:9 üç format",
-        "Sezon kampanya planlaması (4 sezon önceden)",
-        "Sınırsız revize",
-        "Mevsim varyasyonu dahil",
-        "Aylık içerik takvimi",
-        "Reels + TikTok yayın takibi",
-        "Önceliklendirilmiş teslim (3 gün)"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Premium",
-      "price": "26.000 TL/ay",
-      "description": "Çok şubeli ve zincir eczaneler, dermokozmetik ağırlıklı için",
-      "features": [
-        "Ayda 24 AI video",
-        "Tüm formatlar + 4K master",
-        "Çoklu şube içerik koordinasyonu",
-        "Komple Reels + TikTok yönetimi",
-        "Meta + TikTok Ads kampanya yönetimi",
-        "Aylık performans raporu",
-        "Özel proje yöneticisi",
-        "Acil içerik (24 saat) hakkı"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "Eczane reklamı yapmak TC İlaç Reklam Yönetmeliği'ne aykırı değil mi?",
-      "answer": "Reçeteli ilaç reklamı yasak, ancak OTC (tezgah üstü) ürün, dermokozmetik, takviye edici gıda, genel sağlık bilgisi ve eczane tanıtımı serbest. Tüm videolarımız mevzuat avukatı tarafından kontrol edilir, hiçbir tıbbi iddia veya hastalık tedavi vaadi yer almaz. Şu ana kadar müşterimiz Sağlık Bakanlığı uyarısı almadı."
+      "answer": "Reçeteli ilaç reklamı yasaktır. OTC (tezgah üstü) ürün, dermokozmetik, takviye edici gıda ve genel sağlık bilgisi içeriklerinde de sınırlar vardır; eczanelerin tanıtım faaliyetleri ayrıca meslek kurallarına tabidir. Videolarımız bu sınırlar gözetilerek hazırlanır, tıbbi iddia veya hastalık tedavi vaadi içermez. Bu bir hukuki uygunluk onayı değildir: yayından önce son onay eczacı olarak sizdedir, gerekirse bağlı olduğunuz eczacı odasına danışmanızı öneririz."
     },
     {
       "question": "AI ile üretilen ürün videoları gerçek mi gözüküyor, müşteri yanlış anlamaz mı?",
@@ -148,7 +130,7 @@
     },
     {
       "question": "Eczacı kendisi videoya çıkmak zorunda mı?",
-      "answer": "Hayır. AI ile eczacı silueti, eczane atmosferi, ürün macro, animasyonlu bilgilendirme üretiyoruz. Eğer kendiniz çıkmak isterseniz, 30 saniyelik bir referans video gönderirsiniz, AI sesle dudak senkronu yapabiliriz (Premium paket). Çoğu eczacı yüz görünmeden, sadece eller ve eczane atmosferi ile içerik üretmeyi tercih ediyor."
+      "answer": "Hayır. AI ile eczacı silueti, eczane atmosferi, ürün makro görüntüleri ve animasyonlu bilgilendirme sahneleri üretiyoruz. Kendiniz görünmek isterseniz 30 saniyelik bir referans video gönderirsiniz, AI sesle dudak senkronu yapılabilir; bu çalışma paketlerde standart değildir ve ayrıca tekliflendirilir. Yüz göstermek istemeyen eczacılar için yalnızca eller ve eczane atmosferiyle de içerik üretilebilir."
     },
     {
       "question": "Reçeteli ilaç tanıtımı yapabilir miyim?",
@@ -156,13 +138,13 @@
     },
     {
       "question": "Hangi mevsim kampanyaları planlanıyor, takvim nasıl işliyor?",
-      "answer": "Yıllık takvim: Şubat alerji ve ilkbahar hazırlığı, Mart aktivite ve bağışıklık, Nisan-Mayıs güneş ürünü, Haziran-Temmuz tatil çantası, Ağustos-Eylül okul takviyesi, Ekim-Kasım grip ve nezle, Aralık-Ocak bağışıklık ve kış cilt bakımı. Her sezon başında 3 hafta önce içerik hazır, kampanya günü beklerken stres yok."
+      "answer": "Yıllık takvim: Şubat alerji ve ilkbahar hazırlığı, Mart aktivite ve bağışıklık, Nisan-Mayıs güneş ürünü, Haziran-Temmuz tatil çantası, Ağustos-Eylül okul takviyesi, Ekim-Kasım grip ve nezle, Aralık-Ocak bağışıklık ve kış cilt bakımı. İçerikler her sezon başlamadan önce hazır olacak şekilde planlanır; teslim takvimi teklifte yazılı olarak belirlenir."
     },
     {
       "question": "Sözleşme süresi nedir, iptal nasıl oluyor?",
-      "answer": "Aylık çalışıyoruz, minimum 2 ay öneriyoruz (sezon takviminin oturması için). Aylık sonunda istediğiniz an feshedebiliyorsunuz, ceza yok. 3 aylık peşin ödemede %8 indirim, 6 aylıkta %12 indirim uyguluyoruz."
+      "answer": "Kısa video paketleri aylık hizmettir; sözleşme süresi ve fesih koşulları teklifte yazılı olarak belirlenir. Sezon takviminin oturması için en az 2 ay çalışmayı öneriyoruz."
     }
   ],
   "finalCtaHeadline": "Eczanenizin OTC ürünleri rafta beklemesin, semt müşterisi sizi tanısın",
-  "finalCtaSubtitle": "OTC ürün brief'iniz 30 dakika sürer, ilk video 96 saatte Reels'e hazır. WhatsApp'tan ulaşın, 24 saat içinde dönüş yapıyoruz."
+  "finalCtaSubtitle": "OTC ürün brief'iniz kısa bir görüşmeyle tamamlanır; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. WhatsApp'tan ulaşın, en kısa sürede dönüş yapıyoruz."
 }

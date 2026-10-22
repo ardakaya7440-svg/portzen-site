@@ -180,7 +180,7 @@ Hedef: 30-50 yaş arası, leke/yaşlanma karşıtı çözüm arayan kadın.
 - **Orta:** #ankara #medikalestetik #türkiyeestetik #ciltlekesi #bakımrutini
 - **Küçük:** #ankaramedikalestetik #ankarcilt #estetikuzmanankara
 
-Bu klinikte hashtag stratejisi tek başına yetmez; DM otomasyonu, randevu yönlendirmesi, lead magnet (örnek: ücretsiz cilt analizi) ile birlikte düşünülmeli. [Instagram DM otomasyonu](/instagram-dm-otomasyonu) bu noktada randevu dönüşüm oranını ikiye katlıyor. İçerik, hashtag ve DM akışını bütünleşik yönetebilen bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak, hashtag stratejisini sadece "etiket listesi" olmaktan çıkarıp gerçek satış sistemine bağlıyor.
+Bu klinikte hashtag stratejisi tek başına yetmez; DM otomasyonu, randevu yönlendirmesi, lead magnet (örnek: ücretsiz cilt analizi) ile birlikte düşünülmeli. [Instagram DM otomasyonu](/instagram-dm-otomasyonu) bu noktada yorum ve hikâye etkileşimlerine kural tabanlı otomatik DM göndererek ilgiyi randevu adımına yönlendiriyor. İçerik, hashtag ve DM akışını bütünleşik yönetebilen bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak, hashtag stratejisini sadece "etiket listesi" olmaktan çıkarıp gerçek satış sistemine bağlıyor.
 
 ### Emlak Örneği: Bursa'da Gayrimenkul Ofisi
 
@@ -190,7 +190,7 @@ Hedef: Bursa'da yatırımlık ya da oturmalık ev arayan müşteri.
 - **Orta:** #bursa #bursaemlak #satılıkdaire #yatırımlıkmülk #türkiyeemlak
 - **Küçük:** #bursanilüferemlak #bursayatırım #bursamerkezdaire
 
-Emlakta hashtag, Reels'taki gezdirme videosuyla birleştiğinde patlıyor. [AI reklam videosu](/ai-reklam-videosu) ile haftada 3-5 daire turu videosu üreten emlak ofisleri, organik hashtag erişimini birkaç katına çıkarıyor. Daha geniş ölçekli üretim ve marka tutarlılığı için [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetiyle Higgsfield ve Seedance tabanlı seri içerik üretmek de masa üstünde tutulması gereken bir alternatif.
+Emlakta hashtag, Reels'taki gezdirme videosuyla birleştiğinde patlıyor. [AI reklam videosu](/ai-reklam-videosu) ile haftada 3-5 daire turu videosu üreten emlak ofisleri, hashtag'lerin bağlam sinyalini düzenli video akışıyla destekliyor. Daha geniş ölçekli üretim ve marka tutarlılığı için [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetiyle Higgsfield ve Seedance tabanlı seri içerik üretmek de masa üstünde tutulması gereken bir alternatif.
 
 ## Hashtag Kullanım Yeri: Caption mı, İlk Yorum mu?
 
@@ -208,8 +208,8 @@ Hashtag tek başına satış üretmiyor. Asıl güç hashtag + Reels + DM döng�
 1. **Hashtag** Reels'ı doğru kitleye gösteriyor (bağlam sinyali)
 2. **Reels** ilk 3 saniyede izleyiciyi yakalıyor (hook)
 3. **CTA** izleyiciyi DM'e çağırıyor ("DM'den 'FİYAT' yazın")
-4. **DM otomasyonu** gelen mesajı 30 saniye içinde cevaplıyor
-5. Müşteri 15 dakika içinde randevu/sipariş/satın alma adımına geçiyor
+4. **DM otomasyonu** "FİYAT" gibi tetikleyici kelimeye önceden hazırlanmış mesajla otomatik yanıt veriyor
+5. Müşteri randevu/sipariş/satın alma adımına yönlendiriliyor
 
 Bu döngüyü kuran KOBİ'ler, Instagram'ı bir vitrin olmaktan çıkarıp **satış kanalına** dönüştürüyor. [Instagram'dan müşteri bulma rehberi](/blog/instagramdan-musteri-bulma-rehberi) yazısında bu döngünün her aşamasını detaylandırdım.
 
@@ -246,14 +246,14 @@ Hashtag stratejisi "bir kez kur, unut" değil. Aylık bakım gerektiriyor. Aylı
 3. **Hafta 3:** Yasaklı hashtag taraması yap (her hashtag'i Instagram'da aratıp kontrol et)
 4. **Hafta 4:** Yeni 3-5-3 setleri hazırla, rotasyona koy
 
-Bu rutini takip eden KOBİ'lerin organik erişimi 6 ay içinde 2-3 katına çıkıyor. Sadece içerik kalitesini iyileştirmek yetmiyor; doğru hashtag yapısı içeriğin görünür olmasını sağlıyor.
+Bu rutini takip etmek, hashtag setlerinin güncel ve temiz kalmasını sağlıyor. Sadece içerik kalitesini iyileştirmek yetmiyor; doğru hashtag yapısı içeriğin görünür olmasını sağlıyor.
 
 ## PORTZEN ile Hashtag ve Erişim Stratejisi: Profesyonel Yaklaşım
 
-PORTZEN olarak Türk KOBİ'leri için sadece "hashtag listesi" değil; içerik üretimi, hashtag araştırması, yayın takvimi, DM otomasyonu ve dönüşüm takibini bir arada sunan **uçtan uca sosyal medya sistemleri** kuruyoruz. Restoranlardan emlak ofislerine, kliniklerden butiklere kadar 50+ KOBİ ile birlikte çalıştık. Ortalama 90 günde organik erişim 3 katına, DM'den gelen müşteri sayısı 2.5 katına çıkıyor.
+PORTZEN olarak Türk KOBİ'leri için sadece "hashtag listesi" değil; içerik üretimi, hashtag araştırması, yayın takvimi, DM otomasyonu ve dönüşüm takibini bir arada sunan **uçtan uca sosyal medya sistemleri** kuruyoruz. Restoranlardan emlak ofislerine, kliniklerden butiklere kadar farklı sektörlerdeki KOBİ'ler için bu sistemi kuruyoruz; sonuçlar hesaba, sektöre ve başlangıç noktasına göre değişir.
 
-Sistemin temelinde üç katman var: birinci katmanda **içerik üretimi** (AI destekli Reels, carousel, hikaye şablonları) işletmenin haftalık 5-7 paylaşımını otomatize ediyor. İkinci katmanda **hashtag ve erişim optimizasyonu** her gönderiye özel 3-5-3 hashtag seti, lokasyon etiketi ve yayın saati planlanıyor. Üçüncü katmanda **dönüşüm otomasyonu** Instagram DM'den gelen her mesaj 30 saniye içinde cevaplanıyor; randevu, sipariş ya da satın alma adımına yönlendiriliyor.
+Sistemin temelinde üç katman var: birinci katmanda **içerik üretimi** (AI destekli Reels, carousel, hikaye şablonları) pakete göre ayda 10 ila 30 özgün içeriği üretiyor. İkinci katmanda **hashtag ve erişim optimizasyonu** her gönderiye özel 3-5-3 hashtag seti, lokasyon etiketi ve yayın saati planlanıyor. Üçüncü katmanda (ayrı hizmet olarak eklenen) kural tabanlı **Instagram DM otomasyonu** ile yorum, hikâye ve anahtar kelime tetikleyicilerine otomatik yanıt veriliyor; müşteri randevu, sipariş ya da satın alma adımına yönlendiriliyor. Serbest soruları yapay zekayla anlayıp yanıtlayan yapı ise ayrı bir hizmet olan AI müşteri asistanıdır (Instagram kanalı Kurumsal pakette).
 
-Bu üçlü yapı, geleneksel sosyal medya ajanslarına göre %40-50 daha düşük maliyetle çok daha ölçülebilir sonuç veriyor. Çünkü işin sadece "güzel içerik" değil, gerçek satış üretmesi üzerine kurulu. Hashtag stratejisi de bu büyük resmin bir parçası; tek başına değil, sistemin içinde çalıştığında değer yaratıyor.
+Sosyal medya paketlerimiz: {{fiyatlar:sosyal-medya}} (KDV hariç); Instagram DM otomasyonu ayrı bir hizmet olarak eklenir. Yapının odağı sadece "güzel içerik" değil, içeriği satışa giden bir akışa bağlamak. Hashtag stratejisi de bu büyük resmin bir parçası; tek başına değil, sistemin içinde çalıştığında değer yaratıyor.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir görüşmede işletmeniz için uygun yapıyı netleştiririz.

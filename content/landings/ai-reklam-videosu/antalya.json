@@ -4,7 +4,7 @@
   "sectorName": "Antalya",
   "sectorPlural": "Antalya'daki Markalar",
   "title": "Antalya AI Reklam Videosu | Sezon Kampanyası + Çok Dilli - PORTZEN",
-  "description": "Antalya'daki otel, restoran, gezi ve turizm markaları için AI reklam videosu. Sezon kampanya Reels & TikTok + çok dilli (TR/EN/RU/DE) içerik. Aylık 15 videoya kadar paketler.",
+  "description": "Antalya'daki otel, restoran, gezi ve turizm markaları için AI reklam videosu. Sezon kampanya Reels & TikTok + çok dilli (TR/EN/RU/DE) içerik. Aylık 24 videoya kadar paketler.",
   "keywords": [
     "antalya ai reklam videosu",
     "antalya reels üretimi",
@@ -14,12 +14,24 @@
     "antalya otel video"
   ],
   "h1": "Antalya İçin AI Reklam Videosu Üretimi",
-  "heroSubtitle": "Konyaaltı'nda otel, Lara'da restoran, Belek'te golf, Side'de gezi turu - sezon kampanyanızı 4 dilli (TR/EN/RU/DE) AI üretimli Reels, TikTok ve tanıtım filmleriyle güçlendirin. Aylık 6-15 video.",
+  "heroSubtitle": "Konyaaltı'nda otel, Lara'da restoran, Belek'te golf, Side'de gezi turu - sezon kampanyanızı 4 dilli (TR/EN/RU/DE) AI üretimli Reels, TikTok ve tanıtım filmleriyle güçlendirin. Aylık 4, 12 veya 24 video.",
   "stats": [
-    {"value": "4 Dil", "label": "TR/EN/RU/DE"},
-    {"value": "15 video", "label": "Aylık Max"},
-    {"value": "%70", "label": "Maliyet Azaltma"},
-    {"value": "72 saat", "label": "İlk Teslim"}
+    {
+      "value": "4 Dil",
+      "label": "TR/EN/RU/DE"
+    },
+    {
+      "value": "24 video",
+      "label": "Aylık Max"
+    },
+    {
+      "value": "Çekim ekibi yok",
+      "label": "AI ile uzaktan üretim"
+    },
+    {
+      "value": "Kapsama göre",
+      "label": "Teslim süresi teklifte yazılı"
+    }
   ],
   "problems": [
     "Antalya otelinizin yeni sezonu yaklaşıyor, sosyal medya tanıtım filmi çekmek lazım ama prodüksiyon ekibi İstanbul'dan geliyor; havadan-denizden 4K çekim 150-300 bin TL'ye çıkıyor.",
@@ -39,11 +51,11 @@
     },
     {
       "title": "AI Video + Çok Dilli Ses",
-      "description": "Seedance, Kling, Veo, Sora gibi premium modeller. ElevenLabs ile TR/EN/RU/DE seslendirme - tek brifle 4 dilli versiyon."
+      "description": "Seedance, Kling, Veo, Sora gibi premium modeller. ElevenLabs ile TR/EN/RU/DE seslendirme - tek brifle 4 dilli versiyon; Türkçe dışındaki dil versiyonları ek iş olarak ayrıca tekliflendirilir."
     },
     {
       "title": "Teslim + Sezonsal Optimizasyon",
-      "description": "İlk teslim 72 saat, revizyon sınırsız (revize talep limiti 2). Aylık performans raporu, sezon değişiminde içerik stratejisi güncellemesi."
+      "description": "Teslim süresi kapsama göre teklifte yazılı olarak belirtilir, revize kapsamı teklifte yazılı olarak belirlenir. Aylık performans raporu, sezon değişiminde içerik stratejisi güncellemesi."
     }
   ],
   "features": [
@@ -57,15 +69,15 @@
     },
     {
       "title": "4 Dilli Seslendirme",
-      "description": "ElevenLabs ile TR/EN/RU/DE seslendirme. Aynı senaryodan 4 dilli versiyon, hedef pazara göre Meta/TikTok Ads ile dağıtım."
+      "description": "ElevenLabs ile TR/EN/RU/DE seslendirme. Aynı senaryodan 4 dilli versiyon, hedef pazara göre Meta/TikTok Ads ile dağıtım. Ek dil versiyonları ayrıca tekliflendirilir."
     },
     {
       "title": "Dikey + Yatay Format",
-      "description": "Reels, TikTok (9:16), YouTube Shorts (9:16), feed (1:1, 4:5), YouTube Ads + otel TV (16:9) - tek brifle 5 format."
+      "description": "Reels, TikTok (9:16), YouTube Shorts (9:16), feed (1:1, 4:5), YouTube Ads + otel TV (16:9) - tek brifle pakete göre 1, 2 veya 3 format; ek formatlar ayrıca tekliflendirilir."
     },
     {
       "title": "Telifsiz + Marka Sahiplik",
-      "description": "Üretilen tüm videoların ticari kullanım hakkı %100 sizin. Sezon kampanya, Meta Ads, Booking sayfası - sınırsız kullanım."
+      "description": "Üretilen tüm videoların ticari kullanım hakkı tamamen sizin. Sezon kampanya, Meta Ads, Booking sayfası - süre ve kanal sınırı olmadan kullanım."
     },
     {
       "title": "Sezonsal Strateji",
@@ -73,76 +85,46 @@
     }
   ],
   "caseStudy": {
-    "title": "Belek'te bir golf rezort: 3 ayda 24 AI Reels (4 dilli), erken rezervasyon dönüşümü %120 arttı",
+    "title": "Örnek senaryo: Belek'te bir golf rezortu için çok dilli erken rezervasyon videoları",
     "paragraphs": [
-      "Belek'te 5 yıldızlı bir golf rezort, kış sezonu erken rezervasyon kampanyasına hazırlanıyordu. Geçmiş kampanyalarda İstanbul prodüksiyona 220.000 TL ödenmiş, 3 video çekilmişti; sezon boyu yeni içerik yetişmemişti. Rus/Alman/İngiliz pazarlarına ayrı dilli reklam istiyordu, prodüksiyon süresi 6 haftaya çıkıyordu.",
-      "PORTZEN olarak 3 aylık AI Reels paketine başladık; mevcut tesis fotoğrafları AI modellere yüklendi; cinematic golf swing slow-motion, sunset golf cart shot, spa pool fly-through, gourmet restaurant detail shot - 24 Reels üretildi. Her Reels TR/EN/RU/DE 4 dilli versiyonla (toplam 96 final video).",
-      "3 ay sonunda Instagram erişim 28K'dan 220K'ya yükseldi. Erken rezervasyon dönüşümü önceki yıla göre %120 arttı (Rusya pazarı +180%, Almanya +95%). Video birim maliyeti 220K → 3.000 TL'ye düştü; maliyet %98 azaldı. Üstelik 4 dilli versiyon ek çekim/dublaj olmadan tek workflow'da üretildi."
+      "Örnek bir kurulum: Belek'te kış döneminde erken rezervasyon kampanyasına hazırlanan bir golf rezortu düşünün. Klasik prodüksiyonla sezon boyunca yeni içerik yetiştirmek zor; Rus, Alman ve İngiliz pazarlarına ayrı dilde reklam ihtiyacı da süreci uzatıyor.",
+      "Bu senaryoda mevcut tesis fotoğrafları AI modellere referans olarak yüklenir; sinematik golf swing slow-motion, gün batımında golf arabası, spa havuzu fly-through ve restoran detay sahneleri üretilir. Aylık video adedi pakete göre 4, 12 veya 24'tür; İngilizce, Rusça ve Almanca ses/altyazı versiyonları aynı görseller üzerinde hazırlanır ve ek iş olarak ayrıca tekliflendirilir.",
+      "Rezort, her pazar için ayrı dilde hazırlanmış videoları erken rezervasyon kampanyasında, Meta/TikTok reklamlarında, Booking sayfasında ve otel TV'sinde kullanabilir; yeni sahne gerektiğinde ayrı çekim organize etmez. Erişim ve rezervasyon sonuçları pazara, teklife ve reklam bütçesine göre değişir; burada rakam vaat etmiyoruz."
     ],
     "beforeAfter": [
-      {"label": "Aylık Video Üretimi", "before": "1 (klasik prodüksiyon)", "after": "8 AI Reels (4 dilli)"},
-      {"label": "Erken Rezervasyon", "before": "baz seviye", "after": "+%120"},
-      {"label": "Video Birim Maliyeti", "before": "220.000 TL", "after": "~3.000 TL"}
+      {
+        "label": "Aylık Video Üretimi",
+        "before": "Sezonda birkaç klasik prodüksiyon videosu",
+        "after": "Pakete göre 4, 12 veya 24 AI video"
+      },
+      {
+        "label": "Dil versiyonları",
+        "before": "Her dil için ayrı prodüksiyon ve dublaj",
+        "after": "Aynı görsellerden TR/EN/RU/DE ses ve altyazı (ek diller ayrıca tekliflendirilir)"
+      },
+      {
+        "label": "Sahne üretimi",
+        "before": "Drone ve set izinleri gerekiyor",
+        "after": "Havadan ve gün batımı sahneleri AI ile üretiliyor"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "9.000 TL/ay",
-      "description": "Butik otel, küçük restoran, gezi firması için (TR + EN)",
-      "features": [
-        "Aylık 4 AI Reels (5-10 sn)",
-        "Dikey format (9:16)",
-        "TR + EN altyazı",
-        "Müzik dahil",
-        "1 revizyon hakkı",
-        "E-posta destek"
-      ]
-    },
-    {
-      "name": "Turizm Pro",
-      "price": "20.000 TL/ay",
-      "description": "Otel zinciri, golf rezort, restoran markası, tur operatörü için (4 dil)",
-      "features": [
-        "Aylık 8 AI Reels (5-12 sn)",
-        "Dikey + Kare format",
-        "4 dilli seslendirme (TR/EN/RU/DE)",
-        "Marka müziği",
-        "Aylık performans raporu",
-        "Öncelikli WhatsApp destek"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Kurumsal",
-      "price": "38.000 TL/ay",
-      "description": "5+ yıldız otel, ulusal turizm markası için",
-      "features": [
-        "Aylık 15 AI Reels + 2 uzun tanıtım filmi (30 sn)",
-        "5 format (9:16, 1:1, 4:5, 16:9, otel TV)",
-        "Premium seslendirme + Skandinav dilleri",
-        "A/B test paketleri (pazar bazlı)",
-        "Adanmış Antalya hesap yöneticisi",
-        "Aylık strateji toplantısı"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "Antalya sahili, Belek golf, antik kent AI ile gerçekçi üretilebilir mi?",
       "answer": "Evet. Tesis/sahil fotoğraflarınızı AI modellere referans olarak yüklüyoruz; sonra sunset shot, drone fly-through, slow-motion gibi pratik imkansız sahneler üretiyoruz. Marka brifi sürecinde lokal kodları beraber belirliyoruz."
     },
     {
-      "question": "4 dilli (TR/EN/RU/DE) versiyon tek pakette mi?",
-      "answer": "Evet. Turizm Pro paketinden itibaren her video 4 dilli seslendirme + altyazı ile teslim. Ek ücret yok; tek brifle 4 pazar için ayrı content."
+      "question": "4 dilli (TR/EN/RU/DE) versiyon hazırlayabiliyor musunuz?",
+      "answer": "Evet, hazırlayabiliyoruz. Çok dilli seslendirme ve altyazı paketlere standart olarak dahil değildir; ek dil versiyonları ek iş olarak ayrıca tekliflendirilir. Aynı görseller üzerinde yalnızca ses ve altyazı değiştiği için tek brif ile Türk, İngiliz, Rus ve Alman turistlere yönelik ayrı versiyonlar verimli şekilde çıkarılabilir."
     },
     {
       "question": "Drone yasak bölgede (Side antik, Kemer milli park) çekim alabilir miyiz?",
-      "answer": "Evet. AI ile sanal drone shot, helikopter shot, gece çekimi gibi izin/yasak gerektiren görüntüler üretilebilir. Sıfır izin sorunu, sıfır prodüksiyon riski."
+      "answer": "Evet. AI ile sanal drone shot, helikopter shot, gece çekimi gibi gerçekte izin gerektiren görüntüler üretilebilir. Gerçek uçuş veya set kurulmadığı için uçuş ve çekim izni gerekmez."
     },
     {
       "question": "Üretilen videoların telifi kime ait?",
-      "answer": "Tamamen size. Marka ve reklam kullanımı (Meta Ads, TikTok Ads, Booking sayfası, otel TV) için sınırsız hak."
+      "answer": "Tamamen size. Marka ve reklam kullanımı (Meta Ads, TikTok Ads, Booking sayfası, otel TV) için süre ve kanal sınırı olmadan kullanım hakkı."
     },
     {
       "question": "Antalya'daki butik markama özel görsel dil kuruluyor mu?",
@@ -150,11 +132,11 @@
     },
     {
       "question": "Canlı çekim de yapıyor musunuz?",
-      "answer": "Birincil odağımız AI üretim. Ama gerçek tesis interior shot (oda, restoran detayı) gerektiğinde Antalya'da stüdyo/prodüksiyon partnerimizle entegre çalışıyoruz."
+      "answer": "Birincil odağımız AI üretim; saha çekimi paketlere dahil değildir. Gerçek tesis iç mekân görüntüsü (oda, restoran detayı) gerektiğinde mevcut fotoğraf ve videolarınızı AI sahnelerle birlikte kullanabiliyoruz; ayrı çekim ihtiyacı varsa teklif aşamasında konuşulur."
     },
     {
       "question": "Antalya'da ekipte mi çalışıyorsunuz, ofise gelebilir miyim?",
-      "answer": "PORTZEN İzmir merkezli ama Antalya'da 12+ aktif müşterimiz (otel + restoran + tur) var. Toplantıları online yapıyoruz; bu sayede ekibi büyük tutmadan size daha uygun fiyat sunabiliyoruz. Antalya'da yerel ajanslar benzer hizmet için %30 daha fazla istiyor."
+      "answer": "PORTZEN İzmir merkezli; Antalya'daki markalarla toplantıları online yapıyoruz. Ofis ve set maliyetini büyük tutmadığımız için fiyatlarımızı paket bazında net tutabiliyoruz."
     }
   ],
   "finalCtaHeadline": "Antalya'daki sezon kampanyanızı AI video ile güçlendirelim.",

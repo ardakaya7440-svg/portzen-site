@@ -74,7 +74,7 @@ Bu yapı için [restoran WhatsApp AI asistan hizmetimizi](/whatsapp-ai-asistani/
 
 Manuel rezervasyon takibinin en büyük sorunu **çift kayıt**. Sabah biri WhatsApp'tan rezervasyon alır, akşam başka biri telefondan aynı masayı verir. Çakışma akşam servisinde patlar, müşteriden özür dilenmek zorunda kalınır.
 
-AI asistan rezervasyonları tek bir takvime yazıyor. Sahibinin telefonundan, ofis temsilcisinin bilgisayarından, mutfaktan, kasadan, hepsinden aynı takvim görülüyor. Çakışma fiziksel olarak imkansız hale geliyor.
+AI asistan rezervasyonları tek bir takvime yazıyor. Sahibinin telefonundan, ofis temsilcisinin bilgisayarından, mutfaktan, kasadan, hepsinden aynı takvim görülüyor. Böylece çift kayıt riski büyük ölçüde ortadan kalkıyor.
 
 Cuma ve cumartesi akşamları gibi yoğun zamanlarda AI **bekleme listesi** de yönetiyor. Tüm masalar dolduysa müşteriye "Saat 20.00 dolu ama 21.30'a çıkarsanız müsait" diyor veya "İptal olursa size haber verelim mi?" diye soruyor. Bekleme listesindeki kişiler iptal anında otomatik bilgilendiriliyor.
 
@@ -86,7 +86,7 @@ QR menü kurulumunda iki yol var:
 
 **Dinamik QR (web tabanlı):** Restoranın web sitesinin altına /menu sayfası olarak ekleniyor. Fiyat güncellemesi yönetim panelinden anında yapılıyor. Aynı QR kodu hep aynı sayfayı açıyor, kod değişmiyor. Mobile uyum mükemmel, SEO değeri yüksek (Google'da menü aratan müşteri sizi buluyor).
 
-Hangisini seçeceğiniz konusunda kararsızsanız, kesinlikle dinamik tarafa gidin. İlk kurulum biraz daha pahalı (8.000-15.000 TL) ama 6 ayda kendini amorti ediyor.
+Hangisini seçeceğiniz konusunda kararsızsanız, kesinlikle dinamik tarafa gidin. İlk kurulum biraz daha pahalı (piyasada 8.000-15.000 TL) ama her fiyat değişikliğinde yeniden PDF hazırlama ve QR bastırma derdini ortadan kaldırıyor.
 
 ### Çoklu Dil Desteği: Turistik Bölgelerde Şart
 
@@ -103,7 +103,7 @@ Bu detay turist müşterilerin sipariş hızını ciddi artırıyor. Garsonun "w
 
 Online sipariş sisteminin en büyük başarısızlık noktası mutfakla bağlantı kopukluğudur. Sipariş web sitesine düşer ama mutfak haberdar olmaz, garson sürekli telefonu kontrol etmek zorunda kalır. Çözüm: doğrudan mutfak yazıcısına entegrasyon.
 
-Kurduğumuz restoran sistemlerinde sipariş şu yolu izliyor:
+Önerdiğimiz restoran sistemlerinde sipariş şu yolu izliyor:
 
 1. Müşteri web sitesinden sipariş veriyor, ödeme yapıyor.
 2. Sipariş anında mutfaktaki termal yazıcıdan çıkıyor (Bixolon, Epson, Star).
@@ -142,11 +142,11 @@ Restoran için en kritik trafik kaynağı Google İşletme Profili ve harita ara
 - Müşteri yorumları sitede de görünmeli (sosyal kanıt).
 - "Sipariş Ver" butonu Google üzerinden doğrudan sitenize akıtmalı.
 
-Bu detaylar [restoran web tasarımı paketimizin](/web-tasarim/restoran) içinde yer alıyor. Sadece web sitesi yapıp bırakmak yerine Google ekosistemine entegre edilmiş bir yapı sunuyoruz.
+Bu detayları [restoran web tasarımı](/web-tasarim/restoran) projelerinde kapsamına göre planlıyoruz; online sipariş ve ödeme altyapısı gerektiren yapılar e-ticaret veya özel web uygulaması kapsamında ayrıca fiyatlanır. Sadece web sitesi yapıp bırakmak yerine Google ekosistemine entegre edilmiş bir yapı hedefliyoruz.
 
 ## Maliyet Tablosu
 
-Tam entegre bir restoran dijital sisteminin tipik maliyet aralığı:
+Tam entegre bir restoran dijital sisteminin piyasadaki tipik maliyet aralığı:
 
 | Bileşen | Kurulum Maliyeti | Aylık Gider |
 |---|---|---|
@@ -156,7 +156,7 @@ Tam entegre bir restoran dijital sisteminin tipik maliyet aralığı:
 | Mutfak entegrasyonu | 5.000-12.000 TL | – |
 | Google İşletme + SEO | 5.000-10.000 TL | 1.000-2.500 TL aylık takip |
 
-Toplam kurulum 50.000-100.000 TL aralığında, aylık işletme 3.000-6.000 TL bandında. Yemek Sepeti'ne aylık 20.000 TL komisyon ödeyen bir restoran için 3-4 ayda kendini amorti ediyor.
+Sektörde toplam kurulum 50.000-100.000 TL aralığında, aylık işletme 3.000-6.000 TL bandında. Yemek Sepeti'ne aylık 20.000 TL komisyon ödeyen bir restoran için 3-4 ayda kendini amorti edebiliyor. PORTZEN'de web sitesi {{fiyatlar:kurumsal-web-sitesi}}, WhatsApp AI asistanı ise {{fiyatlar:ai-musteri-asistani}} olarak fiyatlanır (KDV hariç).
 
 ## Sıkça Sorulan Sorular
 
@@ -170,17 +170,17 @@ Adisyo, Sambapos, Logo Mokken gibi sistemlerin çoğu API destekliyor. Olmayanla
 Hayır. Web sitenizin altına /menu sayfası olarak entegre ediyoruz. Ayrı yazılım aboneliği yok.
 
 **Çoklu şubem var, hepsi tek sistemde olur mu?**
-Evet. Çoklu şube yönetimi standart özellik. Her şubenin kendi menüsü, fiyatı, çalışma saati, rezervasyon takvimi olur ama yönetim tek panelden yapılır.
+Evet. Her şubenin kendi menüsü, fiyatı, çalışma saati ve rezervasyon takvimi olacak şekilde kurgulanabilir, yönetim tek panelden yapılır. WhatsApp AI asistanında çoklu şube Kurumsal pakette dahildir (3 şube).
 
 **WhatsApp asistanı vegan müşteriye doğru cevap verir mi?**
-Bilgi tabanı doğru kurgulandıysa evet. Menüdeki vegan, vejetaryen, glutensiz, allerjen bilgileri sisteme girilir; AI bu detayları ezbere bilir, hatasız iletir.
+Bilgi tabanı doğru kurgulandıysa evet. Menüdeki vegan, vejetaryen, glutensiz, allerjen bilgileri sisteme girilir; AI bu detayları bilgi tabanından iletir, emin olmadığı durumda soruyu personele yönlendirir.
 
 ## PORTZEN ile Restoran İçin Sistem Kurmak
 
-PORTZEN olarak İzmir merkezli restoran projelerine sıkça giriyoruz. Alsancak, Bostanlı, Kordon, Bornova bölgelerinde 30'un üzerinde restoranın dijital altyapısını kurduk. Cafe, kebapçı, pizza, sushi, balıkçı, tatlıcı, hepsinde benzer prensiplerle çalışıyoruz ama her birinin kendi özelliklerine göre uyarlıyoruz.
+PORTZEN olarak İzmir merkezli bir ajansız. Cafe, kebapçı, pizza, sushi, balıkçı, tatlıcı gibi farklı restoran tiplerinde benzer prensiplerle çalışıyor, sistemi her birinin kendi özelliklerine göre uyarlıyoruz.
 
-Bir balıkçı için "balığın tezgahtaki güncel fiyatı" değişken olduğundan menü yönetim panelini özelleştiriyoruz. Bir pizzacı için "yarı yarıya farklı malzemeli pizza" seçeneği eklemek gerekiyor. Cafe için brunch menüsü saat aralıklı görünür/görünmez yapılıyor. Her restoranın ihtiyacı farklı, paket dayatmıyoruz.
+Bir balıkçı için "balığın tezgahtaki güncel fiyatı" değişken olduğundan menü yönetim panelini özelleştiriyoruz. Bir pizzacı için "yarı yarıya farklı malzemeli pizza" seçeneği eklemek gerekiyor. Cafe için brunch menüsü saat aralıklı görünür/görünmez yapılıyor. Her restoranın ihtiyacı farklı; standart paketlerimiz içinden işinize uyanı birlikte seçiyoruz.
 
-[Restoran web tasarımı hizmetimiz](/web-tasarim/restoran) ile dijital cephe oluşturuyor, [restoran WhatsApp AI asistanı](/whatsapp-ai-asistani/restoran) ile müşteri iletişimini otomatikleştiriyor, mutfağa ve ödemeye entegre ediyoruz. Kurulum süreci 10-15 iş günü sürüyor, ilk ay aktif optimizasyon yapıyoruz.
+[Restoran web tasarımı hizmetimiz](/web-tasarim/restoran) ile dijital cephe oluşturuyor, [restoran WhatsApp AI asistanı](/whatsapp-ai-asistani/restoran) ile müşteri iletişimini otomatikleştiriyor, mutfağa ve ödemeye entegre ediyoruz. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir; güncel paket fiyatları [fiyatlar sayfasında](/fiyatlar).
 
 İlk QR menünüzü ve WhatsApp asistanınızı yayına almak için: [portzenai.com/iletisim](/iletisim). 15 dakikalık ücretsiz keşif görüşmesinde restoranınıza özel yol haritası çıkaralım.

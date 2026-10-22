@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "PORTZEN Blog — KOBİ'ler İçin AI & Dijital Büyüme Rehberleri",
     description:
-      "Yapay zeka, sosyal medya, otomasyon ve web yazılım konularında haftalık güncellenen pratik rehberler.",
+      "Yapay zeka, sosyal medya, otomasyon ve web yazılım konularında düzenli güncellenen pratik rehberler.",
     type: "website",
     url: "https://portzenai.com/blog"
   },
@@ -42,22 +42,22 @@ export default function BlogIndexPage() {
   return (
     <>
       {/* HERO */}
-      <section className="relative overflow-hidden bg-paper pt-12 md:pt-20">
+      <section className="relative overflow-hidden bg-white pt-12 md:pt-20">
         <div className="mx-auto max-w-container px-6 pb-16 md:pb-24">
           <Reveal>
-            <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-yellow px-3 py-1.5 shadow-brutal-sm mb-6">
+            <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-lime px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
               <Tag className="h-3.5 w-3.5" />
               <span className="text-xs font-black uppercase tracking-wider">PORTZEN Blog</span>
             </div>
           </Reveal>
           <Reveal delay={100}>
-            <h1 className="font-display text-h1 font-black leading-[0.95] text-ink max-w-4xl">
-              AI, sosyal medya ve <span className="bg-brand-pink text-paper px-3 -mx-1 inline-block border-3 border-ink shadow-brutal">otomasyon</span> rehberleri.
+            <h1 className="font-display text-h1 font-black leading-tight text-ink max-w-4xl">
+              AI, sosyal medya ve <span className="underline decoration-lime decoration-[6px] underline-offset-[6px]">otomasyon</span> rehberleri.
             </h1>
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 max-w-prose text-body text-ink/80">
-              KOBİ sahipleri ve dijital büyüme arayan markalar için. Haftalık olarak güncellenen pratik içerikler — teori değil, sahada işe yarayan rehberler.
+              KOBİ sahipleri ve dijital büyüme arayan markalar için. Düzenli olarak güncellenen pratik içerikler — teori değil, sahada işe yarayan rehberler.
             </p>
           </Reveal>
 
@@ -66,7 +66,7 @@ export default function BlogIndexPage() {
             <div className="mt-8 flex flex-wrap gap-2">
               <Link
                 href="/blog"
-                className="border-3 border-ink bg-ink text-paper px-3 py-1.5 text-xs font-black uppercase tracking-wider shadow-brutal-sm"
+                className="border-3 border-ink/15 bg-slate text-white px-3 py-1.5 text-xs font-black tracking-wider shadow-brutal-sm rounded-full"
               >
                 Tümü
               </Link>
@@ -75,7 +75,7 @@ export default function BlogIndexPage() {
                   key={c.slug}
                   href={`/blog/kategori/${c.slug}`}
                   className={cn(
-                    "border-3 border-ink px-3 py-1.5 text-xs font-black uppercase tracking-wider shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all",
+                    "border-3 border-ink/15 px-3 py-1.5 text-xs font-black tracking-wider shadow-brutal-sm hover:shadow-brutal transition-all rounded-full",
                     CATEGORY_META[c.slug].bg,
                     CATEGORY_META[c.slug].text
                   )}
@@ -90,19 +90,19 @@ export default function BlogIndexPage() {
 
       {/* FEATURED POST */}
       {featured && (
-        <section className="bg-paper pb-section">
+        <section className="bg-white pb-section">
           <div className="mx-auto max-w-container px-6">
             <Reveal>
               <Link
                 href={`/blog/${featured.slug}`}
                 className={cn(
-                  "group block border-3 border-ink p-8 md:p-12 shadow-brutal-lg hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0_#0A0A0A] transition-all",
+                  "group block border-3 border-ink/15 p-8 md:p-12 shadow-brutal-lg transition-all rounded-2xl",
                   CATEGORY_META[featured.category].bg,
                   CATEGORY_META[featured.category].text
                 )}
               >
                 <div className="flex items-start justify-between mb-6">
-                  <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase shadow-brutal-sm">
+                  <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black shadow-brutal-sm rounded-full">
                     Öne Çıkan · {CATEGORY_META[featured.category].label}
                   </div>
                   <ArrowUpRight className="h-7 w-7" />
@@ -127,11 +127,11 @@ export default function BlogIndexPage() {
       )}
 
       {/* TÜM YAZILAR GRID */}
-      <section className="bg-paper pb-section">
+      <section className="bg-white pb-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-8 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue px-3 py-1 text-paper text-xs font-black uppercase tracking-wider mb-3 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate px-3 py-1 text-white text-xs font-black tracking-wider mb-3 shadow-brutal-sm rounded-full">
                 Tüm Yazılar
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -150,12 +150,12 @@ export default function BlogIndexPage() {
               <Reveal key={post.slug} delay={i * 50}>
                 <Link
                   href={`/blog/${post.slug}`}
-                  className="group block border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full"
+                  className="group block border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl"
                 >
                   <div className="flex items-start justify-between mb-4">
                     <span
                       className={cn(
-                        "border-3 border-ink px-2 py-0.5 text-xs font-black uppercase tracking-wider shadow-brutal-sm",
+                        "border-3 border-ink/15 px-2 py-0.5 text-xs font-black tracking-wider shadow-brutal-sm rounded-full",
                         CATEGORY_META[post.category].bg,
                         CATEGORY_META[post.category].text
                       )}

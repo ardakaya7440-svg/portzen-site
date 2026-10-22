@@ -2,7 +2,7 @@
 title: "Oto Servis WhatsApp Randevu + Periyodik Bakım Hatırlatma Sistemi"
 slug: "oto-servis-whatsapp-randevu-bakim"
 category: "sektorel"
-description: "Oto servisler için WhatsApp randevu ve periyodik bakım hatırlatma sistemi: motor yağı, balata, kilometre takibi ile müşteri sadakatini artırın."
+description: "Oto servisler için WhatsApp randevu ve periyodik bakım hatırlatma sistemi: motor yağı, balata ve kilometre takibiyle müşterinize doğru zamanda hatırlatma gönderin."
 keywords: ["oto servis whatsapp", "araç bakım hatırlatma", "oto servis randevu sistemi", "periyodik bakım otomasyon", "araç servisi crm"]
 publishedAt: "2026-06-23"
 author: "Arda Kaya"
@@ -121,7 +121,7 @@ Hangisini tercih edersiniz? İşçilik tutarı her iki seçenekte de 450 TL'dir.
 
 Bu yaklaşım birkaç önemli sonucu beraberinde getiriyor. Müşteri kararını acelesiz veriyor; eşine danışmak için zaman buluyor; fiyatları yazılı olarak gördüğü için daha az itiraz ediyor. Aynı zamanda garanti süresi de net belirtildiği için ileride yaşanabilecek anlaşmazlıkların önüne geçiliyor. Servisin profesyonelliği müşterinin gözünde yükseliyor.
 
-[Instagram DM otomasyonu](/instagram-dm-otomasyonu/oto-servis) entegrasyonu da burada devreye giriyor. Sosyal medya hesabınızdan parça önerileri, kampanyalı dönemler ve aksesuar tanıtımları otomatik şekilde mesajlaşma kanalına çekilebiliyor. Müşteri kış öncesi Instagram'da "kış lastiği kampanyamız" gönderisini gördüğünde sizinle WhatsApp üzerinden konuşmaya geçiyor.
+Kural tabanlı [Instagram DM otomasyonu](/instagram-dm-otomasyonu/oto-servis) da burada devreye giriyor. Sosyal medya hesabınızdaki parça önerileri, kampanyalı dönemler ve aksesuar tanıtımları mesajlaşma kanalına bağlanabiliyor: örneğin kış öncesi "kış lastiği kampanyamız" gönderisine anahtar kelimeyle yorum yapan takipçiye, önceden tanımlı kampanya mesajı ve WhatsApp bağlantısı otomatik DM olarak gidiyor; müşteri konuşmaya WhatsApp üzerinden devam ediyor. (Bu hizmet önceden tanımlı mesajlarla çalışır; serbest soruları yapay zekâ ile yanıtlamak AI müşteri asistanı kapsamındadır.)
 
 ## Sigorta Yenileme ve Garanti Süresi Bildirimleri
 
@@ -141,7 +141,7 @@ Sistemin kurulumu hakkında daha fazla bilgi için [CRM otomasyonu rehberi](/blo
 Müşteri servise her geldiğinde plakası okutuluyor ve usta kilometreyi sisteme giriyor. Aynı zamanda yıllık ortalama kullanım otomatik güncelleniyor. Müşteri arada bir WhatsApp üzerinden "şu an 78.450 km'deyim" bilgisi de paylaşabiliyor; sistem güncel kilometreyi alıp tahminlerini yeniliyor.
 
 **Müşteri rahatsız olmaz mı bu kadar mesajdan?**
-Sistem akıllı sıklık ayarı ile çalışıyor. Bir müşteriye ayda 1'den fazla bakım hatırlatması gönderilmiyor. Spam algısı oluşmaması için mesajlar zamanlama ile yapılıyor. Mesajların sonunda "Hatırlatma almak istemiyorsanız 'DUR' yazabilirsiniz." opsiyonu mevcut ama pratikte bu seçeneği kullanan müşteri yüzde 2'nin altında.
+Sistem akıllı sıklık ayarı ile çalışıyor. Bir müşteriye ayda 1'den fazla bakım hatırlatması gönderilmiyor. Spam algısı oluşmaması için mesajlar zamanlama ile yapılıyor. Mesajların sonunda "Hatırlatma almak istemiyorsanız 'DUR' yazabilirsiniz." opsiyonu mevcut; bu seçeneği kullanan müşteri bir daha hatırlatma almaz.
 
 **Sistem hangi muhasebe ya da fatura programı ile entegre çalışıyor?**
 Sistem; Logo, Mikro, Nebim, Paraşüt, Bizimhesap gibi yaygın muhasebe programları ile API ya da Excel aktarımı ile entegre çalışabiliyor. Hangi programı kullandığınızı belirtirseniz entegrasyon süresi kuruluma dahil ediliyor.
@@ -154,10 +154,10 @@ Evet. Standart bakım listesi araç markası ve modeli bazlı önceden tanımlı
 
 ## PORTZEN ile Sistem Kurmak
 
-PORTZEN olarak İzmir merkezli, KOBİ'lere yönelik dijital çözümler üreten bir ekibiz. Oto servislere özel olarak geliştirdiğimiz WhatsApp randevu + CRM + periyodik bakım hatırlatma sistemi, bu yazıda anlattığımız her özelliği kapsayan komple bir paket sunuyor.
+PORTZEN olarak İzmir merkezli, KOBİ'lere yönelik dijital çözümler üreten bir ekibiz. Oto servislere yönelik WhatsApp randevu + CRM + periyodik bakım hatırlatma sistemini iki hizmetle kuruyoruz: WhatsApp randevu tarafı AI müşteri asistanı paketleriyle ({{fiyatlar:ai-musteri-asistani}}), CRM ve bakım hatırlatma akışları tek seferlik iş otomasyonu paketleriyle ({{fiyatlar:is-otomasyonu}}) kurulur; fiyatlar KDV hariçtir. Randevu alma AI asistanının Büyüme ve Kurumsal paketlerinde dahildir.
 
-Kurulum süreci genellikle 1-2 hafta arasında tamamlanıyor. İlk hafta mevcut müşteri verilerinizin sisteme aktarımı, plaka-kilometre-bakım geçmişi bilgilerinin işlenmesi ve servisinize özel bakım kalemleri ile parça stoklarının tanımlanması için harcanıyor. İkinci hafta ise WhatsApp Business API entegrasyonu, mesaj şablonlarının onaylatılması, randevu takviminin servis kapasitenize göre ayarlanması ve sizinle birlikte test edilmesi sürüyor. Sistem aktif edildikten sonraki 30 gün boyunca süreci yakından takip ediyor, ince ayarları yapıyor ve ekibinize kısa bir eğitim veriyoruz.
+Kurulum iki aşamada ilerliyor; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. İlk aşamada mevcut müşteri verileriniz sisteme aktarılıyor, plaka-kilometre-bakım geçmişi bilgileri işleniyor ve servisinize özel bakım kalemleri ile parça stokları tanımlanıyor. İkinci aşamada WhatsApp Business API entegrasyonu yapılıyor, mesaj şablonları Meta onayına gönderiliyor, randevu takvimi servis kapasitenize göre ayarlanıyor ve sistem sizinle birlikte test ediliyor. Sistem aktif edildikten sonraki ilk 30 gün kurulum hatalarını gideriyor ve ince ayarları yapıyoruz; Büyüme ve Kurumsal iş otomasyonu paketlerinde ekibinize eğitim de veriyoruz. Sonrasında isteğe bağlı aylık bakım alınabilir.
 
-Yatırımın geri dönüşü pratikte hızlı: tek bir kazanılan müşteri bile sistem maliyetini karşılıyor; ortalama bir servisin 6 ayda kazandığı 15-20 yeni düzenli müşteri ise yatırımın ciddi katlanmasını sağlıyor.
+Yatırımın geri dönüşü çoğu serviste hızlı olabilir: geri kazanılan her düzenli müşteri yıllık bakım cirosu demek; sonuç servisinizin müşteri hacmine ve mevcut kayıp oranına göre değişir.
 
 Servisinize uygun bir teklif almak, demo görüşmesi planlamak ya da mevcut sisteminizi nasıl iyileştirebileceğinizi konuşmak için [iletişim sayfamızdan](/iletisim) bize ulaşabilirsiniz. İlk görüşme tamamen ücretsiz; sizinle servisinizin durumunu konuşur, doğru çözümü birlikte tasarlarız.

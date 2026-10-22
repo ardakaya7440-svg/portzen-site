@@ -1,42 +1,43 @@
 import type { Metadata } from "next";
-import { Montserrat, Fraunces } from "next/font/google";
+import localFont from "next/font/local";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Navbar } from "@/components/navbar/Navbar";
+import { Footer } from "@/components/layout/Footer";
+import { WhatsAppAttribution } from "@/components/analytics/WhatsAppAttribution";
+import { SiteChrome } from "@/components/layout/SiteChrome";
 import "./globals.css";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-ZKZGB9GPB2";
 
-const montserrat = Montserrat({
-  subsets: ["latin", "latin-ext"],
+/**
+ * Sitenin tek font ailesi: Manrope (değişken font, 200–800 ağırlık tek dosyada).
+ * Latin + Latin Extended (Türkçe karakterler ve ₺ dahil) alt kümesi yerelde barındırılır;
+ * başlık, gövde, buton, form, fiyat, menü ve footer aynı aileyi kullanır.
+ */
+const manrope = localFont({
+  src: "./fonts/Manrope-var.woff2",
   variable: "--font-sans",
-  display: "swap"
-});
-
-// Editorial serif — display italic vurguları ve marka wordmark için
-const fraunces = Fraunces({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-serif",
-  weight: ["400", "600", "800", "900"],
-  style: ["normal", "italic"],
-  display: "swap"
+  weight: "200 800",
+  display: "swap",
+  fallback: ["system-ui", "-apple-system", "Segoe UI", "Arial", "sans-serif"]
 });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://portzenai.com"),
   title: {
-    default: "PORTZEN — İşletmeler İçin AI Destekli Büyüme Altyapısı",
+    default: "PORTZEN — Sosyal medya yönetimi ve kişiye özel yazılım | İzmir",
     template: "%s — PORTZEN"
   },
   description:
-    "İşletmeler için yapay zeka destekli sosyal medya yönetimi, WhatsApp asistanı, otomasyon ve web tasarımı. Tek ekipten tüm sistem.",
+    "PORTZEN, İzmir merkezli sosyal medya ve yazılım ajansı. Instagram, TikTok ve LinkedIn hesaplarınızı yönetir; web sitesi, mobil uygulama ve iç sistem geliştirir. Ücretsiz ilk görüşme, ardından yazılı teklif.",
   keywords: [
-    "yapay zeka ajansı",
-    "whatsapp ai asistanı",
+    "sosyal medya ajansı izmir",
     "sosyal medya yönetimi",
-    "ai reklam videosu",
-    "kobi otomasyon",
-    "crm otomasyonu",
-    "web tasarım",
+    "yazılım ajansı izmir",
+    "web sitesi yapımı",
+    "mobil uygulama geliştirme",
+    "kişiye özel yazılım",
+    "içerik üretimi",
     "portzen"
   ],
   openGraph: {
@@ -44,14 +45,16 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://portzenai.com",
     siteName: "PORTZEN",
-    title: "PORTZEN — İşletmeler İçin AI Destekli Büyüme Altyapısı",
+    title: "PORTZEN — Sosyal medya yönetimi ve kişiye özel yazılım",
     description:
-      "Sosyal medya, AI asistan, otomasyon ve web yazılım — tek ekipten tüm sistem."
+      "Sosyal medyanızı yönetiriz. Yazılımınızı geliştiririz. Ücretsiz ilk görüşme, ardından yazılı teklif.",
+    images: [{ url: "https://portzenai.com/og-image.png", width: 1200, height: 630, alt: "PORTZEN" }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "PORTZEN — AI Destekli Büyüme Altyapısı",
-    description: "Sosyal medya, AI asistan, otomasyon ve web yazılım."
+    title: "PORTZEN — Sosyal medya yönetimi ve kişiye özel yazılım",
+    description: "Sosyal medyanızı yönetiriz. Yazılımınızı geliştiririz.",
+    images: ["https://portzenai.com/og-image.png"]
   },
   alternates: { canonical: "https://portzenai.com" },
   robots: { index: true, follow: true }
@@ -69,7 +72,7 @@ const organizationSchema = {
   name: "PORTZEN",
   alternateName: ["PORTZEN AI", "PORTZEN"],
   description:
-    "İzmir merkezli, KOBİ'ler için AI reklam videosu, WhatsApp asistanı, otomasyon, sosyal medya içerik ve web tasarım hizmetleri sunan dijital ajans. Beş ayrı ajans yerine tek ekipten tüm sistem.",
+    "İzmir merkezli sosyal medya ve yazılım ajansı. Sosyal medya yönetimi, içerik üretimi, web sitesi, mobil uygulama ve işletmeye özel iç sistemler. Tek ekip, tek muhatap.",
   url: "https://portzenai.com",
   logo: {
     "@type": "ImageObject",
@@ -79,9 +82,9 @@ const organizationSchema = {
   },
   image: "https://portzenai.com/logo.png",
   email: "destek@portzenai.com",
-  telephone: "+905015884853",
+  telephone: "+905318639117",
   foundingDate: "2026",
-  slogan: "Beş ajans yerine tek ekip",
+  slogan: "Sosyal medyanızı yönetiriz. Yazılımınızı geliştiririz.",
   address: {
     "@type": "PostalAddress",
     addressCountry: "TR",
@@ -95,20 +98,17 @@ const organizationSchema = {
     { "@type": "City", name: "Ankara" }
   ],
   knowsAbout: [
-    "Yapay Zeka",
     "Sosyal Medya Yönetimi",
-    "WhatsApp AI Asistanı",
-    "Instagram DM Otomasyonu",
-    "AI Reklam Videosu",
-    "CRM Otomasyonu",
-    "Web Tasarım",
-    "Dijital Pazarlama",
-    "KOBİ Otomasyonu",
-    "Türk KOBİ AI Çözümleri"
+    "İçerik Üretimi",
+    "Web Sitesi ve Web Uygulaması Geliştirme",
+    "Mobil Uygulama Geliştirme",
+    "Kişiye Özel Yazılım",
+    "CRM ve İç Sistemler",
+    "Dijital Pazarlama"
   ],
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     contactType: "customer service",
     email: "destek@portzenai.com",
     availableLanguage: ["Turkish"],
@@ -121,46 +121,10 @@ const organizationSchema = {
     "@type": "OfferCatalog",
     name: "PORTZEN Hizmetleri",
     itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "WhatsApp AI Asistanı",
-          url: "https://portzenai.com/whatsapp-ai-asistani"
-        }
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Instagram DM Otomasyonu",
-          url: "https://portzenai.com/instagram-dm-otomasyonu"
-        }
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "AI Reklam Videosu",
-          url: "https://portzenai.com/ai-reklam-videosu"
-        }
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Web Tasarım",
-          url: "https://portzenai.com/web-tasarim"
-        }
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "CRM Otomasyonu",
-          url: "https://portzenai.com/crm-otomasyonu"
-        }
-      }
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Sosyal Medya Yönetimi", url: "https://portzenai.com/sosyal-medya-yonetimi" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "İçerik Üretimi", url: "https://portzenai.com/sosyal-medya-viral-video" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Web Sitesi ve Web Uygulaması", url: "https://portzenai.com/hizmetler/web-yazilim" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Mobil Uygulama ve İç Sistem", url: "https://portzenai.com/hizmetler/mobil-uygulama" } }
     ]
   }
 };
@@ -171,18 +135,23 @@ const websiteSchema = {
   "@id": "https://portzenai.com/#website",
   url: "https://portzenai.com",
   name: "PORTZEN",
-  description: "İşletmeler için AI destekli büyüme altyapısı",
+  description: "Sosyal medya yönetimi ve kişiye özel yazılım",
   inLanguage: "tr-TR",
   publisher: { "@id": "https://portzenai.com/#organization" }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="tr" className={`${montserrat.variable} ${fraunces.variable}`}>
-      <body className="bg-paper text-ink antialiased">
-        <Navbar />
-        <main className="pt-[80px]">{children}</main>
-        {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
+    <html lang="tr" className={manrope.variable}>
+      <body className="bg-white text-ink antialiased">
+        <SiteChrome>
+          <Navbar />
+        </SiteChrome>
+        <main id="main" tabIndex={-1} className="outline-none">{children}</main>
+        <SiteChrome>
+          <WhatsAppAttribution />
+          {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
+        </SiteChrome>
         {/* Schema.org JSON-LD — Organization + WebSite */}
         <script
           type="application/ld+json"
@@ -192,106 +161,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
-        <footer className="border-t-3 border-ink bg-ink text-paper mt-section">
-          <div className="mx-auto max-w-container px-6 py-14 grid gap-10 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
-            {/* Kolon 1: Marka + iletişim */}
-            <div>
-              <img src="/logo-white.png" alt="PORTZEN" width={60} height={60} style={{ width: 60, height: 60 }} className="object-contain" />
-              <p className="mt-4 text-sm leading-relaxed text-paper/80 max-w-sm">
-                Beş ajans yerine tek ekip. AI reklam videosu, WhatsApp asistanı, otomasyon, sosyal medya ve web tasarım — hepsi tek koordinasyonla.
-              </p>
-              <div className="mt-5 space-y-1.5 text-sm">
-                <div>
-                  <a href="https://wa.me/905015884853" target="_blank" rel="noopener noreferrer" className="text-paper hover:text-brand-yellow transition-colors font-bold">
-                    WhatsApp: 0501 588 48 53
-                  </a>
-                </div>
-                <div>
-                  <a href="mailto:destek@portzenai.com" className="text-paper/80 hover:text-brand-yellow transition-colors">
-                    destek@portzenai.com
-                  </a>
-                </div>
-                <div className="text-paper/60 text-xs pt-1">İzmir, Türkiye</div>
-              </div>
-            </div>
-
-            {/* Kolon 2: Ana Hizmetler */}
-            <div>
-              <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Hizmetler</div>
-              <ul className="space-y-2 text-sm">
-                <li><a href="/yapay-zeka-video-uretimi" className="hover:text-brand-yellow transition-colors">AI Reklam Videosu</a></li>
-                <li><a href="/whatsapp-ai-asistani" className="hover:text-brand-yellow transition-colors">WhatsApp AI Asistanı</a></li>
-                <li><a href="/instagram-dm-otomasyonu" className="hover:text-brand-yellow transition-colors">Instagram DM Otomasyonu</a></li>
-                <li><a href="/crm-otomasyonu" className="hover:text-brand-yellow transition-colors">CRM Otomasyonu</a></li>
-                <li><a href="/sosyal-medya-yonetimi" className="hover:text-brand-yellow transition-colors">Sosyal Medya Yönetimi</a></li>
-                <li><a href="/sosyal-medya-ajansi" className="hover:text-brand-yellow transition-colors">Sosyal Medya Ajansı</a></li>
-                <li><a href="/sosyal-medya-viral-video" className="hover:text-brand-yellow transition-colors">Viral Video Üretimi</a></li>
-                <li><a href="/meta-reklam-ajansi" className="hover:text-brand-yellow transition-colors">Meta Reklam Ajansı</a></li>
-                <li><a href="/web-tasarim" className="hover:text-brand-yellow transition-colors">Web Tasarım</a></li>
-                <li><a href="/web-sitesi-tasarimi" className="hover:text-brand-yellow transition-colors">Web Sitesi Tasarımı</a></li>
-                <li><a href="/yapay-zeka-call-center" className="hover:text-brand-yellow transition-colors">AI Call Center</a></li>
-                <li><a href="/n8n-kurulum-hizmeti" className="hover:text-brand-yellow transition-colors">n8n Kurulum</a></li>
-                <li><a href="/ai-chatbot-turkce" className="hover:text-brand-yellow transition-colors">AI Chatbot Türkçe</a></li>
-              </ul>
-            </div>
-
-            {/* Kolon 3: Piyasa Alternatifleri — marka adı yok, kategori odaklı */}
-            <div>
-              <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">
-                <a href="/karsilastirma" className="hover:text-brand-yellow transition-colors">Karşılaştırma →</a>
-              </div>
-              <ul className="space-y-2 text-sm">
-                <li><a href="/hubspot-alternatifi" className="hover:text-brand-yellow transition-colors">Türkçe KOBİ CRM'i</a></li>
-                <li><a href="/salesforce-alternatifi" className="hover:text-brand-yellow transition-colors">Kurumsal Ölçekli CRM</a></li>
-                <li><a href="/manychat-alternatifi" className="hover:text-brand-yellow transition-colors">Sosyal Medya Chatbot</a></li>
-                <li><a href="/tidio-alternatifi" className="hover:text-brand-yellow transition-colors">Web Canlı Destek Botu</a></li>
-                <li><a href="/intercom-alternatifi" className="hover:text-brand-yellow transition-colors">Müşteri Mesajlaşma</a></li>
-                <li><a href="/zapier-alternatifi" className="hover:text-brand-yellow transition-colors">İş Akışı Otomasyonu</a></li>
-                <li><a href="/mailchimp-alternatifi" className="hover:text-brand-yellow transition-colors">Newsletter Aracı</a></li>
-                <li><a href="/klaviyo-alternatifi" className="hover:text-brand-yellow transition-colors">E-ticaret E-postası</a></li>
-                <li><a href="/iyzico-alternatifi" className="hover:text-brand-yellow transition-colors">Online Ödeme Servisi</a></li>
-                <li><a href="/shopier-alternatifi" className="hover:text-brand-yellow transition-colors">Basit Online Satış</a></li>
-                <li><a href="/ideasoft-alternatifi" className="hover:text-brand-yellow transition-colors">Yerli E-ticaret Yazılımı</a></li>
-                <li><a href="/ticimax-alternatifi" className="hover:text-brand-yellow transition-colors">Kurumsal E-ticaret</a></li>
-                <li><a href="/sambapos-alternatifi" className="hover:text-brand-yellow transition-colors">Restoran POS Sistemi</a></li>
-                <li><a href="/logo-yazilim-alternatifi" className="hover:text-brand-yellow transition-colors">Ön Muhasebe Yazılımı</a></li>
-                <li><a href="/netgsm-alternatifi" className="hover:text-brand-yellow transition-colors">Toplu SMS Servisi</a></li>
-              </ul>
-            </div>
-
-            {/* Kolon 4: Kurumsal + Kaynaklar + Yasal */}
-            <div>
-              <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Kurumsal</div>
-              <ul className="space-y-2 text-sm mb-6">
-                <li><a href="/hakkimizda" className="hover:text-brand-yellow transition-colors">Hakkımızda</a></li>
-                <li><a href="/referanslar" className="hover:text-brand-yellow transition-colors">Referanslar</a></li>
-                <li><a href="/blog" className="hover:text-brand-yellow transition-colors">Blog</a></li>
-                <li><a href="/iletisim" className="hover:text-brand-yellow transition-colors">İletişim</a></li>
-              </ul>
-
-              <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Sektörel Örnekler</div>
-              <ul className="space-y-2 text-sm mb-6">
-                <li><a href="/web-tasarim/restoran" className="hover:text-brand-yellow transition-colors">Restoran Web Tasarım</a></li>
-                <li><a href="/web-tasarim/klinik" className="hover:text-brand-yellow transition-colors">Klinik Web Tasarım</a></li>
-                <li><a href="/whatsapp-ai-asistani/emlak" className="hover:text-brand-yellow transition-colors">Emlak WhatsApp AI</a></li>
-                <li><a href="/instagram-dm-otomasyonu/butik" className="hover:text-brand-yellow transition-colors">Butik Instagram DM</a></li>
-                <li><a href="/ai-reklam-videosu/eczane" className="hover:text-brand-yellow transition-colors">Eczane AI Video</a></li>
-              </ul>
-
-              <div className="text-xs font-black uppercase tracking-wider text-paper/60 mb-3">Yasal</div>
-              <ul className="space-y-2 text-xs">
-                <li><a href="/kvkk" className="text-paper/70 hover:text-brand-yellow transition-colors">KVKK</a></li>
-                <li><a href="/gizlilik-politikasi" className="text-paper/70 hover:text-brand-yellow transition-colors">Gizlilik Politikası</a></li>
-                <li><a href="/kullanim-sartlari" className="text-paper/70 hover:text-brand-yellow transition-colors">Kullanım Şartları</a></li>
-                <li><a href="/sitemap.xml" className="text-paper/50 hover:text-brand-yellow transition-colors">Sitemap</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t-3 border-paper/20 py-4 text-center text-xs text-paper/60">
-            © {new Date().getFullYear()} PORTZEN — Tüm hakları saklıdır.
-          </div>
-        </footer>
+        <SiteChrome>
+          <Footer />
+        </SiteChrome>
       </body>
     </html>
   );

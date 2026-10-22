@@ -15,7 +15,7 @@ ogImage: "/blog/og/anaokulu-kayit-formu-sistemi.png"
 
 Bir anaokulunun en yoğun haftaları kayıt dönemidir. Veliler arıyor, broşür istiyor, fiyat soruyor, deneme dersi rica ediyor, sonra dönüp "evraklar nelerdi?" diye tekrar mesaj atıyor. Aynı bilgiyi günde yirmi kez tekrarlayan bir müdüre, elinde dolu bir A4 dosyayla koşturan bir öğretmen, kalemi düşmüş bir sınıf sorumlusu. Eğer sizin anaokulunuzda da kayıt dönemi böyle geçiyorsa, sorun sizinle ilgili değil. Sorun sistemin manuel olmasıyla ilgili. Çünkü 2-3 yaş ve 4-5 yaş gruplarını ayrı yöneten, hem tam gün hem yarım gün seçeneği sunan, üstelik beslenme, alerji, servis kullanımı, sağlık bilgisi, acil durum kontağı, etkinlik fotoğrafı izni gibi onlarca veri parçasını toplayan bir kurumu kağıt formla yönetmek artık mümkün değil.
 
-Bu rehberde anaokulu ve kreşler için dijital kayıt sisteminin nasıl kurulacağını, KVKK uyumlu veli onay formunun nasıl hazırlanacağını, WhatsApp üzerinden veli iletişiminin nasıl otomatize edileceğini ve bu sistemlerin kayıt dönüşüm oranınızı nasıl artırdığını adım adım anlatacağız. Hem yeni açılan butik bir anaokulu işletiyor olun, hem de üç şubeli kurumsal bir kreş zinciri yönetiyor olun, burada anlatılan yapı sizin ölçeğinize göre uyarlanabilir. Amacımız size sadece teori sunmak değil, yıllardır anaokullarıyla çalışırken edindiğimiz pratik öğrenmeleri aktarmak.
+Bu rehberde anaokulu ve kreşler için dijital kayıt sisteminin nasıl kurulacağını, KVKK uyumlu veli onay formunun nasıl hazırlanacağını, WhatsApp üzerinden veli iletişiminin nasıl otomatize edileceğini ve bu sistemlerin kayıt dönüşüm oranınızı nasıl artırdığını adım adım anlatacağız. Hem yeni açılan butik bir anaokulu işletiyor olun, hem de üç şubeli kurumsal bir kreş zinciri yönetiyor olun, burada anlatılan yapı sizin ölçeğinize göre uyarlanabilir. Amacımız size sadece teori sunmak değil, anaokulu ve kreşlerin günlük işleyişine uygulanabilecek pratik adımları aktarmak.
 
 ## Online Kayıt Formu Nasıl Tasarlanır
 
@@ -116,7 +116,7 @@ Deneme dersinden 2 gün önce veliye hazırlık mesajı gider: "Sayın velimiz, 
 
 ### Sonrası Takip ve Hatırlatma
 
-Deneme dersi sonrası 24 saat içinde veliye bir mesaj atılır: "Defne'yi bugün ağırlamak güzeldi, kurum içinde size yer ayırdık." 3 gün sonra hala karar vermediyse müdüre kişisel olarak arar, sürtüşme noktası varsa giderir. 7 gün sonra hala karar yoksa otomatik bir indirim teklifi yapılabilir. Bu hunisel yaklaşım kayıt dönüşüm oranınızı yüzde 25'lerden yüzde 45'lere taşıyabilir. Genel olarak [CRM otomasyonu altyapısı](/crm-otomasyonu) bu tür dönüşüm hunilerini sistematik yönetmek için tasarlanmıştır.
+Deneme dersi sonrası 24 saat içinde veliye bir mesaj atılır: "Defne'yi bugün ağırlamak güzeldi, kurum içinde size yer ayırdık." 3 gün sonra hala karar vermediyse müdüre kişisel olarak arar, sürtüşme noktası varsa giderir. 7 gün sonra hala karar yoksa otomatik bir indirim teklifi yapılabilir. Bu hunisel yaklaşım, deneme dersine gelen hiçbir velinin takipsiz kalmamasını sağlar. Genel olarak [CRM otomasyonu altyapısı](/crm-otomasyonu) bu tür dönüşüm hunilerini sistematik yönetmek için tasarlanmıştır.
 
 ## Aylık Aidat ve Ödeme Takibi
 
@@ -132,7 +132,7 @@ Mesajın içine doğrudan ödeme linki konulabilir. Veli linke tıklar, kredi ka
 
 ### Geç Ödeme ve Ek Ücret Yönetimi
 
-Geç ödemelerde ek ücret uygulaması varsa sistem bunu otomatik hesaplar. Manuel hesap hatasından kaynaklı tartışmalar son bulur. Veli ne ödeyeceğini şeffaf görür, kurum tahsilatını eksiksiz yapar. Bu altyapı için tipik bir anaokulunda kurulum maliyeti 8.000-15.000 ₺ aralığında değişmekte, aylık bakım 750-1.500 ₺ civarında seyretmektedir.
+Geç ödemelerde ek ücret uygulaması varsa sistem bunu otomatik hesaplar. Manuel hesap hatasından kaynaklı tartışmalar son bulur. Veli ne ödeyeceğini şeffaf görür, kurum tahsilatını eksiksiz yapar. Bu altyapı için piyasada tipik bir anaokulunda kurulum maliyeti 8.000-15.000 ₺ aralığında değişmekte, aylık bakım 750-1.500 ₺ civarında seyretmektedir.
 
 ## Veli Memnuniyet Anketi ve Geri Bildirim
 
@@ -140,7 +140,7 @@ Veliler memnuniyetlerini genelde sessizliğe gömerler, memnuniyetsizliklerini i
 
 ### Aylık Mini Anket
 
-Her ay sonunda veliye tek soruluk bir anket gönderilebilir: "Bu ay PORTZEN Anaokulu deneyiminizi 1-10 arası nasıl puanlarsınız?" 7'nin altında puan veren her veliye otomatik bir takip mesajı gider: "Daha iyi nasıl olabilirdik, neyi geliştirebiliriz?" Bu sayede şikayetler büyümeden, veli kaybı yaşanmadan müdahale şansınız olur.
+Her ay sonunda veliye tek soruluk bir anket gönderilebilir: "Bu ay [Kurum adı] deneyiminizi 1-10 arası nasıl puanlarsınız?" 7'nin altında puan veren her veliye otomatik bir takip mesajı gider: "Daha iyi nasıl olabilirdik, neyi geliştirebiliriz?" Bu sayede şikayetler büyümeden, veli kaybı yaşanmadan müdahale şansınız olur.
 
 ### Yıl Sonu Detaylı Anket
 
@@ -154,7 +154,7 @@ Anket yapıp dosyaya kaldırmak hiçbir işe yaramaz. Her bulgu için bir aksiyo
 
 ### Anaokulu için online kayıt sistemi kurulumu ne kadar sürer?
 
-Standart bir kurulum, formlar, KVKK metinleri, WhatsApp entegrasyonu, ödeme sistemi dahil 2-3 hafta sürer. Kurumun mevcut iş akışına göre bu süre uzayıp kısalabilir. Üç şubeli bir zincir için 5-6 haftalık bir proje takvimi öngörmek daha gerçekçidir. Kurulum süresince hafta birer kez veya iki haftada bir senkronizasyon toplantısı yapılır, kurum personelinden bir kişi süreç sorumlusu olarak atanır.
+Kurulum süresi formların, KVKK adımlarının, WhatsApp entegrasyonunun ve ödeme sisteminin kapsamına ve kurumun mevcut iş akışına göre değişir; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Çok şubeli zincirlerde proje takvimi daha uzun planlanır. Kurulum süresince hafta birer kez veya iki haftada bir senkronizasyon toplantısı yapılır, kurum personelinden bir kişi süreç sorumlusu olarak atanır.
 
 ### Tek bir öğretmen sistemi kullanabilir mi yoksa tüm kadronun eğitim alması gerekir mi?
 
@@ -162,22 +162,22 @@ Standart bir kurulum, formlar, KVKK metinleri, WhatsApp entegrasyonu, ödeme sis
 
 ### Mevcut veli verilerimi bu sisteme nasıl aktarırım?
 
-Excel dosyanız veya kağıt formlarınız sisteme tek seferlik aktarılır. Excel halindeki veriler genelde bir gün içinde aktarılabilir. Kağıt formlarınız varsa fotoğraflanıp dijitalleştirilmesi gerekir, bu da kayıt sayısına göre birkaç gün sürebilir. Aktarım sonrası eski velilere KVKK aydınlatma metni gönderilir, yeni sistem üzerinden de onay alınır. Bu adım atlanmamalı.
+Excel dosyanız veya kağıt formlarınız sisteme tek seferlik aktarılır. Excel halindeki veriler genelde hızlıca aktarılabilir. Kağıt formlarınız varsa fotoğraflanıp dijitalleştirilmesi gerekir, bu da kayıt sayısına göre birkaç gün sürebilir. Aktarım sonrası eski velilere KVKK aydınlatma metni gönderilir, yeni sistem üzerinden de onay alınır. Bu adım atlanmamalı.
 
 ### KVKK uyumluluğu için ek bir yasal danışman gerekir mi?
 
-Standart bir anaokulu kayıt akışı için ek danışman gerekmez. Sistem zaten KVKK uyumlu şablonlarla kurulur, aydınlatma metinleri ve açık rıza onayları hazır halde gelir. Ancak kurum üç şubeden büyükse, yurt dışına veri transferi varsa veya özel projeler yürütüyorsanız bir hukuk danışmanından destek almak doğru olur. Genel kayıt-iletişim-tahsilat akışı için danışman gerekmez.
+Sistem KVKK gerekliliklerini dikkate alarak kurgulanır; aydınlatma metni ve açık rıza adımları akışa eklenir. Ancak metinlerin hukuki içeriğinden kurum sorumludur; bu metinlerin bir hukuk danışmanı tarafından gözden geçirilmesi önerilir. Kurum üç şubeden büyükse, yurt dışına veri transferi varsa veya özel projeler yürütüyorsanız hukuki destek daha da önemli hale gelir.
 
 ### Sistem çöktüğünde veya internet kesildiğinde ne olur?
 
-Sistem bulut altyapısı üzerinde çalışır, yerel internet kesintisinden etkilenmez. Veliler kendi mobil internetlerinden zaten bildirim alırlar. Kurum içinden bildirim göndermek isterseniz mobil veriden veya bir başka noktadaki internetten girebilirsiniz. Ayrıca sistem otomatik yedeklenir, veri kaybı riski neredeyse yoktur. Yine de kritik bilgileri (acil durum kontakları gibi) yılda bir kez PDF olarak yedek almak iyi bir alışkanlıktır.
+Sistem bulut altyapısı üzerinde çalışır, yerel internet kesintisinden etkilenmez. Veliler kendi mobil internetlerinden zaten bildirim alırlar. Kurum içinden bildirim göndermek isterseniz mobil veriden veya bir başka noktadaki internetten girebilirsiniz. Yedekleme, kullanılan bulut altyapısının imkanlarıyla kurgulanır; hangi sağlayıcının kullanılacağı teklifte yazılı olarak belirtilir. Yine de kritik bilgileri (acil durum kontakları gibi) yılda bir kez PDF olarak yedek almak iyi bir alışkanlıktır.
 
 ## PORTZEN ile Anaokulu Kayıt Sistemi Kurmak
 
-PORTZEN olarak Türkiye genelinde onlarca anaokulu, kreş ve gündüz bakım eviyle çalıştık. Her kurumun kendine has akışı, kendine has öğretmen kadrosu, kendine has veli profili olduğunu biliyoruz. Bu yüzden hazır bir paket satmak yerine, sizin kurumunuzun ihtiyacına göre özelleşmiş bir sistem kuruyoruz.
+Anaokulu, kreş ve gündüz bakım evlerinin her birinin kendine has akışı, öğretmen kadrosu ve veli profili vardır. Bu yüzden standart paketlerimizi kurumunuzun akışına ve ihtiyacına göre yapılandırıyoruz.
 
-Tipik bir projede şu modülleri kuruyoruz: online ön kayıt formu, detaylı kayıt formu, KVKK uyumlu aydınlatma ve açık rıza akışı, WhatsApp Business API üzerinden veli bildirim sistemi, AI bot ile ilk seviye veli soru cevaplama, etkinlik takvimi ve otomatik hatırlatma, deneme dersi randevu sistemi, aylık aidat ve ödeme takibi, veli memnuniyet anketi. Tüm bu modüller birbirine entegre çalışır, bilgiyi iki kez girmek zorunda kalmazsınız. Standart bir kurulum 2-3 hafta sürer, fiyatlandırma kurumun büyüklüğüne göre 8.000 ₺'den başlar.
+Tipik bir projede şu modülleri kuruyoruz: online ön kayıt formu, detaylı kayıt formu, KVKK gerekliliklerini dikkate alan aydınlatma ve açık rıza akışı, WhatsApp Business API üzerinden veli bildirim sistemi, AI bot ile ilk seviye veli soru cevaplama, etkinlik takvimi ve otomatik hatırlatma, deneme dersi randevu sistemi, aylık aidat ve ödeme takibi, veli memnuniyet anketi. Tüm bu modüller birbirine entegre çalışır, bilgiyi iki kez girmek zorunda kalmazsınız. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Fiyatlandırma paketlerimize göre yapılır: otomasyon akışları tek seferlik iş otomasyonu paketleriyle ({{fiyatlar:is-otomasyonu}}), AI veli asistanı AI müşteri asistanı paketleriyle ({{fiyatlar:ai-musteri-asistani}}) kurulur; tutarlar KDV hariçtir, ayrıntılar [fiyatlar sayfasında](/fiyatlar).
 
 Eğer ilk önce sadece veli WhatsApp iletişim sistemini denemek isterseniz daha küçük bir paketle başlayabilirsiniz, daha sonra kayıt ve ödeme modüllerini ekleyebilirsiniz. Adım adım büyüyen bir altyapı kurumun günlük işleyişini bozmadan dijitale geçmenizi sağlar. Detaylı sektörel WhatsApp çözümleri için ayrıca [anaokulu kreş WhatsApp veli sistemi yazımızı](/blog/anaokulu-kres-whatsapp-veli-sistemi) okuyabilirsiniz.
 
-Kurumunuzun mevcut durumunu değerlendirmek, ihtiyaç analizini birlikte çıkarmak ve size özel bir teklif hazırlamak için [iletişim formumuzdan](/iletisim) bize ulaşın. 24 saat içinde size dönüş yapıyoruz, ilk görüşme ücretsizdir ve hiçbir bağlayıcılığı yoktur.
+Kurumunuzun mevcut durumunu değerlendirmek, ihtiyaç analizini birlikte çıkarmak ve size özel bir teklif hazırlamak için [iletişim formumuzdan](/iletisim) bize ulaşın. En kısa sürede dönüş yapıyoruz; ilk görüşme ücretsizdir ve hiçbir bağlayıcılığı yoktur.

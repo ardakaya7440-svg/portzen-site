@@ -62,7 +62,7 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   serviceType: "Restaurant Management Software",
@@ -96,7 +96,7 @@ const faqSchema = {
       name: "WhatsApp sipariş sistemi resmi mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Meta iş ortağı resmi WhatsApp Business API kullanılır. Müşteri menüyü WhatsApp üzerinden görür, sipariş verir, ödeme linki gönderilir, sipariş mutfağa otomatik düşer."
+        text: "Evet. Meta'nın resmi WhatsApp Business API'si kullanılır. Müşteri menüyü WhatsApp üzerinden görür, sipariş verir, ödeme linki gönderilir, sipariş mutfağa otomatik düşer."
       }
     },
     {
@@ -104,7 +104,7 @@ const faqSchema = {
       name: "Web rezervasyon ile takvim entegrasyonu var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Var. Restoranın web sitesine yerleşik rezervasyon takvimi kuruyoruz. Müşteri tarih, saat, kişi sayısı seçer, otomatik onay ve hatırlatma mesajı alır. No-show oranı düşer."
+        text: "Var. Restoranın web sitesine yerleşik rezervasyon takvimi kuruyoruz. Müşteri tarih, saat, kişi sayısı seçer, otomatik onay ve hatırlatma mesajı alır."
       }
     },
     {
@@ -112,7 +112,7 @@ const faqSchema = {
       name: "Sosyal medya yönetimi paket dahil mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Pro ve Kurumsal paketlerde Instagram ve TikTok içerik planlama, çekim, kurgu ve yayın yönetimi dahildir. Başlangıç paketinde ayrı modül olarak teklif edilir."
+        text: "Sosyal medya yönetimi ayrı bir aylık hizmettir; Başlangıç, Büyüme ve Kurumsal paketlerin fiyatları Fiyatlar sayfasında yazılıdır."
       }
     },
     {
@@ -120,7 +120,7 @@ const faqSchema = {
       name: "POS donanımı, yazıcı ve terminal PORTZEN ile uyumlu mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Epson TM serisi, Star Micronics mutfak yazıcıları, Ingenico ve Verifone kart terminalleri PORTZEN ile sorunsuz çalışır. Yeni kurulum için anahtar teslim donanım paketi sunarız."
+        text: "Epson TM serisi, Star Micronics mutfak yazıcıları, Ingenico ve Verifone kart terminalleri PORTZEN ile entegre edilebilir; uyumluluk kurulum öncesinde test edilir. Yeni kurulum için anahtar teslim donanım paketi sunarız."
       }
     },
     {
@@ -128,7 +128,7 @@ const faqSchema = {
       name: "Kaç şubeli işletme için uygun mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tek şubeden 50+ şubeye kadar tüm yapılar için ölçeklenir. Çok şubeli yapılarda merkezi panel ile tüm şubeleri tek ekranda yönetir, karşılaştırmalı raporlar alırsınız."
+        text: "Tek şubeli ve çok şubeli yapılar için kurgulanabilir; şube sayısı ve kapsam teklifte yazılı olarak belirtilir. Çok şubeli yapılarda merkezi panel ile tüm şubeleri tek ekranda yönetir, karşılaştırmalı raporlar alırsınız."
       }
     }
   ]
@@ -150,8 +150,8 @@ const breadcrumbSchema = {
 
 const stats = [
   { metric: "5'i 1", label: "POS, CRM, sipariş, rezervasyon, sosyal" },
-  { metric: "21 gün", label: "Tam kurulum ve eğitim" },
-  { metric: "%30", label: "Ortalama sepet artışı" },
+  { metric: "Teklifte", label: "Kurulum süresi kapsama göre yazılı belirtilir" },
+  { metric: "Haftalık", label: "AI içgörü raporu" },
   { metric: "7/24", label: "AI sipariş yanıtlama" }
 ];
 
@@ -188,11 +188,11 @@ const comparisonRows = [
   { feature: "Müşteri CRM ve sadakat", samba: "Sınırlı modül", portzen: "Tam CRM, segment, kampanya" },
   { feature: "WhatsApp sipariş sistemi", samba: "Üçüncü parti entegrasyon", portzen: "Resmi WhatsApp Business API dahil" },
   { feature: "Web rezervasyon takvimi", samba: "Yok, harici platform", portzen: "Web sitenize yerleşik, komisyonsuz" },
-  { feature: "Sosyal medya yönetimi", samba: "Yok", portzen: "Pro ve Kurumsal pakette dahil" },
-  { feature: "Çoklu şube merkezi panel", samba: "Ek lisans", portzen: "Tüm paketlerde dahil" },
-  { feature: "Kurulum süresi", samba: "1 ile 2 hafta sadece POS", portzen: "21 gün tüm sistem" },
+  { feature: "Sosyal medya yönetimi", samba: "Yok", portzen: "Ayrı aylık hizmet (3 paket)" },
+  { feature: "Çoklu şube merkezi panel", samba: "Ek lisans", portzen: "Kapsama göre teklifte" },
+  { feature: "Kurulum süresi", samba: "1 ile 2 hafta sadece POS", portzen: "Teklifte yazılı" },
   { feature: "Fiyat modeli", samba: "Kapsam bazlı", portzen: "Brief'te belirlenir" },
-  { feature: "Türkçe canlı destek", samba: "Forum ve bayi", portzen: "WhatsApp ve telefon, aynı gün" }
+  { feature: "Türkçe canlı destek", samba: "Forum ve bayi", portzen: "WhatsApp ve telefon, en kısa sürede dönüş" }
 ];
 
 const solutionSteps = [
@@ -204,12 +204,12 @@ const solutionSteps = [
   {
     icon: Sparkles,
     title: "Sistem kurulumu",
-    description: "POS, CRM, WhatsApp sipariş, web rezervasyon ve sosyal medya modülleri 14 günde kuruluyor. Donanım entegrasyonları test ediliyor."
+    description: "POS, CRM, WhatsApp sipariş, web rezervasyon ve sosyal medya modülleri kuruluyor; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Donanım entegrasyonları test ediliyor."
   },
   {
     icon: BookOpen,
     title: "Ekip eğitimi",
-    description: "Garson, kasiyer, müdür ve mutfak ekibine ayrı ayrı 2 saatlik canlı Türkçe eğitim. Kullanım video kütüphanesi paneliniz içinde."
+    description: "Garson, kasiyer, müdür ve mutfak ekibine ayrı ayrı canlı Türkçe eğitim; eğitim kapsamı teklifte belirtilir. Kullanım video kütüphanesi paneliniz içinde."
   },
   {
     icon: CheckCircle2,
@@ -238,23 +238,23 @@ const faqs = [
   },
   {
     q: "WhatsApp sipariş sistemi resmi mi, banlanma riski var mı?",
-    a: "Evet, resmi. Meta iş ortağı WhatsApp Business API kullanılır, banlanma riski yoktur. Müşteri menüyü WhatsApp üzerinden görür, sepete ekler, sipariş verir, ödeme linki ile öder, sipariş mutfağa otomatik düşer. SambaPOS'ta yerleşik değildir, üçüncü parti modül veya Glovo, Yemeksepeti gibi platformlar gerekir, her sipariş üzerinden platform komisyonu ödenir."
+    a: "Evet, resmi. Meta'nın resmi WhatsApp Business API'si kullanılır; resmi olmayan çözümlerin aksine Meta politikalarına göre çalışan bir altyapıdır, numaranın durumu yine Meta politikalarına ve kullanım kalitesine bağlıdır. Müşteri menüyü WhatsApp üzerinden görür, sepete ekler, sipariş verir, ödeme linki ile öder, sipariş mutfağa otomatik düşer. SambaPOS'ta yerleşik değildir, üçüncü parti modül veya Glovo, Yemeksepeti gibi platformlar gerekir, her sipariş üzerinden platform komisyonu ödenir."
   },
   {
     q: "Web rezervasyon ile takvim ve hatırlatma entegrasyonu var mı?",
-    a: "Var. Restoranınızın web sitesine yerleşik rezervasyon takvimi kuruyoruz. Müşteri tarih, saat ve kişi sayısı seçer, otomatik onay mesajı ile WhatsApp ve e-mail alır. Rezervasyondan 4 saat önce hatırlatma WhatsApp mesajı gönderilir, no-show oranı tipik olarak %20 düşer. OpenTable ve Quandoo gibi platformlara aylık ücret veya komisyon ödemezsiniz."
+    a: "Var. Restoranınızın web sitesine yerleşik rezervasyon takvimi kuruyoruz. Müşteri tarih, saat ve kişi sayısı seçer, otomatik onay mesajı ile WhatsApp ve e-mail alır. Rezervasyondan 4 saat önce hatırlatma WhatsApp mesajı gönderilir. OpenTable ve Quandoo gibi platformlara aylık ücret veya komisyon ödemezsiniz."
   },
   {
     q: "Sosyal medya yönetimi paket dahil mi?",
-    a: "Pro ve Kurumsal paketlerde Instagram ve TikTok içerik planlama, çekim, kurgu ve yayın yönetimi dahildir. Aylık 12 ile 20 arası post, sezon kampanyası, influencer eşleştirme paketleri sunulur. Başlangıç paketinde ayrı modül olarak teklif edilir. Detay için /sosyal-medya-ajansi sayfasını inceleyin."
+    a: "Sosyal medya yönetimi ayrı bir aylık hizmettir; kanal ve içerik adedi Başlangıç, Büyüme ve Kurumsal paketlere göre değişir ve her pakette yazılıdır. Detay için /sosyal-medya-ajansi sayfasını inceleyin."
   },
   {
     q: "POS donanımı, yazıcı ve terminal, PORTZEN ile uyumlu mu?",
-    a: "Mevcut Epson TM serisi yazıcılar, Star Micronics mutfak yazıcıları, Ingenico ve Verifone kart terminalleri, e-Belge cihazları PORTZEN ile sorunsuz çalışır. Yeni kurulum ise tavsiye paketi sunarız, anahtar teslim kurulum yaparız. Donanım kapsamı ve maliyeti brief görüşmesinde net paylaşılıyor."
+    a: "Mevcut Epson TM serisi yazıcılar, Star Micronics mutfak yazıcıları, Ingenico ve Verifone kart terminalleri, e-Belge cihazları PORTZEN ile entegre edilebilir; uyumluluk kurulum öncesinde test edilir. Yeni kurulum ise tavsiye paketi sunarız, anahtar teslim kurulum yaparız. Donanım kapsamı ve maliyeti brief görüşmesinde net paylaşılıyor."
   },
   {
     q: "Kaç şubeli işletme için uygun mu?",
-    a: "Tek şubeden 50+ şubeye kadar tüm yapılar için ölçeklenir. Çok şubeli işletmelerde merkezi panel üzerinden tüm şubeleri tek ekrandan yönetir, şube karşılaştırmalı raporlar alırsınız. Şube bazlı kullanıcı yetkilendirme, merkezi menü yönetimi, transfer takibi dahildir."
+    a: "Tek şubeli ve çok şubeli yapılar için kurgulanabilir; şube sayısı ve kapsam teklifte yazılı olarak belirtilir. Çok şubeli işletmelerde merkezi panel üzerinden tüm şubeleri tek ekrandan yönetir, şube karşılaştırmalı raporlar alırsınız. Şube bazlı kullanıcı yetkilendirme, merkezi menü yönetimi, transfer takibi dahildir."
   }
 ];
 
@@ -266,7 +266,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -279,13 +279,13 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-purple text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Utensils className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">SambaPOS Alternatifi</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   SambaPOS alternatifi, AI destekli bütünsel restoran yönetim sistemi
                 </h1>
               </Reveal>
@@ -298,13 +298,13 @@ export default function Page() {
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/crm-otomasyonu/restoran"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     Restoran CRM <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -318,8 +318,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-purple text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -335,12 +335,12 @@ export default function Page() {
       </section>
 
       {/* 2. NEDEN ALTERNATİF */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                SambaPOS'un kapsam sınırları
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
+                SambaPOS&apos;un kapsam sınırları
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
                 SambaPOS sadece kasa. Restoran yönetimi bundan çok daha fazlasıdır.
@@ -350,8 +350,8 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {painPoints.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-paper bg-brand-purple text-paper mb-4">
+                <div className="border-3 border-ink/10 bg-light p-5 h-full rounded-2xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-ink/10 bg-slate text-white mb-4 rounded-full">
                     <X className="h-5 w-5" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2">{p.title}</h3>
@@ -364,11 +364,11 @@ export default function Page() {
       </section>
 
       {/* 3. KARŞILAŞTIRMA TABLOSU */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Yan yana karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -378,12 +378,12 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">SambaPOS</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -396,7 +396,7 @@ export default function Page() {
                           <span className="text-xs">{row.samba}</span>
                         </div>
                       </td>
-                      <td className="p-4 text-center text-sm bg-brand-yellow/30 text-ink">
+                      <td className="p-4 text-center text-sm bg-light text-ink">
                         <div className="flex flex-col items-center gap-1">
                           <Check className="h-4 w-4 text-green-700" />
                           <span className="text-xs font-bold">{row.portzen}</span>
@@ -410,22 +410,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Not:</strong> Karşılaştırma genel bilgilendirme amaçlıdır; SambaPOS özellik ve lisans koşulları değişebilir, güncel bilgi için resmi kaynakları kontrol edin.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 4. PORTZEN ÇÖZÜMÜ */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Geçiş süreci
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                21 günde restoranınızda tam sistem
+                4 adımda restoranınızda tam sistem
               </h2>
             </div>
           </Reveal>
@@ -434,8 +434,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -449,15 +449,15 @@ export default function Page() {
       </section>
 
       {/* 5. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                PORTZEN'in farkı
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                PORTZEN&apos;in farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                SambaPOS'un yapmadığı, PORTZEN'in dahil ettiği 6 katman
+                SambaPOS&apos;un yapmadığı, PORTZEN&apos;in dahil ettiği 6 katman
               </h2>
             </div>
           </Reveal>
@@ -466,7 +466,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -479,10 +479,10 @@ export default function Page() {
       </section>
 
       {/* 6. USE CASES */}
-      <section className="bg-brand-purple text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
               Kullanım örnekleri
             </div>
           </Reveal>
@@ -496,36 +496,36 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  <strong>İzmir Alsancak, 80 koltuk Akdeniz mutfağı restoranı.</strong> SambaPOS kullanıyordu, günlük 250 ile 300 sipariş alıyordu. Sosyal medya dış ajansta, rezervasyon Instagram DM üzerinden manuel, WhatsApp sipariş hiç yoktu. POS verisi günlük rapora geliyordu ama kimse incelemiyordu. PORTZEN kurulumundan sonra POS verisi AI ile yorumlandı, salı akşamlarının boş olduğu tespit edildi, salı akşamına özel ikili menü kampanyası yapıldı. Web siteye rezervasyon takvimi eklendi, Instagram DM'den gelen sorular otomatik takvime yönlendirildi. WhatsApp sipariş açıldı, Yemeksepeti'ne ödenen %18 komisyon yerine sıfır komisyon ile teslimat siparişi alındı. Dört ayda sepet ortalaması %28 arttı.
+                  <strong>Örnek senaryo: Akdeniz mutfağı restoranı.</strong> SambaPOS kullanan, sosyal medyası dış ajansta olan, rezervasyonları Instagram DM üzerinden elle alan ve WhatsApp siparişi olmayan bir restoran düşünelim. POS verisi günlük rapora geliyor ama incelenmiyor. Kurulumla POS verisi AI ile yorumlanır; zayıf kalan gün ve saat dilimleri raporda görünür hale gelir ve bu dilimlere özel kampanya planlanabilir. Web sitesine rezervasyon takvimi eklenir; Instagram DM&apos;den gelen rezervasyon soruları kural tabanlı otomatik mesajla takvime yönlendirilir. WhatsApp sipariş açılır; bu kanaldan gelen teslimat siparişlerinde yemek platformu komisyonu ödenmez.
                 </p>
                 <p>
-                  <strong>Ankara Çankaya, 3 şubeli kafe zinciri.</strong> Her şubede SambaPOS, ama merkezi raporlama Excel'den yapılıyordu. Personel kim ne kadar satıyor, hangi şube hangi ürünü iyi satıyor, manuel görülemiyordu. PORTZEN merkezi panel kuruldu, üç şube tek ekranda gözlemlenmeye başlandı. Hangi şubenin hangi saat dilimi düştüğü ortaya çıktı, şubeye özel happy hour kampanyaları yapıldı. Sosyal medya yönetimi PORTZEN'e geçti, üç şubenin de Instagram'ı tek planda yönetildi, içerik POS verisine göre kurgulandı, en çok satan menüler vurgulandı.
+                  <strong>Örnek senaryo: çok şubeli kafe zinciri.</strong> Her şubede SambaPOS var ama merkezi raporlama Excel&apos;den yapılıyor; kimin ne kadar sattığı, hangi şubenin hangi ürünü iyi sattığı elle takip ediliyor. Merkezi panel kurulur, şubeler tek ekranda izlenir. Hangi şubenin hangi saat diliminde düştüğü görünür, şubeye özel kampanyalar planlanabilir. Sosyal medya yönetimi (ayrı aylık hizmet) şubelerin Instagram hesaplarını tek planda toplar; içerik POS verisine göre kurgulanır, çok satan menüler öne çıkarılır.
                 </p>
                 <p>
-                  <strong>Bodrum, sezonluk fine dining restoranı.</strong> Yaz sezonu rezervasyon yönetimi OpenTable üzerinden yapılıyordu, aylık sabit abonelik gideri vardı. PORTZEN web rezervasyon takvimi kuruldu, OpenTable iptal edildi. Rezervasyon öncesi WhatsApp hatırlatma mesajı kuruldu, no-show oranı %22'den %6'ya düştü. Sezon sonunda POS verisi analiz edildi, hangi şarap eşleştirmesinin sepeti yükselttiği tespit edildi, ertesi sezona menü stratejisi buna göre güncellendi.
+                  <strong>Örnek senaryo: sezonluk fine dining restoranı.</strong> Yaz sezonu rezervasyonları aylık abonelikli bir rezervasyon platformu üzerinden yönetiliyor. Web sitesine rezervasyon takvimi kurulur, rezervasyon öncesi WhatsApp hatırlatma mesajı otomatik gider. Sezon sonunda POS verisi analiz edilir; hangi şarap eşleştirmesinin sepeti yükselttiği gibi içgörüler ertesi sezonun menü planına girdi olur.
                 </p>
                 <p>
-                  <strong>İstanbul Kadıköy, 2 şubeli Türk mutfağı.</strong> Yemeksepeti, Getir Yemek, Trendyol Yemek üzerinden gelen siparişlerin komisyonu aylık ciroyu sıkıştırıyordu. PORTZEN WhatsApp sipariş sistemi kuruldu, mevcut müşterilere WhatsApp ile menü gönderildi, sadakat indirimi tanıtıldı. Altı ayda WhatsApp üzerinden gelen siparişler toplam teslimatın %40'ına çıktı, platform komisyonu net kar olarak işletmeye kaldı.
+                  <strong>Örnek senaryo: iki şubeli Türk mutfağı.</strong> Yemeksepeti, Getir Yemek, Trendyol Yemek üzerinden gelen siparişlerin komisyonu ciroyu sıkıştırıyor. WhatsApp sipariş sistemi kurulur, izinli mevcut müşterilere WhatsApp ile menü gönderilir, işletmenin kendi sadakat indirimi tanıtılır. WhatsApp&apos;tan gelen siparişlerde platform komisyonu ödenmez; Meta mesaj ücretleri ayrıca uygulanır.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Sepet ortalaması</div>
-                  <div className="font-display text-4xl font-black mb-1">+%28</div>
-                  <div className="text-sm">AI içgörü ile kampanya</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">POS içgörüsü</div>
+                  <div className="font-display text-4xl font-black mb-1">Haftalık</div>
+                  <div className="text-sm">AI raporuyla kampanya planı</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">No-show oranı</div>
-                  <div className="font-display text-4xl font-black mb-1">%22 → %6</div>
-                  <div className="text-sm">WhatsApp hatırlatma ile</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Rezervasyon</div>
+                  <div className="font-display text-4xl font-black mb-1">Hatırlatma</div>
+                  <div className="text-sm">Rezervasyon öncesi otomatik WhatsApp</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Platform komisyonu</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">%18 → %0</div>
-                  <div className="text-sm">WhatsApp sipariş ile</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">WhatsApp sipariş</div>
+                  <div className="font-display text-4xl font-black text-ink">Komisyonsuz</div>
+                  <div className="text-sm">Platform komisyonu yok; Meta ücretleri ayrı</div>
                 </div>
               </div>
             </Reveal>
@@ -534,22 +534,22 @@ export default function Page() {
       </section>
 
       {/* 8. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                SambaPOS'tan geçmeden önce merak edilenler
+                SambaPOS&apos;tan geçmeden önce merak edilenler
               </h2>
             </div>
           </Reveal>
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -559,23 +559,23 @@ export default function Page() {
 
           <Reveal delay={300}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <HeadphonesIcon className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <HeadphonesIcon className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">Restoran WhatsApp AI</h3>
                 <p className="text-sm opacity-85 mb-3">
                   Sipariş alan, menü gösteren, rezervasyon yönlendiren AI asistan.
                 </p>
-                <Link href="/whatsapp-ai-asistani/restoran" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/whatsapp-ai-asistani/restoran" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   Detayları Gör <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">Sosyal Medya Ajansı</h3>
                 <p className="text-sm opacity-85 mb-3">
                   Restoran POS verisi ile entegre Instagram ve TikTok içerik yönetimi.
                 </p>
-                <Link href="/sosyal-medya-ajansi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/sosyal-medya-ajansi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   Sosyal Medya <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
@@ -585,9 +585,9 @@ export default function Page() {
       </section>
 
       {/* 9. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
                 Restoranınızı bütünsel sisteme taşıyalım
@@ -602,21 +602,21 @@ export default function Page() {
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905015884853"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  href="tel:+905318639117"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
                 </a>
@@ -626,7 +626,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

@@ -97,7 +97,7 @@ n8n Berlin merkezli açık kaynak. Kendi sunucunuza kurabilirsiniz ya da n8n Clo
 Türkiye'deki KOBİ'ler için **Make + n8n karması** en mantıklı çözüm:
 
 1. **Hızlı denemeler için Make** kullanın — Zapier'den ucuz, görsel akışı net
-2. **Üretime alındığında n8n self-hosted'a taşıyın** — sabit maliyet, KVKK uyumlu, sınırsız hacim
+2. **Üretime alındığında n8n self-hosted'a taşıyın** — sabit sunucu maliyeti, verinin nerede tutulduğu üzerinde kontrol (KVKK gereklilikleri için avantaj), hacimle doğrusal artmayan maliyet
 
 Tek ihtiyacınız uygun bir VPS (DigitalOcean ₺350/ay) + kurulum desteği. Bunun nasıl yapıldığını [n8n kurulum hizmeti](/n8n-kurulum-hizmeti) sayfamızda detaylandırdık.
 
@@ -116,8 +116,8 @@ Docker, SSL, Cron, environment variables — yarım gün sürer ama bir gün son
 
 ## PORTZEN ile Otomasyon: Sıfırdan Sisteme
 
-PORTZEN olarak işletmelere üç platformu da kuruyoruz — ama %80 vakada **n8n self-hosted + Make karması** öneriyoruz. Sebebi basit: aylık sabit maliyet, KVKK uyumu ve sınırsız ölçek.
+PORTZEN olarak işletmelere üç platformu da kuruyoruz — ama çoğu projede **n8n self-hosted + Make karması** öneriyoruz. Sebebi: aylık sabit sunucu maliyeti, verinin hangi sunucuda tutulacağı üzerinde kontrol ve hacimle doğrusal artmayan maliyet. İş akışı ve uygulama bağlantısı sayısı ise seçilen pakete göre belirlenir.
 
-İşletmenizin mevcut süreçlerini analiz ediyor, hangi platforma yatırım yapmanın en mantıklı olduğunu beraber netleştiriyoruz. Sadece kurulum değil, bir yıllık optimizasyon + güncelleme dahil pakette.
+İşletmenizin mevcut süreçlerini analiz ediyor, hangi platforma yatırım yapmanın en mantıklı olduğunu beraber netleştiriyoruz. Kurulum tek seferlik iş otomasyonu paketleriyle yapılır: {{fiyatlar:is-otomasyonu}} (KDV hariç; sunucu ve lisanslar hariç). İlk 30 gün kurulum hataları giderilir; ikinci aydan itibaren isteğe bağlı aylık bakım {{bakim:baslangic}} / {{bakim:buyume}} / {{bakim:kurumsal}} (KDV hariç).
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun otomasyon yapısını birlikte belirleyelim.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun otomasyon yapısını birlikte belirleyelim.

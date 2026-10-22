@@ -1,5 +1,5 @@
 ---
-title: "Google İşletme Profili Optimizasyonu: 30 Dakikada Görünürlüğü 3x Artırma"
+title: "Google İşletme Profili Optimizasyonu: 9 Adımlık Görünürlük Rehberi"
 slug: "google-isletme-profili-optimizasyon"
 category: "rehber"
 description: "Google İşletme Profili optimizasyonu için adım adım rehber. NAP tutarlılığı, kategori seçimi, foto stratejisi, yorum toplama ve gönderi taktikleriyle haritada üst sıralara çıkın."
@@ -11,11 +11,11 @@ relatedServices: ["web-tasarim"]
 ogImage: "/blog/og/google-isletme-profili-optimizasyon.png"
 ---
 
-# Google İşletme Profili Optimizasyonu: 30 Dakikada Görünürlüğü 3x Artırma
+# Google İşletme Profili Optimizasyonu: 9 Adımlık Görünürlük Rehberi
 
 Google İşletme Profili, eskiden Google My Business olarak bilinen ve KOBİ'ler için en yüksek dönüşümü getiren ücretsiz pazarlama aracıdır. Müşteriniz Google'da "yakınımdaki kuaför", "İzmir oto servis" veya "Bostanlı eczane nöbetçi" yazdığında, Google ilk üç sonuçtan oluşan "yerel paketi" (local pack) gösterir. Bu üç işletme, o anahtar kelime için tüm trafiğin yaklaşık %44'ünü alır. Geriye kalan organik sonuçlar, yerel paketin altında kalan tüm rakipler arasında bölünür. Yani profiliniz iyi optimize değilse, web sitenizin SEO'su ne kadar güçlü olursa olsun kaybedersiniz.
 
-Bu rehberde 30 dakika içinde tamamlayabileceğiniz, profilinizin görünürlüğünü ortalama 3 kat artıran 9 adımlı bir çalışma planını sunuyoruz. NAP tutarlılığından kategori seçimine, foto stratejisinden yorum toplama taktiklerine ve haftalık gönderi (post) frekansına kadar her şeyi pratik biçimde anlatıyoruz. İçerikte ekran görüntüsü göstermeden, butonların Türkçe adlarını kullanarak ilerleyeceğiz; siz kendi telefonunuzdan veya bilgisayarınızdan profilinize girip adımları aynı anda uygulayabilirsiniz. Bu adımları tamamlayan İzmirli bir butik 6 hafta içinde Google haritada "Karşıyaka butik" aramasında 12. sıradan 2. sıraya yükseldi ve aylık çağrı sayısı 14'ten 47'ye çıktı. Sistem işliyor, sadece doğru sırayla uygulamak gerekiyor.
+Bu rehberde kısa sürede tamamlayabileceğiniz, profilinizin görünürlüğünü artırmaya yönelik 9 adımlı bir çalışma planını sunuyoruz. NAP tutarlılığından kategori seçimine, foto stratejisinden yorum toplama taktiklerine ve haftalık gönderi (post) frekansına kadar her şeyi pratik biçimde anlatıyoruz. İçerikte ekran görüntüsü göstermeden, butonların Türkçe adlarını kullanarak ilerleyeceğiz; siz kendi telefonunuzdan veya bilgisayarınızdan profilinize girip adımları aynı anda uygulayabilirsiniz. Adımlar birbirini tamamlar; en iyi sonucu almak için doğru sırayla uygulamak gerekiyor.
 
 ## Google İşletme Profili Nedir ve Neden Bu Kadar Kritiktir?
 
@@ -183,4 +183,4 @@ Hayır. Profil, dönüşüm motorudur; ancak SEO uyumlu bir web sitesiyle güçl
 
 ## PORTZEN ile Google İşletme Profili İçin Sistem Kurmak
 
-Google İşletme Profili tek başına bir araç değil, sürekli beslenmesi gereken bir kanaldır. PORTZEN olarak KOBİ'ler için sıfırdan profil kurulumu, NAP denetimi, yorum toplama otomasyonu, haftalık gönderi takvimi ve aylık rakip raporlamasını içeren bir paket sunuyoruz. İzmir, İstanbul ve Ankara'da 200+ KOBİ'nin profilini yöneten ekibimiz, [web tasarım](/web-tasarim) hizmetinizle birlikte profil performansınızı entegre şekilde optimize ediyor. Profilinizi mevcut durumdan üç kat daha görünür hale getirmek için [iletişim](/iletisim) sayfamızdan 15 dakikalık ücretsiz keşif görüşmesi planlayabilirsiniz.
+Google İşletme Profili tek başına bir araç değil, sürekli beslenmesi gereken bir kanaldır. PORTZEN'de Google İşletme Profili yönetimi için ayrı bir paket bulunmuyor; yorum toplama gibi akışları iş otomasyonu paketleriyle, SEO uyumlu siteyi [web tasarım](/web-tasarim) paketleriyle kuruyoruz. Güncel kapsam ve fiyatlar [fiyatlar sayfasında](/fiyatlar). Profilinizin görünürlüğünü artırmak için [iletişim](/iletisim) sayfamızdan ücretsiz keşif görüşmesi planlayabilirsiniz.

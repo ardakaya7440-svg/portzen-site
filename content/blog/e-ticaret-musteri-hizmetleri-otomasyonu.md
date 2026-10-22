@@ -17,7 +17,7 @@ Türkiye'de bir e-ticaret işletmesinin satış başına ortalama 3.4 müşteri 
 
 2026 itibarıyla e-ticaret müşteri hizmetlerinin %72'si **otomatize edilebilir** durumda. Bu, "insan elini tamamen çekin" anlamına gelmiyor; aksine insan ekibinin değer katan konularda (zor şikayetler, B2B müzakereler, yüksek tutarlı siparişler) çalışmasını sağlıyor. Tekrarlayan operasyonel soruları AI ve otomasyon yönetiyor.
 
-Bu yazıda Shopify ve WooCommerce üzerinde çalışan KOBİ ölçekli işletmelerin müşteri hizmetlerini nasıl otomatikleştireceğini, hangi süreçleri hangi araçla halledebileceğini ve bu otomasyonun cart abandonment, CLV, AOV gibi metriklere nasıl etki ettiğini somut sayılarla anlatacağız. Karar verirken Tidio, Intercom gibi araçlardan kendi özel kurulumunuza geçişin neden mantıklı olduğunu da göstereceğiz.
+Bu yazıda Shopify ve WooCommerce üzerinde çalışan KOBİ ölçekli işletmelerin müşteri hizmetlerini nasıl otomatikleştireceğini, hangi süreçleri hangi araçla halledebileceğini ve bu otomasyonun cart abandonment, CLV, AOV gibi metriklere nasıl etki ettiğini örneklerle anlatacağız. Karar verirken Tidio, Intercom gibi araçlardan kendi özel kurulumunuza geçişin neden mantıklı olduğunu da göstereceğiz.
 
 ## E-Ticaret Müşteri Hizmetlerinin 4 Ana Yükü
 
@@ -41,7 +41,7 @@ Otomasyona başlamadan önce şu üç metriği baz alın:
 - **Çözüm süresi:** İlk mesajdan problem çözümüne kadar geçen toplam süre
 - **Self-servis oranı:** Müşterinin destek talebi açmadan kendi başına çözebildiği yüzde
 
-Şu an Türkiye e-ticaret ortalamaları: ilk cevap 3.8 saat, çözüm 1.6 gün, self-servis %12. İyi kurulmuş bir otomasyonla bu rakamlar sırasıyla 8 saniyeye, 4 saate ve %58'e taşınır. Müşteri memnuniyetinde **2.1 puan** (5 üzerinden) iyileşme demek.
+Şu an Türkiye e-ticaret ortalamaları: ilk cevap 3.8 saat, çözüm 1.6 gün, self-servis %12. İyi kurulmuş bir otomasyonla ilk cevap otomatik olarak hemen gider, çözüm süresi kısalır ve self-servis oranı yükselir; kendi başlangıç değerlerinizi ölçtüğünüzde değişimi net görebilirsiniz.
 
 ## Sipariş Takibi Otomasyonu: En Büyük Yükten Kurtulmak
 
@@ -53,7 +53,7 @@ Destek taleplerinin neredeyse %40'ını "kargom nerede?" soruları oluşturuyor.
 4. Teslim edildiğinde teşekkür ve değerlendirme talebi
 5. Müşteri "kargom nerede?" diye yazarsa AI asistan anlık olarak Yurtiçi, Aras, MNG, PTT veya kullandığınız kargo firmasının API'sinden durumu çekip cevaplıyor
 
-Bu akışı kurduğunuzda kargo ile ilgili destek talepleri **%85 azalıyor**. Çünkü müşteri zaten her aşamada bilgilendirildiği için sormaya gerek görmüyor. Geriye kalan %15'lik kısım da AI asistan tarafından saniyeler içinde çözülüyor.
+Bu akışı kurduğunuzda kargo ile ilgili destek talepleri belirgin şekilde azalır, çünkü müşteri zaten her aşamada bilgilendirildiği için sormaya gerek görmez. Yine de soran müşteriye AI asistan otomatik yanıt verir.
 
 Sepet süreciyle ilgili daha derin bir kurgu için [abandoned cart email şablonları](/blog/abandoned-cart-email-sablonlari) yazımıza göz atabilirsiniz.
 
@@ -69,7 +69,7 @@ AI destekli bir asistan, ürün kataloğunuza bağlanarak bu soruları anında c
 - Karşılaştırma: "X model mi Y model mi?" sorusuna iki ürünü karşılaştırarak cevap veriyor
 - Yeniden stoğa girme: Stokta olmayan ürün için müşteri bildirimine kayıt ekliyor
 
-Bu sürecin gizli faydası: müşteri sorduğu soruya hızlı cevap alınca **satın alma oranı %23 artıyor**. Yani otomasyon sadece destek yükünü azaltmıyor, doğrudan ciroya katkı sağlıyor.
+Bu sürecin gizli faydası: müşteri sorduğu soruya hızlı cevap aldığında satın alma kararını ertelemek için bir sebebi kalmaz. Yani otomasyon sadece destek yükünü azaltmıyor, satışa da katkı sağlayabiliyor.
 
 ### Bilgi Tabanı: Asistanın Beyni
 
@@ -86,7 +86,7 @@ Etkili bir cart abandonment akışı şu şekilde olmalı:
 - **24 saat sonra:** %10 indirim kuponu ile ikinci hatırlatma
 - **72 saat sonra:** Sosyal kanıt (yorumlar, kullanıcı sayısı) ile son hatırlatma
 
-Bu üç dokunuşlu akış sepet kurtarma oranını **%6'dan %22'ye** çıkarıyor. Aylık 100 bin TL'lik terk edilen sepet hacmi olan bir mağaza için bu, ayda 16-22 bin TL ekstra ciro demek.
+Bu akış, terk edilen sepetlerin bir kısmını geri kazanmayı hedefler; geri kazanılan her sepet, zaten ilgi göstermiş bir müşteriden gelen ek ciro demektir.
 
 WhatsApp üzerinden çalışan cart recovery akışlarının email'den 3.4 kat daha yüksek açılma oranı olduğunu eklemeden geçmeyelim. Müşteri WhatsApp mesajını saniyeler içinde açıyor, email'i saatler sonra (eğer açarsa). Recovery akışını besleyen retargeting kampanyalarını yönetmek için [Meta reklam ajansı](/meta-reklam-ajansi) tarafıyla bütünleşik çalışmak, sepet terk eden kullanıcıyı 24 saat içinde tekrar yakalamayı kolaylaştırıyor. Sektörel kurulum için [e-ticaret için WhatsApp AI asistanı](/whatsapp-ai-asistani/e-ticaret) sayfamıza bakabilirsiniz.
 
@@ -102,7 +102,7 @@ WhatsApp üzerinden çalışan cart recovery akışlarının email'den 3.4 kat d
 6. Ürün depoya ulaştığında otomatik geri ödeme tetikler
 7. Geri ödeme tamamlandığında müşteriye bildirim
 
-Bu akışla iade tamamlama süresi **5.2 günden 1.8 güne** iniyor. Daha önemlisi: kötü bir deneyimi iyi bir deneyime çeviriyorsunuz. Müşteri "iade ettim, sorun çıkmadı, bir daha alırım" diyor. Halbuki klasik süreçte "iade ettim, başım ağrıdı, bir daha buradan almam" diyordu.
+Bu akışla iade süreci müşteri için öngörülebilir hale gelir ve manuel adımlar azalır. Daha önemlisi: kötü bir deneyimi iyi bir deneyime çeviriyorsunuz. Müşteri "iade ettim, sorun çıkmadı, bir daha alırım" diyor. Halbuki klasik süreçte "iade ettim, başım ağrıdı, bir daha buradan almam" diyordu.
 
 ### İade Sebebi Verisini Toplamak
 
@@ -115,15 +115,15 @@ Müşteri hizmetleri otomasyonu tek başına bir tasarruf aracı değil; doğru 
 - **CLV (Customer Lifetime Value):** Bir müşterinin yaşam boyu size getirdiği toplam ciro
 - **AOV (Average Order Value):** Sipariş başına ortalama tutar
 
-Türkiye e-ticaretinde ortalama CLV 4.2 ay, AOV ise 380 TL civarında. CRM entegre bir asistan bu rakamları ciddi şekilde değiştiriyor:
+Türkiye e-ticaretinde ortalama CLV 4.2 ay, AOV ise 380 TL civarında. CRM entegre bir asistan bu metrikleri şu akışlarla etkileyebilir:
 
-**Cross-sell otomasyonu:** Müşteri X ürünü aldıktan 7 gün sonra "bu ürünle birlikte alanların %68'i Y ürününü de alıyor" mesajı atıyor. AOV %18 artıyor.
+**Cross-sell otomasyonu:** Müşteri X ürünü aldıktan 7 gün sonra "bu ürünle birlikte alanların %68'i Y ürününü de alıyor" mesajı atıyor. Amaç ortalama sepet tutarını büyütmek.
 
-**Tekrar satın alma:** Tükenmesi muhtemel ürünlerde (kozmetik, vitamin, mama) tükenme tarihinde otomatik hatırlatma. Tekrar satın alma oranı %34'ten %58'e çıkıyor.
+**Tekrar satın alma:** Tükenmesi muhtemel ürünlerde (kozmetik, vitamin, mama) tükenme tarihinde otomatik hatırlatma. Müşteri ürünü yeniden almayı unutmadan hatırlatılmış olur.
 
-**VIP segmentasyonu:** En çok harcayan %10 müşteriye özel teklifler ve erken erişim. CLV %42 artıyor. Aynı segmentasyon, [Meta reklam ajansı](/meta-reklam-ajansi) tarafındaki Advantage+ Shopping ve lookalike kampanyalarını besleyen birinci taraf veri kaynağına dönüşüyor.
+**VIP segmentasyonu:** En çok harcayan %10 müşteriye özel teklifler ve erken erişim. En değerli müşterilerle ilişkiyi güçlendirir. Aynı segmentasyon, [Meta reklam ajansı](/meta-reklam-ajansi) tarafındaki Advantage+ Shopping ve lookalike kampanyalarını besleyen birinci taraf veri kaynağına dönüşüyor.
 
-**Win-back kampanyaları:** 90 gün alışveriş yapmamış müşterilere kişiselleştirilmiş geri çağırma. %12-18 müşteri geri kazanılıyor.
+**Win-back kampanyaları:** 90 gün alışveriş yapmamış müşterilere kişiselleştirilmiş geri çağırma. Bir süredir alışveriş yapmayan müşteriyi yeniden harekete geçirmeyi amaçlar.
 
 Bu akışların kurulumu için [e-ticaret CRM otomasyonu](/crm-otomasyonu/e-ticaret) sayfamızdan detaylı bilgi alabilirsiniz.
 
@@ -143,44 +143,40 @@ Pek çok e-ticaret işletmesi yola Tidio, Intercom, LiveChat gibi hazır araçla
 
 Bu yüzden Türkiye pazarındaki KOBİ'ler giderek özel kurulum çözümlere geçiyor. Detaylı karşılaştırmalar için [Tidio alternatifi](/tidio-alternatifi) ve [Intercom alternatifi](/intercom-alternatifi) sayfalarımıza bakabilirsiniz.
 
-## Gerçek Vaka: Aylık 1.200 Sipariş Alan Bir Mağazanın Dönüşümü
+## Örnek Senaryo: Yoğun Sipariş Alan Bir Mağazada Kurulum
 
-Bursa merkezli, ev tekstili satan bir Shopify mağazası için 2025'in son çeyreğinde kurduğumuz otomasyon sistemi, üç aylık kısa sürede çarpıcı sonuçlar üretti. Sezon öncesi durum: aylık 1.200 sipariş, ortalama 380 TL AOV, %71 sepet terk oranı, 4 kişilik destek ekibi, ortalama 4.2 saat ilk cevap süresi, ayda 2.000 TL Tidio aboneliği.
+Örnek bir senaryo üzerinden düşünelim: ev tekstili satan, Shopify üzerinde çalışan ve yoğun sipariş alan bir mağaza. Başlangıç durumunda destek ekibi "kargom nerede?" mesajlarına yetişmeye çalışıyor, ilk cevap saatler sürüyor, sepet terkleri takip edilmiyor ve hazır bir canlı destek aracına aylık abonelik ödeniyor.
 
-Sistem üç haftada devreye alındı: WhatsApp Business API üzerinden AI asistan, Yurtiçi Kargo entegrasyonu, Klaviyo email akışları, özel iade portalı, Shopify Admin API ile gerçek zamanlı stok ve sipariş entegrasyonu.
+Bu mağaza için örnek bir kurulum şu parçalardan oluşur: WhatsApp Business API üzerinden AI asistan, kargo firması entegrasyonu, Klaviyo email akışları, iade akışı ve Shopify Admin API ile stok ve sipariş entegrasyonu.
 
-Üç ay sonra sonuçlar:
+Kurulumdan sonra iş akışında değişenler:
 
-- Ortalama ilk cevap süresi: 7 saniye
-- Sepet terk oranı: %71 → %58
-- Sepet kurtarma oranı: %4 → %19
-- Aylık ekstra ciro (recovery): 84.000 TL
-- AOV: 380 TL → 472 TL (cross-sell akışı sayesinde)
-- Destek ekibi: 4 kişi → 2 kişi (kalan 2 kişi premium müşteriye odaklandı)
-- Tekrar satın alma oranı: %18 → %41
-- Aylık araç maliyeti: 2.000 TL → 1.200 TL (Tidio'dan kendi sisteme geçiş)
+- Müşteri mesajlarına AI asistan otomatik yanıt verir; yanıtlayamadığı konuşmalar ekibe aktarılır.
+- Sipariş durumu her aşamada müşteriye proaktif olarak bildirilir.
+- Terk edilen sepetler için WhatsApp ve email hatırlatma akışı otomatik çalışır.
+- Satın alma sonrası cross-sell ve tekrar satın alma hatırlatmaları planlı şekilde gider.
+- İade talepleri tek bir akıştan, sebebiyle birlikte kayda alınır.
+- Destek ekibi tekrar eden sorular yerine özel ilgi gerektiren müşterilere odaklanır.
 
-Mağaza sahibi şu cümleyle özetledi: "Eskiden müşteri destek ekibi siparişin yetişmesine engel oluyordu, şimdi sipariş bize zaman bırakıyor."
-
-Bu vakanın gizli kazancı, ekibin moralinde. Tekrarlayan "kargom nerede?" mesajlarına cevap yetiştirmeye çalışmak yerine, gerçek anlamda değer katacak müşteri konuşmalarına odaklanan bir ekip ortaya çıktı.
+Bu kurgunun asıl kazancı ekibin iş yükünün niteliğinde: tekrarlayan "kargom nerede?" mesajlarına cevap yetiştirmeye çalışmak yerine gerçekten değer katacak müşteri konuşmalarına odaklanan bir ekip.
 
 ## E-Ticaret Müşteri Hizmetleri Otomasyonu Kurulum Yol Haritası
 
-Sıfırdan başlayan bir KOBİ için 8 haftalık pratik bir yol haritası:
+Sıfırdan başlayan bir KOBİ için adım adım pratik bir yol haritası (süreler kapsama göre değişir):
 
-**1-2. hafta:** Mevcut destek hacminin ölçümü, en sık sorulan 50 sorunun çıkarılması, bilgi tabanı hazırlığı.
+**1. adım:** Mevcut destek hacminin ölçümü, en sık sorulan 50 sorunun çıkarılması, bilgi tabanı hazırlığı.
 
-**3-4. hafta:** WhatsApp Business API kurulumu, AI asistan eğitimi, kargo firması API entegrasyonu.
+**2. adım:** WhatsApp Business API kurulumu, AI asistan eğitimi, kargo firması API entegrasyonu.
 
-**5. hafta:** Sipariş takibi ve ürün bilgisi otomasyonlarının canlıya alınması.
+**3. adım:** Sipariş takibi ve ürün bilgisi otomasyonlarının canlıya alınması.
 
-**6. hafta:** Cart abandonment akışının kurulumu, ilk metriklerin takibi.
+**4. adım:** Cart abandonment akışının kurulumu, ilk metriklerin takibi.
 
-**7. hafta:** İade ve değişim akışı, CRM entegrasyonu.
+**5. adım:** İade ve değişim akışı, CRM entegrasyonu.
 
-**8. hafta:** Cross-sell, win-back ve VIP segmentasyon akışlarının devreye alınması.
+**6. adım:** Cross-sell, win-back ve VIP segmentasyon akışlarının devreye alınması.
 
-Bu yol haritasını takip eden bir e-ticaret işletmesinin ilk üç ay sonundaki ortalama kazanımları: destek maliyetinde %58 azalma, sepet kurtarma oranında %16 artış, tekrar satın alma oranında %23 artış.
+Bu yol haritasının etkisini ölçmek için başlangıçta aldığınız üç metriği (ilk cevap süresi, çözüm süresi, self-servis oranı) ve sepet kurtarma ile tekrar satın alma oranlarını her ay karşılaştırın.
 
 Sales funnel kurulum mantığı için [KOBİ için sales funnel rehberi](/blog/sales-funnel-kobi-kurulum) yazımıza da bakabilirsiniz.
 
@@ -199,12 +195,12 @@ Evet. WooCommerce REST API üzerinden tüm akışlar kurulabilir. Hatta WooComme
 Kalır ve daha kaliteli olur. Otomasyon tekrarlayan operasyonel işleri çözer; ekibiniz gerçekten değerli müşteri konuşmalarına odaklanır. Müşteri "bu marka bana hızlı ve düzgün cevap veriyor" hissi yaşar.
 
 **KVKK açısından risk var mı?**
-Doğru kurulduğunda hayır. Müşteri verisi kendi sunucunuzda durur, açık rıza akışları sistemde yerleşir, veri silme talepleri otomatik işlenir.
+Risk, doğru kurguyla yönetilir. Sistem KVKK gerekliliklerini dikkate alarak kurgulanır (açık rıza, aydınlatma akışı, veri silme taleplerinin işlenmesi); verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir.
 
 ## PORTZEN ile E-Ticaret Operasyonunuzu Sistemleştirmek
 
 PORTZEN olarak Shopify, WooCommerce ve özel e-ticaret altyapılarında çalışan KOBİ'lere müşteri hizmetleri otomasyonu, WhatsApp AI asistanı ve CRM entegrasyonu kuruyoruz. İzmir merkezliyiz, Türkiye genelinde uzaktan çalışıyoruz.
 
-İlk görüşmede mevcut destek hacminizi, ortalama cevap sürenizi, sepet terk oranınızı ve tekrar satın alma oranınızı inceliyoruz. Ardından 6-8 haftalık bir yol haritasıyla sisteminizi devreye alıyoruz. İlk iki ay sonunda destek maliyetlerinizdeki azalma ve ekstra satışlarınız sistemin yatırımını tamamen karşılıyor.
+İlk görüşmede mevcut destek hacminizi, ortalama cevap sürenizi, sepet terk oranınızı ve tekrar satın alma oranınızı inceliyoruz. Ardından adım adım bir yol haritası çıkarıp sisteminizi devreye alıyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Kurulum AI müşteri asistanı paketleriyle ({{fiyatlar:ai-musteri-asistani}}) ve gerekirse tek seferlik iş otomasyonu paketleriyle yapılır; tutarlar KDV hariçtir, ayrıntılar [fiyatlar sayfasında](/fiyatlar).
 
 E-ticaret operasyonunuza özel demo ve ücretsiz analiz için [iletişim sayfamız](/iletisim) üzerinden bizimle bağlantıya geçebilirsiniz.

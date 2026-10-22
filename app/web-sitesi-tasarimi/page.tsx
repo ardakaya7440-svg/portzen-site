@@ -16,11 +16,13 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
+import { PricingSection, WebExtrasSection } from "@/components/pricing/PricingSection";
+import { PRICING, familyOffersSchema, familyPriceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
   title: "Web Sitesi Tasarımı | Kurumsal + E-Ticaret + Landing Sayfası - PORTZEN",
   description:
-    "Web sitesi tasarımı hizmeti: hızlı, SEO uyumlu, mobil dostu kurumsal siteler, e-ticaret ve landing page'ler. Next.js altyapısı, 3 haftada teslim.",
+    "Web sitesi tasarımı hizmeti: hızlı, SEO uyumlu, mobil dostu kurumsal siteler, e-ticaret ve landing page'ler. Next.js altyapısı; teslim süresi kapsama göre teklifte yazılı olarak belirtilir.",
   keywords: [
     "web sitesi tasarımı",
     "web sitesi tasarım",
@@ -40,13 +42,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Web Sitesi Tasarımı | Kurumsal + E-Ticaret + Landing Sayfası - PORTZEN",
     description:
-      "Hızlı, SEO uyumlu ve mobil dostu web sitesi tasarımı. Kurumsal siteler, e-ticaret ve landing page'ler Next.js altyapısıyla 3 haftada teslim."
+      "Hızlı, SEO uyumlu ve mobil dostu web sitesi tasarımı. Kurumsal siteler, e-ticaret ve landing page'ler Next.js altyapısıyla; teslim süresi teklifte yazılı olarak belirtilir."
   },
   twitter: {
     card: "summary_large_image",
     title: "Web Sitesi Tasarımı | PORTZEN",
     description:
-      "Kurumsal, e-ticaret ve landing page tasarımı. Next.js, Lighthouse 95+, SEO uyumlu, 3 haftada teslim."
+      "Kurumsal, e-ticaret ve landing page tasarımı. Next.js, Lighthouse 90+ hedefi, SEO uyumlu; teslim süresi teklifte yazılı."
   },
   alternates: { canonical: "https://portzenai.com/web-sitesi-tasarimi" },
   robots: { index: true, follow: true }
@@ -61,7 +63,7 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com",
     address: {
       "@type": "PostalAddress",
@@ -76,15 +78,8 @@ const serviceSchema = {
     { "@type": "City", name: "Ankara" }
   ],
   description:
-    "PORTZEN, KOBİ ve kurumsal markalar için kurumsal web sitesi, e-ticaret sitesi ve landing page tasarımı sunar. Next.js altyapısı, Lighthouse 95+ skor, mobil öncelikli tasarım, SEO uyumu ve 3 haftada teslim ortalaması.",
-  offers: {
-    "@type": "AggregateOffer",
-    priceCurrency: "TRY",
-    lowPrice: "10000",
-    highPrice: "150000",
-    priceRange: "₺10.000-₺85.000/proje",
-    availability: "https://schema.org/InStock"
-  }
+    "PORTZEN, KOBİ ve kurumsal markalar için kurumsal web sitesi, e-ticaret sitesi ve landing page tasarımı sunar. Next.js altyapısı, Lighthouse 90+ hedefi, mobil öncelikli tasarım ve SEO uyumu; teslim süresi kapsama göre teklifte yazılı olarak belirtilir.",
+  offers: [...familyOffersSchema(PRICING["kurumsal-web-sitesi"]), ...familyOffersSchema(PRICING["e-ticaret"])]
 };
 
 const faqSchema = {
@@ -96,7 +91,7 @@ const faqSchema = {
       name: "Web sitesi tasarımı fiyatlarında kaç sayfa dahil?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Landing page paketinde tek sayfa (bölümlü uzun scroll), kurumsal pakette 5-15 sayfa, e-ticaret paketinde ise sınırsız ürün + 8-12 sabit sayfa dahildir. Ekstra sayfa talebi sayfa başına 1.500-3.500 TL arasında fiyatlandırılır. Blog modülü kurumsal pakete standart olarak eklenir."
+        text: "Landing page tek sayfadır ve 6 bölüme kadar içerir. Kurumsal web sitesi Başlangıç paketinde 3–5, Büyüme paketinde 10, Kurumsal pakette 20 sayfadır (Kurumsal 2 dil). E-ticaret paketlerinde dosyadan 50, 250 veya 1.000 ürün aktarımı dahildir. CMS ve blog Büyüme paketinde standarttır."
       }
     },
     {
@@ -104,7 +99,7 @@ const faqSchema = {
       name: "Alan adı ve hosting siz mi alıyorsunuz?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Alan adı ve hosting satın alımını sizin adınıza yapabiliriz veya sizin hesabınızda kalır. Önerimiz Vercel + Cloudflare kombinasyonu; yıllık 500-1.200 TL aralığında, Next.js için ideal. Kurumsal projelerde AWS + Cloudflare mimarisini kuruyoruz. Alan adı sahibi her zaman siz olursunuz."
+        text: "Alan adı ve hosting satın alımını sizin adınıza yapabiliriz veya sizin hesabınızda kalır. Önerimiz Vercel + Cloudflare kombinasyonu; düşük yıllık maliyetli, Next.js için ideal. Kurumsal projelerde AWS + Cloudflare mimarisini kuruyoruz. Alan adı sahibi her zaman siz olursunuz."
       }
     },
     {
@@ -112,7 +107,7 @@ const faqSchema = {
       name: "İçeriği kim yazıyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "İki seçenek var. Birinci seçenek sizin metinlerinizi kullanmamız. İkinci seçenek metin yazımını PORTZEN'e vermeniz; sayfa başına 750-1.500 TL karşılığında SEO uyumlu içerik üretiyoruz. Görsel içerik için stok görsel kütüphanesi standart, fotoğraf çekimi ise ekstra hizmet."
+        text: "İki seçenek var. Birinci seçenek sizin metinlerinizi kullanmamız. İkinci seçenek metin yazımını PORTZEN'e vermeniz; sayfa başına ücretlendirmeyle SEO uyumlu içerik üretiyoruz. Görsel içerik için stok görsel kütüphanesi standart, fotoğraf çekimi ise ekstra hizmet."
       }
     },
     {
@@ -120,7 +115,7 @@ const faqSchema = {
       name: "Kaç revizyon hakkım var?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tasarım sürecinde 2 tur büyük revizyon, geliştirme sürecinde ise sınırsız küçük düzeltme (metin, renk, boşluk) hakkınız var. Büyük revizyon tanımı: layout değişikliği veya bölüm ekleme/çıkarma. Yayın sonrası 30 gün ücretsiz düzeltme garantisi standart."
+        text: "Revizyon tur sayısı ve yayın sonrası düzeltme süresi teklifte yazılı olarak belirtilir. Büyük revizyon tanımı: layout değişikliği veya bölüm ekleme/çıkarma. Yayından sonraki değişiklikler aylık Web bakım hizmeti kapsamındadır."
       }
     },
     {
@@ -128,15 +123,15 @@ const faqSchema = {
       name: "Yayın sonrası bakım hizmeti var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet, iki bakım paketimiz var. Temel Bakım aylık 1.500 TL: yedekleme, güvenlik güncellemesi, aylık 2 saat içerik güncelleme. Pro Bakım aylık 3.500 TL: temel bakım + aylık 8 saat geliştirme + performans optimizasyonu + SEO takibi. Bakım isteğe bağlıdır; siteniz size aittir, istediğiniz zaman başka bir ekibe devredebilirsiniz."
+        text: `Evet. Web bakım aylık üç seviyedir (KDV hariç): ${familyPriceSummary("web-bakim")}. Saatler o paketin aylık toplam hakkıdır, birbirine eklenmez ve devretmez; yeni modül ve kapsamlı tasarım ayrıca tekliflendirilir. Bakım isteğe bağlıdır; siteniz size aittir, istediğiniz zaman başka bir ekibe devredebilirsiniz.`
       }
     },
     {
       "@type": "Question",
-      name: "SEO nasıl garantilenir?",
+      name: "SEO için neler yapılıyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Teknik SEO temeli (site hızı, meta etiketler, schema.org, sitemap, robots.txt, canonical, mobil uyum) her projede standart olarak kurulur. Lighthouse skoru minimum 90 garantimiz var. Ancak organik trafik sıralaması içerik ve backlink stratejisine bağlıdır; sıralama garantisi vermiyoruz çünkü Google'ın kararıdır. SEO danışmanlığı ayrı bir hizmet olarak sunulur."
+        text: "Her projede SEO temeli (site hızı, meta etiketler, sitemap, robots.txt, canonical, mobil uyum) kurulur; Büyüme ve Kurumsal paketlerde schema.org dahil teknik SEO ve ölçümleme kurulumu yer alır. Lighthouse skorunda 90+ hedefliyoruz. Ancak organik trafik sıralaması içerik ve backlink stratejisine bağlıdır; sıralama garantisi vermiyoruz çünkü Google'ın kararıdır. SEO danışmanlığı ayrı bir hizmet olarak sunulur."
       }
     },
     {
@@ -144,7 +139,7 @@ const faqSchema = {
       name: "Ödeme planı nasıl işliyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Standart ödeme planı 3 taksit: sözleşme imzasında %40, tasarım onayında %30, yayına almadan önce %30. 50.000 TL üzeri projelerde 4 taksit seçeneği sunuyoruz. Fatura resmi olarak kesilir, kurumsal ödemelerde havale ve kredi kartı kabul edilir. E-ticaret projelerinde kısmi ön ödeme sonrası aylık taksit modeli de mümkün."
+        text: "Ödeme planı ve taksit seçenekleri teklifte yazılı olarak belirtilir. Fatura resmi olarak kesilir, kurumsal ödemelerde havale ve kredi kartı kabul edilir."
       }
     }
   ]
@@ -165,8 +160,8 @@ const breadcrumbSchema = {
 };
 
 const heroStats = [
-  { metric: "3 hafta", label: "Ortalama teslim süresi" },
-  { metric: "95+", label: "Lighthouse performans skoru" },
+  { metric: "Next.js", label: "Altyapı" },
+  { metric: "90+", label: "Lighthouse performans hedefi" },
   { metric: "100%", label: "Mobil öncelikli tasarım" },
   { metric: "6 tip", label: "Kurumsal, e-ticaret, landing, blog, SaaS, portfolyo" }
 ];
@@ -175,17 +170,17 @@ const advantages = [
   {
     icon: Smartphone,
     title: "Mobil dostu tasarım",
-    desc: "Türkiye'de web trafiğinin %72'si mobil cihazlardan geliyor. Bu yüzden tüm siteleri önce mobilde kuruyor, sonra tablet ve masaüstüne genişletiyoruz. Dokunmatik hedef boyutları, okunabilir tipografi ve tek elle kullanım standart."
+    desc: "Türkiye'de web trafiğinin büyük kısmı mobil cihazlardan geliyor. Bu yüzden tüm siteleri önce mobilde kuruyor, sonra tablet ve masaüstüne genişletiyoruz. Dokunmatik hedef boyutları, okunabilir tipografi ve tek elle kullanım standart."
   },
   {
     icon: Zap,
     title: "Hızlı yüklenen sayfalar",
-    desc: "Lighthouse skoru en az 95 garantimiz var. Next.js sunucu tarafı render, görsel optimizasyonu (WebP + AVIF), lazy loading, CDN önbelleği ve kritik CSS ile ilk boyama süresi 1.2 saniyenin altında."
+    desc: "Lighthouse skorunda 90+ hedefliyoruz. Next.js sunucu tarafı render, görsel optimizasyonu (WebP + AVIF), lazy loading, CDN önbelleği ve kritik CSS ile ilk boyama süresini kısa tutmayı hedefliyoruz."
   },
   {
     icon: Search,
     title: "SEO temeli hazır",
-    desc: "Her site teknik SEO temeliyle kurulur: schema.org işaretlemeleri, sitemap.xml, robots.txt, canonical etiketler, meta açıklamalar, Open Graph, Twitter Card ve semantik HTML. Google Search Console entegrasyonu ilk gün yapılır."
+    desc: "Her site SEO temeliyle kurulur: sitemap.xml, robots.txt, canonical etiketler, meta açıklamalar, Open Graph, Twitter Card ve semantik HTML. Büyüme ve Kurumsal paketlerde schema.org dahil teknik SEO ve Google Search Console ile ölçümleme kurulumu yer alır."
   },
   {
     icon: Sparkles,
@@ -198,40 +193,40 @@ const siteTypes = [
   {
     icon: Globe,
     title: "Kurumsal site",
-    desc: "5-15 sayfalık şirket web siteleri. Hakkımızda, hizmetler, referanslar, ekip, iletişim ve blog modülü. KVKK uyumlu form yönetimi ve çoklu dil desteği standart. Klasik teklif: 22.000-45.000 TL.",
-    color: "bg-brand-blue",
+    desc: "Pakete göre sayfa sayısı değişen şirket web siteleri. Hakkımızda, hizmetler, referanslar, ekip ve iletişim; Büyüme paketinde CMS ve blog, Kurumsal pakette çoklu dil. KVKK aydınlatma metni ve açık rıza onayı içeren iletişim formu standart.",
+    color: "bg-light",
     link: "/web-tasarim"
   },
   {
     icon: Layout,
     title: "E-ticaret sitesi",
     desc: "Shopify, WooCommerce veya özel (custom) e-ticaret altyapısı. Ürün yönetimi, sepet, iyzico/PayTR entegrasyonu, kargo API'leri, stok takibi. Ticimax ve İdeasoft alternatifi olarak da kuruyoruz.",
-    color: "bg-brand-yellow",
+    color: "bg-light",
     link: "/ticimax-alternatifi"
   },
   {
     icon: Zap,
     title: "Landing page",
-    desc: "Satış odaklı tek sayfa. Reklam kampanyalarınızın (Meta Ads, Google Ads) trafiğini yönlendirdiğiniz dönüşüm odaklı sayfalar. A/B test hazır, form entegrasyonu tam. Klasik teklif: 10.000-15.000 TL.",
-    color: "bg-brand-pink"
+    desc: "Satış odaklı tek sayfa. Reklam kampanyalarınızın (Meta Ads, Google Ads) trafiğini yönlendirdiğiniz dönüşüm odaklı sayfalar. A/B test hazır, form entegrasyonu tam.",
+    color: "bg-light"
   },
   {
     icon: Search,
     title: "Blog + içerik sitesi",
     desc: "SEO odaklı içerik siteleri. Kategori yönetimi, yazar profilleri, ilgili yazılar, RSS, yorum modülü ve haber bülteni entegrasyonu. Medium veya WordPress alternatifi olarak Next.js + Sanity yapısı.",
-    color: "bg-brand-green"
+    color: "bg-light"
   },
   {
     icon: Code,
     title: "SaaS + panel",
     desc: "Kullanıcı girişli, ölçeklenebilir web uygulamaları. Kullanıcı yönetimi, ödeme entegrasyonu (Stripe, iyzico), rol tabanlı erişim, admin paneli ve API mimarisi. Özel geliştirme gerektirir.",
-    color: "bg-brand-purple"
+    color: "bg-light"
   },
   {
     icon: Sparkles,
     title: "Kişisel marka + portfolyo",
     desc: "Danışmanlar, sanatçılar, mimarlar ve freelancer'lar için portfolyo siteleri. Proje vitrini, hikâye anlatımı, CV, iletişim ve blog. Görsel öne çıkarma, animasyon ve etkileşim ön planda.",
-    color: "bg-brand-orange"
+    color: "bg-light"
   }
 ];
 
@@ -239,22 +234,22 @@ const nextjsBenefits = [
   {
     icon: Zap,
     title: "Sunucu tarafı render ile hızlı yükleme",
-    desc: "Next.js sayfaları sunucuda üretip tarayıcıya hazır HTML gönderir. Kullanıcı 1 saniyenin altında ilk içeriği görür, arama motorları içeriği tam okur. WordPress'te 4-6 saniye olan yükleme süreleri, Next.js'te 1.2 saniyeye iner."
+    desc: "Next.js sayfaları sunucuda üretip tarayıcıya hazır HTML gönderir. Kullanıcı ilk içeriği hızlı görür, arama motorları içeriği tam okur. Hazır temalı ve eklenti yüklü kurulumlara göre yükleme süresini kısaltmak hedeflenir."
   },
   {
     icon: Search,
     title: "Google için ideal SEO altyapısı",
-    desc: "Sunucu render + semantik HTML + otomatik sitemap + otomatik canonical + schema.org kolay entegrasyonu. Core Web Vitals metrikleri Google'ın sıralama sinyali; Next.js bu metriklerde WordPress'e karşı %40-60 avantajlı."
+    desc: "Sunucu render + semantik HTML + otomatik sitemap + otomatik canonical + schema.org kolay entegrasyonu. Core Web Vitals metrikleri Google'ın sıralama sinyallerinden biridir; sunucu render ve görsel optimizasyonu bu metrikleri iyileştirmeye yardımcı olur."
   },
   {
     icon: Layout,
     title: "Kolay güncelleme, headless CMS",
-    desc: "İçerik yönetimi için Sanity, Contentful veya Strapi gibi headless CMS'ler kullanıyoruz. Editör dostu panel, drag-drop görsel yönetimi, çoklu dil desteği. Kod bilmeden metin, görsel ve blog yazısı ekleyebilirsiniz."
+    desc: "İçerik yönetimi için Sanity, Contentful veya Strapi gibi headless CMS'ler kullanıyoruz. Editör dostu panel, drag-drop görsel yönetimi, çoklu dil desteği. Kod bilmeden metin, görsel ve blog yazısı ekleyebilirsiniz. CMS, Büyüme ve Kurumsal paketlerde dahildir."
   },
   {
     icon: ShieldCheck,
     title: "Ölçeklenebilir altyapı",
-    desc: "Vercel + Cloudflare CDN mimarisi ile aylık 1 ziyaretçiden 1 milyon ziyaretçiye kadar aynı hızda çalışır. WordPress'te trafik artışında sunucu yükseltmek gerekir; Next.js'te trafik otomatik ölçeklenir, ek maliyet çıkmaz."
+    desc: "Vercel + Cloudflare CDN mimarisi trafik arttığında da performansı korumak için içerik dağıtımını ölçekler. WordPress'te trafik artışında sunucu yükseltmek gerekir; Next.js'te trafik otomatik ölçeklenir; hosting ücreti trafiğe göre değişir ve hizmet bedeline dahil değildir."
   }
 ];
 
@@ -262,38 +257,38 @@ const sectorPages = [
   {
     name: "Klinik siteleri",
     slug: "klinik",
-    desc: "Hekim tanıtımı, hizmet listesi, KVKK uyumlu randevu formu, hasta yorumları ve tıbbi içerik yönetimi.",
-    color: "bg-brand-blue"
+    desc: "Hekim tanıtımı, hizmet listesi, aydınlatma metni ve açık rıza onaylı randevu formu, hasta yorumları ve tıbbi içerik yönetimi.",
+    color: "bg-light"
   },
   {
     name: "Restoran + kafe",
     slug: "restoran",
     desc: "Menü vitrini, rezervasyon formu, konum + harita, yemek fotoğrafı optimizasyonu ve mobil öncelikli hız.",
-    color: "bg-brand-yellow"
+    color: "bg-light"
   },
   {
     name: "Emlak ofisi",
     slug: "emlak",
     desc: "İlan yönetim paneli, filtreli arama, harita entegrasyonu, sanal tur ve danışman profil sayfaları.",
-    color: "bg-brand-orange"
+    color: "bg-light"
   },
   {
     name: "Butik + moda",
     slug: "butik",
     desc: "E-ticaret + Instagram entegrasyonu, koleksiyon vitrini, hızlı ödeme akışı ve influencer ürün etiketleme.",
-    color: "bg-brand-pink"
+    color: "bg-light"
   },
   {
     name: "Avukat + hukuk büro",
     slug: "avukat",
     desc: "Uzmanlık alanları, avukat profilleri, hukuki bilgilendirme blog modülü ve gizli danışma formu.",
-    color: "bg-brand-purple"
+    color: "bg-light"
   },
   {
     name: "Eğitim kurumu",
     slug: "egitim",
     desc: "Kurs katalog yönetimi, kayıt formu, öğrenci başarı hikâyeleri, eğitmen profilleri ve LMS entegrasyonu.",
-    color: "bg-brand-green"
+    color: "bg-light"
   }
 ];
 
@@ -307,89 +302,28 @@ const cities = [
   {
     name: "İstanbul",
     slug: "istanbul",
-    desc: "Levent, Maslak, Kadıköy ve Ataşehir'deki firmalarla çalışıyoruz. Kurumsal müşterilerimizle aylık yüz yüze toplantı yapıyoruz; teslim ve eğitim uzaktan.",
+    desc: "Levent, Maslak, Kadıköy ve Ataşehir'deki firmalara hizmet verebiliyoruz. Gerektiğinde yüz yüze toplantı planlanır; teslim ve eğitim uzaktan yapılır.",
     badge: "Aktif"
   },
   {
     name: "Ankara",
     slug: "ankara",
-    desc: "Çankaya, Söğütözü ve Çukurambar bölgelerindeki KOBİ ve kurumsal müşterilere uzaktan tasarım + aylık toplantı ile hizmet veriyoruz.",
+    desc: "Çankaya, Söğütözü ve Çukurambar bölgelerindeki KOBİ ve kurumsal firmalara uzaktan tasarım ve planlı toplantılarla hizmet veriyoruz.",
     badge: "Aktif"
   }
 ];
 
-const packages = [
-  {
-    name: "Landing Page",
-    price: "10.000-15.000 TL",
-    period: "/proje",
-    desc: "Reklam kampanyaları ve satış odaklı tek sayfa",
-    color: "bg-paper",
-    features: [
-      "Tek sayfa, 6-10 bölümlü uzun scroll",
-      "Mobil öncelikli tasarım",
-      "Form entegrasyonu (WhatsApp, e-posta)",
-      "Google Analytics + Meta Pixel",
-      "A/B test hazırlığı",
-      "Lighthouse 95+ skor",
-      "3 iş günü teslim",
-      "1 tur büyük revizyon"
-    ],
-    cta: "Landing Page İste"
-  },
-  {
-    name: "Kurumsal",
-    price: "22.000-45.000 TL",
-    period: "/proje",
-    desc: "Şirketler için 5-15 sayfalık kurumsal site",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "5-15 sayfa (anasayfa + iç sayfalar)",
-      "Headless CMS (Sanity/Strapi)",
-      "Blog modülü + kategori yönetimi",
-      "Çoklu dil desteği (TR + EN)",
-      "KVKK uyumlu iletişim formları",
-      "SEO temeli tam kurulur",
-      "Lighthouse 95+ skor",
-      "2 tur büyük revizyon",
-      "3 hafta teslim",
-      "30 gün ücretsiz destek"
-    ],
-    cta: "Kurumsal Site Al"
-  },
-  {
-    name: "E-ticaret / Özel",
-    price: "45.000-150.000 TL",
-    period: "/proje",
-    desc: "E-ticaret siteleri ve özel geliştirme projeleri",
-    color: "bg-paper",
-    features: [
-      "Sınırsız ürün + kategori yönetimi",
-      "iyzico/PayTR ödeme entegrasyonu",
-      "Aras/Yurtiçi/PTT kargo API'leri",
-      "Stok + sipariş yönetim paneli",
-      "Fatura + e-arşiv entegrasyonu",
-      "Kupon + kampanya modülü",
-      "Instagram Shop entegrasyonu",
-      "6-10 hafta teslim",
-      "60 gün ücretsiz destek",
-      "Adanmış proje yöneticisi"
-    ],
-    cta: "E-ticaret Teklifi"
-  }
-];
 
 const comparison = [
   {
     kriter: "Aylık maliyet",
-    hazir: "Aylık 300-1.200 TL abonelik (sonsuza kadar)",
-    custom: "Sadece hosting: yıllık 500-1.200 TL"
+    hazir: "Sürekli aylık abonelik (sonsuza kadar)",
+    custom: "Sadece düşük yıllık hosting maliyeti"
   },
   {
     kriter: "SEO kalitesi",
     hazir: "Sınırlı, şablonların SEO altyapısı zayıf",
-    custom: "Lighthouse 95+, Core Web Vitals uyumlu"
+    custom: "Lighthouse 90+ hedefi, Core Web Vitals uyumlu"
   },
   {
     kriter: "Marka özgünlüğü",
@@ -409,38 +343,38 @@ const comparison = [
   {
     kriter: "Entegrasyon esnekliği",
     hazir: "Sadece platformun izin verdiği araçlar",
-    custom: "İstediğiniz her API ve araç bağlanır"
+    custom: "Pakete göre standart entegrasyon, ek API'ler teklifle"
   }
 ];
 
 const faqs = [
   {
     q: "Web sitesi tasarımı fiyatlarında kaç sayfa dahil?",
-    a: "Landing page paketinde tek sayfa (bölümlü uzun scroll), kurumsal pakette 5-15 sayfa, e-ticaret paketinde ise sınırsız ürün + 8-12 sabit sayfa dahildir. Ekstra sayfa talebi sayfa başına 1.500-3.500 TL arasında fiyatlandırılır. Blog modülü kurumsal pakete standart olarak eklenir, ekstra ücret alınmaz. Detaylı kapsamı brief görüşmesinde birlikte belirliyoruz."
+    a: "Landing page tek sayfadır ve 6 bölüme kadar içerir. Kurumsal web sitesi Başlangıç paketinde 3–5, Büyüme paketinde 10, Kurumsal pakette 20 sayfadır (Kurumsal 2 dil). E-ticaret paketlerinde dosyadan 50, 250 veya 1.000 ürün aktarımı dahildir. CMS ve blog Büyüme paketinde standarttır."
   },
   {
     q: "Alan adı ve hosting siz mi alıyorsunuz?",
-    a: "Alan adı ve hosting satın alımını sizin adınıza yapabiliriz veya sizin hesabınızda kalır - tercih size ait. Önerimiz Vercel + Cloudflare kombinasyonu; yıllık 500-1.200 TL aralığında, Next.js için ideal. Kurumsal projelerde AWS + Cloudflare mimarisini kuruyoruz. Alan adı sahibi her zaman siz olursunuz, satın alma faturası doğrudan size düzenlenir."
+    a: "Alan adı ve hosting satın alımını sizin adınıza yapabiliriz veya sizin hesabınızda kalır - tercih size ait. Önerimiz Vercel + Cloudflare kombinasyonu; düşük yıllık maliyetli, Next.js için ideal. Kurumsal projelerde AWS + Cloudflare mimarisini kuruyoruz. Alan adı sahibi her zaman siz olursunuz, satın alma faturası doğrudan size düzenlenir."
   },
   {
     q: "İçeriği kim yazıyor?",
-    a: "İki seçenek var. Birinci seçenek: sizin metinlerinizi kullanmamız. Bu durumda sadece düzenleme ve SEO uyum kontrolü yapıyoruz. İkinci seçenek: metin yazımını PORTZEN'e vermeniz; sayfa başına 750-1.500 TL karşılığında SEO uyumlu içerik üretiyoruz. Görsel içerik için stok görsel kütüphanesi (Unsplash, Pexels) standart olarak sunulur; profesyonel fotoğraf çekimi ise ekstra hizmet (İzmir, İstanbul, Ankara'da mümkün)."
+    a: "İki seçenek var. Birinci seçenek: sizin metinlerinizi kullanmamız. Bu durumda sadece düzenleme ve SEO uyum kontrolü yapıyoruz. İkinci seçenek: metin yazımını PORTZEN'e vermeniz; sayfa başına ücretlendirmeyle SEO uyumlu içerik üretiyoruz. Görsel içerik için stok görsel kütüphanesi (Unsplash, Pexels) standart olarak sunulur; profesyonel fotoğraf çekimi ise ekstra hizmet (İzmir, İstanbul, Ankara'da mümkün)."
   },
   {
     q: "Kaç revizyon hakkım var?",
-    a: "Tasarım sürecinde 2 tur büyük revizyon, geliştirme sürecinde ise sınırsız küçük düzeltme (metin, renk, boşluk, buton yeri) hakkınız var. Büyük revizyon tanımı: layout değişikliği, bölüm ekleme/çıkarma veya renk paleti değiştirme. Yayın sonrası 30 gün ücretsiz düzeltme garantisi standart olarak sunulur. 30 gün sonrası düzeltme talepleri saatlik ücretlendirilir."
+    a: "Revizyon tur sayısı ve yayın sonrası düzeltme süresi teklifte yazılı olarak belirtilir. Büyük revizyon tanımı: layout değişikliği, bölüm ekleme/çıkarma veya renk paleti değiştirme. Yayından sonraki değişiklikler aylık Web bakım hizmeti kapsamındadır; yeni modül ve kapsamlı tasarım ayrıca tekliflendirilir."
   },
   {
     q: "Yayın sonrası bakım hizmeti var mı?",
-    a: "Evet, iki bakım paketimiz var. Temel Bakım aylık 1.500 TL: yedekleme, güvenlik güncellemesi, aylık 2 saat içerik güncelleme, uptime izleme. Pro Bakım aylık 3.500 TL: temel bakım + aylık 8 saat geliştirme + performans optimizasyonu + SEO takibi + aylık rapor. Bakım isteğe bağlıdır; siteniz size aittir, istediğiniz zaman başka bir ekibe devredebilirsiniz. Kod dokümantasyonu tam olarak teslim edilir."
+    a: `Evet. Web bakım aylık üç seviyedir (KDV hariç): ${familyPriceSummary("web-bakim")}. Saatler o paketin aylık toplam hakkıdır, birbirine eklenmez ve devretmez; yeni modül ve kapsamlı tasarım ayrıca tekliflendirilir. Bakım isteğe bağlıdır; siteniz size aittir, istediğiniz zaman başka bir ekibe devredebilirsiniz.`
   },
   {
-    q: "SEO nasıl garantilenir?",
-    a: "Teknik SEO temeli her projede standart olarak kurulur: site hızı (Lighthouse 95+), semantik HTML, meta etiketler, schema.org işaretlemeleri, sitemap.xml, robots.txt, canonical etiketler, Open Graph, mobil uyum, hreflang (çoklu dil için). Google Search Console ve Analytics ilk gün kurulur. Ancak organik trafik sıralaması içerik ve backlink stratejisine bağlıdır; sıralama garantisi vermiyoruz çünkü nihai kararı Google veriyor. SEO danışmanlığı ayrı bir hizmet olarak sunulur."
+    q: "SEO için neler yapılıyor?",
+    a: "Her projede SEO temeli kurulur: site hızı (Lighthouse 90+ hedefi), semantik HTML, meta etiketler, sitemap.xml, robots.txt, canonical etiketler, Open Graph ve mobil uyum. Büyüme ve Kurumsal paketlerde schema.org işaretlemeleri dahil teknik SEO, hreflang (çoklu dil için) ve Google Search Console ile Analytics ölçümleme kurulumu yer alır. Ancak organik trafik sıralaması içerik ve backlink stratejisine bağlıdır; sıralama garantisi vermiyoruz çünkü nihai kararı Google veriyor. SEO danışmanlığı ayrı bir hizmet olarak sunulur."
   },
   {
     q: "Ödeme planı nasıl işliyor?",
-    a: "Standart ödeme planı 3 taksit: sözleşme imzasında %40, tasarım onayında %30, yayına almadan önce %30. 50.000 TL üzeri projelerde 4 taksit seçeneği sunuyoruz. Fatura resmi olarak kesilir; kurumsal ödemelerde havale, EFT ve kredi kartı kabul edilir. E-ticaret projelerinde kısmi ön ödeme sonrası aylık taksit modeli de mümkün. Erken ödeme yapan müşterilere %5-8 indirim uygulanır."
+    a: "Ödeme planı ve taksit seçenekleri teklifte yazılı olarak belirtilir. Fatura resmi olarak kesilir; kurumsal ödemelerde havale, EFT ve kredi kartı kabul edilir."
   }
 ];
 
@@ -452,7 +386,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -465,39 +399,39 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-blue text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Globe className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Web Sitesi Tasarımı</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   Web Sitesi Tasarımı
                 </h1>
               </Reveal>
               <Reveal delay={150}>
                 <p className="mt-4 text-xl md:text-2xl font-bold text-ink/80 max-w-3xl">
-                  Kurumsal, e-ticaret, landing page - 3 haftada teslim.
+                  Kurumsal, e-ticaret, landing page - kapsam ve teslim süresi teklifte yazılı.
                 </p>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Web sitesi tasarımı yaptırırken kritik olan üç şey vardır: hızlı yükleme, mobil uyum ve SEO temeli. PORTZEN bu üç noktayı garantiye alarak siz için kurumsal siteler, e-ticaret altyapıları ve landing page'ler kuruyor. Next.js altyapısı, Lighthouse 95+ skor, headless CMS ile kolay güncelleme ve ölçeklenebilir mimari standart. Ortalama teslim süresi 3 hafta.
+                  Web sitesi tasarımı yaptırırken kritik olan üç şey vardır: hızlı yükleme, mobil uyum ve SEO temeli. PORTZEN bu üç noktayı her projede standart tutarak siz için kurumsal siteler, e-ticaret altyapıları ve landing page&apos;ler kuruyor. Next.js altyapısı, Lighthouse 90+ hedefi ve ölçeklenebilir mimari standart; headless CMS ile kolay güncelleme Büyüme ve Kurumsal paketlerde. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Teklif Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <a
-                    href="https://wa.me/905015884853"
+                    href="https://wa.me/905318639117"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                   </a>
@@ -511,8 +445,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-blue text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-4xl md:text-5xl font-black leading-none mb-2">
@@ -528,18 +462,18 @@ export default function Page() {
       </section>
 
       {/* 2. NASIL BİR WEB SİTESİ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Nasıl bir web sitesi kuruyoruz?
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
                 Modern web sitesi tasarımının 4 temel gereksinimi
               </h2>
               <p className="mt-4 text-body opacity-85 max-w-prose leading-relaxed">
-                Web sitesi yaptırırken sadece güzel görünen bir tasarım yeterli değil. 2026'da profesyonel web tasarım demek; mobil öncelikli düzen, saniyenin altında yükleme, arama motoru dostu yapı ve içerik güncelleme kolaylığı demektir. PORTZEN her projede bu dört temel gereksinimi garanti eder.
+                Web sitesi yaptırırken sadece güzel görünen bir tasarım yeterli değil. 2026&apos;da profesyonel web tasarım demek; mobil öncelikli düzen, saniyenin altında yükleme, arama motoru dostu yapı ve içerik güncelleme kolaylığı demektir. PORTZEN her projede bu dört temel gereksinimi standart olarak ele alır.
               </p>
             </div>
           </Reveal>
@@ -548,8 +482,8 @@ export default function Page() {
               const Icon = d.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-paper bg-paper/5 p-6 shadow-[8px_8px_0_#FFFDF5]">
-                    <Icon className="h-8 w-8 text-brand-yellow mb-4" />
+                  <div className="border-3 border-ink/10 bg-light p-6 rounded-2xl">
+                    <Icon className="h-8 w-8 text-ink mb-4" />
                     <h3 className="font-display text-xl font-black mb-3">{d.title}</h3>
                     <p className="text-body opacity-85 leading-relaxed">{d.desc}</p>
                   </div>
@@ -561,11 +495,11 @@ export default function Page() {
       </section>
 
       {/* 3. WEB SİTESİ TÜRLERİ */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Web sitesi türleri
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -580,8 +514,8 @@ export default function Page() {
             {siteTypes.map((s, i) => {
               const Icon = s.icon;
               const card = (
-                <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                  <div className={cn("inline-flex items-center justify-center w-12 h-12 border-3 border-ink shadow-brutal-sm mb-4", s.color)}>
+                <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                  <div className={cn("inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 shadow-brutal-sm mb-4 rounded-full", s.color)}>
                     <Icon className="h-5 w-5 text-ink" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2 text-ink">{s.title}</h3>
@@ -609,18 +543,18 @@ export default function Page() {
       </section>
 
       {/* 4. NEDEN NEXT.JS + ADELIA */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Neden Next.js + Adelia tasarım sistemi?
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 Modern altyapı, WordPress alternatifi
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose leading-relaxed">
-                Türkiye'de web siteleri hâlâ %63 oranında WordPress + hazır tema modeliyle kuruluyor. Bu modelin dört büyük problemi var: yavaş yükleme, güvenlik açıkları, sınırlı özelleştirme ve zorunlu eklenti bağımlılığı. PORTZEN Next.js altyapısı ve kendi Adelia tasarım sistemimiz ile bu problemleri kökten çözüyor. Detaylı karşılaştırma için <Link href="/blog/nextjs-vs-wordpress-2026" className="font-bold text-ink underline">Next.js vs WordPress 2026 rehberimizi</Link> okuyabilirsiniz.
+                Türkiye&apos;de web sitelerinin önemli bir kısmı hâlâ WordPress + hazır tema modeliyle kuruluyor. Bu modelin dört büyük problemi var: yavaş yükleme, güvenlik açıkları, sınırlı özelleştirme ve zorunlu eklenti bağımlılığı. PORTZEN Next.js altyapısı ve kendi Adelia tasarım sistemimiz ile bu problemleri azaltmayı hedefler. Detaylı karşılaştırma için <Link href="/blog/nextjs-vs-wordpress-2026" className="font-bold text-ink underline">Next.js vs WordPress 2026 rehberimizi</Link> okuyabilirsiniz.
               </p>
             </div>
           </Reveal>
@@ -629,7 +563,7 @@ export default function Page() {
               const Icon = d.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal rounded-2xl">
                     <Icon className="h-8 w-8 text-ink mb-4" />
                     <h3 className="font-display text-xl font-black mb-3 text-ink">{d.title}</h3>
                     <p className="text-body text-ink/75 leading-relaxed">{d.desc}</p>
@@ -642,11 +576,11 @@ export default function Page() {
       </section>
 
       {/* 6. SEKTÖREL ÖRNEKLER */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Sektörel örnekler
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -663,7 +597,7 @@ export default function Page() {
                 <Link
                   href={`/web-tasarim/${s.slug}`}
                   className={cn(
-                    "block border-3 border-ink p-5 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full text-ink",
+                    "block border-3 border-ink/15 p-5 shadow-brutal hover:shadow-brutal-lg transition-all h-full text-ink rounded-2xl",
                     s.color
                   )}
                 >
@@ -685,18 +619,18 @@ export default function Page() {
       </section>
 
       {/* 7. ŞEHİR BAZLI HİZMET */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Şehir bazlı hizmet
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                İzmir merkez, İstanbul ve Ankara'da aktif
+                İzmir merkez, İstanbul ve Ankara&apos;da aktif
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose leading-relaxed">
-                PORTZEN İzmir merkezli bir dijital ajanstır. Bu üç şehirde yerinde brief toplantısı, tasarım sunumu ve yüz yüze teslim yapabiliyoruz. Türkiye'nin diğer 78 şehrine uzaktan hizmet veriyoruz - kalite ve tempo aynı. Şehir bazlı fiyat kırılımı için <Link href="/blog/izmir-web-tasarim-fiyatlari-2026" className="font-bold text-ink underline">İzmir web tasarım fiyatları 2026</Link> blog yazımızı okuyun.
+                PORTZEN İzmir merkezli bir dijital ajanstır. Bu üç şehirde yerinde brief toplantısı, tasarım sunumu ve yüz yüze teslim yapabiliyoruz. Türkiye&apos;nin diğer 78 şehrine uzaktan hizmet veriyoruz - kalite ve tempo aynı. Şehir bazlı fiyat kırılımı için <Link href="/blog/izmir-web-tasarim-fiyatlari-2026" className="font-bold text-ink underline">İzmir web tasarım fiyatları 2026</Link> blog yazımızı okuyun.
               </p>
             </div>
           </Reveal>
@@ -705,14 +639,14 @@ export default function Page() {
               <Reveal key={i} delay={i * 100}>
                 <Link
                   href={`/web-tasarim/${c.slug}`}
-                  className="block border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full"
+                  className="block border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl"
                 >
                   <div className="flex items-center justify-between mb-3">
                     <div className="flex items-center gap-2">
                       <MapPin className="h-5 w-5 text-ink" />
                       <div className="font-display text-2xl font-black text-ink">{c.name}</div>
                     </div>
-                    <span className="border-3 border-ink bg-brand-yellow text-ink px-2 py-0.5 text-[10px] font-black uppercase shadow-brutal-sm">
+                    <span className="border-3 border-ink/15 bg-lime text-ink px-2 py-0.5 text-[10px] font-black shadow-brutal-sm rounded-full">
                       {c.badge}
                     </span>
                   </div>
@@ -727,154 +661,40 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 8. FİYAT ARALIĞI */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Web sitesi tasarımı fiyatları - net paketler
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose leading-relaxed">
-                Türkiye'de web sitesi tasarım fiyatları çoğu ajansta gizli tutulur; bu da karar sürecini zorlaştırır. PORTZEN üç ana paket aralığını net yayınlıyor. Fiyat; sayfa sayısı, entegrasyonlar, çoklu dil, ödeme sistemi ve özel geliştirme talebine göre keşif görüşmesinde netleşir. Tüm paketlerde KDV dahildir.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-3xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.desc}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <p className="mt-8 text-sm text-ink/60 max-w-2xl">
-              <strong>Not:</strong> Fiyatlara alan adı, hosting ve üçüncü taraf servis abonelikleri (Sanity, iyzico komisyon, kargo API ücretleri) dahil değildir. Tahmini yıllık işletme maliyeti 500-1.500 TL aralığındadır; aylık abonelik modeline kıyasla belirgin şekilde düşüktür.
-            </p>
-          </Reveal>
+      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
 
-          {/* İç link bloğu - kardeş ve tamamlayıcı hizmetler */}
-          <Reveal delay={400}>
-            <div className="mt-10 grid gap-4 md:grid-cols-2">
-              <Link
-                href="/web-tasarim"
-                className="block border-3 border-ink bg-brand-blue text-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
-              >
-                <Layout className="h-7 w-7 mb-3" />
-                <div className="font-display text-xl font-black mb-2">Web Tasarım Ana Sayfası</div>
-                <p className="text-sm opacity-90 leading-relaxed mb-3">
-                  Kardeş sayfamız - web tasarım hizmetlerimizin genel özeti, referanslar ve süreç detayı burada.
-                </p>
-                <span className="inline-flex items-center gap-1 text-xs font-bold uppercase">
-                  İncele <ArrowUpRight className="h-3.5 w-3.5" />
-                </span>
-              </Link>
-              <Link
-                href="/sosyal-medya-ajansi"
-                className="block border-3 border-ink bg-brand-pink text-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
-              >
-                <Sparkles className="h-7 w-7 mb-3" />
-                <div className="font-display text-xl font-black mb-2">Sosyal Medya Ajansı</div>
-                <p className="text-sm opacity-90 leading-relaxed mb-3">
-                  Yeni sitenize trafik çekmek için Instagram, Facebook, TikTok yönetimi ve içerik üretimi.
-                </p>
-                <span className="inline-flex items-center gap-1 text-xs font-bold uppercase">
-                  İncele <ArrowUpRight className="h-3.5 w-3.5" />
-                </span>
-              </Link>
-              <Link
-                href="/yapay-zeka-video-uretimi"
-                className="block border-3 border-ink bg-brand-yellow text-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
-              >
-                <Sparkles className="h-7 w-7 mb-3" />
-                <div className="font-display text-xl font-black mb-2">Yapay Zeka Video Üretimi</div>
-                <p className="text-sm opacity-90 leading-relaxed mb-3">
-                  Sitenizin hero bölümüne yerleştirilecek AI destekli video içerikler, 48 saatte teslim.
-                </p>
-                <span className="inline-flex items-center gap-1 text-xs font-bold uppercase">
-                  İncele <ArrowUpRight className="h-3.5 w-3.5" />
-                </span>
-              </Link>
-              <Link
-                href="/crm-otomasyonu"
-                className="block border-3 border-ink bg-brand-purple text-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
-              >
-                <Code className="h-7 w-7 mb-3" />
-                <div className="font-display text-xl font-black mb-2">CRM Otomasyonu</div>
-                <p className="text-sm opacity-90 leading-relaxed mb-3">
-                  Sitenizden gelen form ve lead'leri otomatik olarak CRM'e aktaran entegrasyon sistemi.
-                </p>
-                <span className="inline-flex items-center gap-1 text-xs font-bold uppercase">
-                  İncele <ArrowUpRight className="h-3.5 w-3.5" />
-                </span>
-              </Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      <PricingSection family="kurumsal-web-sitesi" heading="Web sitesi tasarımı fiyatları" />
+      <PricingSection family="e-ticaret" id="e-ticaret" badge="E-ticaret" heading="E-ticaret sitesi fiyatları" />
+      <WebExtrasSection />
+
 
       {/* 9. KARŞILAŞTIRMA */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
                 Hazır şablon (Wix, Ticimax) vs Custom Next.js
               </h2>
               <p className="mt-4 text-body opacity-85 max-w-prose leading-relaxed">
-                Hazır platformlar (Wix, Ticimax, İdeasoft, WordPress + Elementor) başlangıçta ucuz görünür ama uzun vadede beklenmedik maliyetler doğurur. Sıfırdan yazılmış Next.js sitesi ilk yatırım olarak daha yüksek olsa da 2. yıldan itibaren toplam maliyet açısından net şekilde avantajlı. İşte 6 kritik başlıkta karşılaştırma:
+                Hazır platformlar (Wix, Ticimax, İdeasoft, WordPress + Elementor) başlangıçta ucuz görünür ama uzun vadede beklenmedik maliyetler doğurur. Sıfırdan yazılmış Next.js sitesi ilk yatırım olarak daha yüksek olsa da platform aboneliği olmadığı için uzun vadede toplam maliyet açısından avantajlı olabilir. İşte 6 kritik başlıkta karşılaştırma:
               </p>
             </div>
           </Reveal>
-          <div className="border-3 border-paper shadow-[8px_8px_0_#FFFDF5] overflow-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-3 bg-paper/10">
-              <div className="p-4 font-display text-lg font-black border-b-3 border-paper md:border-b-3 md:border-r-3">Kriter</div>
-              <div className="p-4 font-display text-lg font-black border-b-3 border-paper md:border-r-3 opacity-70">Hazır Şablon</div>
-              <div className="p-4 font-display text-lg font-black border-b-3 border-paper text-brand-yellow">Custom Next.js</div>
+          <div className="border-3 border-ink/10 overflow-hidden rounded-2xl">
+            <div className="grid grid-cols-1 md:grid-cols-3 bg-light">
+              <div className="p-4 font-display text-lg font-black border-b-3 border-ink/10 md:border-b-3 md:border-r-3">Kriter</div>
+              <div className="p-4 font-display text-lg font-black border-b-3 border-ink/10 md:border-r-3 opacity-70">Hazır Şablon</div>
+              <div className="p-4 font-display text-lg font-black border-b-3 border-ink/10 text-ink">Custom Next.js</div>
             </div>
             {comparison.map((c, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className={cn("grid grid-cols-1 md:grid-cols-3", i < comparison.length - 1 && "border-b-3 border-paper/30")}>
-                  <div className="p-4 font-bold text-sm border-b-2 border-paper/20 md:border-b-0 md:border-r-3 md:border-paper/30">{c.kriter}</div>
-                  <div className="p-4 text-sm opacity-75 border-b-2 border-paper/20 md:border-b-0 md:border-r-3 md:border-paper/30">{c.hazir}</div>
+                <div className={cn("grid grid-cols-1 md:grid-cols-3", i < comparison.length - 1 && "border-b-3 border-ink/10")}>
+                  <div className="p-4 font-bold text-sm border-b-2 border-ink/10 md:border-b-0 md:border-r-3 md:border-ink/10">{c.kriter}</div>
+                  <div className="p-4 text-sm opacity-75 border-b-2 border-ink/10 md:border-b-0 md:border-r-3 md:border-ink/10">{c.hazir}</div>
                   <div className="p-4 text-sm font-medium">{c.custom}</div>
                 </div>
               </Reveal>
@@ -882,18 +702,18 @@ export default function Page() {
           </div>
           <Reveal delay={400}>
             <p className="mt-8 text-sm opacity-70 max-w-2xl">
-              <strong>Sonuç:</strong> 3+ yıl kullanacağınız bir siteyi hazır platformda kurmak yıllık 5.000-14.000 TL ekstra maliyet demek. Custom Next.js sitesi 2. yıldan sonra tamamen ödeme dışı; sadece 500-1.200 TL hosting maliyeti kalır. E-ticaret karşılaştırması için <Link href="/blog/wordpress-vs-shopify-eticaret" className="font-bold text-brand-yellow underline">WordPress vs Shopify e-ticaret</Link> yazımızı okuyun.
+              <strong>Sonuç:</strong> 3+ yıl kullanacağınız bir siteyi hazır platformda kurmak her yıl ekstra abonelik maliyeti demek. Custom Next.js sitesinde platform aboneliği yoktur; hosting ve isteğe bağlı aylık bakım dışında sabit gider kalmaz. E-ticaret karşılaştırması için <Link href="/blog/wordpress-vs-shopify-eticaret" className="font-bold text-ink underline">WordPress vs Shopify e-ticaret</Link> yazımızı okuyun.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 10. FAQ */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-ink bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -904,7 +724,7 @@ export default function Page() {
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-blue pl-6">
+                <div className="border-l-3 border-ink/15 pl-6">
                   <h3 className="font-display text-xl font-black mb-3 text-ink">{f.q}</h3>
                   <p className="text-body text-ink/75 leading-relaxed">{f.a}</p>
                 </div>
@@ -914,7 +734,7 @@ export default function Page() {
 
           {/* Blog iç link bloğu */}
           <Reveal delay={300}>
-            <div className="mt-12 border-3 border-ink bg-paper p-6 shadow-brutal">
+            <div className="mt-12 border-3 border-ink/15 bg-paper p-6 shadow-brutal rounded-2xl">
               <div className="flex items-start gap-4 flex-wrap">
                 <Search className="h-6 w-6 shrink-0 text-ink" />
                 <div className="flex-1 min-w-[200px]">
@@ -954,32 +774,32 @@ export default function Page() {
       </section>
 
       {/* 11. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Web sitenizi 3 haftada yayına alalım.
+                Web sitenizi birlikte yayına alalım.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                30 dakikalık ücretsiz brief görüşmesinde ihtiyacınızı, hedeflerinizi ve rakiplerinizi birlikte değerlendiriyoruz. Hangi paketin uygun olduğunu, ne kadar sürede teslim edeceğimizi ve toplam maliyeti net konuşuyoruz. WhatsApp'tan yazın veya iletişim formunu doldurun, aynı gün dönüyoruz. Teklif ücretsiz, sözleşme öncesi hiçbir taahhüt yok.
+                30 dakikalık ücretsiz brief görüşmesinde ihtiyacınızı, hedeflerinizi ve rakiplerinizi birlikte değerlendiriyoruz. Hangi paketin uygun olduğunu, ne kadar sürede teslim edeceğimizi ve toplam maliyeti net konuşuyoruz. WhatsApp&apos;tan yazın veya iletişim formunu doldurun, en kısa sürede dönüş yapıyoruz. Teklif ücretsiz; sözleşme süresi ve koşullar teklifte yazılı olarak belirtilir.
               </p>
             </Reveal>
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   Ücretsiz Teklif Al <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Mesaj At
                 </a>
@@ -989,7 +809,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

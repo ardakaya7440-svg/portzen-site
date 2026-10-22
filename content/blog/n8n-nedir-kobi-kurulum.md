@@ -128,7 +128,7 @@ Web sitenizdeki iletişim formuna gelen her lead'in hem ekibinize WhatsApp ile d
 - **Adım 3:** NetGSM veya Twilio üzerinden ekibe WhatsApp mesajı at
 - **Adım 4:** Müşteriye otomatik "Teşekkürler, en kısa sürede döneceğiz" mesajı
 
-Bu akış bir emlak ofisi için kurulduğunda ortalama cevap süresini 4 saatten 8 dakikaya indirdi, dönüşüm oranını %22 artırdı.
+Örneğin bir emlak ofisinde bu akış kurulduğunda, formdan gelen talep kimsenin e-posta kutusunda beklemez: ekibin telefonuna anında bildirim düşer, kayıt tabloda tutulur ve müşteri talebinin alındığını hemen öğrenir.
 
 ### Akış 2: Form → Email + Slack Bildirimi
 
@@ -201,8 +201,8 @@ Self-hosted bir sistemin en sık ihmal edilen tarafı **bakımıdır**. n8n her 
 
 ## PORTZEN ile n8n Kurulumu: Sıfırdan Sisteme
 
-n8n'i kendi başınıza kurmak teknik olarak mümkün ama **iş akışı tasarımı**, **Türk uygulamalarına entegrasyon** ve **kesintisiz operasyon** kısımları sahada en çok zorlanılan noktalar. PORTZEN olarak müşterilerimize anahtar teslim n8n altyapısı kuruyoruz: Hetzner'da sunucu, Docker, SSL, ilk 5-10 akış, NetGSM/Iyzico/Logo entegrasyonları, monitoring ve eğitim dahil.
+n8n'i kendi başınıza kurmak teknik olarak mümkün ama **iş akışı tasarımı**, **Türk uygulamalarına entegrasyon** ve **kesintisiz operasyon** kısımları sahada en çok zorlanılan noktalar. PORTZEN olarak müşterilerimize anahtar teslim n8n altyapısı kuruyoruz: Docker ve SSL kurulumu, pakete göre 2, 6 veya 12 iş akışı ve 2, 4 veya 6 uygulama bağlantısı (NetGSM, Iyzico, Logo gibi); Büyüme ve Kurumsal paketlerde hata bildirimi ve ekip eğitimi de dahil. Sunucu ve harici yazılım lisansları hizmet bedeline dahil değildir.
 
-Bir eczanenin reçete takip akışından bir hukuk bürosunun lead skorlama sistemine kadar 50+ farklı sektörde n8n altyapısı kurduk. Ortalama proje teslim süresi 7-10 iş günü, sonrasında ekibinizin akışları yönetebilmesi için 2 saatlik eğitim veriyoruz. Aylık bakım paketleriyle sistem hep güncel ve sorunsuz kalıyor.
+n8n altyapısı bir eczanenin reçete takip akışından bir hukuk bürosunun lead skorlama sistemine kadar farklı sektörlerin ihtiyaçlarına uyarlanabilir. Kurulum tek seferlik ücretlendirilir: {{fiyatlar:is-otomasyonu}} (KDV hariç). İlk 30 gün kurulum hatalarının giderilmesi dahildir; ikinci aydan itibaren isteğe bağlı aylık bakımla ({{bakim:baslangic}}, {{bakim:buyume}} veya {{bakim:kurumsal}}, KDV hariç) sistemi güncel tutuyoruz.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

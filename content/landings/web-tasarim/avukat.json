@@ -4,14 +4,33 @@
   "sectorPlural": "Hukuk Büroları",
   "title": "Avukatlar & Hukuk Büroları İçin Web Tasarım | KVKK Uyumlu, SEO Odaklı — PORTZEN",
   "description": "Avukat ve hukuk büroları için Next.js web tasarım. KVKK uyumlu danışan formu, uzmanlık alanı sayfaları, blog motoru, SEO odaklı. Kurumsal güven, modern tasarım.",
-  "keywords": ["avukat web tasarım", "hukuk bürosu websitesi", "avukat sitesi yapımı", "hukuk web tasarım", "avukat site", "danışan formu kvkk"],
+  "keywords": [
+    "avukat web tasarım",
+    "hukuk bürosu websitesi",
+    "avukat sitesi yapımı",
+    "hukuk web tasarım",
+    "avukat site",
+    "danışan formu kvkk"
+  ],
   "h1": "Avukatlar ve Hukuk Büroları için Profesyonel Web Tasarım",
   "heroSubtitle": "Kurumsal güven, modern tasarım dili, KVKK uyumlu danışan iletişim formu, uzmanlık alanı sayfaları ve SEO odaklı blog motoru — Next.js ile geliştirildi.",
   "stats": [
-    {"value": "21 gün", "label": "Ortalama Teslim"},
-    {"value": "96+", "label": "Lighthouse Skoru"},
-    {"value": "KVKK", "label": "Uyumlu"},
-    {"value": "SEO+", "label": "Odaklı"}
+    {
+      "value": "Teklifte yazılı",
+      "label": "Teslim süresi"
+    },
+    {
+      "value": "90+",
+      "label": "Lighthouse Hedefi"
+    },
+    {
+      "value": "KVKK",
+      "label": "Uyumlu"
+    },
+    {
+      "value": "SEO+",
+      "label": "Odaklı"
+    }
   ],
   "problems": [
     "Mevcut siteniz 2018 WordPress teması, kurumsal duruşunuza ters — danışan ilk izlenimde güven kaybediyor",
@@ -22,89 +41,109 @@
     "Google'da avukat adınızı bile arattığınızda LinkedIn profili çıkıyor, kendi siteniz görünmüyor — kurumsal hava yok"
   ],
   "solutionSteps": [
-    {"title": "1. Uzmanlık Alanı Brief", "description": "Hukuk büronuzun uzmanlık alanlarını (ticaret, aile, iş, gayrimenkul, ceza, fikri mülkiyet vb.), hedef müvekkil profilini, marka tonunu (geleneksel-kurumsal mı yoksa modern-genç mi) ve rakip analizinizi yapıyoruz."},
-    {"title": "2. Tasarım (Ciddi + Modern)", "description": "Figma'da hukuk sektörüne özel tasarım dili — sade, tipografi odaklı, beyaz alan kullanımı yüksek, güven verici renk paleti (lacivert/bordo/antrasit). Mobil-first."},
-    {"title": "3. Next.js + KVKK + Güvenlik", "description": "Next.js 15 ile geliştirme. Uzmanlık alanı sayfaları, avukat profilleri, blog motoru, KVKK uyumlu danışan iletişim formu (açık rıza checkbox + aydınlatma metni), reCAPTCHA, SSL, güvenlik headerları."},
-    {"title": "4. SEO + İçerik Takvimi", "description": "Schema markup (LegalService + Attorney), uzmanlık alanı bazlı SEO sayfaları, hukuk terimleri sözlüğü altyapısı. Premium pakette aylık 4 blog makalesi (hukuk metin yazarı + sizin onayınız)."}
-  ],
-  "features": [
-    {"title": "Uzmanlık Alanı Sayfaları", "description": "Her uzmanlık alanı (boşanma, miras, iş hukuku vb.) için ayrı SEO odaklı sayfa — sorun açıklaması, süreç anlatımı, sıkça sorulan sorular, iletişim CTA. Bölge bazlı varyantlar dahil."},
-    {"title": "Blog + İçerik Motoru", "description": "MDX tabanlı blog motoru — kategori, etiket, ilgili yazılar, schema markup. Hukuk makaleleri yayınladıkça uzmanlık otoritesi + Google sıralaması yükselir."},
-    {"title": "KVKK Uyumlu Danışan Formu", "description": "Açık rıza checkbox, aydınlatma metni link, veri silme talebi opsiyonu, reCAPTCHA — KVK Kurulu şikayetlerine karşı tam koruma. Form gönderimi şifreli, sadece avukat ulaşabilir."},
-    {"title": "Avukat / Ortak Profil Sayfası", "description": "Her avukatın kendi sayfası — fotoğraf, özgeçmiş, uzmanlık alanı, yayınlanmış makaleleri, baro sicil bilgisi, iletişim. Ortak avukat büroları için ölçeklenebilir."},
-    {"title": "Dava Türü Bilgi Sayfaları", "description": "Müvekkillerin sıkça araştırdığı dava türleri için bilgilendirici sayfalar (boşanma davası nasıl açılır, miras intikali süreci vb.) — SEO + müvekkil kazanım için ikili fayda."},
-    {"title": "Hızlı Yükleme + Kurumsal His", "description": "Next.js edge caching, font optimization, image CDN. Mobilden 1.5 sn altı açılış. Kurumsal güveni hız ve premium hissiyat üzerinden tamamlıyoruz."}
-  ],
-  "caseStudy": {
-    "title": "İstanbul Kadıköy — Hukuk Bürosu: Organik Trafik 0 → 1.800/ay, Aylık 12 Yeni Danışan",
-    "paragraphs": [
-      "Kadıköy'de aile hukuku, iş hukuku ve gayrimenkul hukuku odaklı çalışan 3 ortaklı bir hukuk bürosu 2025 başında PORTZEN'e geldi. Eski sitesi 2017'de yapılmış WordPress, mobil uyumsuz, 'avukat İstanbul' aramasında yok, organik trafik sıfıra yakın. Tüm danışanları tanıdık + Avukatlar.com profili üzerinden geliyordu.",
-      "21 günde Profesyonel paket ile yeniden inşa ettik — 3 uzmanlık alanı sayfası (aile, iş, gayrimenkul) detaylı, 3 ortak avukat profili, MDX blog motoru, KVKK uyumlu danışan formu, Schema markup, bölge SEO (Kadıköy boşanma avukatı, Anadolu Yakası iş hukuku gibi 14 sayfa).",
-      "İlk aydan itibaren blog makaleleri yayınlandı (Premium pakete geçtiler, aylık 4 makale). 4. ayın sonunda aylık organik trafik 1.800'e ulaştı, 'boşanma avukatı Kadıköy' anahtar kelimesinde 2. sıraya çıktı. Ay başı 12 yeni danışan başvurusu direkt siteden geliyor (önceden ayda 1-2 idi)."
-    ],
-    "beforeAfter": [
-      {"label": "Aylık Organik Trafik", "before": "0", "after": "1.800"},
-      {"label": "Aylık Yeni Danışan", "before": "1-2", "after": "12"},
-      {"label": "Site Yüklenme Süresi", "before": "9.2 sn", "after": "1.4 sn"},
-      {"label": "Anahtar Kelime İlk Sayfa", "before": "0 KW", "after": "23 KW"}
-    ]
-  },
-  "pricing": [
     {
-      "name": "Mini Hukuk Sitesi",
-      "price": "18.000 TL",
-      "description": "Tek seferlik — solo avukat ve küçük ofisler için",
-      "features": [
-        "6 sayfa (anasayfa, hakkımızda, uzmanlık, blog, iletişim, KVKK)",
-        "Next.js + Tailwind",
-        "Mobil responsive + 90+ Lighthouse",
-        "KVKK uyumlu iletişim formu",
-        "3 uzmanlık alanı sayfası",
-        "Temel SEO + Schema markup",
-        "1 ay teknik destek"
-      ]
+      "title": "1. Uzmanlık Alanı Brief",
+      "description": "Hukuk büronuzun uzmanlık alanlarını (ticaret, aile, iş, gayrimenkul, ceza, fikri mülkiyet vb.), hedef müvekkil profilini, marka tonunu (geleneksel-kurumsal mı yoksa modern-genç mi) ve rakip analizinizi yapıyoruz."
     },
     {
-      "name": "Profesyonel",
-      "price": "32.000 TL + 2.000 TL/ay",
-      "description": "Ortaklı bürolar için en popüler paket — bakım dahil",
-      "features": [
-        "12-18 sayfa + uzmanlık alanı detayları",
-        "5 avukat profili",
-        "MDX blog motoru",
-        "Bölge SEO sayfaları (10 bölge)",
-        "Dava türü bilgi sayfaları",
-        "Schema markup (LegalService + Attorney)",
-        "Google Analytics + Search Console kurulum",
-        "Aylık bakım, güvenlik, SEO optimize"
-      ],
-      "highlighted": true
+      "title": "2. Tasarım (Ciddi + Modern)",
+      "description": "Figma'da hukuk sektörüne özel tasarım dili — sade, tipografi odaklı, beyaz alan kullanımı yüksek, güven verici renk paleti (lacivert/bordo/antrasit). Mobil-first."
     },
     {
-      "name": "Premium",
-      "price": "55.000 TL + 4.000 TL/ay",
-      "description": "Büyük bürolar, agresif SEO, içerik motoru dahil",
-      "features": [
-        "Sınırsız sayfa + sınırsız avukat profili",
-        "Aylık 4 SEO blog makalesi (hukuk metin yazarı + onayınız)",
-        "Hukuk terimleri sözlüğü (200+ terim)",
-        "Çoklu dil (TR/EN)",
-        "Çoklu ofis / şube yönetimi",
-        "Google Ads landing sayfaları",
-        "CRM entegrasyonu (danışan takip)",
-        "Özel proje yöneticisi"
-      ]
+      "title": "3. Next.js + KVKK + Güvenlik",
+      "description": "Next.js 15 ile geliştirme. Uzmanlık alanı sayfaları, avukat profilleri, blog motoru, KVKK uyumlu danışan iletişim formu (açık rıza checkbox + aydınlatma metni), reCAPTCHA, SSL, güvenlik headerları."
+    },
+    {
+      "title": "4. SEO + İçerik Takvimi",
+      "description": "Schema markup (LegalService + Attorney), uzmanlık alanı bazlı SEO sayfaları, hukuk terimleri sözlüğü altyapısı. İsteğe bağlı aylık blog makalesi (hukuk metin yazarı + sizin onayınız)."
     }
   ],
-  "faq": [
-    {"question": "Avukat olarak websitemde reklam yapmama TBB izin veriyor mu?", "answer": "Türkiye Barolar Birliği Meslek Kuralları'nda bilgi verme amaçlı websitelerine izin var, reklam mahiyetinde içerik (mukayese, başarı oranı vb.) yasak. Biz tüm metinleri TBB Meslek Kuralları'na uygun yazıyoruz — bilgilendirici, sade, övgüsüz. Şu ana kadar müşterimiz baro disiplin uyarısı almadı."},
-    {"question": "Sitem ne kadar sürede hazır olur?", "answer": "Mini Hukuk Sitesi 12-16 gün, Profesyonel 20-28 gün, Premium 35-45 gün. Brief sonrası net gün veriyoruz. Hukuk metinleri için onay süreçleri uzayabilir, bunu plana ekliyoruz."},
-    {"question": "KVKK uyumluluk için ek bir şey yapmam gerekiyor mu?", "answer": "Site tarafında her şey hazır — açık rıza checkbox'lı formlar, aydınlatma metni, çerez politikası, veri silme talebi formu, KVKK politika sayfası. Veri sorumlusu olarak VERBİS kaydı yapmanız ayrıca gerekli (yıllık gelir üzerinden zorunluluk değişiyor). VERBİS kayıt desteği veriyoruz (ek 2.500 TL)."},
-    {"question": "Blog makalelerini hukuk içeriği için kim yazar?", "answer": "İki seçenek: (1) Profesyonel pakette siz/ekibiniz yazar, biz yayına alır + SEO optimize ederiz. (2) Premium pakette ayda 4 SEO makaleyi bizim hukuk metin yazarı (LLB/LLM eğitimli) yazar, siz onaylar veya düzenler yayınlarız. Tıbbi tavsiye gibi hukuki tavsiye sorumluluğu sizde, onay sizden geçer."},
-    {"question": "Boşanma davası, iş hukuku gibi alanlarda zaten çok rekabet var, SEO'da çıkabilir miyim?", "answer": "Genel terimlerde (örn. 'boşanma avukatı') zor, ama bölge + uzmanlık kombinasyonlarında (Kadıköy boşanma avukatı, Şişli iş hukuku avukatı) ilk sayfaya çıkmak 4-6 ayda mümkün. Vaka çalışmamızdaki Kadıköy bürosu 23 anahtar kelimede ilk sayfaya çıktı. Long-tail (uzun kuyruk) anahtar kelimeler bizim öncelikli stratejimiz."},
-    {"question": "Online randevu sistemi entegre eder misiniz?", "answer": "Evet, Calendly veya özel geliştirilmiş randevu sistemi entegrasyonu. Profesyonel pakette ek 1.500 TL, Premium pakette dahil. Müvekkil uygun saati seçiyor, takvime düşüyor, otomatik SMS hatırlatma gidiyor."},
-    {"question": "İleride uzmanlık alanı ekleme veya tasarım değişikliği istersem?", "answer": "Bakım paketinizde aylık 4-8 saat geliştirme dahil — yeni uzmanlık alanı sayfası, blog kategorisi ekleme bu kapsamda. Komple redesign için mevcut müşteri avantajı olarak %40 indirim uyguluyoruz."}
+  "features": [
+    {
+      "title": "Uzmanlık Alanı Sayfaları",
+      "description": "Her uzmanlık alanı (boşanma, miras, iş hukuku vb.) için ayrı SEO odaklı sayfa — sorun açıklaması, süreç anlatımı, sıkça sorulan sorular, iletişim CTA. Bölge bazlı varyantlar dahil."
+    },
+    {
+      "title": "Blog + İçerik Motoru",
+      "description": "MDX tabanlı blog motoru — kategori, etiket, ilgili yazılar, schema markup. Hukuk makaleleri yayınladıkça uzmanlık otoritesi + Google sıralaması yükselir."
+    },
+    {
+      "title": "KVKK Uyumlu Danışan Formu",
+      "description": "Açık rıza checkbox, aydınlatma metni link, veri silme talebi opsiyonu, reCAPTCHA — KVK Kurulu şikayet riskini azaltan yapı. Form gönderimi SSL ile şifreli iletilir; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir."
+    },
+    {
+      "title": "Avukat / Ortak Profil Sayfası",
+      "description": "Her avukatın kendi sayfası — fotoğraf, özgeçmiş, uzmanlık alanı, yayınlanmış makaleleri, baro sicil bilgisi, iletişim. Ortak avukat büroları için ölçeklenebilir."
+    },
+    {
+      "title": "Dava Türü Bilgi Sayfaları",
+      "description": "Müvekkillerin sıkça araştırdığı dava türleri için bilgilendirici sayfalar (boşanma davası nasıl açılır, miras intikali süreci vb.) — SEO + müvekkil kazanım için ikili fayda."
+    },
+    {
+      "title": "Hızlı Yükleme + Kurumsal His",
+      "description": "Next.js edge caching, font optimization, image CDN. Mobilde hızlı açılış hedeflenir (Lighthouse 90+ hedefi). Kurumsal güveni hız ve premium hissiyat üzerinden tamamlıyoruz."
+    }
   ],
-  "finalCtaHeadline": "Hukuk büronuzun yeni websitesi 3 haftada kurumsal duruşunuzu yansıtsın",
+  "caseStudy": {
+    "title": "Örnek senaryo: Kadıköy'de 3 ortaklı bir hukuk bürosu için uzmanlık sayfaları ve blog altyapısı",
+    "paragraphs": [
+      "Örnek bir kurulum: Kadıköy'de aile, iş ve gayrimenkul hukuku odaklı çalışan 3 ortaklı bir hukuk bürosu düşünün. Eski WordPress sitesi mobil uyumsuz, 'avukat İstanbul' gibi aramalarda görünmüyor; danışanlar yalnızca tanıdık tavsiyesi ve ilan platformlarından geliyor.",
+      "Bu senaryoda site yeniden kurulur: her uzmanlık alanı (aile, iş, gayrimenkul) için ayrıntılı sayfa, ortak avukat profilleri, MDX blog motoru, KVKK gerekliliklerini gözeten danışan formu, Schema işaretlemesi ve 'Kadıköy boşanma avukatı', 'Anadolu Yakası iş hukuku' gibi bölge + uzmanlık sayfaları.",
+      "Yayından sonra ne değişir: Blog yazıları ilgili uzmanlık sayfalarına bağlanır; avukatı araştıran kişi uzmanlık, süreç ve avukat profilini tek yerde görür ve formdan başvurur, başvuru büroya e-postayla düşer. Sıralama ve danışan sayısı rekabete ve içerik düzenine bağlı olduğundan rakam vaat etmiyoruz; tüm metinler TBB Meslek Kuralları'na uygun, bilgilendirici dille yazılır."
+    ],
+    "beforeAfter": [
+      {
+        "label": "Arama Görünürlüğü",
+        "before": "Uzmanlık ve bölge sayfası yok",
+        "after": "Uzmanlık + bölge sayfaları, LegalService şeması"
+      },
+      {
+        "label": "Danışan Başvurusu",
+        "before": "Tanıdık tavsiyesi ve ilan platformu",
+        "after": "Uzmanlık sayfasından açık rıza onaylı form"
+      },
+      {
+        "label": "Site Yüklenme Süresi",
+        "before": "Eski tema, mobilde yavaş",
+        "after": "Next.js, mobil-öncelikli; 90+ Lighthouse hedefi"
+      },
+      {
+        "label": "İçerik Üretimi",
+        "before": "Blog yok",
+        "after": "Blog motoru; yazılar uzmanlık sayfalarına bağlanıyor"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Avukat olarak websitemde reklam yapmama TBB izin veriyor mu?",
+      "answer": "Türkiye Barolar Birliği Meslek Kuralları'nda bilgi verme amaçlı websitelerine izin var, reklam mahiyetinde içerik (mukayese, başarı oranı vb.) yasak. Biz tüm metinleri TBB Meslek Kuralları'na uygun yazıyoruz — bilgilendirici, sade, övgüsüz. Her metin yayından önce sizin onayınızdan geçer."
+    },
+    {
+      "question": "Sitem ne kadar sürede hazır olur?",
+      "answer": "Kapsama göre değişir: birkaç sayfalık tanıtım sitesi, çok sayıda uzmanlık alanı sayfası ve blog içeren kapsamlı bir siteye göre daha kısa sürer. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Hukuk metinleri için onay süreçleri uzayabilir, bunu plana ekliyoruz."
+    },
+    {
+      "question": "KVKK uyumluluk için ek bir şey yapmam gerekiyor mu?",
+      "answer": "Site tarafı hazır gelir: açık rıza checkbox'lı formlar, aydınlatma metni, çerez politikası, veri silme talebi formu ve KVKK politika sayfası. VERBİS kayıt yükümlülüğü ise çalışan sayısı, mali tablo büyüklüğü ve meslek grubuna göre değişir; serbest çalışan avukatlar için Kurul kararıyla istisnalar bulunduğundan durumunuzu teyit etmenizi öneririz. Kayıt gerekiyorsa VERBİS sürecindeki destek ek iş olarak ayrıca tekliflendirilir."
+    },
+    {
+      "question": "Blog makalelerini hukuk içeriği için kim yazar?",
+      "answer": "İki yol var: (1) Siz veya ekibiniz yazarsınız; kurumsal web sitesi Büyüme paketindeki CMS ve blog altyapısıyla yazıları kendiniz yayına alırsınız, teknik SEO altyapısı sitede hazırdır. Yayın sonrası düzenleme desteği Web bakım saatleriniz içinde yapılabilir. (2) Düzenli makale üretimi paketlere dahil değildir; ihtiyaç olursa hukuk alanında deneyimli metin yazarımızla makale sayısı ve takvim ek iş olarak ayrıca tekliflendirilir, siz onaylar veya düzenlersiniz. Hukuki tavsiye niteliğindeki içeriğin sorumluluğu sizdedir, her metin yayından önce onayınızdan geçer."
+    },
+    {
+      "question": "Boşanma davası, iş hukuku gibi alanlarda zaten çok rekabet var, SEO'da çıkabilir miyim?",
+      "answer": "Genel terimlerde (örn. 'boşanma avukatı') rekabet çok yüksek; bölge + uzmanlık kombinasyonlarında (Kadıköy boşanma avukatı, Şişli iş hukuku avukatı) görünür olmak daha gerçekçi. Süre veya sıra vaat etmiyoruz; sonuç rekabete ve düzenli içerik üretimine bağlıdır. Long-tail (uzun kuyruk) anahtar kelimeler bizim öncelikli stratejimiz."
+    },
+    {
+      "question": "Online randevu sistemi entegre eder misiniz?",
+      "answer": "Evet. Calendly gibi hazır bir randevu aracı ya da size özel geliştirilmiş bir randevu sistemi kurulabilir. Kurumsal web sitesi Kurumsal paketinde 2 standart entegrasyon hakkı vardır, hazır araç bağlantısı bu hak içinde planlanabilir; diğer paketlerde ek iş olarak ayrıca tekliflendirilir. Özel geliştirilen randevu sistemi özel web uygulaması kapsamındadır ({{tekil:ozel-web-uygulamasi}}, KDV hariç; kesin bedel kapsama göre belirlenir). Müvekkil uygun saati seçer, takviminize düşer; SMS hatırlatma için SMS sağlayıcı ücreti ayrıca ödenir."
+    },
+    {
+      "question": "İleride uzmanlık alanı ekleme veya tasarım değişikliği istersem?",
+      "answer": "Yeni uzmanlık alanı sayfası veya blog kategorisi gibi küçük eklemeler isteğe bağlı aylık Web bakım saatleriniz içinde yapılır (Başlangıç 1, Büyüme 3, Kurumsal 6 saat; toplam süre, kullanılmayan saat devretmez). Yeni modüller ve kapsamlı tasarım değişiklikleri ayrıca tekliflendirilir."
+    }
+  ],
+  "finalCtaHeadline": "Hukuk büronuzun yeni websitesi kurumsal duruşunuzu yansıtsın",
   "finalCtaSubtitle": "20 dakikalık brief görüşmesi yeterli. Mevcut sitenizi inceleyip ücretsiz audit raporu hazırlıyoruz. WhatsApp'tan veya formdan ulaşın."
 }

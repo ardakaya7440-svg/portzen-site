@@ -2,16 +2,35 @@
   "sectorSlug": "oto-servis",
   "sectorName": "Oto Servis",
   "sectorPlural": "Oto Servisler",
-  "title": "Oto Servisler İçin Instagram DM Otomasyonu | Fiyat ve Randevu AI — PORTZEN",
-  "description": "Instagram'a 'arabama bakar mısınız?' yazan müşteriye marka/model bazlı fiyat tahmini verip randevu açan AI sistemi. Usta zaman kaybetmiyor, randevu kaçmıyor.",
-  "keywords": ["oto servis instagram dm", "oto servis chatbot", "araç bakım dm otomasyon", "instagram oto servis bot", "araç fiyat dm tahmini", "servis randevu instagram"],
+  "title": "Oto Servisler İçin Instagram DM Otomasyonu | Fiyat Bilgisi ve Randevu Linki — PORTZEN",
+  "description": "Instagram'a 'arabama bakar mısınız?' yazan müşteriye hizmet bazlı hazır fiyat bilgisi ve randevu linki gönderen kural tabanlı sistem. Usta tekrar eden sorulara zaman ayırmak zorunda kalmaz.",
+  "keywords": [
+    "oto servis instagram dm",
+    "oto servis chatbot",
+    "araç bakım dm otomasyon",
+    "instagram oto servis bot",
+    "araç fiyat dm tahmini",
+    "servis randevu instagram"
+  ],
   "h1": "Oto Servisler için Instagram DM Otomasyonu",
-  "heroSubtitle": "Reels altına 'kaç para?', 'bakar mısınız?' yazan müşterinin %58'i yanıt gelmeyince başka servise gidiyor. PORTZEN AI, marka/model bilgisinden fiyat tahmini yapıp randevu açıyor — ustanın eli işten kalkmıyor.",
+  "heroSubtitle": "Reels altına 'kaç para?', 'bakar mısınız?' yazan müşteri, yanıt gelmeyince başka servise bakıyor. Kural tabanlı DM akışı hizmete göre hazırladığınız fiyat aralığını ve randevu linkini otomatik gönderiyor — ustanın eli işten kalkmıyor.",
   "stats": [
-    {"value": "45 sn", "label": "DM Yanıt"},
-    {"value": "%62", "label": "Randevu Artışı"},
-    {"value": "7 gün", "label": "Kurulum"},
-    {"value": "7/24", "label": "Aktif"}
+    {
+      "value": "Otomatik",
+      "label": "Hazır mesajla DM yanıtı"
+    },
+    {
+      "value": "Kural tabanlı",
+      "label": "Akış tipi"
+    },
+    {
+      "value": "Yorum + Story",
+      "label": "Tetikleyici"
+    },
+    {
+      "value": "7/24",
+      "label": "Aktif"
+    }
   ],
   "problems": [
     "Reels'te paylaştığınız balata değişimi videosunun altına 'Megane 3 için kaç para?' diye 40 kişi yazıyor, usta arabanın altında, kimse yanıtlayamıyor.",
@@ -22,137 +41,103 @@
   ],
   "solutionSteps": [
     {
-      "title": "Hizmet Listesi ve Fiyat Veritabanı",
-      "description": "Servisinizin sunduğu tüm hizmetler (yağ değişimi, balata, debriyaj, kaporta, motor revizyonu) marka/model/yıl bazında fiyat aralıklarıyla yapay zekaya yüklenir. Emek + yedek parça ayrı tutulur."
+      "title": "Hizmet Listesi ve Fiyat Mesajları",
+      "description": "Servisinizin sunduğu hizmetler (yağ değişimi, balata, debriyaj, kaporta, motor revizyonu) için sizin belirlediğiniz fiyat aralıkları hazır mesajlara dönüştürülür; gerekirse sık sorulan marka gruplarına göre ayrı mesajlar hazırlanır. Emek + yedek parça ayrı belirtilir."
     },
     {
-      "title": "Instagram Business + Araç Bilgi Formu Entegrasyonu",
-      "description": "Instagram Business hesabınız bağlanır. Müşteri DM'ye girdiğinde AI önce 'marka, model, yıl, kilometre' formunu kibarca dolduruyor — sonra fiyat ve randevu konuşması başlıyor."
+      "title": "Instagram Bağlantısı + Araç Bilgi Formu",
+      "description": "Instagram profesyonel hesabınız Meta'nın resmi API'si üzerinden bağlanır. Müşteri DM'ye girdiğinde akış önce 'marka, model, yıl, kilometre' bilgisini sabit sorularla soruyor — ardından ilgili hizmetin fiyat bilgisi ve randevu linki gönderiliyor."
     },
     {
-      "title": "AI Eğitimi + Usta Onay Akışı",
-      "description": "Servisinizin garanti politikası, hangi işin kesin fiyat verilebileceği, hangisinin 'görmeden söylenemez' olduğu eğitilir. Foto/ses kaydıyla gelen vakalar usta onayına düşüyor."
+      "title": "Mesaj Kuralları + Usta Onayı",
+      "description": "Garanti politikanız, hangi işte fiyat aralığı verileceği, hangisinin 'görmeden söylenemez' olduğu belirlenip mesajlara işlenir ve usta onayına sunulur. Foto/ses kaydıyla gelen mesajlar ustaya bildirilir."
     },
     {
-      "title": "Canlı Yayın + Aylık Optimizasyon",
-      "description": "Sistem 7 günde canlıya alınır. Her ay hangi hizmetin en çok DM aldığı, ortalama randevuya dönüşüm oranı raporlanır ve AI yeniden eğitilir."
+      "title": "Yayın + İyileştirme",
+      "description": "Test sonrası yayına alınır. Hangi hizmetin anahtar kelimesinin en çok tetiklendiği ve randevu linkine kaç kez tıklandığı raporlanır; fiyat mesajları güncellenir."
     }
   ],
   "features": [
     {
-      "title": "Marka/Model/Yıl Bazlı Fiyat Tahmini",
-      "description": "'2018 Megane 3 balata değişimi ne kadar' sorusuna AI veritabanından 'ön balata 1.450 TL + işçilik 600 TL, toplam yaklaşık 2.050 TL' diye anında yanıtlıyor."
+      "title": "Hizmet Bazlı Fiyat Bilgisi",
+      "description": "'Balata' veya 'yağ değişimi' yazan müşteriye, sizin belirlediğiniz fiyat aralığını içeren hazır mesaj gider (ör. 'ön balata + işçilik, araç grubuna göre yaklaşık 1.800-2.400 TL; kesin fiyat için aracı görmemiz gerekir'). Marka/model/yıla göre anlık hesap yapan serbest yanıtlar AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
     },
     {
-      "title": "Foto/Ses ile Ön Teşhis",
-      "description": "Müşteri motorun ses kaydını veya tampon çiziği fotoğrafını gönderdiğinde AI önce kategoriyi tespit ediyor ('motor sesi - subap olabilir' veya 'kaporta - lokal boya işi') ve fiyat aralığı veriyor."
+      "title": "Foto/Ses Mesajlarını Ustaya İletme",
+      "description": "Müşteri motor sesi kaydı veya tampon çiziği fotoğrafı gönderdiğinde akış 'ustamız inceleyip size dönecek' mesajını gönderir ve ustaya bildirim atar. Fotoğraf veya sesten otomatik ön teşhis yapılmaz; görsel ve ses analizi kural tabanlı otomasyonun kapsamında değildir."
     },
     {
-      "title": "Randevu Açma ve Takvim Senkronu",
-      "description": "Müşteri 'yarın bırakabilir miyim' dediğinde AI servisinizin takviminden müsait slot gösteriyor, müşteri seçiyor, randevu sisteme düşüyor ve müşteriye SMS hatırlatma gidiyor."
+      "title": "Randevu Linki",
+      "description": "'Yarın bırakabilir miyim' yazan müşteriye servisinizin online randevu sayfasının linki gönderilir; müşteri uygun saati orada seçer, hatırlatmayı randevu aracınız gönderir. Randevunun DM içinden takvime işlenmesi AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
     },
     {
-      "title": "Yedek Parça Stok Sorgu",
-      "description": "'2015 Passat krank sensörü stokta var mı' sorusuna AI parça stoğunuzdan kontrol edip 'evet 1.200 TL, yarın takabiliriz' veya 'sipariş 2 gün' diye yanıtlıyor."
+      "title": "Yedek Parça Sorusu",
+      "description": "'Parça' veya 'stok' yazan müşteriden butonlarla araç markası ve parça türü alınır, talep ustaya bildirim olarak iletilir ve müşteriye 'stok durumunu kontrol edip size dönüyoruz' mesajı gider. Parça stoğunun otomatik sorgulanması standart kapsamda değildir."
     },
     {
       "title": "Yol Yardım Yönlendirme",
-      "description": "Gece 'arabam yolda kaldı' DM'ine AI anında çekici servisi telefonu, en yakın anlaşmalı servis adresi ve sigorta yol yardım numarasını paylaşıyor."
+      "description": "Gece 'yolda kaldım' veya 'çekici' yazan müşteriye otomatik olarak anlaşmalı çekici telefonu, servis adresi ve sigorta yol yardım hatırlatmasını içeren hazır mesaj gider; sabah ustaya bildirim düşer."
     },
     {
-      "title": "Garantili İşler ve Sonrası Hatırlatma",
-      "description": "Yapılan işin garantisi (10.000 km veya 6 ay) AI tarafından takip ediliyor, müşteriye 'yağ değişimi vakti geldi' hatırlatması DM'den otomatik gidiyor."
+      "title": "Garanti ve Bakım Bilgisi",
+      "description": "'Garanti' yazan müşteriye yapılan işlerin garanti koşulları (ör. 10.000 km veya 6 ay) hazır mesajla iletilir. Meta'nın mesajlaşma kuralları gereği, son 24 saatte size yazmamış müşterilere Instagram DM ile periyodik bakım hatırlatması gönderilemez; bu tür hatırlatmalar için SMS veya e-posta gibi ayrı bir kanal gerekir."
     }
   ],
   "caseStudy": {
-    "title": "İzmir Karşıyaka Oto Servis: 4 Ayda Aylık 95 Randevu, Gelir %180 Arttı",
+    "title": "İzmir Karşıyaka'da bir genel bakım servisi için örnek kurulum",
     "paragraphs": [
-      "İzmir Karşıyaka'da 3 ustanın çalıştığı bir genel bakım servisi, Instagram'da haftada 2 Reels paylaşıyor (ön takım sökümü, balata değişimi gibi pratik videolar) ama gelen DM'leri yetiştiremiyordu. Mesai içi DM'lere bile 3-4 saat gecikmeli yanıt veriliyor, çoğu müşteri başka servise gidiyordu.",
-      "PORTZEN AI sistemiyle servisin tüm hizmetleri (47 farklı kalem) marka/model bazında fiyatlandırıldı. AI; fiyat tahmini, foto ön teşhis, randevu açma ve yol yardım yönlendirme görevlerini devraldı. Ustalar sadece servise gelen araçla ilgilendi.",
-      "4 ay sonunda Instagram DM kaynaklı aylık randevu 22'den 95'e çıktı, ortalama randevu sepet tutarı 1.400 TL'den 2.100 TL'ye yükseldi (AI ek hizmet önerisiyle). Aylık ciro %180 arttı, servise yeni 1 usta eklendi."
+      "Karşıyaka'da birkaç ustanın çalıştığı bir genel bakım servisi düşünelim: Instagram'da ön takım sökümü, balata değişimi gibi pratik videolar paylaşıyor ama gelen DM'leri yetiştiremiyor. Mesai içindeki DM'lere bile saatler sonra dönülüyor, müşterilerin bir kısmı başka servise gidiyor.",
+      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: servisin hizmet kalemleri için sizin belirlediğiniz fiyat aralıklarını içeren hazır mesajlar, araç bilgisini sabit sorularla toplayan akış, online randevu linki, foto/ses mesajlarında ustaya bildirim ve gece 'yolda kaldım' mesajları için çekici bilgisi.",
+      "Böylece fiyat ve randevu sorularına usta beklenmeden hazır mesajlarla yanıt verilir, randevu talebi doğrudan randevu sayfasına yönlenir; ustalar araçla ilgilenirken DM'ler birikmez, yalnızca inceleme gerektiren mesajlar ustaya bildirilir. Hangi hizmetlerin anahtar kelimelerinin daha sık tetiklendiği izlenerek fiyat mesajları güncellenir."
     ],
     "beforeAfter": [
-      {"label": "Aylık Randevu", "before": "22", "after": "95"},
-      {"label": "DM Yanıt Süresi", "before": "3-4 saat", "after": "45 saniye"},
-      {"label": "Ortalama Sepet", "before": "1.400 TL", "after": "2.100 TL"}
+      {
+        "label": "Fiyat soruları",
+        "before": "Usta işi bırakıp yanıtlıyor ya da yanıt gecikiyor",
+        "after": "Hizmete göre hazır fiyat aralığı otomatik"
+      },
+      {
+        "label": "Randevu talebi",
+        "before": "DM'de yazışarak, saatler sonra",
+        "after": "Online randevu linki otomatik gönderiliyor"
+      },
+      {
+        "label": "Foto/ses ile gelen sorular",
+        "before": "Diğer mesajlar arasında kayboluyor",
+        "after": "Ustaya bildirim olarak iletiliyor"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "6.500 TL/ay",
-      "description": "Tek lokasyon servisler için temel DM yanıt sistemi",
-      "features": [
-        "30 hizmet kalemi veritabanı",
-        "Instagram DM + yorum yanıtı",
-        "Marka/model fiyat tahmini",
-        "Aylık 800 DM yanıt",
-        "WhatsApp randevu bildirimi",
-        "E-posta destek"
-      ]
-    },
-    {
-      "name": "Pro",
-      "price": "13.000 TL/ay",
-      "description": "Aktif servisler için tam özellikli paket",
-      "features": [
-        "100 hizmet kalemi veritabanı",
-        "Foto/ses ile ön teşhis modülü",
-        "Yedek parça stok sorgu",
-        "Randevu takvim entegrasyonu",
-        "Yol yardım yönlendirme",
-        "Aylık 4.000 DM yanıt",
-        "Garanti süresi takibi",
-        "Haftalık rapor"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Premium",
-      "price": "24.000 TL/ay",
-      "description": "Çoklu şube veya marka yetkili servisleri için",
-      "features": [
-        "Sınırsız hizmet kalemi",
-        "Çoklu lokasyon yönetimi",
-        "Marka katalog entegrasyonu (Bosch, Mann vb.)",
-        "Sigorta şirketi entegrasyonu",
-        "Sınırsız DM yanıt",
-        "Özel AI eğitimi",
-        "Dedicated account manager",
-        "7/24 öncelikli destek"
-      ]
-    }
-  ],
   "faq": [
     {
-      "question": "Foto ile ön teşhis ne kadar doğru sonuç veriyor?",
-      "answer": "AI fotoğrafı kategorize edip fiyat aralığı veriyor (örn. 'lokal boya 800-1500 TL') ama kesin fiyat söylemiyor. 'Servise gelin, usta görsün, kesin fiyat verelim' kuralı her zaman geçerli. Doğru kategorizasyon oranı %87."
+      "question": "Fotoğrafla ön teşhis yapılıyor mu?",
+      "answer": "Hayır. Kural tabanlı akış fotoğraf veya ses kaydını yorumlamaz; bu mesajlar geldiğinde 'ustamız inceleyip size dönecek' yanıtı gider ve ustaya bildirim atılır. İsterseniz kaporta gibi işler için genel fiyat aralığını (örn. 'lokal boya 800-1500 TL') hazır mesajla paylaşabilirsiniz; 'Servise gelin, usta görsün, kesin fiyat verelim' kuralı her zaman geçerli."
     },
     {
-      "question": "AI fiyat söylüyor mu yoksa 'gel görelim' mi diyor?",
-      "answer": "Sizin tercihinize göre. Yağ değişimi, balata gibi standart işlerde fiyat söylüyor. Motor revizyonu, kaporta gibi vakalarda 'görmeden net fiyat veremeyiz, yaklaşık şu aralıkta' diyip randevu açıyor."
+      "question": "Bot fiyat söylüyor mu yoksa 'gel görelim' mi diyor?",
+      "answer": "Sizin tercihinize göre. Yağ değişimi, balata gibi standart işlerde belirlediğiniz fiyat aralığı mesajı gider. Motor revizyonu, kaporta gibi işlerde 'görmeden net fiyat veremeyiz, yaklaşık şu aralıkta' mesajı ve randevu linki gönderilir."
     },
     {
       "question": "Ustam yanlış fiyat verirse sorumlu kim olur?",
-      "answer": "AI sadece sizin yüklediğiniz fiyat veritabanından konuşuyor, uydurmaz. Her ay fiyat güncellemesi yapıyoruz. Müşteri serviste 'DM'de 2.000 demişti' derse konuşma logundan kontrol edebilirsiniz."
+      "answer": "Bot yalnızca sizin onayladığınız fiyat mesajlarını gönderir, kendiliğinden fiyat üretmez. Fiyatlar değiştiğinde haber verdiğinizde mesajları güncelliyoruz. Müşteri serviste 'DM'de 2.000 demişti' derse Instagram gelen kutunuzdaki konuşmadan kontrol edebilirsiniz."
     },
     {
-      "question": "Kaç araç/marka veritabanına yüklenebilir?",
-      "answer": "Başlangıç paketinde 30 hizmet × tüm popüler markalar (Renault, Volkswagen, Ford, Fiat, Hyundai, Toyota, Opel), Pro paketinde 100 hizmet × tüm markalar, Premium'da sınırsız."
+      "question": "Kaç hizmet ve araç markası için DM akışı kurulabilir?",
+      "answer": "Hangi hizmetlerin (periyodik bakım, fren, lastik, klima gazı vb.) ve markaların (Renault, Volkswagen, Ford, Fiat, Hyundai, Toyota, Opel gibi) akışa ekleneceğini brief görüşmesinde netleştiriyoruz. Kural tabanlı akışta kullanıcı 'bakım' ya da araç markasını yazdığında ilgili hizmet bilgisi ve randevu linki otomatik gider. Araç modeline göre serbest sorulara AI ile yanıt istenirse bu, AI müşteri asistanı kapsamındadır."
     },
     {
       "question": "Randevu açıldığında nasıl haberim oluyor?",
-      "answer": "Her randevu anında WhatsApp ve e-posta ile size bildiriliyor. Müşterinin araç bilgisi, talep ettiği hizmet, gelmek istediği tarih/saat ve DM konuşma özeti tek mesajda geliyor."
+      "answer": "Akışta toplanan araç bilgisi, talep edilen hizmet ve tercih edilen tarih/saat size bildirim olarak gelir; bildirimin hangi kanaldan (e-posta, otomasyon platformu uygulaması vb.) geleceğini kurulumda belirliyoruz. Randevu sayfanız üzerinden alınan randevuların bildirimini randevu aracınız gönderir. Konuşmadan AI ile özet çıkarılması AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
     },
     {
       "question": "Yol yardım çağrısını nasıl yönetiyor?",
-      "answer": "Gece 'arabam yolda kaldı' mesajı geldiğinde AI önce konum sorup en yakın anlaşmalı çekici telefonunu paylaşıyor. Sabah ustaya 'dün gece şu müşteri çekici çağırdı, takip edin' bildirimi gidiyor."
+      "answer": "Gece 'yolda kaldım' veya 'çekici' mesajı geldiğinde akış anlaşmalı çekici telefonunu ve gerekli bilgileri içeren hazır mesajı gönderiyor. Sabah ustaya 'dün gece şu müşteri yol yardımı istedi, takip edin' bildirimi gidiyor."
     },
     {
       "question": "Kurulum süreci nasıl işliyor?",
-      "answer": "7 iş günü. Sizden istenen: hizmet listesi (Excel), fiyat aralıkları, garanti politikası, Instagram Business hesabı erişimi. 1 saatlik kalibrasyon görüşmesi sonrası canlıya alıyoruz."
+      "answer": "Sizden istenen: hizmet listesi (Excel), fiyat aralıkları, garanti politikası, Instagram profesyonel hesap erişimi. Kısa bir görüşmeyle mesaj tonunu belirleyip metinleri onayınıza sunuyoruz. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
     }
   ],
-  "finalCtaHeadline": "Instagram DM'lerini Servise Doluluk Olarak Çevirin",
-  "finalCtaSubtitle": "Usta zaman kaybetmesin, müşteri kaçmasın. 7 günde kurulum, 30 günde aylık 95 randevu. Ücretsiz demo için bir görüşme ayarlayın."
+  "finalCtaHeadline": "Instagram DM'lerini Servis Randevu Akışına Bağlayın",
+  "finalCtaSubtitle": "Usta zaman kaybetmesin, müşteri yanıtsız kalmasın. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Örnek akışı görmek için tanıtım görüşmesi ayarlayın."
 }

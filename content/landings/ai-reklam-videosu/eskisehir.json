@@ -5,14 +5,33 @@
   "sectorPlural": "Eskişehir İşletmeleri",
   "title": "Eskişehir AI Reklam Videosu | Odunpazarı Tarihi Atmosfer, Tepebaşı Üni Hedef - PORTZEN",
   "description": "Eskişehir Odunpazarı tarihi sokak atmosferinden, Tepebaşı üniversite öğrenci hedef reklamlara. Çiğ börek, lokum, seramik atölyesi ve butik kafe için AI ile profesyonel reklam videosu.",
-  "keywords": ["eskisehir reklam videosu", "odunpazari ai video", "tepebasi reklam yapimi", "eskisehir ugc video", "cig borek reklam", "ai video uretim eskisehir"],
+  "keywords": [
+    "eskisehir reklam videosu",
+    "odunpazari ai video",
+    "tepebasi reklam yapimi",
+    "eskisehir ugc video",
+    "cig borek reklam",
+    "ai video uretim eskisehir"
+  ],
   "h1": "Eskişehir İşletmeleri için AI Reklam Videosu",
-  "heroSubtitle": "Odunpazarı tarihi sokaklarının atmosferinden, Tepebaşı üniversite öğrenci enerjisine. Veo 3, Kling, Runway ile çekim ekibi olmadan 5 günde sinematik reklam videosu. PORTZEN İzmir merkezli, Eskişehir'de aktif müşteriler uzaktan.",
+  "heroSubtitle": "Odunpazarı tarihi sokaklarının atmosferinden, Tepebaşı üniversite öğrenci enerjisine. Veo 3, Kling, Runway ile çekim ekibi olmadan sinematik reklam videosu; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. PORTZEN İzmir merkezli, Eskişehir'deki işletmelerle uzaktan çalışıyor.",
   "stats": [
-    {"value": "5 gün", "label": "Ortalama Teslim"},
-    {"value": "4K", "label": "Çözünürlük"},
-    {"value": "9:16 + 1:1 + 16:9", "label": "Tüm Format"},
-    {"value": "Veo 3 + Kling", "label": "Premium AI"}
+    {
+      "value": "Kapsama göre",
+      "label": "Teslim süresi teklifte yazılı"
+    },
+    {
+      "value": "10-60 sn",
+      "label": "Film Süresi"
+    },
+    {
+      "value": "9:16 + 1:1 + 16:9",
+      "label": "Tüm Format"
+    },
+    {
+      "value": "Veo 3 + Kling",
+      "label": "Premium AI"
+    }
   ],
   "problems": [
     "Odunpazarı tarihi sokaklarında butik kafeniz var, ambiansı vurgulayan reels istiyorsunuz ama profesyonel çekim ekibi günlük 8-15K TL istiyor",
@@ -23,88 +42,109 @@
     "Lületaşı veya el yapımı ürün satıyorsunuz, yurt dışına ihracat hayaliniz var ama uluslararası kalitede tanıtım videosu çekemiyorsunuz"
   ],
   "solutionSteps": [
-    {"title": "1. Konsept + Senaryo + Storyboard", "description": "Hangi hedef (üni öğrenci, turist, ihracat, yerli müşteri), hangi platform (Instagram Reels, TikTok, YouTube Shorts, Facebook), hangi süre (15sn, 30sn, 60sn) için reklam? Odunpazarı atmosfer / Tepebaşı genç / sektör hangisi olursa olsun konsept çıkartıyoruz."},
-    {"title": "2. AI Video Üretimi (Veo 3 + Kling + Runway)", "description": "Google Veo 3 (Türkçe diyalog desteği), Kling 2.0 (sinematik), Runway Gen-3 (hız) modellerinden konsepte uygun olanı seçiyoruz. Sahnelere göre prompt mühendisliği, 4-8 sahne üretiyoruz."},
-    {"title": "3. Ses + Müzik + Renk", "description": "Türkçe seslendirme (AI veya stüdyo), telifsiz veya lisanslı müzik, renk derecelendirme, marka kimliği uyumu. Eskişehir'in yumuşak ışığı, tarihi doku, akademik genç enerji konsepte göre."},
-    {"title": "4. Format Çoğaltma + Teslim", "description": "Aynı reklamı Instagram Reels (9:16), Feed (1:1), YouTube/Facebook (16:9), TikTok (9:16) formatlarında teslim. Reklamın A/B test versiyonu için 2-3 varyasyon."}
-  ],
-  "features": [
-    {"title": "Odunpazarı Tarihi Atmosfer", "description": "Odunpazarı'nın renkli evleri, dar sokakları, tarihi hamamı, akşam ışığı. AI ile sahne dramatize, müşteri sanki orada gibi hissediyor. Butik kafeler, hediyelik dükkanları için."},
-    {"title": "Tepebaşı Üni Öğrenci Enerjisi", "description": "Anadolu Üniversitesi kampüsü atmosferi, kafeterya, kütüphane, kampüs içi vibe. Üniversite öğrencisine yönelik kıyafet, takı, abonelik, kitap servisleri için."},
-    {"title": "Yemek Studio Çekimi (Çiğ Börek + Lokum + Midye)", "description": "Çiğ börek dilimlenirken buhar, lokum diliminin parlaklığı, midye sosunun damlaması - restoran kalite stüdyo çekim. Profesyonel fotoğrafçı 8K, AI ile 3K."},
-    {"title": "Seramik + Lületaşı + El Yapımı Vurgu", "description": "Ürün dönerken doku, ışık, detay vurgu. Sanat filmi atmosferi. İhracat ve yurt dışı pazarda ürünü prestijli göstermek için."},
-    {"title": "Çoklu Platform Format Teslim", "description": "Aynı reklam Instagram Reels (9:16), TikTok (9:16), Facebook Feed (1:1), YouTube Shorts (9:16), web header (16:9) - tüm formatlar tek paket."},
-    {"title": "A/B Test Varyasyonu", "description": "Aynı konseptin 2-3 farklı hook, farklı CTA versiyonu. Hangisi daha çok dönüyor test edip kazananı boost ediyorsunuz."}
-  ],
-  "caseStudy": {
-    "title": "Odunpazarı - Butik Kafe + Hediyelik: AI Reels ile Aylık 80K Görüntülenme, Turist Trafiği 2x",
-    "paragraphs": [
-      "Odunpazarı'nda butik kafe + el yapımı hediyelik satan bir işletme 2025 Mart'ında PORTZEN'e geldi. Telefonla çekilen reels'leri ortalama 800-1.500 görüntülenme yapıyor, turist trafiği sadece tabela ve Google Maps üzerinden geliyordu. Profesyonel çekim için 15K TL teklif almışlar, vazgeçmişler.",
-      "5 günde 4 farklı AI reklam videosu ürettik - biri Odunpazarı sokak atmosferi (tarihi evler, akşam ışığı, kafe önü), biri el yapımı seramik dönerken close-up, biri Türk kahvesi servis sahnesi, biri turist deneyim hikayesi (EN altyazılı). Tüm videolar Veo 3 + Kling kombinasyonu, Türkçe + İngilizce seslendirme.",
-      "İlk 3 hafta içinde reels görüntülenme 800'den ortalama 12.000'e çıktı, viral olan kahve servis videosu 84K görüntülendi. Turist trafiği 2 katına çıktı (Google Maps yorum %120 arttı). Kafede Instagram'dan geldiğini söyleyen müşteri sayısı haftalık 8'den 28'e çıktı. Toplam yatırım 14K TL, çekim ekibi alternatifinin 1/3'ü."
-    ],
-    "beforeAfter": [
-      {"label": "Reels Ortalama Görüntülenme", "before": "1.200", "after": "12.000"},
-      {"label": "Aylık Turist Müşteri", "before": "45", "after": "120"},
-      {"label": "Google Maps Yorum (3 ay)", "before": "18", "after": "62"},
-      {"label": "Toplam Video Maliyeti", "before": "45K TL (ajans)", "after": "14K TL (PORTZEN)"}
-    ]
-  },
-  "pricing": [
     {
-      "name": "Tek Video",
-      "price": "4.500 TL",
-      "description": "Tek seferlik test, küçük kampanya için",
-      "features": [
-        "1 reklam videosu (15-30 sn)",
-        "Veo 3 veya Kling",
-        "Türkçe seslendirme + altyazı",
-        "3 format (Reels + Feed + Story)",
-        "2 revizyon",
-        "5 gün teslim"
-      ]
+      "title": "1. Konsept + Senaryo + Storyboard",
+      "description": "Hangi hedef (üni öğrenci, turist, ihracat, yerli müşteri), hangi platform (Instagram Reels, TikTok, YouTube Shorts, Facebook), hangi süre (15sn, 30sn, 60sn) için reklam? Odunpazarı atmosfer / Tepebaşı genç / sektör hangisi olursa olsun konsept çıkartıyoruz."
     },
     {
-      "name": "Kampanya Paketi",
-      "price": "11.500 TL",
-      "description": "Eskişehir KOBİ'leri için en popüler paket",
-      "features": [
-        "4 reklam videosu (farklı hook + CTA)",
-        "Veo 3 + Kling kombinasyonu",
-        "TR + EN seslendirme",
-        "Tüm formatlar (Reels + TikTok + Feed + YouTube)",
-        "A/B test varyasyonu",
-        "Marka renk + font uyumu",
-        "Sınırsız revizyon (3 tura kadar)",
-        "8 gün teslim"
-      ],
-      "highlighted": true
+      "title": "2. AI Video Üretimi (Veo 3 + Kling + Runway)",
+      "description": "Google Veo 3 (Türkçe diyalog desteği), Kling 2.0 (sinematik), Runway Gen-3 (hız) modellerinden konsepte uygun olanı seçiyoruz. Sahnelere göre prompt mühendisliği, pakete göre 3, 6 veya 12 sahneye kadar üretiyoruz."
     },
     {
-      "name": "Premium Aylık",
-      "price": "22.000 TL/ay",
-      "description": "Sürekli içerik üretimi, agresif kampanya için",
-      "features": [
-        "Aylık 10 reklam videosu",
-        "Veo 3 + Kling + Runway tüm modeller",
-        "TR + EN + AR seslendirme",
-        "Stüdyo seslendirme opsiyonu",
-        "Trend takip + viral hook stratejisi",
-        "Aylık performans raporu",
-        "Tüm reklam platformları için optimize",
-        "Özel proje yöneticisi"
-      ]
+      "title": "3. Ses + Müzik + Renk",
+      "description": "Türkçe AI seslendirme (stüdyo seslendirme ayrıca tekliflendirilir), telifsiz veya lisanslı müzik, renk derecelendirme, marka kimliği uyumu. Eskişehir'in yumuşak ışığı, tarihi doku, akademik genç enerji konsepte göre."
+    },
+    {
+      "title": "4. Format Çoğaltma + Teslim",
+      "description": "Aynı reklamı pakete göre 1, 2 veya 3 formatta teslim: Instagram Reels ve TikTok (9:16), Feed (1:1), YouTube/Facebook (16:9). Büyüme paketinde A/B test için aynı filmden 2 kısa kesit."
     }
   ],
-  "faq": [
-    {"question": "AI ile çekilen videolar gerçek mi yoksa fark belli oluyor mu?", "answer": "Veo 3 ve Kling 2.0 ile üretilen videolar artık çekilmiş videolardan ayırt edilemiyor (özellikle kısa kareler için). İnsan diyaloğu olan uzun sahnelerde nüans gerekebiliyor, biz bu durumlarda hibrit (AI + gerçek seslendirme) yöntem kullanıyoruz."},
-    {"question": "Odunpazarı'nın gerçek sokaklarını AI nasıl gösterecek?", "answer": "İki yöntem: (1) Stok görsel + AI ile dramatize. (2) Sizden 2-3 telefon fotoğrafı alıyoruz, AI ile sinematize ediyoruz (image-to-video). Odunpazarı için arşivde yüzlerce referans var, atmosfer çok net çıkıyor."},
-    {"question": "Çiğ börek veya lokum yemek videosu AI ile inandırıcı mı?", "answer": "Evet, yemek videosu AI'nın en güçlü olduğu alan. Buhar, parlaklık, doku close-up çekimleri Veo 3 ile profesyonel stüdyo kalitesinde. Sizden ürünün gerçek fotoğrafını alıyoruz, AI sahneyi inşa ediyor."},
-    {"question": "Üniversite öğrencisine yönelik reklam için trend takibi yapıyor musunuz?", "answer": "Evet, Premium pakette TikTok ve Instagram'da o anki trend hook'lar (sound, geçiş, format) takip edilir. Tepebaşı'nda üni hedefli marka için son 7 gün viral olan formatları kullanırız."},
-    {"question": "Türkçe seslendirme AI mi gerçek mi?", "answer": "İki seçenek var: (1) AI seslendirme (ElevenLabs Türkçe, çok doğal). (2) Stüdyo seslendirme (gerçek seslendirmen, ek 1.500 TL). Premium pakette stüdyo dahil."},
-    {"question": "İhracat için İngilizce ve Arapça versiyon yapılabiliyor mu?", "answer": "Evet, Kampanya paketinde TR + EN, Premium'da TR + EN + AR. Lületaşı, seramik, baklava gibi ihracat ürünleri için yurt dışı pazarda kullanmak üzere çoklu dil ses + altyazı dahil."},
-    {"question": "Reklamı Meta + TikTok + Google Ads'de doğrudan kullanabilir miyim?", "answer": "Evet, tüm formatlar her platform için optimize. Meta Ads (Reels, Feed, Story), TikTok Ads (9:16), YouTube Shorts ve YouTube Ads (16:9 + 9:16), Google Display için 1:1. Hesap kurulumu ve kampanya yönetimi için ek hizmet veriyoruz."}
+  "features": [
+    {
+      "title": "Odunpazarı Tarihi Atmosfer",
+      "description": "Odunpazarı'nın renkli evleri, dar sokakları, tarihi hamamı, akşam ışığı. AI ile sahne dramatize, müşteri sanki orada gibi hissediyor. Butik kafeler, hediyelik dükkanları için."
+    },
+    {
+      "title": "Tepebaşı Üni Öğrenci Enerjisi",
+      "description": "Anadolu Üniversitesi kampüsü atmosferi, kafeterya, kütüphane, kampüs içi vibe. Üniversite öğrencisine yönelik kıyafet, takı, abonelik, kitap servisleri için."
+    },
+    {
+      "title": "Yemek Studio Çekimi (Çiğ Börek + Lokum + Midye)",
+      "description": "Çiğ börek dilimlenirken buhar, lokum diliminin parlaklığı, midye sosunun damlaması - restoran kalite stüdyo çekim. Profesyonel fotoğrafçı 8K TL isteyebiliyor; AI ile kısa bir film {{fiyat:ai-reklam-filmi:baslangic}} (KDV hariç)."
+    },
+    {
+      "title": "Seramik + Lületaşı + El Yapımı Vurgu",
+      "description": "Ürün dönerken doku, ışık, detay vurgu. Sanat filmi atmosferi. İhracat ve yurt dışı pazarda ürünü prestijli göstermek için."
+    },
+    {
+      "title": "Çoklu Platform Format Teslim",
+      "description": "Aynı reklam Instagram Reels (9:16), TikTok (9:16), Facebook Feed (1:1), YouTube Shorts (9:16), web header (16:9) - pakete göre 1, 2 veya 3 format; ek formatlar ayrıca tekliflendirilir."
+    },
+    {
+      "title": "A/B Test Varyasyonu",
+      "description": "Büyüme paketinde aynı filmden 2 kısa kesit: farklı hook, farklı CTA versiyonu. Hangisi daha çok dönüyor test edip kazananı boost ediyorsunuz."
+    }
   ],
-  "finalCtaHeadline": "Eskişehir işletmeniz için ilk AI reklam videosu 5 günde teslim",
-  "finalCtaSubtitle": "20 dakikalık Zoom brief görüşmesi yeterli. Hedef, ürün ve konsept üzerinde anlaşalım, Odunpazarı atmosferinden Tepebaşı genç hedefe sektörünüze özel video üretelim. PORTZEN İzmir merkezli, Eskişehir'de aktif müşteriler uzaktan."
+  "caseStudy": {
+    "title": "Örnek senaryo: Odunpazarı'nda butik kafe + hediyelik dükkânı için AI reels seti",
+    "paragraphs": [
+      "Örnek bir kurulum: Odunpazarı'nda butik kafe ve el yapımı hediyelik satan bir işletme düşünün. Telefonla çekilen reels'ler amatör duruyor, turist trafiği büyük ölçüde tabela ve Google Maps üzerinden geliyor; profesyonel çekim teklifi bütçeyi aşıyor.",
+      "Bu senaryoda dört farklı AI reklam videosu planlanır: Odunpazarı sokak atmosferi (tarihi evler, akşam ışığı, kafe önü), el yapımı seramik dönerken close-up, Türk kahvesi servis sahnesi ve turist deneyimi hikâyesi. Videolar Veo 3 + Kling kombinasyonuyla üretilir; Türkçe AI seslendirme eklenir, İngilizce ses/altyazı versiyonu ek iş olarak ayrıca tekliflendirilir. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir.",
+      "İşletme hem yerli müşteriye hem turiste hitap eden, mekânın atmosferini anlatan bir video setine sahip olur; yeni sezon veya ürün için ayrı çekim organize etmesi gerekmez. Görüntülenme ve ziyaretçi sonuçları sezona, konuma ve yayın düzenine göre değişir; burada rakam vaat etmiyoruz."
+    ],
+    "beforeAfter": [
+      {
+        "label": "Reels kalitesi",
+        "before": "Telefonla çekilmiş amatör reels",
+        "after": "Mekânın atmosferini anlatan sinematik AI reels"
+      },
+      {
+        "label": "Turist kitlesi",
+        "before": "Yalnızca tabela ve harita üzerinden ulaşım",
+        "after": "Turist deneyimini anlatan, İngilizce versiyonu planlanabilen videolar"
+      },
+      {
+        "label": "Ürün anlatımı",
+        "before": "El yapımı ürünler statik fotoğrafla gösteriliyor",
+        "after": "Seramik ve hediyelikler close-up AI videolarla gösteriliyor"
+      },
+      {
+        "label": "Video üretimi",
+        "before": "Ajans çekimi ve set günü gerekiyor",
+        "after": "Çekim ekibi olmadan AI ile üretim"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "AI ile çekilen videolar gerçek mi yoksa fark belli oluyor mu?",
+      "answer": "Veo 3 ve Kling 2.0 ile üretilen videolar, özellikle kısa karelerde oldukça gerçekçi sonuç veriyor. İnsan diyaloğu olan uzun sahnelerde nüans gerekebiliyor, biz bu durumlarda hibrit (AI + gerçek seslendirme) yöntem kullanıyoruz."
+    },
+    {
+      "question": "Odunpazarı'nın gerçek sokaklarını AI nasıl gösterecek?",
+      "answer": "İki yöntem: (1) Stok görsel + AI ile dramatize. (2) Sizden 2-3 telefon fotoğrafı alıyoruz, AI ile sinematize ediyoruz (image-to-video). Odunpazarı atmosferi için referans görselleri brief aşamasında birlikte seçiyoruz."
+    },
+    {
+      "question": "Çiğ börek veya lokum yemek videosu AI ile inandırıcı mı?",
+      "answer": "Evet, yemek videosu AI'nın en güçlü olduğu alan. Buhar, parlaklık, doku close-up çekimleri Veo 3 ile profesyonel stüdyo kalitesinde. Sizden ürünün gerçek fotoğrafını alıyoruz, AI sahneyi inşa ediyor."
+    },
+    {
+      "question": "Üniversite öğrencisine yönelik reklam için trend takibi yapıyor musunuz?",
+      "answer": "Evet. Senaryo ve hook yazarken TikTok ve Instagram'daki güncel formatları (ses, geçiş, kurgu) takip ediyoruz; aylık kısa video üretiminde senaryo ve hook yazımı Büyüme ve Kurumsal paketlere dahildir. Tepebaşı'nda üniversite öğrencisini hedefleyen bir marka için o dönem öne çıkan formatlara uygun kurgular öneriyoruz."
+    },
+    {
+      "question": "Türkçe seslendirme AI mi gerçek mi?",
+      "answer": "İki seçenek var: (1) AI seslendirme (ElevenLabs Türkçe, oldukça doğal) tüm AI reklam filmi paketlerine dahildir. (2) Gerçek bir seslendirmenle stüdyo kaydı isterseniz bu paketlere dahil değildir, ek iş olarak ayrıca tekliflendirilir. Hangisinin markanıza uygun olduğuna brief aşamasında birlikte karar veriyoruz."
+    },
+    {
+      "question": "İhracat için İngilizce ve Arapça versiyon yapılabiliyor mu?",
+      "answer": "Evet. Lületaşı, seramik, baklava gibi ihracat ürünleri için yurt dışı pazarda kullanmak üzere İngilizce ve Arapça seslendirme + altyazılı versiyonlar hazırlanabilir. Ek dil versiyonları paketlere standart olarak dahil değildir; ek iş olarak ayrıca tekliflendirilir. Aynı görseller korunup yalnızca ses ve altyazı değiştiği için üretim verimli ilerler."
+    },
+    {
+      "question": "Reklamı Meta + TikTok + Google Ads'de doğrudan kullanabilir miyim?",
+      "answer": "Evet, tüm formatlar her platform için optimize. Meta Ads (Reels, Feed, Story), TikTok Ads (9:16), YouTube Shorts ve YouTube Ads (16:9 + 9:16), Google Display için 1:1. Meta ve Google'da hesap kurulumu ve kampanya yönetimi Reklam yönetimi hizmetiyle ayrıca sunulur."
+    }
+  ],
+  "finalCtaHeadline": "Eskişehir işletmeniz için ilk AI reklam videonuzu planlayalım",
+  "finalCtaSubtitle": "20 dakikalık Zoom brief görüşmesi yeterli. Hedef, ürün ve konsept üzerinde anlaşalım, Odunpazarı atmosferinden Tepebaşı genç hedefe sektörünüze özel video üretelim. PORTZEN İzmir merkezli, Eskişehir'deki işletmelerle uzaktan çalışıyor."
 }

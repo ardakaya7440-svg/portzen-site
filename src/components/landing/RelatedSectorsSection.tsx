@@ -33,13 +33,13 @@ export function RelatedSectorsSection({ service }: Props) {
   if (sectors.length === 0) return null;
 
   return (
-    <section className="bg-paper py-section border-t-3 border-ink">
+    <section className="bg-white py-section border-t-3 border-ink/15">
       <div className="mx-auto max-w-container px-6">
         <Reveal>
           <div className="mb-10 max-w-2xl">
             <div
               className={cn(
-                "inline-block border-3 border-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-3 shadow-brutal-sm",
+                "inline-block border-3 border-ink/15 px-3 py-1 text-xs font-black tracking-wider mb-3 shadow-brutal-sm rounded-full",
                 TONE_BG[meta.tone],
                 TONE_TEXT[meta.tone]
               )}
@@ -51,7 +51,7 @@ export function RelatedSectorsSection({ service }: Props) {
             </h2>
             <p className="mt-3 text-body text-ink/70 max-w-prose">
               Sektörünüze özel kurguladığımız sayfalardan birini seçin — orada sizin işinize özel
-              problem, çözüm, fiyat ve örnek vakalar var.
+              problem, çözüm, fiyat ve örnek senaryolar var.
             </p>
           </div>
         </Reveal>
@@ -61,7 +61,7 @@ export function RelatedSectorsSection({ service }: Props) {
             <Reveal key={s.slug} delay={i * 30}>
               <Link
                 href={`/${service}/${s.slug}`}
-                className="group flex items-center justify-between gap-3 border-3 border-ink bg-paper px-4 py-3 shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal hover:bg-brand-yellow transition-all"
+                className="group flex items-center justify-between gap-3 border-3 border-ink/15 bg-paper px-4 py-3 shadow-brutal-sm hover:shadow-brutal hover:bg-lime transition-all rounded-full"
               >
                 <span className="font-display text-base font-black text-ink leading-tight">
                   {s.name}

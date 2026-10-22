@@ -30,7 +30,7 @@ WhatsApp AI asistanı, klasik "otomatik cevap" sisteminin çok ötesinde bir yap
 
 Klasik chatbot **kural tabanlıdır**. "Fiyat" kelimesini duyunca fiyat listesini gösterir. "Randevu" kelimesini duyunca randevu formu açar. Müşteri "acaba bu işin ücreti ne kadar tutar" derse anlamaz çünkü "fiyat" kelimesi geçmemiştir. AI asistan ise dili anlar; "ne kadar tutar", "kaç para", "ücreti ne", "fiyat aralığı" gibi onlarca varyasyonu aynı niyet olarak değerlendirir ve doğru cevabı verir.
 
-Bu fark sahada müşteri memnuniyetinde ciddi bir ayrım yaratıyor. Bir [AI bot kurulumu](/whatsapp-ai-asistani) ile klasik şablon cevap sistemi arasındaki müşteri tatmin farkı yapılan iç ölçümlerimizde %40'a yakın çıkıyor. Aynı bot Instagram DM tarafına da bağlanabiliyor; bu noktada DM yönetimi ve içerik üretimini birlikte yürüten [sosyal medya ajansı](/sosyal-medya-ajansi) ekibimiz tek bir akışta süreci kapatıyor.
+Bu fark, müşterinin derdini anlatmak için doğru kelimeyi tahmin etmek zorunda kalmamasını sağlıyor. Bir [AI bot kurulumu](/whatsapp-ai-asistani), klasik şablon cevap sisteminin takıldığı serbest soruları da yanıtlayabiliyor. Aynı asistan Kurumsal pakette Instagram DM tarafına da bağlanabiliyor (yorum ve hikâyeye kural tabanlı otomatik DM ise ayrı bir hizmet olan Instagram DM otomasyonunun kapsamındadır); bu noktada DM yönetimi ve içerik üretimini birlikte yürüten [sosyal medya ajansı](/sosyal-medya-ajansi) ekibimiz tek bir akışta süreci kapatıyor.
 
 ## Türk KOBİ'leri Neden WhatsApp AI Asistanına Geçiyor?
 
@@ -56,7 +56,7 @@ Patron bu süre boyunca işine devam eder. Sabah açtığında "8 rezervasyon ge
 
 WhatsApp AI asistanı kurulumu söz konusu olduğunda iki temel yol vardır. Birincisi WhatsApp Business uygulamasını telefondan kullanmak ve üzerine üçüncü taraf bir yazılımı bağlamak. Bu yol ucuzdur ama Meta tarafından **resmi değildir** ve hesabınızın bloklanma riski vardır. İkincisi resmi WhatsApp Business API (Cloud API) üzerinden kurulumdur. Bu yol biraz daha maliyetlidir ama hem yasal hem de ölçeklenebilirdir.
 
-Resmi API kullanıldığında işletmenizin yanına **yeşil tik** alma şansı doğar, mesaj limitleri çok daha yüksek olur ve Meta tarafından korunursunuz. Profesyonel bir kurulumda her zaman resmi API tercih edilmelidir. Konuyla ilgili teknik detayları [otomasyon hizmetlerimiz](/crm-otomasyonu) sayfasında daha derinlemesine açıklıyoruz.
+Resmi API kullanıldığında **yeşil tik** başvurusu yapma imkânı doğar (onay Meta'nın kararına bağlıdır), mesaj limitleri çok daha yüksek olur ve hesabınız Meta'nın resmi kurallarıyla çalışır. Profesyonel bir kurulumda her zaman resmi API tercih edilmelidir. Konuyla ilgili teknik detayları [otomasyon hizmetlerimiz](/crm-otomasyonu) sayfasında daha derinlemesine açıklıyoruz.
 
 ### Mesaj Maliyetleri ve Şeffaf Fiyatlandırma
 
@@ -73,7 +73,7 @@ Yani müşteri size yazdıktan sonra başlayan diyaloğun büyük bölümü mali
 
 ## WhatsApp AI Asistanı Nasıl Kurulur? Adım Adım Süreç
 
-KOBİ için WhatsApp AI asistanı kurmak teknik açıdan göründüğü kadar karmaşık değildir. Doğru ekiple çalıştığınızda 5-10 iş günü içinde sistem ayakta olur. Süreç şu şekilde işler:
+KOBİ için WhatsApp AI asistanı kurmak teknik açıdan göründüğü kadar karmaşık değildir. Doğru ekiple çalıştığınızda süreç net adımlarla ilerler; PORTZEN'de teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Süreç şu şekilde işler:
 
 ### 1. İşletme Senaryosu Çıkarma
 
@@ -95,11 +95,11 @@ GPT-4, Claude veya benzeri bir büyük dil modeli, sizin işletme tonunuza ve se
 
 ### 5. Entegrasyonlar (CRM, Takvim, Ödeme)
 
-İşletme AI asistanı tek başına çalışan bir sohbet kutusu değildir. Genellikle Google Takvim, randevu yazılımı, CRM, ödeme sistemleri ile entegre edilir. Bir berber dükkanı için kurduğumuz sistemde müşteri WhatsApp'tan saat seçer, AI ödeme linki gönderir, müşteri ödeme yapınca takvime randevu otomatik düşer. Bu tarz uçtan uca otomasyon için [otomasyon sistemlerimizi](/crm-otomasyonu) inceleyebilirsiniz.
+İşletme AI asistanı tek başına çalışan bir sohbet kutusu değildir. Genellikle Google Takvim, randevu yazılımı, CRM, ödeme sistemleri ile entegre edilir. Örneğin bir berber dükkanı kurulumunda müşteri WhatsApp'tan saat seçer, AI ödeme linki gönderir, müşteri ödeme yapınca takvime randevu otomatik düşer. Bu tarz uçtan uca otomasyon için [otomasyon sistemlerimizi](/crm-otomasyonu) inceleyebilirsiniz.
 
 ### 6. Test, Yayın ve Sürekli İyileştirme
 
-Sistem yayına alındıktan sonra ilk 2 hafta yakından izlenir. Hangi sorulara AI takıldı, hangi mesajlar insana aktarıldı, müşteri memnuniyeti nasıl analiz edilir ve bilgi tabanı güncellenir. WhatsApp AI asistanı yaşayan bir sistemdir; ilk gün ile 3. ay arasındaki performans farkı genelde 2 katın üzerindedir.
+Sistem yayına alındıktan sonraki ilk dönemde yakından izlenir. Hangi sorulara AI takıldı, hangi mesajlar insana aktarıldı, müşteri memnuniyeti nasıl analiz edilir ve bilgi tabanı güncellenir. WhatsApp AI asistanı yaşayan bir sistemdir; bilgi tabanı güncellendikçe yanıtların isabeti artar.
 
 ## Hangi Sektörler İçin Daha Fazla Anlam İfade Ediyor?
 
@@ -107,7 +107,7 @@ WhatsApp AI asistanı her sektörde işe yarar ama bazı sektörlerde geri dön�
 
 ### Sağlık ve Estetik Klinikleri
 
-Diş hekimleri, estetik klinikler, fizyoterapi merkezleri, dermatoloji klinikleri. Bu sektörlerde fiyat ve randevu soruları gün içinde onlarca kez tekrarlanır. Klasik resepsiyon personeli her soruya yetişemez; AI asistan bu yükü %80'e kadar azaltabilir.
+Diş hekimleri, estetik klinikler, fizyoterapi merkezleri, dermatoloji klinikleri. Bu sektörlerde fiyat ve randevu soruları gün içinde onlarca kez tekrarlanır. Klasik resepsiyon personeli her soruya yetişemez; AI asistan tekrarlı soruları üstlenerek bu yükün önemli bir kısmını alabilir.
 
 ### Restoran ve Cafe İşletmeleri
 
@@ -127,7 +127,7 @@ Kargom nerede, ürün iade edebilir miyim, indirim kuponu var mı sorularının 
 
 ## WhatsApp AI Asistanının Yatırım Geri Dönüşü (ROI)
 
-Bir KOBİ için WhatsApp AI asistanı maliyeti ortalama 25.000-60.000 TL arası kurulum + aylık 1.500-4.000 TL işletme giderine denk gelir. Bu rakamı duyduğunuzda "bu kadar paraya yarı zamanlı bir personel tutarım" diyebilirsiniz. Ancak hesabı doğru yapmak gerekir.
+Piyasada bir KOBİ için WhatsApp AI asistanı maliyeti ortalama 25.000-60.000 TL arası kurulum + aylık 1.500-4.000 TL işletme giderine denk gelir. PORTZEN'de bu kurulum AI müşteri asistanı paketleriyle yapılır: {{fiyatlar:ai-musteri-asistani}} (KDV hariç). Bu rakamı duyduğunuzda "bu kadar paraya yarı zamanlı bir personel tutarım" diyebilirsiniz. Ancak hesabı doğru yapmak gerekir.
 
 Yarı zamanlı bir müşteri temsilcisi:
 
@@ -142,10 +142,10 @@ AI asistan:
 - Aylık 1.500-4.000 TL (operasyon + lisans)
 - 7/24 çalışır
 - İzin, hastalık yok
-- Aynı anda 500+ müşteriyle yazışır
-- Performansı sürekli artar
+- Aynı anda çok sayıda müşteriyle yazışır (pakete göre aylık AI yanıt kotası vardır)
+- Bilgi tabanı güncellendikçe yanıtları iyileşir
 
-Üstelik AI asistan sadece "yanıt verme" işi yapmaz. Müşterinin daha önce ne sorduğunu hatırlar, kişiselleştirilmiş kampanya önerir, terk edilmiş randevuları geri kazanır. Doğru kurgulanmış bir sistemin 3 ay içinde kendini amorti ettiğini görüyoruz.
+Üstelik AI asistan sadece "yanıt verme" işi yapmaz. Müşterinin daha önce ne sorduğunu hatırlar, kişiselleştirilmiş kampanya önerir, terk edilmiş randevuları geri kazanır. Geri dönüş süresi mesaj hacminize ve dönüşüm oranınıza bağlıdır; bu hesabı ilk görüşmede kendi rakamlarınızla yapabiliriz.
 
 ## Sık Yapılan Hatalar ve Kaçınılması Gerekenler
 
@@ -159,10 +159,10 @@ WhatsApp AI asistanı kurulumunda en sık karşılaşılan 3 hata var. Bu hatala
 
 ## PORTZEN ile WhatsApp AI Asistanı Kurulumu: Sıfırdan Sisteme
 
-PORTZEN olarak Türk KOBİ'lerine özel WhatsApp AI asistanı kuruyoruz. Yaklaşımımızın farkı, yazılımı kurup sizi bırakmamak. İlk hafta işletmenizin gerçek müşteri konuşmalarını dinliyor, sektörünüzün tonunu çıkarıyor, sıkça gelen soruları haritalandırıyoruz. Sonra resmi WhatsApp Business API üzerinden, GPT-4 ve Claude tabanlı bir asistanı sizin marka diliniz ve süreçlerinizle eğitiyoruz.
+PORTZEN olarak Türk KOBİ'lerine özel WhatsApp AI asistanı kuruyoruz. Yaklaşımımızın farkı, yazılımı kurup sizi bırakmamak. İlk aşamada işletmenizin gerçek müşteri konuşmalarını dinliyor, sektörünüzün tonunu çıkarıyor, sıkça gelen soruları haritalandırıyoruz. Sonra resmi WhatsApp Business API üzerinden, GPT-4 ve Claude tabanlı bir asistanı sizin marka diliniz ve süreçlerinizle eğitiyoruz.
 
-Eczane, klinik, restoran, emlak ofisi, hukuk bürosu, e-ticaret markaları gibi farklı sektörlerde 100'ü aşkın WhatsApp AI asistanı kurduk. Her birinde kurulum sonrası 90 gün boyunca aktif iyileştirme sürecindeyiz; sistemi yayına alıp bırakmıyoruz. Bilgi tabanı genişlemeye, AI cevapları sektörünüzde daha keskinleşmeye devam ediyor. CRM, takvim, ödeme sistemleri ile uçtan uca entegrasyon yapıyoruz — yani müşteri sohbet kutusunda kalmıyor, doğrudan sisteminizin içine giriyor.
+Eczane, klinik, restoran, emlak ofisi, hukuk bürosu, e-ticaret markaları gibi farklı sektörler için WhatsApp AI asistanı kuruyoruz. Sistemi yayına alıp bırakmıyoruz: Büyüme paketinde ayda 2 saat, Kurumsal pakette ayda 6 saat iyileştirme ile bilgi tabanı genişlemeye, AI cevapları sektörünüzde daha keskinleşmeye devam ediyor. Büyüme paketinde randevu ve standart CRM entegrasyonu, Kurumsal pakette 4 standart entegrasyon dahil — yani müşteri sohbet kutusunda kalmıyor, doğrudan sisteminizin içine giriyor.
 
-Sıklıkla şu soruyla geliyorlar bize: "Benim işletmem için anlamlı mı, yoksa daha henüz erken mi?" Cevabı net: WhatsApp'a günde 10'dan fazla mesaj alan her işletme için anlamlı. Bu rakam sizinki için doğruysa, yatırımın geri dönüşü 3-6 ay arasında geliyor. Daha düşük hacimli işletmeler için ise daha basit bir [otomasyon paketi](/crm-otomasyonu) öneriyoruz.
+Sıklıkla şu soruyla geliyorlar bize: "Benim işletmem için anlamlı mı, yoksa daha henüz erken mi?" Cevabı net: WhatsApp'a günde 10'dan fazla mesaj alan her işletme için anlamlı. Bu rakam sizinki için doğruysa, yatırımın geri dönüşü çoğu işletmede birkaç ay içinde görülebiliyor; kesin süre mesaj hacminize ve dönüşüm oranınıza bağlı. Daha düşük hacimli işletmeler için ise daha basit bir [otomasyon paketi](/crm-otomasyonu) öneriyoruz.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

@@ -177,7 +177,7 @@ Matristen de anlaşılacağı gibi, hiçbir sistem her senaryonun cevabı değil
 - QR menü ve self sipariş: Müşterilerin telefonlarıyla menüyü açıp sipariş verebildiği QR menü çözümleri, masa devir hızını yüzde 20'ye kadar artırıyor. [Restoran QR menü ve online sipariş rehberimizde](/blog/restoran-qr-menu-online-siparis) detaylı kurulum adımlarını paylaşıyoruz.
 - WhatsApp sipariş: Türkiye'de 84 milyon aktif WhatsApp kullanıcısı var. WhatsApp üzerinden gelen siparişlerin doğrudan POS'a düşmesi, dijital sipariş kanallarını çeşitlendirmek isteyen işletmeler için fark yaratıyor. [WhatsApp AI asistanı nedir yazımız](/blog/whatsapp-ai-asistani-nedir) bu konuyu derinlemesine açıklıyor.
 - Muhasebe ve e-fatura: Logo, Mikro, Netsis, Luca gibi muhasebe yazılımlarıyla otomatik veri akışı, ay sonu kapanışlarını saatler değil dakikalar içinde bitiriyor.
-- CRM ve müşteri sadakati: Tekrar gelen müşteriyi tanıyıp ona özel kampanya sunmak, ortalama bilet tutarını yüzde 15-30 arasında artırıyor. PORTZEN'in [CRM otomasyonu çözümleri](/crm-otomasyonu), bu üç POS sisteminin tamamıyla çalışabilecek esnek altyapılar sunuyor.
+- CRM ve müşteri sadakati: Tekrar gelen müşteriyi tanıyıp ona özel kampanya sunmak, ortalama bilet tutarını artırmanın en doğrudan yollarından biri. PORTZEN'in [CRM otomasyonu çözümleri](/crm-otomasyonu), bu üç POS sisteminin tamamıyla çalışabilecek esnek altyapılar sunuyor.
 
 Entegrasyonun gücü, restoran işletmesinin günlük operasyon yükünü dramatik şekilde azaltır. Manuel veri girişi, çift kayıt ve hatalı raporlama gibi sorunlar, doğru entegrasyon planlamasıyla ortadan kalkar.
 
@@ -185,7 +185,7 @@ Entegrasyonun gücü, restoran işletmesinin günlük operasyon yükünü dramat
 
 ### SambaPOS, Adisyo ve MikroPOS arasında geçiş yapmak mümkün mü?
 
-Evet, ancak veri taşıma süreci dikkatli planlanmalıdır. Menü, müşteri, geçmiş satış ve stok verileri çoğunlukla Excel veya CSV formatına dönüştürülerek aktarılabilir. Geçiş süresince paralel kullanım önerilir. PORTZEN olarak müşterilerimize 7-14 günlük paralel kullanım sürecinde danışmanlık veriyoruz, böylece operasyon kaybı yaşanmıyor.
+Evet, ancak veri taşıma süreci dikkatli planlanmalıdır. Menü, müşteri, geçmiş satış ve stok verileri çoğunlukla Excel veya CSV formatına dönüştürülerek aktarılabilir. Geçiş süresince paralel kullanım önerilir. PORTZEN'in entegrasyon kurulumlarında geçişi paralel kullanım dönemiyle planlıyoruz; kurulumdan sonraki ilk 30 gün kurulum hataları giderilir, böylece operasyon kaybı en aza iner.
 
 ### En ucuz POS sistemi hangisi?
 
@@ -201,7 +201,7 @@ Temel kurulum için kasa bilgisayarı veya tablet, termal fiş yazıcı, mutfak 
 
 ### WhatsApp üzerinden gelen siparişi POS'a otomatik düşürmek mümkün mü?
 
-Evet, ancak bu doğrudan POS yazılımının değil, aracı bir entegrasyon çözümünün işidir. PORTZEN'in geliştirdiği WhatsApp AI asistanı, gelen siparişi otomatik tanıyıp SambaPOS, Adisyo veya MikroPOS API'sine ileterek mutfak yazıcısına düşürür. Bu sayede manuel sipariş girişi tamamen ortadan kalkar.
+Evet, ancak bu doğrudan POS yazılımının değil, aracı bir entegrasyon çözümünün işidir. PORTZEN'in WhatsApp AI asistanı, gelen siparişi otomatik tanıyıp POS'un API'si izin verdiği ölçüde SambaPOS, Adisyo veya MikroPOS'a ileterek mutfak yazıcısına düşürebilir; bu entegrasyon AI müşteri asistanının Büyüme ve Kurumsal paketlerindeki entegrasyon hakları içinde kurulur. Bu sayede WhatsApp siparişlerinin kasaya elle girilmesi büyük ölçüde ortadan kalkar.
 
 ## PORTZEN ile Restoran Otomasyonu
 
@@ -209,11 +209,11 @@ Doğru POS sistemi seçimi, restoran dijitalleşmesinin sadece ilk adımıdır. 
 
 PORTZEN olarak Türkiye'deki restoran, kafe, bar ve zincir işletmelere şu çözümleri sunuyoruz:
 
-- POS sistem seçimi danışmanlığı ve karşılaştırmalı analiz
-- SambaPOS, Adisyo ve MikroPOS için özel entegrasyon geliştirme
-- WhatsApp AI sipariş asistanı kurulumu ve POS entegrasyonu
-- QR menü tasarımı ve online sipariş altyapısı
+- WhatsApp AI sipariş asistanı ve POS entegrasyonu (AI müşteri asistanı paketleri)
+- SambaPOS, Adisyo, MikroPOS ve yemek platformları için entegrasyon akışları (iş otomasyonu paketleri; özel API bağlantıları Kurumsal pakette)
+- QR menü için web sitesi, online sipariş için e-ticaret altyapısı
 - Müşteri sadakat programları ve CRM otomasyonu
-- Yemek platformları (Yemeksepeti, Getir, Trendyol) entegrasyon optimizasyonu
 
-Restoranınızın dijital altyapısını sıfırdan kurmak ya da mevcut sisteminizi optimize etmek istiyorsanız, ücretsiz keşif görüşmesi için [iletişim sayfamızdan](/iletisim) bize ulaşabilirsiniz. İlk görüşmede sektör tecrübemizi, mevcut işletmenize özel öneri haritasıyla birlikte paylaşıyoruz. Hangi POS'u seçerseniz seçin, doğru entegrasyon planlamasıyla işletmenizin verimini katlayabilirsiniz.
+Her hizmet kendi paketiyle fiyatlanır; güncel tutarlar [fiyatlar sayfasında](/fiyatlar) (KDV hariç). POS seçimi için karşılaştırmalı önerimizi ücretsiz keşif görüşmesinde paylaşıyoruz.
+
+Restoranınızın dijital altyapısını sıfırdan kurmak ya da mevcut sisteminizi optimize etmek istiyorsanız, ücretsiz keşif görüşmesi için [iletişim sayfamızdan](/iletisim) bize ulaşabilirsiniz. İlk görüşmede sektör tecrübemizi, mevcut işletmenize özel öneri haritasıyla birlikte paylaşıyoruz. Hangi POS'u seçerseniz seçin, doğru entegrasyon planlamasıyla manuel işleri azaltıp operasyonu tek akışta toplayabilirsiniz.

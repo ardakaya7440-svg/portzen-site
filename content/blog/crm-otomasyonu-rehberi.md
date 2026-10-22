@@ -2,7 +2,7 @@
 title: "CRM Otomasyonu Rehberi: KOBİ'ler İçin Sıfırdan Kurulum"
 slug: "crm-otomasyonu-rehberi"
 category: "otomasyon"
-description: "CRM otomasyonu nedir, KOBİ'ler için nasıl sıfırdan kurulur, hangi araçlar tercih edilmeli? 2026 güncel rehberi ve gerçek vakalarla maliyet analizi."
+description: "CRM otomasyonu nedir, KOBİ'ler için nasıl sıfırdan kurulur, hangi araçlar tercih edilmeli? 2026 güncel rehberi ve örnek senaryolarla maliyet analizi."
 keywords: ["crm otomasyonu", "kobi için crm", "satış otomasyonu kurulumu", "müşteri ilişkileri yönetimi", "crm entegrasyonu", "whatsapp crm bağlantısı"]
 publishedAt: "2026-06-20"
 author: "Arda Kaya"
@@ -13,7 +13,7 @@ ogImage: "/blog/og/crm-otomasyonu-rehberi.png"
 
 # CRM Otomasyonu Rehberi: KOBİ'ler İçin Sıfırdan Kurulum
 
-Türkiye'de bir KOBİ patronuna "CRM kullanıyor musunuz?" diye sorduğunuzda alacağınız üç tipik cevaptan biri: "Excel tutuyoruz", "Numaraları telefonumda saklıyorum" ya da "Daha önce denedik ama kullanamadık". Halbuki **CRM otomasyonu**, doğru kurulduğunda 5 kişilik bir ekibin 15 kişilik bir ekibin işini yapmasını sağlayan en kritik yapı taşı. Müşteri verilerinin kaybolmaması, satış fırsatlarının takip altında olması, doğru zamanda doğru mesajın doğru kişiye gitmesi — hepsi CRM otomasyonunun marifeti. Bu rehberde CRM otomasyonunun ne olduğunu, neden 2026'da artık olmazsa olmaz hale geldiğini, KOBİ'ler için hangi araçların seçilmesi gerektiğini ve sıfırdan başarılı bir CRM otomasyon sistemi kurmanın adımlarını gerçek vakalarla ele alacağım.
+Türkiye'de bir KOBİ patronuna "CRM kullanıyor musunuz?" diye sorduğunuzda alacağınız üç tipik cevaptan biri: "Excel tutuyoruz", "Numaraları telefonumda saklıyorum" ya da "Daha önce denedik ama kullanamadık". Halbuki **CRM otomasyonu**, doğru kurulduğunda 5 kişilik bir ekibin 15 kişilik bir ekibin işini yapmasını sağlayan en kritik yapı taşı. Müşteri verilerinin kaybolmaması, satış fırsatlarının takip altında olması, doğru zamanda doğru mesajın doğru kişiye gitmesi — hepsi CRM otomasyonunun marifeti. Bu rehberde CRM otomasyonunun ne olduğunu, neden 2026'da artık olmazsa olmaz hale geldiğini, KOBİ'ler için hangi araçların seçilmesi gerektiğini ve sıfırdan başarılı bir CRM otomasyon sistemi kurmanın adımlarını örneklerle ele alacağım.
 
 ## CRM ve CRM Otomasyonu Arasındaki Fark
 
@@ -65,7 +65,7 @@ Müşterinin geçmiş satın almasına göre uygun ürün önerileri otomatik g�
 
 "Bu ay neden satış düştü?" sorusuna içgüdüsel cevap değil, gerçek veri cevap verir. Hangi kanaldan kaç müşteri geldi, dönüşüm oranı nasıl, ortalama satış tutarı nedir — hepsi raporlanır.
 
-[Otomasyon sistemleri](/crm-otomasyonu) kurarken bu altı faydanın her birini ayrı ayrı projelendiriyoruz. Lead kaynağının büyük bölümü Facebook ve Instagram reklamlarından geliyorsa, profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile lead form kampanyaları CRM'e doğrudan bağlanır ve gelen her başvuru ilk dakika içinde takibe alınır.
+[Otomasyon sistemleri](/crm-otomasyonu) kurarken bu altı faydanın her birini ayrı ayrı projelendiriyoruz. Lead kaynağının büyük bölümü Facebook ve Instagram reklamlarından geliyorsa, profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile lead form kampanyaları CRM'e doğrudan bağlanır ve gelen her başvuru otomatik olarak takibe alınır.
 
 ## KOBİ'ler İçin En Uygun CRM Araçları (2026)
 
@@ -214,7 +214,7 @@ Türkiye'de KOBİ'lerin müşteri iletişiminin büyük bölümü WhatsApp üzer
 
 ## CRM Otomasyon Maliyetleri
 
-Bir KOBİ için CRM otomasyon kurulumu maliyetleri:
+Piyasada bir KOBİ için CRM otomasyon kurulumu maliyetleri kabaca şöyle:
 
 | Kalem | Tek Seferlik | Aylık |
 |---|---|---|
@@ -226,7 +226,7 @@ Bir KOBİ için CRM otomasyon kurulumu maliyetleri:
 | Aylık bakım ve iyileştirme | - | 2.500-6.000 TL |
 | **Toplam** | **50.000-120.000 TL** | **5.000-14.000 TL** |
 
-Bu rakamı bir orta düzey satış asistanının maaşı (35.000-60.000 TL/ay) ile karşılaştırdığınızda, CRM otomasyonunun yaklaşık **birkaç ay içinde** kendini ödediği net görülüyor. Üstelik insan asistanın kapasitesi belirli, sistem ise ölçeklenebilir.
+Bu rakamı bir orta düzey satış asistanının maaşı (35.000-60.000 TL/ay) ile karşılaştırdığınızda, CRM otomasyonunun yaklaşık **birkaç ay içinde** kendini ödediği net görülüyor. Üstelik insan asistanın kapasitesi belirli, sistem ise ölçeklenebilir. Bu tablo piyasa genelini yansıtır; PORTZEN'de kurulum tek seferlik iş otomasyonu paketleriyle yapılır: {{fiyatlar:is-otomasyonu}} (KDV hariç). İsteğe bağlı aylık bakım ikinci aydan itibaren başlar; CRM lisansları hariçtir.
 
 ## En Sık Yapılan 5 Hata
 
@@ -270,8 +270,8 @@ Tek seferlik müşteriyi sadık müşteriye dönüştürmek için CRM kritik. Se
 
 PORTZEN olarak Türk KOBİ'leri için CRM otomasyon sistemleri kuruyoruz. Sadece bir CRM yazılımı kurmuyoruz; mevcut satış sürecinizi birlikte haritalayıp, dijital kanallarınızı (web sitesi, WhatsApp, Instagram, e-posta) tek havuzda topluyor, AI destekli otomatik akışları sektörünüze özel tasarlıyoruz. Kullandığımız temel araçlar HubSpot, Pipedrive ve Zoho — KOBİ ölçeğinize ve bütçenize göre seçim yapıyoruz.
 
-Hukuk büroları, klinikler, e-ticaret markaları, B2B üreticiler, emlak ofisleri ve hizmet işletmeleri için 60'ı aşkın CRM otomasyon projesini hayata geçirdik. Yaklaşımımızın belkemiği şu: sistem yayına alındıktan sonra 90 gün boyunca aktif optimizasyon, ekip eğitimi ve haftalık raporlama. Ekibinizin adoption oranı %80'in üzerine çıkmadan projeyi "tamamlandı" saymıyoruz.
+Hukuk büroları, klinikler, e-ticaret markaları, B2B üreticiler, emlak ofisleri ve hizmet işletmeleri için CRM otomasyonu kuruyoruz. Kurulum tek seferliktir: ilk 30 gün kurulum hatalarının giderilmesi dahildir, Büyüme ve Kurumsal paketlerde ekip eğitimi de yer alır; sonrasında isteğe bağlı aylık bakımla akışları birlikte izleyebiliriz.
 
 Eğer Excel ve telefon rehberiyle iş yapmaktan yorulduysanız, müşteri takiplerinin elinizden kaçtığını hissediyorsanız ya da var olan CRM'inizi kimse kullanmıyorsa, doğru noktadasınız. [Otomasyon sistemleri](/crm-otomasyonu) ve [AI bot kurulumu](/whatsapp-ai-asistani) hizmetlerimizle CRM'inizi uçtan uca canlı bir satış makinesine dönüştürüyoruz.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir görüşmede işletmeniz için uygun yapıyı netleştiririz.

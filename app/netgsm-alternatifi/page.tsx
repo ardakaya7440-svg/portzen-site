@@ -22,7 +22,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Netgsm Alternatifi | WhatsApp + Email + SMS Çok Kanallı Otomasyon - PORTZEN",
   description:
-    "Sadece SMS yerine WhatsApp + Email + SMS çoklu kanal ile daha yüksek dönüşüm ve iki yönlü müşteri iletişimi. PORTZEN çok kanallı mesajlaşma otomasyonu kurar.",
+    "Sadece SMS yerine WhatsApp + Email + SMS çoklu kanal ile iki yönlü müşteri iletişimi. PORTZEN tetikleyici tabanlı, çok kanallı mesajlaşma otomasyonu kurar.",
   keywords: [
     "netgsm alternatifi",
     "toplu sms alternatif",
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Netgsm Alternatifi | Çok Kanallı Mesajlaşma Otomasyonu - PORTZEN",
     description:
-      "Tek yönlü SMS yerine WhatsApp + Email + SMS karmasıyla daha açılır, daha dönüşür ve iki yönlü kampanyalar."
+      "Tek yönlü SMS yerine WhatsApp + Email + SMS karmasıyla iki yönlü, tetikleyici tabanlı kampanyalar."
   },
   twitter: {
     card: "summary_large_image",
     title: "Netgsm Alternatifi | PORTZEN",
     description:
-      "Sadece SMS yerine çoklu kanal (WhatsApp + Email + SMS) ile iki yönlü müşteri iletişimi ve daha yüksek dönüşüm."
+      "Sadece SMS yerine çoklu kanal (WhatsApp + Email + SMS) ile iki yönlü müşteri iletişimi ve tetikleyici tabanlı otomasyon."
   },
   alternates: { canonical: "https://portzenai.com/netgsm-alternatifi" },
   robots: { index: true, follow: true }
@@ -60,13 +60,13 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   serviceType: "Multi-channel Messaging Automation",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Toplu SMS yerine WhatsApp Business API, Email ve SMS'i bir arada kullanarak müşteriye doğru kanaldan ulaşan, iki yönlü ve yüksek dönüşümlü mesajlaşma otomasyon sistemi."
+    "Toplu SMS yerine WhatsApp Business API, Email ve SMS'i bir arada kullanarak müşteriye uygun kanaldan ulaşan, iki yönlü ve tetikleyici tabanlı mesajlaşma otomasyon sistemi."
 };
 
 const faqSchema = {
@@ -78,15 +78,15 @@ const faqSchema = {
       name: "Netgsm'i tamamen bırakmam mı gerekiyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hayır. SMS yine en hızlı acil bildirim kanalı. PORTZEN çoklu kanal otomasyon kurar: önce WhatsApp dener, açılmazsa email yedek, kritik durumda SMS yollar. Netgsm hesabınız SMS kanalı olarak entegre kalır, sadece daha az SMS göndereceğiniz için maliyet düşer."
+        text: "Hayır. SMS yine en hızlı acil bildirim kanalı. PORTZEN çoklu kanal otomasyon kurar: önce WhatsApp dener, açılmazsa email yedek, kritik durumda SMS yollar. Netgsm hesabınız SMS kanalı olarak entegre kalır; SMS yalnızca acil ve yedek durumlarda kullanılır."
       }
     },
     {
       "@type": "Question",
-      name: "SMS açılma oranı %95'miş, WhatsApp gerçekten daha mı iyi?",
+      name: "SMS'in açılma oranı çok yüksekmiş, WhatsApp gerçekten daha mı iyi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "SMS açılma oranı yüksek ama tıklama oranı düşüktür (~%5). WhatsApp Business mesajları %98 açılır ama daha önemlisi, müşteri direkt geri yazıp soru sorabilir, link tıklayabilir, ürün resmi görebilir. Dönüşüm 3-5 kat daha yüksek olur."
+        text: "SMS'in açılma oranı yüksektir ama müşteri SMS'e kolayca geri yazamaz, ürün resmi göremez. WhatsApp Business mesajlarında ise müşteri direkt geri yazıp soru sorabilir, link tıklayabilir, ürün resmi görebilir; satış konuşması aynı kanalda sürer."
       }
     },
     {
@@ -94,7 +94,7 @@ const faqSchema = {
       name: "WhatsApp Business API ücretsiz mi, SMS'ten ucuz mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Meta, WhatsApp Business API mesajlarını kategori bazlı (utility, marketing, authentication) ücretlendirir. Utility ve authentication kategorilerinde birim maliyet SMS'ten belirgin şekilde düşer, marketing kategorisinde ise dönüşüm SMS'ten çok daha yüksek olur. Fiyat brief görüşmesinde net paylaşılıyor."
+        text: "Meta, WhatsApp Business API mesajlarını kategori bazlı (utility, marketing, authentication) ücretlendirir. Utility ve authentication kategorilerinde birim maliyet SMS'ten belirgin şekilde düşer; marketing kategorisi ise görsel, buton ve iki yönlü konuşma imkânı sunar. Fiyat brief görüşmesinde net paylaşılıyor."
       }
     },
     {
@@ -102,7 +102,7 @@ const faqSchema = {
       name: "Email göndermek için ek hizmet mi alacağım?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "PORTZEN paketinde email gönderim altyapısı dahil. Resend, MailerSend, Brevo veya Amazon SES üzerinden, ihtiyaca göre. KVKK uyumlu açılma takibi, soft/hard bounce yönetimi, otomatik abonelik iptali ile birlikte gelir."
+        text: "Email gönderim altyapısının kurulumu PORTZEN kapsamındadır; Resend, MailerSend, Brevo veya Amazon SES üzerinden, ihtiyaca göre. Gönderim servisinin kullanım ücreti hizmet bedeline dahil değildir. KVKK gerekliliklerini dikkate alan açılma takibi, soft/hard bounce yönetimi, otomatik abonelik iptali ile birlikte gelir."
       }
     },
     {
@@ -118,7 +118,7 @@ const faqSchema = {
       name: "Toplu WhatsApp mesajı yollamak yasal mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet, resmi WhatsApp Business API üzerinden, açık rızası olan müşterilere, Meta'nın onayladığı şablonlarla gönderim tamamen yasaldır. PORTZEN tüm gönderimlerinizi Meta resmi iş ortağı altyapısı üzerinden yapar, kotanız ya da yasal sıkıntınız olmaz."
+        text: "Evet, resmi WhatsApp Business API üzerinden, açık rızası olan müşterilere, Meta'nın onayladığı şablonlarla gönderim tamamen yasaldır. PORTZEN gönderimleri Meta'nın resmi WhatsApp Business API'si üzerinden; Meta politikaları ve KVKK gereklilikleri dikkate alınarak kurgulanan şablon ve rıza süreçleriyle yürütür."
       }
     },
     {
@@ -126,7 +126,7 @@ const faqSchema = {
       name: "Kurulum süresi ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "WhatsApp Business API başvurusu Meta tarafında 7-14 gün sürer. Bu süre içinde PORTZEN tarafında email + SMS kanalları + otomasyon akışları kurulur. Toplam 14-21 gün içinde sistem canlıya geçer."
+        text: "WhatsApp Business API başvurusunun onay süresi Meta tarafında belirlenir (işletme doğrulaması, numara onayı). Bu süreçte PORTZEN tarafında email + SMS kanalları + otomasyon akışları kurulur. Toplam teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
       }
     }
   ]
@@ -148,15 +148,15 @@ const breadcrumbSchema = {
 
 const stats = [
   { metric: "İki yön", label: "Karşılıklı müşteri konuşması" },
-  { metric: "3x", label: "Daha yüksek dönüşüm oranı" },
-  { metric: "%98", label: "WhatsApp açılma oranı" },
+  { metric: "Tetikleyici", label: "Sepet, sipariş, randevu bazlı gönderim" },
+  { metric: "Resmi API", label: "Meta'nın WhatsApp Business API'si" },
   { metric: "3 kanal", label: "WhatsApp + Email + SMS" }
 ];
 
 const painPoints = [
   {
     title: "Tek kanal yetmiyor",
-    desc: "SMS açılır ama tıklanmaz. Müşteri geri yazamaz, soru soramaz, ürün resmi göremez. Dönüşüm %1-3 arası kalır."
+    desc: "SMS açılır ama çoğu zaman tıklanmaz. Müşteri geri yazamaz, soru soramaz, ürün resmi göremez."
   },
   {
     title: "Mesaj başı maliyet birikiyor",
@@ -182,15 +182,15 @@ const painPoints = [
 
 const comparisonRows = [
   { feature: "Fiyat modeli", manychat: "SMS başı sabit birim", portzen: "Kanal karması, brief bazlı" },
-  { feature: "Karakter limiti", manychat: "160 / 70 (Türkçe karakter)", portzen: "WhatsApp 1.024 / Email sınırsız" },
+  { feature: "Karakter limiti", manychat: "160 / 70 (Türkçe karakter)", portzen: "WhatsApp 1.024 / Email uzun içerik" },
   { feature: "İki yönlü iletişim", manychat: "Yok, sadece tek yön", portzen: "WhatsApp + Email reply otomatik" },
   { feature: "Açılma + tıklama takibi", manychat: "SMS'te sınırlı", portzen: "Tüm kanallar detay rapor" },
   { feature: "Otomasyon (tetikleyici tabanlı)", manychat: "Sadece toplu liste gönderim", portzen: "Sepet, sipariş, lead, doğum günü vs." },
   { feature: "Medya gönderimi", manychat: "Yok", portzen: "WhatsApp resim, video, PDF, katalog" },
-  { feature: "Şablon onayı", manychat: "Yok, sansürsüz gönderim riskli", portzen: "Meta onaylı şablonlar otomatik" },
+  { feature: "Şablon onayı", manychat: "Yok, sansürsüz gönderim riskli", portzen: "Şablonlar Meta onayına gönderilir" },
   { feature: "Birden çok kanal dağıtımı", manychat: "Sadece SMS", portzen: "Akıllı dağıtım (önce WhatsApp, sonra Email, sonra SMS)" },
-  { feature: "KVKK + açık rıza yönetimi", manychat: "Manuel takip", portzen: "Otomatik rıza akışı + VERBİS" },
-  { feature: "Logo / Mikro / CRM entegrasyon", manychat: "API var ama kurulum size kalır", portzen: "Hazır connector dahil" }
+  { feature: "KVKK + açık rıza yönetimi", manychat: "Manuel takip", portzen: "Otomatik rıza akışı (VERBİS kaydı hariç)" },
+  { feature: "Logo / Mikro / CRM entegrasyon", manychat: "API var ama kurulum size kalır", portzen: "Paketteki uygulama bağlantısı kapsamında" }
 ];
 
 const solutionSteps = [
@@ -202,7 +202,7 @@ const solutionSteps = [
   {
     icon: MessageCircle,
     title: "WhatsApp API",
-    description: "Meta resmi iş ortağı altyapımız üzerinden 7-14 günde WhatsApp Business API hattınız aktif olur. Yeşil tik dahil."
+    description: "Meta'nın resmi WhatsApp Business API'si için hattınızın başvurusu yapılır; onay süresi Meta tarafında belirlenir. Yeşil tik başvurusunda destek veriyoruz; onay Meta'nın kararıdır."
   },
   {
     icon: Sparkles,
@@ -212,35 +212,35 @@ const solutionSteps = [
   {
     icon: CheckCircle2,
     title: "Test + canlı",
-    description: "Küçük segment ile test gönderimi, 5 günlük gözlem, sonra tam canlıya alma. Eski Netgsm hesabınız 1 ay paralel açık kalır."
+    description: "Küçük segment ile test gönderimi ve gözlem, sonra tam canlıya alma. Geçiş döneminde eski Netgsm hesabınız paralel açık kalabilir."
   }
 ];
 
 const features = [
-  { icon: Smartphone, title: "WhatsApp Business API resmi", desc: "Meta resmi iş ortağı altyapısı. Yeşil tik, sınırsız mesaj kotası, şablon onay süreci dahil." },
+  { icon: Smartphone, title: "WhatsApp Business API resmi", desc: "Meta'nın resmi WhatsApp Business API'si üzerinden. Mesaj kotası Meta tarafından hesap kalitesine göre kademeli artırılır; şablon onay süreci dahil." },
   { icon: Mail, title: "E-mail altyapısı (Resend, Brevo, SES)", desc: "İhtiyacınıza göre doğru email sağlayıcı. Soft/hard bounce yönetimi, açılma + tıklama raporu standart." },
   { icon: Send, title: "SMS yedek olarak (NetGSM, İletimerkezi)", desc: "Acil bildirim için SMS yine devrede. NetGSM, İletimerkezi, Verimor seçenekleri arasından seçiyoruz." },
-  { icon: Boxes, title: "Akıllı kanal dağıtımı", desc: "Önce WhatsApp dener, 1 saat içinde okunmazsa email yollar, 24 saat içinde açılmazsa SMS gönderir. Optimum maliyet, maksimum dönüşüm." },
-  { icon: ShieldCheck, title: "KVKK + açık rıza yönetimi", desc: "Web form, WhatsApp girişi, email signup üzerinden otomatik rıza toplama. Aydınlatma metni, geri çekme, VERBİS dahil." },
+  { icon: Boxes, title: "Akıllı kanal dağıtımı", desc: "Önce WhatsApp dener, 1 saat içinde okunmazsa email yollar, 24 saat içinde açılmazsa SMS gönderir. Her mesaj önce uygun kanaldan gider, gerekirse yedek kanala geçer." },
+  { icon: ShieldCheck, title: "KVKK + açık rıza yönetimi", desc: "Web form, WhatsApp girişi, email signup üzerinden otomatik rıza toplama. Rıza geri çekme akışı dahil; aydınlatma metni ve VERBİS kaydı hukuki iş olduğundan hariç." },
   { icon: Wallet, title: "Şeffaf kanal raporlaması", desc: "Kanal başı gönderim, açılma, tıklama ve dönüşüm tek panelde şeffaf raporlanır. Sürpriz kalem yok, e-Arşiv fatura." }
 ];
 
 const faqs = [
   {
     q: "Netgsm'i tamamen bırakmam mı gerekiyor?",
-    a: "Hayır. SMS yine en hızlı acil bildirim kanalı (şifre, doğrulama kodu, kritik uyarı). PORTZEN çoklu kanal mantığıyla çalışır: pazarlama mesajları WhatsApp'tan gider, bilgilendirmeler email'den, acil durumlar SMS'ten. Netgsm hesabınız SMS kanalı olarak sistemde kalır, ama göndereceğiniz toplam SMS sayısı %60-70 azalır çünkü çoğu içerik daha ucuz ve dönüşümü yüksek kanallara dağıtılır."
+    a: "Hayır. SMS yine en hızlı acil bildirim kanalı (şifre, doğrulama kodu, kritik uyarı). PORTZEN çoklu kanal mantığıyla çalışır: pazarlama mesajları WhatsApp'tan gider, bilgilendirmeler email'den, acil durumlar SMS'ten. Netgsm hesabınız SMS kanalı olarak sistemde kalır; SMS yalnızca acil ve yedek durumlarda kullanılır, içeriklerin çoğu WhatsApp ve email kanallarına dağıtılır."
   },
   {
-    q: "SMS açılma oranı %95'miş, WhatsApp gerçekten daha mı iyi?",
-    a: "SMS açılma oranı gerçekten yüksek (~%95), ama bu sayı bağımsız metriktir. Tıklama oranı genelde %3-5, dönüşüm %1-3 arası. WhatsApp Business mesajları benzer şekilde %98 açılır ama müşteri direkt geri yazabilir, soru sorabilir, ürün resmi görebilir, link tıklayabilir, hatta cevap olarak sipariş verebilir. Sektör verilerine göre WhatsApp dönüşüm oranı SMS'ten 3-5 kat yüksek. Üstelik utility kategorisinde mesaj başı maliyet daha düşük."
+    q: "SMS'in açılma oranı çok yüksekmiş, WhatsApp gerçekten daha mı iyi?",
+    a: "SMS'in açılma oranı gerçekten yüksektir, ama açılma tek başına yeterli bir metrik değildir: müşteri SMS'e kolayca geri yazamaz, ürün resmi göremez. WhatsApp Business mesajlarında ise müşteri direkt geri yazabilir, soru sorabilir, ürün resmi görebilir, link tıklayabilir, hatta cevap olarak sipariş verebilir. Üstelik utility kategorisinde mesaj başı maliyet daha düşüktür."
   },
   {
     q: "WhatsApp Business API ücretsiz mi, SMS'ten ucuz mu?",
-    a: "Ücretsiz değil ama daha verimli. Meta, WhatsApp Business API mesajlarını kategori bazlı ücretlendirir: utility (sipariş bildirimi, randevu hatırlatma), marketing (promosyon, kampanya) ve authentication (doğrulama kodu). Utility ve authentication kategorilerinde birim maliyet SMS'e kıyasla belirgin şekilde düşer; marketing kategorisinde ise dönüşüm SMS'ten çok daha yüksektir. Türkçe karakter içeren SMS'lerin iki mesaja bölünmesi maliyet farkını daha da açar. Fiyat brief görüşmesinde net paylaşılıyor."
+    a: "Ücretsiz değil ama daha verimli. Meta, WhatsApp Business API mesajlarını kategori bazlı ücretlendirir: utility (sipariş bildirimi, randevu hatırlatma), marketing (promosyon, kampanya) ve authentication (doğrulama kodu). Utility ve authentication kategorilerinde birim maliyet SMS'e kıyasla belirgin şekilde düşer; marketing kategorisi ise görsel, buton ve iki yönlü konuşma imkânı sunar. Türkçe karakter içeren SMS'lerin iki mesaja bölünmesi maliyet farkını daha da açar. Fiyat brief görüşmesinde net paylaşılıyor."
   },
   {
     q: "Email göndermek için ek hizmet mi alacağım?",
-    a: "Hayır, PORTZEN paketinde email gönderim altyapısı dahil. İhtiyacınıza göre Resend (developer dostu, modern), MailerSend (Mailchimp benzeri), Brevo (eski Sendinblue, KOBİ dostu) veya Amazon SES (yüksek hacim, ucuz) üzerinden gönderim yapılır. Hangi sağlayıcının seçileceğini aylık gönderim hacminize, açılma takibi ihtiyacınıza ve fiyat hassasiyetinize göre birlikte belirliyoruz. Soft / hard bounce yönetimi, otomatik abonelik iptali, KVKK uyumlu açılma takibi standart gelir."
+    a: "Hayır, email gönderim altyapısının kurulumu PORTZEN kapsamındadır; gönderim servisinin kullanım ücreti hizmet bedeline dahil değildir. İhtiyacınıza göre Resend (developer dostu, modern), MailerSend (Mailchimp benzeri), Brevo (eski Sendinblue, KOBİ dostu) veya Amazon SES (yüksek hacim, ucuz) üzerinden gönderim yapılır. Hangi sağlayıcının seçileceğini aylık gönderim hacminize, açılma takibi ihtiyacınıza ve fiyat hassasiyetinize göre birlikte belirliyoruz. Soft / hard bounce yönetimi, otomatik abonelik iptali, KVKK gerekliliklerini dikkate alan açılma takibi standart gelir."
   },
   {
     q: "Mevcut müşteri listemi taşıyabilir miyim?",
@@ -248,11 +248,11 @@ const faqs = [
   },
   {
     q: "Toplu WhatsApp mesajı yollamak yasal mı?",
-    a: "Evet, resmi WhatsApp Business API üzerinden, açık rızası olan müşterilere, Meta'nın onayladığı şablonlarla gönderim tamamen yasaldır. Yasal olmayan: kişisel WhatsApp hesabıyla toplu pazarlama mesajı yollamak (Meta otomatik banlar), izinsiz numaralara mesaj yollamak (KVKK ihlali), Meta onayı olmayan şablonla pazarlama mesajı yollamak. PORTZEN tüm gönderimlerinizi Meta resmi iş ortağı altyapısı üzerinden yapar, yeşil tik alır, şablonlarınızı Meta'nın onaylama sürecinden geçirir. Detaylı bilgi için WhatsApp toplu mesaj yasal rehberimize bakabilirsiniz."
+    a: "Evet, resmi WhatsApp Business API üzerinden, açık rızası olan müşterilere, Meta'nın onayladığı şablonlarla gönderim tamamen yasaldır. Yasal olmayan: kişisel WhatsApp hesabıyla toplu pazarlama mesajı yollamak (Meta otomatik banlar), izinsiz numaralara mesaj yollamak (KVKK ihlali), Meta onayı olmayan şablonla pazarlama mesajı yollamak. PORTZEN tüm gönderimlerinizi Meta'nın resmi WhatsApp Business API'si üzerinden yapar, yeşil tik başvurusunda destek verir (onay Meta'nın kararıdır), şablonlarınızı Meta'nın onaylama sürecinden geçirir. Detaylı bilgi için WhatsApp toplu mesaj yasal rehberimize bakabilirsiniz."
   },
   {
     q: "Kurulum süresi ne kadar?",
-    a: "WhatsApp Business API başvurusu Meta tarafında 7-14 gün sürer (iş hesabı doğrulama, Facebook Business Manager onayı, telefon numarası verifikasyonu). Bu süre içinde PORTZEN tarafında email altyapısı + SMS yedek kanal entegrasyonu + 5-20 otomasyon akışı kurulur. Toplam 14-21 gün içinde sistem canlıya geçer. İlk hafta küçük segmentle test gönderimi, açılma + tıklama + dönüşüm raporu, sonra tam canlıya alma. Eski Netgsm hesabınız ilk ay paralel açık kalır, sorun olursa anında geri dönebilirsiniz."
+    a: "WhatsApp Business API başvurusunun onay süresi Meta tarafında belirlenir (iş hesabı doğrulama, Facebook Business Manager onayı, telefon numarası verifikasyonu). Bu süreçte PORTZEN tarafında email altyapısı + SMS yedek kanal entegrasyonu + paketinizdeki iş akışı sayısı kadar otomasyon akışı kurulur. Toplam teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Önce küçük segmentle test gönderimi yapılır, açılma + tıklama + dönüşüm raporlanır, sonra tam canlıya alınır. Geçiş döneminde eski Netgsm hesabınız paralel açık kalabilir, sorun olursa geri dönebilirsiniz."
   }
 ];
 
@@ -264,7 +264,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -277,32 +277,32 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-green text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Send className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Netgsm Alternatifi</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   Netgsm Alternatifi: WhatsApp + Email + SMS Çoklu Kanal Otomasyon
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Tek başına SMS göndermek 2026'da yetersiz. Müşteri WhatsApp'ta ulaşılabilir, email'de okur, SMS'i acil için kullanır. PORTZEN üç kanalı akıllıca dağıtır, %40 daha düşük maliyetle 3 kat daha yüksek dönüşüm sağlar.
+                  Tek başına SMS göndermek 2026&apos;da yetersiz. Müşteri WhatsApp&apos;ta ulaşılabilir, email&apos;de okur, SMS&apos;i acil için kullanır. PORTZEN üç kanalı tetikleyicilere göre dağıtır; her mesaj önce uygun kanaldan gider, gerekirse yedek kanala geçer.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/whatsapp-ai-asistani"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     WhatsApp AI Asistanı <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -316,8 +316,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-green text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -333,23 +333,23 @@ export default function Page() {
       </section>
 
       {/* 2. NEDEN ALTERNATİF */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Sadece SMS'in 6 zayıflığı
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
+                Sadece SMS&apos;in 6 zayıflığı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                SMS hızlıdır ama tek başına 2026'da yetersiz kalır.
+                SMS hızlıdır ama tek başına 2026&apos;da yetersiz kalır.
               </h2>
             </div>
           </Reveal>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {painPoints.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-paper bg-brand-green text-paper mb-4">
+                <div className="border-3 border-ink/10 bg-light p-5 h-full rounded-2xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-ink/10 bg-slate text-white mb-4 rounded-full">
                     <X className="h-5 w-5" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2">{p.title}</h3>
@@ -362,11 +362,11 @@ export default function Page() {
       </section>
 
       {/* 3. KARŞILAŞTIRMA TABLOSU */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Yan yana karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -376,12 +376,12 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">Sadece SMS (Netgsm vb.)</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -394,7 +394,7 @@ export default function Page() {
                           <span className="text-xs">{row.manychat}</span>
                         </div>
                       </td>
-                      <td className="p-4 text-center text-sm bg-brand-yellow/30 text-ink">
+                      <td className="p-4 text-center text-sm bg-light text-ink">
                         <div className="flex flex-col items-center gap-1">
                           <Check className="h-4 w-4 text-green-700" />
                           <span className="text-xs font-bold">{row.portzen}</span>
@@ -408,22 +408,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak.</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Not.</strong> Karşılaştırma genel bilgilendirme amaçlıdır; SMS sağlayıcılarının özellik ve fiyatları değişebilir, güncel bilgi için sağlayıcınızla kontrol edin.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 4. PORTZEN ÇÖZÜMÜ */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Geçiş süreci
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                21 günde tek kanaldan çok kanala
+                4 adımda tek kanaldan çok kanala
               </h2>
             </div>
           </Reveal>
@@ -432,8 +432,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -447,12 +447,12 @@ export default function Page() {
       </section>
 
       {/* 5. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                PORTZEN'in farkı
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                PORTZEN&apos;in farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 Üç kanal, tek panel, akıllı dağıtım
@@ -464,7 +464,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -477,11 +477,11 @@ export default function Page() {
       </section>
 
       {/* 6. USE CASES */}
-      <section className="bg-brand-green text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Gerçek kullanım senaryoları
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek kullanım senaryoları
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -492,53 +492,53 @@ export default function Page() {
 
           <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <Reveal delay={150}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                <div className="text-xs font-black uppercase tracking-wider text-brand-green mb-2">Senaryo 1</div>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                <div className="text-xs font-black uppercase tracking-wider text-ink mb-2">Senaryo 1</div>
                 <h3 className="font-display text-lg font-black mb-3">Sepette unutulan ürün</h3>
                 <p className="text-sm leading-relaxed">
-                  E-ticaret müşterisi sepete ürün koymuş, ödemeden çıkmış. PORTZEN 1 saat sonra WhatsApp'tan ürün resmiyle hatırlatır. 6 saat sonra email yedek. SMS gerek yok. Optimum kanal karması, düşük birim maliyet.
+                  E-ticaret müşterisi sepete ürün koymuş, ödemeden çıkmış. PORTZEN 1 saat sonra WhatsApp&apos;tan ürün resmiyle hatırlatır. 6 saat sonra email yedek. SMS gerek yok. Optimum kanal karması, düşük birim maliyet.
                 </p>
               </div>
             </Reveal>
             <Reveal delay={200}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                <div className="text-xs font-black uppercase tracking-wider text-brand-green mb-2">Senaryo 2</div>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                <div className="text-xs font-black uppercase tracking-wider text-ink mb-2">Senaryo 2</div>
                 <h3 className="font-display text-lg font-black mb-3">Randevu hatırlatma</h3>
                 <p className="text-sm leading-relaxed">
-                  Klinik / kuaför / hizmet sektörü için 24 saat önce WhatsApp + 2 saat önce SMS. Müşteri WhatsApp'tan onaylar veya iptal eder. No-show oranı %30 düşer.
+                  Klinik / kuaför / hizmet sektörü için 24 saat önce WhatsApp + 2 saat önce SMS. Müşteri WhatsApp&apos;tan onaylar veya iptal eder; no-show oranının düşmesi hedeflenir.
                 </p>
               </div>
             </Reveal>
             <Reveal delay={250}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                <div className="text-xs font-black uppercase tracking-wider text-brand-green mb-2">Senaryo 3</div>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                <div className="text-xs font-black uppercase tracking-wider text-ink mb-2">Senaryo 3</div>
                 <h3 className="font-display text-lg font-black mb-3">Promosyon kampanyası</h3>
                 <p className="text-sm leading-relaxed">
-                  Aylık indirim kampanyası için WhatsApp marketing şablonu (resim + buton + link). Email yedek. SMS sadece WhatsApp / email olmayan segment. %3x dönüşüm.
+                  Aylık indirim kampanyası için WhatsApp marketing şablonu (resim + buton + link). Email yedek. SMS sadece WhatsApp / email olmayan segment. Müşteri görsel ve butonla doğrudan aksiyon alabilir.
                 </p>
               </div>
             </Reveal>
             <Reveal delay={300}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                <div className="text-xs font-black uppercase tracking-wider text-brand-green mb-2">Senaryo 4</div>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                <div className="text-xs font-black uppercase tracking-wider text-ink mb-2">Senaryo 4</div>
                 <h3 className="font-display text-lg font-black mb-3">Tahsilat hatırlatma</h3>
                 <p className="text-sm leading-relaxed">
-                  Vadesi geçen fatura için nazik WhatsApp + ödeme linkli email. Müşteri WhatsApp'tan direkt ödeyebilir (iyzico / Param link). Muhasebe takip işi sıfırlanır.
+                  Vadesi geçen fatura için nazik WhatsApp + ödeme linkli email. Müşteri WhatsApp&apos;tan direkt ödeyebilir (iyzico / Param link). Muhasebe ekibi hatırlatmaları elle göndermez.
                 </p>
               </div>
             </Reveal>
             <Reveal delay={350}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                <div className="text-xs font-black uppercase tracking-wider text-brand-green mb-2">Senaryo 5</div>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                <div className="text-xs font-black uppercase tracking-wider text-ink mb-2">Senaryo 5</div>
                 <h3 className="font-display text-lg font-black mb-3">Doğrulama kodu</h3>
                 <p className="text-sm leading-relaxed">
-                  Login / işlem doğrulama kodu. WhatsApp authentication şablonu birim başı en düşük kanaldır. SMS yedek (kullanıcı WhatsApp'ta değilse). Hızlı + kanal karması ile optimize.
+                  Login / işlem doğrulama kodu. WhatsApp authentication şablonu birim başı en düşük kanaldır. SMS yedek (kullanıcı WhatsApp&apos;ta değilse). Hızlı + kanal karması ile optimize.
                 </p>
               </div>
             </Reveal>
             <Reveal delay={400}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                <div className="text-xs font-black uppercase tracking-wider text-brand-green mb-2">Senaryo 6</div>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                <div className="text-xs font-black uppercase tracking-wider text-ink mb-2">Senaryo 6</div>
                 <h3 className="font-display text-lg font-black mb-3">Sipariş takibi</h3>
                 <p className="text-sm leading-relaxed">
                   Sipariş alındı, hazırlanıyor, kargoya verildi, teslim edildi. Her aşamada WhatsApp utility. Müşteri tek bir konuşma içinde tüm bilgilendirmeyi alır.
@@ -550,11 +550,11 @@ export default function Page() {
       </section>
 
       {/* 8. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
@@ -565,7 +565,7 @@ export default function Page() {
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -575,23 +575,23 @@ export default function Page() {
 
           <Reveal delay={300}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">CRM otomasyonu da gerek mi?</h3>
                 <p className="text-sm opacity-85 mb-3">
                   Mesajlaşma ile CRM birlikte çalışırsa kazançlı. Detaylı CRM otomasyon sayfası.
                 </p>
-                <Link href="/crm-otomasyonu" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/crm-otomasyonu" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   CRM Otomasyonu <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">WhatsApp AI asistanı</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  WhatsApp'a AI cevap veren asistan eklemek isterseniz, detaylı sayfa burada.
+                  WhatsApp&apos;a AI cevap veren asistan eklemek isterseniz, detaylı sayfa burada.
                 </p>
-                <Link href="/whatsapp-ai-asistani" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/whatsapp-ai-asistani" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   WhatsApp AI Asistanı <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
@@ -601,9 +601,9 @@ export default function Page() {
       </section>
 
       {/* 9. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
                 Tek yönlü SMS akışını çok kanallı otomasyona taşıyalım.
@@ -618,21 +618,21 @@ export default function Page() {
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905015884853"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  href="tel:+905318639117"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
                 </a>
@@ -642,7 +642,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

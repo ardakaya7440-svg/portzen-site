@@ -190,13 +190,13 @@ Evet, ajansların ve orta ölçekli markaların yaklaşık %40’ı hibrit kulla
 
 ## PORTZEN ile Sosyal Medya Yönetimi
 
-Doğru aracı seçmek hikayenin sadece üçte biri. Geri kalan kısım strateji, içerik kalitesi ve sürdürülebilir operasyon. PORTZEN olarak Türk KOBİ’lerle 6 yıldır çalışıyoruz ve şunu net biçimde gördük: araç seçimi kadar, o aracı işletmenizin gerçekliğine uyarlayan ekip kritik.
+Doğru aracı seçmek hikayenin sadece üçte biri. Geri kalan kısım strateji, içerik kalitesi ve sürdürülebilir operasyon. PORTZEN olarak yaklaşımımız net: araç seçimi kadar, o aracı işletmenizin gerçekliğine uyarlayan ekip de kritik.
 
 [Sosyal medya ajansı](/sosyal-medya-ajansi) hizmetimiz kapsamında size üç şey sunuyoruz:
 
 - **Araç seçimi ve kurulum:** İşletmenizin kanal stratejisi, bütçe ve ekip yapısına göre yukarıdaki 6 araçtan en uygun olanını seçiyoruz, hesap mimarinizi kuruyoruz ve takvim şablonlarınızı oluşturuyoruz.
-- **Aylık içerik üretimi ve yayın:** Strateji, çekim, tasarım, copy, yayın ve raporlama dahil tam paket. Aylık 12-30 post arası farklı paketler sunuyoruz.
-- **Performans takibi ve optimizasyon:** Aylık rapor, çeyreklik strateji revizyonu, A/B test ve [Meta reklam ajansı](/meta-reklam-ajansi) hizmetimizle ücretli reklam entegrasyonu.
+- **Aylık içerik üretimi ve yayın:** Strateji, tasarım, video, copy ve yayın. Pakete göre ayda toplam 10, 20 veya 30 özgün içerik; saha çekimi yalnızca Kurumsal pakette (ayda 1 gün, İzmir içi). Paketler: {{fiyatlar:sosyal-medya}} (KDV hariç).
+- **Performans takibi ve reklam:** Meta reklam yönetimi Büyüme paketinde, Meta + Google reklam yönetimi Kurumsal pakette dahil; Başlangıç paketinde reklam ayrı [Meta reklam ajansı](/meta-reklam-ajansi) hizmetiyle yönetilir.
 
 Eğer 2026’da sosyal medya operasyonunuzu profesyonelleştirmek istiyorsanız ve doğru araç + doğru strateji kombinasyonunu kurmak istiyorsanız [iletişim sayfamız](/iletisim) üzerinden bize ulaşın. İlk 30 dakikalık keşif görüşmesi ücretsiz. İşletmenizin mevcut durumunu birlikte değerlendirelim, hangi araç ve hangi yaklaşımın sizin için doğru olduğunu netleştirelim.
 

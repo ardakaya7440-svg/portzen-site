@@ -62,7 +62,7 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   serviceType: "E-Commerce Platform",
@@ -88,7 +88,7 @@ const faqSchema = {
       name: "Next.js e-ticaret nedir, neden Ticimax'tan daha hızlı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Next.js sunucu tarafında render ile sayfaları milisaniyeler içinde getirir. Ticimax monolitik PHP altyapısı, plugin yükü ve eski tema mimarisi sebebiyle ortalama TTFB 800ms üzeri. Next.js'te 100ms altı tipik."
+        text: "Next.js sunucu tarafında render ile sayfaları milisaniyeler içinde getirir. Ticimax monolitik PHP altyapısı, plugin yükü ve eski tema mimarisi sebebiyle ortalama TTFB 800ms üzeri. Next.js'te edge önbellekleme ile çok daha düşük TTFB hedeflenir."
       }
     },
     {
@@ -96,7 +96,7 @@ const faqSchema = {
       name: "Ticimax'tan PORTZEN'e taşıma süresi ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Ürün katalog boyutuna bağlı. 500 ürün altı için 6 hafta, 5.000 ürün için 10 hafta tipik. Ürün, kategori, müşteri ve sipariş geçmişi tamamen taşınır. URL yapısı korunarak SEO kaybı önlenir."
+        text: "Teslim süresi katalog boyutu ve kapsama göre teklifte yazılı olarak belirtilir. Paketlerde dosyadan ürün aktarımı adedi yazılıdır (en yüksek adet Kurumsal pakette); daha büyük kataloglar ile müşteri ve sipariş geçmişi aktarımı teklifte ayrıca belirtilir. URL yapısı korunarak SEO kaybı en aza indirilir."
       }
     },
     {
@@ -104,7 +104,7 @@ const faqSchema = {
       name: "AI hangi noktalarda kullanılıyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Ürün açıklaması otomatik yazımı, ürün görseli iyileştirme, kişiselleştirilmiş öneri motoru, sepet terk e-mail kişiselleştirmesi, müşteri sorularını yanıtlayan chatbot, kategori sayfa SEO içeriği otomatik üretimi. Ticimax'ta hiçbiri yerleşik değildir."
+        text: "Ürün açıklaması otomatik yazımı, ürün görseli iyileştirme, kişiselleştirilmiş öneri motoru, sepet terk e-mail kişiselleştirmesi, müşteri sorularını yanıtlayan chatbot, kategori sayfa SEO içeriği otomatik üretimi. Bu özellikler kapsama göre eklenir ve teklifte yazılı olarak belirtilir; chatbot ayrı bir hizmet olan AI müşteri asistanı kapsamındadır. Ticimax'ta hiçbiri yerleşik değildir."
       }
     },
     {
@@ -112,7 +112,7 @@ const faqSchema = {
       name: "Aylık lisans ücreti ödüyor muyum?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hayır. PORTZEN tek seferlik proje ücreti + opsiyonel aylık bakım paketi modelidir. Ticimax'ın aylık lisans ücretinin aksine kod size aittir. Fiyat brief görüşmesinde net paylaşılıyor."
+        text: "PORTZEN'e aylık lisans ücreti ödemezsiniz: e-ticaret sitesi tek seferlik proje bedelidir, yayından sonraki bakım isteğe bağlı aylık hizmettir. Hazır altyapı kullanılan projelerde altyapı ve harici lisans ücretleri hariçtir ve teklifte ayrıca belirtilir. Paket fiyatları yazılıdır; kesin kapsam teklifte belirtilir."
       }
     },
     {
@@ -120,7 +120,7 @@ const faqSchema = {
       name: "Hosting maliyeti ne olur?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Next.js Vercel veya Netlify üzerinde uygun bir hosting masrafı çıkarır. Ticimax kendi hosting'inde tutar fakat lisansa dahil değildir, ayrı abonelik gerekir. Toplam maliyet PORTZEN tarafında daha düşük."
+        text: "Next.js Vercel veya Netlify üzerinde uygun bir hosting masrafı çıkarır. Ticimax kendi hosting'inde tutar fakat lisansa dahil değildir, ayrı abonelik gerekir. Lisans, hosting ve modül giderlerinden oluşan toplam maliyeti keşif görüşmesinde sizin durumunuza göre birlikte hesaplıyoruz."
       }
     },
     {
@@ -128,7 +128,7 @@ const faqSchema = {
       name: "Ödeme sağlayıcısı entegrasyonu var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "iyzico, PayTR, Param, Garanti Sanal POS, Akbank, İş Bankası, Stripe entegrasyonları hazır şablonlu olarak gelir. Multi-PSP routing (sağlayıcı reddederse diğerine fallback) standarttır."
+        text: "Tüm e-ticaret paketlerinde ödeme bağlantısı dahildir; iyzico, PayTR, Param, Garanti Sanal POS, Akbank, İş Bankası veya Stripe için hazır şablonlarımız var. Birden fazla sağlayıcı ve Multi-PSP routing (sağlayıcı reddederse diğerine fallback) teklifte ayrıca belirtilir."
       }
     }
   ]
@@ -149,10 +149,10 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "100ms", label: "TTFB Next.js ile" },
+  { metric: "Next.js", label: "Sunucu tarafı render mimarisi" },
   { metric: "AI", label: "Ürün önerisi ve içerik" },
-  { metric: "0 lisans", label: "Kod size ait" },
-  { metric: "6 hafta", label: "Tipik taşıma süresi" }
+  { metric: "Tek sefer", label: "Proje bedeli; altyapı lisansları hariç" },
+  { metric: "Teklifte", label: "Taşıma süresi kapsama göre yazılı" }
 ];
 
 const painPoints = [
@@ -184,13 +184,13 @@ const painPoints = [
 
 const comparisonRows = [
   { feature: "Tasarım esnekliği", ticimax: "Tema kalıbı", portzen: "Markaya özel custom" },
-  { feature: "Time To First Byte", ticimax: "800ms ile 1500ms", portzen: "100ms altı (Vercel edge)" },
-  { feature: "Google PageSpeed", ticimax: "60 altı tipik", portzen: "95 üzeri tipik" },
-  { feature: "Fiyat modeli", ticimax: "Aylık lisans bazlı", portzen: "Brief'te belirlenir, kod size ait" },
-  { feature: "Modül başı ücret", ticimax: "Her modül ek", portzen: "Tek proje, her şey dahil" },
-  { feature: "AI ürün önerisi", ticimax: "Üçüncü parti SaaS", portzen: "Yerleşik, dahil" },
+  { feature: "Time To First Byte", ticimax: "800ms ile 1500ms", portzen: "Düşük TTFB hedefi (Vercel edge)" },
+  { feature: "Google PageSpeed", ticimax: "60 altı tipik", portzen: "90+ hedefi" },
+  { feature: "Fiyat modeli", ticimax: "Aylık lisans bazlı", portzen: "Tek seferlik proje bedeli, paket fiyatları yazılı" },
+  { feature: "Modül başı ücret", ticimax: "Her modül ek", portzen: "Kapsam pakette yazılı" },
+  { feature: "AI ürün önerisi", ticimax: "Üçüncü parti SaaS", portzen: "Kapsama göre eklenir" },
   { feature: "SEO kontrolü", ticimax: "Sınırlı", portzen: "Tam, schema dahil" },
-  { feature: "Çoklu dil ve para", ticimax: "Modül başı ücretli", portzen: "Standart dahil" },
+  { feature: "Çoklu dil ve para", ticimax: "Modül başı ücretli", portzen: "Kurumsal pakette çoklu dil" },
   { feature: "Headless API", ticimax: "Kısıtlı", portzen: "Full REST + GraphQL" },
   { feature: "Mobil uygulama bağlantısı", ticimax: "Ekstra modül", portzen: "API'den direkt kullanılır" }
 ];
@@ -204,27 +204,27 @@ const solutionSteps = [
   {
     icon: Sparkles,
     title: "Tasarım ve geliştirme",
-    description: "Figma'da markaya özel tasarım, ardından Next.js + Tailwind + headless commerce mimarisinde geliştirme. 4 ile 8 hafta arasında prototip hazır."
+    description: "Figma'da markaya özel tasarım, ardından Next.js + Tailwind + headless commerce mimarisinde geliştirme. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
   },
   {
     icon: BookOpen,
     title: "Veri taşıma",
-    description: "Ürün, kategori, müşteri, sipariş geçmişi tamamen taşınır. URL yapısı korunur, 301 redirect haritası kurulur, SEO sıralaması kaybedilmez."
+    description: "Ürünler pakette yazılı adede kadar dosyadan aktarılır; müşteri ve sipariş geçmişi aktarımı teklifte belirtilir. URL yapısı korunur, 301 redirect haritası kurulur, SEO kaybı en aza indirilir."
   },
   {
     icon: CheckCircle2,
     title: "Canlı geçiş",
-    description: "Staging ortamında test, müşteri eğitimi, canlı geçiş gece bakım penceresinde. Sonraki 30 gün yoğun destek, optimizasyon turu."
+    description: "Staging ortamında test, müşteri eğitimi, canlı geçiş gece bakım penceresinde. Yayın sonrası bakım ve optimizasyon ayrı aylık Web bakım hizmetiyle sunulur."
   }
 ];
 
 const features = [
-  { icon: Zap, title: "Hız öncelikli mimari", desc: "Next.js sunucu tarafı render, Vercel edge network, otomatik image optimization. Google PageSpeed 95+ tipik skor." },
+  { icon: Zap, title: "Hız öncelikli mimari", desc: "Next.js sunucu tarafı render, Vercel edge network, otomatik image optimization. Google PageSpeed 90+ hedefi." },
   { icon: Code, title: "Headless commerce", desc: "Saleor, Medusa veya custom backend ile API-first mimari. Mobil app, kiosk, sosyal medya satış kanalları aynı API'den beslenir." },
-  { icon: Sparkles, title: "AI yerleşik", desc: "Ürün öneri motoru, otomatik ürün açıklaması, kişiselleştirilmiş anasayfa, AI chatbot. Üçüncü parti SaaS aboneliği gerekmez." },
+  { icon: Sparkles, title: "AI özellikleri", desc: "Ürün öneri motoru, otomatik ürün açıklaması ve kişiselleştirilmiş anasayfa kapsama göre eklenir, teklifte yazılı olarak belirtilir. AI chatbot ayrı bir hizmettir (AI müşteri asistanı)." },
   { icon: TrendingUp, title: "SEO tam kontrol", desc: "URL yapısı, schema markup, breadcrumb, meta veri, sitemap, robots.txt, canonical, hreflang tam kontrol. Custom SEO stratejisi uygulanır." },
-  { icon: ShoppingBag, title: "Multi-PSP ödeme", desc: "iyzico, PayTR, Garanti Sanal POS, Stripe routing. Reddedilen işlem fallback ile diğer sağlayıcıya iletilir, satış kaybı önlenir." },
-  { icon: ShieldCheck, title: "KVKK ve PCI", desc: "Tokenizasyon ile kart bilgisi sitenizde tutulmaz, PCI DSS yükü sağlayıcıda. KVKK aydınlatma, açık rıza, veri silme akışları yerleşik." }
+  { icon: ShoppingBag, title: "Multi-PSP ödeme", desc: "iyzico, PayTR, Garanti Sanal POS, Stripe routing. Reddedilen işlem fallback ile diğer sağlayıcıya iletilir. Paketlerde ödeme bağlantısı dahildir; çoklu sağlayıcı kurgusu teklifte ayrıca belirtilir." },
+  { icon: ShieldCheck, title: "KVKK ve PCI", desc: "Tokenizasyon ile kart bilgisi sitenizde tutulmaz, PCI DSS yükü ödeme sağlayıcısındadır. Site, KVKK gerekliliklerini dikkate alarak kurgulanır (aydınlatma metni, açık rıza, veri silme talebi akışı)." }
 ];
 
 const faqs = [
@@ -234,27 +234,27 @@ const faqs = [
   },
   {
     q: "Next.js e-ticaret nedir, neden Ticimax'tan daha hızlı?",
-    a: "Next.js, Vercel firmasının geliştirdiği modern bir React framework'üdür. Sunucu tarafında ön-render (Server Side Rendering) ve statik sayfa üretimi (Static Site Generation) ile sayfaları milisaniyeler içinde tarayıcıya iletir. Ticimax monolitik PHP altyapısı, plugin yükü ve eski tema mimarisi sebebiyle ortalama Time To First Byte 800ms ile 1500ms arasıdır. Next.js'te 100ms altı tipiktir. Sayfa hızı Google sıralamasında doğrudan SEO faktörüdür, ayrıca her saniyelik gecikme dönüşüm oranını %7 düşürür."
+    a: "Next.js, Vercel firmasının geliştirdiği modern bir React framework'üdür. Sunucu tarafında ön-render (Server Side Rendering) ve statik sayfa üretimi (Static Site Generation) ile sayfaları milisaniyeler içinde tarayıcıya iletir. Ticimax monolitik PHP altyapısı, plugin yükü ve eski tema mimarisi sebebiyle ortalama Time To First Byte 800ms ile 1500ms arasıdır. Next.js'te edge önbellekleme ile çok daha düşük TTFB hedeflenir. Sayfa hızı Google'ın sıralama sinyallerinden biridir; Aberdeen Group araştırmasına göre 1 saniyelik gecikme dönüşümleri yaklaşık %7 azaltabilir."
   },
   {
     q: "Ticimax'tan PORTZEN'e taşıma süresi ne kadar?",
-    a: "Ürün katalog boyutuna ve özelleştirme miktarına bağlı. 500 ürün altı için 6 hafta, 2.000 ürün için 8 hafta, 5.000 ürün için 10 hafta tipik. Ürün, kategori, varyasyon, müşteri ve sipariş geçmişi tamamen taşınır. URL yapısı korunarak veya 301 redirect haritası kurularak SEO kaybı önlenir. Google Search Console aktarımı yapılır. Mevcut sıralamanız korunur, hatta sayfa hızı artışıyla iyileşir."
+    a: "Teslim süresi katalog boyutu ve özelleştirme miktarına göre teklifte yazılı olarak belirtilir. Paketlerde dosyadan ürün aktarımı adedi yazılıdır (en yüksek adet Kurumsal pakette); daha büyük kataloglar ile varyasyon, müşteri ve sipariş geçmişi aktarımı teklifte ayrıca belirtilir. URL yapısı korunarak veya 301 redirect haritası kurularak SEO kaybı en aza indirilir. Google Search Console aktarımı yapılır; daha hızlı sayfalar sıralama sinyallerinden birini iyileştirir."
   },
   {
     q: "AI hangi noktalarda kullanılıyor?",
-    a: "Ürün açıklaması otomatik yazımı (yeni ürün eklediğinizde SEO uyumlu açıklama AI ile gelir), ürün görseli iyileştirme (arka plan temizleme, boyut standartlaştırma), kişiselleştirilmiş öneri motoru (her kullanıcıya farklı anasayfa), sepet terk e-mail kişiselleştirmesi, müşteri sorularını yanıtlayan WhatsApp + site chatbot, kategori sayfa SEO içeriği otomatik üretimi, A/B test fikir önerisi. Ticimax'ta hiçbiri yerleşik değildir, üçüncü parti SaaS abonelikleri (Insider, Algolia, Klevu) gerekir, aylık ek maliyet çıkarır."
+    a: "Ürün açıklaması otomatik yazımı (yeni ürün eklediğinizde SEO uyumlu açıklama AI ile gelir), ürün görseli iyileştirme (arka plan temizleme, boyut standartlaştırma), kişiselleştirilmiş öneri motoru (her kullanıcıya farklı anasayfa), sepet terk e-mail kişiselleştirmesi, müşteri sorularını yanıtlayan WhatsApp + site chatbot, kategori sayfa SEO içeriği otomatik üretimi, A/B test fikir önerisi. Bu özellikler kapsama göre eklenir ve teklifte yazılı olarak belirtilir; WhatsApp ve site chatbotu ayrı bir hizmet olan AI müşteri asistanı kapsamındadır. Ticimax'ta hiçbiri yerleşik değildir, üçüncü parti SaaS abonelikleri (Insider, Algolia, Klevu) gerekir, aylık ek maliyet çıkarır."
   },
   {
     q: "Aylık lisans ücreti ödüyor muyum?",
-    a: "Hayır. PORTZEN tek seferlik proje ücreti + opsiyonel aylık bakım paketi modelidir. Ticimax'ın her ay tekrarlayan lisans ücretinin aksine kod tamamen size aittir, GitHub repo'sunda kalır, isterseniz başka bir ajansa devredebilirsiniz. PORTZEN aylık bakım almasanız bile site sahibi sizsiniz, kilitlenme yoktur. Fiyat brief görüşmesinde net paylaşılıyor."
+    a: "PORTZEN'e aylık lisans ücreti ödemezsiniz: e-ticaret sitesi tek seferlik proje bedelidir, yayından sonraki bakım isteğe bağlı aylık hizmettir. Özel arayüzle geliştirilen projelerde kod size aittir, GitHub repo'sunda kalır, isterseniz başka bir ajansa devredebilirsiniz; PORTZEN aylık bakım almasanız bile site sahibi sizsiniz. Hazır altyapı kullanılan projelerde altyapı ve harici lisans ücretleri hariçtir ve teklifte ayrıca belirtilir."
   },
   {
     q: "Hosting maliyeti ne olur?",
-    a: "Next.js Vercel, Netlify veya Cloudflare Pages üzerinde uygun bir aylık hosting masrafı çıkar (trafiğe bağlı). Kurumsal trafik için AWS, GCP veya self-hosted altyapı seçenekleri mevcut. Ticimax kendi hosting'inde tutar fakat lisansa dahil değildir, ayrı abonelik gerekir. Toplam maliyet (lisans + hosting + modüller) PORTZEN tarafında uzun vadede daha düşük çıkar."
+    a: "Next.js Vercel, Netlify veya Cloudflare Pages üzerinde uygun bir aylık hosting masrafı çıkar (trafiğe bağlı). Kurumsal trafik için AWS, GCP veya self-hosted altyapı seçenekleri mevcut. Ticimax kendi hosting'inde tutar fakat lisansa dahil değildir, ayrı abonelik gerekir. Toplam maliyeti (lisans + hosting + modüller) keşif görüşmesinde sizin durumunuza göre birlikte hesaplıyoruz."
   },
   {
     q: "Ödeme sağlayıcısı entegrasyonu var mı?",
-    a: "iyzico, PayTR, Param, Garanti Sanal POS, Akbank Sanal POS, İş Bankası, Stripe TR entegrasyonları hazır şablonlu olarak gelir. Multi-PSP routing (bir sağlayıcı reddederse diğerine fallback) standarttır, satış kaybı önlenir. Komisyon pazarlığı gerekiyorsa /iyzico-alternatifi sayfamızda detaylı süreç anlatılır."
+    a: "iyzico, PayTR, Param, Garanti Sanal POS, Akbank Sanal POS, İş Bankası, Stripe TR için hazır şablonlarımız var; tüm e-ticaret paketlerinde ödeme bağlantısı dahildir. Birden fazla sağlayıcı ve Multi-PSP routing (bir sağlayıcı reddederse diğerine fallback) teklifte ayrıca belirtilir. Komisyon pazarlığı gerekiyorsa /iyzico-alternatifi sayfamızda detaylı süreç anlatılır."
   }
 ];
 
@@ -266,7 +266,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -279,13 +279,13 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-purple text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <ShoppingBag className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Ticimax Alternatifi</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   Ticimax alternatifi, markaya özel modern e-ticaret altyapısı
                 </h1>
               </Reveal>
@@ -298,13 +298,13 @@ export default function Page() {
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/web-tasarim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     Web Tasarım <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -318,8 +318,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-purple text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -335,12 +335,12 @@ export default function Page() {
       </section>
 
       {/* 2. NEDEN ALTERNATİF */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                Ticimax'ın 6 sınırı
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
+                Ticimax&apos;ın 6 sınırı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
                 Ticimax başlangıç için hızlı, ama marka büyüdükçe kalıp daralır.
@@ -350,8 +350,8 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {painPoints.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-paper bg-brand-purple text-paper mb-4">
+                <div className="border-3 border-ink/10 bg-light p-5 h-full rounded-2xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-ink/10 bg-slate text-white mb-4 rounded-full">
                     <X className="h-5 w-5" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2">{p.title}</h3>
@@ -364,11 +364,11 @@ export default function Page() {
       </section>
 
       {/* 3. KARŞILAŞTIRMA TABLOSU */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Yan yana karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -378,12 +378,12 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">Ticimax</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -396,7 +396,7 @@ export default function Page() {
                           <span className="text-xs">{row.ticimax}</span>
                         </div>
                       </td>
-                      <td className="p-4 text-center text-sm bg-brand-yellow/30 text-ink">
+                      <td className="p-4 text-center text-sm bg-light text-ink">
                         <div className="flex flex-col items-center gap-1">
                           <Check className="h-4 w-4 text-green-700" />
                           <span className="text-xs font-bold">{row.portzen}</span>
@@ -410,22 +410,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> Ürün karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Not:</strong> Karşılaştırma genel platform özelliklerine dayanır; Ticimax paket içerikleri ve ücretleri için güncel bilgiyi Ticimax&apos;tan teyit edin.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 4. PORTZEN ÇÖZÜMÜ */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Süreç
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Ticimax'tan modern e-ticarete nasıl geçilir?
+                Ticimax&apos;tan modern e-ticarete nasıl geçilir?
               </h2>
             </div>
           </Reveal>
@@ -434,8 +434,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -449,12 +449,12 @@ export default function Page() {
       </section>
 
       {/* 5. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                PORTZEN'in farkı
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                PORTZEN&apos;in farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 Ticimax modülünde ekstra ödediğiniz 6 özellik
@@ -466,7 +466,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -479,16 +479,16 @@ export default function Page() {
       </section>
 
       {/* 6. USE CASES */}
-      <section className="bg-brand-purple text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Kullanım örnekleri
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek senaryolar
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Markaya özel e-ticaret büyümeyi nasıl açıyor?
+              Markaya özel e-ticaret hangi durumlarda nasıl kurgulanır?
             </h2>
           </Reveal>
 
@@ -496,36 +496,36 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  <strong>İstanbul, 1.200 SKU'lu butik moda markası.</strong> Ticimax Profesyonel pakette aylık sabit lisans ödüyordu, PageSpeed skoru 38'di, dönüşüm oranı %0.9 seviyesindeydi. PORTZEN ile Next.js'e taşındı, tasarım sıfırdan markaya özel kurguladı. PageSpeed 96'ya çıktı, dönüşüm oranı %2.4'e yükseldi, sepet terk e-mail AI ile kişiselleştirildi. Ek dönüşüm artışı proje maliyetini kısa sürede karşıladı.
+                  <strong>Örnek senaryo: geniş katalogla satan bir butik moda markası.</strong> Hazır altyapıda aylık sabit lisans ödüyor, tema kalıbı yüzünden marka kimliğini yansıtamıyor ve sayfaları yavaş açılıyor. Bu durumda tasarım sıfırdan markaya özel kurgulanır, site Next.js&apos;e taşınır, görseller otomatik optimize edilir; sepet terk e-postalarının AI ile kişiselleştirilmesi kapsama göre eklenir.
                 </p>
                 <p>
-                  <strong>Ankara, B2B endüstriyel ürün satıcısı.</strong> 4.000 SKU, hem B2C hem B2B satış. Ticimax'ta B2B modülü ek modül ücreti istiyordu, fiyat farklılaştırma sınırlıydı. PORTZEN custom backend kurdu, B2B müşteriye giriş sonrası farklı fiyat, vade ve sepet kuralları gösterildi. SKU başı dinamik fiyat hesaplama, kurumsal proforma fatura otomasyonu eklendi.
+                  <strong>Örnek senaryo: hem B2C hem B2B satan endüstriyel ürün satıcısı.</strong> Hazır altyapıda B2B modülü ek ücretli, fiyat farklılaştırma sınırlı. Bu durumda özel backend kurulur; B2B müşteriye giriş sonrası farklı fiyat, vade ve sepet kuralları gösterilir, SKU başı dinamik fiyat hesaplama ve kurumsal proforma fatura otomasyonu eklenir.
                 </p>
                 <p>
-                  <strong>İzmir, kozmetik markası, ihracat ağırlıklı.</strong> Türkiye, Almanya, Hollanda, Birleşik Krallık'a satış yapıyordu. Ticimax çoklu dil ve çoklu para birimi ek modül olarak faturalanıyordu, hreflang otomatik değildi. PORTZEN'de TR, DE, NL, EN dilleri standart geldi, hreflang otomatik, ülkeye göre fiyat ve KDV otomatik hesaplandı. EU müşteri için Stripe + TR müşteri için iyzico routing kuruldu.
+                  <strong>Örnek senaryo: ihracat ağırlıklı bir kozmetik markası.</strong> Birden fazla ülkeye satış yapıyor; hazır altyapıda çoklu dil ve çoklu para birimi ek modül olarak faturalanıyor, hreflang otomatik değil. Bu durumda çoklu dil ve hreflang yapısı kurulur (Kurumsal pakette 2 dil; ek diller teklifte ayrıca belirtilir), ülkeye göre fiyat ve KDV hesaplanır, AB müşterisi için Stripe, TR müşterisi için iyzico yönlendirmesi kurulur (çoklu sağlayıcı kurgusu teklifte ayrıca belirtilir).
                 </p>
                 <p>
-                  <strong>Bursa, ev tekstili markası, hızlı büyüyen.</strong> Yılda %180 büyüyordu, Ticimax altyapısı kampanya saatinde çöküyordu. Vercel edge network'e taşındı, eşzamanlı 50.000 kullanıcıya sorunsuz çıktı. Black Friday günü 12 saat boyunca sıfır kesinti, normal trafiğin 8 katı sipariş aldı.
+                  <strong>Örnek senaryo: kampanya dönemlerinde trafiği ani yükselen bir ev tekstili markası.</strong> Hazır altyapı yoğun saatlerde yavaşlıyor. Bu durumda site önbellekleme ve edge dağıtım kullanan bir altyapıya taşınır, kampanya öncesi yük testi yapılır ve yoğun saatler için izleme planlanır.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">PageSpeed</div>
-                  <div className="font-display text-4xl font-black mb-1">38 → 96</div>
+                  <div className="font-display text-4xl font-black mb-1">90+ hedefi</div>
                   <div className="text-sm">Next.js + edge network</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Dönüşüm oranı</div>
-                  <div className="font-display text-4xl font-black mb-1">%0.9 → %2.4</div>
-                  <div className="text-sm">Hız + AI öneri ile</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Kişiselleştirme</div>
+                  <div className="font-display text-4xl font-black mb-1">AI öneri</div>
+                  <div className="text-sm">Kapsama göre eklenir, teklifte yazılır</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Aylık lisans</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">0</div>
-                  <div className="text-sm">Tek seferlik proje, kod size ait</div>
+                  <div className="font-display text-4xl font-black text-ink">Yok</div>
+                  <div className="text-sm">Tek seferlik proje bedeli; altyapı ve harici lisanslar hariç</div>
                 </div>
               </div>
             </Reveal>
@@ -534,22 +534,22 @@ export default function Page() {
       </section>
 
       {/* 8. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                Ticimax'tan geçmeden önce merak edilenler
+                Ticimax&apos;tan geçmeden önce merak edilenler
               </h2>
             </div>
           </Reveal>
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -559,23 +559,23 @@ export default function Page() {
 
           <Reveal delay={300}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <HeadphonesIcon className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <HeadphonesIcon className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">WordPress mu Shopify mı?</h3>
                 <p className="text-sm opacity-85 mb-3">
                   E-ticaret platformları karşılaştırmalı blog yazımız.
                 </p>
-                <Link href="/blog/wordpress-vs-shopify-eticaret" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/blog/wordpress-vs-shopify-eticaret" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   Yazıyı Oku <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">IdeaSoft kullanıyorsanız?</h3>
                 <p className="text-sm opacity-85 mb-3">
                   KOBİ için IdeaSoft alternatif analizi.
                 </p>
-                <Link href="/ideasoft-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/ideasoft-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   IdeaSoft Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
@@ -585,9 +585,9 @@ export default function Page() {
       </section>
 
       {/* 9. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
                 Ticimax aylık lisansını yatırıma çevirelim
@@ -602,21 +602,21 @@ export default function Page() {
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
-                  Ücretsiz Analiz Al <ArrowUpRight className="h-4 w-4" />
+                  Teklif İsteyin <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905015884853"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  href="tel:+905318639117"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
                 </a>
@@ -626,7 +626,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

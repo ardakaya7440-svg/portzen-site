@@ -57,9 +57,9 @@ export function ServiceSelectorGrid({ panels }: Props) {
               type="button"
               onClick={() => setOpenServiceSlug(panel.serviceSlug)}
               className={cn(
-                "group relative text-left border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all",
-                `bg-brand-${panel.tone}`,
-                isLight ? "text-ink" : "text-paper"
+                "group relative text-left border-3 border-ink/15 p-6 shadow-brutal hover:shadow-brutal-lg transition-all rounded-2xl",
+                "bg-white",
+                isLight ? "text-ink" : "text-ink"
               )}
             >
               <Sparkles className="h-6 w-6 mb-3 opacity-80" />
@@ -84,11 +84,11 @@ export function ServiceSelectorGrid({ panels }: Props) {
           aria-modal="true"
         >
           <div
-            className="bg-paper border-3 border-ink shadow-brutal-lg w-full max-w-2xl max-h-[85vh] overflow-y-auto"
+            className="bg-paper border-3 border-ink/15 shadow-brutal-lg w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Header — sticky */}
-            <div className="sticky top-0 z-10 bg-paper border-b-3 border-ink px-5 py-4 flex items-center justify-between">
+            <div className="sticky top-0 z-10 bg-paper border-b-3 border-ink/15 px-5 py-4 flex items-center justify-between">
               <div>
                 <div className="text-xs font-bold uppercase tracking-wider text-ink/60 mb-0.5">
                   Hizmet
@@ -100,7 +100,7 @@ export function ServiceSelectorGrid({ panels }: Props) {
               <button
                 type="button"
                 onClick={() => setOpenServiceSlug(null)}
-                className="border-3 border-ink bg-paper p-2 shadow-brutal-sm hover:bg-brand-yellow hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all shrink-0 ml-3"
+                className="border-3 border-ink/15 bg-paper p-2 shadow-brutal-sm hover:bg-lime hover:shadow-brutal transition-all shrink-0 ml-3 rounded-2xl"
                 aria-label="Kapat"
               >
                 <X className="h-4 w-4 text-ink" />
@@ -113,9 +113,9 @@ export function ServiceSelectorGrid({ panels }: Props) {
                 href={`/${openPanel.serviceSlug}`}
                 onClick={() => setOpenServiceSlug(null)}
                 className={cn(
-                  "block border-3 border-ink p-4 shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all",
-                  `bg-brand-${openPanel.tone}`,
-                  openPanel.tone === "yellow" || openPanel.tone === "orange" ? "text-ink" : "text-paper"
+                  "block border-3 border-ink/15 p-4 shadow-brutal hover:shadow-brutal-lg transition-all rounded-2xl",
+                  "bg-white",
+                  openPanel.tone === "yellow" || openPanel.tone === "orange" ? "text-ink" : "text-ink"
                 )}
               >
                 <div className="flex items-center justify-between gap-3">
@@ -144,7 +144,7 @@ export function ServiceSelectorGrid({ panels }: Props) {
                         key={s.slug}
                         href={`/${openPanel.serviceSlug}/${s.slug}`}
                         onClick={() => setOpenServiceSlug(null)}
-                        className="group inline-flex items-center justify-between gap-2 border-3 border-ink bg-paper px-3 py-2.5 text-sm font-bold text-ink shadow-brutal-sm hover:bg-brand-yellow hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
+                        className="group inline-flex items-center justify-between gap-2 border-3 border-ink/15 bg-paper px-3 py-2.5 text-sm font-bold text-ink shadow-brutal-sm hover:bg-lime hover:shadow-brutal transition-all rounded-full"
                       >
                         <span>{s.name}</span>
                         <ArrowUpRight className="h-3.5 w-3.5 opacity-40 group-hover:opacity-100 transition-opacity shrink-0" />
@@ -170,7 +170,7 @@ export function ServiceSelectorGrid({ panels }: Props) {
                         key={s.slug}
                         href={`/${openPanel.serviceSlug}/${s.slug}`}
                         onClick={() => setOpenServiceSlug(null)}
-                        className="group inline-flex items-center justify-center gap-1.5 border-3 border-ink bg-paper px-2 py-2.5 text-sm font-bold text-ink shadow-brutal-sm hover:bg-brand-yellow hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
+                        className="group inline-flex items-center justify-center gap-1.5 border-3 border-ink/15 bg-paper px-2 py-2.5 text-sm font-bold text-ink shadow-brutal-sm hover:bg-lime hover:shadow-brutal transition-all rounded-full"
                       >
                         <MapPin className="h-3.5 w-3.5 shrink-0" />
                         <span>{s.name}</span>

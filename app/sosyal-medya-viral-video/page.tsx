@@ -16,11 +16,15 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
+import { PricingSection } from "@/components/pricing/PricingSection";
+import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
+import { MoreDetails } from "@/components/visual/MoreDetails";
+import { familyPriceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
   title: "Sosyal Medya Viral Video | Reels + TikTok Üretim ve Strateji, PORTZEN",
   description:
-    "Sosyal medya viral video üretimi: Reels, TikTok ve Shorts formatında hook, edit, sound trend uyumlu içerikler. Algoritmayı kazanan formül, aylık paket.",
+    "Sosyal medya viral video üretimi: Reels, TikTok ve Shorts formatında hook, edit, sound trend uyumlu içerikler. Algoritma sinyallerine göre kurgulanan formül, aylık paket.",
   keywords: [
     "sosyal medya viral video",
     "viral reels",
@@ -40,13 +44,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "Sosyal Medya Viral Video | Reels + TikTok Üretim ve Strateji, PORTZEN",
     description:
-      "Sosyal medya viral video üretimi: Reels, TikTok ve Shorts formatında hook, edit, sound trend uyumlu içerikler. Algoritmayı kazanan formül, aylık paket."
+      "Sosyal medya viral video üretimi: Reels, TikTok ve Shorts formatında hook, edit, sound trend uyumlu içerikler. Algoritma sinyallerine göre kurgulanan formül, aylık paket."
   },
   twitter: {
     card: "summary_large_image",
     title: "Sosyal Medya Viral Video | PORTZEN",
     description:
-      "Reels, TikTok ve Shorts formatında algoritmayı kazanan viral video formülü. Hook, edit, sound, caption ve yayın stratejisi tek pakette."
+      "Reels, TikTok ve Shorts formatında algoritma sinyallerine göre kurgulanan viral video formülü. Hook, edit, sound, caption ve yayın stratejisi tek pakette."
   },
   alternates: { canonical: "https://portzenai.com/sosyal-medya-viral-video" },
   robots: { index: true, follow: true }
@@ -61,18 +65,12 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Sosyal medya viral video üretim hizmeti: Reels, TikTok ve YouTube Shorts formatında hook, edit temposu, sound trend uyumu ve caption stratejisi ile algoritmayı kazanan kısa video üretimi. Aylık paket, sürekli üretim ve viral formül danışmanlığı dahil.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺6.500-₺32.000/ay",
-    availability: "https://schema.org/InStock"
-  }
+    "Sosyal medya viral video üretim hizmeti: Reels, TikTok ve YouTube Shorts formatında hook, edit temposu, sound trend uyumu ve caption stratejisi ile algoritma sinyallerine göre kurgulanan kısa video üretimi. Aylık paket, sürekli üretim ve viral formül danışmanlığı dahil.",
 };
 
 const faqSchema = {
@@ -84,7 +82,7 @@ const faqSchema = {
       name: "Sosyal medya viral video üretiminde viral olma garantisi veriyor musunuz?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tek bir video için mutlak viral garantisi kimse veremez; algoritma, saat, dış gündem ve rakip içerikler etkilidir. Ama Kurumsal pakette 90 gün içinde en az 1 videonun 250 bin izlenimi geçmesini taahhüt ediyoruz, aksi halde bir sonraki ay ücretsiz. Başlangıç ve Büyüme paketlerinde ise viral olasılığı yükseltmek için hook, edit, sound ve yayın saatinde kanıtlanmış formülleri uyguluyoruz."
+        text: "Hayır. Viral olma veya izlenme garantisi vermiyoruz; algoritma, yayın saati ve gündem sonucu doğrudan etkiler. Pakette teslim edilecek video adedi, süre ve format yazılıdır; Büyüme ve Kurumsal paketlerde senaryo ve hook yazımı dahildir."
       }
     },
     {
@@ -92,7 +90,7 @@ const faqSchema = {
       name: "Yüzümüzü kameraya göstermek zorunda mıyız?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hayır. Faceless (yüzsüz) formatlar için ürün detay, üstten çekim, ekran kaydı, animasyon, sesli anlatım, altyazı odaklı içerik gibi 20+ format kütüphanemiz var. Yüz göstermek istemeyen markalar için özel bir alt paket sunuyoruz. Yine de yüz gösteren içerikler genelde daha yüksek engagement alıyor; kararı size bırakıyoruz."
+        text: "Hayır. Faceless (yüzsüz) çalışmak için ürün detay, üstten çekim, ekran kaydı, animasyon, sesli anlatım, altyazı odaklı içerik gibi formatlar kullanıyoruz. Yüz göstermek istemeyen markalar için bu formatlarla çalışıyoruz. Yine de yüz gösteren içerikler genelde daha yüksek engagement alıyor; kararı size bırakıyoruz."
       }
     },
     {
@@ -100,7 +98,7 @@ const faqSchema = {
       name: "Videolar yapay zeka ile mi üretiliyor, gerçek çekim mi yapıyorsunuz?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "İkisi de. Restoran, kafe, klinik, kuaför gibi mekan içerikleri için aylık 1 kez saha çekim ekibi gönderiyoruz, kalan içerikleri gönderdiğiniz kısa telefon çekimlerinden ve yapay zeka üretiminden montajlıyoruz. UGC tarzı reklamlarda kurumsal AI video altyapımızın UGC/hızlı render motorlarını kullanıyoruz. Karma model hem doğallığı hem üretim hızını koruyor."
+        text: "İkisi de. Saha çekimi kısa video paketlerine dahil değildir; ihtiyaç olursa ayrıca planlanır. Paket videolarını gönderdiğiniz kısa telefon çekimlerinden ve yapay zeka üretiminden kurguluyoruz. UGC tarzı reklamlarda kurumsal AI video altyapımızın UGC/hızlı render motorlarını kullanıyoruz. Karma model hem doğallığı hem üretim hızını koruyor."
       }
     },
     {
@@ -108,7 +106,7 @@ const faqSchema = {
       name: "Kullandığınız trending sound telif hakkı sorun çıkarır mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Instagram ve TikTok'un ticari hesaplar için sunduğu Sound Library'den (lisanslı ticari kullanım) seçim yapıyoruz. Trending ama telifsiz olmayan sesler için orijinal remix veya ses tasarımı üretiyoruz. Ayrıca haftalık olarak müzik kütüphanesindeki lisanslı ticari seçenekleri tarayıp güncel trendlerin ticari sürümlerini kullanıyoruz. Böylece hesabınız hiç kısıtlanmaz."
+        text: "Instagram ve TikTok'un ticari hesaplar için sunduğu Sound Library'den (lisanslı ticari kullanım) seçim yapıyoruz. Trending ama telifsiz olmayan sesler için orijinal remix veya ses tasarımı üretiyoruz. Ayrıca haftalık olarak müzik kütüphanesindeki lisanslı ticari seçenekleri tarayıp güncel trendlerin ticari sürümlerini kullanıyoruz. Böylece ses kaynaklı kısıtlanma ve sessize alınma riskini en aza indiriyoruz."
       }
     },
     {
@@ -124,7 +122,7 @@ const faqSchema = {
       name: "Ayda kaç farklı hook ve format deneniyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Aylık paketlerimizde en az 5 farklı hook (ilk 3 saniye açılışı) ve en az 4 farklı format (Before/After, POV, Reply to comment, Tutorial, vs.) test ediyoruz. İlk 30 gün veri toplama ayı, ikinci 30 gün formül optimizasyonu, üçüncü 30 gün ölçekleme aşamasıdır. Hangi hook ve formatın sizin markanız için işe yaradığını haftalık raporda görebiliyorsunuz."
+        text: "Büyüme ve Kurumsal paketlerde senaryo ve hook yazımı dahildir. Farklı açılışları ve içerik kurgularını (Before/After, POV, Reply to comment, Tutorial vb.) dönüşümlü kullanır, performansa göre her ay güncelleriz."
       }
     },
     {
@@ -132,7 +130,7 @@ const faqSchema = {
       name: "Yayın saati ve gün seçimini siz mi yapıyorsunuz?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. İlk 2 hafta rakip analizi ve hesabınızın Insights verisinden optimal yayın penceresini çıkarıyoruz. Sonrasında haftalık takvim üzerinden Reels ve TikTok yayın saatlerini belirliyor, Meta Business Suite ve TikTok Scheduler ile önceden programlıyoruz. Genel olarak Türkiye kitlesi için 12:30, 19:00 ve 22:30 aralıkları en iyi çalışır; ancak sektörünüze göre değişebilir."
+        text: "Evet. Başlangıçta rakip analizi ve hesabınızın Insights verisinden uygun yayın penceresini çıkarıyoruz. Sonrasında haftalık takvim üzerinden Reels ve TikTok yayın saatlerini belirliyor, Meta Business Suite ve TikTok Scheduler ile önceden programlıyoruz. 12:30, 19:00 ve 22:30 gibi aralıklar sık kullanılan başlangıç noktalarıdır; asıl seçim hesabınızın kendi verisine göre yapılır."
       }
     }
   ]
@@ -153,17 +151,17 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "8-40", label: "Aylık kısa video üretimi" },
+  { metric: "Aylık", label: "Pakete göre belirlenen kısa video adedi" },
   { metric: "3sn", label: "Hook penceresi optimizasyonu" },
   { metric: "6+", label: "Format kütüphanesi (haftalık rotasyon)" },
-  { metric: "%12", label: "Engagement rate (Bornova kafe vakası)" }
+  { metric: "Dikey", label: "Reels, TikTok ve Shorts için kurgu" }
 ];
 
 const problems = [
   {
     icon: Flame,
     title: "Hook zayıf, izleyici ilk 3 saniyede kaçıyor",
-    desc: "Videonun ilk karesi ve ilk cümlesi belirsiz. İzleyici kaydırırken gözü takılmıyor, algoritma da videoyu geri çekiyor. Reels ve TikTok'ta izlenme yüzdesi %30'un altında kalıyor. Bu videoların viral olma ihtimali sıfır."
+    desc: "Videonun ilk karesi ve ilk cümlesi belirsiz. İzleyici kaydırırken gözü takılmıyor, algoritma da videoyu geri çekiyor. Reels ve TikTok'ta izlenme yüzdesi düşük kalıyor ve video geniş kitleye dağıtılmıyor."
   },
   {
     icon: Music,
@@ -198,19 +196,19 @@ const viralFormula = [
     icon: Video,
     step: "02",
     name: "Setup (3-5sn)",
-    desc: "Problemi veya konuyu net biçimde koyuyoruz. İzleyici artık hook ile durmuş, ne izlediğini anlamak istiyor. Bu 2 saniyede 'Bu video ne hakkında?' sorusunu cevaplıyoruz. Örneğin 'Instagram takipçilerinizi 3 haftada nasıl 4 katına çıkarırsınız' cümlesi."
+    desc: "Problemi veya konuyu net biçimde koyuyoruz. İzleyici artık hook ile durmuş, ne izlediğini anlamak istiyor. Bu 2 saniyede 'Bu video ne hakkında?' sorusunu cevaplıyoruz. Örneğin 'Reels'iniz neden birkaç yüz izlenimde takılıyor?' cümlesi."
   },
   {
     icon: Play,
     step: "03",
     name: "Escalation (5-15sn)",
-    desc: "Çözümü, eğlenceyi veya sürprizi sunuyoruz. Kesimler hızlanıyor, altyazı ritmi artıyor, ses yükseliyor. Bu bölüm izlenme yüzdesini %70'in üstüne çıkarmak için tasarlanır. Değer yoğunluğu (value density) yüksek olmalı; her saniyede yeni bir bilgi veya reaksiyon vermeli."
+    desc: "Çözümü, eğlenceyi veya sürprizi sunuyoruz. Kesimler hızlanıyor, altyazı ritmi artıyor, ses yükseliyor. Bu bölüm izleyiciyi videonun sonuna kadar tutmak için tasarlanır. Değer yoğunluğu (value density) yüksek olmalı; her saniyede yeni bir bilgi veya reaksiyon vermeli."
   },
   {
     icon: Sparkles,
     step: "04",
     name: "Payoff (son 2-3sn)",
-    desc: "Reaksiyon, tersine dönüş veya CTA. İzleyiciye tekrar izleme veya paylaşma isteği vermeli. Sonu 'Videoyu baştan izle', 'Yorumlarda tarifi paylaştım' veya döngü (loop) yaratacak biçimde kapatıyoruz. Loop, izlenim/oynatma oranını 1.4'ün üstüne çıkarır."
+    desc: "Reaksiyon, tersine dönüş veya CTA. İzleyiciye tekrar izleme veya paylaşma isteği vermeli. Sonu 'Videoyu baştan izle', 'Yorumlarda tarifi paylaştım' veya döngü (loop) yaratacak biçimde kapatıyoruz. Loop, izlenim/oynatma oranını 1.4'ün üstüne çıkarmayı hedefler."
   },
   {
     icon: Music,
@@ -224,7 +222,7 @@ const formats = [
   {
     icon: Sparkles,
     name: "Before/After (Transformation)",
-    desc: "Öncesi kaotik, sonrası düzenli. Restoran tabak yerleşimi, klinik cilt bakım süreci, kuaför saç transformasyonu, mobilya odası dönüşümü. Split-second geçişler ile şok etkisi yaratır. Reels'te en yüksek save (kaydetme) oranını üreten format."
+    desc: "Öncesi kaotik, sonrası düzenli. Restoran tabak yerleşimi, klinik cilt bakım süreci, kuaför saç transformasyonu, mobilya odası dönüşümü. Split-second geçişler ile şok etkisi yaratır. Kaydetme (save) davranışını hedefleyen bir format."
   },
   {
     icon: Users,
@@ -234,7 +232,7 @@ const formats = [
   {
     icon: Zap,
     name: "Common mistakes (Educational)",
-    desc: "'Bu 5 hatayı yapıyorsanız X problem yaşıyorsunuz.' Uzmanlık pozisyonu için ideal. Klinik, danışman, ajans, avukat, kuaför sektörleri için birebir. Yorum sayısını en çok patlatan format; her yorum algoritma için oy demek."
+    desc: "'Bu 5 hatayı yapıyorsanız X problem yaşıyorsunuz.' Uzmanlık pozisyonu için ideal. Klinik, danışman, ajans, avukat, kuaför sektörleri için birebir. Yorum almaya uygun bir format; her yorum algoritma için bir etkileşim sinyalidir."
   },
   {
     icon: MessageCircle,
@@ -244,12 +242,12 @@ const formats = [
   {
     icon: Music,
     name: "Trending audio + niche (Mash-up)",
-    desc: "Haftalık trend seslerden birini alıp kendi sektörünüze uyarlıyoruz. Örneğin trend olan komedi sesini kuaför sektörüne 'salon içi anlar' olarak taşımak. Algoritmik dağıtım maksimum, üretim maliyeti minimum. En hızlı viral yolu."
+    desc: "Haftalık trend seslerden birini alıp kendi sektörünüze uyarlıyoruz. Örneğin trend olan komedi sesini kuaför sektörüne 'salon içi anlar' olarak taşımak. Trend sesin sinyalinden yararlanır, üretimi sade tutar."
   },
   {
     icon: Video,
     name: "Product demo + POV (Satış)",
-    desc: "İlk kişi ağzından (POV) ürün deneyimi. 'Sizinle kombin seçiyorum', 'Sizinle kahve hazırlıyorum' formatları. Aynı anda hem satış hem eğlence içerik. Butik, kafe, restoran ve e-ticaret markaları için sipariş yönlendirme oranı en yüksek format."
+    desc: "İlk kişi ağzından (POV) ürün deneyimi. 'Sizinle kombin seçiyorum', 'Sizinle kahve hazırlıyorum' formatları. Aynı anda hem satış hem eğlence içerik. Butik, kafe, restoran ve e-ticaret markaları için siparişe yönlendirmeye uygun bir format."
   }
 ];
 
@@ -309,80 +307,24 @@ const sectors = [
   }
 ];
 
-const packages = [
-  {
-    name: "Başlangıç",
-    price: "6.500 ₺",
-    period: "/ay",
-    duration: "8 video/ay",
-    color: "bg-paper",
-    features: [
-      "8 kısa video (Reels veya TikTok)",
-      "1 platform (Reels ya da TikTok)",
-      "Aylık 1 saha çekim günü",
-      "Trending sound seçimi",
-      "Caption + hashtag stratejisi",
-      "Haftalık storyboard onayı",
-      "Aylık performans raporu"
-    ],
-    cta: "Başlangıç Paketi Al"
-  },
-  {
-    name: "Büyüme",
-    price: "15.000 ₺",
-    period: "/ay",
-    duration: "20 video/ay",
-    color: "bg-brand-yellow",
-    badge: "En Popüler",
-    features: [
-      "20 kısa video/ay",
-      "3 platform (Reels + TikTok + Shorts)",
-      "Aylık 2 saha çekim günü",
-      "Hook danışmanlığı seansı",
-      "Rakip viral analizi",
-      "AI script + trending sound otomasyonu",
-      "Haftalık performans raporu",
-      "3 formatta render (9:16, 1:1, 16:9)"
-    ],
-    cta: "Büyüme Paketini Konuş"
-  },
-  {
-    name: "Kurumsal",
-    price: "32.000+ ₺",
-    period: "/ay",
-    duration: "40+ video/ay",
-    color: "bg-paper",
-    features: [
-      "40+ kısa video/ay",
-      "Sınırsız platform ve format",
-      "Sınırsız edit revizyon",
-      "Adanmış içerik yöneticisi",
-      "Viral garantili strateji (90 gün, 250K+ izlenim)",
-      "Aylık 4 saha çekim günü",
-      "AI destekli trend takip sistemi",
-      "Aylık kreatif strateji toplantısı"
-    ],
-    cta: "Kurumsal Görüşme Aç"
-  }
-];
 
 const caseStudy = {
-  title: "Bornova bir kafe için 'kahve latte art transition' Reels",
+  title: "Örnek senaryo: bir kafe için 'latte art transition' Reels",
   metrics: [
-    { label: "Toplam izlenim", value: "850.000" },
-    { label: "Engagement rate", value: "%12" },
-    { label: "Takipçi artışı (3 hafta)", value: "4.200 → 18.500" },
-    { label: "Aylık ciro artışı", value: "%68" }
+    { label: "Hook", value: "Siyah ekrandan latte art" },
+    { label: "Format", value: "Transition Reels" },
+    { label: "Ses", value: "Lisanslı lo-fi trend audio" },
+    { label: "Yayın", value: "Insights verisine göre saat" }
   ],
   narrative:
-    "Bornova'da açılan yeni bir kafe için 3 haftalık viral kampanya kurguladık. Hook, siyah ekrandan patlayan latte art tepesiydi (0-2sn). Setup, barista'nın 'Bu tekniği 8 ayda öğrendim' cümlesiydi (2-5sn). Escalation bölümünde 3 farklı desen (kalp, yaprak, tulip) hızlı geçişlerle gösterildi (5-13sn). Payoff, kafenin logosu ile birlikte kapanan bir slow-motion an oldu. Trending audio olarak lo-fi kahve teması seçildi. Yayın saati 12:30 (öğle molası) olarak belirlendi. İlk 6 saatte 40 bin izlenim, 24 saatte 300 bin izlenim, 5 gün sonunda 850 bin izlenime ulaştı. 3 hafta içinde takipçi 4.200'den 18.500'e çıktı, kafenin haftalık sipariş sayısı 2.3 kata yükseldi, aylık ciro %68 arttı. Bu vaka PORTZEN'in viral formülünün somut karşılığıdır."
+    "Yeni açılan bir kafe için viral formülün tek bir videoya nasıl uygulandığını gösteren örnek bir kurgu. Hook, siyah ekrandan beliren latte art tepesidir (0-2 sn). Setup, baristanın tekniği nasıl öğrendiğini anlatan kısa bir cümledir (2-5 sn). Escalation bölümünde 3 farklı desen (kalp, yaprak, tulip) hızlı geçişlerle gösterilir (5-13 sn). Payoff, kafenin logosuyla kapanan bir slow-motion andır. Ses olarak lisanslı lo-fi kahve temalı bir trend audio seçilir; yayın saati hesabın Insights verisine göre (örneğin öğle molası) belirlenir. Yayından sonra izlenme süresi, kaydetme ve yorum sinyalleri takip edilir; zayıf kalan bölüm bir sonraki videoda yeniden kurgulanır. Bu bir örnek senaryodur, sonuç taahhüdü değildir."
 };
 
 const comparison = [
   {
     kriter: "Aylık harcanan saat",
-    self: "40-60 saat (öğrenme + üretim)",
-    portzen: "0 saat (brief hariç 30 dk/hafta)"
+    self: "Öğrenme + üretim için düzenli zaman",
+    portzen: "Brief ve onay için kısa haftalık görüşme"
   },
   {
     kriter: "Edit yumuşaklığı",
@@ -401,39 +343,39 @@ const comparison = [
   },
   {
     kriter: "Toplam aylık maliyet",
-    self: "40 saat × iş gücü + kaçırılan fırsat",
-    portzen: "6.500 - 32.000 ₺ arası şeffaf paket"
+    self: "Harcanan zaman × iş gücü + kaçırılan fırsat",
+    portzen: `Aylık paket: ${familyPriceSummary("kisa-video")} (KDV hariç)`
   }
 ];
 
 const faqs = [
   {
     q: "Sosyal medya viral video üretiminde viral olma garantisi veriyor musunuz?",
-    a: "Tek bir video için mutlak viral garantisi kimse veremez; algoritma, saat, dış gündem ve rakip içerikler etkilidir. Ama Kurumsal pakette 90 gün içinde en az 1 videonun 250 bin izlenimi geçmesini taahhüt ediyoruz, aksi halde bir sonraki ay ücretsiz. Başlangıç ve Büyüme paketlerinde ise viral olasılığı yükseltmek için hook, edit, sound ve yayın saatinde aynı formül disiplinini uyguluyor, sonuçları haftalık raporda şeffaf paylaşıyoruz."
+    a: "Hayır. Viral olma veya izlenme garantisi vermiyoruz; algoritma, yayın saati ve gündem sonucu doğrudan etkiler. Pakette teslim edilecek video adedi, süre ve format yazılıdır; Büyüme ve Kurumsal paketlerde senaryo ve hook yazımı dahildir."
   },
   {
     q: "Yüzümüzü kameraya göstermek zorunda mıyız?",
-    a: "Hayır. Faceless (yüzsüz) formatlar için ürün detay, üstten çekim, ekran kaydı, animasyon, sesli anlatım, altyazı odaklı içerik gibi 20+ format kütüphanemiz var. Yüz göstermek istemeyen markalar için özel bir alt paket sunuyoruz. Yine de yüz gösteren içerikler genelde daha yüksek engagement alıyor; kararı size bırakıyoruz. Yüz göstermek istemeyen sahipler için 'AI avatar üzerinden anlatım' opsiyonu da mevcut."
+    a: "Hayır. Faceless (yüzsüz) çalışmak için ürün detay, üstten çekim, ekran kaydı, animasyon, sesli anlatım, altyazı odaklı içerik gibi formatlar kullanıyoruz. Yüz göstermek istemeyen markalar için bu formatlarla çalışıyoruz. Yine de yüz gösteren içerikler genelde daha yüksek engagement alıyor; kararı size bırakıyoruz. Yüz göstermek istemeyen sahipler için 'AI avatar üzerinden anlatım' opsiyonu da mevcut."
   },
   {
     q: "Videolar yapay zeka ile mi üretiliyor, gerçek çekim mi yapıyorsunuz?",
-    a: "İkisi de. Restoran, kafe, klinik, kuaför gibi mekan içerikleri için aylık 1 kez saha çekim ekibi gönderiyoruz, kalan içerikleri gönderdiğiniz kısa telefon çekimlerinden ve yapay zeka üretiminden montajlıyoruz. UGC tarzı reklamlarda kurumsal AI video altyapımızın UGC/hızlı render motorlarını kullanıyoruz. Karma model hem doğallığı hem üretim hızını koruyor. Yapay zeka ile üretim tarafını detaylı görmek için /yapay-zeka-video-uretimi sayfasına bakabilirsiniz."
+    a: "İkisi de. Saha çekimi kısa video paketlerine dahil değildir; ihtiyaç olursa ayrıca planlanır. Paket videolarını gönderdiğiniz kısa telefon çekimlerinden ve yapay zeka üretiminden kurguluyoruz. UGC tarzı reklamlarda kurumsal AI video altyapımızın UGC/hızlı render motorlarını kullanıyoruz. Karma model hem doğallığı hem üretim hızını koruyor. Yapay zeka ile üretim tarafını detaylı görmek için /yapay-zeka-video-uretimi sayfasına bakabilirsiniz."
   },
   {
     q: "Kullandığınız trending sound telif hakkı sorun çıkarır mı?",
-    a: "Instagram ve TikTok'un ticari hesaplar için sunduğu Sound Library'den (lisanslı ticari kullanım) seçim yapıyoruz. Trending ama telifsiz olmayan sesler için orijinal remix veya ses tasarımı üretiyoruz. Ayrıca haftalık olarak müzik kütüphanesindeki lisanslı ticari seçenekleri tarayıp güncel trendlerin ticari sürümlerini kullanıyoruz. Böylece hesabınız hiç kısıtlanmaz, sesler videodan hiç silinmez."
+    a: "Instagram ve TikTok'un ticari hesaplar için sunduğu Sound Library'den (lisanslı ticari kullanım) seçim yapıyoruz. Trending ama telifsiz olmayan sesler için orijinal remix veya ses tasarımı üretiyoruz. Ayrıca haftalık olarak müzik kütüphanesindeki lisanslı ticari seçenekleri tarayıp güncel trendlerin ticari sürümlerini kullanıyoruz. Böylece ses kaynaklı kısıtlanma ve sessize alınma riskini en aza indiriyoruz."
   },
   {
     q: "Marka rengi, logo ve kurumsal kimlik viral videoda kullanılıyor mu?",
-    a: "Evet. Marka rehberinizden hex kod, font ve logo alıyoruz; sonra tüm caption, altyazı, sticker ve intro/outro şablonlarını marka kimliğinize göre hazırlıyoruz. Viral videolarda aşırı kurumsallık engagement'ı düşürdüğü için markayı görünür ama araya sıkışmayacak biçimde konumlandırıyoruz. Örneğin logo sabit köşede değil, videonun sonunda animasyonlu ortaya çıkacak şekilde tasarlanıyor. Böylece hem marka bilinirliği artar hem de algoritma videoyu 'reklam' etiketiyle bastırmaz."
+    a: "Evet. Marka rehberinizden hex kod, font ve logo alıyoruz; sonra tüm caption, altyazı, sticker ve intro/outro şablonlarını marka kimliğinize göre hazırlıyoruz. Viral videolarda aşırı kurumsallık engagement'ı düşürdüğü için markayı görünür ama araya sıkışmayacak biçimde konumlandırıyoruz. Örneğin logo sabit köşede değil, videonun sonunda animasyonlu ortaya çıkacak şekilde tasarlanıyor. Amaç, markayı görünür kılarken videonun reklam gibi algılanmasını önlemektir."
   },
   {
     q: "Ayda kaç farklı hook ve format deneniyor?",
-    a: "Aylık paketlerimizde en az 5 farklı hook (ilk 3 saniye açılışı) ve en az 4 farklı format (Before/After, POV, Reply to comment, Tutorial, vs.) test ediyoruz. İlk 30 gün veri toplama ayı, ikinci 30 gün formül optimizasyonu, üçüncü 30 gün ölçekleme aşamasıdır. Hangi hook ve formatın sizin markanız için işe yaradığını haftalık raporda görebiliyorsunuz. Kazanan formüller ölçeklenir, çalışmayanlar kütüphaneden çıkarılır."
+    a: "Büyüme ve Kurumsal paketlerde senaryo ve hook yazımı dahildir. Farklı açılışları ve içerik kurgularını (Before/After, POV, Reply to comment, Tutorial vb.) dönüşümlü kullanır, performansa göre her ay güncelleriz."
   },
   {
     q: "Yayın saati ve gün seçimini siz mi yapıyorsunuz?",
-    a: "Evet. İlk 2 hafta rakip analizi ve hesabınızın Insights verisinden optimal yayın penceresini çıkarıyoruz. Sonrasında haftalık takvim üzerinden Reels ve TikTok yayın saatlerini belirliyor, Meta Business Suite ve TikTok Scheduler ile önceden programlıyoruz. Genel olarak Türkiye kitlesi için 12:30, 19:00 ve 22:30 aralıkları en iyi çalışır; ancak sektörünüze göre değişebilir. Hafta içi salı, çarşamba, perşembe genelde en yüksek dağıtım günleri."
+    a: "Evet. Başlangıçta rakip analizi ve hesabınızın Insights verisinden uygun yayın penceresini çıkarıyoruz. Sonrasında haftalık takvim üzerinden Reels ve TikTok yayın saatlerini belirliyor, Meta Business Suite ve TikTok Scheduler ile önceden programlıyoruz. 12:30, 19:00 ve 22:30 gibi aralıklar ve hafta ortası günler sık kullanılan başlangıç noktalarıdır; asıl seçim hesabınızın kendi verisine göre yapılır."
   }
 ];
 
@@ -445,7 +387,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -458,39 +400,39 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-pink text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Flame className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Viral Video Stüdyosu</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   Sosyal Medya Viral Video Üretimi
                 </h1>
               </Reveal>
               <Reveal delay={150}>
                 <p className="mt-4 text-xl font-bold text-ink/70 max-w-3xl">
-                  Reels + TikTok formatında algoritmayı kazanan formül.
+                  Reels + TikTok formatında algoritma sinyallerine göre kurgulanan formül.
                 </p>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Sosyal medya viral video üretimi; Reels, TikTok ve YouTube Shorts formatında algoritmanın sevdiği hook, edit temposu, trending sound ve caption formülü ile kısa video üretmektir. PORTZEN, işletmeler için haftalık ölçekte viral olma odaklı içerik üretir. İlk 3 saniyeyi kazanır, doğru sesi seçer, kesim ritmini kurar ve yayını doğru saate koyar. 8 videodan 40 videoya kadar aylık paket seçenekleri ile Türkiye genelinde uzaktan çalışırız.
+                  Sosyal medya viral video üretimi; Reels, TikTok ve YouTube Shorts formatında algoritmanın sevdiği hook, edit temposu, trending sound ve caption formülü ile kısa video üretmektir. PORTZEN, işletmeler için haftalık ölçekte viral olma odaklı içerik üretir. İlk 3 saniyeyi hook ile kurgular, sesi trend ve lisans durumuna göre seçer, kesim ritmini kurar ve yayını hesabınızın verisine göre planlar. Ayda 4, 12 veya 24 videoluk aylık paketlerle Türkiye genelinde uzaktan çalışırız.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Hook Analizi İste <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <a
-                    href="https://wa.me/905015884853"
+                    href="https://wa.me/905318639117"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     <MessageCircle className="h-4 w-4" /> WhatsApp ile Konuş
                   </a>
@@ -504,8 +446,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-pink text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -520,12 +462,15 @@ export default function Page() {
         </div>
       </section>
 
+      <ServiceAtAGlance href="/sosyal-medya-viral-video" />
+
+      <MoreDetails title="Ayrıntılar: Videolar neden yayılmıyor?" summary="En sık gördüğümüz 5 sorun">
       {/* 2. WHY NOT VIRAL */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-3xl">
-              <div className="inline-block border-3 border-paper bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sorun tespiti
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
@@ -541,8 +486,8 @@ export default function Page() {
               const Icon = p.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-paper bg-paper/5 p-6 shadow-[8px_8px_0_#FFFDF5] h-full">
-                    <Icon className="h-7 w-7 text-brand-yellow mb-4" />
+                  <div className="border-3 border-ink/10 bg-light p-6 h-full rounded-2xl">
+                    <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-3">{p.title}</h3>
                     <p className="text-sm opacity-85 leading-relaxed">{p.desc}</p>
                   </div>
@@ -552,7 +497,7 @@ export default function Page() {
           </div>
 
           <Reveal delay={400}>
-            <div className="mt-10 border-3 border-paper bg-paper/5 p-6 shadow-[6px_6px_0_#FFFDF5]">
+            <div className="mt-10 border-3 border-ink/10 bg-light p-6 rounded-2xl">
               <p className="text-sm opacity-90 leading-relaxed">
                 <strong>Not:</strong> Bu 5 problem sadece bireysel işletmelerde değil, kurumsal hesaplarda da yaygın. Kurumsal kimlik korkusu ve karar zinciri yavaşlığı, viral video için gereken hızlı reaksiyonu engelliyor. Kapsamlı içerik yönetimi için <Link href="/sosyal-medya-yonetimi" className="underline font-bold">sosyal medya yönetimi</Link> hizmetimiz haftalık takvim ve topluluk yönetimi ile birlikte çalışıyor. Kurumsal ajans desteği için <Link href="/sosyal-medya-ajansi" className="underline font-bold">sosyal medya ajansı</Link> sayfasına bakabilirsiniz.
               </p>
@@ -561,12 +506,13 @@ export default function Page() {
         </div>
       </section>
 
+      </MoreDetails>
       {/* 3. VIRAL FORMULA */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-3xl">
-              <div className="inline-block border-3 border-ink bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Viral formül
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -582,9 +528,9 @@ export default function Page() {
               const Icon = v.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <div className="flex items-center gap-3 mb-4">
-                      <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm">
+                      <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm rounded-full">
                         <Icon className="h-5 w-5 text-ink" />
                       </div>
                       <div className="font-display text-3xl font-black text-ink/20">{v.step}</div>
@@ -600,18 +546,18 @@ export default function Page() {
       </section>
 
       {/* 4. FORMAT LIBRARY */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-3xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Format kütüphanesi
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Kanıtlanmış 6 format
+                6 temel format
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Her sektör için çalışan format farklıdır. Aşağıdaki 6 format PORTZEN'in en sık ölçeklediği ve viral sonuç aldığı çerçevelerdir. Aylık pakette bu 6 format arasından sektörünüze uygun 3-4 tanesini seçip haftalık rotasyonda uyguluyoruz.
+                Her sektör için çalışan format farklıdır. Aşağıdaki 6 format PORTZEN&apos;in üretimde en sık kullandığı çerçevelerdir. Aylık pakette bu 6 format arasından, paketinizdeki format sayısına göre sektörünüze en uygun olanları seçip rotasyonda uyguluyoruz.
               </p>
             </div>
           </Reveal>
@@ -620,7 +566,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 60}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.name}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -631,7 +577,7 @@ export default function Page() {
           </div>
 
           <Reveal delay={400}>
-            <div className="mt-10 border-3 border-ink bg-brand-yellow p-6 shadow-brutal flex items-center justify-between flex-wrap gap-4">
+            <div className="mt-10 border-3 border-ink/15 bg-light p-6 shadow-brutal flex items-center justify-between flex-wrap gap-4 rounded-2xl">
               <div>
                 <div className="font-display text-lg font-black mb-1 text-ink">Kardeş hizmet: AI reklam videosu</div>
                 <p className="text-sm text-ink/80">
@@ -640,7 +586,7 @@ export default function Page() {
               </div>
               <Link
                 href="/ai-reklam-videosu"
-                className="inline-flex items-center gap-1 border-3 border-ink bg-ink px-4 py-2 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                className="inline-flex items-center gap-1 border-3 border-ink/15 bg-slate px-4 py-2 text-xs font-bold text-white shadow-brutal-sm transition-all rounded-full"
               >
                 AI Reklam Videosu <ArrowUpRight className="h-3.5 w-3.5" />
               </Link>
@@ -649,19 +595,20 @@ export default function Page() {
         </div>
       </section>
 
+      <MoreDetails title="Ayrıntılar: AI destek katmanı" summary="Script, ses trendi, rakip analizi ve yayın saati">
       {/* 6. AI SUPPORT */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-3xl">
-              <div className="inline-block border-3 border-ink bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 AI destek katmanı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 Yapay zeka viral formülü hızlandırır
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Viral video üretimi sadece kreatif değil, veri işidir. Trend takibi, rakip analizi, hook varyantı ve yayın saati; AI destekli araçlar olmadan haftalık ölçekte sürdürülemez. PORTZEN'in AI katmanı üretim hızını artırıyor, ölçümü tahmine değil veriye dayandırıyor. Detaylı üretim tarafını <Link href="/yapay-zeka-video-uretimi" className="underline font-bold">yapay zeka video üretimi</Link> sayfasında görebilirsiniz.
+                Viral video üretimi sadece kreatif değil, veri işidir. Trend takibi, rakip analizi, hook varyantı ve yayın saati; AI destekli araçlar olmadan haftalık ölçekte sürdürülemez. PORTZEN&apos;in AI katmanı üretim hızını artırıyor, ölçümü tahmine değil veriye dayandırıyor. Detaylı üretim tarafını <Link href="/yapay-zeka-video-uretimi" className="underline font-bold">yapay zeka video üretimi</Link> sayfasında görebilirsiniz.
               </p>
             </div>
           </Reveal>
@@ -670,8 +617,8 @@ export default function Page() {
               const Icon = a.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-pink text-paper shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-slate text-white shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5" />
                     </div>
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{a.title}</h3>
@@ -684,19 +631,20 @@ export default function Page() {
         </div>
       </section>
 
+      </MoreDetails>
       {/* 7. SECTORS */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-3xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Sektörel örnekler
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 6 sektörde uyguladığımız viral formatlar
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Her sektörün viral olma dili farklıdır. Bir kafeyi viral yapan format bir kliniği viral yapmaz. Aşağıdaki 6 sektör için özel içerik pillar'ları, hook örnekleri ve trending audio setleri ile çalışıyoruz. Detay için sektörel sayfalarımıza göz atabilirsiniz.
+                Her sektörün viral olma dili farklıdır. Bir kafeyi viral yapan format bir kliniği viral yapmaz. Aşağıdaki 6 sektör için özel içerik pillar&apos;ları, hook örnekleri ve trending audio setleri ile çalışıyoruz. Detay için sektörel sayfalarımıza göz atabilirsiniz.
               </p>
             </div>
           </Reveal>
@@ -705,12 +653,12 @@ export default function Page() {
               <Reveal key={i} delay={i * 60}>
                 <Link
                   href={sector.href}
-                  className="block border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full group"
+                  className="block border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full group rounded-2xl"
                 >
                   <Flame className="h-7 w-7 text-ink mb-4" />
                   <h3 className="font-display text-lg font-black mb-2 text-ink">{sector.name}</h3>
                   <p className="text-sm text-ink/70 leading-relaxed mb-4">{sector.desc}</p>
-                  <span className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-pink group-hover:gap-2 transition-all">
+                  <span className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink group-hover:gap-2 transition-all">
                     Sektör Sayfasını Gör <ArrowUpRight className="h-3.5 w-3.5" />
                   </span>
                 </Link>
@@ -720,101 +668,19 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 8. PACKAGES */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-3xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Aylık viral video paketleri
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                3 aylık paket: yeni başlayanlar için 8 video, büyüyen markalar için 20 video, agresif ölçekleme için 40+ video. Fiyatlar aylıktır, sürekli üretim modeline göre kurgulanmıştır. Video sayısı, platform sayısı ve çekim günü paket seçimine göre değişir.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    p.color === "bg-brand-yellow" ? "text-ink" : "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-3xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.duration}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
+      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
 
-          <Reveal delay={400}>
-            <div className="mt-10 grid md:grid-cols-2 gap-6">
-              <div className="border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal">
-                <div className="font-display text-lg font-black mb-2">Kapsamlı içerik yönetimi ile birlikte</div>
-                <p className="text-sm opacity-90 mb-3">
-                  Sadece viral video değil, feed post, story, topluluk yönetimi ve raporlama da istiyorsanız sosyal medya yönetimi paketi ile bundle yapıyoruz.
-                </p>
-                <Link
-                  href="/sosyal-medya-yonetimi"
-                  className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all"
-                >
-                  Sosyal Medya Yönetimi <ArrowUpRight className="h-3.5 w-3.5" />
-                </Link>
-              </div>
-              <div className="border-3 border-ink bg-brand-purple text-paper p-5 shadow-brutal">
-                <div className="font-display text-lg font-black mb-2">Instagram DM otomasyonu ile birleştirin</div>
-                <p className="text-sm opacity-90 mb-3">
-                  Viral videolarınızdan gelen DM'leri otomatik yanıtlayıp müşteri hunisine çevirmek için DM otomasyonu ile bundle yapıyoruz.
-                </p>
-                <Link
-                  href="/instagram-dm-otomasyonu"
-                  className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all"
-                >
-                  Instagram DM Otomasyonu <ArrowUpRight className="h-3.5 w-3.5" />
-                </Link>
-              </div>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      <PricingSection family="kisa-video" heading="Kısa video üretimi fiyatları" />
+
 
       {/* 9. CASE STUDY */}
-      <section className="bg-brand-blue text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <div className="grid lg:grid-cols-[1.4fr_1fr] gap-10 items-start">
             <div>
               <Reveal>
-                <div className="inline-block border-3 border-ink bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                  Viral vaka çalışması
+                <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                  Örnek senaryo
                 </div>
               </Reveal>
               <Reveal delay={100}>
@@ -831,22 +697,22 @@ export default function Page() {
                 <div className="mt-6 flex flex-wrap gap-3">
                   <Link
                     href="/blog/reels-yapay-zeka-ile-uretim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper text-ink px-4 py-2 text-xs font-bold shadow-brutal transition-all rounded-full"
                   >
                     Reels Üretim Rehberi <ArrowUpRight className="h-3.5 w-3.5" />
                   </Link>
                   <Link
                     href="/blog/konya-mobilya-instagram-reels"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper text-ink px-4 py-2 text-xs font-bold shadow-brutal transition-all rounded-full"
                   >
-                    Mobilya Vaka İncelemesi <ArrowUpRight className="h-3.5 w-3.5" />
+                    Mobilya Reels İncelemesi <ArrowUpRight className="h-3.5 w-3.5" />
                   </Link>
                 </div>
               </Reveal>
             </div>
             <Reveal delay={200}>
-              <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal">
-                <div className="font-display text-xl font-black mb-4">Somut sonuçlar</div>
+              <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal rounded-2xl">
+                <div className="font-display text-xl font-black mb-4">Kurgu özeti</div>
                 <ul className="space-y-4">
                   {caseStudy.metrics.map((m, i) => (
                     <li key={i} className="border-b-3 border-ink/10 pb-3 last:border-0 last:pb-0">
@@ -861,38 +727,39 @@ export default function Page() {
         </div>
       </section>
 
+      <MoreDetails title="Ayrıntılar: Kendiniz çekmek mi, PORTZEN mi?" summary="Beş kriterde karşılaştırma">
       {/* 10. COMPARISON */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-3xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 Kendi kendinize çekmek vs PORTZEN ile üretmek
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Sosyal medya viral video üretimini işletme sahibi olarak kendiniz yapmakla, uzman ekiple çıkarmak arasındaki farkı 5 kriterde karşılaştırıyoruz. Bu tablo, PORTZEN müşterilerinden ilk ay öncesi çıkarılan ortalama verilere dayanır.
+                Sosyal medya viral video üretimini işletme sahibi olarak kendiniz yapmakla, uzman ekiple çıkarmak arasındaki farkı 5 kriterde karşılaştırıyoruz. Bu tablo genel bir karşılaştırmadır; ayrılan süre işletmeden işletmeye değişir.
               </p>
             </div>
           </Reveal>
           <Reveal delay={100}>
-            <div className="border-3 border-ink shadow-brutal overflow-x-auto">
+            <div className="border-3 border-ink/15 shadow-brutal overflow-x-auto rounded-2xl">
               <table className="w-full border-collapse">
                 <thead>
-                  <tr className="bg-ink text-paper">
-                    <th className="border-3 border-ink p-4 text-left font-display text-base font-black uppercase">Kriter</th>
-                    <th className="border-3 border-ink p-4 text-left font-display text-base font-black uppercase">Kendiniz Çekmek</th>
-                    <th className="border-3 border-ink p-4 text-left font-display text-base font-black uppercase bg-brand-yellow text-ink">PORTZEN ile Üretim</th>
+                  <tr className="bg-light text-ink">
+                    <th className="border-3 border-ink/15 p-4 text-left font-display text-base font-black uppercase rounded-2xl">Kriter</th>
+                    <th className="border-3 border-ink/15 p-4 text-left font-display text-base font-black uppercase rounded-2xl">Kendiniz Çekmek</th>
+                    <th className="border-3 border-ink/15 p-4 text-left font-display text-base font-black uppercase bg-light text-ink rounded-2xl">PORTZEN ile Üretim</th>
                   </tr>
                 </thead>
                 <tbody>
                   {comparison.map((row, i) => (
-                    <tr key={i} className={cn(i % 2 === 0 ? "bg-paper" : "bg-paper/50")}>
-                      <td className="border-3 border-ink p-4 font-bold text-ink">{row.kriter}</td>
-                      <td className="border-3 border-ink p-4 text-ink/80">{row.self}</td>
-                      <td className="border-3 border-ink p-4 text-ink font-bold bg-brand-yellow/30">{row.portzen}</td>
+                    <tr key={i} className={cn(i % 2 === 0 ? "bg-paper" : "bg-light")}>
+                      <td className="border-3 border-ink/15 p-4 font-bold text-ink rounded-2xl">{row.kriter}</td>
+                      <td className="border-3 border-ink/15 p-4 text-ink/80 rounded-2xl">{row.self}</td>
+                      <td className="border-3 border-ink/15 p-4 text-ink font-bold bg-light rounded-2xl">{row.portzen}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -901,18 +768,19 @@ export default function Page() {
           </Reveal>
           <Reveal delay={300}>
             <p className="mt-6 text-sm text-ink/60 max-w-3xl">
-              <strong>Not:</strong> Ortalama bir işletme sahibi haftada 10-15 saat sosyal medya için harcıyor; buna öğrenme, tasarım, çekim ve yayın dahil. Aynı süre ana işine ayrılsa yaratacağı ciro potansiyeli, aylık video paketi maliyetinin çok üstünde. Detaylı hesap için <Link href="/iletisim" className="underline font-bold">iletişim formunu</Link> kullanabilirsiniz.
+              <strong>Not:</strong> Sosyal medyaya öğrenme, tasarım, çekim ve yayın için ayrılan süre birçok işletme sahibi için her hafta birkaç saati bulur. Bu süreyi ana işinize ayırabilmek, paket maliyetini değerlendirirken hesaba katılması gereken bir kalemdir. Detaylı hesap için <Link href="/iletisim" className="underline font-bold">iletişim formunu</Link> kullanabilirsiniz.
             </p>
           </Reveal>
         </div>
       </section>
 
+      </MoreDetails>
       {/* 11. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
@@ -923,7 +791,7 @@ export default function Page() {
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -933,50 +801,50 @@ export default function Page() {
 
           <Reveal delay={400}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
                 <div className="font-display text-base font-black mb-2">Blog: Instagram Reels algoritması 2026</div>
                 <p className="text-sm opacity-85 mb-3">
                   Reels algoritmasının 2026 güncellemeleri: yeni sinyaller, izlenme süresi ağırlığı, tekrar izleme sinyali.
                 </p>
                 <Link
                   href="/blog/instagram-reels-algoritmasi-2026"
-                  className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all"
+                  className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all"
                 >
                   Algoritmayı Anla <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
                 <div className="font-display text-base font-black mb-2">Blog: TikTok vs Instagram Reels</div>
                 <p className="text-sm opacity-85 mb-3">
-                  KOBİ'ler için hangi platform öncelikli? Yayın algoritması, kitle davranışı ve dönüşüm karşılaştırması.
+                  KOBİ&apos;ler için hangi platform öncelikli? Yayın algoritması, kitle davranışı ve dönüşüm karşılaştırması.
                 </p>
                 <Link
                   href="/blog/tiktok-vs-instagram-reels-kobi"
-                  className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all"
+                  className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all"
                 >
                   Karşılaştırmayı Oku <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
                 <div className="font-display text-base font-black mb-2">Blog: TikTok marka sayfası açma</div>
                 <p className="text-sm opacity-85 mb-3">
                   TikTok Business Account nasıl kurulur, ilk 30 gün stratejisi, ölçümleme kurulumu ve reklam entegrasyonu.
                 </p>
                 <Link
                   href="/blog/tiktok-marka-sayfasi-acma"
-                  className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all"
+                  className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all"
                 >
                   Rehberi Oku <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
                 <div className="font-display text-base font-black mb-2">Blog: Reels yapay zeka ile üretim</div>
                 <p className="text-sm opacity-85 mb-3">
-                  Instagram Reels'i yapay zeka ile haftalık ölçekte nasıl ürettiğimizi anlattığımız detaylı rehber.
+                  Instagram Reels&apos;i yapay zeka ile haftalık ölçekte nasıl ürettiğimizi anlattığımız detaylı rehber.
                 </p>
                 <Link
                   href="/blog/reels-yapay-zeka-ile-uretim"
-                  className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all"
+                  className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all"
                 >
                   Rehberi Oku <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
@@ -989,36 +857,36 @@ export default function Page() {
       {/* 12. FINAL CTA */}
       <section className="py-section">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                İlk viral videonuzu birlikte kuralım.
+                İlk videonuzu birlikte kurgulayalım.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                20 dakikalık ücretsiz hook analizi ile mevcut hesabınızın son 10 videosunu inceliyor, viral formüle uyarlanmış 3 yeni konsept öneriyoruz. Beğenirseniz aylık pakete geçiyoruz, beğenmezseniz veri sizin olsun. Sadece sözleşmeye bağlanmadan önce viral formülün gerçek olduğunu görün.
+                20 dakikalık ücretsiz hook analizi ile mevcut hesabınızın son 10 videosunu inceliyor, viral formüle uyarlanmış 3 yeni konsept öneriyoruz. Beğenirseniz aylık pakete geçiyoruz; sözleşme süresi ve fesih koşulları teklifte yazılı olarak belirtilir.
               </p>
             </Reveal>
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Hook Analizi Al
                 </a>
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   İletişim Formu <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <Link
                   href="/yapay-zeka-video-uretimi"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   Yapay Zeka Video Üretimi <ArrowUpRight className="h-4 w-4" />
                 </Link>
@@ -1028,7 +896,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

@@ -15,7 +15,7 @@ ogImage: "/blog/og/optik-periyodik-kontrol-otomasyonu.png"
 
 Optik mağazalarının en sessiz cirosu, iki yıl önce gözlüğünü alıp gitmiş ve unutulmuş müşterilerin içindedir. Bir kişi yetişkin olarak ortalama her 24 ayda bir göz muayenesinden geçmesi gerektiğini bilir ama bu süreyi takip eden, hatırlatma yapan, kampanya öneren tek aktör çoğu zaman optisyenin kendisidir; o da haftalık ajandasında bu işe yer ayıramaz. Sonuç olarak müşteri ya yan sokakta açılan zincir mağazaya yönelir, ya da çerçeve değişimini bir yıl daha erteler. Optik sektörünün geri dönüş döngüsü tam olarak burada kırılır.
 
-PORTZEN olarak Ankara, İstanbul, İzmir ve Bursa'da bağımsız optisyenlerden orta ölçekli zincirlere kadar farklı optik markaları için CRM ve otomasyon projeleri yürütüyoruz. Gördüğümüz tablo net: ortalama bir mağazada müşteri veritabanının yüzde 60 ile 70'i pasif, yani son 18 ayda hiçbir iletişim kurulmamış. Bu kişilerin önemli bir kısmı, doğru zamanlanmış bir hatırlatma ile kolayca yeni gözlük, kontak lens veya yıllık muayene için gelir. Bu yazıda, müşteri reçete tarihi takibinden başlayarak 23. ay hatırlatma SMS'i, kontak lens kutusu uyarısı, garanti süresi takibi, kampanya kurgusu ve KVKK uyumlu rıza yönetimine kadar bir optik mağazasının kurması gereken otomasyon mimarisini, sahadan gerçek rakamlarla anlatıyoruz.
+Optik mağazalarında müşteri veritabanının önemli bir kısmı genellikle pasif kalır; yani uzun süredir kendisiyle hiçbir iletişim kurulmamış kayıtlardır. Bu kişilerin bir kısmı, doğru zamanlanmış bir hatırlatma ile yeni gözlük, kontak lens veya yıllık muayene için geri gelebilir. Bu yazıda, müşteri reçete tarihi takibinden başlayarak 23. ay hatırlatma SMS'i, kontak lens kutusu uyarısı, garanti süresi takibi, kampanya kurgusu ve KVKK uyumlu rıza yönetimine kadar bir optik mağazasının kurması gereken otomasyon mimarisini adım adım anlatıyoruz.
 
 ## Optik Müşteri Veritabanını Doğru Kurmak
 
@@ -27,7 +27,7 @@ Temel müşteri kaydında bulunması gereken alanlar: ad soyad, doğum tarihi, c
 
 ### Mevcut Veriyi Temizleme
 
-Eski müşterileri sisteme alırken çoğu mağaza tıkanır çünkü kasa programındaki kayıtların önemli bir kısmı eksiktir. PORTZEN olarak önerdiğimiz yöntem; ilk 3 ayda mağazaya gelen her müşteriden kart güncellemesi yapmak, geçmiş verideki eksik telefonları satın alma fişlerinden tamamlamak ve hiç ulaşılamayan kayıtları "pasif arşiv" etiketiyle ayırmak. 6 ay sonra verinizin yüzde 80'i kullanılabilir hale gelir.
+Eski müşterileri sisteme alırken çoğu mağaza tıkanır çünkü kasa programındaki kayıtların önemli bir kısmı eksiktir. PORTZEN olarak önerdiğimiz yöntem; ilk 3 ayda mağazaya gelen her müşteriden kart güncellemesi yapmak, geçmiş verideki eksik telefonları satın alma fişlerinden tamamlamak ve hiç ulaşılamayan kayıtları "pasif arşiv" etiketiyle ayırmak. Bu yöntemle müşteri verisi her ziyaretle biraz daha tamamlanır ve hatırlatmalarda kullanılabilir hale gelir.
 
 ### Kasa Programı ve CRM Entegrasyonu
 
@@ -39,7 +39,7 @@ Optik müşterisinin geri gelme döngüsü, fizyolojik olarak reçetenin yenilen
 
 ### Yetişkin Müşteri İçin Standart Akış
 
-18-44 yaş arasındaki müşteriler için reçete tarihinden 23 ay sonra, yani yenilemeden 30 gün önce ilk hatırlatma mesajı gönderilir. Mesaj kuru bir "muayene zamanı geldi" değil, kişiselleştirilmiş bir öneri olmalıdır. "Merhaba Selin Hanım, son gözlük muayeneniz Haziran 2024'te yapılmıştı. Yetişkinler için 2 yılda bir göz kontrolü öneriliyor. Mağazamızda ücretsiz refraksiyon ölçümü için size uygun günü ayarlayabiliriz." gibi bir mesaj yüzde 18-25 bandında dönüş alır.
+18-44 yaş arasındaki müşteriler için reçete tarihinden 23 ay sonra, yani yenilemeden 30 gün önce ilk hatırlatma mesajı gönderilir. Mesaj kuru bir "muayene zamanı geldi" değil, kişiselleştirilmiş bir öneri olmalıdır. "Merhaba Selin Hanım, son gözlük muayeneniz Haziran 2024'te yapılmıştı. Yetişkinler için 2 yılda bir göz kontrolü öneriliyor. Mağazamızda ücretsiz refraksiyon ölçümü için size uygun günü ayarlayabiliriz." gibi kişiselleştirilmiş bir mesaj, kuru bir hatırlatmaya göre çok daha doğal karşılanır.
 
 ### Çocuk Müşteri İçin Kısa Periyot
 
@@ -47,7 +47,7 @@ Optik müşterisinin geri gelme döngüsü, fizyolojik olarak reçetenin yenilen
 
 ### 45+ Yaş ve Presbiyopi Takibi
 
-45 yaş üstü müşterilerde presbiyopi ilerlemesi 12-18 ayda anlamlı değişim gösterebilir. Bu segment için 18. ay hatırlatması ve "yakın görüşte zorlanıyor musunuz?" sorusunu içeren kısa anket, hem sağlık takibi hem ticaret açısından çok değerlidir. PORTZEN'in optik müşterilerinde bu segmente yapılan özel kampanya, ortalama mağaza cirosuna yıllık yüzde 8-12 katkı sağlıyor.
+45 yaş üstü müşterilerde presbiyopi ilerlemesi 12-18 ayda anlamlı değişim gösterebilir. Bu segment için 18. ay hatırlatması ve "yakın görüşte zorlanıyor musunuz?" sorusunu içeren kısa anket, hem sağlık takibi hem ticaret açısından çok değerlidir. Bu segmente özel kampanya, progresif cam gibi yüksek sepetli ürünler için müşteriyi mağazaya davet etmenin doğal bir yoludur.
 
 ### Mesaj Kanalı Seçimi
 
@@ -67,7 +67,7 @@ Lens hatırlatma mesajının içine eğitici bir cümle koymak, müşteri ilişk
 
 ### Solüsyon, Kutu ve Aksesuar Çapraz Satışı
 
-Lens hatırlatmasının üzerine binmesi gereken doğal ürünler: solüsyon, lens kutusu ve göz damlası. Otomasyon, müşterinin son 6 ayda hangi yan ürünleri aldığını bilirse uygun olanı teklif eder. Sepet ortalamasını yüzde 15-22 artıran küçük bir akıştır; mağaza içinde sahada hatırlanması zor olan bu detay otomasyonla kalıcı hale gelir.
+Lens hatırlatmasının üzerine binmesi gereken doğal ürünler: solüsyon, lens kutusu ve göz damlası. Otomasyon, müşterinin son 6 ayda hangi yan ürünleri aldığını bilirse uygun olanı teklif eder. Sepet ortalamasını destekleyen küçük bir akıştır; mağaza içinde sahada hatırlanması zor olan bu detay otomasyonla kalıcı hale gelir.
 
 ## Garanti, Cam Değişimi ve Çerçeve Onarımı Takibi
 
@@ -79,11 +79,11 @@ Cam garantisi genellikle 12 ay, çerçeve garantisi 24 ay, anti-reflektif kaplam
 
 ### Cam Değişimi Kampanyası
 
-Çerçevesi sağlam ama camı yıpranmış müşteriye, sadece cam değişim kampanyası teklif etmek hem müşteri için ekonomik hem mağaza için yüksek karlı bir işlemdir. 18. ayda gönderilen "çerçevenize yeni cam yaptıralım" kampanyası, kapasitenin yüzde 20-30'unu doldurabilir.
+Çerçevesi sağlam ama camı yıpranmış müşteriye, sadece cam değişim kampanyası teklif etmek hem müşteri için ekonomik hem mağaza için yüksek karlı bir işlemdir. 18. ayda gönderilen "çerçevenize yeni cam yaptıralım" kampanyası, sakin dönemlerde atölye kapasitesini değerlendirmeye yardımcı olur.
 
 ### İade ve Değişim Hakkı
 
-Tüketicinin Korunması Hakkında Kanun ve ilgili yönetmelikler kapsamında optik ürünlerde mesafeli satışta 14 gün cayma hakkı vardır; mağaza içi satışlarda bu süre olmamakla birlikte ürün ayıbı durumunda yasal sorumluluk devam eder. Otomasyon, satış sonrası 7. günde "memnuniyet anketi" göndererek olası ayıpları erken yakalar ve müşteri şikayetinin Tüketici Hakem Heyeti'ne gitmesini engeller.
+Tüketicinin Korunması Hakkında Kanun ve ilgili yönetmelikler kapsamında optik ürünlerde mesafeli satışta 14 gün cayma hakkı vardır; mağaza içi satışlarda bu süre olmamakla birlikte ürün ayıbı durumunda yasal sorumluluk devam eder. Otomasyon, satış sonrası 7. günde "memnuniyet anketi" göndererek olası ayıpları erken yakalamaya ve sorunun müşteri şikâyetine dönüşmeden mağazada çözülmesine yardımcı olur.
 
 ## Kampanya, Sigorta ve Sezonsal Otomasyonlar
 
@@ -91,7 +91,7 @@ Hatırlatma akışı kuruldu, müşteri segmente edildi, şimdi kampanya katman�
 
 ### Sigorta Yenileme Hatırlatması
 
-Çoğu müşteri, özel sağlık sigortası veya tamamlayıcı sağlık sigortasıyla yıllık gözlük çerçevesi ve cam hakkı kullanır. Sigorta poliçesinin yenileme tarihi sisteme girilirse, "Bu yılki gözlük hakkınızı kullanmadan dönem bitmesin" mesajı yılda bir kez ciddi bir trafik yaratır. PORTZEN müşterilerinde bu mesajın aralık ayında yaratttığı dönüş, yıllık cironun yüzde 6-9'una denk geliyor.
+Çoğu müşteri, özel sağlık sigortası veya tamamlayıcı sağlık sigortasıyla yıllık gözlük çerçevesi ve cam hakkı kullanır. Sigorta poliçesinin yenileme tarihi sisteme girilirse, "Bu yılki gözlük hakkınızı kullanmadan dönem bitmesin" mesajı yılda bir kez ciddi bir trafik yaratır. Bu mesajın en etkili zamanı, müşterinin hakkını kullanmak için hâlâ vakti olduğu dönem sonundan önceki haftalardır.
 
 ### Anneler Günü, Babalar Günü ve Doğum Günü
 
@@ -139,7 +139,7 @@ Türkiye pazarında doğrudan optik sektörüne özel az sayıda CRM var. Çoğu
 
 ### Aylık otomasyon maliyeti nedir?
 
-Orta ölçekli bir optik mağazası için tipik aylık maliyet: CRM yazılımı 750-2.500 TL, WhatsApp Business API mesaj ücretleri 600-1.800 TL, SMS paketi 0,15 TL/adet (genelde ay 800-1.500 TL), otomasyon platformu 0-2.000 TL arası. Toplam 2.500-7.000 TL/ay bandında bir bütçe yeterlidir. Kurulum tek seferlik 25.000-60.000 TL arasında değişir.
+Orta ölçekli bir optik mağazası için tipik aylık maliyet: CRM yazılımı 750-2.500 TL, WhatsApp Business API mesaj ücretleri 600-1.800 TL, SMS paketi 0,15 TL/adet (genelde ay 800-1.500 TL), otomasyon platformu 0-2.000 TL arası. Toplam 2.500-7.000 TL/ay bandında bir bütçe yeterlidir. Piyasada kurulum tek seferlik 25.000-60.000 TL arasında değişir. PORTZEN'de bu kurulum iş otomasyonu paketleriyle tek seferlik yapılır: {{fiyatlar:is-otomasyonu}} (KDV hariç); CRM yazılımı, mesaj ve platform ücretleri hizmet bedeline dahil değildir.
 
 ### Hatırlatma mesajları ne sıklıkta gönderilmeli?
 
@@ -151,8 +151,8 @@ Otomasyonda en kritik kontrol noktası, reçetenin hatasız aktarılmasıdır. Y
 
 ### Reklamdan gelen yeni müşteriler otomasyona nasıl dahil ediliyor?
 
-Meta veya Google reklamından gelen lead, doğrudan CRM'e düşmeli, "yeni müşteri" segmentinde işaretlenmeli, 5 dakika içinde otomatik karşılama mesajı almalıdır. Sonra randevu için müşteri temsilcisi devreye girer. Tüm süreç [WhatsApp AI asistanı sayfamızda](/whatsapp-ai-asistani) detaylı anlatılmıştır.
+Meta veya Google reklamından gelen lead, doğrudan CRM'e düşmeli, "yeni müşteri" segmentinde işaretlenmeli, beklemeden otomatik karşılama mesajı almalıdır. Sonra randevu için müşteri temsilcisi devreye girer. Tüm süreç [WhatsApp AI asistanı sayfamızda](/whatsapp-ai-asistani) detaylı anlatılmıştır.
 
 ## PORTZEN ile Optik Otomasyonu Kurmak
 
-Bir optik mağazasının cirosunun en büyük kısmı, kapısından bir kez girip kaybolan müşterilerin geri dönüşünden gelir. Bu döngüyü insan eliyle takip etmek pratikte mümkün değil; doğru tasarlanmış bir otomasyon ise aynı işi sessizce, doğru zamanda ve yüksek dönüş oranıyla yapar. PORTZEN olarak Ankara merkezli olarak Türkiye'nin farklı şehirlerinde optik mağazaları için reçete takibi, kontak lens hatırlatması, sigorta yenileme kampanyası ve KVKK uyumlu müşteri verisi yönetimi projeleri kurguluyoruz. Mevcut müşteri veritabanınız üzerinden çıkardığımız "23. ay penceresine giren müşteri" raporu ile ilk demo görüşmesine geliyoruz; rakamı görmek karar vermeyi kolaylaştırıyor. Detaylı bilgi ve teklif için [iletişim sayfamızdan](/iletisim) ulaşabilir, sektöre özel çözümler için [CRM otomasyonu](/crm-otomasyonu) ve [otomasyon hizmetleri](/whatsapp-ai-asistani) sayfalarımızı inceleyebilirsiniz.
+Bir optik mağazasının cirosunun en büyük kısmı, kapısından bir kez girip kaybolan müşterilerin geri dönüşünden gelir. Bu döngüyü insan eliyle takip etmek pratikte mümkün değil; doğru tasarlanmış bir otomasyon ise aynı işi sessizce ve doğru zamanda yapar. PORTZEN olarak optik mağazaları için reçete takibi, kontak lens hatırlatması, sigorta yenileme kampanyası ve KVKK gerekliliklerini dikkate alarak kurgulanan (açık rıza, aydınlatma akışı, İYS izni) müşteri verisi yönetimi akışları kuruyoruz. Mevcut müşteri veritabanınız üzerinden çıkardığımız "23. ay penceresine giren müşteri" raporu ile ilk demo görüşmesine geliyoruz; rakamı görmek karar vermeyi kolaylaştırıyor. Detaylı bilgi ve teklif için [iletişim sayfamızdan](/iletisim) ulaşabilir, sektöre özel çözümler için [CRM otomasyonu](/crm-otomasyonu) ve [otomasyon hizmetleri](/whatsapp-ai-asistani) sayfalarımızı inceleyebilirsiniz.

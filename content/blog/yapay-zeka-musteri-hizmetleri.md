@@ -29,19 +29,19 @@ Bu farkı somut görmek için bir örnek: müşteri "geçen hafta aldığım mon
 
 ## KOBİ'ler İçin AI Müşteri Hizmetlerinin Somut Faydaları
 
-Yapay zeka müşteri hizmetlerine geçen KOBİ'lerin yıllık operasyonel kazanımları çoğu zaman dışarıdan tahmin edilenden büyük oluyor. Sahadan topladığımız verilere göre tipik kazanımlar şöyle:
+Yapay zeka müşteri hizmetlerine geçen bir KOBİ'de iş akışında şunlar değişir:
 
-- **Cevap süresi:** Ortalama 4 saat 12 dakikadan 18 saniyeye iner.
-- **Yanıtsız mesaj oranı:** %22'den %2'nin altına düşer.
-- **Müşteri memnuniyet skoru:** 3.8/5'ten 4.6/5 seviyesine çıkar.
-- **Sipariş dönüşüm oranı:** Mesajla gelen taleplerde %18-30 artar.
-- **Operasyonel maliyet:** Müşteri temsilcisi başına %35 azalır.
+- **Cevap süresi:** Tekrarlı sorulara mesaj geldiği anda otomatik yanıt verilir; personelin müsait olması beklenmez.
+- **Yanıtsız mesajlar:** Mesai dışında gelen mesajlar da karşılanır, özel konular ertesi gün özet olarak ekibe düşer.
+- **Müşteri memnuniyeti:** Müşteri aynı soruyu tekrar sormak ya da beklemek zorunda kalmaz.
+- **Sipariş dönüşümü:** Mesajla gelen talepler soğumadan sipariş veya randevu adımına yönlendirilir.
+- **Operasyonel yük:** Müşteri temsilcileri tekrarlı sorular yerine şikâyet ve özel taleplere odaklanır.
 
-Bu rakamlar boş tabela değil; özellikle Türkiye'de WhatsApp ve Instagram DM'nin yoğun kullanıldığı sektörlerde net olarak görülebiliyor. Detaylı [WhatsApp AI asistanı rehberimizi](/blog/whatsapp-ai-asistani-nedir) okumanızı öneririm.
+Bu değişimler özellikle Türkiye'de WhatsApp ve Instagram DM'nin yoğun kullanıldığı sektörlerde belirgindir; etkisini kurulum öncesi ve sonrası metriklerinizi karşılaştırarak ölçmeniz gerekir. Detaylı [WhatsApp AI asistanı rehberimizi](/blog/whatsapp-ai-asistani-nedir) okumanızı öneririm.
 
 ### Görünmeyen Kazanım: Marka İmajı
 
-Sayılarla ölçülmeyen ama belki de en kritik etki şu: müşteriniz size 23.00'te yazdığında 18 saniyede cevap aldığında, sizi "ciddi", "kurumsal", "modern" olarak konumlandırıyor. 50 kişilik bir KOBİ, AI asistan sayesinde 500 kişilik bir markanın müşteri deneyimini sunabiliyor. Bu algı sadece müşteri tutundurmada değil, fiyatlandırma gücünüzü artırmada da işe yarıyor.
+Sayılarla ölçülmeyen ama belki de en kritik etki şu: müşteriniz size 23.00'te yazdığında beklemeden cevap aldığında, sizi "ciddi", "kurumsal", "modern" olarak konumlandırıyor. 50 kişilik bir KOBİ, AI asistan sayesinde 500 kişilik bir markanın müşteri deneyimini sunabiliyor. Bu algı sadece müşteri tutundurmada değil, fiyatlandırma gücünüzü artırmada da işe yarıyor.
 
 ## AI Müşteri Hizmetleri Mimarisi: Hangi Parçalar Var?
 
@@ -57,7 +57,7 @@ GPT-4, Claude Sonnet, Gemini gibi büyük dil modelleri sistemin "beynini" oluş
 
 ### 3. Bilgi Tabanı (Knowledge Base)
 
-AI modelinin "şirket bilgisini" çıkardığı yer burası. Hizmetleriniz, fiyatlarınız, politikalarınız, sıkça sorulan sorular, iç prosedürleriniz buraya yüklenir. RAG (Retrieval Augmented Generation) tekniğiyle AI her cevabı verirken önce buradan ilgili bilgiyi çekip ondan sonra cevabı oluşturur. Bu yapı **halüsinasyonu** (yani AI'ın uydurma cevap vermesini) %95+ oranında engeller.
+AI modelinin "şirket bilgisini" çıkardığı yer burası. Hizmetleriniz, fiyatlarınız, politikalarınız, sıkça sorulan sorular, iç prosedürleriniz buraya yüklenir. RAG (Retrieval Augmented Generation) tekniğiyle AI her cevabı verirken önce buradan ilgili bilgiyi çekip ondan sonra cevabı oluşturur. Bu yapı **halüsinasyonu** (yani AI'ın uydurma cevap vermesini) büyük ölçüde azaltır; bilgi tabanında olmayan konularda AI'ın insana devretmesi gerekir.
 
 ### 4. Eylem Katmanı (Actions / Tools)
 
@@ -98,7 +98,7 @@ Yapay zeka müşteri hizmetlerinin nasıl uygulanacağı sektöre göre ciddi fa
 
 ### E-ticaret Markası
 
-Bir butik moda markasının AI asistanı bu işleri yapar: sipariş takibi, beden danışmanlığı ("160 boyunda 55 kiloyum, S mi M mi alayım?"), iade-değişim süreçleri, kapıda ödeme talebi, kargo şikayetleri. Müşteri temsilcisi sadece şikayet ve özel taleplere bakar. 2 kişilik destek ekibinin yaptığı işi 1 kişi rahatlıkla halleder.
+Bir butik moda markasının AI asistanı bu işleri yapar: sipariş takibi, beden danışmanlığı ("160 boyunda 55 kiloyum, S mi M mi alayım?"), iade-değişim süreçleri, kapıda ödeme talebi, kargo şikayetleri. Müşteri temsilcisi sadece şikayet ve özel taleplere bakar; ekip büyümeden artan mesaj hacmini karşılayabilir.
 
 ### Hizmet Sektörü (Berber, Estetisyen, Spa)
 
@@ -142,7 +142,7 @@ Bir AI müşteri hizmetleri sisteminin gerçek maliyeti üç ana kaleme dağıl�
 | Bakım ve içerik güncelleme | 1500-4000 TL | 18.000-48.000 TL |
 | **Toplam aylık işletme** | **~3.000-11.000 TL** | **~36.000-132.000 TL** |
 
-Kurulum tek seferlik maliyeti ise işin kapsamına göre 25.000 TL'den 150.000 TL'ye kadar değişir. Çoğu KOBİ projesi 40.000-80.000 TL aralığında tamamlanır.
+Piyasada kurulum tek seferlik maliyeti ise işin kapsamına göre 25.000 TL'den 150.000 TL'ye kadar değişir; çoğu KOBİ projesi 40.000-80.000 TL aralığında tamamlanır. PORTZEN'de bu kurulum AI müşteri asistanı paketleriyle yapılır: {{fiyatlar:ai-musteri-asistani}} (KDV hariç).
 
 Bu rakamı bir müşteri temsilcisinin yıllık maliyetiyle (300.000-450.000 TL maaş + SGK + idari yük) karşılaştırdığınızda, AI sisteminin **1-2 müşteri temsilcisinin kapasitesini** çok daha düşük maliyetle sağladığı net görülür.
 
@@ -160,10 +160,10 @@ Bu trendler için altyapı bugünden hazırlanmalı. Şimdi çekirdek AI sistemi
 
 ## PORTZEN ile AI Müşteri Hizmetleri: Sıfırdan Sisteme
 
-PORTZEN olarak Türk KOBİ'leri için AI müşteri hizmetleri sistemleri kuruyoruz; ama bunu kurup bırakmıyor, müşterilerinizle gerçek hayatta ne konuştuğunu izleyip sistemi sürekli iyileştiriyoruz. WhatsApp, Instagram DM, web sohbet kutusu ve e-posta kanallarını tek panelde birleştiriyor, GPT-4 ve Claude tabanlı AI motoru sektörünüze özel eğitiyor ve mevcut sistemlerinizle (CRM, takvim, ödeme, kargo) uçtan uca entegre ediyoruz.
+PORTZEN olarak Türk KOBİ'leri için AI müşteri hizmetleri sistemleri kuruyoruz; ama bunu kurup bırakmıyor, müşterilerinizle gerçek hayatta ne konuştuğunu izleyip sistemi sürekli iyileştiriyoruz. Pakete göre WhatsApp, web sohbet kutusu ve (Kurumsal pakette) Instagram DM kanallarını tek panelde birleştiriyor, GPT-4 ve Claude tabanlı AI motoru sektörünüze özel eğitiyoruz; Büyüme paketinde standart CRM entegrasyonu, Kurumsal pakette 4 standart entegrasyon (takvim, ödeme, kargo gibi) dahildir.
 
-Yaklaşımımızın belkemiği KVKK uyumluluğu; verileriniz Avrupa ve Türkiye veri merkezlerinde tutuluyor, herhangi bir konuşma verisi modellerin eğitimine kullanılmıyor. Kurulum sonrası 90 gün boyunca aktif optimizasyon, sonrasında ise aylık iyileştirme raporlarıyla sistemin yaşamasını sağlıyoruz.
+Kurulumu KVKK gerekliliklerini dikkate alarak kurguluyoruz (açık rıza, aydınlatma akışı); verinin hangi sağlayıcıda ve bölgede tutulacağı ve model sağlayıcısının veri kullanım koşulları, kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Büyüme paketinde ayda 2 saat, Kurumsal pakette ayda 6 saat iyileştirme ile sistemin yaşamasını sağlıyoruz.
 
 Eğer müşteri hizmetleri ekibinizin tekrar eden sorulardan boğulduğunu, yanıt süresinin uzadığını ya da gece-tatil dönemlerinde gelen mesajların kaybolduğunu hissediyorsanız, doğru zamandasınız. [AI bot kurulumu](/whatsapp-ai-asistani) ve [otomasyon sistemleri](/crm-otomasyonu) hizmetlerimizle işletmenize özel çözüm tasarlıyoruz.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

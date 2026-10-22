@@ -55,7 +55,7 @@ export function Pagination({ currentPage, totalPages, basePath }: Props) {
       {hasPrev ? (
         <Link
           href={pageHref(basePath, currentPage - 1)}
-          className="inline-flex items-center gap-1 border-3 border-ink bg-paper px-3 py-2 text-sm font-bold uppercase shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
+          className="inline-flex items-center gap-1 border-3 border-ink/15 bg-paper px-3 py-2 text-sm font-bold shadow-brutal-sm hover:shadow-brutal transition-all rounded-full"
           aria-label="Önceki sayfa"
         >
           <ChevronLeft className="h-4 w-4" />
@@ -64,7 +64,7 @@ export function Pagination({ currentPage, totalPages, basePath }: Props) {
       ) : (
         <span
           aria-disabled="true"
-          className="inline-flex items-center gap-1 border-3 border-ink/30 bg-paper/50 px-3 py-2 text-sm font-bold uppercase text-ink/40 cursor-not-allowed"
+          className="inline-flex items-center gap-1 border-3 border-ink/30 bg-light px-3 py-2 text-sm font-bold text-ink/40 cursor-not-allowed rounded-full"
         >
           <ChevronLeft className="h-4 w-4" />
           Önceki
@@ -84,9 +84,9 @@ export function Pagination({ currentPage, totalPages, basePath }: Props) {
               href={pageHref(basePath, p)}
               aria-current={p === currentPage ? "page" : undefined}
               className={cn(
-                "border-3 border-ink min-w-[2.5rem] px-3 py-2 text-sm font-black text-center shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all",
+                "border-3 border-ink/15 min-w-[2.5rem] px-3 py-2 text-sm font-black text-center shadow-brutal-sm hover:shadow-brutal transition-all rounded-full",
                 p === currentPage
-                  ? "bg-ink text-paper shadow-brutal"
+                  ? "bg-light text-ink shadow-brutal"
                   : "bg-paper text-ink"
               )}
             >
@@ -100,7 +100,7 @@ export function Pagination({ currentPage, totalPages, basePath }: Props) {
       {hasNext ? (
         <Link
           href={pageHref(basePath, currentPage + 1)}
-          className="inline-flex items-center gap-1 border-3 border-ink bg-ink text-paper px-3 py-2 text-sm font-bold uppercase shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg transition-all"
+          className="inline-flex items-center gap-1 border-3 border-ink/15 bg-slate text-white px-3 py-2 text-sm font-bold shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
           aria-label="Sonraki sayfa"
         >
           Sonraki
@@ -109,7 +109,7 @@ export function Pagination({ currentPage, totalPages, basePath }: Props) {
       ) : (
         <span
           aria-disabled="true"
-          className="inline-flex items-center gap-1 border-3 border-ink/30 bg-paper/50 px-3 py-2 text-sm font-bold uppercase text-ink/40 cursor-not-allowed"
+          className="inline-flex items-center gap-1 border-3 border-ink/30 bg-light px-3 py-2 text-sm font-bold text-ink/40 cursor-not-allowed rounded-full"
         >
           Sonraki
           <ChevronRight className="h-4 w-4" />

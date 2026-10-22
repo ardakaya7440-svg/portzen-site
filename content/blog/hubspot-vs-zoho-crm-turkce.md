@@ -63,7 +63,7 @@ Aşağıdaki tablo, KOBİ perspektifinden iki platformun temel farklarını öze
 
 HubSpot'un en cömert tarafı ücretsiz CRM; Zoho'nun en cömert tarafı ücretli plan / değer oranı. Türkçe ve yerel destek kritikse Zoho açık ara önde.
 
-[CRM otomasyonu rehberi](/blog/crm-otomasyonu-rehberi) yazımız, hangi platformu seçerseniz seçin temel kurulumu anlatıyor. CRM'in en kıymetli olduğu nokta lead akışının doğru kaynaklardan beslendiği andır; bu yüzden CRM seçiminden sonra profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile lead form kampanyalarını HubSpot veya Zoho'ya doğrudan bağlamak ilk 90 günde değerin görünmesini hızlandırıyor.
+[CRM otomasyonu rehberi](/blog/crm-otomasyonu-rehberi) yazımız, hangi platformu seçerseniz seçin temel kurulumu anlatıyor. CRM'in en kıymetli olduğu nokta lead akışının doğru kaynaklardan beslendiği andır; bu yüzden CRM seçiminden sonra profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile lead form kampanyalarını HubSpot veya Zoho'ya doğrudan bağlamak, CRM'in ilk günden gerçek lead verisiyle çalışmasını sağlıyor.
 
 ## Ücretsiz Plan: HubSpot'un En Büyük Silahı
 
@@ -92,7 +92,7 @@ HubSpot'un ücretsiz CRM'i Türkiye'deki birçok ücretli alternatife rakip sevi
 
 Net olarak: 10 kişilik bir satış ekibi HubSpot Free'de tamamen çalışabilir. Zoho Free'de 3 kullanıcı sınırı sizi hemen ücretli plana zorlar. HubSpot'un free planı, çoğu KOBİ için 6-12 ay yeterli olur.
 
-Eğer HubSpot maliyetini düşürmek isteyenlerdenseniz, [HubSpot alternatifi](/hubspot-alternatifi) sayfamızda Türkiye için daha uygun maliyetli ve özelleştirilmiş çözümler sunuyoruz. Organik trafik ve içerik tarafındaki sürekliliği bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile yürütmek CRM'inize beslenen ücretsiz lead havuzunu büyütüyor.
+Eğer HubSpot maliyetini düşürmek isteyenlerdenseniz, [HubSpot alternatifi](/hubspot-alternatifi) sayfamızda Türkiye için daha uygun maliyetli ve özelleştirilmiş çözümler sunuyoruz. Organik trafik ve içerik tarafındaki sürekliliği bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile yürütmek, CRM'inize organik kanallardan da lead akmasına zemin hazırlıyor.
 
 ## Fiyatlandırma Karşılaştırması (TL Bazında)
 
@@ -227,4 +227,4 @@ CRM seçimi, işletmenizin satış modeli (B2B/B2C), ekip büyüklüğü, dijita
 
 PORTZEN olarak İzmir, İstanbul ve Ankara'daki KOBİ'lere [CRM otomasyonu](/crm-otomasyonu) kapsamında HubSpot kurulumu, Zoho CRM kurulumu, [HubSpot alternatifi](/hubspot-alternatifi) özel çözümler, [WhatsApp AI asistanı](/whatsapp-ai-asistani) entegrasyonu, lead scoring sistemleri ve satış otomasyon akışları kuruyoruz. Hangi CRM'i seçerseniz seçin, satış sürecinizi bitiş raporlamasıyla birlikte tam entegre yapılandırıyoruz.
 
-CRM kararı vermek veya mevcut CRM'inizi optimize etmek istiyorsanız, [iletişim sayfamızdan](/iletisim) bizimle iletişime geçin. İlk görüşmede ekip büyüklüğünüz, satış modeliniz ve bütçenize göre net bir CRM önerisi ve 60 günlük kurulum yol haritası sunuyoruz.
+CRM kararı vermek veya mevcut CRM'inizi optimize etmek istiyorsanız, [iletişim sayfamızdan](/iletisim) bizimle iletişime geçin. İlk görüşmede ekip büyüklüğünüz, satış modeliniz ve bütçenize göre net bir CRM önerisi ve adım adım kurulum yol haritası sunuyoruz.

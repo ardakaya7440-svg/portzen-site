@@ -38,14 +38,14 @@ Konyaaltı ve Lara, Antalya'nın iki büyük sahil bandı. Konyaaltı şehir mer
 Doğrudan rezervasyon oranını artırmak için yapılması gerekenler:
 
 - Çok dilli (TR, EN, DE, RU, AR minimum) web sitesi
-- Web sitesinden 60 saniyede rezervasyon tamamlama akışı
+- Web sitesinden birkaç adımda rezervasyon tamamlama akışı
 - WhatsApp üzerinden anlık fiyat sorgusu ve rezervasyon
 - Google Otelleri ve Bing Travel entegrasyonu
 - "Doğrudan rezervasyon avantajları" sayfası (ücretsiz yükseltme, geç çıkış vs.)
 - Sezona göre dinamik fiyat gösterimi
 - TripAdvisor, Google ve Booking yorumlarının site içinde toplu gösterimi
 
-Antalya'da çalıştığımız bir Lara butik otelinde 18 ayda doğrudan rezervasyon oranını %12'den %34'e çıkardık. Tek tek hesaplandığında ayda 180.000 TL'lik komisyon tasarrufu anlamına geliyor. [Web tasarım hizmetimiz](/web-tasarim) ve özellikle [restoran sektörü için web tasarım sayfası](/web-tasarim/restoran) (oteller için de benzer prensipler geçerli) bu dönüşümün altyapısını sunuyor. Web sitesi yenilemesiyle birlikte profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çok dilli içerik üretimi yürütmek, doğrudan rezervasyon hunisini hem Türkiye hem Avrupa kaynaklı turist için canlı tutuyor.
+Örneğin Lara'daki bir butik otel için örnek bir kurulumda çok dilli site, rezervasyon akışı ve WhatsApp üzerinden fiyat sorgusu birlikte kurgulanır; doğrudan gelen her rezervasyon, platform komisyonu ödenmeden alınmış olur. [Web tasarım hizmetimiz](/web-tasarim) ve özellikle [restoran sektörü için web tasarım sayfası](/web-tasarim/restoran) (oteller için de benzer prensipler geçerli) bu dönüşümün altyapısını sunuyor. Web sitesi yenilemesiyle birlikte profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çok dilli içerik üretimi yürütmek, doğrudan rezervasyon hunisini hem Türkiye hem Avrupa kaynaklı turist için canlı tutuyor.
 
 ## Belek ve Side: Premium Segment ve Tarihi Doku
 
@@ -73,7 +73,7 @@ Alanya, özellikle Rus, Alman ve Polonyalı aile turistlerin yoğunlaştığı b
 - Mobile-first tasarım — turist tabletten değil, telefondan arıyor
 - Telegram entegrasyonu — özellikle Rus segmenti için kritik
 
-Alanya'daki bir transfer şirketinde devreye aldığımız sistem şöyle çalışıyor: turist Booking.com'dan otel rezervasyonu yapıyor, WhatsApp üzerinden transfer firmasına yazıyor, otomatik asistan dilini algılıyor, uçuş bilgisi ve otel adresini topluyor, fiyat sunuyor, ödeme linki gönderiyor, kapora alıyor, otomatik onay e-postası atıyor. Şoför uçuş bilgisini WhatsApp grubundan otomatik alıyor. İnsan müdahalesi sıfır.
+Alanya'daki bir transfer şirketi için örnek bir kurulum şöyle çalışır: turist Booking.com'dan otel rezervasyonu yapar, WhatsApp üzerinden transfer firmasına yazar, otomatik asistan dilini algılar, uçuş bilgisi ve otel adresini toplar, fiyat sunar, ödeme linki gönderir, kapora alınır ve otomatik onay e-postası gider. Şoför uçuş bilgisini WhatsApp grubundan otomatik alır. Rutin transfer talepleri bu akışla yürür; ekip yalnızca istisnai durumlara müdahale eder.
 
 ## Çok Dilli Web Sitesi Mimarisi: SEO Tuzaklarından Kaçınma
 
@@ -100,7 +100,7 @@ Antalya'daki turistik işletmelerin operasyon merkezi resepsiyon değil — What
 - "Yakındaki en iyi restoran" gibi sorulara öneri sistemi
 - Sıcak lead'leri satış ekibine otomatik aktarma
 
-Antalya'daki bir butik otelde devreye aldığımız asistan ayda 4500+ mesajın %82'sini insan müdahalesi olmadan çözüyor. Resepsiyonist artık check-in ve check-out'a, yüz yüze hizmete odaklanıyor — WhatsApp'a yetişme stresi ortadan kalkıyor. [Instagram DM otomasyonu](/instagram-dm-otomasyonu) hizmetimiz de turistik işletmelerin sosyal medyadan gelen sorulara aynı sistemle cevap üretmesini sağlıyor.
+Böyle bir kurulumda asistan rutin soruları yanıtlar, yanıtlayamadığı konuşmaları resepsiyona aktarır. Resepsiyonist check-in ve check-out'a, yüz yüze hizmete odaklanabilir. Sosyal medyadan gelen serbest sorulara AI ile yanıt, AI müşteri asistanının Instagram kanalıyla (Kurumsal paket) mümkündür; [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ise ayrı bir hizmettir ve yorum ya da hikâye etkileşimine kural tabanlı, önceden tanımlı DM'ler gönderir.
 
 ## Antalya Yerel SEO: Coğrafi Aramaları Yakalamak
 
@@ -117,15 +117,15 @@ Antalya'da yerel SEO biraz farklı çalışır çünkü hedef kitleniz Antalya'd
 
 ## Antalya Sektör Senaryoları: Otel, Restoran, Transfer, Dalış
 
-Antalya turistik işletmesinin dijital dönüşümünü sektör bazlı somut senaryolarla anlatmak en sağlıklı yol. Aşağıdaki vakalar PORTZEN'in Antalya'da çalıştığı işletmelerden yansıyor.
+Antalya turistik işletmesinin dijital dönüşümünü sektör bazlı somut senaryolarla anlatmak en sağlıklı yol. Aşağıdakiler örnek senaryolardır; gerçek müşteri sonuçları değil, benzer işletmeler için nasıl bir kurulum yapılabileceğini gösterir.
 
-Senaryo 1 — Konyaaltı'nda 4 yıldızlı butik otel: Mevcut durum Booking.com payı %75, doğrudan rezervasyon zayıf, WhatsApp'ta sadece Türkçe yanıt. Yaptığımız çalışma: 5 dilli yeni web sitesi, doğrudan rezervasyon motoru entegrasyonu, çok dilli WhatsApp AI asistanı, sezon öncesi e-posta kampanyaları. 14 ayda doğrudan rezervasyon oranı %34'e çıktı, Booking komisyon ödemesi yıllık 2.1 milyon TL azaldı.
+Senaryo 1 — Konyaaltı'nda 4 yıldızlı butik otel: Mevcut durum Booking.com payı %75, doğrudan rezervasyon zayıf, WhatsApp'ta sadece Türkçe yanıt. Örnek kurulum: 5 dilli yeni web sitesi, doğrudan rezervasyon motoru entegrasyonu, çok dilli WhatsApp AI asistanı, sezon öncesi e-posta kampanyaları. Amaç, Booking'den gelen misafiri sonraki konaklamasında doğrudan kanala çekmek ve doğrudan rezervasyon payını düzenli izlemektir.
 
-Senaryo 2 — Side'de balıkçı restoranı: Mevcut durum sezonluk yoğun trafik ama hep son dakika rezervasyonu, masa boş kalma riski, Instagram unutulmuş. Yaptığımız çalışma: Reels odaklı içerik stratejisi (balıkçı sahili, taze balık, mezeler), TripAdvisor profili güçlendirme, WhatsApp rezervasyon akışı. 5 ayda Instagram takipçi 600'den 22.000'e, rezervasyon kontrolü tamamen dijitale taşındı.
+Senaryo 2 — Side'de balıkçı restoranı: Mevcut durum sezonluk yoğun trafik ama hep son dakika rezervasyonu, masa boş kalma riski, Instagram unutulmuş. Örnek kurulum: Reels odaklı içerik stratejisi (balıkçı sahili, taze balık, mezeler), TripAdvisor profili güçlendirme, WhatsApp rezervasyon akışı. Böylece rezervasyonlar tek bir dijital akışta toplanır ve masa planlaması önceden yapılabilir.
 
-Senaryo 3 — Belek transfer şirketi: Mevcut durum müşteri Booking'den geliyor, ama transfer iletişimi karmaşık, dil bariyerleri, şoför koordinasyon problemi. Yaptığımız çalışma: Çok dilli WhatsApp AI asistanı, uçuş takip entegrasyonu, otomatik şoför atama, online ödeme. 8 ayda operasyon ekibinin manuel iş yükü %65 azaldı, müşteri puanı 4.2'den 4.8'e çıktı.
+Senaryo 3 — Belek transfer şirketi: Mevcut durum müşteri Booking'den geliyor, ama transfer iletişimi karmaşık, dil bariyerleri, şoför koordinasyon problemi. Örnek kurulum: Çok dilli WhatsApp AI asistanı, uçuş takip entegrasyonu, otomatik şoför atama, online ödeme. Dil bariyeri ve şoför koordinasyonu tek akışta çözülür; operasyon ekibi rutin yazışmalar yerine istisnai durumlarla ilgilenir.
 
-Senaryo 4 — Kemer dalış merkezi: Mevcut durum Rus turist ağırlıklı, web sitesi sadece Türkçe ve İngilizce, sezon dışı dönemde sıfır lead. Yaptığımız çalışma: Rusça ve Almanca site, sezon dışı rezervasyon kampanyaları, YouTube'da sualtı içerik stratejisi. 12 ayda sezon dışı rezervasyon hacmi yıllık cironun %18'ini oluşturmaya başladı.
+Senaryo 4 — Kemer dalış merkezi: Mevcut durum Rus turist ağırlıklı, web sitesi sadece Türkçe ve İngilizce, sezon dışı dönemde sıfır lead. Örnek kurulum: Rusça ve Almanca site, sezon dışı rezervasyon kampanyaları, YouTube'da sualtı içerik stratejisi. Hedef, sezon dışı dönem için de rezervasyon talebi toplayan bir kanal oluşturmaktır.
 
 ## Sıkça Sorulan Sorular
 
@@ -139,13 +139,13 @@ Hayır. Booking.com görünürlük için hâlâ önemli. Strateji şu olmalı: B
 Eğer aylık 1000'in üzerinde mesaj alıyorsanız ve birden fazla personel WhatsApp'a bakıyorsa evet. API ile otomasyon, CRM entegrasyonu, çoklu kullanıcı desteği mümkün hale gelir.
 
 **Antalya'daki bir butik otel için çok dilli site maliyeti ne kadar?**
-4 dilli, 20-25 sayfa, online rezervasyon entegre, WhatsApp otomasyon hazır bir site için 2026 fiyatları 80.000–180.000 TL aralığında. Sezona göre planlanırsa kış aylarında daha avantajlı fiyatlandırma yapılabilir.
+4 dilli, 20-25 sayfa, online rezervasyon entegre, WhatsApp otomasyon hazır bir site için piyasada 2026 fiyatları 80.000–180.000 TL aralığında. PORTZEN'de çok dilli kurumsal siteler Kurumsal web sitesi paketiyle yapılır: {{fiyat:kurumsal-web-sitesi:kurumsal}} (20 sayfa, 2 dil, 2 standart entegrasyon; çeviri ve KDV hariç); daha fazla dil ve özel rezervasyon motoru için kapsam ayrıca netleştirilir.
 
 **PORTZEN İzmir'den Antalya'daki otelimi nasıl yönetir?**
-Tamamen uzaktan. İçerik üretimi için Antalya'da fotoğrafçı ve videografi iş birliklerimiz var. Sezon başında bir fiziksel ziyaret, sonrasında haftalık online toplantılar ve sürekli operasyon desteği şeklinde çalışıyoruz. Antalya'daki 12+ turistik işletme müşterimiz var.
+Tamamen uzaktan. Paketlere dahil saha çekimi yalnızca Kurumsal sosyal medya paketinde ve İzmir içidir; Antalya'da çekim gerekirse yerel fotoğrafçı ve videograf iş birlikleriyle ayrıca planlanır. Süreç online toplantılarla yürür.
 
 ## PORTZEN ile Antalya İçin Sistem Kurmak
 
-Antalya turistik işletmesinin 2026'daki rekabet ortamı geçmiş yıllardan çok farklı. Booking.com komisyonları, artan operasyon maliyetleri, çok dilli müşteri beklentileri, online rezervasyon davranışının kalıcılaşması — bunların hepsi tek bir entegre dijital sistem kurmayı zorunlu kılıyor. PORTZEN olarak İzmir merkezliyiz ama Konyaaltı'ndan Alanya'ya kadar tüm Antalya turistik koridorunda çalıştığımız işletmeler var. Çok dilli web sitesi, WhatsApp AI asistanı, sosyal medya yönetimi ve doğrudan rezervasyon sistemi kurulumunu tek bir çatı altında sunuyoruz.
+Antalya turistik işletmesinin 2026'daki rekabet ortamı geçmiş yıllardan çok farklı. Booking.com komisyonları, artan operasyon maliyetleri, çok dilli müşteri beklentileri, online rezervasyon davranışının kalıcılaşması — bunların hepsi tek bir entegre dijital sistem kurmayı zorunlu kılıyor. PORTZEN olarak İzmir merkezliyiz; Konyaaltı'ndan Alanya'ya Antalya'daki turistik işletmelerle uzaktan çalışma modeliyle ilerliyoruz. Çok dilli web sitesi, WhatsApp AI asistanı, sosyal medya yönetimi ve doğrudan rezervasyon sistemi kurulumunu tek bir çatı altında sunuyoruz.
 
 Antalya'daki otelinizin, restoranınızın, transfer şirketinizin veya gezi operatörünüzün doğrudan rezervasyon oranını artırmak istiyorsanız [iletişim sayfamızdan](/iletisim) bize ulaşın. Mevcut web sitenizin ve WhatsApp kanalınızın dijital sağlık taramasını ücretsiz yapıyor, size 2026 sezonu için somut bir aksiyon planı sunuyoruz. Antalya hâlâ Türkiye turizminin lokomotifi — doğru sistemle siz de o lokomotifin önünde olabilirsiniz.

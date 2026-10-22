@@ -15,25 +15,25 @@ ogImage: "/blog/og/spor-salonu-uyelik-crm.png"
 
 Türkiye'de spor salonu sektörü her yıl büyüyor ama aynı oranda büyük bir sessiz problem var: üye kaybı. Sektör ortalamalarına göre yıllık üyelik satan bir salonun ilk 90 gün içinde kaybettiği üye oranı yüzde 40'ı geçebiliyor. Bir başka deyişle yılbaşında "yeni yıl, yeni ben" diyerek kayıt yaptıran 100 üyenin 40'ı mart ayına kalmadan salona gelmeyi bırakıyor. Daha kötüsü, çoğu salon bu kaybı fark bile etmiyor. Çünkü üye geliyor mu gelmiyor mu, hangi üye ne zaman dondurdu, kim PT seansını ihmal etti, kim mobil giriş yapmadı, bu verilerin hiçbiri tek bir yerden takip edilmiyor. Resepsiyondaki defter, Excel tablosu, eski bir üyelik yazılımı ve WhatsApp grupları arasında bilgi kayboluyor.
 
-Bu yazıda spor salonları için **CRM otomasyonu ve üyelik yönetimi** sisteminin nasıl kurulduğunu, hangi süreçlerin otomatikleştirilebileceğini, WhatsApp üzerinden check-in ve motivasyon mesajlarının nasıl gönderileceğini, PT randevu sisteminin ve grup ders takviminin nasıl yönetileceğini, dondurmuş üyelerin nasıl geri kazanılacağını adım adım anlatacağız. PORTZEN olarak biz İzmir başta olmak üzere Türkiye genelinde fitness zincirleri, butik stüdyolar, crossfit boxları ve yoga merkezlerine üyelik CRM'i ve WhatsApp asistanı kurduk. Anlatacaklarımız sahadan çıkan deneyim. Yazının sonunda kendi salonunuzda hangi modülleri açacağınızı, retention oranını nasıl yukarı çekeceğinizi ve kurulum maliyetinin hangi kalemlerden oluştuğunu net şekilde anlamış olacaksınız.
+Bu yazıda spor salonları için **CRM otomasyonu ve üyelik yönetimi** sisteminin nasıl kurulduğunu, hangi süreçlerin otomatikleştirilebileceğini, WhatsApp üzerinden check-in ve motivasyon mesajlarının nasıl gönderileceğini, PT randevu sisteminin ve grup ders takviminin nasıl yönetileceğini, dondurmuş üyelerin nasıl geri kazanılacağını adım adım anlatacağız. Anlatacaklarımız, PORTZEN olarak fitness zincirleri, butik stüdyolar, crossfit boxları ve yoga merkezleri için önerdiğimiz üyelik CRM'i ve WhatsApp asistanı kurgusunu adım adım gösteriyor. Yazının sonunda kendi salonunuzda hangi modülleri açacağınızı, retention oranını nasıl yukarı çekeceğinizi ve kurulum maliyetinin hangi kalemlerden oluştuğunu net şekilde anlamış olacaksınız.
 
 ## Spor Salonunda Üye Kaybının Asıl Sebepleri (İlk 90 Gün Kritik)
 
 Spor salonu sektöründe churn rakamlarına bakıldığında en büyük kayıp **ilk 90 günde** yaşanıyor. Bunun sebebi salonun fiziksel koşulları, ekipmanı veya antrenörü değil çoğu zaman. Üye kayıt oluyor, ilk hafta heyecanla geliyor, ikinci hafta iki gün geliyor, üçüncü hafta bir gün geliyor, dördüncü haftadan sonra gelmemeye başlıyor. Bu süreçte salondan hiç kimse aramıyor, mesaj atmıyor, "neden gelmiyorsun" diye sormuyor. Üye kendini görünmez hissediyor, "param boşa gidiyor" diye düşünüyor ve yenileme döneminde iptal ediyor.
 
-PORTZEN'in saha verisine göre üye kaybının asıl sebepleri sırasıyla:
+Üye kaybının sık görülen sebepleri şunlar:
 
-- İlk 30 gün içinde kişisel bir bağ kurulmaması (yaklaşık yüzde 35)
-- Sonuç görememe, hedef takibinin yapılmaması (yaklaşık yüzde 25)
-- PT seansı veya grup dersine yönlendirilmeme (yaklaşık yüzde 15)
-- Yoğun saatlerde aletlerin dolu olması, randevu sisteminin olmaması (yaklaşık yüzde 10)
-- Fiyat veya lokasyon değişikliği (yaklaşık yüzde 15)
+- İlk 30 gün içinde kişisel bir bağ kurulmaması
+- Sonuç görememe, hedef takibinin yapılmaması
+- PT seansı veya grup dersine yönlendirilmeme
+- Yoğun saatlerde aletlerin dolu olması, randevu sisteminin olmaması
+- Fiyat veya lokasyon değişikliği
 
-Bu listeye dikkatli bakıldığında ilk dört madde, yani churn'ün yaklaşık yüzde 85'i, **doğru kurulmuş bir CRM ve otomasyon sistemi** ile çözülebilir. Salon sahibinin yapması gereken tek şey, üyenin davranışını sistematik olarak takip eden ve doğru anda doğru mesajı gönderen bir altyapı kurmak. Bu altyapı kurulduğunda yıllık retention oranı yüzde 60'lardan yüzde 80'lere kolayca çıkıyor. Detaylı sektörel akış için [spor salonu CRM otomasyonu](/crm-otomasyonu/spor-salonu) sayfamızı inceleyebilirsiniz.
+Bu listeye dikkatli bakıldığında ilk dört madde, **doğru kurulmuş bir CRM ve otomasyon sistemi** ile doğrudan ele alınabilecek sebepler. Salon sahibinin yapması gereken tek şey, üyenin davranışını sistematik olarak takip eden ve doğru anda doğru mesajı gönderen bir altyapı kurmak. Bu altyapı kurulduğunda retention oranı panelden aylık izlenebilir hale gelir ve hangi akışın işe yaradığı görülür. Detaylı sektörel akış için [spor salonu CRM otomasyonu](/crm-otomasyonu/spor-salonu) sayfamızı inceleyebilirsiniz.
 
 ### İlk 90 günü kazanmanın matematiği
 
-Bir üyenin yıllık aidatının ortalama 8.000 ₺ olduğunu varsayalım. Salonunuz ayda 50 yeni üye kayıt ediyor. Bu üyelerin yüzde 40'ı ilk 90 günde kaybediliyorsa yılda 240 üye, yani yaklaşık **1.920.000 ₺ ciro** kapıdan giriyor ve geri dönmüyor. Churn oranını yüzde 40'tan yüzde 20'ye düşürmek, salonunuza yılda **960.000 ₺ ek ciro** demek. CRM otomasyonunun kendisini ödeme süresi genellikle 2-3 ay.
+Bir üyenin yıllık aidatının ortalama 8.000 ₺ olduğunu varsayalım. Salonunuz ayda 50 yeni üye kayıt ediyor. Bu üyelerin yüzde 40'ı ilk 90 günde kaybediliyorsa yılda 240 üye, yani yaklaşık **1.920.000 ₺ ciro** kapıdan giriyor ve geri dönmüyor. Bu varsayımla churn oranını yüzde 40'tan yüzde 20'ye düşürmek, salonunuza yılda **960.000 ₺ ek ciro** demek. Kendi salonunuz için bu hesabı gerçek kayıp oranınızla yapmanız, yatırımın geri dönüşünü doğru değerlendirmenizi sağlar.
 
 ## Üyelik Aşamaları: Kayıt, Ödeme, Dondurma, Yenileme, İptal
 
@@ -49,7 +49,7 @@ Yeni üye salona geldiğinde ya da web sitesi üzerinden kayıt formu doldurduğ
 - WhatsApp üzerinden hoş geldin mesajı, salon kuralları, çalışma saatleri gönderiliyor
 - İlk PT seansı veya oryantasyon randevusu için takvim linki gönderiliyor
 
-Bu adımların hepsi manuel yapıldığında resepsiyon görevlisi 20-30 dakika harcıyor. Otomasyonla bu süre 3 dakikaya iniyor.
+Bu adımlar manuel yapıldığında resepsiyon görevlisinin her yeni üye için ayrı ayrı zaman ayırması gerekiyor; otomasyonla bu adımlar kayıt anında kendiliğinden çalışıyor.
 
 ### 2. Ödeme ve abonelik
 
@@ -74,7 +74,7 @@ CRM otomasyonunda süreç farklı:
 - Dondurma bitiş tarihinden 3 gün önce "salonunuz sizi bekliyor" mesajı gidiyor
 - Dondurma süresi bittiğinde üyenin durumu otomatik aktife dönüyor
 
-Bu döngü olmadan dondurmuş üyelerin yarısı dönmüyor. Otomatik hatırlatma ile bu oran tersine dönüyor.
+Bu döngü olmadan dondurmuş üyelerin önemli bir kısmı sessizce kayboluyor; otomatik hatırlatma, üyeye dönüş zamanını kaçırmadan haber verir.
 
 ### 4. Yenileme
 
@@ -89,7 +89,7 @@ Bu döngü olmadan dondurmuş üyelerin yarısı dönmüyor. Otomatik hatırlatm
 - Fiyat sebepliyse indirim, zaman sebepliyse dondurma, ekipman sebepliyse PT veya başka şube önerisi
 - Yine de iptal ederse veri sebep analizine ekleniyor
 
-Bu akış sayesinde iptal eden üyelerin yaklaşık yüzde 20-25'i geri kazanılıyor.
+Bu akış, iptal kararını son anda tekrar düşünme fırsatı sunar ve ayrılma sebeplerini veriye dönüştürür.
 
 ## PT (Personal Trainer) Randevu Yönetimi
 
@@ -105,7 +105,7 @@ PORTZEN'in PT modülünde şu özellikler standart:
 - PT seans paketi (4'lü, 8'li, 12'li) sistemde takip ediliyor, kalan seans sayısı üyeye otomatik bildiriliyor
 - Paket bitimine 1 seans kala yenileme teklifi gönderiliyor
 
-Bu akışın WhatsApp tarafı tamamen [spor salonu WhatsApp AI asistanı](/whatsapp-ai-asistani/spor-salonu) modülü ile yönetiliyor. Üye "Cuma 18:00 PT alabilir miyim" yazdığında bot anında müsaitlik bakıp randevu oluşturuyor.
+Bu akışın WhatsApp tarafı [spor salonu WhatsApp AI asistanı](/whatsapp-ai-asistani/spor-salonu) ile yönetiliyor (randevu alma AI müşteri asistanının Büyüme ve Kurumsal paketlerinde dahildir). Üye "Cuma 18:00 PT alabilir miyim" yazdığında bot anında müsaitlik bakıp randevu oluşturuyor.
 
 ### PT performans takibi
 
@@ -124,7 +124,7 @@ Bu mesajlar tek tip değil. Üyenin profiline göre kişiselleşiyor: yeni üyey
 
 ### Haftalık check-in
 
-Pazartesi sabahları "Bu hafta hedefiniz nedir?" mesajı, cuma akşamı "Hafta nasıl geçti, kaç gün geldiniz?" mesajı gönderiliyor. Üye cevap verdiğinde veri profile işleniyor. Bu basit ritüel bile retention oranını yüzde 10-15 artırıyor.
+Pazartesi sabahları "Bu hafta hedefiniz nedir?" mesajı, cuma akşamı "Hafta nasıl geçti, kaç gün geldiniz?" mesajı gönderiliyor. Üye cevap verdiğinde veri profile işleniyor. Bu basit ritüel, üyenin salonla haftalık temasını canlı tutar.
 
 ### Doğum günü ve özel günler
 
@@ -169,7 +169,7 @@ Her segmente farklı içerikte, farklı sıklıkta mesaj gidiyor. Altın üyeye 
 - 60. gün: "Bu ay 1 ay ücretsiz deneme hediyemiz var" + ücretsiz PT seansı
 - 90. gün: Salon müdüründen kişisel arama veya ses mesajı
 
-Bu üç dalga ile eski üyelerin yaklaşık yüzde 15-20'si geri dönüyor. CRM ve otomasyon mantığının temelini öğrenmek için [CRM otomasyonu rehberi](/blog/crm-otomasyonu-rehberi) yazımızı da okumanızı öneriyoruz.
+Bu üç dalga, eski üyelerle teması sistemli şekilde yeniden kurar; geri dönüş oranı panelden izlenir. CRM ve otomasyon mantığının temelini öğrenmek için [CRM otomasyonu rehberi](/blog/crm-otomasyonu-rehberi) yazımızı da okumanızı öneriyoruz.
 
 ## Beslenme ve Takip: Ölçüm, Body Composition, Hedef Takibi
 
@@ -193,19 +193,21 @@ Profesyonel sporcularla çalışan salonlar için sağlık formu, doping bilgile
 
 ## Maliyet ve Kurulum
 
-Spor salonu CRM ve otomasyon sistemi kurulumunun maliyeti salonun büyüklüğüne ve modül sayısına göre değişiyor. PORTZEN'in standart paketleri:
+Spor salonu CRM ve otomasyon sistemi kurulumunun maliyeti salonun büyüklüğüne ve modül sayısına göre değişiyor. PORTZEN'de bu kurulum iş otomasyonu paketleriyle yapılır (tutarlar KDV hariç):
 
-- **Başlangıç paketi** (tek salon, 500 üyeye kadar): Kurulum 35.000 ₺ + aylık 3.500 ₺ (CRM panel, WhatsApp API, üyelik yönetimi, PT randevu, basit raporlama)
-- **Profesyonel paket** (tek salon, 1.500 üyeye kadar): Kurulum 60.000 ₺ + aylık 6.500 ₺ (yukarıdakilere ek olarak grup ders modülü, segmentasyon, win-back otomasyonları, ölçüm takibi, mobil giriş entegrasyonu)
-- **Zincir paket** (çok şubeli): Kurulum 120.000 ₺'den başlıyor + aylık 12.000 ₺'den (merkezi panel, şubeler arası transfer, gelişmiş raporlama, API entegrasyonları)
+- **Başlangıç** (tek salon, temel akışlar): CRM panel, WhatsApp bildirimleri, üyelik yönetimi, PT randevu, basit raporlama — {{fiyat:is-otomasyonu:baslangic}}
+- **Büyüme** (tek salon, daha fazla akış ve entegrasyon): yukarıdakilere ek olarak grup ders modülü, segmentasyon, win-back otomasyonları, ölçüm takibi — {{fiyat:is-otomasyonu:buyume}}
+- **Kurumsal** (çok şubeli): merkezi panel, şubeler arası transfer, gelişmiş raporlama, API entegrasyonları — {{fiyat:is-otomasyonu:kurumsal}}
 
-Bu rakamlara dahil olanlar: WhatsApp Business API başvurusu, yeşil tik takibi, CRM panelinin kurulumu, mevcut üye veritabanının aktarımı, ekip eğitimi, ilk 3 ay teknik destek. Dahil olmayanlar: Meta'nın mesaj başına ücretlendirmesi (genelde aylık 500-2.000 ₺ arası), POS veya mobil ödeme komisyonları, ekstra paket olarak alınabilen mobil uygulama geliştirme.
+İlk 30 gün kurulum hatalarının giderilmesi dahildir; isteğe bağlı aylık bakım ikinci aydan itibaren {{bakim:baslangic}} / {{bakim:buyume}} / {{bakim:kurumsal}}. Güncel kapsamlar [fiyatlar sayfasında](/fiyatlar).
 
-Kurulum süresi 2-4 hafta. İlk hafta veri toplama ve modül tasarımı, ikinci hafta sistem kurulumu, üçüncü hafta test ve eğitim, dördüncü hafta canlıya alma. Salonun mevcut yazılımına (Eshot, Mywellness, Glofox, Mindbody) entegrasyon gerekiyorsa süre 1-2 hafta uzayabilir.
+Kurulumda yer alanlar: WhatsApp Business API başvurusu, CRM akışlarının kurulumu, mevcut üye veritabanının aktarımı; ekip eğitimi Büyüme ve Kurumsal paketlerde. Dahil olmayanlar: CRM ve harici yazılım lisansları, Meta'nın mesaj başına ücretlendirmesi (genelde aylık 500-2.000 ₺ arası), POS veya mobil ödeme komisyonları; mobil uygulama ayrı bir hizmettir ({{tekil:mobil-uygulama}}, KDV hariç).
+
+Kurulum dört adımda ilerler: veri toplama ve modül tasarımı, sistem kurulumu, test ve eğitim, canlıya alma. Teslim süresi, salonun mevcut yazılımına (Eshot, Mywellness, Glofox, Mindbody) entegrasyon gerekip gerekmediği dahil kapsama göre teklifte yazılı olarak belirtilir.
 
 ### Yatırımın geri dönüşü
 
-Önceki bölümde verdiğimiz örnekte 1.920.000 ₺ churn kaybı vardı. Bu kaybın yarısını kurtaran bir CRM sistemi yılda 960.000 ₺ ek ciro üretiyor. Profesyonel paket maliyeti yıllık yaklaşık 138.000 ₺ (kurulum + 12 ay abonelik). Yatırımın geri dönüşü yaklaşık **2 ay**.
+Önceki bölümde verdiğimiz örnekte 1.920.000 ₺ churn kaybı vardı. Bu kaybın yarısını kurtaran bir CRM sistemi yılda 960.000 ₺ ek ciro üretebilir. Büyüme paketi kurulumu tek seferlik {{fiyat:is-otomasyonu:buyume}}; isteğe bağlı bakım ikinci aydan itibaren {{bakim:buyume}} (KDV hariç). Bu tutar kurtarılan ciroya kıyasla kısa sürede karşılanabilir; kesin süre salonunuzun üye hacmine bağlıdır.
 
 ## Sıkça Sorulan Sorular
 
@@ -215,7 +217,7 @@ Evet. PORTZEN olarak biz Mywellness, Glofox, Mindbody, Eshot ve özel yazılıml
 
 **2. WhatsApp Business hesabımla mı çalışıyor?**
 
-Hayır. Profesyonel kullanım için WhatsApp Business API gerekiyor. Başvuru sürecini PORTZEN olarak biz yönetiyoruz, yeşil tik dahil tüm süreç paket içine dahil. Mevcut numaranız korunarak API'ye geçirilebiliyor.
+Hayır. Profesyonel kullanım için WhatsApp Business API gerekiyor. Başvuru sürecini PORTZEN olarak biz yönetiyoruz; yeşil tik (resmi işletme hesabı) onayı Meta'nın kararına bağlıdır, garanti edilemez. Mevcut numaranız korunarak API'ye geçirilebiliyor.
 
 **3. Üyeler WhatsApp mesajlarından rahatsız olur mu?**
 
@@ -227,12 +229,12 @@ Evet. Standart turnike sistemleri, kart okuyucuları ve QR kod tabanlı mobil gi
 
 **5. KVKK ve veri güvenliği nasıl sağlanıyor?**
 
-Tüm üye verileri yerli sunucuda saklanıyor. KVKK uyumlu açık rıza metinleri standart paket içinde. Veri silme, taşıma, anonimleştirme talepleri panel üzerinden yönetilebiliyor. SSL şifreleme ve düzenli yedekleme standart.
+Kurulum KVKK gerekliliklerini dikkate alarak kurgulanır: aydınlatma ve açık rıza adımları kayıt akışına eklenir. Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Veri silme, taşıma, anonimleştirme talepleri panel üzerinden yönetilebilir; SSL şifreleme ve yedekleme kullanılan altyapıya göre yapılandırılır.
 
 ## PORTZEN ile Spor Salonu CRM Kurmak
 
 Spor salonu sektöründe başarı, üye sayısından çok üye yaşam süresine bağlı. 1.000 yeni üye kazanıp 800'ünü kaybetmek yerine, 500 üyeyi kazanıp 480'ini elde tutmak çok daha kârlı bir model. Bu modelin tek yolu doğru kurulmuş bir CRM ve otomasyon sistemidir. Manuel takip, Excel tablosu, WhatsApp grupları ile bu işi sürdürmek mümkün değil.
 
-PORTZEN olarak biz spor salonu sektörüne özel CRM ve WhatsApp asistanı çözümlerimizle yıllık churn oranını yüzde 40'lardan yüzde 20'lere indiren projeler hayata geçirdik. PT paket dönüşümünü yüzde 50 artıran, grup ders doluluk oranını yüzde 70'lerden yüzde 90'lara taşıyan, dondurmuş üye geri dönüş oranını üç katına çıkaran sistemler kurduk. Detaylı sektörel hizmetlerimiz için [spor salonu CRM otomasyonu](/crm-otomasyonu/spor-salonu) ve [spor salonu WhatsApp AI asistanı](/whatsapp-ai-asistani/spor-salonu) sayfalarımıza, genel CRM hizmetlerimiz için [CRM otomasyonu](/crm-otomasyonu) sayfamıza bakabilirsiniz.
+PORTZEN olarak spor salonu sektörüne özel CRM ve WhatsApp asistanı kurgusunda devamsızlık uyarılarını, dondurma ve yenileme akışlarını, PT ve grup ders randevularını ve win-back kampanyalarını tek panelde topluyoruz. Böylece churn, PT paket dönüşümü, grup ders doluluğu ve dondurmadan dönüş oranı aynı yerden izlenebiliyor. Detaylı sektörel hizmetlerimiz için [spor salonu CRM otomasyonu](/crm-otomasyonu/spor-salonu) ve [spor salonu WhatsApp AI asistanı](/whatsapp-ai-asistani/spor-salonu) sayfalarımıza, genel CRM hizmetlerimiz için [CRM otomasyonu](/crm-otomasyonu) sayfamıza bakabilirsiniz.
 
-Salonunuzun ihtiyaçlarına özel bir paket tasarlamak, mevcut süreçlerinizi analiz etmek ve net bir teklif almak için [iletişim sayfamızdan](/iletisim) bizimle bağlantıya geçin. Ön görüşme ücretsiz, salonunuzun ölçeğine göre hangi modüllerin ilk fazda devreye alınması gerektiğini birlikte planlıyoruz.
+Salonunuza uygun paketi seçmek, mevcut süreçlerinizi analiz etmek ve net bir teklif almak için [iletişim sayfamızdan](/iletisim) bizimle bağlantıya geçin. Ön görüşme ücretsiz, salonunuzun ölçeğine göre hangi modüllerin ilk fazda devreye alınması gerektiğini birlikte planlıyoruz.

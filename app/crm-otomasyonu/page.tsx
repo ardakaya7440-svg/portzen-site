@@ -25,11 +25,15 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 import { RelatedSectorsSection } from "@/components/landing/RelatedSectorsSection";
 import { RelatedLocationsSection } from "@/components/landing/RelatedLocationsSection";
+import { PricingSection } from "@/components/pricing/PricingSection";
+import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
+import { MoreDetails } from "@/components/visual/MoreDetails";
+import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
 
 const URL = "https://portzenai.com/crm-otomasyonu";
-const TITLE = "CRM Otomasyonu | Lead'i Müşteriye Çeviren Sistem — PORTZEN";
+const TITLE = "CRM Otomasyonu | Lead Takibini Otomatikleştiren Sistem — PORTZEN";
 const DESCRIPTION =
-  "Manuel takibe son. Lead toplama, CRM entegrasyonu, satış otomasyonu ve iş süreçleri otomasyonu tek sistemde. WhatsApp, email, Sheets, Notion entegre. 1 ayda canlı.";
+  "Manuel takibe son. Lead toplama, CRM entegrasyonu, satış otomasyonu ve iş süreçleri otomasyonu tek sistemde. WhatsApp, email, Sheets, Notion entegre. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -72,18 +76,12 @@ const serviceJsonLd = {
     name: "PORTZEN",
     image: "https://portzenai.com/og-image.png",
     url: "https://portzenai.com",
-    telephone: "+90-501-588-48-53",
+    telephone: "+90-531-863-91-17",
     email: "destek@portzenai.com",
     address: { "@type": "PostalAddress", addressLocality: "İzmir", addressCountry: "TR" },
-    priceRange: "₺₺₺",
   },
   areaServed: { "@type": "Country", name: "Türkiye" },
   description: DESCRIPTION,
-  offers: [
-    { "@type": "Offer", name: "Başlangıç", price: "12000", priceCurrency: "TRY", priceSpecification: { "@type": "UnitPriceSpecification", referenceQuantity: { value: 1, unitCode: "MON" } } },
-    { "@type": "Offer", name: "Pro", price: "25000", priceCurrency: "TRY", priceSpecification: { "@type": "UnitPriceSpecification", referenceQuantity: { value: 1, unitCode: "MON" } } },
-    { "@type": "Offer", name: "Kurumsal", price: "50000", priceCurrency: "TRY", priceSpecification: { "@type": "UnitPriceSpecification", referenceQuantity: { value: 1, unitCode: "MON" } } },
-  ],
 };
 
 const faqJsonLd = {
@@ -95,7 +93,7 @@ const faqJsonLd = {
       name: "CRM otomasyonu nedir, bana ne fayda sağlar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Bir lead'in form doldurduğu andan müşteriye dönüştüğü ana kadar tüm temas noktalarını otomatik yöneten sistemdir. Satış ekibiniz manuel takip yerine ısınmış lead'lerle konuşur: danışmanlık vakamızda lead-to-customer dönüşümü %23'ten %47'ye çıktı.",
+        text: "Bir lead'in form doldurduğu andan müşteriye dönüştüğü ana kadar tüm temas noktalarını otomatik yöneten sistemdir. Form gelen lead CRM'e otomatik düşer, karşılama mesajı gider, takip hatırlatmaları satıcıya atanır; satış ekibiniz manuel veri girişi yerine görüşmeye odaklanır.",
       },
     },
     {
@@ -111,7 +109,7 @@ const faqJsonLd = {
       name: "Aylık paket mi tek seferlik mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "İkisi de var. Kurulum tek seferlik (30.000-100.000 TL), aylık yönetim/optimizasyon paketleri 12.000 TL/ay'dan başlıyor. İsterseniz sadece kurulum yapıp kendiniz yönetebilirsiniz.",
+        text: `Kurulum tek seferliktir (KDV hariç): ${familyPriceSummary("is-otomasyonu")}. İlk 30 gün kurulum hatalarının giderilmesi dahildir; isteğe bağlı aylık bakım ikinci aydan itibaren ${maintenanceSummary()}. İsterseniz yalnızca kurulum alıp sistemi kendiniz yönetebilirsiniz.`,
       },
     },
     {
@@ -127,7 +125,7 @@ const faqJsonLd = {
       name: "Ne kadar sürede canlıya geçer?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Başlangıç paketi 1-2 hafta, Pro paket 3-4 hafta, Kurumsal kurulum 6-8 hafta. Akış mapping süreci ne kadar net olursa kurulum o kadar hızlı tamamlanır.",
+        text: "Teslim süresi kapsama göre teklifte yazılı olarak belirtilir; iş akışı ve bağlanacak uygulama sayısı arttıkça süre uzar. Akış mapping süreci ne kadar net olursa kurulum o kadar hızlı tamamlanır.",
       },
     },
     {
@@ -135,7 +133,7 @@ const faqJsonLd = {
       name: "Lead'lerim sizde mi saklanıyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hayır. Tüm veriler size ait CRM ve veritabanlarınızda kalır. Biz sadece otomasyon akışını kuruyoruz. KVKK ve GDPR uyumlu yapılandırma standart dahil.",
+        text: "Hayır. Tüm veriler size ait CRM ve veritabanlarınızda kalır. Biz sadece otomasyon akışını kuruyoruz. Akışlar KVKK ve GDPR gerekliliklerini dikkate alarak (açık rıza, aydınlatma) yapılandırılır.",
       },
     },
     {
@@ -143,7 +141,7 @@ const faqJsonLd = {
       name: "Sistem kurulduktan sonra bakım gerekiyor mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. API değişiklikleri, akış optimizasyonu, A/B testleri için aylık bakım önerilir. Bakım paketi almasanız bile sistem 6-12 ay kesintisiz çalışır — ama optimizasyon olmadan dönüşüm potansiyelinin önemli bir kısmını masada bırakırsınız.",
+        text: "Evet. API değişiklikleri, akış optimizasyonu, A/B testleri için aylık bakım önerilir. Bakım almasanız da kurulan akışlar çalışmaya devam eder; ancak API değişikliklerinde akışların güncellenmesi gerekebilir; iyileştirme ve test çalışmaları bakım kapsamında planlanır.",
       },
     },
   ],
@@ -166,7 +164,7 @@ export default function CrmOtomasyonuPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section border-b-3 border-ink">
+      <section className="bg-white py-section border-b-3 border-ink/15">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-6 flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-ink/70">
@@ -179,21 +177,21 @@ export default function CrmOtomasyonuPage() {
           <div className="grid lg:grid-cols-[1.4fr_1fr] gap-10 lg:gap-16 items-start">
             <div>
               <Reveal delay={50}>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-blue text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Sparkles className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">CRM & İş Süreçleri Otomasyonu</span>
                 </div>
               </Reveal>
 
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] text-ink">
-                  CRM Otomasyonu | Lead'i Müşteriye Çeviren Sistem
+                <h1 className="font-display text-h1 font-black leading-tight text-ink">
+                  CRM Otomasyonu | Lead Takibini Otomatikleştiren Sistem
                 </h1>
               </Reveal>
 
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Lead toplama, takip, CRM entegrasyonu, email + WhatsApp dizileri — hepsi tek sistemde, otomatik. Satış ekibiniz <strong className="text-ink">manuel takiple zaman kaybetmesin</strong>, ısınmış lead'lerle konuşsun. KOBİ, ajans, danışmanlık ve B2B hizmet şirketleri için.
+                  Lead toplama, takip, CRM entegrasyonu, email + WhatsApp dizileri — hepsi tek sistemde, otomatik. Satış ekibiniz <strong className="text-ink">manuel takiple zaman kaybetmesin</strong>, ısınmış lead&apos;lerle konuşsun. KOBİ, ajans, danışmanlık ve B2B hizmet şirketleri için.
                 </p>
               </Reveal>
 
@@ -201,15 +199,15 @@ export default function CrmOtomasyonuPage() {
                 <div className="mt-8 flex flex-col sm:flex-row gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-6 py-3.5 text-sm font-black uppercase text-paper shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
+                    className="inline-flex items-center justify-center gap-2 border-3 border-ink/15 bg-slate px-6 py-3.5 text-sm font-black text-white shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
                   >
                     Ücretsiz Akış Analizi <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <a
-                    href="https://wa.me/905015884853"
+                    href="https://wa.me/905318639117"
                     target="_blank"
                     rel="noopener"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-brand-green px-6 py-3.5 text-sm font-black uppercase text-paper shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
+                    className="inline-flex items-center justify-center gap-2 border-3 border-ink/15 bg-slate px-6 py-3.5 text-sm font-black text-white shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
                   >
                     <MessageCircle className="h-4 w-4" /> WhatsApp ile Konuş
                   </a>
@@ -218,30 +216,30 @@ export default function CrmOtomasyonuPage() {
 
               <Reveal delay={400}>
                 <div className="mt-6 flex flex-wrap gap-4 text-xs font-bold uppercase tracking-wider text-ink/70">
-                  <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-brand-green" /> 1 Ayda Canlı</span>
-                  <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-brand-green" /> KVKK Uyumlu</span>
-                  <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-brand-green" /> 1000+ Entegrasyon</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-ink" /> Tek Seferlik Kurulum</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-ink" /> KVKK Odaklı Kurulum</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-ink" /> 1000+ Entegrasyon</span>
                 </div>
               </Reveal>
             </div>
 
             <Reveal delay={350}>
               <div className="grid grid-cols-2 gap-4">
-                <div className="border-3 border-ink bg-brand-blue p-5 shadow-brutal">
-                  <div className="font-display text-5xl font-black text-paper leading-none">2.04x</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-paper/90">Danışmanlık vakasında satış artışı</div>
+                <div className="border-3 border-ink/15 bg-light p-5 shadow-brutal rounded-2xl">
+                  <div className="font-display text-5xl font-black text-ink leading-none">Tek sefer</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/90">Kurulum, bakım isteğe bağlı</div>
                 </div>
-                <div className="border-3 border-ink bg-brand-yellow p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-light p-5 shadow-brutal rounded-2xl">
                   <div className="font-display text-5xl font-black text-ink leading-none">7/24</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/85">Akışlar kesintisiz çalışır</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/85">Akışlar mesai dışında da çalışır</div>
                 </div>
-                <div className="border-3 border-ink bg-brand-pink p-5 shadow-brutal">
-                  <div className="font-display text-5xl font-black text-paper leading-none">5 dk</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-paper/90">Lead'e otomatik ilk temas</div>
+                <div className="border-3 border-ink/15 bg-light p-5 shadow-brutal rounded-2xl">
+                  <div className="font-display text-5xl font-black text-ink leading-none">Otomatik</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/90">Lead&apos;e ilk temas mesajı</div>
                 </div>
-                <div className="border-3 border-ink bg-brand-green p-5 shadow-brutal">
-                  <div className="font-display text-5xl font-black text-paper leading-none">1K+</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-paper/90">Entegrasyon havuzu</div>
+                <div className="border-3 border-ink/15 bg-light p-5 shadow-brutal rounded-2xl">
+                  <div className="font-display text-5xl font-black text-ink leading-none">1K+</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/90">Entegrasyon havuzu</div>
                 </div>
               </div>
             </Reveal>
@@ -249,22 +247,25 @@ export default function CrmOtomasyonuPage() {
         </div>
       </section>
 
+      <ServiceAtAGlance href="/crm-otomasyonu" />
+
+      <MoreDetails title="Ayrıntılar: Tanıdık sorunlar" summary="Kaybolan lead'ler, geç yanıt, dağınık veri">
       {/* 2. PROBLEM */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+            <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
               Tanıdık geliyor mu?
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-3xl mb-4">
-              Manuel takip = kaybedilen müşteri. Her gün lead'ler buharlaşıyor.
+              Manuel takip = kaybedilen müşteri. Her gün lead&apos;ler buharlaşıyor.
             </h2>
           </Reveal>
           <Reveal delay={150}>
-            <p className="text-body text-paper/70 max-w-2xl mb-12">
-              Reklam parasını lead getirmek için harcıyorsun ama sistem yok. Sonuç: lead'lerin çoğu unutuluyor, takip edilmiyor, satışa dönmüyor.
+            <p className="text-body text-ink/70 max-w-2xl mb-12">
+              Reklam parasını lead getirmek için harcıyorsun ama sistem yok. Sonuç: lead&apos;lerin çoğu unutuluyor, takip edilmiyor, satışa dönmüyor.
             </p>
           </Reveal>
 
@@ -274,14 +275,14 @@ export default function CrmOtomasyonuPage() {
               { title: "İlk yanıt 2 günde geliyor", body: "Lead form doldurduğunda hala sıcak. Ama satış ekibi ancak 2 gün sonra geri arıyor. O sırada rakibe gitti." },
               { title: "Aynı bilgi 5 yere giriliyor", body: "Form → Excel → CRM → WhatsApp grubu → Notion. Aynı isim 5 farklı yerde, hiçbiri güncel değil. Veri kaosu." },
               { title: "Takip sırası kayboluyor", body: "Hangi lead'i ne zaman aramalıyım? Kim sıcak, kim soğuk? Liste yok, hatırlatıcı yok, herkes kendi kafasına göre." },
-              { title: "Email dizileri yok", body: "Lead'i topluyorsun ama sonra ne? Tek mail atıp bırakıyorsun. 5-7 mailden oluşan ısıtma dizisi dönüşümü belirgin şekilde artırır." },
+              { title: "Email dizileri yok", body: "Lead'i topluyorsun ama sonra ne? Tek mail atıp bırakıyorsun. 5-7 mailden oluşan ısıtma dizisi, lead'e sıralı ve düzenli temas sağlar." },
               { title: "Raporlama yok", body: "Hangi kampanya lead getirdi? Hangi kaynak müşteriye çevirdi? Bilmiyorsun çünkü veri parçalı. Reklam bütçesi körlemesine harcanıyor." },
             ].map((p, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-3 border-paper bg-ink p-6 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <XCircle className="h-6 w-6 text-brand-pink mb-3" />
+                <div className="border-3 border-ink/10 bg-light p-6 h-full rounded-2xl">
+                  <XCircle className="h-6 w-6 text-ink mb-3" />
                   <h3 className="font-display text-xl font-black mb-2">{p.title}</h3>
-                  <p className="text-sm text-paper/75 leading-relaxed">{p.body}</p>
+                  <p className="text-sm text-ink/75 leading-relaxed">{p.body}</p>
                 </div>
               </Reveal>
             ))}
@@ -289,11 +290,12 @@ export default function CrmOtomasyonuPage() {
         </div>
       </section>
 
+      </MoreDetails>
       {/* 4. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+            <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
               Kurabileceğimiz akışlar
             </div>
           </Reveal>
@@ -305,17 +307,17 @@ export default function CrmOtomasyonuPage() {
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {[
-              { icon: Boxes, color: "bg-brand-blue", title: "Lead Toplama & Etiketleme", body: "Form, landing, Instagram DM, WhatsApp gelen tüm lead'ler otomatik CRM'e düşer, kaynağa göre etiketlenir, atanır." },
-              { icon: MessageCircle, color: "bg-brand-green", title: "WhatsApp Otomasyonu", body: "Form dolduran anında WhatsApp karşılama. Sonraki gün hatırlatma. Onaylanmış şablonlar + WhatsApp Business API." },
-              { icon: Mail, color: "bg-brand-pink", title: "Email Dizi Pazarlama", body: "5-7 mail'lik ısıtma dizisi. Açan/açmayan segmentasyonu, davranış bazlı dallandırma. Mailchimp/Brevo/SendGrid entegre." },
-              { icon: Calendar, color: "bg-brand-yellow", title: "Toplantı Otomasyonu", body: "Calendly + Google Meet entegrasyonu. Lead toplantı ayarladığında CRM güncellenir, ekibe Slack bildirimi gider." },
-              { icon: CreditCard, color: "bg-brand-purple", title: "Ödeme & Fatura", body: "Iyzico, Stripe, Paytr entegrasyonu. Ödeme yapıldığında otomatik fatura, müşteri portföyüne ekleme, hoşgeldin maili." },
-              { icon: Activity, color: "bg-brand-orange", title: "Raporlama & Dashboard", body: "Hangi kaynak en çok lead getiriyor, dönüşüm oranı ne, ortalama satış döngüsü kaç gün — gerçek zamanlı dashboard." },
+              { icon: Boxes, color: "bg-light", title: "Lead Toplama & Etiketleme", body: "Form, landing, Instagram DM, WhatsApp gelen tüm lead'ler otomatik CRM'e düşer, kaynağa göre etiketlenir, atanır." },
+              { icon: MessageCircle, color: "bg-light", title: "WhatsApp Otomasyonu", body: "Form dolduran anında WhatsApp karşılama. Sonraki gün hatırlatma. Onaylanmış şablonlar + WhatsApp Business API." },
+              { icon: Mail, color: "bg-light", title: "Email Dizi Pazarlama", body: "5-7 mail'lik ısıtma dizisi. Açan/açmayan segmentasyonu, davranış bazlı dallandırma. Mailchimp/Brevo/SendGrid entegre." },
+              { icon: Calendar, color: "bg-light", title: "Toplantı Otomasyonu", body: "Calendly + Google Meet entegrasyonu. Lead toplantı ayarladığında CRM güncellenir, ekibe Slack bildirimi gider." },
+              { icon: CreditCard, color: "bg-light", title: "Ödeme & Fatura", body: "Iyzico, Stripe, Paytr entegrasyonu. Ödeme yapıldığında otomatik fatura, müşteri portföyüne ekleme, hoşgeldin maili." },
+              { icon: Activity, color: "bg-light", title: "Raporlama & Dashboard", body: "Hangi kaynak en çok lead getiriyor, dönüşüm oranı ne, ortalama satış döngüsü kaç gün — gerçek zamanlı dashboard." },
             ].map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                  <div className={cn("inline-flex items-center justify-center w-12 h-12 border-3 border-ink mb-4", f.color)}>
-                    <f.icon className={cn("h-6 w-6", f.color === "bg-brand-yellow" ? "text-ink" : "text-paper")} />
+                <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                  <div className={cn("inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 mb-4 rounded-full", f.color)}>
+                    <f.icon className={cn("h-6 w-6", f.color === "bg-light" ? "text-ink" : "text-ink")} />
                   </div>
                   <h3 className="font-display text-xl font-black text-ink mb-2">{f.title}</h3>
                   <p className="text-sm text-ink/70 leading-relaxed">{f.body}</p>
@@ -326,11 +328,11 @@ export default function CrmOtomasyonuPage() {
 
           {/* Integrations strip */}
           <Reveal delay={500}>
-            <div className="mt-12 border-3 border-ink bg-paper p-6 shadow-brutal-sm">
+            <div className="mt-12 border-3 border-ink/15 bg-paper p-6 shadow-brutal-sm rounded-2xl">
               <p className="text-xs font-black uppercase tracking-wider text-ink/60 mb-3">Entegrasyonlar:</p>
               <div className="flex flex-wrap gap-2">
                 {["Google Sheets", "Notion", "WhatsApp Business", "Email (Mailchimp/Brevo)", "Calendly", "Stripe", "Iyzico", "Make.com", "n8n", "Zapier", "HubSpot", "Pipedrive", "Slack", "Airtable", "Discord", "Instagram DM"].map((t) => (
-                  <span key={t} className="border-3 border-ink bg-paper px-3 py-1 text-xs font-black uppercase shadow-brutal-sm">{t}</span>
+                  <span key={t} className="border-3 border-ink/15 bg-paper px-3 py-1 text-xs font-black shadow-brutal-sm rounded-full">{t}</span>
                 ))}
               </div>
             </div>
@@ -338,55 +340,56 @@ export default function CrmOtomasyonuPage() {
         </div>
       </section>
 
+      <MoreDetails title="Ayrıntılar: Örnek senaryo — B2B danışmanlık" summary="Lead takibi nasıl otomatikleşir?">
       {/* 6. CASE STUDY */}
-      <section className="bg-brand-blue py-section border-y-3 border-ink">
+      <section className="bg-white py-section border-y-3 border-ink/15">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-brand-yellow text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Vaka Çalışması
+            <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek Senaryo
             </div>
           </Reveal>
           <Reveal delay={100}>
-            <h2 className="font-display text-h2 font-black leading-tight max-w-4xl text-paper mb-6">
-              "Bir danışmanlık firmasının lead-to-customer dönüşümünü %23'ten %47'ye çıkardık."
+            <h2 className="font-display text-h2 font-black leading-tight max-w-4xl text-ink mb-6">
+              Örnek senaryo: bir B2B danışmanlık firmasında lead takibi nasıl otomatikleşir?
             </h2>
           </Reveal>
 
           <Reveal delay={200}>
             <div className="grid lg:grid-cols-[1.3fr_1fr] gap-10">
-              <div className="space-y-5 text-body text-paper/90 max-w-prose">
+              <div className="space-y-5 text-body text-ink/90 max-w-prose">
                 <p>
-                  <strong className="text-paper">Durum:</strong> 12 kişilik B2B danışmanlık firması. Ayda ortalama 180 lead geliyor — LinkedIn, Google Ads, referans. Ama %23'ü müşteriye dönüyor. Satış ekibi şikayetçi: "Lead kalitesi düşük."
+                  <strong className="text-ink">Durum:</strong> Bu örnek senaryoda 12 kişilik bir B2B danışmanlık firmasına LinkedIn, Google Ads ve referanstan düzenli lead geliyor. Satış ekibi şikayetçi: &quot;Lead kalitesi düşük.&quot;
                 </p>
                 <p>
-                  <strong className="text-paper">Gerçek sorun:</strong> Lead kalitesi değil — takip sistemi. Form dolan lead 2 gün sonra aranıyor, o zamana kadar rakipler aramış. Email dizisi yok. CRM (Pipedrive) güncel değil, satıcılar Excel kullanıyor.
+                  <strong className="text-ink">Gerçek sorun:</strong> Lead kalitesi değil — takip sistemi. Form dolduran lead ancak günler sonra aranıyor, o zamana kadar rakipler aramış. Email dizisi yok. CRM (Pipedrive) güncel değil, satıcılar Excel kullanıyor.
                 </p>
                 <p>
-                  <strong className="text-paper">Çözüm:</strong> Form → Pipedrive otomatik aktarma. Lead'e 5 dakika içinde WhatsApp + email karşılama. 7 gün boyunca 4 email'lik ısıtma dizisi. Satıcıya Slack bildirimi + Calendly link'i. CRM'de aktivite hatırlatıcıları.
+                  <strong className="text-ink">Çözüm:</strong> Form → Pipedrive otomatik aktarma. Lead&apos;e otomatik WhatsApp + email karşılama. 7 gün boyunca 4 email&apos;lik ısıtma dizisi. Satıcıya Slack bildirimi + Calendly link&apos;i. CRM&apos;de aktivite hatırlatıcıları.
                 </p>
                 <p>
-                  <strong className="text-paper">Sonuç (90 gün):</strong> İlk yanıt süresi 2 günden 4 saate düştü. Email open rate %42, click rate %18. Lead-to-customer dönüşümü %23 → %47. Aylık satış 2.04x arttı.
+                  <strong className="text-ink">İş akışında ne değişir:</strong> Lead form doldurduğunda CRM&apos;e kendiliğinden düşer ve karşılama mesajı otomatik gider; satıcı Slack&apos;ten bildirim alır, takip hatırlatmaları CRM&apos;de görünür. Hangi kaynağın lead getirdiği tek panelden izlenir.
                 </p>
-                <p className="text-sm text-paper/80 italic border-l-3 border-paper pl-4">
-                  "En şaşırtıcı olan: aynı lead'lerle, aynı satıcılarla, sadece sistem değişikliği ile sayı 2 kata çıktı." — Operasyon direktörü
+                <p className="text-sm text-ink/80 italic border-l-3 border-ink/10 pl-4">
+                  Bu bölüm örnek bir kurulumu anlatır; gerçek bir müşteri sonucu değildir.
                 </p>
               </div>
 
               <div className="grid grid-cols-1 gap-4">
-                <div className="border-3 border-ink bg-paper p-5 shadow-brutal">
-                  <TrendingUp className="h-6 w-6 text-brand-pink mb-2" />
-                  <div className="font-display text-5xl font-black text-ink leading-none">2.04x</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/70">Aylık satış artışı</div>
+                <div className="border-3 border-ink/15 bg-paper p-5 shadow-brutal rounded-2xl">
+                  <TrendingUp className="h-6 w-6 text-ink mb-2" />
+                  <div className="font-display text-5xl font-black text-ink leading-none">Otomatik</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/70">CRM&apos;e lead aktarımı</div>
                 </div>
-                <div className="border-3 border-ink bg-paper p-5 shadow-brutal">
-                  <Users className="h-6 w-6 text-brand-blue mb-2" />
-                  <div className="font-display text-5xl font-black text-ink leading-none">47%</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/70">Yeni dönüşüm oranı</div>
+                <div className="border-3 border-ink/15 bg-paper p-5 shadow-brutal rounded-2xl">
+                  <Users className="h-6 w-6 text-ink mb-2" />
+                  <div className="font-display text-5xl font-black text-ink leading-none">E-posta</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/70">Isıtma dizisi</div>
                 </div>
-                <div className="border-3 border-ink bg-paper p-5 shadow-brutal">
-                  <Activity className="h-6 w-6 text-brand-green mb-2" />
-                  <div className="font-display text-5xl font-black text-ink leading-none">4h</div>
-                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/70">İlk yanıt süresi</div>
+                <div className="border-3 border-ink/15 bg-paper p-5 shadow-brutal rounded-2xl">
+                  <Activity className="h-6 w-6 text-ink mb-2" />
+                  <div className="font-display text-5xl font-black text-ink leading-none">Slack</div>
+                  <div className="mt-2 text-xs font-bold uppercase tracking-wider text-ink/70">Satıcıya bildirim</div>
                 </div>
               </div>
             </div>
@@ -394,121 +397,17 @@ export default function CrmOtomasyonuPage() {
         </div>
       </section>
 
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Paketler
-            </div>
-          </Reveal>
-          <Reveal delay={100}>
-            <h2 className="font-display text-h2 font-black leading-tight max-w-3xl text-ink mb-4">
-              İhtiyacına göre paket — büyüdükçe büyür.
-            </h2>
-          </Reveal>
-          <Reveal delay={150}>
-            <p className="text-body text-ink/70 max-w-2xl mb-12">
-              Kurulum tek seferlik (30.000-100.000 TL aralığında, ihtiyaca göre). Aylık paketler bakım, optimizasyon, yeni akışlar ekleme dahil.
-            </p>
-          </Reveal>
+      </MoreDetails>
+      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
 
-          <div className="grid gap-6 lg:grid-cols-3">
-            {/* Başlangıç */}
-            <Reveal delay={150}>
-              <div className="border-3 border-ink bg-paper p-7 shadow-brutal h-full flex flex-col">
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-yellow px-2.5 py-1 text-xs font-black uppercase mb-4 self-start">
-                  <Zap className="h-3.5 w-3.5" /> Başlangıç
-                </div>
-                <h3 className="font-display text-2xl font-black text-ink mb-2">Lead Otomasyonu</h3>
-                <p className="text-sm text-ink/70 mb-5">Lead form + WhatsApp karşılama + email diziye giriş. KOBİ ve yeni başlayan girişimler için.</p>
-                <div className="border-t-3 border-ink/15 pt-5 mb-5">
-                  <div className="font-display text-4xl font-black text-ink">12.000 ₺</div>
-                  <div className="text-xs font-bold uppercase tracking-wider text-ink/60 mt-1">aylık (kurulum 30.000 ₺)</div>
-                </div>
-                <ul className="space-y-2.5 text-sm text-ink/85 mb-7 flex-1">
-                  {["Form → Sheets/Notion entegrasyonu", "WhatsApp karşılama mesajı", "5 maillik email dizisi", "Temel raporlama dashboard", "1 ayda canlı, aylık bakım"].map((b, i) => (
-                    <li key={i} className="flex gap-2"><CheckCircle2 className="h-4 w-4 text-brand-green shrink-0 mt-0.5" /> {b}</li>
-                  ))}
-                </ul>
-                <Link href="/iletisim" className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-black uppercase text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
-                  Teklif Al <ArrowRight className="h-4 w-4" />
-                </Link>
-              </div>
-            </Reveal>
+      <PricingSection family="is-otomasyonu" heading="CRM ve iş otomasyonu fiyatları" intro="CRM, n8n ve Make çözümleri tek başlık altında. Kurulum tek seferliktir; ilk 30 gün kurulum hatalarının giderilmesi dahildir, isteğe bağlı aylık bakım ikinci aydan itibaren başlar. Tutarlar TL ve KDV hariçtir." />
 
-            {/* Pro - featured */}
-            <Reveal delay={250}>
-              <div className="border-3 border-ink bg-brand-blue p-7 shadow-brutal-lg h-full flex flex-col relative">
-                <div className="absolute -top-3 left-7 inline-flex items-center gap-1 border-3 border-ink bg-brand-yellow px-2.5 py-1 text-xs font-black uppercase">
-                  <Star className="h-3.5 w-3.5" /> En Çok Tercih
-                </div>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-paper text-ink px-2.5 py-1 text-xs font-black uppercase mb-4 self-start">
-                  <Workflow className="h-3.5 w-3.5" /> Pro
-                </div>
-                <h3 className="font-display text-2xl font-black text-paper mb-2">CRM Entegrasyon</h3>
-                <p className="text-sm text-paper/90 mb-5">CRM (HubSpot/Pipedrive) + dizi pazarlama + segmentasyon + raporlama. Büyüyen ajanslar ve B2B.</p>
-                <div className="border-t-3 border-paper/30 pt-5 mb-5">
-                  <div className="font-display text-4xl font-black text-paper">25.000 ₺</div>
-                  <div className="text-xs font-bold uppercase tracking-wider text-paper/80 mt-1">aylık (kurulum 50.000-70.000 ₺)</div>
-                </div>
-                <ul className="space-y-2.5 text-sm text-paper mb-7 flex-1">
-                  {["CRM (HubSpot/Pipedrive/Zoho) entegrasyonu", "Davranış bazlı email dizileri", "Lead scoring + segmentasyon", "Calendly + Slack ekip bildirimleri", "Detaylı dashboard + aylık rapor", "2 yeni akış / ay kurulumu dahil"].map((b, i) => (
-                    <li key={i} className="flex gap-2"><CheckCircle2 className="h-4 w-4 text-brand-yellow shrink-0 mt-0.5" /> {b}</li>
-                  ))}
-                </ul>
-                <Link href="/iletisim" className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-black uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
-                  Teklif Al <ArrowRight className="h-4 w-4" />
-                </Link>
-              </div>
-            </Reveal>
-
-            {/* Kurumsal */}
-            <Reveal delay={350}>
-              <div className="border-3 border-ink bg-paper p-7 shadow-brutal h-full flex flex-col">
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-purple text-paper px-2.5 py-1 text-xs font-black uppercase mb-4 self-start">
-                  <Database className="h-3.5 w-3.5" /> Kurumsal
-                </div>
-                <h3 className="font-display text-2xl font-black text-ink mb-2">Özel İş Akışları</h3>
-                <p className="text-sm text-ink/70 mb-5">Tamamen özel iş akışları, ERP entegrasyonu, çoklu ekip yönetimi, gelişmiş raporlama. Kurumsal şirketler.</p>
-                <div className="border-t-3 border-ink/15 pt-5 mb-5">
-                  <div className="font-display text-4xl font-black text-ink">50.000+ ₺</div>
-                  <div className="text-xs font-bold uppercase tracking-wider text-ink/60 mt-1">aylık (kurulum 70.000-100.000 ₺)</div>
-                </div>
-                <ul className="space-y-2.5 text-sm text-ink/85 mb-7 flex-1">
-                  {["ERP / muhasebe / faturalama entegrasyonu", "Çoklu departman + rol yönetimi", "Özel dashboard + KPI raporları", "Lead scoring + AI segmentasyon", "Sınırsız akış kurulumu + bakım", "Adanmış proje yöneticisi"].map((b, i) => (
-                    <li key={i} className="flex gap-2"><CheckCircle2 className="h-4 w-4 text-brand-green shrink-0 mt-0.5" /> {b}</li>
-                  ))}
-                </ul>
-                <Link href="/iletisim" className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-black uppercase text-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
-                  Teklif Al <ArrowRight className="h-4 w-4" />
-                </Link>
-              </div>
-            </Reveal>
-          </div>
-
-          {/* Internal link strip */}
-          <Reveal delay={500}>
-            <div className="mt-12 border-3 border-ink bg-paper p-6 shadow-brutal-sm">
-              <p className="text-sm text-ink/70 mb-3 font-bold uppercase tracking-wider">İlgili kaynaklar:</p>
-              <div className="flex flex-wrap gap-3">
-                <Link href="/blog/crm-otomasyonu-rehberi" className="inline-flex items-center gap-1.5 border-3 border-ink bg-paper px-3 py-1.5 text-xs font-black uppercase shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
-                  CRM Otomasyonu Rehberi <ArrowUpRight className="h-3.5 w-3.5" />
-                </Link>
-                <Link href="/blog/isletmeler-icin-surec-otomasyonu" className="inline-flex items-center gap-1.5 border-3 border-ink bg-paper px-3 py-1.5 text-xs font-black uppercase shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
-                  İşletmeler İçin Süreç Otomasyonu <ArrowUpRight className="h-3.5 w-3.5" />
-                </Link>
-              </div>
-            </div>
-          </Reveal>
-        </div>
-      </section>
 
       {/* 8. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+            <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
               Sıkça Sorulan
             </div>
           </Reveal>
@@ -520,18 +419,18 @@ export default function CrmOtomasyonuPage() {
 
           <div className="grid gap-4 lg:grid-cols-2">
             {[
-              { q: "CRM otomasyonu nedir, bana ne fayda sağlar?", a: "Lead'in form doldurduğu andan müşteriye dönüştüğü ana kadar tüm temas noktalarını otomatik yöneten sistem. Satış ekibiniz manuel takip yerine ısınmış lead'lerle konuşur: danışmanlık vakamızda dönüşüm %23'ten %47'ye çıktı." },
+              { q: "CRM otomasyonu nedir, bana ne fayda sağlar?", a: "Lead'in form doldurduğu andan müşteriye dönüştüğü ana kadar tüm temas noktalarını otomatik yöneten sistem. Form gelen lead CRM'e otomatik düşer, karşılama mesajı gider, takip hatırlatmaları satıcıya atanır; satış ekibiniz manuel veri girişi yerine görüşmeye odaklanır." },
               { q: "Hangi CRM sistemlerini destekliyorsunuz?", a: "HubSpot, Pipedrive, Zoho, Bitrix24, Monday, Notion, Airtable, Google Sheets ve özel CRM'ler — Make/n8n/Zapier ile bağlanabilen her CRM. Mevcut sisteminizi değiştirmek zorunda değilsiniz." },
-              { q: "Aylık paket mi tek seferlik kurulum mu?", a: "İkisi de var. Kurulum tek seferlik (30K-100K TL), aylık yönetim/optimizasyon paketleri 12K TL/ay'dan başlıyor. Sadece kurulum yapıp kendiniz yönetebilirsiniz." },
+              { q: "Aylık paket mi tek seferlik kurulum mu?", a: `Kurulum tek seferliktir (KDV hariç): ${familyPriceSummary("is-otomasyonu")}. İlk 30 gün kurulum hatalarının giderilmesi dahildir; isteğe bağlı aylık bakım ikinci aydan itibaren ${maintenanceSummary()}. İsterseniz yalnızca kurulum alıp sistemi kendiniz yönetebilirsiniz.` },
               { q: "Hangi entegrasyonları kurabiliyorsunuz?", a: "WhatsApp Business, Instagram DM, Email (Mailchimp/SendGrid/Brevo), Calendly, Stripe, Iyzico, Notion, Sheets, Slack ve Make/n8n/Zapier ile bağlanabilen 1000+ uygulama." },
-              { q: "Ne kadar sürede canlıya geçer?", a: "Başlangıç paketi 1-2 hafta, Pro paket 3-4 hafta, Kurumsal kurulum 6-8 hafta. Akış mapping ne kadar net olursa kurulum o kadar hızlı." },
-              { q: "Lead'lerim sizde mi saklanıyor?", a: "Hayır. Tüm veriler size ait CRM ve veritabanlarınızda kalır. Biz sadece otomasyon akışını kuruyoruz. KVKK ve GDPR uyumlu yapılandırma standart dahil." },
-              { q: "Sistem kurulduktan sonra bakım gerekiyor mu?", a: "Evet. API değişiklikleri, akış optimizasyonu, A/B testleri için aylık bakım önerilir. Bakım almasanız bile sistem 6-12 ay çalışır — ama optimizasyon olmadan potansiyelin önemli bir kısmını masada bırakırsınız." },
+              { q: "Ne kadar sürede canlıya geçer?", a: "Teslim süresi kapsama göre teklifte yazılı olarak belirtilir; iş akışı ve bağlanacak uygulama sayısı arttıkça süre uzar. Akış mapping ne kadar net olursa kurulum o kadar hızlı." },
+              { q: "Lead'lerim sizde mi saklanıyor?", a: "Hayır. Tüm veriler size ait CRM ve veritabanlarınızda kalır. Biz sadece otomasyon akışını kuruyoruz. Akışlar KVKK ve GDPR gerekliliklerini dikkate alarak (açık rıza, aydınlatma) yapılandırılır." },
+              { q: "Sistem kurulduktan sonra bakım gerekiyor mu?", a: "Evet. API değişiklikleri, akış optimizasyonu, A/B testleri için aylık bakım önerilir. Bakım almasanız da kurulan akışlar çalışmaya devam eder; ancak API değişikliklerinde akışların güncellenmesi gerekebilir; iyileştirme ve test çalışmaları bakım kapsamında planlanır." },
             ].map((f, i) => (
               <Reveal key={i} delay={i * 50}>
-                <div className="border-3 border-paper bg-ink p-5 shadow-[6px_6px_0_#FFFDF5]">
-                  <h3 className="font-display text-lg font-black text-brand-yellow mb-2">{f.q}</h3>
-                  <p className="text-sm text-paper/80 leading-relaxed">{f.a}</p>
+                <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                  <h3 className="font-display text-lg font-black text-ink mb-2">{f.q}</h3>
+                  <p className="text-sm text-ink/80 leading-relaxed">{f.a}</p>
                 </div>
               </Reveal>
             ))}
@@ -543,16 +442,16 @@ export default function CrmOtomasyonuPage() {
       <RelatedSectorsSection service="crm-otomasyonu" />
       <RelatedLocationsSection service="crm-otomasyonu" />
 
-      <section className="bg-brand-yellow py-section border-t-3 border-ink">
+      <section className="bg-white py-section border-t-3 border-ink/15">
         <div className="mx-auto max-w-container px-6">
           <div className="grid lg:grid-cols-[1.5fr_1fr] gap-10 items-center">
             <Reveal>
               <div>
-                <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+                <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                   Sıra sizde
                 </div>
                 <h2 className="font-display text-h2 font-black leading-tight text-ink mb-5">
-                  Lead'leriniz buharlaşmaktan kurtulsun. 1 ayda canlı sistem.
+                  Lead takibinizi sistemli hale getirelim.
                 </h2>
                 <p className="text-body text-ink/80 mb-7 max-w-prose">
                   30 dakikalık ücretsiz akış analizinde mevcut satış sürecinizdeki sızıntıları gösteriyoruz. Sonra ihtiyacınıza özel paket önerisi.
@@ -560,15 +459,15 @@ export default function CrmOtomasyonuPage() {
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-6 py-3.5 text-sm font-black uppercase text-paper shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
+                    className="inline-flex items-center justify-center gap-2 border-3 border-ink/15 bg-slate px-6 py-3.5 text-sm font-black text-white shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
                   >
-                    Ücretsiz Analiz Al <ArrowUpRight className="h-4 w-4" />
+                    Teklif İsteyin <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <a
-                    href="https://wa.me/905015884853"
+                    href="https://wa.me/905318639117"
                     target="_blank"
                     rel="noopener"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-brand-green px-6 py-3.5 text-sm font-black uppercase text-paper shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all"
+                    className="inline-flex items-center justify-center gap-2 border-3 border-ink/15 bg-slate px-6 py-3.5 text-sm font-black text-white shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
                   >
                     <MessageCircle className="h-4 w-4" /> WhatsApp
                   </a>
@@ -577,12 +476,12 @@ export default function CrmOtomasyonuPage() {
             </Reveal>
 
             <Reveal delay={150}>
-              <div className="border-3 border-ink bg-paper p-6 shadow-brutal-lg space-y-4">
+              <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal-lg space-y-4 rounded-2xl">
                 <div className="flex items-start gap-3">
                   <Phone className="h-5 w-5 text-ink shrink-0 mt-0.5" />
                   <div>
                     <div className="text-xs font-bold uppercase tracking-wider text-ink/60">Telefon</div>
-                    <a href="tel:+905015884853" className="font-display text-lg font-black text-ink hover:underline">0501 588 48 53</a>
+                    <a href="tel:+905318639117" className="font-display text-lg font-black text-ink hover:underline">0531 863 91 17</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -602,16 +501,16 @@ export default function CrmOtomasyonuPage() {
                 <div className="border-t-3 border-ink/15 pt-4">
                   <p className="text-xs font-bold uppercase tracking-wider text-ink/60 mb-2">Diğer hizmetler</p>
                   <div className="flex flex-wrap gap-2">
-                    <Link href="/web-tasarim" className="text-xs font-black uppercase border-3 border-ink bg-brand-pink text-paper px-2 py-1 shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
+                    <Link href="/web-tasarim" className="text-xs font-black border-3 border-ink/15 bg-slate text-white px-2 py-1 shadow-brutal-sm transition-all rounded-full">
                       Web Tasarım
                     </Link>
-                    <Link href="/whatsapp-ai-asistani" className="text-xs font-black uppercase border-3 border-ink bg-brand-green text-paper px-2 py-1 shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
+                    <Link href="/whatsapp-ai-asistani" className="text-xs font-black border-3 border-ink/15 bg-slate text-white px-2 py-1 shadow-brutal-sm transition-all rounded-full">
                       WhatsApp AI
                     </Link>
-                    <Link href="/instagram-dm-otomasyonu" className="text-xs font-black uppercase border-3 border-ink bg-brand-purple text-paper px-2 py-1 shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
+                    <Link href="/instagram-dm-otomasyonu" className="text-xs font-black border-3 border-ink/15 bg-slate text-white px-2 py-1 shadow-brutal-sm transition-all rounded-full">
                       Instagram DM
                     </Link>
-                    <Link href="/ai-reklam-videosu" className="text-xs font-black uppercase border-3 border-ink bg-brand-orange text-paper px-2 py-1 shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
+                    <Link href="/ai-reklam-videosu" className="text-xs font-black border-3 border-ink/15 bg-slate text-white px-2 py-1 shadow-brutal-sm transition-all rounded-full">
                       AI Reklam Videosu
                     </Link>
                   </div>

@@ -138,7 +138,7 @@ Bu konuda daha derin teknik bilgi için [AI Chatbot Türkçe](/ai-chatbot-turkce
 | **Rasa** (Open Source) | ⚠️ Orta | ✅ | ⚠️ | ✅ |
 | **Botpress** | ✅ | ✅ | ✅ | ✅ |
 
-PORTZEN olarak biz **LangChain + Claude/GPT karması** kullanıyoruz çünkü KVKK uyumlu, Türkçe kalitesi yüksek, sektör jargonu eğitimine açık. Aynı bilgi tabanı altyapısı Instagram ve Facebook DM'lerine de bağlanabiliyor; bu noktada [sosyal medya ajansı](/sosyal-medya-ajansi) ekibimiz DM otomasyonu ve içerik üretimini bot ile entegre yönetiyor.
+PORTZEN olarak biz **LangChain + Claude/GPT karması** kullanıyoruz çünkü Türkçe kalitesi yüksek ve sektör jargonu eğitimine açık. Kurulum KVKK gerekliliklerini dikkate alarak kurgulanır (açık rıza, aydınlatma akışı); verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Aynı bilgi tabanı, AI müşteri asistanının Instagram kanalına da bağlanabiliyor (Instagram kanalı Kurumsal pakette); yorum ve hikâyeye kural tabanlı otomatik DM gönderen Instagram DM otomasyonu ise ayrı bir hizmettir ve AI yanıt üretmez. [Sosyal medya ajansı](/sosyal-medya-ajansi) ekibimiz içerik üretimini bu kurguyla uyumlu planlıyor.
 
 ## Sık Yapılan Hatalar
 
@@ -156,6 +156,6 @@ GPT bilmez — sizin işletmenizdeki spesifik bilgiyi bilmez. Bilgi tabanı şar
 
 ## PORTZEN ile AI Chatbot Eğitimi
 
-PORTZEN olarak işletmeler için AI chatbot bilgi tabanını **uçtan uca biz hazırlıyoruz**. SSS toplama, dokümanları çıkarma, sektör jargonu listesi, RAG kurulumu, test, canlıya alma — tek bir paket. Sonrası için aylık optimizasyon dahil. Detaylı paketler için [WhatsApp AI Asistanı](/whatsapp-ai-asistani) sayfamıza, sektörünüzde özel kurulumlar için [WhatsApp AI Asistanı + Klinik](/whatsapp-ai-asistani/klinik) gibi sektörel sayfalarımıza bakabilirsiniz.
+PORTZEN olarak işletmeler için AI chatbot bilgi tabanını **uçtan uca biz hazırlıyoruz**. SSS toplama, dokümanları çıkarma, sektör jargonu listesi, RAG kurulumu, test, canlıya alma — tek bir paket. Kurulum ve aylık hizmet AI müşteri asistanı paketleriyle yapılır: {{fiyatlar:ai-musteri-asistani}} (KDV hariç); aylık iyileştirme Büyüme paketinde 2 saat, Kurumsal pakette 6 saattir. Detaylı paketler için [WhatsApp AI Asistanı](/whatsapp-ai-asistani) sayfamıza, sektörünüzde özel kurulumlar için [WhatsApp AI Asistanı + Klinik](/whatsapp-ai-asistani/klinik) gibi sektörel sayfalarımıza bakabilirsiniz.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun bilgi tabanı yapısını birlikte belirleyelim.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir görüşmede işletmeniz için uygun bilgi tabanı yapısını birlikte belirleyelim.

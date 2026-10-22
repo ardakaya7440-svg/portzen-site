@@ -61,7 +61,7 @@ export default function Page({ params }: Props) {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqSchema(data)) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqSchema(data, SERVICE)) }}
       />
       <script
         type="application/ld+json"

@@ -80,7 +80,7 @@ Maliyeti gerçek senaryolarla karşılaştıralım. 250 ürünlü, ayda 200.000 
 | Bakım/güncelleme (yıllık) | 8.000 TL | 0 TL |
 | **12 ay toplam** | **57.500 TL** | **86.800 TL** |
 
-Görüldüğü gibi, ciro yükseldikçe Shopify'ın transaction fee'si WordPress'in kurulum ve bakım maliyetini çok aşıyor. Ayda 100.000 TL altında ciroda Shopify mantıklı, üzerinde WordPress neredeyse her zaman daha karlı. Platform kararı kesinleştikten sonra ciroyu büyütmenin en hızlı kaldıracı doğru kurulmuş Meta katalog reklamlarıdır; bu noktada profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle Facebook ve Instagram Shop kampanyalarını ölçeklemek ilk 6 ayda mağaza cirosunu katlıyor.
+Görüldüğü gibi, ciro yükseldikçe Shopify'ın transaction fee'si WordPress'in kurulum ve bakım maliyetini çok aşıyor. Ayda 100.000 TL altında ciroda Shopify mantıklı, üzerinde WordPress neredeyse her zaman daha karlı. Platform kararı kesinleştikten sonra ciroyu büyütmenin en hızlı kaldıracı doğru kurulmuş Meta katalog reklamlarıdır; bu noktada profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle Facebook ve Instagram Shop kampanyalarını ölçeklemek, mağaza trafiğini satış odaklı büyütmenin en doğrudan yollarından biri.
 
 Eğer Türkiye e-ticaret pazarındaki WooCommerce ve Shopify konumlanmasını daha detaylı görmek isterseniz [Shopify vs WooCommerce Türkiye](/blog/shopify-vs-woocommerce-turkiye) yazımızı okuyabilirsiniz.
 
@@ -156,7 +156,7 @@ Sepet terk oranını düşürmek için her iki platform da [WhatsApp AI asistan�
 Evet, Shopify App Store'da iyzico ve PayTR uygulamaları var. Ancak Shopify her satıştan ek transaction fee alıyor.
 
 **WordPress kurulumu çok zor mu?**
-Tek başınıza yaparsanız zor olabilir. Profesyonel kurulumu 3-7 gün sürer ve 15.000-60.000 TL arası bütçeyle yapılır.
+Tek başınıza yaparsanız zor olabilir. Piyasada profesyonel kurulum 3-7 gün sürer ve 15.000-60.000 TL arası bütçeyle yapılır. PORTZEN'de e-ticaret kurulum paketleri {{fiyatlar:e-ticaret}} (KDV hariç; altyapı lisansları hariç).
 
 **Shopify'dan WordPress'e geçiş mümkün mü?**
 Mümkün ancak zahmetli. Ürünler, müşteri verileri ve sipariş geçmişi transfer edilebilir. SEO kaybı yaşamamak için 301 yönlendirmeler şart.

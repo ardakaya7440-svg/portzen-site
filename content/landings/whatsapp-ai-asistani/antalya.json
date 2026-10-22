@@ -14,12 +14,24 @@
     "antalya çok dilli chatbot"
   ],
   "h1": "Antalya İçin WhatsApp AI Asistanı (TR/EN/RU/DE)",
-  "heroSubtitle": "Konyaaltı'ndan Lara'ya, Belek'ten Side'ye, Alanya'dan Kemer'e - Antalya'daki otel, restoran, transfer ve gezi firmalarına 4 dilli (TR/EN/RU/DE) 7/24 WhatsApp AI sistemi. 14 günde devrede.",
+  "heroSubtitle": "Konyaaltı'ndan Lara'ya, Belek'ten Side'ye, Alanya'dan Kemer'e - Antalya'daki otel, restoran, transfer ve gezi firmalarına 4 dilli (TR/EN/RU/DE) 7/24 WhatsApp AI sistemi.",
   "stats": [
-    {"value": "4 Dil", "label": "TR/EN/RU/DE"},
-    {"value": "60 sn", "label": "İlk Yanıt"},
-    {"value": "14 gün", "label": "Kurulum"},
-    {"value": "24/7", "label": "Sezonsal"}
+    {
+      "value": "4 Dil",
+      "label": "TR/EN/RU/DE"
+    },
+    {
+      "value": "Otomatik",
+      "label": "Mesai Dışı Yanıt"
+    },
+    {
+      "value": "Tek seferlik",
+      "label": "Kurulum"
+    },
+    {
+      "value": "24/7",
+      "label": "Sezonsal"
+    }
   ],
   "problems": [
     "Antalya butik otelinizde resepsiyonist tek başına TR/EN/RU/DE 4 dilden gelen rezervasyon sorularına yetişemiyor; gece 02:00'de Rus turist 'oda var mı' diyor, sabaha cevap kalıyor, müşteri yan otele gidiyor.",
@@ -39,11 +51,11 @@
     },
     {
       "title": "WhatsApp Business API + PMS/Rezervasyon",
-      "description": "Resmi Meta WhatsApp Business API kurulumu, PMS (Hotelinking, Cloudbeds, ELK) veya rezervasyon sistemi entegrasyonu, KVKK + GDPR uyumlu izin yönetimi."
+      "description": "Resmi Meta WhatsApp Business API kurulumu, PMS (Hotelinking, Cloudbeds, ELK) veya rezervasyon sistemi entegrasyonu, KVKK ve GDPR gerekliliklerini dikkate alan izin (açık rıza) yönetimi."
     },
     {
       "title": "Test + Sezonsal Devreye",
-      "description": "Antalya'daki ekibinizle 7 günlük canlı test, ince ayar, eğitim. Sezona göre kapasite ayarı (Haziran-Eylül yoğunluk + Kasım-Şubat düşük tempo)."
+      "description": "Antalya'daki ekibinizle canlı test, ince ayar, eğitim. Sezona göre kapasite ayarı (Haziran-Eylül yoğunluk + Kasım-Şubat düşük tempo)."
     }
   ],
   "features": [
@@ -61,11 +73,11 @@
     },
     {
       "title": "Sezonsal Kapasite Modu",
-      "description": "Haziran-Eylül yoğun sezonda 5.000+ konuşma/ay, kış aylarında 1.000 konuşma/ay otomatik scale. Sezona uygun fiyatlandırma."
+      "description": "Haziran-Eylül yoğun sezon ve kış dönemi için mesaj hacminize uygun paket planlaması; sezon geçişleri teklifte netleştirilir."
     },
     {
-      "title": "GDPR + KVKK Uyumlu İzin",
-      "description": "Yabancı turist verisi için GDPR + Türk müşterisi için KVKK. Çift yönlü hukuki uyum, izinli mesajlaşma."
+      "title": "GDPR + KVKK'ya Göre İzin Akışı",
+      "description": "Yabancı turist verisi için GDPR, Türk müşterisi için KVKK gereklilikleri dikkate alınarak aydınlatma ve açık rıza akışı kurgulanır; izinli mesajlaşma esastır. Verinin hangi sağlayıcıda ve bölgede tutulacağı teklifte yazılı olarak belirtilir."
     },
     {
       "title": "Yerel Destek + Sezonsal Rapor",
@@ -73,90 +85,60 @@
     }
   ],
   "caseStudy": {
-    "title": "Lara'da bir butik otel: Yaz sezonu rezervasyon dönüşümü %14'ten %48'e, ek ciro 680.000 TL",
+    "title": "Örnek senaryo: Lara'da bir butik otel için 4 dilli direkt rezervasyon akışı",
     "paragraphs": [
-      "Lara'da 38 odalı bir butik otel, Booking ve Hotels.com dışında direkt WhatsApp rezervasyonu almak istiyordu. Yaz sezonunda günde 90-140 DM geliyordu (Türkçe %25, İngilizce %30, Rusça %30, Almanca %15). Tek resepsiyonist 4 dile yetişemiyordu; Rusça sorular Google Translate ile cevaplanıyor, müşteri 'profesyonel değil' diye yan otele gidiyordu. Direkt rezervasyon dönüşümü sadece %14'tü; gerisi Booking komisyonuna gidiyordu.",
-      "PORTZEN olarak WhatsApp Business API kurduk; 4 dilli AI (TR/EN/RU/DE) ile oda müsaitlik, fiyat, transfer, restoran rezervasyonu, spa, animasyon programı sorularına anlık cevap. Cloudbeds PMS entegrasyonu ile WhatsApp'tan doğrudan rezervasyon kapatma. GDPR uyumlu izin akışı.",
-      "Yaz sezonu sonunda direkt WhatsApp rezervasyon dönüşümü %14'ten %48'e çıktı. Booking komisyonu ödenmeyen 280 direkt rezervasyon kazanıldı, ek net ciro 680.000 TL. Rus + Alman müşteri Google Translate hatasından kaynaklı şikayet sıfırlandı. Sistem 1.5 ayda kendini amorti etti."
+      "Örnek bir kurulumu düşünelim: Lara'da bir butik otel, Booking ve Hotels.com dışında direkt WhatsApp rezervasyonu almak istiyor. Yaz sezonunda Türkçe, İngilizce, Rusça ve Almanca mesajlar geliyor; tek resepsiyonist dört dile yetişemiyor, Rusça sorular çeviri aracıyla cevaplanıyor ve yanıtlar gecikiyor.",
+      "Böyle bir yapıda Meta'nın resmi WhatsApp Business API'si kurulur; 4 dilli AI (TR/EN/RU/DE) oda müsaitliği, fiyat, transfer, restoran rezervasyonu, spa ve animasyon programı sorularını yanıtlar. PMS (örneğin Cloudbeds) entegrasyonuyla müsaitlik WhatsApp'tan sorgulanır, rezervasyon talebi sisteme iletilir. İzin akışı GDPR ve KVKK gereklilikleri dikkate alınarak kurgulanır.",
+      "Bu kurulumda misafir hangi dilde yazarsa aynı dilde yanıt alır, gece gelen müsaitlik soruları sabahı beklemez, rezervasyona dönüşmesi gereken talepler resepsiyona hazır özetle düşer. Resepsiyon çeviriyle uğraşmak yerine onay bekleyen rezervasyonlara ve oteldeki misafire odaklanır."
     ],
     "beforeAfter": [
-      {"label": "Direkt WhatsApp Dönüşüm", "before": "%14", "after": "%48"},
-      {"label": "Sezon Ek Net Ciro", "before": "Belirsiz", "after": "+680.000 TL"},
-      {"label": "Rus/Alman Şikayet", "before": "Aylık 12-18", "after": "Sıfır"}
+      {
+        "label": "Direkt Rezervasyon Talebi",
+        "before": "Mesajlar elle yanıtlanıyor, gecikiyor",
+        "after": "Müsaitlik WhatsApp'tan otomatik sorgulanıyor"
+      },
+      {
+        "label": "Gece Gelen Sorular",
+        "before": "Sabaha kalıyor",
+        "after": "Otomatik yanıtlanıyor"
+      },
+      {
+        "label": "Rusça / Almanca Yanıtlar",
+        "before": "Çeviri aracıyla, tek tek",
+        "after": "Misafirin dilinde otomatik"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "10.000 TL/ay",
-      "description": "Tek lokasyonlu butik otel, restoran, transfer firması için (TR + EN)",
-      "features": [
-        "WhatsApp Business API kurulumu",
-        "2 dil (TR + EN)",
-        "Aylık 1.500 konuşma",
-        "Temel rezervasyon akışı",
-        "Aylık rapor",
-        "E-posta destek"
-      ]
-    },
-    {
-      "name": "Turizm Pro",
-      "price": "19.000 TL/ay",
-      "description": "Orta ölçek otel, restoran zinciri, tur operatörü için (4 dil)",
-      "features": [
-        "Her şey + 4 dil (TR/EN/RU/DE)",
-        "Aylık 6.000 konuşma (sezon esnek)",
-        "PMS entegrasyonu (Cloudbeds/Hotelinking)",
-        "Semt bazlı yönlendirme",
-        "Sezonsal kampanya akışları",
-        "Öncelikli destek (WhatsApp)"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Kurumsal",
-      "price": "38.000 TL/ay",
-      "description": "5+ yıldız otel, zincir tur operatörü, ulusal markalar için",
-      "features": [
-        "Her şey + sınırsız konuşma",
-        "Skandinav dilleri (NO/SV/DA) + Arapça",
-        "Çoklu numara/şube yönetimi",
-        "Booking.com Channel Manager entegrasyonu",
-        "Adanmış Antalya hesap yöneticisi",
-        "SLA garantili 4 saat yanıt"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "Antalya'da fiziksel ofisiniz var mı, yüz yüze görüşebilir miyiz?",
-      "answer": "PORTZEN İzmir merkezli ama Antalya'da 15+ aktif müşterimiz (otel + restoran + transfer) var. Toplantılarımızı online (Google Meet) yapıyoruz, ekibimizi büyük tutmadan size daha uygun fiyat sunabiliyoruz. Antalya'da yerel ajanslar %30 daha fazla istiyor benzer hizmet için."
+      "answer": "PORTZEN İzmir merkezli; Antalya'daki işletmelerle toplantılarımızı online (Google Meet) yapıyoruz. Ekibimizi büyük tutmadan uzaktan çalıştığımız için süreç Antalya'dan da aynı şekilde yürüyor."
     },
     {
       "question": "Yaz sezonu yoğunluğunda sistem ayakta kalır mı?",
-      "answer": "Evet. Altyapımız saatlik 5.000+ mesajı kaldırır. Turizm Pro paketinde yaz sezonu için otomatik scale-up yapıyoruz, kış aylarında scale-down ile fiyat düşüyor."
+      "answer": "Sezonda belirleyici olan genellikle paketinizdeki aylık AI yanıt kotası; örneğin Kurumsal pakette ayda {{ai-kota:kurumsal}} AI yanıtı bulunuyor. Yaz sezonunda beklediğiniz mesaj hacmine göre hangi paketin yeteceğini brief görüşmesinde birlikte hesaplıyoruz."
     },
     {
       "question": "Rusça/Almanca AI cevapları gerçekten doğru mu?",
-      "answer": "Evet. Standart Google Translate değil, GPT-4 + Claude tabanlı modeller + sektör-spesifik fine-tuning. Test aşamasında Rus/Alman native speaker partnerimiz tüm akışları onaylıyor."
+      "answer": "Standart makine çevirisi değil; GPT-4 / Claude tabanlı modeller işletmenize özel bilgi havuzuyla çalışır. Test aşamasında Rusça ve Almanca akışları sizin ekibinizle (varsa bu dilleri konuşan çalışanlarınızla) birlikte kontrol edip düzeltiyoruz."
     },
     {
       "question": "Cloudbeds, Hotelinking, ELK PMS'ime bağlanır mı?",
-      "answer": "Evet. Turizm Pro pakette PMS entegrasyonu standart. Oda müsaitlik, fiyat, rezervasyon onayı WhatsApp'tan doğrudan yapılır. Booking.com Channel Manager Kurumsal pakette."
+      "answer": "Evet, Cloudbeds, Hotelinking, ELK gibi API'si olan PMS'lere bağlantı kurabiliyoruz; oda müsaitliği, fiyat ve rezervasyon onayı WhatsApp'tan doğrudan yapılır. Kurumsal pakette 4 standart entegrasyon hakkı bulunuyor; PMS'inizin ve Booking.com Channel Manager bağlantısının bu kapsama girip girmediğini brief görüşmesinde netleştiriyoruz, girmeyen bağlantılar ek iş olarak ayrıca tekliflendirilir."
     },
     {
       "question": "Kış aylarında düşük tempo, sözleşme kısaltılabilir mi?",
-      "answer": "Evet. Sezonsal model: Mayıs-Ekim arası Pro paket, Kasım-Nisan arası Başlangıç paketine geçiş. Yıllık sözleşmede %15 indirim."
+      "answer": "Sezonluk çalışan işletmeler için yaz ve kış dönemini ayrı planlayabiliyoruz. Mayıs–Ekim arası yoğun dönemde üst paket, Kasım–Nisan arası daha düşük hacimde alt paket gibi bir geçiş modelini ve sözleşme süresini teklifte birlikte netleştiriyoruz. Kurulum bedeli tek seferliktir; Meta mesaj ücretleri ise kullanıma göre oluştuğu için kışın doğal olarak azalır."
     },
     {
-      "question": "GDPR + KVKK çift uyum var mı?",
-      "answer": "Evet. Yabancı turist verisi için GDPR (AB), Türk müşteri için KVKK uyumlu izinli mesajlaşma. İki düzenleyici çerçeveye de uygun çift dil aydınlatma metni."
+      "question": "GDPR ve KVKK açısından nasıl çalışıyorsunuz?",
+      "answer": "Yabancı turist verisi için GDPR (AB), Türk müşteri için KVKK gereklilikleri dikkate alınarak izinli mesajlaşma akışı kurgulanır; aydınlatma metni iki dilde hazırlanır. Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir; metinlerin hukuki son kontrolünü kendi danışmanınızla yapmanızı öneririz."
     },
     {
       "question": "Belek/Side/Alanya gibi farklı bölgelerdeki şubelerime tek panelden bakabilir miyim?",
-      "answer": "Evet. Turizm Pro ve üzeri pakette çoklu lokasyon yönetimi. Her şubenin saati, kapasitesi, dili ayrı yüklenir. Tek dashboard'dan tümüyle takip."
+      "answer": "Evet. Kurumsal pakette 3 şubeye kadar çoklu lokasyon yapısı kuruluyor; Belek, Side, Alanya gibi her şubenin çalışma saati, kapasitesi ve dili ayrı yüklenir, tümünü tek panelden takip edersiniz. Kurumsal pakette Web, WhatsApp ve Instagram kanalları birlikte yönetilir. Daha fazla şubeniz varsa kapsamı teklifte netleştiriyoruz."
     }
   ],
   "finalCtaHeadline": "Antalya'daki turist trafiğinizi WhatsApp'tan kazanalım.",
-  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif görüşmesi. Otel/restoran/transfer - sezonsal WhatsApp trafiğinize bakıp 4 dilli AI sistemi kuralım. 14 günde devrede."
+  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif görüşmesi. Otel/restoran/transfer - sezonsal WhatsApp trafiğinize bakıp 4 dilli AI sistemi kuralım. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 }

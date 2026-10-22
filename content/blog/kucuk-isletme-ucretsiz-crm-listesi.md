@@ -218,9 +218,9 @@ Doğru CRM'i seçmek savaşın yarısı; geri kalan yarısı doğru kurmak, ekib
 - HubSpot, Bitrix24, Zoho ve diğer araçların A'dan Z'ye kurulumu
 - WhatsApp Business API, Gmail, Outlook, Shopify, ideasoft entegrasyonları
 - Lead atama, otomatik e-posta, görev oluşturma gibi temel otomasyon senaryoları
-- Satış ekibi için Türkçe video eğitim ve 30 günlük destek
-- Mevcut Excel/diğer CRM verilerinin temiz ve hatasız taşınması
+- Satış ekibi için eğitim (Büyüme ve Kurumsal paketlerde) ve ilk 30 gün kurulum hatalarının giderilmesi; kurulum tek seferliktir: {{fiyatlar:is-otomasyonu}} (KDV hariç, CRM lisansları hariç)
+- Mevcut Excel/diğer CRM verilerinin temizlenerek taşınması
 
-Ücretsiz bir CRM ile başlayıp doğru kurgulandığında 6-12 ay içinde ciddi ölçüde büyüyebilirsiniz. Yanlış kurulan bir araç ise her gün biraz daha veri kaybetmenize sebep olur.
+Ücretsiz bir CRM ile başlayıp doğru kurguladığınızda, büyüdükçe ücretli plana sorunsuz geçebileceğiniz sağlam bir temel kurarsınız. Yanlış kurulan bir araç ise her gün biraz daha veri kaybetmenize sebep olur.
 
 Hangi CRM'in size uygun olduğundan emin değilseniz, 30 dakikalık ücretsiz keşif görüşmesi için [iletişim sayfamız](/iletisim) üzerinden bize ulaşın. Size özel bir karar matrisi ve kurulum planı çıkaralım.

@@ -15,10 +15,22 @@
   "h1": "Oto Servisler İçin CRM Otomasyonu",
   "heroSubtitle": "Periyodik bakım hatırlatmadan garanti süresi alarmına, parça stok takibinden müşteri sadakatine kadar tüm servis operasyonu tek panelde, WhatsApp + SMS entegre.",
   "stats": [
-    {"value": "%71", "label": "Periyodik Bakım Dönüşümü"},
-    {"value": "%180", "label": "Aylık Gelir Artışı"},
-    {"value": "3.4x", "label": "Müşteri Geri Dönüşü"},
-    {"value": "<24h", "label": "Parça Stok Sipariş"}
+    {
+      "value": "KM + zaman",
+      "label": "Periyodik bakım hatırlatma"
+    },
+    {
+      "value": "Plaka ile",
+      "label": "Araç tarihçesi"
+    },
+    {
+      "value": "30 gün kala",
+      "label": "Garanti alarmı"
+    },
+    {
+      "value": "Kritik seviye",
+      "label": "Parça stok uyarısı"
+    }
   ],
   "problems": [
     "Periyodik bakım zamanı geldiğinde müşteri hatırlatılmıyor; defter ya da takvim üzerinden manuel takip ekibin inisiyatifine bırakılıyor ve çoğu randevu kaçırılıyor.",
@@ -39,11 +51,11 @@
     },
     {
       "title": "Ekip Eğitimi ve Raporlama Kurgusu",
-      "description": "Servis çalışanlarına 2 günlük panel eğitimi veriliyor; bakım hatırlatma akışları, garanti alarm kuralları ve sadakat seviyeleri birlikte belirleniyor."
+      "description": "Servis çalışanlarına panel eğitimi veriliyor (ekip eğitimi Büyüme ve Kurumsal paketlerde dahil); bakım hatırlatma akışları, garanti alarm kuralları ve sadakat seviyeleri birlikte belirleniyor."
     },
     {
-      "title": "Canlı Sistem ve Aylık Optimizasyon",
-      "description": "Sistem canlıya alınıyor; ilk ay haftalık check-in yapılıyor. Aylık periyodik bakım dönüşümü, garanti takip, parça stok devir ve müşteri sadakat raporları otomatik üretiliyor."
+      "title": "Canlı Sistem ve Raporlama",
+      "description": "Sistem canlıya alınıyor; ilk 30 gün kurulum hataları giderilir, sonrasında aylık bakım isteğe bağlıdır. Aylık periyodik bakım dönüşümü, garanti takip, parça stok devir ve müşteri sadakat raporları otomatik üretiliyor."
     }
   ],
   "features": [
@@ -73,74 +85,42 @@
     }
   ],
   "caseStudy": {
-    "title": "İzmir Karşıyaka'da Bir Oto Servisin 5 Aylık Dönüşümü",
+    "title": "Örnek senaryo: Bir özel oto serviste periyodik bakım, garanti ve stok takibi",
     "paragraphs": [
-      "İzmir Karşıyaka Bostanlı'da 14 yıllık bir Volkswagen-Audi yetkili olmayan servis, günlük 18-22 araç kabul ediyordu. Periyodik bakım için müşteri hatırlatması yapılmıyor; takip Excel ve servis sahibinin telefon defteri ile yürüyordu. Aylık periyodik bakım dönüşüm oranı %23'te kalıyordu.",
-      "PORTZEN ile çalışmaya başladıkları ilk ayda 3.800 müşteri ve 4.200 araç kaydı veritabanına aktarıldı; HubSpot + WhatsApp Business API + SMS çift kanal kuruldu. Periyodik bakım hatırlatma akışı, garanti alarm sistemi ve parça stok takibi devreye alındı.",
-      "5. ay sonunda periyodik bakım dönüşüm oranı %23'ten %71'e fırladı; aylık gelir %180 arttı. Parça stok devir hızı 2.4x'e çıktı, garanti uyuşmazlığı kaynaklı şikayet sıfırlandı. Sadık müşteri segmentindeki Gold müşteri sayısı 5 ayda 28'den 142'ye yükseldi."
+      "Örnek senaryo: Yetkili olmayan, günde çok sayıda araç kabul eden bir özel oto servis düşünün. Periyodik bakım için müşteri hatırlatması yapılmıyor; takip Excel ve servis sahibinin telefon defteri ile yürüyor.",
+      "Örnek bir kurulumda mevcut müşteri ve araç kayıtları veritabanına aktarılır; HubSpot + WhatsApp Business API + SMS çift kanal kurulur. Periyodik bakım hatırlatma akışı, garanti alarm sistemi ve parça stok takibi devreye alınır.",
+      "Bu kurulumla iş akışında değişen şudur: bakımı yaklaşan araç sahibine hatırlatma ve randevu linki otomatik gider, garanti süreleri kayıt altında olduğu için uyuşmazlıkta kayda bakılır, kritik seviyeye düşen parça için bildirim oluşur. Sadakat seviyeleri harcama ve servis sayısına göre otomatik güncellenir."
     ],
     "beforeAfter": [
-      {"label": "Periyodik Bakım Dönüşümü", "before": "%23", "after": "%71"},
-      {"label": "Aylık Servis Geliri", "before": "Baz değer", "after": "%180 artış"},
-      {"label": "Gold Sadık Müşteri", "before": "28 müşteri", "after": "142 müşteri"}
+      {
+        "label": "Periyodik Bakım Hatırlatma",
+        "before": "Defter ve takvimden, ekibin inisiyatifine bağlı",
+        "after": "KM + tarih bazlı otomatik WhatsApp + SMS"
+      },
+      {
+        "label": "Garanti Takibi",
+        "before": "Hatırlanmıyor, uyuşmazlık çıkıyor",
+        "after": "Her iş emrinde kayıtlı, 30 gün kala bildirim"
+      },
+      {
+        "label": "Parça Stoğu",
+        "before": "Kağıt üzerinde",
+        "after": "Kritik seviyede otomatik bildirim"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "9.000 TL/ay",
-      "description": "Tek lokasyon küçük-orta ölçek servisler için",
-      "features": [
-        "1.000 araca kadar kayıt",
-        "Periyodik bakım hatırlatma",
-        "Tek kanal WhatsApp",
-        "Temel araç tarihçesi paneli",
-        "Aylık temel rapor"
-      ]
-    },
-    {
-      "name": "Pro",
-      "price": "18.000 TL/ay",
-      "description": "Orta-büyük ölçek bağımsız servisler için",
-      "features": [
-        "5.000 araca kadar kayıt",
-        "Tüm hatırlatma akışları",
-        "WhatsApp + SMS çift kanal",
-        "Garanti süresi alarm sistemi",
-        "Parça stok + sipariş takibi",
-        "Sadakat puan sistemi",
-        "Aylık detaylı dashboard"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Premium",
-      "price": "35.000 TL/ay",
-      "description": "Çoklu lokasyon, marka spesifik ve zincir servisler için",
-      "features": [
-        "Sınırsız araç kaydı",
-        "Çoklu şube koordinasyonu",
-        "Tedarikçi entegrasyonu (parça)",
-        "Filo müşteri özel akış",
-        "Özel rapor + BI bağlantısı",
-        "Sınırsız WhatsApp + SMS",
-        "Aylık strateji toplantısı",
-        "Öncelikli teknik destek"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "Kaç aracı sisteme kayıt edebilirim?",
-      "answer": "Başlangıç paketi 1.000, Pro paketi 5.000 araç kaydını destekliyor. Premium pakette sınırsız kayıt yapılabiliyor; mevcut Excel ya da servis defteri verisi 2 iş günü içinde aktarılıyor."
+      "answer": "PORTZEN paketlerinde araç kaydı sayısına göre bir sınır yok; kayıt üst sınırı kullandığınız CRM'in planına bağlı ve CRM lisansı kurulum bedeline dahil değil. Mevcut Excel ya da servis defteri verisi kurulum kapsamında aktarılıyor; süre veri düzenine göre değişir ve teklifte belirtilir. Plaka, şasi ve son bakım tarihi gibi alanlar aktarım sırasında eşleştiriliyor."
     },
     {
       "question": "Parça tedarikçimle entegre çalışabilir mi?",
-      "answer": "Evet. Yaygın oto parça tedarikçileri (Doğuş Otomotiv, Borusan, bayi sistemleri) ve OEM portallarıyla API ya da CSV import-export entegrasyonu kurulabiliyor. Stok kritik seviyenin altına düştüğünde otomatik sipariş tetiklenebiliyor."
+      "answer": "API veya CSV dışa/içe aktarımı sunan parça tedarikçisi, bayi ve OEM sistemleriyle bağlantı, sundukları erişime göre paketteki uygulama bağlantılarından biri olarak kurulabiliyor; tedarikçinizin sunduğu imkân brief'te kontrol edilir. Stok kritik seviyenin altına düştüğünde otomatik sipariş bildirimi tetiklenebiliyor."
     },
     {
       "question": "Hatırlatmalar WhatsApp ile mi yoksa SMS ile mi gidiyor?",
-      "answer": "Başlangıç pakette sadece WhatsApp Business API; Pro ve Premium pakette WhatsApp + SMS çift kanal var. Müşteri WhatsApp'ı aktif değilse sistem otomatik SMS'e düşüyor; iletişim kaybı yaşanmıyor."
+      "answer": "İkisi de kurulabiliyor. Yalnızca WhatsApp Business API ile başlayabilir ya da WhatsApp + SMS çift kanal kurabilirsiniz; SMS sağlayıcısı ayrı bir uygulama bağlantısı olduğu için çift kanal paket seçimini etkiler. Çift kanalda müşterinin WhatsApp'ı aktif değilse sistem otomatik olarak SMS'e düşüyor ve bakım hatırlatmasının ulaşmama riski azalıyor. Meta ve SMS sağlayıcı ücretleri kurulum bedeline dahil değildir."
     },
     {
       "question": "Garanti takibi nasıl çalışıyor?",
@@ -148,17 +128,17 @@
     },
     {
       "question": "Marka spesifik (BMW, Mercedes vb.) kurgu yapılabiliyor mu?",
-      "answer": "Evet. Marka bazlı bakım periyotları, servis aralıkları, kullanılan parça kategorileri ve özel kampanyalar ayrı ayrı tanımlanabiliyor. Premium pakette marka bazlı dashboard ve segment iletişimi standart geliyor."
+      "answer": "Evet. Marka bazlı bakım periyotları, servis aralıkları, kullanılan parça kategorileri ve özel kampanyalar ayrı ayrı tanımlanabiliyor. Marka bazlı rapor ekranları CRM'in raporlama özellikleriyle hazırlanıyor (CRM planınıza bağlı). Kaç marka için ayrı akış kurulacağı iş akışı sayısını, dolayısıyla paketi belirlediğinden kapsam brief'te planlanır."
     },
     {
       "question": "Filo müşterileri (kurumsal) için özel akış var mı?",
-      "answer": "Evet, Premium pakette filo müşteri akışı standart. Birden fazla araç tek müşteri altında gruplanıyor, dönemsel toplu fatura, filo yöneticisi rapor erişimi ve özel fiyatlandırma kuralları tanımlanabiliyor."
+      "answer": "Evet, filo müşteri akışı kurulabiliyor. Birden fazla araç tek müşteri altında gruplanıyor, filo yöneticisine rapor erişimi veriliyor ve özel fiyatlandırma kuralları tanımlanabiliyor. Dönemsel toplu fatura için muhasebe programınızın da bağlanması gerekir; bu ek bir uygulama bağlantısı ve iş akışı demek olduğundan kapsam brief'te planlanır ve paket buna göre belirlenir."
     },
     {
       "question": "Kurulum süresi ve eğitim nasıl yapılıyor?",
-      "answer": "Brief sonrası 7-14 iş günü içinde sistem canlıya alınıyor. Veri aktarımı, akış tasarımı ve ekip eğitimi (2 gün yerinde) bu süreye dahil. İlk ay haftalık check-in görüşmesi ile süreç optimize ediliyor."
+      "answer": "Teslim süresi kapsama göre teklifte yazılı olarak belirtilir; veri aktarımı ve akış tasarımı kurulum kapsamındadır. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahil, yeri ve formatı brief'te planlanır. Kurulumdan sonraki ilk 30 gün kurulum hataları giderilir; sonrasında isteğe bağlı aylık bakım alabilirsiniz."
     }
   ],
-  "finalCtaHeadline": "Periyodik Bakım Randevularınızı Otomatik Doldurun",
-  "finalCtaSubtitle": "%71 bakım dönüşümü, %180 gelir artışı ve dolu randevu defteri için 15 dakikalık ücretsiz keşif görüşmesi yeterli."
+  "finalCtaHeadline": "Periyodik Bakım Hatırlatmalarınızı Otomatikleştirin",
+  "finalCtaSubtitle": "Periyodik bakım hatırlatmalarını otomatiğe almak ve randevu defterinizi daha düzenli doldurmak için 15 dakikalık ücretsiz keşif görüşmesi yeterli."
 }

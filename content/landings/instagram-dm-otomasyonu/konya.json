@@ -4,7 +4,7 @@
   "sectorName": "Konya",
   "sectorPlural": "Konya'daki Markalar",
   "title": "Konya Instagram DM Otomasyonu | Mobilya Showroom + Before-After - PORTZEN",
-  "description": "Konya'daki mobilya markaları, inşaat firmaları ve butik üreticiler için Instagram DM otomasyonu. Selçuklu'dan Karatay'a, before-after Reels'ten gelen DM'yi showroom randevusuna çeviren AI sistemi.",
+  "description": "Konya'daki mobilya markaları, inşaat firmaları ve butik üreticiler için Instagram DM otomasyonu. Selçuklu'dan Karatay'a, before-after Reels'e gelen yorum ve DM'lere hazır mesaj, katalog ve showroom randevu linkiyle otomatik yanıt veren kural tabanlı sistem.",
   "keywords": [
     "konya instagram dm otomasyonu",
     "konya sosyal medya ajansı",
@@ -15,149 +15,131 @@
     "konya mobilya before after"
   ],
   "h1": "Konya İçin Instagram DM Otomasyonu",
-  "heroSubtitle": "Selçuklu'da mobilya showroom, Karatay'da klasik mobilyacı, Meram'da iç mimar. Before-after Reels'i viral olunca gelen 300-800 DM'yi otomatik showroom randevusuna ve teklif talebine çeviriyoruz.",
+  "heroSubtitle": "Selçuklu'da mobilya showroom, Karatay'da klasik mobilyacı, Meram'da iç mimar. Before-after Reels'inize gelen yorum ve DM'lere hazır mesajlarla otomatik yanıt veriyor, müşteriyi showroom randevusuna ve teklif talebi akışına yönlendiriyoruz.",
   "stats": [
-    {"value": "Konya", "label": "Mobilya Odak"},
-    {"value": "%58", "label": "DM → Randevu"},
-    {"value": "10 gün", "label": "Kurulum"},
-    {"value": "24/7", "label": "Aktif"}
+    {
+      "value": "Konya",
+      "label": "Mobilya Odak"
+    },
+    {
+      "value": "Kural tabanlı",
+      "label": "Akış tipi"
+    },
+    {
+      "value": "Yorum + Story",
+      "label": "Tetikleyici"
+    },
+    {
+      "value": "24/7",
+      "label": "Aktif"
+    }
   ],
   "problems": [
     "Konya mobilya markanız haftada 3-5 before-after Reels'i (salon dönüşüm, yatak odası set, mutfak yenileme) üretiyor, viral oluyor; gelen 300-800 DM'ye yetişen kimse yok, müşteri soğuyor.",
     "Cumartesi akşamı Selçuklu showroom'unuza 'fiyat', 'kredi', 'taksit', 'randevu' DM'leri yığılıyor; satış ekibi showroom'da yoğun, müşteri 3 saat sonra cevap alıp başka mobilyacıya gidiyor.",
     "Konya mobilya markanız Instagram'dan ulusal pazara satış yapmak istiyor (İstanbul, Ankara, İzmir); şehir dışı müşteriye 'kargo nasıl', 'montaj geliyor mu', 'iade var mı' soruları kimse cevaplayamıyor, fırsat kaçıyor.",
-    "Düğün/sezon piklerde DM trafiği 5 katına çıkıyor; tek personel bu yoğunluğu kaldıramıyor, organic erişimi paraya çeviremiyorsunuz.",
+    "Düğün/sezon piklerinde DM trafiği katlanarak artıyor; tek personel bu yoğunluğu kaldıramıyor, gelen sorular cevapsız kalıyor.",
     "Birden fazla showroom'unuz var (Selçuklu + Karatay + Meram) ama tek Instagram hesabı, müşteri hangi showroom'a sorduğunu bilmiyor, yanlış lokasyona yönleniyor."
   ],
   "solutionSteps": [
     {
       "title": "Konya Marka Analizi",
-      "description": "Son 90 günlük DM trafiğinize, before-after Reels performansınıza, en sık 50 soruya bakıyoruz. Konya mobilya alıcı davranışı (taksit, kapora, kargo, montaj) AI'ya öğretiliyor."
+      "description": "Son 90 günlük DM trafiğinize, before-after Reels performansınıza ve en sık gelen sorulara bakıyoruz. Konya mobilya alıcısının soruları (taksit, kapora, kargo, montaj) akışlardaki anahtar kelimelere ve mesaj metinlerine işleniyor."
     },
     {
-      "title": "AI Konuşma Akışı",
-      "description": "Ürün katalog, fiyat, taksit/kredi, showroom randevusu, kargo, montaj, garanti, iade - mobilya sektörüne özel 45-65 senaryo. Konya muhafazakar + ticaret odaklı tonlama."
+      "title": "Kural Tabanlı Mesaj Akışları",
+      "description": "Ürün kataloğu, fiyat, taksit/kredi, showroom randevusu, kargo, montaj, garanti, iade için anahtar kelime ve buton tabanlı senaryolar. Mesaj metinleri Konya'ya uygun, ticaret odaklı tonda yazılıp onayınıza sunulur."
     },
     {
-      "title": "Meta API + Showroom Bağlantısı",
-      "description": "Resmi Meta Instagram Business API kurulumu, Google Calendar showroom rezervasyon, satış temsilcisi atama, WhatsApp'a aktarım, CRM bağlantısı, KVKK uyumlu izin yönetimi."
+      "title": "Meta API + Showroom Yönlendirmesi",
+      "description": "Meta'nın resmi Instagram API'si üzerinden bağlantı, showroom randevu sayfanızın linki, satış temsilcisine bildirim ve WhatsApp hattınıza yönlendirme, KVKK gerekliliklerini dikkate alan aydınlatma mesajı. Takvim veya CRM ile veri entegrasyonu standart kapsamda değildir; gerekirse iş otomasyonu olarak ayrıca tekliflendirilir."
     },
     {
       "title": "Test + Yayın",
-      "description": "Konya'daki ekibinizle 5 günlük canlı test, ince ayar, eğitim. Sonrası aylık performans raporu ve sürekli optimizasyon."
+      "description": "Ekibinizle birlikte test hesabıyla deneme, mesajlarda ince ayar ve ekip bilgilendirmesi. Yayından sonra hangi anahtar kelimelerin ve akışların ne sıklıkla tetiklendiğini raporlayıp metinleri güncelliyoruz."
     }
   ],
   "features": [
     {
       "title": "Before-After Reels Yorum Otomasyonu",
-      "description": "Reels altına yazılan 'fiyat?', 'taksit?', 'showroom?' yorumlarını otomatik algılayıp DM'den özel cevap. Engagement skoru patlar, Instagram algoritması daha çok yayar. Konya mobilya hesaplarında 4-5x viral artışı."
+      "description": "Reels altına 'fiyat', 'taksit', 'showroom' gibi belirlediğiniz anahtar kelimeleri yazan kullanıcıya otomatik DM ile hazır yanıt gider. Artan etkileşim, Instagram'da görünürlüğe olumlu katkı sağlayabilir."
     },
     {
       "title": "Türkçe + İngilizce + Arapça",
-      "description": "Avrupa Türkleri (Almanya, Hollanda), Suudi/Irak/Libya alıcıları için yabancı dilli DM otomatik algılama. Konya mobilya ihracatı için kritik."
+      "description": "İngilizce ve Arapça mesaj metinleri ayrı akışlar olarak hazırlanır; 'price', 'سعر' gibi dile özgü anahtar kelimeler ilgili dildeki hazır yanıtı tetikler. Serbest yazılmış yabancı dilli mesajları anlayıp yanıtlamak AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
     },
     {
       "title": "Showroom Bazlı Yönlendirme",
-      "description": "Müşteri konumuna veya 'hangi showroom?' sorusuna göre Selçuklu, Karatay, Meram showroom'larına doğru yönlendirme. Google Maps linki + çalışma saati + randevu butonu."
+      "description": "'Hangi showroom?' veya 'adres' yazan kullanıcıya Selçuklu, Karatay ve Meram showroom'ları buton olarak sunulur; seçilen showroom'un Google Maps linki, çalışma saati ve randevu linki otomatik gönderilir."
     },
     {
       "title": "Şehir Dışı Müşteri Akışı",
-      "description": "İstanbul/Ankara/İzmir'den DM atan müşteriye otomatik 'kargo + montaj + iade' bilgilendirmesi, video tur linki, online görüşme randevusu. Ulusal pazar açılır."
+      "description": "Akışta 'Konya dışındayım' butonunu seçen veya 'kargo' yazan müşteriye kargo, montaj ve iade bilgisi, video tur linki ve online görüşme randevu linki otomatik gönderilir."
     },
     {
       "title": "Kapora + Taksit Bilgilendirme",
-      "description": "Konya mobilya alıcısının ilk sorularından (taksit, kapora, kredi) AI otomatik cevap. Banka anlaşmalı taksit tablosu, kapora şartları, iade politikası - tek mesajda."
+      "description": "Konya mobilya alıcısının ilk sorularına (taksit, kapora, kredi) anahtar kelimeye göre hazır mesajla otomatik cevap. Banka anlaşmalı taksit tablosu, kapora şartları, iade politikası - tek mesajda."
     },
     {
       "title": "Uzaktan Destek + Aylık Rapor",
-      "description": "İzmir merkezli PORTZEN ekibi tam destek, aylık DM trafiği, dönüşüm, en çok soru raporu. Konya mobilya pazarı için içerik takvimi danışmanlığı dahil."
+      "description": "İzmir merkezli PORTZEN ekibi tam destek, aylık DM trafiği, dönüşüm, en çok soru raporu. Konya mobilya pazarı için içerik takvimi desteği sosyal medya yönetimi kapsamında ayrıca sunulur."
     }
   ],
   "caseStudy": {
-    "title": "Selçuklu mobilya showroom: 4 ayda 6.800 DM → 1.940 showroom randevusu",
+    "title": "Selçuklu'da bir mobilya showroom'u için örnek kurulum",
     "paragraphs": [
-      "Selçuklu Bosna Hersek caddesinde 1.500 m² showroom'u olan orta-üst segment bir Konya mobilya markası, Instagram'da before-after Reels'leri ile haftalık 400-800K view alıyordu. Ancak gelen DM yağmurunu (haftada 500-800 mesaj) cevaplayan tek bir personel vardı; mesaj kuyruğu 6-12 saate uzuyor, müşteri başka mobilyacıya gidiyordu. Şehir dışı müşterilere (İstanbul, Ankara) hiç cevap verilemiyor, ulusal pazar fırsatı kaçıyordu.",
-      "PORTZEN olarak Meta Instagram Business API'sini kurduk; ürün katalog, taksit/kapora/kredi bilgisi, showroom randevusu (Google Calendar), şehir dışı kargo + montaj bilgisi, müşteri konumuna göre Selçuklu/Karatay/Meram yönlendirme akışları için 52 senaryo yapılandırıldı. Reels yorumlarına otomatik DM.",
-      "4 ay sonunda 6.800 DM otomatik cevaplandı, %29'u showroom randevusuna (1.940), %18'i şehir dışı online görüşmeye dönüştü. Aylık ek ciro 720.000 TL seviyesinde. Instagram engagement oranı %2.8'e çıktı, Reels viral oranı 5 kat arttı. İstanbul'dan 3 toplu alım siparişi geldi. Sistem ilk ayında amorti oldu."
+      "Selçuklu'da geniş bir showroom'u olan orta-üst segment bir mobilya markası düşünelim: before-after Reels'leri ilgi görüyor, ancak gelen DM'leri tek bir personel cevaplamaya çalışıyor; mesajlar saatlerce bekliyor, müşteri başka mobilyacıya gidiyor. Şehir dışından gelen sorulara ise çoğu zaman hiç dönülemiyor.",
+      "Bu senaryoda Meta'nın resmi Instagram API'si üzerinden kural tabanlı akışlar kurulur: ürün kataloğu, taksit/kapora/kredi bilgisi, showroom randevu linki, şehir dışı müşteriler için kargo ve montaj bilgisi ve Selçuklu/Karatay/Meram showroom seçimi butonları. Reels yorumlarında anahtar kelime yazanlara otomatik DM gider.",
+      "Böylece fiyat, taksit ve kargo sorularına satış ekibi beklenmeden hazır mesajlarla yanıt verilir, randevu talebi doğrudan showroom randevu sayfasına yönlenir, şehir dışı müşteri online görüşme linkine ulaşır. Satış ekibi showroom'daki müşterilere ve akışın kapsamadığı taleplere odaklanır."
     ],
     "beforeAfter": [
-      {"label": "DM Yanıt Süresi", "before": "6-12 saat", "after": "45 saniye"},
-      {"label": "Aylık DM → Randevu", "before": "~40", "after": "+1.940"},
-      {"label": "Şehir Dışı Lead", "before": "Cevap verilemiyor", "after": "Aylık 120+"}
+      {
+        "label": "Fiyat ve taksit soruları",
+        "before": "Tek personel saatler sonra yanıtlıyor",
+        "after": "Hazır mesajla otomatik yanıtlanıyor"
+      },
+      {
+        "label": "Showroom randevusu",
+        "before": "DM'de yazışarak, elle ayarlanıyor",
+        "after": "Randevu linki DM'den gönderiliyor"
+      },
+      {
+        "label": "Şehir dışı müşteri",
+        "before": "Cevap verilemiyor",
+        "after": "Kargo, montaj bilgisi ve görüşme linki otomatik"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "7.500 TL/ay",
-      "description": "Tek showroom, butik mobilyacı, küçük marka için",
-      "features": [
-        "Meta Instagram Business API kurulumu",
-        "Türkçe AI asistan",
-        "Aylık 1.500 DM",
-        "Temel randevu/sorgu akışı",
-        "Aylık rapor",
-        "E-posta destek"
-      ]
-    },
-    {
-      "name": "Profesyonel",
-      "price": "15.000 TL/ay",
-      "description": "Çoklu showroom mobilya markası, iç mimar studio, ihracatçı için",
-      "features": [
-        "Her şey + İngilizce + Arapça",
-        "Aylık 5.000 DM",
-        "Reels yorum otomasyonu",
-        "Showroom bazlı yönlendirme",
-        "Google Calendar randevu",
-        "Öncelikli destek (WhatsApp)"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Kurumsal",
-      "price": "28.000 TL/ay",
-      "description": "Ulusal mobilya markası, çoklu marka yönetimi için",
-      "features": [
-        "Her şey + sınırsız DM",
-        "Almanca + Rusça",
-        "Çoklu hesap yönetimi",
-        "Özel rapor dashboard",
-        "Adanmış hesap yöneticisi",
-        "SLA garantili 4 saat yanıt"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "İzmir merkezli ajans Konya mobilya pazarını anlar mı?",
-      "answer": "Evet. Konya mobilya endüstrisi (Selçuklu showroom kümesi, İvedik alternatifi olarak Konya, klasik + modern segment) hakkında detaylı brifle başlıyoruz. Aktif Konya müşterilerimiz var. Tüm görüşmeler online; size yerel ajanslardan %30-40 daha uygun fiyat sunuyoruz."
+      "answer": "Evet. Konya mobilya endüstrisi (Selçuklu showroom kümesi, klasik + modern segment) hakkında detaylı brifle başlıyoruz; mesaj metinlerini bu brife göre yazıp onayınıza sunuyoruz. Tüm görüşmeler online yürütülüyor."
     },
     {
       "question": "Reels yorumlarına otomatik DM atmak güvenli mi, ban yer miyim?",
-      "answer": "Hayır. Meta'nın resmi Instagram Business API'si üzerinden, kullanıcı sizinle daha önce etkileşime girmişse (yorum) DM atma yetkisi var. Spam riski yok, tüm akışlar Meta politikalarına uyumlu."
+      "answer": "Riski en aza indiriyoruz. Meta'nın resmi Instagram Business API'si üzerinden, kullanıcı sizinle daha önce etkileşime girmişse (yorum) DM atma yetkisi var. Akışlar Meta politikalarına uygun şekilde kurulur."
     },
     {
-      "question": "Showroom randevusu nasıl otomatik alınıyor?",
-      "answer": "DM'den 'randevu' yazıldığında AI Google Calendar'a bakıp müsait slot öneriyor (örn. 'Cumartesi 14:00 veya 16:00 uygun mu'). Müşteri onaylayınca satış temsilcisi atanıyor, müşteriye onay + 24 saat öncesi hatırlatma gönderiliyor. No-show %35 azalıyor."
+      "question": "Showroom randevusu nasıl alınıyor?",
+      "answer": "DM'de 'randevu' yazıldığında akış showroom randevu sayfanızın (ör. Google Takvim randevu sayfası veya Calendly) linkini gönderir; müşteri uygun saati kendisi seçer, onay ve hatırlatmayı randevu aracı gönderir, satış ekibine bildirim gider. Takvime DM içinden AI ile randevu yazılması AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
     },
     {
       "question": "Konya mobilyamın ulusal satışı için şehir dışı akış var mı?",
-      "answer": "Evet. İstanbul/Ankara/İzmir'den DM atan müşteri otomatik tanınıyor; kargo + montaj + iade bilgisi, video tur linki, online görüşme randevusu otomatik. Konya'dan ulusal pazara açılma kanalı."
+      "answer": "Evet. Akışın başında 'Konya dışındayım' butonunu seçen veya 'kargo' yazan müşteriye kargo, montaj ve iade bilgisi, video tur linki ve online görüşme randevu linki otomatik gönderilir."
     },
     {
       "question": "Mobilya before-after Reels üretimini siz de yapıyor musunuz?",
-      "answer": "DM otomasyonu paketi içerik üretimi dahil değil ama AI Reklam Videosu hizmetimiz var (ayrı paket). İkisini birlikte alırsanız %20 indirim. Konya mobilya için AI üretimli salon dönüşüm + DM otomasyonu güçlü kombinasyon."
+      "answer": "DM otomasyonu içerik üretimini kapsamaz; before-after Reels için kısa video üretimi ve AI reklam filmi hizmetlerimiz ayrıca sunulur. Konya mobilya için düzenli salon dönüşüm Reels'i + DM otomasyonu güçlü bir kombinasyon."
     },
     {
       "question": "Suudi/Irak/Libya mobilya ihracatım için Arapça DM uygun mu?",
-      "answer": "Evet. Körfez ülkeleri ve Mağrip pazarı Instagram üzerinden Konya mobilyası ile çok ilgileniyor. Arapça + İngilizce + Türkçe üçlü destek ile yurt dışı bayilik/toplu alım kanalı açılıyor."
+      "answer": "Evet. Arapça ve İngilizce için ayrı mesaj metinleri hazırlanabilir; 'price', 'سعر' gibi dile özgü anahtar kelimeler ilgili dildeki hazır yanıtı ve bayilik/toplu alım iletişim linkini tetikler. Çevirilerin son kontrolünü bir ana dil konuşucusunun yapmasını öneriyoruz. Serbest yazılmış yabancı dilli mesajları anlayıp yanıtlamak AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
     },
     {
       "question": "KVKK ve Meta kuralları açısından sorun olur mu?",
-      "answer": "Hayır. Meta resmi API, KVKK uyumlu izin yönetimi, kullanıcı veri silme talebi için panel - tümü hazır. Hukuki risk yok."
+      "answer": "Akışları Meta'nın resmi API'si üzerinden, KVKK gerekliliklerini dikkate alan aydınlatma ve izin akışı ile kullanıcı veri silme talebi süreciyle kuruyoruz; bu sayede riskleri en aza indiriyoruz. Showroom'a özel aydınlatma metninizin son hukuki kontrolünü kendi danışmanınızla yapmanızı öneriyoruz."
     }
   ],
-  "finalCtaHeadline": "Konya Instagram'ınızı showroom randevusuna çevirelim.",
-  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif görüşmesi. Hesabınızın son 90 günlük DM trafiğine bakıp size özel yol haritası çıkaralım. 10 günde otomasyon devrede."
+  "finalCtaHeadline": "Konya'daki Instagram DM'lerinizi showroom randevu akışına bağlayalım.",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif görüşmesi. Hesabınızın son 90 günlük DM trafiğine bakıp size özel yol haritası çıkaralım. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 }

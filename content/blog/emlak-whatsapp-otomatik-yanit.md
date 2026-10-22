@@ -13,7 +13,7 @@ ogImage: "/blog/og/emlak-whatsapp-otomatik-yanit.png"
 
 # Emlak Ofisi İçin WhatsApp Otomatik Yanıtlama: Lead Kaçırmama Sistemi
 
-Emlak sektöründe bir gerçek var: kazanan ofis, en güzel portföye sahip olan değil, gelen lead'e en hızlı dönen ofistir. Sahibinden, Hepsiemlak, Zingat veya Instagram reklamından bir ilanınıza ilgilenen bir müşteri WhatsApp'a yazdığında geri sayım başlıyor. İlk 10 dakika içinde dönüş alamayan müşterinin başka ilana, başka ofise kaymama ihtimali her geçen yıl azalıyor. Türkiye'de emlak ofislerinin neredeyse tamamı bu sorunu yaşıyor ve klasik çözümler (bir asistan tutmak, dönüşümlü nöbet sistemi, otomatik şablon mesaj) yetersiz kalıyor. Bu yazıda emlak ofisi için **WhatsApp otomatik yanıtlama sistemi** nasıl kurulur, hangi soruları AI asistan halletmeli, portföy entegrasyonu nasıl yapılır, ekspertiz ve gezme randevuları nasıl otomatik açılır, hepsini saha tecrübemizle anlatacağız.
+Emlak sektöründe bir gerçek var: kazanan ofis, en güzel portföye sahip olan değil, gelen lead'e en hızlı dönen ofistir. Sahibinden, Hepsiemlak, Zingat veya Instagram reklamından bir ilanınıza ilgilenen bir müşteri WhatsApp'a yazdığında geri sayım başlıyor. İlk 10 dakika içinde dönüş alamayan müşterinin başka ilana, başka ofise kaymama ihtimali her geçen yıl azalıyor. Türkiye'de emlak ofislerinin neredeyse tamamı bu sorunu yaşıyor ve klasik çözümler (bir asistan tutmak, dönüşümlü nöbet sistemi, otomatik şablon mesaj) yetersiz kalıyor. Bu yazıda emlak ofisi için **WhatsApp otomatik yanıtlama sistemi** nasıl kurulur, hangi soruları AI asistan halletmeli, portföy entegrasyonu nasıl yapılır, ekspertiz ve gezme randevuları nasıl otomatik açılır, hepsini adım adım anlatacağız.
 
 ## Emlak Ofislerinde Lead Kaçırma Sorununun Boyutu
 
@@ -56,13 +56,13 @@ Emlakta lead trafiğinin büyük bölümü ilan portallarından geliyor. Sahibin
 
 Doğru kurulan bir sistemde her ilanın altına özel bir WhatsApp linki konuyor. Müşteri tıkladığında AI asistan "**Merhaba, Mavişehir'deki 4+1 villamızla ilgilendiğinizi görüyorum**" diye karşılıyor. Müşteri ofise yazmadan önce bile hangi ilanla ilgilendiği biliniyor, doğru bilgilerle karşılanıyor.
 
-Bu yapı için sahibinden gibi platformların "ön mesaj" parametresini kullanıyoruz. Link'e tıklayan müşterinin mesaj kutusuna otomatik bir ilan kodu düşüyor (örneğin "İLAN: KRS-2034"). AI bu kodu okuyup hangi ilan olduğunu anlıyor ve doğru senaryoyla devam ediyor. Bu küçük detay dönüşüm oranlarını %30-40 artırıyor çünkü müşteri "demek ki ofisin haberi var, ciddi bir yer" hissi yaşıyor.
+Bu yapı için sahibinden gibi platformların "ön mesaj" parametresini kullanıyoruz. Link'e tıklayan müşterinin mesaj kutusuna otomatik bir ilan kodu düşüyor (örneğin "İLAN: KRS-2034"). AI bu kodu okuyup hangi ilan olduğunu anlıyor ve doğru senaryoyla devam ediyor. Bu küçük detay önemli, çünkü müşteri "demek ki ofisin haberi var, ciddi bir yer" hissi yaşıyor.
 
 ## Gezme Randevusu Otomasyonu: AI Takvime Yazıyor
 
 Bir emlak işleminde en kritik adım gezme randevusudur. Müşteri evi görmeden satış kapanmaz. Klasik süreçte müşteri ne zaman uygun olduğunu söyler, temsilci kendi programına bakar, "yarın 14.00 uygun mu?" diye sorar, müşteri "ben 16.00'yı tercih ederim" der, gidiş geliş yarım gün sürer. Bu sürede müşteri başka ofisle randevu yapmıştır bile.
 
-WhatsApp AI asistanı bu işi 30 saniyede halleder:
+WhatsApp AI asistanı bu işi mesajlaşma içinde otomatik halleder:
 
 1. Müşteri "Bu evi yarın görebilir miyim?" der.
 2. AI temsilcinin Google Calendar veya ofis takvimini kontrol eder.
@@ -71,7 +71,7 @@ WhatsApp AI asistanı bu işi 30 saniyede halleder:
 5. Müşteriye "Yarın 14.30'da Bostanlı şubemizde Mehmet Bey ile buluşacaksınız. Konum: [harita linki]" diye onay verir.
 6. Randevudan 2 saat önce hatırlatma mesajı atar.
 
-Bu akış, doğru kurulduğunda gezme randevusu oranını 2 katına çıkarıyor. Hem müşteri "iş bilen bir ofis" hissi alıyor, hem temsilciniz konsantrasyonunu mesajlaşmaya değil gezmeye veriyor.
+Bu akış doğru kurulduğunda randevu süreci hızlanır; hem müşteri "iş bilen bir ofis" hissi alıyor, hem temsilciniz konsantrasyonunu mesajlaşmaya değil gezmeye veriyor.
 
 ## CRM Entegrasyonu: Hiçbir Lead Kaybolmasın
 
@@ -117,7 +117,7 @@ Bu iki akışı doğru kurgulamak için ofiste alınan tüm lead'lerin kayıt an
 
 Emlak sektöründe sahibinin tonu çok önemlidir. Bazı ofisler "Hocam, ablacığım" gibi samimi hitaplarla çalışır, müşteriyle 20 yıldır mahallede tanışıyormuş gibi konuşur. Bazıları daha kurumsal, "Sayın Bey/Hanım" tarzında ilerler. Her iki yaklaşım da doğru, ama AI asistanın bu tonu **kopyalaması** şart.
 
-Kurulum sırasında ofis sahibinin son 3 aydaki gerçek WhatsApp konuşmalarından örnek alıyoruz. Hangi kelimeleri kullanıyor, hangi emojileri tercih ediyor, mesajı nasıl bitiriyor, müşteriye nasıl güven veriyor, hepsini AI'a aktarıyoruz. Sonuç olarak müşteri konuşmanın bir noktasında AI ile konuştuğunu anlamıyor; ofisin asistanıyla konuşuyormuş gibi hissediyor.
+Kurulum sırasında ofis sahibinin son 3 aydaki gerçek WhatsApp konuşmalarından örnek alıyoruz. Hangi kelimeleri kullanıyor, hangi emojileri tercih ediyor, mesajı nasıl bitiriyor, müşteriye nasıl güven veriyor, hepsini AI'a aktarıyoruz. Böylece asistan, ofisin kendi diline yakın bir tonla konuşur.
 
 ## Türkçe Konuşan, Sektör Diline Hakim AI
 
@@ -130,7 +130,7 @@ Bizim kurduğumuz sistemlerde AI:
 - "**Manzaralı**", "**deniz manzaralı**", "**şehir manzaralı**" gibi nüansları algılıyor.
 - "**Krediye uygun**", "**bankaya çekilir**" gibi finansal terimleri yorumluyor.
 
-Bu sektörel hakimiyet, müşteriye otomasyon hissi vermeden samimi bir diyalog kurmasını sağlıyor. Müşterilerimizin büyük çoğunluğu konuşmanın bir noktasında AI ile konuştuğunu fark etmiyor; "asistanınız çok yardımcı oldu" diyerek temsilciye geçiyor.
+Bu sektörel hakimiyet, müşteriyle doğal ve akıcı bir diyalog kurmayı sağlıyor.
 
 ## Sıkça Sorulan Sorular
 
@@ -141,20 +141,20 @@ Hayır. Mevcut WhatsApp Business numaranızı kullanmaya devam edebilirsiniz. Re
 Kurulum sırasında AI'ın bilemeyeceği veya kritik konuları (örneğin fiyat pazarlığı, özel anlaşma şartları) doğrudan temsilciye aktarması için kurallar konuyor. Ayrıca her konuşma takip ediliyor, AI'ın hatalı cevap verdiği durumlar tespit edilip bilgi tabanı güncelleniyor.
 
 **Sahibinden ve Hepsiemlak ile entegre olabilir mi?**
-Direkt API entegrasyonu bu platformlarda kapalı olduğu için ilan otomasyon mantığı şu şekilde kurgulanıyor: her ilanın altına özel bir WhatsApp linki konuyor, müşteri tıkladığında ilan kodu mesaj kutusuna düşüyor, AI bu kodu okuyup hangi ilan olduğunu anlıyor. Pratikte sorunsuz çalışıyor.
+Direkt API entegrasyonu bu platformlarda kapalı olduğu için ilan otomasyon mantığı şu şekilde kurgulanıyor: her ilanın altına özel bir WhatsApp linki konuyor, müşteri tıkladığında ilan kodu mesaj kutusuna düşüyor, AI bu kodu okuyup hangi ilan olduğunu anlıyor. Bu yöntem portal tarafında ek entegrasyon gerektirmez.
 
 **Mevcut emlak CRM'imle (eMlakCRM, Hemlak vb.) entegre olur mu?**
 Çoğu emlak CRM'inin API'si veya webhook desteği var. Entegrasyon mümkün. Yoksa Google Sheets veya Airtable üzerinden ara katman kuruyoruz, lead'ler oraya akıyor.
 
 **Aylık maliyet ne kadar?**
-Emlak ofisi büyüklüğüne göre değişiyor. Tek ofisli yapılarda kurulum 25.000-45.000 TL aralığında, aylık işletme gideri 2.000-3.500 TL bandında. Şubeli ofislerde fiyat değişiyor.
+PORTZEN'de emlak ofisleri için WhatsApp AI asistanı, AI müşteri asistanı paketleriyle kurulur: {{fiyatlar:ai-musteri-asistani}} (KDV hariç). Kurumsal paket 3 şubeyi kapsar; Meta mesaj ücretleri ve harici platform ücretleri hizmet bedeline dahil değildir.
 
 ## PORTZEN ile Emlak Ofisi İçin Sistem Kurmak
 
-PORTZEN olarak İzmir merkezli çalışıyoruz ve özellikle Ege bölgesindeki emlak ofislerine WhatsApp AI asistanı kuruyoruz. Bostanlı, Karşıyaka, Çiğli, Buca, Bornova bölgelerinde 20'nin üzerinde emlak ofisine sistem teslim ettik. Her ofisin kendi portföyü, kendi temsilci yapısı, kendi sektörel tonu var. Biz hazır bir paket dayatmıyoruz; her ofise özel kurulum yapıyoruz.
+PORTZEN olarak İzmir merkezli çalışıyoruz ve özellikle Ege bölgesindeki emlak ofislerine WhatsApp AI asistanı kuruyoruz. Her ofisin kendi portföyü, kendi temsilci yapısı, kendi sektörel tonu var. Paketlerimizi her ofisin portföyüne, temsilci yapısına ve tonuna göre yapılandırıyoruz.
 
-[Emlak için WhatsApp AI asistanı sayfamızda](/whatsapp-ai-asistani/emlak) sektöre özel detayları, örnek konuşma akışlarını ve fiyat aralıklarını inceleyebilirsiniz. Ayrıca [emlak CRM otomasyon hizmetimizle](/crm-otomasyonu/emlak) WhatsApp dışındaki lead kanallarını da tek havuza topluyoruz.
+[Emlak için WhatsApp AI asistanı sayfamızda](/whatsapp-ai-asistani/emlak) sektöre özel detayları, örnek konuşma akışlarını ve paket fiyatlarını inceleyebilirsiniz. Ayrıca [emlak CRM otomasyon hizmetimizle](/crm-otomasyonu/emlak) WhatsApp dışındaki lead kanallarını da tek havuza topluyoruz.
 
-Kurulum süreci ortalama 7-10 iş günü sürüyor. İlk hafta portföyünüzü tanıyor, sektörel tonunuzu çıkarıyor, en sık sorulan 50-100 soruyu haritalandırıyoruz. İkinci hafta sistem yayına giriyor ve ilk 30 gün boyunca aktif iyileştirme süreci başlıyor. Üçüncü ay itibarıyla yatırımın geri dönüşü genelde tamamlanmış oluyor.
+Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Kurulumda önce portföyünüzü tanıyor, sektörel tonunuzu çıkarıyor, en sık sorulan 50-100 soruyu haritalandırıyoruz; ardından sistem yayına giriyor; Büyüme ve Kurumsal paketlerdeki aylık iyileştirme saatleriyle (2 / 6 saat) bilgi tabanını düzenli güncelliyoruz.
 
-İlk lead'inizi otomatik karşılamaya başlamak için: [portzenai.com/iletisim](/iletisim). 15 dakikalık ücretsiz keşif görüşmesi yapalım, ofisinizin yapısına uygun bir yol haritası çıkaralım.
+İlk lead'inizi otomatik karşılamaya başlamak için: [portzenai.com/iletisim](/iletisim). Ücretsiz bir keşif görüşmesi yapalım, ofisinizin yapısına uygun bir yol haritası çıkaralım.

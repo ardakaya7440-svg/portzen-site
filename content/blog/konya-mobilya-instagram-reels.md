@@ -15,7 +15,7 @@ ogImage: "/blog/og/konya-mobilya-instagram-reels.png"
 
 Konya'da mobilya sektörü görünenden çok daha büyük. Selçuklu'daki organize sanayi bölgelerinde sıra sıra dizilmiş atölyeler, Karatay'ın geleneksel marangoz ustalarının el işçiliği, Meram'daki yeni nesil tasarım odaklı butik üreticiler — hepsi bir araya geldiğinde Konya, Ankara İvedik bölgesinin gerçek bir alternatifi haline geliyor. Hatta birçok parametrede İvedik'i geride bırakıyor: işçilik fiyat avantajı, yerleşik usta zenaatçı kültürü, hammadde tedarik kolaylığı, organize üretim alt yapısı. Ama bu üretim gücünün dijitalde temsili hâlâ büyük ölçüde eksik.
 
-Konyalı mobilya üreticisinin tipik satış kanalı şöyle: İstanbul'dan, Bursa'dan, Ankara'dan gelen toptancılar showroom'a uğruyor, fiyat pazarlığı yapıyor, sipariş veriyor, ürünler kargo veya tır ile gidiyor. Bu model 30 yıldır çalışıyor ama 2026'da yetmemeye başlıyor. Çünkü son tüketici artık aracıdan değil, doğrudan üreticiden almak istiyor — özellikle 25-40 yaş aralığındaki genç çiftler. Yeni evlenen, ilk evini döşeyen, kendi tarzını arayan bir çift Instagram'da gezerken "Made in Konya" damgalı bir koltuk videosu görüyor, beğeniyor, DM'den fiyat soruyor, üreticiden direkt alıyor. Bu satış kanalı Konya mobilya üreticisine %40-60 daha yüksek kâr marjı, ulusal marka değeri ve bir sonraki sezona kurumsal sipariş demek. Bu yazıda Konyalı mobilya üreticisinin Instagram Reels stratejisini, showroom'unu sosyal medyaya nasıl taşıyacağını, hangi tür içeriklerin gerçekten sattığını ve bunun arkasında nasıl bir operasyonel sistem kurulması gerektiğini anlatacağız.
+Konyalı mobilya üreticisinin tipik satış kanalı şöyle: İstanbul'dan, Bursa'dan, Ankara'dan gelen toptancılar showroom'a uğruyor, fiyat pazarlığı yapıyor, sipariş veriyor, ürünler kargo veya tır ile gidiyor. Bu model 30 yıldır çalışıyor ama 2026'da yetmemeye başlıyor. Çünkü son tüketici artık aracıdan değil, doğrudan üreticiden almak istiyor — özellikle 25-40 yaş aralığındaki genç çiftler. Yeni evlenen, ilk evini döşeyen, kendi tarzını arayan bir çift Instagram'da gezerken "Made in Konya" damgalı bir koltuk videosu görüyor, beğeniyor, DM'den fiyat soruyor, üreticiden direkt alıyor. Bu satış kanalı Konya mobilya üreticisine aracı payını aşarak daha yüksek kâr marjı ve ulusal marka değeri kurma fırsatı demek. Bu yazıda Konyalı mobilya üreticisinin Instagram Reels stratejisini, showroom'unu sosyal medyaya nasıl taşıyacağını, hangi tür içeriklerin gerçekten sattığını ve bunun arkasında nasıl bir operasyonel sistem kurulması gerektiğini anlatacağız.
 
 ## Konya Mobilya Sektörünün Dijital Gerçeği: Showroom Var, Vitrin Yok
 
@@ -45,7 +45,7 @@ Selçuklu OSB'deki bir üretici için somut Reels stratejisi:
 - Sevkiyat öncesi son kalite kontrol anı
 - Müşteri evine teslim anı — açılış paketleme videosu
 
-Selçuklu'da çalıştığımız bir mobilya üreticisinde 4 ayda Instagram takipçisini 1.200'den 28.000'e çıkardık. Aynı dönemde DM üzerinden gelen sipariş hacmi 22 katına çıktı. Üreticinin yaptığı tek değişiklik şuydu: showroom turu yerine atölye sürecini paylaşmaya başladı. Tahta tozu da satar.
+Buradaki temel fikir basit: showroom turu yerine atölye sürecini paylaşmak, ürünün arkasındaki emeği görünür kılar. Tahta tozu da satar.
 
 ## Karatay ve Meram: Geleneksel Usta ile Modern Tasarım Buluşması
 
@@ -103,7 +103,7 @@ Konya mobilya üreticisinin showroom'u zaten en büyük varlığı. Sorun bu var
 - WhatsApp Business kataloğunda her ürünün fotoğraf, fiyat ve stoğunun olması
 - Pinterest hesabı — Pinterest mobilya alıcısı için Google'dan daha önemli
 
-[AI reklam videosu](/ai-reklam-videosu) hizmetimiz Konya mobilya üreticisinin haftalık reels üretimini sürdürülebilir hale getiriyor. Çekilen 5-10 dakikalık ham görüntüden 8-12 farklı kısa video formatı çıkarıyoruz. Showroom çekimine vakit ayıramayan üreticiler için ise Higgsfield ve Seedance tabanlı [yapay zeka video üretimi](/yapay-zeka-video-uretimi) tek bir ürün fotoğrafından sinema kalitesinde sahne üretiyor.
+[AI reklam videosu](/ai-reklam-videosu) hizmetimiz Konya mobilya üreticisinin haftalık reels üretimini sürdürülebilir hale getiriyor. Çekilen ham görüntülerden kısa video paketlerimizle ayda 4 ila 24 dikey video çıkarıyoruz ({{fiyatlar:kisa-video}}, KDV hariç); saha çekimi bu paketlere dahil değildir. Showroom çekimine vakit ayıramayan üreticiler için ise Higgsfield ve Seedance tabanlı [yapay zeka video üretimi](/yapay-zeka-video-uretimi) tek bir ürün fotoğrafından sinema kalitesinde sahne üretiyor.
 
 ## Made in Konya: Yerel Kimliği Marka Avantajına Çevirmek
 
@@ -116,20 +116,20 @@ Konya mobilya üreticisinin showroom'u zaten en büyük varlığı. Sorun bu var
 - İstanbul ve İzmir gibi rekabet yoğun pazarlarda "Konya'dan direkt size" mesajı
 - Mevlana, ney, sufi estetiğinin tasarım dilinde sadece uygun yerlerde kullanılması
 
-PORTZEN olarak Konya'da çalıştığımız bir butik mobilya markasında "Made in Konya" kimliğini ön plana çıkardık. Marka 6 ayda İstanbul satışlarının %35'ini Instagram üzerinden, doğrudan tüketiciden almaya başladı. Toptancı bağımlılığı önemli ölçüde azaldı. Bu sürecin satış tarafını ölçeklendirmek için il bazlı kampanyalar yürüten bir [Meta reklam ajansı](/meta-reklam-ajansi) ile İstanbul, Ankara, İzmir hedefli koltuk takımı kampanyaları çok kısa sürede TGD (üreticiden tüketiciye) cirosunu katlıyor.
+Örneğin butik bir mobilya markası için "Made in Konya" kimliği; logo, ambalaj, ürün hikâyesi ve Reels anlatımında tutarlı biçimde öne çıkarılır, böylece İstanbul gibi pazarlarda doğrudan tüketiciye satış için ayırt edici bir mesaj oluşur. Bu sürecin satış tarafını ölçeklendirmek için il bazlı kampanyalar yürüten bir [Meta reklam ajansı](/meta-reklam-ajansi) ile İstanbul, Ankara, İzmir hedefli koltuk takımı kampanyaları kurgulanabilir.
 
 ## Instagram DM Otomasyonu: Mesaj Trafiğini Yönetmek
 
 Reels viral olduğunda DM trafiği patlar. "fiyat", "stok var mı", "ne zaman kargolanır", "İstanbul'a kaç günde gelir", "renk seçenekleri" — günde 50-200 arası mesaj gelmeye başlar. Bu trafiğin manuel yönetilmesi imkânsız.
 
-[Instagram DM otomasyonu](/instagram-dm-otomasyonu) Konya mobilya üreticisi için şunları çözüyor:
+[Instagram DM otomasyonu](/instagram-dm-otomasyonu) kural tabanlıdır ve Konya mobilya üreticisi için şu işleri üstlenir:
 
 - Anahtar kelimelere göre otomatik cevap (örn. "fiyat" yazıldığında katalog gönderme)
-- Sıkça sorulan sorulara yapay zekâ destekli doğal cevap
-- Sıcak lead'i satış ekibine otomatik aktarım
-- Ödeme linki, kapora bilgisi, sipariş süreci otomasyonu
+- Yorum ve hikâye etkileşimine otomatik DM
+- Ödeme linki, kapora bilgisi ve sipariş süreci için hazır mesajlar
 - Tekrar etkileşim hatırlatmaları (3 gün sonra ulaşılmayan lead'lere)
-- CRM entegrasyonuyla müşteri kayıt yönetimi
+
+Sıkça sorulan serbest sorulara yapay zekâ destekli doğal cevap, sıcak lead'in satış ekibine otomatik aktarımı ve CRM entegrasyonuyla müşteri kayıt yönetimi ise ayrı bir hizmet olan AI müşteri asistanının kapsamındadır (Instagram kanalı Kurumsal pakette).
 
 [Instagram DM dönüşüm artırma yazımız](/blog/instagram-dm-donusum-artirma) bu konuda detaylı bir başlangıç sunuyor.
 
@@ -158,15 +158,15 @@ Instagram trafiği büyüdükçe kaçınılmaz olarak gelen ihtiyaç: profesyone
 
 ## Konya Mobilya Senaryoları: Selçuklu, Karatay, Meram
 
-Konya mobilya sektöründe dijital dönüşümün farklı segmentlerde nasıl şekillendiğini somut vakalarla anlatmak faydalı olur. Aşağıdaki senaryolar Konya'da çalıştığımız üreticilerden derlenmiştir.
+Konya mobilya sektöründe dijital dönüşümün farklı segmentlerde nasıl şekillenebileceğini örnek senaryolarla anlatmak faydalı olur. Aşağıdakiler gerçek müşteri sonuçları değil, benzer üreticiler için nasıl bir kurulum yapılabileceğini gösteren örneklerdir.
 
-Senaryo 1 — Selçuklu OSB'de orta ölçekli mobilya üreticisi: Mevcut durum yıllık 25 milyon TL ciro, %95 toptan kanaldan satış, Instagram'da 1.200 takipçi, fiyat baskısı sürekli artıyor. Yaptığımız çalışma: Atölye süreçlerini gösteren haftalık reels stratejisi, "Made in Konya" marka kimliği, DM otomasyonu, e-ticaret sitesi. 14 ayda Instagram takipçi 28.000'i geçti, doğrudan tüketici satışı toplam cironun %22'sini oluşturmaya başladı.
+Senaryo 1 — Selçuklu OSB'de orta ölçekli mobilya üreticisi: Mevcut durum yıllık 25 milyon TL ciro, %95 toptan kanaldan satış, Instagram'da 1.200 takipçi, fiyat baskısı sürekli artıyor. Örnek kurulum: Atölye süreçlerini gösteren haftalık reels stratejisi, "Made in Konya" marka kimliği, DM otomasyonu, e-ticaret sitesi. Amaç, toptan kanalı korurken doğrudan tüketiciye satış yapan ikinci bir kanal açmaktır.
 
-Senaryo 2 — Karatay'da geleneksel usta mobilyacı: Mevcut durum 40 yıllık aile işletmesi, el işçiliği güçlü ama yaş ortalaması yüksek müşteri kitlesi, genç çift erişimi sıfır. Yaptığımız çalışma: Usta hikâyesi odaklı içerik, el işçiliği detay videoları, butik bir e-ticaret kanalı, Pinterest stratejisi. 10 ayda yeni evlenen çiftlerden gelen sipariş yıllık satışın %30'unu oluşturmaya başladı.
+Senaryo 2 — Karatay'da geleneksel usta mobilyacı: Mevcut durum 40 yıllık aile işletmesi, el işçiliği güçlü ama yaş ortalaması yüksek müşteri kitlesi, genç çift erişimi sıfır. Örnek kurulum: Usta hikâyesi odaklı içerik, el işçiliği detay videoları, butik bir e-ticaret kanalı, Pinterest stratejisi. Böylece geleneksel müşteri kitlesinin yanına yeni evlenen çiftlere ulaşan bir kanal eklenir.
 
-Senaryo 3 — Meram'da modern tasarım butik markası: Mevcut durum İskandinav esintili tasarım, küçük üretim, İstanbul'a satış hedefi var ama kanal yok. Yaptığımız çalışma: Influencer iş birlikleri, Instagram'da estetik feed yönetimi, profesyonel ürün fotoğrafçılığı, WhatsApp tabanlı kişiselleştirilmiş satış süreci. 8 ayda İstanbul satışları toplam cironun %48'ine ulaştı, fiyat seviyesi yükseldi.
+Senaryo 3 — Meram'da modern tasarım butik markası: Mevcut durum İskandinav esintili tasarım, küçük üretim, İstanbul'a satış hedefi var ama kanal yok. Örnek kurulum: Influencer iş birlikleri, Instagram'da estetik feed yönetimi, profesyonel ürün fotoğrafçılığı, WhatsApp tabanlı kişiselleştirilmiş satış süreci. Hedef, İstanbul'daki alıcıya premium konumlanmayla ulaşan bir satış kanalıdır.
 
-Senaryo 4 — Konya'da yatak odası üreticisi: Mevcut durum güçlü üretim, tasarım çeşitliliği var ama showroom dışında satış yok. Yaptığımız çalışma: Sanal showroom turu, ürün konfigüratörü, Reels üzerinden yatak odası dönüşüm hikâyeleri. 9 ayda online sipariş aylık 80 sete ulaştı.
+Senaryo 4 — Konya'da yatak odası üreticisi: Mevcut durum güçlü üretim, tasarım çeşitliliği var ama showroom dışında satış yok. Örnek kurulum: Sanal showroom turu, ürün konfigüratörü, Reels üzerinden yatak odası dönüşüm hikâyeleri. Böylece showroom'a gelemeyen alıcı da online sipariş verebilir.
 
 ## Sıkça Sorulan Sorular
 
@@ -174,19 +174,19 @@ Senaryo 4 — Konya'da yatak odası üreticisi: Mevcut durum güçlü üretim, t
 Tam tersine, küçük atölyenin Instagram'da büyük şansı var. İçerik üretmek için her gün 30 dakika yeterli — atölyede çalışırken telefonla kısa videolar çekin, biz onlardan reels'i çıkarırız. İçerik bulamayan değil, içeriği üretip yayınlayamayan üreticiler kaybediyor.
 
 **Instagram Reels stratejisi ne kadar sürede meyve verir?**
-İlk 3 ay temel kuruluş ve içerik üretim disiplinin oturması. 3-6 ay arası gerçek büyüme başlar, ilk satışlar Instagram üzerinden gelir. 6-12 ay sürdürülebilir bir satış kanalı haline gelir. Beklenti zaman çizelgesini bu şekilde kurmak gerek.
+İlk 3 ay temel kuruluş ve içerik üretim disiplininin oturmasıyla geçer. Sonrasında büyümenin hızı ürününüze, içerik sıklığına ve reklam desteğine göre değişir; Instagram'ı sürdürülebilir bir satış kanalına çevirmek genellikle aylar süren düzenli bir çalışma gerektirir. Beklenti zaman çizelgesini bu şekilde kurmak gerek.
 
 **Konya mobilya markası olarak ne kadar bütçe ayırmalıyım?**
-Aylık 30.000–80.000 TL aralığı gerçekçi. Bu bütçenin yaklaşık %40'ı içerik üretimi (çekim, edit, içerik planı), %35'i reklam, kalanı araç ve influencer maliyetleri.
+Piyasada aylık 30.000–80.000 TL aralığı gerçekçi kabul ediliyor. Bu bütçenin yaklaşık %40'ı içerik üretimi (çekim, edit, içerik planı), %35'i reklam, kalanı araç ve influencer maliyetleri. PORTZEN'de içerik ve hesap yönetimi tarafı sosyal medya paketleriyle karşılanır: {{fiyatlar:sosyal-medya}} (KDV hariç); reklam harcaması bu bedele dahil değildir.
 
 **Konya'daki üretici olarak Ankara İvedik ile nasıl rekabet edebilirim?**
 İvedik'in büyük rekabet avantajı yer ve görünürlük — ama dijital ortamda Ankara da Konya da aynı uzaklıkta. Doğru Instagram ve web sitesi stratejisiyle Konyalı üretici İstanbul'daki son tüketiciye İvedik'ten daha hızlı ulaşabilir. Kâr marjı da Konya'da daha yüksek.
 
 **PORTZEN İzmir'de, Konya'daki atölyeme nasıl içerik üretir?**
-Uzaktan stratejik yönetim + Konya'da yerel çekim ekibi. Aylık çekim günleri, içerik planlama, reels editi, DM otomasyonu, raporlama uzaktan ekibimizle yürür. Çekim ekibimiz Konya'da yerinde çalışıyor. Konya'da 6+ aktif müşterimiz var.
+Uzaktan stratejik yönetim modeliyle: içerik planlama, reels editi, DM otomasyonu ve raporlama uzaktan ekibimizle yürür. Paketlere dahil saha çekimi yalnızca Kurumsal sosyal medya paketinde ve İzmir içidir; Konya'da çekim gerekirse yerel çekim iş birlikleriyle ayrıca planlanır.
 
 ## PORTZEN ile Konya İçin Sistem Kurmak
 
-Konya mobilya üreticisinin 2026 stratejisi açık: Instagram Reels üzerinden doğrudan tüketiciye satış, "Made in Konya" kimliğiyle marka değeri kurma, DM otomasyonuyla mesaj trafiğini yönetme, kendi e-ticaret kanalında satışın merkezini oluşturma. PORTZEN olarak İzmir merkezliyiz ama Selçuklu OSB'den Karatay'daki geleneksel atölyelere kadar Konya mobilya sektörünün farklı segmentlerinden müşterilerimiz var. Uzaktan stratejik yönetim ve Konya'da yerel çekim ekibiyle showroom'unuzu Türkiye'nin önüne çıkarıyoruz.
+Konya mobilya üreticisinin 2026 stratejisi açık: Instagram Reels üzerinden doğrudan tüketiciye satış, "Made in Konya" kimliğiyle marka değeri kurma, DM otomasyonuyla mesaj trafiğini yönetme, kendi e-ticaret kanalında satışın merkezini oluşturma. PORTZEN olarak İzmir merkezliyiz ama Selçuklu OSB'den Karatay'daki geleneksel atölyelere kadar Konya mobilya sektörünün farklı segmentleriyle uzaktan çalışma modeliyle ilerliyoruz. Uzaktan stratejik yönetim ve gerektiğinde yerel çekim iş birlikleriyle showroom'unuzu Türkiye'nin önüne çıkarıyoruz.
 
 Konya mobilya üreticisi olarak 2026'da kendi markanızı kurmak ve doğrudan tüketiciye satış yapmak istiyorsanız [iletişim sayfamızdan](/iletisim) bize ulaşın. Mevcut Instagram hesabınızın ve dijital varlıklarınızın ücretsiz analizini yapıyor, 90 günlük somut bir aksiyon planı sunuyoruz. Konya'da üretiyorsunuz — Türkiye'ye satmanın zamanı geldi.

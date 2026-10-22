@@ -16,13 +16,13 @@ export default function Page() {
     <section className="py-section">
       <div className="mx-auto max-w-container px-6 max-w-4xl">
         <Reveal>
-          <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-3 shadow-brutal-sm">
+          <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-3 shadow-brutal-sm rounded-full">
             <Lock className="h-3 w-3" />
             Yasal Metin
           </div>
         </Reveal>
         <Reveal delay={100}>
-          <h1 className="font-display text-h1 font-black leading-[0.95]">
+          <h1 className="font-display text-h1 font-black leading-tight">
             Gizlilik Politikası
           </h1>
         </Reveal>
@@ -62,20 +62,20 @@ export default function Page() {
                 Web sitemizde aşağıdaki çerez ve analitik araçlarını kullanıyoruz:
               </p>
               <div className="space-y-3">
-                <div className="border-3 border-ink bg-paper p-4 shadow-brutal-sm">
+                <div className="border-3 border-ink/15 bg-paper p-4 shadow-brutal-sm rounded-2xl">
                   <div className="font-bold mb-1">Google Analytics 4 (GA4)</div>
                   <div className="text-sm text-ink/70">
                     Site trafiğini ve kullanıcı davranışını anonim olarak analiz eder. Topladığı
                     veri: ziyaret edilen sayfalar, oturum süresi, cihaz tipi, yaklaşık konum.
                   </div>
                 </div>
-                <div className="border-3 border-ink bg-paper p-4 shadow-brutal-sm">
+                <div className="border-3 border-ink/15 bg-paper p-4 shadow-brutal-sm rounded-2xl">
                   <div className="font-bold mb-1">Google Tag Manager</div>
                   <div className="text-sm text-ink/70">
                     Analitik ve dönüşüm ölçüm etiketlerini yönetir.
                   </div>
                 </div>
-                <div className="border-3 border-ink bg-paper p-4 shadow-brutal-sm">
+                <div className="border-3 border-ink/15 bg-paper p-4 shadow-brutal-sm rounded-2xl">
                   <div className="font-bold mb-1">Zorunlu çerezler</div>
                   <div className="text-sm text-ink/70">
                     Sitenin temel işlevleri için gereklidir (oturum, güvenlik).
@@ -185,9 +185,9 @@ export default function Page() {
               <p className="text-ink/80 leading-relaxed">
                 Gizlilik politikamız hakkındaki sorularınız için:
               </p>
-              <div className="mt-4 border-3 border-ink bg-paper p-5 shadow-brutal-sm space-y-1.5 text-sm">
+              <div className="mt-4 border-3 border-ink/15 bg-paper p-5 shadow-brutal-sm space-y-1.5 text-sm rounded-2xl">
                 <div><strong>E-posta:</strong> <a href="mailto:destek@portzenai.com" className="underline">destek@portzenai.com</a></div>
-                <div><strong>Telefon:</strong> 0501 588 48 53</div>
+                <div><strong>Telefon:</strong> 0531 863 91 17</div>
                 <div><strong>Adres:</strong> İzmir, Türkiye</div>
               </div>
             </section>
@@ -195,14 +195,14 @@ export default function Page() {
         </Reveal>
 
         <Reveal delay={400}>
-          <div className="mt-12 border-3 border-ink bg-brand-green text-paper p-6 shadow-brutal flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="mt-12 border-3 border-ink/15 bg-light text-ink p-6 shadow-brutal flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 rounded-2xl">
             <div>
               <div className="font-display text-lg font-black">Sorunuz mu var?</div>
               <div className="text-sm opacity-90">Gizlilik ile ilgili tüm sorularınız için bize yazın.</div>
             </div>
             <Link
               href="/iletisim"
-              className="inline-flex items-center gap-2 border-3 border-ink bg-paper text-ink px-5 py-3 text-sm font-bold uppercase shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all shrink-0"
+              className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper text-ink px-5 py-3 text-sm font-bold shadow-brutal-sm transition-all shrink-0 rounded-full"
             >
               İletişime Geç <ArrowUpRight className="h-4 w-4" />
             </Link>

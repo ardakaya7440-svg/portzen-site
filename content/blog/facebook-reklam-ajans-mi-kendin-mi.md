@@ -84,7 +84,7 @@ Tabloda "aylık dış maliyet 0 ₺" görünüyor ama bu yanıltıcı. Sizin haf
 - **Sürekli yeni ürün/kampanya**: aylık 5+ kampanya değişimi, içeride yorucu
 - **Yerel zincir, çok şubeli**: coğrafi hedefleme ve şube bazlı raporlama karmaşık
 
-İki listede de kendinizi görüyorsanız hibrit modele bakın: strateji ve kurulum ajans, günlük takip içeride. PORTZEN olarak çoğu KOBİ müşterimizde bu hibrit yaklaşımı öneriyoruz; detaylı paket ve fiyat bilgisi için [Meta reklam ajansı](/meta-reklam-ajansi) sayfamızda model bazlı seçeneklerin tamamı yer alıyor.
+İki listede de kendinizi görüyorsanız hibrit modele bakın: strateji ve kurulum ajans, günlük takip içeride. PORTZEN'de reklam yönetimi aylık paketlerle yapılır; paket kapsamı için [Meta reklam ajansı](/meta-reklam-ajansi) sayfamıza ve [fiyatlar sayfasına](/fiyatlar) bakabilirsiniz.
 
 ## Maliyet Karşılaştırması: Üç Boyutta Bakış
 
@@ -141,7 +141,7 @@ Yurt dışı kaynaklardan çıkan rehberler Türk pazarındaki gerçeklikle her 
 
 Karar verirken iki kritik soruyu sorun: **(1)** "Önümüzdeki 12 ay bu kanaldan satış almak benim için ne kadar kritik?" Cevap "hayati" ise ajansa gidin. **(2)** "Reklam yönetimi benim için keyifli bir öğrenme mi yoksa angarya mı?" Cevap "angarya" ise kesin ajansa gidin, çünkü angarya işler her zaman ertelenir.
 
-Sosyal medyada organik tarafı da önemli. Reklam dönüşümünü artıran konular için [Instagram DM dönüşüm artırma yazımız](/blog/instagram-dm-donusum-artirma) ve [Instagram'dan müşteri bulma rehberimiz](/blog/instagramdan-musteri-bulma-rehberi) destek olur. Reklamla gelen kullanıcıyı [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ile karşılayıp dönüşümü artırmak çoğu zaman tek başına reklam yönetiminden daha etkili.
+Sosyal medyada organik tarafı da önemli. Reklam dönüşümünü artıran konular için [Instagram DM dönüşüm artırma yazımız](/blog/instagram-dm-donusum-artirma) ve [Instagram'dan müşteri bulma rehberimiz](/blog/instagramdan-musteri-bulma-rehberi) destek olur. Reklamla gelen kullanıcının yorum ve mesajlarını kural tabanlı [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ile otomatik karşılamak, reklamın yarattığı ilginin cevapsız kalmasını önler.
 
 ## Sıkça Sorulan Sorular
 
@@ -164,11 +164,13 @@ Kampanyayı kurup 3 gün sonra "satış gelmedi" diye kapatmak. Meta algoritmas�
 
 Facebook ve Instagram reklam yönetimini kendiniz mi yapmalı yoksa ajansa mı vermelisiniz sorusunun cevabı, "ajans her zaman daha iyi" ya da "kendin yöneterek çok tasarruf edersin" basitliğinde değil. Doğru cevap: bütçenize, sektörünüze, sahip profilinize ve büyüme hedefinize bakıp en az toplam maliyetle (görünür + gizli) en yüksek getiriyi sağlayacak modeli seçmek.
 
-PORTZEN olarak İzmir merkezli, 5-50 kişilik KOBİ'lerle çalışan bir ajansız. Reklam tarafında size üç modelde destek sunuyoruz:
+PORTZEN olarak İzmir merkezli, 5-50 kişilik KOBİ'lerle çalışan bir ajansız. Reklam tarafında reklam yönetimi paketlerimizle destek sunuyoruz: {{fiyatlar:reklam-yonetimi}} (KDV hariç).
 
-- **Tam yönetim**: strateji, kreatif, kurulum, optimizasyon, raporlama bizde
-- **Hibrit yönetim**: biz kuruyoruz, eğitiyoruz, haftalık denetliyoruz; günlük takip sizde
-- **Tek seferlik kurulum + danışmanlık**: kendiniz yönetmek istiyorsanız temeli sağlam atıyoruz, ayda bir kontrol ediyoruz
+- **Başlangıç**: Meta veya Google, 1 reklam hesabı, 2 aktif kampanya, aylık {{reklam-limit:baslangic}}'ye kadar harcama yönetimi
+- **Büyüme**: Meta + Google, 2 reklam hesabı, 4 aktif kampanya, aylık {{reklam-limit:buyume}}'ye kadar harcama yönetimi
+- **Kurumsal**: Meta + Google, 4 reklam hesabı, 8 aktif kampanya, aylık {{reklam-limit:kurumsal}}'ye kadar harcama yönetimi
+
+Reklam harcaması hizmet bedeline dahil değildir; harcama sınırı aşılırsa yalnızca aşan tutarın %10'u eklenir.
 
 Reklamdan gelen ziyaretçiyi mesaja, mesajı satışa çevirmek için reklam yönetimini [WhatsApp AI asistanı](/whatsapp-ai-asistani) ve [Instagram DM otomasyonu](/instagram-dm-otomasyonu) hizmetlerimizle birleştiriyoruz. Otomasyon tarafında ek çözümler için [Zapier alternatifi sayfamıza](/zapier-alternatifi) bakabilirsiniz.
 

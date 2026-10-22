@@ -33,7 +33,7 @@ Sınırlama tarafında: tek telefon, tek numara, en fazla dört ek cihazda eşza
 
 WhatsApp Business API, Meta'nın orta ve büyük işletmeler için sunduğu programatik erişim arayüzüdür. Burada "API" (Application Programming Interface) demek, başka yazılımların WhatsApp ile mesajlaşması için açılmış bir kapı demek. Yani uygulamayı telefondan açıp mesaj yazmak yerine, kendi CRM sisteminiz, sitenizdeki form, e-ticaret altyapınız ya da bir AI chatbot doğrudan WhatsApp üzerinden müşteriye mesaj atabiliyor.
 
-Önemli detay: WhatsApp Business API'nin görünür bir arayüzü yoktur. Bunu kullanmak için ya kendi yazılımcı ekibinizin entegre etmesi ya da onaylanmış bir "Business Solution Provider" (BSP) üzerinden bağlanmanız gerekir. Türkiye'de bu BSP'ler Meta tarafından onaylanmış, KVKK uyumlu, faturalı çalışan firmalardır.
+Önemli detay: WhatsApp Business API'nin görünür bir arayüzü yoktur. Bunu kullanmak için ya kendi yazılımcı ekibinizin entegre etmesi ya da onaylanmış bir "Business Solution Provider" (BSP) üzerinden bağlanmanız gerekir. Türkiye'de bu BSP'ler Meta tarafından onaylanmış, sözleşmeli ve faturalı çalışan firmalardır; KVKK kapsamındaki veri işleme şartları sözleşmede tanımlanır.
 
 - Programatik gönderim: yazılım tetikler, mesaj gider
 - Çok kullanıcılı panel: 50 kişi aynı numaradan yazabilir
@@ -86,7 +86,7 @@ Aşağıda gerçek sektör örnekleri üzerinden hangi sürümün ne zaman doğr
 - **Çağrı merkezi yerine WhatsApp**: birden çok temsilci aynı numaradan yazıyor
 - **AI chatbot kullanılacak**: programatik tetikleme şart
 
-Eğer kendinizi ikinci listede üç ya da daha fazla maddede buluyorsanız, API yatırımı geri dönüşü altı ay içinde alır. Detaylı kurulum tarafında [WhatsApp Business API kurulum rehberimiz](/blog/whatsapp-business-api-kurulum) adım adım süreci anlatıyor. API'ye geçen markaların büyük çoğunluğu CTW (Click-to-WhatsApp) reklamlarıyla lead akışı kuruyor; bu kampanyaların performansını profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile yönetmek, mesaj başına maliyeti ciddi biçimde düşürüyor.
+Eğer kendinizi ikinci listede üç ya da daha fazla maddede buluyorsanız, API'ye geçişi ciddi olarak değerlendirme zamanı gelmiştir. Detaylı kurulum tarafında [WhatsApp Business API kurulum rehberimiz](/blog/whatsapp-business-api-kurulum) adım adım süreci anlatıyor. API'ye geçen markaların büyük çoğunluğu CTW (Click-to-WhatsApp) reklamlarıyla lead akışı kuruyor; bu kampanyaların performansını profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) ile yönetmek, mesaj başına maliyeti ciddi biçimde düşürüyor.
 
 ## Maliyet Karşılaştırması: Üç Boyutta Bakış
 
@@ -105,7 +105,7 @@ Uygulama tarafında para 0 ₺ ama 10.000 mesaja insan eliyle yetişmek için en
 
 ### Zaman (Mesaj Başına Cevap Süresi)
 
-Uygulama tarafında ortalama cevap süresi insan kapasitesine bağlı. Yoğun saatlerde 20-40 dakika rahat geçer. API tarafında AI bot + şablon mesaj kombosu ile saniye seviyesinde otomatik cevap mümkün. Müşteri tatmininde bu fark dönüşüm oranını ikiye katlıyor. [İlgili: WhatsApp AI asistanı nedir?](/blog/whatsapp-ai-asistani-nedir)
+Uygulama tarafında ortalama cevap süresi insan kapasitesine bağlı. Yoğun saatlerde 20-40 dakika rahat geçer. API tarafında AI bot + şablon mesaj kombosu ile saniye seviyesinde otomatik cevap mümkün. Müşteri tatmininde bu fark, yanıt bekleyen müşterinin başka işletmeye yazmadan önce ilgilenildiğini görmesini sağlıyor. [İlgili: WhatsApp AI asistanı nedir?](/blog/whatsapp-ai-asistani-nedir)
 
 ### Karmaşıklık (Kurulum + Bakım)
 
@@ -157,10 +157,10 @@ Teknik olarak mümkün (Meta Cloud API). Ancak Türkiye'den fatura, KVKK uyumu, 
 Sadece "broadcast list" ile, en fazla 256 kişiye ve sadece sizi rehberine kaydetmiş kişilere. Pazarlama amaçlı toplu gönderim için tek yasal ve sürdürülebilir yol API + şablon mesajdır. Aksi yöntemler (toplu gönderim aracı, ikinci telefon, taklit uygulamalar) numaranızın Meta tarafından kalıcı olarak banlanmasına neden olur ve bu ban geri alınamaz.
 
 **API'ye geçince mesaj cevap süresi gerçekten kısalır mı?**
-Çok kısalır. Uygulamada insan eli ortalama 15-40 dakikada cevap verirken, API üzerinde AI chatbot saniye seviyesinde geri dönüş yapar. Müşteri "ilgilenildiğini" hissettiği için satın alma kararı %20-35 oranında artar. Özellikle e-ticarette terk edilmiş sepet kurtarma akışları en yüksek getiriyi sağlıyor.
+Çok kısalır. Uygulamada insan eli ortalama 15-40 dakikada cevap verirken, API üzerinde AI chatbot saniye seviyesinde geri dönüş yapar. Müşteri "ilgilenildiğini" hissettiği için satın alma kararına daha kolay ilerler. Özellikle e-ticarette terk edilmiş sepet kurtarma akışları en yüksek getiriyi sağlıyor.
 
 **Hangi sektörler API'ye geçişten en çok kazanıyor?**
-Sıralama olarak: e-ticaret, kargo/lojistik, klinik ve güzellik merkezleri, emlak ve otomotiv galerileri, kurumsal eğitim, çağrı merkezi yerine WhatsApp kullanan finans/sigorta. Bu sektörlerde API yatırımının geri dönüş süresi genelde 4-7 ay arasında.
+Sıralama olarak: e-ticaret, kargo/lojistik, klinik ve güzellik merkezleri, emlak ve otomotiv galerileri, kurumsal eğitim, çağrı merkezi yerine WhatsApp kullanan finans/sigorta. Bu sektörlerde API yatırımının geri dönüş süresi mesaj hacmine ve otomasyon kapsamına göre değişir.
 
 ## PORTZEN ile Doğru Seçimi Yapmak
 
@@ -170,6 +170,6 @@ PORTZEN olarak İzmir merkezli, 5-50 kişilik KOBİ'lerle çalışan bir ajansı
 
 - **Mevcut durum analizi**: hacminizi, ekibinizi ve hedefinizi konuşup hangi sürümün uygun olduğunu netleştiriyoruz
 - **Kurulum ve geçiş**: eğer API doğru çözümse, BSP seçimi, numara taşıma, şablon onayı ve panel kurulumu bizde
-- **AI chatbot entegrasyonu**: [WhatsApp AI asistanımız](/whatsapp-ai-asistani) Türkçe diyalog, ürün katalog cevabı, randevu alma ve sipariş takibi gibi senaryoları işletmenize uyarlıyor
+- **AI chatbot entegrasyonu**: [WhatsApp AI asistanımız](/whatsapp-ai-asistani) Türkçe diyalog, ürün katalog cevabı ve sipariş takibi gibi senaryoları işletmenize uyarlıyor; randevu alma Büyüme ve Kurumsal paketlerde dahil. Paketler: {{fiyatlar:ai-musteri-asistani}} (KDV hariç; Meta mesaj ücretleri hariç)
 
 Eğer hâlâ kararsızsanız ya da API'ye geçişin sizin için doğru zamanlama olup olmadığını konuşmak istiyorsanız [iletişim sayfamızdan](/iletisim) ulaşın. 30 dakikalık ücretsiz görüşmede mesaj hacminize bakıp size en mantıklı yolu öneriyoruz. Hazırsanız, WhatsApp'ı pasif bir gelen kutusu olmaktan çıkarıp aktif bir satış kanalına çevirelim.

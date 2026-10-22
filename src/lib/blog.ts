@@ -5,6 +5,7 @@ import readingTime from "reading-time";
 import { remark } from "remark";
 import html from "remark-html";
 import gfm from "remark-gfm";
+import { resolvePriceTokens } from "@/data/pricing";
 
 export type BlogCategory =
   | "ai"
@@ -39,23 +40,41 @@ export interface BlogPost extends BlogPostMeta {
 const CONTENT_DIR = path.join(process.cwd(), "content", "blog");
 
 export const CATEGORY_META: Record<BlogCategory, { label: string; tone: string; bg: string; text: string }> = {
-  ai: { label: "Yapay Zeka", tone: "purple", bg: "bg-brand-purple", text: "text-paper" },
-  "sosyal-medya": { label: "Sosyal Medya", tone: "pink", bg: "bg-brand-pink", text: "text-paper" },
-  "web-tasarim": { label: "Web Tasarım", tone: "orange", bg: "bg-brand-orange", text: "text-ink" },
-  otomasyon: { label: "Otomasyon", tone: "blue", bg: "bg-brand-blue", text: "text-paper" },
-  "vaka-analizi": { label: "Vaka Analizi", tone: "green", bg: "bg-brand-green", text: "text-ink" },
-  sektorel: { label: "Sektörel", tone: "yellow", bg: "bg-brand-yellow", text: "text-ink" },
-  sehir: { label: "Şehir Rehberi", tone: "blue", bg: "bg-brand-blue", text: "text-paper" },
-  karsilastirma: { label: "Karşılaştırma", tone: "pink", bg: "bg-brand-pink", text: "text-paper" },
-  rehber: { label: "Rehber", tone: "orange", bg: "bg-brand-orange", text: "text-ink" }
+  ai: { label: "Yapay Zeka", tone: "purple", bg: "bg-light", text: "text-ink" },
+  "sosyal-medya": { label: "Sosyal Medya", tone: "pink", bg: "bg-light", text: "text-ink" },
+  "web-tasarim": { label: "Web Tasarım", tone: "orange", bg: "bg-light", text: "text-ink" },
+  otomasyon: { label: "Otomasyon", tone: "blue", bg: "bg-light", text: "text-ink" },
+  "vaka-analizi": { label: "Vaka Analizi", tone: "green", bg: "bg-light", text: "text-ink" },
+  sektorel: { label: "Sektörel", tone: "yellow", bg: "bg-light", text: "text-ink" },
+  sehir: { label: "Şehir Rehberi", tone: "blue", bg: "bg-light", text: "text-ink" },
+  karsilastirma: { label: "Karşılaştırma", tone: "pink", bg: "bg-light", text: "text-ink" },
+  rehber: { label: "Rehber", tone: "orange", bg: "bg-light", text: "text-ink" }
 };
 
-function readMarkdownFile(slug: string) {
+/**
+ * Next.js 14, Türkçe karakter içeren dinamik segmentleri (ör. "stüdyo") params içinde
+ * yüzde-kodlu ("st%C3%BCdyo") iletebiliyor; dosya adı ise UTF-8 (NFC). Slug'ı çözüp
+ * normalize etmeden dosya bulunamıyor ve sayfa 404 veriyordu.
+ */
+function normalizeSlug(slug: string): string {
+  let s = slug;
+  try {
+    s = decodeURIComponent(slug);
+  } catch {
+    // geçersiz yüzde kodlaması: olduğu gibi kullan
+  }
+  return s.normalize("NFC");
+}
+
+function readMarkdownFile(rawSlug: string) {
+  const slug = normalizeSlug(rawSlug);
+  if (slug.includes("/") || slug.includes("..")) return null;
   const fullPath = path.join(CONTENT_DIR, `${slug}.md`);
   if (!fs.existsSync(fullPath)) return null;
   const raw = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(raw);
-  return { data: data as Record<string, unknown>, content };
+  // PORTZEN fiyatları yazıya elle yazılmaz; {{fiyat:…}} yer tutucuları merkezi kaynaktan çözülür
+  return { data: data as Record<string, unknown>, content: resolvePriceTokens(content) };
 }
 
 function buildMeta(slug: string, data: Record<string, unknown>, content: string): BlogPostMeta {
@@ -94,7 +113,8 @@ export function getAllPostsMeta(): BlogPostMeta[] {
   return list.sort((a, b) => (a.publishedAt > b.publishedAt ? -1 : 1));
 }
 
-export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
+export async function getPostBySlug(rawSlug: string): Promise<BlogPost | null> {
+  const slug = normalizeSlug(rawSlug);
   const file = readMarkdownFile(slug);
   if (!file) return null;
   const meta = buildMeta(slug, file.data, file.content);

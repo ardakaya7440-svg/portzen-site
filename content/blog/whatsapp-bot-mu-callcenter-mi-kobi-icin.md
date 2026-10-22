@@ -23,11 +23,11 @@ Dördüncü sorun ise ölçüm zorluğudur. Klasik call center'da her konuşman�
 
 ## WhatsApp Bot Modelinin Yapısı
 
-WhatsApp bot modeli son iki yılda hızla olgunlaştı ve artık yerleşik bir çözüm haline geldi. Model şöyle çalışır: WhatsApp Business hesabı üzerinden gelen mesajlar bir kurumsal AI altyapısına bağlanır, bu altyapı işletmenizin bilgi tabanı, ürün kataloğu, randevu takvimi ve iletişim tonuyla eğitilir. Müşteri mesajını yazar, sistem 3-5 saniyede konuyu anlar, cevap verir, sipariş oluşturur, randevu kaydeder. Karmaşık konular otomatik olarak insan ekibine devrolur.
+WhatsApp bot modeli son iki yılda hızla olgunlaştı ve artık yerleşik bir çözüm haline geldi. Model şöyle çalışır: WhatsApp Business hesabı üzerinden gelen mesajlar bir kurumsal AI altyapısına bağlanır, bu altyapı işletmenizin bilgi tabanı, ürün kataloğu, randevu takvimi ve iletişim tonuyla eğitilir. Müşteri mesajını yazar, sistem konuyu anlar, otomatik cevap verir, sipariş oluşturur, randevu kaydeder. Karmaşık konular otomatik olarak insan ekibine devrolur.
 
-WhatsApp bot yaklaşımının kapasite duvarı yoktur. Aynı anda 500 müşteriyle konuşabilir. Ekibinizi büyütmeden hacmi katlayabilirsiniz. Çalışma saati kısıtı yoktur. Gece 3'te gelen mesaj gece 3'te cevaplanır. Ölçme paneli baştan kuruludur. Her konuşmanın süresi, dönüşümü ve müşteri memnuniyeti anlık raporlanır. Personel devir sorunu ortadan kalkar çünkü sistem yerine geçen yeni bir çalışan yoktur, sistem her zaman aynı kaliteyle çalışır.
+WhatsApp bot yaklaşımında kapasite personel sayısına bağlı değildir; aynı anda çok sayıda müşteriyle konuşabilir (PORTZEN paketlerinde aylık AI yanıt kotası pakete göre belirlenir). Ekibinizi büyütmeden artan hacmi karşılayabilirsiniz. Çalışma saati kısıtı yoktur. Gece 3'te gelen mesaj gece 3'te cevaplanır. Ölçme paneli baştan kuruludur. Her konuşmanın süresi, dönüşümü ve müşteri memnuniyeti anlık raporlanır. Personel devir sorunu ortadan kalkar çünkü sistem yerine geçen yeni bir çalışan yoktur, sistem her zaman aynı kaliteyle çalışır.
 
-Ama WhatsApp bot da her senaryo için mükemmel değildir. Gerçek insan dokunuşu isteyen konularda, karmaşık şikayetlerde, duygusal destek gereken durumlarda bot tek başına yetmez. Bu yüzden başarılı kurulumlarda bot ile insan ekibi arasında akıllı geçiş kuralları tanımlanır. Bot yüzde 75-85 civarında konuşmayı kendi başına kapatır, geri kalan yüzde 15-25 insana devredilir. Bu bölüşüm hem müşteriye kaliteli hizmet verir hem ekibi verimli tutar.
+Ama WhatsApp bot da her senaryo için mükemmel değildir. Gerçek insan dokunuşu isteyen konularda, karmaşık şikayetlerde, duygusal destek gereken durumlarda bot tek başına yetmez. Bu yüzden başarılı kurulumlarda bot ile insan ekibi arasında akıllı geçiş kuralları tanımlanır. Bot rutin konuşmaları kendi başına kapatır, kalan konuşmaları insana devreder. Bu bölüşüm hem müşteriye kaliteli hizmet verir hem ekibi verimli tutar.
 
 ## Karşılaştırma: 8 Boyut Üzerinden Yan Yana Bakış
 
@@ -35,7 +35,7 @@ Ama WhatsApp bot da her senaryo için mükemmel değildir. Gerçek insan dokunu�
 
 ### 1. Cevap Süresi
 
-Call center'da ortalama ilk cevap süresi çağrı yoğunluğuna bağlı olarak 30 saniye ile 5 dakika arasında değişir. WhatsApp bot'ta bu süre 3-6 saniyedir. Fark 50 kat civarıdır. Müşteri deneyimi açısından bot açık ara önde.
+Call center'da ilk cevap süresi çağrı yoğunluğuna ve hattın müsaitliğine bağlıdır. WhatsApp bot ise mesaj geldiği anda otomatik yanıt verir. Müşteri deneyimi açısından bot açık ara önde.
 
 ### 2. Kapasite Ölçekleme
 
@@ -59,7 +59,7 @@ Bu boyutta call center avantajlı gibi görünür ama gerçek şu: kalabalık ca
 
 ### 7. Kanal Genişliği
 
-Call center sadece sesli çağrılara cevap verir. WhatsApp bot altyapısı aynı anda WhatsApp, Instagram DM ve web chat üzerinden gelen mesajları karşılar. Tek bilgi tabanı üç kanalı besler. Müşteri hangi kanaldan yazarsa yazsın tutarlı cevap alır.
+Call center sadece sesli çağrılara cevap verir. WhatsApp bot altyapısı aynı anda WhatsApp, web chat ve (PORTZEN'in AI müşteri asistanında Kurumsal pakette) Instagram DM üzerinden gelen mesajları karşılar. Tek bilgi tabanı üç kanalı besler. Müşteri hangi kanaldan yazarsa yazsın tutarlı cevap alır.
 
 ### 8. Uzun Vadeli Maliyet Yapısı
 
@@ -81,7 +81,7 @@ Sekiz boyutlu karşılaştırma tek başına karar vermez. Kendi senaryonuza gö
 
 ## Karma Model: Neden Standart Haline Geliyor?
 
-Son iki yılda PORTZEN'in KOBİ müşterilerinin yüzde 88'i karma modeli tercih etti. Karma model şudur: birinci temas WhatsApp bot ile başlar, konu rutinse bot kapatır, konu özel bir dokunuş isterse insan ekibine geçer. İnsan ekibi 2-3 kişilik küçük bir yapıdır ama yorulmadan çalışır çünkü rutinler baştan elenmiştir. Ek olarak sesli çağrıları da çekmek isteyen işletmeler için ses asistanı aynı bilgi tabanına bağlanır ve telefon üzerinden gelen çağrıları da otomatik karşılar.
+PORTZEN olarak KOBİ'lere çoğunlukla karma modeli öneriyoruz. Karma model şudur: birinci temas WhatsApp bot ile başlar, konu rutinse bot kapatır, konu özel bir dokunuş isterse insan ekibine geçer. İnsan ekibi 2-3 kişilik küçük bir yapıdır ama yorulmadan çalışır çünkü rutinler baştan elenmiştir. Ek olarak sesli çağrıları da çekmek isteyen işletmeler için ses asistanı (ayrı bir hizmet olan AI telefon asistanı) aynı bilgi tabanına bağlanır ve telefon üzerinden gelen çağrıları da otomatik karşılar.
 
 Karma modelin en büyük avantajı esnekliktir. Sezon geldiğinde trafik 3 katına çıkar. Klasik call center bu senaryoda kırılır, ya ekip artırılır ya müşteri kaybedilir. Karma modelde bot yükün büyük kısmını kaldırır, insan ekibi sadece kritik konulara odaklanır. Sezon bittiğinde ekstra bir maliyet kalmaz. Bu esneklik özellikle mevsimsel işletmeler için hayati.
 
@@ -103,17 +103,16 @@ Karar sürecinizi somut hale getirecek altı adım öneriyoruz.
 
 6. **Karar noktasını 30 gün sonraya bırak.** Pilot sonrasında dönüşüm oranı, cevap süresi ve ekip yükü metriklerini bir ay önceki değerlerle kıyasla. Sistem net faydayı gösteriyorsa yaygınlaştır.
 
-## Vaka Örneği: Aliağa'da Bir Otomotiv Servisi
+## Örnek Senaryo: Bir Otomotiv Servisi
 
-PORTZEN'in çalıştığı Aliağa merkezli bir otomotiv servisi, yıllardır iki kişilik bir sesli call center yapısıyla çalışıyordu. Günlük ortalama 45 çağrı geliyor, ekstra 60-70 WhatsApp mesajı düşüyordu. WhatsApp mesajları çoğunlukla cevapsız kalıyordu. Karma modele geçiş sonrası ilk üç ayın verileri şöyle:
+Aşağıdaki senaryo gerçek bir müşteri sonucu değil; karma modelin bir otomotiv serviste nasıl kurgulandığını gösteren örnek bir kurulumdur. İki kişilik bir telefon ekibiyle çalışan, telefonun yanında WhatsApp'a da düzenli mesaj alan ve bu mesajların önemli kısmı cevapsız kalan bir servis düşünelim. Karma modele geçişte iş akışında şunlar değişir:
 
-- WhatsApp cevap süresi ortalama 3 saatten 8 saniyeye düştü.
-- Randevu dönüşüm oranı yüzde 21'den yüzde 44'e çıktı.
-- Sesli çağrı ekibinin günlük yükü yarıya indi, kalan zamanı takip aramalarına ayrıldı.
-- Hafta sonu ve akşam mesajlarının yüzde 92'si otomatik karşılandı.
-- Aylık toplam randevu sayısı yüzde 38 arttı, ekip büyümedi.
+- Önce: WhatsApp mesajları ekip müsait olduğunda, gecikmeyle yanıtlanıyor. Sonra: Bot mesaj geldiği anda otomatik yanıt veriyor.
+- Önce: Randevu talepleri telefonda elle not ediliyor. Sonra: Randevu talebi WhatsApp'tan alınıp takvime düşüyor.
+- Önce: Telefon ekibinin günü rutin sorularla geçiyor. Sonra: Rutin sorular bota kalıyor, ekip takip aramalarına zaman ayırıyor.
+- Önce: Akşam ve hafta sonu gelen mesajlar ertesi iş gününü bekliyor. Sonra: Bu mesajlar da otomatik karşılanıyor, özel konular sabah ekibin önüne özet olarak düşüyor.
 
-Servis sahibi karma modelin en büyük etkisinin sezon hazırlığı olduğunu belirtti. Kış lastik sezonu geldiğinde trafik iki katına çıktı, sistem hiç sarsılmadan karşıladı, ekstra personel almak gerekmedi.
+Takip edilen metrikler; WhatsApp ilk yanıt süresi, randevu dönüşüm oranı ve aylık randevu sayısıdır. Kış lastik sezonu gibi yoğun dönemlerde trafik arttığında bot rutin talepleri karşıladığı için ekip ek personele ihtiyaç duymadan kritik konulara odaklanabilir.
 
 ## SSS
 
@@ -124,7 +123,7 @@ C: Bot şikayet sinyalini algılar ve konuyu doğrudan insan ekibine devreder. �
 C: Hayır. Sesli çağrı hâlâ önemli bir kanal. Doğru yaklaşım sesli asistan ile bot altyapısını aynı bilgi tabanına bağlamak. Müşteri isterse arar, isterse mesaj atar. Her iki durumda da tutarlı cevap alır.
 
 **S: Bot ilk aylarda hata yaparsa müşteri kaçmaz mı?**
-C: İlk hafta pilot moduyla başlanır, bot otonomisi düşük tutulur. Cevaplar insan onayından geçer. İkinci haftadan itibaren otonomi kademeli olarak yükseltilir. Hata oranı ilk aydan sonra minimum seviyeye iner.
+C: İlk hafta pilot moduyla başlanır, bot otonomisi düşük tutulur. Cevaplar insan onayından geçer. İkinci haftadan itibaren otonomi kademeli olarak yükseltilir. Bilgi tabanı güncellendikçe hata oranı düşer.
 
 **S: Bot kurunca personelimi çıkarmam gerekir mi?**
 C: Hayır. Karma modelin amacı ekibi verimli kullanmak. Rutinler bota devredilirken ekip özel müşteri konularına, satış takibine, tekrar eden müşteri yönetimine kaydırılır. Ekibin katma değeri artar, işten çıkarma gerekmez.
@@ -134,7 +133,7 @@ C: Evet. Kurulum sırasında mevcut WhatsApp Business numaranız sistemin altyap
 
 ## Sonraki Adım
 
-Call center'a mı yatırım yapmalıyım, WhatsApp bot mu kurmalıyım sorusunun cevabı sizin sektörünüze, hacminize ve büyüme hedefinize göre değişir. PORTZEN olarak son 30 günlük iletişim hacminizi analiz ediyor, sekiz boyut üzerinden iki modeli karşılaştırıyor ve size uygun karma modelin nasıl kurulacağını gösteriyoruz. [portzen.com/iletisim](https://portzen.com/iletisim) üzerinden **Görüşme Al** butonuna tıklayarak 30 dakikalık analizinizi başlatabilirsiniz.
+Call center'a mı yatırım yapmalıyım, WhatsApp bot mu kurmalıyım sorusunun cevabı sizin sektörünüze, hacminize ve büyüme hedefinize göre değişir. PORTZEN olarak son 30 günlük iletişim hacminizi analiz ediyor, sekiz boyut üzerinden iki modeli karşılaştırıyor ve size uygun karma modelin nasıl kurulacağını gösteriyoruz. [portzenai.com/iletisim](/iletisim) üzerinden **Görüşme Al** butonuna tıklayarak 30 dakikalık analizinizi başlatabilirsiniz.
 
 ---
 

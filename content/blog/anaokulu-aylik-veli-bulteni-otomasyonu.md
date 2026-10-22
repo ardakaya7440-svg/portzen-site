@@ -15,7 +15,7 @@ ogImage: "/blog/og/anaokulu-aylik-veli-bulteni-otomasyonu.png"
 
 Anaokulu ve kreş işletmek, çocuk bakımının ötesinde her ay onlarca veliyle düzenli, kişisel ve şeffaf iletişim kurmayı gerektiriyor. Velinin çocuğunu okula bıraktığı andan akşam aldığı ana kadar geçen 8-10 saat boyunca neler olduğunu bilmek istemesi tamamen doğal. Bunun en güçlü cevabı aylık veli bültenidir. Ancak çoğu anaokulunda bu bültenler manuel olarak hazırlanıyor: öğretmen Word dosyası açıyor, telefonundan fotoğraf seçiyor, eline yazıyor, müdüre onaylatıyor, PDF'e çeviriyor, WhatsApp gruplarına tek tek gönderiyor. Bu süreç sınıf başına ayda 6-10 saat eğitimci zamanı tüketiyor; üstelik tutarlılık ve kalite öğretmenden öğretmene değişiyor.
 
-Otomatik veli bülteni sistemi bu yükü ortadan kaldırırken iletişim kalitesini de yükseltir. Doğru kurulmuş bir altyapı, fotoğrafların gün içinde otomatik akmasını, etkinliklerin standart şablona uymasını, çocuk gelişim notlarının veliye anlaşılır biçimde sunulmasını ve KVKK kurallarına uygun şekilde dağıtılmasını sağlar. PORTZEN olarak son 2 yılda 15'in üzerinde anaokulu, kreş ve özel ilkokul anasınıfı ile çalıştık; bu rehberde sahada test edilmiş, çalıştığı kanıtlanmış sistem mimarisini adım adım paylaşacağız.
+Otomatik veli bülteni sistemi bu yükü ortadan kaldırırken iletişim kalitesini de yükseltir. Doğru kurulmuş bir altyapı, fotoğrafların gün içinde otomatik akmasını, etkinliklerin standart şablona uymasını, çocuk gelişim notlarının veliye anlaşılır biçimde sunulmasını ve KVKK kurallarına uygun şekilde dağıtılmasını sağlar. Bu rehberde böyle bir sistemin mimarisini adım adım paylaşacağız.
 
 ## Veli Bülteninin Eğitim Kurumu İçin Stratejik Önemi
 
@@ -27,7 +27,7 @@ Türkiye'de özel anaokulu sektöründe yıllık veli kayıt yenileme oranı sek
 
 ### Yeni Veli Kazanımında Etki
 
-Memnun veliler okulun en güçlü reklamıdır. Aylık bülten alan ve içeriğinden memnun olan velinin yıl içinde ortalama 2-3 yeni veliye okulu önerme oranı yüzde 60'ın üzerinde. Bülten içerikleri sosyal medyada paylaşıldığında okulun organik erişimi artar. [Anaokulu için sosyal medya stratejisi](/sosyal-medya-ajansi) ile bülten içeriklerini Instagram Reels ve hikayelerine dönüştürmek dönüşümü iki katına çıkarır.
+Memnun veliler okulun en güçlü reklamıdır. Aylık bülten alan ve içeriğinden memnun olan velinin yıl içinde ortalama 2-3 yeni veliye okulu önerme oranı yüzde 60'ın üzerinde. Bülten içerikleri sosyal medyada paylaşıldığında okulun organik erişimi artar. [Anaokulu için sosyal medya stratejisi](/sosyal-medya-ajansi) ile bülten içeriklerini Instagram Reels ve hikayelerine dönüştürmek, okulun görünürlüğünü veli çevresinin ötesine taşır.
 
 ### Şikayet Yönetiminde Önleyici Etki
 
@@ -159,11 +159,11 @@ Sistemin kurulum maliyeti ve beklenen finansal etkisi.
 
 ### Kurulum Maliyetleri
 
-Şablon tasarımı: 5.000-12.000 TL tek seferlik. Fotoğraf toplama altyapısı: 8.000-18.000 TL. WhatsApp Business API entegrasyonu: 5.000-10.000 TL. Veli portalı (opsiyonel): 15.000-35.000 TL. Aylık yazılım kullanım: 1.500-3.000 TL. WhatsApp mesaj başına: 0,15-0,35 TL. Toplam ilk yıl: 35.000-80.000 TL.
+Piyasada tipik kalemler şöyle: Şablon tasarımı: 5.000-12.000 TL tek seferlik. Fotoğraf toplama altyapısı: 8.000-18.000 TL. WhatsApp Business API entegrasyonu: 5.000-10.000 TL. Veli portalı (opsiyonel): 15.000-35.000 TL. Aylık yazılım kullanım: 1.500-3.000 TL. WhatsApp mesaj başına: 0,15-0,35 TL. Toplam ilk yıl: 35.000-80.000 TL. PORTZEN paket fiyatları için aşağıdaki SSS'ye ve [fiyatlar sayfasına](/fiyatlar) bakabilirsiniz.
 
 ### Zaman Tasarrufu
 
-Manuel yöntemle sınıf başına aylık 8 saat öğretmen zamanı, 4 saat müdür zamanı tüketiliyor. Otomasyonla bu süre 1,5-2 saate düşüyor. 5 sınıflı bir okulda yıllık 270-300 saat eğitimci zamanı kurtarılıyor; bu da 80.000-120.000 TL personel maliyeti tasarrufu demek.
+Manuel yöntemle sınıf başına aylık 8 saat öğretmen zamanı, 4 saat müdür zamanı tüketiliyor. Otomasyonla fotoğraf toplama, seçim ve dağıtım adımları büyük ölçüde sistem tarafından yürütüldüğü için bu süre belirgin şekilde kısalıyor; kazanılan zaman eğitimcinin çocuklara ayırdığı zamana dönüyor.
 
 ### Veli Kayıt Yenileme Etkisi
 
@@ -185,7 +185,7 @@ Tipik bir 100 öğrencili özel anaokulu, yenileme oranını yüzde 70'ten yüzd
 
 ### Küçük bir kreş (20-30 çocuk) için bu sistem mantıklı mı?
 
-Evet, hatta küçük kreşler için daha kritik. Küçük kreşler büyük zincirlerle rekabet etmek zorunda; profesyonel bültenler bu rekabette en önemli silah. Başlangıç paketi 15.000-25.000 TL bandında, ilk dönem geri ödüyor.
+Evet, hatta küçük kreşler için daha kritik. Küçük kreşler büyük zincirlerle rekabet etmek zorunda; profesyonel bültenler bu rekabette en önemli silah. PORTZEN'in iş otomasyonu paketleri {{fiyatlar:is-otomasyonu}}; isteğe bağlı aylık bakım ikinci aydan itibaren {{bakim:baslangic}} / {{bakim:buyume}} / {{bakim:kurumsal}} (KDV hariç); güncel kapsam [fiyatlar sayfasında](/fiyatlar).
 
 ### Veliler dijital bülten ister mi yoksa basılı mı?
 
@@ -197,7 +197,7 @@ Günde 15-20 dakika yeterli. Etkinlik sırasında 3-5 fotoğraf, yemekte 2-3 fot
 
 ### KVKK için ne kadar bütçe ayırmalıyım?
 
-Tek seferlik 5.000-10.000 TL avukat danışmanlığı ile sözleşme ve aydınlatma metinleri hazırlatın. Yazılım altyapısı KVKK uyumlu seçildiyse ek maliyet çıkmaz. [PORTZEN'in geliştirdiği veli iletişim sistemleri](/crm-otomasyonu) baştan KVKK uyumlu kurguluyor.
+Tek seferlik 5.000-10.000 TL avukat danışmanlığı ile sözleşme ve aydınlatma metinleri hazırlatın. Yazılım altyapısı KVKK gerekliliklerine uygun seçildiyse ek maliyet çıkmaz. [PORTZEN'in geliştirdiği veli iletişim sistemleri](/crm-otomasyonu) KVKK gerekliliklerini dikkate alarak kurgulanır (açık rıza, aydınlatma akışı); verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir.
 
 ### Bültenleri yıl sonunda nasıl arşivleyebilirim?
 
@@ -205,8 +205,8 @@ Sistem otomatik olarak her çocuk için 9 aylık bülteni birleştirip dijital k
 
 ## PORTZEN ile Anaokulu Veli Bülteni Otomasyonu Kurmak
 
-Anaokulu işletmek, çocukların güvende olduğu hissini veliye her gün yeniden vermek demek. Aylık veli bülteni bu hissin en güçlü kanıtıdır. Doğru kurulmuş bir otomatik bülten sistemi, eğitimcilerinizin enerjisini idari işten çocuğa yönlendirir, velilerinizin memnuniyetini ve sadakatini yükseltir, okulunuzun yeni veli kazanımını organik şekilde artırır.
+Anaokulu işletmek, çocukların güvende olduğu hissini veliye her gün yeniden vermek demek. Aylık veli bülteni bu hissin en güçlü kanıtıdır. Doğru kurulmuş bir otomatik bülten sistemi, eğitimcilerinizin enerjisini idari işten çocuğa yönlendirir ve velilere düzenli, kişisel ve şeffaf bir bilgi akışı sağlar.
 
-PORTZEN olarak anaokulu, kreş, özel ilkokul anasınıfı ve gündüz bakım merkezleri için özel olarak geliştirdiğimiz altyapıyı 2-4 hafta içinde devreye alıyoruz. Fotoğraf akışı, AI destekli seçim, KVKK uyumlu dağıtım, veli portalı ve WhatsApp entegrasyonu paketin standardında geliyor. Ayrıca [petshop stok takip ve WhatsApp bildirim sistemi](/blog/petshop-stok-takip-whatsapp-bildirimi) gibi farklı sektörel çözümlerimiz, otomasyona dair geniş tecrübemizin kanıtı.
+PORTZEN olarak anaokulu, kreş, özel ilkokul anasınıfı ve gündüz bakım merkezleri için özel olarak geliştirdiğimiz altyapıyı kuruyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Fotoğraf akışı, AI destekli seçim, KVKK gerekliliklerini dikkate alan dağıtım ve WhatsApp entegrasyonu iş otomasyonu paketleriyle kurulur; veli portalı gibi özel paneller özel web uygulaması olarak ayrıca tekliflendirilir ({{tekil:ozel-web-uygulamasi}}, KDV hariç). Ayrıca [petshop stok takip ve WhatsApp bildirim sistemi](/blog/petshop-stok-takip-whatsapp-bildirimi) gibi farklı sektörel çözümlerimiz de aynı otomasyon yaklaşımıyla kurgulanıyor.
 
 Kurumunuza özel hangi sistemin uygun olduğunu, veli memnuniyetinizi nasıl artıracağınızı ve yatırımın geri dönüş süresini netleştirmek için [iletişim sayfamız](/iletisim) üzerinden ücretsiz keşif görüşmesi planlayın. 30 dakikalık görüşmede mevcut iletişim süreçlerinizi analiz edip size özel yol haritası hazırlayalım.

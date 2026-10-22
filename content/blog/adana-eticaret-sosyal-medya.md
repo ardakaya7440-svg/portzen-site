@@ -44,7 +44,7 @@ Seyhan ve Çukurova'daki gıda e-ticaret işletmeleri için somut öneriler:
 
 Bu stratejilerin düzenli ve sürdürülebilir şekilde işlemesi için profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) desteği, içerik takvimi disiplini ve haftalık reels üretimi için ciddi avantaj sağlıyor.
 
-PORTZEN olarak Çukurova'da çalıştığımız bir biber salçası üreticisinde Instagram takipçi sayısını 8 ayda 3.500'den 47.000'e çıkardık. Aynı dönemde Trendyol satışları korunurken kendi web sitesinden gelen sipariş hacmi 12 katına çıktı. Sebep tek bir şeydi: hikâyeyi doğru anlatmak.
+Örneğin Çukurova'da biber salçası üreten bir işletme için örnek bir kurguda üretim sürecini gösteren Reels'ler, çiftçi hikâyeleri ve tarif içerikleri düzenli bir takvime oturtulur; Trendyol mağazası korunurken Instagram'dan markanın kendi web sitesine yönlendiren bir satış kanalı kurulur. Buradaki temel fikir tek bir şey: hikâyeyi doğru anlatmak.
 
 ## Yüreğir ve Sarıçam: Üretim Merkezleri ve Tarım Tabanlı Marka
 
@@ -59,7 +59,7 @@ Bu işletmeler için strateji şöyle olmalı:
 - Üretim tesisini gezdiren video içerikler — şeffaflık güveni artırıyor
 - WhatsApp üzerinden toptan müşterilerle otomatik sipariş ve fatura takibi
 
-Yüreğir'deki bir kavurma üreticisinde devreye aldığımız sistemde restoran müşterileri artık WhatsApp'tan sipariş veriyor, otomatik asistan stoğu kontrol ediyor, fiyat teklifi sunuyor, onay alındığında üretim ekibine bildirim atıyor, kargo süreci başlıyor. Aylık 800+ toptan sipariş insan müdahalesi minimumda yönetiliyor.
+Örnek bir kurulumda, Yüreğir'deki bir kavurma üreticisinin restoran müşterileri WhatsApp'tan sipariş verir; otomatik asistan stoğu kontrol eder, fiyat teklifi sunar, onay alındığında üretim ekibine bildirim gönderir ve kargo süreci başlar. Rutin toptan siparişler bu akışla yürür, ekip yalnızca istisnai durumlara müdahale eder.
 
 ## Adana Lezzetlerinin Sosyal Medya Anlatımı: İçerik Kategorileri
 
@@ -72,7 +72,7 @@ Adana e-ticaret işletmesinin sosyal medya içerik stratejisi şu kategoriler et
 - Çiftçi hikâyeleri — ürünün geldiği çiftliği, çiftçiyi gösteren içerikler
 - Sezonluk içerikler — yaz şalgam, kış kavurma, ramazan iftarı
 
-[AI reklam videosu](/ai-reklam-videosu) hizmetimiz Adana e-ticaret işletmelerinin bu içerik kategorilerini düzenli üretmesini kolaylaştırıyor. Üretim alanından çekilen 30 saniyelik bir görüntüden 5 farklı reels formatı, Instagram story serisi, TikTok versiyonu ve YouTube Shorts üretiyoruz.
+[AI reklam videosu](/ai-reklam-videosu) hizmetimiz Adana e-ticaret işletmelerinin bu içerik kategorilerini düzenli üretmesini kolaylaştırıyor. Üretim alanından çekilen görüntülerden Reels, TikTok ve YouTube Shorts için dikey videolar üretiyoruz; format ve kesit sayısı seçilen pakete göre belirlenir ([fiyatlar sayfası](/fiyatlar)).
 
 ## Yerel SEO Adana: Coğrafi ve Kategorik Arama Optimizasyonu
 
@@ -113,7 +113,7 @@ E-ticaret sitenizin kargo entegrasyonu şunları içermeli:
 
 ## Adana E-Ticaret İçin WhatsApp ve Instagram DM Otomasyonu
 
-E-ticaret büyüdükçe gelen mesaj sayısı patlar. "kargo nerede", "ne zaman gelir", "fatura yollar mısınız", "tekrar sipariş vermek istiyorum" gibi rutin mesajlar gün içinde ekip vaktinizin yarısını yiyor. [WhatsApp AI asistanı](/whatsapp-ai-asistani) ve [Instagram DM otomasyonu](/instagram-dm-otomasyonu) hizmetlerimiz bu noktada devreye giriyor:
+E-ticaret büyüdükçe gelen mesaj sayısı patlar. "kargo nerede", "ne zaman gelir", "fatura yollar mısınız", "tekrar sipariş vermek istiyorum" gibi rutin mesajlar gün içinde ekip vaktinizin yarısını yiyor. Bu noktada iki ayrı hizmetimiz devreye giriyor: [WhatsApp AI asistanı](/whatsapp-ai-asistani) (AI müşteri asistanı) mesajı anlayıp serbest sorulara yanıt verir; [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ise kural tabanlıdır, yorum, hikâye veya anahtar kelime tetikleyicisine önceden yazılmış mesajlarla yanıt verir. Aşağıdaki işler AI müşteri asistanı ve gerektiğinde iş otomasyonu entegrasyonlarıyla kurgulanır (AI asistanın Instagram kanalı Kurumsal pakette yer alır):
 
 - Sipariş takibi otomatik
 - Tekrar sipariş kolaylığı (önceki sipariş tek tıkla yenilenir)
@@ -150,15 +150,15 @@ Adana sadece gıda değil — tekstil ve pamuk üretimi de bölgenin omurgasınd
 
 ## Adana E-Ticaret Senaryoları: Şalgam, Kavurma, Tekstil
 
-Adana e-ticaret işletmesinin dijital büyümesini somut sektör senaryoları üzerinden incelemek strateji netliği sağlıyor. Aşağıdaki vakalar Adana'da çalıştığımız müşterilerin gerçek yolculuklarını yansıtıyor.
+Adana e-ticaret işletmesinin dijital büyümesini somut sektör senaryoları üzerinden incelemek strateji netliği sağlıyor. Aşağıdakiler örnek senaryolardır; gerçek müşteri sonuçları değil, benzer işletmeler için nasıl bir kurulum yapılabileceğini gösterir.
 
-Senaryo 1 — Seyhan'da geleneksel şalgam üreticisi: Mevcut durum sadece Adana içi satış, Trendyol'da bir mağaza, kendi web sitesi yok, marka değeri sıfır. Yaptığımız çalışma: "Adana usulü şalgam" hikâye odaklı Instagram stratejisi, Shopify tabanlı e-ticaret sitesi, kargo entegrasyonu, yerel gurmeler ile iş birliği. 10 ayda Türkiye geneli aylık 1200+ kutu satış noktasına ulaşıldı, kâr marjı pazaryeri satışlarına göre 2.4 katına çıktı.
+Senaryo 1 — Seyhan'da geleneksel şalgam üreticisi: Mevcut durum sadece Adana içi satış, Trendyol'da bir mağaza, kendi web sitesi yok, marka değeri sıfır. Örnek kurulum: "Adana usulü şalgam" hikâye odaklı Instagram stratejisi, Shopify tabanlı e-ticaret sitesi, kargo entegrasyonu, yerel gurmeler ile iş birliği. Bu kurguyla pazaryeri mağazası korunurken Türkiye genelinden gelen siparişler için markanın kendi satış kanalı açılır.
 
-Senaryo 2 — Çukurova'da biber salçası üreticisi: Mevcut durum köy üretimi, organik sertifika var ama pazarlama yok, satış toptan üzerine. Yaptığımız çalışma: Üretim sürecini gösteren TikTok ve reels stratejisi, premium konumlandırma, e-ticaret sitesi, abonelik modeli. 8 ayda Instagram takipçi 3.500'den 47.000'e, web sitesinden gelen sipariş 12 katına çıktı.
+Senaryo 2 — Çukurova'da biber salçası üreticisi: Mevcut durum köy üretimi, organik sertifika var ama pazarlama yok, satış toptan üzerine. Örnek kurulum: Üretim sürecini gösteren TikTok ve reels stratejisi, premium konumlandırma, e-ticaret sitesi, abonelik modeli. Sosyal medyada anlatılan üretim hikâyesi web sitesindeki ürün sayfalarına bağlanır; abonelik modeliyle düzenli alıcılar için tekrar sipariş kolaylaşır.
 
-Senaryo 3 — Yüreğir'de kavurma üreticisi: Mevcut durum restoranlara toptan satış, son tüketici satışı zayıf, B2B süreçler manuel. Yaptığımız çalışma: WhatsApp tabanlı B2B sipariş otomasyonu, B2C için ayrı e-ticaret kanalı, vakum ambalaj odaklı kargo süreçleri. 6 ayda restoran müşterileri için manuel iş yükü %70 azaldı, son tüketici satışı yeni gelir kalemi oldu.
+Senaryo 3 — Yüreğir'de kavurma üreticisi: Mevcut durum restoranlara toptan satış, son tüketici satışı zayıf, B2B süreçler manuel. Örnek kurulum: WhatsApp tabanlı B2B sipariş otomasyonu, B2C için ayrı e-ticaret kanalı, vakum ambalaj odaklı kargo süreçleri. Restoran siparişleri WhatsApp üzerinden alınıp üretim ekibine otomatik iletildiği için manuel takip azalır; son tüketici kanalı ayrı bir gelir kalemi olarak kurgulanır.
 
-Senaryo 4 — Sarıçam'da ev tekstili üreticisi: Mevcut durum pamuk üretimi gücü var, ama tasarım odaklı son ürünlerin yetersiz tanıtımı. Yaptığımız çalışma: Pinterest stratejisi, Instagram Shopping, Etsy entegrasyonu, ev sahnesi fotoğrafçılığı. 12 ayda yurt dışı satış kanal payı %22'ye ulaştı.
+Senaryo 4 — Sarıçam'da ev tekstili üreticisi: Mevcut durum pamuk üretimi gücü var, ama tasarım odaklı son ürünlerin yetersiz tanıtımı. Örnek kurulum: Pinterest stratejisi, Instagram Shopping, Etsy entegrasyonu, ev sahnesi fotoğrafçılığı. Ürünler yurt dışı alıcıların gezindiği Pinterest ve Etsy'de ev sahnesi görselleriyle listelenir; yurt dışı satış kanalı ayrıca ölçülür.
 
 ## Sıkça Sorulan Sorular
 
@@ -166,19 +166,19 @@ Senaryo 4 — Sarıçam'da ev tekstili üreticisi: Mevcut durum pamuk üretimi g
 Evet, ama Trendyol'u bırakmak değil — paralel kurmak. Kendi siteniz size kâr marjı, müşteri datası ve marka değeri sunar. Trendyol görünürlük ve hacim sağlar. İdeal denge satışların %50-60'ı kendi sitenizden, kalan kısım pazaryerlerinden olacak şekilde.
 
 **Adana'da gıda e-ticareti için aylık sosyal medya bütçesi ne olmalı?**
-Yeni bir markaysanız ilk 6 ay aylık 25.000–60.000 TL aralığı gerçekçi. Bunun yaklaşık üçte biri içerik üretimi (foto-video çekim, editlik, içerik yönetimi), kalanı reklam ve influencer iş birlikleri.
+Yeni bir markaysanız piyasada ilk 6 ay için aylık 25.000–60.000 TL aralığı gerçekçi kabul ediliyor. Bunun yaklaşık üçte biri içerik üretimi (foto-video çekim, editlik, içerik yönetimi), kalanı reklam ve influencer iş birlikleri. PORTZEN'de içerik ve hesap yönetimi tarafı sosyal medya paketleriyle karşılanır: {{fiyatlar:sosyal-medya}} (KDV hariç); reklam harcaması bu bedele dahil değildir.
 
 **Şalgam, kavurma gibi yerel ürünler Türkiye geneline kargoyla taşınır mı?**
 Evet, doğru ambalajla. Şalgam için cam şişe, kavurma için vakumlu ambalaj, salça için tedbirli ambalajlama gerekir. Soğuk zincir gerektiren ürünler için kargo süresi maksimum 48 saat olmalı.
 
 **PORTZEN İzmir'de, Adana'daki işletmeme nasıl içerik üretir?**
-Uzaktan ekip + Adana'da yerel iş birliği modeli. Çekim için Adana'da fotoğrafçı ve videografi ağımız var. Aylık planlama, içerik üretimi, sosyal medya yönetimi ve raporlama tamamen uzaktan ekibimizle yürür. Adana'da 8+ aktif müşterimiz var.
+Uzaktan ekip + Adana'da yerel iş birliği modeli. Paketlere dahil saha çekimi yalnızca Kurumsal sosyal medya paketinde ve İzmir içidir; Adana'da çekim gerekirse yerel fotoğrafçı ve videograf iş birlikleriyle ayrıca planlanır. Aylık planlama, içerik üretimi, sosyal medya yönetimi ve raporlama tamamen uzaktan ekibimizle yürür.
 
 **Adana'daki üretici olarak kaç farklı sosyal medya kanalı yönetmeliyim?**
 Başlangıçta Instagram + TikTok yeterli. Bunlar oturduktan sonra YouTube Shorts ve Pinterest eklenebilir. LinkedIn B2B müşterileriniz varsa öncelik olabilir.
 
 ## PORTZEN ile Adana İçin Sistem Kurmak
 
-Adana e-ticaret işletmesinin 2026 yol haritasında üç ana eksen var: ulusal marka değeri yaratan sosyal medya stratejisi, kendi e-ticaret kanalında doğrudan müşteriye satış, WhatsApp ve DM otomasyonuyla operasyon yükünü hafifletmek. PORTZEN olarak İzmir merkezliyiz ama Seyhan'dan Yüreğir'e Adana'nın gıda ve tekstil üreticileriyle uzun yıllardır uzaktan çalışıyoruz. Üretim sürecinizi tanıyıp, hikâyenizi çıkarıp, doğru platformlarda doğru içerikle anlatıyoruz.
+Adana e-ticaret işletmesinin 2026 yol haritasında üç ana eksen var: ulusal marka değeri yaratan sosyal medya stratejisi, kendi e-ticaret kanalında doğrudan müşteriye satış, WhatsApp ve DM otomasyonuyla operasyon yükünü hafifletmek. PORTZEN olarak İzmir merkezliyiz ama Seyhan'dan Yüreğir'e Adana'nın gıda ve tekstil üreticileriyle uzaktan çalışma modeliyle ilerliyoruz. Üretim sürecinizi tanıyıp, hikâyenizi çıkarıp, doğru platformlarda doğru içerikle anlatıyoruz.
 
 Adana lezzetlerinizi veya ürünlerinizi Türkiye'ye satmak istiyorsanız [iletişim sayfamızdan](/iletisim) bize ulaşın. Mevcut e-ticaret kanalınızın ve sosyal medya hesaplarınızın dijital sağlık taramasını ücretsiz yapıyor, 90 günlük bir aksiyon planı sunuyoruz. Adana'nın gerçek lezzetini, gerçek bir markayla, Türkiye'nin her köşesine ulaştırmak mümkün — 2026 bunun yılı olabilir.

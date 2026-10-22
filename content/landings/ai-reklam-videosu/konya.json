@@ -15,18 +15,30 @@
     "konya before after"
   ],
   "h1": "Konya İçin AI Reklam Videosu Üretimi",
-  "heroSubtitle": "Selçuklu'dan Karatay'a, Konya mobilya markalarının ürün detayını, before-after dönüşümünü ve showroom atmosferini yansıtan AI üretimli Reels & TikTok videoları. Aylık 6-15 video.",
+  "heroSubtitle": "Selçuklu'dan Karatay'a, Konya mobilya markalarının ürün detayını, before-after dönüşümünü ve showroom atmosferini yansıtan AI üretimli Reels & TikTok videoları. Aylık 4, 12 veya 24 video.",
   "stats": [
-    {"value": "Konya", "label": "Mobilya Odak"},
-    {"value": "15 video", "label": "Aylık Max"},
-    {"value": "%70", "label": "Maliyet Azaltma"},
-    {"value": "72 saat", "label": "İlk Teslim"}
+    {
+      "value": "Konya",
+      "label": "Mobilya Odak"
+    },
+    {
+      "value": "24 video",
+      "label": "Aylık Max"
+    },
+    {
+      "value": "9:16 · 1:1 · 16:9",
+      "label": "Format"
+    },
+    {
+      "value": "Kapsama göre",
+      "label": "Teslim süresi teklifte yazılı"
+    }
   ],
   "problems": [
     "Konya mobilya markanızı ulusal pazara (İstanbul/Ankara/İzmir) açmak istiyorsunuz ama prodüksiyon ekibi İstanbul'da. Konya'ya çekim ekibi getirmek + ekipman + showroom set tek video için 50-100 bin TL'ye çıkıyor.",
     "Ürün detayınızı (kumaş dokusu, ahşap deseni, dikiş işçiliği, mekanizma) yansıtacak içerik istiyorsunuz ama İstanbul'lu ajans 'standart' mobilya çekimi yapıyor, marka kalitesi gözükmüyor.",
     "Bütçeniz aylık 25-50 bin TL; bu parayla ya 1 reklam videosu çekiliyor ya 30 günlük TikTok beslemesi yapılamıyor, ikisini birden alamıyorsunuz.",
-    "Before-after dönüşüm videosu için her seferinde showroom + müşteri evi + çekim ekibi koordinasyonu çok zor; AI ile bu sahneleri planlanmış kalitede %70 daha ucuz üretiyoruz.",
+    "Before-after dönüşüm videosu için her seferinde showroom + müşteri evi + çekim ekibi koordinasyonu çok zor; AI ile bu sahneleri koordinasyon gerektirmeden, planlanmış kalitede üretiyoruz.",
     "Reels/TikTok algoritması haftada 3-5 yeni içerik istiyor; bunu canlı çekimle yapmak imkansız, marka beslemesi düşüyor, erişim çöküyor, rakip Konya mobilyacıları öne geçiyor."
   ],
   "solutionSteps": [
@@ -44,7 +56,7 @@
     },
     {
       "title": "Teslim + Optimizasyon",
-      "description": "İlk teslim 72 saat, revize talep limiti 2. Aylık performans raporu, hangi video daha çok döndü analizi. Meta Ads + TikTok Ads reklam optimizasyonu dahil."
+      "description": "Teslim süresi kapsama göre teklifte yazılı olarak belirtilir, revize kapsamı teklifte yazılı olarak belirlenir. Aylık performans raporu, hangi video daha çok döndü analizi. Meta Ads kampanya yönetimi ayrı bir hizmet olan Reklam yönetimi ile sunulur."
     }
   ],
   "features": [
@@ -54,7 +66,7 @@
     },
     {
       "title": "Before-After Dönüşüm Animasyonu",
-      "description": "Eski salon → yeni salon, boş oda → döşenmiş oda, eski mutfak → yeni mutfak dönüşüm sahneleri AI ile sıfır çekim, premium kalite. Konya mobilya viral content'in en güçlü formatı."
+      "description": "Eski salon → yeni salon, boş oda → döşenmiş oda, eski mutfak → yeni mutfak dönüşüm sahneleri AI ile çekim yapılmadan üretilir. Mobilya içeriklerinde dönüşümü en net anlatan formatlardan biri."
     },
     {
       "title": "Showroom Tur + Ürün 360 Detay",
@@ -62,11 +74,11 @@
     },
     {
       "title": "Türkçe Seslendirme + Müzik",
-      "description": "Türkçe doğal ses (ElevenLabs), modern + klasik müzik seçenekleri. Konya muhafazakar kesim için sade, modern showroom için canlı tempolu. Yabancı pazar için İngilizce + Arapça."
+      "description": "Türkçe doğal ses (ElevenLabs), modern + klasik müzik seçenekleri. Konya muhafazakar kesim için sade, modern showroom için canlı tempolu. Yabancı pazar için İngilizce + Arapça versiyon ek iş olarak ayrıca tekliflendirilir."
     },
     {
       "title": "Meta Ads + TikTok Ads Uyumlu",
-      "description": "Üretilen videolar 9:16 dikey, 1:1 kare, 16:9 yatay - Meta/Instagram/TikTok reklamlarına direkt uygun format. Reklam dönüşüm oranı amatör videoya göre 2-3 kat yüksek."
+      "description": "Üretilen videolar 9:16 dikey, 1:1 kare, 16:9 yatay - Meta/Instagram/TikTok reklamlarına direkt uygun format. Reklam sonuçları ürüne, teklife ve bütçeye göre değişir; videolar reklamda kullanılmaya hazır teslim edilir."
     },
     {
       "title": "Uzaktan Üretim + Aylık Rapor",
@@ -74,68 +86,38 @@
     }
   ],
   "caseStudy": {
-    "title": "Konya mobilya markası: 5 ayda Instagram 18K → 95K, showroom randevu 4 kat",
+    "title": "Örnek senaryo: Ulusal pazara açılmak isteyen bir Konya mobilya markası için aylık video kurgusu",
     "paragraphs": [
-      "Selçuklu'da showroom'u olan, orta-üst segment ev mobilyası üreten bir Konya markası, ulusal pazara (İstanbul, Ankara, İzmir) açılmak istiyordu. Mevcut Instagram hesabı 18K takipçide sıkışmıştı, ayda 2-3 amatör showroom videosu paylaşılıyor, organik erişim ölmüştü. İstanbul'lu prodüksiyon ajansından video başına 60-100K TL teklif geliyordu, bütçe yetmiyordu.",
-      "PORTZEN olarak aylık 12 video çıktılı paket başlattık. Salon dönüşümü (before-after), ürün 360 detay (kumaş, ahşap, mekanizma), showroom tur, müşteri günlük yaşam sahneleri AI ile üretildi. Türkçe ses + modern müzik, Reels + TikTok + Facebook için 3 format teslim. Meta Ads + TikTok Ads ile retarget kampanya kurgulandı.",
-      "5 ay sonunda Instagram takipçi 18K'dan 95K'ya çıktı (5.3 kat artış), Reels ortalama view 320K oldu. Aylık showroom randevusu (Instagram → WhatsApp) 45'ten 180'e çıktı (4 kat). İstanbul'dan 8 toplu alım siparişi geldi (apart projesi). Toplam aylık ciro 2.1x büyüdü, AI video maliyetinin 18 katı geri döndü."
+      "Örnek bir kurulum: Selçuklu'da showroom'u olan, orta-üst segment ev mobilyası üreten ve İstanbul, Ankara, İzmir pazarına açılmak isteyen bir Konya markası düşünün. Instagram'da ara sıra amatör showroom videoları paylaşılıyor; İstanbul'dan gelen prodüksiyon teklifleri bütçeyi aşıyor.",
+      "Bu senaryoda aylık 12 videoluk kısa video paketiyle ilerlenir. Salon dönüşümü (before-after), ürün 360 detay (kumaş, ahşap, mekanizma), showroom turu ve günlük yaşam sahneleri AI ile üretilir; videolar Türkçe ses ve modern müzikle Reels, TikTok ve Facebook için pakete uygun formatlarda teslim edilir. Reklam kampanyası istenirse Reklam yönetimi hizmetiyle ayrıca kurgulanır.",
+      "Marka, showroom'a gelmeyen müşteriye ürünü detaylı gösteren düzenli bir video akışına sahip olur; yeni koleksiyon için set kurmadan içerik planlayabilir. Takipçi, randevu ve satış sonuçları ürüne, bölgeye ve reklam bütçesine göre değişir; burada rakam vaat etmiyoruz."
     ],
     "beforeAfter": [
-      {"label": "Instagram Takipçi", "before": "18K", "after": "95K (5.3x)"},
-      {"label": "Reels Ortalama View", "before": "12K", "after": "320K"},
-      {"label": "Aylık Showroom Randevu", "before": "45", "after": "180 (4x)"}
+      {
+        "label": "Video üretimi",
+        "before": "Ara sıra amatör showroom videosu",
+        "after": "Pakete göre aylık planlı AI videolar"
+      },
+      {
+        "label": "Ürün anlatımı",
+        "before": "Kumaş, ahşap ve mekanizma detayı görünmüyor",
+        "after": "360 detay ve yakın çekim sahneleri AI ile üretiliyor"
+      },
+      {
+        "label": "Before-after videosu",
+        "before": "Müşteri evi, showroom ve ekip koordinasyonu gerekiyor",
+        "after": "Dönüşüm sahneleri çekim yapılmadan AI ile üretiliyor"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "12.500 TL/ay",
-      "description": "Tek showroom, butik mobilyacı, yeni başlayan için",
-      "features": [
-        "Aylık 6 AI video (5-10 sn)",
-        "Türkçe seslendirme",
-        "Dikey (9:16) format",
-        "2 revize/video",
-        "Aylık rapor",
-        "E-posta destek"
-      ]
-    },
-    {
-      "name": "Profesyonel",
-      "price": "24.000 TL/ay",
-      "description": "Çoklu showroom mobilya markası, iç mimar studio için",
-      "features": [
-        "Aylık 12 AI video (5-15 sn)",
-        "Türkçe + İngilizce + Arapça ses",
-        "Dikey + Kare + Yatay (3 format)",
-        "Before-after dönüşüm dahil",
-        "Reels yorum stratejisi",
-        "Öncelikli destek"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Kurumsal",
-      "price": "42.000 TL/ay",
-      "description": "Ulusal mobilya markası, ihracatçı, kampanya yoğun marka için",
-      "features": [
-        "Aylık 15+ AI video",
-        "Sınırsız format + dil",
-        "Reklam optimizasyonu (Meta Ads + TikTok Ads)",
-        "Showroom 360 tur dahil",
-        "Adanmış hesap yöneticisi",
-        "SLA garantili 24 saat teslim"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "AI ile çekilen mobilya videosu gerçek mi görünüyor, müşteri fark eder mi?",
-      "answer": "2026 itibarıyla Seedance, Kling, Veo modelleri sinematik kaliteye ulaştı. Doğru prompt + post-prodüksiyon ile mobilya/iç mekan videolarında izleyicinin %95'i AI olduğunu fark etmiyor. Salon dönüşümü, ürün 360 detay gibi sahneler özellikle güçlü."
+      "answer": "2026 itibarıyla Seedance, Kling, Veo gibi modeller sinematik kaliteye yaklaştı. Doğru prompt ve post-prodüksiyonla mobilya/iç mekan videolarında oldukça gerçekçi sonuç alınabiliyor; yine de bazı detaylarda AI izleri fark edilebildiği için sahne seçimini buna göre yapıyoruz. Salon dönüşümü, ürün 360 detay gibi sahneler AI ile iyi sonuç veren konular arasında."
     },
     {
       "question": "Mevcut ürün fotoğraflarımı / showroom görsellerimi kullanabilir misiniz?",
-      "answer": "Evet. Mevcut görsel kütüphanenizi AI'ya referans olarak yüklüyoruz, marka tutarlılığı sağlıyoruz. Gerçek ürün fotoları + AI üretimli sahneler hibrit kullanımı Konya mobilyacılarda çok güçlü çalışıyor."
+      "answer": "Evet. Mevcut görsel kütüphanenizi AI'ya referans olarak yüklüyoruz, marka tutarlılığı sağlıyoruz. Gerçek ürün fotoları + AI üretimli sahnelerin hibrit kullanımı, mobilyada ürünü doğru göstermek için iyi bir yöntem."
     },
     {
       "question": "Before-after dönüşüm videosu için müşteri eviyi çekmemize gerek var mı?",
@@ -143,21 +125,21 @@
     },
     {
       "question": "Suudi Arabistan / Irak / Libya pazarı için Arapça versiyon mümkün mü?",
-      "answer": "Evet. Profesyonel paketten itibaren Arapça ses + altyazı dahil. Körfez lehçesi veya MSA tercihi sizin. Konya mobilya ihracatı için Körfez ülkelerinde Instagram content'i çok izleniyor."
+      "answer": "Evet, mümkün. Arapça seslendirme ve altyazılı versiyon paketlere standart olarak dahil değildir; ek iş olarak ayrıca tekliflendirilir. Körfez lehçesi veya MSA tercihi sizin. Konya mobilya ihracatı açısından Körfez ülkelerinde Instagram içerikleri çok izleniyor; Irak ve Libya pazarı için de lehçe seçimini hedef kitlenize göre birlikte yapıyoruz."
     },
     {
       "question": "İstanbul'lu ajansla aramda fiyat farkı bu kadar büyük mü?",
-      "answer": "Evet. İstanbul'lu prodüksiyon ajansları Konya çekimi için video başına 60-100K istiyor (ekip + ekipman + konaklama + showroom set). Biz aylık 12 video için 24K alıyoruz, video başı 2K. Maliyet farkı 30-50 kat."
+      "answer": "Çoğu durumda evet. İstanbul'dan gelen prodüksiyon ajansları Konya'da çekim için video başına 60-100 bin TL isteyebiliyor (ekip, ekipman, konaklama, showroom seti). Bizde düzenli üretim aylık kısa video paketiyle yapılır; örneğin ayda 12 video içeren Büyüme paketi {{fiyat:kisa-video:buyume}} (KDV hariç). Tek bir lansman veya kampanya filmi ise AI reklam filmi olarak proje bazlı fiyatlanır. Ekip, set ve yol masrafı olmadığı için fark çoğu zaman katlarca; kesin tutar kapsamınıza göre teklifte netleşir."
     },
     {
       "question": "Meta Ads / TikTok Ads reklamlarında bu videolar kullanılabilir mi?",
-      "answer": "Evet. Üretilen videolar Meta Ads, TikTok Ads, YouTube Shorts reklam formatlarına direkt uygun (9:16, 1:1, 16:9). Reklam dönüşüm oranı amatör videoya göre 2-3 kat yüksek."
+      "answer": "Evet. Üretilen videolar Meta Ads, TikTok Ads, YouTube Shorts reklam formatlarına direkt uygun (9:16, 1:1, 16:9). Reklam sonuçları ürüne, teklife ve bütçeye göre değişir; videolar bu reklamlarda kullanılmaya hazır şekilde teslim edilir."
     },
     {
       "question": "Konya'ya gelip showroom'da çekim yapmıyorsunuz, peki nasıl atmosferi yakalıyorsunuz?",
-      "answer": "İzmir merkezliyiz ama Konya mobilya pazarını, showroom estetiğini, müşteri beklentilerini AI'ya detaylı yüklüyoruz. Konya müşterilerimizle uzun brif yapıyoruz, mevcut showroom fotoğraflarınızı referans olarak kullanıyoruz, gerektiğinde Konya'ya seyahat ediyoruz."
+      "answer": "İzmir merkezliyiz ama Konya mobilya pazarını, showroom estetiğini, müşteri beklentilerini AI'ya detaylı yüklüyoruz. Konya'daki markalarla detaylı bir online brif görüşmesi yapıyor, mevcut showroom fotoğraflarınızı referans olarak kullanıyoruz. Saha çekimi pakete dahil değildir."
     }
   ],
   "finalCtaHeadline": "Konya mobilyasını ulusal pazara taşıyalım.",
-  "finalCtaSubtitle": "30 dakikalık ücretsiz marka brifi. Markanıza özel 3 senaryo + 1 örnek video (ücretsiz). Onaylarsanız 72 saatte ilk paket teslim."
+  "finalCtaSubtitle": "30 dakikalık ücretsiz marka brifi. Markanıza özel konsept önerisi ve net teklif. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 }

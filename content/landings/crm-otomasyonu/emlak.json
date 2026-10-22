@@ -3,18 +3,38 @@
   "sectorName": "Emlak Ofisi",
   "sectorPlural": "Emlak Ofisleri",
   "title": "Emlak Ofisleri İçin CRM Otomasyonu | Portföy + Müşteri Eşleştirme — PORTZEN",
-  "description": "Emlak ofisinize özel CRM otomasyonu. Emlakjet/Sahibinden sync, müşteri bütçe profili, portföy eşleştirme önerisi, WhatsApp randevu hatırlatma — satış ay başı 4'ten 18'e.",
-  "keywords": ["emlak crm", "emlak ofis otomasyonu", "emlakjet entegrasyon", "portföy yönetim sistemi", "emlak whatsapp otomasyon", "emlak müşteri takip sistemi", "emlak lead yönetimi"],
+  "description": "Emlak ofisinize özel CRM otomasyonu. Emlakjet/Sahibinden sync, müşteri bütçe profili, portföy eşleştirme önerisi, WhatsApp randevu hatırlatma tek sistemde.",
+  "keywords": [
+    "emlak crm",
+    "emlak ofis otomasyonu",
+    "emlakjet entegrasyon",
+    "portföy yönetim sistemi",
+    "emlak whatsapp otomasyon",
+    "emlak müşteri takip sistemi",
+    "emlak lead yönetimi"
+  ],
   "h1": "Emlak Ofisleri için CRM Otomasyonu",
-  "heroSubtitle": "Sahibinden'den portföy çekemiyorsunuz, müşteriye 10 farklı ilan WhatsApp'tan gönderiyorsunuz, hangi müşteriyle hangi portföy paylaştığınızı unutuyorsunuz. Bizim sistem portföyü otomatik çekip müşterinin bütçesine göre eşleştirme öneriyor — satışınız üçe katlanıyor.",
+  "heroSubtitle": "Sahibinden'den portföy çekemiyorsunuz, müşteriye 10 farklı ilan WhatsApp'tan gönderiyorsunuz, hangi müşteriyle hangi portföy paylaştığınızı unutuyorsunuz. Kurduğumuz sistem portföyünüzü CRM'de tek yerde tutup müşterinin bütçesine göre eşleştirme öneriyor — uygun portföy doğru müşteriye zamanında ulaşıyor.",
   "stats": [
-    {"value": "%237", "label": "Aylık Satış Artışı"},
-    {"value": "%27", "label": "Lead-Müşteri Dönüşümü"},
-    {"value": "4 hafta", "label": "Kurulum"},
-    {"value": "60 sn", "label": "Eşleştirme Hızı"}
+    {
+      "value": "Bütçe + mahalle",
+      "label": "Müşteri profili"
+    },
+    {
+      "value": "Otomatik",
+      "label": "Portföy eşleştirme önerisi"
+    },
+    {
+      "value": "Tek seferlik",
+      "label": "Kurulum bedeli"
+    },
+    {
+      "value": "WhatsApp",
+      "label": "Randevu ve tapu hatırlatma"
+    }
   ],
   "problems": [
-    "Sahibinden ve Emlakjet'teki ilanları manuel kopyalayıp WhatsApp'tan müşteriye yolluyorsunuz — günde 4 saatiniz buna gidiyor",
+    "Sahibinden ve Emlakjet'teki ilanları manuel kopyalayıp WhatsApp'tan müşteriye yolluyorsunuz — gününüzün önemli bir kısmı buna gidiyor",
     "Aynı müşteriye 3 farklı emlakçı arkadaş aynı portföyü gönderiyor — siz hangi müşteriye hangi portföyü ne zaman gönderdiniz hatırlamıyorsunuz",
     "Müşterinin bütçesi 4-5 milyon, oturma odası 3+1 istiyor, Bahçelievler'i seviyor — bu bilgileri her seferinde sorup yeniden öğreniyorsunuz, ofiste herkes ezbersiz",
     "Görüşülmüş ve gezilmiş portföyler kafanızda kalıyor, 3 ay sonra başka müşteri 'bu daireyi gezdik mi' diye soruyor — kayıt yok",
@@ -28,25 +48,25 @@
     },
     {
       "title": "2. CRM Kurulumu + Emlakjet Sync",
-      "description": "Pipedrive veya HubSpot kurulum (emlak özelinde özelleştirilmiş — mahalle, oda sayısı, m², bütçe alanları), Emlakjet ve Sahibinden API entegrasyonu — portföy değişikliği 5 dakikada CRM'e yansıyor, müşteri eşleştirme otomatik."
+      "description": "Pipedrive veya HubSpot kurulum (emlak özelinde özelleştirilmiş — mahalle, oda sayısı, m², bütçe alanları); ilan platformlarından portföy aktarımı, platformun sunduğu entegrasyon imkânı ve kullanım koşullarına göre planlanır. Portföy CRM'e girdiğinde müşteri eşleştirme otomatik."
     },
     {
       "title": "3. WhatsApp + Email Entegrasyonu",
-      "description": "WhatsApp Business API entegre — yeni müşteri lead'i geldiğinde 60 saniyede karşılama, bütçesine ve mahalle tercihine göre 5 portföy önerisi otomatik WhatsApp ile gönderiliyor. Randevu hatırlatma serisi, tapu süreci takibi de WhatsApp'tan."
+      "description": "WhatsApp Business API entegre — yeni müşteri lead'i geldiğinde otomatik karşılama mesajı, bütçesine ve mahalle tercihine göre 5 portföy önerisi otomatik WhatsApp ile gönderiliyor. Randevu hatırlatma serisi, tapu süreci takibi de WhatsApp'tan."
     },
     {
       "title": "4. Eğitim + Aylık Raporlama",
-      "description": "Tüm emlakçı ekibinize 2 saat canlı eğitim (CRM kullanımı, müşteri profil oluşturma, portföy eşleştirme), aylık dashboard: kapatılan satış, agent başı performans, en karlı mahalle, lead-müşteri dönüşümü — net sayılar."
+      "description": "Tüm emlakçı ekibinize canlı eğitim (ekip eğitimi Büyüme ve Kurumsal paketlerde dahil) (CRM kullanımı, müşteri profil oluşturma, portföy eşleştirme), aylık dashboard: kapatılan satış, agent başı performans, en karlı mahalle, lead-müşteri dönüşümü — net sayılar."
     }
   ],
   "features": [
     {
-      "title": "Emlakjet + Sahibinden API Sync",
-      "description": "Tüm portföyünüz Emlakjet/Sahibinden'den otomatik CRM'e çekiliyor, ilan güncellemesi 5 dakikada yansıyor, satılan ilan otomatik 'rezerve' işaretleniyor. Manuel kopyala-yapıştır biter, günlük 4 saat geri kazanılır."
+      "title": "Emlakjet + Sahibinden Portföy Aktarımı",
+      "description": "Portföyünüz ilan platformlarından CRM'e, platformun sunduğu entegrasyon imkânı ve kullanım koşullarına göre aktarılır; satılan ilan CRM'de 'rezerve' olarak işaretlenir. Kopyala-yapıştır işi büyük ölçüde azalır."
     },
     {
       "title": "Müşteri Bütçe Profili",
-      "description": "Her müşteriye özel profil: bütçe, kira/satılık, oda sayısı, m² aralığı, tercih ettiği mahalleler (Beylikdüzü E5, Beylikdüzü sahil, Esenyurt), aile durumu, ulaşım ihtiyacı. Müşteri tekrar aradığında 3 saniyede tüm tercihler önünüzde."
+      "description": "Her müşteriye özel profil: bütçe, kira/satılık, oda sayısı, m² aralığı, tercih ettiği mahalleler (Beylikdüzü E5, Beylikdüzü sahil, Esenyurt), aile durumu, ulaşım ihtiyacı. Müşteri tekrar aradığında tüm tercihler tek ekranda önünüzde."
     },
     {
       "title": "Portföy Eşleştirme Önerisi",
@@ -54,7 +74,7 @@
     },
     {
       "title": "Randevu + Tapu Süreci Hatırlatma",
-      "description": "Daire gezme randevusu 1 gün öncesinde otomatik WhatsApp hatırlatma, tapu randevusu için 'X tarihte saat Y'de notere lütfen aşağıdaki evraklarla gelin' otomatik checklist. Tapu sürecinde unutulan evrak sıfıra iniyor."
+      "description": "Daire gezme randevusu 1 gün öncesinde otomatik WhatsApp hatırlatma, tapu randevusu için 'X tarihte saat Y'de notere lütfen aşağıdaki evraklarla gelin' otomatik checklist. Evrak listesi müşteriye önceden ve yazılı olarak ulaşıyor."
     },
     {
       "title": "Agent Paylaşım Sistemi",
@@ -66,75 +86,48 @@
     }
   ],
   "caseStudy": {
-    "title": "Beylikdüzü'nde Bir Emlak Ofisinin 6 Aylık Dönüşümü",
+    "title": "Örnek senaryo: Beylikdüzü'nde bir emlak ofisi için portföy ve müşteri eşleştirme",
     "paragraphs": [
-      "İstanbul Beylikdüzü'nde 9 yıldır faaliyet gösteren, 4 emlakçı arkadaş + sahip olarak çalışan bir emlak ofisi, Sahibinden ve Emlakjet'te 180 aktif portföye sahipti. Lead'ler WhatsApp ve telefon üzerinden geliyor, herkes kendi defterini tutuyor, ofiste 'A daireyi sattık mı' kaosu sürekliydi. Ay başı ortalama 4 satış kapatıyorlardı, lead-müşteri dönüşüm oranı %8'di.",
-      "PORTZEN olarak Pipedrive kurulumu yaptık (emlak özelinde özel alanlar), Emlakjet ve Sahibinden API entegrasyonu kurduk (180 portföy 1 günde CRM'e geçti), WhatsApp Business API ile lead karşılama (60 sn) ve portföy eşleştirme önerisi otomasyonu ekledik. Tüm ekibe 2 saat canlı eğitim verdik. Müşteri profili (bütçe, mahalle tercihi, oda sayısı) zorunlu hale getirildi.",
-      "6 ay sonra ay başı kapatılan satış 4'ten 18'e çıktı (4.5 kat), lead-müşteri dönüşüm oranı %8'den %27'ye yükseldi. Emlakçı arkadaşlar arasındaki kaos bitti — herkes tek dashboard'dan kimin elinde ne olduğunu görüyor. Portföy eşleştirme önerisi sayesinde yeni gelen portföy ortalama 11 günde alıcı buluyordu (önce 47 gün). Aylık ciro %180 arttı."
+      "Örnek senaryo: İstanbul Beylikdüzü'nde birkaç emlakçı arkadaş ve ofis sahibiyle çalışan, Sahibinden ve Emlakjet'te çok sayıda aktif portföyü olan bir emlak ofisi düşünün. Lead'ler WhatsApp ve telefon üzerinden geliyor, herkes kendi defterini tutuyor, ofiste 'A daireyi sattık mı' kaosu sürekli.",
+      "Örnek bir kurulumda emlak özelinde alanlarla Pipedrive kurulur, portföyler platformların sunduğu imkâna göre CRM'e aktarılır, WhatsApp Business API ile otomatik lead karşılama ve portföy eşleştirme önerisi otomasyonu eklenir. Müşteri profili (bütçe, mahalle tercihi, oda sayısı) zorunlu alan yapılır; ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.",
+      "Bu kurulumla iş akışında değişen şudur: herkes tek dashboard'dan kimin elinde hangi portföy ve müşteri olduğunu görür, yeni portföy girildiğinde kriterleri uyan müşteriler otomatik listelenir, randevu ve tapu hatırlatmaları sistemden gider. Ay sonu satış ve mahalle raporu defter yerine CRM'den çıkar."
     ],
     "beforeAfter": [
-      {"label": "Ay Başı Kapatılan Satış", "before": "4", "after": "18"},
-      {"label": "Lead-Müşteri Dönüşümü", "before": "%8", "after": "%27"},
-      {"label": "Ortalama Satış Süresi (gün)", "before": "47", "after": "11"},
-      {"label": "Agent Başı Aylık Ciro", "before": "1x", "after": "2.8x"},
-      {"label": "Portföy Manuel Yönetim Saati", "before": "20 sa/hf", "after": "3 sa/hf"}
+      {
+        "label": "Portföy Takibi",
+        "before": "Herkesin kendi defterinde",
+        "after": "Tek dashboard'da, sorumlusuyla"
+      },
+      {
+        "label": "Müşteri Tercihleri",
+        "before": "Her seferinde yeniden soruluyor",
+        "after": "Müşteri profilinde kayıtlı"
+      },
+      {
+        "label": "Portföy Eşleştirme",
+        "before": "Emlakçının hafızasına bağlı",
+        "after": "Kriteri uyan müşteriler otomatik öneriliyor"
+      },
+      {
+        "label": "Ay Sonu Raporu",
+        "before": "Defter ve tahmin",
+        "after": "Agent ve mahalle bazlı CRM raporu"
+      },
+      {
+        "label": "İlan Paylaşımı",
+        "before": "İlanlar elle kopyalanıp gönderiliyor",
+        "after": "Eşleşen müşteriye tek tıkla WhatsApp"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "12.000 TL/ay",
-      "description": "1-2 emlakçılı küçük ofisler için Pipedrive + WhatsApp + temel portföy yönetimi paketi.",
-      "features": [
-        "Pipedrive CRM kurulum (emlak özelleştirilmiş)",
-        "WhatsApp Business API entegrasyonu",
-        "Lead karşılama otomasyonu (60 sn)",
-        "Basit müşteri profili",
-        "Sahibinden veya Emlakjet'ten manuel import desteği",
-        "Aylık temel rapor",
-        "2 saat canlı eğitim"
-      ]
-    },
-    {
-      "name": "Pro",
-      "price": "24.000 TL/ay",
-      "description": "Büyüyen emlak ofisleri için Emlakjet/Sahibinden tam API sync, portföy eşleştirme ve agent yönetim paketi.",
-      "features": [
-        "Başlangıç paketinin tamamı",
-        "Emlakjet + Sahibinden API tam sync",
-        "Portföy eşleştirme önerisi otomasyonu",
-        "Detaylı müşteri bütçe profili",
-        "Agent paylaşım dashboard",
-        "Randevu + tapu süreci hatırlatma",
-        "Aylık ciro + mahalle performans raporu",
-        "Sürekli optimizasyon ve destek"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Premium Emlak Paketi",
-      "price": "48.000 TL/ay",
-      "description": "Çoklu şubeli, kurumsal emlak ofisleri için özel CRM, B2B entegrasyon ve pazarlama yönetimi paketi.",
-      "features": [
-        "Pro paketinin tamamı",
-        "Çoklu şube + bölge yönetimi",
-        "Komisyon takip sistemi (agent başına)",
-        "Yatırımcı CRM (B2B emlak)",
-        "Sözleşme + e-imza entegrasyon",
-        "Reklam (Meta + Google) yönetimi dahil",
-        "Pazarlama danışmanlığı (içerik + reklam)",
-        "Aylık performans toplantısı"
-      ]
-    }
-  ],
   "faq": [
     {
-      "question": "Sahibinden API'si yok diye duydum, nasıl sync ediyorsunuz?",
-      "answer": "Doğru, Sahibinden resmi API'si açık değil. Biz onaylanmış web scraping yöntemiyle (sizin kendi ilanlarınızdan, yasal sınırlar içinde) ilan verisi çekiyoruz. Emlakjet'in resmi API'si var, oradan tam sync. Kurumsal müşteriler için ZingatPro entegrasyonu da mümkün."
+      "question": "Sahibinden API'si yok diye duydum, portföyü nasıl aktarıyorsunuz?",
+      "answer": "Doğru, Sahibinden'in herkese açık bir API'si yok. Bu nedenle Sahibinden ilanlarınızın CRM'e nasıl aktarılacağı (ör. dışa aktarım dosyası veya elle giriş), platformun kullanım koşulları dikkate alınarak brief'te planlanır. Emlakjet ve ZingatPro gibi platformlar için sundukları entegrasyon imkânı kontrol edilir ve bağlantı paketteki uygulama bağlantılarından biri olarak kurulur."
     },
     {
       "question": "WhatsApp Business API başvurusu zor mu, ne kadar sürer?",
-      "answer": "Meta onayı 5-10 iş günü. Tüm başvuru sürecini sizin adınıza biz yürütüyoruz — vergi levhası, ofise ait domain ve resmi tanım yeterli. Onay gelene kadar WhatsApp Web entegrasyonu ile geçici çözüm kullanılıyor."
+      "answer": "Onay süresi Meta'nın inceleme sürecine bağlıdır ve işletmeden işletmeye değişir. Başvuru sürecini sizinle birlikte yürütüyoruz — vergi levhası, ofise ait domain ve resmi tanım genelde istenen bilgiler. Bağlantı Meta'nın resmi WhatsApp Business API'si üzerinden kurulur; onay gelene kadar mevcut iletişim kanallarınızı kullanmaya devam edersiniz."
     },
     {
       "question": "Mevcut excel ve müşteri defterlerimi taşıyabilir misiniz?",
@@ -146,13 +139,13 @@
     },
     {
       "question": "4 emlakçı arkadaşımız var, hepsi sisteme girer mi?",
-      "answer": "Pro pakette sınırsız kullanıcı dahil. Her emlakçıya ayrı yetki tanımlayabilirsiniz — bazı portföyleri sadece bazı agentlar görsün, komisyon dağılımı net olsun. Sahip olarak tüm dashboard'a erişiminiz var."
+      "answer": "Evet, dört emlakçının hepsi sisteme dahil edilebilir. PORTZEN kurulum bedeli kullanıcı sayısına göre değil, iş akışı ve uygulama bağlantısı sayısına göre belirlenir; kullanıcı lisansları ise CRM sağlayıcısının tarifesine göre ayrıca ödenir. Her emlakçıya ayrı yetki tanımlayabilirsiniz: bazı portföyleri yalnızca bazı danışmanlar görsün, komisyon dağılımı net olsun. Sahip olarak tüm dashboard'a erişiminiz olur."
     },
     {
-      "question": "Aylık 12.000 TL'ye değiyor mu? ROI nedir?",
-      "answer": "Beylikdüzü case study örneği: ay başı 4 satış → 18 satış = 14 ekstra satış. Ortalama komisyon 80.000 TL (5 milyonluk daire %1.5 komisyon). 14 x 80.000 = 1.120.000 TL ek aylık ciro. Pro paket 24.000 TL/ay. Geri dönüş 1. haftada görünür."
+      "question": "Emlak ofisi için CRM otomasyonu yatırımına değer mi?",
+      "answer": "Kurulum bir kerelik bir yatırımdır ({{fiyatlar:is-otomasyonu}}, KDV hariç); ilk 30 gün kurulum hataları giderilir, ikinci aydan itibaren aylık bakım isteğe bağlıdır. Emlakta hesap genellikle komisyon üzerinden yapılıyor: 5 milyon TL'lik bir dairede %1,5 komisyon 75.000 TL eder, yani unutulan bir lead'in takibiyle kapanan tek bir ek satış bile ciddi fark yaratabilir. Sonuç portföyünüze, bölgenize ve ekibinizin takibine bağlıdır, belirli bir satış artışı vaat etmiyoruz."
     }
   ],
-  "finalCtaHeadline": "Portföy ile Müşteri Bulmacanız Bugün Bitsin",
-  "finalCtaSubtitle": "30 dakikalık ücretsiz ofis akış analizi — neden satış kapatma süreniz 47 gün olduğunu ve PORTZEN ile 6 ayda satışınızı nasıl 4'e katlayacağımızı konuşalım."
+  "finalCtaHeadline": "Portföy ile Müşteri Eşleştirmesini Otomatikleştirelim",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz ofis akış analizi — portföy ve müşteri takibinizin nerede aksadığını ve PORTZEN ile portföy-müşteri eşleştirmenizi nasıl otomatikleştirebileceğimizi konuşalım."
 }

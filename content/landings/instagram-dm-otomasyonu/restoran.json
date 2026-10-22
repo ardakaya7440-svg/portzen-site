@@ -2,21 +2,36 @@
   "sectorSlug": "restoran",
   "sectorName": "Restoran",
   "sectorPlural": "Restoranlar",
-
   "title": "Restoranlar İçin Instagram DM Otomasyonu | PORTZEN",
-  "description": "Restoran ve cafe'lerin Instagram DM'lerini, Reels yorumlarını ve story siparişlerini 7/24 yöneten AI sistem. Rezervasyon + paket sipariş otomasyonu.",
-  "keywords": ["restoran instagram dm botu", "cafe dm otomasyonu", "instagram rezervasyon botu", "ig paket sipariş sistemi", "restoran reels yorum yanıt", "cafe yapay zeka dm"],
-
-  "h1": "Restoranlar için Instagram DM Otomasyonu",
-  "heroSubtitle": "Reels'iniz patladı, DM'ler aktı — 'açık mısınız?', 'menü atar mısın?', 'pazar 6 kişi yer var mı?'. Cuma akşamı kimse yetişemiyor. AI asistanımız her DM'e 60 saniyede yanıt veriyor, rezervasyonu kapatıyor.",
-
-  "stats": [
-    {"value": "60 sn", "label": "DM Yanıtı"},
-    {"value": "7/24", "label": "Sürekli Aktif"},
-    {"value": "%2.7x", "label": "Sipariş Artışı"},
-    {"value": "14 gün", "label": "Kurulum"}
+  "description": "Restoran ve cafe'lerin Instagram DM'lerine, Reels yorumlarına ve story yanıtlarına anahtar kelimeye göre hazır mesajla 7/24 otomatik yanıt veren kural tabanlı sistem. Rezervasyon ve paket sipariş linki gönderimi.",
+  "keywords": [
+    "restoran instagram dm botu",
+    "cafe dm otomasyonu",
+    "instagram rezervasyon botu",
+    "ig paket sipariş sistemi",
+    "restoran reels yorum yanıt",
+    "cafe yapay zeka dm"
   ],
-
+  "h1": "Restoranlar için Instagram DM Otomasyonu",
+  "heroSubtitle": "Reels'iniz patladı, DM'ler aktı — 'açık mısınız?', 'menü atar mısın?', 'pazar 6 kişi yer var mı?'. Cuma akşamı kimse yetişemiyor. Kural tabanlı DM akışı bu sık sorulara hazır mesajlarla otomatik yanıt veriyor, menüyü ve rezervasyon linkini gönderiyor.",
+  "stats": [
+    {
+      "value": "Otomatik",
+      "label": "Hazır mesajla DM yanıtı"
+    },
+    {
+      "value": "7/24",
+      "label": "Sürekli Aktif"
+    },
+    {
+      "value": "Kural tabanlı",
+      "label": "Akış tipi"
+    },
+    {
+      "value": "Kurulum + aylık",
+      "label": "Ücret yapısı"
+    }
+  ],
   "problems": [
     "Yeni yemeğin Reels'i 80 bin görüntülenme aldı, 240 yorum + 90 DM geldi — 3 günde ancak yanıtlayabildiniz, ilgi kaçtı.",
     "Cuma 19:00 — kasiyer dolu, mutfak dolu, IG DM'e gelen 'bu akşam yer var mı?' mesajı 22:00'de görüldü, müşteri başka yere gitti.",
@@ -24,69 +39,105 @@
     "Story'ye 'menü atar mısın?' yanıtı geliyor — her birine tek tek menü yollamak günde 1 saat alıyor.",
     "Paket sipariş DM'i geliyor 'falan adres, şu siparişe ekle', mesai dışı yanıtsız kalıyor, müşteri Getir'den başka yerden alıyor."
   ],
-
   "solutionSteps": [
-    {"title": "Menü & Operasyon Brief'i", "description": "Menü, fiyat, saat, paket teslimat bölgeleri, rezervasyon kuralları AI'a tanıtılıyor. 1-2 günlük workshop."},
-    {"title": "Instagram Business API Bağlantısı", "description": "Meta resmi Graph API entegrasyonu. Sayfa güvenliği korunur, ban riski yok."},
-    {"title": "Test Dönemi", "description": "İlk 5 gün siz onaylarken yanıtlar, hatalı yanıt anında düzeltilir."},
-    {"title": "Canlı + Aylık Optimizasyon", "description": "Hangi Reels DM patlattı, hangi yemek en çok soruldu, hangi saatte rezervasyon yığıldı — pazarlama içgörüsü."}
-  ],
-
-  "features": [
-    {"title": "DM Otomatik Yanıt", "description": "Her DM 60 saniyede menü, fiyat, saat, müsaitlik bilgisi alır."},
-    {"title": "Reels Yorum Cevaplama", "description": "'Açık mı?', 'fiyat?', 'rezervasyon?' yorumlarına AI otomatik yanıt + DM açar."},
-    {"title": "Rezervasyon DM İçinde", "description": "Müşteri 'cumartesi 4 kişi 21:00' deyince AI masa müsaitliğini görür, onaylar, hatırlatma kurar."},
-    {"title": "Paket Sipariş Yönetimi", "description": "Mesai içinde sipariş alıp mutfağa fişle gönderir; mesai dışı Getir/Yemeksepeti linki atar."},
-    {"title": "Story Yanıt Otomasyonu", "description": "Story'deki yemek/menü için yanıtları okur, menü ya da rezervasyon yönlendirmesi yapar."},
-    {"title": "Açık/Kapalı & Tatil Bilgisi", "description": "'Bugün açık mısınız?', 'bayramda?' sorularına anlık ve doğru yanıt — yanlış gelen müşteri olmaz."}
-  ],
-
-  "caseStudy": {
-    "title": "Kadıköy Moda Cafe: IG DM'den ay başı 240 sipariş + 90 rezervasyon",
-    "paragraphs": [
-      "Kadıköy Moda'da bir butik cafe, Instagram'da 28 bin takipçisiyle düzenli Reels paylaşıyor, aylık ortalama 15-20 viral içerik çıkarıyordu. DM trafiği yoğundu ama yanıt veren tek garson hafta sonu sabaha kadar mesajlara dönemiyordu. Patron 'reklam aynı, gelen aynı, ama sipariş ve rezervasyon bizden değil Getir'den geliyor — komisyon yiyor' diyordu.",
-      "Şubat 2026'da PORTZEN Instagram DM otomasyonunu kurduk. 36 ürünlü menü + 4 günün özel kampanyası + rezervasyon takvimi + Getir/Yemeksepeti yedek yönlendirme entegre edildi. Reels yorumlarına otomatik DM açma açıldı.",
-      "3 ay sonra: aylık IG DM'den direkt cafe paket sipariş 90'dan 240'a (2.7x). IG DM rezervasyon 25'ten 90'a. Getir komisyon kaybı %35 azaldı çünkü mesai içi direkt müşteriden alınmaya başlandı. Hafta içi öğle doluluk %20 arttı."
-    ],
-    "beforeAfter": [
-      {"label": "DM Yanıt Süresi", "before": "4-8 saat", "after": "60 saniye"},
-      {"label": "Aylık IG Sipariş", "before": "90", "after": "240"},
-      {"label": "Aylık IG Rezervasyon", "before": "25", "after": "90"}
-    ]
-  },
-
-  "pricing": [
     {
-      "name": "Başlangıç",
-      "price": "7.500 TL/ay",
-      "description": "Tek hesap, DM yanıt + menü + saat sorgu",
-      "features": ["Instagram Business API kurulumu", "Menü + fiyat bilgi tabanı", "DM otomatik yanıt", "Manuel rezervasyon yönlendirme", "Aylık 1 optimizasyon"]
+      "title": "Menü & Operasyon Brief'i",
+      "description": "Menü, fiyat, saat, paket teslimat bölgeleri ve rezervasyon kuralları toplanıp hazır mesajlara dönüştürülür; hangi anahtar kelimenin hangi mesajı tetikleyeceği belirlenir."
     },
     {
-      "name": "Pro",
-      "price": "13.500 TL/ay",
-      "description": "Önerilen — Reels yorum + akıllı rezervasyon + paket sipariş",
-      "features": ["Başlangıç paketi içerikleri", "Reels yorum otomatik DM", "DM içinde rezervasyon sistemi", "Paket sipariş alma + mutfak fişi", "Getir / Yemeksepeti yedek yönlendirme", "Haftalık optimizasyon"],
-      "highlighted": true
+      "title": "Instagram Business API Bağlantısı",
+      "description": "Meta resmi Graph API entegrasyonu. Şifre paylaşılmaz, sayfa güvenliği korunur."
     },
     {
-      "name": "Zincir / Multi-Şube",
-      "price": "19.500 TL/ay",
-      "description": "Birden fazla şube, merkezi rezervasyon, marka koruma",
-      "features": ["Tüm Pro özellikler", "Çok şube koordinasyon", "Şube bazlı menü/fiyat", "Merkezi rezervasyon dashboard", "POS entegrasyonu (Adisyo, Logo)"]
+      "title": "Test Dönemi",
+      "description": "Yayından önce tüm mesaj metinleri onayınıza sunulur ve test hesabıyla denenir; hatalı eşleşmeler düzeltilir."
+    },
+    {
+      "title": "Canlı + Aylık Optimizasyon",
+      "description": "Hangi Reels DM patlattı, hangi yemek en çok soruldu, hangi saatte rezervasyon yığıldı — pazarlama içgörüsü."
     }
   ],
-
-  "faq": [
-    {"question": "Instagram hesabımın güvenliği etkilenir mi?", "answer": "Hayır — Meta'nın resmi Instagram Graph API'sini kullanıyoruz. Şifre vermek gibi tehlikeli yöntem yok, ban riski yok."},
-    {"question": "Reels altındaki tüm yorumlara cevap mı veriyor — spam gibi olmaz mı?", "answer": "Hayır — sadece anahtar kelime içeren yorumlara (fiyat, rezervasyon, açık mı, menü) yanıt verir. 'Çok güzel' gibi yorumlara karışmaz. İsterseniz manuel filtre eklersiniz."},
-    {"question": "Getir/Yemeksepeti komisyonunu nasıl azaltıyor?", "answer": "Mesai içinde gelen siparişi direkt sizden alır (sıfır komisyon). Sadece kapalıyken Getir'e yönlendirir. Kadıköy vakamızda komisyon kaybı %35 azaldı."},
-    {"question": "Cuma akşamı 100 DM birden geliyor, kaldırır mı?", "answer": "Evet — AI eş zamanlı sınırsız mesaj yanıtlar. Instagram Graph API'nin saatlik limiti zaten çok yüksek, normal restoran trafiği rahat altında."},
-    {"question": "Menü değişikliği yapınca güncellemek ne kadar sürer?", "answer": "Self-servis panelden 5 dakikada güncellersiniz. Yeni sezon menüsü, kampanya, çıkan ürün — anında AI'a yansır."},
-    {"question": "AI Türkçe argo / Türkçe konuşur mu?", "answer": "Evet — Kadıköy'lü, Beyoğlu'lu, Bornova'lı konuşur. Yerel dil, gastronomi tonu, sıcaklık. Robot dili yok."},
-    {"question": "Sözleşme nasıl?", "answer": "İlk ay deneme, sonra ay-ay. İstediğin ay iptal edebilirsin, taahhüt yok."}
+  "features": [
+    {
+      "title": "DM Otomatik Yanıt",
+      "description": "Anahtar kelime içeren DM'lere otomatik olarak menü, fiyat, saat ve rezervasyon bilgisini içeren hazır mesaj gider."
+    },
+    {
+      "title": "Reels Yorum Cevaplama",
+      "description": "'Açık mı?', 'fiyat?', 'rezervasyon?' yorumlarına akış otomatik yanıt verir + DM açar."
+    },
+    {
+      "title": "Rezervasyon DM İçinde",
+      "description": "Müşteri 'rezervasyon' yazınca rezervasyon sayfanızın linki gönderilir ya da kişi sayısı, gün ve saat butonlarla alınıp ekibinize iletilir; müşteriye 'talebiniz alındı' mesajı gider. Masa müsaitliğinin DM içinde kontrol edilip onaylanması AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
+    },
+    {
+      "title": "Paket Sipariş Yönetimi",
+      "description": "Mesai içinde 'paket' yazan müşteriye kendi sipariş sayfanızın veya telefon hattınızın bilgisi, mesai dışında Getir/Yemeksepeti linki gönderilir (saat bazlı kural). Siparişin mutfağa veya POS'a otomatik iletilmesi standart kapsamda değildir."
+    },
+    {
+      "title": "Story Yanıt Otomasyonu",
+      "description": "Story'ye gelen yanıtlarda 'menü', 'rezervasyon' gibi kelimeler geçtiğinde menü veya rezervasyon linki otomatik gönderilir."
+    },
+    {
+      "title": "Açık/Kapalı & Tatil Bilgisi",
+      "description": "'Bugün açık mısınız?', 'bayramda?' sorularına, sizin güncel tuttuğunuz çalışma saati ve tatil mesajlarıyla otomatik yanıt."
+    }
   ],
-
+  "caseStudy": {
+    "title": "Kadıköy Moda'da bir butik cafe için örnek kurulum",
+    "paragraphs": [
+      "Kadıköy Moda'da düzenli Reels paylaşan bir butik cafe düşünelim: DM trafiği yoğun ama yanıt veren tek kişi hafta sonu mesajlara dönemiyor. Paket siparişlerin önemli kısmı komisyonlu platformlardan geliyor; DM'den gelen talepler ise yanıtsız kalıyor.",
+      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: menü ve günün kampanyası için hazır mesajlar, rezervasyon linki, mesai içinde kendi sipariş kanalına, mesai dışında Getir/Yemeksepeti'ne yönlendiren saat bazlı kural ve Reels yorumlarına otomatik DM.",
+      "Böylece menü, saat ve rezervasyon sorularına ekip beklenmeden hazır mesajlarla yanıt verilir; mesai içinde DM'den gelen paket talebi cafe'nin kendi sipariş kanalına, mesai dışında platform linkine yönlenir. Ekip yoğun saatlerde mesaj yetiştirmek yerine servise odaklanır. Komisyon tutarına etkisi sipariş alışkanlıklarına bağlıdır; bunu kendi satış verilerinizle izlemenizi öneriyoruz."
+    ],
+    "beforeAfter": [
+      {
+        "label": "DM yanıtı",
+        "before": "Hafta sonu saatler sonra",
+        "after": "Sık sorulara hazır mesaj otomatik"
+      },
+      {
+        "label": "Paket sipariş talebi",
+        "before": "DM'de kalıyor, müşteri platforma gidiyor",
+        "after": "Mesai içinde kendi kanalınıza yönleniyor"
+      },
+      {
+        "label": "Rezervasyon talebi",
+        "before": "Elle, mesajlaşarak",
+        "after": "Rezervasyon linki otomatik gönderiliyor"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Instagram hesabımın güvenliği etkilenir mi?",
+      "answer": "Riski en aza indiriyoruz — Meta'nın resmi Instagram Graph API'sini kullanıyoruz. Şifre vermek gibi tehlikeli bir yöntem kullanılmaz."
+    },
+    {
+      "question": "Reels altındaki tüm yorumlara cevap mı veriyor — spam gibi olmaz mı?",
+      "answer": "Hayır — sadece anahtar kelime içeren yorumlara (fiyat, rezervasyon, açık mı, menü) yanıt verir. 'Çok güzel' gibi yorumlara karışmaz. İsterseniz manuel filtre eklersiniz."
+    },
+    {
+      "question": "Getir/Yemeksepeti yönlendirmesi nasıl çalışıyor?",
+      "answer": "Saat bazlı bir kural kurulur: mesai içinde 'paket' yazan müşteriye kendi sipariş kanalınızın (telefon, web sipariş sayfası) bilgisi, kapalı olduğunuz saatlerde Getir/Yemeksepeti linki gider. Bu yönlendirme komisyonlu platformlara bağımlılığı azaltmanıza yardımcı olabilir; ne ölçüde etkileyeceği müşteri alışkanlıklarına bağlıdır, bir oran vaat etmiyoruz."
+    },
+    {
+      "question": "Cuma akşamı 100 DM birden geliyor, kaldırır mı?",
+      "answer": "Genellikle evet. Kural tabanlı akışlar yoğunlukta da çalışır; otomatik yanıtlar Meta'nın gönderim limitleri dahilinde sırayla gider. Cuma akşamı gibi yoğun saatlerdeki hacmi kurulumda birlikte planlıyoruz."
+    },
+    {
+      "question": "Menü değişikliğini nasıl güncelliyoruz?",
+      "answer": "Menü veya fiyat değiştiğinde bize iletirsiniz, ilgili mesajları güncelleriz; otomasyon platformunun panelinden metinleri kendiniz de düzenleyebilirsiniz. Yeni sezon menüsü, kampanya veya çıkan ürün, güncellenen mesajla birlikte akışa yansır."
+    },
+    {
+      "question": "Mesajlar samimi, yerel bir Türkçeyle yazılabilir mi?",
+      "answer": "Evet — mesaj metinlerini restoranınızın diliyle yazıyoruz: Kadıköy, Beyoğlu ya da Bornova'daki müşterinize uygun, sıcak bir gastronomi tonu. Metinler onayınızdan geçer. Serbest sorulara AI ile aynı tonda yanıt AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
+    },
+    {
+      "question": "Sözleşme nasıl?",
+      "answer": "Instagram DM otomasyonunun bedeli kurulum + aylık hizmet bedelinden oluşur; otomasyon platformu aboneliği ayrıca ödenir. Sözleşme süresi ve iptal koşulları teklifte yazılı olarak belirtilir."
+    }
+  ],
   "finalCtaHeadline": "Reels patlatın — DM kayboldu derdi yok.",
-  "finalCtaSubtitle": "15 dakikalık ücretsiz demo: menünüzü AI'a tanıtıp canlı IG DM testi yapalım. Beğenirseniz 14 gün içinde tüm DM'leriniz otomatik."
+  "finalCtaSubtitle": "15 dakikalık tanıtım görüşmesi: menünüze uygun DM akışını örnek senaryolarla gösterelim. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 }

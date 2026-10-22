@@ -58,10 +58,10 @@ export default function BlogPaginatedPage({ params }: Props) {
   return (
     <>
       {/* HERO (kompakt — sayfa 2+ için) */}
-      <section className="relative overflow-hidden bg-paper pt-12 md:pt-16">
+      <section className="relative overflow-hidden bg-white pt-12 md:pt-16">
         <div className="mx-auto max-w-container px-6 pb-10">
           <Reveal>
-            <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-yellow px-3 py-1.5 shadow-brutal-sm mb-6">
+            <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-lime px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
               <Tag className="h-3.5 w-3.5" />
               <span className="text-xs font-black uppercase tracking-wider">
                 PORTZEN Blog · Sayfa {currentPage}/{totalPages}
@@ -85,7 +85,7 @@ export default function BlogPaginatedPage({ params }: Props) {
             <div className="mt-6 flex flex-wrap gap-2">
               <Link
                 href="/blog"
-                className="border-3 border-ink bg-paper text-ink px-3 py-1.5 text-xs font-black uppercase tracking-wider shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all"
+                className="border-3 border-ink/15 bg-paper text-ink px-3 py-1.5 text-xs font-black tracking-wider shadow-brutal-sm hover:shadow-brutal transition-all rounded-full"
               >
                 Tümü
               </Link>
@@ -94,7 +94,7 @@ export default function BlogPaginatedPage({ params }: Props) {
                   key={c.slug}
                   href={`/blog/kategori/${c.slug}`}
                   className={cn(
-                    "border-3 border-ink px-3 py-1.5 text-xs font-black uppercase tracking-wider shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal transition-all",
+                    "border-3 border-ink/15 px-3 py-1.5 text-xs font-black tracking-wider shadow-brutal-sm hover:shadow-brutal transition-all rounded-full",
                     CATEGORY_META[c.slug].bg,
                     CATEGORY_META[c.slug].text
                   )}
@@ -108,19 +108,19 @@ export default function BlogPaginatedPage({ params }: Props) {
       </section>
 
       {/* TÜM YAZILAR GRID */}
-      <section className="bg-paper pb-section">
+      <section className="bg-white pb-section">
         <div className="mx-auto max-w-container px-6">
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {posts.map((post, i) => (
               <Reveal key={post.slug} delay={i * 40}>
                 <Link
                   href={`/blog/${post.slug}`}
-                  className="group block border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full"
+                  className="group block border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl"
                 >
                   <div className="flex items-start justify-between mb-4">
                     <span
                       className={cn(
-                        "border-3 border-ink px-2 py-0.5 text-xs font-black uppercase tracking-wider shadow-brutal-sm",
+                        "border-3 border-ink/15 px-2 py-0.5 text-xs font-black tracking-wider shadow-brutal-sm rounded-full",
                         CATEGORY_META[post.category].bg,
                         CATEGORY_META[post.category].text
                       )}

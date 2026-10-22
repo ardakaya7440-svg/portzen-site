@@ -2,7 +2,7 @@
 title: "Mobil Site Hızı Nasıl Artırılır? 12 İşe Yarayan Yöntem"
 slug: "mobil-site-hizi-artirma"
 category: "web-tasarim"
-description: "Mobil site hızı nasıl artırılır? WebP, lazy load, CDN, critical CSS, defer JS dahil 12 yöntemle Lighthouse skorunuzu 90+ seviyesine taşıyın."
+description: "Mobil site hızı nasıl artırılır? WebP, lazy load, CDN, critical CSS, defer JS dahil 12 yöntemi ve mobil Lighthouse skorunu iyileştirme adımlarını öğrenin."
 keywords: ["mobil site hızı", "mobil site hızlandırma", "site hızı optimizasyonu", "lighthouse mobil skor", "WebP görsel", "lazy load", "core web vitals mobil", "pagespeed insights"]
 publishedAt: "2026-06-21"
 author: "Arda Kaya"
@@ -13,7 +13,7 @@ ogImage: "/blog/og/mobil-site-hizi-artirma.png"
 
 # Mobil Site Hızı Nasıl Artırılır? 12 İşe Yarayan Yöntem
 
-Mobil site hızı, 2026 itibarıyla bir teknik detay olmaktan çıkıp doğrudan ciroyu belirleyen tek başına en güçlü değişken haline geldi. Google'ın açıkladığı verilere göre mobil bir sayfa 3 saniyenin üzerinde yüklendiğinde ziyaretçilerin **%53'ü** sayfayı terk ediyor; yükleme süresi 1 saniyeden 5 saniyeye çıktığında ise terk oranı **%90'ın** üzerine fırlıyor. Yani site mimarisi ne kadar güzel olursa olsun, hız doğru kurgulanmamışsa kullanıcı içeriği görmeden ayrılıyor. Bu rehberde, Türkiye pazarındaki KOBİ ve orta ölçekli markalar için gerçekten işe yarayan, sahada test edilmiş 12 mobil hızlandırma yöntemini sırayla ele alacağız.
+Mobil site hızı, 2026 itibarıyla bir teknik detay olmaktan çıkıp doğrudan ciroyu belirleyen tek başına en güçlü değişken haline geldi. Google'ın açıkladığı verilere göre mobil bir sayfa 3 saniyenin üzerinde yüklendiğinde ziyaretçilerin **%53'ü** sayfayı terk ediyor; yükleme süresi 1 saniyeden 5 saniyeye çıktığında ise terk oranı **%90'ın** üzerine fırlıyor. Yani site mimarisi ne kadar güzel olursa olsun, hız doğru kurgulanmamışsa kullanıcı içeriği görmeden ayrılıyor. Bu rehberde, Türkiye pazarındaki KOBİ ve orta ölçekli markalar için gerçekten işe yarayan, yaygın olarak uygulanan 12 mobil hızlandırma yöntemini sırayla ele alacağız.
 
 ## Mobil Hız Neden Bu Kadar Kritik?
 
@@ -33,7 +33,7 @@ Bu tablo neden 0.5 saniyelik iyileştirmenin bile gerçek para olarak geri dönd
 
 ### Google'ın Sıralama Algoritmasındaki Yeri
 
-Core Web Vitals 2021'den beri sıralama faktörü, ancak 2024 INP güncellemesiyle bu metrik mobil cihazlarda çok daha sert ölçülüyor. Mobil Lighthouse skoru 50'nin altında olan bir sayfa, Google'ın "page experience" sinyalinde negatif puan alıyor ve aynı içeriği daha hızlı sunan rakibe sıralamayı kaptırıyor. Hızın SEO ile birlikte değerlendirilmesi gerektiğini [Lighthouse skoru 90+ optimizasyon rehberi](/blog/lighthouse-skoru-90-optimizasyon) yazımızda metrik bazında işledik. Mobil hız iyileştikten sonra çok kanallı sosyal trafiği bu hızlı altyapıya çekmek için profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile içerik takvimi disiplini kurmak organik dönüşümü katlıyor.
+Core Web Vitals 2021'den beri sıralama faktörü, ancak 2024 INP güncellemesiyle bu metrik mobil cihazlarda çok daha sert ölçülüyor. Mobil Lighthouse skoru 50'nin altında olan bir sayfa, Google'ın "page experience" sinyalinde negatif puan alıyor ve aynı içeriği daha hızlı sunan rakibe sıralamayı kaptırıyor. Hızın SEO ile birlikte değerlendirilmesi gerektiğini [Lighthouse skoru 90+ optimizasyon rehberi](/blog/lighthouse-skoru-90-optimizasyon) yazımızda metrik bazında işledik. Mobil hız iyileştikten sonra çok kanallı sosyal trafiği bu hızlı altyapıya çekmek için profesyonel bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile içerik takvimi disiplini kurmak, hızlanan siteye düzenli trafik akışını destekler.
 
 ## Önce Ölçüm: PageSpeed Insights ve GTmetrix
 
@@ -59,7 +59,7 @@ Bu yöntemler önem sırasına göre dizildi. İlk 6 madde tek başına bir site
 
 Geleneksel JPEG/PNG görseller bir sitenin ağırlığının ortalama **%60-70'ini** oluşturuyor. WebP, JPEG'e göre %25-35, AVIF ise %50'ye varan boyut tasarrufu sağlıyor — aynı görsel kalitesinde.
 
-Sahadan örnek: İstanbul'da çalıştığımız bir e-ticaret butiği, ana sayfasında 28 JPEG ürün görseliyle 4.8 MB ağırlığındaydı. WebP'ye geçişten sonra aynı sayfa **1.6 MB**'a düştü, LCP 4.2 saniyeden 2.1 saniyeye indi.
+Örnek senaryo: ana sayfasında onlarca JPEG ürün görseli bulunan bir e-ticaret butiğinde görseller WebP'ye çevrildiğinde sayfa ağırlığı belirgin şekilde düşer; çoğu zaman LCP öğesi olan büyük ürün görseli de daha erken yüklenir.
 
 | Format | Tipik 1200px Görsel | Tarayıcı Desteği |
 |--------|---------------------|-------------------|
@@ -87,7 +87,7 @@ Popüler CDN seçenekleri:
 - **Vercel Edge:** Next.js siteleri için sıfır konfigürasyon
 - **AWS CloudFront:** Kurumsal ölçek için
 
-Antalya'daki bir gayrimenkul ofisinin sitesinde Cloudflare aktive ettikten sonra mobil LCP **3.4s'den 1.9s'ye** indi, bu tek değişiklik organik trafikte 60 günde %22 artış getirdi.
+Örneğin yurt dışındaki bir sunucuda barınan bir gayrimenkul sitesinde Cloudflare gibi bir CDN aktive edildiğinde, statik dosyalar kullanıcıya en yakın düğümden servis edilir ve ilk bayt süresi (TTFB) ile LCP'de iyileşme beklenir; etkisi PageSpeed Insights ve CrUX verisiyle ölçülmelidir.
 
 ### 4. Critical CSS: İlk Ekrana Özel Stil
 
@@ -103,7 +103,7 @@ Bir web sayfası açıldığında tarayıcı önce CSS'in tamamını indirip iş
 - **defer:** HTML parse edildikten sonra çalışsın, sıralı kalsın
 - **async:** Mümkün olduğunca erken çalışsın, sıra önemli değil
 
-Üçüncü parti scriptler (Google Analytics, Meta Pixel, Hotjar, chat widget'ları) mutlaka `defer` veya `async` ile yüklenmeli. Bir kliniğin web sitesinde 4 üçüncü parti scripti defer ettikten sonra TBT (Total Blocking Time) **1.8s'den 240ms'ye** düştü.
+Üçüncü parti scriptler (Google Analytics, Meta Pixel, Hotjar, chat widget'ları) mutlaka `defer` veya `async` ile yüklenmeli. Örneğin bir klinik sitesinde analytics, piksel ve chat widget'ı gibi üçüncü parti scriptler defer edildiğinde, ana iş parçacığını bloklayan süre (TBT - Total Blocking Time) belirgin şekilde azalır.
 
 ### 6. HTML, CSS, JS Dosyalarını Minify Edin
 
@@ -163,36 +163,38 @@ Service worker, tarayıcıda arka planda çalışan bir script. Tekrar ziyaretle
 
 İyi yazılmış bir service worker ile tekrar ziyaret yükleme süresi **2.8 saniyeden 0.4 saniyeye** inebiliyor. E-ticaret ve içerik ağırlıklı sitelerde dönüş kullanıcı dönüşümünü ciddi şekilde artırıyor. Workbox kütüphanesi service worker yazımını çok kolaylaştırıyor.
 
-## Optimizasyon Öncesi ve Sonrası: Gerçek Karşılaştırma
+## Optimizasyon Öncesi ve Sonrası: Neler Değişir?
 
-Aşağıdaki tablo PORTZEN olarak 2025-2026 arasında optimize ettiğimiz 14 kurumsal sitenin ortalama değişimini gösteriyor.
+Aşağıdaki tablo, bir hız optimizasyonu çalışmasında her metrikte tipik olarak hangi sorunla karşılaşıldığını ve hangi adımlarla hedef aralığa çekildiğini özetliyor. Hedef eşikler Google'ın Core Web Vitals "iyi" sınırlarıdır.
 
-| Metrik | Önce (Ortalama) | Sonra (Ortalama) | İyileşme |
-|--------|------------------|-------------------|----------|
-| Mobil Lighthouse | 38 | 92 | +142% |
-| LCP | 4.8s | 1.9s | -60% |
-| INP | 380ms | 145ms | -62% |
-| CLS | 0.26 | 0.04 | -85% |
-| TBT | 1.4s | 180ms | -87% |
-| Toplam sayfa ağırlığı | 3.2 MB | 980 KB | -69% |
-| Organik trafik (90 gün) | Baz | +%47 | +%47 |
-| Mobil dönüşüm oranı | Baz | +%28 | +%28 |
+| Metrik | Optimizasyon öncesi tipik durum | Optimizasyon sonrası hedef |
+|--------|----------------------------------|-----------------------------|
+| Mobil Lighthouse | Ağır görseller ve bloklayan scriptler yüzünden düşük skor | Kritik sorunlar giderilmiş, skor düzenli izleniyor |
+| LCP | Büyük hero görseli geç yükleniyor | Google eşiği: 2,5 sn altı |
+| INP | Üçüncü parti scriptler etkileşimi geciktiriyor | Google eşiği: 200 ms altı |
+| CLS | Görseller ve fontlar sayfayı kaydırıyor | Google eşiği: 0,1 altı |
+| TBT | Ana iş parçacığı uzun süre bloklanıyor | Scriptler defer/async, gereksizler kaldırılmış |
+| Toplam sayfa ağırlığı | JPEG/PNG görseller, sıkıştırılmamış dosyalar | WebP/AVIF, minify ve Brotli ile hafifletilmiş |
+| Organik trafik | Hız sinyali ölçülmüyor | Search Console ve CrUX ile takip ediliyor |
+| Mobil dönüşüm oranı | Form ve sepet adımları ölçülmüyor | Analitikte dönüşüm noktaları tanımlı, değişim izleniyor |
 
-Sayılar gösteriyor ki, hız optimizasyonu yalnızca teknik puan kazandırmıyor; doğrudan satış ve müşteri kazanımı sağlıyor.
+Hız optimizasyonu yalnızca teknik puan için yapılmaz; ölçümleme doğru kurulduğunda hızdaki değişimin satış ve müşteri kazanımına etkisi de takip edilebilir.
 
-## Sektörel Örnekler: Hız İyileştirmesinin Pratik Etkisi
+## Örnek Senaryolar: Hız İyileştirmesi Sektöre Göre Nasıl Uygulanır?
+
+Aşağıdaki senaryolar gerçek müşteri sonuçları değil; sektörlere göre tipik sorunları ve uygulanan adımları gösteren örnek kurulumlardır.
 
 ### E-Ticaret Butik: 3 Saniye Engelinin Aşılması
 
-Kadıköy'de butik koleksiyonlar satan bir markamızın mobil sitesi Lighthouse 31 puan ve 5.2 saniye LCP ile çalışıyordu. Sepete ekleme oranı %1.8 seviyesindeydi. WebP geçişi, lazy load, critical CSS, defer JS ve Cloudflare CDN aktivasyonu sonrası LCP 1.7 saniyeye düştü, sepete ekleme oranı **%4.3'e** yükseldi. Aynı reklam bütçesiyle aylık ciro 2.4 katına çıktı.
+Örnek senaryo: butik koleksiyonlar satan bir markanın mobil sitesinde ağır ürün görselleri ve bloklayan scriptler nedeniyle ürün sayfası geç açılıyor. Önce: Ürün görselleri JPEG, tüm scriptler sayfanın başında yükleniyor, CDN yok. Sonra: Görseller WebP'ye çevriliyor, alt bölümler lazy load ile yükleniyor, critical CSS ve defer JS uygulanıyor, Cloudflare CDN aktive ediliyor. Sepete ekleme adımı analitikte ayrı bir dönüşüm noktası olarak tanımlandığı için değişimin etkisi aynı reklam bütçesi altında izlenebiliyor.
 
 ### Klinik: Randevu Formuna Ulaşma Oranı
 
-Bir estetik kliniğin sitesinde randevu formunun bulunduğu sayfa mobilde 6.1 saniyede açılıyordu. Kullanıcıların %62'si forma ulaşmadan ayrılıyordu. Font display swap, üçüncü parti script'leri defer, görselleri WebP'ye geçirme ve preconnect etiketleri sonrası sayfa 2.3 saniyede açılır oldu. Randevu formu tamamlama oranı **%2.1'den %5.7'ye** çıktı.
+Örnek senaryo: bir estetik kliniğin sitesinde randevu formunun bulunduğu sayfa mobilde yavaş açılıyor ve kullanıcıların bir kısmı forma ulaşmadan ayrılıyor. Font display swap, üçüncü parti script'lerin defer edilmesi, görsellerin WebP'ye geçirilmesi ve preconnect etiketleriyle sayfa daha erken kullanılabilir hale geliyor. Randevu formu tamamlama adımı analitikte ölçüldüğü için iyileştirmenin forma etkisi takip edilebiliyor.
 
 ### Emlak Ofisi: Listeleme Sayfası Performansı
 
-İzmir'de faaliyet gösteren bir gayrimenkul ofisinin listeleme sayfasında 40-50 ilan görseli aynı anda yükleniyor, mobilde sayfa 8 saniye sürüyordu. Lazy load, AVIF formatı, virtual scrolling ve görsel CDN entegrasyonu sonrası sayfa 1.8 saniyede tam interaktif oluyor. İlan detay sayfasına geçiş oranı **%140 artış** kaydetti.
+Örnek senaryo: bir gayrimenkul ofisinin listeleme sayfasında onlarca ilan görseli aynı anda yükleniyor ve mobilde sayfa uzun süre etkileşime kapalı kalıyor. Lazy load, AVIF formatı, virtual scrolling ve görsel CDN entegrasyonu ile yalnızca ekrandaki ilanlar yükleniyor, sayfa daha erken etkileşime açılıyor. İlan detay sayfasına geçiş oranı ölçümlemeyle izlenerek iyileştirmenin etkisi değerlendiriliyor.
 
 ## Yöntem Karşılaştırması: Hangisini Ne Zaman Uygulamalı?
 
@@ -227,10 +229,10 @@ Başlangıçta düşük zorluk + yüksek kazanç oranlı maddeleri (WebP, lazy l
 
 ## PORTZEN ile Mobil Hız Optimizasyonu
 
-PORTZEN olarak mobil hız optimizasyonunu izole bir teknik iş olarak değil, sitenin tüm satış altyapısının bir parçası olarak ele alıyoruz. Bir sitenin Lighthouse skorunu 90'a çıkarmak başlangıç noktası; asıl hedef bu skorun arkasına gerçek dönüşüm kazancını koymak. Bu yüzden hız optimizasyonu projelerimiz analitik takip kurulumu, dönüşüm noktası ölçümü ve A/B test ile birlikte ilerliyor.
+PORTZEN olarak mobil hız optimizasyonunu izole bir teknik iş olarak değil, sitenin tüm satış altyapısının bir parçası olarak ele alıyoruz. Lighthouse skorunu iyileştirmek başlangıç noktası; asıl hedef bu iyileşmenin dönüşüme etkisini ölçülebilir kılmak. Bu yüzden hız optimizasyonu projelerimiz analitik takip kurulumu, dönüşüm noktası ölçümü ve A/B test ile birlikte ilerliyor.
 
-Tipik bir hız optimizasyonu projemiz 2-4 hafta sürer ve dört aşamadan oluşur: mevcut durum tespiti (Lighthouse, GTmetrix, WebPageTest, CrUX), önceliklendirme (kazanç/zorluk matrisi), uygulama (12 yöntem + sitenize özel teknikler), ölçüm ve raporlama. Daha köklü bir yenileme planlıyorsanız [web tasarım hizmetimiz](/web-tasarim) çerçevesinde Next.js + Sanity tabanlı modern bir altyapıya geçişin maliyet/fayda analizini birlikte yapıyoruz. Konunun stratejik tarafı için [kurumsal web sitesi rehberi](/blog/kurumsal-web-sitesi-rehberi) yazımızı da incelemenizi öneririz.
+Küçük hız iyileştirmeleri web bakım paketlerindeki aylık saatler içinde yapılabilir ({{fiyatlar:web-bakim}}, KDV hariç); kapsamlı bir hız optimizasyonu projesi ise ayrıca tekliflendirilir ve dört aşamadan oluşur: mevcut durum tespiti (Lighthouse, GTmetrix, WebPageTest, CrUX), önceliklendirme (kazanç/zorluk matrisi), uygulama (12 yöntem + sitenize özel teknikler), ölçüm ve raporlama. Daha köklü bir yenileme planlıyorsanız [web tasarım hizmetimiz](/web-tasarim) çerçevesinde Next.js + Sanity tabanlı modern bir altyapıya geçişin maliyet/fayda analizini birlikte yapıyoruz. Konunun stratejik tarafı için [kurumsal web sitesi rehberi](/blog/kurumsal-web-sitesi-rehberi) yazımızı da incelemenizi öneririz.
 
-Site hızı, ertelenen ama her ay para kaybettiren bir konudur. Mobil ziyaretçinin yarısı 3 saniyede gidiyorsa, reklam bütçenizin yarısı boşa harcanıyor demektir. Doğru kurulduğunda hız optimizasyonu kendisini 30-90 gün içinde fazlasıyla amorti eden bir yatırım. Asıl soru "ne zaman yapacağız" değil, "kaç ay daha kaybedeceğiz" sorusu. Sayfa hızı düzeldikten sonra reklam tarafında da kaybı durdurmak için deneyimli bir [Meta reklam ajansı](/meta-reklam-ajansi) ile mobile-first kreatif yapısı kurmak şart.
+Site hızı, ertelenen ama her ay para kaybettiren bir konudur. Mobil ziyaretçinin yarısı 3 saniyede gidiyorsa, reklam bütçenizin yarısı boşa harcanıyor demektir. Doğru kurulduğunda ve ölçümlendiğinde hız optimizasyonu, etkisi takip edilebilen bir yatırımdır. Asıl soru "ne zaman yapacağız" değil, "kaç ay daha kaybedeceğiz" sorusu. Sayfa hızı düzeldikten sonra reklam tarafında da kaybı durdurmak için deneyimli bir [Meta reklam ajansı](/meta-reklam-ajansi) ile mobile-first kreatif yapısı kurmak şart.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

@@ -15,13 +15,13 @@ ogImage: "/blog/og/petshop-mama-abonelik-sistemi.png"
 
 Türkiye'de petshop pazarı son beş yılda neredeyse üçe katlandı, ama aynı dönemde bağımsız petshopların pazar payı küçüldü. Sebep belli: müşteri 20 kiloluk Royal Canin çuvalını Trendyol'dan yüzde 15 indirim ve aynı gün teslimatla alıyor, semt petshopuna sadece acil ihtiyaç ve hizmet için uğruyor. Oysa mama, kum ve parazit damlası gibi ürünler düzenli, tahmin edilebilir bir tüketim ritmiyle gidiyor. 25 kiloluk köpek 14 kiloluk mama çuvalını yaklaşık 6 haftada bitiriyor, 5 kiloluk kedi 2 kiloluk paketi 4 haftada tüketiyor. Bu ritmi yakaladığınızda müşterinin pazarlama maliyeti sıfıra düşüyor, yıllık ciro öngörülebilir hale geliyor.
 
-Bu yazıda petshoplar için **mama abonelik ve otomatik sipariş sistemi** nasıl kurulur, hayvan profili ve tüketim hesabı nasıl yapılır, WhatsApp ile sipariş onayı ve değişiklik nasıl yönetilir, çapraz satışla sepet ortalaması nasıl büyütülür adım adım anlatacağız. PORTZEN olarak biz İzmir başta olmak üzere Türkiye genelinde 30+ petshop ve veteriner kliniğine CRM ve abonelik altyapısı kurduk. Aşağıdaki rakamlar ve akışlar sahadan çıktı, teorik değil. Yazının sonunda kendi petshopunuzda hangi modülleri açacağınızı, kurulum maliyetinin hangi kalemlerden oluştuğunu netleştirmiş olacaksınız.
+Bu yazıda petshoplar için **mama abonelik ve otomatik sipariş sistemi** nasıl kurulur, hayvan profili ve tüketim hesabı nasıl yapılır, WhatsApp ile sipariş onayı ve değişiklik nasıl yönetilir, çapraz satışla sepet ortalaması nasıl büyütülür adım adım anlatacağız. Aşağıdaki akışlar, PORTZEN olarak petshop ve veteriner klinikleri için önerdiğimiz CRM ve abonelik altyapısının nasıl çalıştığını adım adım gösteriyor; tüketim hesapları ise yaklaşık değerlerdir ve mama markasına göre değişir. Yazının sonunda kendi petshopunuzda hangi modülleri açacağınızı, kurulum maliyetinin hangi kalemlerden oluştuğunu netleştirmiş olacaksınız.
 
 ## Petshop İçin Abonelik Modelinin Matematiği
 
 Petshop sahibinin en büyük yanılgısı abonelik sistemini "indirim verip mama satmak" olarak görmesi. Oysa abonelik aslında bir LTV (Lifetime Value) ve retention oyunu. Tek seferlik bir 14 kg Pro Plan çuvalında marjınız yüzde 18-22 bandında olabilir. Aynı müşteri size 12 ay boyunca otomatik sipariş veriyorsa, yıllık brüt ciro 8 katına çıkıyor, lojistik ve kampanya planlanabilir hale geliyor, çapraz satış ürünleri (oyuncak, kum, vitamin, parazit damlası, tasma) sepete kolayca giriyor.
 
-Saha verisine göre bağımsız petshopta aktif aboneye dönüşmüş bir müşterinin 12 aylık LTV değeri tek seferlik müşteriye göre 6-9 katı oluyor. Müşteri kazanım maliyeti (CAC) aynı kalırken gelir katlanıyor, böylece [Meta reklam ajansı](/meta-reklam-ajansi) tarafında harcadığınız her ₺ daha fazla geri dönüyor.
+Aktif aboneye dönüşmüş bir müşterinin 12 aylık LTV değeri, tek seferlik alışveriş yapan müşteriye göre doğal olarak çok daha yüksektir; çünkü aynı müşteri her periyotta yeniden sipariş verir. Müşteri kazanım maliyeti (CAC) bir kez ödenirken gelir tekrarlanır, böylece [Meta reklam ajansı](/meta-reklam-ajansi) tarafında harcadığınız her ₺ daha fazla geri dönüyor.
 
 ### Abonelik neden marjı düşürmez, yükseltir?
 
@@ -105,7 +105,7 @@ Müşteriler en sık şu üç değişikliği istiyor:
 - Paket boyu değişimi: "3 kg yerine 7 kg paket gönderin, daha sık tükeniyor"
 - Periyot değişimi: "6 hafta yerine 4 haftada bir gelsin"
 
-Bot bu üç senaryoyu otomatik anlayıp panele düşürüyor. Personel onayladığında sistem güncelleniyor, müşteriye yeni planın özeti gidiyor. Bu sayede operasyonel yük yüzde 60 azalıyor.
+Bot bu üç senaryoyu otomatik anlayıp panele düşürüyor. Personel onayladığında sistem güncelleniyor, müşteriye yeni planın özeti gidiyor. Böylece personel değişiklik taleplerini telefonda tek tek not almak yerine panelden tek tıkla onaylıyor.
 
 ### Yeni hayvan ekleme
 
@@ -113,7 +113,7 @@ Müşterinin yeni bir hayvanı olduğunda WhatsApp üzerinden "Eve yeni bir yavr
 
 ## CRM Segmentasyonu: Yaş, Mide, Kısırlaştırma, Marka
 
-Petshop CRM'inin gücü segmentasyondan geliyor. Tek tip kampanya göndermek yerine, müşterinin hayvanının özelliğine göre özelleştirilmiş mesaj gönderdiğinizde dönüşüm 3-4 kat artıyor.
+Petshop CRM'inin gücü segmentasyondan geliyor. Tek tip kampanya göndermek yerine, müşterinin hayvanının özelliğine göre özelleştirilmiş mesaj gönderdiğinizde mesaj müşteri için gerçekten anlamlı hale geliyor.
 
 ### Temel segmentler
 
@@ -130,7 +130,7 @@ Petshop CRM'inin gücü segmentasyondan geliyor. Tek tip kampanya göndermek yer
 - Senior köpek sahiplerine: "Karabaş 8 yaşında, eklem destekli Hill's Mature formülü aboneliğinize eklemek ister misiniz?"
 - Hassas mide kedi sahiplerine: "Royal Canin Sensitive serisinde yeni paket boyları geldi, mevcut aboneliğinizi güncellemek ister misiniz?"
 
-Bu segment kampanyaları aylık ciroya yüzde 15-25 ek katkı sağlıyor. CRM ve abonelik altyapısının teknik mimarisini [CRM otomasyonu](/crm-otomasyonu) sayfamızdan inceleyebilirsiniz.
+Bu segment kampanyaları, mevcut abonelere doğru zamanda doğru ek ürünü önermenin sistemli bir yoludur. CRM ve abonelik altyapısının teknik mimarisini [CRM otomasyonu](/crm-otomasyonu) sayfamızdan inceleyebilirsiniz.
 
 ## E-ticaret ve Web Sitesi Entegrasyonu
 
@@ -146,7 +146,7 @@ Petshop web sitesinde temel kategori yapısı:
 - Kemirgen ve sürüngen: yem, yatak, terraryum
 - Sağlık: parazit damlası, vitamin, şampuan, ağız bakımı
 
-Her kategoride marka filtresi (Royal Canin, Pro Plan, Brit, Hill's vb.), yaş grubu filtresi (yavru, yetişkin, senior), özel durum filtresi (hipoallerjenik, sterilize, light) olmalı. Bu filtreleme yapısı dönüşüm oranını yüzde 30-40 artırıyor.
+Her kategoride marka filtresi (Royal Canin, Pro Plan, Brit, Hill's vb.), yaş grubu filtresi (yavru, yetişkin, senior), özel durum filtresi (hipoallerjenik, sterilize, light) olmalı. Bu filtreleme yapısı, müşterinin hayvanına uygun ürünü birkaç tıkta bulmasını sağlıyor.
 
 ### Sepet ve ödeme akışı
 
@@ -204,13 +204,13 @@ Bu dört sinyal birleşince WhatsApp mesajı şu hale geliyor:
 
 - "Pamuk'un mamasıyla birlikte 5 kg kedi kumu ve hairball vitamin de eklemek ister misiniz? Sepet toplamı ₺X olacak."
 
-Bu yapı sepet ortalamasını yüzde 35-50 büyütüyor. Sepet terk eden müşterilere ne tür e-posta zincirleri kurulabileceğini [abandoned cart email şablonları](/blog/abandoned-cart-email-sablonlari) yazımızda detaylandırdık, aynı mantık WhatsApp tarafında da uygulanabilir.
+Bu yapı, ek ürün önerisini rastgele değil müşterinin geçmişine göre yaptığı için sepet ortalamasını destekler. Sepet terk eden müşterilere ne tür e-posta zincirleri kurulabileceğini [abandoned cart email şablonları](/blog/abandoned-cart-email-sablonlari) yazımızda detaylandırdık, aynı mantık WhatsApp tarafında da uygulanabilir.
 
 ## Maliyet ve Kurulum: Petshop Abonelik Sistemi Ne Tutar?
 
 Petshop abonelik ve otomatik sipariş sisteminin maliyeti, mevcut altyapınıza göre değişiyor. Sıfırdan kurulum ile mevcut sisteme entegrasyon arasında ciddi fark var.
 
-### Kurulum kalemleri ve yaklaşık fiyatlar (2026 ortalama)
+### Kurulum kalemleri ve yaklaşık piyasa fiyatları (2026 ortalama)
 
 - WhatsApp Business API kurulumu ve Meta onay: ₺6.000-12.000 tek seferlik
 - CRM ve abonelik motoru (hayvan profili, periyot, ödeme): ₺25.000-60.000 tek seferlik
@@ -220,15 +220,17 @@ Petshop abonelik ve otomatik sipariş sisteminin maliyeti, mevcut altyapınıza 
 - Aylık CRM ve abonelik altyapısı bakım: ₺2.500-7.500
 - Aylık ödeme komisyonu (iyzico/PayTR): yüzde 1,8-2,5
 
-Orta ölçekli bir petshop için toplam kurulum yaklaşık ₺60.000-120.000 arası, aylık işletme maliyeti ₺5.000-12.000 bandında çıkıyor. Aylık ek ciro 100-300 aktif abone ile ₺80.000-250.000 arasına ulaşabiliyor, yatırım geri dönüşü 3-6 ay sürüyor.
+Piyasada orta ölçekli bir petshop için toplam kurulum yaklaşık ₺60.000-120.000 arası, aylık işletme maliyeti ₺5.000-12.000 bandında çıkıyor. Yatırımın geri dönüşünü, aktif abone sayınız ve abone başına ortalama sepetiniz üzerinden hesaplamak gerekir; bu hesabı ilk görüşmede kendi verilerinizle birlikte yapıyoruz. PORTZEN'de CRM ve abonelik akışları iş otomasyonu paketleriyle tek seferlik kurulur: {{fiyatlar:is-otomasyonu}} (KDV hariç); e-ticaret sitesi gerekiyorsa {{fiyatlar:e-ticaret}} (KDV hariç).
 
 ### Aşamalı kurulum
 
 Bütçe tek seferde yeterli değilse aşamalı ilerleyebilirsiniz:
 
-- **Aşama 1 (ay 1-2)**: WhatsApp API + temel CRM + ilk 50 aboneye manuel yönetim
-- **Aşama 2 (ay 3-4)**: Otomatik tekrar sipariş motoru + web sitesi entegrasyonu
-- **Aşama 3 (ay 5-6)**: Çapraz satış otomasyonu + segment kampanyaları + raporlama
+- **Aşama 1**: WhatsApp API + temel CRM + ilk abonelerin manuel yönetimi
+- **Aşama 2**: Otomatik tekrar sipariş motoru + web sitesi entegrasyonu
+- **Aşama 3**: Çapraz satış otomasyonu + segment kampanyaları + raporlama
+
+Her aşamanın kapsamı ve teslim süresi teklifte yazılı olarak belirtilir.
 
 Bu aşamalı yaklaşım nakit akışını korurken sistemi olgunlaştırıyor.
 
@@ -256,7 +258,7 @@ Hayır. Mevcut WooCommerce, OpenCart veya Ticimax altyapınızın üzerine abone
 
 ## PORTZEN ile Petshop Abonelik Sistemi Kurmak
 
-PORTZEN olarak biz petshop ve veteriner kliniği projelerinde standart bir paket sunmuyoruz. Önce işletmenizin mevcut altyapısını, müşteri tabanınızı, satılan ana markaları ve hizmet semtinizi inceliyoruz. Sonra hangi modüllerin hangi sırayla açılması gerektiğine birlikte karar veriyoruz.
+PORTZEN olarak petshop ve veteriner kliniği projelerini standart paketlerimizle kuruyoruz; fiyatlar [fiyatlar sayfasında](/fiyatlar) açık. Önce işletmenizin mevcut altyapısını, müşteri tabanınızı, satılan ana markaları ve hizmet semtinizi inceliyoruz. Sonra hangi paketin ve modüllerin hangi sırayla açılması gerektiğine birlikte karar veriyoruz.
 
 İlk görüşmede genelde şu soruları soruyoruz:
 
@@ -267,4 +269,4 @@ PORTZEN olarak biz petshop ve veteriner kliniği projelerinde standart bir paket
 - Veteriner kliniği veya pet otel hizmetiniz var mı?
 - Hangi semtlere kurye gönderiyorsunuz?
 
-Bu soruların cevabına göre size 3 aşamalı bir yol haritası ve net bir teklif çıkarıyoruz. Petshopunuz için abonelik ve otomatik sipariş sistemi kurmayı düşünüyorsanız [iletişim](/iletisim) sayfasından bize ulaşabilirsiniz. İlk görüşme ücretsiz, sonrasında size özel bir mimari ve fiyat teklifi hazırlıyoruz. Sistem canlıya alındıktan sonra ilk 3 ay yakın takip ediyor, sipariş akışını ve müşteri geri bildirimlerini birlikte değerlendirip optimizasyon yapıyoruz.
+Bu soruların cevabına göre size 3 aşamalı bir yol haritası ve net bir teklif çıkarıyoruz. Petshopunuz için abonelik ve otomatik sipariş sistemi kurmayı düşünüyorsanız [iletişim](/iletisim) sayfasından bize ulaşabilirsiniz. İlk görüşme ücretsiz, sonrasında hangi paketlerin uyduğunu gösteren net bir teklif hazırlıyoruz. Sistem canlıya alındıktan sonra ilk 30 gün kurulum hataları giderilir; sonrasında isteğe bağlı aylık bakımla sipariş akışını izleyip iyileştirmeye devam edebiliriz.

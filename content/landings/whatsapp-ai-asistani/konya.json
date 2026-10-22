@@ -4,7 +4,7 @@
   "sectorName": "Konya",
   "sectorPlural": "Konya'daki İşletmeler",
   "title": "Konya İçin WhatsApp AI Asistanı | Mobilya Showroom + KOBİ - PORTZEN",
-  "description": "Konya'daki mobilya showroom, un fabrikası, inşaat ve KOBİ'ler için WhatsApp AI asistanı. Selçuklu'dan Karatay'a, showroom rezervasyon + bayilik takip. 14 günde kurulum.",
+  "description": "Konya'daki mobilya showroom, un fabrikası, inşaat ve KOBİ'ler için WhatsApp AI asistanı. Selçuklu'dan Karatay'a, showroom rezervasyon + bayilik takip.",
   "keywords": [
     "konya whatsapp chatbot",
     "konya whatsapp ai",
@@ -15,12 +15,24 @@
     "konya kobi otomasyon"
   ],
   "h1": "Konya İçin WhatsApp AI Asistanı",
-  "heroSubtitle": "Selçuklu'da mobilya showroom, Karatay'da tarihi ticaret, Meram'da yerleşik aile firması. Müşteri rezervasyon, bayilik takip ve B2B sorgu için Türkçe + İngilizce + Arapça WhatsApp AI sistemi. 14 günde devrede.",
+  "heroSubtitle": "Selçuklu'da mobilya showroom, Karatay'da tarihi ticaret, Meram'da yerleşik aile firması. Müşteri rezervasyon, bayilik takip ve B2B sorgu için Türkçe + İngilizce + Arapça WhatsApp AI sistemi.",
   "stats": [
-    {"value": "TR + EN + AR", "label": "3 Dil Destek"},
-    {"value": "60 sn", "label": "İlk Yanıt"},
-    {"value": "14 gün", "label": "Kurulum"},
-    {"value": "B2B", "label": "Optimize"}
+    {
+      "value": "TR + EN + AR",
+      "label": "3 Dil Destek"
+    },
+    {
+      "value": "Otomatik",
+      "label": "Mesai Dışı Yanıt"
+    },
+    {
+      "value": "Tek seferlik",
+      "label": "Kurulum"
+    },
+    {
+      "value": "B2B",
+      "label": "Optimize"
+    }
   ],
   "problems": [
     "Selçuklu'daki mobilya showroom'unuza Instagram'dan + Google'dan günde 80-150 WhatsApp talebi geliyor; 'şu kanepe stokta mı', 'showroom kaçta açık', 'randevu alabilir miyim' soruları için tek satış temsilcisi yetişemiyor, lead soğuyor.",
@@ -40,11 +52,11 @@
     },
     {
       "title": "WhatsApp Business API + ERP",
-      "description": "Resmi Meta WhatsApp Business API kurulumu, showroom rezervasyon/bayilik talep akışları, mevcut ERP (Mikro, Logo, Netsis, Akınsoft) entegrasyonu, KVKK uyumlu izin yönetimi."
+      "description": "Resmi Meta WhatsApp Business API kurulumu, showroom rezervasyon/bayilik talep akışları, mevcut ERP (Mikro, Logo, Netsis, Akınsoft) entegrasyonu, KVKK gerekliliklerini dikkate alan izin (açık rıza) yönetimi."
     },
     {
       "title": "Test + Devreye Alma",
-      "description": "Konya'daki ekibinizle 7 günlük canlı test, ince ayar, eğitim. Sonrası aylık raporlama ve sürekli iyileştirme."
+      "description": "Konya'daki ekibinizle canlı test, ince ayar, eğitim. Sonrası aylık raporlama; Büyüme ve Kurumsal paketlerde aylık iyileştirme saatleri dahil."
     }
   ],
   "features": [
@@ -54,84 +66,54 @@
     },
     {
       "title": "Mobilya Showroom Rezervasyon",
-      "description": "Müşteri 'pazar 14:00 randevu alabilir miyim' yazıyor, AI takvim görüp müsait slot öneriyor, satış temsilcisi atıyor, müşteriye hatırlatma gönderiyor. No-show oranı %35 azalıyor."
+      "description": "Müşteri 'pazar 14:00 randevu alabilir miyim' yazıyor, AI takvim görüp müsait slot öneriyor, satış temsilcisi atıyor, müşteriye hatırlatma gönderiyor. Hatırlatmalar, unutulan randevuları azaltmaya yardımcı olacak şekilde kurgulanır."
     },
     {
       "title": "Bayilik + B2B Sipariş Takip",
-      "description": "Bayilerinizden gelen 'stok sorgu', 'fiyat listesi', 'sipariş nerede' sorularına ERP'den gerçek zamanlı veri çekerek otomatik cevap. Bayi memnuniyeti +%40."
+      "description": "Bayilerinizden gelen 'stok sorgu', 'fiyat listesi', 'sipariş nerede' sorularına ERP'den gerçek zamanlı veri çekerek otomatik cevap. Bayi memnuniyetini artırmayı hedefler."
     },
     {
       "title": "Arapça + İngilizce + Türkçe",
       "description": "Suudi Arabistan, Irak, Libya, Avrupa Türkleri'nden gelen yabancı dilli mesajları otomatik algılayıp anadilde yanıt. Konya mobilya/gıda ihracatı için kritik."
     },
     {
-      "title": "KVKK Uyumlu İzin",
-      "description": "Müşteri verisi sözleşmeli, izinli toplama akışı. KVKK Kurumu'nun WhatsApp pazarlama rehberine tam uyum."
+      "title": "KVKK'ya Göre Kurgulanan İzin Akışı",
+      "description": "Müşteri verisi aydınlatma metni ve açık rıza adımıyla, izinli olarak toplanır. Akış KVKK gerekliliklerini dikkate alarak kurgulanır; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir."
     },
     {
       "title": "Uzaktan Destek + Aylık Rapor",
-      "description": "İzmir merkezli PORTZEN ekibi uzaktan tam destek, aylık konuşma sayısı/dönüşüm/lead raporu, sürekli optimizasyon."
+      "description": "İzmir merkezli PORTZEN ekibi uzaktan tam destek, aylık konuşma sayısı/dönüşüm/lead raporu; Büyüme ve Kurumsal paketlerde aylık iyileştirme."
     }
   ],
   "caseStudy": {
-    "title": "Selçuklu'da mobilya showroom: 4 ayda showroom randevusu 3 kat, no-show %35 düştü",
+    "title": "Örnek senaryo: Selçuklu'da bir mobilya showroom'u için randevu ve katalog akışı",
     "paragraphs": [
-      "Selçuklu Bosna Hersek caddesinde 1.500 m² showroom'u olan orta-üst segment bir Konya mobilya markası, Instagram + Google + referans üzerinden günde 80-150 WhatsApp talebi alıyordu. 3 satış temsilcisi yetişemiyor, mesajların %40'ı 4+ saat sonra cevaplanıyor, müşteri başka mobilyacıya gidiyordu. Showroom no-show oranı %30 seviyesindeydi (randevu alıp gelmeyenler).",
-      "PORTZEN olarak WhatsApp Business API'sini kurduk; ürün katalog otomatik gönderim, showroom rezervasyon (Google Calendar entegrasyonu), satış temsilcisi otomatik atama, 24 saat öncesi randevu hatırlatma, ERP'den stok sorgu (Akınsoft entegrasyonu) akışlarını ekledik. Türkçe + temel Arapça (ihracat için) hazırlandı.",
-      "4 ay sonunda WhatsApp ortalama yanıt süresi 4 saatten 90 saniyeye düştü. Aylık showroom randevusu 60'tan 180'e çıktı (3 kat). No-show oranı %30'dan %19'a düştü (hatırlatma sistemi). Aylık ek ciro 480.000 TL seviyesinde. Sistem ilk ayında kendini amorti etti."
+      "Örnek bir kurulumu düşünelim: Selçuklu'da büyük bir showroom'u olan orta-üst segment bir mobilya markası, Instagram, Google ve referans üzerinden yoğun WhatsApp talebi alıyor. Satış temsilcileri yetişemiyor, mesajlar saatler sonra cevaplanıyor; randevu alıp gelmeyen müşteriler de showroom planını bozuyor.",
+      "Böyle bir yapıda Meta'nın resmi WhatsApp Business API'si kurulur; ürün kataloğu otomatik gönderimi, showroom rezervasyonu (Google Calendar entegrasyonu), satış temsilcisine otomatik atama, randevudan 24 saat önce hatırlatma ve ERP'den stok sorgusu (ör. Akınsoft) akışları eklenir. Türkçe + temel Arapça (ihracat için) yanıtlar hazırlanır.",
+      "Bu kurulumda katalog ve stok soruları otomatik yanıtlanır, showroom randevusu takvime düşüp ilgili temsilciye atanır, müşteri randevudan önce hatırlatma alır. Satış temsilcileri mesaj yanıtlamak yerine showroom'daki müşteriye odaklanır."
     ],
     "beforeAfter": [
-      {"label": "WhatsApp Yanıt Süresi", "before": "4+ saat", "after": "90 saniye"},
-      {"label": "Aylık Showroom Randevu", "before": "60", "after": "180 (3x)"},
-      {"label": "No-show Oranı", "before": "%30", "after": "%19"}
+      {
+        "label": "WhatsApp Talepleri",
+        "before": "Temsilci müsait olunca yanıtlanıyor",
+        "after": "Otomatik yanıt + temsilci ataması"
+      },
+      {
+        "label": "Showroom Randevusu",
+        "before": "Telefonla, elle not ediliyor",
+        "after": "WhatsApp'tan alınıp takvime düşüyor"
+      },
+      {
+        "label": "Randevu Hatırlatma",
+        "before": "Yok",
+        "after": "24 saat önce otomatik"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "8.500 TL/ay",
-      "description": "Tek lokasyonlu KOBİ - küçük mobilyacı, un dükkanı, butik üretici için",
-      "features": [
-        "WhatsApp Business API kurulumu",
-        "Türkçe AI asistan",
-        "Aylık 1.500 konuşma",
-        "Temel sipariş/randevu akışı",
-        "Aylık rapor",
-        "E-posta destek"
-      ]
-    },
-    {
-      "name": "Profesyonel",
-      "price": "17.000 TL/ay",
-      "description": "Mobilya showroom, un fabrikası, bayilik ağı için",
-      "features": [
-        "Her şey + İngilizce + Arapça",
-        "Aylık 5.000 konuşma",
-        "ERP (Akınsoft/Mikro/Logo) entegrasyon",
-        "Showroom rezervasyon + Google Calendar",
-        "Bayilik B2B akışları",
-        "Öncelikli destek (WhatsApp)"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Kurumsal",
-      "price": "32.000 TL/ay",
-      "description": "Ulusal mobilya markası, çoklu fabrika, ihracatçı için",
-      "features": [
-        "Her şey + sınırsız konuşma",
-        "Almanca + Rusça opsiyonel",
-        "Çoklu numara yönetimi",
-        "Özel rapor dashboard",
-        "Adanmış hesap yöneticisi",
-        "SLA garantili 4 saat yanıt"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "İzmir merkezli ajans olarak Konya'da nasıl çalışıyorsunuz?",
-      "answer": "Tüm görüşmelerimiz online (Google Meet, WhatsApp). Konya'da fiziksel ofis maliyetimiz olmadığı için size %30-40 daha uygun fiyat sunuyoruz. Konya'da aktif müşterilerimiz var, referans verebiliriz. Gerektiğinde Konya'ya seyahat ediyoruz."
+      "answer": "Tüm görüşmelerimiz online (Google Meet, WhatsApp). Gerektiğinde Konya'ya seyahat ediyoruz."
     },
     {
       "question": "Selçuklu showroom'um için Akınsoft ERP entegrasyonu mümkün mü?",
@@ -143,21 +125,21 @@
     },
     {
       "question": "Bayilerimiz WhatsApp'tan sipariş verebilir mi?",
-      "answer": "Evet. Bayi 'Konya merkez bayisi, 50 çuval un sipariş' yazdığında AI bayinin profilini tanıyor (kim, hangi şehir, ödeme şartı), siparişi onaya alıp ERP'ye düşüyor. Bayi memnuniyeti çok artıyor."
+      "answer": "Evet. Bayi 'Konya merkez bayisi, 50 çuval un sipariş' yazdığında AI bayinin profilini tanıyor (kim, hangi şehir, ödeme şartı), siparişi onaya alıp ERP'ye düşüyor. Bayiler sipariş için mesai saatini beklemek zorunda kalmaz."
     },
     {
       "question": "Suudi Arabistan / Irak / Libya alıcılarımız için Arapça destek nasıl çalışır?",
       "answer": "Modern Standard Arabic (MSA) ve Körfez lehçesi destekli AI. Mobilya/gıda ihracat terminolojisi (FOB, CIF, MOQ, halal sertifika) tanımlı. Suudi müşterisi 'كم سعر هذه الأريكة' yazdığında doğru fiyat + katalog cevabı geliyor."
     },
     {
-      "question": "Konya'daki yerel ajansla aramda fiyat farkı ne kadar?",
-      "answer": "Konya yerel ajansları sadece web sitesi yapıyor; WhatsApp Business API + AI + KVKK uyum yapan ekip yok. İstanbul/Ankara ajansları aynı işi 25-40K TL/ay alıyor. Biz 8.5-17K TL/ay alıyoruz, fark 2-3 kat uygun."
+      "question": "Konya'daki yerel ajanslarla PORTZEN arasında ne fark var?",
+      "answer": "WhatsApp Business API, AI asistan ve KVKK gerekliliklerini dikkate alan izin akışını birlikte kuruyoruz. Paketlerimiz açık: {{fiyatlar:ai-musteri-asistani}} (KDV hariç). Hangi paketin uyduğunu showroom, bayi ve ihracat ihtiyaçlarınıza göre birlikte belirliyoruz."
     },
     {
-      "question": "Showroom no-show'ları nasıl azalıyor?",
-      "answer": "Randevu alındığında otomatik onay, 24 saat öncesi hatırlatma, 2 saat öncesi WhatsApp mesajı. Müşteri 'gelemiyorum' derse ekibe anında bildirim, slot başka müşteriye açılıyor. Konya mobilyacılarda no-show %30 → %19'a düşüyor."
+      "question": "Showroom no-show'larına karşı ne yapılıyor?",
+      "answer": "Randevu alındığında otomatik onay, 24 saat öncesi hatırlatma, 2 saat öncesi WhatsApp mesajı. Müşteri 'gelemiyorum' derse ekibe bildirim gider, slot başka müşteriye açılır. Böylece boşalan randevular kayda geçer ve yeniden değerlendirilebilir."
     }
   ],
   "finalCtaHeadline": "Konya'daki sisteminizi kuralım.",
-  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif görüşmesi. İşletmenizin WhatsApp trafiğine bakıp size özel yol haritası çıkaralım. 14 gün içinde Türkçe + Arapça destekli sistem devrede."
+  "finalCtaSubtitle": "30 dakikalık ücretsiz keşif görüşmesi. İşletmenizin WhatsApp trafiğine bakıp size özel yol haritası çıkaralım. Türkçe + Arapça destekli kurulumun teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 }

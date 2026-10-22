@@ -18,11 +18,13 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
+import { PricingSection } from "@/components/pricing/PricingSection";
+import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
   title: "HubSpot Alternatifi | KOBİ için Türkçe CRM — PORTZEN",
   description:
-    "HubSpot yerine PORTZEN CRM: Logo/Mikro entegre, KVKK uyumlu, Türkçe arayüz, hızlı kurulum. KOBİ için tasarlandı.",
+    "HubSpot yerine PORTZEN CRM otomasyonu: Logo/Mikro entegrasyonu, KVKK gerekliliklerini dikkate alan kurulum, Türkçe arayüz. KOBİ için tasarlandı.",
   keywords: [
     "hubspot alternatifi",
     "hubspot türkçe",
@@ -40,13 +42,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "HubSpot Alternatifi | KOBİ için Türkçe CRM — PORTZEN",
     description:
-      "HubSpot yerine Türk muhasebe entegre, KVKK uyumlu, hızlı kurulum sunan CRM alternatifi."
+      "HubSpot yerine Türk muhasebe entegrasyonlu, KVKK gereklilikleri gözetilerek kurulan CRM alternatifi."
   },
   twitter: {
     card: "summary_large_image",
     title: "HubSpot Alternatifi | PORTZEN",
     description:
-      "KOBİ'ler için tasarlanmış, Logo/Mikro entegre, KVKK uyumlu CRM otomasyonu."
+      "KOBİ'ler için tasarlanmış, Logo/Mikro entegrasyonlu, KVKK gereklilikleri gözetilerek kurulan CRM otomasyonu."
   },
   alternates: { canonical: "https://portzenai.com/hubspot-alternatifi" },
   robots: { index: true, follow: true }
@@ -60,13 +62,13 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   serviceType: "CRM Software",
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "HubSpot'un KOBİ için fazla karmaşık olduğu noktada PORTZEN; Türk muhasebe entegre, KVKK uyumlu, hızlı kurulum sunan CRM çözümü."
+    "HubSpot'un KOBİ için fazla karmaşık olduğu noktada PORTZEN; Türk muhasebe entegrasyonlu, KVKK gereklilikleri gözetilerek kurulan CRM otomasyon çözümü."
 };
 
 const faqSchema = {
@@ -78,7 +80,7 @@ const faqSchema = {
       name: "HubSpot'tan PORTZEN'e taşıma süresi ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Mevcut HubSpot CRM'inizdeki kişi + şirket + deal verilerini CSV/API ile çekip 14-21 iş gününde PORTZEN üzerinde yeniden kuruyoruz. Pipeline'lar, etiketler, custom field'lar dahil — hiçbir veri kaybolmaz."
+        text: "Mevcut HubSpot CRM'inizdeki kişi + şirket + deal verilerini CSV/API ile çekip yeni yapıda yeniden kuruyoruz; teslim süresi veri hacmi ve kapsama göre teklifte yazılı olarak belirtilir. Pipeline'lar, etiketler ve custom field'lar aktarılır; aktarım sonrası kayıtlar birlikte kontrol edilir."
       }
     },
     {
@@ -86,7 +88,7 @@ const faqSchema = {
       name: "HubSpot Starter bana yetmiyor mu, neden Pro alıyorum?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "HubSpot Starter çoğu KOBİ için kısıtlı — workflow otomasyonu yok, custom reporting yok, sequences yok. Bu özelliklerin hepsi HubSpot Pro planında başlıyor. PORTZEN'in giriş paketinde bu özelliklerin hepsi var."
+        text: "HubSpot Starter çoğu KOBİ için kısıtlı — workflow otomasyonu yok, custom reporting yok, sequences yok. Bu özelliklerin hepsi HubSpot Pro planında başlıyor. PORTZEN'de bu akışlar kullandığınız CRM üzerinde tek seferlik iş otomasyonu kurulumu olarak kurulur; iş akışı ve uygulama bağlantısı sayısı pakete göre değişir."
       }
     },
     {
@@ -94,7 +96,7 @@ const faqSchema = {
       name: "Logo, Mikro, Netsis gibi Türk muhasebe yazılımlarına entegre olur mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Logo Tiger/Go, Mikro Run/Fly, Netsis Wings için hazır webhook + API katmanımız var. Müşteri PORTZEN'de oluşturulunca otomatik Logo'da cari kartı açılır, fatura kesilince geri sync edilir. HubSpot'ta hiçbiri yok."
+        text: "Evet, yazılımın API/web servis erişimine bağlı olarak kurulabilir. Örneğin CRM'de müşteri oluşturulunca Logo'da cari kart otomatik açılır, fatura kesilince bilgi geri aktarılır. Hangi yazılım ve sürümün bağlanacağı teklifte yazılı olarak belirtilir. HubSpot'ta bu entegrasyonlar hazır gelmez."
       }
     },
     {
@@ -102,7 +104,7 @@ const faqSchema = {
       name: "KVKK aydınlatma ve veri lokalizasyonu nasıl?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "PORTZEN tüm verileri Türkiye lokasyonlu sunucularda saklar. KVKK aydınlatma metni, açık rıza akışı, veri silme talep formu ve VERBİS kayıt desteği paket dahil. HubSpot ABD/AB sunucu kullanır, KVKK uyum yükümlülüğü tamamen sizindir."
+        text: "Veriler sizin seçtiğiniz CRM'de ve sunucuda tutulur; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir (CRM, sunucu ve harici yazılım lisansları hariçtir). Açık rıza ve aydınlatma adımları otomasyon akışına eklenebilir; KVKK kapsamındaki işler teklifte yazılı olarak belirtilir. HubSpot ABD/AB sunucu kullanır; KVKK akışlarını kendiniz kurmanız gerekir."
       }
     },
     {
@@ -110,7 +112,7 @@ const faqSchema = {
       name: "Aylık değişim/güncelleme kapsamı ne?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Anlaşma kapsamında yeni özel alan ekleme, yeni pipeline tanımlama, otomasyon güncelleme dahildir. Büyük yeniden yapılandırma talepleri ayrı teklif olarak ele alınır."
+        text: "Kurulum tek seferliktir ve ilk 30 gün kurulum hatalarının giderilmesi dahildir. Sonrasında yeni özel alan ekleme, yeni pipeline tanımlama ve otomasyon güncellemeleri isteğe bağlı aylık bakım kapsamında ele alınır. Büyük yeniden yapılandırma talepleri ayrı teklif olarak ele alınır."
       }
     },
     {
@@ -118,7 +120,7 @@ const faqSchema = {
       name: "Türkçe destek nasıl çalışıyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "WhatsApp + telefon + e-mail üzerinden Türkçe canlı destek, aynı gün dönüş. HubSpot'un sadece İngilizce chat ve e-mail desteği (Türkçe seçeneği Enterprise plana özel) yerine gerçek insan."
+        text: "WhatsApp + telefon + e-mail üzerinden Türkçe destek; mesajlara en kısa sürede dönüş yapıyoruz, destek kapsamı teklifte yazılı olarak belirtilir. HubSpot'un sadece İngilizce chat ve e-mail desteği (Türkçe seçeneği Enterprise plana özel) yerine gerçek insan."
       }
     },
     {
@@ -126,7 +128,7 @@ const faqSchema = {
       name: "WhatsApp + e-mail + form — hepsi CRM'e düşer mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Resmi WhatsApp Business API, e-mail (IMAP/SMTP), web formları, Instagram DM ve telefon kayıtları otomatik CRM'e düşer. HubSpot'ta WhatsApp Conversations sadece Marketing Hub Professional+ planda vardır."
+        text: "Evet. Resmi WhatsApp Business API, e-mail (IMAP/SMTP), web formları, Instagram DM ve telefon kayıtları otomatik CRM'e düşer; bağlanacak kanal ve uygulama sayısı seçilen pakete göre belirlenir. HubSpot'ta WhatsApp Conversations sadece Marketing Hub Professional+ planda vardır."
       }
     }
   ]
@@ -148,8 +150,8 @@ const breadcrumbSchema = {
 
 const stats = [
   { metric: "Sade", label: "KOBİ için tasarım" },
-  { metric: "21 gün", label: "Kurulum + veri taşıma" },
-  { metric: "KVKK", label: "TR sunucu + aydınlatma" },
+  { metric: "Tek sefer", label: "Kurulum + veri taşıma" },
+  { metric: "KVKK", label: "Aydınlatma + açık rıza akışı" },
   { metric: "WhatsApp", label: "Native entegre" }
 ];
 
@@ -181,16 +183,16 @@ const painPoints = [
 ];
 
 const comparisonRows = [
-  { feature: "Ticari model", manychat: "Kullanıcı başı + eklenti bazlı", portzen: "Kapsam bazlı, brief görüşmesinde net" },
-  { feature: "Türkçe canlı destek", manychat: "Enterprise plana özel", portzen: "Tüm paketlerde dahil" },
-  { feature: "Türk muhasebe entegre", manychat: "Yok (custom dev gerekir)", portzen: "Logo/Mikro/Netsis hazır" },
-  { feature: "KVKK paketi", manychat: "Sizin sorumluluğunuzda", portzen: "Tam paket dahil" },
-  { feature: "WhatsApp Business API resmi", manychat: "Üst planlara özel", portzen: "Giriş paketinde dahil" },
-  { feature: "Kurulum süresi", manychat: "4-8 hafta self-onboarding", portzen: "14-21 gün full kurulum" },
-  { feature: "Ekip eğitimi", manychat: "Self-service Academy (İng)", portzen: "Canlı Türkçe eğitim dahil" },
-  { feature: "Sözleşme süresi", manychat: "Yıllık peşin tercih edilir", portzen: "Aylık esnek" },
-  { feature: "Veri lokalizasyonu", manychat: "ABD/AB sunucu", portzen: "Türkiye sunucu opsiyonu" },
-  { feature: "Ek modül kuralı", manychat: "Var (Marketing, Service, vs.)", portzen: "Yok — pakette her şey dahil" }
+  { feature: "Ticari model", manychat: "Kullanıcı başı + eklenti bazlı", portzen: "Tek seferlik kurulum + isteğe bağlı bakım" },
+  { feature: "Türkçe canlı destek", manychat: "Enterprise plana özel", portzen: "Türkçe destek; kapsam teklifte yazılı" },
+  { feature: "Türk muhasebe entegre", manychat: "Yok (custom dev gerekir)", portzen: "Logo/Mikro/Netsis; API erişimine göre" },
+  { feature: "KVKK paketi", manychat: "Sizin sorumluluğunuzda", portzen: "Kurulumda yapılandırılır, teklifte yazılı" },
+  { feature: "WhatsApp Business API resmi", manychat: "Üst planlara özel", portzen: "Bağlantı sayısı pakete göre" },
+  { feature: "Kurulum süresi", manychat: "4-8 hafta self-onboarding", portzen: "Kapsama göre, teklifte yazılı" },
+  { feature: "Ekip eğitimi", manychat: "Self-service Academy (İng)", portzen: "Büyüme ve Kurumsal pakette dahil" },
+  { feature: "Sözleşme süresi", manychat: "Yıllık peşin tercih edilir", portzen: "Teklifte yazılı" },
+  { feature: "Veri lokalizasyonu", manychat: "ABD/AB sunucu", portzen: "Sağlayıcı ve bölge teklifte yazılı" },
+  { feature: "Ek modül kuralı", manychat: "Var (Marketing, Service, vs.)", portzen: "Paket kapsamı yazılı; lisanslar hariç" }
 ];
 
 const solutionSteps = [
@@ -202,12 +204,12 @@ const solutionSteps = [
   {
     icon: Sparkles,
     title: "Kurulum",
-    description: "Pipeline, custom field, otomasyon ve KVKK aydınlatma akışları 7-10 günde kurulur."
+    description: "Pipeline, custom field, otomasyon ve KVKK aydınlatma akışları kurulur; teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
   },
   {
     icon: BookOpen,
     title: "Eğitim",
-    description: "Ekibinize 4 saatlik canlı Türkçe eğitim — panel kullanımı, deal yönetimi, raporlama."
+    description: "Büyüme ve Kurumsal paketlerde ekibinize canlı Türkçe eğitim — panel kullanımı, deal yönetimi, raporlama."
   },
   {
     icon: CheckCircle2,
@@ -217,84 +219,43 @@ const solutionSteps = [
 ];
 
 const features = [
-  { icon: TrendingUp, title: "Pipeline + deal yönetimi", desc: "Sürükle-bırak pipeline, otomatik stage geçişi, kazanma/kaybetme analizi — HubSpot Pro'daki özelliklerin hepsi giriş paketinde." },
+  { icon: TrendingUp, title: "Pipeline + deal yönetimi", desc: "Sürükle-bırak pipeline, otomatik stage geçişi, kazanma/kaybetme analizi — kullandığınız CRM üzerinde kurulur; iş akışı sayısı pakete göre değişir." },
   { icon: MessageCircle, title: "WhatsApp + e-mail birleşik kutu", desc: "Resmi WhatsApp Business API, e-mail, web form, IG DM — tek panelde. HubSpot'ta sadece üst planlarda gelir." },
-  { icon: Building2, title: "Logo/Mikro/Netsis entegre", desc: "Müşteri PORTZEN'de açılınca Logo'da cari kart otomatik oluşur. Fatura geri sync olur. Tek veri kaynağı." },
-  { icon: ShieldCheck, title: "KVKK paketi dahil", desc: "Türkiye sunucu, açık rıza akışı, veri silme talep formu, VERBİS kayıt desteği — paket dahil." },
-  { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon ile aynı gün dönüş. Tüm paketlerde, Enterprise'a yükselmeden." },
-  { icon: Languages, title: "Türkçe panel + eğitim", desc: "Türkçe arayüz, Türkçe video kütüphane, 4 saatlik canlı kurulum eğitimi paket dahil." }
+  { icon: Building2, title: "Logo/Mikro/Netsis entegre", desc: "CRM'de müşteri açılınca Logo'da cari kart otomatik oluşturulur, fatura bilgisi geri aktarılır. Bağlanacak yazılım ve sürüm teklifte belirtilir." },
+  { icon: ShieldCheck, title: "KVKK akışları", desc: "Açık rıza akışı ve veri silme talep formu otomasyona eklenebilir; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir." },
+  { icon: HeadphonesIcon, title: "Türkçe canlı destek", desc: "WhatsApp + telefon + e-posta ile Türkçe iletişim; en kısa sürede dönüş yapıyoruz. Destek ve bakım kapsamı teklifte yazılı olarak belirtilir." },
+  { icon: Languages, title: "Türkçe panel + eğitim", desc: "Türkçe arayüz ve Türkçe video kütüphane; canlı ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir." }
 ];
 
-const packages = [
-  {
-    name: "Başlangıç",
-    color: "bg-paper",
-    features: [
-      "5 kullanıcıya kadar",
-      "Sınırsız kişi + şirket + deal",
-      "2 pipeline + 10 otomasyon",
-      "WhatsApp + e-mail kutusu",
-      "KVKK paketi dahil"
-    ],
-    cta: "Görüşme Al"
-  },
-  {
-    name: "Pro",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "15 kullanıcıya kadar",
-      "Sınırsız pipeline + otomasyon",
-      "Logo/Mikro/Netsis hazır entegre",
-      "Sequence + lead scoring",
-      "Custom report + dashboard",
-      "Haftalık optimizasyon"
-    ],
-    cta: "Görüşme Al"
-  },
-  {
-    name: "Kurumsal",
-    color: "bg-paper",
-    features: [
-      "Sınırsız kullanıcı",
-      "Self-hosted TR sunucu (KVKK)",
-      "Özel API geliştirme",
-      "Adanmış proje yöneticisi",
-      "SLA + 7/24 öncelikli destek",
-      "Aylık detaylı analiz raporu"
-    ],
-    cta: "Görüşme Al"
-  }
-];
 
 const faqs = [
   {
     q: "HubSpot'tan PORTZEN'e taşıma süresi ne kadar?",
-    a: "Veri hacmine bağlı. 5.000 kişi altı için 14 gün, 20.000+ kişi için 21 gün tipik. HubSpot API'sinden kişi + şirket + deal + activity history çekilip PORTZEN'e eşleniyor. Pipeline aşamaları, custom field'lar, etiketler ve aktivite kayıtları korunur."
+    a: "Veri hacmine ve kapsama bağlı; teslim süresi teklifte yazılı olarak belirtilir. HubSpot API'sinden kişi + şirket + deal + activity history çekilip yeni yapıya eşleniyor. Pipeline aşamaları, custom field'lar, etiketler ve aktivite kayıtları korunur."
   },
   {
     q: "HubSpot Starter bana yetmiyor mu, neden Pro alıyorum?",
-    a: "HubSpot Starter çoğu KOBİ için kısıtlı — workflow otomasyonu yok, custom reporting yok, sequences yok, A/B test yok, conversation routing yok. Bu özelliklerin hepsi Pro planında başlıyor. PORTZEN'in giriş paketinde bu özelliklerin tamamı dahildir."
+    a: "HubSpot Starter çoğu KOBİ için kısıtlı — workflow otomasyonu yok, custom reporting yok, sequences yok, A/B test yok, conversation routing yok. Bu özelliklerin hepsi Pro planında başlıyor. PORTZEN'de bu akışlar kullandığınız CRM üzerinde tek seferlik iş otomasyonu kurulumu olarak kurulur; iş akışı ve uygulama bağlantısı sayısı pakete göre değişir."
   },
   {
     q: "Logo, Mikro, Netsis gibi Türk muhasebe yazılımlarına entegre olur mu?",
-    a: "Evet. Logo Tiger/Go, Mikro Run/Fly, Netsis Wings için hazır webhook + REST API katmanımız var. Müşteri PORTZEN'de oluşturulunca otomatik Logo'da cari kartı açılır, deal kapanınca otomatik fatura kesilir, fatura ödemesi geri PORTZEN'e sync edilir. HubSpot App Marketplace'de bu entegrasyonların hiçbiri yoktur."
+    a: "Evet, yazılımın API/web servis erişimine bağlı olarak kurulabilir. Örneğin CRM'de müşteri oluşturulunca Logo'da cari kart otomatik açılır, deal kapanınca fatura oluşturulur, ödeme bilgisi CRM'e geri aktarılır. Hangi yazılım ve sürümün bağlanacağı teklifte yazılı olarak belirtilir. HubSpot App Marketplace'de bu entegrasyonların hiçbiri yoktur."
   },
   {
     q: "KVKK aydınlatma ve veri lokalizasyonu nasıl?",
-    a: "PORTZEN tüm verileri Türkiye lokasyonlu sunucularda saklar (Pro+ paketlerde isteğe bağlı self-hosted da var). KVKK aydınlatma metni, açık rıza akışı, veri silme talep formu (KVKK Madde 11), VERBİS kayıt desteği ve veri ihlal bildirim prosedürü paket dahildir. HubSpot ABD/AB sunucu kullanır; KVKK uyum yükümlülüğü tamamen sizdedir."
+    a: "Veriler sizin seçtiğiniz CRM'de ve sunucuda tutulur; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir (CRM, sunucu ve harici yazılım lisansları hariçtir). Açık rıza akışı ve veri silme talep formu (KVKK Madde 11) otomasyon akışına eklenebilir; KVKK kapsamındaki işler teklifte yazılı olarak belirtilir. HubSpot ABD/AB sunucu kullanır; KVKK akışlarını kendiniz kurmanız gerekir."
   },
   {
     q: "Fiyat nasıl belirleniyor?",
-    a: "Fiyat, ihtiyacına göre kişiselleştiriliyor. 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz."
+    a: `İş otomasyonu kurulumu tek seferliktir (KDV hariç): ${familyPriceSummary("is-otomasyonu")}. İsteğe bağlı aylık bakım ikinci aydan itibaren ${maintenanceSummary()}. CRM lisansı hariçtir.`
   },
   {
     q: "Türkçe destek nasıl çalışıyor?",
-    a: "WhatsApp + telefon + e-mail üzerinden Türkçe canlı destek, mesai saatlerinde aynı gün, acil durumlarda 7/24 (Kurumsal pakette). HubSpot'un Türkçe canlı desteği sadece Enterprise planda var; diğer planlarda chat sadece İngilizcedir."
+    a: "WhatsApp + telefon + e-mail üzerinden Türkçe destek; mesai saatlerinde en kısa sürede dönüş yapıyoruz. HubSpot'un Türkçe canlı desteği sadece Enterprise planda var; diğer planlarda chat sadece İngilizcedir."
   },
   {
     q: "WhatsApp + e-mail + form — hepsi CRM'e düşer mi?",
-    a: "Evet. Resmi WhatsApp Business API (Meta iş ortağı), e-mail (IMAP/SMTP), web formları, Instagram DM, telefon kayıtları (CTI entegrasyonu) — hepsi tek panelden takip edilir. HubSpot'ta WhatsApp Conversations sadece Marketing Hub Professional+ planda vardır; PORTZEN'de giriş paketinde dahildir."
+    a: "Evet. Meta'nın resmi WhatsApp Business API'si, e-mail (IMAP/SMTP), web formları, Instagram DM, telefon kayıtları (CTI entegrasyonu) — hepsi tek panelden takip edilir. HubSpot'ta WhatsApp Conversations sadece Marketing Hub Professional+ planda vardır; PORTZEN'de bağlanacak kanal ve uygulama sayısı seçilen pakete göre belirlenir."
   }
 ];
 
@@ -306,7 +267,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -319,32 +280,32 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-purple text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Users className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">HubSpot Alternatifi</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   HubSpot Alternatifi: KOBİ için Türk Muhasebeye Entegre CRM
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  HubSpot CRM ücretsiz görünür, ama gerçek özellikler Pro planında başlar — KOBİ için orantısız. PORTZEN, HubSpot Pro'nun tüm özelliklerini Türk muhasebeye entegre, KVKK uyumlu ve Türkçe destekli olarak sunar.
+                  HubSpot CRM ücretsiz görünür, ama gerçek özellikler Pro planında başlar — KOBİ için orantısız. PORTZEN, ihtiyacınız olan satış otomasyonlarını Türk muhasebeye entegre, KVKK gerekliliklerini dikkate alarak ve Türkçe destekle kurar.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <Link
                     href="/crm-otomasyonu"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     CRM Otomasyonu <ArrowUpRight className="h-4 w-4" />
                   </Link>
@@ -358,8 +319,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-purple text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-3xl md:text-4xl font-black leading-none mb-2">
@@ -375,12 +336,12 @@ export default function Page() {
       </section>
 
       {/* 2. NEDEN ALTERNATİF */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
-                HubSpot'un KOBİ için 6 zayıflığı
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
+                HubSpot&apos;un KOBİ için 6 zayıflığı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
                 HubSpot ücretsiz başlıyor ama gerçek özellikler Pro planında.
@@ -390,8 +351,8 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {painPoints.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5] h-full">
-                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-paper bg-brand-purple text-paper mb-4">
+                <div className="border-3 border-ink/10 bg-light p-5 h-full rounded-2xl">
+                  <div className="inline-flex items-center justify-center w-10 h-10 border-3 border-ink/10 bg-slate text-white mb-4 rounded-full">
                     <X className="h-5 w-5" />
                   </div>
                   <h3 className="font-display text-lg font-black mb-2">{p.title}</h3>
@@ -404,11 +365,11 @@ export default function Page() {
       </section>
 
       {/* 3. KARŞILAŞTIRMA TABLOSU */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Yan yana karşılaştırma
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -418,12 +379,12 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">HubSpot Pro</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -436,7 +397,7 @@ export default function Page() {
                           <span className="text-xs">{row.manychat}</span>
                         </div>
                       </td>
-                      <td className="p-4 text-center text-sm bg-brand-yellow/30 text-ink">
+                      <td className="p-4 text-center text-sm bg-light text-ink">
                         <div className="flex flex-col items-center gap-1">
                           <Check className="h-4 w-4 text-green-700" />
                           <span className="text-xs font-bold">{row.portzen}</span>
@@ -450,22 +411,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={200}>
             <p className="mt-6 text-sm text-ink/60 max-w-2xl">
-              <strong>Kaynak:</strong> HubSpot özellik ve modül bilgileri hubspot.com/products'tan, karşılaştırma PORTZEN müşteri taşıma deneyimlerinden derlenmiştir.
+              <strong>Kaynak:</strong> HubSpot özellik ve modül bilgileri hubspot.com/products&apos;tan, PORTZEN sütunu paket kapsamına göre hazırlanmıştır.
             </p>
           </Reveal>
         </div>
       </section>
 
       {/* 4. PORTZEN ÇÖZÜMÜ */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-green text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Taşıma süreci
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                HubSpot'tan 21 günde nasıl çıkarsınız?
+                HubSpot&apos;tan 4 adımda nasıl çıkarsınız?
               </h2>
             </div>
           </Reveal>
@@ -474,8 +435,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -489,15 +450,15 @@ export default function Page() {
       </section>
 
       {/* 5. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                PORTZEN'in farkı
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+                PORTZEN&apos;in farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                HubSpot Pro'da ekstra ödediğiniz 6 özellik
+                HubSpot Pro&apos;da ekstra ödediğiniz 6 özellik
               </h2>
             </div>
           </Reveal>
@@ -506,7 +467,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -519,16 +480,16 @@ export default function Page() {
       </section>
 
       {/* 6. CASE STUDY */}
-      <section className="bg-brand-purple text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Gerçek bir taşıma: Ankara danışmanlık firması
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek senaryo: danışmanlık firması
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              HubSpot Starter'dan PORTZEN'e — lead-müşteri dönüşümü %14'ten %38'e.
+              Örnek senaryo: HubSpot Starter&apos;dan PORTZEN kurulumuna geçiş nasıl işler?
             </h2>
           </Reveal>
 
@@ -536,36 +497,36 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Ankara Çankaya'da 12 kişilik bir mali müşavirlik + danışmanlık firması 2 yıldır HubSpot Starter + Marketing Hub Starter kullanıyordu. Ama workflow ve sequences olmadığı için manuel takip yapıyorlardı. Pro'ya geçmek istediler; ancak lisans + kullanıcı başı marketing eklentileri KOBİ bütçesi için orantısız kalıyordu.
+                  Bu örnek senaryoda 12 kişilik bir mali müşavirlik + danışmanlık firması HubSpot Starter + Marketing Hub Starter kullanıyor. Workflow ve sequences olmadığı için takip manuel yapılıyor. Pro&apos;ya geçmek isteniyor; ancak lisans + kullanıcı başı marketing eklentileri KOBİ bütçesi için orantısız kalıyor.
                 </p>
                 <p>
-                  3 ana sorun vardı: (1) Lead'ler HubSpot'a düşüyor ama Logo Tiger'a cari kartı açmak için her seferinde manuel veri girişi yapıyorlardı — günde 10-15 lead, ayda yüzlerce saat kayıp, (2) Lead scoring olmadığı için ekip hangi lead'in sıcak olduğunu bilmiyor, hepsine aynı zamanı veriyordu, (3) KVKK aydınlatma metni bir form üzerinden alınıyordu ama HubSpot'ta açık rıza akışı kurulu değildi, denetim ihtiyacında zor durumda kaldılar.
+                  3 ana sorun var: (1) Lead&apos;ler HubSpot&apos;a düşüyor ama Logo Tiger&apos;da cari kart açmak için her seferinde manuel veri girişi yapılıyor, (2) Lead scoring olmadığı için ekip hangi lead&apos;in sıcak olduğunu bilmiyor, hepsine aynı zamanı veriyor, (3) KVKK aydınlatma metni bir form üzerinden alınıyor ama açık rıza akışı kurulu değil.
                 </p>
                 <p>
-                  21 günde tüm CRM'lerini PORTZEN'e taşıdık: 3.200 kişi + 480 deal + tüm aktivite history. Logo Tiger entegrasyonunu hazır webhook ile bağladık (PORTZEN'de yeni müşteri = Logo'da otomatik cari kart). Lead scoring kurduk (5 kriter: kaynak, sektör, bütçe aralığı, etkileşim, son temas), ekip artık sadece skoru 70+ lead'lerle ilgileniyor. KVKK için web formuna açık rıza, WhatsApp girişine otomatik aydınlatma mesajı eklendi.
+                  Kurulumda kişi, deal ve aktivite geçmişi seçilen CRM yapısına taşınır. Logo Tiger bağlantısı kurulur (CRM&apos;de yeni müşteri = Logo&apos;da otomatik cari kart). Lead scoring tanımlanır (5 kriter: kaynak, sektör, bütçe aralığı, etkileşim, son temas); ekip önceliği yüksek skorlu lead&apos;lere verir. KVKK için web formuna açık rıza, WhatsApp girişine otomatik aydınlatma mesajı eklenir.
                 </p>
                 <p>
-                  İlk 3 ayın raporunda: lead-müşteri dönüşümü %14'ten %38'e çıktı (lead scoring sayesinde sıcak lead'lere odaklanma), manuel veri girişi haftada 22 saatten 3 saate düştü. Kur dalgalanmasından etkilenmeyen sabit, öngörülebilir bir çalışma modeline geçtiler.
+                  İş akışında değişen şu: cari kart açma ve fatura bilgisi gibi tekrar eden veri girişleri otomasyona devredilir, lead&apos;ler skora göre sıralanır, açık rıza kaydı akışın içinde tutulur. Otomasyon kurulumu tek seferliktir; CRM lisansı ayrıca ödenir.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Lead → müşteri</div>
-                  <div className="font-display text-4xl font-black mb-1">%14 → %38</div>
-                  <div className="text-sm">Lead scoring ile</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Lead önceliği</div>
+                  <div className="font-display text-4xl font-black mb-1">Skor</div>
+                  <div className="text-sm">5 kriterli lead scoring</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Manuel iş</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">22 sa → 3 sa</div>
-                  <div className="text-sm">Haftalık, Logo otomasyonu</div>
+                  <div className="font-display text-4xl font-black text-ink">Otomatik</div>
+                  <div className="text-sm">Logo&apos;da cari kart açılışı</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Kurulum</div>
-                  <div className="font-display text-4xl font-black">21 gün</div>
-                  <div className="text-sm">Veri taşıma + eğitim dahil</div>
+                  <div className="font-display text-4xl font-black">Tek seferlik</div>
+                  <div className="text-sm">Veri taşıma dahil; süre teklifte yazılı</div>
                 </div>
               </div>
             </Reveal>
@@ -573,93 +534,28 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 7. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Çalışma modeli
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                3 paket — kullanıcı başına ekstra ücret yok
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                HubSpot'un kullanıcı başına ücretlendirmesinin aksine PORTZEN sabit paket mantığı ile çalışır. Ekibinizi büyütmek faturanızı katlayan değildir. Net rakamlar brief görüşmesinde paylaşılır.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="text-xs font-bold opacity-75 mb-6">Kapsam brief görüşmesinde netleştirilir</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={300}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div>
-                <div className="font-display text-lg font-black mb-1">Detaylı çözüm sayfası</div>
-                <p className="text-sm opacity-90">
-                  PORTZEN CRM ve satış otomasyonu sistemi tam olarak ne içeriyor — özellikler, vakalar, detaylar.
-                </p>
-              </div>
-              <Link
-                href="/crm-otomasyonu"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                CRM Otomasyonu <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+
+      <PricingSection family="is-otomasyonu" heading="CRM ve iş otomasyonu fiyatları" intro="Kurulum tek seferliktir; ilk 30 gün kurulum hatalarının giderilmesi dahildir, isteğe bağlı aylık bakım ikinci aydan itibaren başlar. CRM, sunucu ve harici yazılım lisansları hariçtir. Tutarlar TL ve KDV hariçtir." />
+
 
       {/* 8. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
-                HubSpot'tan geçmeden önce merak edilenler
+                HubSpot&apos;tan geçmeden önce merak edilenler
               </h2>
             </div>
           </Reveal>
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -669,23 +565,23 @@ export default function Page() {
 
           <Reveal delay={300}>
             <div className="mt-12 grid md:grid-cols-2 gap-4">
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">Zapier de mi pahalı geliyor?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  Zapier'in USD fiyatı yerine n8n + Make + Türk uygulama entegrasyonu.
+                  Zapier&apos;in USD fiyatı yerine n8n + Make + Türk uygulama entegrasyonu.
                 </p>
-                <Link href="/zapier-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/zapier-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   Zapier Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-              <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
-                <Building2 className="h-6 w-6 text-brand-yellow mb-3" />
+              <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
+                <Building2 className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">ManyChat kullanıyorsanız?</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  ManyChat'in dolar fiyatı ve KVKK uyumsuzluğu yerine yerel WhatsApp + IG çözümü.
+                  ManyChat&apos;in dolar fiyatı yerine TL fiyatlı, KVKK gereklilikleri gözetilerek kurulan WhatsApp + IG çözümü.
                 </p>
-                <Link href="/manychat-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-yellow hover:gap-2 transition-all">
+                <Link href="/manychat-alternatifi" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   ManyChat Alternatifi <ArrowUpRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
@@ -695,38 +591,38 @@ export default function Page() {
       </section>
 
       {/* 9. FINAL CTA */}
-      <section className="py-section bg-paper">
+      <section className="py-section bg-white">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                HubSpot'tan Türkiye'ye özel bir CRM'e geçelim.
+                HubSpot&apos;tan Türkiye&apos;ye özel bir CRM&apos;e geçelim.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                30 dakikalık ücretsiz brief görüşmesinde mevcut HubSpot kurulumunuzu analiz ediyoruz, hangi özellikleri PORTZEN'de kuracağımızı netleştiriyoruz. Kapsam ve net rakamı bu görüşmede paylaşıyoruz.
+                30 dakikalık ücretsiz brief görüşmesinde mevcut HubSpot kurulumunuzu analiz ediyoruz, hangi özellikleri PORTZEN&apos;de kuracağımızı netleştiriyoruz. Kapsam ve net rakamı bu görüşmede paylaşıyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <a
-                  href="tel:+905015884853"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  href="tel:+905318639117"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   <Phone className="h-4 w-4" /> Hemen Ara
                 </a>
@@ -736,7 +632,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

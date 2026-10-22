@@ -13,7 +13,7 @@ ogImage: "/blog/og/instagram-reklam-vs-google-ads-kobi.png"
 
 # Instagram Reklam mı, Google Ads mi? KOBİ İçin 2026 Karşılaştırma
 
-**Instagram reklam vs Google Ads** karşılaştırması 2026'da artık "hangisi daha iyi" değil, "benim KOBİ'me hangisi daha doğru" sorusuna dönüştü. Çünkü iki platform aynı şeyi yapmıyor: Google Ads talebi yakalar (insan zaten bir şeyi arıyor), Instagram reklam talebi yaratır (insan henüz aramıyor ama sizin ürününüze ihtiyacı var). Bu farkı görmeden bütçe ayıran her KOBİ aslında para yakıyor. PORTZEN olarak 2025 boyunca 60'tan fazla KOBİ'nin reklam hesabını analiz ettik; en sık yaptıkları hata "yanlış platformda doğru kampanya"ydı. Bu yazıda iki platformu 10 kriterde karşılaştırıyor, sektör bazlı net öneriler veriyor ve 10K-25K-50K TL bütçelerle ne yapılabileceğini örneklerle anlatıyorum.
+**Instagram reklam vs Google Ads** karşılaştırması 2026'da artık "hangisi daha iyi" değil, "benim KOBİ'me hangisi daha doğru" sorusuna dönüştü. Çünkü iki platform aynı şeyi yapmıyor: Google Ads talebi yakalar (insan zaten bir şeyi arıyor), Instagram reklam talebi yaratır (insan henüz aramıyor ama sizin ürününüze ihtiyacı var). Bu farkı görmeden bütçe ayıran her KOBİ aslında para yakıyor. KOBİ reklam hesaplarında en sık görülen hata "yanlış platformda doğru kampanya". Bu yazıda iki platformu 10 kriterde karşılaştırıyor, sektör bazlı net öneriler veriyor ve 10K-25K-50K TL bütçelerle ne yapılabileceğini örneklerle anlatıyorum.
 
 ## İki Platformun 2026 Pazar Pozisyonu
 
@@ -76,7 +76,7 @@ PORTZEN olarak çıkardığımız karar matrisi:
 
 ## Sektör Bazlı Net Öneriler
 
-Sektörlere göre PORTZEN önerileri (2025-2026 müşteri verilerinden):
+Sektörlere göre PORTZEN önerileri (başlangıç noktası olarak; kendi verinizle test edin):
 
 ### Eczane
 
@@ -136,9 +136,9 @@ Reklam bütçesi ayırırken "kaç paraya neye sahip olurum" sorusu en sık gele
 
 **Doğru kullanım:** Tek platform odaklı çalış. Sektörünüze göre Google Ads veya Instagram seçin.
 
-Örnek 1 (Eczane): 10.000 TL Google Ads, "yakınımdaki eczane", "[ilaç] var mı" aramaları. Beklenen sonuç: aylık 80-150 arama trafiği, 30-50 fiziki ziyaret.
+Örnek 1 (Eczane): 10.000 TL Google Ads, "yakınımdaki eczane", "[ilaç] var mı" aramaları. Ölçülecekler: arama trafiği, yol tarifi tıklaması ve fiziki ziyaret.
 
-Örnek 2 (Butik cafe): 10.000 TL Instagram Reklam, Reels formatlı, 5 km yarıçap. Beklenen sonuç: takipçi +800, hafta sonu doluluk %20 artış.
+Örnek 2 (Butik cafe): 10.000 TL Instagram Reklam, Reels formatlı, 5 km yarıçap. Ölçülecekler: yerel takipçi artışı ve hafta sonu doluluk.
 
 **Önemli:** 10.000 TL ile iki platforma da bölmeyin; etkili çalışmaz.
 
@@ -146,19 +146,19 @@ Reklam bütçesi ayırırken "kaç paraya neye sahip olurum" sorusu en sık gele
 
 **Doğru kullanım:** Ana platforma ağırlık verin, ikincil platformla destek.
 
-Örnek 1 (Diş hekimi): 18.000 TL Google Ads + 7.000 TL Instagram. Google: "Çankaya diş hekimi" aramaları. Instagram: estetik diş prosedürleri görsel kampanyası. Beklenen sonuç: aylık 80-120 nitelikli randevu.
+Örnek 1 (Diş hekimi): 18.000 TL Google Ads + 7.000 TL Instagram. Google: "Çankaya diş hekimi" aramaları. Instagram: estetik diş prosedürleri görsel kampanyası. Ölçülecekler: nitelikli randevu talebi ve randevu başı maliyet.
 
-Örnek 2 (E-ticaret kozmetik): 8.000 TL Google Shopping + 17.000 TL Instagram Ads. Beklenen sonuç: aylık 200-400 sipariş, ROAS 3.5-5x.
+Örnek 2 (E-ticaret kozmetik): 8.000 TL Google Shopping + 17.000 TL Instagram Ads. Ölçülecekler: sipariş sayısı ve ROAS.
 
 ### Aylık 50.000 TL Reklam Bütçesi
 
 **Doğru kullanım:** Çok kanallı strateji. Performans + marka birleşimi.
 
-Örnek 1 (B2B SaaS): 30.000 TL Google Ads + 12.000 TL LinkedIn Ads + 8.000 TL Instagram (marka). Beklenen sonuç: aylık 80-120 demo, dönüşüm %20+, ortalama deal 6.000 USD+.
+Örnek 1 (B2B SaaS): 30.000 TL Google Ads + 12.000 TL LinkedIn Ads + 8.000 TL Instagram (marka). Ölçülecekler: demo talebi, demodan teklife dönüşüm ve ortalama anlaşma büyüklüğü.
 
-Örnek 2 (Estetik klinik): 12.000 TL Google Ads + 30.000 TL Instagram Ads + 8.000 TL TikTok. Beklenen sonuç: aylık 200+ nitelikli WhatsApp lead, dönüşüm %25-35.
+Örnek 2 (Estetik klinik): 12.000 TL Google Ads + 30.000 TL Instagram Ads + 8.000 TL TikTok. Ölçülecekler: nitelikli WhatsApp lead sayısı ve lead'den randevuya dönüşüm.
 
-50.000 TL bandında [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ile lead'leri WhatsApp'a aktarmak şart; manuel yönetimde lead'lerin %40-60'ı kaybediliyor.
+50.000 TL bandında [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ile lead'leri WhatsApp'a aktarmak şart; manuel yönetimde lead'lerin önemli bir kısmı cevapsız kalabiliyor.
 
 ## Reklam Performansını Belirleyen 5 Gizli Faktör
 
@@ -166,7 +166,7 @@ Reklam bütçesi ne kadar büyük olursa olsun, bu 5 faktörü atlayan KOBİ par
 
 ### 1. Reklam Yaratıcılığı (Creative)
 
-Google Ads metin reklamlarda metin kalitesi, Instagram'da video ve görsel kalitesi belirleyici. PORTZEN'de AI ile üretilen [AI reklam videosu](/ai-reklam-videosu) çekimleri klasik shoot maliyetinin %40'ı seviyesinde çıkıyor; CTR ortalama %35 daha yüksek. Higgsfield, Seedance ve Veo 3 modelleriyle reklama özel kreatif üreten [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetimiz aylık 10-30 farklı reels varyantı üretmeyi pratik hale getiriyor.
+Google Ads metin reklamlarda metin kalitesi, Instagram'da video ve görsel kalitesi belirleyici. PORTZEN'de [AI reklam videosu](/ai-reklam-videosu) filmleri proje bazlı fiyatlanır ({{fiyatlar:ai-reklam-filmi}}, KDV hariç) ve klasik çekime göre çok daha düşük maliyetle üretilir. Higgsfield, Seedance ve Veo 3 modelleriyle reklama özel kreatif üreten [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetimiz kısa video paketleriyle ayda 4 ila 24 reels üretmeyi pratik hale getiriyor.
 
 ### 2. Landing Page Dönüşüm Oranı
 
@@ -178,15 +178,15 @@ Yanlış hedef kitleye 50.000 TL harcamak, doğru hedef kitleye 10.000 TL harcam
 
 ### 4. Takip ve Optimizasyon
 
-Reklamı kurup bırakmayın. Haftalık optimizasyon (kötü performans gösteren ad set'leri durdurma, iyi performans gösterenleri scale etme) ROAS'ı 2-3x artırır.
+Reklamı kurup bırakmayın. Haftalık optimizasyon (kötü performans gösteren ad set'leri durdurma, iyi performans gösterenleri scale etme) ROAS'ı iyileştirmenin en temel yoludur.
 
 ### 5. Lead Yönetimi
 
-Gelen lead'i takip etmeyen sistem para kaybediyor. PORTZEN'de tipik müşteri için WhatsApp asistanı + CRM otomasyonu ile lead conversion'ı %50-70 artırıyoruz. [Lead scoring AI rehberi](/blog/lead-scoring-ai-rehberi) yazısında detay var.
+Gelen lead'i takip etmeyen sistem para kaybediyor. PORTZEN'de WhatsApp asistanı + CRM otomasyonu ile gelen her lead'in kayda alınıp takip edilmesini sağlıyoruz. [Lead scoring AI rehberi](/blog/lead-scoring-ai-rehberi) yazısında detay var.
 
-## Karar Matrisi: Doğru Platformu 60 Saniyede Seç
+## Karar Matrisi: Doğru Platformu Hızlıca Seç
 
-Beş soruya cevap verirseniz doğru platforma 60 saniyede karar verirsiniz:
+Beş soruya cevap verirseniz doğru platforma hızlıca karar verirsiniz:
 
 1. **Ürünüm/hizmetim insanlar tarafından aktif aranıyor mu?**
    - Evet → Google Ads ağırlıklı başla
@@ -213,11 +213,11 @@ Bu beş sorudan çıkan profil sizin başlangıç noktanız. Sonra 3 ay test edi
 
 ## Instagram + DM Otomasyonu: 2026'nın Saklı Silahı
 
-Instagram Ads'in tek başına en büyük dezavantajı: lead yönetimi. Kişi reklamı görüp DM yazıyor, hesap sahibi 3 saat sonra gördüğünde lead çoktan başka yere gitmiş. PORTZEN'de bu açığı [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ile kapatıyoruz.
+Instagram Ads'in tek başına en büyük dezavantajı: lead yönetimi. Kişi reklamı görüp DM yazıyor, hesap sahibi 3 saat sonra gördüğünde lead çoktan başka yere gitmiş. PORTZEN'de bu açığı iki ayrı hizmetle kapatıyoruz.
 
-Senaryo: Müşteri Instagram reklamına tıklıyor, "Daha fazla bilgi" yazıyor. AI asistan 30 saniye içinde cevap veriyor, soruları yanıtlıyor, niyet seviyesi yüksekse WhatsApp'a yönlendiriyor veya direk randevu açıyor. Bu yapı dönüşüm oranını %40-80 artırıyor. [Instagram DM dönüşüm artırma](/blog/instagram-dm-donusum-artirma) yazısında detaylı setup var; [Instagramdan müşteri bulma rehberi](/blog/instagramdan-musteri-bulma-rehberi) yazısında ise hedefleme ve içerik tarafını işledik.
+Senaryo: Müşteri Instagram reklamına tıklıyor, "Daha fazla bilgi" yazıyor. Kural tabanlı [Instagram DM otomasyonu](/instagram-dm-otomasyonu) bu tetikleyici kelimeye önceden hazırlanmış bilgi mesajı ve WhatsApp linkiyle otomatik yanıt veriyor. Soruları serbest metinden anlayıp yanıtlamak, niyet seviyesini değerlendirmek ve doğrudan randevu açmak ise AI müşteri asistanının işi (ayrı hizmet; Instagram kanalı Kurumsal pakette). Böylece reklamdan gelen ilgi cevapsız kalmıyor. [Instagram DM dönüşüm artırma](/blog/instagram-dm-donusum-artirma) yazısında detaylı setup var; [Instagramdan müşteri bulma rehberi](/blog/instagramdan-musteri-bulma-rehberi) yazısında ise hedefleme ve içerik tarafını işledik.
 
-Sadece Instagram Ads bütçesi ayırıp DM otomasyonu kurmayan KOBİ, ödediği paranın %30-50'sini çöpe atıyor.
+Sadece Instagram Ads bütçesi ayırıp gelen mesajları karşılayacak bir yapı kurmayan KOBİ, reklamın yarattığı ilginin bir kısmını kaybediyor.
 
 ## Sıkça Sorulan Sorular
 
@@ -231,13 +231,13 @@ Aylık 25.000 TL üzeri bütçede iki kanalı birleştirmek daha sağlıklı. Da
 Sektöre göre değişir. E-ticaret için 3x altı zarar, 4x+ sağlıklı, 6x+ harika. Hizmet sektörü için CPL (lead başı maliyet) bakın; sektör ortalamasının %30 altında olsun.
 
 **Reklam ajansı tutmak şart mı?**
-Aylık 15.000 TL+ bütçede ajans tutmak ROI'yi 2-3x artırıyor. Self-management ile aynı bütçeden alınan sonuç ajansla %40-70 daha düşük genelde. Ama ajans seçimi kritik; AI ve otomasyon kullanan ajans tercih edin.
+Aylık 15.000 TL+ bütçede profesyonel yönetim genellikle daha verimli; çünkü haftalık optimizasyon, test ve raporlama düzenli yapılır. Ama ajans seçimi kritik; AI ve otomasyon kullanan ajans tercih edin.
 
 **Reklam kreatifini ben mi üreteyim, ajans mı?**
 İdeal: hibrit. Ajans strateji ve teknik üretim yapar; siz ekip/ürün/davranış arkası gerçek içerik sağlar. Bu yapı en yüksek dönüşüm verir.
 
 ## PORTZEN ile Doğru Reklam Stratejisi
 
-PORTZEN olarak KOBİ'lerimiz için Instagram Ads, Google Ads, Meta Ads, TikTok Ads ve LinkedIn Ads kampanyalarını AI destekli optimizasyonla yönetiyoruz. [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ve [AI reklam videosu](/ai-reklam-videosu) hizmetlerimizle reklam bütçenizi sadece doğru yere değil, doğru yapıyla harcamanızı sağlıyoruz. 2025'te yönettiğimiz reklam bütçesi 18 milyon TL'yi aştı; ortalama müşteri ROAS'ı 4.7x oldu.
+PORTZEN olarak KOBİ'lerimiz için Meta (Instagram ve Facebook) ve Google Ads kampanyalarını reklam yönetimi paketlerimizle, AI destekli optimizasyonla yönetiyoruz ({{fiyatlar:reklam-yonetimi}}, KDV hariç; reklam harcaması hariç). [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ve [AI reklam videosu](/ai-reklam-videosu) hizmetlerimizle reklam bütçenizi sadece doğru yere değil, doğru yapıyla harcamanızı sağlıyoruz.
 
 Sektörünüze, hedeflerinize ve mevcut reklam performansınıza uygun doğru platform karışımını birlikte belirlemek için [iletişim formundan](/iletisim) bize ulaşın; 30 dakikalık ücretsiz reklam analiz görüşmesinde mevcut hesabınızı inceleyip 90 günlük net bir bütçe ve strateji yol haritası çıkaralım.

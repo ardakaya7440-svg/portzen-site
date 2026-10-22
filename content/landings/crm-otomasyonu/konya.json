@@ -4,7 +4,7 @@
   "sectorName": "Konya",
   "sectorPlural": "Konya'daki İşletmeler",
   "title": "Konya CRM Otomasyonu | Bayilik Yönetimi + Mobilya Lead - PORTZEN",
-  "description": "Konya'daki mobilya markaları, un fabrikaları ve KOBİ'ler için CRM kurulum + otomasyon. KVKK uyumlu, bayilik yönetimi, mobilya lead takibi dahil.",
+  "description": "Konya'daki mobilya markaları, un fabrikaları ve KOBİ'ler için CRM kurulum + otomasyon. KVKK gerekliliklerini dikkate alan kurgu, bayilik yönetimi, mobilya lead takibi dahil.",
   "keywords": [
     "konya crm otomasyonu",
     "konya crm kurulum",
@@ -15,18 +15,30 @@
     "konya bayilik yönetimi"
   ],
   "h1": "Konya İçin CRM Otomasyonu",
-  "heroSubtitle": "Selçuklu'da mobilya showroom, Karatay'da un fabrikası bayilik ağı, Meram'da iç mimar. Bayilik takibi, showroom lead'leri ve B2B müşteri verisini Excel'den kurtarıp KVKK uyumlu CRM'e taşıyoruz.",
+  "heroSubtitle": "Selçuklu'da mobilya showroom, Karatay'da un fabrikası bayilik ağı, Meram'da iç mimar. Bayilik takibi, showroom lead'leri ve B2B müşteri verisini Excel'den kurtarıp KVKK gerekliliklerini dikkate alarak kurgulanan bir CRM'e taşıyoruz.",
   "stats": [
-    {"value": "Konya", "label": "Uzaktan Destek"},
-    {"value": "KVKK", "label": "Uyumlu"},
-    {"value": "21 gün", "label": "Kurulum"},
-    {"value": "%47", "label": "Ort. Dönüşüm"}
+    {
+      "value": "Konya",
+      "label": "Uzaktan Destek"
+    },
+    {
+      "value": "KVKK",
+      "label": "Rıza ve aydınlatma akışı"
+    },
+    {
+      "value": "Tek seferlik",
+      "label": "Kurulum bedeli"
+    },
+    {
+      "value": "Pasif bayi",
+      "label": "Otomatik uyarı"
+    }
   ],
   "problems": [
-    "Karatay'daki un fabrikanızın 200+ bayisi (bakkal, manav, fırıncı, pastane) Excel + WhatsApp + telefon karışık takip ediliyor; hangi bayi ne kadar aldı, kim ödedi, kim ödemedi, kim sipariş vermedi belli değil. %25 bayi 'pasif' moda düşüyor, görmüyorsunuz.",
+    "Karatay'daki un fabrikanızın 200+ bayisi (bakkal, manav, fırıncı, pastane) Excel + WhatsApp + telefon karışık takip ediliyor; hangi bayi ne kadar aldı, kim ödedi, kim ödemedi, kim sipariş vermedi belli değil. Sipariş vermeyi bırakan bayiler 'pasif' moda düşüyor, görmüyorsunuz.",
     "Selçuklu'daki mobilya showroom'unuza Instagram + Google + WhatsApp'tan günde 30-50 lead geliyor; satış ekibi notlarını telefon defterinde tutuyor, müşteri 'geçen ay görüştük' dediğinde kimse hatırlamıyor, fırsat kaçıyor.",
     "Salesforce, HubSpot gibi kurumsal CRM'ler aylık 50-200 bin TL; Konya KOBİ'sinin bütçesini aşıyor, üstelik İngilizce arayüz ekibi yormuyor.",
-    "KVKK uyumlu lead toplama, izin yönetimi, silme talebi süreci yok; ihbar gelirse Kurum cezası 1.8M TL'ye kadar. Risk üstünüzde.",
+    "KVKK uyumlu lead toplama, izin yönetimi, silme talebi süreci yok; bir şikâyet veya ihbar durumunda Kurul idari para cezası uygulayabilir. Risk üstünüzde.",
     "Mobilya markanızın 6 kişilik satış ekibi hangi müşteri kime ait, hangi teklif onaylandı, hangi showroom randevusu hangi temsilciye düştü takip edemiyor; ekip içi karmaşa müşteri kaybına yol açıyor."
   ],
   "solutionSteps": [
@@ -40,11 +52,11 @@
     },
     {
       "title": "Otomasyon Akışları",
-      "description": "Lead geldi → WhatsApp/Email otomatik yanıt → satış temsilcisine atama → 24 saat takip → kapanırsa fatura/sözleşme akışı. Bayilik için sipariş takip, ödeme hatırlatma, pasif bayi uyarı. 15-25 senaryo."
+      "description": "Lead geldi → WhatsApp/Email otomatik yanıt → satış temsilcisine atama → 24 saat takip → kapanırsa fatura/sözleşme akışı. Bayilik için sipariş takip, ödeme hatırlatma, pasif bayi uyarı. Senaryo sayısı seçilen pakete göre belirlenir (Başlangıç 2, Büyüme 6, Kurumsal 12 iş akışı)."
     },
     {
       "title": "Ekip Eğitimi + Devreye",
-      "description": "Konya'daki ekibinize 2 oturum canlı online eğitim (Google Meet), video kütüphanesi, 1 aylık aktif destek. Sonrası aylık optimizasyon."
+      "description": "Konya'daki ekibinize canlı online eğitim (Google Meet; ekip eğitimi Büyüme ve Kurumsal paketlerde dahil). İlk 30 gün kurulum hatalarının giderilmesi dahil; sonrasında isteğe bağlı aylık bakım."
     }
   ],
   "features": [
@@ -62,82 +74,50 @@
     },
     {
       "title": "Bayilik + Showroom Yetkilendirme",
-      "description": "Showroom satış temsilcisi sadece kendi müşterilerini görür, bayilik müdürü sadece bayileri, yönetici tümünü. Ekip içi karmaşa sıfır, veri güvenliği tam."
+      "description": "Showroom satış temsilcisi sadece kendi müşterilerini görür, bayilik müdürü sadece bayileri, yönetici tümünü. Rol bazlı yetkiyle kim neyi görür net olarak ayarlanır."
     },
     {
-      "title": "KVKK Tam Uyum",
-      "description": "Açık rıza, aydınlatma metni, silme talebi paneli, VERBİS uyum. Müşteri 'verilerimi sil' dediğinde tek tıkla silme. Hukuki risk sıfır."
+      "title": "KVKK Gerekliliklerine Göre Kurgu",
+      "description": "Açık rıza, aydınlatma metni akışı ve silme talebi takibi CRM içinde kurgulanır; VERBİS kaydı gibi yükümlülükler işletmenize aittir. Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Hukuki riskinizi azaltmaya yardımcı olur."
     },
     {
-      "title": "Uzaktan Destek + Aylık Optimizasyon",
-      "description": "İzmir merkezli PORTZEN ekibi tam destek, aylık dönüşüm raporu, A/B test, otomasyon ince ayarı. Konya ekibinize sürekli koçluk."
+      "title": "Uzaktan Destek + İsteğe Bağlı Bakım",
+      "description": "İzmir merkezli PORTZEN ekibi kurulumu uzaktan yürütür ve ilk 30 gün kurulum hatalarını giderir. İkinci aydan itibaren Konya ekibiniz isteğe bağlı aylık bakım alabilir; bakım kapsamı teklifte yazılı olarak belirlenir."
     }
   ],
   "caseStudy": {
-    "title": "Karatay un fabrikası: 6 ayda 200 bayi CRM'e geçti, pasif bayi %25 → %4, aylık ciro +%35",
+    "title": "Örnek senaryo: Karatay'da bir un fabrikası için bayi takibi ve pasif bayi uyarısı",
     "paragraphs": [
-      "Karatay sanayi bölgesinde Türkiye geneli 200+ bakkal/manav/fırıncı/pastane bayisi olan bir Konya un fabrikası, bayi takibini Excel + WhatsApp + telefon karışık yapıyordu. 6 satış temsilcisi her ay 200 bayiyi arayamıyor, %25'i 'pasif' moda düşüyor (3+ ay sipariş vermeyen), kimse fark etmiyor, ciro azalıyordu. Yeni bayi açma sürecinde de takip Excel'deydi, %40 lead kayıp.",
-      "PORTZEN olarak Zoho CRM + WhatsApp Business API + Email + ERP (Akınsoft) entegrasyonu kurduk. 200 bayi tek panele aktarıldı, her bayiye 'son sipariş', 'ödeme durumu', 'seviye' kartı. Pasif bayi otomatik uyarısı (30 gün sipariş yok → satış temsilcisine bildirim), otomatik WhatsApp hatırlatma, sipariş takip + sevkiyat bildirimi, KVKK + VERBİS uyum.",
-      "6 ay sonunda pasif bayi oranı %25'ten %4'e düştü (uyarı + otomatik hatırlatma). Yeni bayi açma süresi 45 günden 12 güne düştü. Satış ekibi her bayiyi ortalama ayda 2.3 kere ziyaret edebiliyor (önceden 0.8). Aylık ciro %35 büyüdü, ekstra hiçbir satış temsilcisi alınmadan. Yıllık ek ciro 8.4M TL."
+      "Örnek senaryo: Karatay sanayi bölgesinde, bakkal/manav/fırıncı/pastane bayilerinden oluşan geniş bir ağı olan bir un fabrikası düşünün. Bayi takibi Excel + WhatsApp + telefon karışık yapılıyor; satış temsilcileri tüm bayileri düzenli arayamıyor, sipariş vermeyi bırakan bayi fark edilmiyor. Yeni bayi açma sürecinin takibi de Excel'de.",
+      "Örnek bir kurulumda Zoho CRM + WhatsApp Business API + Email + ERP (ör. Akınsoft) entegrasyonu kurulur. Bayiler tek panele aktarılır, her bayiye 'son sipariş', 'ödeme durumu', 'seviye' kartı açılır. Pasif bayi otomatik uyarısı (30 gün sipariş yok → satış temsilcisine bildirim), otomatik WhatsApp hatırlatma, sipariş takip + sevkiyat bildirimi ve KVKK gerekliliklerini dikkate alan rıza akışları eklenir.",
+      "Bu kurulumla iş akışında değişen şudur: sipariş vermeyi bırakan bayi otomatik olarak işaretlenir ve temsilciye arama görevi düşer, bayiye hatırlatma mesajı kendiliğinden gider, yeni bayi adaylarının hangi aşamada olduğu pipeline'da görünür. Satış ekibi zamanını kimi arayacağını bilerek planlar."
     ],
     "beforeAfter": [
-      {"label": "Pasif Bayi Oranı", "before": "%25", "after": "%4"},
-      {"label": "Yeni Bayi Açma Süresi", "before": "45 gün", "after": "12 gün"},
-      {"label": "Aylık Ciro", "before": "Baz", "after": "+%35"}
+      {
+        "label": "Pasif Bayi Tespiti",
+        "before": "Fark edilmiyor",
+        "after": "30/60 gün kuralıyla otomatik uyarı"
+      },
+      {
+        "label": "Yeni Bayi Açma Takibi",
+        "before": "Excel'de, adaylar unutulabiliyor",
+        "after": "Pipeline'da aşamasıyla görünür"
+      },
+      {
+        "label": "Sipariş ve Ödeme Bilgisi",
+        "before": "Excel, WhatsApp ve telefon arasında",
+        "after": "Her bayinin CRM kartında"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "18.000 TL (kurulum) + 4.000 TL/ay",
-      "description": "Tek showroom mobilyacı, butik üretici, küçük bayilik ağı için",
-      "features": [
-        "Zoho/Pipedrive Türkçe kurulum",
-        "5 kullanıcı (satış ekibi)",
-        "WhatsApp + Email entegrasyon",
-        "Temel KVKK modülü",
-        "Aylık 2 saat destek",
-        "Aylık rapor"
-      ]
-    },
-    {
-      "name": "Profesyonel",
-      "price": "35.000 TL (kurulum) + 8.500 TL/ay",
-      "description": "Mobilya markası, un fabrikası, 50-200 bayilik için",
-      "features": [
-        "Her şey + 15 kullanıcı",
-        "Bayilik yönetimi + pasif uyarı",
-        "Showroom lead pipeline",
-        "WhatsApp + IG + Email + Web Form",
-        "Tam KVKK + VERBİS uyum",
-        "Aylık 5 saat destek + optimizasyon",
-        "Adanmış hesap yöneticisi"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Kurumsal",
-      "price": "70.000 TL+ (kurulum) + 18.000 TL/ay",
-      "description": "Ulusal mobilya markası, büyük un fabrikası, 200+ bayilik için",
-      "features": [
-        "HubSpot/Salesforce kurulum",
-        "Sınırsız kullanıcı",
-        "ERP entegrasyon (Akınsoft/Mikro/Logo/Netsis/SAP)",
-        "Özel rapor dashboard",
-        "Çoklu marka yönetimi",
-        "SLA garantili 4 saat yanıt",
-        "Aylık 15 saat destek"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "Konya'daki ekibim CRM'i nasıl öğrenir, Türkçe mi?",
-      "answer": "Tüm CRM'ler Türkçe arayüz kuruyoruz. Ekibinize 2 oturum canlı online eğitim (Google Meet) + video kütüphanesi + WhatsApp grubu destek hattı. 1 ay sonra otonom kullanır hale gelir."
+      "answer": "Tüm CRM'ler Türkçe arayüzle kuruluyor. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahil ve canlı online (Google Meet) yapılır; Başlangıç paketinde eğitim ihtiyacı brief'te planlanır ve ayrıca tekliflendirilir. İlk 30 gün kurulum hataları giderilir."
     },
     {
       "question": "200 bayilik ağımız nasıl CRM'e taşınır, Excel datam kaybolur mu?",
-      "answer": "Excel/Google Sheets/eski yazılım datalarınızı CRM'e tam aktarım yapıyoruz. Bayi bilgileri, sipariş geçmişi, ödeme kayıtları - hiçbir veri kaybı yok. Eski sistem kapanmadan paralel çalışma dönemi de tanımlanabilir (1 ay)."
+      "answer": "Excel/Google Sheets/eski yazılım verilerinizi CRM'e aktarıyoruz: bayi bilgileri, sipariş geçmişi, ödeme kayıtları. Aktarım öncesi verinin yedeği alınır ve aktarım sonrası kontrol edilir. Eski sistem kapanmadan paralel çalışma dönemi de tanımlanabilir."
     },
     {
       "question": "Salesforce/HubSpot pahalı, Konya KOBİ'me uygun bir alternatif var mı?",
@@ -145,21 +125,21 @@
     },
     {
       "question": "Pasif bayi uyarısı nasıl çalışır?",
-      "answer": "Her bayinin son sipariş tarihi CRM'de tutuluyor. 30 gün sipariş vermeyen bayi 'sarı uyarı', 60 gün 'kırmızı uyarı'. Satış temsilcisine otomatik WhatsApp bildirim + arama görevi açılıyor. Bayiye de otomatik kampanya teklifi WhatsApp'tan gidiyor. Pasif bayi oranı %25'ten %4'e düşüyor."
+      "answer": "Her bayinin son sipariş tarihi CRM'de tutuluyor. 30 gün sipariş vermeyen bayi 'sarı uyarı', 60 gün 'kırmızı uyarı'. Satış temsilcisine otomatik WhatsApp bildirim + arama görevi açılıyor. Bayiye de otomatik kampanya teklifi WhatsApp'tan gidiyor. Gün eşiklerini siz belirliyorsunuz."
     },
     {
       "question": "Akınsoft ERP'mle entegre olur mu?",
-      "answer": "Evet. Akınsoft, Mikro, Logo, Netsis ile REST API veya köprü servis kuruyoruz. CRM'deki bayi siparişi otomatik ERP'ye düşüyor, ERP'deki ödeme bilgisi CRM'e geri yansıyor. Çift veri girişi yok."
+      "answer": "Akınsoft, Mikro, Logo ve Netsis gibi ERP'ler, sürümünüzün sunduğu erişim imkânına göre paketteki uygulama bağlantılarından biri olarak CRM'e bağlanabiliyor; hazır bağlantı yoksa özel API bağlantısı gerekir (Kurumsal pakette 2 adet dahil, diğer paketlerde ayrıca tekliflendirilir). Kurulduğunda CRM'deki bayi siparişi ERP'ye düşüyor, ERP'deki ödeme bilgisi CRM'e geri yansıyor; çift veri girişi büyük ölçüde ortadan kalkıyor."
     },
     {
       "question": "KVKK denetimi gelirse CRM hazır mı?",
-      "answer": "Evet. CRM'de açık rıza kayıtları, aydınlatma metni gösterim logu, silme talepleri panel, VERBİS uyum hazır. KVKK denetiminde 'gösterebilirim' rahatlığı."
+      "answer": "CRM'de açık rıza kayıtları, aydınlatma metni gösterim kaydı ve silme talepleri takibi KVKK gerekliliklerini dikkate alarak kurgulanır. VERBİS kaydı ve hukuki değerlendirme işletmenizin ve hukuk danışmanınızın sorumluluğundadır; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir."
     },
     {
       "question": "İzmir merkezli ajansla uzaktan CRM kurulumu yapılır mı?",
-      "answer": "Evet. CRM kurulumları %100 uzaktan yapılabilir. Konya'da aktif müşterilerimiz var, referans verebiliriz. Tüm kurulum + eğitim Google Meet üzerinden, gerektiğinde Konya'ya geliyoruz."
+      "answer": "Evet. CRM kurulumları tamamen uzaktan yapılabilir. Tüm kurulum ve eğitim Google Meet üzerinden yürütülür; yerinde çalışma gerekiyorsa teklifte ayrıca planlanır."
     }
   ],
   "finalCtaHeadline": "Konya'daki satış + bayilik sürecinizi düzene sokalım.",
-  "finalCtaSubtitle": "60 dakikalık ücretsiz iş akışı analizi. Mevcut süreciniz + ekibiniz + bayilik ağınız incelenir, size özel CRM yol haritası çıkarılır. 21 günde sistem devrede."
+  "finalCtaSubtitle": "60 dakikalık ücretsiz iş akışı analizi. Mevcut süreciniz + ekibiniz + bayilik ağınız incelenir, size özel CRM yol haritası çıkarılır. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 }

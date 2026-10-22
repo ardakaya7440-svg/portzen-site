@@ -3,15 +3,35 @@
   "sectorName": "Oto Servis",
   "sectorPlural": "Oto Servisler",
   "title": "Oto Servisler İçin Web Tasarım | Online Randevu + Fiyat Kalkülatörü — PORTZEN",
-  "description": "Oto servisinize Google'dan müşteri çeken site. Online randevu, fiyat tahmini, önce/sonra galeri, WhatsApp lead — telefon başında oturma derdi biter.",
-  "keywords": ["oto servis web tasarım", "oto servis sitesi", "online araba randevusu", "kaporta sitesi", "oto bakım fiyat hesaplama", "google my business oto servis", "araç servis online"],
+  "description": "Oto servisiniz için Google'da bulunmaya yönelik kurgulanmış site. Online randevu, fiyat tahmini, önce/sonra galeri, WhatsApp lead — telefon başında oturma derdi biter.",
+  "keywords": [
+    "oto servis web tasarım",
+    "oto servis sitesi",
+    "online araba randevusu",
+    "kaporta sitesi",
+    "oto bakım fiyat hesaplama",
+    "google my business oto servis",
+    "araç servis online"
+  ],
   "h1": "Oto Servisler için Web Tasarım",
-  "heroSubtitle": "Tabela artık yetmiyor. Müşteri WhatsApp'tan 'fiyat ne kadar' diye soruyor, siz cevap verene kadar yan servise gitmiş oluyor. Biz size online randevulu, fiyat tahmini kalkülatörü olan, Google Maps'te 1. sırada çıkan site yapıyoruz.",
+  "heroSubtitle": "Tabela artık yetmiyor. Müşteri WhatsApp'tan 'fiyat ne kadar' diye soruyor, siz cevap verene kadar yan servise gitmiş oluyor. Biz size online randevulu, fiyat tahmini kalkülatörü olan, Google Maps'te öne çıkmayı hedefleyen site yapıyoruz.",
   "stats": [
-    {"value": "8x", "label": "Aylık Randevu"},
-    {"value": "1.450", "label": "Aylık Organik Trafik"},
-    {"value": "5 hafta", "label": "Kurulum"},
-    {"value": "%92", "label": "Mobil Trafik"}
+    {
+      "value": "Online",
+      "label": "Randevu formu"
+    },
+    {
+      "value": "Fiyat tahmini",
+      "label": "Kalkülatör"
+    },
+    {
+      "value": "Teklifte yazılı",
+      "label": "Kurulum süresi"
+    },
+    {
+      "value": "WhatsApp",
+      "label": "Sabit iletişim butonu"
+    }
   ],
   "problems": [
     "Mahalledeki tabelanız artık iş getirmiyor — müşteri Google'dan 'Sincan oto servis' yazıyor, siz orada yoksunuz",
@@ -32,7 +52,7 @@
     },
     {
       "title": "3. Next.js + Online Randevu + WhatsApp",
-      "description": "Randevu formu (marka + model + yıl + hizmet seçimi) doldurulduğunda otomatik WhatsApp + email ile size gelir. Müşteri 30 saniyede randevu alır, siz garaja girmeden gün sonu listede görürsünüz. Calendly benzeri saat blokları."
+      "description": "Randevu formu (marka + model + yıl + hizmet seçimi) doldurulduğunda otomatik WhatsApp + email ile size gelir. Müşteri birkaç adımda randevu talebini iletir, siz garaja girmeden gün sonu listede görürsünüz. Calendly benzeri saat blokları."
     },
     {
       "title": "4. SEO + Google My Business Optimizasyonu",
@@ -58,82 +78,56 @@
     },
     {
       "title": "WhatsApp Lead Yakalama",
-      "description": "Sticky WhatsApp butonu (mobilde sürekli görünür), tıklayınca hazır mesaj ('Merhaba, [marka model] için fiyat almak istiyorum') ile sohbet açılır. Lead'in size ulaşması 2 saniye sürüyor."
+      "description": "Sticky WhatsApp butonu (mobilde sürekli görünür), tıklayınca hazır mesaj ('Merhaba, [marka model] için fiyat almak istiyorum') ile sohbet açılır. Müşteri size tek dokunuşla ulaşır."
     },
     {
       "title": "Yorum & Değerlendirme Modülü",
-      "description": "İş bitiminde müşteriye otomatik WhatsApp gönderiliyor: 'Memnun kaldıysanız Google'da değerlendirir misiniz?' Tek tıkla yorum sayfasına gidiyor. 3 ayda Google yorum sayınız 5'ten 80'e çıkıyor, sıralama doğal olarak yükseliyor."
+      "description": "İş bitiminde müşteriye otomatik WhatsApp gönderiliyor: 'Memnun kaldıysanız Google'da değerlendirir misiniz?' Tek tıkla yorum sayfasına gidiyor. Düzenli yorum toplama, Google yorum sayınızı ve yerel sıralamanızı artırmaya yardımcı olur."
     }
   ],
   "caseStudy": {
-    "title": "Sincan'da Bir Oto Servisin 3 Aylık Dönüşümü",
+    "title": "Örnek senaryo: Telefonla randevu alan bir oto servis için randevu, kalkülatör ve hizmet sayfaları",
     "paragraphs": [
-      "Ankara Sincan'da 12 yıldır faaliyet gösteren bir oto servis (genel mekanik + Renault uzmanı), telefonla randevu kaosundan ve Google'da görünmemekten yakınıyordu. Aylık online randevu 8, Google organik trafik 110'du. Mahalle müşterisine bağımlıydı.",
-      "PORTZEN olarak hizmet portföyünü analiz ettik (15 farklı hizmet), her hizmet + her popüler marka için ayrı SEO sayfası ürettik ('Sincan Renault Megane balata değişimi' gibi), fiyat tahmini kalkülatörü kurduk, WhatsApp Business entegrasyonu yaptık ve Google My Business sayfasını yeniden düzenledik (40 yeni fotoğraf, 15 hizmet kategorisi).",
-      "3 ay sonra aylık online randevu 8'den 64'e çıktı (8 kat), Google organik trafik 110'dan 1.450'ye yükseldi. WhatsApp'tan gelen fiyat soruları %70 azaldı çünkü kalkülatör cevabı veriyor — müşteri zaten karar vererek geliyor. Google Maps'te 'Sincan oto servis' aramasında 3. sıradan 1. sıraya çıktılar."
+      "Örnek bir kurulum: Ankara Sincan'da genel mekanik ve Renault uzmanlığıyla çalışan bir oto servis düşünün. Randevular telefonla alınıyor, çalışırken gelen aramalar kaçıyor; Google'da hizmet aramalarında görünmüyor, iş büyük ölçüde mahalle müşterisine bağlı.",
+      "Bu senaryoda hizmet portföyü analiz edilir; her hizmet ve popüler marka için ayrı SEO sayfası üretilir ('Sincan Renault Megane balata değişimi' gibi), fiyat tahmini kalkülatörü kurulur, WhatsApp Business bağlantısı eklenir ve Google İşletme Profili yeni fotoğraflar ve hizmet kategorileriyle yeniden düzenlenir.",
+      "Yayından sonra iş akışı şöyle değişir: Müşteri marka, model ve hizmeti seçip tahmini fiyat aralığını görür, randevu talebini formdan iletir; talep WhatsApp ve e-postanıza düşer, takvimde blok ayrılır. İş bitiminde müşteriye yorum isteği otomatik gider. Randevu ve yorum sayısı bölgeye ve rekabete bağlı olduğundan rakam vaat etmiyoruz."
     ],
     "beforeAfter": [
-      {"label": "Aylık Online Randevu", "before": "8", "after": "64"},
-      {"label": "Google Organik Trafik", "before": "110/ay", "after": "1.450/ay"},
-      {"label": "Google Yorum Sayısı", "before": "12", "after": "84"},
-      {"label": "Google Maps Sıralaması", "before": "3. sıra", "after": "1. sıra"},
-      {"label": "Yeni Müşteri / Ay", "before": "18", "after": "97"}
+      {
+        "label": "Randevu Alma",
+        "before": "Telefonla, çalışırken aramalar kaçıyor",
+        "after": "Formdan; WhatsApp + e-posta bildirimi"
+      },
+      {
+        "label": "Hizmet Sayfaları",
+        "before": "Tek sayfa, hizmet ayrımı yok",
+        "after": "Her hizmet + marka için ayrı SEO sayfası"
+      },
+      {
+        "label": "Yorum Toplama",
+        "before": "Müşteriden yorum istenmiyor",
+        "after": "İş bitiminde otomatik WhatsApp yorum isteği"
+      },
+      {
+        "label": "Google İşletme Profili",
+        "before": "Eski fotoğraflar, eksik hizmet listesi",
+        "after": "Güncel fotoğraflar ve hizmet kategorileri"
+      },
+      {
+        "label": "Fiyat Soruları",
+        "before": "WhatsApp'tan tek tek cevaplanıyor",
+        "after": "Kalkülatör tahmini aralığı gösteriyor"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Mini Servis Sitesi",
-      "price": "10.000 TL",
-      "description": "Tek bir oto servis için temel hizmet sayfaları, WhatsApp ve Google Maps entegreli açılış paketi.",
-      "features": [
-        "5 sayfa (Anasayfa, Hakkımızda, Hizmetler, Galeri, İletişim)",
-        "WhatsApp sticky buton",
-        "Google Maps entegrasyon",
-        "Mobil-first tasarım",
-        "Temel SEO + Google Search Console",
-        "Google My Business kurulum desteği",
-        "1 yıl hosting + domain dahil"
-      ]
-    },
-    {
-      "name": "Profesyonel",
-      "price": "22.000 TL + 1.500 TL/ay",
-      "description": "Büyüyen oto servisler için online randevu + fiyat kalkülatörü + her hizmete özel SEO sayfası dahil tam paket.",
-      "features": [
-        "Sınırsız hizmet + marka sayfası",
-        "Online randevu formu (marka/model/saat)",
-        "Fiyat tahmini kalkülatörü",
-        "Önce/sonra galeri modülü",
-        "WhatsApp + email lead bildirim",
-        "Google yorum toplama otomasyonu",
-        "Aylık SEO raporu + içerik üretimi",
-        "Sürekli teknik destek"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Premium",
-      "price": "38.000 TL + 2.500 TL/ay",
-      "description": "Çoklu lokasyonu olan, galeri yönetimi ve müşteri CRM'i isteyen kurumsal servisler için.",
-      "features": [
-        "Profesyonel paketin tamamı",
-        "Çoklu lokasyon yönetimi (şube)",
-        "Galeri yönetim paneli (siz fotoğraf yüklersiniz)",
-        "Müşteri CRM (geçmiş bakım, fatura)",
-        "Periyodik bakım hatırlatma SMS/WhatsApp",
-        "Reklam (Google Ads) yönetimi dahil",
-        "Aylık performans danışmanlığı"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "Site açıldıktan sonra Google'da hemen 1. sıraya çıkar mıyım?",
-      "answer": "Hayır, hiçbir ajans bunu garanti edemez. Ama gerçekçi tahmin: 3 ayda lokal aramalarda (örnek 'Sincan oto servis') ilk 5'e, 6 ayda ilk 3'e çıkıyorsunuz. Google My Business optimizasyonu lokal aramada en hızlı kazandıran şey, biz onunla başlıyoruz."
+      "answer": "Hayır, hiçbir ajans bunu garanti edemez. Süre ve sıra rekabete, Google İşletme Profili'nin durumuna ve yorumlara bağlıdır. Lokal aramada (örnek 'Sincan oto servis') en etkili ilk adım Google My Business optimizasyonudur; biz onunla başlıyor, ardından hizmet ve marka sayfalarını kuruyoruz."
     },
     {
       "question": "Online randevu sistemi karışık mı, müşteri kullanır mı?",
-      "answer": "Müşteri marka + model + hizmet seçer, takvimden saat tıklar, ad-soyad-telefon yazar. 30 saniye sürüyor. Test ettiğimiz servislerde 40 yaş üstü müşteri bile sorunsuz kullanıyor — çünkü adımlar 3'ten az."
+      "answer": "Müşteri marka + model + hizmet seçer, takvimden saat tıklar, ad-soyad-telefon yazar. Adımları kısa tutuyor, formu her yaştan müşterinin rahatça doldurabileceği sadelikte tasarlıyoruz."
     },
     {
       "question": "Fiyat kalkülatörü kesin fiyat verecek mi, yanlış olursa?",
@@ -141,17 +135,17 @@
     },
     {
       "question": "Google'a yorum toplamak yasal mı, sahte yorum mu?",
-      "answer": "Tamamen yasal. İş bitiminde memnun müşteriye 'Google'da değerlendirir misiniz' WhatsApp mesajı gönderiyoruz, tek tıkla yorum sayfasına gidiyor. Sahte yorum değil — gerçek müşterilerden gerçek yorum, sadece toplama sürecini otomatikleştiriyoruz."
+      "answer": "Gerçek müşteriden yorum istemek Google'ın kurallarına uygundur; yasak olan sahte yorum ve yorum karşılığında teşvik vermektir. İş bitiminde memnun müşteriye 'Google'da değerlendirir misiniz' WhatsApp mesajı gönderiyoruz, tek tıkla yorum sayfasına gidiyor. Sahte yorum değil — gerçek müşterilerden gerçek yorum, sadece toplama sürecini otomatikleştiriyoruz."
     },
     {
       "question": "Kaç haftada açılır?",
-      "answer": "Mini paket 3 hafta, Profesyonel 5 hafta, Premium 7 hafta. Önce/sonra fotoğraflarınızın hazır olması süreyi 1 hafta kısaltıyor."
+      "answer": "Kapsama göre değişir: online randevu ve fiyat kalkülatörü gibi modüller süreyi uzatır. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Önce/sonra fotoğraflarınızın hazır olması süreci hızlandırır."
     },
     {
       "question": "Site açıldıktan sonra ben içerik ekleyebilir miyim?",
-      "answer": "Profesyonel paketten itibaren admin paneliniz var. Yeni hizmet ekleme, galeri fotoğrafı yükleme, fiyat güncelleme sizin tarafınızda. Aylık bakımda biz teknik konuları (SEO, hız, güvenlik) yönetiyoruz."
+      "answer": "Evet. Büyüme ve Kurumsal kurumsal web sitesi paketlerinde CMS paneliniz olur: yeni hizmet ekleme, galeri fotoğrafı yükleme, fiyat güncelleme sizin tarafınızda. Teknik konuları (SEO kontrolleri, hız, güvenlik güncellemeleri) isterseniz aylık Web bakım hizmetiyle biz yönetiriz; örneğin Büyüme web bakım ({{fiyat:web-bakim:buyume}}, KDV hariç) ayda toplam 3 saat bakım/değişiklik içerir."
     }
   ],
-  "finalCtaHeadline": "Servisinize Telefon Yerine Müşteri Gelsin",
-  "finalCtaSubtitle": "30 dakikalık ücretsiz analiz görüşmesi — Google'da neden görünmediğinizi ve PORTZEN ile 3 ayda nasıl 1. sıraya çıkacağınızı konuşalım."
+  "finalCtaHeadline": "Servisiniz İçin Online Randevu ve Fiyat Tahmini Kuralım",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz analiz görüşmesi — Google'da neden görünmediğinizi ve PORTZEN ile görünürlüğünüzü artırmak için neler yapılabileceğini konuşalım."
 }

@@ -15,18 +15,18 @@ ogImage: "/blog/og/veteriner-randevu-otomasyonu.png"
 
 Veteriner kliniklerinin günü çoğunlukla aynı tabloyla başlıyor: sabah saat dokuzda telefon çalıyor, "Pamuk'un karma aşısı ne zamandı, kayıt bakar mısınız?" Aynı anda bekleme salonunda iki köpek, muayene odasında bir kedi, asistan elinde aşı kartı, hekim ise ultrasonun başında. Telefonu kim açacak, kim ajandaya bakacak, kim sahibe geri dönecek belli değil. Bu kaos günde bir-iki saatlik zaman kaybı, hatırlatılmayan aşılar nedeniyle düşen sahip sadakati ve "biz size mesaj atmıştık ama cevap alamadık" cümlesiyle giden hastalar olarak geri dönüyor. Türkiye'de 15 binin üzerinde veteriner kliniği var ve neredeyse hepsi bu döngüde sıkışmış durumda.
 
-Bu yazıda veteriner klinikler için **WhatsApp randevu ve aşı hatırlatma sistemi** nasıl kurulur, hangi akışlar otomatikleşir, koruyucu hekimlik takvimi nasıl dijitalleşir, sahip iletişimi ve sadakat nasıl güçlenir adım adım anlatıyoruz. PORTZEN olarak biz İzmir, İstanbul ve Ankara başta olmak üzere 30'un üzerinde veteriner kliniğine WhatsApp asistanı ve CRM kurduk. Yazdıklarımız teorik değil, klinik içinden çıkmış deneyim. Yazının sonunda kendi kliniğinizde hangi modülleri açacağınızı, kurulumun ne kadar süreceğini ve aylık maliyetin hangi kalemlerden oluştuğunu anlamış olacaksınız.
+Bu yazıda veteriner klinikler için **WhatsApp randevu ve aşı hatırlatma sistemi** nasıl kurulur, hangi akışlar otomatikleşir, koruyucu hekimlik takvimi nasıl dijitalleşir, sahip iletişimi ve sadakat nasıl güçlenir adım adım anlatıyoruz. Anlattıklarımız, PORTZEN olarak veteriner klinikleri için önerdiğimiz WhatsApp asistanı ve CRM kurgusunu adım adım gösteriyor. Yazının sonunda kendi kliniğinizde hangi modülleri açacağınızı, kurulumun hangi adımlardan oluştuğunu ve aylık maliyetin hangi kalemlerden oluştuğunu anlamış olacaksınız.
 
 ## Veteriner Kliniklerde Aşı ve Randevu Takibi Neden Hâlâ Manuel?
 
-Veteriner hekimlik teknik tarafta hızla dijitalleşse de hasta sahibi iletişimi çoğu klinikte hâlâ kâğıt aşı kartı, ajanda defteri ve cep telefonundan WhatsApp ile yürüyor. PORTZEN'in saha verisine göre orta ölçekli bir veteriner kliniği günde 50-120 arası WhatsApp ve telefon mesajı alıyor. Bu mesajların dağılımı oldukça tekrarlı:
+Veteriner hekimlik teknik tarafta hızla dijitalleşse de hasta sahibi iletişimi çoğu klinikte hâlâ kâğıt aşı kartı, ajanda defteri ve cep telefonundan WhatsApp ile yürüyor. Orta ölçekli bir veteriner kliniğine her gün çok sayıda WhatsApp ve telefon mesajı geliyor ve bu mesajların büyük kısmı tekrarlı konulardan oluşuyor:
 
-- Randevu alma ve değiştirme talepleri (yaklaşık yüzde 30)
-- "Sıradaki aşı ne zamandı" tarzı koruyucu hekimlik soruları (yaklaşık yüzde 20)
-- Parazit, mama, vitamin tavsiyesi (yaklaşık yüzde 15)
-- Ameliyat ve tahlil sonrası kontrol soruları (yaklaşık yüzde 15)
-- Çalışma saatleri, acil ulaşım, adres (yaklaşık yüzde 10)
-- Yeni hasta ilk muayene talebi (yaklaşık yüzde 10)
+- Randevu alma ve değiştirme talepleri
+- "Sıradaki aşı ne zamandı" tarzı koruyucu hekimlik soruları
+- Parazit, mama, vitamin tavsiyesi
+- Ameliyat ve tahlil sonrası kontrol soruları
+- Çalışma saatleri, acil ulaşım, adres
+- Yeni hasta ilk muayene talebi
 
 ### Manuel sistemin görünmeyen maliyeti
 
@@ -68,7 +68,7 @@ Acil seçildiğinde bot doğrudan nöbetçi hekimi devreye alıyor ve klinik tel
 
 ### 3. Ön anamnez ve fotoğraf
 
-Şikayet bazlı randevularda bot kısa bir ön anamnez yapıyor: ne zamandır şikayet var, beslenme alışkanlığı değişti mi, kusma sıklığı, ateş kontrolü yapıldı mı. Gerekirse fotoğraf veya video isteyebiliyor. Bu bilgi hekimin paneline düşüyor ve muayene öncesi hekim 30 saniyede dosyayı okumuş oluyor. Hızlı triyaj demek, klinikte daha az bekleme ve daha doğru zaman planlaması demek.
+Şikayet bazlı randevularda bot kısa bir ön anamnez yapıyor: ne zamandır şikayet var, beslenme alışkanlığı değişti mi, kusma sıklığı, ateş kontrolü yapıldı mı. Gerekirse fotoğraf veya video isteyebiliyor. Bu bilgi hekimin paneline düşüyor ve hekim muayeneden önce özeti okumuş oluyor. Hızlı triyaj demek, klinikte daha az bekleme ve daha doğru zaman planlaması demek.
 
 ### 4. Uygun saat seçimi
 
@@ -167,7 +167,7 @@ Memnun sahipler kliniği tanıdığına önerdiğinde her iki tarafa avantaj sa�
 
 ## Maliyet ve Kurulum Süresi
 
-Bir veteriner kliniği için tam donanımlı randevu, aşı hatırlatma ve CRM sistemi maliyet kalemleri:
+Bir veteriner kliniği için tam donanımlı randevu, aşı hatırlatma ve CRM sisteminin piyasadaki tipik maliyet kalemleri:
 
 - WhatsApp Business API başvuru ve onay: ücretsiz, 5-10 gün
 - BSP (Business Solution Provider) aylık ücreti: 900-2.500 ₺
@@ -177,30 +177,28 @@ Bir veteriner kliniği için tam donanımlı randevu, aşı hatırlatma ve CRM s
 - Veteriner yazılım entegrasyonu (VetSoft, VetHospital vb.): tek seferlik 10.000-25.000 ₺
 - Aylık bakım ve içerik güncelleme: 3.000-6.000 ₺
 
-PORTZEN olarak biz **veteriner paketinde** kurulum, ilk 6 ay bakım, CRM ve yazılım entegrasyonunu birlikte sunuyoruz. Tek seferlik bütçe baskısını düşürmek için aylık abonelik modelimiz de mevcut. Detay için [WhatsApp AI Asistanı](/whatsapp-ai-asistani) ana sayfamıza bakabilirsiniz.
+PORTZEN'de bu sistem standart paketlerimizle kurulur: WhatsApp randevu ve aşı hatırlatma botu AI müşteri asistanı paketleriyle ({{fiyatlar:ai-musteri-asistani}}; randevu alma Büyüme ve Kurumsal paketlerde), CRM ve veteriner yazılım entegrasyonu tek seferlik iş otomasyonu paketleriyle ({{fiyatlar:is-otomasyonu}}); fiyatlar KDV hariçtir. İş otomasyonunda ilk 30 gün kurulum hataları giderilir, sonrasında aylık bakım isteğe bağlıdır. Detay için [WhatsApp AI Asistanı](/whatsapp-ai-asistani) ana sayfamıza bakabilirsiniz.
 
 ### Kurulum süresi
 
-Standart bir veteriner kliniği için kurulum 3-4 hafta:
+Kurulum dört adımda ilerler; teslim süresi, şube sayısı ve özel iş akışları dahil kapsama göre teklifte yazılı olarak belirtilir:
 
-- Hafta 1: WhatsApp API başvurusu, BSP onayı, klinik yazılımı entegrasyon planı
-- Hafta 2: CRM kurulumu, hasta dosyalarının aktarımı, aşı takvimi şablonlarının hazırlanması
-- Hafta 3: Bot akışlarının yazılması, hekim ve resepsiyon paneli kurulumu
-- Hafta 4: Test, ekip eğitimi, canlıya alma ve ilk hafta yakın takip
-
-Çoklu şube veya özel iş akışı olan kliniklerde süre 5-6 haftaya çıkabiliyor.
+- Adım 1: WhatsApp API başvurusu, BSP onayı, klinik yazılımı entegrasyon planı
+- Adım 2: CRM kurulumu, hasta dosyalarının aktarımı, aşı takvimi şablonlarının hazırlanması
+- Adım 3: Bot akışlarının yazılması, hekim ve resepsiyon paneli kurulumu
+- Adım 4: Test, ekip eğitimi, canlıya alma ve ilk dönem yakın takip
 
 ### Beklenen geri dönüş
 
-Sahada gözlediğimiz tipik sonuçlar:
+Geri dönüşü değerlendirmek için kurulumdan önce ve sonra şu göstergeleri takip edin:
 
-- Telefon trafiği yüzde 45-60 azalıyor
-- Aşı ve parazit takip oranı yüzde 50 artıyor
-- Randevu çakışması neredeyse sıfırlanıyor
-- Hasta başına yıllık ortalama klinik ziyareti 2.1'den 3.4'e çıkıyor
-- Sahip memnuniyetinde "ulaşılabilirlik" puanı belirgin biçimde yükseliyor
+- Telefon trafiği: tekrarlı soruların ne kadarının WhatsApp asistanına kaydığı
+- Aşı ve parazit takibi: zamanında yapılan uygulamaların oranı
+- Randevu çakışmaları: tek takvimle ortadan kalkan çift kayıtlar
+- Hasta başına yıllık klinik ziyareti
+- Sahip memnuniyetinde "ulaşılabilirlik" puanı
 
-Bu rakamlar üç-beş aylık bir dönemde sistemin kendini fazlasıyla amorti ettiğini gösteriyor.
+Bu göstergeler kliniğinizin kendi verisiyle izlendiğinde, sistemin maliyetini ne kadar sürede karşıladığı net olarak görülür.
 
 ## Sıkça Sorulan Sorular
 
@@ -214,13 +212,13 @@ Standart kurulumda iki hatırlatma gönderiyoruz: bir hafta önce ve aşı tarih
 VetSoft, VetHospital, Provet, Animavita gibi yaygın yazılımlarla doğrudan entegrasyon yapıyoruz. Sizin yazılımınız listede yoksa API kontrolü yapıyor, gerekirse orta katman çözüm üretiyoruz. Çok eski Excel temelli sistemler için içe aktarma scripti yazıyoruz.
 
 **KVKK açısından risk var mı?**
-Hasta sahibinden açık rıza alınıyor, veriler sözleşmeli BSP üzerinden işleniyor, fotoğraf ve video gibi medya yasal süre dışında siliniyor. PORTZEN kurulumda KVKK metinlerini ve aydınlatma formlarını da hazırlıyor.
+Hasta sahibinden açık rıza alınıyor, veriler sözleşmeli BSP üzerinden işleniyor, fotoğraf ve video gibi medya yasal süre dışında siliniyor. PORTZEN kurulumda açık rıza ve aydınlatma adımlarını akışa yerleştiriyor; metinlerin hukuki içeriğini KVKK danışmanınızla netleştirmenizi öneriyoruz.
 
 **Birden fazla şubem var, tek sistem olur mu?**
 Olur. Şube bazlı randevu takvimi, hekim atama ve hasta yönlendirme yapılıyor. Sahip "merkez şubeye geliyorum" dediğinde sistem doğru şubeye randevu açıyor. Merkezi panelden tüm şubeler tek ekrandan yönetiliyor.
 
 ## PORTZEN ile Veteriner Klinik Otomasyonu Kurmak
 
-Kliniğinizdeki telefon yoğunluğunu azaltmak, aşı ve parazit takibini kaçırmadan yürütmek, hasta dosyasını tek ekranda görmek ve sahip sadakatini artırmak istiyorsanız PORTZEN olarak biz tam paket çözüm sunuyoruz: WhatsApp Business API kurulumu, AI destekli randevu botu, veteriner CRM, koruyucu hekimlik takvimi, yazılım entegrasyonu, ekip eğitimi ve aylık bakım. İhtiyacınıza göre kademeli devreye alma planı çıkarıyoruz, hepsini ilk gün açmak zorunda değilsiniz.
+Kliniğinizdeki telefon yoğunluğunu azaltmak, aşı ve parazit takibini kaçırmadan yürütmek, hasta dosyasını tek ekranda görmek ve sahip sadakatini artırmak istiyorsanız PORTZEN olarak biz uçtan uca çözüm sunuyoruz: WhatsApp Business API kurulumu, AI destekli randevu botu, veteriner CRM, koruyucu hekimlik takvimi ve yazılım entegrasyonu; ekip eğitimi Büyüme ve Kurumsal iş otomasyonu paketlerinde, aylık bakım ise isteğe bağlıdır. Her parça kendi paketiyle fiyatlanır, güncel tutarlar [fiyatlar sayfasında](/fiyatlar). İhtiyacınıza göre kademeli devreye alma planı çıkarıyoruz, hepsini ilk gün açmak zorunda değilsiniz.
 
 Kliniğiniz için özel kurulum teklifi almak ve mevcut iş akışınıza uygun modülleri konuşmak için [iletişime geçin](/iletisim). İlk görüşmede sizin günlük hasta sayınızı, kullandığınız yazılımı, hekim ve şube sayınızı anlıyoruz, ardından net bir teklif ve uygulama takvimi sunuyoruz.

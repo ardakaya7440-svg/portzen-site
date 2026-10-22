@@ -69,7 +69,7 @@ Doğru cevap projenin kendisine bağlıdır. Pratik yönlendirmeler şöyle.
 
 - **Meta, Instagram ve TikTok performans reklamı için** AI video doğru seçim. Haftalık test döngüleri, versiyon üretimi ve platform bazlı uyarlamalar geleneksel prodüksiyonla ekonomik değil.
 
-- **Ürün lansmanı, sezonluk kampanya, indirim duyurusu için** AI video hız avantajı sağlıyor. 2 hafta önce fikri geliştirilmiş bir kampanya AI video ile yayına 2 gün içinde girer.
+- **Ürün lansmanı, sezonluk kampanya, indirim duyurusu için** AI video hız avantajı sağlıyor. 2 hafta önce fikri geliştirilmiş bir kampanya AI video ile çok daha kısa sürede yayına hazırlanabilir.
 
 - **Uzun soluklu marka kampanyası için** iki modelin birleştiği karma yaklaşım tercih ediliyor. Geleneksel çekim ana filmi, AI video ise haftalık besleme içeriklerini üretir.
 
@@ -79,7 +79,7 @@ Doğru cevap projenin kendisine bağlıdır. Pratik yönlendirmeler şöyle.
 
 ## Karma Yaklaşım: Neden Yükselişte?
 
-PORTZEN'in çalıştığı KOBİ'lerin yüzde 65'inde artık karma yaklaşım uygulanıyor. Karma modelin işleyişi şöyle. Yılda bir kez geleneksel bir prodüksiyon yapılıyor. Kurucu yüzü, fabrika, gerçek çalışan sahneleri, ürünün fiziksel çekimleri bu prodüksiyonda üretiliyor. Elde edilen kaynak videolar arşiv oluyor. Ardından haftalık ve aylık reklam üretimi AI video ile besleniyor. Bu üretimde geleneksel prodüksiyonun arşivinden alınmış görsel dokular, karakterler ve marka renkleri prompt'a giriyor. Sonuç: tek bir marka kimliği hem geleneksel hem AI kanalından tutarlı biçimde besleniyor.
+Karma yaklaşım, geleneksel çekimle AI videoyu aynı marka kimliği altında birleştirir. Karma modelin işleyişi şöyle. Yılda bir kez geleneksel bir prodüksiyon yapılıyor. Kurucu yüzü, fabrika, gerçek çalışan sahneleri, ürünün fiziksel çekimleri bu prodüksiyonda üretiliyor. Elde edilen kaynak videolar arşiv oluyor. Ardından haftalık ve aylık reklam üretimi AI video ile besleniyor. Bu üretimde geleneksel prodüksiyonun arşivinden alınmış görsel dokular, karakterler ve marka renkleri prompt'a giriyor. Sonuç: tek bir marka kimliği hem geleneksel hem AI kanalından tutarlı biçimde besleniyor.
 
 Karma yaklaşımın en büyük avantajı marka kimliği tutarlılığıdır. AI video tek başına kullanılırsa marka her seferinde farklı bir hava alabilir. Geleneksel prodüksiyon arşivi bir çıpa yaratıyor. Ekipteki yaratıcı yönetmen AI motoruyla çalışırken bu arşivi referans veriyor, çıkan videolar aynı üniverste kalıyor. İkinci avantaj bütçe yönetimi. Yıllık büyük yatırım tek seferde yapılıyor, geri kalan üretim marjinal maliyetle katlanabiliyor. Bu KOBİ marj yönetiminde büyük kolaylık.
 
@@ -99,17 +99,16 @@ Hangi model sizin için doğru sorusuna cevap üretmek için beş net adım öne
 
 5. **Pilot bir kampanyayla başla.** İlk ay 5 farklı varyasyon üret, hangisinin daha yüksek dönüşüm verdiğini takip et. Sonuca göre model tercihini büyüt.
 
-## Vaka Örneği: Buca'da Bir Mobilya Markası
+## Örnek Senaryo: Bir Mobilya Markasında Karma Model
 
-PORTZEN'in çalıştığı Buca merkezli bir mobilya markası, yıllık reklam bütçesinin tamamını geleneksel prodüksiyona ayırıyordu. Yılda 4 farklı reklam üretiliyor, her biri 6 hafta sürüyordu. Karma yaklaşıma geçiş sonrası bir yıllık verileri şöyle:
+Örnek bir senaryo üzerinden düşünelim: yıllık reklam bütçesinin tamamını geleneksel prodüksiyona ayıran, yılda birkaç reklam üreten ve her biri haftalar süren bir mobilya markası. Karma yaklaşımda kurgu şöyle değişir:
 
-- Yılda 4 reklam yerine 62 farklı reklam varyasyonu yayınlandı.
-- Kurucu hikayesi ve mağaza tanıtımı için 1 kez geleneksel çekim yapıldı, kalan içerikler AI ile üretildi.
-- Meta reklam dönüşüm oranı yüzde 3.2'den yüzde 5.8'e çıktı.
-- En iyi performans gösteren 3 varyasyon toplam reklam performansının yüzde 62'sini üretti.
-- Reklam üretim süresi ortalama 6 haftadan 3 güne düştü.
+- Kurucu hikayesi ve mağaza tanıtımı için yılda bir kez geleneksel çekim yapılır.
+- Bu çekimin arşivi referans alınarak haftalık reklam varyasyonları AI ile üretilir.
+- Varyasyonlar Meta reklamlarında test edilir, en iyi performans gösterenlere bütçe kaydırılır.
+- Sezonluk kampanyalar ve trend fikirleri, prodüksiyon takvimini beklemeden hayata geçirilir.
 
-Marka sahibi karma modelin en büyük etkisinin "iyi fikir gelince aynı hafta hayata geçirebilme" hızı olduğunu söyledi. Trend yakalama refleksi tamamen değişti.
+Bu modelin en büyük etkisi, "iyi fikir gelince aynı hafta hayata geçirebilme" esnekliğidir; marka tutarlılığı ise geleneksel çekim arşiviyle korunur.
 
 ## SSS
 
@@ -117,7 +116,7 @@ Marka sahibi karma modelin en büyük etkisinin "iyi fikir gelince aynı hafta h
 C: Evet. Premium AI motorları ile üretilen reklamlar Meta, Google, TikTok gibi platformlarda onaylanıyor. Önemli olan üretim sırasında marka ve içerik politikalarına uygun promptlar kullanmak. Bu tarafın uzman ekiple yönetilmesi risk minimize ediyor.
 
 **S: AI video'da ürünüm yanlış görünürse ne olur?**
-C: Kurumsal AI altyapısı üzerinden çalışılan modellerde ürün fotoğrafları referans olarak besleniyor. Böylece çıkan videoda ürün birebir korunuyor. Referanssız üretimde ürün detayları kayabiliyor, bu yüzden mutlaka referans kullanılıyor.
+C: Kurumsal AI altyapısı üzerinden çalışılan modellerde ürün fotoğrafları referans olarak besleniyor. Böylece çıkan videoda ürünün görünümü büyük ölçüde korunuyor; yine de her video yayından önce ürün detayları açısından kontrol ediliyor. Referanssız üretimde ürün detayları kayabiliyor, bu yüzden mutlaka referans kullanılıyor.
 
 **S: Marka tonumu AI video koruyabilir mi?**
 C: Evet. Renk paleti, karakter tutarlılığı, tipografi ve mood board sisteme baştan tanıtılıyor. Aynı ekip aynı prompt disiplinini sürdürdükçe tüm videolar aynı marka evreninde kalıyor.
@@ -130,7 +129,7 @@ C: Haftalık bir tempo öneriyoruz. Pazartesi kampanya fikri, salı senaryo, ça
 
 ## Sonraki Adım
 
-Reklam yatırımınızda AI video mu, geleneksel çekim mi ağırlıklı olmalı sorusuna cevap üretmek sizin envanterinize, kampanya sıklığınıza ve marka arşivinize göre değişir. PORTZEN olarak son yılın reklam envanterinizi inceliyor, karma modelin size uygun olup olmadığını değerlendiriyor ve 30 dakikalık bir analiz sunuyoruz. [portzen.com/iletisim](https://portzen.com/iletisim) üzerinden **Görüşme Al** butonuna tıklayarak bir sonraki reklam üretim modelinizi birlikte tasarlayabiliriz.
+Reklam yatırımınızda AI video mu, geleneksel çekim mi ağırlıklı olmalı sorusuna cevap üretmek sizin envanterinize, kampanya sıklığınıza ve marka arşivinize göre değişir. PORTZEN olarak son yılın reklam envanterinizi inceliyor, karma modelin size uygun olup olmadığını değerlendiriyor ve 30 dakikalık bir analiz sunuyoruz. [portzenai.com/iletisim](/iletisim) üzerinden **Görüşme Al** butonuna tıklayarak bir sonraki reklam üretim modelinizi birlikte tasarlayabiliriz.
 
 ---
 

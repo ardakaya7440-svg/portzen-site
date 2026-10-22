@@ -15,19 +15,19 @@ ogImage: "/blog/og/eczane-whatsapp-siparis-sistemi.png"
 
 Türkiye'de eczane sayısı 28 binin üzerinde ve neredeyse hepsinin müşterisi aynı soruyu soruyor: "Şu ilaç sizde var mı, ne zaman gelir, kapıya gönderir misiniz?" Bu sorular telefonla geldiğinde eczacının iş akışı kesiliyor, reçeteli müşteri beklerken yanıt veremiyor. WhatsApp'tan geldiğindeyse mesaj kaynıyor, biri yanıt yazmaya başlıyor, müşteri yarım saat sonra cevap alıyor. Sonuç: müşteri başka eczaneye gidiyor, OTC satış kaçıyor, kronik hasta takibi yapılamıyor.
 
-Bu yazıda eczaneler için **WhatsApp sipariş ve otomasyon sistemi** nasıl kurulur, hangi akışlar otomatikleştirilebilir, reçete fotoğrafı geldiğinde ne yapılır, KVKK ve ITS entegrasyonu nasıl çözülür adım adım anlatacağız. PORTZEN olarak biz İzmir başta olmak üzere Türkiye genelinde 40+ eczaneye WhatsApp asistanı kurduk. Anlatacaklarımız teorik değil, sahadan çıkan deneyim. Yazının sonunda kendi eczanenizde hangi modülleri açacağınızı netleştirmiş, kurulum maliyetinin hangi kalemlerden oluştuğunu anlamış olacaksınız.
+Bu yazıda eczaneler için **WhatsApp sipariş ve otomasyon sistemi** nasıl kurulur, hangi akışlar otomatikleştirilebilir, reçete fotoğrafı geldiğinde ne yapılır, KVKK ve ITS entegrasyonu nasıl çözülür adım adım anlatacağız. Yazının sonunda kendi eczanenizde hangi modülleri açacağınızı netleştirmiş, kurulum maliyetinin hangi kalemlerden oluştuğunu anlamış olacaksınız.
 
 ## Eczanede WhatsApp Otomasyonu Hangi Akışları Çözer?
 
-Eczane operasyonu sandığınızdan daha çok mesajlaşma içeriyor. PORTZEN'in saha verisine göre orta ölçekli bir eczane günde 80-150 arası WhatsApp mesajı alıyor. Bu mesajların çoğu tekrar eden sorulardan oluşuyor:
+Eczane operasyonu sandığınızdan daha çok mesajlaşma içeriyor. Orta ölçekli bir eczane gün içinde onlarca WhatsApp mesajı alabiliyor. Bu mesajların çoğu tekrar eden sorulardan oluşuyor:
 
-- "X ilaç var mı?" tarzı stok sorgu (yaklaşık yüzde 35)
-- Reçete fotoğrafı gönderip "hazırlar mısınız" talebi (yaklaşık yüzde 25)
-- OTC ürün (vitamin, ağrı kesici, bebek bezi) siparişi (yaklaşık yüzde 20)
-- Kronik hasta tekrarlı reçete takibi (yaklaşık yüzde 10)
-- Çalışma saatleri, nöbet bilgisi, adres (yaklaşık yüzde 10)
+- "X ilaç var mı?" tarzı stok sorgu
+- Reçete fotoğrafı gönderip "hazırlar mısınız" talebi
+- OTC ürün (vitamin, ağrı kesici, bebek bezi) siparişi
+- Kronik hasta tekrarlı reçete takibi
+- Çalışma saatleri, nöbet bilgisi, adres
 
-Bu beş kategorinin neredeyse tamamı otomatikleştirilebilir. Eczacı sadece ITS doğrulaması, ilaç hazırlama ve hassas vakalarda devreye giriyor. Bu sayede günde 2-3 saatlik telefon ve mesaj yükü, 20-30 dakikaya iniyor. Yeni müşteri akışını da büyütmek isteyen eczaneler, [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle Click-to-WhatsApp reklamlarını devreye alarak çevre semtlerden doğrudan sipariş mesajı topluyor.
+Bu beş kategorinin neredeyse tamamı otomatikleştirilebilir. Eczacı sadece ITS doğrulaması, ilaç hazırlama ve hassas vakalarda devreye giriyor. Bu sayede eczacının telefon ve mesaj yükü belirgin şekilde azalıyor. Yeni müşteri akışını da büyütmek isteyen eczaneler, [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle Click-to-WhatsApp reklamlarını devreye alarak çevre semtlerden doğrudan sipariş mesajı topluyor.
 
 ### Klasik akışta neden tıkanıyor?
 
@@ -43,7 +43,7 @@ API ile şunlar mümkün oluyor:
 - Chatbot ve AI asistanı bağlanabiliyor
 - Stok yazılımı ile entegrasyon yapılabiliyor
 - Mesaj şablonu (template) ile toplu bilgilendirme gönderilebiliyor
-- Yeşil tik (resmi onay) alınabiliyor
+- Resmi işletme hesabı doğrulaması için başvurulabiliyor (onay Meta'nın kararına bağlıdır)
 
 API kurulumunun teknik detayları için [WhatsApp Business API kurulum rehberi](/blog/whatsapp-business-api-kurulum) yazımıza bakabilirsiniz. Eczane özelinde Meta onay sürecinde "sağlık" kategorisi seçildiğinde ek belge istenebiliyor, bunu kuruluma başlarken hazır tutmak süreç hızlandırıyor.
 
@@ -68,7 +68,7 @@ Bu menü AI destekli olduğunda müşteri rakam yazmak zorunda kalmıyor, "B12 v
 Müşteri reçete fotoğrafı gönderdiğinde bot şu adımları atıyor:
 
 - Fotoğrafı kayıt altına alıyor
-- TC kimlik son 4 hane ve doğum yılı istiyor (KVKK uyumlu açık rıza ile)
+- TC kimlik son 4 hane ve doğum yılı istiyor (açık rıza alınarak)
 - "Reçeteniz alındı, hazır olduğunda bilgi vereceğiz" mesajı gönderiyor
 - Eczacının paneline reçete fotoğrafı + müşteri bilgileri düşüyor
 
@@ -90,7 +90,7 @@ Reçetesiz ürünlerde (vitamin, ağrı kesici, bebek ürünü, kozmetik) bot do
 
 ### 5. Kronik hasta tekrarlı reçete takibi
 
-Tansiyon, diyabet, kolesterol hastaları gibi her ay aynı ilacı kullananlar için bot otomatik hatırlatma gönderiyor: "Sayın Ahmet Bey, geçen ay aldığınız Coraspin'iniz bitiyor olabilir, yeni reçete ister misiniz?" Bu özellik tekrarlı satışı yüzde 30-40 artırıyor.
+Tansiyon, diyabet, kolesterol hastaları gibi her ay aynı ilacı kullananlar için bot otomatik hatırlatma gönderiyor: "Sayın Ahmet Bey, geçen ay aldığınız Coraspin'iniz bitiyor olabilir, yeni reçete ister misiniz?" Bu özellik, ilacı biten hastanın başka eczaneye gitmeden önce hatırlatılmasını sağlıyor.
 
 ### 6. Nöbet ve çalışma saati bilgisi
 
@@ -107,9 +107,9 @@ Eczane sağlık verisi işlediği için KVKK kapsamında hassas veri kategorisin
 
 KVKK detayları için [KVKK müşteri verisi rehberi](/blog/kvkk-musteri-verisi-rehberi) yazımız konuya ayrıntılı giriyor. Eczane özelinde ek olarak Türk Eczacılar Birliği'nin elektronik iletişim yönergesini de takip etmek faydalı.
 
-## Maliyet ve Kurulum Süresi
+## Maliyet ve Kurulum Adımları
 
-Bir eczanenin tam donanımlı WhatsApp sipariş sistemi için beklenen maliyet kalemleri:
+Piyasada bir eczanenin tam donanımlı WhatsApp sipariş sistemi için beklenen maliyet kalemleri:
 
 - WhatsApp Business API başvuru ve onay: ücretsiz, 5-10 gün
 - BSP (Business Solution Provider) aylık ücreti: 800-2.500 TL
@@ -118,25 +118,25 @@ Bir eczanenin tam donanımlı WhatsApp sipariş sistemi için beklenen maliyet k
 - Stok yazılımı entegrasyonu: tek seferlik 8.000-20.000 TL
 - Aylık bakım ve içerik güncelleme: 2.500-5.000 TL
 
-PORTZEN olarak biz **eczane paketinde** kurulum + 6 ay bakım + stok entegrasyonunu birlikte sunuyoruz. Detaylı bilgi için [WhatsApp AI Asistanı eczane sayfasına](/whatsapp-ai-asistani/eczane) bakabilirsiniz.
+PORTZEN'de bu kurulum AI müşteri asistanı paketleriyle yapılır: {{fiyatlar:ai-musteri-asistani}} (KDV hariç; Meta mesaj ücretleri hariç). Stok yazılımı bağlantısı gerekiyorsa tek seferlik iş otomasyonu paketleriyle ({{fiyatlar:is-otomasyonu}}) kurulur. Detaylı bilgi için [WhatsApp AI Asistanı eczane sayfasına](/whatsapp-ai-asistani/eczane) bakabilirsiniz.
 
-Kurulum süresi standart bir eczanede 2-3 hafta:
+Kurulum adımları (teslim süresi kapsama göre teklifte yazılı olarak belirtilir):
 
-- Hafta 1: API başvurusu, BSP onayı, stok yazılım entegrasyonu
-- Hafta 2: Bot akışlarının yazılması, eczacıyla özel ürün listesi hazırlığı
-- Hafta 3: Test, eczacı eğitimi, canlıya alma
+- 1. adım: API başvurusu, BSP onayı, stok yazılım entegrasyonu
+- 2. adım: Bot akışlarının yazılması, eczacıyla özel ürün listesi hazırlığı
+- 3. adım: Test, eczacı eğitimi, canlıya alma
 
-## Geri Dönüşler ve Beklenen Sonuçlar
+## Kurulumdan Sonra Neler Değişir?
 
-Saha verisine göre eczanelerde WhatsApp asistanı kurulduktan sonra ilk 3 ayda gözlenen değişimler:
+WhatsApp asistanı kurulduktan sonra ilk aylarda izlenmesi gereken değişimler:
 
-- Telefon trafiği yüzde 40-55 azalıyor
-- OTC satış yüzde 15-25 artıyor (özellikle akşam ve hafta sonu)
-- Kronik hasta sadakat oranı yüzde 30 artıyor
-- Eczacı başına günlük "ekran arkası" iş süresi 1.5-2 saat düşüyor
-- Müşteri memnuniyeti anketlerinde "ulaşılabilirlik" puanı 4.2/5'ten 4.7/5'e çıkıyor
+- Telefon trafiği (rutin sorular WhatsApp'a ve otomatik yanıtlara kayar)
+- OTC satışlar (özellikle akşam ve hafta sonu gelen talepler)
+- Kronik hastaların düzenli geri dönüşü
+- Eczacının günlük "ekran arkası" iş süresi
+- Müşteri memnuniyeti anketlerinde "ulaşılabilirlik" puanı
 
-Bu sayılar tek başına büyük gibi görünmese de eczane gibi marjı dar bir işletmede ciddi fark yaratıyor.
+Bu metrikleri kurulum öncesi değerlerle karşılaştırmak, eczane gibi marjı dar bir işletmede sistemin gerçek katkısını net gösterir.
 
 ## Sıkça Sorulan Sorular
 
@@ -144,7 +144,7 @@ Bu sayılar tek başına büyük gibi görünmese de eczane gibi marjı dar bir 
 Hayır. Reçete onayı ve karekod doğrulaması yasal olarak eczacıya ait. Bot sadece reçete fotoğrafını alıyor, müşteri bilgilerini topluyor ve eczacının paneline iletiyor. Onay ve satış eczacı tarafından yapılıyor.
 
 **KVKK açısından risk var mı?**
-Doğru kurulduğunda risk minimumda. Açık rıza alınmalı, veri sadece gerekli süre saklanmalı, BSP ile veri işleme sözleşmesi imzalanmalı. PORTZEN olarak biz kurulumda KVKK metinlerini de hazırlıyoruz.
+Doğru kurulduğunda risk minimumda. Açık rıza alınmalı, veri sadece gerekli süre saklanmalı, BSP ile veri işleme sözleşmesi imzalanmalı. PORTZEN olarak kurulumda açık rıza ve aydınlatma adımlarını akışa ekliyoruz; metinlerin hukuki içeriğinin eczanenin kendi hukuk danışmanınca onaylanması önerilir.
 
 **Eczane stok yazılımıma entegre olur mu?**
 Net 100, Farmasoft, Bilge, Logo, Mikro gibi yaygın yazılımlarla entegrasyon yapıyoruz. Sizin yazılımınız listede yoksa API olup olmadığını kontrol ediyoruz, yoksa manuel stok yükleme paneli sunuyoruz.
@@ -157,6 +157,6 @@ Olur. Şubelere göre numaralandırma ve yönlendirme yapılıyor. Merkezi panel
 
 ## PORTZEN ile Eczane İçin WhatsApp Sipariş Sistemi Kurmak
 
-Eczanenizde tekrar eden mesaj yükünü azaltmak, OTC satışı artırmak ve kronik hasta sadakatini güçlendirmek istiyorsanız PORTZEN olarak biz tam paket çözüm sunuyoruz: WhatsApp Business API kurulumu, stok yazılımı entegrasyonu, KVKK uyumlu bot akışları, eczacı eğitimi ve aylık bakım. Daha geniş otomasyon ihtiyaçlarınız için [iş süreçleri otomasyonu](/blog/isletmeler-icin-surec-otomasyonu) ve [CRM otomasyonu rehberi](/blog/crm-otomasyonu-rehberi) yazılarımız da yol gösterici olabilir.
+Eczanenizde tekrar eden mesaj yükünü azaltmak, OTC satışı artırmak ve kronik hasta sadakatini güçlendirmek istiyorsanız PORTZEN olarak biz tam paket çözüm sunuyoruz: WhatsApp Business API kurulumu, stok yazılımı entegrasyonu, KVKK gerekliliklerini dikkate alan bot akışları, eczacı eğitimi ve aylık bakım. Daha geniş otomasyon ihtiyaçlarınız için [iş süreçleri otomasyonu](/blog/isletmeler-icin-surec-otomasyonu) ve [CRM otomasyonu rehberi](/blog/crm-otomasyonu-rehberi) yazılarımız da yol gösterici olabilir.
 
 Eczaneniz için özel kurulum teklifi almak ve mevcut iş akışınıza uygun modülleri konuşmak için [iletişime geçin](/iletisim). İlk görüşmede biz sizin günlük mesaj hacminizi, stok yazılımınızı ve hedeflerinizi anlıyoruz, ardından net bir teklif sunuyoruz.

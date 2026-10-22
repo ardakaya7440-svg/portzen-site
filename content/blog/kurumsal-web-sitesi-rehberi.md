@@ -47,7 +47,7 @@ Her aşamada doğru CTA, doğru içerik, doğru hız olmazsa kullanıcı huniden
 | Yapısal veri (Schema.org) | Zengin sonuç görünümü | Yüksek |
 | CMS / kolay içerik yönetimi | Pazarlama hızı | Orta |
 | Analitik (GA4 + Hotjar) | Veri olmadan iyileştirme yok | Çok yüksek |
-| CRM / lead toplama entegrasyonu | Lead asla kaybolmaz | Yüksek |
+| CRM / lead toplama entegrasyonu | Lead kaybını önler | Yüksek |
 | Çok dilli yapı | İhracat & SEO avantajı | Orta |
 
 ## 1. Core Web Vitals: Performans Yeni SEO'dur
@@ -252,22 +252,22 @@ Bu kişiselleştirme küçük gözükür ama dönüşümü %20-35 artırıyor.
 | Headless modern (Next.js) | 10-15 sayfa, CMS, performans | 75.000 - 180.000 TL |
 | Kurumsal + AI entegre | Tam paket, CRM, AI bot, SEO | 150.000 - 400.000 TL |
 
-Aylık bakım ortalama 3.000 - 10.000 TL (hosting, güncelleme, içerik desteği).
+Aylık bakım ortalama 3.000 - 10.000 TL (hosting, güncelleme, içerik desteği). PORTZEN'de kurumsal siteler sabit fiyatlı paketlerle yapılır: {{fiyatlar:kurumsal-web-sitesi}}; yayın sonrası bakım ayrı aylık hizmettir: {{fiyatlar:web-bakim}} (KDV hariç).
 
 ### Yatırımın Geri Dönüşü
 
-İyi bir kurumsal site aylık ortalama:
+Bir kurumsal sitenin geri dönüşünü şu zincirle ölçebilirsiniz:
 
-- 800-2.500 organik ziyaret getirir (12. ay)
-- 40-150 lead toplar
-- Bunların 8-30'u müşteriye dönüşür
-- Müşteri başı ortalama 5-50 bin TL ciro
+- Aylık organik ziyaret
+- Toplanan lead sayısı
+- Lead'den müşteriye dönüşüm
+- Müşteri başı ortalama ciro
 
-Yatırım 6-12 ay içinde geri döner. Sonraki her ay net kar.
+Geri dönüş süresi sektörünüze, içerik üretim temponuza ve müşteri başı cironuza göre değişir; bu dört metriği ölçümleme kurulumuyla baştan takip etmek, yatırımın ne zaman kendini çıkardığını net gösterir.
 
 ## Sık Yapılan 7 Web Sitesi Hatası
 
-**1. Hero'da otomatik video oynatmak.** Performansı öldürür, kullanıcıyı sinirlendirir. Statik görsel veya isteğe bağlı video kullanın; hero için gerekli kısa tanıtım klibini geleneksel çekim yerine [yapay zeka video üretimi](/yapay-zeka-video-uretimi) ile günler içinde hazırlayıp 5 MB altına optimize etmek mümkün.
+**1. Hero'da otomatik video oynatmak.** Performansı öldürür, kullanıcıyı sinirlendirir. Statik görsel veya isteğe bağlı video kullanın; hero için gerekli kısa tanıtım klibini geleneksel çekim yerine [yapay zeka video üretimi](/yapay-zeka-video-uretimi) ile hızlıca hazırlayıp 5 MB altına optimize etmek mümkün.
 
 **2. Çok fazla pop-up.** Aynı anda 3 pop-up gösteren site dönüşümü %40 düşürüyor. Tek, akıllı, zamanlı pop-up.
 
@@ -283,10 +283,10 @@ Yatırım 6-12 ay içinde geri döner. Sonraki her ay net kar.
 
 ## PORTZEN ile Kurumsal Web Sitesi: Sıfırdan Sisteme
 
-PORTZEN olarak kurumsal web sitesi projelerini "site yapımı" değil, **dijital satış altyapısı kurulumu** olarak ele alıyoruz. Tipik projemiz 6-10 hafta sürer ve 4 aşamadan oluşur: keşif & strateji, UI/UX tasarım, geliştirme (Next.js + Sanity headless), entegrasyon (AI bot, CRM, analitik, e-posta otomasyonu).
+PORTZEN olarak kurumsal web sitesi projelerini "site yapımı" değil, **dijital satış altyapısı kurulumu** olarak ele alıyoruz. Tipik projemiz 4 aşamadan oluşur (teslim süresi kapsama göre teklifte yazılı olarak belirtilir): keşif & strateji, UI/UX tasarım, geliştirme (Next.js + Sanity headless), entegrasyon (ölçümleme ve pakete göre standart entegrasyonlar; AI bot ve e-posta otomasyonu ayrı hizmetlerdir).
 
-Site teslim sonrası bitmiyor; sonraki 6 ay aylık SEO içerik üretimi, performans optimizasyonu, A/B test yönetimi sürüyor. [Web Tasarım](/web-tasarim) hizmetimiz [AI Bot Kurulumu](/whatsapp-ai-asistani) ve [Otomasyon Sistemleri](/crm-otomasyonu) ile birleştiğinde gerçek anlamda "kendi başına satış yapan site" deneyimini yaşıyorsunuz. Müşterilerimizde 6. ay sonunda ortalama organik trafik artışı %340, lead dönüşümü %215 oldu.
+Site teslim sonrası bitmiyor; yayından sonraki bakım Web bakım paketleriyle (toplam 1, 3 veya 6 saat) sürdürülebiliyor. [Web Tasarım](/web-tasarim) hizmetimiz [AI Bot Kurulumu](/whatsapp-ai-asistani) ve [Otomasyon Sistemleri](/crm-otomasyonu) ile birleştiğinde sitenizden gelen talepler otomatik karşılanır, kayda alınır ve takip edilir.
 
 Kurumsal site kalıcı bir yatırım. Doğru kurulursa 5-7 yıl size hizmet eder. Yanlış kurulursa 18 ayda yenilemek zorunda kalırsınız. Kısa vadeli kararlar yerine doğru altyapıyı seçmek uzun vadede en büyük tasarruf.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir görüşmede işletmeniz için uygun yapıyı netleştiririz.

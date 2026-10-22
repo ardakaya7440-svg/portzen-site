@@ -2,16 +2,36 @@
   "sectorSlug": "avukat",
   "sectorName": "Hukuk Bürosu",
   "sectorPlural": "Hukuk Büroları",
-  "title": "Hukuk Büroları İçin CRM Otomasyonu | KVKK Uyumlu Müvekkil Takip — PORTZEN",
-  "description": "Hukuk bürosu için KVKK uyumlu CRM otomasyonu. Müvekkil profili, dava aşama takibi, WhatsApp Business, fatura yönetimi — danışan-müvekkil dönüşümü %38'e.",
-  "keywords": ["avukat crm", "hukuk bürosu otomasyon", "müvekkil takip sistemi", "kvkk uyumlu hukuk crm", "dava takip sistemi", "avukat whatsapp business", "hukuk bürosu yönetim"],
+  "title": "Hukuk Büroları İçin CRM Otomasyonu | Müvekkil ve Dava Takibi — PORTZEN",
+  "description": "Hukuk bürosu için KVKK gerekliliklerini dikkate alan CRM otomasyonu. Müvekkil profili, dava aşama takibi, WhatsApp Business, fatura yönetimi tek sistemde.",
+  "keywords": [
+    "avukat crm",
+    "hukuk bürosu otomasyon",
+    "müvekkil takip sistemi",
+    "kvkk uyumlu hukuk crm",
+    "dava takip sistemi",
+    "avukat whatsapp business",
+    "hukuk bürosu yönetim"
+  ],
   "h1": "Hukuk Büroları için CRM Otomasyonu",
-  "heroSubtitle": "Danışan görüşmeleri sözlü kalıyor, dava aşamaları kafanızda, fatura excel'de, müvekkil ile iletişim e-posta zinciri. KVKK uyumlu, müvekkil profili + dava türü etiketleme + fatura yönetimi tek sistem — danışan-müvekkil dönüşümünüz üçe katlanır.",
+  "heroSubtitle": "Danışan görüşmeleri sözlü kalıyor, dava aşamaları kafanızda, fatura excel'de, müvekkil ile iletişim e-posta zinciri. KVKK gerekliliklerini dikkate alarak kurgulanan müvekkil profili + dava türü etiketleme + fatura yönetimi tek sistem — danışan görüşmeleri kayıt altında.",
   "stats": [
-    {"value": "%180", "label": "Aylık Ciro Artışı"},
-    {"value": "%38", "label": "Danışan-Müvekkil Dönüşümü"},
-    {"value": "5 hafta", "label": "Kurulum"},
-    {"value": "%100", "label": "KVKK Uyumlu"}
+    {
+      "value": "Dava türü",
+      "label": "Etiketleme ve aşama takibi"
+    },
+    {
+      "value": "WhatsApp + e-posta",
+      "label": "Müvekkil bilgilendirme"
+    },
+    {
+      "value": "Tek seferlik",
+      "label": "Kurulum bedeli"
+    },
+    {
+      "value": "KVKK",
+      "label": "Gereklilikler dikkate alınır"
+    }
   ],
   "problems": [
     "İlk danışma görüşmeleri sözlü kalıyor, 2 ay sonra 'siz bana ne demiştiniz' sorusu geliyor — kayıt yok, savunma zayıflıyor",
@@ -23,8 +43,8 @@
   ],
   "solutionSteps": [
     {
-      "title": "1. Süreç Analizi (KVKK Uyumlu)",
-      "description": "Mevcut müvekkil akışınızı haritalıyoruz: ilk danışma → teklif → sözleşme → dava aşamaları → faturalandırma → karar. KVKK ve avukatlık etiği çerçevesinde hangi verilerin nasıl tutulacağını netleştiriyoruz — VERBIS kayıt desteği dahil."
+      "title": "1. Süreç Analizi (KVKK Çerçevesinde)",
+      "description": "Mevcut müvekkil akışınızı haritalıyoruz: ilk danışma → teklif → sözleşme → dava aşamaları → faturalandırma → karar. KVKK ve avukatlık etiği çerçevesinde hangi verilerin nasıl tutulacağını netleştiriyoruz — VERBİS kaydı ise paketlere dahil değildir, büronuz tarafından yapılır."
     },
     {
       "title": "2. CRM Kurulum (Clio / PracticePanther / n8n)",
@@ -32,21 +52,21 @@
     },
     {
       "title": "3. WhatsApp Business + Email Serisi",
-      "description": "WhatsApp Business API ile müvekkil iletişimi (KVKK uyumlu mesaj şablonları), dava aşaması değiştiğinde otomatik bilgilendirme ('Dosyanız tensip aşamasına geçti'), randevu hatırlatma, fatura hatırlatma — hepsi otomatik."
+      "description": "Meta'nın resmi WhatsApp Business API'si üzerinden müvekkil iletişimi (KVKK gerekliliklerini dikkate alan mesaj şablonları), dava aşaması değiştiğinde otomatik bilgilendirme ('Dosyanız tensip aşamasına geçti'), randevu hatırlatma, fatura hatırlatma — hepsi otomatik."
     },
     {
       "title": "4. Eğitim + Aylık Raporlama",
-      "description": "Avukatlar, katip ve sekretarya için 3 saat canlı eğitim. Aylık dashboard: aktif dava sayısı, dava türü dağılımı, ortalama dava süresi, müvekkil başı ciro, danışan-müvekkil dönüşümü, tahsil edilmemiş alacak — net rakamlar."
+      "description": "Avukatlar, katip ve sekretarya için canlı eğitim (ekip eğitimi Büyüme ve Kurumsal paketlerde dahil). Aylık dashboard: aktif dava sayısı, dava türü dağılımı, ortalama dava süresi, müvekkil başı ciro, danışan-müvekkil dönüşümü, tahsil edilmemiş alacak — net rakamlar."
     }
   ],
   "features": [
     {
-      "title": "KVKK Uyumlu Müvekkil Profili",
-      "description": "Her müvekkilin özel profili: kimlik (şifrelenmiş), iletişim, dava geçmişi, belgeler (versiyonlu), görüşme notları (sesle kayıt + transkript opsiyonu), aile durumu, finansal arka plan. Tüm veri AB sunucularında, KVKK Madde 12 uyumlu erişim logları."
+      "title": "KVKK Gerekliliklerine Göre Müvekkil Profili",
+      "description": "Her müvekkilin özel profili: kimlik, iletişim, dava geçmişi, belgeler (versiyonlu), görüşme notları (sesle kayıt + transkript opsiyonu), aile durumu, finansal arka plan. Erişim yetkileri ve erişim kayıtları KVKK gerekliliklerini dikkate alarak kurgulanır; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir."
     },
     {
       "title": "Dava Türü Etiketleme & Aşama Takibi",
-      "description": "Her dava türü etiketli (aile, ticaret, iş, ceza, idare, vergi), her dava ayrı aşama çizgisi (tensip, ön inceleme, tahkikat, hüküm, istinaf, temyiz). UYAP entegrasyonu ile aşama değişimi otomatik yansıyor, müvekkil bilgilendirme otomatik."
+      "description": "Her dava türü etiketli (aile, ticaret, iş, ceza, idare, vergi), her dava ayrı aşama çizgisi (tensip, ön inceleme, tahkikat, hüküm, istinaf, temyiz). UYAP'ın resmi API'si olmadığından aşama bilgisinin CRM'e nasıl aktarılacağı brief'te planlanır; aşama güncellendiğinde müvekkil bilgilendirmesi otomatik gider."
     },
     {
       "title": "Randevu + Belge Takip Sistemi",
@@ -58,7 +78,7 @@
     },
     {
       "title": "WhatsApp Business Entegre",
-      "description": "Müvekkilinizle iletişim resmi WhatsApp Business üzerinden (KVKK uyumlu), hazır mesaj şablonları ('Dosyanız tensip aşamasında, sonraki adım X'), tüm konuşma müvekkil profiline otomatik kaydediliyor. Email zinciri kaosu biter."
+      "description": "Müvekkilinizle iletişim Meta'nın resmi WhatsApp Business API'si üzerinden (KVKK gerekliliklerini dikkate alarak), hazır mesaj şablonları ('Dosyanız tensip aşamasında, sonraki adım X'), tüm konuşma müvekkil profiline otomatik kaydediliyor. Email zinciri kaosu biter."
     },
     {
       "title": "Aylık Dava İstatistik Raporu",
@@ -66,93 +86,66 @@
     }
   ],
   "caseStudy": {
-    "title": "Kadıköy'de Bir Hukuk Bürosunun 4 Aylık Dönüşümü",
+    "title": "Örnek senaryo: Kadıköy'de bir hukuk bürosu için müvekkil, dava ve ücret takibi",
     "paragraphs": [
-      "İstanbul Kadıköy'de 14 yıldır faaliyet gösteren, 3 avukat + 1 katip ile çalışan bir hukuk bürosu, aile hukuku ve ticaret hukuku ağırlıklı çalışıyordu. İlk danışma görüşmesi sözlü ve dağınıktı, 60 aktif davanın takibi excel ve UYAP'tan elle yapılıyordu, müvekkil ücretleri ödendi mi unutuluyordu. Aylık danışan sayısı 28, danışan-müvekkil dönüşüm oranı %12'di. Sekreter günde 4 saat WhatsApp ve telefon cevaplıyordu.",
-      "PORTZEN olarak PracticePanther CRM kurulumu yaptık (KVKK uyumlu, AB sunucu, VERBIS kayıt desteği), WhatsApp Business API entegrasyonu, n8n ile dava aşaması değişimi otomatik bilgilendirme (UYAP scraping yasal sınırlar içinde), e-fatura entegre fatura takip sistemi, online randevu (Calendly) ve müvekkil belge yükleme portalı. Tüm büro ekibine 3 saat canlı KVKK + sistem eğitimi verdik.",
-      "4 ay sonra danışan-müvekkil dönüşüm oranı %12'den %38'e çıktı, aylık ciro %180 arttı. Tahsil edilmemiş alacak %80 azaldı (otomatik hatırlatma sayesinde). Sekreter günde 4 saatten 1 saate düştü WhatsApp/telefon trafiğinde — boşalan zamanı dava dosyası hazırlığına ayırdı. 'Aile hukuku %62 ciro getiriyor, oradayız' kararı veriyle alındı, marketing buna göre yönlendirildi."
+      "Örnek senaryo: İstanbul Kadıköy'de birkaç avukat ve bir katiple çalışan, aile hukuku ve ticaret hukuku ağırlıklı bir hukuk bürosu düşünün. İlk danışma görüşmesi sözlü ve dağınık, aktif davaların takibi excel ve UYAP'tan elle yapılıyor, müvekkil ücretleri ödendi mi unutuluyor. Sekreterin günü büyük ölçüde WhatsApp ve telefon cevaplamakla geçiyor.",
+      "Örnek bir kurulumda PracticePanther CRM (KVKK gerekliliklerini dikkate alan erişim ve rıza kurgusuyla), WhatsApp Business API entegrasyonu, n8n ile aşama güncellendiğinde otomatik müvekkil bilgilendirmesi, e-fatura entegre fatura takip sistemi, online randevu (Calendly) ve müvekkil belge yükleme portalı kurulur. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.",
+      "Bu kurulumla iş akışında değişen şudur: ilk danışma notları müvekkil profilinde kayıtlı kalır, vade gelen ücretler için hatırlatma otomatik gider, müvekkil belgeyi portala kendisi yükler, rutin 'dosyam ne durumda' soruları otomatik bilgilendirmeyle karşılanır. Aylık raporda hangi dava türünün ne kadar iş getirdiği görünür ve karar veriyle alınabilir."
     ],
     "beforeAfter": [
-      {"label": "Danışan-Müvekkil Dönüşümü", "before": "%12", "after": "%38"},
-      {"label": "Aylık Ciro", "before": "1x", "after": "2.8x"},
-      {"label": "Tahsil Edilmemiş Alacak", "before": "%100", "after": "%20"},
-      {"label": "Sekreter WhatsApp/Telefon Saati", "before": "4 sa/gün", "after": "1 sa/gün"},
-      {"label": "Belge Bulma Süresi", "before": "12 dk", "after": "20 sn"}
+      {
+        "label": "Danışan-Müvekkil Dönüşümü",
+        "before": "İlk danışma sözlü kalıyor, takip yok",
+        "after": "Görüşme notu ve takip adımı CRM'de"
+      },
+      {
+        "label": "Dava Türü Raporu",
+        "before": "Hangi dava türünün ne getirdiği bilinmiyor",
+        "after": "Aylık raporda dava türüne göre dağılım"
+      },
+      {
+        "label": "Tahsil Edilmemiş Alacak",
+        "before": "Excel'de, ödendi mi unutuluyor",
+        "after": "Vade gelince otomatik fatura ve hatırlatma"
+      },
+      {
+        "label": "Sekreter WhatsApp/Telefon Saati",
+        "before": "Rutin sorular tek tek cevaplanıyor",
+        "after": "Aşama bilgilendirmesi otomatik gidiyor"
+      },
+      {
+        "label": "Belge Bulma Süresi",
+        "before": "E-posta zincirinde aranıyor",
+        "after": "Müvekkil profilinde versiyonlu duruyor"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "15.000 TL/ay",
-      "description": "Tek avukat + sekreter çalışan bürolar için temel CRM + WhatsApp Business + randevu paketi.",
-      "features": [
-        "PracticePanther CRM kurulum (KVKK uyumlu)",
-        "WhatsApp Business API entegrasyonu",
-        "Müvekkil profili (KVKK uyumlu)",
-        "Online randevu (Calendly entegre)",
-        "Basit dava türü etiketleme",
-        "VERBIS kayıt desteği",
-        "3 saat canlı eğitim (sistem + KVKK)"
-      ]
-    },
-    {
-      "name": "Pro",
-      "price": "28.000 TL/ay",
-      "description": "Büyüyen bürolar için dava aşama takibi, fatura yönetimi ve detaylı raporlama dahil tam paket.",
-      "features": [
-        "Başlangıç paketinin tamamı",
-        "Dava aşaması otomatik takip + müvekkil bilgilendirme",
-        "E-fatura + e-arşiv entegre fatura yönetimi",
-        "Belge yükleme portalı (müvekkil için)",
-        "E-imza (sözleşme + vekaletname)",
-        "Aylık dava istatistik raporu",
-        "Tahsil edilmemiş alacak otomatik hatırlatma",
-        "Sürekli optimizasyon ve destek"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Premium Hukuk Bürosu Paketi",
-      "price": "55.000 TL/ay",
-      "description": "Çoklu avukatlı, kurumsal hukuk büroları için Clio entegrasyonu, B2B müvekkil ve danışmanlık paketi.",
-      "features": [
-        "Pro paketinin tamamı",
-        "Clio CRM (kurumsal hukuk standartı)",
-        "Çoklu avukat + komisyon takibi",
-        "B2B müvekkil portalı (şirket danışmanlık)",
-        "UYAP gelişmiş entegrasyonu",
-        "Özel mobil app (müvekkil için)",
-        "Marketing yönetimi (SEO + içerik)",
-        "Aylık performans + büyüme danışmanlığı"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "KVKK ve avukatlık etiği uyumlu mu? Müvekkil verilerini güvenli tutuyor musunuz?",
-      "answer": "Tamamen uyumlu. PracticePanther ve Clio AB sunucularında, KVKK Madde 12 uyumlu erişim logları, müvekkil verisi şifreli depolama. VERBIS kayıt başvurunuzu biz yapıyoruz. Avukatlık Kanunu Madde 36 (sır saklama yükümlülüğü) açısından da uygun — sadece yetkili kullanıcılar erişebiliyor."
+      "answer": "Kurgu KVKK gerekliliklerini dikkate alarak yapılır: rol bazlı erişim, erişim kayıtları, açık rıza ve aydınlatma akışı. Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya (ör. PracticePanther veya Clio) göre teklifte yazılı olarak belirtilir. VERBIS kayıt başvurusu paketlere dahil değildir; veri sorumlusu olarak büronuz tarafından yapılır. Avukatlık Kanunu Madde 36'daki sır saklama yükümlülüğü dikkate alınarak erişim yalnızca yetkili kullanıcılarla sınırlanır; hukuki değerlendirme büronuza aittir."
     },
     {
       "question": "UYAP entegrasyonu nasıl çalışıyor? Yasal mı?",
-      "answer": "UYAP'ın resmi API'si yok, ama biz yasal sınırlar içinde (sizin kendi avukatlık hesabınızdan, sizin kendi dava verilerinizi) periyodik kontrol mekanizması kuruyoruz. Dava aşaması değiştiğinde sistem sizi ve müvekkili bilgilendiriyor. Manuel UYAP'a girme zorunluluğu büyük ölçüde azalıyor."
+      "answer": "UYAP'ın resmi API'si yok. Bu nedenle UYAP tarafında nasıl bir kontrol yapılabileceği, kullanım koşulları ve mevzuat açısından brief'te birlikte değerlendirilir; hukuki uygunluk değerlendirmesi büronuza aittir. Aşama bilgisi CRM'e girildiğinde sistem sizi ve müvekkili otomatik bilgilendirir."
     },
     {
       "question": "WhatsApp Business üzerinden müvekkille konuşmak avukatlık etiğine aykırı mı?",
-      "answer": "Hayır, aksine — TBB Disiplin Yönetmeliği güncel teknoloji ile iletişimi destekliyor. WhatsApp Business resmi platform, mesaj şablonları KVKK uyumlu, tüm konuşma müvekkil dosyasına otomatik kaydediliyor (delil için saklı). Etik açıdan email'den daha güvenli."
+      "answer": "Bu değerlendirme büronuza ve meslek kurallarına aittir; biz teknik tarafı kuruyoruz. İletişim Meta'nın resmi WhatsApp Business API'si üzerinden yürür, mesaj şablonları KVKK gerekliliklerini dikkate alarak hazırlanır ve konuşmalar müvekkil dosyasına otomatik kaydedilir."
     },
     {
       "question": "Mevcut excel müvekkil verilerimi taşıyabilir misiniz?",
-      "answer": "Tabii. Excel'deki müvekkil bilgileri, dava listesi, ücret bilgileri CRM'e import ediliyor. Geçmiş davalarınızın arşiv kaydını da ayrı bir klasöre alıyoruz — gelecekte 'şu müvekkille 3 yıl önce ne yapmıştık' sorusunun cevabı 10 saniyede."
+      "answer": "Tabii. Excel'deki müvekkil bilgileri, dava listesi, ücret bilgileri CRM'e import ediliyor. Geçmiş davalarınızın arşiv kaydını da ayrı bir klasöre alıyoruz — 'şu müvekkille 3 yıl önce ne yapmıştık' sorusunun cevabı tek yerden aranabiliyor."
     },
     {
       "question": "Kaç avukatla çalışıyorsanız ücret değişiyor mu?",
-      "answer": "Pro pakette 5 avukata kadar dahil. 5'in üzerinde her avukat başına ek 1.500 TL/ay. Premium pakette sınırsız avukat dahil. Katip ve sekretarya ücretsiz."
+      "answer": "PORTZEN kurulum bedeli avukat sayısına göre değil, kurulacak iş akışı ve bağlanacak uygulama sayısına göre belirleniyor. Kullanıcı sayısı ise CRM lisansını etkiler: avukat, katip ve sekretarya için gereken kullanıcı lisansları CRM sağlayıcısının tarifesine göre ayrıca ödenir ve kurulum bedeline dahil değildir. Büronuzun ekip yapısına uygun CRM planını kurulum öncesinde birlikte netleştiriyoruz."
     },
     {
-      "question": "Aylık 15.000 TL'ye değiyor mu? ROI nedir?",
-      "answer": "Kadıköy case study örneği: ay başı ciro 2.8 katına çıktı. Tahsil edilmemiş alacak %80 azaldı (sadece bu kalemde ayda 80.000+ TL geri kazanılıyor). Pro paket 28.000 TL/ay. Net aylık kazanç: minimum 150.000 TL. Geri dönüş 1. ayda görünür."
+      "question": "Hukuk bürosu için CRM otomasyonu yatırımına değer mi?",
+      "answer": "Kurulum aylık değil, tek seferliktir ({{fiyatlar:is-otomasyonu}}, KDV hariç); ilk 30 gün kurulum hataları giderilir, ikinci aydan itibaren aylık bakım isteğe bağlıdır. Getiriyi büronuzun kendi rakamlarıyla değerlendirmenizi öneriyoruz: tahsil edilmemiş vekalet ücretleri için otomatik hatırlatmalar, geri dönüş yapılmayan müvekkil talepleri ve elle yapılan takip işlerine harcanan saatler en belirgin kalemler. Sonuç her büronun iş hacmine ve süreçlerine göre değişir, belirli bir getiri vaat etmiyoruz."
     }
   ],
-  "finalCtaHeadline": "Hukuk Büronuzun Müvekkil Kaybı Bugün Bitsin",
-  "finalCtaSubtitle": "30 dakikalık ücretsiz büro akış analizi (KVKK uyumlu görüşme) — danışan-müvekkil dönüşümünüzü neden kaybettiğinizi ve PORTZEN ile 4 ayda nasıl üçe katlayacağımızı konuşalım."
+  "finalCtaHeadline": "Hukuk Büronuzun Müvekkil Takibini Düzene Sokalım",
+  "finalCtaSubtitle": "30 dakikalık ücretsiz büro akış analizi — danışan ve müvekkil takibinizin nerede aksadığını ve PORTZEN ile bunu nasıl düzene sokabileceğimizi konuşalım."
 }

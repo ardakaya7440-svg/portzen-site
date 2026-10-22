@@ -293,10 +293,10 @@ Sunduğumuz hizmetler şunları kapsar.
 
 - İşletmenizin ihtiyaç analizi ve AI yol haritası çıkarılması
 - Doğru araç seçimi ve abonelik optimizasyonu
-- WhatsApp Business, CRM ve e-ticaret panellerine [AI chatbot entegrasyonu](/ai-bot)
+- WhatsApp Business, CRM ve e-ticaret panellerine [AI chatbot entegrasyonu](/whatsapp-ai-asistani)
 - Türkçe optimize edilmiş prompt kütüphanesi oluşturma
-- Ekip eğitimi ve süreç dokümantasyonu
-- Aylık performans raporu ve sürekli iyileştirme
+- Ekip eğitimi (iş otomasyonu Büyüme ve Kurumsal paketlerinde) ve süreç dokümantasyonu (Kurumsal pakette)
+- Kurulum sonrası isteğe bağlı aylık bakım; paket kapsamları ve fiyatlar [fiyatlar sayfasında](/fiyatlar)
 
 KOBİ olarak AI yolculuğunuza başlamak veya mevcut AI yatırımlarınızı optimize etmek için bizimle iletişime geçin. İlk görüşmede işletmenize özel ücretsiz bir AI hazırlık analizi sunuyoruz.
 

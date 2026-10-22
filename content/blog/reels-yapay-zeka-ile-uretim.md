@@ -23,7 +23,7 @@ Bugün Instagram Reels'in ortalama izlenme süresi 18 saniye. TikTok'ta hala hoo
 
 ### KOBİ İçin Asıl Avantaj: Hacim ve Hız
 
-Bir kafe için ayda 4 Reels üretmek çekim ekibiyle 25-40 bin TL'lik bir kalem. Aynı kafe AI ile ayda 20 Reels üretebilir, maliyet 3-6 bin TL bandında kalır. Buradaki kazanım sadece para değil; algoritmanın sevdiği "düzenli ve sık paylaşım" disiplinine girmek mümkün hale geliyor. Instagram algoritması ayda 2 Reels paylaşan hesabı görünmez sayıyor; haftada 3-5 Reels paylaşan hesabı keşfet'e taşıyor.
+Bir kafe için ayda 4 Reels üretmek çekim ekibiyle 25-40 bin TL'lik bir kalem. Aynı kafe kendi ekibiyle AI kullanarak ayda 20 Reels üretebilir; araç maliyeti 3-6 bin TL bandında kalabilir. Buradaki kazanım sadece para değil; algoritmanın sevdiği "düzenli ve sık paylaşım" disiplinine girmek mümkün hale geliyor. Instagram algoritması ayda 2 Reels paylaşan hesabı görünmez sayıyor; haftada 3-5 Reels paylaşan hesabı keşfet'e taşıyor.
 
 ### Reels Yapay Zeka ile Üretim Hangi Sektörlerde Çalışmıyor?
 
@@ -150,11 +150,11 @@ Bir restoran zinciri için aylık 20 Reels'in 12'si menü tanıtımı oluyor. Kl
 - **Sahne 4 (9-14 sn):** Elin burger'i alıp ısırması (POV)
 - **Sahne 5 (14-18 sn):** Logo + sipariş CTA
 
-Bu Reels 5-6 saatte üretiliyor, geleneksel reklam çekiminde 1 günlük setup + 1 günlük çekim + 2 günlük kurgu gerekirdi. Maliyeti 60 bin TL yerine 2.500 TL.
+Bu Reels birkaç saatlik masa başı üretimle hazırlanabiliyor; geleneksel reklam çekiminde ise ayrı ayrı setup, çekim ve kurgu günleri gerekirdi. Maliyeti 60 bin TL yerine 2.500 TL.
 
 ### Butik ve Moda: AI Lookbook Reels'leri
 
-Yeni sezon koleksiyonun fotoğrafları çekildikten sonra her parça için ayrı bir Reels üretiliyor. Modelin yüzünü tutarlı tutmak için Minimax Hailuo ile bir karakter referansı sabitleniyor; sonra Kling ile farklı sahnelerde aynı karakter farklı kıyafetlerle gösteriliyor. Bir butik 50 parçalık koleksiyonunu 2 haftada Reels'e döküyor, klasik çekimle bu 2 ay sürerdi.
+Yeni sezon koleksiyonun fotoğrafları çekildikten sonra her parça için ayrı bir Reels üretiliyor. Modelin yüzünü tutarlı tutmak için Minimax Hailuo ile bir karakter referansı sabitleniyor; sonra Kling ile farklı sahnelerde aynı karakter farklı kıyafetlerle gösteriliyor. Bu sayede bir butik, koleksiyonunu klasik çekime göre çok daha kısa sürede Reels'e dökebiliyor.
 
 ### Estetik Klinik: Eğitici Reels'ler
 
@@ -162,7 +162,7 @@ KVKK ve hasta gizliliği nedeniyle gerçek hasta yüzü kullanılamıyor. Veo 3.
 
 ### Emlak: Sanal Tur Reels'leri
 
-İnşaat halindeki projelerin mimari render'ları Kling ile image-to-video animasyona çevriliyor. Boş daire içine sanal mobilya, oturma sahneleri, çocuk odası örnekleri ekleniyor. "Daire X bittiğinde nasıl görünecek" Reels'i potansiyel alıcının kafasındaki boşluğu dolduruyor. Bir emlak danışmanı haftada 4-5 farklı proje için Reels üretebiliyor, fiziksel ziyaret talebi %38 artıyor.
+İnşaat halindeki projelerin mimari render'ları Kling ile image-to-video animasyona çevriliyor. Boş daire içine sanal mobilya, oturma sahneleri, çocuk odası örnekleri ekleniyor. "Daire X bittiğinde nasıl görünecek" Reels'i potansiyel alıcının kafasındaki boşluğu dolduruyor. Bir emlak danışmanı birden fazla proje için düzenli Reels üretebiliyor; fiziksel ziyaret talepleri ise Reels'e bağlı WhatsApp ve form bağlantıları üzerinden ölçülebiliyor.
 
 ## Maliyet Karşılaştırması: Geleneksel vs AI Üretim
 
@@ -182,7 +182,7 @@ KOBİ'nin ayda 20 Reels üretmesi senaryosunda iki yöntemin karşılaştırmas�
 | **Reels başına maliyet** | **~8.750 - 19.500 TL** | **~875 - 2.100 TL** |
 | **Teslim süresi** | 3-5 hafta | 5-7 gün |
 
-Tablonun gösterdiği gibi maliyet farkı 8-10 kat, üretim hızı farkı ise 4-5 kat. Bu denklem KOBİ'nin marka iletişim bütçesini yeniden yazıyor. Tasarruf edilen para reklam bütçesine, ajans hizmet bedeline ya da yeni ürün geliştirmeye aktarılabiliyor.
+Tablonun gösterdiği gibi maliyet farkı 8-10 kat, üretim hızı farkı ise 4-5 kat. Bu denklem KOBİ'nin marka iletişim bütçesini yeniden yazıyor. Tasarruf edilen para reklam bütçesine, ajans hizmet bedeline ya da yeni ürün geliştirmeye aktarılabiliyor. Tablodaki AI üretim tutarları sektör ortalamasıdır; PORTZEN'de aylık kısa video üretimi {{fiyatlar:kisa-video}} olarak fiyatlanır (KDV hariç).
 
 ## Reels Üretiminin Dijital Pazarlama Zincirine Bağlanması
 
@@ -191,7 +191,7 @@ Reels tek başına işe yaramıyor; bir zincirin halkası olarak çalışıyor. 
 1. Reels yayınlanıyor, algoritma keşfete taşıyor
 2. İzleyici profile tıklıyor, biyografideki bağlantıya gidiyor
 3. Bağlantı WhatsApp, Instagram DM ya da web formuna düşüyor
-4. [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ile gelen mesaj karşılanıyor, segment ediliyor
+4. Kural tabanlı [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ile gelen mesaj önceden tanımlı yanıtla karşılanıyor ve etiketleniyor (serbest soruları yapay zekâ ile yanıtlamak ayrı bir hizmet olan AI müşteri asistanının kapsamında)
 5. Sıcak lead satış ekibine, soğuk lead nurturing sürecine düşüyor
 
 Bu zincirin koptuğu yerlerde reklam bütçesi havaya gidiyor. [İnstagramdan müşteri bulma rehberi](/blog/instagramdan-musteri-bulma-rehberi) yazımızda bu zincirin nasıl kurulduğunu detaylandırdık. AI Reels üretmek dönüşüm zincirinin ilk halkası — sonraki halkalar da kurulmadan tek başına yetersiz kalıyor.
@@ -216,14 +216,14 @@ Reklam ve Reels'in farkını da belirtmek lazım. [AI reklam videoları](/blog/a
 
 Mevcut hızla devam ederse 2027'de şu yenilikleri göreceğiz: tek tıkla 60 saniyelik tam senaryolu Reels üretimi, gerçek zamanlı kişiselleştirilmiş Reels (her izleyici farklı versiyon görüyor), AI'ın performans verisine göre kendini güncellediği "self-optimizing" reklam üretimi. KOBİ'nin bugünden hazırlanması gereken konular: marka prompt kütüphanesi oluşturmak, ölçüm altyapısını kurmak, ekipte AI yetkinliğini yerleştirmek.
 
-Geri kalmanın maliyeti hızla artıyor. 2026'da AI ile Reels üreten KOBİ ile üretmeyen KOBİ arasındaki içerik hacmi farkı 5 kat; 2027'de bu farkın 10 kata çıkacağını tahmin ediyoruz. Sosyal medya algoritmaları hacme duyarlı — üretmeyen marka görünmez oluyor.
+Geri kalmanın maliyeti hızla artıyor. AI ile Reels üreten KOBİ ile üretmeyen KOBİ arasındaki içerik hacmi farkı giderek açılıyor. Sosyal medya algoritmaları hacme duyarlı — üretmeyen marka görünmez oluyor.
 
 ## PORTZEN ile AI Reels Üretimi: Profesyonel Yaklaşım
 
-PORTZEN olarak KOBİ'ler için aylık Reels üretim altyapısı kuruyoruz. Tek seferlik teslim değil, sürdürülebilir bir üretim hattı tasarlıyoruz. Markanızın renk paleti, ses tonu, hedef kitlesi ve sektör dinamiklerine göre özel bir prompt kütüphanesi hazırlanıyor. Aylık 15-25 Reels üretiyoruz; Sora 2, Veo 3.1, Kling 3.0, Seedance, Minimax gibi tüm büyük modellere erişimimiz var, hangisi hangi sahnede daha iyi çalışıyorsa ona yönlendiriyoruz.
+PORTZEN olarak KOBİ'ler için aylık Reels üretim altyapısı kuruyoruz. Tek seferlik teslim değil, sürdürülebilir bir üretim hattı tasarlıyoruz. Markanızın renk paleti, ses tonu, hedef kitlesi ve sektör dinamiklerine göre özel bir prompt kütüphanesi hazırlanıyor. Pakete göre ayda 4, 12 veya 24 kısa video üretiyoruz; Sora 2, Veo 3.1, Kling 3.0, Seedance, Minimax gibi tüm büyük modellere erişimimiz var, hangisi hangi sahnede daha iyi çalışıyorsa ona yönlendiriyoruz.
 
-Reels üretimini izole bir hizmet olarak değil, dijital pazarlama zincirinin parçası olarak ele alıyoruz. Üretilen Reels'in performansını ölçüyor, biyografi bağlantısından düşen trafiği [Instagram DM otomasyonu](/instagram-dm-otomasyonu) sistemine bağlıyor, gelen lead'leri segment ediyoruz. Yani sadece güzel video üretmiyoruz; markayı büyüten bir dönüşüm zinciri kuruyoruz. Reels → DM → CRM → satış ekibi akışı kapalı devre çalışıyor.
+Reels üretimini izole bir hizmet olarak değil, dijital pazarlama zincirinin parçası olarak ele alıyoruz. İsterseniz biyografi bağlantısından düşen trafiği ayrı bir hizmet olan kural tabanlı [Instagram DM otomasyonu](/instagram-dm-otomasyonu) sistemine bağlıyoruz; gelen lead'lerin CRM'de segment edilmesi ise iş otomasyonu paketleriyle kurulur. Böylece Reels → DM → CRM → satış ekibi akışı kapalı devre çalışabiliyor; her parça kendi paketiyle fiyatlanır.
 
-Kullandığımız modeller, ürettiğimiz prompt'lar ve geliştirdiğimiz iş akışları rakiplerin yıllarca deneme yanılma yaparak öğrendiği bilgileri ilk gün size devrediyor. Markanızın bu sisteme adapte olması ortalama 3-4 hafta; sonrasında üretim makinesi tam tempoda dönüyor.
+Kullandığımız modeller, prompt kütüphanesi ve iş akışları baştan markanıza göre kurgulanır. İlk üretimlerde marka dili ve görsel çizgi sizinle birlikte netleştirildikten sonra üretim düzenli tempoya oturur.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

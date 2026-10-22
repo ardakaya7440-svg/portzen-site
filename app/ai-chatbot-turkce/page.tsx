@@ -17,11 +17,14 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
+import { PricingSection } from "@/components/pricing/PricingSection";
+import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
+import { MoreDetails } from "@/components/visual/MoreDetails";
 
 export const metadata: Metadata = {
-  title: "Türkçe AI Chatbot | Yerli, Doğal, KVKK Uyumlu — PORTZEN",
+  title: "Türkçe AI Chatbot | Doğal Türkçe, KVKK Odaklı Kurulum — PORTZEN",
   description:
-    "Türkçe doğal yanıt veren AI chatbot. Sen/siz ayrımı, sektör jargonu, KVKK uyumlu Türkiye sunucusu. WhatsApp + Instagram + Telegram + Web. KOBİ için ₺8.500'den.",
+    "Türkçe doğal yanıt veren AI chatbot. Sen/siz ayrımı, sektör jargonu, KVKK gerekliliklerini dikkate alan kurulum. WhatsApp + Instagram + Telegram + Web.",
   keywords: [
     "türkçe ai chatbot",
     "türkçe yapay zeka asistanı",
@@ -36,15 +39,15 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://portzenai.com/ai-chatbot-turkce",
     siteName: "PORTZEN",
-    title: "Türkçe AI Chatbot | Yerli, Doğal, KVKK Uyumlu — PORTZEN",
+    title: "Türkçe AI Chatbot | Doğal Türkçe, KVKK Odaklı Kurulum — PORTZEN",
     description:
-      "Türkçe doğal yanıt veren AI chatbot. Sen/siz ayrımı, sektör jargonu, KVKK uyumlu Türkiye sunucusu."
+      "Türkçe doğal yanıt veren AI chatbot. Sen/siz ayrımı, sektör jargonu, KVKK gerekliliklerini dikkate alan kurulum."
   },
   twitter: {
     card: "summary_large_image",
     title: "Türkçe AI Chatbot — PORTZEN",
     description:
-      "Yerli, doğal Türkçe, KVKK uyumlu AI chatbot. KOBİ ve markalar için."
+      "Doğal Türkçe yanıt veren, KVKK gereklilikleri gözetilerek kurulan AI chatbot. KOBİ ve markalar için."
   },
   alternates: { canonical: "https://portzenai.com/ai-chatbot-turkce" },
   robots: { index: true, follow: true }
@@ -59,18 +62,12 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "Türkçe doğal dil işleme modelleriyle eğitilmiş, sektör jargonuna hakim, KVKK uyumlu ve Türkiye sunucularında çalışan AI chatbot. WhatsApp, Instagram, Telegram ve Web kanallarında aktif.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺8500-₺32000",
-    availability: "https://schema.org/InStock"
-  }
+    "Doğal Türkçe yanıt verecek şekilde yapılandırılan, işletmenin sektör terimleriyle beslenen ve KVKK gerekliliklerini dikkate alarak kurgulanan (açık rıza, aydınlatma akışı) AI chatbot; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. WhatsApp, Instagram, Telegram ve Web kanallarında kurulabilir; paket kapsamındaki kanallar pakete göre değişir.",
 };
 
 const faqSchema = {
@@ -90,7 +87,7 @@ const faqSchema = {
       name: "Türk dili nasıl iyileştiriliyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Türkçeye özel ince ayar (fine-tuning) yapıyoruz: sen/siz ayrımı, kibarlık seviyesi, sektör terimleri (reçete, irsaliye, tapu, fatura), bölgesel ifadeler. Sürekli güncellenen Türkçe konuşma veri setiyle eğitiliyor."
+        text: "Kurulumda asistanın Türkçe yanıt kuralları işletmenize göre ayarlanır: sen/siz ayrımı, kibarlık seviyesi, sektör terimleri (reçete, irsaliye, tapu, fatura), bölgesel ifadeler. Bilgi tabanı ve yanıt kuralları, canlı kullanımda gelen sorulara göre güncellenir."
       }
     },
     {
@@ -98,7 +95,7 @@ const faqSchema = {
       name: "KVKK uyumu nasıl sağlanıyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tüm konuşma verileri Türkiye'deki sunucularda saklanır. KVKK aydınlatma metni, açık rıza akışı, veri silme talebi ve anonim mod sistem içine entegredir. Veri Sorumlusu - Veri İşleyen sözleşmesi standart sunulur."
+        text: "Asistan KVKK gerekliliklerini dikkate alarak kurgulanır: aydınlatma metni, açık rıza akışı, veri silme talebi ve kişisel veri sormayan anonim mod kurulumda yapılandırılır. Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Veri işlemeye ilişkin sözleşme maddeleri teklif aşamasında yazılı olarak netleştirilir."
       }
     },
     {
@@ -106,7 +103,7 @@ const faqSchema = {
       name: "Veri Türkiye'de mi tutuluyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Müşteri konuşma kayıtları, profil verileri ve bilgi tabanı içerikleri Türkiye'deki Tier 3 veri merkezlerinde saklanır. Sadece anonim AI eğitimi için yurt dışı modellere veri gönderilir; bu da KVKK kapsamında değildir."
+        text: "Bu, kullanılan altyapıya bağlıdır. Konuşma kayıtları, profil verileri ve bilgi tabanı içeriklerinin hangi sağlayıcıda ve hangi bölgede tutulacağı teklifte yazılı olarak belirtilir. Yanıt üreten dil modeli sağlayıcıları yurt dışında olabilir; bu durumda yurt dışına aktarım için KVKK'nın aradığı şartlar (aydınlatma, açık rıza) kurulumda dikkate alınır."
       }
     },
     {
@@ -114,7 +111,7 @@ const faqSchema = {
       name: "Hangi modeller destekleniyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Birden fazla premium dil modeline bağlanan hibrit orkestrasyon altyapısı ve Türkçeye özel eğitilmiş modeller. Müşteri ihtiyacına göre uygun katman seçilir; veri hassasiyeti yüksek projelerde self-hosted opsiyon önerilir."
+        text: "Birden fazla premium dil modeline bağlanan hibrit orkestrasyon altyapısı, Türkçe yanıt kurallarıyla yapılandırılır. Müşteri ihtiyacına göre uygun katman seçilir; veri hassasiyeti yüksek projelerde kendi sunucunuzda çalışan model seçeneği kapsam görüşmesinde değerlendirilir."
       }
     },
     {
@@ -130,7 +127,7 @@ const faqSchema = {
       name: "Hangi kanalları destekliyor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "WhatsApp Business API, Instagram DM, Facebook Messenger, Telegram, web sitesi canlı sohbeti ve e-posta. Tek bilgi tabanı, tüm kanallarda tutarlı Türkçe yanıt."
+        text: "WhatsApp Business API, Instagram DM, Facebook Messenger, Telegram, web sitesi canlı sohbeti ve e-posta. Tek bilgi tabanı, tüm kanallarda tutarlı Türkçe yanıt. Paket kapsamındaki kanallar pakete göre değişir: Başlangıç pakette tek kanal (WhatsApp veya web sitesi), Kurumsal pakette Web + WhatsApp + Instagram; diğer kanallar teklifte yazılı olarak belirtilir."
       }
     }
   ]
@@ -151,9 +148,9 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "%94", label: "Türkçe yanıt memnuniyeti" },
-  { metric: "TR", label: "Türkiye sunucu (KVKK)" },
-  { metric: "4+", label: "Aktif kanal (WA/IG/TG/Web)" },
+  { metric: "Sen/siz", label: "Marka tonuna göre hitap" },
+  { metric: "KVKK", label: "Aydınlatma ve açık rıza akışı" },
+  { metric: "WA/IG/Web", label: "Kanal (pakete göre)" },
   { metric: "Yerli", label: "Sektör jargonuna hakim" }
 ];
 
@@ -162,14 +159,14 @@ const problems = [
   "Çeviri tabanlı chatbotlar 'robot dili' konuşuyor: 'Size nasıl yardımcı olabilirim?' yerine 'Sana ne yapabilirim?' gibi tuhaf cümleler.",
   "Türkçe nüansları (sen/siz, kibarlık seviyesi, yöresel ifade) yurtdışı modeller anlamıyor.",
   "Türk sektör terimleri (reçete, irsaliye, tapu, e-fatura, KDV, SGK) yabancı modellerde eksik veya yanlış.",
-  "KVKK uyumu, Türkiye sunucu, veri yerelleştirme gibi yasal gereklilikler yurtdışı sağlayıcılarda belirsiz."
+  "Verinin nerede tutulduğu, yurt dışına aktarım ve açık rıza gibi KVKK konuları hazır yurtdışı araçlarda çoğu zaman net değil."
 ];
 
 const solutionSteps = [
   {
     icon: Languages,
-    title: "Türkçe Eğit",
-    description: "Türkçeye özel eğitilmiş premium dil modelleri ile sen/siz ayrımı ve doğal ifade öğretilir."
+    title: "Türkçe Ayarla",
+    description: "Premium dil modelleri, sen/siz ayrımı ve doğal ifade için Türkçe yanıt kurallarıyla yapılandırılır."
   },
   {
     icon: Database,
@@ -178,8 +175,8 @@ const solutionSteps = [
   },
   {
     icon: ShieldCheck,
-    title: "KVKK Uyumla",
-    description: "Aydınlatma metni, açık rıza akışı, anonim mod ve TR sunucu yerleştirilir."
+    title: "KVKK Akışını Kur",
+    description: "Aydınlatma metni, açık rıza akışı ve anonim mod kurulur; verinin hangi sağlayıcıda ve bölgede tutulacağı teklifte yazılı olarak belirtilir."
   },
   {
     icon: Globe2,
@@ -206,8 +203,8 @@ const features = [
   },
   {
     icon: Lock,
-    title: "KVKK uyumlu kayıt",
-    desc: "Aydınlatma metni, açık rıza, veri silme talebi ve loglama tamamen KVKK uyumlu."
+    title: "KVKK odaklı kayıt",
+    desc: "Aydınlatma metni, açık rıza, veri silme talebi ve loglama KVKK gerekliliklerini dikkate alarak kurgulanır."
   },
   {
     icon: ShieldCheck,
@@ -216,62 +213,8 @@ const features = [
   },
   {
     icon: Globe2,
-    title: "4 kanal tek panel",
-    desc: "WhatsApp + Instagram + Telegram + Web Chat tek bilgi tabanı, tutarlı yanıt."
-  }
-];
-
-const packages = [
-  {
-    name: "Başlangıç",
-    price: "8.500 TL",
-    period: "/ay",
-    setup: "Kurulum: 25.000 TL",
-    color: "bg-paper",
-    features: [
-      "Aylık 2.500 konuşmaya kadar",
-      "Premium dil modeli + Türkçe fine-tune",
-      "Sen/siz tutarlı yanıt",
-      "WhatsApp veya Web Chat",
-      "KVKK aydınlatma akışı",
-      "Aylık 1 optimizasyon turu"
-    ],
-    cta: "Projeyi Konuşalım"
-  },
-  {
-    name: "Pro",
-    price: "17.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 35.000 TL",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "Aylık 10.000 konuşmaya kadar",
-      "Sektör bazlı eğitim",
-      "Tüm kanallar (WA + IG + TG + Web)",
-      "Anonim mod + KVKK + TR sunucu",
-      "CRM entegrasyonu",
-      "Haftalık optimizasyon",
-      "Türkçe canlı destek"
-    ],
-    cta: "Pro Paketi Konuşalım"
-  },
-  {
-    name: "Kurumsal",
-    price: "32.000 TL",
-    period: "/ay",
-    setup: "Kurulum: 45.000 TL+",
-    color: "bg-paper",
-    features: [
-      "Sınırsız konuşma",
-      "Self-hosted model opsiyonu",
-      "Özel veri eğitimi (fine-tune)",
-      "Çoklu marka/şube yönetimi",
-      "SLA + öncelikli destek",
-      "DPA + güvenlik denetim raporu",
-      "Adanmış proje yöneticisi"
-    ],
-    cta: "Kurumsal Teklif"
+    title: "Çok kanal tek panel",
+    desc: "WhatsApp + Instagram + Telegram + Web Chat tek bilgi tabanı, tutarlı yanıt. Kanal sayısı pakete göre değişir."
   }
 ];
 
@@ -283,12 +226,12 @@ const crossLinks = [
   },
   {
     title: "Intercom Alternatifi",
-    desc: "Türkçe, KVKK uyumlu, TL fiyatlı Intercom alternatifi.",
+    desc: "Türkçe, KVKK gereklilikleri gözetilerek kurulan, TL fiyatlı Intercom alternatifi.",
     href: "/intercom-alternatifi"
   },
   {
     title: "Instagram DM Otomasyonu",
-    desc: "Instagram DM'leri Türkçe AI ile otomatik yanıtla.",
+    desc: "Yorum ve hikâye etkileşimine kural tabanlı otomatik DM (AI yanıt hizmeti değildir).",
     href: "/instagram-dm-otomasyonu"
   },
   {
@@ -301,23 +244,23 @@ const crossLinks = [
 const faqs = [
   {
     q: "GPT mi kullanıyorsunuz, kendi modeliniz mi?",
-    a: "Hibrit yaklaşım kullanıyoruz. Birden fazla premium dil modelini Türkçeye optimize edilmiş prompt ve fine-tune katmanlarıyla birleştiren orkestrasyon altyapısı üzerine kurulu. Bu sayede hem yüksek genel zeka hem de doğal, akıcı Türkçe yanıt elde ediliyor. Veri hassasiyeti yüksek projelerde self-hosted model opsiyonu da sunuyoruz. Hangi motoru kullandığımız iş sırrımızdır, ancak çıktının kalitesi demo görüşmesinde birebir test edilebilir."
+    a: "Hibrit yaklaşım kullanıyoruz. Birden fazla premium dil modelini Türkçeye optimize edilmiş prompt ve fine-tune katmanlarıyla birleştiren orkestrasyon altyapısı üzerine kurulu. Bu sayede hem yüksek genel zeka hem de doğal, akıcı Türkçe yanıt elde ediliyor. Veri hassasiyeti yüksek projelerde kendi sunucunuzda çalışan model seçeneği kapsam görüşmesinde değerlendirilir. Hangi motoru kullandığımız iş sırrımızdır, ancak çıktının kalitesi demo görüşmesinde birebir test edilebilir."
   },
   {
     q: "Türk dili nasıl iyileştiriliyor?",
-    a: "Türkçeye özel ince ayar (fine-tuning) yapıyoruz: sen/siz ayrımı tutarlı, kibarlık seviyesi marka tonuna göre ayarlı, sektör terimleri (reçete, irsaliye, tapu, fatura, SGK) doğru kullanılır. Sürekli güncellenen Türkçe konuşma veri setiyle eğitiliyor; her ay yeni müşteri konuşmalarından öğrenmeye devam ediyor."
+    a: "Kurulumda asistanın Türkçe yanıt kuralları işletmenize göre ayarlanır: sen/siz ayrımı tutarlı, kibarlık seviyesi marka tonuna göre ayarlı, sektör terimleri (reçete, irsaliye, tapu, fatura, SGK) bilgi tabanındaki tanımlara göre kullanılır. Bilgi tabanı ve yanıt kuralları canlı kullanımda gelen sorulara göre güncellenir; Büyüme ve Kurumsal paketlerde bunun için aylık iyileştirme saati vardır."
   },
   {
     q: "KVKK uyumu nasıl sağlanıyor?",
-    a: "Tüm konuşma verileri Türkiye'deki sunucularda saklanır. KVKK aydınlatma metni, açık rıza akışı, veri silme talebi yönetimi ve anonim mod sistem içine entegredir. Veri Sorumlusu - Veri İşleyen sözleşmesi (DPA) standart sunulur. Hassas sektörler için ek güvenlik katmanları (uçtan uca şifreleme, audit log) eklenir."
+    a: "Asistan KVKK gerekliliklerini dikkate alarak kurgulanır: aydınlatma metni, açık rıza akışı, veri silme talebi yönetimi ve kişisel veri sormayan anonim mod kurulumda yapılandırılır. Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Veri işlemeye ilişkin sözleşme maddeleri teklif aşamasında yazılı olarak netleştirilir. Hassas sektörler için ek güvenlik önlemleri (ör. erişim kaydı) kapsam görüşmesinde belirlenir."
   },
   {
     q: "Veri Türkiye'de mi tutuluyor?",
-    a: "Evet. Müşteri konuşma kayıtları, profil verileri ve sizin yüklediğiniz bilgi tabanı içerikleri Türkiye'deki Tier 3 veri merkezlerinde saklanır. Sadece anonim ve kimliksizleştirilmiş AI inference için yurt dışı modellere geçici sorgu gönderilir; bu sorgular KVKK kapsamı dışında kalır. Self-hosted opsiyonda hiçbir veri yurt dışına çıkmaz."
+    a: "Bu, kullanılan altyapıya bağlıdır. Müşteri konuşma kayıtları, profil verileri ve sizin yüklediğiniz bilgi tabanı içeriklerinin hangi sağlayıcıda ve hangi bölgede tutulacağı teklifte yazılı olarak belirtilir. Yanıt üreten dil modeli sağlayıcıları yurt dışında olabilir; bu durumda yurt dışına aktarım için KVKK'nın aradığı şartlar (aydınlatma, açık rıza) kurulumda dikkate alınır. Veri hassasiyeti yüksek projelerde kendi sunucunuzda çalışan model seçeneği ayrıca değerlendirilir."
   },
   {
     q: "Hangi modeller destekleniyor?",
-    a: "Kurumsal seviye premium dil modellerinden oluşan hibrit bir orkestrasyon altyapısı kullanıyoruz; Türkçeye özel eğitilmiş fine-tune katmanları ve self-hosted opsiyon dahil. Müşteri ihtiyacına göre uygun katman seçilir: genel KOBİ için hızlı yanıt profili, veri hassas projeler için self-hosted mod, çok dilli ihracat için çok dilli katman. Hangi sağlayıcıların kullanıldığı ticari sırrımızdır; sözleşme aşamasında NDA altında paylaşılır."
+    a: "Kurumsal seviye premium dil modellerinden oluşan hibrit bir orkestrasyon altyapısı kullanıyoruz; Türkçe yanıt kurallarıyla yapılandırılır. Müşteri ihtiyacına göre uygun katman seçilir: genel KOBİ için hızlı yanıt profili, veri hassas projeler için kapsam görüşmesinde değerlendirilen kendi sunucunuzda çalışan model seçeneği, çok dilli ihracat için çok dilli katman. Hangi sağlayıcıların kullanıldığı ticari sırrımızdır; sözleşme aşamasında NDA altında paylaşılır."
   },
   {
     q: "Sen/siz seçimi nasıl yapılıyor?",
@@ -325,7 +268,7 @@ const faqs = [
   },
   {
     q: "Hangi kanalları destekliyor?",
-    a: "WhatsApp Business API, Instagram DM, Facebook Messenger, Telegram, web sitesi canlı sohbeti ve e-posta. Tek bilgi tabanı tüm kanallarda tutarlı Türkçe yanıt verir. Müşteri WhatsApp'tan sorduğu soruyu yarın Instagram'dan sorarsa aynı yanıtı ve geçmişi görür."
+    a: "WhatsApp Business API, Instagram DM, Facebook Messenger, Telegram, web sitesi canlı sohbeti ve e-posta. Tek bilgi tabanı tüm kanallarda tutarlı Türkçe yanıt verir. Müşteri WhatsApp'tan sorduğu soruyu yarın Instagram'dan sorarsa aynı yanıtı ve geçmişi görür. Paket kapsamındaki kanallar pakete göre değişir: Başlangıç pakette tek kanal (WhatsApp veya web sitesi), Kurumsal pakette Web + WhatsApp + Instagram; diğer kanallar teklifte yazılı olarak belirtilir."
   }
 ];
 
@@ -337,7 +280,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -350,34 +293,34 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-purple text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Languages className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Yerli AI Çözümü</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
-                  Türkçe AI Chatbot | Yerli, Doğal, KVKK Uyumlu
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
+                  Türkçe AI Chatbot | Doğal Türkçe, KVKK Odaklı Kurulum
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Yurtdışı GPT chatbotları İngilizce ağırlıklı eğitilmiş; doğrudan Türkçe sorduğunuzda yanıtlar tuhaf, çeviri kokuyor. PORTZEN'in Türkçe AI chatbotu sen/siz ayrımı bilen, sektör jargonuna hakim, KVKK uyumlu ve Türkiye sunucularında çalışan yerli bir çözümdür.
+                  Yurtdışı GPT chatbotları İngilizce ağırlıklı eğitilmiş; doğrudan Türkçe sorduğunuzda yanıtlar tuhaf, çeviri kokuyor. PORTZEN&apos;in Türkçe AI chatbotu sen/siz ayrımı bilen, sektör terimlerinize göre ayarlanan ve KVKK gerekliliklerini dikkate alarak kurgulanan bir çözümdür; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Demo Al <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <a
-                    href="https://wa.me/905015884853"
+                    href="https://wa.me/905318639117"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     <MessageCircle className="h-4 w-4" /> WhatsApp Sor
                   </a>
@@ -391,8 +334,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-green text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-4xl md:text-5xl font-black leading-none mb-2">
@@ -407,12 +350,15 @@ export default function Page() {
         </div>
       </section>
 
+      <ServiceAtAGlance href="/ai-chatbot-turkce" />
+
+      <MoreDetails title="Ayrıntılar: Yurtdışı chatbotların Türkçe sorunu" summary="Çeviri tabanlı botlar neden yetersiz kalıyor?">
       {/* 2. PROBLEM */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Yurtdışı GPT chatbotların Türkçe sorunu
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
@@ -423,7 +369,7 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2">
             {problems.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
+                <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
                   <p className="text-body font-medium leading-relaxed">{p}</p>
                 </div>
               </Reveal>
@@ -432,12 +378,13 @@ export default function Page() {
         </div>
       </section>
 
+      </MoreDetails>
       {/* 3. SOLUTION */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 4 Adımlık Süreç
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -453,8 +400,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -467,12 +414,13 @@ export default function Page() {
         </div>
       </section>
 
+      <MoreDetails title="Ayrıntılar: Türkçe AI farkı" summary="Sen/siz, sektör jargonu, KVKK akışı ve çok kanal">
       {/* 4. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Türkçe AI farkı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -485,7 +433,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -497,17 +445,19 @@ export default function Page() {
         </div>
       </section>
 
+      </MoreDetails>
+      <MoreDetails title="Ayrıntılar: Örnek senaryo — hukuk bürosu" summary="Türkçe AI bot kurulumu nasıl işler?">
       {/* 5. CASE STUDY */}
-      <section className="bg-brand-green text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Gerçek vaka: Ankara hukuk bürosu
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek senaryo: hukuk bürosu
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Ankara'da bir hukuk bürosu Türkçe AI bot kurdu — danışan memnuniyeti %94'e çıktı.
+              Örnek senaryo: bir hukuk bürosunda Türkçe AI bot kurulumu nasıl işler?
             </h2>
           </Reveal>
 
@@ -515,36 +465,36 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Ankara merkezli orta ölçekli bir hukuk bürosu, web sitesine yurtdışı bir chatbot SaaS'ı (aylık $79) kurmuştu. Danışanlardan gelen "avukatlık ücreti ne kadar", "boşanma davası ne kadar sürer", "miras paylaşımı nasıl olur" gibi soruları bot çevirili bir Türkçeyle yanıtlıyordu: "Sana yardım etmek için buradayım", "Senin sorunu çözmek istiyorum". Resmi bir hukuk bürosu için bu ton kabul edilemezdi.
+                  Bu örnek senaryoda orta ölçekli bir hukuk bürosu, web sitesinde yurtdışı bir chatbot SaaS&apos;ı (aylık $79) kullanıyor. Danışanlardan gelen &quot;avukatlık ücreti ne kadar&quot;, &quot;boşanma davası ne kadar sürer&quot;, &quot;miras paylaşımı nasıl olur&quot; gibi soruları bot çevirili bir Türkçeyle yanıtlıyor: &quot;Sana yardım etmek için buradayım&quot;, &quot;Senin sorunu çözmek istiyorum&quot;. Resmi bir hukuk bürosu için bu ton uygun değil.
                 </p>
                 <p>
-                  Daha kötüsü, bot "Yargıtay içtihadı", "mehir", "nafaka", "ihtiyati tedbir" gibi hukuk terimlerini ya hiç anlamıyor ya da yanlış kullanıyordu. KVKK uyumu belirsizdi: konuşma verileri ABD sunucularında tutuluyor, danışana özel veri talep eden konuşmalar yasal risk taşıyordu.
+                  Ayrıca bot &quot;Yargıtay içtihadı&quot;, &quot;mehir&quot;, &quot;nafaka&quot;, &quot;ihtiyati tedbir&quot; gibi hukuk terimlerini ya hiç anlamıyor ya da yanlış kullanıyor. Konuşma verilerinin nerede tutulduğu ve danışana özel veri isteyen konuşmaların KVKK açısından nasıl ele alındığı belirsiz.
                 </p>
                 <p>
-                  PORTZEN'in Türkçe AI chatbotunu kurduk. Sen/siz tonunu "resmi siz" olarak ayarladık. Bilgi tabanına büronun avukatlık ücret tarifesi, sık sorulan soruları (boşanma, miras, ticaret hukuku) ve hukuk terimleri yüklendi. Anonim mod açıldı: bot, danışan kimlik bilgisi sormadan genel bilgi veriyor, randevu aşamasında insan avukata devrediyor.
+                  PORTZEN kurulumunda sen/siz tonu &quot;resmi siz&quot; olarak ayarlanır. Bilgi tabanına büronun avukatlık ücret tarifesi, sık sorulan soruları (boşanma, miras, ticaret hukuku) ve hukuk terimleri yüklenir. Anonim mod açılır: bot, danışan kimlik bilgisi sormadan genel bilgi verir, randevu aşamasında görüşmeyi insan avukata devreder.
                 </p>
                 <p>
-                  Geçişten 3 ay sonra anket sonucu: danışan memnuniyeti %94'e çıktı (önce %58'di). "Avukatlık ücreti ne kadar" sorusuna doğal Türkçe yanıt geliyor: "Davanızın türüne göre değişmekle birlikte, asgari ücret tarifesi üzerinden başlayan ücretlerimiz hakkında detaylı görüşme için randevu oluşturalım." Sektör jargonu eksiksiz, KVKK denetimi temiz, veriler Türkiye'de.
+                  Kurulumdan sonra iş akışı şöyle değişir: &quot;Avukatlık ücreti ne kadar&quot; sorusuna doğal Türkçe bir yanıt verilir: &quot;Davanızın türüne göre değişmekle birlikte, asgari ücret tarifesi üzerinden başlayan ücretlerimiz hakkında detaylı görüşme için randevu oluşturalım.&quot; Hukuk terimleri bilgi tabanındaki tanımlara göre kullanılır, aydınlatma ve açık rıza adımları konuşma akışına eklenir; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Memnuniyet</div>
-                  <div className="font-display text-4xl font-black mb-1">%58 → %94</div>
-                  <div className="text-sm">Danışan memnuniyet anketi</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Devir</div>
+                  <div className="font-display text-4xl font-black mb-1">İnsan avukat</div>
+                  <div className="text-sm">Randevu aşamasında görüşme avukata devredilir</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Yanıt kalitesi</div>
-                  <div className="font-display text-4xl font-black text-brand-green">Doğal TR</div>
-                  <div className="text-sm">"Siz" formal, hukuk terimi tam</div>
+                  <div className="font-display text-4xl font-black text-ink">Doğal TR</div>
+                  <div className="text-sm">&quot;Siz&quot; formal, hukuk terimi tam</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Aylık maliyet</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">₺8.500</div>
-                  <div className="text-sm">$79/ay (kur dalgalı) yerine sabit TL</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Fiyatlandırma</div>
+                  <div className="font-display text-4xl font-black text-ink">Sabit TL</div>
+                  <div className="text-sm">Dolar bazlı, kur dalgalı abonelik yerine</div>
                 </div>
               </div>
             </Reveal>
@@ -552,89 +502,17 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 6. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Şeffaf fiyatlandırma
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Türkçe AI chatbot paketleri
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                3 paket; KOBİ'den kurumsal markaya. Tüm paketler Türkiye sunucu + KVKK uyumlu.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={400}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div className="flex items-start gap-3 flex-1 min-w-[260px]">
-                <Server className="h-6 w-6 shrink-0 mt-1 text-brand-yellow" />
-                <div>
-                  <div className="font-display text-lg font-black mb-1">Self-hosted opsiyonu</div>
-                  <p className="text-sm opacity-90">
-                    Hassas veri (sağlık, hukuk, finans) için self-hosted model opsiyonu — hiçbir veri yurt dışına çıkmaz. Kurumsal pakette dahil.
-                  </p>
-                </div>
-              </div>
-              <Link
-                href="/blog/ai-chatbot-nedir"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                Rehberi Oku <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      </MoreDetails>
+      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+
+      <PricingSection family="ai-musteri-asistani" heading="Türkçe AI chatbot fiyatları" intro="Web sitesi chatbotu ve WhatsApp asistanı aynı hizmet ailesidir; fiyatlar ortaktır. Aylık ücretin hemen altında tek seferlik kurulum bedeli ve ilk ay toplamı yazılıdır. Tutarlar TL ve KDV hariçtir." />
 
       {/* 7. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
@@ -645,7 +523,7 @@ export default function Page() {
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -656,15 +534,15 @@ export default function Page() {
       </section>
 
       {/* 8. CROSS-LINK STRIP */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 İlgili hizmetler
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                PORTZEN'in diğer çözümleri
+                PORTZEN&apos;in diğer çözümleri
               </h2>
             </div>
           </Reveal>
@@ -673,7 +551,7 @@ export default function Page() {
               <Reveal key={i} delay={i * 80}>
                 <Link
                   href={link.href}
-                  className="block border-3 border-ink bg-paper p-5 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full"
+                  className="block border-3 border-ink/15 bg-paper p-5 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl"
                 >
                   <h3 className="font-display text-lg font-black mb-2 text-ink">{link.title}</h3>
                   <p className="text-sm text-ink/70 leading-relaxed mb-3">{link.desc}</p>
@@ -690,7 +568,7 @@ export default function Page() {
       {/* 9. FINAL CTA */}
       <section className="py-section">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
                 Doğal Türkçe konuşan AI botunuzu kuralım.
@@ -704,22 +582,22 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   İletişim Formu <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
                   href="mailto:destek@portzenai.com"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   E-posta Gönder <ArrowUpRight className="h-4 w-4" />
                 </a>
@@ -729,7 +607,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

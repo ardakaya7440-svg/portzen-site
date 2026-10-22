@@ -13,13 +13,13 @@ ogImage: "/blog/og/istanbul-sosyal-medya-ajansi-rehberi.png"
 
 # İstanbul Sosyal Medya Ajansı Seçim Rehberi: 2026 Karar Kılavuzu
 
-**İstanbul sosyal medya ajansı** arayışı 2026'da neredeyse her KOBİ'nin gündeminde. Doğru [sosyal medya ajansı](/sosyal-medya-ajansi) seçimi sadece içerik kalitesi değil, raporlama şeffaflığı ve hizmet kapsamıyla da ilgili. Maslak'taki kurumsal ofiste 15 kişilik bir ajans, Kadıköy'deki butik bir studyoda 4 kişilik bir ekip, Levent'teki ABD kökenli bir network ajansının Türkiye ofisi, Beşiktaş'taki tek kişilik bir freelancer ve İstanbul Anadolu yakasında remote çalışan 8 kişilik bir hibrit ekip aynı brief'e tamamen farklı fiyatlar ve farklı yaklaşımlarla cevap veriyor. Üstelik 2026'da "sosyal medya ajansı" tek bir hizmet değil; içerik üretimi, reklam yönetimi, influencer pazarlaması, topluluk yönetimi, AI destekli otomasyon, performans pazarlaması gibi çok katmanlı bir paketin adı. Bu yazıda PORTZEN olarak İstanbul'da onlarca müşteri brief'inde gözlemlediğim ajans seçim dinamiklerini, 2026 fiyat bantlarını ve "doğru" ajansı bulmak için adım adım kullanabileceğiniz bir karar matrisi sunuyorum.
+**İstanbul sosyal medya ajansı** arayışı 2026'da neredeyse her KOBİ'nin gündeminde. Doğru [sosyal medya ajansı](/sosyal-medya-ajansi) seçimi sadece içerik kalitesi değil, raporlama şeffaflığı ve hizmet kapsamıyla da ilgili. Maslak'taki kurumsal ofiste 15 kişilik bir ajans, Kadıköy'deki butik bir studyoda 4 kişilik bir ekip, Levent'teki ABD kökenli bir network ajansının Türkiye ofisi, Beşiktaş'taki tek kişilik bir freelancer ve İstanbul Anadolu yakasında remote çalışan 8 kişilik bir hibrit ekip aynı brief'e tamamen farklı fiyatlar ve farklı yaklaşımlarla cevap veriyor. Üstelik 2026'da "sosyal medya ajansı" tek bir hizmet değil; içerik üretimi, reklam yönetimi, influencer pazarlaması, topluluk yönetimi, AI destekli otomasyon, performans pazarlaması gibi çok katmanlı bir paketin adı. Bu yazıda İstanbul'daki ajans seçim dinamiklerini, 2026 fiyat bantlarını ve "doğru" ajansı bulmak için adım adım kullanabileceğiniz bir karar matrisi sunuyorum.
 
 ## İstanbul Sosyal Medya Ajansı Pazarının 2026 Fotoğrafı
 
 İstanbul Türkiye'nin dijital pazarlama merkezi: yaklaşık 3.500 aktif ajans, 800'ü aşkın butik studyo, sayısız freelancer ve hibrit ekip. Bu pazar dünyanın en kalabalıklarından biri. Maslak ve Levent kurumsal ajansların ağırlıklı olduğu bölge; Kadıköy ve Moda butik content studyolarıyla dolu; Beşiktaş, Şişli, Mecidiyeköy hattı orta ölçek ajansların yoğunlaştığı yer; Anadolu yakasında ise giderek artan remote ajans yapıları var.
 
-Bu çeşitlilik İstanbullu KOBİ için iki şey doğuruyor: birincisi, "her bütçeye uygun bir ajans var" gerçeği; ikincisi, "iyi ajansı kötüsünden ayırmak çok zorlaştı" gerçeği. 2025 boyunca PORTZEN'e "İstanbul'da ajans değiştirmek istiyorum" diye gelen 32 KOBİ ile görüştüm; aralarında en sık ortak şikayet "ay sonu raporu güzel ama ben hiçbir sonuç görmüyorum" oldu. Bu yazı, o görüşmelerden çıkardığım dersleri özetliyor.
+Bu çeşitlilik İstanbullu KOBİ için iki şey doğuruyor: birincisi, "her bütçeye uygun bir ajans var" gerçeği; ikincisi, "iyi ajansı kötüsünden ayırmak çok zorlaştı" gerçeği. Ajans değiştirmek isteyen KOBİ'lerin en sık dile getirdiği şikayet "ay sonu raporu güzel ama ben hiçbir sonuç görmüyorum" oluyor. Bu yazı, bu sorunu baştan önlemek için dikkat edilmesi gerekenleri özetliyor.
 
 İstanbullu bir müşterinin yerel dinamiği şu: Hız, profesyonellik ve "büyük marka portfolyosu" çok değer görüyor; ama 2026'da artık her marka kendi sektörel uzmanlığına sahip ajans arıyor. Yani "100 markayla çalışmış" yerine "benim sektörümde 5 markayla çalışmış" daha değerli olmaya başladı.
 
@@ -43,9 +43,9 @@ Global markaların Türkiye ofisleri. Aylık 80.000-300.000 TL bandında çalı�
 
 Reklam yönetimi ve dönüşüm odaklı çalışan ajanslar. Aylık 20.000-80.000 TL + medya bütçesinin %12-18'i. E-ticaret ve lead-gen odaklı KOBİ için en doğru tip.
 
-### 5. AI Destekli Hibrit Ajanslar (PORTZEN dahil)
+### 5. AI Destekli Hibrit Ajanslar
 
-Geleneksel içerik + AI otomasyon + performans + DM/WhatsApp yönetimi birleştiren yeni nesil ajanslar. Aylık 18.000-60.000 TL bandında çoğunlukla KOBİ için en verimli yapı.
+Geleneksel içerik + AI otomasyon + performans + DM/WhatsApp yönetimi birleştiren yeni nesil ajanslar. Piyasada aylık 18.000-60.000 TL bandında; çoğunlukla KOBİ için en verimli yapı. PORTZEN'in paket fiyatları yazının sonunda yer alıyor.
 
 İstanbullu bir KOBİ için doğru tipi belirlemeden önce "bütçem ne, hedefim ne" sorusuna cevap vermek lazım. Aylık 15.000 TL bütçeyle network ajansa gitmek anlamsız; aylık 200.000 TL bütçeyle Kadıköy butik studyosuna gitmek de eksik kalır.
 
@@ -118,7 +118,7 @@ Bu sorulara net cevap veremeyen ajans, taahhüt etmediği şeyleri yapmaz.
 
 ## Sektör Bazlı İstanbul Ajans Önerileri
 
-PORTZEN'de İstanbul'daki müşterilerimizle çalıştığımız sektörlerden derlediğim öneriler:
+Sektöre göre öneriler (aralıklar piyasa bütçeleridir; PORTZEN paket fiyatları yazının sonunda):
 
 **Eczane ve sağlık:** İçerik dikkatli olmalı, mevzuata uyum şart. Aylık 25.000-40.000 TL paket + WhatsApp asistanı. [Eczane için WhatsApp asistanı](/whatsapp-ai-asistani/eczane) içeriğimizde sektörel detay var.
 
@@ -126,7 +126,7 @@ PORTZEN'de İstanbul'daki müşterilerimizle çalıştığımız sektörlerden d
 
 **Restoran ve cafe:** Reels ağırlıklı içerik, lokasyon bazlı reklam. Aylık 18.000-35.000 TL paket. Kadıköy, Beşiktaş ve Beyoğlu'ndaki restoranlar için Google Business + Instagram kombinasyonu kritik.
 
-**E-ticaret:** Performans + content + influencer üçlüsü. Aylık 50.000 TL+ paket. Reklam bütçesi en az 50.000 TL/ay. Bu bütçenin Facebook ve Instagram tarafının doğru kurgulanması için bir [Meta reklam ajansı](/meta-reklam-ajansi) ile kampanya optimizasyonu yapılması, CPL'i ciddi biçimde aşağı çekiyor.
+**E-ticaret:** Performans + content + influencer üçlüsü. Aylık 50.000 TL+ paket. Reklam bütçesi en az 50.000 TL/ay. Bu bütçenin Facebook ve Instagram tarafının doğru kurgulanması için bir [Meta reklam ajansı](/meta-reklam-ajansi) ile kampanya optimizasyonu yapılması, CPL'i düzenli izleyip düşürmeye odaklanmayı sağlıyor.
 
 **B2B hizmet:** LinkedIn ağırlıklı strateji, içerik pazarlama. Aylık 30.000-60.000 TL paket. Şirket merkezi Maslak/Levent çevresinde olan B2B'ler için LinkedIn + içerik makaleleri en yüksek ROI'yi veriyor.
 
@@ -155,13 +155,13 @@ Bu üç işin sosyal medya ajansının teklifinde yer alıp almadığını mutla
 - Performans analizinde anomali tespiti
 - A/B test otomasyonu
 
-PORTZEN'de tipik bir İstanbullu müşterimizin hesabında [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ile yorumlara 30 saniye içinde otomatik cevap verip lead'leri WhatsApp'a yönlendiriyoruz. Bu yapı dönüşüm oranını %40-60 artırıyor. [Instagram DM dönüşüm artırma](/blog/instagram-dm-donusum-artirma) yazısında bu setup'ı detaylı anlattık.
+PORTZEN'de kural tabanlı [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ile yorum ve hikâye etkileşimlerine otomatik DM gönderip lead'leri WhatsApp'a yönlendiriyoruz; serbest soruları yapay zekayla yanıtlamak ise ayrı bir hizmet olan AI müşteri asistanının kapsamındadır. [Instagram DM dönüşüm artırma](/blog/instagram-dm-donusum-artirma) yazısında bu setup'ı detaylı anlattık.
 
 Ajansla görüşürken "AI ve otomasyon süreçlerinizi gösterebilir misiniz" sorusu en hızlı filtreleyici sorudur.
 
 ## İstanbul'da Ajans Değiştirirken Yapılan 5 Pahalı Hata
 
-PORTZEN'e geçen müşterilerimizin önceki ajanslarından ayrılırken yaşadığı en pahalı 5 hata:
+Ajans değiştiren işletmelerin en sık yaptığı 5 pahalı hata:
 
 **Hata 1: Veri transferi alınmadan ayrılmak.**
 Reklam hesabı, Google Analytics erişimi, Meta Business Manager rolleri, sosyal medya hesap admin yetkisi sizde olmalı. Ajanstan ayrılırken bu varlıkları geri alamamak demek aylar boyunca biriken veriyi kaybetmek demek.
@@ -181,7 +181,7 @@ Ayrıldıktan sonra eski ajans sizi geri kazanmak için indirim teklif edebilir.
 ## Sıkça Sorulan Sorular
 
 **İstanbul'da en ucuz sosyal medya ajansı paketi kaç TL?**
-8.000-12.000 TL bandında "mini" paketler var ama bu seviyede strateji, reklam yönetimi ve nitelikli içerik beklemeyin. Profesyonel sonuç için minimum 20.000 TL/ay sağlıklı.
+8.000-12.000 TL bandında "mini" paketler var ama bu seviyede strateji, reklam yönetimi ve nitelikli içerik beklemeyin. Hangi seviyenin yeteceği kanal sayısına, içerik adedine ve reklam ihtiyacına bağlıdır; PORTZEN'de sosyal medya yönetimi {{fiyatlar:sosyal-medya}} olarak fiyatlanır (KDV hariç).
 
 **Kaç aylık sözleşme yapmalıyım?**
 İlk ajansla çalışacaksanız 3 aylık deneme süreciyle başlayın. 3 ay yeterli zaman tanır ama bağlayıcı olmaz. Yıllık kontrat zorlayan ajansa direnç gösterin.
@@ -197,6 +197,6 @@ Sektörünüze göre değişir. E-ticaret ve lifestyle için şart; B2B için ge
 
 ## PORTZEN ile İstanbul İçin AI Destekli Dijital Yönetim
 
-PORTZEN İzmir merkezli olsa da İstanbul'daki KOBİ'ler için tamamen remote ve hibrit çalışan bir ajans olarak hizmet veriyoruz. Maslak'taki finans şirketi, Levent'teki klinik, Kadıköy'deki butik e-ticaret ve Beşiktaş'taki restoran zincirleri portföyümüzde. AI destekli sosyal medya yönetimi, [Instagram DM otomasyonu](/instagram-dm-otomasyonu/istanbul), WhatsApp asistanı ve web tasarımı tek ekipten yöneterek operasyonel maliyetinizi %30-50 düşürüyoruz.
+PORTZEN İzmir merkezli olsa da İstanbul'daki KOBİ'ler için tamamen remote ve hibrit çalışan bir ajans olarak hizmet veriyoruz. AI destekli sosyal medya yönetimi, [Instagram DM otomasyonu](/instagram-dm-otomasyonu/istanbul), WhatsApp asistanı ve web tasarımı tek ekipten yöneterek operasyonel maliyetinizi düşürmeyi hedefliyoruz.
 
-İstanbul için 2026 paketlerimiz 18.000 TL'den başlıyor. Sektörünüze, hedeflerinize ve mevcut dijital olgunluğunuza göre size en uygun paketi belirlemek için [iletişim formundan](/iletisim) bize ulaşın; 30 dakikalık ücretsiz keşif görüşmesinde mevcut sosyal medya hesabınızı analiz edip net bir yol haritası çıkaralım.
+Sosyal medya yönetimi paketlerimiz: {{fiyatlar:sosyal-medya}}; tutarlar KDV hariçtir, diğer hizmetler [fiyatlar sayfasında](/fiyatlar). Sektörünüze, hedeflerinize ve mevcut dijital olgunluğunuza göre size en uygun paketi belirlemek için [iletişim formundan](/iletisim) bize ulaşın; 30 dakikalık ücretsiz keşif görüşmesinde mevcut sosyal medya hesabınızı analiz edip net bir yol haritası çıkaralım.

@@ -15,7 +15,7 @@ ogImage: "/blog/og/petshop-stok-takip-whatsapp-bildirimi.png"
 
 Petshop işletmek, ürün çeşitliliği yüksek, kar marjı dar, müşteri sadakati kritik olan bir perakende sektörüdür. Türkiye'de yaklaşık 12.000 aktif petshop var; bunların büyük çoğunluğu mahalle ölçekli, 3-5 personelli, manuel stok yönetimi yapan işletmeler. Bu yapı içinde en yaygın sorun stok bittikten sonra müşteriden öğrenmek: müşteri "Pamuk'un maması yok mu?" diye geldiğinde rakip petshop'tan almış ya da artık abonelik yaptığı online satıcıyı tercih etmiş oluyor. Türkiye'de pet mama pazarının yüzde 35'i son 3 yılda online kanallara kaydı; bu trend petshop'ların ölmesinin ana sebebi.
 
-Stok takip ve WhatsApp tükendi bildirimi sistemi, bu kaybı tersine çevirebilecek en güçlü araçtır. Müşterinin mama bitmeden 7-10 gün önce kapısına haber vermek, online satıcının yapamadığı şey: yerellik, hız ve kişisel ilişki. Doğru kurulmuş bir sistem, hem stoğunuzu optimize eder hem müşteri kaybını azaltır hem de sepet büyüklüğünü artırır. PORTZEN olarak 25'ten fazla petshop, veteriner kliniği marketi ve pet abonelik servisi ile çalıştık; bu rehberde sahada test edilmiş ve işe yaradığı kanıtlanmış sistem mimarisini paylaşacağız.
+Stok takip ve WhatsApp tükendi bildirimi sistemi, bu kaybı tersine çevirebilecek en güçlü araçtır. Müşterinin mama bitmeden 7-10 gün önce kapısına haber vermek, online satıcının yapamadığı şey: yerellik, hız ve kişisel ilişki. Doğru kurulmuş bir sistem, hem stoğunuzu optimize eder hem müşteri kaybını azaltır hem de sepet büyüklüğünü artırır. Bu rehberde PORTZEN olarak petshop, veteriner kliniği marketi ve pet abonelik servisleri için önerdiğimiz sistem mimarisini; hangi verilerin tutulduğunu, hangi mesajların ne zaman gittiğini ve iş akışında neyin değiştiğini paylaşacağız.
 
 ## Stok Yönetiminin Petshop İçin Gerçek Önemi
 
@@ -51,11 +51,11 @@ Parazit ilacı genelde 3 aylık koruma sağlar, sistem 75. gün hatırlatma gön
 
 ### AI Destekli Düzeltme
 
-Gerçek tüketim her zaman teorik hesaba uymaz. Sistem müşterinin gerçek satın alma sıklığını öğrenir ve tahminini düzeltir. 6 ay sonra her müşterinin gerçek tüketim hızı yüzde 90+ doğrulukla tahmin edilebilir. [Lead scoring AI](/blog/lead-scoring-ai-rehberi) yazımızda benzer veri yaklaşımını anlatıyoruz.
+Gerçek tüketim her zaman teorik hesaba uymaz. Sistem müşterinin gerçek satın alma sıklığını öğrenir ve tahminini düzeltir. Satın alma geçmişi biriktikçe her müşterinin gerçek tüketim hızına dair tahmin daha isabetli hale gelir. [Lead scoring AI](/blog/lead-scoring-ai-rehberi) yazımızda benzer veri yaklaşımını anlatıyoruz.
 
 ## WhatsApp Bildirim Akışı
 
-Sistemin müşteriyle iletişim kurduğu nokta WhatsApp'tır. Doğru zamanda, doğru tonla, doğru içerikle gönderilen mesajlar sepet büyüklüğünü ikiye katlar.
+Sistemin müşteriyle iletişim kurduğu nokta WhatsApp'tır. Doğru zamanda, doğru tonla, doğru içerikle gönderilen mesajlar müşteriye satış değil hizmet olarak ulaşır.
 
 ### 10 Gün Kala İlk Bildirim
 
@@ -63,7 +63,7 @@ Sistemin müşteriyle iletişim kurduğu nokta WhatsApp'tır. Doğru zamanda, do
 
 ### 5 Gün Kala İkinci Bildirim
 
-İlk mesaja yanıt yoksa veya "henüz almayacağım" demişse, 5 gün kala ikinci mesaj gider. Bu sefer fırsatla birleştirilir: "Pamuk'un maması bitmek üzere. Bu hafta sonu kadar gelen müşterilerimize ücretsiz tırnak kesimi hediyemiz." Aciliyet + bonus kombosu dönüşüm yüzde 65+ veriyor.
+İlk mesaja yanıt yoksa veya "henüz almayacağım" demişse, 5 gün kala ikinci mesaj gider. Bu sefer fırsatla birleştirilir: "Pamuk'un maması bitmek üzere. Bu hafta sonu kadar gelen müşterilerimize ücretsiz tırnak kesimi hediyemiz." Aciliyet ve küçük bir bonus, müşteriye uğramak için somut bir sebep verir.
 
 ### 2 Gün Kala Son Hatırlatma
 
@@ -91,7 +91,7 @@ Stok belirli bir seviyenin altına düştüğünde otomatik tedarikçi siparişi
 
 ### Çoklu Şubeli Yapı
 
-3+ şubesi olan petshop zincirleri için merkezi stok yönetimi: bir şubede stok varsa diğer şubeye transfer önerilir, tedarikçiden sipariş merkezi yapılır, müşteri istediği şubeden teslim alır. Bu altyapı PORTZEN'in [zincirlere yönelik özel CRM çözümünde](/crm-otomasyonu) standart olarak sunuluyor.
+3+ şubesi olan petshop zincirleri için merkezi stok yönetimi: bir şubede stok varsa diğer şubeye transfer önerilir, tedarikçiden sipariş merkezi yapılır, müşteri istediği şubeden teslim alır. PORTZEN'de bu kurgu [CRM otomasyonu](/crm-otomasyonu) kapsamında, şube ve entegrasyon sayısına göre genellikle iş otomasyonu Kurumsal paketiyle (12 iş akışı, 6 uygulama bağlantısı, 2 özel API bağlantısı) kurulur.
 
 ## Mama Aboneliği Modeline Geçiş
 
@@ -103,7 +103,7 @@ Müşteri ayda bir veya iki ayda bir sabit ücret öder. Karşılığında belir
 
 ### Fiyatlandırma Örnekleri
 
-Küçük ırk köpek (5-10 kg) için 1.200-1.800 TL/ay, orta ırk (15-25 kg) için 2.500-3.500 TL/ay, büyük ırk (30-50 kg) için 4.500-6.500 TL/ay. Kedi için 700-1.200 TL/ay. Yıllık ödeme yapan müşteriye yüzde 10-12 indirim sunulduğunda tutma oranı yüzde 85+ oluyor.
+Küçük ırk köpek (5-10 kg) için 1.200-1.800 TL/ay, orta ırk (15-25 kg) için 2.500-3.500 TL/ay, büyük ırk (30-50 kg) için 4.500-6.500 TL/ay. Kedi için 700-1.200 TL/ay. Yıllık ödeme yapan müşteriye yüzde 10-12 indirim sunmak, müşterinin aboneliği uzun vadeli sürdürmesi için bir gerekçe yaratır.
 
 ### Teslimat Lojistiği
 
@@ -111,23 +111,23 @@ Küçük ırk köpek (5-10 kg) için 1.200-1.800 TL/ay, orta ırk (15-25 kg) iç
 
 ### Kazan-Kazan Modeli
 
-Abone müşteri sizi terk etmez, online satıcıdan etkilenmez, fiyat hassasiyeti azalır, sepet büyür (ek ürünler ekler). 200 aktif abonesi olan bir petshop aylık 200.000-400.000 TL garanti gelir elde eder. [Petshop mama abonelik sistemi](/blog/petshop-mama-abonelik-sistemi) yazımızda modeli detaylandırıyoruz.
+Abone müşteri sizi terk etmez, online satıcıdan etkilenmez, fiyat hassasiyeti azalır, sepet büyür (ek ürünler ekler). Abone sayısı arttıkça petshop'un aylık geliri daha öngörülebilir hale gelir. [Petshop mama abonelik sistemi](/blog/petshop-mama-abonelik-sistemi) yazımızda modeli detaylandırıyoruz.
 
 ## Sosyal Medya Entegrasyonu ve Pazarlama
 
-Stok takip sistemi sosyal medya ile birleştirildiğinde gücü ikiye katlanır.
+Stok takip sistemi sosyal medya ile birleştirildiğinde yeni ürünler ve kampanyalar daha görünür hale gelir.
 
 ### Instagram Hikaye Otomasyonu
 
-Yeni gelen ürünler otomatik olarak Instagram hikayesinde paylaşılabilir. Stok seviyesi gösterilir; "son 5 adet" gibi aciliyet mesajları konur. Bu hikayeleri gören mevcut müşteriler hemen WhatsApp'tan sipariş verebilir. [Instagram DM otomasyonu](/instagram-dm-otomasyonu/petshop) ile gelen siparişler doğrudan CRM'e düşer.
+Yeni gelen ürünler otomatik olarak Instagram hikayesinde paylaşılabilir. Stok seviyesi gösterilir; "son 5 adet" gibi aciliyet mesajları konur. Bu hikayeleri gören mevcut müşteriler hemen WhatsApp'tan sipariş verebilir. Hikâyeye anahtar kelimeyle yanıt veren takipçiye kural tabanlı [Instagram DM otomasyonu](/instagram-dm-otomasyonu/petshop) önceden tanımlı ürün bilgisi ve WhatsApp sipariş bağlantısı gönderebilir; sipariş WhatsApp'a geçtiğinde CRM akışına dahil olur. (Instagram DM otomasyonu yapay zekâ ile serbest soru yanıtlamaz; bu AI müşteri asistanının kapsamındadır.)
 
 ### Reels ve Video İçerikler
 
-Hayvan oyuncağı tanıtım reels'leri, mama karşılaştırma videoları, açılış videoları organik erişimi artırır. [AI reklam videoları](/blog/ai-reklam-videolari) ile haftada 5-7 video üretimi mümkün.
+Hayvan oyuncağı tanıtım reels'leri, mama karşılaştırma videoları, açılış videoları organik erişimi artırır. [AI reklam videoları](/blog/ai-reklam-videolari) ile düzenli video üretimi mümkün; PORTZEN'in kısa video paketlerinde aylık adet 4, 12 veya 24 videodur.
 
 ### Veteriner İşbirliği
 
-Mahalle veterinerleriyle çapraz pazarlama: veterinerin tavsiye ettiği müşteriye yüzde 10 indirim, petshop'un göz muayenesi yönlendirmesi yaptığı veterinere de aynı şekilde. Bu sistem yıllık 80-150 yeni müşteri getirir.
+Mahalle veterinerleriyle çapraz pazarlama: veterinerin tavsiye ettiği müşteriye yüzde 10 indirim, petshop'un göz muayenesi yönlendirmesi yaptığı veterinere de aynı şekilde. Bu sistem, iki işletmenin müşteri tabanını birbirine yönlendirmenin düzenli bir yoludur.
 
 ## Yasal Çerçeve ve Mevzuat
 
@@ -155,11 +155,11 @@ Sistem kurulumunun finansal boyutu.
 
 ### Kurulum Maliyetleri
 
-Stok takip yazılımı + CRM: 12.000-30.000 TL tek seferlik. WhatsApp Business API entegrasyonu: 5.000-10.000 TL. Barkod altyapısı: 1.500-4.000 TL. POS entegrasyonu: 3.000-8.000 TL. Aylık yazılım ücreti: 1.500-3.500 TL. WhatsApp mesaj başına: 0,15-0,35 TL. İlk yıl yatırım: 30.000-60.000 TL bandında.
+Piyasada tipik kalemler şöyle: stok takip yazılımı + CRM 12.000-30.000 TL tek seferlik, WhatsApp Business API entegrasyonu 5.000-10.000 TL, barkod altyapısı 1.500-4.000 TL, POS entegrasyonu 3.000-8.000 TL, aylık yazılım ücreti 1.500-3.500 TL, WhatsApp mesaj başına 0,15-0,35 TL; sektörde ilk yıl yatırımı 30.000-60.000 TL bandında. PORTZEN'in paket fiyatı için aşağıdaki SSS bölümüne ve [fiyatlar sayfasına](/fiyatlar) bakabilirsiniz.
 
 ### Gelir Etkisi
 
-500 aktif müşterili petshop'ta tipik sonuçlar: stok-out kaybı yüzde 25'ten yüzde 4'e düşer (aylık 35.000 TL kurtarılır), tekrar satın alma oranı yüzde 45'ten yüzde 75'e çıkar (aylık 60.000 TL ek), abonelik modeli 80-120 müşteri yakalar (aylık 100.000-150.000 TL ek gelir), sepet büyüklüğü çapraz satışla yüzde 30 artar. Toplam aylık ek gelir 180.000-280.000 TL. Yatırım geri dönüşü 1-2 ay.
+Gelir etkisini kendi petshop'unuz için hesaplarken dört kaleme bakın: "ürün yok" diye geri çevrilen müşteri sayısı (stok uyarılarıyla azalır), mama bittiğinde geri gelen müşteri oranı (hatırlatmalarla izlenir), aboneliğe geçen müşteri sayısı ve çapraz satışla değişen sepet ortalaması. Bu kalemleri kendi satış verinizle hesapladığınızda yatırımın geri dönüşünü gerçekçi biçimde görebilirsiniz; ilk görüşmede bu hesabı birlikte yapıyoruz.
 
 ## Yaygın Hatalar
 
@@ -177,7 +177,7 @@ Stok takip yazılımı + CRM: 12.000-30.000 TL tek seferlik. WhatsApp Business A
 
 ### Küçük mahalle petshop'u için bu sistem mantıklı mı?
 
-Evet, hatta daha kritik. Büyük zincirler online'a kaybediyor, küçük mahalle petshop'unun en güçlü silahı kişisel ilişki ve hızlı teslimat. Tükendi bildirimi sistemi bu avantajı sistemli hale getiriyor. 200-300 aktif müşterili petshop için başlangıç paketi 15.000-20.000 TL.
+Evet, hatta daha kritik. Büyük zincirler online'a kaybediyor, küçük mahalle petshop'unun en güçlü silahı kişisel ilişki ve hızlı teslimat. Tükendi bildirimi sistemi bu avantajı sistemli hale getiriyor. 200-300 aktif müşterili bir petshop için PORTZEN iş otomasyonu Başlangıç paketi çoğu zaman yeterlidir: {{fiyat:is-otomasyonu:baslangic}} (KDV hariç).
 
 ### Müşterilerim WhatsApp mesajlarından rahatsız olur mu?
 
@@ -189,16 +189,16 @@ Online satıcının yapamadığı 3 şey: aynı gün teslimat, yerel veterinerle
 
 ### POS sistemim eski, entegrasyon yapılabilir mi?
 
-Modern POS sistemlerinin yüzde 90'ı API desteği sunuyor. API yoksa bile günlük satış raporu CSV ile aktarılabilir. PORTZEN olarak yerel POS sistemleri (Logo, Mikro, ETA) için hazır entegrasyon modüllerimiz var.
+Modern POS sistemlerinin yüzde 90'ı API desteği sunuyor. API yoksa bile günlük satış raporu CSV ile aktarılabilir. PORTZEN kurulumlarında yerel POS sistemleri (Logo, Mikro, ETA) iş otomasyonu paketlerindeki uygulama bağlantısı hakkı içinde bağlanır; özel API gerektiren sistemler Kurumsal paketin özel API bağlantılarıyla karşılanır.
 
 ### Mama abonelik modeline nasıl başlamalıyım?
 
-Önce 10-15 en sadık müşterinizle pilot başlatın. Onlara aylık fiyatı net çıkarın, kapıda teslimat avantajını anlatın. 3 ay sonra bu pilot grubu referans olarak kullanın. İlk yıl sonunda 50-100 aboneye ulaşmak gerçekçi hedef. [Veteriner randevu otomasyonu](/blog/veteriner-randevu-otomasyonu) yazımızda benzer modeli veteriner için anlatıyoruz.
+Önce 10-15 en sadık müşterinizle pilot başlatın. Onlara aylık fiyatı net çıkarın, kapıda teslimat avantajını anlatın. 3 ay sonra bu pilot grubu referans olarak kullanın. Hedef abone sayısını pilot grubun deneyimine göre belirleyin. [Veteriner randevu otomasyonu](/blog/veteriner-randevu-otomasyonu) yazımızda benzer modeli veteriner için anlatıyoruz.
 
 ## PORTZEN ile Petshop Stok Takip Sistemi Kurmak
 
-Petshop işletmek, hayvanlara duyduğunuz sevgiyi ticari bir disipline çevirmeyi gerektiren bir iş. Online satıcılarla rekabette ayakta kalmanın yolu, müşteriniz daha ihtiyacını fark etmeden onun yanında olmaktan geçer. Doğru kurulmuş bir stok takip ve WhatsApp tükendi bildirimi sistemi, müşteri kaybını sıfıra yakın indirir, sepet büyüklüğünü artırır, abonelik modeline geçişi mümkün kılar.
+Petshop işletmek, hayvanlara duyduğunuz sevgiyi ticari bir disipline çevirmeyi gerektiren bir iş. Online satıcılarla rekabette ayakta kalmanın yolu, müşteriniz daha ihtiyacını fark etmeden onun yanında olmaktan geçer. Doğru kurulmuş bir stok takip ve WhatsApp tükendi bildirimi sistemi, müşteriye mama bitmeden haber verir, tamamlayıcı ürünleri doğru zamanda önerir ve abonelik modeline geçişi mümkün kılar.
 
-PORTZEN olarak petshop, veteriner kliniği marketi, pet abonelik servisi ve hayvan otelleri için özel olarak geliştirdiğimiz altyapıyı 2-3 hafta içinde devreye alıyoruz. Stok takibi, müşteri bazlı tüketim tahmini, WhatsApp otomasyonu, POS entegrasyonu ve [Meta reklam yönetimi](/meta-reklam-ajansi) ile yeni müşteri kazanımını da entegre kurguluyoruz. Tek paket çözüm 2-4 ayda yatırımını çıkarıyor.
+PORTZEN olarak petshop, veteriner kliniği marketi, pet abonelik servisi ve hayvan otelleri için bu altyapıyı kademeli olarak devreye alıyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Stok takibi, müşteri bazlı tüketim tahmini, WhatsApp bildirimleri ve POS entegrasyonu tek seferlik iş otomasyonu paketleriyle ({{fiyatlar:is-otomasyonu}}, KDV hariç) kurulur; yeni müşteri kazanımı için [Meta reklam yönetimi](/meta-reklam-ajansi) ayrı bir aylık hizmettir. Geri dönüş süresi müşteri tabanınıza ve mevcut kayıp oranınıza göre değişir.
 
 Petshop'unuz için hangi modülün öncelikli olduğunu, mevcut müşteri tabanınızdan ne kadar ek gelir kazanabileceğinizi ve kurulum sürecini netleştirmek için [iletişim sayfamız](/iletisim) üzerinden ücretsiz keşif görüşmesi planlayın. 30 dakikalık görüşmede mevcut durumunuzu analiz edip size özel yol haritası çıkaralım.

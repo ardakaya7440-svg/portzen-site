@@ -2,7 +2,7 @@
 title: "Veteriner Klinikleri İçin Sadakat Programı Kurma Rehberi"
 slug: "veteriner-sadakat-programi"
 category: "sektorel"
-description: "Veteriner kliniği sadakat programı nasıl kurulur? Puan sistemi, aşı hatırlatma, mama aboneliği ve WhatsApp entegrasyonu ile müşteri bağlılığını artırın."
+description: "Veteriner kliniği sadakat programı nasıl kurulur? Puan sistemi, aşı hatırlatma, mama aboneliği ve WhatsApp entegrasyonuyla sadakat programını adım adım kurun."
 keywords: ["veteriner sadakat programı", "veteriner kliniği müşteri yönetimi", "aşı hatırlatma sistemi", "mama abonesi", "veteriner crm", "hayvan sahibi sadakat"]
 publishedAt: "2026-06-24"
 author: "Arda Kaya"
@@ -15,7 +15,7 @@ ogImage: "/blog/og/veteriner-sadakat-programi.png"
 
 Veteriner kliniği işletmek, sadece tıbbi yetkinlik isteyen bir iş değil. Aynı zamanda uzun vadeli müşteri ilişkisi yönetimi gerektiren bir hizmet sektörü. Bir kedi sahibi, hayvanı 12-18 yıl boyunca yaşadığı sürece sizi düzenli olarak ziyaret edebilir. Ancak araştırmalar gösteriyor ki Türkiye'de pet sahiplerinin yaklaşık yüzde 40'ı, ilk veterinerine bağlı kalmıyor; daha yakın, daha ucuz veya daha iyi iletişim kuran başka bir kliniğe geçiyor. Bu kayıp, klinik başına yıllık 150.000-400.000 TL gelir kaybı anlamına geliyor.
 
-Sadakat programı, bu kaybı azaltmanın ve aktif müşteri tabanınızı büyütmenin en etkili yollarından biri. Doğru kurgulanmış bir sistem, hem hayvan sahibinin kliniğe duyduğu duygusal bağı güçlendirir hem de aşı, parazit kontrolü, mama gibi düzenli ihtiyaçların kaçırılmamasını sağlar. PORTZEN olarak son 3 yılda 30'dan fazla veteriner kliniği, hayvan hastanesi ve petshop ile birlikte çalıştık; bu rehberde, sahada gerçekten işe yarayan sadakat modellerini ve nasıl kurulacağını adım adım anlatacağız. Yazının sonunda kendi kliniğiniz için hangi modeli seçeceğinizi ve teknik altyapıyı nasıl kurmanız gerektiğini bilir hale geleceksiniz.
+Sadakat programı, bu kaybı azaltmanın ve aktif müşteri tabanınızı büyütmenin en etkili yollarından biri. Doğru kurgulanmış bir sistem, hem hayvan sahibinin kliniğe duyduğu duygusal bağı güçlendirir hem de aşı, parazit kontrolü, mama gibi düzenli ihtiyaçların kaçırılmamasını sağlar. Bu rehberde PORTZEN olarak veteriner klinikleri, hayvan hastaneleri ve petshoplar için önerdiğimiz sadakat modellerini ve nasıl kurulacağını adım adım anlatacağız. Yazının sonunda kendi kliniğiniz için hangi modeli seçeceğinizi ve teknik altyapıyı nasıl kurmanız gerektiğini bilir hale geleceksiniz.
 
 ## Sadakat Programı Tipleri ve Hangisi Size Uygun
 
@@ -31,13 +31,13 @@ Belirli sayıda ziyaretten sonra hediye veya indirim. Örneğin "5 muayene sonra
 
 ### Mama Abonesi ve Düzenli Bakım Paketi
 
-En karlı model. Hayvan sahibi aylık veya 3 aylık periyotlarla sabit ücret öder; karşılığında belirli miktarda mama, ayda bir kontrol, yıllık aşılar ve parazit ilaçları dahil olur. Bu modelin gücü öngörülebilir gelir akışı yaratması. 200 aktif abonesi olan bir klinik, aylık 80.000-150.000 TL garanti gelir elde edebilir. [CRM otomasyonu](/crm-otomasyonu) altyapısı olmadan bu modeli yürütmek neredeyse imkansız.
+En karlı model. Hayvan sahibi aylık veya 3 aylık periyotlarla sabit ücret öder; karşılığında belirli miktarda mama, ayda bir kontrol, yıllık aşılar ve parazit ilaçları dahil olur. Bu modelin gücü öngörülebilir gelir akışı yaratması. Abone sayısı arttıkça kliniğin aylık geliri daha öngörülebilir hale gelir. [CRM otomasyonu](/crm-otomasyonu) altyapısı olmadan bu modeli yürütmek neredeyse imkansız.
 
 Hangi modeli seçeceğiniz müşteri profilinize bağlı. Şehir merkezinde, üst gelir grubuna hitap eden bir klinik için mama abonesi en mantıklısı. Mahalle kliniği için puan bazlı sistem daha kolay benimseniyor. İdeal olan, başlangıçta puan + ziyaret hibritiyle başlayıp 6-12 ay sonra abonelik modeli eklemek.
 
 ## Aşı Takvimi Otomatik Hatırlatma Sistemi
 
-Sadakat programının temeli, hayvanın sağlık takvimini sizin yerine sistemin takip etmesidir. Bir kedi sahibinin "ay sonu kuduz aşısı vardı galiba" diye düşünmek zorunda kalmaması gerekiyor. Otomatik hatırlatma sistemi, klinik gelir kaybının en büyük nedeni olan unutulmuş aşıları sıfıra indirir.
+Sadakat programının temeli, hayvanın sağlık takvimini sizin yerine sistemin takip etmesidir. Bir kedi sahibinin "ay sonu kuduz aşısı vardı galiba" diye düşünmek zorunda kalmaması gerekiyor. Otomatik hatırlatma sistemi, klinik gelir kaybının en büyük nedenlerinden biri olan unutulmuş aşıları en aza indirmeye yardımcı olur.
 
 ### Aşı Tipleri ve Periyotları
 
@@ -47,7 +47,7 @@ Köpeklerde karma aşı (DHPPI) yılda bir, kuduz yılda bir, lyme ve leptospira
 
 İdeal hatırlatma akışı 3 aşamalıdır. Aşı tarihinden 14 gün önce ilk bildirim WhatsApp ile gider: "Boncuk'un kuduz aşısı 14 gün sonra. Şimdi randevu almak ister misiniz?" 7 gün önce ikinci hatırlatma, 1 gün önce ise net randevu teyidi gönderilir. Eğer randevu alınmazsa ve aşı tarihi geçerse, "Geciken aşı: 5 gün geçti" uyarısı klinik personeline düşer; manuel arama yapılır. [WhatsApp AI asistanı](/whatsapp-ai-asistani/veteriner) bu akışı tamamen otomatik yönetebilir ve müşteri yanıtlarına da cevap verebilir.
 
-Bu sistemi kuran kliniklerimizde, kaçırılan aşı oranı yüzde 30'lardan yüzde 4-6 seviyesine düştü. Bu, yıllık 200 hasta başına yaklaşık 50-60 ek aşı uygulaması, ortalama 12.000-18.000 TL ek gelir demek.
+Bu sistemle her aşının takibi kişiye bağlı olmaktan çıkar; geciken aşılar personelin önüne liste olarak düşer ve kaçırılan aşı oranı kliniğin kendi verisiyle izlenebilir.
 
 ## Doğum Günü ve Özel Gün Kampanyaları
 
@@ -55,7 +55,7 @@ Pet sahipleri hayvanlarını çocukları gibi görür. Bu duygusal bağı sadaka
 
 ### Hayvanın Doğum Günü Otomasyonu
 
-Her hayvanın doğum tarihi (veya benimseme/sahiplenme tarihi) CRM'de kayıtlı olmalı. Doğum gününde otomatik kişiselleştirilmiş mesaj gönderilir: "Pamuk bugün 4 yaşına bastı. PORTZEN Veteriner ailesi olarak ona uzun ömürler dileriz. Bu hafta sonuna kadar gelirseniz ücretsiz check-up ve özel doğum günü oyuncağı bizden." Bu kampanyanın açılma oranı yüzde 80'in üzerinde, ziyarete dönüşüm yüzde 25-35 bandında.
+Her hayvanın doğum tarihi (veya benimseme/sahiplenme tarihi) CRM'de kayıtlı olmalı. Doğum gününde otomatik kişiselleştirilmiş mesaj gönderilir: "Pamuk bugün 4 yaşına bastı. [Klinik adı] ailesi olarak ona uzun ömürler dileriz. Bu hafta sonuna kadar gelirseniz ücretsiz check-up ve özel doğum günü oyuncağı bizden." Kişisel ve zamanında gelen bu tür mesajlar, sahibin kliniğe duyduğu bağı güçlendirir; açılma ve ziyarete dönüşüm oranları CRM'de izlenebilir.
 
 ### Sahiplenme Yıldönümü
 
@@ -75,7 +75,7 @@ Bir orta boy köpek (15-25 kg) ayda 8-10 kg mama tüketir. Kedi (4-6 kg) ayda 1,
 
 ### Fiyatlandırma Modeli
 
-Aylık paket örnekleri: küçük ırk köpek (5-10 kg) için 1.200-1.800 TL/ay (mama + parazit ilacı dahil), orta ırk için 2.000-2.800 TL/ay, büyük ırk için 3.500-5.000 TL/ay. Kedi için 800-1.400 TL/ay. Yıllık ödeme yapan müşteriye yüzde 10 indirim sunulduğunda, abonelik tutma oranı yüzde 85'in üzerine çıkıyor.
+Aylık paket örnekleri: küçük ırk köpek (5-10 kg) için 1.200-1.800 TL/ay (mama + parazit ilacı dahil), orta ırk için 2.000-2.800 TL/ay, büyük ırk için 3.500-5.000 TL/ay. Kedi için 800-1.400 TL/ay. Yıllık ödeme yapan müşteriye yüzde 10 indirim sunmak, aboneliğin uzun vadeli sürdürülmesi için bir gerekçe yaratır.
 
 ### Lojistik ve Stok
 
@@ -87,15 +87,15 @@ Veteriner sektöründe en güçlü pazarlama kanalı tavsiyedir. Bir komşunun "
 
 ### Çift Taraflı Ödül Modeli
 
-Mevcut müşteri bir yeni müşteri getirdiğinde her iki tarafa da ödül verilir. Örneğin getiren müşteriye 200 TL hediye çeki veya 1 ücretsiz tırnak kesimi, gelen yeni müşteriye ilk muayenede yüzde 25 indirim. Bu model, tek taraflı ödülden 3 kat daha etkili çalışıyor.
+Mevcut müşteri bir yeni müşteri getirdiğinde her iki tarafa da ödül verilir. Örneğin getiren müşteriye 200 TL hediye çeki veya 1 ücretsiz tırnak kesimi, gelen yeni müşteriye ilk muayenede yüzde 25 indirim. Bu model, iki tarafa da somut bir sebep verdiği için tek taraflı ödüle göre daha cazip.
 
 ### Takip Sistemi
 
-Her müşteriye özel bir referans kodu verilir (örn. AYSE2026). Yeni müşteri kayıt olurken bu kodu girer, sistem otomatik olarak iki tarafa da ödülü tanımlar. Manuel takip neredeyse imkansızdır; CRM entegrasyonu şarttır. PORTZEN'in geliştirdiği [veteriner kliniği web sistemi](/web-tasarim/veteriner) referans kodlarını otomatik üretir ve takip eder.
+Her müşteriye özel bir referans kodu verilir (örn. AYSE2026). Yeni müşteri kayıt olurken bu kodu girer, sistem otomatik olarak iki tarafa da ödülü tanımlar. Manuel takip neredeyse imkansızdır; CRM entegrasyonu şarttır. PORTZEN'de referans kodu üretimi ve takibi iş otomasyonu akışlarıyla kurulur; [veteriner kliniği web sitesi](/web-tasarim/veteriner) bu akışa kayıt formuyla bağlanır.
 
 ### Sosyal Medya ile Birleştirme
 
-Referans programını sosyal medya ile birleştirmek dönüşümü ikiye katlar. Müşteri kliniği Instagram'da etiketleyip hikayesine eklediğinde +100 puan kazanır. Bu hem organik erişim sağlar hem müşteriye somut ödül verir. [Sosyal medya ajansı](/sosyal-medya-ajansi) hizmetimiz, bu tür kampanyaları markanızın diline uygun şekilde kurgular.
+Referans programını sosyal medya ile birleştirmek programın görünürlüğünü artırır. Müşteri kliniği Instagram'da etiketleyip hikayesine eklediğinde +100 puan kazanır. Bu hem organik erişim sağlar hem müşteriye somut ödül verir. [Sosyal medya ajansı](/sosyal-medya-ajansi) hizmetimiz, bu tür kampanyaları markanızın diline uygun şekilde kurgular.
 
 ## Müşteri Segmentasyonu ve Kişiselleştirilmiş İletişim
 
@@ -107,11 +107,11 @@ Aktif müşteriler (son 6 ayda ziyaret etti), pasif müşteriler (6-12 ay arası
 
 ### Yaşlı Hayvan Bakım Programı
 
-8 yaş üstü hayvanlar için özel takip programı: 6 ayda bir geriatrik check-up, eklem desteği takviyesi, diş tartar kontrolü, kan tahlili. Bu segmente özel mesajlar, kliniğin uzmanlığını gösterir ve premium hizmet olarak konumlandırır. Yıllık ortalama harcamayı yüzde 40-60 artırır.
+8 yaş üstü hayvanlar için özel takip programı: 6 ayda bir geriatrik check-up, eklem desteği takviyesi, diş tartar kontrolü, kan tahlili. Bu segmente özel mesajlar, kliniğin uzmanlığını gösterir ve premium hizmet olarak konumlandırır.
 
 ### Pasif Müşteri Geri Kazanma
 
-6 aydır ziyaret etmemiş bir müşteriye "Pamuk'u uzun zamandır görmüyoruz, nasıl?" mesajı, ardından 1 hafta içinde yanıt gelmezse "ilk muayenede yüzde 30 indirim" teklifi. Geri dönüş oranı yüzde 18-25 bandında çalışıyor. [WhatsApp Business API kurulum](/blog/whatsapp-business-api-kurulum) yazımızda toplu mesaj altyapısını detaylı anlatıyoruz.
+6 aydır ziyaret etmemiş bir müşteriye "Pamuk'u uzun zamandır görmüyoruz, nasıl?" mesajı, ardından 1 hafta içinde yanıt gelmezse "ilk muayenede yüzde 30 indirim" teklifi. Geri dönüş oranı CRM'de ayrıca izlenmeli ve teklif buna göre ayarlanmalı. [WhatsApp Business API kurulum](/blog/whatsapp-business-api-kurulum) yazımızda toplu mesaj altyapısını detaylı anlatıyoruz.
 
 ## Yasal Çerçeve ve KVKK Uyumu
 
@@ -127,7 +127,7 @@ Türkiye'de veteriner ilaçları reçete ile satılır; abonelik paketinde ilaç
 
 ### Aşı Takip Defteri Zorunluluğu
 
-Türk Tabipler Birliği ve Tarım Bakanlığı düzenlemelerine göre her uygulanan aşı, hayvan pasaportuna ve klinik kayıt sistemine işlenmek zorundadır. Dijital sadakat sisteminiz bu kayıtları PDF veya basılı çıktı olarak üretebilmeli, denetimlerde gösterilebilmelidir.
+Türk Veteriner Hekimleri Birliği ve Tarım ve Orman Bakanlığı düzenlemelerine göre her uygulanan aşı, hayvan pasaportuna ve klinik kayıt sistemine işlenmek zorundadır. Dijital sadakat sisteminiz bu kayıtları PDF veya basılı çıktı olarak üretebilmeli, denetimlerde gösterilebilmelidir.
 
 ## Maliyet Kalemleri ve Geri Dönüş Hesabı
 
@@ -135,11 +135,11 @@ Bir sadakat programı kurmanın maliyeti ve geri dönüşü konusunda net rakaml
 
 ### Kurulum Maliyetleri
 
-CRM yazılımı kurulum (PORTZEN paketleri): 8.000-25.000 TL tek seferlik. WhatsApp Business API entegrasyonu: 5.000-12.000 TL. Aylık yazılım kullanım: 1.500-3.500 TL. WhatsApp mesaj başına: 0,15-0,35 TL (kategoriye göre). SMS başına: 0,12-0,25 TL. Toplam ilk yıl yatırım: 35.000-75.000 TL bandında.
+CRM yazılımı kurulumu (PORTZEN iş otomasyonu): {{fiyatlar:is-otomasyonu}}; isteğe bağlı aylık bakım ikinci aydan itibaren {{bakim:baslangic}} / {{bakim:buyume}} / {{bakim:kurumsal}} (KDV hariç). WhatsApp Business API entegrasyonu: 5.000-12.000 TL. Aylık yazılım kullanım: 1.500-3.500 TL. WhatsApp mesaj başına: 0,15-0,35 TL (kategoriye göre). SMS başına: 0,12-0,25 TL. Toplam ilk yıl yatırım: 35.000-75.000 TL bandında.
 
 ### Geri Dönüş
 
-Orta ölçekli (1.000 aktif müşteri) bir klinikte tipik sonuçlar: müşteri kaybı yüzde 40'tan yüzde 15'e düşer, aktif müşteri başına yıllık harcama yüzde 35 artar, mama abonesi 80-150 kişiye ulaşır (aylık 100.000+ TL ek gelir), referans programı yıllık 60-120 yeni müşteri getirir. İlk yıl net getiri 200.000-450.000 TL bandında. Yatırım geri dönüşü 3-5 ay arasında.
+Geri dönüşü kendi kliniğiniz için hesaplarken dört kaleme bakın: kaybedilen müşteri oranı, aktif müşteri başına yıllık harcama, mama aboneliğine geçen müşteri sayısı ve referansla gelen yeni müşteriler. Bu kalemlerdeki değişimi kurulum öncesi ve sonrası verinizle karşılaştırdığınızda yatırımın geri dönüş süresini net olarak görürsünüz; ilk görüşmede bu hesabı birlikte yapıyoruz.
 
 ## Yaygın Hatalar
 
@@ -156,15 +156,15 @@ Orta ölçekli (1.000 aktif müşteri) bir klinikte tipik sonuçlar: müşteri k
 
 ### Küçük bir klinik için bile bu sistem mantıklı mı?
 
-Evet, hatta küçük klinikler için daha kritik. Az müşteriniz varsa her birini kaybetmek büyük yara açar. Tek doktorlu kliniklerde bile aşı hatırlatma + basit puan sistemi yıllık 60.000-100.000 TL fark yaratır. Başlangıç paketleri 15.000 TL altında kurulabilir.
+Evet, hatta küçük klinikler için daha kritik. Az müşteriniz varsa her birini kaybetmek büyük yara açar. Tek doktorlu kliniklerde bile aşı hatırlatma + basit puan sistemi, kaçırılan aşıları ve sessizce kaybedilen müşterileri görünür hale getirir. PORTZEN'de iş otomasyonu Başlangıç paketi {{fiyat:is-otomasyonu:baslangic}}tir (KDV hariç).
 
 ### Hangi yazılımı kullanmalıyım?
 
-Hazır veteriner CRM çözümleri var (VetEra, PetDesk benzeri uluslararası, yerli alternatifler de mevcut). Ancak çoğu Türkiye'deki WhatsApp API, İYS, e-Reçete entegrasyonlarını desteklemez. PORTZEN olarak yerel ihtiyaçlara uygun, [özel geliştirme CRM altyapıları](/crm-otomasyonu) kuruyoruz.
+Hazır veteriner CRM çözümleri var (VetEra, PetDesk benzeri uluslararası, yerli alternatifler de mevcut). Ancak çoğu Türkiye'deki WhatsApp API, İYS, e-Reçete entegrasyonlarını desteklemez. PORTZEN olarak yerel ihtiyaçlara uygun CRM akışlarını [iş otomasyonu](/crm-otomasyonu) paketleriyle kuruyor, WhatsApp API ve İYS adımlarını bu akışlara bağlıyoruz.
 
 ### Müşterilerim teknolojiye uzak, kullanır mı?
 
-Sadakat programının güzelliği müşterinin hiçbir şey yapmasına gerek olmaması. Sistem arka planda çalışır, müşteri sadece WhatsApp mesajlarını okur, kliniğe geldiğinde puanı görür. Yaş ortalaması 60+ olan kliniklerde bile yüzde 80 üstü kullanım oranı yakaladık.
+Sadakat programının güzelliği müşterinin hiçbir şey yapmasına gerek olmaması. Sistem arka planda çalışır, müşteri sadece WhatsApp mesajlarını okur, kliniğe geldiğinde puanı görür. Bu yüzden teknolojiye uzak müşteriler için de ek bir uygulama ya da öğrenme süreci gerekmez.
 
 ### Sadakat programı vergi olarak nasıl işliyor?
 
@@ -172,12 +172,12 @@ Verilen indirimler ciro indirimi olarak muhasebeleştirilir; KDV iadesi yapılı
 
 ### Mama aboneliği için nasıl başlamalıyım?
 
-Önce 10-15 mevcut müşterinizle pilot başlatın. Onlara aylık fiyatı net çıkarın, faydaları (kapıda teslim veya kliniğe gelince hazır, parazit ilacı dahil) anlatın. 3 ay sonra bu pilot müşterilerin deneyimini referans olarak kullanın. İlk yıl sonunda 80-150 aboneye ulaşmak gerçekçi bir hedef.
+Önce 10-15 mevcut müşterinizle pilot başlatın. Onlara aylık fiyatı net çıkarın, faydaları (kapıda teslim veya kliniğe gelince hazır, parazit ilacı dahil) anlatın. 3 ay sonra bu pilot müşterilerin deneyimini referans olarak kullanın. Hedef abone sayısını pilot grubun deneyimine göre belirleyin.
 
 ## PORTZEN ile Veteriner Sadakat Programı Kurmak
 
-Veteriner kliniği işletmek, hayvanlara duyduğunuz sevgi ile teknolojik altyapıyı birleştirmeyi gerektiren bir iş. Doğru sadakat programı, hem hastalarınızın daha iyi bakım almasını sağlar hem de kliniğinizin finansal sürdürülebilirliğini güvence altına alır. Bu rehberde anlattığımız sistemlerin hepsi PORTZEN tarafından sahada test edilmiş, defalarca kurulmuş ve işe yaradığı kanıtlanmış çözümlerdir.
+Veteriner kliniği işletmek, hayvanlara duyduğunuz sevgi ile teknolojik altyapıyı birleştirmeyi gerektiren bir iş. Doğru sadakat programı, hem hastalarınızın daha iyi bakım almasını sağlar hem de kliniğinizin finansal sürdürülebilirliğini destekler. Bu rehberde anlattığımız sistemleri PORTZEN olarak kliniğinizin ihtiyacına göre uyarlayarak kuruyoruz.
 
-İster küçük bir mahalle kliniği işletin, ister çoklu lokasyonlu bir hayvan hastanesi yönetin, size özel sadakat sistemi kuruyoruz. WhatsApp AI asistanı, otomatik aşı hatırlatma, mama abonelik altyapısı ve müşteri segmentasyonu hizmetlerimizi 2-4 hafta içinde devreye alabiliyoruz. Ayrıca [petshop stok takibi ve WhatsApp bildirim sistemi](/blog/petshop-stok-takip-whatsapp-bildirimi) gibi tamamlayıcı çözümlerimiz de mevcut.
+İster küçük bir mahalle kliniği işletin, ister çoklu lokasyonlu bir hayvan hastanesi yönetin, size özel sadakat sistemi kuruyoruz. WhatsApp AI asistanı, otomatik aşı hatırlatma, mama abonelik altyapısı ve müşteri segmentasyonu hizmetlerimizi kademeli olarak devreye alıyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Ayrıca [petshop stok takibi ve WhatsApp bildirim sistemi](/blog/petshop-stok-takip-whatsapp-bildirimi) gibi tamamlayıcı çözümlerimiz de mevcut.
 
 Kliniğiniz için uygun modelin hangisi olduğunu konuşmak, mevcut müşteri tabanınızdan ne kadar gelir kazanabileceğinizi hesaplamak için [iletişim sayfamız](/iletisim) üzerinden ücretsiz keşif görüşmesi talep edin. 30 dakikalık görüşmede mevcut durumunuzu analiz edip size özel yol haritası çıkaralım.

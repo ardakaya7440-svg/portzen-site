@@ -54,7 +54,7 @@ Aşağıdaki tablo, KOBİ perspektifinden iki platformun temel farklarını öze
 | Müşteri iletişimi | Yorum odaklı | DM odaklu |
 | İçerik ömrü | 2-4 hafta (uzun kuyruk) | 3-7 gün |
 
-Tablodaki en kritik farklardan biri: TikTok'ta yaptığınız bir video haftalarca, aylarca trafik getirmeye devam edebilirken Reels'te içerik ömrü çok daha kısa. Diğer kritik fark: Reels, DM (direkt mesaj) üzerinden satış kapatmaya çok daha uygun. Instagram DM otomasyonu kurarsanız, Reels'ten gelen ilgiyi otomatik olarak müşteriye dönüştürebilirsiniz; bu konuda [Instagram DM dönüşüm artırma rehberimizi](/blog/instagram-dm-donusum-artirma) inceleyebilirsiniz.
+Tablodaki en kritik farklardan biri: TikTok'ta yaptığınız bir video haftalarca, aylarca trafik getirmeye devam edebilirken Reels'te içerik ömrü çok daha kısa. Diğer kritik fark: Reels, DM (direkt mesaj) üzerinden satış kapatmaya çok daha uygun. Kural tabanlı Instagram DM otomasyonu kurarsanız, Reels'e yorum veya anahtar kelimeyle tepki veren kişiye önceden tanımlı mesajı otomatik gönderip onu satış adımına yönlendirebilirsiniz; bu konuda [Instagram DM dönüşüm artırma rehberimizi](/blog/instagram-dm-donusum-artirma) inceleyebilirsiniz.
 
 ## Sektör Bazlı Karar Matrisi: Hangi İşletme Hangi Platformda Daha İyi
 
@@ -101,9 +101,9 @@ KOBİ bütçesi sınırlı olduğundan, içerik üretim maliyeti ve reklam maliy
 | Minimum aylık test bütçesi | 3.000 TL | 4.500 TL |
 | Anlamlı sonuç için aylık | 8.000-15.000 TL | 12.000-25.000 TL |
 
-TikTok reklamları daha ucuz görünse de, dönüşüm oranı genelde Reels'in altında kalır. Aynı 1.000 TL'lik reklam bütçesi TikTok'ta 30 satış, Reels'te 18 satış getirebilir; ancak Reels'teki satışların ortalama sepet tutarı %40 daha yüksek olabilir. Yani net karlılık genelde Reels'te daha iyi (özellikle premium ürünlerde).
+TikTok reklamları daha ucuz görünse de, dönüşüm oranı genelde Reels'in altında kalır. Aynı 1.000 TL'lik reklam bütçesi TikTok'ta 30 satış, Reels'te 18 satış getirebilir; ancak Reels'teki satışların ortalama sepet tutarı %40 daha yüksek olabilir. Yani net karlılık genelde Reels'te daha iyi (özellikle premium ürünlerde). Yukarıdaki içerik üretim tutarları piyasa ortalamasıdır; PORTZEN'de aylık kısa video üretimi {{fiyatlar:kisa-video}} olarak fiyatlanır (KDV hariç).
 
-AI ile içerik üretimi son iki yılda KOBİ'ler için oyun kurucu oldu. [AI reklam videoları üretimi](/ai-reklam-videosu) ile bir butik veya restoran, ajansa ödediği bütçenin %30'una içerik üretebiliyor; bu konuda [AI reklam videoları](/blog/ai-reklam-videolari) yazımız detayları açıklıyor. Higgsfield, Seedance ve Veo 3 gibi modelleri pratikte kullanan bir [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetiyle TikTok ve Reels için haftalık seri içerik üretmek artık günler değil saatler sürüyor.
+AI ile içerik üretimi son iki yılda KOBİ'ler için oyun kurucu oldu. [AI reklam videoları üretimi](/ai-reklam-videosu) ile bir butik veya restoran, klasik çekim prodüksiyonuna göre çok daha düşük bütçeyle içerik üretebiliyor; bu konuda [AI reklam videoları](/blog/ai-reklam-videolari) yazımız detayları açıklıyor. Higgsfield, Seedance ve Veo 3 gibi modelleri pratikte kullanan bir [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hizmetiyle TikTok ve Reels için haftalık seri içerik üretmek artık günler değil saatler sürüyor.
 
 ## Algoritma ve Organik Erişim Farkı
 
@@ -131,7 +131,7 @@ Aşağıdaki matris, sizin durumunuza göre en uygun platformu seçmenize yardı
 | Marka bilinirliği istiyorum | TikTok (viral potansiyeli) |
 | Lead/satış odaklıyım | Reels (DM otomasyonu ile) |
 
-Reels'e odaklanırsanız, gelen ilgiyi otomatik müşteriye dönüştürmek için [Instagram DM otomasyonu](/instagram-dm-otomasyonu) kurmalısınız. Aksi takdirde gelen DM'lere geç dönerek satış kaybedersiniz. İçerik üretimi, hashtag stratejisi ve DM yönetimini bütünleşik kuran bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak, TikTok ya da Reels tercihinizi tek başına bir aksiyon olmaktan çıkarıp bir satış sistemine dönüştürüyor. Eğer butik veya restoran işletiyorsanız [butikler için Instagram DM otomasyonu](/instagram-dm-otomasyonu/butik) ve [restoranlar için çözümümüze](/instagram-dm-otomasyonu/restoran) göz atabilirsiniz.
+Reels'e odaklanırsanız, gelen ilgiyi kaçırmamak için [Instagram DM otomasyonu](/instagram-dm-otomasyonu) kurmalısınız; bu hizmet kural tabanlıdır ve yorum, hikâye ya da anahtar kelime etkileşimine önceden tanımlı mesajla otomatik yanıt verir. Aksi takdirde gelen DM'lere geç dönerek satış kaybedersiniz. İçerik üretimi, hashtag stratejisi ve DM yönetimini bütünleşik kuran bir [sosyal medya ajansı](/sosyal-medya-ajansi) ile çalışmak, TikTok ya da Reels tercihinizi tek başına bir aksiyon olmaktan çıkarıp bir satış sistemine dönüştürüyor. Eğer butik veya restoran işletiyorsanız [butikler için Instagram DM otomasyonu](/instagram-dm-otomasyonu/butik) ve [restoranlar için çözümümüze](/instagram-dm-otomasyonu/restoran) göz atabilirsiniz.
 
 ## İçerik Stratejisi: İki Platformu Birlikte Yönetmek
 
@@ -159,11 +159,11 @@ Evet, son iki yılda %30-40 düşüş raporlandı. Meta işletmeleri reklama yö
 2026 itibarıyla pilot aşamada. Tam entegrasyon henüz Instagram Shop seviyesinde değil.
 
 **Hangi platform DM otomasyonu için daha uygun?**
-Instagram Reels çok daha avantajlı. Reels'ten gelen DM'leri otomatik yanıtlayan, soru-cevap eden ve satışa yönlendiren sistemler kurabilirsiniz.
+Instagram Reels çok daha avantajlı. Reels yorumlarına ve anahtar kelimelere önceden tanımlı mesajla otomatik DM gönderen, kişiyi satışa yönlendiren kural tabanlı sistemler (Instagram DM otomasyonu) kurabilirsiniz. DM'deki serbest soruları yapay zekâ ile yanıtlamak ise ayrı bir hizmet olan AI müşteri asistanının kapsamındadır (Instagram kanalı Kurumsal pakette).
 
 ## PORTZEN ile Doğru Seçimi Yapmak
 
-TikTok ve Instagram Reels arasındaki seçim, işletmenizin sektörüne, hedef kitlesine, bütçesine ve büyüme aşamasına göre değişir. Yanlış platforma odaklanmak, aylarca emek ve bütçe kaybı demek; doğru platforma odaklanmak ise organik büyümeyi 3-5 kat hızlandırabilir.
+TikTok ve Instagram Reels arasındaki seçim, işletmenizin sektörüne, hedef kitlesine, bütçesine ve büyüme aşamasına göre değişir. Yanlış platforma odaklanmak, aylarca emek ve bütçe kaybı demek; doğru platforma odaklanmak ise sınırlı bütçeyi ve içerik kapasitesini en verimli yere yönlendirir.
 
 PORTZEN olarak İzmir, İstanbul ve Ankara'daki KOBİ'lere sosyal medya stratejisi, AI destekli içerik üretimi, Instagram DM otomasyonu ve Reels reklam yönetimi hizmetleri sunuyoruz. Sizin sektörünüze özel hangi platformun daha verimli olacağını analiz ediyor, içerik üretim sürecinizi otomatikleştiriyor ve gelen ilgiyi müşteriye dönüştürüyoruz.
 

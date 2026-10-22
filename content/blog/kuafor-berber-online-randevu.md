@@ -15,11 +15,11 @@ ogImage: "/blog/og/kuafor-berber-online-randevu.png"
 
 Kuaför ve berber işletmeleri için en pahalı dakika, koltuğun boş geçtiği dakikadır. Müşteri "yarın saat 3'te geliyorum" der, gelmez. Telefon defterine yazılan randevu unutulur, iki müşteri üst üste verilir, salon kapısında tartışma çıkar. Akşamüstü kalabalığında telefon çalar, kalfa ellerini boya bulaşığıyla telefona uzatamaz, müşteri arkadaki başka salona gider. WhatsApp'tan gelen "boş muydunuz" mesajına yarım saat sonra cevap yazılır, müşteri çoktan başka yerden randevu almıştır. Bu küçük gibi görünen kayıpların aylık toplamı, çoğu salonda bir kalfanın maaşına denk geliyor.
 
-Bu yazıda kuaför ve berberler için **online randevu sistemi** nasıl kurulur, no-show problemi nasıl çözülür, WhatsApp asistanı hangi akışları otomatik yürütür, sadakat programı ve çalışan komisyonu nasıl dijitalleşir adım adım anlatacağız. PORTZEN olarak biz İzmir, İstanbul ve Bursa'da 30'u aşkın kuaför ve berber salonuna randevu ve WhatsApp otomasyonu kurduk. Anlatacaklarımız kataloglardan değil, koltuk arkasından çıkan bilgiler. Yazının sonunda hangi modülün size yarayacağını, kurulum maliyetinin hangi kalemlerden oluştuğunu ve ilk üç ayda neyi beklemeniz gerektiğini net olarak göreceksiniz.
+Bu yazıda kuaför ve berberler için **online randevu sistemi** nasıl kurulur, no-show problemi nasıl çözülür, WhatsApp asistanı hangi akışları otomatik yürütür, sadakat programı ve çalışan komisyonu nasıl dijitalleşir adım adım anlatacağız. Yazının sonunda hangi modülün size yarayacağını, kurulum maliyetinin hangi kalemlerden oluştuğunu ve ilk üç ayda neyi ölçmeniz gerektiğini net olarak göreceksiniz.
 
 ## Manuel Randevu Sistemi Neden Para Kaybettiriyor?
 
-Çoğu salon hâlâ defter, WhatsApp grubu ve telefon üçlüsüyle çalışıyor. Bu üçlünün her biri farklı bir yerden sızdırıyor. PORTZEN'in saha verisine göre orta ölçekli bir kuaförde günde 25-40 arası randevu trafiği oluyor ve bunun ortalama yüzde 18-25'i no-show ya da iki kere yazma hatası yüzünden kayba dönüşüyor.
+Çoğu salon hâlâ defter, WhatsApp grubu ve telefon üçlüsüyle çalışıyor. Bu üçlünün her biri farklı bir yerden sızdırıyor. Orta ölçekli bir kuaförde günlük randevu trafiğinin azımsanmayacak bir kısmı no-show ya da iki kere yazma hatası yüzünden kayba dönüşüyor.
 
 - Defter kuaförde, telefon kasada, WhatsApp ustabaşında olduğu için aynı saate iki randevu yazılıyor
 - "Yarın geliyorum" diyen müşteri hatırlatma almadığı için unutuyor
@@ -80,7 +80,7 @@ Bu adımın hemen ardından sistem otomatik hatırlatmaları planlıyor; bir son
 
 ## No-Show Önleme: Asıl Para Burada
 
-No-show, kuaför ve berber sektörünün en büyük gizli gideri. Müşteri randevu alıp gelmeyince koltuk boş kalıyor, sıradaki müşteri o saate alınamadığı için iki kere kaybediliyor. PORTZEN olarak biz no-show oranını yüzde 25'lerden yüzde 6-8 bandına indiren üç katmanlı bir sistem kuruyoruz.
+No-show, kuaför ve berber sektörünün en büyük gizli gideri. Müşteri randevu alıp gelmeyince koltuk boş kalıyor, sıradaki müşteri o saate alınamadığı için iki kere kaybediliyor. PORTZEN olarak biz no-show'u azaltmaya yönelik üç katmanlı bir sistem kuruyoruz.
 
 ### 24 saat öncesi WhatsApp hatırlatma
 
@@ -88,7 +88,7 @@ Randevudan tam 24 saat önce müşteriye otomatik WhatsApp mesajı gidiyor:
 
 - "Sayın Ayşe Hanım, yarın saat 14:00'te Selin Hanım ile boya randevunuz var. Geleceğinizi onaylar mısınız? 1: Evet 2: Ertelemek istiyorum 3: İptal"
 
-Bu tek mesaj bile no-show'u yüzde 40-50 düşürüyor. Çünkü müşteri unuttuysa hatırlıyor, planı değiştiyse zamanında bildiriyor, salon o saati başka müşteriye açabiliyor.
+Bu tek mesaj bile no-show'u azaltmada belirgin fark yaratıyor. Çünkü müşteri unuttuysa hatırlıyor, planı değiştiyse zamanında bildiriyor, salon o saati başka müşteriye açabiliyor.
 
 ### 2 saat öncesi son hatırlatma
 
@@ -103,7 +103,7 @@ Uzun ve maliyetli işlemlerde (gelin paketi, balyaj, perma, damat paketi) kapora
 - Müşteri geldiğinde kapora hizmet bedelinden düşülüyor
 - Müşteri gelmezse kapora salonda kalıyor
 
-Kapora alınan randevularda no-show oranı yüzde 2'nin altına iniyor. Üstelik müşteri kapora ödediği için "boşa para vermeyeyim" psikolojisiyle gelmeye daha bağlı oluyor.
+Kapora alınan randevularda no-show riski belirgin şekilde azalıyor. Üstelik müşteri kapora ödediği için "boşa para vermeyeyim" psikolojisiyle gelmeye daha bağlı oluyor.
 
 Yeni müşteriler ve ilk kez gelen rezervasyonlarda **2-step onay** öneriyoruz: randevu oluşturulduktan sonra 30 dakika içinde müşteri WhatsApp'tan "onaylıyorum" yazmazsa randevu otomatik düşürülüyor. Bu, sahte/şaka randevuların önüne geçiyor.
 
@@ -120,7 +120,7 @@ Eskinin "10 kesim 1 bedava" plastik kartı yerini dijital puan sistemine bırakt
 
 ### Doğum günü kampanyası
 
-Sistem müşterinin doğum gününü hatırlıyor ve o gün otomatik mesaj gönderiyor: "Sayın Mehmet Bey, doğum gününüz kutlu olsun. Size özel bu hafta sakal şekillendirme yüzde 30 indirimli." Bu küçük dokunuş, müşterinin salonu hatırlamasını sağlıyor ve doğum günü haftasında ortalama yüzde 15-20 ek ciro getiriyor.
+Sistem müşterinin doğum gününü hatırlıyor ve o gün otomatik mesaj gönderiyor: "Sayın Mehmet Bey, doğum gününüz kutlu olsun. Size özel bu hafta sakal şekillendirme yüzde 30 indirimli." Bu küçük dokunuş, müşterinin salonu hatırlamasını sağlıyor ve doğum günü haftasında salona gelmesi için bir sebep yaratıyor.
 
 ### Yönlendirme (referans) bonusu
 
@@ -178,9 +178,9 @@ Online randevu sistemi tek başına yetmiyor; müşteri sizi nerede arayacak, il
 
 Bu site WhatsApp randevu sistemine bağlandığında müşteri Google'dan sitenize geliyor, fiyatı görüyor, fotoğrafları beğeniyor, butona basıp randevu alıyor; hiç telefon açmadan, hiç salonu aramadan. Bu akış özellikle 25-40 yaş aralığındaki müşterilerde çok yüksek dönüşüm getiriyor.
 
-## Maliyet ve Kurulum Süresi
+## Maliyet ve Kurulum Adımları
 
-Bir kuaför veya berber salonunun tam donanımlı randevu + WhatsApp + sadakat sistemi için beklenen maliyet kalemleri:
+Piyasada bir kuaför veya berber salonunun tam donanımlı randevu + WhatsApp + sadakat sistemi için beklenen maliyet kalemleri:
 
 - WhatsApp Business API başvuru ve onay: ücretsiz, 5-10 gün
 - BSP (Business Solution Provider) aylık ücreti: 800-2.000 ₺
@@ -190,15 +190,15 @@ Bir kuaför veya berber salonunun tam donanımlı randevu + WhatsApp + sadakat s
 - Kapora ve sanal POS entegrasyonu: tek seferlik 4.000-8.000 ₺
 - Aylık bakım, içerik güncelleme, raporlama: 2.000-4.500 ₺
 
-PORTZEN olarak biz **kuaför-berber paketinde** kurulum, web sitesi, WhatsApp bot ve 6 ay bakımı birlikte sunuyoruz; ana hizmet altyapısının kapsamını [WhatsApp AI Asistanı sayfasında](/whatsapp-ai-asistani) görebilirsiniz.
+PORTZEN'de bu yapı paketlerimizle kurulur: WhatsApp randevu botu AI müşteri asistanı paketleriyle ({{fiyatlar:ai-musteri-asistani}}), web sitesi kurumsal web sitesi paketleriyle ({{fiyatlar:kurumsal-web-sitesi}}); tutarlar KDV hariçtir, yayın sonrası web bakımı ayrı aylık hizmettir. Ana hizmet altyapısının kapsamını [WhatsApp AI Asistanı sayfasında](/whatsapp-ai-asistani) görebilirsiniz.
 
-Kurulum süresi standart bir salonda 2-3 hafta:
+Kurulum adımları (teslim süresi kapsama göre teklifte yazılı olarak belirtilir):
 
-- Hafta 1: API başvurusu, BSP onayı, web sitesi tasarım onayı
-- Hafta 2: Bot akışlarının yazılması, hizmet/fiyat/usta listesi hazırlığı, sadakat kurallarının belirlenmesi
-- Hafta 3: Test randevuları, ustabaşı eğitimi, canlıya alma
+- 1. adım: API başvurusu, BSP onayı, web sitesi tasarım onayı
+- 2. adım: Bot akışlarının yazılması, hizmet/fiyat/usta listesi hazırlığı, sadakat kurallarının belirlenmesi
+- 3. adım: Test randevuları, ustabaşı eğitimi, canlıya alma
 
-İlk ay biz salonun yanında olup raporları birlikte okuyoruz; hangi saatlerin boş kaldığı, hangi hizmetin daha az talep gördüğü, hangi ustanın takviminin tıkandığı gibi verilere göre küçük ayarlar yapıyoruz.
+Canlıya aldıktan sonra Büyüme ve Kurumsal AI müşteri asistanı paketlerindeki aylık iyileştirme saatleriyle (2 / 6 saat) hangi saatlerin boş kaldığı, hangi hizmetin daha az talep gördüğü, hangi ustanın takviminin tıkandığı gibi verilere göre küçük ayarlar yapıyoruz.
 
 ## Sıkça Sorulan Sorular
 
@@ -206,7 +206,7 @@ Kurulum süresi standart bir salonda 2-3 hafta:
 Online randevu zorunlu değil, paralel akış. Yaşlı müşteri telefon edip "yarın 2'de geleyim" dediğinde ustabaşı paneline girip randevuyu manuel açıyor. Sistem o saati otomatik kapatıyor, başka kanaldan çakışma olmuyor. Yani kâğıt defter yerine dijital defter; müşteri akışı değişmiyor.
 
 **No-show oranımız çok yüksek, kapora alırsam müşteri kaçar mı?**
-Kapora her hizmetten alınmıyor. Sadece uzun ve maliyetli işlemlerde (balyaj, perma, gelin/damat paketi) öneriyoruz. Bu hizmetlerde müşteri zaten ciddi para ödeyeceğini bildiği için 100-200 ₺ kaporayı yadırgamıyor. Saha verisi: kapora uygulandığında müşteri kaybı yüzde 3-5, no-show kazancı yüzde 20+, yani net karlı.
+Kapora her hizmetten alınmıyor. Sadece uzun ve maliyetli işlemlerde (balyaj, perma, gelin/damat paketi) öneriyoruz. Bu hizmetlerde müşteri zaten ciddi para ödeyeceğini bildiği için 100-200 ₺ kaporayı yadırgamıyor. Kapora sonrası az sayıda müşteri vazgeçebilir; ancak no-show'dan kaynaklanan kayıp azaldığı için uzun işlemlerde genellikle karlı bir uygulamadır.
 
 **Komisyon takibini çalışanlarım göremesin istiyorum, mümkün mü?**
 Yetkilendirme katmanlı çalışıyor. Çalışan kendi komisyonunu görür, başkasının rakamlarını görmez. Ustabaşı tüm tabloyu görür. Salon sahibi kar/zarar dahil her şeyi görür. Bu yapı hem şeffaflık hem mahremiyet sağlıyor.

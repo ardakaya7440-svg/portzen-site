@@ -4,11 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/sync-content.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "admin:hash": "node scripts/admin-hash.mjs",
+    "preview": "node scripts/preview-server.mjs"
   },
   "dependencies": {
+    "@electric-sql/pglite": "^0.2.17",
     "@next/third-parties": "^16.2.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -16,16 +20,20 @@
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.460.0",
     "next": "^14.2.35",
+    "pg": "^8.23.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "reading-time": "^1.5.0",
     "remark": "^15.0.1",
     "remark-gfm": "^4.0.1",
     "remark-html": "^16.0.1",
+    "server-only": "^0.0.1",
+    "sharp": "^0.33.5",
     "tailwind-merge": "^2.5.5"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
+    "@types/pg": "^8.23.1",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.20",

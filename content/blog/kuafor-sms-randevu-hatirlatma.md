@@ -2,7 +2,7 @@
 title: "Kuaför ve Berberler İçin SMS / WhatsApp Randevu Hatırlatma Sistemi"
 slug: "kuafor-sms-randevu-hatirlatma"
 category: "sektorel"
-description: "Kuaför ve berberler için SMS ve WhatsApp randevu hatırlatma sistemi nasıl kurulur? No-show oranını düşürün, ciroyu yüzde 30 artırın."
+description: "Kuaför ve berberler için SMS ve WhatsApp randevu hatırlatma sistemi nasıl kurulur? No-show'u azaltmak için hatırlatma, kapora ve yedek liste akışları."
 keywords: ["kuaför randevu sistemi", "berber sms hatırlatma", "whatsapp randevu", "no-show önleme", "kuaför otomasyonu", "online randevu kuaför"]
 publishedAt: "2026-06-24"
 author: "Arda Kaya"
@@ -15,7 +15,7 @@ ogImage: "/blog/og/kuafor-sms-randevu-hatirlatma.png"
 
 Kuaför ve berber işletmeleri için en büyük gizli gider, gelmeyen müşterilerdir. Sektör ortalaması olarak randevuların yüzde 15-25'i ya iptal edilir ya da hiç haber verilmeden gelinmez. Bunu somut rakama çevirdiğinizde tablo netleşiyor: günde 20 randevu alan orta ölçekli bir salon, ayda yaklaşık 100-150 randevuyu boşa harcar. Ortalama hizmet bedeli 400 TL kabul edildiğinde, aylık 40.000-60.000 TL ciro kaybı demek. Yılda 500.000-700.000 TL.
 
-Bu kayıp tamamen önlenemez ama doğru bir hatırlatma sistemi ile yüzde 5'in altına indirilebilir. Üstelik bu sistem sadece no-show'u önlemekle kalmaz; tekrar gelen müşteri sayısını artırır, müşteri başına yıllık ziyaret sayısını yükseltir ve personel verimliliğini optimize eder. PORTZEN olarak son 4 yılda 80'den fazla kuaför salonu, berber dükkanı, güzellik merkezi ve estetik kliniği ile çalıştık; bu yazıda hangi sistemin sizin işletmenize uygun olduğunu, kurulum sürecinin nasıl ilerlediğini ve hangi rakamları beklemeniz gerektiğini paylaşacağız. Yazının sonunda kendi salonunuz için bir karar verebilecek konuma geleceksiniz.
+Bu kayıp tamamen önlenemez ama doğru bir hatırlatma sistemiyle belirgin şekilde azaltılabilir. Üstelik bu sistem sadece no-show'u önlemekle kalmaz; tekrar gelen müşteri sayısını artırır, müşteri başına yıllık ziyaret sayısını yükseltir ve personel verimliliğini optimize eder. Bu yazıda hangi sistemin sizin işletmenize uygun olduğunu, kurulum sürecinin nasıl ilerlediğini ve hangi metrikleri izlemeniz gerektiğini paylaşacağız. Yazının sonunda kendi salonunuz için bir karar verebilecek konuma geleceksiniz.
 
 ## No-Show Probleminin Gerçek Boyutu
 
@@ -55,7 +55,7 @@ Hizmet bittikten 1-2 saat sonra: "Bugünkü hizmetinizden memnun kalmanızı uma
 
 ### Bakım Hatırlatma Döngüsü
 
-Boya yaptıran müşteriye 8 hafta sonra "rötuş zamanı yaklaşıyor", saç kesimi yapanlara 5-6 hafta sonra "yeniden şekillendirme zamanı" mesajları gider. Bu döngü, müşteri başına yıllık ziyaret sayısını 6'dan 9-10'a çıkarır. [WhatsApp AI asistanı](/whatsapp-ai-asistani/kuafor) tüm bu akışı insan müdahalesi olmadan yürütebilir.
+Boya yaptıran müşteriye 8 hafta sonra "rötuş zamanı yaklaşıyor", saç kesimi yapanlara 5-6 hafta sonra "yeniden şekillendirme zamanı" mesajları gider. Bu döngü, müşterinin bir sonraki ziyaretini unutmadan planlamasına yardımcı olur. [WhatsApp AI asistanı](/whatsapp-ai-asistani/kuafor) tüm bu akışı insan müdahalesi olmadan yürütebilir.
 
 ## SMS mi WhatsApp mı? Karşılaştırmalı Analiz
 
@@ -91,7 +91,7 @@ Booksy, Setmore, Fresha gibi uluslararası platformlar Türkiye'de de kullanıl�
 
 ### Özel Geliştirme
 
-Kendi sisteminizi kurmak başlangıçta daha pahalı (15.000-40.000 TL), aylık 0 ücret. Müşteri verisi tamamen sizde, istediğiniz entegrasyonu yapabilirsiniz (WhatsApp, muhasebe, kasiyer programı), markanıza özel tasarım. PORTZEN'in [kuaför özel web tasarım](/web-tasarim/kuafor) hizmeti bu modelde çalışıyor.
+Kendi sisteminizi kurmak başlangıçta daha pahalı (tek seferlik kurulum), aylık 0 ücret. Müşteri verisi tamamen sizde, istediğiniz entegrasyonu yapabilirsiniz (WhatsApp, muhasebe, kasiyer programı), markanıza özel tasarım. PORTZEN'de markanıza özel rezervasyon sistemi özel web uygulaması olarak kurulur ({{tekil:ozel-web-uygulamasi}}, KDV hariç; sunucu ve üçüncü taraf servis ücretleri hariç); site tarafı için [kuaför özel web tasarım](/web-tasarim/kuafor) sayfamıza bakabilirsiniz.
 
 ### Personel Bazlı Müsaitlik
 
@@ -119,7 +119,7 @@ Iyzico ve PayTR Türkiye'nin en yaygın ödeme altyapıları. Aylık abonelik ü
 
 ### Sonuç
 
-Kapora alan salonlarda no-show oranı yüzde 1-2 seviyesine düşüyor. 30.000 TL aylık no-show kaybı yaşayan bir salon, kapora sistemi ile bu kaybı 2.000-3.000 TL'ye indiriyor. Sistem kurulum maliyeti kendini 1 ayda çıkarıyor.
+Kapora alan salonlarda no-show riski belirgin şekilde azalıyor; bu yüzden kapora, kayıp ciroyu korumanın en doğrudan yollarından biri. Sistemin kendini ne kadar sürede çıkaracağı salonunuzun randevu hacmine ve mevcut no-show oranına bağlıdır.
 
 ## Yedek Liste ve Boşluk Doldurma
 
@@ -131,7 +131,7 @@ Müşteri istediği saati alamadığında "boşluk olursa beni arayın" listesin
 
 ### Son Dakika İndirimi
 
-Akşam randevusu boşaldığında, yakın çevredeki müşterilere "30 dakika içinde gelirseniz yüzde 25 indirim" mesajı gider. Bu mesajlar geo-targeting ile salonun 3 km yakınındaki müşterilere gönderilir. Boş kalacak saati doldurma oranı yüzde 30-40 bandında.
+Akşam randevusu boşaldığında, yakın çevredeki müşterilere "30 dakika içinde gelirseniz yüzde 25 indirim" mesajı gider. Bu mesajlar geo-targeting ile salonun 3 km yakınındaki müşterilere gönderilir. Bu yöntem, boş kalacak saatlerin bir kısmını değerlendirmeye yardımcı olur.
 
 ### Personel Bazlı Yedek
 
@@ -151,7 +151,7 @@ Boya yapanlara 8 hafta sonra "kökler çıkmaya başladı mı?", kesim yapanlara
 
 ### Pasif Müşteri Geri Kazanma
 
-3 aydır gelmeyen müşteriye "Sizi özledik, dönüş için yüzde 20 hediye" mesajı, 6 aydır gelmeyen müşteriye "Yeni hizmetlerimizi denemek ister misiniz, ilk fön bizden" teklifi. Geri dönüş oranı sırasıyla yüzde 25 ve yüzde 12 bandında.
+3 aydır gelmeyen müşteriye "Sizi özledik, dönüş için yüzde 20 hediye" mesajı, 6 aydır gelmeyen müşteriye "Yeni hizmetlerimizi denemek ister misiniz, ilk fön bizden" teklifi. Bu mesajlar, salonu unutan müşteriyi yeniden harekete geçirmeyi amaçlar.
 
 ## Yasal Çerçeve ve İYS Kayıt Zorunluluğu
 
@@ -175,11 +175,11 @@ Sistem kurulumunun maliyeti ve beklenen geri dönüş hakkında somut rakamlar v
 
 ### Kurulum Maliyetleri
 
-Online rezervasyon + CRM kurulumu: 12.000-30.000 TL (PORTZEN paketleri). WhatsApp Business API entegrasyonu: 5.000-10.000 TL. Iyzico/PayTR kapora entegrasyonu: 3.000-6.000 TL. Aylık yazılım kullanım: 1.000-2.500 TL. SMS başına: 0,15-0,30 TL (toptan). WhatsApp template başına: 0,20-0,40 TL. Toplam ilk yıl yatırım: 35.000-70.000 TL.
+Online rezervasyon + CRM kurulumu (PORTZEN iş otomasyonu): {{fiyatlar:is-otomasyonu}}; isteğe bağlı aylık bakım ikinci aydan itibaren {{bakim:baslangic}} / {{bakim:buyume}} / {{bakim:kurumsal}} (KDV hariç). WhatsApp Business API entegrasyonu: 5.000-10.000 TL. Iyzico/PayTR kapora entegrasyonu: 3.000-6.000 TL. Aylık yazılım kullanım: 1.000-2.500 TL. SMS başına: 0,15-0,30 TL (toptan). WhatsApp template başına: 0,20-0,40 TL. İlk yıl toplamı, seçilen pakete ve mesaj hacmine göre bu kalemlerin toplamıdır.
 
 ### Gelir Etkisi
 
-Orta ölçekli salon (ayda 600 randevu): no-show kaybı yüzde 22'den yüzde 5'e düşer (aylık 28.000 TL kurtarılır), kapora ile no-show yüzde 2'ye iner (aylık 32.000 TL), tekrar ziyaret artışı (aylık 80-120 ek randevu, 32.000-48.000 TL), pasif müşteri geri kazanma (aylık 15-25 müşteri, 6.000-10.000 TL). Toplam aylık ek gelir: 60.000-100.000 TL. Yıllık 720.000-1.200.000 TL. Yatırım geri dönüşü 1-2 ay.
+Orta ölçekli bir salonda gelir etkisi dört kalemden gelir: hatırlatmalarla azalan no-show, kapora ile korunan uzun işlemler, bakım hatırlatmalarıyla artan tekrar ziyaret ve pasif müşteri geri kazanma akışı. Kendi salonunuzun mevcut no-show oranını, ortalama hizmet bedelini ve aylık randevu sayısını kullanarak bu kalemlerin her birini hesaplayabilirsiniz; geri dönüş süresi bu değerlere göre değişir.
 
 ## Yaygın Hatalar
 
@@ -197,7 +197,7 @@ Orta ölçekli salon (ayda 600 randevu): no-show kaybı yüzde 22'den yüzde 5'e
 
 ### Tek koltuklu küçük berber için bu sistem mantıklı mı?
 
-Evet ama daha basit versiyonu yeterli. Tek başına çalışan bir berber için WhatsApp Business uygulaması + manuel hatırlatma + Google Calendar yeterli olabilir. Kurulum maliyeti 0, sadece WhatsApp Business uygulaması indir, müşteri listesi oluştur. 50 müşteriyi aşınca yarı otomatik sistem (8.000-15.000 TL) düşünmeli.
+Evet ama daha basit versiyonu yeterli. Tek başına çalışan bir berber için WhatsApp Business uygulaması + manuel hatırlatma + Google Calendar yeterli olabilir. Kurulum maliyeti 0, sadece WhatsApp Business uygulaması indir, müşteri listesi oluştur. 50 müşteriyi aşınca yarı otomatik sistem (piyasada 8.000-15.000 TL bandında) düşünmeli.
 
 ### Müşterilerim WhatsApp kullanmıyor, ne yapayım?
 
@@ -205,7 +205,7 @@ Kayıt anında sor: "Hatırlatmalarınızı WhatsApp mı, SMS mi ister?" Hibrit 
 
 ### Kapora aldığım için müşteri kaçar mı?
 
-Aksine. Araştırmalar gösteriyor ki kapora isteyen salonlar daha "ciddi" ve "premium" algılanıyor. Kapora yapısı net açıklandığında (24 saat öncesine kadar iade, geç iptalde randevuya aktarım) müşteri direnci minimum oluyor. İlk 1 ay yüzde 5-8 müşteri kaybı yaşanabilir, sonrasında stabilize oluyor; net gelir artıyor.
+Aksine. Araştırmalar gösteriyor ki kapora isteyen salonlar daha "ciddi" ve "premium" algılanıyor. Kapora yapısı net açıklandığında (24 saat öncesine kadar iade, geç iptalde randevuya aktarım) müşteri direnci minimum oluyor. İlk dönemde az sayıda müşteri vazgeçebilir; kapora yapısı netleştikçe bu etki azalır.
 
 ### Hangi yazılımı seçmeliyim?
 
@@ -213,12 +213,12 @@ Aksine. Araştırmalar gösteriyor ki kapora isteyen salonlar daha "ciddi" ve "p
 
 ### Sosyal medya ile entegrasyon nasıl?
 
-Instagram DM'den gelen randevu talepleri otomatik olarak CRM'e düşmeli; manuel taşıma hata kaynağı. [Sosyal medya ajansı](/sosyal-medya-ajansi) hizmetimiz Instagram ve Facebook'tan gelen sorgu/randevu trafiğini WhatsApp ve CRM ile birleştirir.
+Instagram DM'den gelen randevu talepleri otomatik olarak CRM'e düşmeli; manuel taşıma hata kaynağı. Instagram ve Facebook'tan gelen sorgu/randevu trafiğini WhatsApp ve CRM ile birleştiren akışları iş otomasyonu paketlerimizle kuruyoruz; [sosyal medya ajansı](/sosyal-medya-ajansi) hizmetimiz ise içerik ve hesap yönetimini üstlenir.
 
 ## PORTZEN ile Kuaför Randevu Sistemi Kurmak
 
-Kuaför ve berber işletmek, müşteri ilişkisi yönetiminin yoğun olduğu bir hizmet sektörü. Her müşteri 4-8 haftada bir gelir; bu döngüyü kaçırmamak, yeni müşteri kazanmaktan 5 kat daha karlıdır. Doğru kurulmuş bir SMS/WhatsApp randevu hatırlatma sistemi, salonunuzun cirosunu yüzde 30-50 artırırken aynı zamanda personel verimliliğini ve müşteri memnuniyetini de yükseltir.
+Kuaför ve berber işletmek, müşteri ilişkisi yönetiminin yoğun olduğu bir hizmet sektörü. Her müşteri 4-8 haftada bir gelir; bu döngüyü kaçırmamak, yeni müşteri kazanmaktan 5 kat daha karlıdır. Doğru kurulmuş bir SMS/WhatsApp randevu hatırlatma sistemi, gelmeyen müşteriden kaynaklanan kaybı azaltır, bakım döngüsünü takip eder ve personelin telefon/mesaj yükünü hafifletir.
 
-PORTZEN olarak salon büyüklüğüne (tek koltuklu berberden 12 personelli güzellik merkezine) ve müşteri profiline göre özelleştirilmiş çözümler sunuyoruz. Online rezervasyon, WhatsApp AI asistanı, kapora sistemi, müşteri segmentasyonu ve [Meta reklam yönetimi](/meta-reklam-ajansi) ile yeni müşteri akışını da entegre kurguluyoruz. Ortalama 2-3 hafta içinde tüm sistem çalışır hale geliyor.
+PORTZEN olarak salon büyüklüğüne (tek koltuklu berberden 12 personelli güzellik merkezine) ve müşteri profiline göre özelleştirilmiş çözümler sunuyoruz. Online rezervasyon, WhatsApp AI asistanı, kapora sistemi, müşteri segmentasyonu ve [Meta reklam yönetimi](/meta-reklam-ajansi) ile yeni müşteri akışını da entegre kurguluyoruz. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir.
 
 Kendi salonunuz için hangi sistemin uygun olduğunu, mevcut no-show oranınızdan ne kadar kayıp yaşadığınızı ve kurulumun maliyetini netleştirmek için [iletişim sayfamız](/iletisim) üzerinden ücretsiz keşif görüşmesi planlayın. 30 dakikalık görüşmede salonunuzun mevcut durumunu analiz edip size özel yol haritası hazırlayalım.

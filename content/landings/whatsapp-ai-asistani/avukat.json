@@ -2,8 +2,8 @@
   "sectorSlug": "avukat",
   "sectorName": "Hukuk Bürosu",
   "sectorPlural": "Hukuk Büroları",
-  "title": "Hukuk Büroları İçin WhatsApp AI Asistanı | KVKK Uyumlu — PORTZEN",
-  "description": "Hukuk büronuza gelen danışan sorgularını KVKK uyumlu şekilde 7/24 yanıtlayan AI asistan. Randevu, dosya takibi, ücret bilgisi, dava türü kategorizasyonu.",
+  "title": "Hukuk Büroları İçin WhatsApp AI Asistanı | KVKK Odaklı — PORTZEN",
+  "description": "Hukuk büronuza gelen danışan sorgularını KVKK gerekliliklerini dikkate alarak 7/24 yanıtlayan AI asistan. Randevu, dosya takibi, ücret bilgisi, dava türü kategorizasyonu.",
   "keywords": [
     "hukuk bürosu whatsapp ai",
     "avukat chatbot",
@@ -14,12 +14,24 @@
     "avukat randevu sistemi"
   ],
   "h1": "Hukuk Büroları için WhatsApp AI Asistanı",
-  "heroSubtitle": "Danışan 'boşanma davası açmak istiyorum' yazıyor cuma akşam 22:00 — siz duruşmadan yeni çıktınız. AI asistanımız KVKK uyumlu şekilde yanıt verir, ön bilgi alır, pazartesi sabahına randevu açar. Siz dosyaya odaklanırsınız.",
+  "heroSubtitle": "Danışan 'boşanma davası açmak istiyorum' yazıyor cuma akşam 22:00 — siz duruşmadan yeni çıktınız. AI asistanımız KVKK gerekliliklerini dikkate alan bir akışla yanıt verir, ön bilgi alır, pazartesi sabahına randevu açar. Siz dosyaya odaklanırsınız.",
   "stats": [
-    {"value": "60 sn", "label": "İlk Yanıt Süresi"},
-    {"value": "KVKK", "label": "Tam Uyumlu"},
-    {"value": "7/24", "label": "Aktif Yanıt"},
-    {"value": "14 gün", "label": "Kurulum"}
+    {
+      "value": "Otomatik",
+      "label": "İlk Yanıt Süresi"
+    },
+    {
+      "value": "KVKK",
+      "label": "Aydınlatma + açık rıza akışı"
+    },
+    {
+      "value": "7/24",
+      "label": "Aktif Yanıt"
+    },
+    {
+      "value": "Tek seferlik",
+      "label": "Kurulum"
+    }
   ],
   "problems": [
     "Duruşma sırasında telefonunuz sessizde; dönmeyi unuttuğunuz danışan 30 dakika sonra başka avukata yazmış oluyor.",
@@ -30,8 +42,8 @@
   ],
   "solutionSteps": [
     {
-      "title": "KVKK Uyum + Bilgi Tabanı Eğitimi",
-      "description": "Büronuzun çalışma alanları (aile, ceza, iş, icra, ticaret), ücret tarifeniz, görüşme protokolünüz AI'ya öğretilir. Aydınlatma metni, açık rıza akışı ve veri minimizasyonu Türkiye Barolar Birliği tavsiyelerine göre kurulur."
+      "title": "KVKK Akışı + Bilgi Tabanı Eğitimi",
+      "description": "Büronuzun çalışma alanları (aile, ceza, iş, icra, ticaret), ücret tarifeniz, görüşme protokolünüz AI'ya öğretilir. Aydınlatma metni, açık rıza akışı ve veri minimizasyonu KVKK gereklilikleri ve meslek kuralları dikkate alınarak büronuzla birlikte kurgulanır."
     },
     {
       "title": "WhatsApp Business API + Danışan Formu",
@@ -39,17 +51,17 @@
     },
     {
       "title": "AI Test + Avukat Onayı",
-      "description": "2 hafta boyunca AI'nın verdiği her yanıt önce sizin onayınızdan geçer. Yanlış yönlendirme riski olan konular işaretlenir, prompt'lar büronuzun üslubuna göre ince ayarlanır. Onay oranı %95'i geçince tam otomatik moda alınır."
+      "description": "Test döneminde AI'nın verdiği her yanıt önce sizin onayınızdan geçer. Yanlış yönlendirme riski olan konular işaretlenir, prompt'lar büronuzun üslubuna göre ince ayarlanır. Yanıtlar sizin onayınızla yeterli olgunluğa ulaşınca tam otomatik moda alınır."
     },
     {
-      "title": "Canlı Yayın + Aylık Optimizasyon",
-      "description": "Ay sonunda hangi soruların geldiği, hangi danışanın müvekkile dönüştüğü, hangi saatlerde yoğunluk olduğu raporlanır. Eksik kalan yanıtlar bilgi tabanına eklenir, AI sürekli daha iyi hale gelir."
+      "title": "Canlı Yayın + Aylık Rapor",
+      "description": "Ay sonunda hangi soruların geldiği, hangi danışanın müvekkile dönüştüğü, hangi saatlerde yoğunluk olduğu raporlanır. Eksik kalan yanıtlar Büyüme ve Kurumsal paketlerdeki aylık iyileştirme saatlerinde bilgi tabanına eklenir."
     }
   ],
   "features": [
     {
-      "title": "KVKK Uyumlu Kayıt ve Saklama",
-      "description": "Her görüşme öncesi aydınlatma metni gönderilir, açık rıza alınır. Veriler Türkiye'deki sunucularda saklanır, 6 ay sonra otomatik anonimleştirilir. VERBİS kaydınız için gerekli evraklar paket içinde gelir."
+      "title": "KVKK'yı Gözeten Kayıt ve Saklama",
+      "description": "Her görüşme öncesi aydınlatma metni gönderilir, açık rıza alınır. Saklama ve anonimleştirme süreleri büronuzla birlikte belirlenir; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir."
     },
     {
       "title": "Dava Türü Kategorizasyon",
@@ -61,90 +73,58 @@
     },
     {
       "title": "Ücretsiz Danışmanlık Randevu",
-      "description": "Google Calendar veya kendi takviminize entegre çalışır. Danışan müsait slotu seçer, otomatik onay, otomatik hatırlatma (1 gün ve 2 saat önce) gönderilir. No-show oranı ortalama %40'tan %12'ye düşer."
+      "description": "Google Calendar veya kendi takviminize entegre çalışır. Danışan müsait slotu seçer, otomatik onay, otomatik hatırlatma (1 gün ve 2 saat önce) gönderilir. Hatırlatmalar, unutulan randevuları azaltmaya yardımcı olacak şekilde kurgulanır."
     },
     {
       "title": "Dosya Durumu Sorgu (Müvekkillere)",
-      "description": "Mevcut müvekkilleriniz kayıtlı numaralarından 'dosyam ne durumda' sorduğunda, UYAP entegrasyonu ile son tensip, duruşma günü, takvim bilgisi otomatik gelir. Hassas detay isteyene direkt sizinle görüşme açar."
+      "description": "Mevcut müvekkilleriniz kayıtlı numaralarından 'dosyam ne durumda' sorduğunda, büronuzun güncellediği kayıttan (CRM veya takip tablosu) son tensip, duruşma günü ve takvim bilgisi otomatik iletilir. UYAP ile doğrudan bağlantı mümkünse kapsamı teklifte ayrıca belirtilir. Hassas detay isteyene direkt sizinle görüşme açar."
     },
     {
       "title": "Hassas Konularda Direkt Avukata Yönlendirme",
-      "description": "Gözaltı, tutuklama, koruma kararı, intihar iması gibi acil durumları AI tespit ettiğinde otomatik yanıt durur, size çağrı + SMS + WhatsApp bildirimi aynı anda gider. Hiçbir kritik durum kaçırılmaz."
+      "description": "Gözaltı, tutuklama, koruma kararı, intihar iması gibi acil durumları AI tespit ettiğinde otomatik yanıt durur, size çağrı + SMS + WhatsApp bildirimi aynı anda gider. Kritik durumların gözden kaçmaması için tasarlandı."
     }
   ],
   "caseStudy": {
-    "title": "Kadıköy'de bir hukuk bürosu: 4 ayda 3x danışan dönüşümü",
+    "title": "Örnek senaryo: Kadıköy'de bir hukuk bürosu için danışan karşılama akışı",
     "paragraphs": [
-      "Kadıköy Bağdat Caddesi'nde aile ve iş hukuku üzerine çalışan 3 avukatlı bir büro, ayda ortalama 180 WhatsApp mesajı alıyordu ancak bu mesajların sadece %18'i danışmanlığa, danışmanlıkların da yarısı müvekkilliğe dönüyordu. Yani ay başı 16 yeni müvekkil. Sekreterleri aynı temel soruları yanıtlamaktan tükenmiş, gece-hafta sonu mesajları cevapsız kalıyordu.",
-      "PORTZEN'in AI asistanını kurduktan sonra ilk ayda KVKK uyumlu görüşme akışı, dava türü kategorizasyonu ve otomatik randevu sistemi devreye alındı. İkinci ayın sonunda gece gelen mesajların %78'i sabah hazır randevu olarak masaya geliyordu. Üçüncü ayda hassas konu tespiti devreye girdi; bir koruma kararı acil davası avukata 4 dakika içinde ulaştırıldı.",
-      "Dördüncü ayın sonunda danışan-müvekkil dönüşümü %18'den %47'ye çıktı, ay başı yeni müvekkil 16'dan 51'e yükseldi. Sekreterin aylık 60 saatlik tekrar yanıt yükü tamamen kalktı; bu süre dosya hazırlığına ayrıldı. Büro 3 ay içinde 4. avukatı işe aldı."
+      "Örnek bir kurulumu düşünelim: Kadıköy'de aile ve iş hukuku üzerine çalışan 3 avukatlı bir büroya WhatsApp'tan düzenli danışan mesajı geliyor. Sekreter aynı temel soruları yanıtlamaktan yoruluyor, gece ve hafta sonu gelen mesajlar cevapsız kalıyor.",
+      "Böyle bir yapıda önce KVKK gerekliliklerini dikkate alan görüşme akışı (aydınlatma metni, açık rıza), dava türü kategorizasyonu ve otomatik randevu sistemi kurulur. Ardından hassas konu tespiti eklenir: koruma kararı, gözaltı gibi acil durumlarda otomatik yanıt durur ve avukata çağrı + SMS + WhatsApp bildirimi gider.",
+      "Bu kurulumda gece gelen mesajlar sabah randevu talebi ve kısa ön bilgi özeti olarak masaya gelir, büronun ilgilenmediği alanlardaki talepler kibarca yönlendirilir, sekreterin tekrar eden soru yükü asistana geçer. Hukuki değerlendirme her zaman avukatta kalır."
     ],
     "beforeAfter": [
-      {"label": "Aylık Yeni Müvekkil", "before": "16 kişi", "after": "51 kişi"},
-      {"label": "Danışmanlık Dönüşümü", "before": "%18", "after": "%47"},
-      {"label": "Gece Mesajı Yanıt Süresi", "before": "8 saat+", "after": "60 saniye"}
+      {
+        "label": "Gece Gelen Mesajlar",
+        "before": "Sabaha kadar yanıtsız",
+        "after": "Sabah randevu talebi olarak masada"
+      },
+      {
+        "label": "Ön Bilgi Toplama",
+        "before": "İlk görüşmede sıfırdan soruluyor",
+        "after": "Yapılandırılmış formla önceden alınıyor"
+      },
+      {
+        "label": "Acil Durumlar",
+        "before": "Mesajlar arasında gözden kaçabiliyor",
+        "after": "Tespit edilip avukata bildiriliyor"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "10.000 TL/ay",
-      "description": "Tek avukat veya 2 kişilik büro için temel paket",
-      "features": [
-        "Ayda 500 görüşmeye kadar",
-        "WhatsApp Business API hattı",
-        "KVKK uyumlu aydınlatma + rıza akışı",
-        "Temel dava türü kategorizasyon",
-        "Google Calendar randevu entegrasyonu",
-        "Aylık 1 optimizasyon raporu"
-      ]
-    },
-    {
-      "name": "Pro",
-      "price": "20.000 TL/ay",
-      "description": "3-5 avukatlı orta ölçekli büro için tam donanım",
-      "highlighted": true,
-      "features": [
-        "Ayda 2.000 görüşmeye kadar",
-        "WhatsApp Business API + ikinci hat opsiyonu",
-        "Detaylı dava türü kategorizasyon (12 alan)",
-        "UYAP dosya durumu sorgu entegrasyonu",
-        "Hassas konu acil bildirim sistemi",
-        "Müvekkil dosya hatırlatma otomasyonu",
-        "Aylık 2 optimizasyon + özel rapor"
-      ]
-    },
-    {
-      "name": "Premium",
-      "price": "40.000 TL/ay",
-      "description": "6+ avukatlı büyük büro / hukuk firması",
-      "features": [
-        "Sınırsız görüşme",
-        "Çoklu hat + departman bazlı yönlendirme",
-        "UYAP + e-Tebligat tam entegrasyonu",
-        "Özel marka rengi ve ses tonu",
-        "Mahkeme kararı doküman üretici (taslak)",
-        "Haftalık optimizasyon + canlı destek hattı",
-        "Özel KVKK denetim raporu (yıllık)"
-      ]
-    }
-  ],
   "faq": [
     {
-      "question": "KVKK uyumu nasıl sağlanıyor, sorumlu kim?",
-      "answer": "Veri sorumlusu yine sizin büronuz, PORTZEN veri işleyen sıfatıyla hareket eder. Aydınlatma metni, açık rıza akışı, veri saklama süreleri ve VERBİS kaydı için tüm dokümantasyon kurulum sırasında hazırlanır. Yıllık denetim raporu Pro ve Premium paketlerde dahildir."
+      "question": "KVKK açısından nasıl çalışıyor, sorumlu kim?",
+      "answer": "Veri sorumlusu yine sizin büronuz, PORTZEN veri işleyen sıfatıyla hareket eder. Aydınlatma metni, açık rıza akışı ve veri saklama süreleri kurulum sırasında büronuzla birlikte kurgulanır; VERBİS kaydı ve metinlerin hukuki son kontrolü veri sorumlusu olarak büronuzdadır. Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Ek uyum çalışmalarına ihtiyaç duyarsanız kapsamını brief görüşmesinde netleştiriyor, ayrıca tekliflendiriyoruz."
     },
     {
       "question": "Müvekkil sırrı korunur mu, mesajları kimler görüyor?",
-      "answer": "Sadece sizin büronuzdaki yetkili avukatlar ve sekreter görür. PORTZEN tarafı sistemsel olarak şifrelenmiş metadata dışında içeriklere erişemez. Tüm veriler Türkiye'deki sunucularda saklanır, üçüncü taraflara hiçbir koşulda paylaşılmaz."
+      "answer": "Panelde mesajları sadece sizin yetkilendirdiğiniz avukatlar ve sekreter görür; erişim yetkileri rol bazlı ayarlanır. Konuşmalar asistanın çalışması için gereken altyapı sağlayıcıları (WhatsApp Business API ve AI model sağlayıcısı) üzerinden işlenir; hangi sağlayıcıların kullanıldığı ve verinin hangi bölgede tutulacağı teklifte yazılı olarak belirtilir."
     },
     {
       "question": "Hassas bilgilerin (kimlik, mali bilgi) güvenliği nasıl?",
-      "answer": "AI asistan kritik kişisel verileri (TC kimlik no, banka bilgisi, sağlık verisi) tespit ettiğinde otomatik maskeler ve görüşmeyi şifreli kanala yönlendirir. Mesaj geçmişi 6 ay sonra anonimleştirilir, 2 yıl sonra tamamen silinir."
+      "answer": "Akış, kritik kişisel verilerin (TC kimlik no, banka bilgisi, sağlık verisi) WhatsApp'tan istenmeyeceği şekilde kurgulanır; danışan bu tür bilgileri paylaşırsa görüşme büronuzun belirlediği kanala yönlendirilir. Mesaj geçmişinin saklama, anonimleştirme ve silme süreleri büronuzla birlikte belirlenir."
     },
     {
       "question": "Baroya bildirilmesi gereken bir uygulama mı?",
-      "answer": "Bağlı bulunduğunuz baroya yazılı bildirim yapılması tavsiye edilir, ancak ayrı izin gerekmez. PORTZEN bildirim için örnek dilekçe sağlar; İstanbul, Ankara, İzmir barolarında benzer sistemleri kullanan büro sayısı 2025 itibarıyla 400'ü geçmiştir."
+      "answer": "Bağlı bulunduğunuz baronun bu konudaki güncel uygulamasını teyit etmenizi öneririz. Yazılı bildirim yapmak isterseniz sistemin nasıl çalıştığını anlatan açıklamayı birlikte hazırlayabiliriz."
     },
     {
       "question": "AI yanlış bir hukuki yönlendirme yaparsa sorumluluğu kim taşır?",
@@ -152,13 +132,13 @@
     },
     {
       "question": "Sözleşme süresi ve fesih koşulları nedir?",
-      "answer": "Minimum sözleşme süresi 3 aydır (kurulum maliyetini karşılamak için). 3 aydan sonra istediğiniz zaman 30 gün önceden bildirim ile feshedilebilir. Hiçbir cayma cezası yoktur, verileriniz fesih sonrası 30 gün içinde size teslim edilir ve sistemden silinir."
+      "answer": "Sözleşme süresi ve fesih koşulları teklifte yazılı olarak belirlenir. Hizmet sona erdiğinde verileriniz size teslim edilir ve sistemden silinir."
     },
     {
-      "question": "İlk ay sonuç alamazsam ücret iadesi var mı?",
-      "answer": "İlk 14 gün koşulsuz iade garantisi sunuyoruz. Eğer sistem büronuza uyum sağlamaz veya teknik olarak söz verdiğimiz performansı veremezsek, ödediğiniz tutarı tamamen iade ederiz. 2025 yılında iade oranımız %3'ün altındadır."
+      "question": "İlk ay beklediğim sonucu alamazsam ne olur?",
+      "answer": "Sonuç taahhüdü vermiyoruz; ödeme ve iptal koşulları teklifte yazılı olarak belirlenir. Bunun yerine kurulumdaki test döneminde her yanıt önce sizin onayınızdan geçer ve sistem büronuza uyum sağlamadan tam otomatik moda alınmaz. Takıldığınız noktaları birlikte gözden geçirip akışları düzeltiyoruz."
     }
   ],
   "finalCtaHeadline": "Bir sonraki danışanı kaçırmayın",
-  "finalCtaSubtitle": "14 günde kurulum, KVKK uyumlu, 30 gün koşulsuz iade. Bugün başlayın, gece gelen mesajları yarın sabah hazır randevu olarak masanızda görün."
+  "finalCtaSubtitle": "KVKK gerekliliklerini dikkate alan akış, avukat onaylı test dönemi; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Gece gelen mesajları sabah randevu talebi olarak masanızda görün."
 }

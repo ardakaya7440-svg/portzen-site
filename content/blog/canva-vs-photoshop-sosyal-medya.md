@@ -179,7 +179,7 @@ Profesyonel KOBİ pazarlamasında en iyi sonuç, Canva ve Photoshop'u birlikte k
 
 Photoshop'ta üretilen marka asset'leri (logo, ürün fotoğrafı, key visual) Canva marka kit'ine yüklenir. Sonra Canva üzerinden ekip bu asset'leri kullanarak hızlı sosyal medya içeriği üretir. Bu hibrit yaklaşım hem marka kalitesini hem üretim hızını maximize eder.
 
-Eğer içerik üretim sürecinizi tamamen otomatikleştirmek istiyorsanız, [AI reklam videosu](/ai-reklam-videosu) hizmetimiz ile aylık 30-60 video içeriği üretiyor; [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ile bu içeriklerden gelen ilgiyi satışa dönüştürüyoruz. Butik veya restoran işletmesiyseniz [butikler için Instagram DM otomasyonu](/instagram-dm-otomasyonu/butik) ve [restoranlar için çözümümüze](/instagram-dm-otomasyonu/restoran) bakabilirsiniz.
+Eğer içerik üretim sürecinizi tamamen otomatikleştirmek istiyorsanız, kısa video paketlerimizle ayda 4 ila 24 dikey video ({{fiyatlar:kisa-video}}, KDV hariç) üretiyor, [AI reklam videosu](/ai-reklam-videosu) hizmetimizle proje bazlı reklam filmleri hazırlıyor; kural tabanlı [Instagram DM otomasyonu](/instagram-dm-otomasyonu) ile bu içeriklere gelen yorum ve hikâye etkileşimlerine otomatik DM gönderiyoruz. Butik veya restoran işletmesiyseniz [butikler için Instagram DM otomasyonu](/instagram-dm-otomasyonu/butik) ve [restoranlar için çözümümüze](/instagram-dm-otomasyonu/restoran) bakabilirsiniz.
 
 ## Sıkça Sorulan Sorular
 

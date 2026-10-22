@@ -85,7 +85,7 @@ Tablonun en kritik satırı bence "Türkçe NLP kalitesi" ve "Esneklik". ManyCha
 - **Markaya özgü ton**: şirket dilini, espriyi, kibarlığı koruyan cevaplar
 - **CRM ve panel entegrasyonu**: müşteri datasını otomatik girip etiketleyen sistem
 
-Eğer ikinci listede üç ya da daha fazla maddede kendinizi görüyorsanız, custom AI chatbot 6 ay içinde ManyChat'in altı katı kadar değer üretir. [Instagram DM otomasyonu](/instagram-dm-otomasyonu) örneklerimiz somut kullanım vakaları gösteriyor. Bot kurulumunun yanı sıra DM'lere düşen mesajların içerik + topluluk yönetimi tarafını da [sosyal medya ajansı](/sosyal-medya-ajansi) hizmetiyle birlikte yürütmek, dönüşüm oranını otomasyonla insan dokunuşunun birleştiği noktada katlıyor.
+Eğer ikinci listede üç ya da daha fazla maddede kendinizi görüyorsanız, custom AI chatbot sizin için daha uygun yapı olabilir. Not: PORTZEN'in [Instagram DM otomasyonu](/instagram-dm-otomasyonu) hizmeti ManyChat'e benzer şekilde kural tabanlıdır (yorum, hikâye ve anahtar kelime tetikleyicilerine önceden tanımlı mesajlar gönderir); serbest soruları yapay zekâ ile anlayıp yanıtlayan yapı ise ayrı bir hizmet olan AI müşteri asistanı kapsamındadır (Instagram kanalı Kurumsal pakette). Bot kurulumunun yanı sıra DM'lere düşen mesajların içerik + topluluk yönetimi tarafını da [sosyal medya ajansı](/sosyal-medya-ajansi) hizmetiyle birlikte yürütmek, otomasyonla insan dokunuşunu aynı akışta birleştirir.
 
 ## Maliyet Karşılaştırması: Üç Boyutta Bakış
 
@@ -100,16 +100,16 @@ Karşılaştırmayı sadece fiyat etiketinden yapmak yanıltır. Üç boyutta ba
 | Yüksek hacim (ayda 15.000 etkileşim) | ~ 55.000 ₺ (Enterprise) | ~ 65.000 ₺ |
 | Çok yüksek hacim (ayda 50.000+) | Mümkün ama pahalı, 120.000 ₺+ | ~ 90.000 ₺ |
 
-Düşük hacimde ManyChat ucuz, yüksek hacimde custom AI bot daha verimli. Kırılma noktası genellikle aylık 5.000 etkileşim civarında.
+Düşük hacimde ManyChat ucuz, yüksek hacimde custom AI bot daha verimli. Kırılma noktası genellikle aylık 5.000 etkileşim civarında. Bu yazıdaki custom AI chatbot tutarları piyasa ortalamasıdır; PORTZEN'de bu kurulum AI müşteri asistanı paketleriyle yapılır: {{fiyatlar:ai-musteri-asistani}} (KDV hariç).
 
 ### Zaman (Cevap Kalitesi ve Müşteri Tatmini)
 
-ManyChat'te müşteri akışın dışına çıkınca "anlamadım, lütfen menüden seçin" diyor. Bu, %20-30 oranında müşteri kaybı demek. Custom AI chatbot doğal soruları anladığı için bu kayıp %5'in altına iniyor. Mesaj başına ortalama 3-4 dakika tasarruf, ekipten birinin yarım gününe denk geliyor.
+ManyChat'te müşteri akışın dışına çıkınca "anlamadım, lütfen menüden seçin" diyor. Bu noktada müşterinin bir kısmı konuşmayı yarıda bırakabiliyor. Custom AI chatbot doğal soruları anladığı için müşteriyi menüye geri itmek yerine sorusuna yanıt vermeye çalışır, yanıtlayamadığında konuşmayı ekibe devreder; tekrar eden sorular ekibin önüne düşmez.
 
 ### Karmaşıklık (Yönetim Yükü)
 
 - **ManyChat:** Siz yönetiyorsunuz. Her yeni ürün, yeni kampanya için akışı güncellemek sizin işiniz. Eğitilmiş bir çalışan + ortalama haftada 3-5 saat.
-- **Custom AI bot:** Ajans yönetiyor (bizim modelimiz böyle). Bilgi tabanına dokuman ekliyorsunuz, bot kendi öğreniyor. Sizin operasyon yükünüz neredeyse sıfır.
+- **Custom AI bot:** Bilgi tabanına doküman ekliyorsunuz, bot yanıtlarını bu içerikten üretir. PORTZEN'de konuşma loglarını inceleyip botu iyileştirme Büyüme paketinde ayda 2 saat, Kurumsal pakette ayda 6 saat olarak dahildir; akış güncellemesi için ekibinizde ayrı bir uzman tutmanız gerekmez.
 
 KOBİ tarafında çoğu işletme sahibi "kim akışı güncelleyecek" sorusuyla ManyChat'i terk eder. Bilen bir çalışan ayrılınca platform küfler.
 
@@ -146,7 +146,7 @@ Kararı verirken bir de **gelecek** sorusunu sorun: "6 ay sonra hacmim ne olacak
 Kısmen iyileştirdi ama gereksiz kılmadı. AI Step sadece tek bir cevap aralığında çalışır, sizin bilgi tabanınıza bağlanmaz, konuşmanın bağlamını uzun süreli tutmaz. Custom çözüm tüm konuşmayı bağlamlı yürütür ve sizin verilerinizden cevap üretir. [Detaylı karşılaştırma için ManyChat alternatifi sayfamıza](/manychat-alternatifi) bakabilirsiniz.
 
 **ManyChat'ten custom AI bot'a göç etmek zor mu?**
-Akışları sıfırdan kurmak gerekiyor çünkü mantık tamamen farklı. Ancak ManyChat'teki etiket ve segment listelerinizi CSV olarak indirip yeni sisteme aktarabilirsiniz. Tipik göç süresi 2-3 hafta.
+Akışları sıfırdan kurmak gerekiyor çünkü mantık tamamen farklı. Ancak ManyChat'teki etiket ve segment listelerinizi CSV olarak indirip yeni sisteme aktarabilirsiniz. Göç süresi akış ve entegrasyon sayısına bağlıdır; teslim süresi kapsama göre teklifte yazılı olarak belirtilir.
 
 **Custom AI bot'un başlangıç maliyetini nasıl haklı çıkarırım?**
 Aylık kaç insan saatini kurtaracağına bakın. Bir müşteri temsilcisi saatlik 150 ₺'ye mal oluyor. Bot 3 saatlik insan işini günde halledecekse, ayda 9.900 ₺ tasarruf demek. 8 ay içinde başlangıç maliyetini çıkarır.
@@ -164,7 +164,7 @@ ManyChat ile custom AI chatbot arasındaki karar, "hangi araç daha iyi" sorusuy
 PORTZEN olarak İzmir merkezli, 5-50 kişilik KOBİ'lerle çalışan bir ajansız. Chatbot tarafında size üç yönlü hizmet veriyoruz:
 
 - **Karar danışmanlığı**: ManyChat mi yetiyor, yoksa custom AI bot mı gerekiyor, beraber netleştiriyoruz
-- **Custom AI bot kurulumu**: Türkçe optimize, sizin ürün ve fiyat bilginizi öğrenen, WhatsApp + Instagram + web sitesi entegrasyonlu bot
-- **Bakım ve sürekli iyileştirme**: bot konuşma loglarını analiz edip her ay performansı artırıyoruz
+- **Custom AI bot kurulumu**: Türkçe optimize, sizin ürün ve fiyat bilginizi öğrenen bot; Başlangıç'ta WhatsApp veya web sitesi, Büyüme'de 2 kanal, Kurumsal'da Web + WhatsApp + Instagram
+- **İyileştirme**: Büyüme paketinde ayda 2 saat, Kurumsal pakette ayda 6 saat konuşma loglarını analiz edip botu iyileştiriyoruz
 
 Eğer hangi yöne gideceğinize karar veremiyorsanız ya da mevcut ManyChat kurulumunuzdan istediğiniz verimi alamıyorsanız [iletişim sayfamızdan](/iletisim) ulaşın. 30 dakikalık ücretsiz görüşmede mesaj hacminize, sektörünüze ve hedeflerinize bakıp en mantıklı yolu öneriyoruz. WhatsApp tarafında entegrasyon detayı için [WhatsApp AI asistanı sayfamızı](/whatsapp-ai-asistani) da inceleyebilirsiniz. Chatbot yatırımı, doğru zamanda doğru araçla yapıldığında işletmenizin en yüksek getirili dijital adımı olabilir.

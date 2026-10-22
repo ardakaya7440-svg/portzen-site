@@ -52,7 +52,7 @@ export default function CategoryPage({ params }: Props) {
 
   return (
     <>
-      <section className="border-b-3 border-ink bg-paper">
+      <section className="border-b-3 border-ink/15 bg-white">
         <div className="mx-auto max-w-container px-6 pt-10 pb-12 md:pt-16 md:pb-16">
           <nav aria-label="Breadcrumb" className="mb-6 text-sm text-ink/70 flex items-center gap-1.5 flex-wrap">
             <Link href="/" className="hover:underline">Anasayfa</Link>
@@ -63,7 +63,7 @@ export default function CategoryPage({ params }: Props) {
           </nav>
 
           <Reveal>
-            <div className={cn("inline-block border-3 border-ink px-3 py-1 text-xs font-black uppercase tracking-wider shadow-brutal-sm mb-6", meta.bg, meta.text)}>
+            <div className={cn("inline-block border-3 border-ink/15 px-3 py-1 text-xs font-black tracking-wider shadow-brutal-sm mb-6 rounded-full", meta.bg, meta.text)}>
               Kategori
             </div>
           </Reveal>
@@ -84,17 +84,17 @@ export default function CategoryPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           {posts.length === 0 ? (
-            <div className="border-3 border-ink bg-paper p-12 text-center">
+            <div className="border-3 border-ink/15 bg-paper p-12 text-center rounded-2xl">
               <p className="text-ink/70">Yazı yok.</p>
               <Link
                 href="/blog"
-                className="mt-6 inline-flex items-center gap-2 border-3 border-ink bg-ink px-4 py-2 text-sm font-bold uppercase text-paper shadow-brutal"
+                className="mt-6 inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-4 py-2 text-sm font-bold text-white shadow-brutal rounded-full"
               >
                 <ArrowLeft className="h-4 w-4" />
-                Blog'a Dön
+                Blog&apos;a Dön
               </Link>
             </div>
           ) : (
@@ -103,10 +103,10 @@ export default function CategoryPage({ params }: Props) {
                 <Reveal key={post.slug} delay={i * 50}>
                   <Link
                     href={`/blog/${post.slug}`}
-                    className="group block border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full"
+                    className="group block border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl"
                   >
                     <div className="flex items-start justify-between mb-4">
-                      <span className={cn("border-3 border-ink px-2 py-0.5 text-xs font-black uppercase tracking-wider shadow-brutal-sm", meta.bg, meta.text)}>
+                      <span className={cn("border-3 border-ink/15 px-2 py-0.5 text-xs font-black tracking-wider shadow-brutal-sm rounded-full", meta.bg, meta.text)}>
                         {cat.label}
                       </span>
                       <ArrowUpRight className="h-5 w-5 opacity-50 group-hover:opacity-100 transition-opacity" />

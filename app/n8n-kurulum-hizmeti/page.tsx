@@ -17,11 +17,13 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
+import { PricingSection } from "@/components/pricing/PricingSection";
+import { PRICING, familyOffersSchema, formatTL } from "@/data/pricing";
 
 export const metadata: Metadata = {
   title: "n8n Kurulum Hizmeti | Self-Hosted Otomasyon Türkiye — PORTZEN",
   description:
-    "n8n self-hosted kurulumu, Docker + SSL + backup, Türk uygulamalar entegre (Logo, Mikro, Iyzico, NetGSM). Zapier'den geçiş, eğitim, bakım. Tek seferlik 25.000 TL'den.",
+    "n8n self-hosted kurulumu, Docker + SSL + backup, Türk uygulamalar entegre (Logo, Mikro, Iyzico, NetGSM). Zapier'den geçiş, eğitim, bakım. Tek seferlik kurulum.",
   keywords: [
     "n8n kurulum",
     "n8n türkçe",
@@ -39,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "n8n Kurulum Hizmeti | Self-Hosted Otomasyon Türkiye",
     description:
-      "n8n sunucunuza kurulur, Türk uygulamalar entegre edilir, eğitim ve bakım dahil. Tek seferlik 25.000 TL'den."
+      "n8n sunucunuza kurulur, Türk uygulamalar entegre edilir. Tek seferlik kurulum; ekip eğitimi Büyüme ve Kurumsal paketlerde, aylık bakım isteğe bağlı."
   },
   twitter: {
     card: "summary_large_image",
@@ -60,18 +62,13 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "n8n iş akışı otomasyon aracının self-hosted kurulumu: VPS/DigitalOcean üzerine Docker + SSL + otomatik backup, Türk uygulamalar (Logo, Mikro, Iyzico, NetGSM, WhatsApp Business API) entegrasyonu, Türkçe eğitim ve bakım dahil.",
-  offers: {
-    "@type": "Offer",
-    priceCurrency: "TRY",
-    priceRange: "₺25000-₺95000",
-    availability: "https://schema.org/InStock"
-  }
+    "n8n iş akışı otomasyon aracının self-hosted kurulumu: VPS/DigitalOcean üzerine Docker + SSL + otomatik backup, Türk uygulamalar (Logo, Mikro, Iyzico, NetGSM, WhatsApp Business API) entegrasyonu, Türkçe ekip eğitimi (Büyüme ve Kurumsal paketlerde) ve isteğe bağlı aylık bakım.",
+  offers: familyOffersSchema(PRICING["is-otomasyonu"])
 };
 
 const faqSchema = {
@@ -91,7 +88,7 @@ const faqSchema = {
       name: "Hangi VPS önerirsiniz?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Başlangıç için DigitalOcean Premium AMD 4GB RAM ($24/ay) veya Hetzner CX22 (~€5/ay) önerilir. Orta ölçek için Contabo VPS M (€8/ay) veya Türk Telekom Cloud Türkiye sunucusu uygundur. Türkiye veri yerelleştirme gerekiyorsa TT Cloud veya Turkcell BIP önerilir."
+        text: "Küçük ölçek için DigitalOcean Premium AMD 4GB RAM ($24/ay) veya Hetzner CX22 (~€5/ay) önerilir. Orta ölçek için Contabo VPS M (€8/ay) veya Türk Telekom Cloud Türkiye sunucusu uygundur. Türkiye veri yerelleştirme gerekiyorsa TT Cloud veya Turkcell BIP önerilir."
       }
     },
     {
@@ -99,7 +96,7 @@ const faqSchema = {
       name: "Aylık ek ücret var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "n8n self-hosted ücretsizdir (lisans bedeli yok). Sadece VPS sunucu maliyeti (yaklaşık ₺350-1.500/ay) ve isterseniz PORTZEN bakım paketi (3 ay 8.500 TL veya 12 ay 28.000 TL) ödenir. Workflow sayı limiti yok."
+        text: "n8n self-hosted ücretsizdir (lisans bedeli yok). Sadece VPS sunucu maliyeti ve isterseniz PORTZEN bakım paketi ödenir. Workflow sayı limiti yok."
       }
     },
     {
@@ -115,7 +112,7 @@ const faqSchema = {
       name: "Zapier'den n8n'e taşıma yapıyor musunuz?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Mevcut Zapier veya Make zaplerınızı/scenariolarınızı analiz ediyor, n8n'de eşdeğer workflow'ları kuruyoruz. Geçiş sırasında her iki sistem paralel çalışır; n8n test edildikten sonra Zapier kapatılır. Pro pakette dahildir."
+        text: "Evet. Mevcut Zapier veya Make senaryolarınızı analiz ediyor, n8n'de eşdeğer iş akışlarını kuruyoruz. Geçiş sırasında iki sistem paralel çalışır; n8n test edildikten sonra Zapier kapatılır. Taşınan her akış paketin iş akışı sayısından düşülür."
       }
     },
     {
@@ -123,7 +120,7 @@ const faqSchema = {
       name: "Eğitim dahil mi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. 2 saatlik canlı online eğitim (Zoom) ve Türkçe video kılavuz seti sağlanır. Pro ve Kurumsal pakette ayrıca ekibinize workflow oluşturma eğitimi (4 saat) verilir."
+        text: "Büyüme ve Kurumsal paketlerde ekip eğitimi dahildir; Kurumsal pakette ayrıca dokümantasyon teslim edilir. Başlangıç paketinde eğitim yoktur, ihtiyaç olursa ayrıca planlanır."
       }
     },
     {
@@ -152,9 +149,9 @@ const breadcrumbSchema = {
 };
 
 const stats = [
-  { metric: "₺25.000", label: "Tek seferlik kurulum" },
+  { metric: `${formatTL(PRICING["is-otomasyonu"].tiers.baslangic.price)}`, label: "Başlangıç kurulum (tek seferlik)" },
   { metric: "0₺", label: "Lisans bedeli (self-hosted)" },
-  { metric: "∞", label: "Sınırsız workflow" },
+  { metric: "2–12", label: "Pakete göre iş akışı" },
   { metric: "TR", label: "Türk uygulamalar dahil" }
 ];
 
@@ -180,12 +177,12 @@ const solutionSteps = [
   {
     icon: PlayCircle,
     title: "Workflow",
-    description: "İlk 3-5 workflow'unuz birlikte tasarlanır, test edilir, canlıya alınır."
+    description: "Paketinizdeki iş akışı sayısı kadar workflow birlikte tasarlanır, test edilir, canlıya alınır."
   },
   {
     icon: Settings,
     title: "Bakım",
-    description: "Aylık güncelleme, otomatik backup kontrolü, performans izleme ve Türkçe destek hattı."
+    description: "İsteğe bağlı aylık bakım (ikinci aydan itibaren): güncelleme, backup kontrolü, performans izleme ve Türkçe destek."
   }
 ];
 
@@ -212,69 +209,16 @@ const features = [
   },
   {
     icon: PlayCircle,
-    title: "Türkçe eğitim videosu",
-    desc: "Ekibiniz için adım adım Türkçe video kılavuz seti. İlk workflow'u 30 dakikada kurun."
+    title: "Türkçe ekip eğitimi",
+    desc: "Büyüme ve Kurumsal paketlerde ekip eğitimi dahildir; Başlangıç paketinde ihtiyaç olursa ayrıca planlanır."
   },
   {
     icon: RefreshCw,
     title: "Aylık güncelleme",
-    desc: "n8n yeni sürüm geldikçe güvenlik ve özellik güncellemeleri biz yapıyoruz."
+    desc: "İsteğe bağlı aylık bakımla, n8n yeni sürüm geldikçe güvenlik ve özellik güncellemelerini biz yapıyoruz."
   }
 ];
 
-const packages = [
-  {
-    name: "Tek Seferlik Kurulum",
-    price: "25.000 TL",
-    period: "tek seferlik",
-    setup: "Bakım: opsiyonel (1.500 TL/ay)",
-    color: "bg-paper",
-    features: [
-      "VPS sunucu kurulum",
-      "Docker + Nginx + SSL",
-      "Otomatik günlük backup",
-      "3 hazır workflow",
-      "Türkçe video kılavuz",
-      "30 gün e-posta destek"
-    ],
-    cta: "Projeyi Konuşalım"
-  },
-  {
-    name: "Pro",
-    price: "45.000 TL",
-    period: "kurulum + 3 ay bakım",
-    setup: "Sonraki ay: 5.000 TL/ay",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "Tek Seferlik Kurulum içeriği",
-      "8 özel workflow tasarımı",
-      "Türk uygulamalar entegre",
-      "Zapier/Make'dan taşıma",
-      "2 saat canlı ekip eğitimi",
-      "3 ay aylık güncelleme + bakım",
-      "WhatsApp Türkçe destek"
-    ],
-    cta: "Pro Paketi Konuşalım"
-  },
-  {
-    name: "Kurumsal",
-    price: "95.000 TL",
-    period: "kurulum + 12 ay bakım",
-    setup: "Sonraki yıl: 4.000 TL/ay",
-    color: "bg-paper",
-    features: [
-      "Pro paket içeriği",
-      "Sınırsız workflow tasarımı",
-      "Özel Türk uygulama node'u",
-      "Yüksek erişilebilirlik (HA)",
-      "Adanmış proje yöneticisi",
-      "SLA + öncelikli destek",
-      "12 ay tam bakım + güncelleme"
-    ],
-    cta: "Kurumsal Teklif"
-  }
-];
 
 const crossLinks = [
   {
@@ -306,27 +250,27 @@ const faqs = [
   },
   {
     q: "Hangi VPS önerirsiniz?",
-    a: "Başlangıç (5-10 workflow, düşük hacim) için DigitalOcean Premium AMD 4GB RAM ($24/ay ≈ ₺850) veya Hetzner CX22 (~€5/ay ≈ ₺180) önerilir. Orta ölçek (20+ workflow, orta hacim) için Contabo VPS M (€8/ay) veya Türk Telekom Cloud Türkiye sunucusu uygundur. KVKK veri yerelleştirme gerekiyorsa TT Cloud, Turkcell BIP veya yerli sağlayıcılar önerilir. Kurulumda sizinle birlikte seçeriz."
+    a: "Küçük ölçek (5-10 workflow, düşük hacim) için DigitalOcean Premium AMD 4GB RAM ($24/ay ≈ ₺850) veya Hetzner CX22 (~€5/ay ≈ ₺180) önerilir. Orta ölçek (20+ workflow, orta hacim) için Contabo VPS M (€8/ay) veya Türk Telekom Cloud Türkiye sunucusu uygundur. KVKK veri yerelleştirme gerekiyorsa TT Cloud, Turkcell BIP veya yerli sağlayıcılar önerilir. Kurulumda sizinle birlikte seçeriz."
   },
   {
     q: "Aylık ek ücret var mı?",
-    a: "n8n self-hosted ücretsizdir, lisans bedeli yoktur (n8n Cloud aylık $20+'dan başlar; self-hosted bu maliyeti tamamen ortadan kaldırır). Sadece VPS sunucu maliyeti (yaklaşık ₺350-1.500/ay) ve isterseniz PORTZEN bakım paketi (3 ay 8.500 TL veya 12 ay 28.000 TL) ödenir. Tek seferlik kurulum paketinde bakım opsiyoneldir."
+    a: "n8n self-hosted ücretsizdir, lisans bedeli yoktur (n8n Cloud aylık $20+'dan başlar; self-hosted bu maliyeti tamamen ortadan kaldırır). Sadece VPS sunucu maliyeti ve isterseniz PORTZEN bakım paketi ödenir. Tek seferlik kurulum paketinde bakım opsiyoneldir."
   },
   {
     q: "Workflow sayı limiti var mı?",
-    a: "Hayır. n8n self-hosted'da sınırsız workflow ve sınırsız execution çalıştırılabilir. Tek sınır sunucunuzun kapasitesi (RAM, CPU). Karşılaştırma: Zapier 100 task/ay ($20'lık planda), Make.com 1.000 operation/ay (€9'luk planda). n8n self-hosted ile aylık 1 milyon execution rahatlıkla çalıştırılabilir."
+    a: "Hayır. n8n self-hosted'da sınırsız workflow ve sınırsız execution çalıştırılabilir. Tek sınır sunucunuzun kapasitesi (RAM, CPU). Karşılaştırma: Zapier 100 task/ay ($20'lık planda), Make.com 1.000 operation/ay (€9'luk planda). Aylık çalıştırılabilecek execution sayısı seçilen sunucunun kapasitesine bağlıdır."
   },
   {
     q: "Zapier'den n8n'e taşıma yapıyor musunuz?",
-    a: "Evet. Mevcut Zapier zaplarınızı veya Make scenariolarınızı analiz ediyor, n8n'de eşdeğer workflow'ları kuruyoruz. Geçiş sırasında her iki sistem paralel çalışır; n8n test edildikten ve performans onaylandıktan sonra Zapier/Make hesabınız kapatılır. Bu hizmet Pro pakete dahildir, Tek Seferlik Kurulum'da ek ücretle (workflow başına 1.500 TL) yapılır."
+    a: "Evet. Mevcut Zapier zaplarınızı veya Make senaryolarınızı analiz ediyor, n8n'de eşdeğer iş akışlarını kuruyoruz. Geçiş sırasında iki sistem paralel çalışır; n8n test edildikten ve performans onaylandıktan sonra Zapier/Make hesabınız kapatılır. Taşınan her akış paketin iş akışı sayısından (2, 6 veya 12) düşülür; sınırı aşan akışlar ayrıca tekliflendirilir."
   },
   {
     q: "Eğitim dahil mi?",
-    a: "Tek Seferlik Kurulum: Türkçe video kılavuz seti dahil. Pro: 2 saat canlı online ekip eğitimi (Zoom/Meet) + video kılavuz. Kurumsal: 4 saat detaylı workflow oluşturma eğitimi + her ay 1 saat optimizasyon görüşmesi. Eğitim sonrası 30 gün öncelikli WhatsApp destek hattı."
+    a: "Büyüme ve Kurumsal paketlerde ekip eğitimi dahildir; Kurumsal pakette ayrıca dokümantasyon teslim edilir. Başlangıç paketinde eğitim yoktur, ihtiyaç olursa ayrıca planlanır. Tüm paketlerde ilk 30 gün kurulum hatalarının giderilmesi dahildir."
   },
   {
     q: "Hangi Türk uygulamalar entegre edilebilir?",
-    a: "Hazır geliştirdiğimiz Türk uygulama node'ları: Logo Tiger, Mikro ERP, Iyzico, NetGSM SMS, WhatsApp Business API (resmi BSP), Trendyol Marketplace, Hepsiburada, n11, Paraşüt, Bizimhesap, e-Fatura/e-Arşiv portalları (GİB), Yapı Kredi/Garanti Open Banking API'leri. Listede olmayan Türk uygulaması için özel node geliştiriyoruz (Kurumsal pakette dahil, diğer paketlerde 5.000 TL'den)."
+    a: "Hazır geliştirdiğimiz Türk uygulama node'ları: Logo Tiger, Mikro ERP, Iyzico, NetGSM SMS, WhatsApp Business API (Meta'nın resmi API'si), Trendyol Marketplace, Hepsiburada, n11, Paraşüt, Bizimhesap, e-Fatura/e-Arşiv portalları (GİB), Yapı Kredi/Garanti Open Banking API'leri. Listede olmayan Türk uygulaması için özel node geliştiriyoruz (Kurumsal pakette 2 özel API bağlantısı dahildir, diğer paketlerde ayrıca tekliflendirilir)."
   }
 ];
 
@@ -338,7 +282,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -351,34 +295,34 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-blue text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Workflow className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Self-Hosted Otomasyon</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   n8n Kurulum Hizmeti | Self-Hosted Otomasyon Türkiye
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  Zapier USD bazlı pahalı, Make karmaşık, n8n self-hosted ama kurulumu teknik bilgi istiyor. PORTZEN n8n'i sizin sunucunuza kurar, Türk uygulamaları (Logo, Mikro, Iyzico, NetGSM, WhatsApp Business API) entegre eder, Türkçe eğitim ve bakım sağlar. Lisans bedeli yok, sınırsız workflow.
+                  Zapier USD bazlı pahalı, Make karmaşık, n8n self-hosted ama kurulumu teknik bilgi istiyor. PORTZEN n8n&apos;i sizin sunucunuza kurar, Türk uygulamaları (Logo, Mikro, Iyzico, NetGSM, WhatsApp Business API) entegre eder, Türkçe eğitim ve bakım sağlar. n8n için lisans bedeli yok.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Keşif <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <a
-                    href="https://wa.me/905015884853"
+                    href="https://wa.me/905318639117"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     <MessageCircle className="h-4 w-4" /> WhatsApp Sor
                   </a>
@@ -392,8 +336,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-pink text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-4xl md:text-5xl font-black leading-none mb-2">
@@ -409,11 +353,11 @@ export default function Page() {
       </section>
 
       {/* 2. PROBLEM */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Otomasyon araçlarında karşılaşılan sorunlar
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
@@ -424,7 +368,7 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2">
             {problems.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
+                <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
                   <p className="text-body font-medium leading-relaxed">{p}</p>
                 </div>
               </Reveal>
@@ -434,18 +378,18 @@ export default function Page() {
       </section>
 
       {/* 3. SOLUTION */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Kurulum süreci
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                n8n'i 4 adımda devreye alıyoruz
+                n8n&apos;i 4 adımda devreye alıyoruz
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Sunucu seçiminden ilk workflow'a, eğitimden bakıma kadar tüm süreç PORTZEN sorumluluğunda.
+                Sunucu seçiminden ilk workflow&apos;a, eğitimden bakıma kadar tüm süreç PORTZEN sorumluluğunda.
               </p>
             </div>
           </Reveal>
@@ -454,8 +398,8 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <Reveal key={i} delay={i * 100}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{s.title}</h3>
@@ -469,11 +413,11 @@ export default function Page() {
       </section>
 
       {/* 4. FEATURES */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Kurulum içeriği
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -486,7 +430,7 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
                     <Icon className="h-7 w-7 text-ink mb-4" />
                     <h3 className="font-display text-lg font-black mb-2 text-ink">{f.title}</h3>
                     <p className="text-sm text-ink/70 leading-relaxed">{f.desc}</p>
@@ -499,16 +443,16 @@ export default function Page() {
       </section>
 
       {/* 5. CASE STUDY */}
-      <section className="bg-brand-green text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-              Gerçek vaka: İstanbul reklam ajansı
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
+              Örnek senaryo: dijital reklam ajansı
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              İstanbul'da bir ajans Zapier'den n8n self-hosted'a geçti — aylık $189'dan tek seferlik ₺35.000'e indi.
+              Örnek bir geçiş: bir ajansın Zapier akışlarını n8n self-hosted&apos;a taşımak.
             </h2>
           </Reveal>
 
@@ -516,39 +460,39 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  İstanbul merkezli orta ölçekli bir dijital reklam ajansı, müşteri raporlama ve süreç otomasyonu için 2 yıldır Zapier Professional ($89/ay) ve birkaç Premium add-on ($100/ay) kullanıyordu. Aylık fatura $189 — kurla beraber ₺7.000+. Yıllık $2.268 ödüyorlardı (yaklaşık ₺85.000).
+                  Örnek senaryoda müşteri raporlama ve süreç otomasyonu için Zapier Professional ($89/ay) ve birkaç Premium add-on kullanan orta ölçekli bir dijital reklam ajansı düşünelim. Fatura USD bazlı geliyor ve kurla birlikte değişiyor.
                 </p>
                 <p>
-                  Daha kötüsü, Zapier task limitleri sürekli aşılıyordu: müşteri ekledikçe workflow'lar artıyor, task sayısı şişiyor, faturada sürpriz "overage" maliyetleri çıkıyordu. Üstüne Logo Tiger ve Iyzico entegrasyonları için Zapier'de hazır node yoktu — özel webhook'larla bağladıkları geçici çözümler kırılıyor, ajans operasyonu sekteye uğruyordu.
+                  Bu tür kurulumlarda tipik sorunlar görülür: müşteri ekledikçe workflow&apos;lar ve task sayısı artar, faturada &quot;overage&quot; maliyetleri çıkabilir. Logo Tiger ve Iyzico için Zapier&apos;de hazır node olmadığından özel webhook&apos;larla kurulan geçici çözümler kırılgan kalır.
                 </p>
                 <p>
-                  PORTZEN'in Pro paketi (₺45.000 — kurulum + 3 ay bakım) ile geçtik. DigitalOcean Premium AMD 4GB ($24/ay ≈ ₺850) sunucu üzerine n8n + Docker + Nginx + SSL kurduk. Mevcut 18 Zapier zap'ını n8n workflow'una taşıdık. Logo, Iyzico, NetGSM SMS ve WhatsApp Business API entegrasyonlarımız hazır geldi, 2 günde devreye girdi. Ekip için 2 saat eğitim verdik.
+                  Örnek kurulumda bir VPS (ör. DigitalOcean Premium AMD 4GB, $24/ay) üzerine n8n + Docker + Nginx + SSL kurulur. Mevcut Zapier zap&apos;ları analiz edilip n8n workflow&apos;larına taşınır; taşınan her akış paketin iş akışı sayısından düşülür. Logo, Iyzico, NetGSM SMS ve WhatsApp Business API bağlantıları hazır node&apos;larla kurulur. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.
                 </p>
                 <p>
-                  Geçişten 4 ay sonraki tablo: aylık otomasyon maliyeti ₺7.000+'dan ₺850 (sunucu) + ₺5.000 (PORTZEN bakım) = toplam ₺5.850'ye düştü. Task limiti yok, sınırsız workflow. Logo ve Iyzico kırılma problemleri çözüldü. Geri ödeme süresi 7 ay; 2. yılın sonunda toplam ₺95.000 tasarruf hesaplandı.
+                  İş akışında değişen: otomasyonlar sizin sunucunuzda çalışır ve n8n için lisans bedeli ödenmez; task başına ücretlendirme yerine sunucu maliyeti ve isteğe bağlı bakım bedeli kalır. Logo ve Iyzico bağlantıları geçici webhook çözümleri yerine izlenebilir iş akışlarıyla yönetilir.
                 </p>
               </div>
             </Reveal>
 
             <Reveal delay={300}>
               <div className="grid gap-4">
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
                   <div className="text-xs font-bold uppercase opacity-70 mb-1">Önce (Zapier)</div>
-                  <div className="font-display text-4xl font-black mb-1">₺7.000+</div>
-                  <div className="text-sm">Aylık (dalgalı)</div>
+                  <div className="font-display text-lg font-black mb-1">Task başına, USD bazlı ücretlendirme</div>
+                  <div className="text-sm">Kurla değişen fatura</div>
                   <div className="mt-4 text-xs font-bold uppercase opacity-70 mb-1">Sonra (n8n)</div>
-                  <div className="font-display text-4xl font-black text-brand-green">₺5.850</div>
-                  <div className="text-sm">Sunucu + bakım (sabit)</div>
+                  <div className="font-display text-lg font-black text-ink">Lisans bedeli yok, akışlar kendi sunucunuzda</div>
+                  <div className="text-sm">Sunucu gideri ve isteğe bağlı bakım ayrı</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Kurulum yatırımı</div>
-                  <div className="font-display text-4xl font-black mb-1">₺45.000</div>
-                  <div className="text-sm">Tek seferlik (Pro paket)</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Taşınan akış</div>
+                  <div className="font-display text-4xl font-black mb-1">2–12</div>
+                  <div className="text-sm">Pakete göre iş akışı sayısı</div>
                 </div>
-                <div className="border-3 border-ink bg-paper text-ink p-5 shadow-brutal">
-                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Geri ödeme</div>
-                  <div className="font-display text-4xl font-black text-brand-pink">7 ay</div>
-                  <div className="text-sm">2. yıl sonu ₺95.000 tasarruf</div>
+                <div className="border-3 border-ink/15 bg-paper text-ink p-5 shadow-brutal rounded-2xl">
+                  <div className="text-xs font-bold uppercase opacity-70 mb-1">Entegrasyon</div>
+                  <div className="font-display text-4xl font-black text-ink">TR</div>
+                  <div className="text-sm">Logo, Iyzico, NetGSM, WhatsApp için hazır node&apos;lar</div>
                 </div>
               </div>
             </Reveal>
@@ -556,89 +500,17 @@ export default function Page() {
         </div>
       </section>
 
-      {/* 6. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Tek seferlik kurulum modeli
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                n8n kurulum paketleri
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Aylık SaaS yerine tek seferlik yatırım + opsiyonel bakım. Sunucu maliyeti sizde, kontrol sizde.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="mb-1">
-                    <span className="font-display text-4xl font-black">{p.price}</span>
-                  </div>
-                  <div className="text-xs font-bold opacity-75 mb-1">{p.period}</div>
-                  <div className="text-xs font-bold opacity-75 mb-6">{p.setup}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={400}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div className="flex items-start gap-3 flex-1 min-w-[260px]">
-                <Lock className="h-6 w-6 shrink-0 mt-1 text-brand-yellow" />
-                <div>
-                  <div className="font-display text-lg font-black mb-1">n8n lisansı ücretsiz</div>
-                  <p className="text-sm opacity-90">
-                    n8n self-hosted Fair Code lisansı altında ücretsizdir. Sadece VPS sunucu (~₺350-1.500/ay) maliyeti ödenir; lisans veya kullanım ücreti yoktur.
-                  </p>
-                </div>
-              </div>
-              <Link
-                href="/crm-otomasyonu"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                CRM Otomasyonu <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+
+      <PricingSection family="is-otomasyonu" heading="n8n kurulum fiyatları" intro="n8n, Make ve CRM otomasyonları tek hizmet ailesidir. Kurulum tek seferliktir; ilk 30 gün kurulum hatalarının giderilmesi dahildir, isteğe bağlı aylık bakım ikinci aydan itibaren başlar. Tutarlar TL ve KDV hariçtir." />
+
 
       {/* 7. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Sıkça Sorulan Sorular
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
@@ -649,7 +521,7 @@ export default function Page() {
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -660,15 +532,15 @@ export default function Page() {
       </section>
 
       {/* 8. CROSS-LINK STRIP */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 İlgili hizmetler
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                PORTZEN'in diğer çözümleri
+                PORTZEN&apos;in diğer çözümleri
               </h2>
             </div>
           </Reveal>
@@ -677,7 +549,7 @@ export default function Page() {
               <Reveal key={i} delay={i * 80}>
                 <Link
                   href={link.href}
-                  className="block border-3 border-ink bg-paper p-5 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full"
+                  className="block border-3 border-ink/15 bg-paper p-5 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl"
                 >
                   <h3 className="font-display text-lg font-black mb-2 text-ink">{link.title}</h3>
                   <p className="text-sm text-ink/70 leading-relaxed mb-3">{link.desc}</p>
@@ -694,36 +566,36 @@ export default function Page() {
       {/* 9. FINAL CTA */}
       <section className="py-section">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Zapier'den kurtulalım. Sunucunuza n8n kuralım.
+                Zapier&apos;den kurtulalım. Sunucunuza n8n kuralım.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık keşif görüşmesinde mevcut otomasyon ihtiyaçlarınızı analiz ediyor, n8n kurulum + Türk uygulamalar entegrasyon planını birlikte çıkarıyoruz. Aynı gün dönüyoruz.
+                15 dakikalık keşif görüşmesinde mevcut otomasyon ihtiyaçlarınızı analiz ediyor, n8n kurulum + Türk uygulamalar entegrasyon planını birlikte çıkarıyoruz. En kısa sürede dönüş yapıyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   İletişim Formu <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
                   href="mailto:destek@portzenai.com"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   E-posta Gönder <ArrowUpRight className="h-4 w-4" />
                 </a>
@@ -733,7 +605,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

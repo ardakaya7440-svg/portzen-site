@@ -15,10 +15,22 @@
   "h1": "Eğitim Kurumları İçin Yapay Zeka Tanıtım Videosu",
   "heroSubtitle": "Eğitmen kameraya çıkmak istemese de, mezun röportajı toplamak vakit alsa da kurum tanıtımınız aksamasın. AI ile kurs içeriklerinizi sinematik tanıtıma dönüştürüyoruz.",
   "stats": [
-    {"value": "32", "label": "Aylık Üretilen Video"},
-    {"value": "480K", "label": "Aylık Instagram Erişimi"},
-    {"value": "142", "label": "Aylık Kurs Satışı"},
-    {"value": "5x", "label": "Tanıtım ROI Artışı"}
+    {
+      "value": "24'e kadar",
+      "label": "Aylık Video Üretimi"
+    },
+    {
+      "value": "Eğitmen avatarı",
+      "label": "Kameraya çıkmadan anlatım"
+    },
+    {
+      "value": "9:16 + 16:9",
+      "label": "Format (Büyüme ve Kurumsal)"
+    },
+    {
+      "value": "Türkçe",
+      "label": "Altyazı"
+    }
   ],
   "problems": [
     "Eğitmenler kameraya çıkmaya çekiniyor ya da yoğun ders programı nedeniyle çekim için zaman ayıramıyor; tanıtım üretimi kilitleniyor.",
@@ -38,11 +50,11 @@
     },
     {
       "title": "Sora ve Veo ile Render + Altyazı",
-      "description": "Sahneler Sora 2 ve Veo 3 ile hem 9:16 dikey hem 16:9 yatay formatta üretiliyor; Türkçe-İngilizce altyazı, marka müziği ve logo otomatik."
+      "description": "Sahneler Sora 2 ve Veo 3 ile 9:16 dikey ve (Büyüme ve Kurumsal paketlerde) 16:9 yatay formatta üretiliyor; Türkçe altyazı, marka müziği ve logo otomatik. İngilizce altyazı ek iş olarak ayrıca tekliflendirilir."
     },
     {
-      "title": "Teslim ve Çok Kanallı Yayın",
-      "description": "Videolar Instagram, LinkedIn, YouTube Shorts ve TikTok kanallarınıza otomatik takvimle yayınlanıyor; haftalık tıklama-kayıt raporu sunuluyor."
+      "title": "Teslim ve Çok Kanallı Kullanım",
+      "description": "Videolar Instagram, LinkedIn, YouTube Shorts ve TikTok için hazır teslim ediliyor; yayın yönetimini bize bırakmak isterseniz ayrıca tekliflendirilir. Haftalık tıklama-kayıt raporu sunuluyor."
     }
   ],
   "features": [
@@ -68,66 +80,34 @@
     },
     {
       "title": "Vertical + Horizontal Çift Format",
-      "description": "Aynı içerik hem Reels/TikTok için 9:16 hem LinkedIn/YouTube için 16:9 olarak teslim ediliyor."
+      "description": "Büyüme ve Kurumsal paketlerde aynı içerik hem Reels/TikTok için 9:16 hem LinkedIn/YouTube için 16:9 olarak teslim ediliyor."
     }
   ],
   "caseStudy": {
-    "title": "İstanbul'da Bir Online Kurs Platformunun 4 Ayda Dönüşümü",
+    "title": "Örnek senaryo: Bir online kurs platformu için eğitmen avatarlı tanıtım videoları",
     "paragraphs": [
-      "Cihangir merkezli, veri bilimi ve yapay zeka eğitimi veren bir online kurs platformu, Instagram'da 12 bin takipçiye sahipti ancak ayda yalnızca 28 kurs satışı yapabiliyordu. Eğitmenlerin akademik kariyer yoğunluğu çekim takvimlerini sürekli ertelemelerine yol açıyordu.",
-      "PORTZEN ile çalışmaya başladıkları ilk ayda 4 eğitmenin fotoğrafından sentetik konuşan avatar üretildi; 8 farklı kurs müfredatı ve 22 mezun başarı hikayesi senaryolandırıldı. Sora ve Veo ile hem dikey hem yatay format üretim yapıldı.",
-      "4 ay sonunda toplam 32 video yayınlandı; en başarılı 'Python'la İlk İş' videosu LinkedIn'de 180 bin organik erişim aldı. Instagram aylık erişim 12 binden 480 bine fırladı; kurs satışı ay başı 28'den 142'ye çıktı."
+      "Örnek bir kurulum: Veri bilimi ve yapay zekâ eğitimi veren, eğitmenleri akademik yoğunluk nedeniyle çekime zaman ayıramayan bir online kurs platformu düşünün. Instagram'da statik postlar paylaşılıyor; kurs içeriklerini ve mezun deneyimlerini anlatan video yok.",
+      "Bu senaryoda eğitmenlerin yazılı izniyle fotoğraflarından sentetik konuşan avatarlar üretilir; kurs müfredatları ve mezunların yazılı izinli geri bildirimleri senaryolaştırılır. Aylık video adedi pakete göre 4, 12 veya 24'tür; Büyüme ve Kurumsal paketlerde dikey ve yatay format birlikte teslim edilir.",
+      "Platform, eğitmenler kameraya çıkmadan her kurs için tanıtım, ders özeti ve mezun hikâyesi videolarına sahip olur; kayıt dönemi kampanyaları aynı görsel dille hazırlanır. Erişim ve satış sonuçları kursa, fiyata ve kitleye göre değişir; burada rakam vaat etmiyoruz."
     ],
     "beforeAfter": [
-      {"label": "Aylık Video Üretimi", "before": "1-2 statik post", "after": "32 sinematik AI video"},
-      {"label": "Instagram Erişim", "before": "12K / ay", "after": "480K / ay"},
-      {"label": "Aylık Kurs Satışı", "before": "28 satış", "after": "142 satış"}
+      {
+        "label": "Aylık Video Üretimi",
+        "before": "Ara sıra statik post",
+        "after": "Pakete göre 4, 12 veya 24 AI video"
+      },
+      {
+        "label": "Eğitmen katılımı",
+        "before": "Çekim için takvimden zaman ayırması gerekiyor",
+        "after": "Fotoğrafından üretilen avatarla kameraya çıkmadan anlatım"
+      },
+      {
+        "label": "Mezun hikâyeleri",
+        "before": "Röportaj için randevu ve çekim gerekiyor",
+        "after": "Yazılı izinli geri bildirimler AI ses ve animasyonla videoya dönüşüyor"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "9.000 TL/ay",
-      "description": "Tek programlı kurslar ve özel ders veren eğitmenler için",
-      "features": [
-        "Ayda 8 video (dikey + yatay)",
-        "Tek kurs senaryosu",
-        "Türkçe altyazı ve logo",
-        "Instagram + LinkedIn yayın",
-        "Aylık erişim raporu"
-      ]
-    },
-    {
-      "name": "Pro",
-      "price": "19.000 TL/ay",
-      "description": "Çoklu kurs programları olan eğitim kurumları için",
-      "features": [
-        "Ayda 16 video (dikey + yatay)",
-        "Çoklu kurs ve eğitmen senaryosu",
-        "Eğitmen avatar sentetik üretim",
-        "Mezun röportajı AI ses",
-        "4 kanal otomatik yayın",
-        "Türkçe + İngilizce altyazı",
-        "Haftalık tıklama-kayıt raporu"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Premium",
-      "price": "36.000 TL/ay",
-      "description": "Üniversite, akademi ve büyük platformlar için",
-      "features": [
-        "Ayda 32 video (dikey + yatay + uzun)",
-        "Sınırsız eğitmen avatar",
-        "Sezonsal kampanya setleri",
-        "Kurumsal tanıtım filmi (3 dk)",
-        "Premium ses + müzik lisansı",
-        "Sınırsız revize hakkı",
-        "Aylık strateji toplantısı",
-        "Özel görsel kimlik tasarımı"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "Eğitmenlerimizin yüzünün görünmesi şart mı?",
@@ -135,7 +115,7 @@
     },
     {
       "question": "Ayda kaç ders ve kurs videosu üretiliyor?",
-      "answer": "Başlangıç paketi 8, Pro paketi 16, Premium paketi 32 video içeriyor. İhtiyaca göre uzun format kurum tanıtım filmleri ya da kohort başlangıç videoları ek olarak eklenebiliyor."
+      "answer": "Aylık düzenli üretim kısa video paketleriyle yapılır: Başlangıç ayda 4, Büyüme ayda 12, Kurumsal ayda 24 kısa video (adetler pakete özel toplamdır, birbirine eklenmez). Kurum tanıtım filmi ya da kohort başlangıç videosu gibi tek seferlik ihtiyaçlar AI reklam filmi projesi olarak ayrıca planlanabilir."
     },
     {
       "question": "Üretilen videoların telif hakkı kimde?",
@@ -147,7 +127,7 @@
     },
     {
       "question": "Eylül kayıt dönemi gibi sezonsal kampanyalara hazır mısınız?",
-      "answer": "Evet. Kayıt dönemi başlamadan 4 hafta önce kampanya video seti hazırlanır ve yayın takvimine girer. Erken kuş indirimi, demo ders davetiyesi ve sertifika programı tanıtımı ayrı setler halinde planlanır."
+      "answer": "Evet. Kampanya video seti kayıt dönemi başlamadan önce hazır olacak şekilde planlanır; teslim takvimi teklifte yazılı olarak belirlenir. Erken kuş indirimi, demo ders davetiyesi ve sertifika programı tanıtımı ayrı setler halinde planlanır."
     },
     {
       "question": "Online ve yüz yüze eğitimlerimiz için ayrı içerik hazırlıyor musunuz?",
@@ -155,9 +135,9 @@
     },
     {
       "question": "İlk videoyu ne zaman alırım?",
-      "answer": "Brief toplantısı ve içerik formu doldurulduktan sonra ilk video örneği 5 iş günü içinde teslim ediliyor. Onayınızla birlikte aylık yayın takvimi devreye giriyor."
+      "answer": "Brief toplantısı ve içerik formu doldurulduktan sonra üretime başlanır; ilk video örneğinin teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Onayınızla birlikte aylık yayın takvimi devreye giriyor."
     }
   ],
   "finalCtaHeadline": "Eğitiminizi AI ile Hak Ettiği Görünürlüğe Taşıyın",
-  "finalCtaSubtitle": "Aylık 32 video, 480K erişim ve dolan kohortlar için 15 dakikalık keşif görüşmesi yeterli."
+  "finalCtaSubtitle": "Aylık 24 videoya kadar düzenli üretim ve daha görünür bir kayıt dönemi için 15 dakikalık keşif görüşmesi yeterli."
 }

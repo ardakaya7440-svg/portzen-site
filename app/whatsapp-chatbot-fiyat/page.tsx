@@ -16,11 +16,13 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
+import { PricingSection } from "@/components/pricing/PricingSection";
+import { PRICING, formatTL, familyPriceSummary, AI_REPLY_QUOTA } from "@/data/pricing";
 
 export const metadata: Metadata = {
   title: "WhatsApp Chatbot Fiyat Rehberi — 2026 Türkiye | PORTZEN",
   description:
-    "WhatsApp chatbot maliyetini belirleyen faktörler: mesaj hacmi, entegrasyon, AI etkisi. Kişiselleştirilmiş fiyat için ücretsiz brief görüşmesi.",
+    `WhatsApp chatbot fiyatları 2026 (KDV hariç): ${familyPriceSummary("ai-musteri-asistani")}. Paket kapsamları, AI yanıt kotaları ve fiyatı etkileyen faktörler.`,
   keywords: [
     "whatsapp chatbot fiyat",
     "whatsapp chatbot fiyatları 2026",
@@ -38,13 +40,13 @@ export const metadata: Metadata = {
     siteName: "PORTZEN",
     title: "WhatsApp Chatbot Fiyatı Ne Kadar? — 2026 Türkiye Rehberi",
     description:
-      "WhatsApp chatbot fiyatını belirleyen faktörler, rakip karşılaştırması ve PORTZEN'in çalışma modeli. Net rakam brief görüşmesinde paylaşılır."
+      "WhatsApp chatbot fiyatlarımız, paket kapsamları, fiyatı etkileyen faktörler ve rakip karşılaştırması. Tutarlar KDV hariçtir."
   },
   twitter: {
     card: "summary_large_image",
     title: "WhatsApp Chatbot Fiyatı 2026",
     description:
-      "Kapsam bazlı çalışan, brief görüşmesinde net rakam paylaşan Türkçe fiyatlandırma rehberi."
+      "Yazılı paket fiyatları, kapsamlar ve fiyatı etkileyen faktörler."
   },
   alternates: { canonical: "https://portzenai.com/whatsapp-chatbot-fiyat" },
   robots: { index: true, follow: true }
@@ -59,12 +61,12 @@ const serviceSchema = {
     "@type": "Organization",
     name: "PORTZEN",
     url: "https://portzenai.com",
-    telephone: "+905015884853",
+    telephone: "+905318639117",
     email: "destek@portzenai.com"
   },
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
-    "WhatsApp Business API üzerinden çalışan, sektör bazlı eğitilmiş AI chatbot. Kapsam bazlı çalışan paketler, Logo/Mikro/Iyzico entegrasyonu, KVKK uyumlu."
+    "WhatsApp Business API üzerinden çalışan, sektör bazlı eğitilmiş AI chatbot. Üç paket, yazılı fiyat; Logo/Mikro/Iyzico entegrasyonu ayrıca tekliflendirilir. KVKK gereklilikleri dikkate alınarak kurgulanır (açık rıza, aydınlatma akışı)."
 };
 
 const faqSchema = {
@@ -76,7 +78,7 @@ const faqSchema = {
       name: "WhatsApp chatbot fiyatı 2026'da ne kadar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Fiyat, ihtiyacına göre kişiselleştiriliyor. Mesaj hacmi, sektör karmaşıklığı, entegrasyon sayısı ve AI kapasitesi ana belirleyiciler. 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz."
+        text: `PORTZEN'de WhatsApp chatbot (AI müşteri asistanı) aylık ücret ve tek seferlik kurulumdan oluşur (KDV hariç): ${familyPriceSummary("ai-musteri-asistani")}. Meta mesaj ücretleri ayrıca belirtilir.`
       }
     },
     {
@@ -84,7 +86,7 @@ const faqSchema = {
       name: "Aylık ek mesaj ücreti var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "PORTZEN paketleri aylık belirli mesaj limitiyle gelir. Limit aşıldığında ek mesaj ücreti kapsam bazlı belirlenir. WhatsApp Business API'nin Meta'ya ödenen mesaj başına servis ücreti ayrıca işler."
+        text: `Paketler aylık AI yanıt kotasıyla gelir: Başlangıç ${formatTL(AI_REPLY_QUOTA.baslangic).replace(" TL", "")}, Büyüme ${formatTL(AI_REPLY_QUOTA.buyume).replace(" TL", "")}, Kurumsal ${formatTL(AI_REPLY_QUOTA.kurumsal).replace(" TL", "")}. WhatsApp Business API'nin Meta'ya ödenen mesaj ücretleri hizmet bedeline dahil değildir ve ayrıca belirtilir.`
       }
     },
     {
@@ -92,7 +94,7 @@ const faqSchema = {
       name: "Kurulum tek seferlik mi, aylık mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Kurulum tek seferlik bir çalışmadır, aylık ücret sadece operasyon, bakım, optimizasyon ve sunucu maliyetlerini içerir. Kapsam bazlı çalışıyoruz; net rakam brief görüşmesinde paylaşılır."
+        text: "Kurulum tek seferlik bir çalışmadır; aylık ücret operasyonu, sunucu maliyetlerini ve pakete göre aylık iyileştirme saatlerini kapsar. Kurulum bedeli ve aylık ücret her paket için yazılıdır; ilk ay toplamı fiyat kartında gösterilir."
       }
     },
     {
@@ -100,15 +102,15 @@ const faqSchema = {
       name: "Sözleşme süresi var mı?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Aylık ödeme opsiyonu vardır, taahhüt yoktur. Yıllık ödemede indirim uygulanır. İptal istediğinizde 30 gün önceden bildirim yeterli."
+        text: "Sözleşme süresi ve fesih koşulları teklifte yazılı olarak belirtilir."
       }
     },
     {
       "@type": "Question",
-      name: "İlk ay deneme imkanı var mı?",
+      name: "Canlıya almadan önce test yapılıyor mu?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Pilot kurulum sonrası ilk 2 hafta test sürecidir. Bu süre içinde performanstan memnun kalmazsanız geçişten vazgeçebilirsiniz; kurulum ücretinin bir bölümü iade edilir."
+        text: "Evet. Kurulum sonrası canlıya geçmeden önce gerçek senaryolarla test yapılır ve yanıtlar bu aşamada ince ayarlanır. Sözleşme süresi ve fesih koşulları teklifte yazılı olarak belirtilir."
       }
     },
     {
@@ -124,7 +126,7 @@ const faqSchema = {
       name: "Hangi entegrasyonlar fiyatı artırır?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Standart entegrasyonlar (Google Takvim, HubSpot, Bitrix, Calendly) Pro pakete dahildir. Logo, Mikro, Iyzico, Netgsm gibi özel entegrasyonlar için tek seferlik geliştirme kapsamı çıkarıyoruz; net rakam brief görüşmesinde paylaşılır."
+        text: "Standart CRM entegrasyonu Büyüme paketinde, 4 standart entegrasyon Kurumsal pakette dahildir. Logo, Mikro, Iyzico, Netgsm gibi özel entegrasyonlar ayrıca tekliflendirilir."
       }
     }
   ]
@@ -146,7 +148,7 @@ const breadcrumbSchema = {
 
 const stats = [
   { metric: "5", label: "Fiyatı belirleyen faktör" },
-  { metric: "14 gün", label: "Standart kurulum" },
+  { metric: "Tek seferlik", label: "Kurulum + aylık ücret" },
   { metric: "3", label: "Farklı kapsam paketi" },
   { metric: "7/24", label: "Aktif operasyon" }
 ];
@@ -173,7 +175,7 @@ const factors = [
   {
     icon: Plug,
     title: "Entegrasyon sayısı",
-    desc: "Google Takvim ve HubSpot standart. Logo, Mikro, Iyzico, NetGSM, özel CRM her biri kapsam bazlı tek seferlik geliştirme gerektirir."
+    desc: "Google Takvim ve HubSpot gibi standart entegrasyonlar Büyüme ve Kurumsal paketlerde dahildir. Logo, Mikro, Iyzico, NetGSM, özel CRM her biri kapsam bazlı tek seferlik geliştirme gerektirir ve ayrıca tekliflendirilir."
   },
   {
     icon: ShieldCheck,
@@ -188,14 +190,14 @@ const factors = [
 ];
 
 const comparison = [
-  { feature: "Aylık başlangıç", manychat: "Kapsam bazlı", tidio: "Kapsam bazlı", wati: "Kapsam bazlı", portzen: "Brief görüşmesinde" },
+  { feature: "Aylık başlangıç", manychat: "Kapsam bazlı", tidio: "Kapsam bazlı", wati: "Kapsam bazlı", portzen: `${formatTL(PRICING["ai-musteri-asistani"].tiers.baslangic.price)} / ay + ${formatTL(PRICING["ai-musteri-asistani"].tiers.baslangic.setupFee ?? 0)} kurulum` },
   { feature: "Para birimi", manychat: "Döviz", tidio: "Döviz", wati: "Döviz", portzen: "Yerli, sabit" },
   { feature: "Türkçe arayüz", manychat: false, tidio: false, wati: false, portzen: true },
   { feature: "Türkçe destek", manychat: false, tidio: false, wati: false, portzen: true },
-  { feature: "Logo/Mikro entegrasyon", manychat: false, tidio: false, wati: false, portzen: true },
-  { feature: "Iyzico entegrasyon", manychat: false, tidio: false, wati: false, portzen: true },
-  { feature: "KVKK + TR sunucu", manychat: false, tidio: false, wati: false, portzen: true },
-  { feature: "AI yanıt limiti", manychat: "1.000/ay", tidio: "100/ay", wati: "Yok", portzen: "Sınırsız" },
+  { feature: "Logo/Mikro entegrasyon", manychat: false, tidio: false, wati: false, portzen: "Ayrıca teklifle" },
+  { feature: "Iyzico entegrasyon", manychat: false, tidio: false, wati: false, portzen: "Ayrıca teklifle" },
+  { feature: "KVKK aydınlatma + rıza akışı kurulumu", manychat: false, tidio: false, wati: false, portzen: true },
+  { feature: "AI yanıt limiti", manychat: "1.000/ay", tidio: "100/ay", wati: "Yok", portzen: `${formatTL(AI_REPLY_QUOTA.baslangic).replace(" TL", "")} / ${formatTL(AI_REPLY_QUOTA.buyume).replace(" TL", "")} / ${formatTL(AI_REPLY_QUOTA.kurumsal).replace(" TL", "")} ay` },
   { feature: "Sektör bazlı eğitim", manychat: false, tidio: false, wati: false, portzen: true }
 ];
 
@@ -220,53 +222,6 @@ const sectorPricing = [
   }
 ];
 
-const packages = [
-  {
-    name: "Başlangıç",
-    scope: "KOBİ için hızlı başlangıç",
-    color: "bg-paper",
-    features: [
-      "Aylık 2.500 mesaja kadar",
-      "Standart soru-cevap senaryoları",
-      "WhatsApp Business API (resmi)",
-      "Google Takvim entegrasyonu",
-      "Aylık 1 optimizasyon turu",
-      "E-posta destek"
-    ],
-    cta: "Görüşme Al"
-  },
-  {
-    name: "Pro",
-    scope: "Yoğun trafik + AI doğal dil",
-    color: "bg-brand-yellow",
-    badge: "En Çok Tercih Edilen",
-    features: [
-      "Aylık 10.000 mesaja kadar",
-      "AI doğal dil yanıtı (premium dil modeli)",
-      "CRM entegrasyonu (HubSpot/Bitrix)",
-      "Sipariş alma + ödeme akışı",
-      "Haftalık optimizasyon",
-      "WhatsApp + telefon destek",
-      "Aylık performans raporu"
-    ],
-    cta: "Görüşme Al"
-  },
-  {
-    name: "Kurumsal",
-    scope: "Çoklu şube ve özel entegrasyon",
-    color: "bg-paper",
-    features: [
-      "Sınırsız mesaj",
-      "Birden fazla numara/şube",
-      "Logo/Mikro/Iyzico entegrasyon",
-      "Adanmış proje yöneticisi",
-      "SLA + öncelikli destek",
-      "Özel API geliştirme",
-      "Aylık detaylı analiz raporu"
-    ],
-    cta: "Görüşme Al"
-  }
-];
 
 const crossLinks = [
   {
@@ -276,7 +231,7 @@ const crossLinks = [
   },
   {
     title: "Intercom Alternatifi",
-    desc: "Türkçe, KVKK uyumlu, yerli Intercom alternatifi.",
+    desc: "Türkçe, KVKK gereklilikleri dikkate alınarak kurgulanan yerli Intercom alternatifi.",
     href: "/intercom-alternatifi"
   },
   {
@@ -286,7 +241,7 @@ const crossLinks = [
   },
   {
     title: "Instagram DM Otomasyonu",
-    desc: "Instagram DM'leri otomatik yanıtla, satışa çevir.",
+    desc: "Yorum ve hikâye etkileşimine kural tabanlı otomatik DM. AI ile serbest yanıt ayrı hizmettir (AI müşteri asistanı).",
     href: "/instagram-dm-otomasyonu"
   }
 ];
@@ -294,23 +249,23 @@ const crossLinks = [
 const faqs = [
   {
     q: "WhatsApp chatbot fiyatı 2026'da ne kadar?",
-    a: "Fiyat, ihtiyacına göre kişiselleştiriliyor. Net fiyat 5 faktöre bağlıdır: aylık mesaj hacmi, sektör karmaşıklığı, entegrasyon sayısı, AI kapasitesi ve resmi BSP üzerinden mesaj maliyeti. 30 dakikalık ücretsiz brief görüşmesinde net rakam paylaşıyoruz. Hemen /iletisim üzerinden yaz."
+    a: `PORTZEN'de WhatsApp chatbot (AI müşteri asistanı) aylık ücret ve tek seferlik kurulumdan oluşur (KDV hariç): ${familyPriceSummary("ai-musteri-asistani")}. Paketler arasındaki fark kanal sayısı, randevu ve CRM entegrasyonu, şube sayısı ve aylık AI yanıt kotasıdır. Meta mesaj ücretleri ve harici platform ücretleri ayrıca belirtilir.`
   },
   {
     q: "Aylık ek mesaj ücreti var mı?",
-    a: "PORTZEN paketleri belirli aylık mesaj limitiyle gelir (2.500 / 10.000 / sınırsız). Başlangıç ve Pro pakette limit aşılırsa ek mesaj ücreti kapsam bazlı belirlenir. Buna ek olarak WhatsApp Business API'nin Meta'ya ödenen servis ücreti vardır (pazarlama, hizmet/destek, doğrulama mesajları için Meta'nın güncel tarifesi geçerlidir)."
+    a: `Paketler aylık AI yanıt kotasıyla gelir: Başlangıç ${formatTL(AI_REPLY_QUOTA.baslangic).replace(" TL", "")}, Büyüme ${formatTL(AI_REPLY_QUOTA.buyume).replace(" TL", "")}, Kurumsal ${formatTL(AI_REPLY_QUOTA.kurumsal).replace(" TL", "")}. Kotayı düzenli aşan işletmelere bir üst paket önerilir. WhatsApp Business API'nin Meta'ya ödenen mesaj ücretleri (pazarlama, hizmet, doğrulama) hizmet bedeline dahil değildir ve Meta'nın güncel tarifesine göre ayrıca belirtilir.`
   },
   {
     q: "Kurulum tek seferlik mi, aylık mı?",
-    a: "Kurulum tek seferlik bir çalışmadır. İlk brief, bilgi tabanı oluşturma, senaryo geliştirme, API bağlama, test ve canlıya alma aşamalarını içerir. Aylık ücret sadece operasyon, bakım, optimizasyon, sunucu maliyetleri ve düzenli güncellemeleri kapsar. Kapsam bazlı çalışıyoruz; net rakam brief görüşmesinde paylaşılır."
+    a: "Kurulum tek seferlik bir çalışmadır. İlk brief, bilgi tabanı oluşturma, senaryo geliştirme, API bağlama, test ve canlıya alma aşamalarını içerir. Aylık ücret operasyonu, sunucu maliyetlerini ve pakete göre aylık iyileştirme saatlerini kapsar (Başlangıç paketinde aylık iyileştirme saati yoktur). Kurulum bedeli ve aylık ücret her paket için yazılıdır; ilk ay toplamı fiyat kartında gösterilir."
   },
   {
     q: "Sözleşme süresi var mı?",
-    a: "Aylık ödeme opsiyonu vardır, taahhüt yoktur. Yıllık ödemede indirim uygulanır. İptal istediğinizde 30 gün önceden e-posta bildirimi yeterli. Veri ve konuşma geçmişi export desteği ücretsiz verilir."
+    a: "Sözleşme süresi ve fesih koşulları teklifte yazılı olarak belirtilir. Çalışma sona erdiğinde veri ve konuşma geçmişiniz dışa aktarılarak size teslim edilir."
   },
   {
-    q: "İlk ay deneme imkanı var mı?",
-    a: "Evet. Kurulum sonrası ilk 2 hafta pilot/test sürecidir. Bu süre içinde gerçek müşteri mesajlarıyla canlı test yapılır; performans veya yanıt kalitesinden memnun kalmazsanız geçişten vazgeçebilirsiniz. Bu durumda kurulum bedelinin bir bölümü iade edilir."
+    q: "Canlıya almadan önce test yapılıyor mu?",
+    a: "Evet. Kurulum sonrası canlıya geçmeden önce gerçek müşteri senaryolarıyla test yapılır; yanıt kalitesi ve akışlar bu aşamada ince ayarlanır. Sözleşme süresi ve fesih koşulları teklifte yazılı olarak belirtilir."
   },
   {
     q: "WhatsApp Business API resmi maliyeti nedir?",
@@ -318,7 +273,7 @@ const faqs = [
   },
   {
     q: "Hangi entegrasyonlar fiyatı artırır?",
-    a: "Standart entegrasyonlar Pro pakete dahildir: Google Takvim, HubSpot, Bitrix24, Calendly, Notion, Trello. Türk sektörüne özel entegrasyonlar (Logo Tiger, Mikro, Iyzico, NetGSM SMS, özel ERP API'leri) için tek seferlik kapsam çıkarıyoruz; net rakam brief görüşmesinde paylaşılır."
+    a: "Standart CRM entegrasyonu (ör. HubSpot, Bitrix24) Büyüme paketinde, randevu dahil 4 standart entegrasyon Kurumsal pakette dahildir. Türk sektörüne özel entegrasyonlar (Logo Tiger, Mikro, Iyzico, NetGSM SMS, özel ERP API'leri) ayrıca tekliflendirilir."
   }
 ];
 
@@ -330,7 +285,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* 1. HERO */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <nav aria-label="Breadcrumb" className="mb-8 text-xs font-bold uppercase tracking-wider text-ink/60">
@@ -343,34 +298,34 @@ export default function Page() {
           <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
             <div>
               <Reveal>
-                <div className="inline-flex items-center gap-2 border-3 border-ink bg-brand-orange text-paper px-3 py-1.5 shadow-brutal-sm mb-6">
+                <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate text-white px-3 py-1.5 shadow-brutal-sm mb-6 rounded-full">
                   <Calculator className="h-4 w-4" />
                   <span className="text-xs font-black uppercase tracking-wider">Fiyat Rehberi 2026</span>
                 </div>
               </Reveal>
               <Reveal delay={100}>
-                <h1 className="font-display text-h1 font-black leading-[0.95] max-w-4xl text-ink">
+                <h1 className="font-display text-h1 font-black leading-tight max-w-4xl text-ink">
                   WhatsApp Chatbot Fiyatı Ne Kadar? — 2026 Türkiye Rehberi
                 </h1>
               </Reveal>
               <Reveal delay={200}>
                 <p className="mt-6 max-w-prose text-body text-ink/80 font-medium">
-                  WhatsApp chatbot fiyatı ihtiyacına göre kişiselleştiriliyor. Bu sayfada fiyatı belirleyen 5 faktörü, yurtdışı rakiplerle (ManyChat, Tidio, Wati) net karşılaştırmayı, 3 sektörden kapsam örneklerini ve PORTZEN'in çalışma modelini bulacaksınız. Net rakam brief görüşmesinde paylaşılır.
+                  WhatsApp chatbot fiyatlarımız yazılıdır ve KDV hariçtir. Bu sayfada fiyatı belirleyen 5 faktörü, yurtdışı rakiplerle (ManyChat, Tidio, Wati) karşılaştırmayı, 3 sektörden kapsam örneklerini ve paketlerimizi bulacaksınız.
                 </p>
               </Reveal>
               <Reveal delay={300}>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link
                     href="/iletisim"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                   >
                     Ücretsiz Fiyat Teklifi <ArrowUpRight className="h-4 w-4" />
                   </Link>
                   <a
-                    href="https://wa.me/905015884853"
+                    href="https://wa.me/905318639117"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                   >
                     <MessageCircle className="h-4 w-4" /> WhatsApp Sor
                   </a>
@@ -384,8 +339,8 @@ export default function Page() {
                   <div
                     key={i}
                     className={cn(
-                      "border-3 border-ink p-5 shadow-brutal",
-                      i % 2 === 0 ? "bg-brand-yellow" : "bg-brand-purple text-paper"
+                      "border-3 border-ink/15 p-5 shadow-brutal rounded-2xl",
+                      i % 2 === 0 ? "bg-light" : "bg-light text-ink"
                     )}
                   >
                     <div className="font-display text-4xl md:text-5xl font-black leading-none mb-2">
@@ -401,11 +356,11 @@ export default function Page() {
       </section>
 
       {/* 2. PROBLEM */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-paper bg-brand-pink text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Fiyat araştırırken karşılaşılan sorunlar
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
@@ -416,7 +371,7 @@ export default function Page() {
           <div className="grid gap-4 md:grid-cols-2">
             {problems.map((p, i) => (
               <Reveal key={i} delay={i * 80}>
-                <div className="border-3 border-paper bg-paper/5 p-5 shadow-[6px_6px_0_#FFFDF5]">
+                <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
                   <p className="text-body font-medium leading-relaxed">{p}</p>
                 </div>
               </Reveal>
@@ -426,18 +381,18 @@ export default function Page() {
       </section>
 
       {/* 3. 5 FACTORS */}
-      <section className="bg-paper py-section">
+      <section className="bg-white py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Fiyatlandırma Mantığı
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
                 WhatsApp chatbot fiyatını belirleyen 5 faktör
               </h2>
               <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Aşağıdaki 5 değişken birleşerek toplam fiyatı oluşturur. Net teklif için keşif görüşmesinde her birini birlikte değerlendiririz.
+                Aşağıdaki 5 değişken hangi paketin size uyduğunu ve pakete eklenecek kalemleri belirler. Keşif görüşmesinde her birini birlikte değerlendiririz.
               </p>
             </div>
           </Reveal>
@@ -446,8 +401,8 @@ export default function Page() {
               const Icon = f.icon;
               return (
                 <Reveal key={i} delay={i * 80}>
-                  <div className="border-3 border-ink bg-paper p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full">
-                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink bg-brand-yellow shadow-brutal-sm mb-4">
+                  <div className="border-3 border-ink/15 bg-paper p-6 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl">
+                    <div className="inline-flex items-center justify-center w-12 h-12 border-3 border-ink/15 bg-lime shadow-brutal-sm mb-4 rounded-full">
                       <Icon className="h-5 w-5 text-ink" />
                     </div>
                     <h3 className="font-display text-xl font-black mb-2 text-ink">{f.title}</h3>
@@ -461,11 +416,11 @@ export default function Page() {
       </section>
 
       {/* 4. COMPARISON */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 Rakip karşılaştırması
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
@@ -475,14 +430,14 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border-3 border-ink shadow-brutal min-w-[700px]">
+              <table className="w-full border-collapse border-3 border-ink/15 shadow-brutal min-w-[700px] rounded-2xl">
                 <thead>
-                  <tr className="bg-ink text-paper">
+                  <tr className="bg-light text-ink">
                     <th className="p-4 text-left font-black uppercase text-xs">Özellik</th>
                     <th className="p-4 text-center font-black uppercase text-xs">ManyChat</th>
                     <th className="p-4 text-center font-black uppercase text-xs">Tidio</th>
                     <th className="p-4 text-center font-black uppercase text-xs">Wati</th>
-                    <th className="p-4 text-center font-black uppercase text-xs bg-brand-yellow text-ink">PORTZEN</th>
+                    <th className="p-4 text-center font-black uppercase text-xs bg-light text-ink">PORTZEN</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -510,7 +465,7 @@ export default function Page() {
                           row.wati
                         )}
                       </td>
-                      <td className="p-4 text-center bg-brand-yellow/30 text-xs font-bold text-ink">
+                      <td className="p-4 text-center bg-light text-xs font-bold text-ink">
                         {typeof row.portzen === "boolean" ? (
                           row.portzen ? <Check className="h-5 w-5 text-green-700 mx-auto" /> : <X className="h-5 w-5 text-red-500 mx-auto" />
                         ) : (
@@ -527,24 +482,24 @@ export default function Page() {
       </section>
 
       {/* 5. SECTOR CASE STUDIES */}
-      <section className="bg-brand-green text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
-            <div className="inline-block border-3 border-ink bg-paper text-ink px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+            <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
               Sektör bazlı kapsam örnekleri
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl mb-10">
-              3 sektörden gerçek WhatsApp chatbot kapsam örnekleri
+              3 sektörden örnek WhatsApp chatbot kapsamları
             </h2>
           </Reveal>
 
           <div className="grid gap-6 lg:grid-cols-3">
             {sectorPricing.map((s, i) => (
               <Reveal key={i} delay={i * 100}>
-                <div className="border-3 border-ink bg-paper text-ink p-6 shadow-brutal h-full">
-                  <div className="inline-block border-3 border-ink bg-brand-yellow px-3 py-1 text-xs font-black uppercase mb-4">
+                <div className="border-3 border-ink/15 bg-paper text-ink p-6 shadow-brutal h-full rounded-2xl">
+                  <div className="inline-block border-3 border-ink/15 bg-slate px-3 py-1 text-xs font-black mb-4 rounded-full text-white">
                     {s.sector}
                   </div>
                   <p className="text-sm text-ink/70 mb-6 leading-relaxed">{s.desc}</p>
@@ -555,7 +510,7 @@ export default function Page() {
                     </div>
                     <div>
                       <div className="text-xs font-bold uppercase opacity-60">Fiyat</div>
-                      <div className="text-sm font-bold text-brand-pink">Brief görüşmesinde</div>
+                      <div className="text-sm font-bold text-ink">Paket fiyatları aşağıda</div>
                     </div>
                     <div>
                       <div className="text-xs font-bold uppercase opacity-60">Hacim</div>
@@ -569,91 +524,23 @@ export default function Page() {
 
           <Reveal delay={400}>
             <p className="mt-8 text-sm opacity-90 max-w-3xl">
-              <strong>Not:</strong> Yukarıdaki kapsamlar gerçek müşteri projelerinden özetlenmiştir. Sizin özel ihtiyacınız için net rakam, 15 dakikalık keşif görüşmesinde çıkar.
+              <strong>Not:</strong> Yukarıdaki kapsamlar ve hacimler açıklayıcı örneklerdir; gerçek kapsam ihtiyacınıza göre netleşir. Paket fiyatları aşağıdadır; hangi paketin size yeteceğini 15 dakikalık keşif görüşmesinde birlikte belirleriz.
             </p>
           </Reveal>
         </div>
       </section>
 
-      {/* 6. PRICING */}
-      <section className="bg-paper py-section">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-12 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-orange text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
-                Çalışma modeli
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                PORTZEN'in 3 WhatsApp Chatbot paketi
-              </h2>
-              <p className="mt-4 text-body text-ink/70 max-w-prose">
-                Kapsam bazlı çalışıyoruz; sürpriz kalem yok. Tüm paketler resmi WhatsApp Business API üzerinden çalışır. Net rakam brief görüşmesinde paylaşılır.
-              </p>
-            </div>
-          </Reveal>
-          <div className="grid gap-6 md:grid-cols-3">
-            {packages.map((p, i) => (
-              <Reveal key={i} delay={i * 100}>
-                <div
-                  className={cn(
-                    "border-3 border-ink p-6 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full flex flex-col relative",
-                    p.color,
-                    "text-ink"
-                  )}
-                >
-                  {p.badge && (
-                    <div className="absolute -top-3 left-6 border-3 border-ink bg-brand-pink text-paper px-2 py-0.5 text-xs font-black uppercase shadow-brutal-sm">
-                      {p.badge}
-                    </div>
-                  )}
-                  <h3 className="font-display text-2xl font-black mb-2">{p.name}</h3>
-                  <div className="text-sm font-bold opacity-75 mb-6">{p.scope}</div>
-                  <ul className="space-y-2 mb-6 flex-1">
-                    {p.features.map((f, fi) => (
-                      <li key={fi} className="flex items-start gap-2 text-sm">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5" />
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link
-                    href="/iletisim"
-                    className="inline-flex items-center justify-center gap-2 border-3 border-ink bg-ink px-4 py-2.5 text-xs font-bold uppercase text-paper shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-                  >
-                    {p.cta} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={400}>
-            <div className="mt-8 border-3 border-ink bg-brand-blue text-paper p-5 shadow-brutal flex items-center justify-between flex-wrap gap-4">
-              <div className="flex items-start gap-3 flex-1 min-w-[260px]">
-                <PieChart className="h-6 w-6 shrink-0 mt-1 text-brand-yellow" />
-                <div>
-                  <div className="font-display text-lg font-black mb-1">WhatsApp Business API maliyeti</div>
-                  <p className="text-sm opacity-90">
-                    Meta'nın mesaj başına ücreti (pazarlama, hizmet/destek, doğrulama kategorileri) paket ücrete dahil değildir. Doğrudan Meta tarafından faturalandırılır; güncel tarife brief görüşmesinde birlikte hesaplanır.
-                  </p>
-                </div>
-              </div>
-              <Link
-                href="/whatsapp-ai-asistani"
-                className="inline-flex items-center gap-1 border-3 border-paper bg-paper text-ink px-4 py-2 text-xs font-bold uppercase shadow-[4px_4px_0_#0A0A0A] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
-              >
-                AI Asistan Detayı <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+
+      <PricingSection family="ai-musteri-asistani" heading="WhatsApp chatbot fiyatları" intro="WhatsApp ve web sitesi chatbotu aynı hizmet ailesidir. Aylık ücretin hemen altında tek seferlik kurulum bedeli ve ilk ay toplamı yazılıdır. Tutarlar TL ve KDV hariçtir." />
+
 
       {/* 7. FAQ */}
-      <section className="bg-ink text-paper py-section">
+      <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6 max-w-4xl">
           <Reveal>
             <div className="mb-12">
-              <div className="inline-block border-3 border-paper bg-brand-purple text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-[6px_6px_0_#FFFDF5]">
+              <div className="inline-block border-3 border-ink/10 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 rounded-full">
                 Fiyat öncesi merak edilenler
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">
@@ -664,7 +551,7 @@ export default function Page() {
           <div className="space-y-8">
             {faqs.map((f, i) => (
               <Reveal key={i} delay={i * 60}>
-                <div className="border-l-3 border-brand-yellow pl-6">
+                <div className="border-l-3 border-lime pl-6">
                   <h3 className="font-display text-xl font-black mb-3">{f.q}</h3>
                   <p className="text-body opacity-85 leading-relaxed">{f.a}</p>
                 </div>
@@ -675,15 +562,15 @@ export default function Page() {
       </section>
 
       {/* 8. CROSS-LINK STRIP */}
-      <section className="bg-paper py-section border-t-3 border-ink/10">
+      <section className="bg-white py-section border-t-3 border-ink/10">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="mb-10 max-w-2xl">
-              <div className="inline-block border-3 border-ink bg-brand-blue text-paper px-3 py-1 text-xs font-black uppercase tracking-wider mb-4 shadow-brutal-sm">
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
                 İlgili hizmetler
               </div>
               <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                PORTZEN'in diğer çözümleri
+                PORTZEN&apos;in diğer çözümleri
               </h2>
             </div>
           </Reveal>
@@ -692,7 +579,7 @@ export default function Page() {
               <Reveal key={i} delay={i * 80}>
                 <Link
                   href={link.href}
-                  className="block border-3 border-ink bg-paper p-5 shadow-brutal hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutal-lg transition-all h-full"
+                  className="block border-3 border-ink/15 bg-paper p-5 shadow-brutal hover:shadow-brutal-lg transition-all h-full rounded-2xl"
                 >
                   <h3 className="font-display text-lg font-black mb-2 text-ink">{link.title}</h3>
                   <p className="text-sm text-ink/70 leading-relaxed mb-3">{link.desc}</p>
@@ -709,36 +596,36 @@ export default function Page() {
       {/* 9. FINAL CTA */}
       <section className="py-section">
         <div className="mx-auto max-w-container px-6">
-          <div className="border-3 border-ink bg-brand-yellow p-8 md:p-14 shadow-brutal-lg text-ink">
+          <div className="border-3 border-ink/15 bg-light p-8 md:p-14 shadow-brutal-lg text-ink rounded-2xl">
             <Reveal>
               <h2 className="font-display text-h2 font-black leading-tight mb-4 max-w-3xl">
-                Size özel net fiyat çıkaralım.
+                Size uygun paketi birlikte seçelim.
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <p className="text-body opacity-90 mb-8 max-w-2xl font-medium">
-                15 dakikalık keşif görüşmesinde sektörünüze ve mesaj hacminize göre net teklif paylaşıyoruz. Aynı gün dönüyoruz, taahhüt yok.
+                15 dakikalık keşif görüşmesinde sektörünüze ve mesaj hacminize göre net teklif paylaşıyoruz. En kısa sürede dönüş yapıyoruz.
               </p>
             </Reveal>
             <Reveal delay={200}>
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="https://wa.me/905015884853"
+                  href="https://wa.me/905318639117"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-ink px-5 py-3 text-sm font-bold uppercase text-paper shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal transition-all rounded-full"
                 >
                   <MessageCircle className="h-4 w-4" /> WhatsApp ile Yaz
                 </a>
                 <Link
                   href="/iletisim"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   İletişim Formu <ArrowUpRight className="h-4 w-4" />
                 </Link>
                 <a
                   href="mailto:destek@portzenai.com"
-                  className="inline-flex items-center gap-2 border-3 border-ink bg-paper px-5 py-3 text-sm font-bold uppercase text-ink shadow-brutal hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal transition-all rounded-full"
                 >
                   E-posta Gönder <ArrowUpRight className="h-4 w-4" />
                 </a>
@@ -748,7 +635,7 @@ export default function Page() {
               <div className="mt-8 pt-6 border-t-3 border-ink/20 grid sm:grid-cols-3 gap-4 text-sm">
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">Telefon</div>
-                  <a href="tel:+905015884853" className="font-bold hover:underline">0501 588 48 53</a>
+                  <a href="tel:+905318639117" className="font-bold hover:underline">0531 863 91 17</a>
                 </div>
                 <div>
                   <div className="text-xs font-bold uppercase opacity-60 mb-1">E-posta</div>

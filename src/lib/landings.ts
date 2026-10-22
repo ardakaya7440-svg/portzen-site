@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { resolvePriceTokens } from "@/data/pricing";
 
 /* ============================================================
    PROGRAMMATIC SEO — Sector × Service landing data layer
@@ -102,13 +103,7 @@ export interface SectorLandingData {
   };
 
   /** Fiyatlandırma — 3 paket (opsiyonel: paketler hizmete göre değişebilir) */
-  pricing: {
-    name: string;
-    price: string;
-    description: string;
-    features: string[];
-    highlighted?: boolean;
-  }[];
+  /* Fiyatlar JSON'da tutulmaz; src/data/pricing.ts'ten okunur (bkz. landingPricing). */
 
   /** FAQ — 6-7 soru */
   faq: { question: string; answer: string }[];
@@ -136,8 +131,11 @@ export function getSectorLanding(serviceSlug: ServiceSlug, sectorSlug: string): 
   if (!fs.existsSync(file)) return null;
   try {
     const raw = fs.readFileSync(file, "utf-8");
-    return JSON.parse(raw) as SectorLandingData;
-  } catch {
+    // Metindeki {{fiyat:…}} yer tutucuları merkezi fiyat kaynağından çözülür (bkz. src/data/pricing.ts)
+    return JSON.parse(raw, (_key, value) => (typeof value === "string" ? resolvePriceTokens(value) : value)) as SectorLandingData;
+  } catch (err) {
+    // Geçersiz fiyat yer tutucusu sessizce 404'e dönüşmesin; build'i durdur.
+    if (err instanceof Error && err.message.startsWith("Geçersiz fiyat")) throw err;
     return null;
   }
 }
@@ -188,19 +186,19 @@ export function getCrossLinksForSector(
 
 /** Tone → Tailwind sınıfı eşleştirme */
 export const TONE_BG: Record<ToneKey, string> = {
-  yellow: "bg-brand-yellow",
-  pink: "bg-brand-pink",
-  blue: "bg-brand-blue",
-  green: "bg-brand-green",
-  purple: "bg-brand-purple",
-  orange: "bg-brand-orange"
+  yellow: "bg-white",
+  pink: "bg-white",
+  blue: "bg-white",
+  green: "bg-white",
+  purple: "bg-white",
+  orange: "bg-white"
 };
 
 export const TONE_TEXT: Record<ToneKey, string> = {
   yellow: "text-ink",
-  pink: "text-paper",
-  blue: "text-paper",
-  green: "text-paper",
-  purple: "text-paper",
+  pink: "text-ink",
+  blue: "text-ink",
+  green: "text-ink",
+  purple: "text-ink",
   orange: "text-ink"
 };

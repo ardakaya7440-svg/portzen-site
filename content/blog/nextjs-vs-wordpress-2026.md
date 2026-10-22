@@ -71,7 +71,7 @@ GitHub'da Next.js 130 bin yıldız aldı, haftalık 8 milyon indirme alıyor. Wo
 | Next.js + Contentful | Kurumsal, çok dilli | Yüksek |
 | Next.js + Payload CMS | Geliştirici dostu | Düşük |
 
-PORTZEN olarak müşterilerimizin %78'inde **Next.js + Sanity** kombinasyonunu kullanıyoruz: editör deneyimi kolay, performans yüksek, ölçeklenebilir.
+PORTZEN olarak kurumsal sitelerde varsayılan önerimiz **Next.js + Sanity** kombinasyonu: editör deneyimi kolay, performans yüksek, ölçeklenebilir.
 
 ## 10 Başlıkta Next.js vs WordPress Karşılaştırması
 
@@ -119,14 +119,14 @@ Teorik karşılaştırma bir şey, pratikte ne yapılır başka. Üç tipik KOB�
 
 Eskiden WooCommerce default tercihti. 2026'da değişti. 50-500 ürün aralığındaki butik markalar için **Next.js + Shopify Headless** veya **Next.js + Sanity + Stripe** kombinasyonu hem daha hızlı hem daha verimli.
 
-İstanbul'da çalıştığımız bir butik takı markasında WooCommerce'ten Next.js + Shopify Headless geçişi sonrası:
+Örnek senaryo: WooCommerce'ten Next.js + Shopify Headless'a geçen bir butik takı markasında değişen başlıca noktalar:
 
-- LCP 4.8 sn → 1.1 sn
-- Sepete ekleme dönüşümü %18 arttı
-- Aylık hosting maliyeti 1.450 TL'den 380 TL'ye düştü
-- Mobil bounce rate %62'den %34'e indi
+- Önce: Ürün sayfaları tema ve eklentilerle sunucuda üretiliyor, mobilde geç açılıyor. Sonra: Sayfalar statik/edge üzerinden servis ediliyor, görseller otomatik optimize ediliyor.
+- Önce: Sepet ve ödeme eklentilerle yönetiliyor. Sonra: Sepet ve ödeme Shopify altyapısında, ön yüz Next.js'te.
+- Önce: Hosting, eklenti güncellemeleri ve güvenlik yamaları sürekli takip istiyor. Sonra: Eklenti bağımlılığı ortadan kalkıyor, bakım kod tabanında yürütülüyor.
+- Önce: Sepete ekleme ve hemen çıkma oranı ölçülmüyor. Sonra: Bu metrikler analitikte tanımlı, geçişin etkisi izleniyor.
 
-Geçiş sonrası ürün sayfası vitrinleri için ek görsel ihtiyacını çekim ekibine değil, [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hattına bağlayıp aylık 30+ varyasyon ürettik.
+Geçiş sonrası ürün sayfası vitrinleri için ek görsel ihtiyacı çekim ekibine değil, [yapay zeka video üretimi](/yapay-zeka-video-uretimi) hattına bağlanabilir; video adedi seçilen kısa video paketine göre belirlenir.
 
 Sebep basit: butik e-ticarette müşteri ürünü 3 saniyede görmezse başka sekmeye geçiyor.
 
@@ -141,7 +141,7 @@ Next.js bu senaryoda ezici üstün:
 - AI bot ile randevu toplama doğrudan entegre olabiliyor
 - Site 7-10 sayfa olduğu için tamamen statik üretilebiliyor
 
-Tipik bir klinik sitesi Next.js + Sanity ile 60.000-95.000 TL aralığında teslim ediliyor; WordPress'te aynı kalite 75.000-130.000 TL bandında ve performans daha düşük.
+Piyasada tipik bir klinik sitesi Next.js + Sanity ile 60.000-95.000 TL aralığında teslim ediliyor; WordPress'te aynı kalite 75.000-130.000 TL bandında ve performans daha düşük.
 
 ### Emlak Ofisi
 
@@ -158,7 +158,7 @@ Next.js + Strapi (veya Sanity) bu işi temizliyor:
 - Her ilan için otomatik schema, otomatik OG image
 - 2.000 ilanlık site 1 saniyenin altında açılıyor
 
-Çalıştığımız bir emlak ofisinde geçiş sonrası organik trafik 8 ayda **%280 arttı**, ilan başı ortalama görüntülenme 1.4'ten 4.7'ye çıktı.
+Örnek bir kurulumda her ilan kendi URL'si, başlığı ve yapısal verisiyle ayrı bir sayfa olarak üretilir; ilanlar Google'da tek tek indekslenebilir hale gelir ve organik trafik ile ilan başı görüntülenme Search Console ve analitik üzerinden izlenir.
 
 ## Maliyet Karşılaştırması: 3 Yıllık Toplam Sahip Olma
 
@@ -181,7 +181,7 @@ Next.js başlangıçta daha pahalı görünüyor ama 3 yıl içinde **%30 daha u
 - WordPress: ortalama 3.500-8.000 TL/ay (güncelleme, güvenlik, backup, performans)
 - Next.js: ortalama 1.200-3.000 TL/ay (içerik desteği, küçük güncellemeler)
 
-Fark tek başına yılda 30-60 bin TL eder.
+Fark tek başına yılda 30-60 bin TL eder. Bu bölümdeki tutarlar piyasa ortalamalarıdır; PORTZEN'de kurumsal web sitesi paketleri {{fiyatlar:kurumsal-web-sitesi}}, yayın sonrası web bakım ise {{fiyatlar:web-bakim}} olarak fiyatlanır (KDV hariç).
 
 ## WordPress'ten Next.js'e Geçiş Süreci
 
@@ -189,7 +189,7 @@ Fark tek başına yılda 30-60 bin TL eder.
 
 ### Yöntem 1: Tam Geçiş
 
-İçerik dışarı çıkarılır, yeni Next.js + CMS yapısına aktarılır, eski site kapatılır. Süre: 4-8 hafta.
+İçerik dışarı çıkarılır, yeni Next.js + CMS yapısına aktarılır, eski site kapatılır. Süre: sayfa ve içerik hacmine göre değişir; teslim süresi kapsama göre teklifte yazılı olarak belirtilir.
 
 Adımlar:
 
@@ -201,11 +201,11 @@ Adımlar:
 6. **Test ortamında karşılaştırma:** Performans, SEO, içerik.
 7. **DNS değişikliği ve yayın.**
 
-Doğru yapıldığında SEO sıralaması korunur, hatta 2-3 ay içinde **%30-60 trafik artışı** görülür (hız faktörü sayesinde).
+Doğru yapıldığında SEO sıralaması korunur; hız iyileşmesinin organik trafiğe etkisi Search Console üzerinden izlenir.
 
 ### Yöntem 2: Headless WordPress
 
-WordPress backend olarak kalır, frontend Next.js olur. İçerik editörü değişikliği yaşamaz, ziyaretçi tamamen yeni hızı görür. Süre: 3-5 hafta.
+WordPress backend olarak kalır, frontend Next.js olur. İçerik editörü değişikliği yaşamaz, ziyaretçi tamamen yeni hızı görür. Süre: kapsama göre değişir; teslim süresi teklifte yazılı olarak belirtilir.
 
 Bu yöntem özellikle:
 
@@ -256,10 +256,10 @@ Editör Next.js'i hiç görmez. Sanity veya Strapi paneli kullanır; WordPress p
 
 ## PORTZEN ile Modern Web Sitesi
 
-PORTZEN olarak 2026 itibarıyla yeni web sitesi projelerimizin **%92'sini** Next.js + headless CMS mimarisiyle kuruyoruz. Geri kalan %8 ise içerik ağırlıklı, blog odaklı, performans hassasiyeti düşük özel senaryolarda WordPress tercih eden müşteriler. Yani teknoloji seçimini ideoloji değil, projenin gerçek ihtiyaçları belirliyor.
+PORTZEN olarak yeni web sitesi projelerinde öncelikle Next.js + headless CMS mimarisini öneriyoruz. İçerik ağırlıklı, blog odaklı, performans hassasiyeti düşük senaryolarda ise WordPress de doğru tercih olabilir. Yani teknoloji seçimini ideoloji değil, projenin gerçek ihtiyaçları belirliyor.
 
-Tipik bir Next.js projemiz 6-10 hafta sürer: keşif & strateji, UI/UX tasarım, Next.js + Sanity geliştirme, AI bot ve CRM entegrasyonu, SEO ve performans optimizasyonu. Teslim sonrası 6 ay aylık içerik üretimi ve A/B test yönetimi devam eder. Sonuç: ortalama 6. ay sonunda %340 organik trafik artışı ve %215 lead dönüşüm artışı.
+Bir Next.js projesi şu aşamalardan oluşur: keşif & strateji, UI/UX tasarım, Next.js + Sanity geliştirme, SEO ve performans optimizasyonu; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. AI bot ve CRM entegrasyonu ilgili paketlerle ayrıca eklenir; teslim sonrası içerik ve güncellemeler ayrı aylık hizmetlerle (ör. web bakım) yürütülür. Yayından sonra organik trafik ve lead dönüşümleri, Büyüme ve Kurumsal paketlerde dahil olan ölçümleme kurulumu ile izlenir; sonuçlar sektöre ve rekabete göre değişir.
 
 Eğer WordPress'iniz varsa geçiş senaryosunu ücretsiz değerlendiriyoruz; yoksa sıfırdan modern altyapıyı kuruyoruz. Doğru teknoloji seçimi 5-7 yıl kullanılacak bir varlığın temelini belirliyor; yanlış seçim ise 18 ay sonra yenileme maliyetine dönüşüyor.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir ön görüşmede işletmeniz için uygun yapıyı birlikte netleştiririz.

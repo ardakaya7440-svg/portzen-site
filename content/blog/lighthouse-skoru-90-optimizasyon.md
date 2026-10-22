@@ -13,7 +13,7 @@ ogImage: "/blog/og/lighthouse-skoru-90-optimizasyon.png"
 
 # Lighthouse Skoru 90+ İçin Web Sitesi Optimizasyon Rehberi
 
-Lighthouse skoru 90 ve üzeri, 2026 itibarıyla "iyi bir web sitesi" olmanın asgari teknik kanıtı haline geldi. Google'ın açık kaynaklı bu denetim aracı; sitenizin performansını, erişilebilirliğini, SEO uyumunu ve modern web standartlarına bağlılığını tek bir rapor üzerinden ölçüyor. 50 puanlık bir site Google sıralamasında her gün geri düşüyor, kullanıcıyı 3 saniye içinde kaybediyor ve reklam bütçesini boşa harcıyor. 90+ skoru olan site ise hem organik sıralamada üst sıralara tırmanıyor hem de tıklama başına dönüşüm oranını ortalama %35 yukarı çekiyor. Bu rehberde Lighthouse skoru 90 üstüne çıkartmak için uygulanması gereken 15 adımlı somut bir yol haritası, üç ana Core Web Vitals metriği ve sektörel örneklerle pratik optimizasyon teknikleri detaylı olarak ele alınıyor.
+Lighthouse skoru 90 ve üzeri, 2026 itibarıyla "iyi bir web sitesi" olmanın asgari teknik kanıtı haline geldi. Google'ın açık kaynaklı bu denetim aracı; sitenizin performansını, erişilebilirliğini, SEO uyumunu ve modern web standartlarına bağlılığını tek bir rapor üzerinden ölçüyor. 50 puanlık bir site Google sıralamasında her gün geri düşüyor, kullanıcıyı 3 saniye içinde kaybediyor ve reklam bütçesini boşa harcıyor. 90+ skoru olan site ise hem organik sıralama hem de dönüşüm için sağlam bir teknik zemin sunuyor. Bu rehberde Lighthouse skoru 90 üstüne çıkartmak için uygulanması gereken 15 adımlı somut bir yol haritası, üç ana Core Web Vitals metriği ve sektörel örneklerle pratik optimizasyon teknikleri detaylı olarak ele alınıyor.
 
 ## Lighthouse Nedir, Neden Bu Kadar Önemli?
 
@@ -95,7 +95,7 @@ CLS'i düzeltmek görece kolaydır ama çoğu site ihmal eder: görseller için 
 
 ## Lighthouse Skoru 90+ İçin 15 Adımlı Kontrol Listesi
 
-Aşağıdaki kontrol listesi PORTZEN'in ürettiği 40+ kurumsal projede ortalama 92-97 arası Lighthouse skoru üretmiştir. Sırasıyla uygulandığında sonuç garantilidir.
+Aşağıdaki kontrol listesi, Lighthouse puanını yükseltmek için uygulanabilecek temel adımları sıralıyor.
 
 | # | Adım | Etkilediği Metrik | Zorluk |
 |---|------|-------------------|--------|
@@ -125,7 +125,7 @@ Bir web sayfasının toplam ağırlığının ortalama %62'sini görseller oluş
 
 JPEG ve PNG formatları 30 yıllık. Aynı görsel kalitesini WebP %25-35 daha küçük dosya, AVIF ise %50 daha küçük dosya ile sağlıyor. Tarayıcı desteği 2024 itibarıyla %97+ olduğundan bu formatları kullanmamak için bir gerekçe kalmadı.
 
-E-ticaret butiği örneği: 200 ürünlü bir online butik sitesi, ortalama 800KB JPEG ürün fotoğrafı kullanıyordu. Toplam sayfa ağırlığı 12MB. Aynı görselleri AVIF'e çevirip dinamik boyutlandırma (responsive images) ekledikten sonra ağırlık 2.8MB'a düştü, LCP 4.6 saniyeden 1.9 saniyeye geriledi, Lighthouse Performance skoru 41'den 94'e çıktı.
+E-ticaret butiği örneği: 200 ürünlü bir online butikte ürün fotoğrafları ortalama 800KB JPEG ise sayfa ağırlığı kolayca 10MB'ı aşar. Aynı görselleri AVIF'e çevirip dinamik boyutlandırma (responsive images) eklemek sayfa ağırlığını belirgin şekilde düşürür ve LCP'yi doğrudan iyileştirir.
 
 ### Lazy Loading ve Doğru Boyutlandırma
 
@@ -150,14 +150,14 @@ Code splitting, sadece o sayfada kullanılan JS'in yüklenmesini sağlar. Tree s
 
 ### Üçüncü Parti Scriptlerin Yönetimi
 
-Google Analytics, Facebook Pixel, Hotjar, Tag Manager, canlı destek widget'ları... Her biri ayrı ayrı JS yükü ekler. Klinik örneği: özel bir diş kliniği sitesi 14 farklı üçüncü parti script yüklüyordu (analitik, randevu sistemi, chat, pixel, harita, vs.). Toplam blocking time 980ms idi.
+Google Analytics, Facebook Pixel, Hotjar, Tag Manager, canlı destek widget'ları... Her biri ayrı ayrı JS yükü ekler. Klinik örneği: bir diş kliniği sitesi analitik, randevu sistemi, chat, pixel, harita gibi çok sayıda üçüncü parti script yüklüyorsa blocking time hızla yükselir.
 
-Çözüm üç aşamalı yapıldı:
-1. Kritik olmayan scriptler `defer` veya `async` ile geciktirildi
-2. Chat widget kullanıcı 5 saniye etkileşimsiz kaldıktan sonra yüklenecek şekilde ayarlandı
-3. Facebook Pixel ve Hotjar sadece dönüşüm sayfalarına taşındı
+Çözüm üç aşamalı yapılabilir:
+1. Kritik olmayan scriptler `defer` veya `async` ile geciktirilir
+2. Chat widget kullanıcı 5 saniye etkileşimsiz kaldıktan sonra yüklenecek şekilde ayarlanır
+3. Facebook Pixel ve Hotjar sadece dönüşüm sayfalarına taşınır
 
-Sonuç: TBT 240ms'e düştü, INP 180ms oldu, Lighthouse Performance skoru 58'den 91'e tırmandı.
+Bu adımlar TBT ve INP'yi doğrudan düşürür, Performance skorunu yukarı taşır.
 
 ## CDN ve Edge Hosting Kullanımı
 
@@ -180,24 +180,24 @@ Sonuç: TBT 240ms'e düştü, INP 180ms oldu, Lighthouse Performance skoru 58'de
 
 Statik dosyalar (görsel, font, CSS, JS) için cache süresi 1 yıl olmalı. HTML içeriği için 5-60 dakika arası dinamik bir politika tercih edilir. Yanlış konfigürasyon ile blog sayfaları cache'lenmezse her ziyaret server'a iniyor ve hızı çakılıyor. [Mobil site hızı artırma](/blog/mobil-site-hizi-artirma) yazımızda mobil cihazlar için özel CDN ayarlarını daha derin işledik.
 
-## Sektörel Lighthouse Hikayeleri
+## Sektörel Lighthouse Senaryoları
 
-Her sektörün kendine has darboğazları var. Üç gerçek müşteri örneği üzerinden somut sonuçlar.
+Her sektörün kendine has darboğazları var. Aşağıdakiler örnek senaryolardır; gerçek müşteri sonuçları değil, tipik darboğazların nasıl çözüldüğünü gösterir.
 
-### E-Ticaret Butiği: 200 Ürün, 41'den 94'e
+### E-Ticaret Butiği: 200 Ürünlü Mağaza
 
-Hedef kitlesi 25-40 yaş kadın olan online butik, mobilde haftada 14.000 ziyaret alıyordu ama dönüşüm oranı %0.6 idi. Lighthouse skoru 41. Üç haftalık optimizasyon sonrası:
+Hedef kitlesi 25-40 yaş kadın olan, mobil trafiği yüksek ama dönüşümü düşük bir online butik düşünelim. Yapılacak optimizasyonlar:
 
-- Görseller AVIF, lazy load uygulandı
-- WordPress'ten Next.js'e migrasyon yapıldı
-- Vercel Edge'e taşındı
-- Ürün sayfalarında critical CSS inline edildi
+- Görseller AVIF'e çevrilir, lazy load uygulanır
+- WordPress'ten Next.js'e migrasyon yapılır
+- Site Vercel Edge'e taşınır
+- Ürün sayfalarında critical CSS inline edilir
 
-Sonuç: LCP 1.7s, INP 140ms, CLS 0.05. Lighthouse Performance 94, SEO 100. Üç ay sonra dönüşüm oranı %2.4'e, aylık ciro 2.8 katına çıktı.
+Beklenen etki: LCP, INP ve CLS'in iyi eşiklere inmesi ve hızlanan ürün sayfalarının mobil dönüşümü desteklemesi; sonucu GA4 ve Search Console verileriyle izleyin.
 
 ### Diş Kliniği: Randevu Formu Bouncing Rate Sorunu
 
-Bir özel diş kliniği sitesi mobilde %78 bounce rate ile çalışıyordu. Form sayfasına gelen kullanıcılar yüklemeyi beklemeden çıkıyordu. Lighthouse skoru 52, INP 620ms.
+Mobilde yüksek bounce rate ile çalışan bir diş kliniği sitesi düşünelim: form sayfasına gelen kullanıcılar yüklemeyi beklemeden çıkıyor, INP yüksek.
 
 Optimizasyon:
 - Tüm üçüncü parti scriptler defer edildi
@@ -205,19 +205,19 @@ Optimizasyon:
 - Chat widget gecikmeli yükleme
 - Font self-host
 
-Sonuç: INP 170ms, Lighthouse 93. Bounce rate %78'den %38'e indi, randevu formu dolum oranı %210 arttı.
+Beklenen etki: INP'nin iyi eşiğe inmesi ve form sayfası hızlı açıldığı için terk oranının düşmesi.
 
-### Emlak Ofisi: 1500 İlanlı Site, SEO Skoru 100
+### Emlak Ofisi: 1500 İlanlı Site
 
-Anadolu yakasında orta ölçekli bir emlak ofisi, 1500 aktif ilanlı sitesinde Google'da hiç görünemiyordu. Lighthouse SEO 64, Performance 58.
+1500 aktif ilanlı ama Google'da görünemeyen orta ölçekli bir emlak ofisi sitesi düşünelim; Lighthouse SEO ve Performance puanları düşük.
 
-Yapılanlar:
+Yapılacaklar:
 - Tüm ilanlar için Schema.org RealEstateListing markup eklendi
 - Görseller WebP'ye çevrildi
 - Sayfalandırma yerine infinite scroll yerine SSG (static site generation) tercih edildi
 - Sitemap.xml ve robots.txt yeniden yazıldı
 
-Sonuç: SEO 100, Performance 92. İlk 3 ayda organik trafik %460 arttı, semt bazlı aramaların %70'inde ilk sayfada görünmeye başladı.
+Beklenen etki: teknik SEO hatalarının giderilmesi ve ilanların arama motorlarınca doğru anlaşılması; organik trafikteki değişimi Search Console'dan izleyin.
 
 ## Sık Yapılan 6 Lighthouse Hatası
 
@@ -243,14 +243,14 @@ Search Console'daki Core Web Vitals raporu CrUX verisidir. Lighthouse 95 olan bi
 
 ### Sürekli İzleme
 
-Bir kerelik optimizasyon yeterli değil. Sitede her güncelleme, her yeni plugin, her içerik ekleme skoru etkiler. Aylık otomatik Lighthouse raporu kurulmalı ve düşüş tespit edildiğinde anında müdahale edilmelidir. Web sitenizin teknik durumundan emin değilseniz [web sitesi olmayan işletmeler ne kaybediyor](/blog/web-sitesi-olmayan-isletmeler-ne-kaybediyor) yazımızdaki maliyet analizine de göz atmanızı öneririz. Site hızı 90+ olduktan sonra trafiği reklamla katlamak için profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle hızlı sayfalara doğru kreatif akıtmak en yüksek ROAS getiren kombinasyon.
+Bir kerelik optimizasyon yeterli değil. Sitede her güncelleme, her yeni plugin, her içerik ekleme skoru etkiler. Aylık otomatik Lighthouse raporu kurulmalı ve düşüş tespit edildiğinde anında müdahale edilmelidir. Web sitenizin teknik durumundan emin değilseniz [web sitesi olmayan işletmeler ne kaybediyor](/blog/web-sitesi-olmayan-isletmeler-ne-kaybediyor) yazımızdaki maliyet analizine de göz atmanızı öneririz. Site hızı 90+ olduktan sonra trafiği reklamla katlamak için profesyonel bir [Meta reklam ajansı](/meta-reklam-ajansi) desteğiyle hızlı sayfalara doğru kreatif akıtmak, reklam bütçesinin hızlı açılan sayfalarda karşılanmasını sağlar.
 
 ## PORTZEN ile Lighthouse 90+ Skoru
 
-PORTZEN olarak teslim ettiğimiz her web sitesinin minimum Lighthouse skoru garantisi 90'dır; ortalamamız 94'tür. Bunu sağlamamızın yolu sihirli bir araç değil, ilk günden doğru altyapıyı seçmek: Next.js 15, Sanity CMS, Vercel Edge dağıtımı ve sıkı bir performans bütçesi. Mevcut sitenizin skoru düşükse iki yol var: ya yamayarak iyileştirmek (kısa vadeli, sınırlı kazanç), ya da modern bir altyapıya geçmek (uzun vadeli, yüksek kazanç). Hangisinin sizin için doğru olduğunu birkaç dakikalık denetim sonucu net görüyoruz.
+PORTZEN olarak teslim ettiğimiz web sitelerinde mobil Lighthouse performansı için 90+ hedefiyle çalışıyoruz. Bunu sağlamamızın yolu sihirli bir araç değil, ilk günden doğru altyapıyı seçmek: Next.js 15, Sanity CMS, Vercel Edge dağıtımı ve sıkı bir performans bütçesi. Mevcut sitenizin skoru düşükse iki yol var: ya yamayarak iyileştirmek (kısa vadeli, sınırlı kazanç), ya da modern bir altyapıya geçmek (uzun vadeli, yüksek kazanç). Hangisinin sizin için doğru olduğunu birkaç dakikalık denetim sonucu net görüyoruz.
 
-[Web tasarım](/web-tasarim) hizmetimiz kapsamında sadece site teslim etmiyoruz; teslim sonrası 6 ay boyunca aylık Lighthouse, CrUX, Search Console takibi yapıyor, skor düşüşlerini anında düzeltiyoruz. E-ticaret butikleri, klinikler, emlak ofisleri, B2B kurumsal şirketler için ürettiğimiz 40+ projenin tamamı 90+ skorla canlıda çalışıyor. Bu sayede müşterilerimiz hem organik sıralamada üst seviyelere çıkıyor hem de reklam Quality Score'ları yükseliyor, tıklama maliyetleri düşüyor.
+[Web tasarım](/web-tasarim) hizmetimiz kapsamında sadece site teslim etmiyoruz; yayından sonra Lighthouse, CrUX ve Search Console takibini ve skor düşüşlerinin düzeltilmesini Web bakım paketleriyle sürdürüyoruz ({{fiyatlar:web-bakim}}, KDV hariç). E-ticaret butikleri, klinikler, emlak ofisleri ve B2B kurumsal şirketler için kurduğumuz sitelerde hedef, hızlı sayfaların hem organik görünürlüğü hem de reklam Quality Score'unu desteklemesi.
 
 Lighthouse skoru bir hedef değil, sürekli izlenen bir sağlık göstergesidir. Sitenizin bugünkü puanını bilmiyorsanız ilk adım ücretsiz bir denetim almak. Sizinle birlikte raporu açıp hangi 5 değişikliğin en hızlı kazanç sağlayacağını gösteriyoruz; uygulamayı kendiniz mi yoksa PORTZEN ile mi yapacağınıza sonra karar verirsiniz.
 
-**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — 15 dakikada işletmeniz için uygun yapıyı netleştiririz.
+**Ücretsiz keşif görüşmesi:** [portzenai.com/iletisim](https://portzenai.com/iletisim) — kısa bir görüşmede işletmeniz için uygun yapıyı netleştiririz.

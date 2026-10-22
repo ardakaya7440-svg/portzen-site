@@ -4,7 +4,7 @@
   "sectorName": "İzmir",
   "sectorPlural": "İzmir'deki Markalar",
   "title": "İzmir AI Reklam Videosu | Reels & TikTok Üretimi — PORTZEN",
-  "description": "İzmir'deki markalar için AI reklam videosu üretimi. Lokal lezzeti ve Ege ruhunu yansıtan Reels & TikTok içerikler. Aylık 15 videoya kadar paketler.",
+  "description": "İzmir'deki markalar için AI reklam videosu üretimi. Lokal lezzeti ve Ege ruhunu yansıtan Reels & TikTok içerikler. Aylık 24 videoya kadar paketler.",
   "keywords": [
     "izmir ai reklam videosu",
     "izmir reels üretimi",
@@ -14,16 +14,28 @@
     "izmir sosyal medya videosu"
   ],
   "h1": "İzmir İçin AI Reklam Videosu Üretimi",
-  "heroSubtitle": "Bornova'dan Alsancak'a, İzmir markalarının lokal lezzetini ve Ege ruhunu yansıtan AI üretimli Reels & TikTok videoları. Aylık 6-15 video.",
+  "heroSubtitle": "Bornova'dan Alsancak'a, İzmir markalarının lokal lezzetini ve Ege ruhunu yansıtan AI üretimli Reels & TikTok videoları. Aylık 4, 12 veya 24 video.",
   "stats": [
-    {"value": "İzmir", "label": "Yerel Ekip"},
-    {"value": "15 video", "label": "Aylık Max"},
-    {"value": "%70", "label": "Maliyet Azaltma"},
-    {"value": "72 saat", "label": "İlk Teslim"}
+    {
+      "value": "İzmir",
+      "label": "Yerel Ekip"
+    },
+    {
+      "value": "24 video",
+      "label": "Aylık Max"
+    },
+    {
+      "value": "Çekim ekibi yok",
+      "label": "AI ile üretim"
+    },
+    {
+      "value": "Kapsama göre",
+      "label": "Teslim süresi teklifte yazılı"
+    }
   ],
   "problems": [
     "İzmirli marka olarak ulusal pazara açılmak istiyorsunuz ama prodüksiyon ekibi İstanbul'da, gidip gelmek + ekipman maliyeti tek video için 40-80 bin TL'ye çıkıyor.",
-    "Yerel lezzetinizi (Boyoz, Kumru, Ege kahvaltısı, sahil ruhu) yansıtacak içerik üretmek istiyorsunuz ama İstanbul'lu ajans 'standart' İzmir klişesi çekiyor, marka ruhu kaybolyor.",
+    "Yerel lezzetinizi (Boyoz, Kumru, Ege kahvaltısı, sahil ruhu) yansıtacak içerik üretmek istiyorsunuz ama İstanbul'lu ajans 'standart' İzmir klişesi çekiyor, marka ruhu kayboluyor.",
     "Bütçeniz aylık 25-50 bin TL; bu parayla ya 1 reklam videosu çekiliyor ya 30 günlük TikTok beslemesi yapılamıyor, ikisini birden alamıyorsunuz.",
     "Kemeraltı, Kordon, Tarihi Asansör gibi lokasyonlarda izin/drone yasakları var; canlı çekim ekibi vakit kaybediyor, biz AI ile bu lokasyonları sanal üretiyoruz.",
     "Reels/TikTok algoritması haftada 3-5 yeni içerik istiyor; bunu canlı çekimle yapmak imkansız, marka beslemesi düşüyor, erişim çöküyor."
@@ -43,13 +55,13 @@
     },
     {
       "title": "Teslim + Optimizasyon",
-      "description": "İlk teslim 72 saat, revizyon sınırsız (revize talep limiti 2). Aylık performans raporu, hangi video daha çok döndü analizi."
+      "description": "Teslim süresi kapsama göre teklifte yazılı olarak belirtilir, revize kapsamı teklifte yazılı olarak belirlenir. Aylık performans raporu, hangi video daha çok döndü analizi."
     }
   ],
   "features": [
     {
       "title": "İzmir Lokal Görsel Üretimi",
-      "description": "Kordon, Tarihi Asansör, Kemeraltı, Alsancak gibi mekânlar AI ile sanal üretilir. Drone yasağı, izin sorunu sıfır."
+      "description": "Kordon, Tarihi Asansör, Kemeraltı, Alsancak gibi mekânlar AI ile sanal üretilir. Gerçek çekim yapılmadığı için drone ve çekim izni gerekmez."
     },
     {
       "title": "Premium AI Modeller",
@@ -61,11 +73,11 @@
     },
     {
       "title": "Dikey + Yatay Format",
-      "description": "Reels, TikTok (9:16), YouTube Shorts (9:16), feed (1:1, 4:5), YouTube ads (16:9) — tek brifle 4 format."
+      "description": "Reels, TikTok (9:16), YouTube Shorts (9:16), feed (1:1, 4:5), YouTube ads (16:9) — tek brifle pakete göre 1, 2 veya 3 format; ek formatlar ayrıca tekliflendirilir."
     },
     {
       "title": "Telifsiz + Marka Sahiplik",
-      "description": "Üretilen tüm videoların ticari kullanım hakkı 100% sizin. Reklam fonlu kampanyada serbestçe kullanılır."
+      "description": "Üretilen tüm videoların ticari kullanım hakkı tamamen sizin. Reklam fonlu kampanyada serbestçe kullanılır."
     },
     {
       "title": "Performans Raporu",
@@ -73,60 +85,30 @@
     }
   ],
   "caseStudy": {
-    "title": "Bornova'da bir butik: 3 ayda 18 AI Reels, TikTok 1.4M görüntülenme, ay başı +180 sipariş",
+    "title": "Örnek senaryo: Bornova'da bir butik için aylık AI Reels",
     "paragraphs": [
-      "Bornova merkezde küçük ölçekli, kadın giyim odaklı bir butik markası, Instagram ve TikTok'ta var ama haftada 1 cep telefonu çekimi yapabiliyorlardı. Erişim 5-10K arası takılı kalmıştı. Ulusal pazara açılmak istiyorlardı ama İstanbul'lu prodüksiyona vermek bütçeyi aşıyordu (tek video 35K TL).",
-      "PORTZEN olarak 3 aylık AI Reels üretim paketine başladık; haftada 1.5 video, ay başı 6 video. Bornova butiğinin gerçek koleksiyonu AI modellere yüklendi; Kordon yürüyüşü, Alsancak butik turu, Çeşme tatil ruhu temalı 5-12 saniyelik Reels üretildi. Türkçe ses + müzik + altyazı dahil.",
-      "3 ay sonunda 18 AI Reels üretildi; toplam TikTok görüntüleme 1.4M'a çıktı, Instagram erişim 5K'dan 65K'ya yükseldi. DM'den + web siteden ay başı 180 ek sipariş geldi. Müşteri tek video maliyeti 35K iken aylık 18K'ya 6 video çıktı; maliyet %70 düştü."
+      "Örnek bir kurulum: Bornova'da kadın giyim odaklı, Instagram ve TikTok'ta haftada bir cep telefonu çekimi paylaşabilen küçük ölçekli bir butik markası düşünün. Ulusal pazara açılmak istiyor ama İstanbul'daki prodüksiyon teklifleri bütçeyi aşıyor.",
+      "Bu senaryoda aylık kısa video paketiyle Reels üretimi planlanır. Butiğin gerçek koleksiyonu AI modellere referans olarak yüklenir; Kordon yürüyüşü, Alsancak butik turu, Çeşme tatil ruhu temalı kısa Reels üretilir. Videolar müzik ve altyazıyla hazırlanır; AI seslendirme Büyüme ve Kurumsal paketlerde dahildir.",
+      "Butik, her hafta paylaşabileceği, İzmir'in atmosferini taşıyan Reels'lere sahip olur; yeni koleksiyon geldiğinde ayrı çekim organize etmesi gerekmez. Erişim ve sipariş sonuçları ürüne, kitleye ve yayın düzenine göre değişir; burada rakam vaat etmiyoruz."
     ],
     "beforeAfter": [
-      {"label": "Aylık Video Üretimi", "before": "4 (telefon çekimi)", "after": "6 AI Reels"},
-      {"label": "TikTok Aylık Erişim", "before": "~30K", "after": "1.4M (3 ayda)"},
-      {"label": "Video Birim Maliyeti", "before": "35.000 TL", "after": "~3.000 TL"}
+      {
+        "label": "Aylık Video Üretimi",
+        "before": "Haftada bir telefon çekimi",
+        "after": "Pakete göre 4, 12 veya 24 AI Reels"
+      },
+      {
+        "label": "Lokasyon sahneleri",
+        "before": "Kordon ve Alsancak çekimleri için izin ve ekip gerekiyor",
+        "after": "Kordon, Alsancak ve Çeşme sahneleri AI ile üretiliyor"
+      },
+      {
+        "label": "Video üretimi",
+        "before": "İstanbul'dan prodüksiyon ekibi gerekiyor",
+        "after": "Çekim ekibi olmadan AI ile üretim"
+      }
     ]
   },
-  "pricing": [
-    {
-      "name": "Başlangıç",
-      "price": "8.000 TL/ay",
-      "description": "Yeni başlayan marka, küçük butik, lokal restoran için",
-      "features": [
-        "Aylık 4 AI Reels (5-10 sn)",
-        "Dikey format (9:16)",
-        "Türkçe altyazı",
-        "Müzik dahil",
-        "1 revizyon hakkı",
-        "E-posta destek"
-      ]
-    },
-    {
-      "name": "Profesyonel",
-      "price": "18.000 TL/ay",
-      "description": "Aktif sosyal medya yapan, ulusala açılmak isteyen marka için",
-      "features": [
-        "Aylık 8 AI Reels (5-12 sn)",
-        "Dikey + Kare format",
-        "Türkçe seslendirme + altyazı",
-        "Marka müziği",
-        "Aylık performans raporu",
-        "Öncelikli WhatsApp destek"
-      ],
-      "highlighted": true
-    },
-    {
-      "name": "Kurumsal",
-      "price": "35.000 TL/ay",
-      "description": "Ulusal/uluslararası satış yapan, premium marka için",
-      "features": [
-        "Aylık 15 AI Reels + 2 uzun (30 sn)",
-        "4 format (9:16, 1:1, 4:5, 16:9)",
-        "Premium seslendirme (TR + EN)",
-        "A/B test paketleri",
-        "Adanmış İzmir hesap yöneticisi",
-        "Aylık strateji toplantısı"
-      ]
-    }
-  ],
   "faq": [
     {
       "question": "İzmir lokal lezzeti (boyoz, kumru, Ege ruhu) AI ile üretilebilir mi?",
@@ -134,11 +116,11 @@
     },
     {
       "question": "Kemeraltı veya Tarihi Asansör drone yasak bölgede, AI ile çekebilir miyiz?",
-      "answer": "Evet. AI ile sanal drone shot, helikopter shot, gece çekimi gibi pratik imkansız olan görüntüler üretilebilir. İzin/yasak sorunu sıfır."
+      "answer": "Evet. AI ile sanal drone shot, helikopter shot, gece çekimi gibi pratikte zor olan görüntüler üretilebilir. Gerçek uçuş yapılmadığı için uçuş ve çekim izni gerekmez."
     },
     {
       "question": "Üretilen videoların telifi kime ait?",
-      "answer": "Tamamen size. Marka ve reklam kullanımı için sınırsız hak. Sözleşmede ve teslim PDF'inde garanti veriliyor."
+      "answer": "Tamamen size. Marka ve reklam kullanımı için süre ve kanal sınırı olmadan kullanım hakkı. Bu hak sözleşmede ve teslim belgesinde yazılı olarak belirtilir."
     },
     {
       "question": "İzmir'deki butik markama özel görsel dil kuruluyor mu?",
@@ -146,11 +128,11 @@
     },
     {
       "question": "Canlı çekim de yapıyor musunuz?",
-      "answer": "Birincil odağımız AI üretim. Ama gerçek ürün shot (giysi, yemek, ambalaj) gerektiğinde İzmir'de stüdyo partnerimizle entegre çalışıyoruz."
+      "answer": "Birincil odağımız AI üretim; saha çekimi paketlere dahil değildir. Gerçek ürün görüntüsü (giysi, yemek, ambalaj) gerektiğinde mevcut fotoğraf ve videolarınızı AI sahnelerle birlikte kullanabiliyoruz; ayrı çekim ihtiyacı varsa teklif aşamasında konuşulur."
     },
     {
       "question": "Reklam (Meta Ads, TikTok Ads) yönetimi de yapıyor musunuz?",
-      "answer": "İçerik üretimi odağımız. Reklam yönetimi için ayrı 'Paid Ads' paketimiz var, ikisini bundle alabilirsiniz."
+      "answer": "Evet, ayrı bir hizmet olarak. Üretim tarafı AI reklam filmi paketleriyle, Meta veya Google'daki kampanyalar ise Reklam yönetimi hizmetiyle yürür: {{fiyatlar:reklam-yonetimi}} (KDV hariç; reklam harcaması platforma sizin ödeme yönteminizle ödenir). Sosyal medya hesaplarınızı da bize verirseniz Büyüme ve Kurumsal sosyal medya paketlerinde reklam yönetimi dahildir. TikTok Ads paketlerimizde yer almıyor, ihtiyaç halinde ayrıca konuşuyoruz. İzmir'deki markalar için filmi ve kampanyayı birlikte planlayabiliriz."
     },
     {
       "question": "İzmir ekipte mi çalışıyorsunuz, ofise gelebilir miyim?",
