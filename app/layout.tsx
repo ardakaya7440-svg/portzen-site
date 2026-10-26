@@ -4,6 +4,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import { Navbar } from "@/components/navbar/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppAttribution } from "@/components/analytics/WhatsAppAttribution";
+import { MetaPixel } from "@/components/analytics/MetaPixel";
 import { SiteChrome } from "@/components/layout/SiteChrome";
 import "./globals.css";
 
@@ -163,6 +164,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteChrome>
           <WhatsAppAttribution />
           {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
+          <MetaPixel />
         </SiteChrome>
         {/* Schema.org JSON-LD — Organization + WebSite */}
         <script

@@ -24,9 +24,26 @@ export function trackEvent(name: string, params?: GaEventParams) {
   }
 }
 
+/* ------------------------------------------------------------
+   Meta (Facebook) Pixel — standart olaylar (fbq)
+   Pixel base kodu src/components/analytics/MetaPixel.tsx ile yüklenir.
+   Reklam optimizasyonu burada: Lead (form) + Contact (WhatsApp).
+   ------------------------------------------------------------ */
+export function trackMeta(event: string, params?: Record<string, string | number | boolean | undefined>) {
+  try {
+    if (typeof window !== "undefined" && typeof window.fbq === "function") {
+      window.fbq("track", event, params ?? {});
+    }
+  } catch {
+    // ad-block / SSR gibi durumda sessizce yut
+  }
+}
+
 /** WhatsApp CTA tıklama */
 export function trackWhatsAppClick(source: string) {
   trackEvent("whatsapp_click", { source, channel: "whatsapp" });
+  // Meta Pixel — WhatsApp teması (ikincil dönüşüm sinyali)
+  trackMeta("Contact", { content_name: source });
 }
 
 /** Telefon CTA tıklama */
@@ -49,6 +66,8 @@ export function trackLeadFormSubmit(formName: string, leadSource?: string) {
   trackEvent("lead_form_submit", { form_name: formName, lead_source: leadSource ?? "unknown" });
   // Aynı zamanda "generate_lead" standart event'i (GA4 conversion'a alır)
   trackEvent("generate_lead", { form_name: formName });
+  // Meta Pixel — ANA dönüşüm. Reklam seti bunun üzerine optimize edilecek.
+  trackMeta("Lead", { content_name: formName, content_category: leadSource ?? "unknown" });
 }
 
 /** Fiyat paketi tıklama — alıcı niyeti yüksek */
