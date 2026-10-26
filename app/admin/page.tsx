@@ -17,7 +17,9 @@ async function counts() {
     reviewsDraft: await one(`select count(*)::text as n from testimonials where status = 'draft'`),
     works: await one(`select count(*)::text as n from works where kind = 'work' and status = 'published'`),
     services: await one(`select count(*)::text as n from works where kind = 'service' and status = 'published'`),
-    drafts: await one(`select count(*)::text as n from price_versions where status = 'draft'`)
+    drafts: await one(`select count(*)::text as n from price_versions where status = 'draft'`),
+    leadsNew: await one(`select count(*)::text as n from leads where status = 'new'`),
+    leadsAll: await one(`select count(*)::text as n from leads`)
   };
 }
 
@@ -26,6 +28,7 @@ export default async function AdminHome() {
   const pricesPending = pub && pub.id !== PRICE_VERSION.version;
   const hook = Boolean(process.env.DEPLOY_HOOK_URL);
   const tiles = [
+    { href: "/admin/talepler", title: "Teklif talepleri", value: String(c.leadsNew), note: `yeni · toplam ${c.leadsAll}` },
     { href: "/admin/fiyatlar", title: "Fiyatlar", value: `v${pub?.id ?? "—"}`, note: c.drafts ? `${c.drafts} taslak bekliyor` : "Taslak yok" },
     { href: "/admin/markalar", title: "Markalar", value: String(c.brands), note: `${c.brandsAll} kayıttan görünür olanlar` },
     { href: "/admin/yorumlar", title: "Müşteri yorumları", value: String(c.reviews), note: `${c.reviewsDraft} taslak` },
@@ -34,7 +37,7 @@ export default async function AdminHome() {
   return (
     <>
       <PageHead title="Genel bakış" intro="Sitedeki fiyatları, logoları, yorumları ve görselleri buradan yönetirsiniz." />
-      <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+      <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
         {tiles.map((t) => (
           <Link key={t.href} href={t.href} className="rounded-2xl border border-slate/15 bg-white p-5 transition-colors hover:border-slate">
             <p className="text-sm font-semibold text-slate/70">{t.title}</p>

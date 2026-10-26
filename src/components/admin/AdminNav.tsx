@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 
 const ITEMS = [
   { href: "/admin", label: "Genel bakış" },
+  { href: "/admin/talepler", label: "Teklif talepleri" },
   { href: "/admin/fiyatlar", label: "Fiyatlar" },
   { href: "/admin/markalar", label: "Markalar" },
   { href: "/admin/yorumlar", label: "Müşteri yorumları" },

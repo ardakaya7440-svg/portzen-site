@@ -518,3 +518,29 @@ export async function deleteWorkAction(fd: FormData) {
   contentChanged();
   back(WORKS, "ok", "Kayıt kaldırıldı.");
 }
+
+/* ───────── teklif talepleri ───────── */
+
+const LEADS = "/admin/talepler";
+const LEAD_STATUS = ["new", "contacted", "quoted", "won", "lost"];
+
+export async function updateLeadAction(fd: FormData) {
+  const s = requireAdmin();
+  const id = int(fd, "id");
+  const status = String(fd.get("status") ?? "");
+  const note = text(fd, "note", 2000);
+  if (!id || !LEAD_STATUS.includes(status)) back(LEADS, "err", "Geçersiz talep.");
+  const db = await getDb();
+  await db.query(`update leads set status = $2, note = $3, updated_at = now() where id = $1`, [id, status, note]);
+  await audit(s.sub, "lead.update", { id, status });
+  back(`${LEADS}${fd.get("filter") ? `?durum=${enc(String(fd.get("filter")))}` : ""}`, "ok", "Talep güncellendi.");
+}
+
+export async function deleteLeadAction(fd: FormData) {
+  const s = requireAdmin();
+  const id = int(fd, "id");
+  const db = await getDb();
+  await db.query(`delete from leads where id = $1`, [id]);
+  await audit(s.sub, "lead.delete", { id });
+  back(LEADS, "ok", "Talep silindi.");
+}

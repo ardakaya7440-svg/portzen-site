@@ -94,5 +94,30 @@ export const MIGRATIONS: { id: number; sql: string[]; seed?: (q: Q) => Promise<v
         [JSON.stringify(data), pub.note ?? "Başlangıç fiyatları"]
       );
     }
+  },
+  {
+    // İletişim formundan gelen teklif talepleri
+    id: 2,
+    sql: [
+      `create table leads (
+        id serial primary key,
+        name text not null,
+        email text,
+        phone text,
+        service text,
+        package text,
+        message text,
+        source text,
+        landing text,
+        page text,
+        status text not null default 'new' check (status in ('new','contacted','quoted','won','lost')),
+        note text,
+        ip_hash text,
+        created_at timestamptz not null default now(),
+        updated_at timestamptz not null default now()
+      )`,
+      `create index leads_created_idx on leads (created_at desc)`,
+      `create index leads_ip_idx on leads (ip_hash, created_at)`
+    ]
   }
 ];

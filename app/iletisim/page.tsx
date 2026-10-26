@@ -40,6 +40,35 @@ export default function Page() {
 
     trackLeadFormSubmit("iletisim", service ? `${service}${pkg ? " / " + pkg : ""}` : "contact_form");
 
+    // Talebi yönetim paneline de kaydet (WhatsApp açılmazsa veya ziyaretçi vazgeçerse bilgi kaybolmasın)
+    let firstTouch: { source?: string; landing?: string } = {};
+    try {
+      firstTouch = JSON.parse(sessionStorage.getItem("pz_src") || "{}");
+    } catch {
+      /* depolama kapalı */
+    }
+    try {
+      fetch("/api/leads", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        keepalive: true,
+        body: JSON.stringify({
+          name,
+          email,
+          phone,
+          service,
+          package: pkg,
+          message,
+          website: String(formData.get("website") || ""),
+          source: firstTouch.source,
+          landing: firstTouch.landing,
+          page: window.location.pathname + window.location.search
+        })
+      }).catch(() => {});
+    } catch {
+      /* kayıt başarısız olsa da WhatsApp akışı devam eder */
+    }
+
     const waMessage = [
       "Merhaba PORTZEN,",
       "",
@@ -106,6 +135,8 @@ export default function Page() {
           ) : (
             <Reveal delay={300}>
               <form onSubmit={handleSubmit} className="mt-8 grid max-w-xl gap-4">
+                {/* Bot tuzağı: gerçek ziyaretçiler görmez */}
+                <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden className="hidden" />
                 <div className="grid gap-4 sm:grid-cols-2">
                   <label className="grid gap-1.5 text-sm font-semibold text-slate">
                     Hizmet
