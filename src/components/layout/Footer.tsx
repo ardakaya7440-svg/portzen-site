@@ -139,7 +139,15 @@ export function Footer() {
 
         <div className="mt-14 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/50">
           <img src="/logo-h-white.png" alt="PORTZEN" width={116} height={30} className="h-7 w-auto opacity-90" />
-          <span>© {new Date().getFullYear()} PORTZEN — Tüm hakları saklıdır.</span>
+          <div className="flex flex-col items-center sm:items-end gap-1">
+            <span>© {new Date().getFullYear()} PORTZEN — Tüm hakları saklıdır.</span>
+            <span>
+              Kurucu:{" "}
+              <a href="https://ardakayaa.com" rel="author" className="hover:text-lime transition-colors">
+                Arda Kaya
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </footer>

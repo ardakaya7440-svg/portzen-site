@@ -85,6 +85,12 @@ const organizationSchema = {
   email: "destek@portzenai.com",
   telephone: "+905318639117",
   foundingDate: "2026",
+  founder: {
+    "@type": "Person",
+    name: "Arda Kaya",
+    url: "https://ardakayaa.com",
+    sameAs: ["https://www.instagram.com/ardakaya.ai/"]
+  },
   slogan: "Sosyal medyanızı yönetiriz. Yazılımınızı geliştiririz.",
   address: [
     {
