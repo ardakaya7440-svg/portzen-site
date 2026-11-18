@@ -302,12 +302,6 @@ export default function Page() {
                     Teklif İsteyin
                     <ArrowUpRight className="h-4 w-4" />
                   </Link>
-                  <Link
-                    href="/referanslar"
-                    className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal-sm hover:shadow-brutal transition-all rounded-full"
-                  >
-                    Referansları Gör
-                  </Link>
                 </div>
               </div>
             </div>

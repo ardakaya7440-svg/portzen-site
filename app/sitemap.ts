@@ -11,7 +11,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     { url: BASE, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${BASE}/fiyatlar`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${BASE}/referanslar`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/karsilastirma`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     // Niş SEO landing pages (transactional intent)
     { url: `${BASE}/eczane-whatsapp-stok-bildirim`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },

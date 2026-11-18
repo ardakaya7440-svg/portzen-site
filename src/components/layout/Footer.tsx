@@ -47,7 +47,6 @@ const KARSILASTIRMA = [
 const KURUMSAL = [
   { label: "Fiyatlar", href: "/fiyatlar" },
   { label: "Hakkımızda", href: "/hakkimizda" },
-  { label: "Referanslar", href: "/referanslar" },
   { label: "Blog", href: "/blog" },
   { label: "Karşılaştırma", href: "/karsilastirma" },
   { label: "İletişim", href: "/iletisim" }

@@ -13,7 +13,6 @@ import {
   Code2,
   ShoppingBag,
   LayoutTemplate,
-  Building2,
   Star,
   TrendingUp,
   Phone,
@@ -261,102 +260,6 @@ export default function WebTasarimPage() {
       </section>
 
       <ServiceAtAGlance href="/web-tasarim" />
-
-      {/* 2. CANLI ÖRNEK — video showcase */}
-      <section className="bg-white py-section border-b-3 border-ink/15">
-        <div className="mx-auto max-w-container px-6">
-          <Reveal>
-            <div className="mb-8 max-w-2xl">
-              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-3 shadow-brutal-sm rounded-full">
-                Canlı Örnek
-              </div>
-              <h2 className="font-display text-h2 font-black leading-tight text-ink">
-                Yaptığımız iş nasıl görünüyor?
-              </h2>
-              <p className="mt-3 text-body text-ink/70">
-                Bir brasserie restoran için hazırlanan örnek web sitesi. Online rezervasyon,
-                dijital menü, Google Maps entegrasyonu, atmosfer galerisi. Aşağıda canlı ekran kaydı.
-              </p>
-            </div>
-          </Reveal>
-
-          <Reveal delay={100}>
-            <div className="border-3 border-ink/15 bg-paper shadow-brutal-lg overflow-hidden rounded-2xl">
-              <div className="relative border-b-3 border-ink/15 bg-light aspect-video">
-                <video
-                  src="/assets/videos/referanslar/restoran-web-ornegi.mp4"
-                  poster="/assets/videos/referanslar/restoran-web-ornegi-poster.jpg"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  controls
-                  className="h-full w-full object-cover"
-                />
-              </div>
-
-              <div className="p-6 md:p-8 grid gap-6 lg:grid-cols-[1fr_1.2fr]">
-                <div>
-                  <div className="inline-flex items-center gap-2 border-3 border-ink/15 bg-lime text-ink px-3 py-1.5 shadow-brutal-sm mb-4 rounded-full">
-                    <Building2 className="h-4 w-4" />
-                    <span className="text-xs font-black uppercase tracking-wider">Restoran</span>
-                  </div>
-                  <h3 className="font-display text-2xl md:text-3xl font-black leading-tight text-ink mb-2">
-                    Restoran web sitesi örneği
-                  </h3>
-                  <p className="text-body text-ink/70 mb-5">
-                    Online rezervasyon + dijital menü + atmosfer galerisi. Rezervasyon talebi
-                    telefon yerine siteden geliyor, menü tek yerden güncelleniyor.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <Link
-                      href="/web-tasarim/restoran"
-                      className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-4 py-2.5 text-sm font-bold text-white shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
-                    >
-                      Restoran Web Tasarım
-                      <ArrowUpRight className="h-4 w-4" />
-                    </Link>
-                    <Link
-                      href="/referanslar"
-                      className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-4 py-2.5 text-sm font-bold text-ink shadow-brutal-sm hover:shadow-brutal transition-all rounded-full"
-                    >
-                      Tüm Referanslar
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="grid gap-3">
-                  <div className="text-xs font-black uppercase tracking-wider text-ink/50 mb-1">
-                    Önce / sonra
-                  </div>
-                  {[
-                    { label: "Rezervasyon", before: "Telefonla", after: "Online form" },
-                    { label: "Menü", before: "PDF", after: "Dijital menü" },
-                    { label: "Konum", before: "Adres metni", after: "Google Maps" }
-                  ].map((s, j) => (
-                    <div
-                      key={j}
-                      className={cn(
-                        "border-3 border-ink/15 p-4 shadow-brutal-sm flex items-center justify-between gap-3 rounded-2xl",
-                        j === 1 ? "bg-light text-ink" : "bg-light text-ink"
-                      )}
-                    >
-                      <div className="text-xs font-bold uppercase tracking-wider opacity-80">
-                        {s.label}
-                      </div>
-                      <div className="flex items-center gap-2 font-display font-black leading-none">
-                        <span className="text-sm opacity-60 line-through">{s.before}</span>
-                        <ArrowRight className="h-4 w-4 opacity-60" />
-                        <span className="text-xl md:text-2xl">{s.after}</span>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </Reveal>
-        </div>
-      </section>
 
       <MoreDetails title="Ayrıntılar: Siteniz neden satmıyor olabilir?" summary="Mobil, hız, SEO ve yönlendirme sorunları">
       {/* 3. PROBLEM */}
