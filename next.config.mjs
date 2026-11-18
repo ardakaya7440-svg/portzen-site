@@ -29,6 +29,7 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      { source: '/referanslar', destination: '/', permanent: true },
       { source: '/hizmetler', destination: '/', permanent: true },
       { source: '/hizmetler/web-tasarim', destination: '/web-tasarim', permanent: true },
       { source: '/hizmetler/ai-bot', destination: '/whatsapp-ai-asistani', permanent: true },
