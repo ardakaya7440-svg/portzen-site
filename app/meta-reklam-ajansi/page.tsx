@@ -32,7 +32,7 @@ import { MoreDetails } from "@/components/visual/MoreDetails";
 import { formatTL, familyPriceSummary, AD_SPEND_CAP, AD_OVERAGE_RATE } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Meta Reklam Ajansı | Facebook + Instagram Reklam Yönetimi - PORTZEN",
+  title: { absolute: "Meta Reklam Ajansı | Facebook + Instagram Reklam Yönetimi - PORTZEN" },
   description:
     "Meta reklam ajansı arıyorsanız PORTZEN. Facebook ve Instagram reklamlarını ROAS odaklı yönetir, AI ile kreatif üretiriz. KOBİ için ölçüme dayalı yönetim, şeffaf raporlama.",
   keywords: [

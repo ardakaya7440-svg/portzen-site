@@ -21,7 +21,7 @@ import { MoreDetails } from "@/components/visual/MoreDetails";
 import { formatTL, familyPriceSummary, AD_SPEND_CAP, AD_OVERAGE_RATE } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Sosyal Medya Yönetimi | Instagram + Facebook + TikTok Aylık Paket - PORTZEN",
+  title: { absolute: "Sosyal Medya Yönetimi | Instagram + Facebook + TikTok Aylık Paket - PORTZEN" },
   description:
     "Sosyal medya yönetimi hizmeti: Instagram, Facebook, TikTok, LinkedIn içerik üretimi, planlama, reklam ve topluluk yönetimi. Aylık paket, aylık raporlama.",
   keywords: [

@@ -15,7 +15,7 @@ import { cn } from "@/lib/utils";
 import { familyPriceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Oto Galeri Lead Soğutma WhatsApp Bot | PORTZEN",
+  title: { absolute: "Oto Galeri Lead Soğutma WhatsApp Bot | PORTZEN" },
   description:
     "Oto galeri leadlerine WhatsApp'tan otomatik yanıt veren bot: test sürüşü randevusu, kredi ve ekspertiz yönlendirmesi, sıcak leadin satıcıya devri.",
   keywords: [

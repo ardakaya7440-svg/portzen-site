@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { ArrowUpRight, Mail, MapPin } from "lucide-react";
+import { ArrowUpRight, Instagram, Linkedin, Mail, MapPin, Star } from "lucide-react";
 import { OFFICES } from "@/data/offices";
+import { GOOGLE_PROFILE, SOCIAL } from "@/data/social";
 
 /**
  * Footer — Studiova düzeni, koyu zemin.
@@ -105,6 +106,35 @@ export function Footer() {
                 <Mail className="h-4 w-4 text-lime" />
                 destek@portzenai.com
               </a>
+              <a
+                href={GOOGLE_PROFILE.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 hover:text-lime transition-colors"
+              >
+                <Star className="h-4 w-4 text-lime" />
+                Google&apos;da {GOOGLE_PROFILE.rating} puan · yorumları görün
+              </a>
+              <div className="mt-2 flex items-center gap-3">
+                <a
+                  href={SOCIAL.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="PORTZEN Instagram"
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/20 hover:text-lime hover:border-lime transition-colors"
+                >
+                  <Instagram className="h-4 w-4" />
+                </a>
+                <a
+                  href={SOCIAL.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="PORTZEN LinkedIn"
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/20 hover:text-lime hover:border-lime transition-colors"
+                >
+                  <Linkedin className="h-4 w-4" />
+                </a>
+              </div>
               <div className="mt-3">
                 <p className="text-xs font-bold uppercase tracking-wider text-white/50">Ofislerimiz</p>
                 <ul className="mt-3 space-y-3">
@@ -131,7 +161,7 @@ export function Footer() {
           <Col title="Karşılaştırma" items={KARSILASTIRMA} />
           <div className="flex flex-col gap-8">
             <Col title="Kurumsal" items={KURUMSAL} />
-            <Col title="Sektörel örnekler" items={SEKTOREL} />
+            <Col title="Sektörel çözümler" items={SEKTOREL} />
             <Col title="Yasal" items={YASAL} />
           </div>
         </div>

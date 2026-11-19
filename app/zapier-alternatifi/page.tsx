@@ -21,7 +21,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Zapier Alternatifi | Türk Uygulamalarına Entegre Otomasyon — PORTZEN",
+  title: { absolute: "Zapier Alternatifi | Türk Uygulamalarına Entegre Otomasyon — PORTZEN" },
   description:
     "Zapier'in dolar bağımlılığı yerine n8n + Make + özel kod ile Logo, Mikro, NetGSM, Iyzico entegre otomasyon. KOBİ için; KVKK gereklilikleri dikkate alınarak kurgulanır.",
   keywords: [

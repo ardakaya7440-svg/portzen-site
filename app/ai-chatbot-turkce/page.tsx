@@ -22,7 +22,7 @@ import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
 import { MoreDetails } from "@/components/visual/MoreDetails";
 
 export const metadata: Metadata = {
-  title: "Türkçe AI Chatbot | Doğal Türkçe, KVKK Odaklı Kurulum — PORTZEN",
+  title: { absolute: "Türkçe AI Chatbot | Doğal Türkçe, KVKK Odaklı Kurulum — PORTZEN" },
   description:
     "Türkçe doğal yanıt veren AI chatbot. Sen/siz ayrımı, sektör jargonu, KVKK gerekliliklerini dikkate alan kurulum. WhatsApp + Instagram + Telegram + Web.",
   keywords: [

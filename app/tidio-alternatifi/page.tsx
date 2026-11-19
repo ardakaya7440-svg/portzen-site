@@ -19,7 +19,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Tidio Alternatifi | WhatsApp+IG+Chat Tek Panelde — PORTZEN",
+  title: { absolute: "Tidio Alternatifi | WhatsApp+IG+Chat Tek Panelde — PORTZEN" },
   description:
     "Tidio'nun chat-only odağı yerine WhatsApp Business API + Instagram DM + canlı chat tek panelde (üç kanal birlikte Kurumsal pakette). KVKK gereklilikleri dikkate alınarak kurgulanır, Türkçe doğal yanıt.",
   keywords: [

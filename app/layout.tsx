@@ -89,15 +89,19 @@ const organizationSchema = {
     "@type": "Person",
     name: "Arda Kaya",
     url: "https://ardakayaa.com",
-    sameAs: ["https://www.instagram.com/ardakaya.ai/"]
+    image: "https://portzenai.com/assets/team/arda-kaya.webp",
+    jobTitle: "Kurucu",
+    sameAs: ["https://www.instagram.com/ardakaya.ai/", "https://www.linkedin.com/in/arda-kaya-011861269/"]
   },
   slogan: "Sosyal medyanızı yönetiriz. Yazılımınızı geliştiririz.",
   address: [
     {
       "@type": "PostalAddress",
-      addressCountry: "TR",
+      streetAddress: "Adatepe Mah., Doğuş Cd. No:207 D:Z, Merkez Yerleşke",
+      postalCode: "35390",
+      addressLocality: "Buca",
       addressRegion: "İzmir",
-      addressLocality: "İzmir"
+      addressCountry: "TR"
     },
     {
       "@type": "PostalAddress",
@@ -133,8 +137,11 @@ const organizationSchema = {
     availableLanguage: ["Turkish"],
     areaServed: "TR"
   },
+  hasMap: "https://www.google.com/maps?cid=2906769941333694505",
   sameAs: [
-    "https://www.linkedin.com/company/portzenai/"
+    "https://www.linkedin.com/company/portzenai/",
+    "https://www.instagram.com/portzen.ai/",
+    "https://www.google.com/maps?cid=2906769941333694505"
   ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",

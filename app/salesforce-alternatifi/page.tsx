@@ -20,7 +20,7 @@ import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
 import { PricingSection } from "@/components/pricing/PricingSection";
 
 export const metadata: Metadata = {
-  title: "Salesforce Alternatifi | KOBİ İçin Esnek CRM + AI - PORTZEN",
+  title: { absolute: "Salesforce Alternatifi | KOBİ İçin Esnek CRM + AI - PORTZEN" },
   description:
     "Salesforce KOBİ için overkill. PORTZEN; HubSpot Free + Zoho + Pipedrive seviyesinde sade CRM + custom workflow + AI ile Salesforce'un yerini alır.",
   keywords: [

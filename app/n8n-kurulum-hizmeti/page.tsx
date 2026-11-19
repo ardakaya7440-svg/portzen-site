@@ -21,7 +21,7 @@ import { PricingSection } from "@/components/pricing/PricingSection";
 import { PRICING, familyOffersSchema, formatTL } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "n8n Kurulum Hizmeti | Self-Hosted Otomasyon Türkiye — PORTZEN",
+  title: { absolute: "n8n Kurulum Hizmeti | Self-Hosted Otomasyon Türkiye — PORTZEN" },
   description:
     "n8n self-hosted kurulumu, Docker + SSL + backup, Türk uygulamalar entegre (Logo, Mikro, Iyzico, NetGSM). Zapier'den geçiş, eğitim, bakım. Tek seferlik kurulum.",
   keywords: [

@@ -20,7 +20,7 @@ import { PricingSection } from "@/components/pricing/PricingSection";
 import { PRICING, formatTL, familyPriceSummary, AI_REPLY_QUOTA } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "WhatsApp Chatbot Fiyat Rehberi — 2026 Türkiye | PORTZEN",
+  title: { absolute: "WhatsApp Chatbot Fiyat Rehberi — 2026 Türkiye | PORTZEN" },
   description:
     `WhatsApp chatbot fiyatları 2026 (KDV hariç): ${familyPriceSummary("ai-musteri-asistani")}. Paket kapsamları, AI yanıt kotaları ve fiyatı etkileyen faktörler.`,
   keywords: [

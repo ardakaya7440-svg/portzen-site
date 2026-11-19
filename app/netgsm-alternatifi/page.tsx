@@ -20,7 +20,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Netgsm Alternatifi | WhatsApp + Email + SMS Çok Kanallı Otomasyon - PORTZEN",
+  title: { absolute: "Netgsm Alternatifi | WhatsApp + Email + SMS Çok Kanallı Otomasyon - PORTZEN" },
   description:
     "Sadece SMS yerine WhatsApp + Email + SMS çoklu kanal ile iki yönlü müşteri iletişimi. PORTZEN tetikleyici tabanlı, çok kanallı mesajlaşma otomasyonu kurar.",
   keywords: [

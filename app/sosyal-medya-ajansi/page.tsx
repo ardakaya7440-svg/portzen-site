@@ -27,7 +27,7 @@ import { PricingSection } from "@/components/pricing/PricingSection";
 import { PRICING, familyOffersSchema, formatTL, familyPriceSummary, AD_SPEND_CAP, AD_OVERAGE_RATE } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Sosyal Medya Ajansı | İzmir, İstanbul, Türkiye - PORTZEN",
+  title: { absolute: "Sosyal Medya Ajansı | İzmir, İstanbul, Türkiye - PORTZEN" },
   description:
     "Sosyal medya ajansı arıyorsanız doğru yerdesiniz. PORTZEN; Instagram, Facebook, TikTok ve LinkedIn yönetimi, içerik üretimi, reklam ve büyüme stratejisi - tek ekipten.",
   keywords: [

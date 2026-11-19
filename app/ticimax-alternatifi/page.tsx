@@ -22,7 +22,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Ticimax Alternatifi | Modern E-Ticaret Yazılım Karşılaştırması - PORTZEN",
+  title: { absolute: "Ticimax Alternatifi | Modern E-Ticaret Yazılım Karşılaştırması - PORTZEN" },
   description:
     "Ticimax hazır kalıp e-ticaret altyapısı yerine markanıza özel Next.js + AI ile geliştirilen modern e-ticaret çözümü. Hız, SEO ve dönüşüm optimizasyonu PORTZEN ile.",
   keywords: [

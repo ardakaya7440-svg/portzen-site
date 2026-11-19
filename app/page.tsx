@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
+import { ArrowUpRight, Mail, MapPin, Phone, Star } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { PRICING, SINGLE, formatTL } from "@/data/pricing";
 import { getPublicContent } from "@/server/cms";
@@ -7,6 +7,7 @@ import { BrandStrip } from "@/components/cms/BrandStrip";
 import { TestimonialGrid } from "@/components/cms/Testimonials";
 import { ProcessDiagram } from "@/components/visual/ProcessDiagram";
 import { OFFICES } from "@/data/offices";
+import { GOOGLE_PROFILE } from "@/data/social";
 
 /**
  * Ana sayfa sırası: kısa giriş → marka şeridi → çalışma süreci → müşteri yorumları → SSS → iletişim.
@@ -195,6 +196,16 @@ export default async function HomePage() {
                 </Reveal>
               ))}
             </div>
+            <a
+              href={GOOGLE_PROFILE.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-slate/80 hover:text-slate transition-colors"
+            >
+              <Star className="h-4 w-4 fill-current" />
+              Google&apos;da {GOOGLE_PROFILE.rating} puan · yorumları görün
+              <ArrowUpRight className="h-4 w-4" />
+            </a>
           </div>
         </div>
       </section>

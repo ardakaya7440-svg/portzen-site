@@ -10,7 +10,7 @@ import { Reveal } from "@/components/ui/reveal";
  */
 
 export const metadata: Metadata = {
-  title: "Karşılaştırma — Türkçe Alternatifler | PORTZEN",
+  title: { absolute: "Karşılaştırma — Türkçe Alternatifler | PORTZEN" },
   description:
     "CRM, chatbot, e-posta pazarlama, e-ticaret, otomasyon ve daha fazlası için Türkiye pazarına uygun alternatif çözümler. Sektörünüze göre yerelleştirilmiş sistem kurulumu.",
   alternates: { canonical: "https://portzenai.com/karsilastirma" }

@@ -22,7 +22,7 @@ import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
 import { PricingSection } from "@/components/pricing/PricingSection";
 
 export const metadata: Metadata = {
-  title: "Mailchimp Alternatifi | Türk KOBİ İçin Email Otomasyonu - PORTZEN",
+  title: { absolute: "Mailchimp Alternatifi | Türk KOBİ İçin Email Otomasyonu - PORTZEN" },
   description:
     "Mailchimp KVKK uyumu sizde, Türkçe destek yok. PORTZEN; Brevo / Resend backend, dinamik segment, İYS izin kontrolü ve KVKK gerekliliklerini dikkate alan email otomasyonu kurar.",
   keywords: [

@@ -22,7 +22,7 @@ import { MoreDetails } from "@/components/visual/MoreDetails";
 import { familyPriceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Sosyal Medya Viral Video | Reels + TikTok Üretim ve Strateji, PORTZEN",
+  title: { absolute: "Sosyal Medya Viral Video | Reels + TikTok Üretim ve Strateji, PORTZEN" },
   description:
     "Sosyal medya viral video üretimi: Reels, TikTok ve Shorts formatında hook, edit, sound trend uyumlu içerikler. Algoritma sinyallerine göre kurgulanan formül, aylık paket.",
   keywords: [

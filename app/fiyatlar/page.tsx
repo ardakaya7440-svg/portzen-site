@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://portzenai.com/fiyatlar",
     siteName: "PORTZEN",
-    title: "PORTZEN Fiyatlar — Başlangıç, Büyüme ve Kurumsal paketler",
+    title: { absolute: "PORTZEN Fiyatlar — Başlangıç, Büyüme ve Kurumsal paketler" },
     description: "Tüm hizmetlerin paket fiyatları ve kapsamları tek sayfada. Tutarlar KDV hariçtir."
   },
   robots: { index: true, follow: true }

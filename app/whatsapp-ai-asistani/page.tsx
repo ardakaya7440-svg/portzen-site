@@ -23,7 +23,7 @@ import { MoreDetails } from "@/components/visual/MoreDetails";
 import { familyPriceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "WhatsApp AI Asistanı | 7/24 Müşteri Temsilcisi — PORTZEN",
+  title: { absolute: "WhatsApp AI Asistanı | 7/24 Müşteri Temsilcisi — PORTZEN" },
   description:
     "WhatsApp AI asistanı kurulumu: gelen mesajlara otomatik yanıt, randevu açma, sipariş alma. KOBİ'ler için WhatsApp Business API üzerinden kurulum; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. 15 dakikalık ücretsiz keşif.",
   keywords: [

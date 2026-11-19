@@ -22,7 +22,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "iyzico Alternatifi | Düşük Komisyonlu Ödeme Sistemleri - PORTZEN",
+  title: { absolute: "iyzico Alternatifi | Düşük Komisyonlu Ödeme Sistemleri - PORTZEN" },
   description:
     "iyzico komisyonu yüksek geliyor mu? PayTR, Garanti Sanal POS, Param ve Stripe TR karşılaştırması. Doğru ödeme sağlayıcısı seçimi ve sitenize entegrasyonu PORTZEN ile.",
   keywords: [

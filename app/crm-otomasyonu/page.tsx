@@ -36,7 +36,7 @@ const DESCRIPTION =
   "Manuel takibe son. Lead toplama, CRM entegrasyonu, satış otomasyonu ve iş süreçleri otomasyonu tek sistemde. WhatsApp, email, Sheets, Notion entegre. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: { absolute: TITLE },
   description: DESCRIPTION,
   keywords: [
     "crm otomasyonu",

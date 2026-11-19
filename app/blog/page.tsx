@@ -1,13 +1,13 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ArrowUpRight, Calendar, Clock, Tag } from "lucide-react";
-import { ALL_CATEGORIES, CATEGORY_META, POSTS_PER_PAGE, getPaginatedPosts } from "@/lib/blog";
+import { getActiveCategories, CATEGORY_META, POSTS_PER_PAGE, getPaginatedPosts } from "@/lib/blog";
 import { cn } from "@/lib/utils";
 import { Reveal } from "@/components/ui/reveal";
 import { Pagination } from "@/components/blog/Pagination";
 
 export const metadata: Metadata = {
-  title: "PORTZEN Blog — AI, Sosyal Medya, Otomasyon ve Web Yazılım Rehberi",
+  title: { absolute: "PORTZEN Blog — AI, Sosyal Medya, Otomasyon ve Web Yazılım Rehberi" },
   description:
     "Yapay zeka, WhatsApp asistanları, sosyal medya yönetimi, otomasyon sistemleri ve web tasarımı üzerine KOBİ'ler için pratik rehberler. PORTZEN'in editör seçkisi.",
   openGraph: {
@@ -70,7 +70,7 @@ export default function BlogIndexPage() {
               >
                 Tümü
               </Link>
-              {ALL_CATEGORIES.map((c) => (
+              {getActiveCategories().map((c) => (
                 <Link
                   key={c.slug}
                   href={`/blog/kategori/${c.slug}`}

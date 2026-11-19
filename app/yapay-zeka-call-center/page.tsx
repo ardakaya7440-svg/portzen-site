@@ -29,7 +29,7 @@ import { MoreDetails } from "@/components/visual/MoreDetails";
 import { SINGLE, singleOffersSchema, singlePriceLabel } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Yapay Zeka Call Center | Türkçe Sesli AI Müşteri Hizmetleri - PORTZEN",
+  title: { absolute: "Yapay Zeka Call Center | Türkçe Sesli AI Müşteri Hizmetleri - PORTZEN" },
   description:
     "Yapay zeka call center kurulumu: 7/24 Türkçe sesli müşteri desteği, çağrı karşılama, randevu açma. Rutin çağrıları AI karşılar, gerektiğinde ekibinize aktarır.",
   keywords: [

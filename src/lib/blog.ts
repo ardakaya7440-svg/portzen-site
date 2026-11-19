@@ -138,6 +138,12 @@ export const ALL_CATEGORIES: { slug: BlogCategory; label: string }[] = Object.en
   ([slug, meta]) => ({ slug: slug as BlogCategory, label: meta.label })
 );
 
+/** Yalnızca en az bir yazısı olan kategoriler (boş kategori linki ve sayfası gösterilmez) */
+export function getActiveCategories(): { slug: BlogCategory; label: string }[] {
+  const used = new Set(getAllPostsMeta().map((p) => p.category));
+  return ALL_CATEGORIES.filter((c) => used.has(c.slug));
+}
+
 /* ============================================================
    PAGINATION
    ============================================================ */

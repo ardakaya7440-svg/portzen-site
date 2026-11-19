@@ -16,7 +16,7 @@ import { cn } from "@/lib/utils";
 import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Avukat Dosya Takip Portalı + Müvekkil WhatsApp | PORTZEN",
+  title: { absolute: "Avukat Dosya Takip Portalı + Müvekkil WhatsApp | PORTZEN" },
   description:
     "Hukuk büroları için müvekkil dosya takip portalı ve otomatik WhatsApp bilgilendirme. Duruşma, tebligat, karar özet — müvekkil dosya durumunu portaldan görür, önemli aşamalarda WhatsApp ile bilgilendirilir.",
   keywords: [

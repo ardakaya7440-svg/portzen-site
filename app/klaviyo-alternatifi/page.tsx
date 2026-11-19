@@ -19,7 +19,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Klaviyo Alternatifi | E-Ticaret İçin Daha Ekonomik Otomasyon - PORTZEN",
+  title: { absolute: "Klaviyo Alternatifi | E-Ticaret İçin Daha Ekonomik Otomasyon - PORTZEN" },
   description:
     "Klaviyo profil sayısı arttıkça fatura hızla büyür. PORTZEN; cart abandonment, win-back, post-purchase otomasyonlarını KVKK gerekliliklerini dikkate alarak, Türkçe destekle kurar.",
   keywords: [
