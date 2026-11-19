@@ -51,7 +51,7 @@ export function RelatedSectorsSection({ service }: Props) {
             </h2>
             <p className="mt-3 text-body text-ink/70 max-w-prose">
               Sektörünüze özel kurguladığımız sayfalardan birini seçin — orada sizin işinize özel
-              problem, çözüm, fiyat ve örnek senaryolar var.
+              problem, çözüm, fiyat ve kurulum adımları var.
             </p>
           </div>
         </Reveal>

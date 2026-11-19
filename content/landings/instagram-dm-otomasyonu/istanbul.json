@@ -92,7 +92,7 @@
     "title": "Şişli'de bir estetik klinik için örnek kurulum",
     "paragraphs": [
       "Şişli'de hizmet veren bir estetik klinik düşünelim: Instagram'da geniş bir takipçi kitlesi var ve her gün çok sayıda DM alıyor. DM'leri küçük bir community manager ekibi yönetiyor; mesajların bir kısmı saatler sonra yanıtlanıyor, bir kısmı ise tamamen cevapsız kalıyor.",
-      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: fiyat aralığı, işlem bilgisi, KVKK aydınlatması, ödeme ve otopark gibi sık sorular hazır mesajlara dönüştürülür; randevu isteyen kullanıcıya Calendly linki gönderilir; story DM'leri ve ana DM'ler ayrı tetikleyicilerle yönetilir. Mesaj metinleri klinik tarafından onaylanır.",
+      "Bu kurulumda kural tabanlı Instagram DM otomasyonu kurulur: fiyat aralığı, işlem bilgisi, KVKK aydınlatması, ödeme ve otopark gibi sık sorular hazır mesajlara dönüştürülür; randevu isteyen kullanıcıya Calendly linki gönderilir; story DM'leri ve ana DM'ler ayrı tetikleyicilerle yönetilir. Mesaj metinleri klinik tarafından onaylanır.",
       "Böylece rutin sorulara ekip beklenmeden hazır mesajlarla yanıt verilir, randevu talebi doğrudan randevu sayfasına yönlenir; community manager ekibi kompleks danışmanlık ve operasyon mesajlarına odaklanır. Serbest sorulara AI ile yanıt istenirse bu, AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
     ],
     "beforeAfter": [

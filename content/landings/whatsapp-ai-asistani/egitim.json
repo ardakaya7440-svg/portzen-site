@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: İstanbul'da bir online kurs platformu için kayıt akışı",
+    "title": "İstanbul'da bir online kurs platformu için kayıt akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Şişli'de yazılım ve veri bilimi alanlarında online kurs satan bir platform, Instagram ve Google reklamlarından düzenli lead topluyor. Kayıt danışmanları akşam ve hafta sonu erişilemiyor, oysa lead'lerin önemli bir kısmı bu saatlerde mesaj atıyor; sorular yanıtsız kaldıkça ilgi soğuyor.",
+      "Şişli'de yazılım ve veri bilimi alanlarında online kurs satan bir platform, Instagram ve Google reklamlarından düzenli lead topluyor. Kayıt danışmanları akşam ve hafta sonu erişilemiyor, oysa lead'lerin önemli bir kısmı bu saatlerde mesaj atıyor; sorular yanıtsız kaldıkça ilgi soğuyor.",
       "Böyle bir yapıda önce demo ders gönderimi ve taksit bilgisi yanıt sistemi devreye alınır. Ardından kararsız lead'lere kurumun kendi mezun yorumlarını paylaşma akışı eklenir; gece gelen lead'ler sabah kayıt danışmanına sıcak randevu talebi olarak hazırlanır.",
       "Bu kurulumda müfredat, taksit ve sertifika soruları otomatik yanıtlanır, demo ders linki kişiselleştirilmiş şekilde gönderilir, kayıt adımları takip edilir. Kayıt danışmanları tekrar eden sorular yerine kapanışa yakın görüşmelere vakit ayırır; hangi sorularda lead'in takıldığı haftalık raporda görülür."
     ],

@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Tepebaşı'nda öğrencilere satış yapan bir el yapımı takı mağazası için e-ticaret",
+    "title": "Tepebaşı'nda öğrencilere satış yapan bir el yapımı takı mağazası için e-ticaret",
     "paragraphs": [
-      "Örnek bir kurulum: Tepebaşı'nda üniversite öğrencilerine el yapımı takı ve kıyafet satan bir e-ticaret işletmesi düşünün. Temel bir Shopify teması kullanıyor; ürün eklemek zahmetli, site mobilde yavaş, 'Eskişehir öğrenci takı' gibi aramalarda görünmüyor.",
-      "Bu senaryoda Next.js 15 + Sanity CMS + iyzico entegrasyonlu yeni bir site kurulur: öğrenci kitlesine uygun genç tasarım, ürün fotoğrafı + 360 derece video, dönem başı, mezuniyet ve sevgililer günü için kampanya banner'ları, Instagram feed'ini otomatik çekme, kargo + iade modülü ve bölge SEO sayfaları (Eskişehir, Tepebaşı, Anadolu Üniversitesi, ESOGÜ).",
+      "Tepebaşı'nda üniversite öğrencilerine el yapımı takı ve kıyafet satan bir e-ticaret işletmesi düşünün. Temel bir Shopify teması kullanıyor; ürün eklemek zahmetli, site mobilde yavaş, 'Eskişehir öğrenci takı' gibi aramalarda görünmüyor.",
+      "Bu kurulumda Next.js 15 + Sanity CMS + iyzico entegrasyonlu yeni bir site kurulur: öğrenci kitlesine uygun genç tasarım, ürün fotoğrafı + 360 derece video, dönem başı, mezuniyet ve sevgililer günü için kampanya banner'ları, Instagram feed'ini otomatik çekme, kargo + iade modülü ve bölge SEO sayfaları (Eskişehir, Tepebaşı, Anadolu Üniversitesi, ESOGÜ).",
       "Yayından sonra iş akışı şöyle değişir: Ürün ve kampanya güncellemeleri Sanity panelinden ajansa bağlı kalmadan yapılır; öğrenci mobilde ürünü bulur, iyzico ile öder, kargo ve iade süreci panelden takip edilir. Trafik ve sipariş rakamları ürün, fiyat ve tanıtıma bağlı olduğundan sonuç vaat etmiyoruz."
     ],
     "beforeAfter": [

@@ -446,18 +446,18 @@ export default function Page() {
       </section>
 
       </MoreDetails>
-      <MoreDetails title="Ayrıntılar: Örnek senaryo — hukuk bürosu" summary="Türkçe AI bot kurulumu nasıl işler?">
+      <MoreDetails title="Ayrıntılar: Kurulum nasıl işler — hukuk bürosu" summary="Türkçe AI bot kurulumu nasıl işler?">
       {/* 5. CASE STUDY */}
       <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: hukuk bürosu
+              Uygulamada: hukuk bürosu
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Örnek senaryo: bir hukuk bürosunda Türkçe AI bot kurulumu nasıl işler?
+              Bir hukuk bürosunda Türkçe AI bot kurulumu nasıl işler?
             </h2>
           </Reveal>
 
@@ -465,7 +465,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Bu örnek senaryoda orta ölçekli bir hukuk bürosu, web sitesinde yurtdışı bir chatbot SaaS&apos;ı (aylık $79) kullanıyor. Danışanlardan gelen &quot;avukatlık ücreti ne kadar&quot;, &quot;boşanma davası ne kadar sürer&quot;, &quot;miras paylaşımı nasıl olur&quot; gibi soruları bot çevirili bir Türkçeyle yanıtlıyor: &quot;Sana yardım etmek için buradayım&quot;, &quot;Senin sorunu çözmek istiyorum&quot;. Resmi bir hukuk bürosu için bu ton uygun değil.
+                  Tipik bir durumda orta ölçekli bir hukuk bürosu, web sitesinde yurtdışı bir chatbot SaaS&apos;ı (aylık $79) kullanıyor. Danışanlardan gelen &quot;avukatlık ücreti ne kadar&quot;, &quot;boşanma davası ne kadar sürer&quot;, &quot;miras paylaşımı nasıl olur&quot; gibi soruları bot çevirili bir Türkçeyle yanıtlıyor: &quot;Sana yardım etmek için buradayım&quot;, &quot;Senin sorunu çözmek istiyorum&quot;. Resmi bir hukuk bürosu için bu ton uygun değil.
                 </p>
                 <p>
                   Ayrıca bot &quot;Yargıtay içtihadı&quot;, &quot;mehir&quot;, &quot;nafaka&quot;, &quot;ihtiyati tedbir&quot; gibi hukuk terimlerini ya hiç anlamıyor ya da yanlış kullanıyor. Konuşma verilerinin nerede tutulduğu ve danışana özel veri isteyen konuşmaların KVKK açısından nasıl ele alındığı belirsiz.

@@ -266,7 +266,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: estetik-cilt kliniği
+              Uygulamada: estetik-cilt kliniği
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -279,7 +279,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Örnek senaryoda birden fazla hekimle çalışan ve hastalarının bir kısmı Meta reklamlarından gelen bir estetik-cilt kliniği düşünelim. Randevuya gelmeyen hastalar takvimde boş slot bırakıyor; resepsiyon ekibi günün başında teyit aramalarına zaman ayırıyor ama birçok hastaya ulaşamıyor.
+                  Birden fazla hekimle çalışan ve hastalarının bir kısmı Meta reklamlarından gelen bir estetik-cilt kliniği düşünelim. Randevuya gelmeyen hastalar takvimde boş slot bırakıyor; resepsiyon ekibi günün başında teyit aramalarına zaman ayırıyor ama birçok hastaya ulaşamıyor.
                 </p>
                 <p>
                   Brief görüşmesinde randevu akışı, klinik yönetim yazılımı ve hasta iletişim tonu birlikte çıkarılır. WhatsApp Business + SMS entegrasyonu, 3 aşamalı hatırlatma akışı ve iptal edilen slotu bekleme listesindeki hastaya otomatik teklif eden modül kurulur. KVKK açık rıza cümlesi randevu alma anına yerleştirilir.

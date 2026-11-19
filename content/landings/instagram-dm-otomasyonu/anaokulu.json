@@ -88,7 +88,7 @@
     "title": "Etiler'de butik bir anaokulu için örnek kurulum: yorum-DM köprüsü ve deneme dersi akışı",
     "paragraphs": [
       "Etiler'de butik bir anaokulu düşünelim: sınıf videoları ve atölye Reels'leri ilgi görüyor, ancak gelen DM'lerin önemli bir kısmı yanıtsız kalıyor; müdür akşamları telefondan mesaj yetiştirmeye çalışıyor.",
-      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: 'fiyat', 'kayıt', 'servis' gibi kelimelerle gelen yorumlara otomatik DM, deneme dersi randevu linki gönderen akış, kayıtlı/aday veli ayrımı için butonlar ve sık sorulan veli soruları için hazır mesajlar. Akış KVKK gerekliliklerini dikkate alarak kurgulanır, çocuk verisi istenmez; mesaj metinleri kurumun sıcak ve klişesiz diliyle yazılıp onaya sunulur.",
+      "Bu kurulumda kural tabanlı Instagram DM otomasyonu kurulur: 'fiyat', 'kayıt', 'servis' gibi kelimelerle gelen yorumlara otomatik DM, deneme dersi randevu linki gönderen akış, kayıtlı/aday veli ayrımı için butonlar ve sık sorulan veli soruları için hazır mesajlar. Akış KVKK gerekliliklerini dikkate alarak kurgulanır, çocuk verisi istenmez; mesaj metinleri kurumun sıcak ve klişesiz diliyle yazılıp onaya sunulur.",
       "Böylece sık sorulan veli sorularına müdürü beklemeden hazır mesajlarla dönülür, deneme dersi talebi doğrudan randevu sayfasına yönlenir, müdür yalnızca akışın kapsamadığı mesajlarla ilgilenir. Bir video çok ilgi gördüğünde gelen yorumlar da aynı kurallarla, Meta'nın gönderim limitleri dahilinde sırayla yanıtlanır."
     ],
     "beforeAfter": [

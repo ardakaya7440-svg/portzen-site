@@ -496,16 +496,16 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  <strong>Örnek senaryo: yüksek cirolu kozmetik markası.</strong> iyzico&apos;da standart komisyonla çalışıyor, taksitli işlemlerde oran daha da artıyor. PORTZEN analizinden sonra Garanti Sanal POS ile komisyon pazarlığı yapılır; iyzico yedek sağlayıcı olarak tutulur (Garanti reddederse işlem iyzico&apos;ya düşer, satış kaybı azaltılır).
+                  <strong>Yüksek cirolu kozmetik markası.</strong> iyzico&apos;da standart komisyonla çalışıyor, taksitli işlemlerde oran daha da artıyor. PORTZEN analizinden sonra Garanti Sanal POS ile komisyon pazarlığı yapılır; iyzico yedek sağlayıcı olarak tutulur (Garanti reddederse işlem iyzico&apos;ya düşer, satış kaybı azaltılır).
                 </p>
                 <p>
-                  <strong>Örnek senaryo: B2B SaaS girişimi.</strong> Abonelik satıyor, iyzico abonelik modülü kurulumu karmaşık geliyor. Stripe Atlas ile kurulmuş Delaware LLC yapısı olan girişim için Stripe ile otomatik tahsilat akışı kurulur; yurt içi satış için PayTR ikincil sağlayıcı olarak entegre edilir.
+                  <strong>B2B SaaS girişimi.</strong> Abonelik satıyor, iyzico abonelik modülü kurulumu karmaşık geliyor. Stripe Atlas ile kurulmuş Delaware LLC yapısı olan girişim için Stripe ile otomatik tahsilat akışı kurulur; yurt içi satış için PayTR ikincil sağlayıcı olarak entegre edilir.
                 </p>
                 <p>
-                  <strong>Örnek senaryo: butik moda markası.</strong> Taksitli satış payı yüksek, iyzico&apos;da taksit maliyeti artıyor. Akbank Sanal POS ile pazarlık yapılır, taksit yapısı yeniden kurgulanır. Sağlayıcının sunduğu aynı gün havale seçeneği eklendiğinde ödemeler daha sık aralıklarla hesaba geçer.
+                  <strong>Butik moda markası.</strong> Taksitli satış payı yüksek, iyzico&apos;da taksit maliyeti artıyor. Akbank Sanal POS ile pazarlık yapılır, taksit yapısı yeniden kurgulanır. Sağlayıcının sunduğu aynı gün havale seçeneği eklendiğinde ödemeler daha sık aralıklarla hesaba geçer.
                 </p>
                 <p>
-                  <strong>Örnek senaryo: ihracat yapan tekstil markası.</strong> Almanya ve Hollanda&apos;dan sipariş alıyor, yurt dışı kartlarda ret sorunu yaşıyor. Yurt dışı şirket yapısıyla (ör. Estonya e-Residency) Stripe kurulumu yapılır, yabancı para hesabı açılır; yurt dışı kartlar global sağlayıcı üzerinden işlenir.
+                  <strong>İhracat yapan tekstil markası.</strong> Almanya ve Hollanda&apos;dan sipariş alıyor, yurt dışı kartlarda ret sorunu yaşıyor. Yurt dışı şirket yapısıyla (ör. Estonya e-Residency) Stripe kurulumu yapılır, yabancı para hesabı açılır; yurt dışı kartlar global sağlayıcı üzerinden işlenir.
                 </p>
               </div>
             </Reveal>

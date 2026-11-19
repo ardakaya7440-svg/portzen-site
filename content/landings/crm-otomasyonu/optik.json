@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Köklü bir optik mağazası için kontrol, garanti ve lens hatırlatmaları",
+    "title": "Köklü bir optik mağazası için kontrol, garanti ve lens hatırlatmaları",
     "paragraphs": [
-      "Örnek senaryo: Yıllardır faaliyette olan, geçmiş yıllarda gözlük almış binlerce müşteri kaydı bulunan bir optik mağazası düşünün. Bu müşterilerle iletişim yok; periyodik kontrol hatırlatması yapılmıyor, garanti takibi yok, lens kullanıcıları başka yerden sipariş veriyor.",
-      "Örnek bir kurulumda mevcut optik yazılımına (ör. Optisyen Pro) HubSpot bağlanır. Müşteri veri göçü, segment tanımları (premium marka alan, lens kullanıcısı, son alışveriş tarihi), 3 aşamalı kontrol hatırlatma akışı (1 yıl, 14 ay, 18 ay), garanti süresi takibi, lens bitimi hatırlatma, teslim bildirimi ve sezon kampanya akışları devreye alınır.",
+      "Yıllardır faaliyette olan, geçmiş yıllarda gözlük almış binlerce müşteri kaydı bulunan bir optik mağazası düşünün. Bu müşterilerle iletişim yok; periyodik kontrol hatırlatması yapılmıyor, garanti takibi yok, lens kullanıcıları başka yerden sipariş veriyor.",
+      "Bu kurulumda mevcut optik yazılımına (ör. Optisyen Pro) HubSpot bağlanır. Müşteri veri göçü, segment tanımları (premium marka alan, lens kullanıcısı, son alışveriş tarihi), 3 aşamalı kontrol hatırlatma akışı (1 yıl, 14 ay, 18 ay), garanti süresi takibi, lens bitimi hatırlatma, teslim bildirimi ve sezon kampanya akışları devreye alınır.",
       "Bu kurulumla iş akışında değişen şudur: kontrol zamanı gelen her müşteriye hatırlatma otomatik gider, garantisi bitmek üzere olan müşteri önceden bilgilendirilir, lens kullanıcısına bitimden önce sipariş linki ulaşır. Hangi hatırlatmanın randevuya dönüştüğü aylık raporda izlenir."
     ],
     "beforeAfter": [

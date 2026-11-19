@@ -326,12 +326,12 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: semt eczanesi
+              Uygulamada: semt eczanesi
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Örnek senaryo: bir semt eczanesinde bekleme listesi nasıl otomatikleşir?
+              Bir semt eczanesinde bekleme listesi nasıl otomatikleşir?
             </h2>
           </Reveal>
 
@@ -339,7 +339,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Bu örnek senaryoda semt eczanesi, yoğun trafikte müşterinin sorup gittiği ilaçları elle deftere yazıyor. Akşam depoya sipariş girildikten sonra ertesi gün ilaç gelince tek tek WhatsApp yazma sırası geliyor; yoğunlukta bazı müşterilere ulaşılamıyor ve bu müşteriler ilacı başka eczaneden alıyor.
+                  Tipik bir durumda semt eczanesi, yoğun trafikte müşterinin sorup gittiği ilaçları elle deftere yazıyor. Akşam depoya sipariş girildikten sonra ertesi gün ilaç gelince tek tek WhatsApp yazma sırası geliyor; yoğunlukta bazı müşterilere ulaşılamıyor ve bu müşteriler ilacı başka eczaneden alıyor.
                 </p>
                 <p>
                   Brief görüşmesinde bekleme listesi akışı, en çok sorulan ilaçlar ve KVKK açık rıza cümlesi birlikte çıkarılır. Ardından WhatsApp Business API bağlantısı, tek sayfa personel paneli ve sıralı bildirim akışı hazırlanır. Pilot müşterilerle test edilir: kalfa &quot;stoğa girdi&quot; butonuna bastığında sistem sıralı mesajları otomatik gönderir ve gelen &quot;ayırabilir misin?&quot; yanıtlarını rezervasyon olarak kaydeder.

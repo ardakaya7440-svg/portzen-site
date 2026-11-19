@@ -86,9 +86,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Selçuklu'da bir mobilya showroom'u için randevu ve katalog akışı",
+    "title": "Selçuklu'da bir mobilya showroom'u için randevu ve katalog akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Selçuklu'da büyük bir showroom'u olan orta-üst segment bir mobilya markası, Instagram, Google ve referans üzerinden yoğun WhatsApp talebi alıyor. Satış temsilcileri yetişemiyor, mesajlar saatler sonra cevaplanıyor; randevu alıp gelmeyen müşteriler de showroom planını bozuyor.",
+      "Selçuklu'da büyük bir showroom'u olan orta-üst segment bir mobilya markası, Instagram, Google ve referans üzerinden yoğun WhatsApp talebi alıyor. Satış temsilcileri yetişemiyor, mesajlar saatler sonra cevaplanıyor; randevu alıp gelmeyen müşteriler de showroom planını bozuyor.",
       "Böyle bir yapıda Meta'nın resmi WhatsApp Business API'si kurulur; ürün kataloğu otomatik gönderimi, showroom rezervasyonu (Google Calendar entegrasyonu), satış temsilcisine otomatik atama, randevudan 24 saat önce hatırlatma ve ERP'den stok sorgusu (ör. Akınsoft) akışları eklenir. Türkçe + temel Arapça (ihracat için) yanıtlar hazırlanır.",
       "Bu kurulumda katalog ve stok soruları otomatik yanıtlanır, showroom randevusu takvime düşüp ilgili temsilciye atanır, müşteri randevudan önce hatırlatma alır. Satış temsilcileri mesaj yanıtlamak yerine showroom'daki müşteriye odaklanır."
     ],

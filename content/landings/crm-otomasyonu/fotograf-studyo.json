@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Düğün ve nişan çeken bir stüdyo için brief, teslim ve yıldönümü akışı",
+    "title": "Düğün ve nişan çeken bir stüdyo için brief, teslim ve yıldönümü akışı",
     "paragraphs": [
-      "Örnek senaryo: Düğün, nişan ve hamile çekimi yapan butik bir fotoğraf stüdyosu düşünün. Kapora alındıktan sonra çekime kadar süreç telefon ve WhatsApp ile elle yönetiliyor, yıldönümü pazarlaması hiç yapılmıyor, eski müşteriye dönülmüyor.",
-      "Örnek bir kurulumda CRM + otomasyon akışları kurulur: çekim türüne göre brief şablonları, retouching takip board'u, online galeri teslim akışı, yıldönümü tetiklemeleri (1 yıl evlilik, çocuk 1. yaş, evlilik 5. yıl) ve referans / yorum toplama akışı.",
+      "Düğün, nişan ve hamile çekimi yapan butik bir fotoğraf stüdyosu düşünün. Kapora alındıktan sonra çekime kadar süreç telefon ve WhatsApp ile elle yönetiliyor, yıldönümü pazarlaması hiç yapılmıyor, eski müşteriye dönülmüyor.",
+      "Bu kurulumda CRM + otomasyon akışları kurulur: çekim türüne göre brief şablonları, retouching takip board'u, online galeri teslim akışı, yıldönümü tetiklemeleri (1 yıl evlilik, çocuk 1. yaş, evlilik 5. yıl) ve referans / yorum toplama akışı.",
       "Bu kurulumla iş akışında değişen şudur: eski müşteri verisi sisteme aktarılır, çekim öncesi detaylar telefon yerine brief formuyla toplanır, teslim aşamaları müşteriye otomatik bildirilir, yıldönümü ve yorum istekleri kimsenin hatırlamasına gerek kalmadan zamanında gider."
     ],
     "beforeAfter": [

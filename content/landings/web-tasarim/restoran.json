@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Rezervasyonu DM ve telefondan alan bir brasserie için rezervasyon ve dijital menü",
+    "title": "Rezervasyonu DM ve telefondan alan bir brasserie için rezervasyon ve dijital menü",
     "paragraphs": [
-      "Örnek bir kurulum: Cihangir'de brunch ve akşam menüsü servis eden bir brasserie düşünün. Sitesi basit bir tek sayfa, menü PDF olarak yüklenmiş, online rezervasyon yok, harita kayıtları güncel değil. Tüm rezervasyonlar Instagram DM ve telefondan geliyor; hafta sonu telefonlara yetişilemiyor.",
-      "Bu senaryoda site yeniden kurulur: gün/saat seçimli rezervasyon formu, kategori filtreli dijital menü, Google Maps + ulaşım bilgisi, Yemeksepeti + Getir bağlantıları, sezonluk kampanya sayfası, atmosfer galerisi ve Google İşletme Profili düzenlemesi.",
+      "Cihangir'de brunch ve akşam menüsü servis eden bir brasserie düşünün. Sitesi basit bir tek sayfa, menü PDF olarak yüklenmiş, online rezervasyon yok, harita kayıtları güncel değil. Tüm rezervasyonlar Instagram DM ve telefondan geliyor; hafta sonu telefonlara yetişilemiyor.",
+      "Bu kurulumda site yeniden kurulur: gün/saat seçimli rezervasyon formu, kategori filtreli dijital menü, Google Maps + ulaşım bilgisi, Yemeksepeti + Getir bağlantıları, sezonluk kampanya sayfası, atmosfer galerisi ve Google İşletme Profili düzenlemesi.",
       "Yayından sonra iş akışı şöyle değişir: Misafir menüyü mobilde görür, rezervasyonu siteden yapar; talep yönetici paneline ve WhatsApp'a düşer, onay SMS ile otomatik gider. Paket sipariş isteyen müşteri doğrudan ilgili platforma yönlenir, menü ve kampanyalar panelden güncellenir. Rezervasyon ve doluluk sezona ve konuma bağlı olduğundan rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

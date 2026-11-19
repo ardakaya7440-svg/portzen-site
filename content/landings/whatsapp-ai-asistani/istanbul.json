@@ -89,9 +89,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Kadıköy Moda'da bir cafe & brunch işletmesi için sipariş ve rezervasyon akışı",
+    "title": "Kadıköy Moda'da bir cafe & brunch işletmesi için sipariş ve rezervasyon akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Kadıköy Moda'da popüler bir cafe & brunch işletmesine WhatsApp'tan rezervasyon, paket sipariş, menü sorgusu ve hafta sonu yoğunluk soruları geliyor. Bu mesajları tek bir kasiyer yetiştirmeye çalışıyor; yoğun saatlerde mesajlar cevapsız kalıyor.",
+      "Kadıköy Moda'da popüler bir cafe & brunch işletmesine WhatsApp'tan rezervasyon, paket sipariş, menü sorgusu ve hafta sonu yoğunluk soruları geliyor. Bu mesajları tek bir kasiyer yetiştirmeye çalışıyor; yoğun saatlerde mesajlar cevapsız kalıyor.",
       "Böyle bir yapıda WhatsApp AI asistanına menü, fiyat, paket teslimat bölgesi (Moda, Caddebostan, Suadiye, Bağdat Caddesi), rezervasyon takvimi ve hafta sonu yoğunluk bilgisi yüklenir. Vardiya geçişinde sabah ve akşam ekibi arasında konuşma özeti aktarılır, mesai dışı paket sipariş talepleri otomatik alınır.",
       "Bu kurulumda akşam 22:00 sonrası gelen 'yarın brunch için 4 kişilik rezervasyon' mesajı kapasiteye göre otomatik işlenir, paket siparişler eksiksiz bilgiyle ekibe düşer; kasiyer mesai içinde yalnızca özel durumlara odaklanır."
     ],

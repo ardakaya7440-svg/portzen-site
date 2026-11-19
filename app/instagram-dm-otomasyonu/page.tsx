@@ -362,18 +362,18 @@ export default function Page() {
         </div>
       </section>
 
-      <MoreDetails title="Ayrıntılar: Örnek senaryo — butik mağaza" summary="Anahtar kelime akışları nasıl kurulur?">
+      <MoreDetails title="Ayrıntılar: Kurulum nasıl işler — butik mağaza" summary="Anahtar kelime akışları nasıl kurulur?">
       {/* 6. CASE STUDY */}
       <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: butik mağaza
+              Uygulamada: butik mağaza
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Örnek senaryo: bir butikte kural tabanlı Instagram DM otomasyonu nasıl kurulur?
+              Bir butikte kural tabanlı Instagram DM otomasyonu nasıl kurulur?
             </h2>
           </Reveal>
 
@@ -381,7 +381,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Bu örnek senaryoda butik, Instagram&apos;dan her gün çok sayıda DM alıyor — &apos;fiyat ne&apos;, &apos;kargo dahil mi&apos;, &apos;X beden var mı&apos;, &apos;Y rengi geldi mi&apos;. Reklam başlayınca mesaj sayısı artıyor. Tek sosyal medya sorumlusu mesajlara yetişemiyor, gece gelen DM&apos;ler sabaha kadar bekliyor, müşteri başka sayfaya gidiyor.
+                  Tipik bir durumda butik, Instagram&apos;dan her gün çok sayıda DM alıyor — &apos;fiyat ne&apos;, &apos;kargo dahil mi&apos;, &apos;X beden var mı&apos;, &apos;Y rengi geldi mi&apos;. Reklam başlayınca mesaj sayısı artıyor. Tek sosyal medya sorumlusu mesajlara yetişemiyor, gece gelen DM&apos;ler sabaha kadar bekliyor, müşteri başka sayfaya gidiyor.
                 </p>
                 <p>
                   Brief&apos;te ürün kataloğu, sık sorulan beden/renk soruları, kargo şartları ve iade politikası çıkarılır. Ardından anahtar kelime akışları kurulur: &apos;fiyat&apos; anahtar kelimesi gelince ürün linki + fiyat paylaşılır, &apos;beden&apos; gelince beden tablosu gönderilir, &apos;kargo&apos; gelince teslimat koşulları anlatılır. Karmaşık vakalar (özel sipariş, dolar fiyat) sahibe devredilir.

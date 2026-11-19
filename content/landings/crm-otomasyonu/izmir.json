@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Alsancak'ta bir danışmanlık firması için lead pipeline'ı ve mahalle bazlı rapor",
+    "title": "Alsancak'ta bir danışmanlık firması için lead pipeline'ı ve mahalle bazlı rapor",
     "paragraphs": [
-      "Örnek senaryo: Alsancak'ta küçük bir ekiple çalışan kurumsal bir danışmanlık firması düşünün. Lead'ler WhatsApp grupları + Excel + Google Sheets karması üzerinden takip ediliyor; hangi lead kime ait, hangi aşamada — kimse net bilmiyor. Ortaklar her ay Excel düzenlemeye vakit ayırıyor.",
-      "Örnek bir kurulumda HubSpot Sales Hub üzerine Türkçeleştirme, KVKK gerekliliklerini dikkate alan rıza akışları, web formdan otomatik lead toplama, WhatsApp Business bağlantısı, satış ekibine otomatik atama, 24 saat takip ve kapanmazsa 7-14-30 günlük nurturing dizisi kurulur. Dashboard'a mahalle bazlı, sektör bazlı, kanal bazlı raporlama eklenir.",
+      "Alsancak'ta küçük bir ekiple çalışan kurumsal bir danışmanlık firması düşünün. Lead'ler WhatsApp grupları + Excel + Google Sheets karması üzerinden takip ediliyor; hangi lead kime ait, hangi aşamada — kimse net bilmiyor. Ortaklar her ay Excel düzenlemeye vakit ayırıyor.",
+      "Bu kurulumda HubSpot Sales Hub üzerine Türkçeleştirme, KVKK gerekliliklerini dikkate alan rıza akışları, web formdan otomatik lead toplama, WhatsApp Business bağlantısı, satış ekibine otomatik atama, 24 saat takip ve kapanmazsa 7-14-30 günlük nurturing dizisi kurulur. Dashboard'a mahalle bazlı, sektör bazlı, kanal bazlı raporlama eklenir.",
       "Bu kurulumla iş akışında değişen şudur: her satış temsilcisinin kendi pipeline'ı netleşir, takip ve nurturing mesajları otomatik gider, ortaklar tablonun özetini Excel düzenlemeden dashboard'dan alır."
     ],
     "beforeAfter": [

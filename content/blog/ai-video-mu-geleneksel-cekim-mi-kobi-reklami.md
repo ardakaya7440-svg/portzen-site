@@ -99,7 +99,7 @@ Hangi model sizin için doğru sorusuna cevap üretmek için beş net adım öne
 
 5. **Pilot bir kampanyayla başla.** İlk ay 5 farklı varyasyon üret, hangisinin daha yüksek dönüşüm verdiğini takip et. Sonuca göre model tercihini büyüt.
 
-## Örnek Senaryo: Bir Mobilya Markasında Karma Model
+## Uygulamada: Bir Mobilya Markasında Karma Model
 
 Örnek bir senaryo üzerinden düşünelim: yıllık reklam bütçesinin tamamını geleneksel prodüksiyona ayıran, yılda birkaç reklam üreten ve her biri haftalar süren bir mobilya markası. Karma yaklaşımda kurgu şöyle değişir:
 

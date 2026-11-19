@@ -89,7 +89,7 @@
     "title": "Selçuklu'da bir mobilya showroom'u için örnek kurulum",
     "paragraphs": [
       "Selçuklu'da geniş bir showroom'u olan orta-üst segment bir mobilya markası düşünelim: before-after Reels'leri ilgi görüyor, ancak gelen DM'leri tek bir personel cevaplamaya çalışıyor; mesajlar saatlerce bekliyor, müşteri başka mobilyacıya gidiyor. Şehir dışından gelen sorulara ise çoğu zaman hiç dönülemiyor.",
-      "Bu senaryoda Meta'nın resmi Instagram API'si üzerinden kural tabanlı akışlar kurulur: ürün kataloğu, taksit/kapora/kredi bilgisi, showroom randevu linki, şehir dışı müşteriler için kargo ve montaj bilgisi ve Selçuklu/Karatay/Meram showroom seçimi butonları. Reels yorumlarında anahtar kelime yazanlara otomatik DM gider.",
+      "Bu kurulumda Meta'nın resmi Instagram API'si üzerinden kural tabanlı akışlar kurulur: ürün kataloğu, taksit/kapora/kredi bilgisi, showroom randevu linki, şehir dışı müşteriler için kargo ve montaj bilgisi ve Selçuklu/Karatay/Meram showroom seçimi butonları. Reels yorumlarında anahtar kelime yazanlara otomatik DM gider.",
       "Böylece fiyat, taksit ve kargo sorularına satış ekibi beklenmeden hazır mesajlarla yanıt verilir, randevu talebi doğrudan showroom randevu sayfasına yönlenir, şehir dışı müşteri online görüşme linkine ulaşır. Satış ekibi showroom'daki müşterilere ve akışın kapsamadığı taleplere odaklanır."
     ],
     "beforeAfter": [

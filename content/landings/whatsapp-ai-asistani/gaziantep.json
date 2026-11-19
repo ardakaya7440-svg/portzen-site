@@ -86,9 +86,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Şahinbey'de bir baklava ihracatçısı için üç dilli satış akışı",
+    "title": "Şahinbey'de bir baklava ihracatçısı için üç dilli satış akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Şahinbey'de baklava ve Antep fıstığı ihracatı yapan orta ölçekli bir üretici; Suudi Arabistan, BAE, Almanya ve ABD'ye satış yapıyor. WhatsApp'tan gelen sorguların çoğu Arapça veya İngilizce; satış ekibi çeviri aracı kullanıyor ve yanıtlar saat farkı nedeniyle gecikiyor.",
+      "Şahinbey'de baklava ve Antep fıstığı ihracatı yapan orta ölçekli bir üretici; Suudi Arabistan, BAE, Almanya ve ABD'ye satış yapıyor. WhatsApp'tan gelen sorguların çoğu Arapça veya İngilizce; satış ekibi çeviri aracı kullanıyor ve yanıtlar saat farkı nedeniyle gecikiyor.",
       "Böyle bir yapıda Meta'nın resmi WhatsApp Business API'si, AI asistan ve HubSpot CRM entegrasyonu kurulur. Üç dilli (TR + EN + AR) asistana ürün kataloğu, MOQ tabloları, FOB / CIF fiyatları ve Helal + BRC sertifikaları yüklenir; B2B lead'ler otomatik olarak HubSpot'a düşer.",
       "Bu kurulumda alıcı hangi dilde yazarsa aynı dilde yanıt alır, katalog ve sertifika talepleri otomatik karşılanır, pazarlık ve büyük siparişler ihracat müdürüne devredilir. Satış ekibi manuel çeviri yerine teklif ve müzakereye odaklanır."
     ],

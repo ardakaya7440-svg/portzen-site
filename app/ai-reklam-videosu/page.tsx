@@ -363,12 +363,12 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: e-ticaret markası
+              Uygulamada: e-ticaret markası
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Örnek senaryo: bir e-ticaret markası için 5 filmlik AI video planı nasıl kurulur?
+              Bir e-ticaret markası için 5 filmlik AI video planı nasıl kurulur?
             </h2>
           </Reveal>
 
@@ -376,7 +376,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed">
                 <p>
-                  Bu örnek senaryoda marka ev tekstili satıyor. Geleneksel video çekimi için ajanslardan teklif alıyor — tek video için yüksek bütçe ve uzun bir çekim planı; üstelik beğenmediği konsepti silip yeniden çekemiyor. Reklamda eski katalog görsellerini kullanıyor.
+                  Tipik bir durumda marka ev tekstili satıyor. Geleneksel video çekimi için ajanslardan teklif alıyor — tek video için yüksek bütçe ve uzun bir çekim planı; üstelik beğenmediği konsepti silip yeniden çekemiyor. Reklamda eski katalog görsellerini kullanıyor.
                 </p>
                 <p>
                   Brief&apos;te 5 ürün kategorisi, hedef kitle (25-45 yaş kadın, ev sahibi) ve mevsim kampanyaları (ilkbahar yenileme) konuşulur. Beş filmlik bir üretim planı hazırlanır: her biri 15 saniye, Instagram Reels + Meta Ads formatında. Filmler kampanya takvimine yayılır — biri nevresim, sonraki perde, sonraki yatak örtüsü.

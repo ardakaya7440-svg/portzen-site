@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Kuaför ve berberin birlikte çalıştığı karma bir salonda sadakat ve hatırlatma akışları",
+    "title": "Kuaför ve berberin birlikte çalıştığı karma bir salonda sadakat ve hatırlatma akışları",
     "paragraphs": [
-      "Örnek senaryo: Kuaför ve berber ustalarının birlikte çalıştığı karma bir salon düşünün. Binlerce kayıtlı müşteri Excel'de dağınık; randevuya gelmeyenler ustaların saatini boşa çıkarıyor. Sadakat programı yok, doğum günü mesajları elle atılıyor ve çoğu unutuluyor, kayıp müşteri tespiti yapılmıyor.",
-      "Örnek bir kurulumda müşteri kayıtları yeni CRM'e aktarılır, 6 farklı segment oluşturulur ve sadakat puan sistemi devreye alınır. 3 aşamalı randevu hatırlatma + doğum günü kutlama + kayıp müşteri kazanım akışları kurulur; ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.",
+      "Kuaför ve berber ustalarının birlikte çalıştığı karma bir salon düşünün. Binlerce kayıtlı müşteri Excel'de dağınık; randevuya gelmeyenler ustaların saatini boşa çıkarıyor. Sadakat programı yok, doğum günü mesajları elle atılıyor ve çoğu unutuluyor, kayıp müşteri tespiti yapılmıyor.",
+      "Bu kurulumda müşteri kayıtları yeni CRM'e aktarılır, 6 farklı segment oluşturulur ve sadakat puan sistemi devreye alınır. 3 aşamalı randevu hatırlatma + doğum günü kutlama + kayıp müşteri kazanım akışları kurulur; ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.",
       "Bu kurulumla iş akışında değişen şudur: randevu hatırlatmaları ve onay butonları otomatik gider, iptal edilen saat sıradaki müşteriye duyurulur, doğum günü ve 'sizi özledik' mesajları kimsenin hatırlamasına gerek kalmadan zamanında çıkar. Hangi akışın randevu getirdiği panelden izlenir."
     ],
     "beforeAfter": [

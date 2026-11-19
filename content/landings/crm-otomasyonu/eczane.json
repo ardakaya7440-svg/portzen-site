@@ -84,10 +84,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bir mahalle eczanesinde kronik hasta ve ilaç bitti hatırlatması",
+    "title": "Bir mahalle eczanesinde kronik hasta ve ilaç bitti hatırlatması",
     "paragraphs": [
-      "Örnek senaryo: Ataşehir'de yoğun müşteri trafiği olan bir mahalle eczanesi düşünün. Kronik hastaların takibi Excel'de ve çalışanların hafızasında; ilaç bittiğinde hastanın kendisinin hatırlaması bekleniyor ve hasta zaman zaman yakındaki başka bir eczaneye gidiyor.",
-      "Örnek bir kurulumda mevcut hasta ve ilaç kayıtları, hangi alanların taşınacağı KVKK açısından belirlendikten sonra veritabanına aktarılır; HubSpot + WhatsApp Business API altyapısı kurulur. KVKK aydınlatma metni ve açık rıza akışı hazırlanır, çalışanlara panel eğitimi verilir (Büyüme ve Kurumsal paketlerde dahil).",
+      "Ataşehir'de yoğun müşteri trafiği olan bir mahalle eczanesi düşünün. Kronik hastaların takibi Excel'de ve çalışanların hafızasında; ilaç bittiğinde hastanın kendisinin hatırlaması bekleniyor ve hasta zaman zaman yakındaki başka bir eczaneye gidiyor.",
+      "Bu kurulumda mevcut hasta ve ilaç kayıtları, hangi alanların taşınacağı KVKK açısından belirlendikten sonra veritabanına aktarılır; HubSpot + WhatsApp Business API altyapısı kurulur. KVKK aydınlatma metni ve açık rıza akışı hazırlanır, çalışanlara panel eğitimi verilir (Büyüme ve Kurumsal paketlerde dahil).",
       "Bu kurulumla iş akışında değişen şudur: ilaç bitiş tarihi yaklaşan hastaya hatırlatma çalışanın inisiyatifine kalmadan otomatik gider, tansiyon ölçümü randevuları WhatsApp'tan alınıp takvime düşer, hangi hatırlatmanın geri dönüş aldığı aylık raporda görünür."
     ],
     "beforeAfter": [

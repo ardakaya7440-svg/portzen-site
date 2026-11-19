@@ -103,9 +103,9 @@ Karar sürecinizi somut hale getirecek altı adım öneriyoruz.
 
 6. **Karar noktasını 30 gün sonraya bırak.** Pilot sonrasında dönüşüm oranı, cevap süresi ve ekip yükü metriklerini bir ay önceki değerlerle kıyasla. Sistem net faydayı gösteriyorsa yaygınlaştır.
 
-## Örnek Senaryo: Bir Otomotiv Servisi
+## Uygulamada: Bir Otomotiv Servisi
 
-Aşağıdaki senaryo gerçek bir müşteri sonucu değil; karma modelin bir otomotiv serviste nasıl kurgulandığını gösteren örnek bir kurulumdur. İki kişilik bir telefon ekibiyle çalışan, telefonun yanında WhatsApp'a da düzenli mesaj alan ve bu mesajların önemli kısmı cevapsız kalan bir servis düşünelim. Karma modele geçişte iş akışında şunlar değişir:
+İki kişilik bir telefon ekibiyle çalışan, telefonun yanında WhatsApp'a da düzenli mesaj alan ve bu mesajların önemli kısmı cevapsız kalan bir servis düşünelim. Karma modele geçişte iş akışında şunlar değişir:
 
 - Önce: WhatsApp mesajları ekip müsait olduğunda, gecikmeyle yanıtlanıyor. Sonra: Bot mesaj geldiği anda otomatik yanıt veriyor.
 - Önce: Randevu talepleri telefonda elle not ediliyor. Sonra: Randevu talebi WhatsApp'tan alınıp takvime düşüyor.

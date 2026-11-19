@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Kadıköy'de 3 ortaklı bir hukuk bürosu için uzmanlık sayfaları ve blog altyapısı",
+    "title": "Kadıköy'de 3 ortaklı bir hukuk bürosu için uzmanlık sayfaları ve blog altyapısı",
     "paragraphs": [
-      "Örnek bir kurulum: Kadıköy'de aile, iş ve gayrimenkul hukuku odaklı çalışan 3 ortaklı bir hukuk bürosu düşünün. Eski WordPress sitesi mobil uyumsuz, 'avukat İstanbul' gibi aramalarda görünmüyor; danışanlar yalnızca tanıdık tavsiyesi ve ilan platformlarından geliyor.",
-      "Bu senaryoda site yeniden kurulur: her uzmanlık alanı (aile, iş, gayrimenkul) için ayrıntılı sayfa, ortak avukat profilleri, MDX blog motoru, KVKK gerekliliklerini gözeten danışan formu, Schema işaretlemesi ve 'Kadıköy boşanma avukatı', 'Anadolu Yakası iş hukuku' gibi bölge + uzmanlık sayfaları.",
+      "Kadıköy'de aile, iş ve gayrimenkul hukuku odaklı çalışan 3 ortaklı bir hukuk bürosu düşünün. Eski WordPress sitesi mobil uyumsuz, 'avukat İstanbul' gibi aramalarda görünmüyor; danışanlar yalnızca tanıdık tavsiyesi ve ilan platformlarından geliyor.",
+      "Bu kurulumda site yeniden kurulur: her uzmanlık alanı (aile, iş, gayrimenkul) için ayrıntılı sayfa, ortak avukat profilleri, MDX blog motoru, KVKK gerekliliklerini gözeten danışan formu, Schema işaretlemesi ve 'Kadıköy boşanma avukatı', 'Anadolu Yakası iş hukuku' gibi bölge + uzmanlık sayfaları.",
       "Yayından sonra ne değişir: Blog yazıları ilgili uzmanlık sayfalarına bağlanır; avukatı araştıran kişi uzmanlık, süreç ve avukat profilini tek yerde görür ve formdan başvurur, başvuru büroya e-postayla düşer. Sıralama ve danışan sayısı rekabete ve içerik düzenine bağlı olduğundan rakam vaat etmiyoruz; tüm metinler TBB Meslek Kuralları'na uygun, bilgilendirici dille yazılır."
     ],
     "beforeAfter": [

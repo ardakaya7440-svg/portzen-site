@@ -84,9 +84,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Cihangir'de bir butik restoran için cuma akşamı rezervasyon akışı",
+    "title": "Cihangir'de bir butik restoran için cuma akşamı rezervasyon akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: İstanbul Cihangir'de 40 kişilik bir butik restoran. WhatsApp aktif kullanılıyor ama mesai sonrası ve cuma akşamı yoğunluğunda gelen mesajlar yanıtsız kalıyor; cevap alamayan müşteriler başka restorana yöneliyor.",
+      "İstanbul Cihangir'de 40 kişilik bir butik restoran. WhatsApp aktif kullanılıyor ama mesai sonrası ve cuma akşamı yoğunluğunda gelen mesajlar yanıtsız kalıyor; cevap alamayan müşteriler başka restorana yöneliyor.",
       "Böyle bir yapıda menü (yemek ve içecek kategorileri), alerjen filtreleri ve rezervasyon takvimi asistana entegre edilir. Asistan rezervasyon alır, menüyü gösterir, mesai dışı paket sipariş taleplerini restoranın belirlediği kanala yönlendirir.",
       "Bu kurulumda cuma akşamı gelen rezervasyon talepleri masa müsaitliğine göre otomatik işlenir, dolu saatlerde alternatif slot önerilir, menü ve alerjen soruları güncel bilgiyle yanıtlanır. Ekip telefona bakmak yerine salondaki misafire odaklanır."
     ],

@@ -88,7 +88,7 @@
     "title": "Üsküdar'da bir mahalle eczanesi için örnek kurulum",
     "paragraphs": [
       "Üsküdar'da köklü bir mahalle eczanesi düşünelim: Instagram'da kış vitamini ve dermokozmetik üzerine Reels paylaşıyor; DM'lerin çoğu fiyat sorusu, stok kontrolü ve ev servis talebi. Eczacı reçeteyi hazırlarken DM'lere de bakmaya çalışıyor; gece gelen mesajlar sabaha kalıyor, müşteri dermokozmetiği zincir mağazadan alıyor.",
-      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: en çok sorulan OTC ürünler için fiyat ve bilgi mesajları, stok teyidi için eczacıya bildirim, tansiyon ve enjeksiyon randevu linki, ev servis bilgisi. Mesaj metinleri ilaç tanıtımına ilişkin mevzuat gözetilerek hazırlanır (reçeteli ilaç yanıtı yok, tıbbi tavsiye yok, doktora yönlendirme var) ve yayından önce eczacının onayından geçer.",
+      "Bu kurulumda kural tabanlı Instagram DM otomasyonu kurulur: en çok sorulan OTC ürünler için fiyat ve bilgi mesajları, stok teyidi için eczacıya bildirim, tansiyon ve enjeksiyon randevu linki, ev servis bilgisi. Mesaj metinleri ilaç tanıtımına ilişkin mevzuat gözetilerek hazırlanır (reçeteli ilaç yanıtı yok, tıbbi tavsiye yok, doktora yönlendirme var) ve yayından önce eczacının onayından geçer.",
       "Böylece fiyat, saat, lokasyon gibi standart sorulara eczacı beklenmeden hazır mesajlarla yanıt verilir; randevu talebi doğrudan randevu sayfasına yönlenir; reçeteli ilaç ya da sağlık durumu içeren mesajlar eczacıya bildirilir. Eczacı tüm DM'ler yerine yalnızca bildirim gelen mesajlarla ilgilenir. Hangi ürünlerin ve anahtar kelimelerin daha sık tetiklendiği izlenerek sezon mesajları güncellenir."
     ],
     "beforeAfter": [
@@ -145,5 +145,5 @@
     }
   ],
   "finalCtaHeadline": "Eczaneniz Reels paylaşsın, DM kayboldu derdi yaşamayın",
-  "finalCtaSubtitle": "15 dakikalık tanıtım görüşmesi: OTC katalogunuza uygun DM akışını örnek senaryolarla gösterelim. Mesajları sizin onayınızla hazırlıyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
+  "finalCtaSubtitle": "15 dakikalık tanıtım görüşmesi: OTC katalogunuza uygun DM akışını adım adım gösterelim. Mesajları sizin onayınızla hazırlıyoruz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 }

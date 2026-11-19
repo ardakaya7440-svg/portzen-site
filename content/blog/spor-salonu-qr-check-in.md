@@ -47,7 +47,7 @@ Yöneticiye sade bir panel sunmak şarttır. Excel kullanan bir işletme bile, G
 
 ### Antrenörle Veriyi Paylaşmak
 
-Çoğu spor salonu antrenörlerin müşteri ilişkisini sahiplendiği yerlerdir. PT'lere haftalık olarak kendi öğrencilerinin devam raporunu otomatik göndermek (her pazartesi WhatsApp'a düşen 3 satırlık özet) güçlü bir araçtır. Detaylı devam takibi için [spor salonu CRM otomasyonu sayfamızda](/crm-otomasyonu/spor-salonu) örnek senaryolara göz atabilirsiniz.
+Çoğu spor salonu antrenörlerin müşteri ilişkisini sahiplendiği yerlerdir. PT'lere haftalık olarak kendi öğrencilerinin devam raporunu otomatik göndermek (her pazartesi WhatsApp'a düşen 3 satırlık özet) güçlü bir araçtır. Detaylı devam takibi için [spor salonu CRM otomasyonu sayfamızda](/crm-otomasyonu/spor-salonu) kurulum adımlarına göz atabilirsiniz.
 
 ## 14 Gün Devamsızlık Alerti ve Otomatik Geri Kazanım
 

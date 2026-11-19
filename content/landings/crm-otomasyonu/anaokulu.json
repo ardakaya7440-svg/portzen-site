@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Çok şubeli bir anaokulunda veli takibi ve tahsilat hatırlatması",
+    "title": "Çok şubeli bir anaokulunda veli takibi ve tahsilat hatırlatması",
     "paragraphs": [
-      "Örnek senaryo: 3 şubeli bir anaokulu düşünün. Sekreterler Excel ile aday veli takibi yapıyor, kim hangi aşamada belli değil. Aylık fatura WhatsApp'tan tek tek atılıyor, geciken ödemeler için telefon takibi yapılıyor - awkward konuşmalar yaşanıyor. Üç şube arasında veli verisi tutarsız.",
-      "Örnek bir kurulumda HubSpot CRM üzerine aday veli pipeline'ı, deneme dersi sonrası otomatik akış (1-3-7 gün mesajları), fatura otomasyonu (Logo entegrasyonu ile), devamsızlık SMS bildirimi, gelişim raporu şablonu ve çoklu şube yönetimi kurulur. Kurgu KVKK gerekliliklerini dikkate alır, çocuk verisi minimumda tutulur.",
+      "3 şubeli bir anaokulu düşünün. Sekreterler Excel ile aday veli takibi yapıyor, kim hangi aşamada belli değil. Aylık fatura WhatsApp'tan tek tek atılıyor, geciken ödemeler için telefon takibi yapılıyor - awkward konuşmalar yaşanıyor. Üç şube arasında veli verisi tutarsız.",
+      "Bu kurulumda HubSpot CRM üzerine aday veli pipeline'ı, deneme dersi sonrası otomatik akış (1-3-7 gün mesajları), fatura otomasyonu (Logo entegrasyonu ile), devamsızlık SMS bildirimi, gelişim raporu şablonu ve çoklu şube yönetimi kurulur. Kurgu KVKK gerekliliklerini dikkate alır, çocuk verisi minimumda tutulur.",
       "Bu kurulumla iş akışında değişen şudur: ödeme hatırlatmaları sekreter aramadan otomatik gider, aday veliler pipeline'da aşamasıyla görünür ve takip tarihleri sistem tarafından hatırlatılır, üç şube aynı veli kaydını kullanır. Sekreterin tekrarlayan arama ve mesaj işi azalır."
     ],
     "beforeAfter": [

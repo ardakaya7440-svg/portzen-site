@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Shopify üzerinden satan bir butik için CRM kurulumu",
+    "title": "Shopify üzerinden satan bir butik için CRM kurulumu",
     "paragraphs": [
-      "Örnek senaryo: Shopify üzerinden satış yapan bir kadın giyim butiği düşünün. Sepete ekleyip satın almayan müşterilere hatırlatma gitmiyor, sadık müşteri belirsiz; yeni gelen koleksiyonlar VIP müşteriyle aynı tonla, aynı zamanda paylaşılıyor.",
-      "Örnek bir kurulumda mevcut müşteri kayıtları HubSpot'a aktarılır; Klaviyo email + WhatsApp Business API çift kanal kurulur. Abandoned cart 3 mesajlık seri, VIP segment akışı ve sadakat puan sistemi devreye alınır.",
+      "Shopify üzerinden satış yapan bir kadın giyim butiği düşünün. Sepete ekleyip satın almayan müşterilere hatırlatma gitmiyor, sadık müşteri belirsiz; yeni gelen koleksiyonlar VIP müşteriyle aynı tonla, aynı zamanda paylaşılıyor.",
+      "Bu kurulumda mevcut müşteri kayıtları HubSpot'a aktarılır; Klaviyo email + WhatsApp Business API çift kanal kurulur. Abandoned cart 3 mesajlık seri, VIP segment akışı ve sadakat puan sistemi devreye alınır.",
       "Bu kurulumla iş akışında değişen şudur: terk edilen her sepete hatırlatma serisi otomatik gider, müşteriler sipariş sıklığı ve sepet tutarına göre segmentlere ayrılır, sevgililer günü gibi kampanyalarda her segmente kendi mesajı gider. Geri kazanım ve açılma oranları CRM raporlarından izlenir."
     ],
     "beforeAfter": [

@@ -182,7 +182,7 @@ Statik dosyalar (görsel, font, CSS, JS) için cache süresi 1 yıl olmalı. HTM
 
 ## Sektörel Lighthouse Senaryoları
 
-Her sektörün kendine has darboğazları var. Aşağıdakiler örnek senaryolardır; gerçek müşteri sonuçları değil, tipik darboğazların nasıl çözüldüğünü gösterir.
+Her sektörün kendine has darboğazları var.
 
 ### E-Ticaret Butiği: 200 Ürünlü Mağaza
 

@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Rezervasyonu DM ve telefondan alan bir specialty kahve + brunch kafesi",
+    "title": "Rezervasyonu DM ve telefondan alan bir specialty kahve + brunch kafesi",
     "paragraphs": [
-      "Örnek bir kurulum: Kadıköy'de specialty kahve + brunch konseptiyle çalışan butik bir kafe düşünün. Sitesi basit bir tek sayfa, menü PDF olarak yüklenmiş, online rezervasyon yok, sezon menüsü güncel değil; tüm rezervasyonlar Instagram DM ve telefondan geliyor.",
-      "Bu senaryoda site yeniden kurulur: slot bazlı brunch rezervasyon sistemi, kategori filtreli dijital specialty kahve menüsü, sezon brunch kategorisi, latte art galerisi, kontenjanlı latte art workshop sayfası ve Google İşletme Profili düzenlemesi.",
+      "Kadıköy'de specialty kahve + brunch konseptiyle çalışan butik bir kafe düşünün. Sitesi basit bir tek sayfa, menü PDF olarak yüklenmiş, online rezervasyon yok, sezon menüsü güncel değil; tüm rezervasyonlar Instagram DM ve telefondan geliyor.",
+      "Bu kurulumda site yeniden kurulur: slot bazlı brunch rezervasyon sistemi, kategori filtreli dijital specialty kahve menüsü, sezon brunch kategorisi, latte art galerisi, kontenjanlı latte art workshop sayfası ve Google İşletme Profili düzenlemesi.",
       "Yayından sonra iş akışı şöyle değişir: Misafir hafta sonu brunch'ı için tarihi, saati ve kişi sayısını siteden seçer; talep admin paneline ve WhatsApp'a düşer, misafire onay otomatik gider. Sezon menüsü panelden güncellenir, workshop kontenjanı dolunca sayfa otomatik 'dolu' gösterir. Rezervasyon ve doluluk sezona ve konuma bağlı olduğundan rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

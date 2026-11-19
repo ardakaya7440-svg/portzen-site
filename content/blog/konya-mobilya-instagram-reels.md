@@ -158,7 +158,7 @@ Instagram trafiği büyüdükçe kaçınılmaz olarak gelen ihtiyaç: profesyone
 
 ## Konya Mobilya Senaryoları: Selçuklu, Karatay, Meram
 
-Konya mobilya sektöründe dijital dönüşümün farklı segmentlerde nasıl şekillenebileceğini örnek senaryolarla anlatmak faydalı olur. Aşağıdakiler gerçek müşteri sonuçları değil, benzer üreticiler için nasıl bir kurulum yapılabileceğini gösteren örneklerdir.
+Konya mobilya sektöründe dijital dönüşümün farklı segmentlerde nasıl şekillenebileceğini somut örneklerle anlatmak faydalı olur.
 
 Senaryo 1 — Selçuklu OSB'de orta ölçekli mobilya üreticisi: Mevcut durum yıllık 25 milyon TL ciro, %95 toptan kanaldan satış, Instagram'da 1.200 takipçi, fiyat baskısı sürekli artıyor. Örnek kurulum: Atölye süreçlerini gösteren haftalık reels stratejisi, "Made in Konya" marka kimliği, DM otomasyonu, e-ticaret sitesi. Amaç, toptan kanalı korurken doğrudan tüketiciye satış yapan ikinci bir kanal açmaktır.
 

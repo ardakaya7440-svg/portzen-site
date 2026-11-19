@@ -87,10 +87,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bahçelievler'de bir hukuk bürosu için semt + uzmanlık sayfaları ve ihale dosyasına hazır kurumsal site",
+    "title": "Bahçelievler'de bir hukuk bürosu için semt + uzmanlık sayfaları ve ihale dosyasına hazır kurumsal site",
     "paragraphs": [
-      "Örnek bir kurulum: Bahçelievler'de faaliyet gösteren orta ölçekli bir hukuk bürosu düşünün. Mevcut WordPress sitesi mobilde yavaş ve kamu ihalesi başvurularında kurumsal bir görüntü vermiyor; büro işlerinin neredeyse tamamını referansla alıyor, site yeni danışan getirmiyor.",
-      "Bu senaryoda büro için Next.js tabanlı bir kurumsal site geliştirilir: 'Çankaya boşanma avukatı', 'Bahçelievler iş hukuku', 'Yenimahalle ceza avukatı' gibi semt + uzmanlık landing sayfaları, Schema.org işaretlemesi, Google Business entegrasyonu; KVKK metinleri ve mersis bilgileri kamu ihale şartnamelerinde istenen kurumsal bilgileri karşılayacak şekilde yapılandırılır.",
+      "Bahçelievler'de faaliyet gösteren orta ölçekli bir hukuk bürosu düşünün. Mevcut WordPress sitesi mobilde yavaş ve kamu ihalesi başvurularında kurumsal bir görüntü vermiyor; büro işlerinin neredeyse tamamını referansla alıyor, site yeni danışan getirmiyor.",
+      "Bu kurulumda büro için Next.js tabanlı bir kurumsal site geliştirilir: 'Çankaya boşanma avukatı', 'Bahçelievler iş hukuku', 'Yenimahalle ceza avukatı' gibi semt + uzmanlık landing sayfaları, Schema.org işaretlemesi, Google Business entegrasyonu; KVKK metinleri ve mersis bilgileri kamu ihale şartnamelerinde istenen kurumsal bilgileri karşılayacak şekilde yapılandırılır.",
       "Yayından sonra ne değişir: İhale dosyasına eklenen site adresi kurumsal kimlik, mersis, KVKK ve iletişim bilgilerini tek yerde gösterir. Semt + uzmanlık aramasıyla gelen kişi ilgili sayfadan doğrudan iletişim formuna ulaşır, talep büroya e-postayla düşer. İhale kararları ve danışan sayısı sitenin kontrolünde olmadığı için sonuç rakamı vaat etmiyoruz."
     ],
     "beforeAfter": [

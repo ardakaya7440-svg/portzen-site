@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bir estetik klinikte lead karşılama, hatırlatma ve after-care akışı",
+    "title": "Bir estetik klinikte lead karşılama, hatırlatma ve after-care akışı",
     "paragraphs": [
-      "Örnek senaryo: Dermoestetik ve enjeksiyon hizmetleri sunan, Instagram'dan düzenli lead alan bir klinik düşünün. Resepsiyon WhatsApp ve DM mesajları arasında boğuluyor, after-care takibi yapılamıyor, danışan profili yok, ay sonu hangi tedavinin en karlı olduğu bilinmiyor.",
-      "Örnek bir kurulumda HubSpot CRM kliniğe özel alanlarla (tedavi türü, alerji, before-after, after-care planı) kurulur; WhatsApp Business API entegrasyonu, n8n ile otomatik lead karşılama mesajı, randevu hatırlatma serisi (24 saat + 3 saat öncesi), 6 ay sonra 'tekrar randevu' hatırlatması ve sadakat akışı (3. tedavide VIP) eklenir. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.",
+      "Dermoestetik ve enjeksiyon hizmetleri sunan, Instagram'dan düzenli lead alan bir klinik düşünün. Resepsiyon WhatsApp ve DM mesajları arasında boğuluyor, after-care takibi yapılamıyor, danışan profili yok, ay sonu hangi tedavinin en karlı olduğu bilinmiyor.",
+      "Bu kurulumda HubSpot CRM kliniğe özel alanlarla (tedavi türü, alerji, before-after, after-care planı) kurulur; WhatsApp Business API entegrasyonu, n8n ile otomatik lead karşılama mesajı, randevu hatırlatma serisi (24 saat + 3 saat öncesi), 6 ay sonra 'tekrar randevu' hatırlatması ve sadakat akışı (3. tedavide VIP) eklenir. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.",
       "Bu kurulumla iş akışında değişen şudur: her lead tek CRM'e düşer ve otomatik karşılanır, randevu ve after-care hatırlatmaları resepsiyonun elle mesaj atmasına gerek kalmadan gider, tekrar randevu zamanı gelen danışan sistemden hatırlatılır. Ay sonu tedavi bazlı rapor CRM'den çıkar."
     ],
     "beforeAfter": [

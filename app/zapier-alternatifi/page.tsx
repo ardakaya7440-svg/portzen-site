@@ -478,7 +478,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: dijital ajans
+              Uygulamada: dijital ajans
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -491,7 +491,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Örnek senaryoda bir dijital reklam ajansı Zapier Team planı kullanıyor; ek Task paketleri nedeniyle bazı aylarda fatura yükseliyor. Aktif Zap&apos;lar şunlar: Facebook Lead Ads → Google Sheets, Sheets → Slack, Sheets → e-posta bildirimi, Sheets → Trello, Calendly → Notion vb.
+                  Tipik bir durumda bir dijital reklam ajansı Zapier Team planı kullanıyor; ek Task paketleri nedeniyle bazı aylarda fatura yükseliyor. Aktif Zap&apos;lar şunlar: Facebook Lead Ads → Google Sheets, Sheets → Slack, Sheets → e-posta bildirimi, Sheets → Trello, Calendly → Notion vb.
                 </p>
                 <p>
                   Bu durumda 3 sorun çıkar: (1) Yeni gelen lead&apos;lerin Logo Tiger&apos;a müşteri kaydı olarak da açılması isteniyor ama Zapier&apos;de Logo connector yok; elle kurulan webhook zamanla bozuluyor, (2) SMS bildirimleri Twilio üzerinden dolar bazlı ödeniyor, kur dalgalanması maliyeti öngörülemez kılıyor, (3) KVKK aydınlatma metni kayıt akışında devrede değil.

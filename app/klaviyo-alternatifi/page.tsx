@@ -480,7 +480,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: DTC kozmetik markası
+              Uygulamada: DTC kozmetik markası
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -493,7 +493,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Örnek senaryoda Shopify mağazası olan ve Klaviyo kullanan bir DTC kozmetik markası düşünelim. Marka düzenli kampanya gönderiyor; profil bazlı USD ücretlendirme ve ayrı SMS modülü nedeniyle iletişim bütçesini öngörmekte zorlanıyor.
+                  Shopify mağazası olan ve Klaviyo kullanan bir DTC kozmetik markası düşünelim. Marka düzenli kampanya gönderiyor; profil bazlı USD ücretlendirme ve ayrı SMS modülü nedeniyle iletişim bütçesini öngörmekte zorlanıyor.
                 </p>
                 <p>
                   Bu tür kurulumlarda tipik 3 sıkıntı görülür: (1) Cart abandonment akışı yalnızca e-posta + SMS ile çalışır, WhatsApp kullanılmaz, (2) Trendyol mağazası vardır ama müşteri verisi Klaviyo&apos;ya aktarılamaz, segmentasyon yalnızca Shopify verisiyle yapılır, (3) KVKK aydınlatma akışı manueldir, İYS izin kontrolü ayrı bir script ile yapılır.
@@ -570,7 +570,7 @@ export default function Page() {
                 <ShoppingCart className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">E-ticaret CRM detayı</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  E-ticaret odaklı CRM otomasyonu, modüller ve örnek senaryolar.
+                  E-ticaret odaklı CRM otomasyonu, modüller ve kurulum adımları.
                 </p>
                 <Link href="/crm-otomasyonu/e-ticaret" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   E-Ticaret CRM <ArrowUpRight className="h-3.5 w-3.5" />

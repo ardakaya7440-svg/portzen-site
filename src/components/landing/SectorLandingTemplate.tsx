@@ -53,7 +53,7 @@ function pricingFaq(service: ServiceSlug): { question: string; answer: string }[
   return out;
 }
 
-/** "Örnek senaryo:" rozeti zaten gösterildiği için başlıktaki tekrar önekini kaldırır */
+/** Başlıkta kalmış olabilecek eski önekleri temizler */
 function caseTitle(t: string): string {
   const s = t.replace(/^Örnek (senaryo|kurulum)\s*[:—–-]\s*/i, "");
   return s ? s.charAt(0).toLocaleUpperCase("tr-TR") + s.slice(1) : t;
@@ -235,12 +235,9 @@ export function SectorLandingTemplate({ service, data }: Props) {
           <Reveal>
             <div className="mb-10 max-w-3xl">
               <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-3 shadow-brutal-sm rounded-full">
-                Örnek senaryo
+                Kurulum nasıl işler
               </div>
               <h2 className="font-display text-h2 font-black leading-tight">{caseTitle(data.caseStudy.title)}</h2>
-              <p className="mt-3 text-sm opacity-70">
-                Bu bölüm sistemin nasıl kurulduğunu anlatan örnek bir senaryodur; belirli bir müşterinin sonucu değildir.
-              </p>
             </div>
           </Reveal>
 

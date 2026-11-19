@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Premium bir anaokulunda kayıt görüşmesi akışı",
+    "title": "Premium bir anaokulunda kayıt görüşmesi akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: üst-orta segment ailelere hitap eden bir anaokulunda sekreter gün boyu telefon alıyor, aynı soruları (ücret, müfredat, servis bölgesi) tekrar tekrar cevaplıyor ve velilerden randevu bilgisini deftere yazıyor. Akşam saatlerinde ve hafta sonu yanıt verilemiyor, kayıt döneminin yoğunluğunda talepler gözden kaçabiliyor.",
+      "Üst-orta segment ailelere hitap eden bir anaokulunda sekreter gün boyu telefon alıyor, aynı soruları (ücret, müfredat, servis bölgesi) tekrar tekrar cevaplıyor ve velilerden randevu bilgisini deftere yazıyor. Akşam saatlerinde ve hafta sonu yanıt verilemiyor, kayıt döneminin yoğunluğunda talepler gözden kaçabiliyor.",
       "Böyle bir yapıda WhatsApp AI asistanı; Montessori müfredat detayları, 3-6 yaş program farkları, mahalle bazlı servis durumu ve ücretlendirme (taksit dahil) gibi sık sorulara otomatik yanıt verecek şekilde kurulur. Deneme dersi randevusu Google Calendar'a bağlanır; akış KVKK gerekliliklerini dikkate alarak kurgulanır: çocuk verisi istenmez, sadece veli iletişim bilgisi alınır.",
       "Bu kurulumda tekrar eden sorular asistan tarafından yanıtlanır, deneme dersi talepleri takvime düşer, özel durumlar müdüre devredilir. Akşam ve hafta sonu gelen veli mesajları da yanıtsız kalmaz; sekreter telefonda aynı bilgileri anlatmak yerine ziyarete gelecek ailelerle ilgilenir."
     ],

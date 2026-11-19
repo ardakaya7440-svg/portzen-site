@@ -90,7 +90,7 @@
     "title": "Bahçelievler'de bir estetik klinik için örnek kurulum",
     "paragraphs": [
       "Bahçelievler'de faaliyet gösteren bir estetik klinik düşünelim: Instagram'da geniş bir takipçi kitlesi var, ancak randevu soran DM'lerin çoğu yanıtsız kalıyor ya da geç dönüldüğü için soğuyor. Mevcut sosyal medya ajansı içerik üretiyor ama DM'leri yetiştiremiyor.",
-      "Bu senaryoda Başkent kitlesinin profesyonel-mesafeli iletişim beklentisine uygun, kural tabanlı bir DM akışı kurgulanır: kullanıcı botoks, dolgu, lazer, cilt bakımı gibi hizmet butonlarından birini seçer; seçime göre hazırlanmış bilgilendirme ve fiyat aralığı mesajı gider, aydınlatma mesajı sunulur ve Çankaya/Bahçelievler şubelerinin randevu linki gönderilir. Mesaj metinleri klinik tarafından onaylanır.",
+      "Bu kurulumda Başkent kitlesinin profesyonel-mesafeli iletişim beklentisine uygun, kural tabanlı bir DM akışı kurgulanır: kullanıcı botoks, dolgu, lazer, cilt bakımı gibi hizmet butonlarından birini seçer; seçime göre hazırlanmış bilgilendirme ve fiyat aralığı mesajı gider, aydınlatma mesajı sunulur ve Çankaya/Bahçelievler şubelerinin randevu linki gönderilir. Mesaj metinleri klinik tarafından onaylanır.",
       "Böylece randevu soran kullanıcı ekibi beklemeden doğru hizmetin bilgisine ve randevu linkine ulaşır; ekip yalnızca akışın kapsamadığı soruları devralır. Hangi hizmet butonunun ve hangi şubenin daha sık seçildiği izlenerek mesajlar ve kampanyalar güncellenir. Serbest sorulara AI ile yanıt istenirse bu, AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
     ],
     "beforeAfter": [

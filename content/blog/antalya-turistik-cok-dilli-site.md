@@ -117,7 +117,7 @@ Antalya'da yerel SEO biraz farklı çalışır çünkü hedef kitleniz Antalya'd
 
 ## Antalya Sektör Senaryoları: Otel, Restoran, Transfer, Dalış
 
-Antalya turistik işletmesinin dijital dönüşümünü sektör bazlı somut senaryolarla anlatmak en sağlıklı yol. Aşağıdakiler örnek senaryolardır; gerçek müşteri sonuçları değil, benzer işletmeler için nasıl bir kurulum yapılabileceğini gösterir.
+Antalya turistik işletmesinin dijital dönüşümünü sektör bazlı somut senaryolarla anlatmak en sağlıklı yol.
 
 Senaryo 1 — Konyaaltı'nda 4 yıldızlı butik otel: Mevcut durum Booking.com payı %75, doğrudan rezervasyon zayıf, WhatsApp'ta sadece Türkçe yanıt. Örnek kurulum: 5 dilli yeni web sitesi, doğrudan rezervasyon motoru entegrasyonu, çok dilli WhatsApp AI asistanı, sezon öncesi e-posta kampanyaları. Amaç, Booking'den gelen misafiri sonraki konaklamasında doğrudan kanala çekmek ve doğrudan rezervasyon payını düzenli izlemektir.
 

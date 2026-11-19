@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Mindbody kullanan bir fitness kulübünde yenileme, dondurma ve onboarding akışları",
+    "title": "Mindbody kullanan bir fitness kulübünde yenileme, dondurma ve onboarding akışları",
     "paragraphs": [
-      "Örnek senaryo: Mindbody kullanan ama üye iletişimi tamamen resepsiyona bağlı bir fitness kulübü düşünün. Üyelik yenileme hatırlatması yapılmıyor, dondurulan üyelikler unutuluyor, PT randevusuna gelmeyen üyeler antrenörün saatini boşa çıkarıyor, yeni üyelerin bir kısmı ilk ay sonunda bırakıyor.",
-      "Örnek bir kurulumda Mindbody'ye HubSpot bağlanır. Üyelik yenileme akışı (14/7/1 gün), dondurma yönetimi, PT randevu hatırlatması, 14 günlük yeni üye onboarding, segmentli kampanya (6 segment) ve davranış tetikleyicili re-engagement akışları kurulur. WhatsApp + email + SMS çoklu kanal.",
+      "Mindbody kullanan ama üye iletişimi tamamen resepsiyona bağlı bir fitness kulübü düşünün. Üyelik yenileme hatırlatması yapılmıyor, dondurulan üyelikler unutuluyor, PT randevusuna gelmeyen üyeler antrenörün saatini boşa çıkarıyor, yeni üyelerin bir kısmı ilk ay sonunda bırakıyor.",
+      "Bu kurulumda Mindbody'ye HubSpot bağlanır. Üyelik yenileme akışı (14/7/1 gün), dondurma yönetimi, PT randevu hatırlatması, 14 günlük yeni üye onboarding, segmentli kampanya (6 segment) ve davranış tetikleyicili re-engagement akışları kurulur. WhatsApp + email + SMS çoklu kanal.",
       "Bu kurulumla iş akışında değişen şudur: yenileme, dondurma bitişi ve PT randevusu hatırlatmaları resepsiyonun elle takibine kalmadan gider, yeni üye ilk 14 gün boyunca planlı mesajlar alır, uzun süre gelmeyen üye otomatik işaretlenir. Resepsiyon takip yerine karşılama ve satışa odaklanır."
     ],
     "beforeAfter": [

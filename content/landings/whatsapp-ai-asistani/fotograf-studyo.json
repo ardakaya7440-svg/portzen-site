@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: İzmir'de bir düğün fotoğraf stüdyosu için rezervasyon akışı",
+    "title": "İzmir'de bir düğün fotoğraf stüdyosu için rezervasyon akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: İzmir Alsancak'ta düğün, nişan ve hamile çekimi yapan küçük bir stüdyo. Düğün sezonunda WhatsApp'a çok sayıda mesaj geliyor, çekim sırasında telefon meşgul olduğu için mesajlar saatler sonra yanıtlanıyor; paket bedeli yüksek olduğu için her kaçan müşteri önemli.",
+      "İzmir Alsancak'ta düğün, nişan ve hamile çekimi yapan küçük bir stüdyo. Düğün sezonunda WhatsApp'a çok sayıda mesaj geliyor, çekim sırasında telefon meşgul olduğu için mesajlar saatler sonra yanıtlanıyor; paket bedeli yüksek olduğu için her kaçan müşteri önemli.",
       "Böyle bir yapıda Meta'nın resmi WhatsApp Business API'si ve AI asistan kurulur. Düğün paketleri, nişan / hamile / doğum günü / aile çekim paketleri, Google Takvim entegrasyonu, her çekim türünden örneklerle portfolyo kütüphanesi ve Iyzico kapora ödeme akışı sisteme yüklenir.",
       "Bu kurulumda paket ve fiyat soruları görselli PDF ile otomatik yanıtlanır, müsait tarih takvimden kontrol edilir, kapora adımına gelen müşteri stüdyoya bildirilir. Fotoğrafçılar çekim sırasında telefona bakmak zorunda kalmaz; özel talepler sohbet geçmişiyle birlikte kendilerine devredilir."
     ],

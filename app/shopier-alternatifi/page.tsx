@@ -496,16 +496,16 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  <strong>Örnek senaryo: el yapımı takı markası.</strong> Shopier&apos;da satış yapıyor, platform komisyonu kar marjını daraltıyor; müşteri verisi platformda kaldığı için e-posta kampanyası yapamıyor. Kendi siteye geçişte ödeme sağlayıcısıyla doğrudan sözleşme yapılır, Instagram bio&apos;ya kendi domain&apos;i eklenir. Müşteri listesi CRM&apos;e aktarılır, e-posta kampanyaları bu liste üzerinden planlanabilir.
+                  <strong>El yapımı takı markası.</strong> Shopier&apos;da satış yapıyor, platform komisyonu kar marjını daraltıyor; müşteri verisi platformda kaldığı için e-posta kampanyası yapamıyor. Kendi siteye geçişte ödeme sağlayıcısıyla doğrudan sözleşme yapılır, Instagram bio&apos;ya kendi domain&apos;i eklenir. Müşteri listesi CRM&apos;e aktarılır, e-posta kampanyaları bu liste üzerinden planlanabilir.
                 </p>
                 <p>
-                  <strong>Örnek senaryo: butik moda markası.</strong> Taksitli satış ve hızlı havale kombinasyonuyla komisyon yükü artıyor, müşteri markayı Shopier içinde görüyor. Geçişte doğrudan PSP sözleşmesi yapılır. Kapsama göre AI ürün önerisi eklenebilir; Story yorumlarına ürün linki gönderen kural tabanlı Instagram DM otomasyonu ayrı hizmet olarak bağlanır.
+                  <strong>Butik moda markası.</strong> Taksitli satış ve hızlı havale kombinasyonuyla komisyon yükü artıyor, müşteri markayı Shopier içinde görüyor. Geçişte doğrudan PSP sözleşmesi yapılır. Kapsama göre AI ürün önerisi eklenebilir; Story yorumlarına ürün linki gönderen kural tabanlı Instagram DM otomasyonu ayrı hizmet olarak bağlanır.
                 </p>
                 <p>
-                  <strong>Örnek senaryo: ev dekorasyonu markası.</strong> Satışlar tek pazarlama kanalına (Instagram reklamı) bağlı, Google&apos;dan trafik gelmiyor. Kendi sitesi kurulur, SEO altyapısı hazırlanır, blog içerik planı çıkarılır. Böylece organik arama, Instagram ve e-posta olmak üzere üç ayrı kanal üzerinde çalışılabilir.
+                  <strong>Ev dekorasyonu markası.</strong> Satışlar tek pazarlama kanalına (Instagram reklamı) bağlı, Google&apos;dan trafik gelmiyor. Kendi sitesi kurulur, SEO altyapısı hazırlanır, blog içerik planı çıkarılır. Böylece organik arama, Instagram ve e-posta olmak üzere üç ayrı kanal üzerinde çalışılabilir.
                 </p>
                 <p>
-                  <strong>Örnek senaryo: organik sabun markası.</strong> Müşteri verisi Shopier&apos;da kaldığı için retargeting yapılamıyor. Geçişte geçmiş siparişler dışa aktarılır, müşteri listesi CRM&apos;e taşınır ve segmentlere ayrılır (yeni, sadık, kayıp). Kayıp müşterilere yönelik win-back kampanyası bu segment üzerinden kurgulanabilir.
+                  <strong>Organik sabun markası.</strong> Müşteri verisi Shopier&apos;da kaldığı için retargeting yapılamıyor. Geçişte geçmiş siparişler dışa aktarılır, müşteri listesi CRM&apos;e taşınır ve segmentlere ayrılır (yeni, sadık, kayıp). Kayıp müşterilere yönelik win-back kampanyası bu segment üzerinden kurgulanabilir.
                 </p>
               </div>
             </Reveal>

@@ -447,7 +447,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: dijital reklam ajansı
+              Uygulamada: dijital reklam ajansı
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -460,7 +460,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Örnek senaryoda müşteri raporlama ve süreç otomasyonu için Zapier Professional ($89/ay) ve birkaç Premium add-on kullanan orta ölçekli bir dijital reklam ajansı düşünelim. Fatura USD bazlı geliyor ve kurla birlikte değişiyor.
+                  Müşteri raporlama ve süreç otomasyonu için Zapier Professional ($89/ay) ve birkaç Premium add-on kullanan orta ölçekli bir dijital reklam ajansı düşünelim. Fatura USD bazlı geliyor ve kurla birlikte değişiyor.
                 </p>
                 <p>
                   Bu tür kurulumlarda tipik sorunlar görülür: müşteri ekledikçe workflow&apos;lar ve task sayısı artar, faturada &quot;overage&quot; maliyetleri çıkabilir. Logo Tiger ve Iyzico için Zapier&apos;de hazır node olmadığından özel webhook&apos;larla kurulan geçici çözümler kırılgan kalır.

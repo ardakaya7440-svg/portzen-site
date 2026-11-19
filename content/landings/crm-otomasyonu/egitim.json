@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Çok kurslu bir online eğitim platformu için lead → öğrenci akışı",
+    "title": "Çok kurslu bir online eğitim platformu için lead → öğrenci akışı",
     "paragraphs": [
-      "Örnek senaryo: Yazılım ve veri analitiği üzerine birden fazla kurs sunan, birkaç danışmanla çalışan bir online eğitim platformu düşünün. Lead dağıtımı sistemsiz; bazı lead'ler iki danışman tarafından aranıyor, bazıları hiç aranmıyor. Ödeme takibi excel'de, mezun yorumları toplanmıyor, kohort başarı verisi yok.",
-      "Örnek bir kurulumda HubSpot CRM eğitim özelinde özelleştirilmiş alanlarla (kurs ilgi alanı, kohort, ödeme planı) kurulur; WhatsApp Business API entegrasyonu, n8n ile otomatik lead karşılama ve danışman atama (round-robin) otomasyonu eklenir. Alfabe sıralı follow-up serisi (3-7-15 gün), ödeme takip ve taksit hatırlatma, mezun yorum toplama akışları da kapsama alınabilir.",
+      "Yazılım ve veri analitiği üzerine birden fazla kurs sunan, birkaç danışmanla çalışan bir online eğitim platformu düşünün. Lead dağıtımı sistemsiz; bazı lead'ler iki danışman tarafından aranıyor, bazıları hiç aranmıyor. Ödeme takibi excel'de, mezun yorumları toplanmıyor, kohort başarı verisi yok.",
+      "Bu kurulumda HubSpot CRM eğitim özelinde özelleştirilmiş alanlarla (kurs ilgi alanı, kohort, ödeme planı) kurulur; WhatsApp Business API entegrasyonu, n8n ile otomatik lead karşılama ve danışman atama (round-robin) otomasyonu eklenir. Alfabe sıralı follow-up serisi (3-7-15 gün), ödeme takip ve taksit hatırlatma, mezun yorum toplama akışları da kapsama alınabilir.",
       "Bu kurulumla iş akışında değişen şudur: her başvuru otomatik karşılanır ve tek bir danışmana atanır, aranmayan lead başka danışmana yeniden atanır, karar vermeyen lead'e takip serisi otomatik gider. Kohort bittiğinde başlangıç-bitiş, memnuniyet ve referans verileri raporda toplanır."
     ],
     "beforeAfter": [

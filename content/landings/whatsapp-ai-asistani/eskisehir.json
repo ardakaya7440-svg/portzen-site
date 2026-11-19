@@ -86,9 +86,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Odunpazarı'nda butik kafe + online kahve satışı için sipariş akışı",
+    "title": "Odunpazarı'nda butik kafe + online kahve satışı için sipariş akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Odunpazarı'nda butik kahve dükkânı işleten ve online filtre kahve satan bir işletmeye Instagram DM, WhatsApp ve telefon olmak üzere üç kanaldan sipariş geliyor. İşletme sahibi açılış öncesi mesaj yanıtlamakla vakit geçiriyor, gece gelen siparişler ertesi güne kalıyor.",
+      "Odunpazarı'nda butik kahve dükkânı işleten ve online filtre kahve satan bir işletmeye Instagram DM, WhatsApp ve telefon olmak üzere üç kanaldan sipariş geliyor. İşletme sahibi açılış öncesi mesaj yanıtlamakla vakit geçiriyor, gece gelen siparişler ertesi güne kalıyor.",
       "Böyle bir yapıda Meta'nın resmi WhatsApp Business API'si ve AI asistan kurulur. Menü, fiyat listesi, kargo süreci ve abonelik paketi seçenekleri asistana öğretilir; Odunpazarı'na gelen turistler için Türkçe + İngilizce yanıt açılır.",
       "Bu kurulumda gece gelen sipariş mesajları otomatik karşılanır ve sabah kargoya hazır şekilde ekibe iletilir, menü ve fiyat soruları asistan tarafından yanıtlanır, özel istekler işletme sahibine devredilir. Sahibi sabahları mesaj ayıklamak yerine üretime ve dükkâna odaklanır."
     ],

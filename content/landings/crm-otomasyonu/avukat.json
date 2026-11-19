@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Kadıköy'de bir hukuk bürosu için müvekkil, dava ve ücret takibi",
+    "title": "Kadıköy'de bir hukuk bürosu için müvekkil, dava ve ücret takibi",
     "paragraphs": [
-      "Örnek senaryo: İstanbul Kadıköy'de birkaç avukat ve bir katiple çalışan, aile hukuku ve ticaret hukuku ağırlıklı bir hukuk bürosu düşünün. İlk danışma görüşmesi sözlü ve dağınık, aktif davaların takibi excel ve UYAP'tan elle yapılıyor, müvekkil ücretleri ödendi mi unutuluyor. Sekreterin günü büyük ölçüde WhatsApp ve telefon cevaplamakla geçiyor.",
-      "Örnek bir kurulumda PracticePanther CRM (KVKK gerekliliklerini dikkate alan erişim ve rıza kurgusuyla), WhatsApp Business API entegrasyonu, n8n ile aşama güncellendiğinde otomatik müvekkil bilgilendirmesi, e-fatura entegre fatura takip sistemi, online randevu (Calendly) ve müvekkil belge yükleme portalı kurulur. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.",
+      "İstanbul Kadıköy'de birkaç avukat ve bir katiple çalışan, aile hukuku ve ticaret hukuku ağırlıklı bir hukuk bürosu düşünün. İlk danışma görüşmesi sözlü ve dağınık, aktif davaların takibi excel ve UYAP'tan elle yapılıyor, müvekkil ücretleri ödendi mi unutuluyor. Sekreterin günü büyük ölçüde WhatsApp ve telefon cevaplamakla geçiyor.",
+      "Bu kurulumda PracticePanther CRM (KVKK gerekliliklerini dikkate alan erişim ve rıza kurgusuyla), WhatsApp Business API entegrasyonu, n8n ile aşama güncellendiğinde otomatik müvekkil bilgilendirmesi, e-fatura entegre fatura takip sistemi, online randevu (Calendly) ve müvekkil belge yükleme portalı kurulur. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.",
       "Bu kurulumla iş akışında değişen şudur: ilk danışma notları müvekkil profilinde kayıtlı kalır, vade gelen ücretler için hatırlatma otomatik gider, müvekkil belgeyi portala kendisi yükler, rutin 'dosyam ne durumda' soruları otomatik bilgilendirmeyle karşılanır. Aylık raporda hangi dava türünün ne kadar iş getirdiği görünür ve karar veriyle alınabilir."
     ],
     "beforeAfter": [

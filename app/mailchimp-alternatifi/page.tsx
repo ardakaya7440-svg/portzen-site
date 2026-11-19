@@ -483,7 +483,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: moda perakende markası
+              Uygulamada: moda perakende markası
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -496,7 +496,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Örnek senaryoda Mailchimp Standard planı kullanan bir moda perakende markası düşünelim. Liste büyüyor; welcome, sepet bırakma, post-purchase ve win-back otomasyonları çalışıyor, düzenli kampanya gönderiliyor.
+                  Mailchimp Standard planı kullanan bir moda perakende markası düşünelim. Liste büyüyor; welcome, sepet bırakma, post-purchase ve win-back otomasyonları çalışıyor, düzenli kampanya gönderiliyor.
                 </p>
                 <p>
                   Bu tür kurulumlarda tipik 3 sıkıntı görülür: (1) Kişi sayısı arttıkça USD fatura kur farkıyla büyür, (2) İYS entegrasyonu olmadığı için izinli/izinsiz takibi manuel CSV ile yapılır, (3) Shopify entegrasyonu vardır ama Trendyol mağazasındaki müşteri verisi sisteme akmaz, segmentasyon eksik kalır.

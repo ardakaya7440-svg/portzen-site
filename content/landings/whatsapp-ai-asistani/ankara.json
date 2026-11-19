@@ -87,9 +87,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Çankaya'da bir hukuk bürosu için müvekkil iletişimi akışı",
+    "title": "Çankaya'da bir hukuk bürosu için müvekkil iletişimi akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Tunalı Hilmi'de orta ölçekli bir hukuk bürosunda gelen müvekkil soruları özellikle akşam 18:00 sonrası ve hafta sonu cevapsız kalıyor. Sekreter mesai saatlerinde çalışıyor, mesai dışı gelen WhatsApp mesajları ertesi iş gününe sarkıyor ve müvekkil adayları beklemek zorunda kalıyor.",
+      "Tunalı Hilmi'de orta ölçekli bir hukuk bürosunda gelen müvekkil soruları özellikle akşam 18:00 sonrası ve hafta sonu cevapsız kalıyor. Sekreter mesai saatlerinde çalışıyor, mesai dışı gelen WhatsApp mesajları ertesi iş gününe sarkıyor ve müvekkil adayları beklemek zorunda kalıyor.",
       "Böyle bir yapıda büronun ana hizmet alanları (boşanma, ticaret, ceza, idare, miras, gayrimenkul) için kurumsal tonalitede yanıt veren bir WhatsApp AI asistanı kurgulanır. Sistem gelen mesajı otomatik kategorize eder, randevu için ofisteki müsait slotları önerir, KVKK aydınlatma metnini sunar ve avukatın incelemesi gereken dosya özetlerini sabah brifingi olarak iletir.",
       "Bu kurulumda mesai dışında gelen sorular otomatik yanıtlanır ve kayıt altına alınır, randevu talepleri takvime düşer, hukuki değerlendirme gerektiren konular avukata devredilir. Asistan hukuki görüş vermez; yalnızca bilgi toplar, yönlendirir ve randevu planlar."
     ],

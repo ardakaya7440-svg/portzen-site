@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Lara'da bir butik otel için 4 dilli site ve direkt rezervasyon akışı",
+    "title": "Lara'da bir butik otel için 4 dilli site ve direkt rezervasyon akışı",
     "paragraphs": [
-      "Örnek bir kurulum: Lara'da orta büyüklükte bir butik otel düşünün. Sitesi yalnızca Türkçe ve bozuk İngilizce, mobilde yavaş açılıyor; Rus ve Alman misafir sayfayı anlamadan rezervasyonu Booking/Hotels.com üzerinden (%15-18 komisyonla) yapıyor. 'lara hotel', 'antalya boutique hotel' gibi aramalarda otelin kendi sitesi görünmüyor.",
-      "Bu senaryoda Next.js + Tailwind ile 4 dilli (TR/EN/RU/DE) site sıfırdan kurulur (Kurumsal pakette 2 dil dahil; ek diller ve çeviri ayrıca tekliflendirilir): bölge + tip landing sayfaları (lara-butik-otel, lara-spa-otel, лара-отель gibi), hazır API'si olan PMS ile rezervasyon bağlantısı, Schema.org Hotel etiketleme, 4 dilli Google İşletme Profili ve KVKK + GDPR gerekliliklerini gözeten form ve çerez akışı.",
+      "Lara'da orta büyüklükte bir butik otel düşünün. Sitesi yalnızca Türkçe ve bozuk İngilizce, mobilde yavaş açılıyor; Rus ve Alman misafir sayfayı anlamadan rezervasyonu Booking/Hotels.com üzerinden (%15-18 komisyonla) yapıyor. 'lara hotel', 'antalya boutique hotel' gibi aramalarda otelin kendi sitesi görünmüyor.",
+      "Bu kurulumda Next.js + Tailwind ile 4 dilli (TR/EN/RU/DE) site sıfırdan kurulur (Kurumsal pakette 2 dil dahil; ek diller ve çeviri ayrıca tekliflendirilir): bölge + tip landing sayfaları (lara-butik-otel, lara-spa-otel, лара-отель gibi), hazır API'si olan PMS ile rezervasyon bağlantısı, Schema.org Hotel etiketleme, 4 dilli Google İşletme Profili ve KVKK + GDPR gerekliliklerini gözeten form ve çerez akışı.",
       "Yayından sonra ne değişir: Misafir otelin sitesini kendi dilinde görür, oda müsaitliğini ve fiyatı doğrudan sitede kontrol eder, rezervasyonu PMS'e düşecek şekilde tamamlar; bu rezervasyonlar için platform komisyonu ödenmez. Direkt rezervasyon payı sezon, fiyat politikası ve pazarlama çalışmasına bağlı olduğundan oran veya tasarruf rakamı vaat etmiyoruz."
     ],
     "beforeAfter": [

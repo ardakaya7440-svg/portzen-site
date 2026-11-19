@@ -84,9 +84,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bornova'da bir estetik klinik için randevu akışı",
+    "title": "Bornova'da bir estetik klinik için randevu akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: İzmir Bornova'da orta ölçekli bir estetik klinik, Instagram reklamlarından gelen DM ve WhatsApp trafiğini iki sekreterle yönetiyor. Özellikle akşam 20:00 sonrası gelen mesajlar sabaha kalıyor, yanıt bekleyen danışanlar başka kliniğe yönelebiliyor.",
+      "İzmir Bornova'da orta ölçekli bir estetik klinik, Instagram reklamlarından gelen DM ve WhatsApp trafiğini iki sekreterle yönetiyor. Özellikle akşam 20:00 sonrası gelen mesajlar sabaha kalıyor, yanıt bekleyen danışanlar başka kliniğe yönelebiliyor.",
       "Böyle bir yapıda kliniğin tedavi başlıkları, paket fiyat şablonları ve danışan onayı alınmış öncesi/sonrası galerisi sisteme yüklenir. Randevu modülü klinik yönetim yazılımına bağlanır; hassas sorular her zaman hekime yönlendirilir.",
       "Bu kurulumda fiyat ve tedavi soruları onaylı bilgilerle otomatik yanıtlanır, randevu talepleri takvime düşer, hatırlatma mesajları otomatik gider. Sekreterler mesajlaşma yerine telefon trafiğine ve klinikteki danışan karşılamaya odaklanır."
     ],

@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bornova'da dijital varlığı olmayan bir eczane için nöbet, sorgu ve blog yapısı",
+    "title": "Bornova'da dijital varlığı olmayan bir eczane için nöbet, sorgu ve blog yapısı",
     "paragraphs": [
-      "Örnek bir kurulum: Bornova'da yıllardır hizmet veren, kendi sitesi olmayan bir eczane düşünün. Eczanenin adı arandığında yalnızca ilan siteleri ve harita kaydı çıkıyor; telefon gün boyu çalıyor ve aramaların önemli kısmı 'şu ilaç var mı' sorusu.",
-      "Bu senaryoda site kurulur ve şu adımlar izlenir: 'Bornova nöbetçi eczane', 'Bornova kronik ilaç eczane' gibi aramalara yönelik sayfalar hazırlanır; online ilaç sorgu formu ve WhatsApp bağlantısı açılır; eczacının yazdığı mevsimsel sağlık yazıları için blog altyapısı kurulur (CMS ve blog Büyüme ve Kurumsal paketlerde).",
+      "Bornova'da yıllardır hizmet veren, kendi sitesi olmayan bir eczane düşünün. Eczanenin adı arandığında yalnızca ilan siteleri ve harita kaydı çıkıyor; telefon gün boyu çalıyor ve aramaların önemli kısmı 'şu ilaç var mı' sorusu.",
+      "Bu kurulumda site kurulur ve şu adımlar izlenir: 'Bornova nöbetçi eczane', 'Bornova kronik ilaç eczane' gibi aramalara yönelik sayfalar hazırlanır; online ilaç sorgu formu ve WhatsApp bağlantısı açılır; eczacının yazdığı mevsimsel sağlık yazıları için blog altyapısı kurulur (CMS ve blog Büyüme ve Kurumsal paketlerde).",
       "Yayından sonra iş akışı şöyle değişir: Hasta nöbet ve yol bilgisini siteden görür, stok sorusunu formdan veya WhatsApp'tan yazılı iletir; eczacı tezgâhtayken telefona koşmak yerine uygun anda yanıt verir. Trafik, sorgu sayısı ve ciro etkisi bölgeye ve içerik düzenine bağlı olduğundan rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

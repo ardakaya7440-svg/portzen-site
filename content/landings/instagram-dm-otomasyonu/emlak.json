@@ -88,7 +88,7 @@
     "title": "Beylikdüzü'nde butik bir emlak ofisi için örnek kurulum",
     "paragraphs": [
       "Beylikdüzü'nde birkaç emlakçıyla çalışan butik bir ofis düşünelim: Instagram'da düzenli Reels paylaşıyor ama gelen DM'leri yetiştiremiyor. Ekibin zamanının büyük kısmı 'fiyat?', 'müsait mi?', 'lokasyon?' gibi tekrar eden sorulara gidiyor, asıl satış görüşmelerine vakit kalmıyor.",
-      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: öne çıkan ilanlar için ilan koduyla tetiklenen bilgi mesajları ve Emlakjet/Sahibinden linkleri, bütçe aralığı ve görme talebini butonlarla toplayan akış, konum ve kredi hesaplama linkleri. Akışın topladığı bilgiler emlakçıya bildirim olarak iletilir; peşinat ve takas gibi konular emlakçıya devredilir.",
+      "Bu kurulumda kural tabanlı Instagram DM otomasyonu kurulur: öne çıkan ilanlar için ilan koduyla tetiklenen bilgi mesajları ve Emlakjet/Sahibinden linkleri, bütçe aralığı ve görme talebini butonlarla toplayan akış, konum ve kredi hesaplama linkleri. Akışın topladığı bilgiler emlakçıya bildirim olarak iletilir; peşinat ve takas gibi konular emlakçıya devredilir.",
       "Böylece tekrar eden ilan sorularına ekip beklenmeden hazır mesajlarla yanıt verilir, görme talebi ve bütçe bilgisi emlakçının önüne düzenli bir bildirim olarak gelir; ekip zamanını görme randevularına ve pazarlığa ayırır. Hangi ilan kodlarının daha sık tetiklendiği izlenerek ilan mesajları güncellenir. Portföy hakkında serbest sorulara AI ile yanıt istenirse bu, AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
     ],
     "beforeAfter": [

@@ -119,7 +119,7 @@ Teorik karşılaştırma bir şey, pratikte ne yapılır başka. Üç tipik KOB�
 
 Eskiden WooCommerce default tercihti. 2026'da değişti. 50-500 ürün aralığındaki butik markalar için **Next.js + Shopify Headless** veya **Next.js + Sanity + Stripe** kombinasyonu hem daha hızlı hem daha verimli.
 
-Örnek senaryo: WooCommerce'ten Next.js + Shopify Headless'a geçen bir butik takı markasında değişen başlıca noktalar:
+WooCommerce'ten Next.js + Shopify Headless'a geçen bir butik takı markasında değişen başlıca noktalar:
 
 - Önce: Ürün sayfaları tema ve eklentilerle sunucuda üretiliyor, mobilde geç açılıyor. Sonra: Sayfalar statik/edge üzerinden servis ediliyor, görseller otomatik optimize ediliyor.
 - Önce: Sepet ve ödeme eklentilerle yönetiliyor. Sonra: Sepet ve ödeme Shopify altyapısında, ön yüz Next.js'te.

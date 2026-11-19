@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Belek'te bir tur operatörü için sezonsal ve çok dilli CRM kurulumu",
+    "title": "Belek'te bir tur operatörü için sezonsal ve çok dilli CRM kurulumu",
     "paragraphs": [
-      "Örnek senaryo: Belek'te Antalya'ya gelen Rus/Alman/İngiliz turistlere golf, dalış, antik kent ve jeep safari turları satan bir tur operatörü düşünün. Lead'ler Booking, web form, WhatsApp ve walk-in karması üzerinden geliyor; yaz sezonunda yoğunlaşıyor ve Excel ile WhatsApp gruplarıyla takip ediliyor. Kış aylarında önceki sezonun müşterisine ulaşmak için düzenli bir liste yok.",
-      "Örnek bir kurulumda HubSpot Sales Hub üzerine Türkçe + İngilizce arayüz, KVKK ve GDPR gerekliliklerini dikkate alan rıza akışları, milliyet bazlı segmentasyon (4 dil), kanal yöneticisi bağlantısı, PMS entegrasyonu, sezonsal otomasyon (Mayıs-Ekim yoğun + Kasım-Nisan erken rezervasyon), satış ekibine otomatik atama ve 2-6-24 saat takip dizisi kurulur.",
+      "Belek'te Antalya'ya gelen Rus/Alman/İngiliz turistlere golf, dalış, antik kent ve jeep safari turları satan bir tur operatörü düşünün. Lead'ler Booking, web form, WhatsApp ve walk-in karması üzerinden geliyor; yaz sezonunda yoğunlaşıyor ve Excel ile WhatsApp gruplarıyla takip ediliyor. Kış aylarında önceki sezonun müşterisine ulaşmak için düzenli bir liste yok.",
+      "Bu kurulumda HubSpot Sales Hub üzerine Türkçe + İngilizce arayüz, KVKK ve GDPR gerekliliklerini dikkate alan rıza akışları, milliyet bazlı segmentasyon (4 dil), kanal yöneticisi bağlantısı, PMS entegrasyonu, sezonsal otomasyon (Mayıs-Ekim yoğun + Kasım-Nisan erken rezervasyon), satış ekibine otomatik atama ve 2-6-24 saat takip dizisi kurulur.",
       "Bu kurulumla iş akışında değişen şudur: sezon doruğundaki lead'ler otomatik dağıtılır ve takip hatırlatmaları sistemden gelir, her müşteri diline ve pazarına göre segmentte durur, kışın önceki sezon müşterisine erken rezervasyon kampanyası kendi dilinde otomatik gider. CRM lisansı ise sağlayıcının planları elveriyorsa sezon dışında hafifletilebilir."
     ],
     "beforeAfter": [

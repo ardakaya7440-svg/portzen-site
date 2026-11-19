@@ -150,7 +150,7 @@ Adana sadece gıda değil — tekstil ve pamuk üretimi de bölgenin omurgasınd
 
 ## Adana E-Ticaret Senaryoları: Şalgam, Kavurma, Tekstil
 
-Adana e-ticaret işletmesinin dijital büyümesini somut sektör senaryoları üzerinden incelemek strateji netliği sağlıyor. Aşağıdakiler örnek senaryolardır; gerçek müşteri sonuçları değil, benzer işletmeler için nasıl bir kurulum yapılabileceğini gösterir.
+Adana e-ticaret işletmesinin dijital büyümesini somut sektör senaryoları üzerinden incelemek strateji netliği sağlıyor.
 
 Senaryo 1 — Seyhan'da geleneksel şalgam üreticisi: Mevcut durum sadece Adana içi satış, Trendyol'da bir mağaza, kendi web sitesi yok, marka değeri sıfır. Örnek kurulum: "Adana usulü şalgam" hikâye odaklı Instagram stratejisi, Shopify tabanlı e-ticaret sitesi, kargo entegrasyonu, yerel gurmeler ile iş birliği. Bu kurguyla pazaryeri mağazası korunurken Türkiye genelinden gelen siparişler için markanın kendi satış kanalı açılır.
 

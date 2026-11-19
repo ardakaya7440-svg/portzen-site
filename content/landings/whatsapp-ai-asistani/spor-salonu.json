@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bornova'da bir fitness stüdyosu için ders rezervasyon akışı",
+    "title": "Bornova'da bir fitness stüdyosu için ders rezervasyon akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: İzmir Bornova'da pilates, yoga ve EMS hizmeti veren bir fitness stüdyosu. Resepsiyon gün boyu telefon karşılıyor, bunların önemli kısmı ders rezervasyonu; mesai sonrası rezervasyon alınamıyor, gelmeyen üyeler yüzünden antrenörler boşa bekliyor.",
+      "İzmir Bornova'da pilates, yoga ve EMS hizmeti veren bir fitness stüdyosu. Resepsiyon gün boyu telefon karşılıyor, bunların önemli kısmı ders rezervasyonu; mesai sonrası rezervasyon alınamıyor, gelmeyen üyeler yüzünden antrenörler boşa bekliyor.",
       "Böyle bir yapıda WhatsApp AI asistanı mevcut rezervasyon sistemine (ör. Mindbody) bağlanır. Pilates, yoga, EMS ve grup dersleri için rezervasyon, üyelik durumu sorgulama, PT ve vücut analizi randevusu, sezon kampanya duyurusu akışları açılır; ders öncesi hatırlatma otomatik gider.",
       "Bu kurulumda üyeler WhatsApp'tan ders rezerve eder, doluysa yedek listeye girer, gelemeyecek üye tek dokunuşla iptal eder ve yer yedekteki üyeye açılır. Üyelik bitimi yaklaşanlara hatırlatma gider; resepsiyon telefon yerine salondaki üyeye ve satışa odaklanır."
     ],

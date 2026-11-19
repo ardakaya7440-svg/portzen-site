@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: OSB'de bir otomotiv yan sanayi tedarikçisi için RFQ ve teklif pipeline'ı",
+    "title": "OSB'de bir otomotiv yan sanayi tedarikçisi için RFQ ve teklif pipeline'ı",
     "paragraphs": [
-      "Örnek senaryo: Bursa OSB'de OEM müşterilerine fason metal parça üreten bir otomotiv yan sanayi tedarikçisi düşünün. Müşteri talepleri WhatsApp grupları + Excel + e-posta karması üzerinden takip ediliyor, RFQ'ların (teklif talebi) hangisinin hangi aşamada olduğu net değil. Bir satış temsilcisi ayrıldığında o temsilcinin yürüttüğü müşteri ilişkilerinin geçmişi de onunla gidiyor.",
-      "Örnek bir kurulumda HubSpot Sales Hub üzerine Türkçeleştirme, KVKK gerekliliklerini dikkate alan rıza akışları, Logo ERP entegrasyonu, RFQ → numune → teklif → sözleşme → seri üretim pipeline'ı, fuar kartvizit tarama (OCR) akışı, satış ekibine otomatik atama ve 7-14-30 günlük takip dizisi kurulur. Dashboard'a müşteri/sektör/kanal bazlı raporlama eklenir.",
+      "Bursa OSB'de OEM müşterilerine fason metal parça üreten bir otomotiv yan sanayi tedarikçisi düşünün. Müşteri talepleri WhatsApp grupları + Excel + e-posta karması üzerinden takip ediliyor, RFQ'ların (teklif talebi) hangisinin hangi aşamada olduğu net değil. Bir satış temsilcisi ayrıldığında o temsilcinin yürüttüğü müşteri ilişkilerinin geçmişi de onunla gidiyor.",
+      "Bu kurulumda HubSpot Sales Hub üzerine Türkçeleştirme, KVKK gerekliliklerini dikkate alan rıza akışları, Logo ERP entegrasyonu, RFQ → numune → teklif → sözleşme → seri üretim pipeline'ı, fuar kartvizit tarama (OCR) akışı, satış ekibine otomatik atama ve 7-14-30 günlük takip dizisi kurulur. Dashboard'a müşteri/sektör/kanal bazlı raporlama eklenir.",
       "Bu kurulumla iş akışında değişen şudur: her RFQ pipeline'da aşaması ve sorumlusuyla görünür, takip hatırlatmaları sistemden gelir, müşteri geçmişi temsilciye değil firmaya ait kayıtta durur. Bir temsilci ayrıldığında yeni temsilci aynı kayıttan devam eder."
     ],
     "beforeAfter": [

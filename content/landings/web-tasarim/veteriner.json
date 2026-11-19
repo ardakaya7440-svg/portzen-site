@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Randevuları telefon ve WhatsApp'tan alan bir veteriner kliniği",
+    "title": "Randevuları telefon ve WhatsApp'tan alan bir veteriner kliniği",
     "paragraphs": [
-      "Örnek bir kurulum: Bornova'da hizmet veren bir veteriner kliniği düşünün. Eski WordPress sitesi mobil uyumlu değil, online randevu sistemi yok, hizmet fiyatları belirsiz. Tüm randevular telefon ve WhatsApp'tan geliyor; yoğun saatlerde resepsiyon yetişemiyor.",
-      "Bu senaryoda site yeniden kurulur: hekim takvimleriyle senkron online randevu sistemi, hizmet bazlı fiyat sayfaları, ekip tanıtım kartları, hasta yorum entegrasyonu, aşı takvimi modülü ve Google İşletme Profili düzenlemesi.",
+      "Bornova'da hizmet veren bir veteriner kliniği düşünün. Eski WordPress sitesi mobil uyumlu değil, online randevu sistemi yok, hizmet fiyatları belirsiz. Tüm randevular telefon ve WhatsApp'tan geliyor; yoğun saatlerde resepsiyon yetişemiyor.",
+      "Bu kurulumda site yeniden kurulur: hekim takvimleriyle senkron online randevu sistemi, hizmet bazlı fiyat sayfaları, ekip tanıtım kartları, hasta yorum entegrasyonu, aşı takvimi modülü ve Google İşletme Profili düzenlemesi.",
       "Yayından sonra iş akışı şöyle değişir: Hasta sahibi hekimi, hizmeti ve saati siteden seçer; randevu klinik paneline ve WhatsApp'a düşer, onay SMS ile otomatik gider. Kayıtlı hayvanların yaklaşan aşıları e-posta ve SMS ile hatırlatılır. Randevu ve trafik rakamları bölgeye ve rekabete bağlı olduğundan sonuç vaat etmiyoruz."
     ],
     "beforeAfter": [

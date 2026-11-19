@@ -483,7 +483,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryolar
+              Sektöre göre geçiş
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -496,16 +496,16 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  <strong>Örnek senaryo: geniş katalogla satan bir butik moda markası.</strong> Hazır altyapıda aylık sabit lisans ödüyor, tema kalıbı yüzünden marka kimliğini yansıtamıyor ve sayfaları yavaş açılıyor. Bu durumda tasarım sıfırdan markaya özel kurgulanır, site Next.js&apos;e taşınır, görseller otomatik optimize edilir; sepet terk e-postalarının AI ile kişiselleştirilmesi kapsama göre eklenir.
+                  <strong>Geniş katalogla satan bir butik moda markası.</strong> Hazır altyapıda aylık sabit lisans ödüyor, tema kalıbı yüzünden marka kimliğini yansıtamıyor ve sayfaları yavaş açılıyor. Bu durumda tasarım sıfırdan markaya özel kurgulanır, site Next.js&apos;e taşınır, görseller otomatik optimize edilir; sepet terk e-postalarının AI ile kişiselleştirilmesi kapsama göre eklenir.
                 </p>
                 <p>
-                  <strong>Örnek senaryo: hem B2C hem B2B satan endüstriyel ürün satıcısı.</strong> Hazır altyapıda B2B modülü ek ücretli, fiyat farklılaştırma sınırlı. Bu durumda özel backend kurulur; B2B müşteriye giriş sonrası farklı fiyat, vade ve sepet kuralları gösterilir, SKU başı dinamik fiyat hesaplama ve kurumsal proforma fatura otomasyonu eklenir.
+                  <strong>Hem B2C hem B2B satan endüstriyel ürün satıcısı.</strong> Hazır altyapıda B2B modülü ek ücretli, fiyat farklılaştırma sınırlı. Bu durumda özel backend kurulur; B2B müşteriye giriş sonrası farklı fiyat, vade ve sepet kuralları gösterilir, SKU başı dinamik fiyat hesaplama ve kurumsal proforma fatura otomasyonu eklenir.
                 </p>
                 <p>
-                  <strong>Örnek senaryo: ihracat ağırlıklı bir kozmetik markası.</strong> Birden fazla ülkeye satış yapıyor; hazır altyapıda çoklu dil ve çoklu para birimi ek modül olarak faturalanıyor, hreflang otomatik değil. Bu durumda çoklu dil ve hreflang yapısı kurulur (Kurumsal pakette 2 dil; ek diller teklifte ayrıca belirtilir), ülkeye göre fiyat ve KDV hesaplanır, AB müşterisi için Stripe, TR müşterisi için iyzico yönlendirmesi kurulur (çoklu sağlayıcı kurgusu teklifte ayrıca belirtilir).
+                  <strong>İhracat ağırlıklı bir kozmetik markası.</strong> Birden fazla ülkeye satış yapıyor; hazır altyapıda çoklu dil ve çoklu para birimi ek modül olarak faturalanıyor, hreflang otomatik değil. Bu durumda çoklu dil ve hreflang yapısı kurulur (Kurumsal pakette 2 dil; ek diller teklifte ayrıca belirtilir), ülkeye göre fiyat ve KDV hesaplanır, AB müşterisi için Stripe, TR müşterisi için iyzico yönlendirmesi kurulur (çoklu sağlayıcı kurgusu teklifte ayrıca belirtilir).
                 </p>
                 <p>
-                  <strong>Örnek senaryo: kampanya dönemlerinde trafiği ani yükselen bir ev tekstili markası.</strong> Hazır altyapı yoğun saatlerde yavaşlıyor. Bu durumda site önbellekleme ve edge dağıtım kullanan bir altyapıya taşınır, kampanya öncesi yük testi yapılır ve yoğun saatler için izleme planlanır.
+                  <strong>Kampanya dönemlerinde trafiği ani yükselen bir ev tekstili markası.</strong> Hazır altyapı yoğun saatlerde yavaşlıyor. Bu durumda site önbellekleme ve edge dağıtım kullanan bir altyapıya taşınır, kampanya öncesi yük testi yapılır ve yoğun saatler için izleme planlanır.
                 </p>
               </div>
             </Reveal>

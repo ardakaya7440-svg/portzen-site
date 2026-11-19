@@ -84,10 +84,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bir online kurs platformu için eğitmen avatarlı tanıtım videoları",
+    "title": "Bir online kurs platformu için eğitmen avatarlı tanıtım videoları",
     "paragraphs": [
-      "Örnek bir kurulum: Veri bilimi ve yapay zekâ eğitimi veren, eğitmenleri akademik yoğunluk nedeniyle çekime zaman ayıramayan bir online kurs platformu düşünün. Instagram'da statik postlar paylaşılıyor; kurs içeriklerini ve mezun deneyimlerini anlatan video yok.",
-      "Bu senaryoda eğitmenlerin yazılı izniyle fotoğraflarından sentetik konuşan avatarlar üretilir; kurs müfredatları ve mezunların yazılı izinli geri bildirimleri senaryolaştırılır. Aylık video adedi pakete göre 4, 12 veya 24'tür; Büyüme ve Kurumsal paketlerde dikey ve yatay format birlikte teslim edilir.",
+      "Veri bilimi ve yapay zekâ eğitimi veren, eğitmenleri akademik yoğunluk nedeniyle çekime zaman ayıramayan bir online kurs platformu düşünün. Instagram'da statik postlar paylaşılıyor; kurs içeriklerini ve mezun deneyimlerini anlatan video yok.",
+      "Bu kurulumda eğitmenlerin yazılı izniyle fotoğraflarından sentetik konuşan avatarlar üretilir; kurs müfredatları ve mezunların yazılı izinli geri bildirimleri senaryolaştırılır. Aylık video adedi pakete göre 4, 12 veya 24'tür; Büyüme ve Kurumsal paketlerde dikey ve yatay format birlikte teslim edilir.",
       "Platform, eğitmenler kameraya çıkmadan her kurs için tanıtım, ders özeti ve mezun hikâyesi videolarına sahip olur; kayıt dönemi kampanyaları aynı görsel dille hazırlanır. Erişim ve satış sonuçları kursa, fiyata ve kitleye göre değişir; burada rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

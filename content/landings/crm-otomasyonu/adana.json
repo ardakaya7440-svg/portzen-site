@@ -86,9 +86,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Adana'da bir baharat ihracatçısı için numune ve proforma takibi",
+    "title": "Adana'da bir baharat ihracatçısı için numune ve proforma takibi",
     "paragraphs": [
-      "Örnek senaryo: Yüreğir'de üretim yapan, Suudi/BAE/Almanya'ya baharat ihraç eden orta ölçekli bir firma düşünün. Lead'ler Excel'de, WhatsApp'ta ve Email'de dağınık tutuluyor, fuar kartvizitleri ay sonunda birikiyor, gönderilen numune takip edilemiyor. Alıcılar 'numune geldi mi, COA hangi tarihte' diye sorduğunda satış temsilcisi bilgiyi farklı yerlerden toplamak zorunda kalıyor.",
+      "Yüreğir'de üretim yapan, Suudi/BAE/Almanya'ya baharat ihraç eden orta ölçekli bir firma düşünün. Lead'ler Excel'de, WhatsApp'ta ve Email'de dağınık tutuluyor, fuar kartvizitleri ay sonunda birikiyor, gönderilen numune takip edilemiyor. Alıcılar 'numune geldi mi, COA hangi tarihte' diye sorduğunda satış temsilcisi bilgiyi farklı yerlerden toplamak zorunda kalıyor.",
       "Böyle bir yapıda örnek bir kurulum şöyle olur: Zoho CRM + WhatsApp Business API + Email entegrasyonu. Lead pipeline (Yeni → Numune Gönderildi → Proforma → Sözleşme → Sipariş), numune kargo takibi (kargo firmasının API'si üzerinden), COA/Halal sertifika gönderimi ve Suudi/BAE/Almanya segmentasyonu. Kurgu KVKK ve GDPR gerekliliklerini dikkate alarak yapılır.",
       "Bu kurulumda iş akışında değişen şudur: her numune ve proforma tek bir pipeline'da görünür, kargo durumu alıcıya otomatik bildirilir, sertifika talepleri ekibin elle aramasını gerektirmez. Satış ekibi takip işini sistemden yürütür ve zamanını yeni lead'lere ayırabilir."
     ],

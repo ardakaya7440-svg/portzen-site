@@ -229,9 +229,7 @@ Gerçek müşteri yorumu video formatında. Yazılı yorum yerine müşterinin k
 
 İdeal haftalık karışım: 2 BTS + 1 Tutorial + 1 Founder + 2 Showcase + 1 Testimonial = 7 video.
 
-## Sektörel Örnek Senaryolar
-
-Aşağıdaki senaryolar gerçek müşteri sonuçları değil; her sektörde stratejinin nasıl kurgulanabileceğini gösteren örneklerdir.
+## Sektörlere Göre Uygulama
 
 ### Restoran Senaryosu (Kafe)
 

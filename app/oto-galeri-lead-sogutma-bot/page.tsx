@@ -266,7 +266,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: 2. el oto galerisi
+              Uygulamada: 2. el oto galerisi
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -279,7 +279,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Örnek senaryoda Sahibinden ve Arabam.com üzerinden yoğun WhatsApp leadi alan bir 2. el galerisi düşünelim. Küçük satış ekibi mesajlaşmayı yetiştiremiyor, yanıtlar saatler sonra gidiyor; akşam ve hafta sonu gelen mesajlar ertesi iş gününe kalıyor.
+                  Sahibinden ve Arabam.com üzerinden yoğun WhatsApp leadi alan bir 2. el galerisi düşünelim. Küçük satış ekibi mesajlaşmayı yetiştiremiyor, yanıtlar saatler sonra gidiyor; akşam ve hafta sonu gelen mesajlar ertesi iş gününe kalıyor.
                 </p>
                 <p>
                   Brief görüşmesinde satış akışı, hangi platformdan hangi tür lead geldiği ve tipik müşteri soruları birlikte çıkarılır. WhatsApp Business API üzerinden bot altyapısı kurulur. Her aracın veri kartı (km, tramer, video, ekspertiz raporu, taksit tablosu) sisteme yüklenir. Sıcak lead → satıcı bildirimi, ılık lead → 48 saat sonra takip, soğuk lead → haftalık kampanya akışı kurgulanır.

@@ -88,7 +88,7 @@
     "title": "Cihangir'de brunch konseptli bir kafe için örnek kurulum",
     "paragraphs": [
       "Cihangir'de brunch ve specialty kahve servis eden bir kafe düşünelim: brunch Reels'leri ilgi görüyor, ama yorumlar elle yanıtlanıyor ve DM'lere saatler sonra dönülüyor. Bir Reels çok ilgi gördüğünde yüzlerce yorum birikiyor.",
-      "Bu senaryoda Meta'nın resmi API'si üzerinden kural tabanlı DM otomasyonu kurulur: brunch rezervasyonu, menü sorgusu, kahve workshop'u, lokasyon, çalışmaya uygunluk ve sezon kahvaltısı için anahtar kelime akışları; sezon menüsü görselleri ve rezervasyon linki.",
+      "Bu kurulumda Meta'nın resmi API'si üzerinden kural tabanlı DM otomasyonu kurulur: brunch rezervasyonu, menü sorgusu, kahve workshop'u, lokasyon, çalışmaya uygunluk ve sezon kahvaltısı için anahtar kelime akışları; sezon menüsü görselleri ve rezervasyon linki.",
       "Böylece 'fiyat', 'menü', 'rezervasyon' yorumlarına barista beklenmeden menü görseli ve rezervasyon linki gider; ekip servise odaklanır, akışın kapsamadığı özel etkinlik talepleri telefona yönlenir. Hangi anahtar kelimelerin ve Reels'lerin daha çok DM tetiklediği izlenerek menü görselleri ve kampanyalar güncellenir."
     ],
     "beforeAfter": [
