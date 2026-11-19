@@ -20,7 +20,7 @@ import { PricingSection, WebExtrasSection } from "@/components/pricing/PricingSe
 import { PRICING, familyOffersSchema, familyPriceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Web Sitesi Tasarımı | Kurumsal + E-Ticaret + Landing Sayfası - PORTZEN",
+  title: { absolute: "Web Sitesi Tasarımı | Kurumsal + E-Ticaret + Landing Sayfası - PORTZEN" },
   description:
     "Web sitesi tasarımı hizmeti: hızlı, SEO uyumlu, mobil dostu kurumsal siteler, e-ticaret ve landing page'ler. Next.js altyapısı; teslim süresi kapsama göre teklifte yazılı olarak belirtilir.",
   keywords: [

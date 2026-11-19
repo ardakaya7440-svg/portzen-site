@@ -15,7 +15,7 @@ import { cn } from "@/lib/utils";
 import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Veteriner Aşı Hatırlatma WhatsApp Sistemi | PORTZEN",
+  title: { absolute: "Veteriner Aşı Hatırlatma WhatsApp Sistemi | PORTZEN" },
   description:
     "Veteriner klinikler için aşı, muayene ve parazit takibini WhatsApp'tan otomatik hatırlatan sistem. Hasta sadakatini destekler, aşı takvimini takipte tutar. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir.",
   keywords: [

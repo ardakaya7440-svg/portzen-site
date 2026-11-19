@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 import { ArrowLeft, ArrowUpRight, Calendar, ChevronRight, Clock } from "lucide-react";
 import {
   ALL_CATEGORIES,
   CATEGORY_META,
   type BlogCategory,
+  getActiveCategories,
   getPostsByCategory
 } from "@/lib/blog";
 import { cn } from "@/lib/utils";
@@ -16,7 +17,7 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return ALL_CATEGORIES.map((c) => ({ kategori: c.slug }));
+  return getActiveCategories().map((c) => ({ kategori: c.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -48,6 +49,8 @@ export default function CategoryPage({ params }: Props) {
   if (!cat) notFound();
 
   const posts = getPostsByCategory(cat.slug as BlogCategory);
+  // Henüz yazısı olmayan kategori: boş sayfa göstermek yerine blog ana sayfasına gönder
+  if (posts.length === 0) redirect("/blog");
   const meta = CATEGORY_META[cat.slug as BlogCategory];
 
   return (

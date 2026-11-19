@@ -22,7 +22,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Shopier Alternatifi | Kendi Mağazanız + Marka Kimliği - PORTZEN",
+  title: { absolute: "Shopier Alternatifi | Kendi Mağazanız + Marka Kimliği - PORTZEN" },
   description:
     "Shopier platform komisyonundan kurtulun. Kendi web mağazanızla marka kimliği, SEO ve müşteri verisi sizde. PORTZEN ile bağımsız e-ticaret kurulumu.",
   keywords: [

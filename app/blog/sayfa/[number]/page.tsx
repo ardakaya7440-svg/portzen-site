@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { ArrowUpRight, Calendar, Clock, Tag } from "lucide-react";
 import {
-  ALL_CATEGORIES,
+  getActiveCategories,
   CATEGORY_META,
   POSTS_PER_PAGE,
   getExtraPageNumbers,
@@ -89,7 +89,7 @@ export default function BlogPaginatedPage({ params }: Props) {
               >
                 Tümü
               </Link>
-              {ALL_CATEGORIES.map((c) => (
+              {getActiveCategories().map((c) => (
                 <Link
                   key={c.slug}
                   href={`/blog/kategori/${c.slug}`}

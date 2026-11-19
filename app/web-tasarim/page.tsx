@@ -35,7 +35,7 @@ const DESCRIPTION =
   "İzmir merkezli web tasarım ajansı. Mobil uyumlu, hızlı ve SEO uyumlu landing page, kurumsal web sitesi ve e-ticaret çözümleri. Yazılı paket fiyatları; teslim süresi kapsama göre teklifte yazılı. Ücretsiz görüşme alın.";
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: { absolute: TITLE },
   description: DESCRIPTION,
   keywords: [
     "web tasarım",

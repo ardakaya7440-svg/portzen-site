@@ -23,7 +23,7 @@ import { MoreDetails } from "@/components/visual/MoreDetails";
 import { SINGLE, singlePriceLabel } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Instagram DM Otomasyonu | Kural Tabanlı Otomatik DM — PORTZEN",
+  title: { absolute: "Instagram DM Otomasyonu | Kural Tabanlı Otomatik DM — PORTZEN" },
   description:
     "Instagram DM otomasyonu: gelen mesaj, hikaye yanıtı ve yorumlara anahtar kelimeye göre kural tabanlı otomatik DM. Estetik, butik, e-ticaret için; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Ücretsiz keşif.",
   keywords: [

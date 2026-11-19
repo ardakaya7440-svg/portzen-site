@@ -24,11 +24,11 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const data = getSectorLanding(SERVICE, params.sektor);
-  if (!data) return { title: "Sayfa bulunamadı — PORTZEN" };
+  if (!data) return { title: { absolute: "Sayfa bulunamadı — PORTZEN" } };
 
   const url = `https://portzenai.com/${SERVICE}/${data.sectorSlug}`;
   return {
-    title: data.title,
+    title: data.title.includes("PORTZEN") ? { absolute: data.title } : data.title,
     description: data.description,
     keywords: data.keywords,
     openGraph: {

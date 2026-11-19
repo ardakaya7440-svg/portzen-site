@@ -22,7 +22,7 @@ import { cn } from "@/lib/utils";
 import { PricingSection, SinglePriceSection } from "@/components/pricing/PricingSection";
 
 export const metadata: Metadata = {
-  title: "ManyChat Alternatifi | Türkiye için WhatsApp + Instagram Otomasyonu — PORTZEN",
+  title: { absolute: "ManyChat Alternatifi | Türkiye için WhatsApp + Instagram Otomasyonu — PORTZEN" },
   description:
     "ManyChat yerine Türkçe destek, Meta'nın resmi WhatsApp Business API'si ve yerel ödeme entegrasyonu. Instagram'da kural tabanlı DM otomasyonu; serbest sorulara AI yanıtı ayrı hizmet olan AI müşteri asistanında. KVKK gerekliliklerini dikkate alarak kurgulanır.",
   keywords: [

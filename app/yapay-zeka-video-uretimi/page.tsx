@@ -22,7 +22,7 @@ import { MoreDetails } from "@/components/visual/MoreDetails";
 import { PRICING, familyOffersSchema } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Yapay Zeka Video Üretimi | AI Reklam ve Tanıtım Videosu - PORTZEN",
+  title: { absolute: "Yapay Zeka Video Üretimi | AI Reklam ve Tanıtım Videosu - PORTZEN" },
   description:
     "Yapay zeka video üretimi ile profesyonel reklam ve tanıtım videoları. Premium AI motor altyapısı ile çekim ekibi ve lokasyon gerektirmeyen üretim; teslim süresi teklifte yazılı.",
   keywords: [

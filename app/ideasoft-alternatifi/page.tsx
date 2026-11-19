@@ -21,7 +21,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "IdeaSoft Alternatifi | KOBİ İçin Modern E-Ticaret Çözümü - PORTZEN",
+  title: { absolute: "IdeaSoft Alternatifi | KOBİ İçin Modern E-Ticaret Çözümü - PORTZEN" },
   description:
     "IdeaSoft modüler hazır paket çözümü yerine PORTZEN, KOBİ markaları için custom Next.js + AI ile geliştirilen modern e-ticaret altyapısı sunar.",
   keywords: [

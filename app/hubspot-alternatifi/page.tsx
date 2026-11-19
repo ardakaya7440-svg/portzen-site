@@ -22,7 +22,7 @@ import { PricingSection } from "@/components/pricing/PricingSection";
 import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "HubSpot Alternatifi | KOBİ için Türkçe CRM — PORTZEN",
+  title: { absolute: "HubSpot Alternatifi | KOBİ için Türkçe CRM — PORTZEN" },
   description:
     "HubSpot yerine PORTZEN CRM otomasyonu: Logo/Mikro entegrasyonu, KVKK gerekliliklerini dikkate alan kurulum, Türkçe arayüz. KOBİ için tasarlandı.",
   keywords: [

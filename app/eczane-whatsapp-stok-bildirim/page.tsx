@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
 import { familyPriceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Eczane WhatsApp Stok Bildirim Sistemi 2026 | PORTZEN",
+  title: { absolute: "Eczane WhatsApp Stok Bildirim Sistemi 2026 | PORTZEN" },
   description:
     "Eczane stok gelince müşteriye WhatsApp bildirim gönderen sistem. Bekleme listesi panelden yönetilir, ilaç gelince müşteriye otomatik mesaj gider. 2026 Türkiye eczane rehberi ve kurulum kılavuzu.",
   keywords: [

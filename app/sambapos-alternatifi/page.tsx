@@ -22,7 +22,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "SambaPOS Alternatifi | AI Destekli Restoran Yönetimi - PORTZEN",
+  title: { absolute: "SambaPOS Alternatifi | AI Destekli Restoran Yönetimi - PORTZEN" },
   description:
     "SambaPOS yalnızca POS, PORTZEN ise restoranınız için bütünsel sistem. POS veri yorumlama, CRM, WhatsApp sipariş, web rezervasyon ve sosyal medya tek panelde.",
   keywords: [

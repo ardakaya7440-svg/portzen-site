@@ -20,7 +20,7 @@ import { cn } from "@/lib/utils";
 import { formatTL, AI_REPLY_QUOTA } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Intercom Alternatifi | Türkçe KOBİ Çözümü — PORTZEN",
+  title: { absolute: "Intercom Alternatifi | Türkçe KOBİ Çözümü — PORTZEN" },
   description:
     "PORTZEN, KOBİ'ler için Türkçe destekli, KVKK gerekliliklerini dikkate alan bir Intercom alternatifidir. WhatsApp + Instagram + Web Chat tek panelde; geçiş süresi kapsama göre teklifte yazılı olarak belirtilir.",
   keywords: [

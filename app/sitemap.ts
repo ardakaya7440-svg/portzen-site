@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { ALL_CATEGORIES, getAllPostsMeta, getExtraPageNumbers } from "@/lib/blog";
+import { getActiveCategories, getAllPostsMeta, getExtraPageNumbers } from "@/lib/blog";
 import { getAllSectorLandings } from "@/lib/landings";
 
 const BASE = "https://portzenai.com";
@@ -67,7 +67,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/n8n-kurulum-hizmeti`, lastModified: now, changeFrequency: "monthly", priority: 0.9 }
   ];
 
-  const categoryPages: MetadataRoute.Sitemap = ALL_CATEGORIES.map((c) => ({
+  const categoryPages: MetadataRoute.Sitemap = getActiveCategories().map((c) => ({
     url: `${BASE}/blog/kategori/${c.slug}`,
     lastModified: now,
     changeFrequency: "weekly" as const,

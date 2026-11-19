@@ -15,7 +15,7 @@ import { cn } from "@/lib/utils";
 import { familyPriceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "Klinik Randevu Unutan Hasta Çözümü | SMS + WhatsApp | PORTZEN",
+  title: { absolute: "Klinik Randevu Unutan Hasta Çözümü | SMS + WhatsApp | PORTZEN" },
   description:
     "Klinik randevu unutulmasına karşı otomatik SMS + WhatsApp hatırlatma, teyit ve yeniden randevu akışı. Teyit ve iptal yanıtları takvime işlenir; kurulum süresi kapsama göre teklifte yazılı olarak belirtilir.",
   keywords: [

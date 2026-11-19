@@ -22,7 +22,7 @@ import { PricingSection } from "@/components/pricing/PricingSection";
 import { PRICING, familyOffersSchema, familyPriceSummary } from "@/data/pricing";
 
 export const metadata: Metadata = {
-  title: "AI Reklam Videosu | Çekim Ekibi Olmadan Üretim — PORTZEN",
+  title: { absolute: "AI Reklam Videosu | Çekim Ekibi Olmadan Üretim — PORTZEN" },
   description:
     "AI reklam videosu üretimi: yapay zeka ile profesyonel ürün, marka, hizmet videoları. Çekim ekibi yok; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Ücretsiz brief.",
   keywords: [

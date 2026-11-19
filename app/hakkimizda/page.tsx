@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowUpRight,
@@ -14,9 +15,10 @@ import {
   Zap
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
+import { FOUNDER } from "@/data/social";
 
 export const metadata: Metadata = {
-  title: "Hakkımızda — PORTZEN",
+  title: { absolute: "Hakkımızda — PORTZEN" },
   description:
     "PORTZEN; İzmir merkezli sosyal medya ve yazılım ajansı. 7 kişilik ekiple sosyal medya yönetimi, içerik üretimi, web sitesi, mobil uygulama ve işletmeye özel iç sistemler.",
   alternates: { canonical: "https://portzenai.com/hakkimizda" },
@@ -142,6 +144,67 @@ export default function Page() {
                 süre ve fiyat baştan nettir; her hafta nerede olduğumuzu görürsünüz, teslimden sonra
                 da yanınızdayız.
               </p>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* KURUCU */}
+      <section className="py-section bg-white border-t-3 border-ink/15">
+        <div className="mx-auto max-w-container px-6 grid gap-10 md:grid-cols-[280px_1fr] lg:grid-cols-[340px_1fr] items-center">
+          <Reveal>
+            <Image
+              src={FOUNDER.photo}
+              alt={`${FOUNDER.name}, PORTZEN kurucusu`}
+              width={640}
+              height={800}
+              sizes="(min-width: 1024px) 340px, (min-width: 768px) 280px, 100vw"
+              className="w-full max-w-[340px] aspect-[4/5] object-cover border-3 border-ink/15 shadow-brutal rounded-2xl"
+            />
+          </Reveal>
+          <Reveal delay={150}>
+            <div>
+              <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-3 shadow-brutal-sm rounded-full">
+                Kurucu
+              </div>
+              <h2 className="font-display text-h2 font-black leading-tight">{FOUNDER.name}</h2>
+              <div className="mt-4 space-y-4 text-ink/80 leading-relaxed max-w-prose">
+                <p>
+                  Girişimci ve içerik üreticisi. Yapay zekâyla video üretiyor, yazılım geliştiriyor ve marka
+                  kuruyor. PORTZEN&apos;in yanında müzik pazaryeri Ritmüzik&apos;i, kurye operasyon sistemi
+                  PortX Express&apos;i ve topluluk platformu PortzenClass&apos;ı kurdu; dördü de bugün yayında.
+                </p>
+                <p>
+                  PORTZEN&apos;de sosyal medya ve yazılım işlerinde, kendi geliştirdiğimiz araçlarla yapay
+                  zekâyı pazarlama kurallarına uygun şekilde kullanan ekibi yönetiyor.
+                </p>
+              </div>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a
+                  href={FOUNDER.url}
+                  rel="author"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-slate px-5 py-3 text-sm font-bold text-white shadow-brutal hover:shadow-brutal-lg transition-all rounded-full"
+                >
+                  ardakayaa.com
+                  <ArrowUpRight className="h-4 w-4" />
+                </a>
+                <a
+                  href={FOUNDER.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal-sm hover:shadow-brutal transition-all rounded-full"
+                >
+                  Instagram
+                </a>
+                <a
+                  href={FOUNDER.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 border-3 border-ink/15 bg-paper px-5 py-3 text-sm font-bold text-ink shadow-brutal-sm hover:shadow-brutal transition-all rounded-full"
+                >
+                  LinkedIn
+                </a>
+              </div>
             </div>
           </Reveal>
         </div>

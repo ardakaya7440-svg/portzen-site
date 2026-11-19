@@ -20,7 +20,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Logo Yazılım Alternatifi | Modern KOBİ İçin ERP + AI Otomasyon - PORTZEN",
+  title: { absolute: "Logo Yazılım Alternatifi | Modern KOBİ İçin ERP + AI Otomasyon - PORTZEN" },
   description:
     "Logo Tiger/Mikro/Netsis kullanıyorsunuz ama otomasyon eksik. PORTZEN n8n + Make + custom workflow ile aynı ERP gücüne, daha esnek ve daha ucuz otomasyon katmanı kurar.",
   keywords: [
