@@ -90,7 +90,11 @@ function buildMeta(slug: string, data: Record<string, unknown>, content: string)
     author: String(data.author ?? "PORTZEN"),
     readingTime: typeof data.readingTime === "string" && data.readingTime ? data.readingTime : `${minutes} dakika`,
     relatedServices: Array.isArray(data.relatedServices) ? (data.relatedServices as string[]) : [],
-    ogImage: typeof data.ogImage === "string" ? data.ogImage : undefined
+    // Paylaşım görseli yalnızca dosya gerçekten varsa kullanılır; yoksa site geneli varsayılan görsele düşülür
+    ogImage:
+      typeof data.ogImage === "string" && fs.existsSync(path.join(process.cwd(), "public", data.ogImage))
+        ? data.ogImage
+        : undefined
   };
 }
 
@@ -118,7 +122,9 @@ export async function getPostBySlug(rawSlug: string): Promise<BlogPost | null> {
   const file = readMarkdownFile(slug);
   if (!file) return null;
   const meta = buildMeta(slug, file.data, file.content);
-  const processed = await remark().use(gfm).use(html, { sanitize: false }).process(file.content);
+  // Sayfa başlığı (H1) şablonda zaten gösteriliyor; içerikteki ilk "# Başlık" satırı çift H1 olmasın diye atlanır
+  const body = file.content.replace(/^\s*#\s+[^\n]*\n/, "");
+  const processed = await remark().use(gfm).use(html, { sanitize: false }).process(body);
   const contentHtml = processed.toString();
   const wordCount = file.content.split(/\s+/).filter(Boolean).length;
   return { ...meta, contentMd: file.content, contentHtml, wordCount };
@@ -180,4 +186,52 @@ export function getExtraPageNumbers(): number[] {
   if (totalPages <= 1) return [];
   // 2, 3, 4, ... totalPages
   return Array.from({ length: totalPages - 1 }, (_, i) => i + 2);
+}
+
+/* ============================================================
+   SSS (FAQPage şeması için)
+   "## Sıkça Sorulan Sorular" bölümündeki "### Soru" başlıklarını ve
+   altındaki paragrafları soru-cevap olarak çıkarır.
+   ============================================================ */
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+function mdToPlain(s: string): string {
+  return s
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/[*_`>]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export function extractFaq(contentMd: string): FaqItem[] {
+  const lines = contentMd.split("\n");
+  const start = lines.findIndex((l) => /^##\s+(Sıkça Sorulan Sorular|SSS)\b/i.test(l.trim()));
+  if (start === -1) return [];
+  const items: FaqItem[] = [];
+  let q: string | null = null;
+  let buf: string[] = [];
+  const flush = () => {
+    if (q) {
+      const answer = mdToPlain(buf.join(" "));
+      if (answer) items.push({ question: mdToPlain(q), answer });
+    }
+    q = null;
+    buf = [];
+  };
+  for (let i = start + 1; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (/^##\s/.test(line)) break;
+    const h3 = line.match(/^###\s+(.+)/);
+    if (h3) {
+      flush();
+      q = h3[1];
+      continue;
+    }
+    if (q && line) buf.push(line);
+  }
+  flush();
+  return items;
 }
