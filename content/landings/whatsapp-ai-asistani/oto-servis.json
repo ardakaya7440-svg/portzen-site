@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Ankara Sincan'da bir oto servis için online randevu akışı",
+    "title": "Ankara Sincan'da bir oto servis için online randevu akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Sincan Organize Sanayi'de 2 lift ve 4 ustayla çalışan bir oto servis. Araçların çoğu önceden randevu almadan kapıdan geliyor; bu durum vardiya planlamasını zorlaştırıyor, bazı günler müşteri uzun süre bekliyor, bazı günler lift boş kalıyor.",
+      "Sincan Organize Sanayi'de 2 lift ve 4 ustayla çalışan bir oto servis. Araçların çoğu önceden randevu almadan kapıdan geliyor; bu durum vardiya planlamasını zorlaştırıyor, bazı günler müşteri uzun süre bekliyor, bazı günler lift boş kalıyor.",
       "Böyle bir yapıda önce fiyat aralığı sistemi devreye alınır: müşteri WhatsApp'tan 'Fiesta 1.4 yağ bakımı kaç para' diye sorduğunda servisin tanımladığı fiyat aralığını alır ve randevu linkinden slot seçer. Ardından foto ile ön bilgi akışı eklenir; kaporta hasarı fotoğrafı gönderen müşteriye ekspertiz için müsait saatler önerilir.",
       "Bu kurulumda randevular lift ve usta kapasitesine göre takvime düşer, fiyat soruları tanımlı aralıklarla otomatik yanıtlanır, acil durumlar ustaya devredilir. Sekreter telefonda aynı soruları yanıtlamak yerine servisteki müşteriyle ilgilenir."
     ],

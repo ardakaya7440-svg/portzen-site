@@ -487,7 +487,7 @@ export default function Page() {
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              KOBİ markaları için custom çözüm: örnek senaryolar
+              KOBİ markaları için custom çözüm: sektöre göre kurulum
             </h2>
           </Reveal>
 
@@ -495,16 +495,16 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  <strong>Örnek senaryo: el yapımı seramik atölyesi, 250 SKU.</strong> IdeaSoft paket + modül birleşimi hızlı başlar ama marka kimliği tema kalıbında kaybolur. PORTZEN ile markaya özel tasarım, Next.js altyapı, AI ürün açıklaması (her seramik için özgün hikaye taslağı AI ile yazılır) ve PWA mobil deneyimi kurulur. Marka, tema kalıbı yerine kendine ait bir arayüzle ayrışır.
+                  <strong>El yapımı seramik atölyesi, 250 SKU.</strong> IdeaSoft paket + modül birleşimi hızlı başlar ama marka kimliği tema kalıbında kaybolur. PORTZEN ile markaya özel tasarım, Next.js altyapı, AI ürün açıklaması (her seramik için özgün hikaye taslağı AI ile yazılır) ve PWA mobil deneyimi kurulur. Marka, tema kalıbı yerine kendine ait bir arayüzle ayrışır.
                 </p>
                 <p>
-                  <strong>Örnek senaryo: organik gıda markası, 800 ürün.</strong> IdeaSoft pakette Logo entegrasyonu modül olarak ekleniyor. PORTZEN ile geçişte site Next.js ile yeniden kurulur, PageSpeed için 90+ hedeflenir, AI öneri motoru ürün sayfalarına eklenir. Logo Tiger bağlantısı Kurumsal paketteki hazır ERP/muhasebe bağlayıcısıyla kurulur, e-Arşiv fatura akışı otomatikleşir.
+                  <strong>Organik gıda markası, 800 ürün.</strong> IdeaSoft pakette Logo entegrasyonu modül olarak ekleniyor. PORTZEN ile geçişte site Next.js ile yeniden kurulur, PageSpeed için 90+ hedeflenir, AI öneri motoru ürün sayfalarına eklenir. Logo Tiger bağlantısı Kurumsal paketteki hazır ERP/muhasebe bağlayıcısıyla kurulur, e-Arşiv fatura akışı otomatikleşir.
                 </p>
                 <p>
-                  <strong>Örnek senaryo: butik mücevher markası, 1.500 SKU.</strong> Trafiğin büyük kısmı mobilden geliyor ama mevcut kurulumda PWA yok. PORTZEN&apos;de PWA standart gelir, push notification kurulur (sepet terk, yeni koleksiyon, kampanya). Ürün sorularını 7/24 yanıtlayan WhatsApp + site chatbotu, ayrı bir hizmet olan AI müşteri asistanı kapsamında eklenir; karmaşık sorular müşteri hizmetlerine devredilir.
+                  <strong>Butik mücevher markası, 1.500 SKU.</strong> Trafiğin büyük kısmı mobilden geliyor ama mevcut kurulumda PWA yok. PORTZEN&apos;de PWA standart gelir, push notification kurulur (sepet terk, yeni koleksiyon, kampanya). Ürün sorularını 7/24 yanıtlayan WhatsApp + site chatbotu, ayrı bir hizmet olan AI müşteri asistanı kapsamında eklenir; karmaşık sorular müşteri hizmetlerine devredilir.
                 </p>
                 <p>
-                  <strong>Örnek senaryo: hızlı büyüyen çocuk giyim markası.</strong> Kampanya saatlerinde mevcut sunucu yavaşlıyor. PORTZEN altyapısında site, trafiğe göre ölçeklenen Vercel edge ağında yayınlanır; hosting kalemi trafiğe göre değişir ve teklifte ayrıca belirtilir.
+                  <strong>Hızlı büyüyen çocuk giyim markası.</strong> Kampanya saatlerinde mevcut sunucu yavaşlıyor. PORTZEN altyapısında site, trafiğe göre ölçeklenen Vercel edge ağında yayınlanır; hosting kalemi trafiğe göre değişir ve teklifte ayrıca belirtilir.
                 </p>
               </div>
             </Reveal>

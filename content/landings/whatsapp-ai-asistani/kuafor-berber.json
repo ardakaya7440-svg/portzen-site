@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Şişli'de bir karma kuaför salonu için randevu akışı",
+    "title": "Şişli'de bir karma kuaför salonu için randevu akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Şişli'de berber ve kuaför ustalarının birlikte çalıştığı karma bir salon. WhatsApp tek hattan geliyor, resepsiyon ustaların takvimini elle yönetiyor, cumartesi günleri karışıklık yaşanıyor; randevuya gelmeyen müşteriler ustaların boş kalmasına yol açıyor.",
+      "Şişli'de berber ve kuaför ustalarının birlikte çalıştığı karma bir salon. WhatsApp tek hattan geliyor, resepsiyon ustaların takvimini elle yönetiyor, cumartesi günleri karışıklık yaşanıyor; randevuya gelmeyen müşteriler ustaların boş kalmasına yol açıyor.",
       "Böyle bir yapıda ustaların takvimi Google Calendar üzerinden senkronlanır, tüm hizmetlerin (kesim, boyama, perma, sakal, gelin saç vb.) fiyat ve süre bilgisi tanımlanır, 3 aşamalı hatırlatma sistemi devreye alınır.",
       "Bu kurulumda mesai dışı ve cumartesi gelen randevu talepleri otomatik karşılanır, müşteri randevudan önce hatırlatma alıp tek dokunuşla onaylar ya da erteler, iptal edilen slot sıradaki müşteriye açılır. Resepsiyon randevu yönetimi yerine salondaki müşteriye ve sadakat programına odaklanır."
     ],

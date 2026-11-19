@@ -59,7 +59,7 @@ Bu yöntemler önem sırasına göre dizildi. İlk 6 madde tek başına bir site
 
 Geleneksel JPEG/PNG görseller bir sitenin ağırlığının ortalama **%60-70'ini** oluşturuyor. WebP, JPEG'e göre %25-35, AVIF ise %50'ye varan boyut tasarrufu sağlıyor — aynı görsel kalitesinde.
 
-Örnek senaryo: ana sayfasında onlarca JPEG ürün görseli bulunan bir e-ticaret butiğinde görseller WebP'ye çevrildiğinde sayfa ağırlığı belirgin şekilde düşer; çoğu zaman LCP öğesi olan büyük ürün görseli de daha erken yüklenir.
+Ana sayfasında onlarca JPEG ürün görseli bulunan bir e-ticaret butiğinde görseller WebP'ye çevrildiğinde sayfa ağırlığı belirgin şekilde düşer; çoğu zaman LCP öğesi olan büyük ürün görseli de daha erken yüklenir.
 
 | Format | Tipik 1200px Görsel | Tarayıcı Desteği |
 |--------|---------------------|-------------------|
@@ -180,21 +180,19 @@ Aşağıdaki tablo, bir hız optimizasyonu çalışmasında her metrikte tipik o
 
 Hız optimizasyonu yalnızca teknik puan için yapılmaz; ölçümleme doğru kurulduğunda hızdaki değişimin satış ve müşteri kazanımına etkisi de takip edilebilir.
 
-## Örnek Senaryolar: Hız İyileştirmesi Sektöre Göre Nasıl Uygulanır?
-
-Aşağıdaki senaryolar gerçek müşteri sonuçları değil; sektörlere göre tipik sorunları ve uygulanan adımları gösteren örnek kurulumlardır.
+## Hız İyileştirmesi Sektöre Göre Nasıl Uygulanır?
 
 ### E-Ticaret Butik: 3 Saniye Engelinin Aşılması
 
-Örnek senaryo: butik koleksiyonlar satan bir markanın mobil sitesinde ağır ürün görselleri ve bloklayan scriptler nedeniyle ürün sayfası geç açılıyor. Önce: Ürün görselleri JPEG, tüm scriptler sayfanın başında yükleniyor, CDN yok. Sonra: Görseller WebP'ye çevriliyor, alt bölümler lazy load ile yükleniyor, critical CSS ve defer JS uygulanıyor, Cloudflare CDN aktive ediliyor. Sepete ekleme adımı analitikte ayrı bir dönüşüm noktası olarak tanımlandığı için değişimin etkisi aynı reklam bütçesi altında izlenebiliyor.
+Butik koleksiyonlar satan bir markanın mobil sitesinde ağır ürün görselleri ve bloklayan scriptler nedeniyle ürün sayfası geç açılıyor. Önce: Ürün görselleri JPEG, tüm scriptler sayfanın başında yükleniyor, CDN yok. Sonra: Görseller WebP'ye çevriliyor, alt bölümler lazy load ile yükleniyor, critical CSS ve defer JS uygulanıyor, Cloudflare CDN aktive ediliyor. Sepete ekleme adımı analitikte ayrı bir dönüşüm noktası olarak tanımlandığı için değişimin etkisi aynı reklam bütçesi altında izlenebiliyor.
 
 ### Klinik: Randevu Formuna Ulaşma Oranı
 
-Örnek senaryo: bir estetik kliniğin sitesinde randevu formunun bulunduğu sayfa mobilde yavaş açılıyor ve kullanıcıların bir kısmı forma ulaşmadan ayrılıyor. Font display swap, üçüncü parti script'lerin defer edilmesi, görsellerin WebP'ye geçirilmesi ve preconnect etiketleriyle sayfa daha erken kullanılabilir hale geliyor. Randevu formu tamamlama adımı analitikte ölçüldüğü için iyileştirmenin forma etkisi takip edilebiliyor.
+Bir estetik kliniğin sitesinde randevu formunun bulunduğu sayfa mobilde yavaş açılıyor ve kullanıcıların bir kısmı forma ulaşmadan ayrılıyor. Font display swap, üçüncü parti script'lerin defer edilmesi, görsellerin WebP'ye geçirilmesi ve preconnect etiketleriyle sayfa daha erken kullanılabilir hale geliyor. Randevu formu tamamlama adımı analitikte ölçüldüğü için iyileştirmenin forma etkisi takip edilebiliyor.
 
 ### Emlak Ofisi: Listeleme Sayfası Performansı
 
-Örnek senaryo: bir gayrimenkul ofisinin listeleme sayfasında onlarca ilan görseli aynı anda yükleniyor ve mobilde sayfa uzun süre etkileşime kapalı kalıyor. Lazy load, AVIF formatı, virtual scrolling ve görsel CDN entegrasyonu ile yalnızca ekrandaki ilanlar yükleniyor, sayfa daha erken etkileşime açılıyor. İlan detay sayfasına geçiş oranı ölçümlemeyle izlenerek iyileştirmenin etkisi değerlendiriliyor.
+Bir gayrimenkul ofisinin listeleme sayfasında onlarca ilan görseli aynı anda yükleniyor ve mobilde sayfa uzun süre etkileşime kapalı kalıyor. Lazy load, AVIF formatı, virtual scrolling ve görsel CDN entegrasyonu ile yalnızca ekrandaki ilanlar yükleniyor, sayfa daha erken etkileşime açılıyor. İlan detay sayfasına geçiş oranı ölçümlemeyle izlenerek iyileştirmenin etkisi değerlendiriliyor.
 
 ## Yöntem Karşılaştırması: Hangisini Ne Zaman Uygulamalı?
 

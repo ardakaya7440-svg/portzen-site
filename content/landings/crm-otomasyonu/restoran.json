@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Hafta içi boş kalan bir brasserie için CRM kurgusu",
+    "title": "Hafta içi boş kalan bir brasserie için CRM kurgusu",
     "paragraphs": [
-      "Örnek senaryo: Hafta sonu dolu, hafta içi boş bir brasserie konsept restoran düşünün. POS'tan her gün çok sayıda adisyon geçiyor ama müşteri kim, kaç kez geldi, neyi sever bilinmiyor. Doğum günü rezervasyonu yapan müşteriye ertesi yıl ulaşılmıyor, paket sipariş veren müşterinin restoran müşterisiyle aynı kişi olup olmadığı belirsiz.",
-      "Örnek bir kurulumda HubSpot CRM kurulur, POS sistemi (ör. Adisyo) bağlanır ve müşteri kayıtları aktarılır; paket sipariş verisi, platformların sunduğu imkâna göre telefon numarası ile eşleştirilir. KVKK aydınlatma metni kasada gösterilir, sadakat puanı sistemi aktif edilir, WhatsApp Business API ile hatırlatma akışları kurulur.",
+      "Hafta sonu dolu, hafta içi boş bir brasserie konsept restoran düşünün. POS'tan her gün çok sayıda adisyon geçiyor ama müşteri kim, kaç kez geldi, neyi sever bilinmiyor. Doğum günü rezervasyonu yapan müşteriye ertesi yıl ulaşılmıyor, paket sipariş veren müşterinin restoran müşterisiyle aynı kişi olup olmadığı belirsiz.",
+      "Bu kurulumda HubSpot CRM kurulur, POS sistemi (ör. Adisyo) bağlanır ve müşteri kayıtları aktarılır; paket sipariş verisi, platformların sunduğu imkâna göre telefon numarası ile eşleştirilir. KVKK aydınlatma metni kasada gösterilir, sadakat puanı sistemi aktif edilir, WhatsApp Business API ile hatırlatma akışları kurulur.",
       "Bu kurulumla iş akışında değişen şudur: rezervasyon onay ve hatırlatma mesajları otomatik gider, müşteri kasada tanınır ve puanı görünür, salı-çarşamba gibi boş günler için kampanya yalnızca ilgili segmente gönderilir, doğum günü rezervasyonu yapan müşteriye ertesi yıl davet kendiliğinden çıkar. Hangi kampanyanın kaç müşteri getirdiği aylık raporda görünür."
     ],
     "beforeAfter": [

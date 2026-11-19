@@ -481,7 +481,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryolar
+              Sektöre göre geçiş
             </div>
           </Reveal>
           <Reveal delay={100}>

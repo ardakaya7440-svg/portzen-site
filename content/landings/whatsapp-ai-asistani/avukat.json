@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Kadıköy'de bir hukuk bürosu için danışan karşılama akışı",
+    "title": "Kadıköy'de bir hukuk bürosu için danışan karşılama akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Kadıköy'de aile ve iş hukuku üzerine çalışan 3 avukatlı bir büroya WhatsApp'tan düzenli danışan mesajı geliyor. Sekreter aynı temel soruları yanıtlamaktan yoruluyor, gece ve hafta sonu gelen mesajlar cevapsız kalıyor.",
+      "Kadıköy'de aile ve iş hukuku üzerine çalışan 3 avukatlı bir büroya WhatsApp'tan düzenli danışan mesajı geliyor. Sekreter aynı temel soruları yanıtlamaktan yoruluyor, gece ve hafta sonu gelen mesajlar cevapsız kalıyor.",
       "Böyle bir yapıda önce KVKK gerekliliklerini dikkate alan görüşme akışı (aydınlatma metni, açık rıza), dava türü kategorizasyonu ve otomatik randevu sistemi kurulur. Ardından hassas konu tespiti eklenir: koruma kararı, gözaltı gibi acil durumlarda otomatik yanıt durur ve avukata çağrı + SMS + WhatsApp bildirimi gider.",
       "Bu kurulumda gece gelen mesajlar sabah randevu talebi ve kısa ön bilgi özeti olarak masaya gelir, büronun ilgilenmediği alanlardaki talepler kibarca yönlendirilir, sekreterin tekrar eden soru yükü asistana geçer. Hukuki değerlendirme her zaman avukatta kalır."
     ],

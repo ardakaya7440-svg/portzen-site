@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Çankaya'da bir estetik klinik için prosedür sayfaları ve online randevu",
+    "title": "Çankaya'da bir estetik klinik için prosedür sayfaları ve online randevu",
     "paragraphs": [
-      "Örnek bir kurulum: Çankaya'da rinoplasti, dolgu ve hifu odaklı çalışan bir estetik klinik düşünün. WordPress sitesi eski, mobilde yavaş açılıyor, online randevu sistemi yok, blog birkaç makaleyle bırakılmış; randevular WhatsApp ve telefon arasında dağılıyor.",
-      "Bu senaryoda site yeniden kurulur: Next.js 15, her prosedür için ayrı SEO sayfası (rinoplasti, dolgu, lazer, hifu, mezoterapi), hasta açık rızasıyla öncesi/sonrası filtrelenebilir galeri, Calendly online randevu, WhatsApp sticky butonu, MDX blog motoru ve KVKK gerekliliklerini gözeten form sistemi.",
+      "Çankaya'da rinoplasti, dolgu ve hifu odaklı çalışan bir estetik klinik düşünün. WordPress sitesi eski, mobilde yavaş açılıyor, online randevu sistemi yok, blog birkaç makaleyle bırakılmış; randevular WhatsApp ve telefon arasında dağılıyor.",
+      "Bu kurulumda site yeniden kurulur: Next.js 15, her prosedür için ayrı SEO sayfası (rinoplasti, dolgu, lazer, hifu, mezoterapi), hasta açık rızasıyla öncesi/sonrası filtrelenebilir galeri, Calendly online randevu, WhatsApp sticky butonu, MDX blog motoru ve KVKK gerekliliklerini gözeten form sistemi.",
       "Yayından sonra iş akışı şöyle değişir: Hasta prosedürü kendi sayfasında okur, uygun saati takvimden seçer; randevu sekreter ve doktor takvimine düşer, hatırlatma otomatik gider. Blog yazıları doktor onayından geçerek ilgili prosedür sayfalarına bağlanır. Sıralama ve randevu sayısı rekabete ve içerik düzenine bağlı olduğundan sonuç rakamı vaat etmiyoruz."
     ],
     "beforeAfter": [

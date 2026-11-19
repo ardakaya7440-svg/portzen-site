@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Ankara Çankaya'da bir optik mağaza için randevu ve hatırlatma akışı",
+    "title": "Ankara Çankaya'da bir optik mağaza için randevu ve hatırlatma akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Ankara Çankaya'da optometrist göz muayenesi de sunan, Ray-Ban, Oakley, Tom Ford çerçeve ve multifokal lens satan bir optik mağaza. Telefonla gelen soruların büyük kısmı muayene randevusu ve çerçeve fiyatı; mesai dışı arayanlar kaybediliyor, kontrol hatırlatması hiç yapılmıyor.",
+      "Ankara Çankaya'da optometrist göz muayenesi de sunan, Ray-Ban, Oakley, Tom Ford çerçeve ve multifokal lens satan bir optik mağaza. Telefonla gelen soruların büyük kısmı muayene randevusu ve çerçeve fiyatı; mesai dışı arayanlar kaybediliyor, kontrol hatırlatması hiç yapılmıyor.",
       "Böyle bir yapıda WhatsApp AI asistanı mevcut randevu sistemine bağlanır. Göz muayene randevusu, çerçeve fiyat sorgulama (marka katalogları), lens stok kontrolü, gözlük teslim hazır bildirimi, 1 yıllık kontrol hatırlatması ve garanti takibi akışları açılır.",
       "Bu kurulumda muayene randevuları WhatsApp'tan alınıp takvime düşer, gözlüğü hazır olan müşteriye otomatik bildirim gider, bir yıl önce gözlük alan müşterilere kontrol hatırlatması ve garanti süresi dolmak üzere olanlara bilgilendirme gönderilir. Mağaza ekibi telefon yerine mağazadaki müşteriye odaklanır."
     ],

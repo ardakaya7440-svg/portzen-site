@@ -269,7 +269,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: tek şubeli veteriner kliniği
+              Uygulamada: tek şubeli veteriner kliniği
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -282,7 +282,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Örnek senaryoda klinik aşı takvimini defterde ve Excel&apos;de tutuyor; resepsiyondaki asistan boş vakitlerinde sahipleri tek tek arıyor. Aramaların bir kısmı karşılıksız kalıyor, karma aşının rapelini kaçıran hastalar gözden kaçabiliyor.
+                  Tipik bir durumda klinik aşı takvimini defterde ve Excel&apos;de tutuyor; resepsiyondaki asistan boş vakitlerinde sahipleri tek tek arıyor. Aramaların bir kısmı karşılıksız kalıyor, karma aşının rapelini kaçıran hastalar gözden kaçabiliyor.
                 </p>
                 <p>
                   Brief görüşmesinde klinik protokolleri — kaç ayda bir hangi aşı, hangi rapel, hangi parazit tedavisi — birlikte çıkarılır. Hasta kartları sisteme aktarılır, aşı takvim motoru kurulur, WhatsApp bildirim tonu klinik diliyle (samimi, açıklayıcı, biraz sıcak) hazırlanır. KVKK açık rıza cümlesi kart açılış akışına yerleştirilir.

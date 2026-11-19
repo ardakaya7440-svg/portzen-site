@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bir özel oto serviste periyodik bakım, garanti ve stok takibi",
+    "title": "Bir özel oto serviste periyodik bakım, garanti ve stok takibi",
     "paragraphs": [
-      "Örnek senaryo: Yetkili olmayan, günde çok sayıda araç kabul eden bir özel oto servis düşünün. Periyodik bakım için müşteri hatırlatması yapılmıyor; takip Excel ve servis sahibinin telefon defteri ile yürüyor.",
-      "Örnek bir kurulumda mevcut müşteri ve araç kayıtları veritabanına aktarılır; HubSpot + WhatsApp Business API + SMS çift kanal kurulur. Periyodik bakım hatırlatma akışı, garanti alarm sistemi ve parça stok takibi devreye alınır.",
+      "Yetkili olmayan, günde çok sayıda araç kabul eden bir özel oto servis düşünün. Periyodik bakım için müşteri hatırlatması yapılmıyor; takip Excel ve servis sahibinin telefon defteri ile yürüyor.",
+      "Bu kurulumda mevcut müşteri ve araç kayıtları veritabanına aktarılır; HubSpot + WhatsApp Business API + SMS çift kanal kurulur. Periyodik bakım hatırlatma akışı, garanti alarm sistemi ve parça stok takibi devreye alınır.",
       "Bu kurulumla iş akışında değişen şudur: bakımı yaklaşan araç sahibine hatırlatma ve randevu linki otomatik gider, garanti süreleri kayıt altında olduğu için uyuşmazlıkta kayda bakılır, kritik seviyeye düşen parça için bildirim oluşur. Sadakat seviyeleri harcama ve servis sayısına göre otomatik güncellenir."
     ],
     "beforeAfter": [

@@ -89,10 +89,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Şişli'de bir yönetim danışmanlığı firması için lead toplama ve bölge bazlı atama",
+    "title": "Şişli'de bir yönetim danışmanlığı firması için lead toplama ve bölge bazlı atama",
     "paragraphs": [
-      "Örnek senaryo: Şişli'de birkaç kişilik satış ekibiyle çalışan bir yönetim danışmanlığı firması düşünün. Lead'ler Google Ads, LinkedIn, IG, referans ve web formundan geliyor fakat hepsi farklı Excel'lerde, bazıları Outlook gelen kutusunda kalıyor. Sıcak lead'lere ilk aramanın ne zaman yapıldığını kimse izleyemiyor.",
-      "Örnek bir kurulumda Türkçe CRM kurulur (özelleştirilmiş HubSpot + Next.js panel). Lead kaynakları otomatik entegre edilir, kural tabanlı önceliklendirme (sektör, şirket büyüklüğü, kaynak) ve bölge bazlı otomatik atama (Anadolu yakası ekibi vs Avrupa yakası ekibi) devreye alınır. KVKK gerekliliklerini dikkate alan aydınlatma + açık rıza akışları kurulur.",
+      "Şişli'de birkaç kişilik satış ekibiyle çalışan bir yönetim danışmanlığı firması düşünün. Lead'ler Google Ads, LinkedIn, IG, referans ve web formundan geliyor fakat hepsi farklı Excel'lerde, bazıları Outlook gelen kutusunda kalıyor. Sıcak lead'lere ilk aramanın ne zaman yapıldığını kimse izleyemiyor.",
+      "Bu kurulumda Türkçe CRM kurulur (özelleştirilmiş HubSpot + Next.js panel). Lead kaynakları otomatik entegre edilir, kural tabanlı önceliklendirme (sektör, şirket büyüklüğü, kaynak) ve bölge bazlı otomatik atama (Anadolu yakası ekibi vs Avrupa yakası ekibi) devreye alınır. KVKK gerekliliklerini dikkate alan aydınlatma + açık rıza akışları kurulur.",
       "Bu kurulumla iş akışında değişen şudur: tüm lead'ler tek CRM'de kaynağıyla birlikte toplanır, her lead otomatik olarak doğru ekibe ve temsilciye atanır, yönetici hangi kanalın ne getirdiğini dashboard'dan görür. KVKK tarafında 'hangi veri nerede, kim erişti' sorusunun cevabı CRM kayıtlarındadır."
     ],
     "beforeAfter": [

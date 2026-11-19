@@ -88,7 +88,7 @@
     "title": "İzmir Bornova'da bir veteriner kliniği için örnek kurulum",
     "paragraphs": [
       "Bornova'da aktif paylaşım yapan bir veteriner kliniği düşünelim: DM'lerin önemli bir kısmına zamanında dönülemiyor, yorumlar elle yanıtlanıyor. Yavru kedi/köpek paylaşımlarına gelen 'fiyat?' yorumlarının potansiyel müşteri olduğu biliniyor ama yetişilemiyor.",
-      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: fiyat, randevu, aşı, kısırlaştırma, ev ziyareti, mikroçip, parazit, yavru, acil, semt ve çalışma saati için tetikleyici kelimeler; hizmet bilgi kartları; butonlu randevu talebi; acil kelimelerde arama numarası ve kliniğe anlık bildirim.",
+      "Bu kurulumda kural tabanlı Instagram DM otomasyonu kurulur: fiyat, randevu, aşı, kısırlaştırma, ev ziyareti, mikroçip, parazit, yavru, acil, semt ve çalışma saati için tetikleyici kelimeler; hizmet bilgi kartları; butonlu randevu talebi; acil kelimelerde arama numarası ve kliniğe anlık bildirim.",
       "Böylece aşı, fiyat ve randevu sorularına resepsiyon beklenmeden hazır mesajlarla yanıt verilir, randevu talebi düzenli bir bildirim olarak kliniğe ulaşır; acil anahtar kelime içeren mesajlar hasta sahibini telefonla aramaya yönlendirir ve ekibe bildirilir. Anahtar kelime eşleşmesi her acil durumu yakalayamayabileceği için DM kutusu ekip tarafından da düzenli kontrol edilir."
     ],
     "beforeAfter": [

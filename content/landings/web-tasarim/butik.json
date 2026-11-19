@@ -87,10 +87,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Shopify'dan kendi altyapısına geçen bir keten butiği",
+    "title": "Shopify'dan kendi altyapısına geçen bir keten butiği",
     "paragraphs": [
-      "Örnek bir kurulum: İstanbul'da keten ve doğal kumaş üzerine çalışan bir butik marka düşünün. Shopify'da abonelik, tema ve uygulama ücretleri ödüyor; site mobilde yavaş, checkout uzun, Instagram Shop'taki ürün sınırı tüm koleksiyonu göstermeye yetmiyor.",
-      "Bu senaryoda ürün kataloğu analiz edilir, checkout 3 adıma indirilir, Iyzico + Stripe ödeme ve Aras + Yurtiçi kargo API bağlantıları kurulur. Tasarım marka feed'iyle uyumlu, lookbook tarzı koleksiyon sayfalarıyla hazırlanır; her ürün için ayrı SEO sayfası ve Türkçe schema markup eklenir. Ürünler paket kapsamına göre dosyadan aktarılır (Başlangıç 50, Büyüme 250, Kurumsal 1.000 ürün).",
+      "İstanbul'da keten ve doğal kumaş üzerine çalışan bir butik marka düşünün. Shopify'da abonelik, tema ve uygulama ücretleri ödüyor; site mobilde yavaş, checkout uzun, Instagram Shop'taki ürün sınırı tüm koleksiyonu göstermeye yetmiyor.",
+      "Bu kurulumda ürün kataloğu analiz edilir, checkout 3 adıma indirilir, Iyzico + Stripe ödeme ve Aras + Yurtiçi kargo API bağlantıları kurulur. Tasarım marka feed'iyle uyumlu, lookbook tarzı koleksiyon sayfalarıyla hazırlanır; her ürün için ayrı SEO sayfası ve Türkçe schema markup eklenir. Ürünler paket kapsamına göre dosyadan aktarılır (Başlangıç 50, Büyüme 250, Kurumsal 1.000 ürün).",
       "Yayından sonra iş akışı şöyle değişir: Müşteri sepetten onaya üç adımda geçer, misafir olarak ödeme yapabilir. Sipariş geldiğinde kargo barkodu otomatik üretilir ve takip linki müşteriye gider; iade talepleri panelden açılır, durumları tek ekranda izlenir. Sipariş ve dönüşüm rakamları ürün, fiyat ve trafik kaynaklarına bağlı olduğundan sonuç vaat etmiyoruz."
     ],
     "beforeAfter": [

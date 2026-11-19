@@ -88,7 +88,7 @@
     "title": "Karşıyaka'da bir aile petshop'u için örnek kurulum",
     "paragraphs": [
       "Karşıyaka'da yıllardır çalışan bir aile petshop'u düşünelim: Instagram'da sevimli kedi-köpek videoları ilgi görüyor, ancak 'bu mama hangisi?', 'fiyat?' yorumlarına yetişilemiyor ve izlenmeler siparişe bağlanamıyor.",
-      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: birkaç anahtar kelimeyle yorum-DM köprüsü, butonlarla ırk-yaş bazlı ürün önerisi, Iyzico ödeme sayfası linki, tekrar sipariş akışı ve mevcut/yeni müşteri ayrımı için butonlar. Mesaj metinleri işletmenin sıcak, hayvansever diliyle yazılıp onaya sunulur.",
+      "Bu kurulumda kural tabanlı Instagram DM otomasyonu kurulur: birkaç anahtar kelimeyle yorum-DM köprüsü, butonlarla ırk-yaş bazlı ürün önerisi, Iyzico ödeme sayfası linki, tekrar sipariş akışı ve mevcut/yeni müşteri ayrımı için butonlar. Mesaj metinleri işletmenin sıcak, hayvansever diliyle yazılıp onaya sunulur.",
       "Böylece mama ve fiyat sorularına hazır mesajlarla yanıt verilir, ilgilenen müşteri doğrudan sipariş linkine yönlenir, işletme sahibi yalnızca akışın kapsamadığı ve sağlıkla ilgili sorularla ilgilenir. Bir video çok ilgi gördüğünde gelen yorumlar da aynı kurallarla, Meta'nın gönderim limitleri dahilinde sırayla yanıtlanır."
     ],
     "beforeAfter": [

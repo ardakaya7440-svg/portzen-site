@@ -89,7 +89,7 @@
     "title": "Seyhan'da çok şubeli bir kebap salonu için örnek kurulum",
     "paragraphs": [
       "Seyhan'da birden fazla şubesi olan bir kebap salonu düşünelim: mutfak Reels'leri ilgi görüyor, ancak gelen DM'leri tek bir personel cevaplamaya çalışıyor. Mesajlar saatlerce bekliyor, paket sipariş soran müşteri sipariş platformuna yönlendirilemiyor ve başka kebapçıya gidiyor.",
-      "Bu senaryoda Meta'nın resmi Instagram API'si üzerinden kural tabanlı akışlar kurulur: menü, fiyat, şube, paket ve rezervasyon için anahtar kelime senaryoları; Reels yorumlarında 'menü' veya 'paket' yazanlara otomatik DM; şube seçimi butonları ve her şubenin adres ve Google Maps linki; paket sipariş isteyenlere Yemeksepeti linki. Tüm mesaj metinleri işletmenin onayıyla yazılır.",
+      "Bu kurulumda Meta'nın resmi Instagram API'si üzerinden kural tabanlı akışlar kurulur: menü, fiyat, şube, paket ve rezervasyon için anahtar kelime senaryoları; Reels yorumlarında 'menü' veya 'paket' yazanlara otomatik DM; şube seçimi butonları ve her şubenin adres ve Google Maps linki; paket sipariş isteyenlere Yemeksepeti linki. Tüm mesaj metinleri işletmenin onayıyla yazılır.",
       "Böylece sık sorulan sorular personel beklenmeden hazır mesajlarla yanıtlanır, paket sipariş talebi doğrudan sipariş platformuna yönlenir, personel yalnızca akışın kapsamadığı mesajlara döner. Hangi anahtar kelimelerin ne sıklıkla tetiklendiği izlenerek menü ve mesaj metinleri güncellenir. Serbest yazılmış sorulara AI ile yanıt verilmesi istenirse bu, AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamında değerlendirilir."
     ],
     "beforeAfter": [

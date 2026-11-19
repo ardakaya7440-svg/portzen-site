@@ -87,10 +87,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Çankaya'da bir hukuk bürosu için iki ayrı pipeline ve müvekkil hafızası",
+    "title": "Çankaya'da bir hukuk bürosu için iki ayrı pipeline ve müvekkil hafızası",
     "paragraphs": [
-      "Örnek senaryo: Çankaya'da birkaç avukat ve stajyerle çalışan bir hukuk bürosu düşünün. Lead'ler WhatsApp, IG, web ve telefondan geliyor ama müvekkil bilgileri farklı sistemlerde dağınık; bir avukat ayrıldığında o avukatın müvekkilleriyle ilgili geçmiş kayboluyor.",
-      "Örnek bir kurulumda büro için HubSpot tabanlı bir CRM kurulur. Lead'ler 'Kamu' (kamu kurumu danışmanlığı, idare hukuku) ve 'Özel sektör' (boşanma, ticaret, ceza) olarak iki ayrı pipeline'a ayrılır. Outlook takvimi ve WhatsApp kanalı CRM'e bağlanır; UYAP tarafı resmi API olmadığından erişim imkânına göre brief'te planlanır. Otomatik takip mailleri, müzakere hatırlatmaları ve teklif onboarding akışları hazırlanır.",
+      "Çankaya'da birkaç avukat ve stajyerle çalışan bir hukuk bürosu düşünün. Lead'ler WhatsApp, IG, web ve telefondan geliyor ama müvekkil bilgileri farklı sistemlerde dağınık; bir avukat ayrıldığında o avukatın müvekkilleriyle ilgili geçmiş kayboluyor.",
+      "Bu kurulumda büro için HubSpot tabanlı bir CRM kurulur. Lead'ler 'Kamu' (kamu kurumu danışmanlığı, idare hukuku) ve 'Özel sektör' (boşanma, ticaret, ceza) olarak iki ayrı pipeline'a ayrılır. Outlook takvimi ve WhatsApp kanalı CRM'e bağlanır; UYAP tarafı resmi API olmadığından erişim imkânına göre brief'te planlanır. Otomatik takip mailleri, müzakere hatırlatmaları ve teklif onboarding akışları hazırlanır.",
       "Bu kurulumla iş akışında değişen şudur: her lead'in hangi pipeline'da ve hangi aşamada olduğu görünür, takip hatırlatmaları otomatik gelir, müvekkil geçmişi avukata değil büroya ait kayıtta durur. Bir avukat ayrıldığında devir teslim, tek müvekkil kartı üzerinden yapılır."
     ],
     "beforeAfter": [

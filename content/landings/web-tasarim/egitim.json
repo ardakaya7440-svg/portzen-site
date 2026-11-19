@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Tek sayfada listelenen kursları ayrı SEO sayfalarına ve online ödemeye taşımak",
+    "title": "Tek sayfada listelenen kursları ayrı SEO sayfalarına ve online ödemeye taşımak",
     "paragraphs": [
-      "Örnek bir kurulum: Yazılım ve veri analitiği üzerine onlarca kursu olan bir online eğitim platformu düşünün. Eski WordPress sitesinde tüm kurslar tek sayfada listeleniyor, 'python kursu' gibi aramalarda site görünmüyor. Başvurular WhatsApp ve e-postadan geliyor, danışmanlar arasında dağıtım yok.",
-      "Bu senaryoda her kursa ayrı SEO sayfası (Course schema markup'lı) ve '[Şehir] + [Kurs] + [Format]' kombinasyonlu programmatic SEO sayfaları üretilir. Iyzico ve Stripe ödeme kurulur, Thinkific gibi bir LMS'in API'si bağlanır; ödeme yapan öğrenci otomatik olarak LMS'e tanımlanır. Başvuru formuna danışman atama mantığı ve otomatik karşılama mesajı eklenir (bu akışlar iş otomasyonu kapsamında kurulur).",
+      "Yazılım ve veri analitiği üzerine onlarca kursu olan bir online eğitim platformu düşünün. Eski WordPress sitesinde tüm kurslar tek sayfada listeleniyor, 'python kursu' gibi aramalarda site görünmüyor. Başvurular WhatsApp ve e-postadan geliyor, danışmanlar arasında dağıtım yok.",
+      "Bu kurulumda her kursa ayrı SEO sayfası (Course schema markup'lı) ve '[Şehir] + [Kurs] + [Format]' kombinasyonlu programmatic SEO sayfaları üretilir. Iyzico ve Stripe ödeme kurulur, Thinkific gibi bir LMS'in API'si bağlanır; ödeme yapan öğrenci otomatik olarak LMS'e tanımlanır. Başvuru formuna danışman atama mantığı ve otomatik karşılama mesajı eklenir (bu akışlar iş otomasyonu kapsamında kurulur).",
       "Yayından sonra iş akışı şöyle değişir: Öğrenci kursu kendi arama terimiyle bulur; müfredat, ücret ve takvimi sayfada görür, taksitli ödemeyi sayfadan yapar ve kurs erişimi otomatik açılır. Başvurular danışmanlara sırayla atanır, kimin hangi başvuruyla ilgilendiği görünür. Trafik ve satış rakamları kurs portföyüne, fiyatlara ve rekabete bağlı olduğundan sonuç vaat etmiyoruz."
     ],
     "beforeAfter": [

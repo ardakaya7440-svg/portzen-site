@@ -65,9 +65,9 @@ Kurulum sürecini KOBİ ölçeğinde beş net adıma bölmek mümkün.
 
 Bu beş adım tamamlandığında yedek sistem sahada çalışır durumda olur; PORTZEN'de teslim süresi kapsama göre teklifte yazılı olarak belirtilir.
 
-## Örnek Senaryo: 3 Kişilik Bir Estetik Kliniği
+## Uygulamada: 3 Kişilik Bir Estetik Kliniği
 
-Aşağıdaki senaryo gerçek bir müşteri sonucu değil; yedekleme mimarisinin küçük bir klinikte nasıl kurgulandığını gösteren örnek bir kurulumdur. Klinik sekreterinin düzenli olarak izin veya hasta günü kullandığı, bu günlerde randevu taleplerinin, sosyal medya mesajlarının ve telefonun cevapsız kaldığı bir klinik düşünelim. Yedekleme mimarisi kurulduğunda iş akışında şunlar değişir:
+Klinik sekreterinin düzenli olarak izin veya hasta günü kullandığı, bu günlerde randevu taleplerinin, sosyal medya mesajlarının ve telefonun cevapsız kaldığı bir klinik düşünelim. Yedekleme mimarisi kurulduğunda iş akışında şunlar değişir:
 
 - Önce: Sekreter yokken randevu talepleri bekliyor. Sonra: WhatsApp'tan gelen randevu talebi asistan tarafından alınıp takvime işleniyor.
 - Önce: Mesajlar gün sonunda topluca, gecikmeyle yanıtlanıyor. Sonra: Sık sorulan sorulara asistan otomatik yanıt veriyor, yalnızca özel durumlar sahibe özet olarak düşüyor.

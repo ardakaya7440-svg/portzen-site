@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Randevuları telefon ve DM'den alan karma bir kuaför salonu",
+    "title": "Randevuları telefon ve DM'den alan karma bir kuaför salonu",
     "paragraphs": [
-      "Örnek bir kurulum: Beşiktaş'ta kuaför ve berberlerden oluşan karma bir salon düşünün. Eski WordPress sitesi mobil uyumlu değil, online randevu sistemi yok, hizmet fiyatları belirsiz. Tüm randevular telefon ve Instagram DM'den geliyor; cumartesi günleri takip karışıyor, randevular kaçıyor.",
-      "Bu senaryoda site yeniden kurulur: usta takvimleriyle senkron online randevu sistemi, hizmet bazlı fiyat sayfaları, usta tanıtım kartları, gelin paketi özel sayfası, before-after galerisi ve Google İşletme Profili düzenlemesi.",
+      "Beşiktaş'ta kuaför ve berberlerden oluşan karma bir salon düşünün. Eski WordPress sitesi mobil uyumlu değil, online randevu sistemi yok, hizmet fiyatları belirsiz. Tüm randevular telefon ve Instagram DM'den geliyor; cumartesi günleri takip karışıyor, randevular kaçıyor.",
+      "Bu kurulumda site yeniden kurulur: usta takvimleriyle senkron online randevu sistemi, hizmet bazlı fiyat sayfaları, usta tanıtım kartları, gelin paketi özel sayfası, before-after galerisi ve Google İşletme Profili düzenlemesi.",
       "Yayından sonra iş akışı şöyle değişir: Müşteri ustayı, hizmeti ve saati siteden seçer; çakışma kontrolü otomatik yapılır, randevu salon paneline ve WhatsApp'a düşer, müşteriye onay ve hatırlatma otomatik gider. Gelin adayları paket detaylarını sayfada görüp formu doldurur, talep doğrudan salon yöneticisine iletilir. Randevu ve anlaşma sayısı bölgeye ve sezona bağlı olduğundan rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

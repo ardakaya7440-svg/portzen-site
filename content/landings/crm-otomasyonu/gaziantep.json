@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Şahinbey'de bir baklava ihracatçısı için distribütör takibi ve çok dilli kampanya",
+    "title": "Şahinbey'de bir baklava ihracatçısı için distribütör takibi ve çok dilli kampanya",
     "paragraphs": [
-      "Örnek senaryo: Şahinbey'de baklava + Antep fıstığı ihracatı yapan, farklı ülkelerde birkaç distribütörle çalışan bir firma düşünün. Distribütörler Excel'de takip ediliyor; son sipariş, ödeme durumu ve kampanya katılımı sahibin kafasında. Yeni distribütör başvurularına geç dönülüyor.",
-      "Örnek bir kurulumda HubSpot + WhatsApp Business API + web sitesi formu entegrasyonu kurulur. Her distribütör için müşteri kartı, fiyat anlaşması, sipariş geçmişi, ödeme durumu ve son temas tarihi tutulur. Üç dilli (TR + EN + AR) otomatik mesaj akışları eklenir; yeni B2B başvurusu otomatik karşılanır ve ekibe yanıt hatırlatması düşer.",
+      "Şahinbey'de baklava + Antep fıstığı ihracatı yapan, farklı ülkelerde birkaç distribütörle çalışan bir firma düşünün. Distribütörler Excel'de takip ediliyor; son sipariş, ödeme durumu ve kampanya katılımı sahibin kafasında. Yeni distribütör başvurularına geç dönülüyor.",
+      "Bu kurulumda HubSpot + WhatsApp Business API + web sitesi formu entegrasyonu kurulur. Her distribütör için müşteri kartı, fiyat anlaşması, sipariş geçmişi, ödeme durumu ve son temas tarihi tutulur. Üç dilli (TR + EN + AR) otomatik mesaj akışları eklenir; yeni B2B başvurusu otomatik karşılanır ve ekibe yanıt hatırlatması düşer.",
       "Bu kurulumla iş akışında değişen şudur: her distribütörün durumu tek ekranda görünür, yeni başvurular takipsiz kalmaz, Ramazan ve Bayram kampanyaları her segmente kendi dilinde otomatik gider. Sahip tüm pipeline'ı dashboard'dan izler."
     ],
     "beforeAfter": [

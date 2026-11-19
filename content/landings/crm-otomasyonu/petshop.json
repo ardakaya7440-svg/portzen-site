@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bir mahalle petshopunda evcil hayvan profili ve mama aboneliği",
+    "title": "Bir mahalle petshopunda evcil hayvan profili ve mama aboneliği",
     "paragraphs": [
-      "Örnek senaryo: Sadık bir müşteri tabanı olan bir aile petshopu düşünün. Tüm takip Excel + WhatsApp ile yapılıyor; mama aboneliği az sayıda müşteriyle sınırlı, çünkü manuel hatırlatma yetişmiyor. Müşterinin kedisinin ırkı, yaşı, mama tercihi belli ama düzensiz Excel'lerde dağılmış.",
-      "Örnek bir kurulumda HubSpot CRM kurulur: her müşteriye evcil hayvan profili, mama abonelik akışı, doğum günü kampanyası ve sezonsal segmentasyon. POS sisteminden geçmiş veri taşınır, mevcut müşterilere 'abone olur musunuz?' WhatsApp kampanyası hazırlanır.",
+      "Sadık bir müşteri tabanı olan bir aile petshopu düşünün. Tüm takip Excel + WhatsApp ile yapılıyor; mama aboneliği az sayıda müşteriyle sınırlı, çünkü manuel hatırlatma yetişmiyor. Müşterinin kedisinin ırkı, yaşı, mama tercihi belli ama düzensiz Excel'lerde dağılmış.",
+      "Bu kurulumda HubSpot CRM kurulur: her müşteriye evcil hayvan profili, mama abonelik akışı, doğum günü kampanyası ve sezonsal segmentasyon. POS sisteminden geçmiş veri taşınır, mevcut müşterilere 'abone olur musunuz?' WhatsApp kampanyası hazırlanır.",
       "Bu kurulumla iş akışında değişen şudur: mama bitiş zamanı yaklaşan müşteriye hatırlatma otomatik gider, abone müşterinin siparişi onay + ödeme + kargo etiketiyle akar, evcil hayvanın doğum gününde mesaj kendiliğinden çıkar. Abonelik ve tekrar satış verisi aylık raporda görünür."
     ],
     "beforeAfter": [

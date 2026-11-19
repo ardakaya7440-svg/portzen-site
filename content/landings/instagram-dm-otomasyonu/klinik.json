@@ -87,7 +87,7 @@
     "title": "Şişli'de bir güzellik kliniği için örnek kurulum",
     "paragraphs": [
       "Şişli'de Instagram reklamıyla çalışan bir güzellik kliniği düşünelim: Reels'lerden her gün çok sayıda DM geliyor, ancak iki sekreter mesajların yalnızca bir kısmına aynı gün yanıt verebiliyor; reklamla gelen ilginin önemli bir kısmı yanıt beklerken kayboluyor.",
-      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: ana tedavi başlıkları, kliniğin kendi belirlediği kampanyalı paket fiyatları ve hekim onaylı öncesi/sonrası görseller hazır mesajlara dönüştürülür; Reels yorumlarına otomatik DM açılır, randevu isteyen danışana online randevu linki gönderilir.",
+      "Bu kurulumda kural tabanlı Instagram DM otomasyonu kurulur: ana tedavi başlıkları, kliniğin kendi belirlediği kampanyalı paket fiyatları ve hekim onaylı öncesi/sonrası görseller hazır mesajlara dönüştürülür; Reels yorumlarına otomatik DM açılır, randevu isteyen danışana online randevu linki gönderilir.",
       "Böylece fiyat ve paket sorularına sekreter beklenmeden hazır mesajlarla yanıt verilir, randevu talebi doğrudan randevu sayfasına yönlenir; sekreterler randevu ve ödeme konuşan danışanlara ait bildirimlere odaklanır. Komplikasyon veya after-care içeren mesajlar hekime aktarılır. Serbest sorulara AI ile yanıt istenirse bu, AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
     ],
     "beforeAfter": [
@@ -139,5 +139,5 @@
     }
   ],
   "finalCtaHeadline": "Reels patlasın — DM'leri biz yanıtlayalım.",
-  "finalCtaSubtitle": "20 dakikalık tanıtım görüşmesi: tedavi katalogunuza uygun DM akışını örnek senaryolarla gösterelim. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
+  "finalCtaSubtitle": "20 dakikalık tanıtım görüşmesi: tedavi katalogunuza uygun DM akışını adım adım gösterelim. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 }

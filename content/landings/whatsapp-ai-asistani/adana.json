@@ -86,9 +86,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Çukurova'da 3 şubeli bir kebap zinciri için kurulum",
+    "title": "Çukurova'da 3 şubeli bir kebap zinciri için kurulum",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Çukurova merkez, Seyhan ve Yüreğir'de 3 şubesi olan orta ölçekli bir kebap zinciri, tüm rezervasyon ve paket sipariş trafiğini tek WhatsApp hattından yönetmeye çalışıyor. Akşam 19:00 sonrası mesajlar birikip ertesi güne kalıyor, müşteri hangi şubeye yazdığını bilmiyor, sipariş yanlış mutfağa düşebiliyor.",
+      "Çukurova merkez, Seyhan ve Yüreğir'de 3 şubesi olan orta ölçekli bir kebap zinciri, tüm rezervasyon ve paket sipariş trafiğini tek WhatsApp hattından yönetmeye çalışıyor. Akşam 19:00 sonrası mesajlar birikip ertesi güne kalıyor, müşteri hangi şubeye yazdığını bilmiyor, sipariş yanlış mutfağa düşebiliyor.",
       "Böyle bir yapıda Meta'nın resmi WhatsApp Business API'si kurulur; her şube için ayrı çalışma saati, mangal masa rezervasyon akışı, paket sipariş akışı ve müşteri konumuna göre en yakın şubeye yönlendirme tanımlanır. Türkçe + temel İngilizce (turist için) yanıtlar hazırlanır.",
       "Bu kurulumda akşam gelen mesajlar otomatik yanıtlanır, sipariş ve rezervasyon talepleri doğru şubeye iletilir, asistanın çözemediği konular şube yetkilisine devredilir. Ekip, sabah birikmiş mesajları ayıklamak yerine sadece onay bekleyen talepleri kontrol eder."
     ],

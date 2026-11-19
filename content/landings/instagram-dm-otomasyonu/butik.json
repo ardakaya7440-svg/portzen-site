@@ -87,7 +87,7 @@
     "title": "Bağdat Caddesi'nde bir butik kadın giyim markası için örnek kurulum",
     "paragraphs": [
       "Bağdat Caddesi'nde butik bir kadın giyim markası düşünelim: Instagram'da düzenli Reels paylaşıyor ve yoğun DM trafiği alıyor. Küçük ekip gece gelen DM'leri ancak ertesi gün yanıtlayabiliyor; yanıt geldiğinde ürün stoğu bitmiş ya da müşteri başka markadan almış oluyor.",
-      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: en çok sorulan ürünler için ürün kodu ve anahtar kelime eşleşmeleri, beden tablosu mesajları, Shopify ürün sayfası linkleri, kargo takip sayfası linki, iade koşullarını anlatan hazır mesajlar ve kategori butonlarıyla ürün önerisi. Reels yorumlarında 'fiyat' veya 'beden' yazan kullanıcıya otomatik DM açılır.",
+      "Bu kurulumda kural tabanlı Instagram DM otomasyonu kurulur: en çok sorulan ürünler için ürün kodu ve anahtar kelime eşleşmeleri, beden tablosu mesajları, Shopify ürün sayfası linkleri, kargo takip sayfası linki, iade koşullarını anlatan hazır mesajlar ve kategori butonlarıyla ürün önerisi. Reels yorumlarında 'fiyat' veya 'beden' yazan kullanıcıya otomatik DM açılır.",
       "Böylece tekrar eden kargo, iade ve beden sorularına ekip beklenmeden hazır mesajlarla yanıt verilir, ilgilenen müşteri doğrudan ürün sayfasına yönlenir; ekip akışın kapsamadığı sorulara ve sipariş hazırlığına odaklanır. Hangi ürünlerin ve anahtar kelimelerin daha çok tetiklendiği izlenerek yeni koleksiyonlar için akışlar güncellenir. Serbest sorulara katalog bilgisiyle AI yanıtı istenirse bu, AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
     ],
     "beforeAfter": [
@@ -139,5 +139,5 @@
     }
   ],
   "finalCtaHeadline": "DM'iniz uyumasın — satışınız uyusun.",
-  "finalCtaSubtitle": "20 dakikalık tanıtım görüşmesi: katalogunuza uygun DM akışını örnek senaryolarla gösterelim. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
+  "finalCtaSubtitle": "20 dakikalık tanıtım görüşmesi: katalogunuza uygun DM akışını adım adım gösterelim. Teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 }

@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bir veteriner kliniğinde aşı takvimi, sadakat ve ev ziyareti yönetimi",
+    "title": "Bir veteriner kliniğinde aşı takvimi, sadakat ve ev ziyareti yönetimi",
     "paragraphs": [
-      "Örnek senaryo: Binlerce kayıtlı hastası Excel'de dağınık duran bir veteriner kliniği düşünün. Aşı hatırlatması elle SMS atılarak yapılıyor ve çoğu unutuluyor. Sadakat programı yok; çoklu hayvan sahibi müşteri ile yeni müşteri aynı muameleyi görüyor.",
-      "Örnek bir kurulumda hasta kayıtları yeni CRM'e aktarılır, 8 farklı segment otomatik oluşturulur ve aşı protokolleri tanımlanır. Sadakat puan sistemi devreye alınır, ev ziyareti modülü kurulur; ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.",
+      "Binlerce kayıtlı hastası Excel'de dağınık duran bir veteriner kliniği düşünün. Aşı hatırlatması elle SMS atılarak yapılıyor ve çoğu unutuluyor. Sadakat programı yok; çoklu hayvan sahibi müşteri ile yeni müşteri aynı muameleyi görüyor.",
+      "Bu kurulumda hasta kayıtları yeni CRM'e aktarılır, 8 farklı segment otomatik oluşturulur ve aşı protokolleri tanımlanır. Sadakat puan sistemi devreye alınır, ev ziyareti modülü kurulur; ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.",
       "Bu kurulumla iş akışında değişen şudur: aşı zamanı yaklaşan her hayvanın sahibine hatırlatma otomatik gider, uzun süredir gelmeyen müşteri işaretlenir ve ona özel mesaj çıkar, ev ziyaretleri tek takvimde planlanır. Resepsiyonun elle SMS atma işi otomasyona devredilir."
     ],
     "beforeAfter": [

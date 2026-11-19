@@ -480,7 +480,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: klinik
+              Uygulamada: klinik
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -493,7 +493,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Örnek senaryoda bir saç ekim kliniği web sitesinde Tidio chat widget&apos;ı kullanıyor. WhatsApp için Tidio&apos;nun üst planı gerektiğinden WhatsApp&apos;ı ayrı uygulamadan elle yönetiyor, Instagram için de başka bir araç kullanıyor.
+                  Tipik bir durumda bir saç ekim kliniği web sitesinde Tidio chat widget&apos;ı kullanıyor. WhatsApp için Tidio&apos;nun üst planı gerektiğinden WhatsApp&apos;ı ayrı uygulamadan elle yönetiyor, Instagram için de başka bir araç kullanıyor.
                 </p>
                 <p>
                   Bu durumda 3 sorun çıkar: (1) 3 ayrı panelden cevap verilir; aynı müşteri farklı kanaldan yazınca bilgiler tekrar tekrar sorulur, (2) web chat widget&apos;ı mobilde sıkışıktır — klavye açıkken son mesaj görünmez, (3) KVKK aydınlatma metni hiçbir kanalda otomatik akmaz, manuel formla alınır.

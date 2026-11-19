@@ -356,13 +356,13 @@ export default function Page() {
         </div>
       </section>
 
-      <MoreDetails title="Ayrıntılar: Örnek senaryo — estetik klinik" summary="Mesajlar, randevu talepleri ve devir akışı tek sistemde">
+      <MoreDetails title="Ayrıntılar: Kurulum nasıl işler — estetik klinik" summary="Mesajlar, randevu talepleri ve devir akışı tek sistemde">
       {/* 6. CASE STUDY */}
       <section className="bg-white text-ink py-section">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: estetik klinik
+              Uygulamada: estetik klinik
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -375,7 +375,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Örnek senaryoda klinik, Instagram reklamlarından gelen DM ve WhatsApp mesajlarına yetişemiyor. Resepsiyon ekibi gün boyu aynı soruları yanıtlıyor, mesai dışında gelen talepler ertesi güne kalıyor ya da gözden kaçıyor.
+                  Tipik bir durumda klinik, Instagram reklamlarından gelen DM ve WhatsApp mesajlarına yetişemiyor. Resepsiyon ekibi gün boyu aynı soruları yanıtlıyor, mesai dışında gelen talepler ertesi güne kalıyor ya da gözden kaçıyor.
                 </p>
                 <p>
                   Brief görüşmesinde sık sorulan sorular, fiyat aralıkları, tedavi süreçleri ve randevu kuralları birlikte çıkarılır. Bilgi tabanı hazırlanır, asistan kliniğin tonunda — sıcak ama profesyonel — eğitilir. Google Takvim&apos;e doğrudan randevu açan akış kurulur; karmaşık durumlarda konuşma otomatik olarak hekim asistanına devredilir.

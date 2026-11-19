@@ -2,7 +2,7 @@
 title: "CRM Otomasyonu Rehberi: KOBİ'ler İçin Sıfırdan Kurulum"
 slug: "crm-otomasyonu-rehberi"
 category: "otomasyon"
-description: "CRM otomasyonu nedir, KOBİ'ler için nasıl sıfırdan kurulur, hangi araçlar tercih edilmeli? 2026 güncel rehberi ve örnek senaryolarla maliyet analizi."
+description: "CRM otomasyonu nedir, KOBİ'ler için nasıl sıfırdan kurulur, hangi araçlar tercih edilmeli? 2026 güncel rehberi ve sektör örnekleriyle maliyet analizi."
 keywords: ["crm otomasyonu", "kobi için crm", "satış otomasyonu kurulumu", "müşteri ilişkileri yönetimi", "crm entegrasyonu", "whatsapp crm bağlantısı"]
 publishedAt: "2026-06-20"
 author: "Arda Kaya"

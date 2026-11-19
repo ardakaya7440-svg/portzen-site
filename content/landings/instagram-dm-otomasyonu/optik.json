@@ -88,7 +88,7 @@
     "title": "Nişantaşı'nda premium bir optik mağazası için örnek kurulum",
     "paragraphs": [
       "Nişantaşı'nda Ray-Ban, Oakley, Tom Ford, Persol satan premium bir optik mağazası düşünelim: trend çerçeve Reels'leri ilgi görüyor, ancak mağaza sahibi her gün DM yanıtlamaya ciddi zaman ayırıyor ve gece gelen mesajlara ancak sabah dönebiliyor.",
-      "Bu senaryoda ManyChat altyapısıyla kural tabanlı Instagram DM otomasyonu kurulur: marka bazlı anahtar kelime akışları (Ray-Ban, Oakley, Tom Ford, Persol), Reels yorumlarına otomatik yanıt ve DM, story yanıtlarına otomatik mesaj, göz muayenesi randevu linki ve yüksek niyetli mesajlarda satış ekibine devir.",
+      "Bu kurulumda ManyChat altyapısıyla kural tabanlı Instagram DM otomasyonu kurulur: marka bazlı anahtar kelime akışları (Ray-Ban, Oakley, Tom Ford, Persol), Reels yorumlarına otomatik yanıt ve DM, story yanıtlarına otomatik mesaj, göz muayenesi randevu linki ve yüksek niyetli mesajlarda satış ekibine devir.",
       "Böylece model, fiyat ve randevu sorularına mağaza sahibi beklenmeden hazır mesajlarla yanıt verilir; gece gelen sorular da otomatik karşılanır; deneme veya muayene isteyen müşteri randevu linkine yönlenir. Mağaza sahibi yalnızca devredilen konuşmalarla ilgilenir. Hangi marka ve modellerin anahtar kelimelerinin daha sık tetiklendiği izlenerek akışlar yeni sezona göre güncellenir."
     ],
     "beforeAfter": [

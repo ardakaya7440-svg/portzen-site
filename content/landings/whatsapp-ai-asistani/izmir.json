@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Karşıyaka'da bir eczane için mesai dışı mesaj akışı",
+    "title": "Karşıyaka'da bir eczane için mesai dışı mesaj akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Karşıyaka Bostanlı'da nöbet rotasyonuna giren bir eczane, mesai dışında 'açık mısınız', 'tansiyon aleti var mı', 'X ilaç stokta mı' gibi sorulara yetişemiyor. Akşam gelen mesajların önemli bir kısmı sabaha kalıyor.",
+      "Karşıyaka Bostanlı'da nöbet rotasyonuna giren bir eczane, mesai dışında 'açık mısınız', 'tansiyon aleti var mı', 'X ilaç stokta mı' gibi sorulara yetişemiyor. Akşam gelen mesajların önemli bir kısmı sabaha kalıyor.",
       "Böyle bir yapıda Meta'nın resmi WhatsApp Business API'si kurulur; ilaç stok sorgusu, nöbet bilgisi, ulaşım, park yeri ve en yakın şubeye yönlendirme akışları asistana yüklenir. Yaz sezonundaki turistler için temel İngilizce yanıtlar eklenir.",
       "Bu kurulumda akşam gelen mesajlar otomatik yanıtlanır, stok ve nöbet bilgisi onaylı bilgi tabanından iletilir, ilaç kullanımına dair sorular eczacıya yönlendirilir. Turist soruları da İngilizce olarak karşılanır."
     ],

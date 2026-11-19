@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Premium markalar satan bir optik mağazası için try-on reklam seti",
+    "title": "Premium markalar satan bir optik mağazası için try-on reklam seti",
     "paragraphs": [
-      "Örnek bir kurulum: Ray-Ban, Tom Ford, Oakley gibi premium markalar satan, Meta reklamlarını statik ürün fotoğraflarıyla yürüten bir optik mağazası düşünün. Her marka için ayrı ajans çekimi bütçeyi aşıyor.",
-      "Bu senaryoda farklı markalar için AI reklam videoları planlanır: Ray-Ban Aviator try-on (farklı yüz tiplerinde), Tom Ford sezon koleksiyonu sinematik reveal, Oakley spor güneş gözlüğü hareketli sahne, Persol klasik vintage atmosfer ve ücretsiz göz muayenesi davet videosu. Videolar pakete göre 9:16, 1:1 ve 16:9 formatlarından 1, 2 veya 3'ünde teslim edilir ve Meta Ads Manager'a doğrudan yüklenebilir.",
+      "Ray-Ban, Tom Ford, Oakley gibi premium markalar satan, Meta reklamlarını statik ürün fotoğraflarıyla yürüten bir optik mağazası düşünün. Her marka için ayrı ajans çekimi bütçeyi aşıyor.",
+      "Bu kurulumda farklı markalar için AI reklam videoları planlanır: Ray-Ban Aviator try-on (farklı yüz tiplerinde), Tom Ford sezon koleksiyonu sinematik reveal, Oakley spor güneş gözlüğü hareketli sahne, Persol klasik vintage atmosfer ve ücretsiz göz muayenesi davet videosu. Videolar pakete göre 9:16, 1:1 ve 16:9 formatlarından 1, 2 veya 3'ünde teslim edilir ve Meta Ads Manager'a doğrudan yüklenebilir.",
       "Mağaza, statik ürün fotoğrafı yerine çerçevenin yüzde nasıl durduğunu gösteren videolarla reklam verebilir; müşteri 'bende nasıl durur?' sorusuna görsel cevap alır. CTR, lead ve satış sonuçları bütçeye, hedeflemeye ve ürün seçkisine göre değişir; burada rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

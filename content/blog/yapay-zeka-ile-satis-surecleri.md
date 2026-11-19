@@ -59,19 +59,19 @@ Bu sınıflandırma sayesinde satış ekibi zamanının büyük kısmını sıca
 
 ## Sektör Bazlı Örnekler: AI Satış Pratikte Nasıl Çalışıyor?
 
-Teoriden çıkıp pratiğe bakalım. Aşağıdaki üç örnek senaryo gerçek müşteri sonuçları değil; AI destekli satış sürecinin farklı sektörlerde nasıl kurgulandığını gösteren örnek kurulumlardır.
+Teoriden çıkıp pratiğe bakalım.
 
 ### Eczane Zinciri: Reçete Hazırlama ve Stok Sorgu
 
-Örnek senaryo: çok şubeli bir eczane zinciri, WhatsApp üzerinden gelen reçete fotoğraflarını AI ile okuyup en yakın şubedeki stok durumunu kontrol ettiriyor. Müşteri reçeteyi atıyor, sistem "X ilaç şubemizde mevcut, Y ilaç diğer şubemizde var" cevabını otomatik dönüyor. Önce: Stok bilgisi için telefonla şube şube aranıyor. Sonra: Stok sorgusu WhatsApp'tan yanıtlanıyor, eczacı yalnızca hazırlığı onaylıyor.
+Çok şubeli bir eczane zinciri, WhatsApp üzerinden gelen reçete fotoğraflarını AI ile okuyup en yakın şubedeki stok durumunu kontrol ettiriyor. Müşteri reçeteyi atıyor, sistem "X ilaç şubemizde mevcut, Y ilaç diğer şubemizde var" cevabını otomatik dönüyor. Önce: Stok bilgisi için telefonla şube şube aranıyor. Sonra: Stok sorgusu WhatsApp'tan yanıtlanıyor, eczacı yalnızca hazırlığı onaylıyor.
 
 ### Restoran: Rezervasyon ve Sipariş Yönetimi
 
-Örnek senaryo: iki şubeli bir restoran, WhatsApp'tan ve (AI müşteri asistanının Kurumsal paketinde) Instagram DM'den gelen rezervasyon taleplerini AI'a devrediyor. Sistem boş masaları gerçek zamanlı görüyor, müşteriyle saat seçimi yapıyor, alerjen sorularını cevaplıyor, ön ödeme linkini gönderiyor. Önce: Patron rezervasyonları gün içinde telefondan ve mesajlardan elle topluyor. Sonra: Rezervasyon takvime otomatik düşüyor, patron yalnızca istisnaları kontrol ediyor; otomatik hatırlatma no-show'u azaltmaya yardımcı oluyor.
+İki şubeli bir restoran, WhatsApp'tan ve (AI müşteri asistanının Kurumsal paketinde) Instagram DM'den gelen rezervasyon taleplerini AI'a devrediyor. Sistem boş masaları gerçek zamanlı görüyor, müşteriyle saat seçimi yapıyor, alerjen sorularını cevaplıyor, ön ödeme linkini gönderiyor. Önce: Patron rezervasyonları gün içinde telefondan ve mesajlardan elle topluyor. Sonra: Rezervasyon takvime otomatik düşüyor, patron yalnızca istisnaları kontrol ediyor; otomatik hatırlatma no-show'u azaltmaya yardımcı oluyor.
 
 ### Klinik: Randevu ve Ön Konsültasyon
 
-Örnek senaryo: bir estetik kliniği, AI bot ile ön konsültasyon yaptırıyor. Müşteri "burun estetiği fiyat" yazdığında bot önce 5 standart soruyu soruyor (daha önce operasyon, beklenti, bütçe, tarih, lokasyon), cevaplara göre uygun doktoru ve fiyat aralığını öneriyor, sonra konsültasyon randevusunu açıyor. Satış ekibinin işi sıcak lead ile konuşmak; aylık konsültasyon sayısı CRM'de izleniyor.
+Bir estetik kliniği, AI bot ile ön konsültasyon yaptırıyor. Müşteri "burun estetiği fiyat" yazdığında bot önce 5 standart soruyu soruyor (daha önce operasyon, beklenti, bütçe, tarih, lokasyon), cevaplara göre uygun doktoru ve fiyat aralığını öneriyor, sonra konsültasyon randevusunu açıyor. Satış ekibinin işi sıcak lead ile konuşmak; aylık konsültasyon sayısı CRM'de izleniyor.
 
 ## CRM Entegrasyonu: Verinin Bir Yerde Toplanması
 

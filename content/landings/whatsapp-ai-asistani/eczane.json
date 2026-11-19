@@ -84,9 +84,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bir bölge eczanesi için akşam mesajları akışı",
+    "title": "Bir bölge eczanesi için akşam mesajları akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: İstanbul'da bir bölge eczanesine gelen WhatsApp mesajlarının önemli bir kısmı akşam kapanıştan sonra geliyor; kalfa bu saatte yanıtlayamıyor, gece sorulan sorular sabaha kalıyor ve müşteri başka eczaneye yöneliyor.",
+      "İstanbul'da bir bölge eczanesine gelen WhatsApp mesajlarının önemli bir kısmı akşam kapanıştan sonra geliyor; kalfa bu saatte yanıtlayamıyor, gece sorulan sorular sabaha kalıyor ve müşteri başka eczaneye yöneliyor.",
       "Böyle bir yapıda WhatsApp AI asistanına ilaç katalog tarama, nöbet bilgisi ve fiyat sorgu modülleri eklenir. İlk aşamada asistan eczacının onayıyla yanıt verir; yanıtlar oturduktan sonra tam otomatik moda geçilir.",
       "Bu kurulumda stok, fiyat ve nöbet soruları gece de otomatik yanıtlanır, reçete fotoğrafları eczacıya bildirim olarak düşer, ilaç kullanımına dair sorular her zaman eczacıya yönlendirilir. Eczacının vakti tekrar eden mesajlar yerine reçeteye ve tezgâhtaki müşteriye kalır."
     ],

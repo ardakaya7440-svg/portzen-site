@@ -506,12 +506,12 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: B2B SaaS şirketi
+              Uygulamada: B2B SaaS şirketi
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Örnek senaryo: Intercom&apos;dan geçen bir SaaS şirketi 3 kanalı tek panelde nasıl toplar?
+              Intercom&apos;dan geçen bir SaaS şirketi 3 kanalı tek panelde nasıl toplar?
             </h2>
           </Reveal>
 
@@ -519,7 +519,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Bu örnek senaryoda bir B2B SaaS şirketi Intercom Starter paketinde çalışıyor. WhatsApp eklendiğinde fatura artıyor, Instagram DM entegrasyonu ekstra kalem, Fin AI yanıtları da yanıt başına ek ücretli. Dolar bazlı, öngörülmesi zor bir maliyet birikiyor.
+                  Tipik bir durumda bir B2B SaaS şirketi Intercom Starter paketinde çalışıyor. WhatsApp eklendiğinde fatura artıyor, Instagram DM entegrasyonu ekstra kalem, Fin AI yanıtları da yanıt başına ek ücretli. Dolar bazlı, öngörülmesi zor bir maliyet birikiyor.
                 </p>
                 <p>
                   Diğer sorunlar: Türkçe destek alınamıyor, KVKK akışları için ayrıca hukuk danışmanlığı gerekiyor, müşteri verileri Avrupa sunucularında ve kurum içi denetimde verinin nerede tutulduğu soruluyor.

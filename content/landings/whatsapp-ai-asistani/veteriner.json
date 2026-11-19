@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Kadıköy'de bir veteriner kliniği için randevu ve aşı hatırlatma akışı",
+    "title": "Kadıköy'de bir veteriner kliniği için randevu ve aşı hatırlatma akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Kadıköy'de iki veteriner hekimle hizmet veren bir klinik. Resepsiyon tek kişi, yoğun saatlerde mesajlara yetişilemiyor, mesai dışı gelen WhatsApp mesajları sabah toplu yanıtlanıyor; aşı hatırlatmaları elle yapıldığı için sık sık atlanıyor.",
+      "Kadıköy'de iki veteriner hekimle hizmet veren bir klinik. Resepsiyon tek kişi, yoğun saatlerde mesajlara yetişilemiyor, mesai dışı gelen WhatsApp mesajları sabah toplu yanıtlanıyor; aşı hatırlatmaları elle yapıldığı için sık sık atlanıyor.",
       "Böyle bir yapıda Excel'de tutulan randevu ve hasta kayıtları asistanın kullanacağı randevu paneline aktarılır, aşı takvimini hesaplayan kural seti tanımlanır. Kayıtlı hastaların geçmiş aşıları içe aktarıldıktan sonra asistan hatırlatmaları otomatik göndermeye başlar.",
       "Bu kurulumda randevu talepleri takvime düşer, randevudan 24 saat ve 2 saat önce hatırlatma gider, aşı zamanı gelen hastaların sahiplerine bilgilendirme yapılır, acil belirtiler veterinere yönlendirilir. Hekimler muayene odasında, resepsiyon klinikteki hasta sahiplerinde kalır."
     ],

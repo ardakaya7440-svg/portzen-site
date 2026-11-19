@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bornova'da bir aile petshop'u için mama abonelik akışı",
+    "title": "Bornova'da bir aile petshop'u için mama abonelik akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Bornova'da sadık müşteri tabanı olan bir aile petshop'u. Siparişler telefon ve dükkân ziyaretiyle alınıyor, müşterinin mamasının bittiğini hatırlamak işletme sahibine kalıyor; WhatsApp mesajları yoğun saatlerde geç cevaplanıyor.",
+      "Bornova'da sadık müşteri tabanı olan bir aile petshop'u. Siparişler telefon ve dükkân ziyaretiyle alınıyor, müşterinin mamasının bittiğini hatırlamak işletme sahibine kalıyor; WhatsApp mesajları yoğun saatlerde geç cevaplanıyor.",
       "Böyle bir yapıda WhatsApp AI asistanına ürün kataloğu (Royal Canin, Hills, Pro Plan, Acana ve niş markalar), ırk + yaş bazlı öneri mantığı, mama abonelik hatırlatması, kargo entegrasyonu ve sıcak, hayvansever bir ses tonu yüklenir. Sistem müşterinin son alımını kaydeder ve hatırlatmayı otomatik gönderir.",
       "Bu kurulumda stok ve fiyat soruları otomatik yanıtlanır, akşam gelen siparişler sabahı beklemeden alınır, abonelik müşterisi mama bitmeden onay mesajı alır. İşletme sahibi müşterinin ne zaman mama alacağını hatırlamak yerine siparişleri hazırlamaya odaklanır."
     ],

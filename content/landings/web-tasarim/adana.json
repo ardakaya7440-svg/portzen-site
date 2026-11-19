@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Yüreğir'de baharat ihraç eden bir üretici için çok dilli B2B site kurulumu",
+    "title": "Yüreğir'de baharat ihraç eden bir üretici için çok dilli B2B site kurulumu",
     "paragraphs": [
-      "Örnek bir kurulum: Yüreğir'de üretim yapan, Suudi Arabistan ve BAE'ye baharat ihraç eden orta ölçekli bir Adana firması düşünün. Eski WordPress sitesi yalnızca Türkçe, mobilde yavaş açılıyor; ürün kataloğu Excel'den elle güncelleniyor, Arapça/İngilizce sayfa ve B2B numune talep akışı yok. Yabancı alıcı aradığı bilgiyi bulamadan siteden çıkıyor.",
-      "Bu senaryoda Next.js + Shopify Headless + Tailwind ile site sıfırdan kurulur: Türkçe + Arapça + İngilizce dil yapısı (Kurumsal pakette 2 dil dahil; ek dil ve profesyonel çeviri ayrıca tekliflendirilir), çoklu para birimi, WhatsApp + e-posta bildirimli B2B numune talep formu, COA/Helal/ISO sertifika PDF indirme, Schema.org işaretlemesi, KVKK ve GDPR gerekliliklerini gözeten form ve çerez akışı, Vercel CDN üzerinde yayın.",
+      "Yüreğir'de üretim yapan, Suudi Arabistan ve BAE'ye baharat ihraç eden orta ölçekli bir Adana firması düşünün. Eski WordPress sitesi yalnızca Türkçe, mobilde yavaş açılıyor; ürün kataloğu Excel'den elle güncelleniyor, Arapça/İngilizce sayfa ve B2B numune talep akışı yok. Yabancı alıcı aradığı bilgiyi bulamadan siteden çıkıyor.",
+      "Bu kurulumda Next.js + Shopify Headless + Tailwind ile site sıfırdan kurulur: Türkçe + Arapça + İngilizce dil yapısı (Kurumsal pakette 2 dil dahil; ek dil ve profesyonel çeviri ayrıca tekliflendirilir), çoklu para birimi, WhatsApp + e-posta bildirimli B2B numune talep formu, COA/Helal/ISO sertifika PDF indirme, Schema.org işaretlemesi, KVKK ve GDPR gerekliliklerini gözeten form ve çerez akışı, Vercel CDN üzerinde yayın.",
       "Yayından sonra iş akışı şöyle değişir: Alıcı ürün kataloğunu kendi dilinde ve para biriminde inceler, numune talebini formdan bırakır; talep doğrudan WhatsApp ve e-postanıza düşer. Katalog panelden güncellenir, sertifikalar tek tıkla indirilir. Arama görünürlüğü ve talep sayısı rekabete ve içerik çalışmasına bağlı olduğundan sonuç rakamı vaat etmiyoruz; ölçümleme kurulumuyla değişimi kendiniz takip edersiniz."
     ],
     "beforeAfter": [

@@ -309,7 +309,7 @@ const sectors = [
 
 
 const caseStudy = {
-  title: "Örnek senaryo: bir kafe için 'latte art transition' Reels",
+  title: "Bir kafe için 'latte art transition' Reels",
   metrics: [
     { label: "Hook", value: "Siyah ekrandan latte art" },
     { label: "Format", value: "Transition Reels" },
@@ -317,7 +317,7 @@ const caseStudy = {
     { label: "Yayın", value: "Insights verisine göre saat" }
   ],
   narrative:
-    "Yeni açılan bir kafe için viral formülün tek bir videoya nasıl uygulandığını gösteren örnek bir kurgu. Hook, siyah ekrandan beliren latte art tepesidir (0-2 sn). Setup, baristanın tekniği nasıl öğrendiğini anlatan kısa bir cümledir (2-5 sn). Escalation bölümünde 3 farklı desen (kalp, yaprak, tulip) hızlı geçişlerle gösterilir (5-13 sn). Payoff, kafenin logosuyla kapanan bir slow-motion andır. Ses olarak lisanslı lo-fi kahve temalı bir trend audio seçilir; yayın saati hesabın Insights verisine göre (örneğin öğle molası) belirlenir. Yayından sonra izlenme süresi, kaydetme ve yorum sinyalleri takip edilir; zayıf kalan bölüm bir sonraki videoda yeniden kurgulanır. Bu bir örnek senaryodur, sonuç taahhüdü değildir."
+    "Yeni açılan bir kafe için viral formülün tek bir videoya nasıl uygulandığını gösteren örnek bir kurgu. Hook, siyah ekrandan beliren latte art tepesidir (0-2 sn). Setup, baristanın tekniği nasıl öğrendiğini anlatan kısa bir cümledir (2-5 sn). Escalation bölümünde 3 farklı desen (kalp, yaprak, tulip) hızlı geçişlerle gösterilir (5-13 sn). Payoff, kafenin logosuyla kapanan bir slow-motion andır. Ses olarak lisanslı lo-fi kahve temalı bir trend audio seçilir; yayın saati hesabın Insights verisine göre (örneğin öğle molası) belirlenir. Yayından sonra izlenme süresi, kaydetme ve yorum sinyalleri takip edilir; zayıf kalan bölüm bir sonraki videoda yeniden kurgulanır."
 };
 
 const comparison = [
@@ -680,7 +680,7 @@ export default function Page() {
             <div>
               <Reveal>
                 <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-                  Örnek senaryo
+                  Kurulum nasıl işler
                 </div>
               </Reveal>
               <Reveal delay={100}>

@@ -115,7 +115,7 @@ Bursa zaten üretim disiplinini bilen bir şehir. Fabrikalar JIT (Just In Time) 
 
 ## Bursa'da Sektörel Senaryolar: Örnek Kurulumlar
 
-Bursa'nın farklı sektörlerinde dijital dönüşümün nasıl şekillendiğini somut senaryolarla ele almak faydalı olur. Aşağıdaki örnek senaryolar gerçek müşteri sonuçları değildir; sektörün dinamiklerini ve PORTZEN'in yaklaşımını göstermek için hazırlanmıştır.
+Bursa'nın farklı sektörlerinde dijital dönüşümün nasıl şekillendiğini somut senaryolarla ele almak faydalı olur.
 
 Senaryo 1 — Nilüfer'de tekstil ihracatçısı: Mevcut durum yıllık 12 milyon TL ciro, Almanya ve İtalya'ya satış, 2017'den kalma sade bir web sitesi, LinkedIn'de hareket yok. Örnek kurulum: 4 dilli yeni web sitesi, LinkedIn'de haftalık üretim içeriği, fuar öncesi otomatik e-posta kampanyası, WhatsApp Business üzerinden teklif yönetimi. Üretim hatlarının drone çekimleri ve makine yakın planları yerine [yapay zeka video üretimi](/yapay-zeka-video-uretimi) ile fuar tanıtım klipleri üretilip LinkedIn ve YouTube'da paylaşılır. Bu kurguyla fuar dışında da alıcıların firmayı bulup teklif isteyebileceği bir kanal açılır.
 

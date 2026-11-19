@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Kataloğu Instagram'da kalan bir premium optik mağazası için katalog ve randevu sitesi",
+    "title": "Kataloğu Instagram'da kalan bir premium optik mağazası için katalog ve randevu sitesi",
     "paragraphs": [
-      "Örnek bir kurulum: Karşıyaka'da uzun yıllardır hizmet veren premium bir optik mağazası düşünün. Sitesi statik tek sayfa; çerçeve kataloğu, randevu sistemi ve marka filtrelemesi yok. Tüm müşteri etkileşimi Instagram ve telefondan yürüyor, mesai dışında randevu alınamıyor.",
-      "Bu senaryoda site yeniden kurulur: marka + fiyat + materyal filtreli çerçeve kataloğu (Ray-Ban, Oakley, Tom Ford, Persol gibi), online göz muayene randevu sistemi, interaktif online göz testi, lens danışmanlık içerikleri, garanti takip sayfası, Google İşletme Profili düzenlemesi ve bölge SEO ('Karşıyaka optik', 'Bostanlı Ray-Ban').",
+      "Karşıyaka'da uzun yıllardır hizmet veren premium bir optik mağazası düşünün. Sitesi statik tek sayfa; çerçeve kataloğu, randevu sistemi ve marka filtrelemesi yok. Tüm müşteri etkileşimi Instagram ve telefondan yürüyor, mesai dışında randevu alınamıyor.",
+      "Bu kurulumda site yeniden kurulur: marka + fiyat + materyal filtreli çerçeve kataloğu (Ray-Ban, Oakley, Tom Ford, Persol gibi), online göz muayene randevu sistemi, interaktif online göz testi, lens danışmanlık içerikleri, garanti takip sayfası, Google İşletme Profili düzenlemesi ve bölge SEO ('Karşıyaka optik', 'Bostanlı Ray-Ban').",
       "Yayından sonra iş akışı şöyle değişir: Müşteri mağazaya gelmeden modelleri markaya göre inceler, mesai dışında da muayene randevusu alır; randevu optometrist takvimine düşer, hatırlatma otomatik gider. Göz testini tamamlayan ziyaretçi profesyonel muayene için randevu sayfasına yönlenir. Trafik ve randevu sayısı bölgeye ve rekabete bağlı olduğundan rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

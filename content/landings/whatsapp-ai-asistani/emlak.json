@@ -84,9 +84,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Beylikdüzü'nde 4 danışmanlı bir emlak ofisi için portföy akışı",
+    "title": "Beylikdüzü'nde 4 danışmanlı bir emlak ofisi için portföy akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: İstanbul Beylikdüzü'nde 4 danışmanlı bir emlak ofisine WhatsApp'tan düzenli ilan sorgusu geliyor. Danışmanlar gösterimdeyken telefona bakamıyor, akşam mesajları ertesi güne kalıyor, hafta sonu gelen sorular büyük ölçüde yanıtsız kalıyor.",
+      "İstanbul Beylikdüzü'nde 4 danışmanlı bir emlak ofisine WhatsApp'tan düzenli ilan sorgusu geliyor. Danışmanlar gösterimdeyken telefona bakamıyor, akşam mesajları ertesi güne kalıyor, hafta sonu gelen sorular büyük ölçüde yanıtsız kalıyor.",
       "Böyle bir yapıda aktif portföy (Sahibinden + Hepsiemlak + ofisin kendi Excel listesi) tek havuza toplanır. Bütçe, lokasyon ve oda sayısına göre filtreleyen eşleştirme ile gösterim randevu modülü eklenir.",
       "Bu kurulumda müşteri bütçe ve lokasyon yazdığında uygun ilanlar fotoğraf ve linkle otomatik gönderilir, gösterim talebi danışmanın takvimine düşer, alım niyeti yüksek görünen müşteriler danışmana bildirilir. Danışmanlar aynı ilanı tek tek anlatmak yerine gösterime ve pazarlığa vakit ayırır."
     ],

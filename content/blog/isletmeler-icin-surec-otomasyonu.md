@@ -173,7 +173,7 @@ Akışların çalışıp çalışmadığını izleyen bir dashboard kurun. Bir a
 
 ### Restoran: Rezervasyon ve Tedarik
 
-Örnek senaryo: 3 şubeli bir İtalyan restoranı için şu otomasyonlar kurgulanabilir:
+3 şubeli bir İtalyan restoranı için şu otomasyonlar kurgulanabilir:
 
 - Instagram DM rezervasyon → AI ile masa kontrolü → onay
 - Stoğu biten malzeme → tedarikçiye otomatik WhatsApp siparişi
@@ -184,7 +184,7 @@ Kazanım: rezervasyon ve tedarik yazışmalarına harcanan zaman azalır, müşt
 
 ### Hukuk Bürosu: Dosya Yönetimi
 
-Örnek senaryo: 12 avukatlı bir hukuk bürosu için UYAP verisiyle şu akış kurgulanabilir:
+12 avukatlı bir hukuk bürosu için UYAP verisiyle şu akış kurgulanabilir:
 
 - Duruşma tarihi UYAP'tan çekiliyor → ilgili avukatın takvimine düşüyor
 - Duruşmadan 24 saat önce müvekkile otomatik SMS hatırlatma
@@ -195,7 +195,7 @@ Sekreterin takvim ve hatırlatma işleri büyük ölçüde otomatikleşir; müve
 
 ### Emlak Ofisi: Lead Yönetimi
 
-Örnek senaryo: İzmir'de 4 ofisli bir emlak şirketi için:
+İzmir'de 4 ofisli bir emlak şirketi için:
 
 - sahibinden.com / hepsiemlak'tan gelen ilanlar → CRM'e otomatik düşüyor
 - Yeni lead → segmentlere ayrılıyor (kira/satılık, lokasyon, bütçe)

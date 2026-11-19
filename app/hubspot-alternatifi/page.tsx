@@ -484,12 +484,12 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: danışmanlık firması
+              Uygulamada: danışmanlık firması
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Örnek senaryo: HubSpot Starter&apos;dan PORTZEN kurulumuna geçiş nasıl işler?
+              HubSpot Starter&apos;dan PORTZEN kurulumuna geçiş nasıl işler?
             </h2>
           </Reveal>
 
@@ -497,7 +497,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Bu örnek senaryoda 12 kişilik bir mali müşavirlik + danışmanlık firması HubSpot Starter + Marketing Hub Starter kullanıyor. Workflow ve sequences olmadığı için takip manuel yapılıyor. Pro&apos;ya geçmek isteniyor; ancak lisans + kullanıcı başı marketing eklentileri KOBİ bütçesi için orantısız kalıyor.
+                  Tipik bir durumda 12 kişilik bir mali müşavirlik + danışmanlık firması HubSpot Starter + Marketing Hub Starter kullanıyor. Workflow ve sequences olmadığı için takip manuel yapılıyor. Pro&apos;ya geçmek isteniyor; ancak lisans + kullanıcı başı marketing eklentileri KOBİ bütçesi için orantısız kalıyor.
                 </p>
                 <p>
                   3 ana sorun var: (1) Lead&apos;ler HubSpot&apos;a düşüyor ama Logo Tiger&apos;da cari kart açmak için her seferinde manuel veri girişi yapılıyor, (2) Lead scoring olmadığı için ekip hangi lead&apos;in sıcak olduğunu bilmiyor, hepsine aynı zamanı veriyor, (3) KVKK aydınlatma metni bir form üzerinden alınıyor ama açık rıza akışı kurulu değil.

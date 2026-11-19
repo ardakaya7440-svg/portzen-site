@@ -340,18 +340,18 @@ export default function CrmOtomasyonuPage() {
         </div>
       </section>
 
-      <MoreDetails title="Ayrıntılar: Örnek senaryo — B2B danışmanlık" summary="Lead takibi nasıl otomatikleşir?">
+      <MoreDetails title="Ayrıntılar: Kurulum nasıl işler — B2B danışmanlık" summary="Lead takibi nasıl otomatikleşir?">
       {/* 6. CASE STUDY */}
       <section className="bg-white py-section border-y-3 border-ink/15">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-slate text-white px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek Senaryo
+              Kurulum nasıl işler
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl text-ink mb-6">
-              Örnek senaryo: bir B2B danışmanlık firmasında lead takibi nasıl otomatikleşir?
+              Bir B2B danışmanlık firmasında lead takibi nasıl otomatikleşir?
             </h2>
           </Reveal>
 
@@ -359,7 +359,7 @@ export default function CrmOtomasyonuPage() {
             <div className="grid lg:grid-cols-[1.3fr_1fr] gap-10">
               <div className="space-y-5 text-body text-ink/90 max-w-prose">
                 <p>
-                  <strong className="text-ink">Durum:</strong> Bu örnek senaryoda 12 kişilik bir B2B danışmanlık firmasına LinkedIn, Google Ads ve referanstan düzenli lead geliyor. Satış ekibi şikayetçi: &quot;Lead kalitesi düşük.&quot;
+                  <strong className="text-ink">Durum:</strong> Tipik bir durumda 12 kişilik bir B2B danışmanlık firmasına LinkedIn, Google Ads ve referanstan düzenli lead geliyor. Satış ekibi şikayetçi: &quot;Lead kalitesi düşük.&quot;
                 </p>
                 <p>
                   <strong className="text-ink">Gerçek sorun:</strong> Lead kalitesi değil — takip sistemi. Form dolduran lead ancak günler sonra aranıyor, o zamana kadar rakipler aramış. Email dizisi yok. CRM (Pipedrive) güncel değil, satıcılar Excel kullanıyor.
@@ -369,9 +369,6 @@ export default function CrmOtomasyonuPage() {
                 </p>
                 <p>
                   <strong className="text-ink">İş akışında ne değişir:</strong> Lead form doldurduğunda CRM&apos;e kendiliğinden düşer ve karşılama mesajı otomatik gider; satıcı Slack&apos;ten bildirim alır, takip hatırlatmaları CRM&apos;de görünür. Hangi kaynağın lead getirdiği tek panelden izlenir.
-                </p>
-                <p className="text-sm text-ink/80 italic border-l-3 border-ink/10 pl-4">
-                  Bu bölüm örnek bir kurulumu anlatır; gerçek bir müşteri sonucu değildir.
                 </p>
               </div>
 

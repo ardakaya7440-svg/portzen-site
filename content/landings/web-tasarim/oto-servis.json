@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Telefonla randevu alan bir oto servis için randevu, kalkülatör ve hizmet sayfaları",
+    "title": "Telefonla randevu alan bir oto servis için randevu, kalkülatör ve hizmet sayfaları",
     "paragraphs": [
-      "Örnek bir kurulum: Ankara Sincan'da genel mekanik ve Renault uzmanlığıyla çalışan bir oto servis düşünün. Randevular telefonla alınıyor, çalışırken gelen aramalar kaçıyor; Google'da hizmet aramalarında görünmüyor, iş büyük ölçüde mahalle müşterisine bağlı.",
-      "Bu senaryoda hizmet portföyü analiz edilir; her hizmet ve popüler marka için ayrı SEO sayfası üretilir ('Sincan Renault Megane balata değişimi' gibi), fiyat tahmini kalkülatörü kurulur, WhatsApp Business bağlantısı eklenir ve Google İşletme Profili yeni fotoğraflar ve hizmet kategorileriyle yeniden düzenlenir.",
+      "Ankara Sincan'da genel mekanik ve Renault uzmanlığıyla çalışan bir oto servis düşünün. Randevular telefonla alınıyor, çalışırken gelen aramalar kaçıyor; Google'da hizmet aramalarında görünmüyor, iş büyük ölçüde mahalle müşterisine bağlı.",
+      "Bu kurulumda hizmet portföyü analiz edilir; her hizmet ve popüler marka için ayrı SEO sayfası üretilir ('Sincan Renault Megane balata değişimi' gibi), fiyat tahmini kalkülatörü kurulur, WhatsApp Business bağlantısı eklenir ve Google İşletme Profili yeni fotoğraflar ve hizmet kategorileriyle yeniden düzenlenir.",
       "Yayından sonra iş akışı şöyle değişir: Müşteri marka, model ve hizmeti seçip tahmini fiyat aralığını görür, randevu talebini formdan iletir; talep WhatsApp ve e-postanıza düşer, takvimde blok ayrılır. İş bitiminde müşteriye yorum isteği otomatik gider. Randevu ve yorum sayısı bölgeye ve rekabete bağlı olduğundan rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

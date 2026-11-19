@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Lara'da bir butik otel için 4 dilli direkt rezervasyon akışı",
+    "title": "Lara'da bir butik otel için 4 dilli direkt rezervasyon akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Lara'da bir butik otel, Booking ve Hotels.com dışında direkt WhatsApp rezervasyonu almak istiyor. Yaz sezonunda Türkçe, İngilizce, Rusça ve Almanca mesajlar geliyor; tek resepsiyonist dört dile yetişemiyor, Rusça sorular çeviri aracıyla cevaplanıyor ve yanıtlar gecikiyor.",
+      "Lara'da bir butik otel, Booking ve Hotels.com dışında direkt WhatsApp rezervasyonu almak istiyor. Yaz sezonunda Türkçe, İngilizce, Rusça ve Almanca mesajlar geliyor; tek resepsiyonist dört dile yetişemiyor, Rusça sorular çeviri aracıyla cevaplanıyor ve yanıtlar gecikiyor.",
       "Böyle bir yapıda Meta'nın resmi WhatsApp Business API'si kurulur; 4 dilli AI (TR/EN/RU/DE) oda müsaitliği, fiyat, transfer, restoran rezervasyonu, spa ve animasyon programı sorularını yanıtlar. PMS (örneğin Cloudbeds) entegrasyonuyla müsaitlik WhatsApp'tan sorgulanır, rezervasyon talebi sisteme iletilir. İzin akışı GDPR ve KVKK gereklilikleri dikkate alınarak kurgulanır.",
       "Bu kurulumda misafir hangi dilde yazarsa aynı dilde yanıt alır, gece gelen müsaitlik soruları sabahı beklemez, rezervasyona dönüşmesi gereken talepler resepsiyona hazır özetle düşer. Resepsiyon çeviriyle uğraşmak yerine onay bekleyen rezervasyonlara ve oteldeki misafire odaklanır."
     ],

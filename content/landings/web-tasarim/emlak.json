@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Portföyü ilan platformlarına dağılmış bir emlak ofisi için kendi sitesi",
+    "title": "Portföyü ilan platformlarına dağılmış bir emlak ofisi için kendi sitesi",
     "paragraphs": [
-      "Örnek bir kurulum: Beylikdüzü'nde satılık ve kiralık konut + ofis portföyü olan bir emlak ofisi düşünün. Kendi sitesi yok, portföyü sahibinden ve emlakjet'e dağılmış; gelen taleplerin tamamı platformlardan geliyor, ofis Google'da kendi markasıyla görünmüyor.",
-      "Bu senaryoda Emlakjet XML/API senkronizasyonuyla aktif ilanlar siteye otomatik aktarılır; harita-liste split view, çok kriterli gelişmiş filtre, virtual tour embed, danışman profilleri, WhatsApp lead formu ve 'Beylikdüzü satılık daire', 'Beylikdüzü kiralık ofis' gibi bölge SEO sayfaları kurulur.",
+      "Beylikdüzü'nde satılık ve kiralık konut + ofis portföyü olan bir emlak ofisi düşünün. Kendi sitesi yok, portföyü sahibinden ve emlakjet'e dağılmış; gelen taleplerin tamamı platformlardan geliyor, ofis Google'da kendi markasıyla görünmüyor.",
+      "Bu kurulumda Emlakjet XML/API senkronizasyonuyla aktif ilanlar siteye otomatik aktarılır; harita-liste split view, çok kriterli gelişmiş filtre, virtual tour embed, danışman profilleri, WhatsApp lead formu ve 'Beylikdüzü satılık daire', 'Beylikdüzü kiralık ofis' gibi bölge SEO sayfaları kurulur.",
       "Yayından sonra iş akışı şöyle değişir: Emlakjet'e eklenen ilan sitede de görünür; müşteri haritadan ve filtrelerden ilanı bulur, 'Bilgi Al' butonuyla ilan kodu ve iletişim bilgisi WhatsApp'a düşer. Sahibinden ilanları panelden eklenir. Trafik, lead sayısı ve maliyet etkisi bölgeye ve portföye bağlı olduğundan sonuç rakamı vaat etmiyoruz."
     ],
     "beforeAfter": [

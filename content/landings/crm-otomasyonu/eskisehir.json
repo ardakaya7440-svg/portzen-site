@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Tepebaşı'nda bir öğrenci kahve aboneliği için yenileme otomasyonu",
+    "title": "Tepebaşı'nda bir öğrenci kahve aboneliği için yenileme otomasyonu",
     "paragraphs": [
-      "Örnek senaryo: Tepebaşı'nda öğrenci ve genç çalışanlara aylık kahve aboneliği yapan bir girişim düşünün. Aboneler Excel'de tutuluyor, yenileme tarihi gelince sahibi tek tek mesaj atıyor ve zaman zaman unutuyor.",
-      "Örnek bir kurulumda HubSpot Free + WhatsApp Business API + Stripe abonelik entegrasyonu kurulur. Her abone için müşteri kartı, sipariş geçmişi, tercih ettiği kahve ve yenileme tarihi sistemde tutulur. Otomasyon: yenileme 7 gün önce WhatsApp hatırlatma, 1 gün kala SMS, yenilemediyse 3 gün sonra 'özel indirim' mesajı. Doğum günü + dönem başı kampanyaları da otomatik.",
+      "Tepebaşı'nda öğrenci ve genç çalışanlara aylık kahve aboneliği yapan bir girişim düşünün. Aboneler Excel'de tutuluyor, yenileme tarihi gelince sahibi tek tek mesaj atıyor ve zaman zaman unutuyor.",
+      "Bu kurulumda HubSpot Free + WhatsApp Business API + Stripe abonelik entegrasyonu kurulur. Her abone için müşteri kartı, sipariş geçmişi, tercih ettiği kahve ve yenileme tarihi sistemde tutulur. Otomasyon: yenileme 7 gün önce WhatsApp hatırlatma, 1 gün kala SMS, yenilemediyse 3 gün sonra 'özel indirim' mesajı. Doğum günü + dönem başı kampanyaları da otomatik.",
       "Bu kurulumla iş akışında değişen şudur: yenileme hatırlatmaları sahibin hafızasına kalmadan otomatik gider, yenilemeyen abone ayrı bir akışa düşer, dönem başında öğrenci segmentine ayrı kampanya gönderilir. Sahip abone durumunu dashboard'dan takip eder."
     ],
     "beforeAfter": [

@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Kadıköy'de bir specialty kahve kafesi için brunch rezervasyon akışı",
+    "title": "Kadıköy'de bir specialty kahve kafesi için brunch rezervasyon akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Kadıköy Moda'da specialty kahve + brunch konseptiyle çalışan, iki baristalı butik bir kafe. Hafta sonu sabahları WhatsApp'tan gelen 'masa var mı' soruları siparişle aynı anda geliyor; mesajlara saatler sonra dönülebiliyor.",
+      "Kadıköy Moda'da specialty kahve + brunch konseptiyle çalışan, iki baristalı butik bir kafe. Hafta sonu sabahları WhatsApp'tan gelen 'masa var mı' soruları siparişle aynı anda geliyor; mesajlara saatler sonra dönülebiliyor.",
       "Böyle bir yapıda Meta'nın resmi WhatsApp Business API'si ve AI asistan kurulur. Menü, sezon brunch fiyatları, specialty kahve detayları (demleme metotları), masa kapasitesi ve rezervasyon politikası (slot süresi, hafta sonu bekleme süresi) sisteme yüklenir.",
       "Bu kurulumda menü, fiyat ve 'masa var mı' soruları otomatik yanıtlanır, brunch rezervasyonu kapasiteye göre alınır, özel etkinlik talepleri baristaya devredilir. Baristalar telefonla uğraşmak yerine siparişe odaklanır."
     ],

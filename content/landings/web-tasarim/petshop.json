@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Pazaryerinde satan bir premium petshop için kendi e-ticaret sitesi ve mama aboneliği",
+    "title": "Pazaryerinde satan bir premium petshop için kendi e-ticaret sitesi ve mama aboneliği",
     "paragraphs": [
-      "Örnek bir kurulum: Çankaya'da premium konseptli bir petshop düşünün. Online satışı yalnızca pazaryerinde yapıyor ve kategoriye göre %15-25 komisyon ödüyor. Kendi sitesi basit bir tek sayfa; müşteri 'kargoyla gönderir misiniz?' diye sorduğunda sipariş WhatsApp'tan elle alınıyor, ardından havale bekleniyor.",
-      "Bu senaryoda Shopify Hydrogen tabanlı bir e-ticaret sitesi kurulur: dosyadan ürün aktarımı (paket kapsamına göre 50, 250 veya 1.000 ürün), ırk + yaş filtreleme, Iyzico ödeme (taksit dahil), Aras kargo entegrasyonu, mama abonelik sistemi ve Google Shopping feed'i; mobil-öncelikli, Lighthouse 90+ hedefiyle.",
+      "Çankaya'da premium konseptli bir petshop düşünün. Online satışı yalnızca pazaryerinde yapıyor ve kategoriye göre %15-25 komisyon ödüyor. Kendi sitesi basit bir tek sayfa; müşteri 'kargoyla gönderir misiniz?' diye sorduğunda sipariş WhatsApp'tan elle alınıyor, ardından havale bekleniyor.",
+      "Bu kurulumda Shopify Hydrogen tabanlı bir e-ticaret sitesi kurulur: dosyadan ürün aktarımı (paket kapsamına göre 50, 250 veya 1.000 ürün), ırk + yaş filtreleme, Iyzico ödeme (taksit dahil), Aras kargo entegrasyonu, mama abonelik sistemi ve Google Shopping feed'i; mobil-öncelikli, Lighthouse 90+ hedefiyle.",
       "Yayından sonra iş akışı şöyle değişir: Müşteri ürünü filtrelerle bulur, kartla öder; kargo etiketi otomatik üretilir, takip kodu müşteriye gider. Abone müşterinin siparişi döngü tarihinde otomatik oluşur. Kendi sitenizdeki satışta pazaryeri komisyonu ödenmez; ciro ve abone sayısı ürün, fiyat ve tanıtıma bağlı olduğundan rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

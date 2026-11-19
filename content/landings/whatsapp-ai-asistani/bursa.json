@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Nilüfer'de bir tekstil firması için numune ve sipariş akışı",
+    "title": "Nilüfer'de bir tekstil firması için numune ve sipariş akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Nilüfer'de orta ölçekli bir ev tekstili üreticisi, yurt içi ve yurt dışı toptancılardan WhatsApp üzerinden numune ve sipariş talebi alıyor. Akşam gelen talepler sabaha kalıyor, saat farkı olan yurt dışı müşteriler geç cevap alıyor; hangi numunenin kime gönderildiği Excel'de takip ediliyor.",
+      "Nilüfer'de orta ölçekli bir ev tekstili üreticisi, yurt içi ve yurt dışı toptancılardan WhatsApp üzerinden numune ve sipariş talebi alıyor. Akşam gelen talepler sabaha kalıyor, saat farkı olan yurt dışı müşteriler geç cevap alıyor; hangi numunenin kime gönderildiği Excel'de takip ediliyor.",
       "Böyle bir yapıda Meta'nın resmi WhatsApp Business API'si kurulur; numune talebi, metraj, renk-desen sorgusu, üretim süreci, kargo takibi ve fiyat teklifi senaryoları asistana yüklenir. Türkçe + İngilizce + Almanca yanıtlar hazırlanır; gelen talep CRM'e otomatik kaydedilir ve ilgili satış temsilcisine atanır.",
       "Bu kurulumda numune talepleri eksiksiz bilgiyle CRM'e düşer, yurt dışı müşterilerin mesajları mesai beklemeden yanıtlanır, satış ekibi takip gereken talepleri tek ekrandan görür. Excel'deki dağınık takip yerini CRM üzerindeki kayıtlara bırakır."
     ],

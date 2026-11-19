@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Nilüfer'de ev tekstili ihraç eden bir üretici için çok dilli B2B site",
+    "title": "Nilüfer'de ev tekstili ihraç eden bir üretici için çok dilli B2B site",
     "paragraphs": [
-      "Örnek bir kurulum: Nilüfer'de ev tekstili üreten orta ölçekli bir firma düşünün. Sitesi yalnızca Türkçe ve mobilde yavaş; KVKK metinleri ve Google İşletme Profili eksik. Firma Evteks, Heimtextil gibi fuarlarda kartvizit topluyor ama Avrupalı alıcı siteye girdiğinde Türkçe sayfayı görüp kapatıyor; 'home textile manufacturer turkey' gibi aramalarda görünmüyor.",
-      "Bu senaryoda Next.js + Tailwind ile çok dilli bir site sıfırdan kurulur (Kurumsal pakette 2 dil dahil, örneğin TR + EN; Almanca gibi ek diller ayrıca tekliflendirilir): mahalle + sektör landing sayfaları (nilüfer-ev-tekstili, bursa-ihracatçı gibi), Schema.org LocalBusiness etiketleme, Google İşletme Profili düzenlemesi, KVKK gerekliliklerini gözeten aydınlatma metni ve çerez bandı, Vercel CDN üzerinde yayın.",
+      "Nilüfer'de ev tekstili üreten orta ölçekli bir firma düşünün. Sitesi yalnızca Türkçe ve mobilde yavaş; KVKK metinleri ve Google İşletme Profili eksik. Firma Evteks, Heimtextil gibi fuarlarda kartvizit topluyor ama Avrupalı alıcı siteye girdiğinde Türkçe sayfayı görüp kapatıyor; 'home textile manufacturer turkey' gibi aramalarda görünmüyor.",
+      "Bu kurulumda Next.js + Tailwind ile çok dilli bir site sıfırdan kurulur (Kurumsal pakette 2 dil dahil, örneğin TR + EN; Almanca gibi ek diller ayrıca tekliflendirilir): mahalle + sektör landing sayfaları (nilüfer-ev-tekstili, bursa-ihracatçı gibi), Schema.org LocalBusiness etiketleme, Google İşletme Profili düzenlemesi, KVKK gerekliliklerini gözeten aydınlatma metni ve çerez bandı, Vercel CDN üzerinde yayın.",
       "Yayından sonra ne değişir: Fuarda tanışılan alıcı ürün gamını kendi dilinde inceler, numune veya fiyat talebini formdan iletir; talep satış ekibine e-postayla düşer. Yeni müşteri sayısı fuar takibine ve satış sürecine de bağlı olduğundan rakam vaat etmiyoruz; ölçümleme kurulumuyla talebin hangi kanaldan geldiğini görürsünüz."
     ],
     "beforeAfter": [

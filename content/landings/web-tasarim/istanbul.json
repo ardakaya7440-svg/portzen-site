@@ -89,10 +89,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Kadıköy'de bir hukuk bürosu için ilçe + hizmet alanı sayfaları",
+    "title": "Kadıköy'de bir hukuk bürosu için ilçe + hizmet alanı sayfaları",
     "paragraphs": [
-      "Örnek bir kurulum: Kadıköy'de uzun süredir faaliyet gösteren bir hukuk bürosu düşünün. Eski WordPress sitesi yalnızca firma adı arandığında çıkıyor; 'Kadıköy boşanma avukatı', 'kadıköy ticaret hukuku' gibi yüksek niyetli sorgularda görünmüyor, müşteriler yalnızca referansla geliyor.",
-      "Bu senaryoda Next.js tabanlı yeni bir site sıfırdan kurulur: hizmet alanı x ilçe kombinasyonlarından oluşan lokasyon bazlı landing sayfaları (Kadıköy boşanma avukatı, Şişli ticaret hukuku, Beylikdüzü iş hukuku gibi), Google İşletme Profili düzenlemesi ve schema markup. Sayfa sayısı pakete göre belirlenir (Büyüme 10, Kurumsal 20 sayfa).",
+      "Kadıköy'de uzun süredir faaliyet gösteren bir hukuk bürosu düşünün. Eski WordPress sitesi yalnızca firma adı arandığında çıkıyor; 'Kadıköy boşanma avukatı', 'kadıköy ticaret hukuku' gibi yüksek niyetli sorgularda görünmüyor, müşteriler yalnızca referansla geliyor.",
+      "Bu kurulumda Next.js tabanlı yeni bir site sıfırdan kurulur: hizmet alanı x ilçe kombinasyonlarından oluşan lokasyon bazlı landing sayfaları (Kadıköy boşanma avukatı, Şişli ticaret hukuku, Beylikdüzü iş hukuku gibi), Google İşletme Profili düzenlemesi ve schema markup. Sayfa sayısı pakete göre belirlenir (Büyüme 10, Kurumsal 20 sayfa).",
       "Yayından sonra iş akışı şöyle değişir: İlçe + hizmet aramasıyla gelen kişi doğrudan ilgili uzmanlık sayfasına iner, büroyu ve süreci tanır, WhatsApp veya form üzerinden iletişime geçer. Ölçümleme kurulumuyla hangi sayfanın talep getirdiği görülür. Sıralama ve danışan sayısı rekabete bağlı olduğundan sonuç rakamı vaat etmiyoruz."
     ],
     "beforeAfter": [

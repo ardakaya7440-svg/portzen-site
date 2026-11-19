@@ -479,7 +479,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: kadın giyim butiği
+              Uygulamada: kadın giyim butiği
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -492,7 +492,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Örnek senaryoda ManyChat kullanan bir kadın giyim butiği düşünelim. Aylık fatura USD üzerinden geliyor, ödeme akışı Stripe&apos;a bağlı; müşterilerin çoğu yerel kartla 3D Secure ödeme yapmak istiyor.
+                  ManyChat kullanan bir kadın giyim butiği düşünelim. Aylık fatura USD üzerinden geliyor, ödeme akışı Stripe&apos;a bağlı; müşterilerin çoğu yerel kartla 3D Secure ödeme yapmak istiyor.
                 </p>
                 <p>
                   Bu tür geçişlerde tipik 3 sorun görülür: (1) WhatsApp tarafında üçüncü parti gateway kullanıldığı için numaranın askıya alınma endişesi, (2) KVKK aydınlatma metni hazır ama akış kurulu değil, (3) mevcut abone listesini kaybetme endişesi.

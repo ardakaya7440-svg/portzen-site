@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Karatay'da bayileriyle telefonla çalışan bir un fabrikası için B2B portal",
+    "title": "Karatay'da bayileriyle telefonla çalışan bir un fabrikası için B2B portal",
     "paragraphs": [
-      "Örnek bir kurulum: Karatay sanayi bölgesinde, Türkiye genelinde fırın, pastane ve market bayileriyle çalışan bir un fabrikası düşünün. Eski statik WordPress sitesi bayiler için hiçbir işlev sunmuyor; bayi siparişleri telefon, WhatsApp ve e-postadan geliyor, ofis ekibi her siparişi ERP'ye elle giriyor. Yeni bayiye katalog PDF olarak e-postayla gönderiliyor.",
-      "Bu senaryoda Next.js + Tailwind ile ERP entegrasyonlu bir B2B portal kurulur (bayilik ve B2B portal gibi iş akışları özel web uygulaması kapsamında planlanır): bayi giriş paneli, ERP API'si üzerinden stok bilgisi (Akınsoft gibi), bayi seviyesine göre özel fiyat listesi, online sipariş, sipariş takibi + sevkiyat bildirimi ve KVKK gerekliliklerini gözeten aydınlatma ve onay akışı. Mobilya/yatak odası ürünleri için 3D katalog modülü ayrıca planlanabilir.",
+      "Karatay sanayi bölgesinde, Türkiye genelinde fırın, pastane ve market bayileriyle çalışan bir un fabrikası düşünün. Eski statik WordPress sitesi bayiler için hiçbir işlev sunmuyor; bayi siparişleri telefon, WhatsApp ve e-postadan geliyor, ofis ekibi her siparişi ERP'ye elle giriyor. Yeni bayiye katalog PDF olarak e-postayla gönderiliyor.",
+      "Bu kurulumda Next.js + Tailwind ile ERP entegrasyonlu bir B2B portal kurulur (bayilik ve B2B portal gibi iş akışları özel web uygulaması kapsamında planlanır): bayi giriş paneli, ERP API'si üzerinden stok bilgisi (Akınsoft gibi), bayi seviyesine göre özel fiyat listesi, online sipariş, sipariş takibi + sevkiyat bildirimi ve KVKK gerekliliklerini gözeten aydınlatma ve onay akışı. Mobilya/yatak odası ürünleri için 3D katalog modülü ayrıca planlanabilir.",
       "Yayından sonra iş akışı şöyle değişir: Bayi portala girip kendi fiyat listesini ve güncel stoğu görür, siparişini kendisi oluşturur; sipariş ERP'ye aktarılır, sevkiyat durumu bayiye bildirim olarak gider. Ofis ekibi telefonda sipariş yazmak yerine istisnaları ve yeni bayi ilişkilerini yönetir. Bayilerin portala geçiş hızı ve operasyonel etki bayi ağına bağlı olduğundan rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

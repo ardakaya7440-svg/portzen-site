@@ -124,9 +124,7 @@ WhatsApp anketinin gizli faydası şu: misafir gerçekten memnun değilse yorumu
 
 Sosyal kanıt yönetimi konusunda daha geniş bir perspektif için [CRM otomasyonu rehberi](/blog/crm-otomasyonu-rehberi) yazımıza bakabilirsiniz.
 
-## Örnek Senaryo: 32 Odalı Bir Butik Otelde Kurulum
-
-Aşağıdaki senaryo gerçek bir müşteri sonucu değil; butik bir otelde WhatsApp AI asistanının nasıl kurgulandığını gösteren örnek bir kurulumdur.
+## Uygulamada: 32 Odalı Bir Butik Otelde Kurulum
 
 Başlangıç durumu: misafir mesajları resepsiyon vardiyasına bağlı olarak yanıtlanıyor, gece gelen sorular sabahı bekliyor, rezervasyonların büyük kısmı OTA üzerinden geliyor ve geliş öncesi hatırlatma yapılmıyor.
 

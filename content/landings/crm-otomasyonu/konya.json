@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Karatay'da bir un fabrikası için bayi takibi ve pasif bayi uyarısı",
+    "title": "Karatay'da bir un fabrikası için bayi takibi ve pasif bayi uyarısı",
     "paragraphs": [
-      "Örnek senaryo: Karatay sanayi bölgesinde, bakkal/manav/fırıncı/pastane bayilerinden oluşan geniş bir ağı olan bir un fabrikası düşünün. Bayi takibi Excel + WhatsApp + telefon karışık yapılıyor; satış temsilcileri tüm bayileri düzenli arayamıyor, sipariş vermeyi bırakan bayi fark edilmiyor. Yeni bayi açma sürecinin takibi de Excel'de.",
-      "Örnek bir kurulumda Zoho CRM + WhatsApp Business API + Email + ERP (ör. Akınsoft) entegrasyonu kurulur. Bayiler tek panele aktarılır, her bayiye 'son sipariş', 'ödeme durumu', 'seviye' kartı açılır. Pasif bayi otomatik uyarısı (30 gün sipariş yok → satış temsilcisine bildirim), otomatik WhatsApp hatırlatma, sipariş takip + sevkiyat bildirimi ve KVKK gerekliliklerini dikkate alan rıza akışları eklenir.",
+      "Karatay sanayi bölgesinde, bakkal/manav/fırıncı/pastane bayilerinden oluşan geniş bir ağı olan bir un fabrikası düşünün. Bayi takibi Excel + WhatsApp + telefon karışık yapılıyor; satış temsilcileri tüm bayileri düzenli arayamıyor, sipariş vermeyi bırakan bayi fark edilmiyor. Yeni bayi açma sürecinin takibi de Excel'de.",
+      "Bu kurulumda Zoho CRM + WhatsApp Business API + Email + ERP (ör. Akınsoft) entegrasyonu kurulur. Bayiler tek panele aktarılır, her bayiye 'son sipariş', 'ödeme durumu', 'seviye' kartı açılır. Pasif bayi otomatik uyarısı (30 gün sipariş yok → satış temsilcisine bildirim), otomatik WhatsApp hatırlatma, sipariş takip + sevkiyat bildirimi ve KVKK gerekliliklerini dikkate alan rıza akışları eklenir.",
       "Bu kurulumla iş akışında değişen şudur: sipariş vermeyi bırakan bayi otomatik olarak işaretlenir ve temsilciye arama görevi düşer, bayiye hatırlatma mesajı kendiliğinden gider, yeni bayi adaylarının hangi aşamada olduğu pipeline'da görünür. Satış ekibi zamanını kimi arayacağını bilerek planlar."
     ],
     "beforeAfter": [

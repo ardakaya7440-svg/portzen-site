@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Specialty kahve ve brunch konseptli bir kafe için dijital sadakat",
+    "title": "Specialty kahve ve brunch konseptli bir kafe için dijital sadakat",
     "paragraphs": [
-      "Örnek senaryo: Specialty kahve + brunch + workshop konseptiyle çalışan butik bir kafe düşünün. POS sistemde kayıtlı çok sayıda müşteri var ama hiçbiriyle iletişim yok; sadakat sistemi kaybolması kolay kağıt damga kartı.",
-      "Örnek bir kurulumda CRM + sadakat sistemi kurulur: dijital damga (QR + WhatsApp), 4 müşteri segmenti (brunch müdavimi, workshop katılımcı, takeaway, çalışma kafesi düzenli) ve her segmente özel akış: doğum günü, sezon menü, geri çağırma, workshop davet.",
+      "Specialty kahve + brunch + workshop konseptiyle çalışan butik bir kafe düşünün. POS sistemde kayıtlı çok sayıda müşteri var ama hiçbiriyle iletişim yok; sadakat sistemi kaybolması kolay kağıt damga kartı.",
+      "Bu kurulumda CRM + sadakat sistemi kurulur: dijital damga (QR + WhatsApp), 4 müşteri segmenti (brunch müdavimi, workshop katılımcı, takeaway, çalışma kafesi düzenli) ve her segmente özel akış: doğum günü, sezon menü, geri çağırma, workshop davet.",
       "Bu kurulumla iş akışında değişen şudur: müşteri QR ile dijital sadakata kaydolur ve damgası telefonunda tutulur, doğum günü ve geri çağırma mesajları otomatik gider, workshop duyuruları önceki katılımcılara doğrudan ulaşır. Hangi kampanyanın geri dönüş aldığı aylık raporda görünür."
     ],
     "beforeAfter": [

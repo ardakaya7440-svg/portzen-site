@@ -55,7 +55,7 @@ Nurture = besleme. Henüz satın almaya hazır olmayan ama ilgilenen ziyaretçiy
 | 1 | 1 | "Otomasyonun gerçekten işe yaradığı 3 sektör" | Eczane, klinik, emlak örnekleri |
 | 2 | 4 | "Kendi başına kurmak mı, ajansa vermek mi?" | Karar tablosu |
 | 3 | 7 | "n8n vs Make vs Zapier — gerçek fark" | Karşılaştırma + link [blog](/blog/zapier-make-n8n-karsilastirma) |
-| 4 | 11 | "Örnek bir otomasyon kurulumu adım adım" | Örnek senaryo |
+| 4 | 11 | "Örnek bir otomasyon kurulumu adım adım" | Kurulum adımları |
 | 5 | 15 | "Bu seriyi tamamladınız — bir sonraki adım?" | Demo daveti + indirim |
 
 Nurture serisi sonunda lead'in **%15-25'i** demo/satış görüşmesine geçer. Geri kalanı uzun vadeli pazarlama listesinde kalır.

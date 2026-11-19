@@ -84,10 +84,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bir emlak ofisi için drone view + iç mekan portföy videoları",
+    "title": "Bir emlak ofisi için drone view + iç mekan portföy videoları",
     "paragraphs": [
-      "Örnek bir kurulum: Instagram'da haftada bir portföy fotoğrafı paylaşan, drone çekimini ilan başına maliyet nedeniyle yalnızca birkaç portföy için yaptırabilen bir emlak ofisi düşünün.",
-      "Bu senaryoda paket adedine göre (ayda 4, 12 veya 24 video) seçilen portföyler için drone view, iç mekan render ve mahalle tanıtım sahneleri üretilir. Her video müzik, altyazı ve pakete göre AI seslendirmeyle Reels formatında teslim edilir.",
+      "Instagram'da haftada bir portföy fotoğrafı paylaşan, drone çekimini ilan başına maliyet nedeniyle yalnızca birkaç portföy için yaptırabilen bir emlak ofisi düşünün.",
+      "Bu kurulumda paket adedine göre (ayda 4, 12 veya 24 video) seçilen portföyler için drone view, iç mekan render ve mahalle tanıtım sahneleri üretilir. Her video müzik, altyazı ve pakete göre AI seslendirmeyle Reels formatında teslim edilir.",
       "Ofis, drone pilotu ve kameraman organize etmeden seçtiği portföyler için video paylaşabilir; satılan portföyün yerine yeni ilan geldiğinde videosu da aynı akışla hazırlanır. Erişim, randevu ve satış sonuçları portföye, fiyata ve bölgeye göre değişir; burada rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

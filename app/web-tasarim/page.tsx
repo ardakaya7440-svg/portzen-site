@@ -353,13 +353,13 @@ export default function WebTasarimPage() {
         </div>
       </section>
 
-      <MoreDetails title="Ayrıntılar: Örnek senaryo — butik" summary="Koleksiyon lansmanı için tek hedefli landing page">
+      <MoreDetails title="Ayrıntılar: Kurulum nasıl işler — butik" summary="Koleksiyon lansmanı için tek hedefli landing page">
       {/* 6. CASE STUDY */}
       <section className="bg-white py-section border-y-3 border-ink/15">
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek Senaryo — Butik
+              Uygulamada — Butik
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -371,16 +371,13 @@ export default function WebTasarimPage() {
             <div className="grid lg:grid-cols-[1.3fr_1fr] gap-10">
               <div className="space-y-5 text-body text-ink/85 max-w-prose">
                 <p>
-                  <strong className="text-ink">Durum:</strong> Örnek senaryoda bir concept butiğin Instagram hesabı ilgi görüyor ama bu ilgi satışa dönüşmüyor. Eski site WordPress, mobilde zor kullanılıyor, ürün katalogu güncellenemiyor.
+                  <strong className="text-ink">Durum:</strong> Tipik bir durumda bir concept butiğin Instagram hesabı ilgi görüyor ama bu ilgi satışa dönüşmüyor. Eski site WordPress, mobilde zor kullanılıyor, ürün katalogu güncellenemiyor.
                 </p>
                 <p>
                   <strong className="text-ink">Kurulum:</strong> Önce tek bir kampanya landing page&apos;i kurulur — koleksiyon lansmanı için. Next.js altyapısı, Lighthouse 90+ hedefi, üzerinde tek bir hedef: WhatsApp&apos;a yönlendirme + e-posta toplama. Instagram bio linki bu sayfaya yönlendirilir.
                 </p>
                 <p>
                   <strong className="text-ink">Ne değişir:</strong> Ziyaretçi tek bir aksiyona yönlendirilir; WhatsApp&apos;tan gelen talepler ve toplanan e-postalar tek yerde birikir. Kampanya bittiğinde aynı sayfa yeni koleksiyon için güncellenebilir.
-                </p>
-                <p className="text-sm text-ink/70 italic border-l-3 border-ink/15 pl-4">
-                  Bu bölüm açıklayıcı bir örnek senaryodur; gerçek bir müşteri sonucu veya alıntısı değildir.
                 </p>
               </div>
 

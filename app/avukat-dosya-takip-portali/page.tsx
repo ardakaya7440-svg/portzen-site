@@ -267,12 +267,12 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: hukuk bürosu
+              Uygulamada: hukuk bürosu
             </div>
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-display text-h2 font-black leading-tight max-w-4xl">
-              Örnek senaryo: 4 avukatlı bir büroda müvekkil bilgilendirme akışı nasıl kurulur?
+              4 avukatlı bir büroda müvekkil bilgilendirme akışı nasıl kurulur?
             </h2>
           </Reveal>
 
@@ -280,7 +280,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Bu örnek senaryoda büro yüzlerce aktif dosyayla çalışıyor. Müvekkiller sık sık &quot;dosyam ne durumda?&quot; diye arıyor. Sekreter çoğunlukla dosyayı bilmediği için avukatı bekletiyor; avukat ise duruşma hazırlığından koparılıyor. Dilekçe hazırlık günleri telefon trafiğiyle bölünüyor.
+                  Tipik bir durumda büro yüzlerce aktif dosyayla çalışıyor. Müvekkiller sık sık &quot;dosyam ne durumda?&quot; diye arıyor. Sekreter çoğunlukla dosyayı bilmediği için avukatı bekletiyor; avukat ise duruşma hazırlığından koparılıyor. Dilekçe hazırlık günleri telefon trafiğiyle bölünüyor.
                 </p>
                 <p>
                   Brief görüşmesinde büronun dava çeşitliliği (aile, ceza, ticaret), mesleki sırrın gerektirdiği paylaşım kısıtları ve tipik müvekkil profili birlikte çıkarılır. Ardından müvekkil portalı, dosya paneli, WhatsApp bilgilendirme akışı ve rol bazlı erişim kontrolü kurulur; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Her müvekkile giriş bilgileri ile KVKK aydınlatma ve açık rıza metni gönderilir.

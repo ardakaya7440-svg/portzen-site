@@ -87,7 +87,7 @@
     "title": "Online kurs veren bir eğitim platformu için örnek kurulum",
     "paragraphs": [
       "Veri bilimi ve dijital pazarlama alanında çok sayıda kurs sunan bir online eğitim platformu düşünelim: Instagram'da düzenli Reels paylaşıyor ve yoğun DM alıyor. Küçük danışman ekibi DM'lerin yalnızca bir kısmına yanıt verebiliyor; fiyat, taksit ve demo ders soruları birikiyor.",
-      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: her kurs için anahtar kelimeyle tetiklenen müfredat, fiyat, taksit, eğitmen ve sertifika mesajları; demo video linki; kayıt için ad, telefon ve kurs bilgisini sabit sorularla toplayan akış ve ödeme sayfası linki. Danışmanlar yalnızca akışın kapsamadığı sorular ve görüşme isteyen adaylarla ilgilenir.",
+      "Bu kurulumda kural tabanlı Instagram DM otomasyonu kurulur: her kurs için anahtar kelimeyle tetiklenen müfredat, fiyat, taksit, eğitmen ve sertifika mesajları; demo video linki; kayıt için ad, telefon ve kurs bilgisini sabit sorularla toplayan akış ve ödeme sayfası linki. Danışmanlar yalnızca akışın kapsamadığı sorular ve görüşme isteyen adaylarla ilgilenir.",
       "Böylece tekrar eden kurs ve fiyat sorularına danışman beklenmeden hazır mesajlarla yanıt verilir, demo ders ve kayıt talebi doğrudan ilgili linke yönlenir, danışman ekibi zamanını görüşme gerektiren adaylara ayırır. Hangi kursların anahtar kelimelerinin daha sık tetiklendiği izlenerek mesajlar ve kampanyalar güncellenir. Kurs bilgileri üzerinden serbest sorulara AI ile yanıt istenirse bu, AI müşteri asistanı (ayrı hizmet; Instagram kanalı yalnızca Kurumsal pakette) kapsamındadır."
     ],
     "beforeAfter": [

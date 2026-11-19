@@ -85,9 +85,9 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: İstanbul'da bir butik için WhatsApp satış akışı",
+    "title": "İstanbul'da bir butik için WhatsApp satış akışı",
     "paragraphs": [
-      "Örnek bir kurulumu düşünelim: Cihangir'de Shopify üzerinden satış yapan butik bir kadın giyim markası. Sepete ürün ekleyen ziyaretçilerin bir kısmı 'stok var mı', 'kargo ne zaman gelir', 'iade nasıl olur' gibi yanıtsız kalan sorular yüzünden ödeme yapmadan çıkıyor; iki kişilik müşteri hizmetleri mesaj yığınına yetişemiyor.",
+      "Cihangir'de Shopify üzerinden satış yapan butik bir kadın giyim markası. Sepete ürün ekleyen ziyaretçilerin bir kısmı 'stok var mı', 'kargo ne zaman gelir', 'iade nasıl olur' gibi yanıtsız kalan sorular yüzünden ödeme yapmadan çıkıyor; iki kişilik müşteri hizmetleri mesaj yığınına yetişemiyor.",
       "Böyle bir yapıda kurulum adım adım ilerler: önce stok sorgu otomasyonu devreye alınır, ardından beden tavsiyesi mantığı ve kargo takibi eklenir, son olarak sepeti bırakan ve izin vermiş müşterilere Meta onaylı şablonla hatırlatma akışı açılır.",
       "Bu kurulumda stok, beden ve kargo soruları otomatik yanıtlanır, sepeti bırakan müşteri WhatsApp'tan nazik bir hatırlatma alır, müşteri hizmetleri yalnızca özel durumlarla (kayıp kargo, beden değişimi) ilgilenir. Hangi soruların geldiği ve hangi ürünlerin en çok sorulduğu panelden takip edilir."
     ],

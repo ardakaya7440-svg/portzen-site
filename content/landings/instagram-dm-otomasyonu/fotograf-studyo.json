@@ -88,7 +88,7 @@
     "title": "İstanbul'da bir düğün fotoğrafçısı için örnek kurulum",
     "paragraphs": [
       "Bostancı'da düğün, nişan ve hamile çekimi yapan bir fotoğrafçı düşünelim: düğün Reels'leri ilgi görüyor, ancak yorumlar elle yanıtlanıyor ve DM'lere saatler sonra dönülüyor. Bir Reels çok ilgi gördüğünde yüzlerce yorum birikiyor, soruların bir kısmı yanıtsız kalıyor.",
-      "Bu senaryoda Meta'nın resmi API'si üzerinden kural tabanlı DM otomasyonu kurulur: çekim türlerine (düğün, nişan, hamile, doğum günü, aile) göre anahtar kelime akışları, her tür için portfolyo seçkisi ve Pixieset galeri linki, fotoğrafçının kendi belirlediği paketleri anlatan karşılaştırma PDF'i ve müsait tarih için WhatsApp yönlendirmesi.",
+      "Bu kurulumda Meta'nın resmi API'si üzerinden kural tabanlı DM otomasyonu kurulur: çekim türlerine (düğün, nişan, hamile, doğum günü, aile) göre anahtar kelime akışları, her tür için portfolyo seçkisi ve Pixieset galeri linki, fotoğrafçının kendi belirlediği paketleri anlatan karşılaştırma PDF'i ve müsait tarih için WhatsApp yönlendirmesi.",
       "Böylece 'paket', 'fiyat', 'müsait mi' yorumlarına fotoğrafçı beklenmeden doğru çekim türünün portfolyosu ve paket bilgisi gider; ciddi adaylar görüşme için WhatsApp'a yönlenir. Fotoğrafçı zamanını rutin yanıtlar yerine görüşmelere ve çekimlere ayırır. Hangi anahtar kelimelerin ve Reels'lerin daha çok DM tetiklediği izlenerek portfolyo seçkileri güncellenir."
     ],
     "beforeAfter": [

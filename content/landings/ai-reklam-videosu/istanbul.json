@@ -89,10 +89,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Galata'da bir butik & lifestyle mağazası için düzenli AI Reels",
+    "title": "Galata'da bir butik & lifestyle mağazası için düzenli AI Reels",
     "paragraphs": [
-      "Örnek bir kurulum: Beyoğlu Galata'da hizmet veren, Instagram'da pasif bir hesabı olan ve ekip-bütçe yetmediği için Reels'e hiç girmemiş bir butik & lifestyle mağazası düşünün. Hesapta ara sıra statik post paylaşılıyor.",
-      "Bu senaryoda İstanbul lokasyon kütüphanesi hazırlanır, ürün görselleri sisteme yüklenir ve pakete göre aylık Reels takvimi planlanır; 'Galata'da bu hafta gelen yeni ürünler', 'Cihangir kafe çıkışı outfit önerisi', 'İstanbul kış stili' gibi lokal hook'lar kullanılır. Mağaza sahibinin yüzüyle kişisel AI avatar istenirse paketlere dahil değildir, ayrıca tekliflendirilir.",
+      "Beyoğlu Galata'da hizmet veren, Instagram'da pasif bir hesabı olan ve ekip-bütçe yetmediği için Reels'e hiç girmemiş bir butik & lifestyle mağazası düşünün. Hesapta ara sıra statik post paylaşılıyor.",
+      "Bu kurulumda İstanbul lokasyon kütüphanesi hazırlanır, ürün görselleri sisteme yüklenir ve pakete göre aylık Reels takvimi planlanır; 'Galata'da bu hafta gelen yeni ürünler', 'Cihangir kafe çıkışı outfit önerisi', 'İstanbul kış stili' gibi lokal hook'lar kullanılır. Mağaza sahibinin yüzüyle kişisel AI avatar istenirse paketlere dahil değildir, ayrıca tekliflendirilir.",
       "Mağaza, set kurmadan, oyuncu tutmadan ve drone izni almadan her hafta paylaşabileceği Reels'lere sahip olur; yeni ürün geldiğinde içerik aynı akışla üretilir. Erişim, takipçi ve sipariş sonuçları ürüne, kitleye ve yayın düzenine göre değişir; burada rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

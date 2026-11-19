@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Bir anaokulunda telefon ve DM'den gelen başvuruları siteye taşımak",
+    "title": "Bir anaokulunda telefon ve DM'den gelen başvuruları siteye taşımak",
     "paragraphs": [
-      "Örnek bir kurulum: Orta-üst segment ailelere hitap eden bir anaokulu düşünün. Sitesi yıllar önce yapılmış tek sayfa ve mobil uyumsuz; online kayıt formu yok, tüm başvurular telefon ve Instagram DM'den geliyor, yönetim gün boyu telefon trafiğiyle uğraşıyor.",
-      "Bu senaryoda site yeniden kurulur: KVKK gerekliliklerini gözeten online ön kayıt formu, takvime bağlı deneme dersi randevu sistemi, Montessori farkını anlatan müfredat sayfası, çocuk yüzü içermeyen atmosfer galerisi (AI üretimi veya mekan fotoğrafı), servis bölgesi haritası ve Google İşletme Profili düzenlemesi. Galeride veli izni gerektiren çocuk fotoğrafı kullanılmaz.",
+      "Orta-üst segment ailelere hitap eden bir anaokulu düşünün. Sitesi yıllar önce yapılmış tek sayfa ve mobil uyumsuz; online kayıt formu yok, tüm başvurular telefon ve Instagram DM'den geliyor, yönetim gün boyu telefon trafiğiyle uğraşıyor.",
+      "Bu kurulumda site yeniden kurulur: KVKK gerekliliklerini gözeten online ön kayıt formu, takvime bağlı deneme dersi randevu sistemi, Montessori farkını anlatan müfredat sayfası, çocuk yüzü içermeyen atmosfer galerisi (AI üretimi veya mekan fotoğrafı), servis bölgesi haritası ve Google İşletme Profili düzenlemesi. Galeride veli izni gerektiren çocuk fotoğrafı kullanılmaz.",
       "Yayından sonra iş akışı şöyle değişir: Veli müfredatı ve servis bölgesini siteden kendisi kontrol eder, ön kayıt formunu mesai dışında da doldurur, deneme dersi saatini takvimden seçer. Başvuru yönetici paneline ve WhatsApp'a bildirim olarak düşer; telefonda tek tek not alma ihtiyacı azalır. Arama sıralaması ve kayıt sayısı bölgedeki rekabete bağlı olduğu için sıra veya kayıt rakamı vaat etmiyoruz."
     ],
     "beforeAfter": [

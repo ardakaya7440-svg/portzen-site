@@ -88,7 +88,7 @@
     "title": "Alsancak'ta bir brunch kafesi için örnek kurulum",
     "paragraphs": [
       "Alsancak'ta küçük bir specialty kahve ve brunch kafesi düşünelim: Reels'leri ilgi görüyor, ama 'menü var mı', 'glutensiz var mı', 'rezervasyon nasıl' sorularına ancak saatler sonra cevap verilebiliyor. Hafta sonu rezervasyon DM'i gönderen müşteri, cevap beklerken başka kafeye gidiyor.",
-      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: menü kataloğu, brunch sezonu kampanyası, masa rezervasyonu linki, Yemeksepeti paket sipariş linki ve glutensiz/vegan seçenekleri için buton tabanlı mesajlar hazırlanır. Reels altına 'menü' yazan kullanıcıya menü kataloğu otomatik DM ile gider.",
+      "Bu kurulumda kural tabanlı Instagram DM otomasyonu kurulur: menü kataloğu, brunch sezonu kampanyası, masa rezervasyonu linki, Yemeksepeti paket sipariş linki ve glutensiz/vegan seçenekleri için buton tabanlı mesajlar hazırlanır. Reels altına 'menü' yazan kullanıcıya menü kataloğu otomatik DM ile gider.",
       "Böylece sık sorulan sorulara ekip servisten ayrılmadan hazır mesajlarla yanıt verilir, rezervasyon ve paket sipariş talepleri doğrudan ilgili linke yönlenir, personel yalnızca akışın kapsamadığı mesajlarla ilgilenir. Hangi anahtar kelimelerin ne sıklıkla tetiklendiği izlenerek menü ve kampanya mesajları güncellenir."
     ],
     "beforeAfter": [

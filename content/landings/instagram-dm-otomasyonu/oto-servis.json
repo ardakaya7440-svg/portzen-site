@@ -87,7 +87,7 @@
     "title": "İzmir Karşıyaka'da bir genel bakım servisi için örnek kurulum",
     "paragraphs": [
       "Karşıyaka'da birkaç ustanın çalıştığı bir genel bakım servisi düşünelim: Instagram'da ön takım sökümü, balata değişimi gibi pratik videolar paylaşıyor ama gelen DM'leri yetiştiremiyor. Mesai içindeki DM'lere bile saatler sonra dönülüyor, müşterilerin bir kısmı başka servise gidiyor.",
-      "Bu senaryoda kural tabanlı Instagram DM otomasyonu kurulur: servisin hizmet kalemleri için sizin belirlediğiniz fiyat aralıklarını içeren hazır mesajlar, araç bilgisini sabit sorularla toplayan akış, online randevu linki, foto/ses mesajlarında ustaya bildirim ve gece 'yolda kaldım' mesajları için çekici bilgisi.",
+      "Bu kurulumda kural tabanlı Instagram DM otomasyonu kurulur: servisin hizmet kalemleri için sizin belirlediğiniz fiyat aralıklarını içeren hazır mesajlar, araç bilgisini sabit sorularla toplayan akış, online randevu linki, foto/ses mesajlarında ustaya bildirim ve gece 'yolda kaldım' mesajları için çekici bilgisi.",
       "Böylece fiyat ve randevu sorularına usta beklenmeden hazır mesajlarla yanıt verilir, randevu talebi doğrudan randevu sayfasına yönlenir; ustalar araçla ilgilenirken DM'ler birikmez, yalnızca inceleme gerektiren mesajlar ustaya bildirilir. Hangi hizmetlerin anahtar kelimelerinin daha sık tetiklendiği izlenerek fiyat mesajları güncellenir."
     ],
     "beforeAfter": [

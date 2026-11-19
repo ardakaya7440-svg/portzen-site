@@ -79,7 +79,7 @@ Yeni işletmenizin ilk 90 gününü net bir yol haritasına oturtmak için öner
 
 Bu yedi adım tamamlandığında 90 gün sonunda kapıdan kendiliğinden gelen müşteri akışı başlamış olur. Ekstra reklam yatırımı olmadan organik hacim taban oluşturur, sonrasında reklam yatırımı bu tabanı hızlandırır.
 
-## Örnek Senaryo: Yeni Açılan Bir Kahve Dükkanı
+## Uygulamada: Yeni Açılan Bir Kahve Dükkanı
 
 Örnek bir senaryo üzerinden düşünelim: yeni açılmış, marka bilinirliği olmayan ve çevredeki yerleşik kafelerle rekabet eden bir kahve dükkanı. 90 günlük organik büyüme planında şu adımlar uygulanır:
 

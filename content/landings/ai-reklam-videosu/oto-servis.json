@@ -84,10 +84,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Sanayi sitesindeki bir oto servis için aylık AI video akışı",
+    "title": "Sanayi sitesindeki bir oto servis için aylık AI video akışı",
     "paragraphs": [
-      "Örnek bir kurulum: Sanayi sitesinde Renault-Dacia odaklı çalışan, Instagram'da düzenli paylaşım yapsa da yalnızca çevresinden iş alan bir oto servis düşünün. Çekim ekibi bütçesi olmadığı için içerik ayda birkaç telefon kaydından öteye geçmiyor.",
-      "Bu senaryoda servis hikâyesi, farklı arıza tipleri ve müşterilerin izinli yazılı yorumları üzerinden AI senaryolar kurulur. Sora ile motor üst açı çekimleri, kaporta önce-sonra dramatik geçişler ve dış cephe sahneleri 9:16 formatında üretilir; aylık adet pakete göre 4, 12 veya 24'tür.",
+      "Sanayi sitesinde Renault-Dacia odaklı çalışan, Instagram'da düzenli paylaşım yapsa da yalnızca çevresinden iş alan bir oto servis düşünün. Çekim ekibi bütçesi olmadığı için içerik ayda birkaç telefon kaydından öteye geçmiyor.",
+      "Bu kurulumda servis hikâyesi, farklı arıza tipleri ve müşterilerin izinli yazılı yorumları üzerinden AI senaryolar kurulur. Sora ile motor üst açı çekimleri, kaporta önce-sonra dramatik geçişler ve dış cephe sahneleri 9:16 formatında üretilir; aylık adet pakete göre 4, 12 veya 24'tür.",
       "Servis, kış lastiği ve klima bakımı gibi sezon konularında önceden planlanmış videolara ve marka odaklı tanıtımlara sahip olur; çekim için atölyeyi durdurması gerekmez. Görüntülenme, randevu ve ciro sonuçları bölgeye, hizmete ve yayın düzenine göre değişir; burada rakam vaat etmiyoruz."
     ],
     "beforeAfter": [

@@ -85,10 +85,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Konak'ta bir hukuk bürosu için mahalle bazlı landing sayfaları",
+    "title": "Konak'ta bir hukuk bürosu için mahalle bazlı landing sayfaları",
     "paragraphs": [
-      "Örnek bir kurulum: Konak'ta orta ölçekli bir hukuk bürosu düşünün. Eski WordPress sitesi mobilde yavaş, formu çalışmıyor, KVKK metinleri ve Google İşletme Profili eksik. 'konak boşanma avukatı', 'alsancak iş davası' gibi aramalarda görünmüyor; danışanlar yalnızca WhatsApp ve tanıdık üzerinden geliyor.",
-      "Bu senaryoda Next.js + Tailwind ile site sıfırdan kurulur: mahalle bazlı landing sayfaları (alsancak-boşanma-avukatı, konak-iş-davası, karşıyaka-icra-avukatı gibi), Schema.org LocalBusiness etiketleme, Google İşletme Profili düzenlemesi, KVKK gerekliliklerini gözeten form ve çerez bandı, Vercel CDN üzerinde yayın.",
+      "Konak'ta orta ölçekli bir hukuk bürosu düşünün. Eski WordPress sitesi mobilde yavaş, formu çalışmıyor, KVKK metinleri ve Google İşletme Profili eksik. 'konak boşanma avukatı', 'alsancak iş davası' gibi aramalarda görünmüyor; danışanlar yalnızca WhatsApp ve tanıdık üzerinden geliyor.",
+      "Bu kurulumda Next.js + Tailwind ile site sıfırdan kurulur: mahalle bazlı landing sayfaları (alsancak-boşanma-avukatı, konak-iş-davası, karşıyaka-icra-avukatı gibi), Schema.org LocalBusiness etiketleme, Google İşletme Profili düzenlemesi, KVKK gerekliliklerini gözeten form ve çerez bandı, Vercel CDN üzerinde yayın.",
       "Yayından sonra iş akışı şöyle değişir: Mahalle + uzmanlık aramasıyla gelen kişi ilgili sayfaya iner, form veya WhatsApp üzerinden başvurur; başvuru büroya e-postayla düşer. Sıralama ve danışan sayısı rekabete bağlı olduğundan sonuç rakamı vaat etmiyoruz; ölçümleme kurulumuyla hangi sayfanın talep getirdiğini görürsünüz."
     ],
     "beforeAfter": [

@@ -143,7 +143,7 @@ Pek çok e-ticaret işletmesi yola Tidio, Intercom, LiveChat gibi hazır araçla
 
 Bu yüzden Türkiye pazarındaki KOBİ'ler giderek özel kurulum çözümlere geçiyor. Detaylı karşılaştırmalar için [Tidio alternatifi](/tidio-alternatifi) ve [Intercom alternatifi](/intercom-alternatifi) sayfalarımıza bakabilirsiniz.
 
-## Örnek Senaryo: Yoğun Sipariş Alan Bir Mağazada Kurulum
+## Uygulamada: Yoğun Sipariş Alan Bir Mağazada Kurulum
 
 Örnek bir senaryo üzerinden düşünelim: ev tekstili satan, Shopify üzerinde çalışan ve yoğun sipariş alan bir mağaza. Başlangıç durumunda destek ekibi "kargom nerede?" mesajlarına yetişmeye çalışıyor, ilk cevap saatler sürüyor, sepet terkleri takip edilmiyor ve hazır bir canlı destek aracına aylık abonelik ödeniyor.
 

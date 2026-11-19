@@ -157,13 +157,13 @@ Web fontları yüklenmediği sürece metin görünmüyor (FOIT) veya sistem font
 - Sadece kullandığınız weight'leri yükleyin (3 weight çoğu site için yeterli)
 - Kritik fontları `<link rel="preload">` ile önceden yükleyin
 
-## Sektör Bazlı Örnek Senaryolar
+## Sektör Bazlı Uygulamalar
 
-Teori bir yere kadar; pratikte nasıl uygulandığını görmek lazım. Aşağıdaki üç senaryo gerçek müşteri sonuçları değil; sektörlerde sık görülen sorunları ve uygulanan adımları gösteren örnek kurulumlardır.
+Teori bir yere kadar; pratikte nasıl uygulandığını görmek lazım.
 
 ### E-Ticaret Butik: Shopify Mağazası
 
-Örnek senaryo: Shopify üzerinde mağaza işleten butik bir aksesuar markasında PSI mobil skoru kırmızı bölgede. Sebep: anasayfada otomatik oynayan ağır bir banner videosu, çok sayıda pazarlama scripti, lazy-load olmayan ürün ızgarası.
+Shopify üzerinde mağaza işleten butik bir aksesuar markasında PSI mobil skoru kırmızı bölgede. Sebep: anasayfada otomatik oynayan ağır bir banner videosu, çok sayıda pazarlama scripti, lazy-load olmayan ürün ızgarası.
 
 **Yapılan iyileştirmeler:**
 - Otomatik video, statik WebP banner ile değiştirilir (LCP öğesi hafifler)
@@ -175,7 +175,7 @@ Teori bir yere kadar; pratikte nasıl uygulandığını görmek lazım. Aşağı
 
 ### Estetik Klinik: WordPress Tabanlı Kurumsal Site
 
-Örnek senaryo: WordPress + Elementor ile kurulmuş bir estetik klinik sitesinde PSI mobil skoru çok düşük. Sebep: çok sayıda plugin, ağır sayfa builder, sıkıştırılmamış "before-after" fotoğrafları, birden fazla chat widget.
+WordPress + Elementor ile kurulmuş bir estetik klinik sitesinde PSI mobil skoru çok düşük. Sebep: çok sayıda plugin, ağır sayfa builder, sıkıştırılmamış "before-after" fotoğrafları, birden fazla chat widget.
 
 **Yapılan iyileştirmeler:**
 - Kullanılmayan plugin'ler kaldırılır
@@ -187,7 +187,7 @@ Teori bir yere kadar; pratikte nasıl uygulandığını görmek lazım. Aşağı
 
 ### Emlak Ofisi: Özel Geliştirilmiş Next.js Site
 
-Örnek senaryo: yüzlerce ilanlık portföyü olan, Next.js tabanlı bir emlak sitesinde mobil skor turuncu bölgede. Sorun: ilan detay sayfalarında kalabalık fotoğraf galerisi, Google Maps embed, ağır filtre paneli.
+Yüzlerce ilanlık portföyü olan, Next.js tabanlı bir emlak sitesinde mobil skor turuncu bölgede. Sorun: ilan detay sayfalarında kalabalık fotoğraf galerisi, Google Maps embed, ağır filtre paneli.
 
 **Yapılan iyileştirmeler:**
 - Galerinin ilk birkaç fotoğrafı `priority`, geri kalanı lazy-load

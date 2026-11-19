@@ -70,7 +70,7 @@ Instagram DM sorununu bir hibrit sisteme dönüştürmek için önerdiğimiz ad�
 
 Kurulumun süresi kapsama göre değişir; PORTZEN ile yapılan kurulumlarda teslim süresi teklifte yazılı olarak belirtilir. Sistem oturduğunda ekip, tekrar eden mesajlar yerine gerçek dokunuş gerektiren konuşmalara odaklanır.
 
-## Örnek Senaryo: Yoğun DM Alan Bir Estetik Kliniği
+## Uygulamada: Yoğun DM Alan Bir Estetik Kliniği
 
 Örnek bir senaryo üzerinden düşünelim: günde çok sayıda Instagram DM'i alan ve tek bir sekreterin yönetmeye çalıştığı bir estetik kliniği. Cevaplar saatler sonra gidiyor, randevu talepleri mesaj yığını içinde kayboluyor.
 

@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Şahinbey'de baklava ihraç eden bir üretici için çok dilli e-ticaret",
+    "title": "Şahinbey'de baklava ihraç eden bir üretici için çok dilli e-ticaret",
     "paragraphs": [
-      "Örnek bir kurulum: Şahinbey'de baklava, Antep fıstığı ve katmer ihraç eden orta ölçekli bir üretici düşünün. Yalnızca Türkçe bir sitesi var, yurt dışı satış WhatsApp ve pazaryeri üzerinden yürüyor; Suudi Arabistan veya Almanya'dan gelen alıcı USD/EUR fiyat göremiyor ve siteden sipariş veremiyor.",
-      "Bu senaryoda Next.js 15 ile çok dilli bir site kurulur (TR + EN + AR; E-ticaret Kurumsal paketinde 2 dil dahil, üçüncü dil ayrıca tekliflendirilir): Stripe ödeme, DHL/UPS ihracat kargo bağlantısı, ürün kataloğu, MOQ tabloları, FOB/CIF fiyat gösterimi, Helal + BRC sertifika vitrini, Antep mutfağı içerikli blog ve Arapça RTL düzeni.",
+      "Şahinbey'de baklava, Antep fıstığı ve katmer ihraç eden orta ölçekli bir üretici düşünün. Yalnızca Türkçe bir sitesi var, yurt dışı satış WhatsApp ve pazaryeri üzerinden yürüyor; Suudi Arabistan veya Almanya'dan gelen alıcı USD/EUR fiyat göremiyor ve siteden sipariş veremiyor.",
+      "Bu kurulumda Next.js 15 ile çok dilli bir site kurulur (TR + EN + AR; E-ticaret Kurumsal paketinde 2 dil dahil, üçüncü dil ayrıca tekliflendirilir): Stripe ödeme, DHL/UPS ihracat kargo bağlantısı, ürün kataloğu, MOQ tabloları, FOB/CIF fiyat gösterimi, Helal + BRC sertifika vitrini, Antep mutfağı içerikli blog ve Arapça RTL düzeni.",
       "Yayından sonra iş akışı şöyle değişir: Yurt dışı alıcı ürünleri kendi dilinde ve para biriminde görür, kartla öder ya da B2B teklif talebini formdan iletir; teklif PDF'i satış ekibine ve alıcıya e-postayla gider. İhracat satışı ve distribütör anlaşmaları ürüne, fiyata ve pazarlama çalışmasına bağlı olduğundan sonuç rakamı vaat etmiyoruz."
     ],
     "beforeAfter": [

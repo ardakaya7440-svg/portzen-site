@@ -481,7 +481,7 @@ export default function Page() {
         <div className="mx-auto max-w-container px-6">
           <Reveal>
             <div className="inline-block border-3 border-ink/15 bg-paper text-ink px-3 py-1 text-xs font-black tracking-wider mb-4 shadow-brutal-sm rounded-full">
-              Örnek senaryo: B2B yazılım firması
+              Uygulamada: B2B yazılım firması
             </div>
           </Reveal>
           <Reveal delay={100}>
@@ -494,7 +494,7 @@ export default function Page() {
             <Reveal delay={200}>
               <div className="space-y-5 text-body leading-relaxed opacity-95">
                 <p>
-                  Örnek senaryoda satış temsilcileri, müşteri yöneticileri ve satış müdürlerinden oluşan bir ekiple Salesforce Sales Cloud Enterprise kullanan bir B2B yazılım firması düşünelim. Kullanıcı başı lisans, Einstein AI ek lisansı ve implementasyon partneri danışmanlığı birlikte KOBİ ölçeğinde ciddi bir bütçe kalemi oluşturuyor.
+                  Satış temsilcileri, müşteri yöneticileri ve satış müdürlerinden oluşan bir ekiple Salesforce Sales Cloud Enterprise kullanan bir B2B yazılım firması düşünelim. Kullanıcı başı lisans, Einstein AI ek lisansı ve implementasyon partneri danışmanlığı birlikte KOBİ ölçeğinde ciddi bir bütçe kalemi oluşturuyor.
                 </p>
                 <p>
                   Bu tür kurulumlarda tipik 3 sıkıntı görülür: (1) Salesforce&apos;un kullanılan kısmı pipeline + deal + activity history + temel rapordan ibarettir, diğer modüller atıl kalır, (2) Logo Tiger entegrasyonu olmadığı için müşteri ve fatura verisi elle aktarılır, (3) Trendyol B2B / Hepsiburada Kurumsal mağazasından gelen lead&apos;ler Salesforce&apos;a manuel girilir, bir kısmı takipten düşer.
@@ -575,7 +575,7 @@ export default function Page() {
                 <Users className="h-6 w-6 text-ink mb-3" />
                 <h3 className="font-display text-base font-black mb-2">CRM otomasyonu detayı</h3>
                 <p className="text-sm opacity-85 mb-3">
-                  PORTZEN CRM otomasyonunun tam içeriği, modüller ve örnek senaryolar.
+                  PORTZEN CRM otomasyonunun tam içeriği, modüller ve kurulum adımları.
                 </p>
                 <Link href="/crm-otomasyonu" className="inline-flex items-center gap-1 text-xs font-bold uppercase text-ink hover:gap-2 transition-all">
                   CRM Otomasyonu <ArrowUpRight className="h-3.5 w-3.5" />

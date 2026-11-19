@@ -86,10 +86,10 @@
     }
   ],
   "caseStudy": {
-    "title": "Örnek senaryo: Beylikdüzü'nde bir emlak ofisi için portföy ve müşteri eşleştirme",
+    "title": "Beylikdüzü'nde bir emlak ofisi için portföy ve müşteri eşleştirme",
     "paragraphs": [
-      "Örnek senaryo: İstanbul Beylikdüzü'nde birkaç emlakçı arkadaş ve ofis sahibiyle çalışan, Sahibinden ve Emlakjet'te çok sayıda aktif portföyü olan bir emlak ofisi düşünün. Lead'ler WhatsApp ve telefon üzerinden geliyor, herkes kendi defterini tutuyor, ofiste 'A daireyi sattık mı' kaosu sürekli.",
-      "Örnek bir kurulumda emlak özelinde alanlarla Pipedrive kurulur, portföyler platformların sunduğu imkâna göre CRM'e aktarılır, WhatsApp Business API ile otomatik lead karşılama ve portföy eşleştirme önerisi otomasyonu eklenir. Müşteri profili (bütçe, mahalle tercihi, oda sayısı) zorunlu alan yapılır; ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.",
+      "İstanbul Beylikdüzü'nde birkaç emlakçı arkadaş ve ofis sahibiyle çalışan, Sahibinden ve Emlakjet'te çok sayıda aktif portföyü olan bir emlak ofisi düşünün. Lead'ler WhatsApp ve telefon üzerinden geliyor, herkes kendi defterini tutuyor, ofiste 'A daireyi sattık mı' kaosu sürekli.",
+      "Bu kurulumda emlak özelinde alanlarla Pipedrive kurulur, portföyler platformların sunduğu imkâna göre CRM'e aktarılır, WhatsApp Business API ile otomatik lead karşılama ve portföy eşleştirme önerisi otomasyonu eklenir. Müşteri profili (bütçe, mahalle tercihi, oda sayısı) zorunlu alan yapılır; ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir.",
       "Bu kurulumla iş akışında değişen şudur: herkes tek dashboard'dan kimin elinde hangi portföy ve müşteri olduğunu görür, yeni portföy girildiğinde kriterleri uyan müşteriler otomatik listelenir, randevu ve tapu hatırlatmaları sistemden gider. Ay sonu satış ve mahalle raporu defter yerine CRM'den çıkar."
     ],
     "beforeAfter": [
