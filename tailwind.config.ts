@@ -15,6 +15,27 @@ const config: Config = {
         light: "#F3F7F9",
         // Eski renkli blok paleti — yeni tasarımda kullanılmaz; kalan referanslar
         // ana sayfa paletine eşlenir (vurgu: lime, diğerleri açık nötr).
+        // Tarz demoları (src/components/ui/*) için shadcn uyumlu tokenlar.
+        // Değerler app/globals.css içindeki --sd-* değişkenlerinden gelir.
+        background: "rgb(var(--sd-background) / <alpha-value>)",
+        foreground: "rgb(var(--sd-foreground) / <alpha-value>)",
+        muted: {
+          DEFAULT: "rgb(var(--sd-muted) / <alpha-value>)",
+          foreground: "rgb(var(--sd-muted-foreground) / <alpha-value>)",
+        },
+        card: {
+          DEFAULT: "rgb(var(--sd-card) / <alpha-value>)",
+          foreground: "rgb(var(--sd-card-foreground) / <alpha-value>)",
+        },
+        border: "rgb(var(--sd-border) / <alpha-value>)",
+        ring: "rgb(var(--sd-ring) / <alpha-value>)",
+        chart: {
+          1: "rgb(var(--sd-chart-1) / <alpha-value>)",
+          2: "rgb(var(--sd-chart-2) / <alpha-value>)",
+          3: "rgb(var(--sd-chart-3) / <alpha-value>)",
+          4: "rgb(var(--sd-chart-4) / <alpha-value>)",
+          5: "rgb(var(--sd-chart-5) / <alpha-value>)",
+        },
         brand: {
           yellow: "#C1FF72",
           pink: "#F3F7F9",
