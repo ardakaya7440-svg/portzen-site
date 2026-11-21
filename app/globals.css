@@ -415,3 +415,12 @@
 .animate-in.fade-in { animation: sd-fade-in 0.3s ease both; }
 @keyframes sd-fade-in { from { opacity: 0; } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .animate-in.fade-in { animation: none; } }
+
+/* Navbar: "Tarzını Seç" butonunun akan renkli çerçevesi */
+.nav-style-btn {
+  background: linear-gradient(90deg, #c1ff72, #7fe8ff, #d9a8ff, #ffb38a, #c1ff72);
+  background-size: 300% 100%;
+  animation: nav-style-flow 6s linear infinite;
+}
+@keyframes nav-style-flow { to { background-position: 300% 0; } }
+@media (prefers-reduced-motion: reduce) { .nav-style-btn { animation: none; } }
