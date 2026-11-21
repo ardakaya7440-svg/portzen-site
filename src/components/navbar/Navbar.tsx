@@ -3,7 +3,7 @@
 import * as React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
+import { ArrowUpRight, ChevronDown, Menu, Sparkles, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { whatsappUrl } from "@/data/pricing";
 import { SERVICE_GROUPS } from "@/data/catalog";
@@ -26,6 +26,9 @@ const MAIN_LINKS: NavLink[] = [
   { label: "Blog", href: "/blog" },
   { label: "İletişim", href: "/iletisim" }
 ];
+
+/** "Tarzını seç" sayfası: navbarda öne çıkan buton */
+const STYLE_HREF = "/web-sitesi-tarzlari";
 
 export const WHATSAPP_URL = whatsappUrl("Merhaba, PORTZEN ile çalışmak istiyorum.");
 
@@ -224,6 +227,17 @@ export function Navbar() {
 
           <div className="flex items-center gap-2">
             <Link
+              href={STYLE_HREF}
+              aria-label="Web sitenizin tarzını seçin"
+              aria-current={isActive(pathname, STYLE_HREF) ? "page" : undefined}
+              className="nav-style-btn group relative inline-flex shrink-0 rounded-full p-[2px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate focus-visible:ring-offset-2"
+            >
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-2 text-[13px] font-bold text-slate transition-colors group-hover:bg-light sm:px-4 sm:text-sm lg:py-2">
+                <Sparkles className="h-4 w-4" aria-hidden />
+                <span className="whitespace-nowrap">Tarzını Seç</span>
+              </span>
+            </Link>
+            <Link
               href="/iletisim"
               className="hidden items-center gap-2 rounded-full bg-lime px-5 py-2.5 text-sm font-bold text-slate transition-colors hover:bg-[#b2f55d] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate focus-visible:ring-offset-2 sm:inline-flex"
             >
@@ -252,6 +266,21 @@ export function Navbar() {
           className="max-h-[calc(100dvh-68px)] overflow-y-auto border-t border-slate/10 bg-white lg:hidden"
         >
           <div className="mx-auto max-w-container px-4 pb-6 pt-2 sm:px-6">
+            <Link
+              href={STYLE_HREF}
+              onClick={() => setMenuOpen(false)}
+              className="nav-style-btn mt-3 block rounded-2xl p-[2px]"
+            >
+              <span className="flex items-center justify-between rounded-[14px] bg-white px-4 py-3.5">
+                <span>
+                  <span className="flex items-center gap-2 text-base font-bold text-slate">
+                    <Sparkles className="h-4 w-4" aria-hidden /> Web sitenizin tarzını seçin
+                  </span>
+                  <span className="mt-0.5 block text-sm text-slate/60">7 canlı tasarım · deneyin, beğenin</span>
+                </span>
+                <ArrowUpRight className="h-5 w-5 text-slate" aria-hidden />
+              </span>
+            </Link>
             <ul className="divide-y divide-slate/10">
               <li>
                 <button
