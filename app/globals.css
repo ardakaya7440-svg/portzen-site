@@ -374,3 +374,44 @@
 @media (prefers-reduced-motion: reduce) {
   .pz-cat-leg--a, .pz-cat-leg--b, .pz-cat-head, .pz-cat-tail--on, .pz-flag, .pz-flag-wave { animation: none; }
 }
+
+/* ---- Tarz demoları: shadcn uyumlu tema değişkenleri ---- */
+:root {
+  --sd-background: 255 255 255;
+  --sd-foreground: 31 42 46;
+  --sd-muted: 243 247 249;
+  --sd-muted-foreground: 98 112 117;
+  --sd-card: 255 255 255;
+  --sd-card-foreground: 31 42 46;
+  --sd-border: 222 228 231;
+  --sd-ring: 31 42 46;
+  --sd-chart-1: 76 160 120;
+  --sd-chart-2: 70 126 206;
+  --sd-chart-3: 226 178 60;
+  --sd-chart-4: 210 82 68;
+  --sd-chart-5: 128 84 180;
+  --color-primary: rgb(var(--sd-foreground));
+  --color-background: rgb(var(--sd-background));
+  --color-foreground: rgb(var(--sd-foreground));
+  --color-muted-foreground: rgb(var(--sd-muted-foreground));
+  --color-card: rgb(var(--sd-card));
+  --color-border: rgb(var(--sd-border));
+}
+.sd-dark {
+  --sd-background: 14 18 20;
+  --sd-foreground: 241 245 246;
+  --sd-muted: 32 38 41;
+  --sd-muted-foreground: 160 172 176;
+  --sd-card: 26 31 34;
+  --sd-card-foreground: 241 245 246;
+  --sd-border: 52 60 64;
+  --sd-ring: 193 255 114;
+  --color-background: rgb(var(--sd-background));
+  --color-foreground: rgb(var(--sd-foreground));
+  --color-muted-foreground: rgb(var(--sd-muted-foreground));
+  --color-card: rgb(var(--sd-card));
+  --color-border: rgb(var(--sd-border));
+}
+.animate-in.fade-in { animation: sd-fade-in 0.3s ease both; }
+@keyframes sd-fade-in { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .animate-in.fade-in { animation: none; } }

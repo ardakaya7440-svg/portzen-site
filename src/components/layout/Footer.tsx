@@ -19,6 +19,7 @@ const HIZMETLER = [
   { label: "Mobil Oyun", href: "/hizmetler/mobil-oyun" },
   { label: "Web Tasarım", href: "/web-tasarim" },
   { label: "Web Sitesi Tasarımı", href: "/web-sitesi-tasarimi" },
+  { label: "Web Sitesi Tarzları", href: "/web-sitesi-tarzlari" },
   { label: "CRM Otomasyonu", href: "/crm-otomasyonu" },
   { label: "WhatsApp Asistanı", href: "/whatsapp-ai-asistani" },
   { label: "Instagram DM Otomasyonu", href: "/instagram-dm-otomasyonu" },
