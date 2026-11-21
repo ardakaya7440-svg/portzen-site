@@ -1,5 +1,5 @@
 import "server-only";
-import { type PriceData, validatePriceData } from "@/data/pricing";
+import { type PriceData, completePriceData, validatePriceData } from "@/data/pricing";
 import { getDb } from "./db";
 
 export interface PriceVersion {
@@ -25,7 +25,8 @@ const map = (r: R): PriceVersion => ({
   createdAt: iso(r.created_at)!,
   updatedAt: iso(r.updated_at)!,
   publishedAt: iso(r.published_at),
-  data: (typeof r.data === "string" ? JSON.parse(r.data) : r.data) as PriceData
+  // Sonradan eklenen paketler eski sürümlerde yoksa koddaki başlangıç değerleriyle tamamlanır
+  data: completePriceData((typeof r.data === "string" ? JSON.parse(r.data) : r.data) as PriceData)
 });
 
 export async function listVersions(): Promise<PriceVersion[]> {

@@ -28,6 +28,7 @@ export const metadata: Metadata = {
 };
 
 const FAMILIES: { id: FamilyId; anchor: string }[] = [
+  { id: "online-is-paketi", anchor: "online-is-kurma-paketi" },
   { id: "sosyal-medya", anchor: "sosyal-medya" },
   { id: "kisa-video", anchor: "kisa-video" },
   { id: "ai-reklam-filmi", anchor: "ai-reklam-filmi" },

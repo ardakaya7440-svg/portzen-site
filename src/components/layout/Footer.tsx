@@ -9,6 +9,7 @@ import { GOOGLE_PROFILE, SOCIAL } from "@/data/social";
  */
 
 const HIZMETLER = [
+  { label: "Online İş Kurma Paketi", href: "/online-is-kurma-paketi" },
   { label: "Sosyal Medya Yönetimi", href: "/sosyal-medya-yonetimi" },
   { label: "Sosyal Medya Ajansı", href: "/sosyal-medya-ajansi" },
   { label: "Viral Video Üretimi", href: "/sosyal-medya-viral-video" },

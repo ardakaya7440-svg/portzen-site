@@ -108,6 +108,13 @@ export const SERVICE_GROUPS: ServiceGroup[] = [
     intro: "Kurumsal site, e-ticaret, özel web uygulaması ve mobil uygulama.",
     links: [
       {
+        label: "Online İş Kurma Paketi",
+        href: "/online-is-kurma-paketi",
+        short: "E-ticaret sitesi, sosyal medya ve reklam yönetimi tek pakette; 2 AI reklam filmi hediye.",
+        price: { family: "online-is-paketi" },
+        visual: "web"
+      },
+      {
         label: "Web tasarım ve e-ticaret",
         href: "/web-tasarim",
         short: "Kurumsal site ve e-ticaret; mobil uyumlu, hızlı, yönetilebilir.",

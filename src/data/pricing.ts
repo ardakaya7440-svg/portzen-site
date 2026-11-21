@@ -77,7 +77,8 @@ export type FamilyId =
   | "is-otomasyonu"
   | "kurumsal-web-sitesi"
   | "e-ticaret"
-  | "web-bakim";
+  | "web-bakim"
+  | "online-is-paketi";
 
 /** Reklam yönetiminde paket başına yönetilen azami aylık harcama (TL) */
 export const AD_SPEND_CAP: Record<TierId, number> = { baslangic: 30000, buyume: 100000, kurumsal: 250000 };
@@ -575,6 +576,77 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       "Yeni modül ve kapsamlı tasarım çalışmaları bakıma dahil değildir, ayrıca tekliflendirilir.",
       "Hosting, alan adı ve harici lisanslar hariçtir."
     ]
+  },
+
+  /**
+   * Online İş Kurma Paketi — e-ticaret sitesi (kurulum) + sosyal medya ve reklam yönetimi (aylık)
+   * + 2 hediye AI reklam filmi. Fiyat, bileşenleri ayrı almaya göre yaklaşık %30 düşüktür
+   * (karşılaştırma /online-is-kurma-paketi sayfasında bileşen fiyatlarından otomatik hesaplanır).
+   */
+  "online-is-paketi": {
+    id: "online-is-paketi",
+    title: "Online İş Kurma Paketi",
+    formLabel: "Online İş Kurma Paketi",
+    billing: "monthly",
+    href: "/online-is-kurma-paketi",
+    tiers: {
+      baslangic: {
+        id: "baslangic",
+        price: 10400,
+        setupFee: 17400,
+        audience: "Dropshipping'e veya ilk online mağazasına başlayan girişimciler",
+        highlights: [
+          "E-ticaret sitesi: hazır tema, 50 ürün, ödeme + kargo",
+          "Sosyal medya yönetimi: 1 kanal, ayda 10 içerik",
+          "Reklam yönetimi: Meta veya Google, 2 kampanya",
+          "Hediye: 2 AI reklam filmi (10–15 sn)"
+        ]
+      },
+      buyume: {
+        id: "buyume",
+        price: 17400,
+        setupFee: 38400,
+        audience: "Fiziksel mağazasını online satışa taşıyan işletmeler",
+        highlights: [
+          "E-ticaret sitesi: özel arayüz, 250 ürün, 1 pazaryeri, kupon",
+          "Sosyal medya yönetimi: 3 kanal, ayda 20 içerik (8 video)",
+          "Meta reklam yönetimi dahil",
+          "Hediye: 2 AI reklam filmi (30 sn, 2 format)"
+        ]
+      },
+      kurumsal: {
+        id: "kurumsal",
+        price: 55900,
+        setupFee: 90900,
+        audience: "Geniş katalogla, birden fazla şube veya pazaryerinde satış yapan markalar",
+        highlights: [
+          "E-ticaret sitesi: 1.000 ürün, 2 dil, 2 pazaryeri, ERP bağlayıcısı",
+          "Sosyal medya yönetimi: 5 kanal, ayda 30 içerik, aylık çekim",
+          "Meta + Google reklam yönetimi dahil",
+          "Hediye: 2 AI reklam filmi (60 sn, özel konsept)"
+        ]
+      }
+    },
+    details: [
+      row("E-ticaret sitesi (kurulum)", "E-ticaret Başlangıç kapsamı", "E-ticaret Büyüme kapsamı", "E-ticaret Kurumsal kapsamı"),
+      row("Ürün aktarımı (dosyadan)", "50", "250", "1.000"),
+      row("Pazaryeri bağlayıcısı", "—", "1", "2"),
+      row("Sosyal medya yönetimi (aylık)", "Başlangıç: 1 kanal, 10 içerik", "Büyüme: 3 kanal, 20 içerik", "Kurumsal: 5 kanal, 30 içerik"),
+      row(
+        "Reklam yönetimi (aylık)",
+        `Meta veya Google; 2 kampanya, aylık ${n(AD_SPEND_CAP.baslangic)} TL'ye kadar harcama`,
+        `Meta; 2 kampanya, aylık ${n(AD_SPEND_CAP.baslangic)} TL'ye kadar harcama`,
+        `Meta + Google; 4 kampanya, aylık ${n(AD_SPEND_CAP.buyume)} TL'ye kadar harcama`
+      ),
+      row("Hediye AI reklam filmi", "2 × 10–15 sn", "2 × 30 sn, 2 format", "2 × 60 sn, özel konsept"),
+      row("Taahhüt", "Yok", "Yok", "Yok")
+    ],
+    notes: [
+      "Kurulum bedeli e-ticaret sitesini kapsar ve bir kez ödenir; aylık ücret sosyal medya ve reklam yönetimini kapsar.",
+      "Taahhüt yoktur; aylık hizmeti istediğiniz ayın sonunda bırakabilirsiniz. Site sizde kalır.",
+      "Hediye 2 AI reklam filmi site yayına alınırken teslim edilir.",
+      "Reklam harcaması, e-ticaret altyapı/lisans abonelikleri, ödeme komisyonları ve kargo ücretleri dahil değildir."
+    ]
   }
 };
 
@@ -807,12 +879,31 @@ export function withPriceData(data: PriceData): PriceSource {
 /** Koddaki başlangıç değerleri (yayımlanmış sürüm uygulanmadan önce) — ilk kurulum tohumu */
 export const CODE_DEFAULT_PRICES: PriceData = extractPriceData();
 
+/**
+ * Yayımlanmış/taslak bir sürümde henüz bulunmayan (sonradan eklenmiş) paket ve hizmetleri
+ * koddaki başlangıç değerleriyle tamamlar. Var olan değerlere dokunmaz.
+ */
+export function completePriceData(data: PriceData): PriceData {
+  const out = JSON.parse(JSON.stringify(data ?? {})) as PriceData;
+  out.families = out.families ?? ({} as PriceData["families"]);
+  out.singles = out.singles ?? ({} as PriceData["singles"]);
+  for (const [fid, tiers] of Object.entries(CODE_DEFAULT_PRICES.families) as [FamilyId, Record<TierId, TierPrice>][]) {
+    if (!out.families[fid]) out.families[fid] = JSON.parse(JSON.stringify(tiers));
+    else for (const id of TIER_IDS) if (!out.families[fid][id]) out.families[fid][id] = { ...tiers[id] };
+  }
+  for (const [sid, v] of Object.entries(CODE_DEFAULT_PRICES.singles) as [SingleId, SinglePrice][]) {
+    if (!out.singles[sid]) out.singles[sid] = { ...v };
+  }
+  return out;
+}
+
 const PUBLISHED = publishedPrices as unknown as PublishedPrices;
 if (PUBLISHED.version > 0) {
-  const errs = validatePriceData(PUBLISHED.data);
+  const pubData = completePriceData(PUBLISHED.data);
+  const errs = validatePriceData(pubData);
   // Geçersiz yayımlanmış veri sessizce yok sayılmaz: yanlış fiyatla yayına çıkmamak için build durur.
   if (errs.length) throw new Error(`pricing.published.json geçersiz: ${errs.join(" ")}`);
-  overlay(PRICING, SINGLE, PUBLISHED.data);
+  overlay(PRICING, SINGLE, pubData);
 }
 /** Sitede şu an uygulanan fiyat sürümü */
 export const PRICE_VERSION = { version: PUBLISHED.version, publishedAt: PUBLISHED.publishedAt };
