@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // SEO landing pages (money pages — yüksek priority)
   const landingPages: MetadataRoute.Sitemap = [
+    { url: `${BASE}/online-is-kurma-paketi`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
     { url: `${BASE}/whatsapp-ai-asistani`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
     { url: `${BASE}/instagram-dm-otomasyonu`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
     { url: `${BASE}/ai-reklam-videosu`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
