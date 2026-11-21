@@ -18,7 +18,7 @@ import { DISPLAY_ORDER, PRICING, TIER_NAMES, type TierId, familyOffersSchema, fo
 const URL = "https://portzenai.com/online-is-kurma-paketi";
 const TITLE = "Online İş Kurma Paketi | E-ticaret Sitesi + Sosyal Medya + Reklam — PORTZEN";
 const DESCRIPTION =
-  "Dropshipping'e başlayanlar ve mağazasını online'a taşımak isteyenler için tek paket: e-ticaret sitesi, sosyal medya yönetimi, reklam yönetimi ve hediye 2 AI reklam filmi. Ayrı almaya göre %30 daha uygun, taahhüt yok.";
+  "Dropshipping'e başlayanlar ve mağazasını online'a taşımak isteyenler için tek paket: e-ticaret sitesi, sosyal medya yönetimi, reklam yönetimi ve hediye 2 AI reklam filmi. Ayrı almaya göre en az %30 daha uygun, taahhüt yok.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -141,7 +141,7 @@ const faqs = [
   },
   {
     q: "Ayrı ayrı almaktan ne kadar ucuz?",
-    a: "Paket fiyatı, aynı hizmetleri ayrı ayrı almaya göre yaklaşık %30 daha düşüktür; 2 AI reklam filmi de üstüne hediyedir. Seviyelere göre karşılaştırma bu sayfadaki tabloda yazılıdır."
+    a: "Paket fiyatı, aynı hizmetleri ayrı ayrı almaya göre en az %30 daha düşüktür; 2 AI reklam filmi de üstüne hediyedir. Seviyelere göre karşılaştırma bu sayfadaki tabloda yazılıdır."
   },
   {
     q: "Taahhüt var mı?",
@@ -219,7 +219,7 @@ export default function Page() {
                 </h1>
                 <p className="mt-5 text-lg text-ink/75 leading-relaxed max-w-2xl">
                   Dropshipping&apos;e başlıyor ya da mağazanızı internete taşıyorsanız: e-ticaret siteniz, sosyal
-                  medyanız ve reklamlarınız tek ekipten. Ayrı ayrı almaya göre yaklaşık <strong>%30 daha uygun</strong>,
+                  medyanız ve reklamlarınız tek ekipten. Ayrı ayrı almaya göre <strong>en az %30 daha uygun</strong>,
                   üstelik açılış kampanyanız için <strong>2 AI reklam filmi hediye</strong>.
                 </p>
               </Reveal>

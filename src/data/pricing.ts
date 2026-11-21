@@ -580,7 +580,7 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
 
   /**
    * Online İş Kurma Paketi — e-ticaret sitesi (kurulum) + sosyal medya ve reklam yönetimi (aylık)
-   * + 2 hediye AI reklam filmi. Fiyat, bileşenleri ayrı almaya göre yaklaşık %30 düşüktür
+   * + 2 hediye AI reklam filmi. Fiyat, bileşenleri ayrı almaya göre en az %30 düşüktür
    * (karşılaştırma /online-is-kurma-paketi sayfasında bileşen fiyatlarından otomatik hesaplanır).
    */
   "online-is-paketi": {
@@ -593,7 +593,7 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       baslangic: {
         id: "baslangic",
         price: 10400,
-        setupFee: 17400,
+        setupFee: 9900,
         audience: "Dropshipping'e veya ilk online mağazasına başlayan girişimciler",
         highlights: [
           "E-ticaret sitesi: hazır tema, 50 ürün, ödeme + kargo",
