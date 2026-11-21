@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { ArrowLeft, ArrowUpRight, Calendar, ChevronRight, Clock, Tag, User } from "lucide-react";
-import { CATEGORY_META, getAllPostSlugs, getAllPostsMeta, getPostBySlug, getRelatedPosts } from "@/lib/blog";
+import { CATEGORY_META, extractFaq, getAllPostSlugs, getAllPostsMeta, getPostBySlug, getRelatedPosts } from "@/lib/blog";
 import { cn } from "@/lib/utils";
 import { Reveal } from "@/components/ui/reveal";
 
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return { title: "Yazı bulunamadı — PORTZEN Blog" };
 
   const url = `https://portzenai.com/blog/${post.slug}`;
-  const og = post.ogImage ? `https://portzenai.com${post.ogImage}` : "https://portzenai.com/og-default.png";
+  const og = post.ogImage ? `https://portzenai.com${post.ogImage}` : "https://portzenai.com/og-image.png";
 
   return {
     title: `${post.title} — PORTZEN Blog`,
@@ -70,11 +70,16 @@ export default async function BlogPostPage({ params }: Props) {
     image: post.ogImage ? `https://portzenai.com${post.ogImage}` : undefined,
     datePublished: post.publishedAt,
     dateModified: post.publishedAt,
-    author: {
-      "@type": "Person",
-      name: post.author,
-      url: "https://portzenai.com"
-    },
+    author:
+      post.author === "Arda Kaya"
+        ? {
+            "@type": "Person",
+            name: "Arda Kaya",
+            url: "https://ardakayaa.com",
+            jobTitle: "PORTZEN Kurucusu",
+            sameAs: ["https://www.instagram.com/ardakaya.ai/", "https://www.linkedin.com/in/arda-kaya-011861269/"]
+          }
+        : { "@type": "Person", name: post.author, url: "https://portzenai.com" },
     publisher: {
       "@type": "Organization",
       name: "PORTZEN",
@@ -102,9 +107,26 @@ export default async function BlogPostPage({ params }: Props) {
     ]
   };
 
+  const faq = extractFaq(post.contentMd);
+  const faqSchema =
+    faq.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faq.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: { "@type": "Answer", text: f.answer }
+          }))
+        }
+      : null;
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      {faqSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <article className="bg-paper">
