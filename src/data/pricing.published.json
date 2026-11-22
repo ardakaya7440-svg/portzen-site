@@ -1,7 +1,7 @@
 {
-  "version": 1,
-  "publishedAt": "2026-10-21T00:00:00.000Z",
-  "note": "V3 başlangıç fiyatları",
+  "version": 2,
+  "publishedAt": "2026-11-22T00:00:00.000Z",
+  "note": "Kasım 2026 piyasa uyumu: Sosyal medya Büyüme 19.900",
   "data": {
     "singles": {
       "mobil-oyun": {
@@ -63,7 +63,7 @@
       },
       "sosyal-medya": {
         "buyume": {
-          "price": 24900
+          "price": 19900
         },
         "kurumsal": {
           "price": 79900

@@ -121,7 +121,7 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       },
       buyume: {
         id: "buyume",
-        price: 24900,
+        price: 19900,
         audience: "2–3 kanalda büyümek ve reklama başlamak isteyen KOBİ'ler",
         highlights: [
           "3 kanal yönetimi",
@@ -604,8 +604,8 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       },
       buyume: {
         id: "buyume",
-        price: 17400,
-        setupFee: 38400,
+        price: 13900,
+        setupFee: 24900,
         audience: "Fiziksel mağazasını online satışa taşıyan işletmeler",
         highlights: [
           "E-ticaret sitesi: özel arayüz, 250 ürün, 1 pazaryeri, kupon",
