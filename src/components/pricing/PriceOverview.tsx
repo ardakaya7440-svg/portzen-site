@@ -3,6 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { type FamilyId, BILLING_LABEL, DISPLAY_ORDER, PRICING, RECOMMENDED_TIER, SINGLE, TIER_NAMES, firstMonthTotal, formatTL, singlePriceLabel, type PriceSource } from "@/data/pricing";
 
 const ROWS: FamilyId[] = [
+  "online-is-paketi",
   "sosyal-medya",
   "kisa-video",
   "ai-reklam-filmi",
@@ -12,6 +13,10 @@ const ROWS: FamilyId[] = [
   "kurumsal-web-sitesi",
   "e-ticaret"
 ];
+
+/** /fiyatlar sayfasındaki bölüm id'si aile id'sinden farklı olanlar */
+const ANCHOR: Partial<Record<FamilyId, string>> = { "online-is-paketi": "online-is-kurma-paketi" };
+const anchorOf = (fid: FamilyId) => ANCHOR[fid] ?? fid;
 
 /** Tüm hizmetlerin paket fiyatlarını tek tabloda özetler (ana sayfa). */
 export function PriceOverview({ src }: { src?: PriceSource } = {}) {
@@ -44,7 +49,7 @@ export function PriceOverview({ src }: { src?: PriceSource } = {}) {
               return (
                 <tr key={fid} className="border-t border-slate/10 align-top">
                   <th scope="row" className="px-6 py-4 font-semibold text-slate">
-                    <Link href={`/fiyatlar#${fid}`} className="hover:underline underline-offset-4">
+                    <Link href={`/fiyatlar#${anchorOf(fid)}`} className="hover:underline underline-offset-4">
                       {f.title.replace(/ \(.*\)$/, "")}
                     </Link>
                     <span className="block text-xs font-normal text-slate/60">{BILLING_LABEL[f.billing]}</span>
@@ -78,7 +83,7 @@ export function PriceOverview({ src }: { src?: PriceSource } = {}) {
         {ROWS.map((fid) => {
           const f = FAM[fid];
           return (
-            <Link key={fid} href={`/fiyatlar#${fid}`} className="rounded-2xl border border-slate/15 p-5">
+            <Link key={fid} href={`/fiyatlar#${anchorOf(fid)}`} className="rounded-2xl border border-slate/15 p-5">
               <div className="flex items-baseline justify-between gap-3">
                 <span className="font-bold text-slate">{f.title.replace(/ \(.*\)$/, "")}</span>
                 <span className="text-xs text-slate/60">{BILLING_LABEL[f.billing]}</span>
@@ -91,7 +96,7 @@ export function PriceOverview({ src }: { src?: PriceSource } = {}) {
                   </div>
                 ))}
               </dl>
-              {fid === "ai-musteri-asistani" && (
+              {f.tiers.baslangic.setupFee !== undefined && (
                 <p className="mt-2 text-xs text-slate/70">Aylık ücrete ek tek seferlik kurulum bedeli vardır.</p>
               )}
             </Link>
