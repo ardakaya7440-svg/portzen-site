@@ -2,8 +2,9 @@ import { getMedia } from "@/server/media";
 
 export const runtime = "nodejs";
 
-export async function GET(_req: Request, { params }: { params: { id: string } }) {
-  const m = await getMedia(params.id);
+export async function GET(_req: Request, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const m = await getMedia(id);
   if (!m) return new Response("Bulunamadı", { status: 404 });
   return new Response(Buffer.from(m.bytes), {
     headers: {

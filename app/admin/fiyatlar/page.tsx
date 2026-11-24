@@ -6,7 +6,8 @@ import { deletePriceDraftAction, newPriceDraftAction, rebuildAction, restorePric
 
 export const dynamic = "force-dynamic";
 
-export default async function PricesPage({ searchParams }: { searchParams: { ok?: string; err?: string } }) {
+export default async function PricesPage(props: { searchParams: Promise<{ ok?: string; err?: string }> }) {
+  const searchParams = await props.searchParams;
   const versions = await listVersions();
   const pub = versions.find((v) => v.status === "published");
   const drafts = versions.filter((v) => v.status === "draft");

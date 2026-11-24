@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 };
 export const dynamic = "force-dynamic";
 
-export default function AdminLayout({ children }: { children: React.ReactNode }) {
-  const session = getSession();
+export default async function AdminLayout({ children }: { children: React.ReactNode }) {
+  const session = await getSession();
   if (!session) return <div className="min-h-screen bg-light">{children}</div>;
   return (
     <div className="min-h-screen bg-light lg:grid lg:grid-cols-[240px_1fr]">

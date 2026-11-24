@@ -14,14 +14,15 @@ import { Reveal } from "@/components/ui/reveal";
 import { Pagination } from "@/components/blog/Pagination";
 
 interface Props {
-  params: { number: string };
+  params: Promise<{ number: string }>;
 }
 
 export async function generateStaticParams() {
   return getExtraPageNumbers().map((n) => ({ number: String(n) }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const page = parseInt(params.number, 10);
   if (isNaN(page) || page < 2) return { title: "Sayfa bulunamadı — PORTZEN Blog" };
   const { totalPages } = getPaginatedPosts(page);
@@ -48,7 +49,8 @@ function formatDate(iso: string) {
   }
 }
 
-export default function BlogPaginatedPage({ params }: Props) {
+export default async function BlogPaginatedPage(props: Props) {
+  const params = await props.params;
   const page = parseInt(params.number, 10);
   if (isNaN(page) || page < 2) notFound();
 

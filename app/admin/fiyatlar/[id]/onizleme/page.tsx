@@ -11,7 +11,9 @@ export const dynamic = "force-dynamic";
 type Row = { what: string; field: string; before: number | undefined; after: number | undefined };
 const FIELD: Record<string, string> = { price: "Bedel", setupFee: "Kurulum", maintenance: "Bakım", monthly: "Aylık" };
 
-export default async function PricePreviewPage({ params, searchParams }: { params: { id: string }; searchParams: { ok?: string; err?: string } }) {
+export default async function PricePreviewPage(props: { params: Promise<{ id: string }>; searchParams: Promise<{ ok?: string; err?: string }> }) {
+  const params = await props.params;
+  const searchParams = await props.searchParams;
   const id = Number(params.id);
   const [v, pub] = await Promise.all([Number.isInteger(id) ? getVersion(id) : null, getPublished()]);
   if (!v) notFound();

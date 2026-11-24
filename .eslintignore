@@ -1,0 +1,6 @@
+.next/
+node_modules/
+out/
+build/
+.data/
+next-env.d.ts

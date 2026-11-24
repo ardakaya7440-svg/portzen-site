@@ -8,13 +8,23 @@ const nextConfig = {
   reactStrictMode: true,
   // Yerel geliştirmede ayrı derleme klasörü kullanılabilsin (önizleme sunucusuyla çakışmasın)
   distDir: process.env.NEXT_DIST_DIR || '.next',
+  // Sunucu tarafı veritabanı/görsel paketleri paketlenmeden Node'da çalışsın
+  serverExternalPackages: ['@electric-sql/pglite', 'pg', 'sharp'],
   experimental: {
-    // Sunucu tarafı veritabanı/görsel paketleri paketlenmeden Node'da çalışsın
-    serverComponentsExternalPackages: ['@electric-sql/pglite', 'pg', 'sharp'],
     // Admin yüklemeleri: dosya sınırı 4 MB (Vercel istek sınırı ~4,5 MB)
     serverActions: { bodySizeLimit: '5mb' }
   },
-  images: { remotePatterns: [{ protocol: 'https', hostname: '**' }] },
+  // Güvenlik: next/image yalnızca yerel (public/) görselleri kullanıyor; uzak host izni YOK.
+  // (Eski '**' joker izni Image Optimizer'ı SSRF/RCE saldırılarına açıyordu: GHSA-2xp9-vwfh-vxw4, GHSA-2464-fhr4-w9xw, GHSA-cjq9-62q9-8jv4.)
+  // Uzak görsel gerekirse yalnızca ilgili https hostunu tam adıyla ekleyin.
+  images: {
+    remotePatterns: [],
+    localPatterns: [{ pathname: '/**', search: '' }],
+    formats: ['image/webp'],
+    qualities: [75],
+    minimumCacheTTL: 14400,
+    dangerouslyAllowSVG: false
+  },
   webpack(config, { webpack }) {
     if (previewDataDir) {
       config.plugins.push(

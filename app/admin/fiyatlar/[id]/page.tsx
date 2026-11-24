@@ -7,7 +7,9 @@ import { newPriceDraftAction } from "../../actions";
 
 export const dynamic = "force-dynamic";
 
-export default async function PriceVersionPage({ params, searchParams }: { params: { id: string }; searchParams: { ok?: string; err?: string } }) {
+export default async function PriceVersionPage(props: { params: Promise<{ id: string }>; searchParams: Promise<{ ok?: string; err?: string }> }) {
+  const params = await props.params;
+  const searchParams = await props.searchParams;
   const id = Number(params.id);
   const [v, pub] = await Promise.all([Number.isInteger(id) ? getVersion(id) : null, getPublished()]);
   if (!v) notFound();

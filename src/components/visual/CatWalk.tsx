@@ -110,7 +110,7 @@ function StandingCat({ phase }: { phase: Phase }) {
   );
 }
 
-export function CatWalk({ containerRef }: { containerRef: React.RefObject<HTMLElement> }) {
+export function CatWalk({ containerRef }: { containerRef: React.RefObject<HTMLElement | null> }) {
   const [phase, setPhase] = React.useState<Phase>("idle");
   const [p, setP] = React.useState(0); // yürüyüş ilerlemesi 0..1
   const [geo, setGeo] = React.useState<{ start: number; end: number; y: number; dots: number[]; vertical: boolean } | null>(null);

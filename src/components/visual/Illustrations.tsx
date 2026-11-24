@@ -1,3 +1,4 @@
+import type React from "react";
 import type { VisualKind } from "@/data/catalog";
 import { cn } from "@/lib/utils";
 
@@ -356,7 +357,7 @@ function Dashboard() {
   );
 }
 
-const MAP: Record<VisualKind, () => JSX.Element> = { social: Social, video: Video, film: Film, ads: Ads, chat: Chat, webchat: WebChat, dm: Dm, flow: Flow, phone: Phone, web: Web, dashboard: Dashboard, app: App, game: Game };
+const MAP: Record<VisualKind, () => React.JSX.Element> = { social: Social, video: Video, film: Film, ads: Ads, chat: Chat, webchat: WebChat, dm: Dm, flow: Flow, phone: Phone, web: Web, dashboard: Dashboard, app: App, game: Game };
 
 export function Illustration({ kind, className }: { kind: VisualKind; className?: string }) {
   const C = MAP[kind];

@@ -63,7 +63,8 @@ function List({ rows, empty }: { rows: Row[]; empty: string }) {
   );
 }
 
-export default async function WorksPage({ searchParams }: { searchParams: { ok?: string; err?: string } }) {
+export default async function WorksPage(props: { searchParams: Promise<{ ok?: string; err?: string }> }) {
+  const searchParams = await props.searchParams;
   const db = await getDb();
   const rows = (
     await db.query<Row>(

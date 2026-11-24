@@ -8,7 +8,8 @@ export const dynamic = "force-dynamic";
 
 type Row = { id: number; body: string; display_name: string; company: string | null; rating: number | null; source: string; status: string; review_date: string | Date | null; updated_at: string | Date };
 
-export default async function ReviewsPage({ searchParams }: { searchParams: { ok?: string; err?: string } }) {
+export default async function ReviewsPage(props: { searchParams: Promise<{ ok?: string; err?: string }> }) {
+  const searchParams = await props.searchParams;
   const db = await getDb();
   const rows = (await db.query<Row>(`select id, body, display_name, company, rating, source, status, review_date, updated_at from testimonials order by sort, id`)).rows;
   const published = rows.filter((r) => r.status === "published").length;

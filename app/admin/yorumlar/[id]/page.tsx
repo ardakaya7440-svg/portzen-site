@@ -8,7 +8,9 @@ export const dynamic = "force-dynamic";
 
 type Row = Record<string, unknown>;
 
-export default async function ReviewEditPage({ params, searchParams }: { params: { id: string }; searchParams: { ok?: string; err?: string } }) {
+export default async function ReviewEditPage(props: { params: Promise<{ id: string }>; searchParams: Promise<{ ok?: string; err?: string }> }) {
+  const params = await props.params;
+  const searchParams = await props.searchParams;
   const isNew = params.id === "yeni";
   let row: Row | null = null;
   if (!isNew) {

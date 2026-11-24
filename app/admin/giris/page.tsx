@@ -4,8 +4,8 @@ import { LoginForm } from "./LoginForm";
 
 export const dynamic = "force-dynamic";
 
-export default function LoginPage() {
-  if (getSession()) redirect("/admin");
+export default async function LoginPage() {
+  if (await getSession()) redirect("/admin");
   const cfg = authConfigError();
   return (
     <div className="flex min-h-screen items-center justify-center px-4 py-12">
