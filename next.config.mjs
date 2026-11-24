@@ -6,11 +6,13 @@ const previewDataDir = process.env.PZ_PREVIEW_DATA_DIR ? path.resolve(process.en
 // Önizleme veri dosyalarının yerine geçecek yollar (yalnızca PZ_PREVIEW_DATA_DIR tanımlıyken).
 // Next 16 varsayılan derleyicisi Turbopack: modül değişimi turbopack.resolveAlias ile yapılır;
 // `next build --webpack` ile derlenirse aynı değişim webpack eklentisiyle uygulanır.
+// Turbopack resolveAlias proje köküne göreli yol ister (mutlak yol "server relative" sayılır).
+const rel = (f) => './' + path.relative(process.cwd(), path.join(previewDataDir, f)).split(path.sep).join('/');
 const previewAliases = previewDataDir
   ? {
-      '@/data/pricing.published.json': path.join(previewDataDir, 'pricing.published.json'),
-      './pricing.published.json': path.join(previewDataDir, 'pricing.published.json'),
-      '@/data/cms.snapshot.json': path.join(previewDataDir, 'cms.snapshot.json')
+      '@/data/pricing.published.json': rel('pricing.published.json'),
+      './pricing.published.json': rel('pricing.published.json'),
+      '@/data/cms.snapshot.json': rel('cms.snapshot.json')
     }
   : null;
 
