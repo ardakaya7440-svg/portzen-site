@@ -6,6 +6,7 @@ import { Footer } from "@/components/layout/Footer";
 import { WhatsAppAttribution } from "@/components/analytics/WhatsAppAttribution";
 import { MetaPixel } from "@/components/analytics/MetaPixel";
 import { SiteChrome } from "@/components/layout/SiteChrome";
+import { IS_PRODUCTION_SITE } from "@/lib/site-env";
 import "./globals.css";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-ZKZGB9GPB2";
@@ -58,7 +59,7 @@ export const metadata: Metadata = {
     images: ["https://portzenai.com/og-image.png"]
   },
   alternates: { canonical: "https://portzenai.com" },
-  robots: { index: true, follow: true }
+  robots: IS_PRODUCTION_SITE ? { index: true, follow: true } : { index: false, follow: false }
 };
 
 /* ============================================================
@@ -176,8 +177,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main" tabIndex={-1} className="outline-none">{children}</main>
         <SiteChrome>
           <WhatsAppAttribution />
-          {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
-          <MetaPixel />
+          {/* İzleme yalnızca production sitede (NEXT_PUBLIC_SITE_ENV tanımsız = production) */}
+          {IS_PRODUCTION_SITE && GA_ID && <GoogleAnalytics gaId={GA_ID} />}
+          {IS_PRODUCTION_SITE && <MetaPixel />}
         </SiteChrome>
         {/* Schema.org JSON-LD — Organization + WebSite */}
         <script

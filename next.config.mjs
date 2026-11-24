@@ -25,7 +25,13 @@ const nextConfig = {
     return config;
   },
   async headers() {
-    return [{ source: '/admin/:path*', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] }];
+    const rules = [{ source: '/admin/:path*', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] }];
+    // Staging/önizleme (NEXT_PUBLIC_SITE_ENV tanımlı ve "production" değil): sayfa bazlı robots metadata'sı
+    // index:true dese bile tüm site noindex. Tanımsızsa production sayılır → bu kural eklenmez.
+    if ((process.env.NEXT_PUBLIC_SITE_ENV || 'production') !== 'production') {
+      rules.push({ source: '/:path*', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] });
+    }
+    return rules;
   },
   async redirects() {
     return [
