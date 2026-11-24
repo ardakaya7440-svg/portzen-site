@@ -4,9 +4,9 @@
 #
 # Build-time:
 #   ARG  NEXT_PUBLIC_SITE_ENV / NEXT_PUBLIC_GA_ID / NEXT_PUBLIC_META_PIXEL_ID  (istemci paketine gömülür)
-#   SECRET PORTZEN_DATABASE_URL  (prebuild sync-content için; imaj katmanlarına/geçmişine YAZILMAZ)
-#     docker build --secret id=PORTZEN_DATABASE_URL,env=PORTZEN_DATABASE_URL --build-arg NEXT_PUBLIC_SITE_ENV=staging .
-#   Veritabanı yoksa build bilerek BAŞARISIZ olur (bkz. scripts/sync-content.mjs).
+#   Build veritabanı GEREKTİRMEZ (aşağıya bakın). Gizli değerler yalnızca runtime env olarak verilir:
+#     PORTZEN_DATABASE_URL, SESSION_SECRET, ADMIN_EMAIL, ADMIN_PASSWORD_HASH, CRON_SECRET
+#     docker build --build-arg NEXT_PUBLIC_SITE_ENV=staging .
 
 FROM node:22-bookworm-slim AS deps
 WORKDIR /app
@@ -24,9 +24,11 @@ ENV NEXT_PUBLIC_SITE_ENV=${NEXT_PUBLIC_SITE_ENV} \
     NEXT_PUBLIC_META_PIXEL_ID=${NEXT_PUBLIC_META_PIXEL_ID}
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-RUN --mount=type=secret,id=PORTZEN_DATABASE_URL \
-    if [ -f /run/secrets/PORTZEN_DATABASE_URL ]; then export PORTZEN_DATABASE_URL="$(cat /run/secrets/PORTZEN_DATABASE_URL)"; fi; \
-    npm run build && npm prune --omit=dev
+# Build aşaması veritabanına BAĞLANMAZ: parola imaja, katman geçmişine veya build loguna girmez.
+# İçerik/fiyat repodaki src/data anlık görüntüsünden derlenir (PORTZEN_ALLOW_LOCAL_DB yalnızca bu RUN satırında,
+# runner aşamasına taşınmaz). Çalışma zamanında PORTZEN_DATABASE_URL (runtime-only env) ile gerçek Postgres kullanılır.
+RUN unset PORTZEN_DATABASE_URL; PORTZEN_ALLOW_LOCAL_DB=1 PGLITE_DIR=/tmp/pglite-build npm run build \
+    && rm -rf /tmp/pglite-build .data && npm prune --omit=dev
 
 FROM node:22-bookworm-slim AS runner
 WORKDIR /app
