@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.7
 # PORTZEN — Coolify (Docker) imajı. `next start` kullanılır (standalone bilerek kapalı:
-# pglite/pg/sharp serverComponentsExternalPackages ile izleme riskini almamak için).
+# pglite/pg/sharp serverExternalPackages ile izleme riskini almamak için).
 #
 # Build-time:
 #   ARG  NEXT_PUBLIC_SITE_ENV / NEXT_PUBLIC_GA_ID / NEXT_PUBLIC_META_PIXEL_ID  (istemci paketine gömülür)

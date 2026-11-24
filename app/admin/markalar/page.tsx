@@ -84,7 +84,8 @@ function BrandList({ title, rows }: { title: string; rows: BrandRow[] }) {
   );
 }
 
-export default async function BrandsPage({ searchParams }: { searchParams: { ok?: string; err?: string } }) {
+export default async function BrandsPage(props: { searchParams: Promise<{ ok?: string; err?: string }> }) {
+  const searchParams = await props.searchParams;
   const db = await getDb();
   const rows = (
     await db.query<BrandRow>(

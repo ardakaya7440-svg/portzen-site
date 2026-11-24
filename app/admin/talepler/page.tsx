@@ -34,7 +34,8 @@ type Lead = {
 const iso = (v: string | Date) => (v instanceof Date ? v.toISOString() : String(v));
 const digits = (p: string) => p.replace(/[^\d+]/g, "").replace(/^0/, "+90").replace(/^\+?(?!90)(\d{10})$/, "+90$1");
 
-export default async function LeadsPage({ searchParams }: { searchParams: { ok?: string; err?: string; durum?: string } }) {
+export default async function LeadsPage(props: { searchParams: Promise<{ ok?: string; err?: string; durum?: string }> }) {
+  const searchParams = await props.searchParams;
   const db = await getDb();
   const filter = searchParams.durum && STATUS[searchParams.durum] ? searchParams.durum : null;
   const rows = (

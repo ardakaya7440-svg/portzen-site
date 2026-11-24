@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+// Next 16: middleware.ts -> proxy.ts (Node.js runtime). Davranış değişmedi.
 
 /**
  * /admin sayfaları için ilk kapı: imzalı oturum çerezi yoksa giriş sayfasına yönlendirir.
@@ -30,7 +31,7 @@ async function valid(token: string | undefined): Promise<boolean> {
   }
 }
 
-export async function middleware(req: NextRequest) {
+export async function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
   const res = NextResponse.next();
   res.headers.set("X-Robots-Tag", "noindex, nofollow");

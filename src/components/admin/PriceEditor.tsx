@@ -1,7 +1,8 @@
 "use client";
 
 import * as React from "react";
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState } from "react";
+import { useFormStatus } from "react-dom";
 import type { PriceData, TierId } from "@/data/pricing";
 import { savePriceDraftAction } from "../../../app/admin/actions";
 import { btn, input } from "./ui";
@@ -116,7 +117,7 @@ export function PriceEditor({
 }) {
   const [data, setData] = React.useState<PriceData>(initial);
   const [saved, setSaved] = React.useState(JSON.stringify(initial));
-  const [state, action] = useFormState(savePriceDraftAction, undefined);
+  const [state, action] = useActionState(savePriceDraftAction, undefined);
   const dirty = JSON.stringify(data) !== saved;
 
   React.useEffect(() => {

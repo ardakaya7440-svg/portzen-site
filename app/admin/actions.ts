@@ -1,6 +1,6 @@
 "use server";
 
-import { revalidatePath, revalidateTag } from "next/cache";
+import { revalidatePath, updateTag } from "next/cache";
 import { redirect } from "next/navigation";
 import { type PriceData, validatePriceData } from "@/data/pricing";
 import { SERVICE_KEYS } from "@/data/catalog";
@@ -46,7 +46,8 @@ function files(fd: FormData, key: string): File[] {
   return fd.getAll(key).filter((f): f is File => f instanceof File && f.size > 0);
 }
 function contentChanged() {
-  revalidateTag("cms");
+  // Next 16: server action içinde anında geçersiz kılma (eski revalidateTag("cms") davranışı) updateTag ile yapılır.
+  updateTag("cms");
 }
 
 /* ───────── oturum ───────── */
@@ -60,14 +61,14 @@ export async function loginAction(_prev: { error?: string } | undefined, fd: For
 }
 
 export async function logoutAction() {
-  logout();
+  await logout();
   redirect("/admin/giris");
 }
 
 /* ───────── fiyatlar ───────── */
 
 export async function newPriceDraftAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const from = int(fd, "from");
   if (!from) back("/admin/fiyatlar", "err", "Kaynak sürüm seçilmedi.");
   const id = await prices.createDraft(from, s.sub);
@@ -79,7 +80,7 @@ export async function savePriceDraftAction(
   _prev: { errors?: string[]; saved?: string } | undefined,
   fd: FormData
 ): Promise<{ errors?: string[]; saved?: string }> {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   if (!id) return { errors: ["Sürüm bulunamadı."] };
   let data: PriceData;
@@ -97,7 +98,7 @@ export async function savePriceDraftAction(
 }
 
 export async function deletePriceDraftAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   if (id) {
     await prices.deleteDraft(id);
@@ -107,7 +108,7 @@ export async function deletePriceDraftAction(fd: FormData) {
 }
 
 export async function publishPriceAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   if (!id) back("/admin/fiyatlar", "err", "Sürüm bulunamadı.");
   const v = await prices.getVersion(id);
@@ -125,7 +126,7 @@ export async function publishPriceAction(fd: FormData) {
 }
 
 export async function restorePriceAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   if (!id) back("/admin/fiyatlar", "err", "Sürüm bulunamadı.");
   const newId = await prices.restoreVersion(id, s.sub);
@@ -135,7 +136,7 @@ export async function restorePriceAction(fd: FormData) {
 }
 
 export async function rebuildAction() {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const hook = await prices.triggerRebuild();
   await audit(s.sub, "site.rebuild", hook);
   back("/admin/fiyatlar", hook.triggered ? "ok" : "err", hook.message);
@@ -146,7 +147,7 @@ export async function rebuildAction() {
 const BRANDS = "/admin/markalar";
 
 export async function createBrandAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const name = text(fd, "name", 80);
   const kind = fd.get("kind") === "tool" ? "tool" : "client";
   const url = link(fd, "url");
@@ -172,7 +173,7 @@ export async function createBrandAction(fd: FormData) {
 }
 
 export async function updateBrandAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const name = text(fd, "name", 80);
   const kind = fd.get("kind") === "tool" ? "tool" : "client";
@@ -205,7 +206,7 @@ export async function updateBrandAction(fd: FormData) {
 }
 
 export async function toggleBrandAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const db = await getDb();
   await db.query(`update brands set visible = not visible, updated_at = now() where id = $1`, [id]);
@@ -233,7 +234,7 @@ async function swapSort(table: "brands" | "testimonials" | "works", id: number, 
 }
 
 export async function moveBrandAction(fd: FormData) {
-  requireAdmin();
+  await requireAdmin();
   const id = int(fd, "id");
   if (id) await swapSort("brands", id, fd.get("dir") === "up" ? "up" : "down", "kind");
   contentChanged();
@@ -241,7 +242,7 @@ export async function moveBrandAction(fd: FormData) {
 }
 
 export async function deleteBrandAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const db = await getDb();
   const r = (await db.query<{ logo_id: string | null; name: string }>(`delete from brands where id = $1 returning logo_id, name`, [id])).rows[0];
@@ -256,7 +257,7 @@ export async function deleteBrandAction(fd: FormData) {
 const REVIEWS = "/admin/yorumlar";
 
 export async function saveTestimonialAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const formPath = id ? `${REVIEWS}/${id}` : `${REVIEWS}/yeni`;
   const body = text(fd, "body", 2000);
@@ -321,7 +322,7 @@ export async function saveTestimonialAction(fd: FormData) {
 }
 
 export async function setTestimonialStatusAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const status = fd.get("status") === "published" ? "published" : "draft";
   const db = await getDb();
@@ -332,7 +333,7 @@ export async function setTestimonialStatusAction(fd: FormData) {
 }
 
 export async function moveTestimonialAction(fd: FormData) {
-  requireAdmin();
+  await requireAdmin();
   const id = int(fd, "id");
   if (id) await swapSort("testimonials", id, fd.get("dir") === "up" ? "up" : "down", null);
   contentChanged();
@@ -340,7 +341,7 @@ export async function moveTestimonialAction(fd: FormData) {
 }
 
 export async function deleteTestimonialAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const db = await getDb();
   const r = (await db.query<{ avatar_id: string | null }>(`delete from testimonials where id = $1 returning avatar_id`, [id])).rows[0];
@@ -356,7 +357,7 @@ const WORKS = "/admin/isler";
 const CATS = ["sosyal-medya", "ai-otomasyon", "web-yazilim"];
 
 export async function saveWorkAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const kind = fd.get("kind") === "service" ? "service" : "work";
   const formPath = id ? `${WORKS}/${id}` : `${WORKS}/yeni?tur=${kind}`;
@@ -432,7 +433,7 @@ export async function saveWorkAction(fd: FormData) {
 }
 
 export async function setWorkStatusAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const status = fd.get("status") === "published" ? "published" : "draft";
   const db = await getDb();
@@ -447,7 +448,7 @@ export async function setWorkStatusAction(fd: FormData) {
 }
 
 export async function setCoverAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const media = String(fd.get("media") ?? "");
   const db = await getDb();
@@ -461,7 +462,7 @@ export async function setCoverAction(fd: FormData) {
 }
 
 export async function moveWorkMediaAction(fd: FormData) {
-  requireAdmin();
+  await requireAdmin();
   const id = int(fd, "id");
   const media = String(fd.get("media") ?? "");
   const dir = fd.get("dir") === "up" ? -1 : 1;
@@ -479,7 +480,7 @@ export async function moveWorkMediaAction(fd: FormData) {
 }
 
 export async function removeWorkMediaAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const media = String(fd.get("media") ?? "");
   const db = await getDb();
@@ -500,7 +501,7 @@ export async function removeWorkMediaAction(fd: FormData) {
 }
 
 export async function moveWorkAction(fd: FormData) {
-  requireAdmin();
+  await requireAdmin();
   const id = int(fd, "id");
   if (id) await swapSort("works", id, fd.get("dir") === "up" ? "up" : "down", "kind");
   contentChanged();
@@ -508,7 +509,7 @@ export async function moveWorkAction(fd: FormData) {
 }
 
 export async function deleteWorkAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const db = await getDb();
   const media = (await db.query<{ media_id: string }>(`select media_id from work_media where work_id = $1`, [id])).rows.map((r) => r.media_id);
@@ -525,7 +526,7 @@ const LEADS = "/admin/talepler";
 const LEAD_STATUS = ["new", "contacted", "quoted", "won", "lost"];
 
 export async function updateLeadAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const status = String(fd.get("status") ?? "");
   const note = text(fd, "note", 2000);
@@ -537,7 +538,7 @@ export async function updateLeadAction(fd: FormData) {
 }
 
 export async function deleteLeadAction(fd: FormData) {
-  const s = requireAdmin();
+  const s = await requireAdmin();
   const id = int(fd, "id");
   const db = await getDb();
   await db.query(`delete from leads where id = $1`, [id]);

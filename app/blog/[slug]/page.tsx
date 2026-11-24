@@ -7,14 +7,15 @@ import { cn } from "@/lib/utils";
 import { Reveal } from "@/components/ui/reveal";
 
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
   return getAllPostSlugs().map((slug) => ({ slug }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const post = await getPostBySlug(params.slug);
   if (!post) return { title: "Yazı bulunamadı — PORTZEN Blog" };
 
@@ -54,7 +55,8 @@ function formatDate(iso: string) {
   }
 }
 
-export default async function BlogPostPage({ params }: Props) {
+export default async function BlogPostPage(props: Props) {
+  const params = await props.params;
   const post = await getPostBySlug(params.slug);
   if (!post) notFound();
 

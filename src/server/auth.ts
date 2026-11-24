@@ -65,19 +65,19 @@ export function verifySession(token: string | undefined): { sub: string; exp: nu
   }
 }
 
-export function getSession() {
-  return verifySession(cookies().get(SESSION_COOKIE)?.value);
+export async function getSession() {
+  return verifySession((await cookies()).get(SESSION_COOKIE)?.value);
 }
 
 /** Her yazma işleminin başında çağrılır: oturum yoksa giriş sayfasına yönlendirir. */
-export function requireAdmin(): { sub: string } {
-  const s = getSession();
+export async function requireAdmin(): Promise<{ sub: string }> {
+  const s = await getSession();
   if (!s) redirect("/admin/giris");
   return s;
 }
 
-function clientIp(): string {
-  const h = headers();
+async function clientIp(): Promise<string> {
+  const h = await headers();
   return ((process.env.TRUST_CF_CONNECTING_IP === "1" ? h.get("cf-connecting-ip") : null) ?? h.get("x-forwarded-for")?.split(",")[0] ?? h.get("x-real-ip") ?? "local").trim();
 }
 
@@ -85,7 +85,7 @@ export async function attemptLogin(email: string, password: string): Promise<{ o
   const cfg = authConfigError();
   if (cfg) return { ok: false, error: `Yönetici girişi yapılandırılmamış: ${cfg}` };
   const db = await getDb();
-  const ip = clientIp();
+  const ip = await clientIp();
   const recent = await db.query<{ n: string }>(
     `select count(*)::text as n from login_attempts where ip = $1 and ok = false and at > now() - ($2 || ' minutes')::interval`,
     [ip, String(WINDOW_MIN)]
@@ -103,7 +103,7 @@ export async function attemptLogin(email: string, password: string): Promise<{ o
   const ok = emailOk && passOk;
   await db.query(`insert into login_attempts (ip, ok) values ($1, $2)`, [ip, ok]);
   if (!ok) return { ok: false, error: "E-posta veya şifre hatalı." };
-  cookies().set(SESSION_COOKIE, signSession(process.env.ADMIN_EMAIL!), {
+  (await cookies()).set(SESSION_COOKIE, signSession(process.env.ADMIN_EMAIL!), {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production" && process.env.ADMIN_INSECURE_COOKIE !== "1",
     sameSite: "lax",
@@ -114,8 +114,8 @@ export async function attemptLogin(email: string, password: string): Promise<{ o
   return { ok: true };
 }
 
-export function logout() {
-  cookies().delete(SESSION_COOKIE);
+export async function logout() {
+  (await cookies()).delete(SESSION_COOKIE);
 }
 
 export async function audit(actor: string, action: string, detail: unknown) {

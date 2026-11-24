@@ -15,7 +15,7 @@ import {
 const SERVICE = "whatsapp-ai-asistani" as const;
 
 interface Props {
-  params: { sektor: string };
+  params: Promise<{ sektor: string }>;
 }
 
 export async function generateStaticParams() {
@@ -23,7 +23,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const data = getSectorLanding(SERVICE, params.sektor);
+  const { sektor } = await params;
+  const data = getSectorLanding(SERVICE, sektor);
   if (!data) return { title: { absolute: "Sayfa bulunamadı — PORTZEN" } };
 
   const url = `https://portzenai.com/${SERVICE}/${data.sectorSlug}`;
@@ -49,8 +50,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function Page({ params }: Props) {
-  const data = getSectorLanding(SERVICE, params.sektor);
+export default async function Page({ params }: Props) {
+  const { sektor } = await params;
+  const data = getSectorLanding(SERVICE, sektor);
   if (!data) notFound();
 
   return (

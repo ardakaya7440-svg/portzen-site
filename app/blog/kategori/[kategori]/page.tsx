@@ -13,14 +13,15 @@ import { cn } from "@/lib/utils";
 import { Reveal } from "@/components/ui/reveal";
 
 interface Props {
-  params: { kategori: string };
+  params: Promise<{ kategori: string }>;
 }
 
 export async function generateStaticParams() {
   return getActiveCategories().map((c) => ({ kategori: c.slug }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const cat = ALL_CATEGORIES.find((c) => c.slug === params.kategori);
   if (!cat) return { title: "Kategori bulunamadı — PORTZEN Blog" };
   return {
@@ -44,7 +45,8 @@ function formatDate(iso: string) {
   }
 }
 
-export default function CategoryPage({ params }: Props) {
+export default async function CategoryPage(props: Props) {
+  const params = await props.params;
   const cat = ALL_CATEGORIES.find((c) => c.slug === params.kategori);
   if (!cat) notFound();
 

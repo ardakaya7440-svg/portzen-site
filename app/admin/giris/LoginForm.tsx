@@ -1,6 +1,7 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState } from "react";
+import { useFormStatus } from "react-dom";
 import { loginAction } from "../actions";
 import { btn, input } from "@/components/admin/ui";
 
@@ -14,7 +15,7 @@ function Submit() {
 }
 
 export function LoginForm() {
-  const [state, action] = useFormState(loginAction, undefined);
+  const [state, action] = useActionState(loginAction, undefined);
   return (
     <form action={action} className="mt-6 flex flex-col gap-4">
       <div className="flex flex-col gap-1.5">
