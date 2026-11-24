@@ -3,6 +3,17 @@ import path from 'node:path';
 // Yerel önizleme: fiyat ve içerik anlık görüntüsü .data/generated/ klasöründen okunur (src/data/ değişmez).
 const previewDataDir = process.env.PZ_PREVIEW_DATA_DIR ? path.resolve(process.env.PZ_PREVIEW_DATA_DIR) : null;
 
+// Önizleme veri dosyalarının yerine geçecek yollar (yalnızca PZ_PREVIEW_DATA_DIR tanımlıyken).
+// Next 16 varsayılan derleyicisi Turbopack: modül değişimi turbopack.resolveAlias ile yapılır;
+// `next build --webpack` ile derlenirse aynı değişim webpack eklentisiyle uygulanır.
+const previewAliases = previewDataDir
+  ? {
+      '@/data/pricing.published.json': path.join(previewDataDir, 'pricing.published.json'),
+      './pricing.published.json': path.join(previewDataDir, 'pricing.published.json'),
+      '@/data/cms.snapshot.json': path.join(previewDataDir, 'cms.snapshot.json')
+    }
+  : null;
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -25,15 +36,18 @@ const nextConfig = {
     minimumCacheTTL: 14400,
     dangerouslyAllowSVG: false
   },
-  webpack(config, { webpack }) {
-    if (previewDataDir) {
-      config.plugins.push(
-        new webpack.NormalModuleReplacementPlugin(/pricing\.published\.json$/, path.join(previewDataDir, 'pricing.published.json')),
-        new webpack.NormalModuleReplacementPlugin(/cms\.snapshot\.json$/, path.join(previewDataDir, 'cms.snapshot.json'))
-      );
-    }
-    return config;
-  },
+  ...(previewAliases
+    ? {
+        turbopack: { resolveAlias: previewAliases },
+        webpack(config, { webpack }) {
+          config.plugins.push(
+            new webpack.NormalModuleReplacementPlugin(/pricing\.published\.json$/, path.join(previewDataDir, 'pricing.published.json')),
+            new webpack.NormalModuleReplacementPlugin(/cms\.snapshot\.json$/, path.join(previewDataDir, 'cms.snapshot.json'))
+          );
+          return config;
+        }
+      }
+    : {}),
   async headers() {
     return [{ source: '/admin/:path*', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] }];
   },

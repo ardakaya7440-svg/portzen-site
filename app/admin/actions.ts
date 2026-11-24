@@ -1,6 +1,6 @@
 "use server";
 
-import { revalidatePath, revalidateTag } from "next/cache";
+import { revalidatePath, updateTag } from "next/cache";
 import { redirect } from "next/navigation";
 import { type PriceData, validatePriceData } from "@/data/pricing";
 import { SERVICE_KEYS } from "@/data/catalog";
@@ -46,7 +46,8 @@ function files(fd: FormData, key: string): File[] {
   return fd.getAll(key).filter((f): f is File => f instanceof File && f.size > 0);
 }
 function contentChanged() {
-  revalidateTag("cms");
+  // Next 16: server action içinde anında geçersiz kılma (eski revalidateTag("cms") davranışı) updateTag ile yapılır.
+  updateTag("cms");
 }
 
 /* ───────── oturum ───────── */
