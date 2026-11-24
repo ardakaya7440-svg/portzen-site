@@ -1,0 +1,14 @@
+.git
+.github
+node_modules
+.next
+.next-dev
+.data
+.vercel
+_zips
+_archived_*
+**/_archived_*
+.env*
+!.env.example
+npm-debug.log*
+.DS_Store
