@@ -54,6 +54,7 @@ env.ADMIN_INSECURE_COOKIE = "1"; // yerelde http üzerinden giriş için
 delete env.PORTZEN_DATABASE_URL; // önizleme her zaman yerel PGlite kullanır
 env.PZ_PREVIEW_DATA_DIR = path.join(dataDir, "generated"); // yerel fiyat/içerik src/data'ya yazılmaz
 delete env.VERCEL;
+env.PORTZEN_ALLOW_LOCAL_DB = "1"; // yerel önizleme açıkça PGlite kullanır
 
 const npm = process.platform === "win32" ? "npm.cmd" : "npm";
 const run = (args) =>

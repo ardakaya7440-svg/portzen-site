@@ -8,7 +8,8 @@ import { MIGRATIONS } from "./schema";
  *   Projede eskiden kalma bir DATABASE_URL olduğu için o ad bilerek KULLANILMAZ.
  * - Yerel önizleme: PORTZEN_DATABASE_URL yoksa diskte kalıcı PGlite (gerçek Postgres, WASM) kullanılır: .data/pglite
  *   PGlite tek süreçlidir; yalnızca yerel önizleme içindir. Vercel'de dosya sistemi geçici olduğundan
- *   orada PORTZEN_DATABASE_URL olmadan çalışmayı reddeder.
+ *   üretimde (next build/start) PORTZEN_DATABASE_URL olmadan çalışmayı reddeder; yerel PGlite için
+ *   PORTZEN_ALLOW_LOCAL_DB=1 gerekir (`next dev` altında otomatik izinlidir).
  */
 export type Row = Record<string, unknown>;
 export interface Db {
@@ -55,8 +56,14 @@ async function connect(): Promise<Db> {
       }
     };
   }
-  if (process.env.VERCEL) {
-    throw new Error("PORTZEN_DATABASE_URL tanımlı değil. Üretimde kalıcı Postgres bağlantısı gerekir.");
+  // Yerel PGlite yalnızca açıkça istenirse (PORTZEN_ALLOW_LOCAL_DB=1) ya da `next dev` altında kullanılır.
+  // Üretim/staging (next build / next start) bu bayrak olmadan sessizce yerel veriye DÜŞMEZ.
+  const allowLocal = process.env.PORTZEN_ALLOW_LOCAL_DB === "1" || process.env.NODE_ENV === "development";
+  if (!allowLocal) {
+    throw new Error(
+      "PORTZEN_DATABASE_URL tanımlı değil. Üretim/staging için kalıcı Postgres bağlantısı gerekir " +
+        "(yerel PGlite için açıkça PORTZEN_ALLOW_LOCAL_DB=1 verin)."
+    );
   }
   const { PGlite } = await import("@electric-sql/pglite");
   const dir = process.env.PGLITE_DIR ?? path.join(process.cwd(), ".data", "pglite");

@@ -9,8 +9,8 @@
  *  - PORTZEN_DATABASE_URL yoksa (yerel önizleme, PGlite): yalnızca .data/generated/ altına yazılır.
  *    src/data/ altındaki dosyalara dokunulmaz; böylece yerelde denenen fiyat/içerik yanlışlıkla
  *    git'e veya canlıya taşınmaz. Önizleme derlemesi PZ_PREVIEW_DATA_DIR ile bu klasörü kullanır.
- * Veritabanına ulaşılamazsa mevcut dosyalar kullanılır.
- * Vercel'de PORTZEN_DATABASE_URL tanımlıyken okuma başarısız olursa build durur: eski fiyatla yayın yapılmaz.
+ * Varsayılan KATI: PORTZEN_DATABASE_URL yoksa ya da okuma başarısız olursa build durur (eski fiyatla yayın yapılmaz).
+ * Yalnızca PORTZEN_ALLOW_LOCAL_DB=1 ile (yerel) PGlite/mevcut dosyalara düşülür.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -20,7 +20,17 @@ const local = !process.env.PORTZEN_DATABASE_URL;
 const outDir = local ? path.join(root, ".data", "generated") : path.join(root, "src", "data");
 const PRICES = path.join(outDir, "pricing.published.json");
 const SNAP = path.join(outDir, "cms.snapshot.json");
-const strict = Boolean(process.env.VERCEL && process.env.PORTZEN_DATABASE_URL);
+// Varsayılan katı: veritabanı okunamazsa build durur. Yerelde yalnızca açık bayrakla gevşetilir.
+const allowLocal = process.env.PORTZEN_ALLOW_LOCAL_DB === "1";
+const strict = !allowLocal;
+
+if (local && !allowLocal) {
+  console.error(
+    "[sync-content] HATA: PORTZEN_DATABASE_URL tanımlı değil. Üretim/staging build'i gerçek veritabanı olmadan yapılmaz.\n" +
+      "  Yerel derleme için açıkça PORTZEN_ALLOW_LOCAL_DB=1 verin (PGlite / mevcut dosyalar kullanılır)."
+  );
+  process.exit(1);
+}
 
 // Yerel modda çıktı klasörü her zaman eksiksiz olsun: varsayılanlarla başlat
 if (local) {
@@ -42,7 +52,6 @@ async function open() {
     });
     return { q: (s, p) => pool.query(s, p), close: () => pool.end() };
   }
-  if (process.env.VERCEL) return null; // Vercel'de yerel veritabanı yok
   const dir = process.env.PGLITE_DIR ?? path.join(root, ".data", "pglite");
   if (!fs.existsSync(dir)) return null;
   const { PGlite } = await import("@electric-sql/pglite");
