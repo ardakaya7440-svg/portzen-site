@@ -15,6 +15,21 @@ export const SESSION_COOKIE = "pz_admin";
 const SESSION_HOURS = 12;
 const MAX_FAILED = 5;
 const WINDOW_MIN = 15;
+/** Pencere içinde tüm IP'lerden gelen başarısız deneme sayısı bu eşiği aşarsa "global anomali" sayılır. */
+const GLOBAL_ANOMALY_THRESHOLD = MAX_FAILED * 10;
+const DELAY_BASE_MS = 250;
+const DELAY_MAX_MS = 5000;
+
+/**
+ * Global anomali sırasında başarısız denemelere uygulanan artan gecikme: min(2^n * 250ms, 5s).
+ * n = eşiğin kaçıncı kez aşıldığı (1'den başlar). Sert kilit yerine kullanılır; böylece IP değiştiren
+ * bir saldırgan gerçek yöneticiyi kilitleyemez, yalnızca kendi denemelerini yavaşlatır.
+ */
+export function globalFailureDelayMs(globalFailed: number): number {
+  const n = globalFailed - GLOBAL_ANOMALY_THRESHOLD + 1;
+  if (n <= 0) return 0;
+  return Math.min(DELAY_BASE_MS * 2 ** Math.min(n, 16), DELAY_MAX_MS);
+}
 
 export function authConfigError(): string | null {
   if (!process.env.ADMIN_EMAIL) return "ADMIN_EMAIL tanımlı değil.";
@@ -94,15 +109,30 @@ export async function attemptLogin(email: string, password: string): Promise<{ o
     `select count(*)::text as n from login_attempts where ok = false and at > now() - ($1 || ' minutes')::interval`,
     [String(WINDOW_MIN)]
   );
-  if (Number(recent.rows[0]?.n ?? 0) >= MAX_FAILED || Number(global.rows[0]?.n ?? 0) >= MAX_FAILED * 10) {
+  // (a) IP başına sert limit: doğru kimlik bilgisi girilse bile kilitli IP reddedilir.
+  if (Number(recent.rows[0]?.n ?? 0) >= MAX_FAILED) {
     return { ok: false, error: `Çok fazla hatalı deneme. ${WINDOW_MIN} dakika sonra tekrar deneyin.` };
   }
+  const globalFailed = Number(global.rows[0]?.n ?? 0);
   const digest = (v: string) => createHash("sha256").update(v.trim().toLowerCase()).digest();
   const emailOk = timingSafeEqual(digest(email), digest(process.env.ADMIN_EMAIL!));
   const passOk = verifyPassword(password, process.env.ADMIN_PASSWORD_HASH!);
   const ok = emailOk && passOk;
   await db.query(`insert into login_attempts (ip, ok) values ($1, $2)`, [ip, ok]);
-  if (!ok) return { ok: false, error: "E-posta veya şifre hatalı." };
+  if (!ok) {
+    // (b) Global eşik aşıldıysa kilit yok; artan gecikme + denetim kaydı.
+    const delay = globalFailureDelayMs(globalFailed + 1);
+    if (delay > 0) {
+      const over = globalFailed + 1 - GLOBAL_ANOMALY_THRESHOLD;
+      // Kayıt şişmesin: eşik ilk aşıldığında ve sonra her 10 denemede bir yazılır.
+      if (over === 0 || over % 10 === 0) {
+        await audit("system", "login_global_anomaly", { failedInWindow: globalFailed + 1, windowMin: WINDOW_MIN, delayMs: delay });
+      }
+      await new Promise((r) => setTimeout(r, delay));
+    }
+    return { ok: false, error: "E-posta veya şifre hatalı." };
+  }
+  // (c) Global anomali doğru kimlik bilgisiyle girişi engellemez.
   (await cookies()).set(SESSION_COOKIE, signSession(process.env.ADMIN_EMAIL!), {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production" && process.env.ADMIN_INSECURE_COOKIE !== "1",
