@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import Image from "next/image";
 import { ArrowDown, ArrowUpRight, Hand, Lightbulb, MessageCircle, Sparkles } from "lucide-react";
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
   ],
   openGraph: { type: "website", locale: "tr_TR", url: URL, siteName: "PORTZEN", title: TITLE, description: DESCRIPTION },
   alternates: { canonical: URL },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 type Style = {

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -61,7 +62,7 @@ export const metadata: Metadata = {
       "PORTZEN, KOBİ'ler için Meta reklamlarını ROAS odaklı yönetir. Düzenli kreatif varyant testi, şeffaf haftalık raporlama."
   },
   alternates: { canonical: "https://portzenai.com/meta-reklam-ajansi" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

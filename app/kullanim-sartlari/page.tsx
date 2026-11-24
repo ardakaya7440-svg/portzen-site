@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageRobots } from "@/lib/site-env";
 import Link from "next/link";
 import { ArrowUpRight, FileText } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "PORTZEN — Web sitesi ve hizmet kullanım şartları, taraflar arası sorumluluklar ve uygulanacak hukuk.",
   alternates: { canonical: "https://portzenai.com/kullanim-sartlari" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 export default function Page() {

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
       "PORTZEN, markalar için AI ile reklam videosu üretir; çekim ekibi gerekmez."
   },
   alternates: { canonical: "https://portzenai.com/ai-reklam-videosu" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

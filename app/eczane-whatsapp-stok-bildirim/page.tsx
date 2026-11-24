@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
       "İlaç geldi mesajı otomatik gitsin, bekleme listesi tek panelde toplansın. Kurulum süresi kapsama göre teklifte yazılı olarak belirtilir."
   },
   alternates: { canonical: "https://portzenai.com/eczane-whatsapp-stok-bildirim" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

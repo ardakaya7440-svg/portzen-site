@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageRobots } from "@/lib/site-env";
 import Link from "next/link";
 import { ArrowUpRight, Shield } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "PORTZEN — 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında veri işleme aydınlatma metni.",
   alternates: { canonical: "https://portzenai.com/kvkk" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 export default function Page() {

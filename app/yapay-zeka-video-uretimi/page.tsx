@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
       "Kurumsal AI motor altyapısı ile profesyonel video üretimi. Çekim ekibi ve lokasyon gerekmez; teslim süresi teklifte yazılı."
   },
   alternates: { canonical: "https://portzenai.com/yapay-zeka-video-uretimi" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

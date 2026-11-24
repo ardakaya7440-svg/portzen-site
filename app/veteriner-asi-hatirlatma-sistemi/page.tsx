@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
       "Aşı zamanı geldiğinde sahibe otomatik hatırlatma. Kaçırılan aşı ve kontrol randevularını azaltmayı hedefler."
   },
   alternates: { canonical: "https://portzenai.com/veteriner-asi-hatirlatma-sistemi" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

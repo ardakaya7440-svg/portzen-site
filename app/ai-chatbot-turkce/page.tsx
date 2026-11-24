@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
       "Doğal Türkçe yanıt veren, KVKK gereklilikleri gözetilerek kurulan AI chatbot. KOBİ ve markalar için."
   },
   alternates: { canonical: "https://portzenai.com/ai-chatbot-turkce" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

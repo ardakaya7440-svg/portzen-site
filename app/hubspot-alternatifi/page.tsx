@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
       "KOBİ'ler için tasarlanmış, Logo/Mikro entegrasyonlu, KVKK gereklilikleri gözetilerek kurulan CRM otomasyonu."
   },
   alternates: { canonical: "https://portzenai.com/hubspot-alternatifi" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

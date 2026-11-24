@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
       "Instagram, Facebook, TikTok yönetimi + içerik üretimi + reklam + topluluk yönetimi. Aylık paketle uçtan uca hizmet."
   },
   alternates: { canonical: "https://portzenai.com/sosyal-medya-yonetimi" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
       "PORTZEN, markalar için kural tabanlı Instagram DM otomasyonu kurar: anahtar kelime, yorum ve hikâye tetikleyicileriyle otomatik mesaj, 7/24 aktif."
   },
   alternates: { canonical: "https://portzenai.com/instagram-dm-otomasyonu" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

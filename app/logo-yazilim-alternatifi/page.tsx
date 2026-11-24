@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
       "Logo Tiger/Mikro/Netsis üstüne n8n + AI otomasyon. Daha esnek, ölçeklenebilir, KOBİ için."
   },
   alternates: { canonical: "https://portzenai.com/logo-yazilim-alternatifi" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

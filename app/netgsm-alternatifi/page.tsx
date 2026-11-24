@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
       "Sadece SMS yerine çoklu kanal (WhatsApp + Email + SMS) ile iki yönlü müşteri iletişimi ve tetikleyici tabanlı otomasyon."
   },
   alternates: { canonical: "https://portzenai.com/netgsm-alternatifi" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

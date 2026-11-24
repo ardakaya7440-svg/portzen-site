@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
       "ManyChat'in İngilizce arayüzü ve dolar faturası yerine Türkçe, KVKK gerekliliklerini dikkate alan çözüm."
   },
   alternates: { canonical: "https://portzenai.com/manychat-alternatifi" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

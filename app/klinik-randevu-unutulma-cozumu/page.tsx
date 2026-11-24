@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
       "Randevu unutan hasta problemine sistematik çözüm: hatırlat, teyit al, yeniden randevu aç."
   },
   alternates: { canonical: "https://portzenai.com/klinik-randevu-unutulma-cozumu" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

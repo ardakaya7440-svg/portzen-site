@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -53,7 +54,7 @@ export const metadata: Metadata = {
       "Reels, TikTok ve Shorts formatında algoritma sinyallerine göre kurgulanan viral video formülü. Hook, edit, sound, caption ve yayın stratejisi tek pakette."
   },
   alternates: { canonical: "https://portzenai.com/sosyal-medya-viral-video" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

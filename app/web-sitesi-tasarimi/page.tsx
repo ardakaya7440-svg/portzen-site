@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
       "Kurumsal, e-ticaret ve landing page tasarımı. Next.js, Lighthouse 90+ hedefi, SEO uyumlu; teslim süresi teklifte yazılı."
   },
   alternates: { canonical: "https://portzenai.com/web-sitesi-tasarimi" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

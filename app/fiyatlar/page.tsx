@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageRobots } from "@/lib/site-env";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import {
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     title: { absolute: "PORTZEN Fiyatlar — Başlangıç, Büyüme ve Kurumsal paketler" },
     description: "Tüm hizmetlerin paket fiyatları ve kapsamları tek sayfada. Tutarlar KDV hariçtir."
   },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const FAMILIES: { id: FamilyId; anchor: string }[] = [

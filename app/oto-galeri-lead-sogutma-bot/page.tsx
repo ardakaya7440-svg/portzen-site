@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
       "Satılık araca gelen onlarca mesaja tek tek yanıt vermek yerine; sistem karşılasın, ilgi düzeyini ölçsün, satışa hazırlasın."
   },
   alternates: { canonical: "https://portzenai.com/oto-galeri-lead-sogutma-bot" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

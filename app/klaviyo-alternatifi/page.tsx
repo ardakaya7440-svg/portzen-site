@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -48,7 +49,7 @@ export const metadata: Metadata = {
       "E-ticaret için cart abandonment, post-purchase, win-back otomasyonu - KVKK gerekliliklerini dikkate alan, Türkçe destekli kurulum."
   },
   alternates: { canonical: "https://portzenai.com/klaviyo-alternatifi" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

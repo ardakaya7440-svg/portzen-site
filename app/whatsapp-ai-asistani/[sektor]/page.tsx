@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageRobots } from "@/lib/site-env";
 import { notFound } from "next/navigation";
 import {
   SectorLandingTemplate,
@@ -46,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: data.description
     },
     alternates: { canonical: url },
-    robots: { index: true, follow: true }
+    robots: pageRobots({ index: true, follow: true })
   };
 }
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
       "Self-hosted n8n + Docker + SSL + backup + Türk entegrasyonlar."
   },
   alternates: { canonical: "https://portzenai.com/n8n-kurulum-hizmeti" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

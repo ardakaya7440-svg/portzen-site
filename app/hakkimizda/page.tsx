@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageRobots } from "@/lib/site-env";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     description:
       "İzmir merkezli sosyal medya ve yazılım ajansı. Sosyal medyanızı yönetiriz, yazılımınızı geliştiririz."
   },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const services = [

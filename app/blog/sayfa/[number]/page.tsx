@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { ArrowUpRight, Calendar, Clock, Tag } from "lucide-react";
@@ -37,7 +38,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
       title: `PORTZEN Blog — Sayfa ${page}`,
       description: "AI, sosyal medya, otomasyon ve web yazılım rehberleri."
     },
-    robots: { index: true, follow: true }
+    robots: pageRobots({ index: true, follow: true })
   };
 }
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
       "PORTZEN, KOBİ'ler için WhatsApp AI asistanı kurar. Mesajlara otomatik yanıt verir, 7/24 aktiftir; teslim süresi teklifte yazılı olarak belirtilir."
   },
   alternates: { canonical: "https://portzenai.com/whatsapp-ai-asistani" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {

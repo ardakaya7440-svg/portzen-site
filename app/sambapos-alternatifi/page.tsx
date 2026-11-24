@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { pageRobots } from "@/lib/site-env";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
       "Restoran POS, CRM, sipariş ve rezervasyon tek panelde. AI destekli yorumlama dahil."
   },
   alternates: { canonical: "https://portzenai.com/sambapos-alternatifi" },
-  robots: { index: true, follow: true }
+  robots: pageRobots({ index: true, follow: true })
 };
 
 const serviceSchema = {
