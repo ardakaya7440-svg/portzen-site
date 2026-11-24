@@ -78,7 +78,7 @@ export function requireAdmin(): { sub: string } {
 
 function clientIp(): string {
   const h = headers();
-  return (h.get("x-forwarded-for")?.split(",")[0] ?? h.get("x-real-ip") ?? "local").trim();
+  return ((process.env.TRUST_CF_CONNECTING_IP === "1" ? h.get("cf-connecting-ip") : null) ?? h.get("x-forwarded-for")?.split(",")[0] ?? h.get("x-real-ip") ?? "local").trim();
 }
 
 export async function attemptLogin(email: string, password: string): Promise<{ ok: true } | { ok: false; error: string }> {

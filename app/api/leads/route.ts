@@ -34,7 +34,7 @@ export async function POST(req: Request) {
   if (!name || (!email && !phone)) return Response.json({ ok: false, error: "missing" }, { status: 400 });
   if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return Response.json({ ok: false, error: "email" }, { status: 400 });
 
-  const ip = (req.headers.get("x-forwarded-for")?.split(",")[0] ?? req.headers.get("x-real-ip") ?? "local").trim();
+  const ip = ((process.env.TRUST_CF_CONNECTING_IP === "1" ? req.headers.get("cf-connecting-ip") : null) ?? req.headers.get("x-forwarded-for")?.split(",")[0] ?? req.headers.get("x-real-ip") ?? "local").trim();
   const ipHash = createHash("sha256").update(ip + (process.env.SESSION_SECRET ?? "")).digest("hex").slice(0, 32);
 
   try {
