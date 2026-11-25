@@ -21,7 +21,8 @@ import { RelatedLocationsSection } from "@/components/landing/RelatedLocationsSe
 import { PricingSection } from "@/components/pricing/PricingSection";
 import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
 import { MoreDetails } from "@/components/visual/MoreDetails";
-import { familyPriceSummary } from "@/data/pricing";
+import { type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "WhatsApp AI Asistanı | 7/24 Müşteri Temsilcisi — PORTZEN" },
@@ -71,7 +72,9 @@ const serviceSchema = {
     "WhatsApp Business API üzerinden çalışan, gelen mesajlara 7/24 yanıt veren, randevu oluşturan, sipariş alan AI asistan kurulumu. KOBİ ve markalar için; teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 };
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -132,6 +135,7 @@ const faqSchema = {
       }
     }
   ]
+};
 };
 
 const breadcrumbSchema = {
@@ -197,7 +201,9 @@ const features = [
 ];
 
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return [
   {
     q: "WhatsApp AI asistanı kurulumu kaç gün sürer?",
     a: "Teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Kurulum; brief görüşmesi, bilgi tabanı oluşturma, bot eğitimi, test ve canlıya alma aşamalarını içerir. Sektöre özel karmaşık akışlar (örneğin çoklu şube + stok entegrasyonu) kapsamı ve dolayısıyla süreyi büyütür."
@@ -227,8 +233,12 @@ const faqs = [
     a: "Evet. PORTZEN İzmir merkezli çalışıyor ama tüm Türkiye'ye uzaktan kurulum ve operasyon hizmeti sunuyoruz. Kurulum ve eğitim tamamen online yapılır. İzmir içinde talep edilirse yerinde de gelinebilir."
   }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const faqSchema = buildFaqSchema(B);
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

@@ -14,7 +14,8 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
-import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
+import { type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Avukat Dosya Takip Portalı + Müvekkil WhatsApp | PORTZEN" },
@@ -64,7 +65,9 @@ const serviceSchema = {
     "Hukuk büroları için müvekkil kimliği doğrulanmış web portalı, dosya durumu takibi, duruşma-tebligat-karar otomatik WhatsApp bilgilendirme sistemi. KVKK ve mesleki sır korunumu esas alınarak tasarlanır."
 };
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const { familyPriceSummary, maintenanceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -75,6 +78,7 @@ const faqSchema = {
     { "@type": "Question", name: "Fiyat ne kadar?", acceptedAnswer: { "@type": "Answer", text: `İş otomasyonu paketleri tek seferliktir (KDV hariç): ${familyPriceSummary("is-otomasyonu")}. İsteğe bağlı aylık bakım ikinci aydan itibaren ${maintenanceSummary()}. Aktif müvekkil sayısı, çoklu avukat kullanımı ve ek modüller (tahsilat, dilekçe kütüphanesi) hangi paketin yeteceğini belirler. Tamamen özel bir müvekkil portalı özel web uygulaması kapsamına girer.` } },
     { "@type": "Question", name: "Küçük büro için de mantıklı mı?", acceptedAnswer: { "@type": "Answer", text: "Evet. 1-3 avukat büroları için bu portal ve WhatsApp akışı, tekrar eden 'dosyam ne durumda?' sorularını sistemli bir bilgilendirme akışına taşır: dosya durumu portalda görünür, önemli aşamalarda müvekkile otomatik mesaj gider. Küçük büro için özel modüller de tanımlanabilir." } }
   ]
+};
 };
 
 const breadcrumbSchema = {
@@ -118,7 +122,9 @@ const features = [
   { icon: ShieldCheck, title: "KVKK ve mesleki sır", desc: "İki aşamalı kimlik doğrulama, dosya bazlı erişim izinleri, silme talebi akışı ve erişim kaydı KVKK gerekliliklerini dikkate alarak kurgulanır; verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir." }
 ];
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary, maintenanceSummary } = B;
+  return [
   { q: "UYAP verisi otomatik yansıtılıyor mu?", a: "Doğrudan UYAP API entegrasyonu üzerinde teknik kısıtlar var. En verimli akış, avukat veya sekreterin UYAP'tan çıkardığı durumu tek satırla panele girmesi ve sistemin müvekkile anlaşılır dille bildirim göndermesi. Kurulumda büronuzun UYAP kullanım rutinine göre tam senkron akışı birlikte tasarlıyoruz." },
   { q: "Müvekkile hangi bilgiler otomatik gidiyor?", a: "Duruşma hatırlatması, tebligat özet bildirimi, karar özeti, ücret ödeme hatırlatması, dilekçe hazır bildirimi. Her mesaj şablonunu avukat onaylar; sistem hiçbir hukuki yorum yapmadan yalnızca büronun onayladığı şablonu gönderir." },
   { q: "Mesleki sır nasıl korunuyor?", a: "Bazı notlar (avukat özel notu, karşı tarafın önerdiği uzlaşma tutarı, iç strateji) müvekkil portalinda görünmez. Sadece avukat panelde. Bu ayrımı dosya-alan bazında dosya açılırken belirlersiniz. Hem hız hem gizlilik sağlanır." },
@@ -126,8 +132,12 @@ const faqs = [
   { q: "Küçük büroysam bile mantıklı mı?", a: "Evet, hatta özellikle mantıklı. Küçük bürolarda müvekkil bilgilendirmesi çoğu zaman avukatın kendisine kalır. Portal ve WhatsApp akışı kurulunca dosya durumu, duruşma hatırlatması ve karar özetleri sistemli şekilde müvekkile iletilir; avukat yalnızca güncellemeyi panele girer." },
   { q: "Müvekkil portalı zor mu?", a: "Portal mümkün olan en sade şekilde tasarlanır: giriş yap, dosyayı gör, durumu oku. Yaşlı müvekkil için WhatsApp bildirimi asıl kanaldır; portal yalnızca detay isteyene açıktır. İstenirse portal olmadan sadece WhatsApp akışı da kurulabilir." }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const faqSchema = buildFaqSchema(B);
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

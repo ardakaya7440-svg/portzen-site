@@ -1,5 +1,3 @@
-import { CODE_DEFAULT_PRICES } from "@/data/pricing";
-import publishedPrices from "@/data/pricing.published.json";
 import type { Db } from "./db";
 
 type Q = Db["query"];
@@ -85,15 +83,8 @@ export const MIGRATIONS: { id: number; sql: string[]; seed?: (q: Q) => Promise<v
       `create table login_attempts (id serial primary key, ip text not null, ok boolean not null, at timestamptz not null default now())`,
       `create table audit_log (id serial primary key, actor text, action text not null, detail jsonb, at timestamptz not null default now())`
     ],
-    // Fiyatlar mevcut (yayımlanmış) değerlerle başlar; kendiliğinden değiştirilmez.
-    seed: async (q) => {
-      const pub = publishedPrices as { version: number; note: string | null; data: unknown };
-      const data = pub.version > 0 ? pub.data : CODE_DEFAULT_PRICES;
-      await q(
-        `insert into price_versions (data, status, note, created_by, published_at) values ($1::jsonb, 'published', $2, 'kurulum', now())`,
-        [JSON.stringify(data), pub.note ?? "Başlangıç fiyatları"]
-      );
-    }
+    // Fiyat tutarı TOHUMLANMAZ: tek kaynak veritabanıdır ve değerleri admin panelinden girilir (repoda tutar yok).
+    // (Mevcut veritabanlarında bu migrasyon zaten uygulanmıştır; bu değişiklik onları etkilemez.)
   },
   {
     // İletişim formundan gelen teklif talepleri

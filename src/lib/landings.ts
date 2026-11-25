@@ -1,6 +1,5 @@
 import fs from "node:fs";
 import path from "node:path";
-import { resolvePriceTokens } from "@/data/pricing";
 
 /* ============================================================
    PROGRAMMATIC SEO — Sector × Service landing data layer
@@ -125,17 +124,23 @@ export function getSectorSlugsForService(serviceSlug: ServiceSlug): string[] {
     .map((f) => f.replace(/\.json$/, ""));
 }
 
-/** Belirli bir hizmet × sektör kombinasyonunun data'sını okur */
-export function getSectorLanding(serviceSlug: ServiceSlug, sectorSlug: string): SectorLandingData | null {
+/**
+ * Belirli bir hizmet × sektör kombinasyonunun data'sını okur.
+ * `resolveTokens` verilirse metindeki {{fiyat:…}} yer tutucuları fiyat kaynağından çözülür (sayfa/metadata üretimi:
+ * book.resolvePriceTokens). Verilmezse yer tutucular ham kalır (yalnızca liste/çapraz bağlantı gibi metin göstermeyen kullanımlar).
+ */
+export function getSectorLanding(
+  serviceSlug: ServiceSlug,
+  sectorSlug: string,
+  resolveTokens?: (text: string) => string
+): SectorLandingData | null {
   const file = path.join(LANDINGS_DIR, serviceSlug, `${sectorSlug}.json`);
   if (!fs.existsSync(file)) return null;
   try {
     const raw = fs.readFileSync(file, "utf-8");
-    // Metindeki {{fiyat:…}} yer tutucuları merkezi fiyat kaynağından çözülür (bkz. src/data/pricing.ts)
-    return JSON.parse(raw, (_key, value) => (typeof value === "string" ? resolvePriceTokens(value) : value)) as SectorLandingData;
-  } catch (err) {
-    // Geçersiz fiyat yer tutucusu sessizce 404'e dönüşmesin; build'i durdur.
-    if (err instanceof Error && err.message.startsWith("Geçersiz fiyat")) throw err;
+    // Metindeki {{fiyat:…}} yer tutucuları fiyat kaynağından (veritabanı) çözülür
+    return JSON.parse(raw, (_key, value) => (typeof value === "string" && resolveTokens ? resolveTokens(value) : value)) as SectorLandingData;
+  } catch {
     return null;
   }
 }

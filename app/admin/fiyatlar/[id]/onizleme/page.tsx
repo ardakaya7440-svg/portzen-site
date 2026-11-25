@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
-import { PRICING, SINGLE, TIER_NAMES, formatTL, withPriceData, type TierId } from "@/data/pricing";
-import { getPublished, getVersion } from "@/server/prices";
+import { PRICING_STRUCTURE, SINGLE_STRUCTURE, TIER_NAMES, buildPrices, formatTL, type TierId } from "@/data/pricing";
+import { editorData, getPublished, getVersion } from "@/server/prices";
 import { PriceOverview } from "@/components/pricing/PriceOverview";
 import { PricingSection, SinglePriceCard, WebMaintenanceRow } from "@/components/pricing/PricingSection";
 import { ActionButton, Card, Flash, LinkButton, PageHead } from "@/components/admin/ui";
@@ -17,22 +17,24 @@ export default async function PricePreviewPage(props: { params: Promise<{ id: st
   const id = Number(params.id);
   const [v, pub] = await Promise.all([Number.isInteger(id) ? getVersion(id) : null, getPublished()]);
   if (!v) notFound();
-  const src = withPriceData(v.data);
+  const vData = editorData(v.data);
+  const src = buildPrices(vData);
+  const pubData = pub ? editorData(pub.data) : null;
 
   const rows: Row[] = [];
   if (pub) {
-    for (const f of Object.values(PRICING)) {
+    for (const f of Object.values(PRICING_STRUCTURE)) {
       for (const t of ["baslangic", "buyume", "kurumsal"] as TierId[]) {
-        const a = pub.data.families[f.id][t] as Record<string, number | undefined>;
-        const b = v.data.families[f.id][t] as Record<string, number | undefined>;
+        const a = pubData!.families[f.id][t] as Record<string, number | undefined>;
+        const b = vData.families[f.id][t] as Record<string, number | undefined>;
         for (const k of ["price", "setupFee", "maintenance"]) {
           if (a[k] !== b[k]) rows.push({ what: `${f.title} · ${TIER_NAMES[t]}`, field: FIELD[k], before: a[k], after: b[k] });
         }
       }
     }
-    for (const s of Object.values(SINGLE)) {
-      const a = pub.data.singles[s.id] as Record<string, number | undefined>;
-      const b = v.data.singles[s.id] as Record<string, number | undefined>;
+    for (const s of Object.values(SINGLE_STRUCTURE)) {
+      const a = pubData!.singles[s.id] as Record<string, number | undefined>;
+      const b = vData.singles[s.id] as Record<string, number | undefined>;
       for (const k of ["price", "setupFee", "monthly"]) {
         if (s.setupFee !== undefined && s.monthly !== undefined && k === "price") continue;
         if (a[k] !== b[k]) rows.push({ what: s.title, field: FIELD[k], before: a[k], after: b[k] });
@@ -87,7 +89,7 @@ export default async function PricePreviewPage(props: { params: Promise<{ id: st
           </div>
         )}
         <p className="mt-4 text-xs text-slate/60">
-          Yayımladığınızda site yeniden derlenir; sayfalar, SSS cevaplarındaki tutarlar, yapılandırılmış veri (schema.org) ve WhatsApp
+          Yayımladığınızda derleme/deploy gerekmez; sayfalar, SSS cevaplarındaki tutarlar, yapılandırılmış veri (schema.org) ve WhatsApp
           mesajları bu sürümle birlikte güncellenir.
         </p>
       </Card>
@@ -99,7 +101,7 @@ export default async function PricePreviewPage(props: { params: Promise<{ id: st
         </div>
       </div>
 
-      {Object.values(PRICING)
+      {Object.values(src.PRICING)
         .filter((f) => f.id !== "web-bakim")
         .map((f) => (
           <div key={f.id} className="mt-8 overflow-hidden rounded-2xl border border-slate/15 bg-white">
@@ -111,7 +113,7 @@ export default async function PricePreviewPage(props: { params: Promise<{ id: st
       <div className="mt-8 overflow-hidden rounded-2xl border border-slate/15 bg-white">
         <p className="border-b border-slate/10 bg-lime/40 px-5 py-2 text-xs font-bold text-slate">ÖNİZLEME · Tekil hizmetler ve web bakım</p>
         <div className="grid gap-6 p-5 lg:grid-cols-2 lg:p-8">
-          {Object.values(SINGLE).map((s) => (
+          {Object.values(src.SINGLE).map((s) => (
             <SinglePriceCard key={s.id} id={s.id} src={src} />
           ))}
           <div className="lg:col-span-2">

@@ -13,7 +13,7 @@ npm run preview
 - İlk çalıştırmada `.data/preview.env` oluşturulur ve terminalde **e-posta + şifre** yazdırılır.
 - Site: http://localhost:3000 · Panel: http://localhost:3000/admin
 - Veriler `.data/pglite` klasöründe kalıcıdır (sunucuyu kapatıp açınca kaybolmaz). `.data/` git'e eklenmez.
-- Fiyat "Yayımla" denildiğinde önizleme sunucusu siteyi yeniden derler ve yeniden başlatır (birkaç dakika). Üretimde bunu Vercel yapar.
+- Fiyat "Yayımla" denildiğinde sayfalar yeniden derleme olmadan, önbellek etiketiyle birkaç saniye içinde güncellenir.
 - Önizlemede yaptığınız fiyat ve içerik değişiklikleri yalnızca `.data/` klasöründe kalır; `src/data/` altındaki dosyalar değişmez. Bu yüzden yerelde denediğiniz fiyatlar yanlışlıkla git'e veya canlıya gitmez.
 - Yerel önizlemede sürüm numaraları zaman zaman atlayabilir (ör. v1 → v34); sunucu kapatılırken veritabanının kısa yoldan kapanmasından kaynaklanır, veriyi etkilemez.
 
@@ -26,7 +26,7 @@ npm run preview
 4. **Yayımla** → sürüm yayımlanır, site yeniden derlenir. Paket kartları, karşılaştırma tabloları, SSS cevaplarındaki tutarlar, yapılandırılmış veri (schema.org) ve WhatsApp mesajları aynı kaynaktan güncellenir.
 5. **Sürüm geçmişi → Bu sürüme dön**: eski sürümün kopyası yeni sürüm olarak yayımlanır; geçmiş silinmez.
 
-Fiyatlar hiçbir zaman kendiliğinden değişmez; başlangıç sürümü (v1) sitedeki mevcut fiyatlardır.
+Fiyatlar hiçbir zaman kendiliğinden değişmez; tek kaynak veritabanındaki yayımlanmış sürümdür.
 
 ### Markalar
 - Logo ekleyin: ad, (isteğe bağlı) bağlantı, başlık: **Müşteri logosu** veya **Araç / platform logosu**.
@@ -65,9 +65,9 @@ Fiyatlar hiçbir zaman kendiliğinden değişmez; başlangıç sürümü (v1) si
 | `ADMIN_EMAIL` | Giriş e-postası | Vercel → Settings → Environment Variables |
 | `ADMIN_PASSWORD_HASH` | Şifre özeti (şifrenin kendisi saklanmaz) | `npm run admin:hash` çıktısı |
 | `SESSION_SECRET` | Oturum çerezi imzası (≥32 karakter) | `npm run admin:hash -- --secret` çıktısı |
-| `DEPLOY_HOOK_URL` | Fiyat yayınında siteyi yeniden derlemek | Vercel → Settings → Git → Deploy Hooks → `main` için hook oluşturun, adresi buraya ekleyin |
+| `DEPLOY_HOOK_URL` | (Artık fiyat için gerekmez; isteğe bağlı/eski) | Fiyat yayını yeniden derleme gerektirmez; bu değişken fiyat akışında kullanılmaz |
 
-- **Önemli:** Deploy hook, Vercel projesine bağlı git dalını (ör. `main`) derler. Site şu an CLI ile (`vercel --prod`) yayınlandığı için git deposundaki kod geride kalmış olabilir. Hook'u kullanmadan önce güncel kodun git'e gönderilmiş olması gerekir; aksi hâlde hook eski kodu yayınlar.
-- Tablolar ilk bağlantıda otomatik oluşturulur; başlangıç fiyat sürümü sitedeki mevcut fiyatlardır.
-- Build öncesi `scripts/sync-content.mjs`, yayımlanmış fiyat sürümünü ve içerik anlık görüntüsünü veritabanından okur. Vercel'de `PORTZEN_DATABASE_URL` tanımlıyken veritabanı okunamazsa build durur (eski fiyatla yayına çıkılmaz).
-- Logolar, yorumlar ve işler kaydedildiği anda sitede yenilenir (önbellek etiketi). Fiyatlar derleme ile yayına çıkar, çünkü sayfalarda, SSS metinlerinde ve yapılandırılmış veride de kullanılır.
+- **Fiyatlar derleme gerektirmez:** "Yayımla" fiyat önbelleğini (`fiyatlar` etiketi) geçersiz kılar; tüm sayfalar (kartlar, SSS, başlık/açıklama, JSON-LD) ilk istekte veritabanındaki yeni fiyatla yeniden üretilir. Commit, build, deploy veya servis yeniden başlatma gerekmez.
+- Tablolar ilk bağlantıda otomatik oluşturulur; fiyat tutarı TOHUMLANMAZ (repoda tutar yok). Boş veritabanında ilk iş "Boş taslak oluştur" ile tutarları girip yayımlamaktır; yayımlanana kadar siteler fiyat yerine "Güncel fiyat bilgisi için bizimle iletişime geçin" gösterir.
+- Build öncesi `scripts/sync-content.mjs` yalnızca içerik (marka/yorum/iş) anlık görüntüsünü yazar; fiyat build'e gömülmez. Veritabanı okunamazsa sayfalar fiyatsız (200, SEO işaretlemesi yerinde) yayımlanır ve veritabanı dönünce kendiliğinden fiyatlanır.
+- Logolar, yorumlar ve işler kaydedildiği anda sitede yenilenir (önbellek etiketi: `cms`). Fiyatlar da aynı mantıkla `fiyatlar` etiketiyle anında yenilenir.

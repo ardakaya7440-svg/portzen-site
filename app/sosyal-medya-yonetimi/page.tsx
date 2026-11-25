@@ -19,7 +19,8 @@ import { cn } from "@/lib/utils";
 import { PricingSection } from "@/components/pricing/PricingSection";
 import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
 import { MoreDetails } from "@/components/visual/MoreDetails";
-import { formatTL, familyPriceSummary, AD_SPEND_CAP, AD_OVERAGE_RATE } from "@/data/pricing";
+import { formatTL, AD_SPEND_CAP, AD_OVERAGE_RATE, type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Sosyal Medya Yönetimi | Instagram + Facebook + TikTok Aylık Paket - PORTZEN" },
@@ -307,7 +308,9 @@ const sectors = [
 ];
 
 
-const comparison = [
+const buildComparison = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return [
   {
     axis: "Zaman",
     inhouse: "İçerik üretim, planlama, yayın ve yanıt için her hafta düzenli zaman",
@@ -334,6 +337,7 @@ const comparison = [
     agency: `Aylık paket: ${familyPriceSummary("sosyal-medya")} (KDV hariç)`
   }
 ];
+};
 
 const faqs = [
   {
@@ -366,7 +370,9 @@ const faqs = [
   }
 ];
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const comparison = buildComparison(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

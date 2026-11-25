@@ -18,7 +18,8 @@ import {
 import { cn } from "@/lib/utils";
 import { Reveal } from "@/components/ui/reveal";
 import { PricingSection, SinglePriceSection } from "@/components/pricing/PricingSection";
-import { type FamilyId, PRICING, SINGLE, familyOffersSchema, familyPriceSummary, resolvePriceTokens, singleOffersSchema, singlePriceLabel } from "@/data/pricing";
+import { type FamilyId, type Prices, familyOffersSchema, nonEmpty, singleOffersSchema, singlePriceLabel, singleAvailable, PRICE_CONTACT_INLINE } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 import { serviceByHref } from "@/data/catalog";
 import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
 
@@ -31,14 +32,15 @@ const LANDING_FAMILY: Record<ServiceSlug, FamilyId[] | "instagram-dm"> = {
   "crm-otomasyonu": ["is-otomasyonu"]
 };
 
-/** Merkezi fiyat kaynağından üretilen, her sektörel sayfada aynı olan fiyat soruları */
-function pricingFaq(service: ServiceSlug): { question: string; answer: string }[] {
+/** Fiyat kaynağından (veritabanı) üretilen, her sektörel sayfada aynı olan fiyat soruları */
+function pricingFaq(service: ServiceSlug, book: Prices): { question: string; answer: string }[] {
+  const { PRICING, SINGLE, familyPriceSummary } = book;
   const fam = LANDING_FAMILY[service];
   if (fam === "instagram-dm") {
     return [
       {
         question: "Instagram DM otomasyonunun fiyatı nedir?",
-        answer: `${singlePriceLabel(SINGLE["instagram-dm"])} (KDV hariç). Otomasyon platformu aboneliği hariçtir. Bu hizmet kural tabanlıdır; serbest sorulara AI ile yanıt, AI müşteri asistanı kapsamındadır.`
+        answer: `${singleAvailable(SINGLE["instagram-dm"]) ? singlePriceLabel(SINGLE["instagram-dm"]) : `Fiyat için ${PRICE_CONTACT_INLINE}`} (KDV hariç). Otomasyon platformu aboneliği hariçtir. Bu hizmet kural tabanlıdır; serbest sorulara AI ile yanıt, AI müşteri asistanı kapsamındadır.`
       },
       {
         question: "Instagram'da AI ile serbest yanıt istersem fiyat nedir?",
@@ -59,9 +61,10 @@ function caseTitle(t: string): string {
   return s ? s.charAt(0).toLocaleUpperCase("tr-TR") + s.slice(1) : t;
 }
 
-export function landingFaq(service: ServiceSlug, data: SectorLandingData) {
-  const own = data.faq.map((q) => ({ question: resolvePriceTokens(q.question), answer: resolvePriceTokens(q.answer) }));
-  return [...own, ...pricingFaq(service)];
+/** `data` fiyat yer tutucuları çözülmüş olmalıdır (getSectorLanding(..., book.resolvePriceTokens)). */
+export function landingFaq(service: ServiceSlug, data: SectorLandingData, book: Prices) {
+  const own = data.faq.map((q) => ({ question: book.resolvePriceTokens(q.question), answer: book.resolvePriceTokens(q.answer) }));
+  return [...own, ...pricingFaq(service, book)];
 }
 
 interface Props {
@@ -69,7 +72,9 @@ interface Props {
   data: SectorLandingData;
 }
 
-export function SectorLandingTemplate({ service, data }: Props) {
+export async function SectorLandingTemplate({ service, data }: Props) {
+  const book = await getPrices();
+  const { PRICING } = book;
   const meta = SERVICE_META[service];
   const crossLinks = getCrossLinksForSector(service, data.sectorSlug);
   /** Ana hizmet sayfası katalogda varsa "Kısaca" bloğu gösterilir (ör. /ai-reklam-videosu katalogda yok). */
@@ -272,7 +277,7 @@ export function SectorLandingTemplate({ service, data }: Props) {
         </div>
       </section>
 
-      {/* FİYATLAR — kaynak: src/data/pricing.ts (sektörden bağımsız, tüm sayfalarda aynı) */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices), sektörden bağımsız, tüm sayfalarda aynı */}
       {LANDING_FAMILY[service] === "instagram-dm" ? (
         <>
           <SinglePriceSection
@@ -314,7 +319,7 @@ export function SectorLandingTemplate({ service, data }: Props) {
             </div>
           </Reveal>
           <div className="grid gap-5 lg:grid-cols-2">
-            {landingFaq(service, data).map((q, i) => (
+            {landingFaq(service, data, book).map((q, i) => (
               <Reveal key={i} delay={i * 50}>
                 <div className="border-3 border-ink/10 bg-light p-5 rounded-2xl">
                   <h3 className="font-display text-lg font-black leading-tight mb-2">{q.question}</h3>
@@ -397,7 +402,8 @@ export function SectorLandingTemplate({ service, data }: Props) {
 
 /* Schema JSON builders — page.tsx içinde kullanılır */
 
-export function buildServiceSchema(service: ServiceSlug, data: SectorLandingData) {
+export function buildServiceSchema(service: ServiceSlug, data: SectorLandingData, book: Prices) {
+  const { PRICING, SINGLE } = book;
   const meta = SERVICE_META[service];
   return {
     "@context": "https://schema.org",
@@ -412,7 +418,7 @@ export function buildServiceSchema(service: ServiceSlug, data: SectorLandingData
     },
     serviceType: meta.label,
     areaServed: { "@type": "Country", name: "Turkey" },
-    offers: (() => {
+    offers: nonEmpty((() => {
       const fam = LANDING_FAMILY[service];
       return fam === "instagram-dm"
         ? [
@@ -420,12 +426,12 @@ export function buildServiceSchema(service: ServiceSlug, data: SectorLandingData
             ...familyOffersSchema(PRICING["ai-musteri-asistani"])
           ]
         : fam.flatMap((id) => familyOffersSchema(PRICING[id]));
-    })()
+    })())
   };
 }
 
-export function buildFaqSchema(data: SectorLandingData, service?: ServiceSlug) {
-  const faq = service ? landingFaq(service, data) : data.faq;
+export function buildFaqSchema(data: SectorLandingData, service: ServiceSlug | undefined, book: Prices) {
+  const faq = service ? landingFaq(service, data, book) : data.faq;
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",

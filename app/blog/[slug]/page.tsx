@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import { Reveal } from "@/components/ui/reveal";
 import { getInfraService, infraHref, infraWhatsAppText } from "@/data/infra-services";
 import { InfraCta } from "@/components/infra/InfraCta";
+import { getPrices } from "@/server/price-source";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -61,7 +62,9 @@ function formatDate(iso: string) {
 
 export default async function BlogPostPage(props: Props) {
   const params = await props.params;
-  const post = await getPostBySlug(params.slug);
+  // Yazıdaki {{fiyat…}} yer tutucuları fiyat kaynağından (veritabanı) çözülür
+  const book = await getPrices();
+  const post = await getPostBySlug(params.slug, book.resolvePriceTokens);
   if (!post) notFound();
 
   const related = getRelatedPosts(post, 3);

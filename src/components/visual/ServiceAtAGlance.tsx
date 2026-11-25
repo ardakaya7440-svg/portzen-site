@@ -3,6 +3,7 @@ import { ArrowDown, Check } from "lucide-react";
 import { categoryOf, serviceByHref } from "@/data/catalog";
 import { DEFAULT_STEPS, SERVICE_GLANCE } from "@/data/service-glance";
 import { getPublicContent } from "@/server/cms";
+import { getPrices } from "@/server/price-source";
 import { fromPrice } from "@/components/cms/ServiceCards";
 import { Media } from "@/components/cms/Media";
 import { Illustration } from "./Illustrations";
@@ -21,7 +22,7 @@ export async function ServiceAtAGlance({ href, priceAnchor = "#fiyatlar" }: { hr
   const visual = cms.services.find((s) => s.serviceKey === href);
   const cat = categoryOf(href) ?? "web-yazilim";
   const steps = glance.steps ?? DEFAULT_STEPS[cat];
-  const price = fromPrice(item);
+  const price = fromPrice(item, await getPrices());
   return (
     <section aria-labelledby="kisaca" className="border-t border-slate/10 bg-white py-16 lg:py-24">
       <div className="mx-auto max-w-container px-6">

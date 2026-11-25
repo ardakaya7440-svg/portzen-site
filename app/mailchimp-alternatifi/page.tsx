@@ -19,7 +19,8 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
-import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
+import { type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 import { PricingSection } from "@/components/pricing/PricingSection";
 
 export const metadata: Metadata = {
@@ -228,7 +229,9 @@ const features = [
   { icon: HeadphonesIcon, title: "Türkçe destek + eğitim", desc: "WhatsApp + telefon ile Türkçe canlı destek. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahil; Türkçe video kütüphanesi." }
 ];
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary, maintenanceSummary } = B;
+  return [
   {
     q: "Mailchimp'in Essentials planı ucuz görünüyor, neden alternatif?",
     a: `Mailchimp Essentials kişi başına ücretlendirir; liste büyüdükçe fatura basamak basamak katlanır. Üstelik otomasyon journey sayısı kısıtlı, gelişmiş segmentasyon, multivariate test, predictive segmentation gibi özellikler Standard / Premium plana özeldir. PORTZEN'de bu özellikler plan kilidine bağlı değildir; kurulacak iş akışı ve uygulama bağlantısı sayısı seçilen pakete göre belirlenir. PORTZEN iş otomasyonu paketleri tek seferliktir (KDV hariç): ${familyPriceSummary("is-otomasyonu")}. İsteğe bağlı aylık bakım ikinci aydan itibaren ${maintenanceSummary()}.`
@@ -258,8 +261,11 @@ const faqs = [
     a: "PORTZEN, İleti Yönetim Sistemi (İYS) ile API üzerinden entegre çalışır. Her gönderim öncesi izin durumu kontrol edilir, izinsiz adres listeden düşer. Açık rıza alma akışı (web form, kasa kasası, double opt-in), izin iptal linki, KVKK aydınlatma metni şablonu, veri silme talep yönetimi paket dahildir. Mailchimp ABD/AB sunucu kullanır, KVKK uyumu tamamen sizin sorumluluğunuzdadır."
   }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

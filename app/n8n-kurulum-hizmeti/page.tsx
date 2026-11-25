@@ -19,7 +19,8 @@ import {
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 import { PricingSection } from "@/components/pricing/PricingSection";
-import { PRICING, familyOffersSchema, formatTL } from "@/data/pricing";
+import { familyOffersSchema, formatTL, type Prices, PRICE_CONTACT_SHORT, nonEmpty } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "n8n Kurulum Hizmeti | Self-Hosted Otomasyon Türkiye — PORTZEN" },
@@ -54,7 +55,9 @@ export const metadata: Metadata = {
   robots: pageRobots({ index: true, follow: true })
 };
 
-const serviceSchema = {
+const buildServiceSchema = (B: Prices) => {
+  const { PRICING } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "n8n Self-Hosted Kurulum Hizmeti",
@@ -69,7 +72,8 @@ const serviceSchema = {
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
     "n8n iş akışı otomasyon aracının self-hosted kurulumu: VPS/DigitalOcean üzerine Docker + SSL + otomatik backup, Türk uygulamalar (Logo, Mikro, Iyzico, NetGSM, WhatsApp Business API) entegrasyonu, Türkçe ekip eğitimi (Büyüme ve Kurumsal paketlerde) ve isteğe bağlı aylık bakım.",
-  offers: familyOffersSchema(PRICING["is-otomasyonu"])
+  offers: nonEmpty(familyOffersSchema(PRICING["is-otomasyonu"]))
+};
 };
 
 const faqSchema = {
@@ -149,12 +153,15 @@ const breadcrumbSchema = {
   ]
 };
 
-const stats = [
-  { metric: `${formatTL(PRICING["is-otomasyonu"].tiers.baslangic.price)}`, label: "Başlangıç kurulum (tek seferlik)" },
+const buildStats = (B: Prices) => {
+  const { PRICING } = B;
+  return [
+  { metric: Number.isFinite(PRICING["is-otomasyonu"].tiers.baslangic.price) ? formatTL(PRICING["is-otomasyonu"].tiers.baslangic.price) : PRICE_CONTACT_SHORT, label: "Başlangıç kurulum (tek seferlik)" },
   { metric: "0₺", label: "Lisans bedeli (self-hosted)" },
   { metric: "2–12", label: "Pakete göre iş akışı" },
   { metric: "TR", label: "Türk uygulamalar dahil" }
 ];
+};
 
 const problems = [
   "Zapier USD bazlı; Professional planı $89/ay ($1.068/yıl ≈ ₺40.000+) ve task başına ücretlendirme yapıyor.",
@@ -275,7 +282,10 @@ const faqs = [
   }
 ];
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const serviceSchema = buildServiceSchema(B);
+  const stats = buildStats(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

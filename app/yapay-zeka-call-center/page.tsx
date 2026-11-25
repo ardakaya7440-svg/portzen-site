@@ -27,7 +27,8 @@ import { cn } from "@/lib/utils";
 import { SinglePriceSection } from "@/components/pricing/PricingSection";
 import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
 import { MoreDetails } from "@/components/visual/MoreDetails";
-import { SINGLE, singleOffersSchema, singlePriceLabel } from "@/data/pricing";
+import { singleOffersSchema, singlePriceLabel, type Prices, nonEmpty } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Yapay Zeka Call Center | Türkçe Sesli AI Müşteri Hizmetleri - PORTZEN" },
@@ -64,7 +65,9 @@ export const metadata: Metadata = {
   robots: pageRobots({ index: true, follow: true })
 };
 
-const serviceSchema = {
+const buildServiceSchema = (B: Prices) => {
+  const { SINGLE } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Yapay Zeka Call Center Kurulumu ve Yönetimi",
@@ -84,9 +87,10 @@ const serviceSchema = {
   areaServed: [
     { "@type": "Country", name: "Turkey" }
   ],
-  offers: singleOffersSchema(SINGLE["ai-telefon-asistani"]),
+  offers: nonEmpty(singleOffersSchema(SINGLE["ai-telefon-asistani"])),
   description:
     "PORTZEN, KOBİ ve kurumsal işletmeler için Türkçe konuşan yapay zeka call center kurar. 7/24 çağrı karşılama, randevu açma, fiyat bilgisi, sipariş alma ve gerektiğinde insan operatöre aktarım. Premium Türkçe ses kütüphanesi, kurumsal sesli AI konuşma altyapısı, kurumsal konuşma tanıma motoru ve kurumsal telefon altyapısı ile düşük gecikmeli, doğal Türkçe aksanlı sesli AI asistan."
+};
 };
 
 const faqSchema = {
@@ -306,7 +310,9 @@ const sectors = [
 ];
 
 
-const comparison = [
+const buildComparison = (B: Prices) => {
+  const { SINGLE } = B;
+  return [
   {
     criteria: "Aylık toplam maliyet",
     classic: "5 kişi + yer + ekipman maaş ve giderleri",
@@ -348,6 +354,7 @@ const comparison = [
     ai: "Otomatik özet + tam ses kaydı"
   }
 ];
+};
 
 const faqs = [
   {
@@ -380,7 +387,10 @@ const faqs = [
   }
 ];
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const serviceSchema = buildServiceSchema(B);
+  const comparison = buildComparison(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

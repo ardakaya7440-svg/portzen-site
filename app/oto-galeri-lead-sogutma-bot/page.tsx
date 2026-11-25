@@ -13,7 +13,8 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
-import { familyPriceSummary } from "@/data/pricing";
+import { type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Oto Galeri Lead Soğutma WhatsApp Bot | PORTZEN" },
@@ -63,7 +64,9 @@ const serviceSchema = {
     "Oto galeri ve galeri sitelerinden gelen leadleri (WhatsApp, ilan bağlantısı, form) otomatik karşılayan, sıcak-ılık-soğuk olarak segmentleyip test sürüşü, kredi ve ekspertize yönlendiren kurumsal AI botu."
 };
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -74,6 +77,7 @@ const faqSchema = {
     { "@type": "Question", name: "Fiyat ne kadar?", acceptedAnswer: { "@type": "Answer", text: `AI müşteri asistanı paketleri (KDV hariç): ${familyPriceSummary("ai-musteri-asistani")}. Galerideki araç sayısı, aylık lead hacmi ve şube sayısı hangi paketin yeteceğini belirler. Test sürüşü randevusu ve CRM entegrasyonu Büyüme ve Kurumsal paketlerde yer alır; Başlangıç paketi tek kanalda (WhatsApp veya web sitesi) sık sorulan soruları yanıtlar ve müşteri bilgisi toplar. Meta mesaj ücretleri hizmet bedeline dahil değildir.` } },
     { "@type": "Question", name: "İkinci el ve sıfır km ayrı akışları var mı?", acceptedAnswer: { "@type": "Answer", text: "Evet. 2. el için ekspertiz, garanti, geçmiş kilometre gibi sorular; sıfır km için kredi, teslim tarihi, tramer sorusu gibi ayrı akışlar kuruluyor. Aracın özelliğine göre bot doğru senaryo ile karşılıyor." } }
   ]
+};
 };
 
 const breadcrumbSchema = {
@@ -117,7 +121,9 @@ const features = [
   { icon: Snowflake, title: "Satıldı otomasyonu", desc: "Panelde 'satıldı' işaretinden sonra o araca gelen yeni mesajlara alternatif araç önerir; talep boşa gitmez." }
 ];
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return [
   { q: "Bot 40 ayrı ilana ayrı akış kurabilir mi?", a: "Evet. Her aracın kendi veri kartı vardır: km, tramer, garanti, video, ekspertiz raporu, fiyat notu. Bot mesajı hangi ilandan geldiğini bilerek doğru cevabı verir. Panelden herhangi bir aracı 'satıldı' işaretlemek yeterli." },
   { q: "Sıcak leadi nasıl anlıyor?", a: "Belirli sinyaller var: test sürüşü isteme, kredi sorma, aracın 'şimdi bakıp gelmek istiyorum' demesi, takas aracı fotoğrafı göndermesi. Sistem bu sinyalleri okuduğunda satıcıya anında bildirim gönderir. Ilık lead ise 'bakalım', 'düşünüyorum', 'başka aracınız var mı' gibi cevaplarda 48 saat sonra tekrar temas kurulur." },
   { q: "Fiyat ne kadar?", a: `AI müşteri asistanı paketleri (KDV hariç): ${familyPriceSummary("ai-musteri-asistani")}. Galerideki araç sayısı, aylık lead hacmi ve şube sayısı hangi paketin yeteceğini belirler. Test sürüşü randevusu ve CRM entegrasyonu Büyüme ve Kurumsal paketlerde yer alır; Başlangıç paketi tek kanalda (WhatsApp veya web sitesi) sık sorulan soruları yanıtlar ve müşteri bilgisi toplar. Meta mesaj ücretleri hizmet bedeline dahil değildir.` },
@@ -125,8 +131,12 @@ const faqs = [
   { q: "Kredi ve ekspertiz partnerlerimden ek gelir yaratır mı?", a: "Bot müşteriyi anlaşmalı kredi/ekspertiz linkine yönlendirir; partnerlerinizle anlaşmanıza göre galeri komisyon veya sabit ücret alabilir. Bu tutarlar sizin partner anlaşmanıza bağlıdır; yönlendirme akışını brief görüşmesinde birlikte kurgularız." },
   { q: "Personel bunu kullanabilecek mi?", a: "Satıcı sadece 'sıcak lead düştü' bildirimini alır, panelden konuşmayı devralır. Ekleme/güncelleme yapmak istediğinde tek sayfa panel yeter; panel kullanımı kısa bir tanıtımla gösterilir." }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const faqSchema = buildFaqSchema(B);
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

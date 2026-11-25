@@ -30,7 +30,8 @@ import { cn } from "@/lib/utils";
 import { PricingSection } from "@/components/pricing/PricingSection";
 import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
 import { MoreDetails } from "@/components/visual/MoreDetails";
-import { formatTL, familyPriceSummary, AD_SPEND_CAP, AD_OVERAGE_RATE } from "@/data/pricing";
+import { formatTL, AD_SPEND_CAP, AD_OVERAGE_RATE, type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Meta Reklam Ajansı | Facebook + Instagram Reklam Yönetimi - PORTZEN" },
@@ -82,7 +83,9 @@ const serviceSchema = {
     "Facebook ve Instagram reklamlarının kurulumu, kreatif üretimi, A/B testleme, Pixel + Conversions API entegrasyonu ve haftalık raporlama dahil tam kapsamlı Meta reklam yönetimi. KOBİ ve markalar için ROAS odaklı yönetim."
 };
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -143,6 +146,7 @@ const faqSchema = {
       }
     }
   ]
+};
 };
 
 const breadcrumbSchema = {
@@ -281,7 +285,9 @@ const cities = [
 ];
 
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return [
   {
     q: "Meta reklam ajansı ile çalışmak ne kadara mal olur?",
     a: `Reklam yönetimi aylık üç pakettir (KDV hariç): ${familyPriceSummary("reklam-yonetimi")}. Başlangıç Meta veya Google'da aylık ${formatTL(AD_SPEND_CAP.baslangic)}'ye, Büyüme Meta + Google'da ${formatTL(AD_SPEND_CAP.buyume)}'ye, Kurumsal ${formatTL(AD_SPEND_CAP.kurumsal)}'ye kadar harcamayı kapsar. Reklam bütçesi her zaman doğrudan platforma ödenir; sınır aşılırsa yalnızca aşan tutarın %${Math.round(AD_OVERAGE_RATE * 100)}'u eklenir. Sosyal medya paketindeki reklam hizmetinden geçerken dahil hizmet bedeli mahsup edilir.`
@@ -311,8 +317,12 @@ const faqs = [
     a: "E-ticaret, hizmet sektörü ve yerel işletmelerde yoğunlaşıyoruz. Eczane, estetik klinik, emlak ofisi, restoran, butik mağaza, oto servis, hukuk bürosu, online eğitim ve B2B SaaS firmaları odaklandığımız sektörler arasında. Tüm Türkiye'ye uzaktan hizmet veriyoruz, İzmir merkezli operasyon yürütüyoruz. İzmir, İstanbul ve Ankara için yerinde brief toplantısı da planlayabiliriz."
   }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const faqSchema = buildFaqSchema(B);
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

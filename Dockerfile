@@ -34,7 +34,8 @@ ENV NODE_OPTIONS=--max-old-space-size=2048 \
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 # Build aşaması veritabanına BAĞLANMAZ: parola imaja, katman geçmişine veya build loguna girmez.
-# İçerik/fiyat repodaki src/data anlık görüntüsünden derlenir (PORTZEN_ALLOW_LOCAL_DB yalnızca bu RUN satırında,
+# Fiyat build'e GÖMÜLMEZ: tek kaynak çalışma anında Neon veritabanıdır (etiketli önbellek, admin değişikliği anında yansır).
+# İçerik (CMS) yedeği repodaki src/data anlık görüntüsünden derlenir (PORTZEN_ALLOW_LOCAL_DB yalnızca bu RUN satırında,
 # runner aşamasına taşınmaz). Çalışma zamanında PORTZEN_DATABASE_URL (runtime-only env) ile gerçek Postgres kullanılır.
 RUN unset PORTZEN_DATABASE_URL; PORTZEN_ALLOW_LOCAL_DB=1 PGLITE_DIR=/tmp/pglite-build npm run build \
     && rm -rf /tmp/pglite-build .data && npm prune --omit=dev

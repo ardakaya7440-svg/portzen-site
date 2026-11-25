@@ -5,7 +5,6 @@ import readingTime from "reading-time";
 import { remark } from "remark";
 import html from "remark-html";
 import gfm from "remark-gfm";
-import { resolvePriceTokens } from "@/data/pricing";
 
 export type BlogCategory =
   | "ai"
@@ -72,15 +71,16 @@ function normalizeSlug(slug: string): string {
   return s.normalize("NFC");
 }
 
-function readMarkdownFile(rawSlug: string) {
+function readMarkdownFile(rawSlug: string, resolveTokens?: (text: string) => string) {
   const slug = normalizeSlug(rawSlug);
   if (slug.includes("/") || slug.includes("..")) return null;
   const fullPath = path.join(CONTENT_DIR, `${slug}.md`);
   if (!fs.existsSync(fullPath)) return null;
   const raw = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(raw);
-  // PORTZEN fiyatları yazıya elle yazılmaz; {{fiyat:…}} yer tutucuları merkezi kaynaktan çözülür
-  return { data: data as Record<string, unknown>, content: resolvePriceTokens(content) };
+  // PORTZEN fiyatları yazıya elle yazılmaz; {{fiyat:…}} yer tutucuları fiyat kaynağından (veritabanı) çözülür.
+  // Çözümleyici verilmezse (liste/sitemap) yer tutucular ham kalır; yalnızca okuma süresi hesabında kullanılır.
+  return { data: data as Record<string, unknown>, content: resolveTokens ? resolveTokens(content) : content };
 }
 
 function buildMeta(slug: string, data: Record<string, unknown>, content: string): BlogPostMeta {
@@ -125,9 +125,10 @@ export function getAllPostsMeta(): BlogPostMeta[] {
   return list.sort((a, b) => (a.publishedAt > b.publishedAt ? -1 : 1));
 }
 
-export async function getPostBySlug(rawSlug: string): Promise<BlogPost | null> {
+/** `resolveTokens`: book.resolvePriceTokens (fiyat yer tutucuları). Yazı sayfası her zaman bunu vermelidir. */
+export async function getPostBySlug(rawSlug: string, resolveTokens?: (text: string) => string): Promise<BlogPost | null> {
   const slug = normalizeSlug(rawSlug);
-  const file = readMarkdownFile(slug);
+  const file = readMarkdownFile(slug, resolveTokens);
   if (!file) return null;
   const meta = buildMeta(slug, file.data, file.content);
   // Sayfa başlığı (H1) şablonda zaten gösteriliyor; içerikteki ilk "# Başlık" satırı çift H1 olmasın diye atlanır

@@ -1,6 +1,6 @@
 import path from 'node:path';
 
-// Yerel önizleme: fiyat ve içerik anlık görüntüsü .data/generated/ klasöründen okunur (src/data/ değişmez).
+// Yerel önizleme: içerik (CMS) anlık görüntüsü .data/generated/ klasöründen okunur (src/data/ değişmez). Fiyat anlık görüntüsü YOKTUR (fiyat tek kaynağı veritabanı).
 const previewDataDir = process.env.PZ_PREVIEW_DATA_DIR ? path.resolve(process.env.PZ_PREVIEW_DATA_DIR) : null;
 
 // Önizleme veri dosyalarının yerine geçecek yollar (yalnızca PZ_PREVIEW_DATA_DIR tanımlıyken).
@@ -10,8 +10,6 @@ const previewDataDir = process.env.PZ_PREVIEW_DATA_DIR ? path.resolve(process.en
 const rel = (f) => './' + path.relative(process.cwd(), path.join(previewDataDir, f)).split(path.sep).join('/');
 const previewAliases = previewDataDir
   ? {
-      '@/data/pricing.published.json': rel('pricing.published.json'),
-      './pricing.published.json': rel('pricing.published.json'),
       '@/data/cms.snapshot.json': rel('cms.snapshot.json')
     }
   : null;
@@ -46,7 +44,6 @@ const nextConfig = {
         turbopack: { resolveAlias: previewAliases },
         webpack(config, { webpack }) {
           config.plugins.push(
-            new webpack.NormalModuleReplacementPlugin(/pricing\.published\.json$/, path.join(previewDataDir, 'pricing.published.json')),
             new webpack.NormalModuleReplacementPlugin(/cms\.snapshot\.json$/, path.join(previewDataDir, 'cms.snapshot.json'))
           );
           return config;

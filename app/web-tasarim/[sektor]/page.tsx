@@ -12,6 +12,7 @@ import {
   getSectorLanding,
   getSectorSlugsForService
 } from "@/lib/landings";
+import { getPrices } from "@/server/price-source";
 
 const SERVICE = "web-tasarim" as const;
 
@@ -25,7 +26,8 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { sektor } = await params;
-  const data = getSectorLanding(SERVICE, sektor);
+  const book = await getPrices();
+  const data = getSectorLanding(SERVICE, sektor, book.resolvePriceTokens);
   if (!data) return { title: { absolute: "Sayfa bulunamadı — PORTZEN" } };
 
   const url = `https://portzenai.com/${SERVICE}/${data.sectorSlug}`;
@@ -53,18 +55,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params }: Props) {
   const { sektor } = await params;
-  const data = getSectorLanding(SERVICE, sektor);
+  const book = await getPrices();
+  const data = getSectorLanding(SERVICE, sektor, book.resolvePriceTokens);
   if (!data) notFound();
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildServiceSchema(SERVICE, data)) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildServiceSchema(SERVICE, data, book)) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqSchema(data, SERVICE)) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqSchema(data, SERVICE, book)) }}
       />
       <script
         type="application/ld+json"

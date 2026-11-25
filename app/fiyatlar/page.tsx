@@ -8,14 +8,30 @@ import {
   SinglePriceCard,
   WebMaintenanceRow
 } from "@/components/pricing/PricingSection";
-import { type FamilyId, PRICING, SINGLE, TIER_NAMES, familyOffersSchema, formatTL, whatsappUrl, QUOTA_NOTE, WEB_MAINTENANCE_HOURS, tierPriceLabel } from "@/data/pricing";
+import { type FamilyId, TIER_NAMES, familyOffersSchema, formatTL, whatsappUrl, QUOTA_NOTE, WEB_MAINTENANCE_HOURS, tierPriceLabel, type Prices, singleAvailable, PRICE_CONTACT_INLINE } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
-const sm = PRICING["sosyal-medya"].tiers;
-const ai = PRICING["ai-musteri-asistani"].tiers;
+const buildSm = (B: Prices) => {
+  const { PRICING } = B;
+  return PRICING["sosyal-medya"].tiers;
+};
 
-export const metadata: Metadata = {
+const buildAi = (B: Prices) => {
+  const { PRICING } = B;
+  return PRICING["ai-musteri-asistani"].tiers;
+};
+
+export async function generateMetadata(): Promise<Metadata> {
+  const B = await getPrices();
+  const sm = buildSm(B);
+  const ai = buildAi(B);
+  // Fiyat okunamıyorsa description'da tutar yazılmaz
+  const priced = Number.isFinite(sm.baslangic.price) && Number.isFinite(ai.baslangic.price);
+  return {
   title: "Fiyatlar | Sosyal medya, video, reklam, AI asistan, otomasyon ve web paketleri",
-  description: `PORTZEN paket fiyatları KDV hariç: sosyal medya yönetimi aylık ${formatTL(sm.baslangic.price)}'den, AI müşteri asistanı aylık ${formatTL(ai.baslangic.price)} + kurulum. Başlangıç, Büyüme ve Kurumsal paketlerin kapsamı tek sayfada.`,
+  description: priced
+    ? `PORTZEN paket fiyatları KDV hariç: sosyal medya yönetimi aylık ${formatTL(sm.baslangic.price)}'den, AI müşteri asistanı aylık ${formatTL(ai.baslangic.price)} + kurulum. Başlangıç, Büyüme ve Kurumsal paketlerin kapsamı tek sayfada.`
+    : "PORTZEN paket kapsamları tek sayfada: sosyal medya, video, reklam, AI müşteri asistanı, otomasyon ve web paketleri. Güncel fiyat bilgisi için bizimle iletişime geçin.",
   alternates: { canonical: "https://portzenai.com/fiyatlar" },
   openGraph: {
     type: "website",
@@ -27,6 +43,7 @@ export const metadata: Metadata = {
   },
   robots: pageRobots({ index: true, follow: true })
 };
+}
 
 const FAMILIES: { id: FamilyId; anchor: string }[] = [
   { id: "online-is-paketi", anchor: "online-is-kurma-paketi" },
@@ -40,7 +57,16 @@ const FAMILIES: { id: FamilyId; anchor: string }[] = [
   { id: "e-ticaret", anchor: "e-ticaret" }
 ];
 
-const FAQ = [
+/** ", 1.500 TL / ay" gibi ek; fiyat yoksa boş */
+const lbl = (PRICING: Prices["PRICING"], id: "baslangic" | "buyume" | "kurumsal") => {
+  const l = tierPriceLabel(PRICING["web-bakim"], id);
+  return l ? `, ${l}` : "";
+};
+
+const buildFAQ = (B: Prices) => {
+  const { PRICING } = B;
+  const ai = buildAi(B);
+  return [
   {
     q: "Fiyatlara KDV dahil mi?",
     a: "Hayır. Sitedeki tüm tutarlar TL ve KDV hariçtir."
@@ -51,7 +77,7 @@ const FAQ = [
   },
   {
     q: "Kurulum bedeli olan hizmetler hangileri?",
-    a: `AI müşteri asistanı aylık ücretin yanında tek seferlik kurulum bedeli içerir (Başlangıç ${formatTL(ai.baslangic.setupFee ?? 0)}, Büyüme ${formatTL(ai.buyume.setupFee ?? 0)}, Kurumsal ${formatTL(ai.kurumsal.setupFee ?? 0)}). Instagram DM otomasyonu ve AI telefon asistanında da kurulum bedeli vardır. İş otomasyonu tek seferlik kurulumdur; aylık bakım isteğe bağlıdır.`
+    a: `AI müşteri asistanı aylık ücretin yanında tek seferlik kurulum bedeli içerir${Number.isFinite(ai.baslangic.setupFee) ? ` (Başlangıç ${formatTL(ai.baslangic.setupFee!)}, Büyüme ${formatTL(ai.buyume.setupFee!)}, Kurumsal ${formatTL(ai.kurumsal.setupFee!)})` : ""}. Instagram DM otomasyonu ve AI telefon asistanında da kurulum bedeli vardır. İş otomasyonu tek seferlik kurulumdur; aylık bakım isteğe bağlıdır.`
   },
   {
     q: "Kurumsal paket, alt paketlerin adetlerini de içerir mi?",
@@ -59,7 +85,7 @@ const FAQ = [
   },
   {
     q: "Web bakımda kaç saatlik çalışma var?",
-    a: `Web bakım paketlerinde ayda toplam ${WEB_MAINTENANCE_HOURS.baslangic} saat (Başlangıç, ${tierPriceLabel(PRICING["web-bakim"], "baslangic")}), ${WEB_MAINTENANCE_HOURS.buyume} saat (Büyüme, ${tierPriceLabel(PRICING["web-bakim"], "buyume")}) veya ${WEB_MAINTENANCE_HOURS.kurumsal} saat (Kurumsal, ${tierPriceLabel(PRICING["web-bakim"], "kurumsal")}) bakım ve değişiklik vardır. Süreler birbirine eklenmez, kullanılmayan saatler devretmez. Yeni modül ve kapsamlı tasarım çalışmaları ayrıca tekliflendirilir.`
+    a: `Web bakım paketlerinde ayda toplam ${WEB_MAINTENANCE_HOURS.baslangic} saat (Başlangıç${lbl(PRICING, "baslangic")}), ${WEB_MAINTENANCE_HOURS.buyume} saat (Büyüme${lbl(PRICING, "buyume")}) veya ${WEB_MAINTENANCE_HOURS.kurumsal} saat (Kurumsal${lbl(PRICING, "kurumsal")}) bakım ve değişiklik vardır. Süreler birbirine eklenmez, kullanılmayan saatler devretmez. Yeni modül ve kapsamlı tasarım çalışmaları ayrıca tekliflendirilir.`
   },
   {
     q: "Reklam bütçesi pakete dahil mi?",
@@ -74,8 +100,14 @@ const FAQ = [
     a: "Hayır. İzlenme, takipçi, satış veya viral başarı garantisi vermiyoruz. Teslim edilecek işleri, adetleri ve sınırları paket kapsamında açıkça yazıyoruz."
   }
 ];
+};
 
-export default function FiyatlarPage() {
+export default async function FiyatlarPage(){
+  const B = await getPrices();
+  const { PRICING, SINGLE } = B;
+  const sm = buildSm(B);
+  const ai = buildAi(B);
+  const FAQ = buildFAQ(B);
   const offerCatalog = {
     "@context": "https://schema.org",
     "@type": "OfferCatalog",
@@ -85,7 +117,7 @@ export default function FiyatlarPage() {
       "@type": "OfferCatalog",
       name: PRICING[id].title,
       itemListElement: familyOffersSchema(PRICING[id])
-    }))
+    })).filter((c) => c.itemListElement.length > 0)
   };
   const faqSchema = {
     "@context": "https://schema.org",
@@ -220,9 +252,15 @@ export default function FiyatlarPage() {
             </div>
           </div>
           <p className="mt-6 text-sm text-slate/60">
-            Özel projeler: {SINGLE["ozel-web-uygulamasi"].title} {formatTL(SINGLE["ozel-web-uygulamasi"].price)}&apos;den,{" "}
-            {SINGLE["mobil-uygulama"].title.toLowerCase()} {formatTL(SINGLE["mobil-uygulama"].price)}&apos;den, {SINGLE["mobil-oyun"].title.toLowerCase()}{" "}
-            {formatTL(SINGLE["mobil-oyun"].price)}&apos;den başlar.
+            {singleAvailable(SINGLE["ozel-web-uygulamasi"]) && singleAvailable(SINGLE["mobil-uygulama"]) && singleAvailable(SINGLE["mobil-oyun"]) ? (
+              <>
+                Özel projeler: {SINGLE["ozel-web-uygulamasi"].title} {formatTL(SINGLE["ozel-web-uygulamasi"].price)}&apos;den,{" "}
+                {SINGLE["mobil-uygulama"].title.toLowerCase()} {formatTL(SINGLE["mobil-uygulama"].price)}&apos;den, {SINGLE["mobil-oyun"].title.toLowerCase()}{" "}
+                {formatTL(SINGLE["mobil-oyun"].price)}&apos;den başlar.
+              </>
+            ) : (
+              <>Özel projelerde kesin bedel kapsama göre belirlenir; {PRICE_CONTACT_INLINE}.</>
+            )}
           </p>
         </div>
       </section>

@@ -32,6 +32,9 @@ async function connect(): Promise<Db> {
     const pool = new Pool({
       connectionString: url,
       max: 5,
+      // Veritabanı ulaşılamazsa istekler asılı kalmasın (fiyat okuma yolu hızlı hata verip "fiyat yok" gösterir)
+      connectionTimeoutMillis: 5000,
+      query_timeout: 15000,
       ssl: local || /sslmode=disable/.test(url) ? undefined : { rejectUnauthorized: false }
     });
     return {

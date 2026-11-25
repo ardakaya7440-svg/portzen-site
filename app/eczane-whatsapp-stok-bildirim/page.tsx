@@ -12,7 +12,8 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
-import { familyPriceSummary } from "@/data/pricing";
+import { type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Eczane WhatsApp Stok Bildirim Sistemi 2026 | PORTZEN" },
@@ -62,7 +63,9 @@ const serviceSchema = {
     "Eczaneye yok denilen ilaç stoğa girdiğinde ilgili müşteriye otomatik WhatsApp bildirim gönderen sistem. Bekleme listesi, KVKK gerekliliklerini dikkate alan (aydınlatma, açık rıza) mesaj gönderimi, doğrudan yanıt yönetimi dahil."
 };
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -116,6 +119,7 @@ const faqSchema = {
     }
   ]
 };
+};
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -163,7 +167,9 @@ const features = [
   { icon: ShieldCheck, title: "KVKK açık rıza akışı", desc: "İlk temasta aydınlatma ve açık rıza, silme talebinde panelden veri temizleme, erişim kaydı. Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir." }
 ];
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return [
   { q: "Sistem ne için var?", a: "Eczaneye gelen 'bu ilaç yok mu?' sorusunu kayba dönüştürmemek için. Müşterinin WhatsApp numarasını aydınlatma ve açık rıza adımıyla alır, ilaç stoğa girdiği an tek tıkla otomatik bildirim gönderir. Böylece 'yok' cevabı kayıtlı bir bekleme listesine dönüşür ve müşteriyle doğrudan bir iletişim kanalı kurulur." },
   { q: "Personelim bu sistemi kullanabilecek mi?", a: "Panel tek sayfada tasarlanır — ilaç adı yaz, 'stoğa girdi' de, sistem gerisini halleder. 15 dakikalık ekran paylaşımı eğitimiyle kalfa da eczacı da rahatça kullanır. Yazılı tek sayfa cheat sheet de teslim ediyoruz." },
   { q: "Aynı ilacı 20 kişi bekliyorsa herkese aynı anda mı gider?", a: "Sıralı gönderim yapıyoruz. İlk bildirim en erken soran kişiye, sonrakine 5-10 dakika arayla gidiyor. Böylece '20 kişi geldi ilaç bitti' krizi yaşanmıyor. Ayırma modu açıksa müşteri onayladığında ilaç otomatik onun adına rezerv oluyor." },
@@ -171,8 +177,12 @@ const faqs = [
   { q: "Depomla nasıl konuşuyor?", a: "İki mod var. Otomatik mod: eczane yönetim yazılımınıza API bağlantısı — barkod okuma anında bekleme listesi tetikleniyor. Manuel mod: personel butona basıyor. Küçük ve orta eczaneler için manuel mod hem ucuz hem verimli olur." },
   { q: "Yazılım hangi cihazlarda çalışıyor?", a: "Panel web tarayıcı üzerinden çalışır — masaüstü bilgisayarda, tablette ve telefonda açılır. Ayrıca WhatsApp Business API üzerinden gelen mesajlar için tek gelen kutusu görüntüsü var. Kurulum yok, tarayıcı yeterli." }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const faqSchema = buildFaqSchema(B);
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

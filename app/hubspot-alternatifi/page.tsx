@@ -20,7 +20,8 @@ import {
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 import { PricingSection } from "@/components/pricing/PricingSection";
-import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
+import { type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "HubSpot Alternatifi | KOBİ için Türkçe CRM — PORTZEN" },
@@ -229,7 +230,9 @@ const features = [
 ];
 
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary, maintenanceSummary } = B;
+  return [
   {
     q: "HubSpot'tan PORTZEN'e taşıma süresi ne kadar?",
     a: "Veri hacmine ve kapsama bağlı; teslim süresi teklifte yazılı olarak belirtilir. HubSpot API'sinden kişi + şirket + deal + activity history çekilip yeni yapıya eşleniyor. Pipeline aşamaları, custom field'lar, etiketler ve aktivite kayıtları korunur."
@@ -259,8 +262,11 @@ const faqs = [
     a: "Evet. Meta'nın resmi WhatsApp Business API'si, e-mail (IMAP/SMTP), web formları, Instagram DM, telefon kayıtları (CTI entegrasyonu) — hepsi tek panelden takip edilir. HubSpot'ta WhatsApp Conversations sadece Marketing Hub Professional+ planda vardır; PORTZEN'de bağlanacak kanal ve uygulama sayısı seçilen pakete göre belirlenir."
   }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

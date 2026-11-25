@@ -8,6 +8,7 @@ import { attemptLogin, audit, logout, requireAdmin } from "@/server/auth";
 import { getDb } from "@/server/db";
 import { UploadError, deleteMediaIfOrphan, storeUpload } from "@/server/media";
 import * as prices from "@/server/prices";
+import { publishPriceVersion, restorePriceVersion } from "@/server/price-source";
 
 /* ───────── yardımcılar ───────── */
 
@@ -76,6 +77,14 @@ export async function newPriceDraftAction(fd: FormData) {
   redirect(`/admin/fiyatlar/${id}`);
 }
 
+/** Hiç fiyat sürümü yoksa (boş veritabanı) boş bir taslak açar; tutarlar elle girilir. */
+export async function newBlankPriceDraftAction() {
+  const s = await requireAdmin();
+  const id = await prices.createBlankDraft(s.sub);
+  await audit(s.sub, "price.draft.create", { id, from: null });
+  redirect(`/admin/fiyatlar/${id}`);
+}
+
 export async function savePriceDraftAction(
   _prev: { errors?: string[]; saved?: string } | undefined,
   fd: FormData
@@ -116,30 +125,22 @@ export async function publishPriceAction(fd: FormData) {
   const errs = validatePriceData(v.data);
   if (errs.length) back(`/admin/fiyatlar/${id}`, "err", errs.join(" "));
   try {
-    await prices.publishVersion(id);
+    // Yayımlar ve "fiyatlar" etiketini geçersiz kılar: sayfalar yeniden derleme olmadan güncellenir
+    await publishPriceVersion(id);
   } catch (e) {
     back(`/admin/fiyatlar/${id}`, "err", (e as Error).message);
   }
-  const hook = await prices.triggerRebuild();
-  await audit(s.sub, "price.publish", { id, rebuild: hook });
-  back("/admin/fiyatlar", hook.triggered ? "ok" : "err", `v${id} yayımlandı. ${hook.message}`);
+  await audit(s.sub, "price.publish", { id });
+  back("/admin/fiyatlar", "ok", `v${id} yayımlandı. Fiyatlar tüm sayfalarda birkaç saniye içinde güncellenir (derleme/deploy gerekmez).`);
 }
 
 export async function restorePriceAction(fd: FormData) {
   const s = await requireAdmin();
   const id = int(fd, "id");
   if (!id) back("/admin/fiyatlar", "err", "Sürüm bulunamadı.");
-  const newId = await prices.restoreVersion(id, s.sub);
-  const hook = await prices.triggerRebuild();
-  await audit(s.sub, "price.restore", { from: id, id: newId, rebuild: hook });
-  back("/admin/fiyatlar", hook.triggered ? "ok" : "err", `v${id} fiyatları v${newId} olarak yeniden yayımlandı. ${hook.message}`);
-}
-
-export async function rebuildAction() {
-  const s = await requireAdmin();
-  const hook = await prices.triggerRebuild();
-  await audit(s.sub, "site.rebuild", hook);
-  back("/admin/fiyatlar", hook.triggered ? "ok" : "err", hook.message);
+  const newId = await restorePriceVersion(id, s.sub);
+  await audit(s.sub, "price.restore", { from: id, id: newId });
+  back("/admin/fiyatlar", "ok", `v${id} fiyatları v${newId} olarak yeniden yayımlandı. Sayfalar birkaç saniye içinde güncellenir.`);
 }
 
 /* ───────── markalar ───────── */

@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { PRICE_VERSION } from "@/data/pricing";
 import { getDb } from "@/server/db";
 import { getPublished } from "@/server/prices";
+import { getPrices } from "@/server/price-source";
 import { Card, PageHead, trDate } from "@/components/admin/ui";
 
 export const dynamic = "force-dynamic";
@@ -24,9 +24,8 @@ async function counts() {
 }
 
 export default async function AdminHome() {
-  const [c, pub] = await Promise.all([counts(), getPublished()]);
-  const pricesPending = pub && pub.id !== PRICE_VERSION.version;
-  const hook = Boolean(process.env.DEPLOY_HOOK_URL);
+  const [c, pub, live] = await Promise.all([counts(), getPublished(), getPrices()]);
+  const pricesPending = Boolean(pub && pub.id !== live.version);
   const tiles = [
     { href: "/admin/talepler", title: "Teklif talepleri", value: String(c.leadsNew), note: `yeni · toplam ${c.leadsAll}` },
     { href: "/admin/fiyatlar", title: "Fiyatlar", value: `v${pub?.id ?? "—"}`, note: c.drafts ? `${c.drafts} taslak bekliyor` : "Taslak yok" },
@@ -52,10 +51,10 @@ export default async function AdminHome() {
         <dl className="mt-4 grid gap-x-6 gap-y-3 text-sm sm:grid-cols-[220px_1fr]">
           <dt className="font-semibold text-slate/70">Sitede uygulanan fiyat sürümü</dt>
           <dd className="text-slate">
-            v{PRICE_VERSION.version} · {trDate(PRICE_VERSION.publishedAt, true)}
+            {live.available ? `v${live.version} · ${trDate(live.publishedAt, true)}` : "Fiyat okunamıyor (sayfalar fiyatsız gösterilir)"}
             {pricesPending && (
               <span className="ml-2 rounded-full bg-amber-100 px-2 py-0.5 text-xs font-bold text-amber-900">
-                v{pub!.id} yayımlandı, derleme bekleniyor
+                v{pub!.id} yayımlandı, sayfalar birkaç saniye içinde yenilenir
               </span>
             )}
           </dd>
@@ -63,7 +62,7 @@ export default async function AdminHome() {
           <dd className="text-slate">Kaydettiğiniz anda sitede yenilenir (önbellek etiketi: cms).</dd>
           <dt className="font-semibold text-slate/70">Fiyat yayını</dt>
           <dd className="text-slate">
-            {hook ? "Yayımla dediğinizde site yeniden derlenir (deploy hook tanımlı)." : "Deploy hook tanımlı değil: fiyatlar bir sonraki derlemede siteye yansır."}
+            Yayımla dediğinizde fiyatlar tüm sayfalarda derleme/deploy olmadan güncellenir (önbellek etiketi: fiyatlar).
           </dd>
           <dt className="font-semibold text-slate/70">Veritabanı</dt>
           <dd className="text-slate">{c.db === "postgres" ? "Postgres (PORTZEN_DATABASE_URL)" : "Yerel PGlite (yalnızca önizleme)"}</dd>

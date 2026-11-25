@@ -18,7 +18,8 @@ import {
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 import { PricingSection, WebExtrasSection } from "@/components/pricing/PricingSection";
-import { PRICING, familyOffersSchema, familyPriceSummary } from "@/data/pricing";
+import { familyOffersSchema, type Prices, nonEmpty } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Web Sitesi Tasarımı | Kurumsal + E-Ticaret + Landing Sayfası - PORTZEN" },
@@ -55,7 +56,9 @@ export const metadata: Metadata = {
   robots: pageRobots({ index: true, follow: true })
 };
 
-const serviceSchema = {
+const buildServiceSchema = (B: Prices) => {
+  const { PRICING } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Web Sitesi Tasarımı Hizmetleri",
@@ -80,10 +83,13 @@ const serviceSchema = {
   ],
   description:
     "PORTZEN, KOBİ ve kurumsal markalar için kurumsal web sitesi, e-ticaret sitesi ve landing page tasarımı sunar. Next.js altyapısı, Lighthouse 90+ hedefi, mobil öncelikli tasarım ve SEO uyumu; teslim süresi kapsama göre teklifte yazılı olarak belirtilir.",
-  offers: [...familyOffersSchema(PRICING["kurumsal-web-sitesi"]), ...familyOffersSchema(PRICING["e-ticaret"])]
+  offers: nonEmpty([...familyOffersSchema(PRICING["kurumsal-web-sitesi"]), ...familyOffersSchema(PRICING["e-ticaret"])])
+};
 };
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -144,6 +150,7 @@ const faqSchema = {
       }
     }
   ]
+};
 };
 
 const breadcrumbSchema = {
@@ -348,7 +355,9 @@ const comparison = [
   }
 ];
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return [
   {
     q: "Web sitesi tasarımı fiyatlarında kaç sayfa dahil?",
     a: "Landing page tek sayfadır ve 6 bölüme kadar içerir. Kurumsal web sitesi Başlangıç paketinde 3–5, Büyüme paketinde 10, Kurumsal pakette 20 sayfadır (Kurumsal 2 dil). E-ticaret paketlerinde dosyadan 50, 250 veya 1.000 ürün aktarımı dahildir. CMS ve blog Büyüme paketinde standarttır."
@@ -378,8 +387,13 @@ const faqs = [
     a: "Ödeme planı ve taksit seçenekleri teklifte yazılı olarak belirtilir. Fatura resmi olarak kesilir; kurumsal ödemelerde havale, EFT ve kredi kartı kabul edilir."
   }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const serviceSchema = buildServiceSchema(B);
+  const faqSchema = buildFaqSchema(B);
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

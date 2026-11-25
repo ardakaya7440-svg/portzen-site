@@ -13,7 +13,8 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
-import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
+import { type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Veteriner Aşı Hatırlatma WhatsApp Sistemi | PORTZEN" },
@@ -63,7 +64,9 @@ const serviceSchema = {
     "Veteriner klinikleri için hasta kartı üzerinden aşı takvimi, muayene ve parazit hatırlatmalarını WhatsApp üzerinden otomatik gönderen sistem. KVKK gerekliliklerini dikkate alarak kurgulanır (açık rıza, aydınlatma akışı)."
 };
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const { familyPriceSummary, maintenanceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -74,6 +77,7 @@ const faqSchema = {
     { "@type": "Question", name: "Randevu da açabiliyor mu?", acceptedAnswer: { "@type": "Answer", text: "Evet. Sahip mesaja 'randevu almak istiyorum' yazarsa sistem uygun saatleri sunar ve doğrudan Google Takvim'inize randevu oluşturur. Karmaşık durumlarda veteriner hekime devreder." } },
     { "@type": "Question", name: "Mevcut hasta kartlarımı sisteme aktarabilir miyim?", acceptedAnswer: { "@type": "Answer", text: "Excel, CSV veya klinik yönetim yazılımınızdan çıktı alabilirseniz biz toplu olarak aktarıyoruz. Aşı takvimleri, hayvan bilgileri ve sahip bilgileri korunur; hangi aşının ne zaman yapılacağı otomatik hesaplanır." } }
   ]
+};
 };
 
 const breadcrumbSchema = {
@@ -117,7 +121,9 @@ const features = [
   { icon: ShieldCheck, title: "KVKK ve hayvan sahibi rızası", desc: "KVKK gerekliliklerini dikkate alarak kurgulanır: ilk kayıtta açık rıza cümlesi, mesaj çıkma isteği tek tıkla, işlemler loglanır. Veri konumu altyapıya göre teklifte yazılı olarak belirtilir." }
 ];
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary, maintenanceSummary } = B;
+  return [
   { q: "Kaç gün önce hatırlatma gidiyor?", a: "Standart olarak 7 gün önce, 1 gün önce ve o günün sabahı — üç aşamalı hatırlatma. Amaç, kaçırılan aşı sayısını azaltmaktır. Klinik protokolünüze göre saat, sıklık ve mesaj tonunu birlikte ayarlıyoruz." },
   { q: "Sahibi 'artık mesaj gelmesin' derse ne olur?", a: "Mesaja 'kaldır' yazması yeterli; sistem otomatik olarak o kartı otomatik akıştan çıkarır. KVKK gereği bu isteği anında işleriz ve log tutarız. Hekim kaydı kliniğinizde kalmaya devam eder." },
   { q: "Klinik yönetim yazılımımla entegre olur mu?", a: "API veya CSV dışa aktarımı sunan klinik yazılımlarıyla entegre olabiliyoruz. Entegrasyon uygun değilse hasta kartı panelimizi ana ekran olarak kullanabilir, dışarıdan çıktı alabilirsiniz." },
@@ -125,8 +131,12 @@ const faqs = [
   { q: "Personelim bunu kullanabilecek mi?", a: "Panel tek ekranda; hekim asistanı kısa bir eğitimle yönetebilir. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahildir; Kurumsal pakette yazılı dokümantasyon da teslim edilir. Kritik bir işlem yok — kartı aç, aşı yap, sistem gerisini halleder." },
   { q: "Klinik dışı ürün satışına (mama, oyuncak) uyar mı?", a: "Evet. Klinik CRM'i olarak kullanabilirsiniz; ürün satın alan sahibi 'bir sonraki torba mama tahmini' gibi akışlarla otomatik hatırlatılabilir. Böylece tekrar eden satış için ek bir hatırlatma kanalı oluşur." }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const faqSchema = buildFaqSchema(B);
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

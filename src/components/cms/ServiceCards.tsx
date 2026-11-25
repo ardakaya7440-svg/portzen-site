@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { BILLING_SUFFIX, PRICING, SINGLE, familyRange, formatTL } from "@/data/pricing";
+import { BILLING_SUFFIX, type PriceSource, familyRange, formatTL, singleAvailable } from "@/data/pricing";
 import { SERVICE_GROUPS, type ServiceItem } from "@/data/catalog";
 import { INFRA_NAV_GROUP } from "@/data/infra-nav";
 import type { PublicWork } from "@/server/cms";
@@ -9,17 +9,20 @@ import { Media } from "./Media";
 import { cn } from "@/lib/utils";
 
 /** Kartta gösterilen kısa fiyat ("aylık 9.900 TL'den") — fiyatlar tek kaynaktan */
-export function fromPrice(item: ServiceItem): string | null {
+export function fromPrice(item: ServiceItem, book?: PriceSource): string | null {
   const p = item.price;
-  if (!p) return null;
+  if (!p || !book) return null; // fiyat kaynağı yoksa kartta tutar gösterilmez
   if ("family" in p) {
-    const f = PRICING[p.family];
-    const low = formatTL(familyRange(f).low);
+    const f = book.PRICING[p.family];
+    const range = familyRange(f);
+    if (!range) return null; // fiyat okunamıyorsa kartta tutar yok
+    const low = formatTL(range.low);
     if (f.billing === "monthly") return `Aylık ${low}'den`;
     if (f.billing === "one-time") return `Kurulum ${low}'den`;
     return `${low}'den, ${BILLING_SUFFIX[f.billing].replace("/ ", "")} başı`;
   }
-  const s = SINGLE[p.single];
+  const s = book.SINGLE[p.single];
+  if (!singleAvailable(s)) return null;
   if (s.startingAt) return `${formatTL(s.price)}'den başlayan`;
   if (s.setupFee && s.monthly) return `Aylık ${formatTL(s.monthly)} + kurulum`;
   return `${formatTL(s.price)}`;
@@ -27,8 +30,8 @@ export function fromPrice(item: ServiceItem): string | null {
 
 const COLS: Record<number, string> = { 3: "lg:grid-cols-3", 4: "lg:grid-cols-4", 5: "lg:grid-cols-5" };
 
-export function ServiceCard({ item, visual }: { item: ServiceItem; visual?: PublicWork }) {
-  const price = fromPrice(item);
+export function ServiceCard({ item, visual, book }: { item: ServiceItem; visual?: PublicWork; book?: PriceSource }) {
+  const price = fromPrice(item, book);
   return (
     <article className="group relative flex h-full w-[78vw] min-w-0 max-w-[320px] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-slate/15 bg-white transition-shadow hover:shadow-card-lg md:w-full md:max-w-none md:shrink">
       <div className="relative aspect-[4/3] overflow-hidden border-b border-slate/10">
@@ -56,7 +59,7 @@ export function ServiceCard({ item, visual }: { item: ServiceItem; visual?: Publ
   );
 }
 
-export function ServiceGroups({ visuals }: { visuals: PublicWork[] }) {
+export function ServiceGroups({ visuals, book }: { visuals: PublicWork[]; book?: PriceSource }) {
   const byKey = new Map(visuals.filter((v) => v.serviceKey).map((v) => [v.serviceKey!, v]));
   return (
     <div className="flex flex-col gap-14 lg:gap-20">
@@ -79,7 +82,7 @@ export function ServiceGroups({ visuals }: { visuals: PublicWork[] }) {
           >
             {g.links.map((l) => (
               <li key={l.href} className="flex min-w-0">
-                <ServiceCard item={l} visual={byKey.get(l.href)} />
+                <ServiceCard item={l} visual={byKey.get(l.href)} book={book} />
               </li>
             ))}
           </ul>
@@ -109,7 +112,7 @@ export function ServiceGroups({ visuals }: { visuals: PublicWork[] }) {
         >
           {INFRA_NAV_GROUP.links.map((l) => (
             <li key={l.href} className="flex min-w-0">
-              <ServiceCard item={l} visual={byKey.get(l.href)} />
+              <ServiceCard item={l} visual={byKey.get(l.href)} book={book} />
             </li>
           ))}
         </ul>

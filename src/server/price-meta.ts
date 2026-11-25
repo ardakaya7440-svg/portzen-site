@@ -1,12 +1,12 @@
 import "server-only";
-import { BILLING_LABEL, BILLING_SUFFIX, DISPLAY_ORDER, PRICING, SINGLE, TIER_NAMES } from "@/data/pricing";
+import { BILLING_LABEL, BILLING_SUFFIX, DISPLAY_ORDER, PRICING_STRUCTURE, SINGLE_STRUCTURE, TIER_NAMES } from "@/data/pricing";
 import type { FamilyMeta, SingleMeta } from "@/components/admin/PriceEditor";
 
 /** Fiyat düzenleyicinin ihtiyaç duyduğu yapı bilgisi (hangi alanlar var, adlar) — koddaki yapıdan türetilir */
 export function priceMeta(): { families: FamilyMeta[]; singles: SingleMeta[] } {
   const order = [...DISPLAY_ORDER].reverse(); // Başlangıç, Büyüme, Kurumsal
   return {
-    families: Object.values(PRICING).map((f) => ({
+    families: Object.values(PRICING_STRUCTURE).map((f) => ({
       id: f.id,
       title: f.title,
       billingLabel: BILLING_LABEL[f.billing],
@@ -18,7 +18,7 @@ export function priceMeta(): { families: FamilyMeta[]; singles: SingleMeta[] } {
         hasMaint: f.tiers[t].maintenance !== undefined
       }))
     })),
-    singles: Object.values(SINGLE).map((s) => ({
+    singles: Object.values(SINGLE_STRUCTURE).map((s) => ({
       id: s.id,
       title: s.title,
       billingLabel: BILLING_LABEL[s.billing],

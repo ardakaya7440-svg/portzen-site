@@ -1,5 +1,5 @@
 import "server-only";
-import { type PriceData, completePriceData, validatePriceData } from "@/data/pricing";
+import { type PriceData, scaffoldPriceData, validatePriceData } from "@/data/pricing";
 import { getDb } from "./db";
 
 export interface PriceVersion {
@@ -25,8 +25,8 @@ const map = (r: R): PriceVersion => ({
   createdAt: iso(r.created_at)!,
   updatedAt: iso(r.updated_at)!,
   publishedAt: iso(r.published_at),
-  // Sonradan eklenen paketler eski sürümlerde yoksa koddaki başlangıç değerleriyle tamamlanır
-  data: completePriceData((typeof r.data === "string" ? JSON.parse(r.data) : r.data) as PriceData)
+  // Ham veri: eksik kalemler için tutar UYDURULMAZ. Admin düzenleyicisi eksikleri boş (0) açar (bkz. editorData).
+  data: (typeof r.data === "string" ? JSON.parse(r.data) : r.data) as PriceData
 });
 
 export async function listVersions(): Promise<PriceVersion[]> {
@@ -54,6 +54,16 @@ export async function createDraft(fromId: number, actor: string): Promise<number
   const r = await db.query<{ id: number }>(
     `insert into price_versions (data, status, note, based_on, created_by) values ($1::jsonb, 'draft', $2, $3, $4) returning id`,
     [JSON.stringify(src.data), `v${src.id} temel alınarak`, src.id, actor]
+  );
+  return Number(r.rows[0].id);
+}
+
+/** Boş veritabanı için: tüm alanları boş (0) bir taslak. 0 yayımlanamaz; yönetici tutarları girer. */
+export async function createBlankDraft(actor: string): Promise<number> {
+  const db = await getDb();
+  const r = await db.query<{ id: number }>(
+    `insert into price_versions (data, status, note, created_by) values ($1::jsonb, 'draft', 'Boş taslak', $2) returning id`,
+    [JSON.stringify(scaffoldPriceData(null)), actor]
   );
   return Number(r.rows[0].id);
 }
@@ -102,20 +112,5 @@ export async function restoreVersion(id: number, actor: string): Promise<number>
   return newId;
 }
 
-/**
- * Yayımlanan fiyatların siteye yansıması için yeniden derleme tetikler.
- * Üretimde: Vercel Deploy Hook (DEPLOY_HOOK_URL). Build öncesi betik yayımlanmış sürümü okur.
- */
-export async function triggerRebuild(): Promise<{ triggered: boolean; message: string }> {
-  const url = process.env.DEPLOY_HOOK_URL;
-  if (!url) {
-    return { triggered: false, message: "DEPLOY_HOOK_URL tanımlı değil; fiyatlar bir sonraki derlemede (deploy) siteye yansır." };
-  }
-  try {
-    const res = await fetch(url, { method: "POST", cache: "no-store" });
-    if (!res.ok) return { triggered: false, message: `Derleme tetiklenemedi (HTTP ${res.status}).` };
-    return { triggered: true, message: "Yeniden derleme başlatıldı. Fiyatlar derleme bitince (genelde birkaç dakika) canlıda görünür." };
-  } catch (e) {
-    return { triggered: false, message: `Derleme tetiklenemedi: ${(e as Error).message}` };
-  }
-}
+/** Admin düzenleyici/önizleme için: sürümde bulunmayan kalemler boş (0) açılır; 0 yayımlanamaz, sitede görünmez. */
+export const editorData = (data: PriceData): PriceData => scaffoldPriceData(data);

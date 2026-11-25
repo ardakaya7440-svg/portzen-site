@@ -1,5 +1,3 @@
-import publishedPrices from "./pricing.published.json";
-
 /**
  * PORTZEN fiyat listesi — sitedeki TÜM fiyatların tek kaynağı.
  *
@@ -94,9 +92,6 @@ export const QUOTA_NOTE =
 
 export const AI_REPLY_QUOTA: Record<TierId, number> = { baslangic: 1000, buyume: 4000, kurumsal: 12000 };
 
-/** İş otomasyonu: isteğe bağlı aylık bakım (2. aydan itibaren) */
-const AUTOMATION_MAINTENANCE: Record<TierId, number> = { baslangic: 1500, buyume: 3500, kurumsal: 9900 };
-
 const n = (x: number) => x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 const pct = (r: number) => `%${Math.round(r * 100)}`;
 
@@ -105,7 +100,7 @@ const row = (label: string, b: string, g: string, k: string): DetailRow => ({
   values: { baslangic: b, buyume: g, kurumsal: k }
 });
 
-export const PRICING: Record<FamilyId, PricingFamily> = {
+export const PRICING_STRUCTURE: Record<FamilyId, PricingFamily> = {
   "sosyal-medya": {
     id: "sosyal-medya",
     title: "Sosyal medya yönetimi",
@@ -115,13 +110,13 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
     tiers: {
       baslangic: {
         id: "baslangic",
-        price: 9900,
+        price: NaN,
         audience: "Tek kanalda düzenli görünmek isteyen küçük işletmeler",
         highlights: ["1 kanal yönetimi", "Ayda 10 özgün içerik", "8 tasarım + 2 video", "4 Story uyarlaması"]
       },
       buyume: {
         id: "buyume",
-        price: 19900,
+        price: NaN,
         audience: "2–3 kanalda büyümek ve reklama başlamak isteyen KOBİ'ler",
         highlights: [
           "3 kanal yönetimi",
@@ -133,7 +128,7 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       },
       kurumsal: {
         id: "kurumsal",
-        price: 79900,
+        price: NaN,
         audience: "Aynı markada birden fazla şubesi olan, çekim ve geniş reklam yönetimi isteyen işletmeler",
         highlights: [
           "5 kanal yönetimi",
@@ -177,19 +172,19 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
     tiers: {
       baslangic: {
         id: "baslangic",
-        price: 6900,
+        price: NaN,
         audience: "Ayda birkaç dikey video paylaşmak isteyen işletmeler",
         highlights: ["Ayda 4 kısa video", "15–30 saniye", "1 format", "Reels, TikTok ve Shorts için dikey kurgu"]
       },
       buyume: {
         id: "buyume",
-        price: 14900,
+        price: NaN,
         audience: "Her hafta düzenli video yayınlamak isteyen markalar",
         highlights: ["Ayda 12 kısa video", "15–45 saniye", "2 format", "Senaryo ve hook yazımı", "AI seslendirme"]
       },
       kurumsal: {
         id: "kurumsal",
-        price: 39900,
+        price: NaN,
         audience: "İki marka için yüksek hacimli video ihtiyacı olan işletmeler",
         highlights: [
           "Ayda 24 kısa video",
@@ -221,13 +216,13 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
     tiers: {
       baslangic: {
         id: "baslangic",
-        price: 2900,
+        price: NaN,
         audience: "Tek ürün veya kampanya için kısa bir reklam filmi isteyenler",
         highlights: ["1 film", "10–15 saniye", "En fazla 3 sahne", "1 format", "AI seslendirme dahil"]
       },
       buyume: {
         id: "buyume",
-        price: 7900,
+        price: NaN,
         audience: "Reklamını birden fazla platformda yayınlayacak işletmeler",
         highlights: [
           "1 film",
@@ -239,7 +234,7 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       },
       kurumsal: {
         id: "kurumsal",
-        price: 19900,
+        price: NaN,
         audience: "Özel konseptli marka veya lansman filmi isteyen markalar",
         highlights: [
           "1 film",
@@ -271,7 +266,7 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
     tiers: {
       baslangic: {
         id: "baslangic",
-        price: 4900,
+        price: NaN,
         audience: "Reklama tek platformla adım atan işletmeler",
         highlights: [
           "Meta veya Google",
@@ -282,13 +277,13 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       },
       buyume: {
         id: "buyume",
-        price: 9900,
+        price: NaN,
         audience: "Meta ve Google'da birlikte reklam veren KOBİ'ler",
         highlights: ["Meta + Google", "2 reklam hesabı", "4 aktif kampanya", `Aylık ${n(AD_SPEND_CAP.buyume)} TL'ye kadar harcama yönetimi`]
       },
       kurumsal: {
         id: "kurumsal",
-        price: 24900,
+        price: NaN,
         audience: "Çok hesaplı ve yüksek bütçeli reklam yapıları",
         highlights: ["Meta + Google", "4 reklam hesabı", "8 aktif kampanya", `Aylık ${n(AD_SPEND_CAP.kurumsal)} TL'ye kadar harcama yönetimi`]
       }
@@ -320,8 +315,8 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
     tiers: {
       baslangic: {
         id: "baslangic",
-        price: 2900,
-        setupFee: 4900,
+        price: NaN,
+        setupFee: NaN,
         audience: "Sık sorulan soruları otomatik yanıtlamak isteyen küçük işletmeler",
         highlights: [
           "1 kanal: WhatsApp veya web sitesi",
@@ -333,8 +328,8 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       },
       buyume: {
         id: "buyume",
-        price: 6900,
-        setupFee: 14900,
+        price: NaN,
+        setupFee: NaN,
         audience: "Randevu alan ve müşteri kaydını CRM'de tutan KOBİ'ler",
         highlights: [
           "2 kanal",
@@ -346,8 +341,8 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       },
       kurumsal: {
         id: "kurumsal",
-        price: 19900,
-        setupFee: 49900,
+        price: NaN,
+        setupFee: NaN,
         audience: "Birden fazla şubesi ve kanalı olan işletmeler",
         highlights: [
           "Web + WhatsApp + Instagram",
@@ -384,15 +379,15 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
     tiers: {
       baslangic: {
         id: "baslangic",
-        price: 14900,
-        maintenance: AUTOMATION_MAINTENANCE.baslangic,
+        price: NaN,
+        maintenance: NaN,
         audience: "Birkaç tekrarlayan işi otomatikleştirmek isteyen işletmeler",
         highlights: ["2 iş akışı", "2 uygulama bağlantısı", "İlk 30 gün kurulum hatalarının giderilmesi"]
       },
       buyume: {
         id: "buyume",
-        price: 34900,
-        maintenance: AUTOMATION_MAINTENANCE.buyume,
+        price: NaN,
+        maintenance: NaN,
         audience: "Satış ve operasyon süreçlerini birbirine bağlamak isteyen KOBİ'ler",
         highlights: [
           "6 iş akışı",
@@ -404,8 +399,8 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       },
       kurumsal: {
         id: "kurumsal",
-        price: 89900,
-        maintenance: AUTOMATION_MAINTENANCE.kurumsal,
+        price: NaN,
+        maintenance: NaN,
         audience: "Özel sistemlerini bağlamak ve test ortamında çalışmak isteyen işletmeler",
         highlights: [
           "12 iş akışı",
@@ -424,12 +419,8 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       row("Eğitim", "—", "Dahil", "Dahil"),
       row("Test ortamı ve dokümantasyon", "—", "—", "Dahil"),
       row("Kurulum hatalarının giderilmesi", "İlk 30 gün", "İlk 30 gün", "İlk 30 gün"),
-      row(
-        "İsteğe bağlı bakım (2. aydan)",
-        `${n(AUTOMATION_MAINTENANCE.baslangic)} TL / ay`,
-        `${n(AUTOMATION_MAINTENANCE.buyume)} TL / ay`,
-        `${n(AUTOMATION_MAINTENANCE.kurumsal)} TL / ay`
-      )
+      // Tutarlar fiyat kaynağından (veritabanı) türetilir; bkz. buildPrices
+      row("İsteğe bağlı bakım (2. aydan)", "", "", "")
     ],
     notes: [
       "Kurulum tek seferliktir. İlk 30 gün kurulum hatalarının giderilmesi dahildir; isteğe bağlı aylık bakım ikinci aydan itibaren başlar.",
@@ -446,19 +437,19 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
     tiers: {
       baslangic: {
         id: "baslangic",
-        price: 9900,
+        price: NaN,
         audience: "Hızlı ve düzgün bir tanıtım sitesine ihtiyacı olan işletmeler",
         highlights: ["3–5 sayfa", "Standart bileşenlerle tasarım", "Mobil uyum", "İletişim formu", "Temel SEO"]
       },
       buyume: {
         id: "buyume",
-        price: 29900,
+        price: NaN,
         audience: "İçeriğini kendisi yöneten ve aramada bulunmak isteyen KOBİ'ler",
         highlights: ["10 sayfa", "Markaya özel 3 sayfa şablonu", "CMS ve blog", "Teknik SEO", "Ölçümleme kurulumu"]
       },
       kurumsal: {
         id: "kurumsal",
-        price: 79900,
+        price: NaN,
         audience: "İki dilli, özel tasarımlı ve entegrasyonlu kurumsal site isteyen markalar",
         highlights: [
           "20 sayfa",
@@ -492,7 +483,7 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
     tiers: {
       baslangic: {
         id: "baslangic",
-        price: 24900,
+        price: NaN,
         audience: "Hazır altyapıyla online satışa başlamak isteyen işletmeler",
         highlights: [
           "Hazır altyapı ve tema uyarlaması",
@@ -503,7 +494,7 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       },
       buyume: {
         id: "buyume",
-        price: 54900,
+        price: NaN,
         audience: "Pazaryeriyle birlikte satış yapan ve kampanya kurgulayan mağazalar",
         highlights: [
           "Dosyadan 250 ürün aktarımı",
@@ -514,7 +505,7 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       },
       kurumsal: {
         id: "kurumsal",
-        price: 129900,
+        price: NaN,
         audience: "Geniş katalogla iki dilde ve birden fazla pazaryerinde satan markalar",
         highlights: [
           "Dosyadan 1.000 ürün aktarımı",
@@ -545,19 +536,19 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
     tiers: {
       baslangic: {
         id: "baslangic",
-        price: 1500,
+        price: NaN,
         audience: "Tanıtım sitesi veya landing page sahipleri",
         highlights: [`Ayda toplam ${WEB_MAINTENANCE_HOURS.baslangic} saat bakım ve değişiklik`]
       },
       buyume: {
         id: "buyume",
-        price: 3500,
+        price: NaN,
         audience: "Sitesini düzenli güncelleyen işletmeler",
         highlights: [`Ayda toplam ${WEB_MAINTENANCE_HOURS.buyume} saat bakım ve değişiklik`]
       },
       kurumsal: {
         id: "kurumsal",
-        price: 7500,
+        price: NaN,
         audience: "E-ticaret, çok dilli veya entegrasyonlu siteler",
         highlights: [`Ayda toplam ${WEB_MAINTENANCE_HOURS.kurumsal} saat bakım ve değişiklik`]
       }
@@ -592,8 +583,8 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
     tiers: {
       baslangic: {
         id: "baslangic",
-        price: 10400,
-        setupFee: 9900,
+        price: NaN,
+        setupFee: NaN,
         audience: "Dropshipping'e veya ilk online mağazasına başlayan girişimciler",
         highlights: [
           "E-ticaret sitesi: hazır tema, 50 ürün, ödeme + kargo",
@@ -604,8 +595,8 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       },
       buyume: {
         id: "buyume",
-        price: 13900,
-        setupFee: 24900,
+        price: NaN,
+        setupFee: NaN,
         audience: "Fiziksel mağazasını online satışa taşıyan işletmeler",
         highlights: [
           "E-ticaret sitesi: özel arayüz, 250 ürün, 1 pazaryeri, kupon",
@@ -616,8 +607,8 @@ export const PRICING: Record<FamilyId, PricingFamily> = {
       },
       kurumsal: {
         id: "kurumsal",
-        price: 55900,
-        setupFee: 90900,
+        price: NaN,
+        setupFee: NaN,
         audience: "Geniş katalogla, birden fazla şube veya pazaryerinde satış yapan markalar",
         highlights: [
           "E-ticaret sitesi: 1.000 ürün, 2 dil, 2 pazaryeri, ERP bağlayıcısı",
@@ -680,12 +671,12 @@ export interface SingleService {
   href: string;
 }
 
-export const SINGLE: Record<SingleId, SingleService> = {
+export const SINGLE_STRUCTURE: Record<SingleId, SingleService> = {
   "landing-page": {
     id: "landing-page",
     title: "Landing page",
     formLabel: "Landing page",
-    price: 5900,
+    price: NaN,
     billing: "project",
     summary: "Tek sayfa, 6 bölüme kadar.",
     notes: ["Hosting, alan adı ve harici lisanslar hariçtir."],
@@ -695,10 +686,10 @@ export const SINGLE: Record<SingleId, SingleService> = {
     id: "instagram-dm",
     title: "Instagram DM pazarlama otomasyonu",
     formLabel: "Instagram DM otomasyonu",
-    price: 4900,
+    price: NaN,
     billing: "one-time",
-    setupFee: 4900,
-    monthly: 1500,
+    setupFee: NaN,
+    monthly: NaN,
     summary: "Yorum ve hikâye etkileşimine kural tabanlı otomatik DM. AI yanıt hizmeti değildir.",
     notes: ["Otomasyon platformu aboneliği hariçtir.", "AI ile serbest soru yanıtlama, AI müşteri asistanı kapsamındadır."],
     href: "/instagram-dm-otomasyonu"
@@ -707,10 +698,10 @@ export const SINGLE: Record<SingleId, SingleService> = {
     id: "ai-telefon-asistani",
     title: "AI telefon asistanı",
     formLabel: "AI telefon asistanı",
-    price: 4900,
+    price: NaN,
     billing: "monthly",
-    setupFee: 14900,
-    monthly: 4900,
+    setupFee: NaN,
+    monthly: NaN,
     summary: "Gelen aramaları karşılayan sesli asistan; aylık ücret yönetim bedelidir.",
     notes: [
       "Dakika ve hat ücretleri sağlayıcı giderine %20 işletim payı eklenerek ayrıca faturalanır.",
@@ -722,7 +713,7 @@ export const SINGLE: Record<SingleId, SingleService> = {
     id: "ozel-web-uygulamasi",
     title: "Özel web uygulaması",
     formLabel: "Özel web uygulaması",
-    price: 79900,
+    price: NaN,
     billing: "project",
     startingAt: true,
     summary: "İşletmenize özel rezervasyon, sipariş, müşteri paneli veya iç sistem. Kesin bedel kapsama göre teklifte belirlenir.",
@@ -733,7 +724,7 @@ export const SINGLE: Record<SingleId, SingleService> = {
     id: "mobil-uygulama",
     title: "Mobil uygulama",
     formLabel: "Mobil uygulama",
-    price: 120000,
+    price: NaN,
     billing: "project",
     startingAt: true,
     summary: "iOS ve Android uygulama. Kesin bedel ekran, rol ve entegrasyon sayısına göre teklifte belirlenir.",
@@ -744,7 +735,7 @@ export const SINGLE: Record<SingleId, SingleService> = {
     id: "mobil-oyun",
     title: "Mobil oyun",
     formLabel: "Mobil oyun",
-    price: 150000,
+    price: NaN,
     billing: "project",
     startingAt: true,
     summary: "Casual ve hyper-casual mobil oyun. Kesin bedel mekanik, seviye ve sanat kapsamına göre teklifte belirlenir.",
@@ -754,14 +745,13 @@ export const SINGLE: Record<SingleId, SingleService> = {
 };
 
 /* ------------------------------------------------------------------ */
-/* Yayımlanmış fiyat sürümü (admin paneli → /admin/fiyatlar)           */
+/* Fiyat verisi: TEK KAYNAK Neon veritabanıdır                         */
 /* ------------------------------------------------------------------ */
 /**
- * Yalnızca tutarlar düzenlenebilir: paket bedeli, kurulum ve (varsa) bakım.
- * Kapsam, metin ve paket yapısı bu dosyada kalır. Yayımlanan sürüm build öncesinde
- * (scripts/sync-content.mjs) veritabanından pricing.published.json dosyasına yazılır
- * ve aşağıda modül yüklenirken PRICING / SINGLE üzerine uygulanır. Böylece kartlar,
- * karşılaştırmalar, SSS'ler, JSON-LD ve WhatsApp mesajları tek kaynaktan beslenir.
+ * Bu dosyada HİÇBİR tutar yoktur. Yukarıdaki PRICING_STRUCTURE / SINGLE_STRUCTURE yalnızca yapıyı
+ * (paketler, kapsam metinleri, hangi pakette kurulum/bakım alanı olduğu) taşır; fiyat alanları NaN'dır
+ * ve yalnızca "bu alan var" anlamına gelir. Tutarlar yayımlanmış sürümden (price_versions, status='published')
+ * gelir: src/server/price-source.ts → getPrices() → buildPrices(). Veritabanı okunamazsa tutar gösterilmez.
  */
 export type TierPrice = { price: number; setupFee?: number; maintenance?: number };
 export type SinglePrice = { price: number; setupFee?: number; monthly?: number };
@@ -769,50 +759,25 @@ export interface PriceData {
   families: Record<FamilyId, Record<TierId, TierPrice>>;
   singles: Record<SingleId, SinglePrice>;
 }
-export interface PublishedPrices {
-  version: number;
-  publishedAt: string | null;
-  note: string | null;
-  data: PriceData;
-}
 
 const TIER_IDS: TierId[] = ["baslangic", "buyume", "kurumsal"];
 
-export function extractPriceData(
-  families: Record<FamilyId, PricingFamily> = PRICING,
-  singles: Record<SingleId, SingleService> = SINGLE
-): PriceData {
-  const fam = {} as PriceData["families"];
-  for (const f of Object.values(families)) {
-    fam[f.id] = {} as Record<TierId, TierPrice>;
-    for (const id of TIER_IDS) {
-      const t = f.tiers[id];
-      fam[f.id][id] = {
-        price: t.price,
-        ...(t.setupFee !== undefined ? { setupFee: t.setupFee } : {}),
-        ...(t.maintenance !== undefined ? { maintenance: t.maintenance } : {})
-      };
-    }
-  }
-  const sing = {} as PriceData["singles"];
-  for (const s of Object.values(singles)) {
-    sing[s.id] = {
-      price: s.price,
-      ...(s.setupFee !== undefined ? { setupFee: s.setupFee } : {}),
-      ...(s.monthly !== undefined ? { monthly: s.monthly } : {})
-    };
-  }
-  return { families: fam, singles: sing };
-}
+/** Fiyat okunamadığında tutar yerine gösterilen tarafsız metin (CTA ile birlikte) */
+export const PRICE_CONTACT_TEXT = "Güncel fiyat bilgisi için bizimle iletişime geçin";
+/** Tablo hücreleri için en kısa karşılığı */
+export const PRICE_CONTACT_SHORT = "İletişime geçin";
+/** Cümle içinde kullanılan kısa karşılığı */
+export const PRICE_CONTACT_INLINE = "güncel fiyat için bizimle iletişime geçin";
 
 const okAmount = (v: unknown): v is number => typeof v === "number" && Number.isInteger(v) && v > 0 && v <= 10_000_000;
+const has = (v: unknown): v is number => typeof v === "number" && Number.isFinite(v);
 
 /** Fiyat verisini doğrular; yalnızca yapıda var olan alanlara izin verir. Hata listesi döner. */
 export function validatePriceData(data: unknown): string[] {
   const errors: string[] = [];
   const d = data as PriceData;
   if (!d || typeof d !== "object" || !d.families || !d.singles) return ["Fiyat verisi eksik."];
-  for (const f of Object.values(PRICING)) {
+  for (const f of Object.values(PRICING_STRUCTURE)) {
     for (const id of TIER_IDS) {
       const t = d.families[f.id]?.[id];
       const base = f.tiers[id];
@@ -825,7 +790,7 @@ export function validatePriceData(data: unknown): string[] {
       else if (t.maintenance !== undefined && !okAmount(t.maintenance)) errors.push(`${label}: bakım bedeli geçersiz.`);
     }
   }
-  for (const s of Object.values(SINGLE)) {
+  for (const s of Object.values(SINGLE_STRUCTURE)) {
     const v = d.singles[s.id];
     if (!v) { errors.push(`${s.title}: değer yok.`); continue; }
     if (!okAmount(v.price)) errors.push(`${s.title}: bedel geçersiz.`);
@@ -837,113 +802,241 @@ export function validatePriceData(data: unknown): string[] {
   return errors;
 }
 
-function overlay(families: Record<FamilyId, PricingFamily>, singles: Record<SingleId, SingleService>, data: PriceData) {
-  for (const f of Object.values(families)) {
-    for (const id of TIER_IDS) {
-      const v = data.families[f.id]?.[id];
-      if (!v) continue;
-      const t = f.tiers[id];
-      t.price = v.price;
-      if (t.setupFee !== undefined && v.setupFee !== undefined) t.setupFee = v.setupFee;
-      if (t.maintenance !== undefined && v.maintenance !== undefined) t.maintenance = v.maintenance;
-    }
-    // Ayrıntı tablosundaki bakım satırı da aynı kaynaktan türetilir
-    if (TIER_IDS.every((id) => f.tiers[id].maintenance !== undefined)) {
-      for (const r of f.details) {
-        if (r.label.startsWith("İsteğe bağlı bakım")) {
-          for (const id of TIER_IDS) r.values[id] = `${formatTL(f.tiers[id].maintenance!)} / ay`;
-        }
-      }
-    }
-  }
-  for (const s of Object.values(singles)) {
-    const v = data.singles[s.id];
-    if (!v) continue;
-    if (s.setupFee !== undefined && v.setupFee !== undefined) s.setupFee = v.setupFee;
-    if (s.monthly !== undefined && v.monthly !== undefined) s.monthly = v.monthly;
-    // Kurulum + aylık hizmetlerde "price" türetilir: aylık hizmetlerde aylık ücret, tek seferliklerde kurulum.
-    if (s.setupFee !== undefined && s.monthly !== undefined) s.price = s.billing === "monthly" ? s.monthly : s.setupFee;
-    else s.price = v.price;
-  }
-}
-
-/** Önizleme için: verilen taslak fiyatları uygulanmış BAĞIMSIZ kopyalar döner (canlı veriye dokunmaz). */
-export type PriceSource = { families: Record<FamilyId, PricingFamily>; singles: Record<SingleId, SingleService> };
-export function withPriceData(data: PriceData): PriceSource {
-  const families = JSON.parse(JSON.stringify(PRICING)) as Record<FamilyId, PricingFamily>;
-  const singles = JSON.parse(JSON.stringify(SINGLE)) as Record<SingleId, SingleService>;
-  overlay(families, singles, data);
-  return { families, singles };
-}
-
-/** Koddaki başlangıç değerleri (yayımlanmış sürüm uygulanmadan önce) — ilk kurulum tohumu */
-export const CODE_DEFAULT_PRICES: PriceData = extractPriceData();
-
 /**
- * Yayımlanmış/taslak bir sürümde henüz bulunmayan (sonradan eklenmiş) paket ve hizmetleri
- * koddaki başlangıç değerleriyle tamamlar. Var olan değerlere dokunmaz.
+ * YALNIZCA admin düzenleyicisi için: sürümde bulunmayan (sonradan eklenmiş) paket/hizmetler için boş (0) alanlar açar,
+ * böylece yönetici değerleri girebilir. 0 bir fiyat değildir: validatePriceData 0'ı reddeder, yayımlanamaz ve
+ * herkese açık sayfalara hiçbir zaman ulaşmaz (genel okuma yolu bu fonksiyonu kullanmaz).
  */
-export function completePriceData(data: PriceData): PriceData {
+export function scaffoldPriceData(data: Partial<PriceData> | null | undefined): PriceData {
   const out = JSON.parse(JSON.stringify(data ?? {})) as PriceData;
   out.families = out.families ?? ({} as PriceData["families"]);
   out.singles = out.singles ?? ({} as PriceData["singles"]);
-  for (const [fid, tiers] of Object.entries(CODE_DEFAULT_PRICES.families) as [FamilyId, Record<TierId, TierPrice>][]) {
-    if (!out.families[fid]) out.families[fid] = JSON.parse(JSON.stringify(tiers));
-    else for (const id of TIER_IDS) if (!out.families[fid][id]) out.families[fid][id] = { ...tiers[id] };
+  for (const f of Object.values(PRICING_STRUCTURE)) {
+    out.families[f.id] = out.families[f.id] ?? ({} as Record<TierId, TierPrice>);
+    for (const id of TIER_IDS) {
+      const b = f.tiers[id];
+      const cur = out.families[f.id][id];
+      out.families[f.id][id] = {
+        price: cur?.price ?? 0,
+        ...(b.setupFee !== undefined ? { setupFee: cur?.setupFee ?? 0 } : {}),
+        ...(b.maintenance !== undefined ? { maintenance: cur?.maintenance ?? 0 } : {})
+      };
+    }
   }
-  for (const [sid, v] of Object.entries(CODE_DEFAULT_PRICES.singles) as [SingleId, SinglePrice][]) {
-    if (!out.singles[sid]) out.singles[sid] = { ...v };
+  for (const s of Object.values(SINGLE_STRUCTURE)) {
+    const cur = out.singles[s.id];
+    out.singles[s.id] = {
+      price: cur?.price ?? 0,
+      ...(s.setupFee !== undefined ? { setupFee: cur?.setupFee ?? 0 } : {}),
+      ...(s.monthly !== undefined ? { monthly: cur?.monthly ?? 0 } : {})
+    };
   }
   return out;
 }
 
-const PUBLISHED = publishedPrices as unknown as PublishedPrices;
-if (PUBLISHED.version > 0) {
-  const pubData = completePriceData(PUBLISHED.data);
-  const errs = validatePriceData(pubData);
-  // Geçersiz yayımlanmış veri sessizce yok sayılmaz: yanlış fiyatla yayına çıkmamak için build durur.
-  if (errs.length) throw new Error(`pricing.published.json geçersiz: ${errs.join(" ")}`);
-  overlay(PRICING, SINGLE, pubData);
-}
-/** Sitede şu an uygulanan fiyat sürümü */
-export const PRICE_VERSION = { version: PUBLISHED.version, publishedAt: PUBLISHED.publishedAt };
-
-
-/* ------------------------------------------------------------------ */
-/* Yardımcılar                                                         */
-/* ------------------------------------------------------------------ */
-
-/** 24900 → "24.900 TL" (ortama bağlı olmayan biçimlendirme) */
+/** 24900 → "24.900 TL" (ortama bağlı olmayan biçimlendirme). Geçersiz/eksik tutar için boş metin. */
 export function formatTL(n: number): string {
+  if (!has(n)) return "";
   const s = Math.round(n)
     .toString()
     .replace(/\B(?=(\d{3})+(?!\d))/g, ".");
   return `${s} TL`;
 }
 
-/** Aylık hizmet + kurulum için ilk ay toplamı */
-export function firstMonthTotal(t: Tier): number | null {
-  return t.setupFee ? t.price + t.setupFee : null;
+/** Paketin üç kademesinin fiyatları da biliniyor mu? */
+export function familyAvailable(f: PricingFamily): boolean {
+  return TIER_IDS.every((id) => {
+    const t = f.tiers[id];
+    return has(t.price) && (t.setupFee === undefined || has(t.setupFee)) && (t.maintenance === undefined || has(t.maintenance));
+  });
 }
 
-/** "9.900 TL / ay" gibi kısa gösterim */
+/** Tekil hizmetin gösterilecek fiyatı biliniyor mu? */
+export function singleAvailable(s: SingleService): boolean {
+  return has(s.price) && (s.setupFee === undefined || has(s.setupFee)) && (s.monthly === undefined || has(s.monthly));
+}
+
+/** Aylık hizmet + kurulum için ilk ay toplamı */
+export function firstMonthTotal(t: Tier): number | null {
+  return t.setupFee && has(t.setupFee) && has(t.price) ? t.price + t.setupFee : null;
+}
+
+/** "9.900 TL / ay" gibi kısa gösterim (fiyat yoksa boş metin) */
 export function tierPriceLabel(f: PricingFamily, id: TierId): string {
   const t = f.tiers[id];
+  if (!has(t.price)) return "";
   const base = formatTL(t.price);
   return f.billing === "one-time" ? `${base} tek seferlik` : `${base} ${BILLING_SUFFIX[f.billing]}`;
 }
 
+/** Fiyat bilinmiyorsa cümle içinde kullanılabilen tarafsız ifade döner */
 export function singlePriceLabel(s: SingleService): string {
+  if (!singleAvailable(s)) return PRICE_CONTACT_INLINE;
   if (s.startingAt) return `${formatTL(s.price)}'den başlayan proje bedeli`;
   if (s.setupFee && s.monthly) return `${formatTL(s.setupFee)} kurulum + ${formatTL(s.monthly)} / ay`;
   return `${formatTL(s.price)} ${BILLING_SUFFIX[s.billing]}`;
 }
 
-/** Ailenin en düşük ve en yüksek ana fiyatı (yapılandırılmış veri için) */
-export function familyRange(f: PricingFamily): { low: number; high: number } {
+/** Ailenin en düşük ve en yüksek ana fiyatı; fiyat yoksa null */
+export function familyRange(f: PricingFamily): { low: number; high: number } | null {
+  if (!familyAvailable(f)) return null;
   const prices = Object.values(f.tiers).map((t) => t.price);
   return { low: Math.min(...prices), high: Math.max(...prices) };
 }
+
+/** Boş liste yerine undefined: JSON-LD'de "offers" alanı hiç yazılmaz */
+export function nonEmpty<T>(list: T[]): T[] | undefined {
+  return list.length ? list : undefined;
+}
+
+/** Çözümlenmiş fiyat kitabı: bir sayfa üretiminde kullanılan TEK fiyat görünümü */
+export interface Prices {
+  /** Fiyat kaynağı (veritabanı) okunabildi mi? false ise hiçbir tutar yoktur (alanlar NaN) */
+  available: boolean;
+  version: number | null;
+  publishedAt: string | null;
+  PRICING: Record<FamilyId, PricingFamily>;
+  SINGLE: Record<SingleId, SingleService>;
+  /** "Başlangıç 9.900 TL / ay, Büyüme …" — fiyat yoksa tarafsız cümle */
+  familyPriceSummary(fid: FamilyId): string;
+  /** "1.500 / 3.500 / 9.900 TL / ay" — fiyat yoksa tarafsız cümle */
+  maintenanceSummary(): string;
+  /** İçerik dosyalarındaki {{...}} yer tutucularını çözer */
+  resolvePriceTokens(text: string, opts?: { strict?: boolean }): string;
+}
+export type PriceSource = Prices;
+
+const NAN_MARK = "__NaN__";
+const clone = <T,>(v: T): T =>
+  JSON.parse(
+    JSON.stringify(v, (_k, x) => (typeof x === "number" && Number.isNaN(x) ? NAN_MARK : x)),
+    (_k, x) => (x === NAN_MARK ? NaN : x)
+  );
+
+/**
+ * Yayımlanmış (ya da önizlenen taslak) fiyat verisinden fiyat kitabı üretir. data=null → hiçbir tutar yok.
+ * Verinin eksik bıraktığı paket/hizmet için tutar UYDURULMAZ; o kalem "fiyat yok" kalır.
+ */
+export function buildPrices(data: PriceData | null, meta: { version?: number | null; publishedAt?: string | null } = {}): Prices {
+  const PRICING = clone(PRICING_STRUCTURE);
+  const SINGLE = clone(SINGLE_STRUCTURE);
+  if (data) {
+    for (const f of Object.values(PRICING)) {
+      for (const id of TIER_IDS) {
+        const v = data.families?.[f.id]?.[id];
+        const t = f.tiers[id];
+        if (!v) continue;
+        if (okAmount(v.price)) t.price = v.price;
+        if (t.setupFee !== undefined && okAmount(v.setupFee)) t.setupFee = v.setupFee;
+        if (t.maintenance !== undefined && okAmount(v.maintenance)) t.maintenance = v.maintenance;
+      }
+      // Ayrıntı tablosundaki bakım satırı da aynı kaynaktan türetilir
+      if (TIER_IDS.every((id) => has(f.tiers[id].maintenance))) {
+        for (const r of f.details) {
+          if (r.label.startsWith("İsteğe bağlı bakım")) {
+            for (const id of TIER_IDS) r.values[id] = `${formatTL(f.tiers[id].maintenance!)} / ay`;
+          }
+        }
+      }
+    }
+    for (const s of Object.values(SINGLE)) {
+      const v = data.singles?.[s.id];
+      if (!v) continue;
+      if (s.setupFee !== undefined && okAmount(v.setupFee)) s.setupFee = v.setupFee;
+      if (s.monthly !== undefined && okAmount(v.monthly)) s.monthly = v.monthly;
+      // Kurulum + aylık hizmetlerde "price" türetilir: aylık hizmetlerde aylık ücret, tek seferliklerde kurulum.
+      if (s.setupFee !== undefined && s.monthly !== undefined) {
+        if (has(s.setupFee) && has(s.monthly)) s.price = s.billing === "monthly" ? s.monthly : s.setupFee;
+      } else if (okAmount(v.price)) s.price = v.price;
+    }
+  }
+
+  const familyPriceSummary = (fid: FamilyId): string => {
+    const f = PRICING[fid];
+    if (!familyAvailable(f)) return PRICE_CONTACT_INLINE;
+    return TIER_IDS.map((id) => {
+      const t = f.tiers[id];
+      let out = `${TIER_NAMES[id]} ${tierPriceLabel(f, id)}`;
+      if (t.setupFee) out += ` + ${formatTL(t.setupFee)} kurulum (ilk ay ${formatTL(t.price + t.setupFee)})`;
+      if (fid === "web-bakim") out += ` (toplam ${WEB_MAINTENANCE_HOURS[id]} saat)`;
+      return out;
+    }).join(", ");
+  };
+
+  const maintenanceSummary = (): string => {
+    const t = PRICING["is-otomasyonu"].tiers;
+    if (!familyAvailable(PRICING["is-otomasyonu"])) return PRICE_CONTACT_INLINE;
+    return `${formatTL(t.baslangic.maintenance!).replace(" TL", "")} / ${formatTL(t.buyume.maintenance!).replace(" TL", "")} / ${formatTL(t.kurumsal.maintenance!)} / ay`;
+  };
+
+  /**
+   * İçerik dosyalarındaki (JSON/Markdown) fiyat yer tutucularını çözer. İçerik dosyaları tutar içermez:
+   *   {{fiyatlar:FAMILY}} {{fiyat:FAMILY:TIER}} {{kurulum:FAMILY:TIER}} {{ilkay:FAMILY:TIER}}
+   *   {{bakim:TIER}} {{tekil:SINGLE}}  → veritabanı fiyatından
+   *   {{reklam-limit:TIER}} {{ai-kota:TIER}} → paket kotaları (fiyat değil; koddaki sabitler)
+   * Fiyat okunamıyorsa yer tutucu tarafsız bir ifadeye dönüşür. Bilinmeyen yer tutucu strict modda hata verir
+   * (test bunu tüm içerik dosyalarında zorlar); çalışma anında sayfa 500 vermesin diye tarafsız ifade basılır.
+   */
+  const resolvePriceTokens = (text: string, opts: { strict?: boolean } = {}): string =>
+    text.replace(/\{\{([a-z-]+):([a-z-]+)(?::([a-z]+))?\}\}/g, (all, kind: string, a: string, b?: string) => {
+      const fam = (PRICING as Record<string, PricingFamily>)[a];
+      const isTier = (id: string | undefined): id is TierId => id === "baslangic" || id === "buyume" || id === "kurumsal";
+      const bad = () => {
+        if (opts.strict) throw new Error(`Geçersiz fiyat yer tutucusu: ${all}`);
+        return PRICE_CONTACT_INLINE;
+      };
+      switch (kind) {
+        case "fiyatlar":
+          if (!fam) return bad();
+          return familyPriceSummary(a as FamilyId);
+        case "fiyat":
+          if (!fam || !isTier(b)) return bad();
+          return has(fam.tiers[b].price) ? tierPriceLabel(fam, b) : PRICE_CONTACT_INLINE;
+        case "kurulum": {
+          if (!fam || !isTier(b) || fam.tiers[b].setupFee === undefined) return bad();
+          const v = fam.tiers[b].setupFee!;
+          return has(v) ? formatTL(v) : PRICE_CONTACT_INLINE;
+        }
+        case "ilkay": {
+          if (!fam || !isTier(b) || fam.tiers[b].setupFee === undefined) return bad();
+          const v = firstMonthTotal(fam.tiers[b]);
+          return v === null ? PRICE_CONTACT_INLINE : formatTL(v);
+        }
+        case "bakim": {
+          if (!isTier(a)) return bad();
+          const m = PRICING["is-otomasyonu"].tiers[a].maintenance;
+          return m !== undefined && has(m) ? `${formatTL(m)} / ay` : PRICE_CONTACT_INLINE;
+        }
+        case "tekil": {
+          const s = (SINGLE as Record<string, SingleService>)[a];
+          if (!s) return bad();
+          return singleAvailable(s) ? singlePriceLabel(s) : PRICE_CONTACT_INLINE;
+        }
+        case "reklam-limit":
+          if (!isTier(a)) return bad();
+          return formatTL(AD_SPEND_CAP[a]);
+        case "ai-kota":
+          if (!isTier(a)) return bad();
+          return n(AI_REPLY_QUOTA[a]);
+      }
+      return bad();
+    });
+
+  return {
+    available: data !== null,
+    version: meta.version ?? null,
+    publishedAt: meta.publishedAt ?? null,
+    PRICING,
+    SINGLE,
+    familyPriceSummary,
+    maintenanceSummary,
+    resolvePriceTokens
+  };
+}
+
+/* ------------------------------------------------------------------ */
+/* Yardımcılar (fiyat içermez)                                         */
+/* ------------------------------------------------------------------ */
 
 export const WHATSAPP_NUMBER = "905318639117";
 
@@ -966,8 +1059,9 @@ export function contactHref(serviceLabel: string, tierName?: string): string {
   return `/iletisim?${q.toString()}`;
 }
 
-/** Schema.org Offer listesi — paket fiyatları KDV hariç TRY */
+/** Schema.org Offer listesi — paket fiyatları KDV hariç TRY. Fiyat bilinmiyorsa BOŞ liste (Offer yazılmaz). */
 export function familyOffersSchema(f: PricingFamily) {
+  if (!familyAvailable(f)) return [];
   return (["baslangic", "buyume", "kurumsal"] as TierId[]).map((id) => {
     const t = f.tiers[id];
     return {
@@ -983,94 +1077,15 @@ export function familyOffersSchema(f: PricingFamily) {
   });
 }
 
-/** Hizmet formundaki seçenekler (iletişim sayfası) */
+/** Hizmet formundaki seçenekler (iletişim sayfası) — yalnızca ad listesi */
 export const SERVICE_OPTIONS: string[] = [
-  ...Object.values(PRICING).map((f) => f.formLabel),
-  ...Object.values(SINGLE).map((s) => s.formLabel)
+  ...Object.values(PRICING_STRUCTURE).map((f) => f.formLabel),
+  ...Object.values(SINGLE_STRUCTURE).map((s) => s.formLabel)
 ];
 
-/** Metin içinde kullanılacak paket fiyat özeti: "Başlangıç 9.900 TL / ay, Büyüme …" */
-export function familyPriceSummary(fid: FamilyId): string {
-  const f = PRICING[fid];
-  return (["baslangic", "buyume", "kurumsal"] as TierId[])
-    .map((id) => {
-      const t = f.tiers[id];
-      let s = `${TIER_NAMES[id]} ${tierPriceLabel(f, id)}`;
-      if (t.setupFee) s += ` + ${formatTL(t.setupFee)} kurulum (ilk ay ${formatTL(t.price + t.setupFee)})`;
-      if (fid === "web-bakim") s += ` (toplam ${WEB_MAINTENANCE_HOURS[id]} saat)`;
-      return s;
-    })
-    .join(", ");
-}
-
-/** İş otomasyonu isteğe bağlı bakım özeti: "1.500 / 3.500 / 9.900 TL / ay" */
-export function maintenanceSummary(): string {
-  const t = PRICING["is-otomasyonu"].tiers;
-  return `${formatTL(t.baslangic.maintenance ?? 0).replace(" TL", "")} / ${formatTL(t.buyume.maintenance ?? 0).replace(" TL", "")} / ${formatTL(t.kurumsal.maintenance ?? 0)} / ay`;
-}
-
-/**
- * İçerik dosyalarındaki (JSON/Markdown) fiyat yer tutucularını merkezi kaynaktan çözer.
- * İçerik dosyaları TypeScript import edemediği için fiyatlar metne elle yazılmaz; bunun yerine:
- *   {{fiyatlar:FAMILY}}          → üç paketin özeti
- *   {{fiyat:FAMILY:TIER}}        → "6.900 TL / ay"
- *   {{kurulum:FAMILY:TIER}}      → "14.900 TL"
- *   {{ilkay:FAMILY:TIER}}        → "21.800 TL"
- *   {{bakim:TIER}}               → iş otomasyonu isteğe bağlı aylık bakım, "3.500 TL / ay"
- *   {{tekil:SINGLE}}             → tekil hizmet fiyat etiketi
- *   {{reklam-limit:TIER}}        → dahil reklam harcaması sınırı
- *   {{ai-kota:TIER}}             → aylık AI yanıt kotası
- * Bilinmeyen yer tutucu build sırasında hata verir; böylece yanlış/eski fiyat sessizce yayına çıkmaz.
- */
-export function resolvePriceTokens(text: string): string {
-  return text.replace(/\{\{([a-z-]+):([a-z-]+)(?::([a-z]+))?\}\}/g, (all, kind: string, a: string, b?: string) => {
-    const fam = (PRICING as Record<string, PricingFamily>)[a];
-    const tierOf = (id?: string) => {
-      if (!fam || !id || !(id in fam.tiers)) throw new Error(`Geçersiz fiyat yer tutucusu: ${all}`);
-      return fam.tiers[id as TierId];
-    };
-    const isTier = (id: string): id is TierId => id === "baslangic" || id === "buyume" || id === "kurumsal";
-    switch (kind) {
-      case "fiyatlar":
-        if (!fam) break;
-        return familyPriceSummary(a as FamilyId);
-      case "fiyat":
-        tierOf(b);
-        return tierPriceLabel(fam, b as TierId);
-      case "kurulum": {
-        const t = tierOf(b);
-        if (!t.setupFee) break;
-        return formatTL(t.setupFee);
-      }
-      case "ilkay": {
-        const v = firstMonthTotal(tierOf(b));
-        if (v === null) break;
-        return formatTL(v);
-      }
-      case "bakim": {
-        if (!isTier(a)) break;
-        const m = PRICING["is-otomasyonu"].tiers[a].maintenance;
-        if (!m) break;
-        return `${formatTL(m)} / ay`;
-      }
-      case "tekil": {
-        const s = (SINGLE as Record<string, SingleService>)[a];
-        if (!s) break;
-        return singlePriceLabel(s);
-      }
-      case "reklam-limit":
-        if (!isTier(a)) break;
-        return formatTL(AD_SPEND_CAP[a]);
-      case "ai-kota":
-        if (!isTier(a)) break;
-        return n(AI_REPLY_QUOTA[a]);
-    }
-    throw new Error(`Geçersiz fiyat yer tutucusu: ${all}`);
-  });
-}
-
-/** Tekil hizmetler için schema.org Offer listesi (aylık ücret + varsa tek seferlik kurulum) */
+/** Tekil hizmetler için schema.org Offer listesi (aylık ücret + varsa tek seferlik kurulum). Fiyat yoksa boş liste. */
 export function singleOffersSchema(s: SingleService) {
+  if (!singleAvailable(s)) return [];
   const offers: Record<string, unknown>[] = [
     {
       "@type": "Offer",

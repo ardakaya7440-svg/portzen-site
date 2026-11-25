@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { type FamilyId, BILLING_LABEL, DISPLAY_ORDER, PRICING, RECOMMENDED_TIER, SINGLE, TIER_NAMES, firstMonthTotal, formatTL, singlePriceLabel, type PriceSource } from "@/data/pricing";
+import { type FamilyId, BILLING_LABEL, DISPLAY_ORDER, PRICE_CONTACT_SHORT, PRICE_CONTACT_TEXT, RECOMMENDED_TIER, TIER_NAMES, firstMonthTotal, formatTL, singleAvailable, singlePriceLabel, type PriceSource } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 const ROWS: FamilyId[] = [
   "sosyal-medya",
@@ -14,9 +15,10 @@ const ROWS: FamilyId[] = [
 ];
 
 /** Tüm hizmetlerin paket fiyatlarını tek tabloda özetler (ana sayfa). */
-export function PriceOverview({ src }: { src?: PriceSource } = {}) {
-  const FAM = src?.families ?? PRICING;
-  const SGL = src?.singles ?? SINGLE;
+export async function PriceOverview({ src }: { src?: PriceSource } = {}) {
+  const book = src ?? (await getPrices());
+  const FAM = book.PRICING;
+  const SGL = book.SINGLE;
   return (
     <div>
       {/* Masaüstü tablo */}
@@ -52,6 +54,13 @@ export function PriceOverview({ src }: { src?: PriceSource } = {}) {
                   {DISPLAY_ORDER.map((id) => {
                     const t = f.tiers[id];
                     const first = firstMonthTotal(t);
+                    if (!book.available || !Number.isFinite(t.price)) {
+                      return (
+                        <td key={id} className="px-6 py-4 text-sm font-semibold text-slate/70">
+                          {PRICE_CONTACT_SHORT}
+                        </td>
+                      );
+                    }
                     return (
                       <td key={id} className={`px-6 py-4 tabular-nums ${id === RECOMMENDED_TIER ? "bg-lime/15" : ""}`}>
                         <span className="font-bold text-slate">{formatTL(t.price)}</span>
@@ -87,7 +96,7 @@ export function PriceOverview({ src }: { src?: PriceSource } = {}) {
                 {(["baslangic", "buyume", "kurumsal"] as const).map((id) => (
                   <div key={id} className={`rounded-xl px-3 py-2 ${id === RECOMMENDED_TIER ? "bg-lime/25" : "bg-light"}`}>
                     <dt className="text-xs text-slate/70">{TIER_NAMES[id]}</dt>
-                    <dd className="font-bold text-slate tabular-nums">{formatTL(f.tiers[id].price).replace(" TL", "")}</dd>
+                    <dd className="font-bold text-slate tabular-nums">{formatTL(f.tiers[id].price).replace(" TL", "") || PRICE_CONTACT_SHORT}</dd>
                   </div>
                 ))}
               </dl>
@@ -97,9 +106,14 @@ export function PriceOverview({ src }: { src?: PriceSource } = {}) {
             </Link>
           );
         })}
-        <p className="text-xs text-slate/60">Tutarlar TL&apos;dir.</p>
+        <p className="text-xs text-slate/60">{book.available ? "Tutarlar TL'dir." : PRICE_CONTACT_TEXT}</p>
       </div>
 
+      {!book.available ? (
+        <p className="mt-6 text-sm font-semibold text-slate" data-fiyat-yok>
+          {PRICE_CONTACT_TEXT}. Paket kapsamları ve teklif için iletişim formunu ya da WhatsApp&apos;ı kullanabilirsiniz.
+        </p>
+      ) : (
       <p className="mt-6 text-sm text-slate/70 leading-relaxed">
         Diğer hizmetler: landing page {singlePriceLabel(SGL["landing-page"])}; Instagram DM otomasyonu{" "}
         {singlePriceLabel(SGL["instagram-dm"])}; AI telefon asistanı {singlePriceLabel(SGL["ai-telefon-asistani"])}{" "}
@@ -108,6 +122,7 @@ export function PriceOverview({ src }: { src?: PriceSource } = {}) {
         başlar. Tüm tutarlar KDV hariçtir. Paketlerdeki adetler o paketin toplam hakkıdır; alt paket adetleri üst pakete
         eklenmez.
       </p>
+      )}
 
       <Link
         href="/fiyatlar"

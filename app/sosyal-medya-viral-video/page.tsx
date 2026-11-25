@@ -20,7 +20,8 @@ import { cn } from "@/lib/utils";
 import { PricingSection } from "@/components/pricing/PricingSection";
 import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
 import { MoreDetails } from "@/components/visual/MoreDetails";
-import { familyPriceSummary } from "@/data/pricing";
+import { type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Sosyal Medya Viral Video | Reels + TikTok Üretim ve Strateji, PORTZEN" },
@@ -321,7 +322,9 @@ const caseStudy = {
     "Yeni açılan bir kafe için viral formülün tek bir videoya nasıl uygulandığını gösteren örnek bir kurgu. Hook, siyah ekrandan beliren latte art tepesidir (0-2 sn). Setup, baristanın tekniği nasıl öğrendiğini anlatan kısa bir cümledir (2-5 sn). Escalation bölümünde 3 farklı desen (kalp, yaprak, tulip) hızlı geçişlerle gösterilir (5-13 sn). Payoff, kafenin logosuyla kapanan bir slow-motion andır. Ses olarak lisanslı lo-fi kahve temalı bir trend audio seçilir; yayın saati hesabın Insights verisine göre (örneğin öğle molası) belirlenir. Yayından sonra izlenme süresi, kaydetme ve yorum sinyalleri takip edilir; zayıf kalan bölüm bir sonraki videoda yeniden kurgulanır."
 };
 
-const comparison = [
+const buildComparison = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return [
   {
     kriter: "Aylık harcanan saat",
     self: "Öğrenme + üretim için düzenli zaman",
@@ -348,6 +351,7 @@ const comparison = [
     portzen: `Aylık paket: ${familyPriceSummary("kisa-video")} (KDV hariç)`
   }
 ];
+};
 
 const faqs = [
   {
@@ -380,7 +384,9 @@ const faqs = [
   }
 ];
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const comparison = buildComparison(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

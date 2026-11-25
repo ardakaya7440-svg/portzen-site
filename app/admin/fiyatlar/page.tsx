@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { PRICE_VERSION } from "@/data/pricing";
 import { listVersions } from "@/server/prices";
+import { getPrices } from "@/server/price-source";
 import { ActionButton, ConfirmAction, Empty, Flash, LinkButton, PageHead, StatusPill, trDate } from "@/components/admin/ui";
-import { deletePriceDraftAction, newPriceDraftAction, rebuildAction, restorePriceAction } from "../actions";
+import { deletePriceDraftAction, newBlankPriceDraftAction, newPriceDraftAction, restorePriceAction } from "../actions";
 
 export const dynamic = "force-dynamic";
 
@@ -11,8 +11,7 @@ export default async function PricesPage(props: { searchParams: Promise<{ ok?: s
   const versions = await listVersions();
   const pub = versions.find((v) => v.status === "published");
   const drafts = versions.filter((v) => v.status === "draft");
-  const live = PRICE_VERSION.version;
-  const hook = Boolean(process.env.DEPLOY_HOOK_URL);
+  const live = await getPrices();
   return (
     <>
       <PageHead
@@ -25,9 +24,13 @@ export default async function PricesPage(props: { searchParams: Promise<{ ok?: s
           </>
         }
         actions={
-          pub && (
+          pub ? (
             <ActionButton action={newPriceDraftAction} fields={{ from: pub.id }} tone="primary" size="md">
               Yeni taslak oluştur
+            </ActionButton>
+          ) : (
+            <ActionButton action={newBlankPriceDraftAction} fields={{}} tone="primary" size="md">
+              Boş taslak oluştur
             </ActionButton>
           )
         }
@@ -42,18 +45,11 @@ export default async function PricesPage(props: { searchParams: Promise<{ ok?: s
         </div>
         <div className="rounded-2xl border border-slate/15 bg-white p-5">
           <p className="text-sm font-semibold text-slate/70">Sitede şu an görünen sürüm</p>
-          <p className="mt-1 text-2xl font-bold text-slate">v{live}</p>
-          {pub && pub.id !== live ? (
-            <div className="mt-1 flex flex-wrap items-center gap-3 text-sm text-amber-900">
-              <span>v{pub.id} sitede henüz görünmüyor; derleme {hook ? "sürüyor olabilir" : "bekleniyor"}.</span>
-              {hook && (
-                <ActionButton action={rebuildAction} fields={{}}>
-                  Derlemeyi yeniden başlat
-                </ActionButton>
-              )}
-            </div>
+          <p className="mt-1 text-2xl font-bold text-slate">{live.available ? `v${live.version}` : "Okunamıyor"}</p>
+          {pub && pub.id !== live.version ? (
+            <p className="mt-1 text-sm text-amber-900">v{pub.id} birkaç saniye içinde tüm sayfalarda görünür (derleme gerekmez).</p>
           ) : (
-            <p className="text-sm text-slate/60">Yayımlanan sürümle aynı.</p>
+            <p className="text-sm text-slate/60">Yayımlanan sürümle aynı. Fiyatlar doğrudan veritabanından gelir.</p>
           )}
         </div>
       </div>

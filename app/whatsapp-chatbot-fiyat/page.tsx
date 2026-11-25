@@ -18,9 +18,13 @@ import {
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 import { PricingSection } from "@/components/pricing/PricingSection";
-import { PRICING, formatTL, familyPriceSummary, AI_REPLY_QUOTA } from "@/data/pricing";
+import { formatTL, AI_REPLY_QUOTA, type Prices, familyAvailable, PRICE_CONTACT_SHORT } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
-export const metadata: Metadata = {
+export async function generateMetadata(): Promise<Metadata> {
+  const B = await getPrices();
+  const { familyPriceSummary } = B;
+  return {
   title: { absolute: "WhatsApp Chatbot Fiyat Rehberi — 2026 Türkiye | PORTZEN" },
   description:
     `WhatsApp chatbot fiyatları 2026 (KDV hariç): ${familyPriceSummary("ai-musteri-asistani")}. Paket kapsamları, AI yanıt kotaları ve fiyatı etkileyen faktörler.`,
@@ -52,6 +56,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://portzenai.com/whatsapp-chatbot-fiyat" },
   robots: pageRobots({ index: true, follow: true })
 };
+}
 
 const serviceSchema = {
   "@context": "https://schema.org",
@@ -70,7 +75,9 @@ const serviceSchema = {
     "WhatsApp Business API üzerinden çalışan, sektör bazlı eğitilmiş AI chatbot. Üç paket, yazılı fiyat; Logo/Mikro/Iyzico entegrasyonu ayrıca tekliflendirilir. KVKK gereklilikleri dikkate alınarak kurgulanır (açık rıza, aydınlatma akışı)."
 };
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -132,6 +139,7 @@ const faqSchema = {
     }
   ]
 };
+};
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -190,8 +198,10 @@ const factors = [
   }
 ];
 
-const comparison = [
-  { feature: "Aylık başlangıç", manychat: "Kapsam bazlı", tidio: "Kapsam bazlı", wati: "Kapsam bazlı", portzen: `${formatTL(PRICING["ai-musteri-asistani"].tiers.baslangic.price)} / ay + ${formatTL(PRICING["ai-musteri-asistani"].tiers.baslangic.setupFee ?? 0)} kurulum` },
+const buildComparison = (B: Prices) => {
+  const { PRICING } = B;
+  return [
+  { feature: "Aylık başlangıç", manychat: "Kapsam bazlı", tidio: "Kapsam bazlı", wati: "Kapsam bazlı", portzen: familyAvailable(PRICING["ai-musteri-asistani"]) ? `${formatTL(PRICING["ai-musteri-asistani"].tiers.baslangic.price)} / ay + ${formatTL(PRICING["ai-musteri-asistani"].tiers.baslangic.setupFee ?? 0)} kurulum` : PRICE_CONTACT_SHORT },
   { feature: "Para birimi", manychat: "Döviz", tidio: "Döviz", wati: "Döviz", portzen: "Yerli, sabit" },
   { feature: "Türkçe arayüz", manychat: false, tidio: false, wati: false, portzen: true },
   { feature: "Türkçe destek", manychat: false, tidio: false, wati: false, portzen: true },
@@ -201,6 +211,7 @@ const comparison = [
   { feature: "AI yanıt limiti", manychat: "1.000/ay", tidio: "100/ay", wati: "Yok", portzen: `${formatTL(AI_REPLY_QUOTA.baslangic).replace(" TL", "")} / ${formatTL(AI_REPLY_QUOTA.buyume).replace(" TL", "")} / ${formatTL(AI_REPLY_QUOTA.kurumsal).replace(" TL", "")} ay` },
   { feature: "Sektör bazlı eğitim", manychat: false, tidio: false, wati: false, portzen: true }
 ];
+};
 
 const sectorPricing = [
   {
@@ -247,7 +258,9 @@ const crossLinks = [
   }
 ];
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return [
   {
     q: "WhatsApp chatbot fiyatı 2026'da ne kadar?",
     a: `PORTZEN'de WhatsApp chatbot (AI müşteri asistanı) aylık ücret ve tek seferlik kurulumdan oluşur (KDV hariç): ${familyPriceSummary("ai-musteri-asistani")}. Paketler arasındaki fark kanal sayısı, randevu ve CRM entegrasyonu, şube sayısı ve aylık AI yanıt kotasıdır. Meta mesaj ücretleri ve harici platform ücretleri ayrıca belirtilir.`
@@ -277,8 +290,13 @@ const faqs = [
     a: "Standart CRM entegrasyonu (ör. HubSpot, Bitrix24) Büyüme paketinde, randevu dahil 4 standart entegrasyon Kurumsal pakette dahildir. Türk sektörüne özel entegrasyonlar (Logo Tiger, Mikro, Iyzico, NetGSM SMS, özel ERP API'leri) ayrıca tekliflendirilir."
   }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const faqSchema = buildFaqSchema(B);
+  const comparison = buildComparison(B);
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

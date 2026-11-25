@@ -25,7 +25,8 @@ import {
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
 import { PricingSection } from "@/components/pricing/PricingSection";
-import { PRICING, familyOffersSchema, formatTL, familyPriceSummary, AD_SPEND_CAP, AD_OVERAGE_RATE } from "@/data/pricing";
+import { familyOffersSchema, formatTL, AD_SPEND_CAP, AD_OVERAGE_RATE, type Prices, nonEmpty } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Sosyal Medya Ajansı | İzmir, İstanbul, Türkiye - PORTZEN" },
@@ -64,7 +65,9 @@ export const metadata: Metadata = {
   robots: pageRobots({ index: true, follow: true })
 };
 
-const serviceSchema = {
+const buildServiceSchema = (B: Prices) => {
+  const { PRICING } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Sosyal Medya Ajansı Hizmetleri",
@@ -89,10 +92,13 @@ const serviceSchema = {
   ],
   description:
     "PORTZEN, KOBİ ve markalar için Instagram, Facebook, TikTok ve LinkedIn yönetimi, içerik üretimi, paid social reklam ve büyüme stratejisi sunan AI destekli sosyal medya ajansıdır. İzmir merkezli, tüm Türkiye'ye uzaktan hizmet.",
-  offers: familyOffersSchema(PRICING["sosyal-medya"])
+  offers: nonEmpty(familyOffersSchema(PRICING["sosyal-medya"]))
+};
 };
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -153,6 +159,7 @@ const faqSchema = {
       }
     }
   ]
+};
 };
 
 const breadcrumbSchema = {
@@ -330,7 +337,9 @@ const cities = [
 ];
 
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return [
   {
     q: "Sosyal medya ajansı fiyatları ne kadar?",
     a: `PORTZEN sosyal medya paketleri aylıktır ve fiyatları yazılıdır (KDV hariç): ${familyPriceSummary("sosyal-medya")}. Kanal sayısı, özgün içerik adedi, moderasyon ve dahil reklam yönetimi pakete göre değişir. Reklam bütçesi ayrıdır.`
@@ -360,8 +369,13 @@ const faqs = [
     a: "Aylık rapor 8 ana metriği içerir: erişim (reach), etkileşim oranı (engagement rate), takipçi büyüme, profil ziyareti, DM ve yorum sayısı, link tıklama (CTR), reklam ROAS ve dönüşüm. Google Analytics, Meta Business Suite ve TikTok Analytics verilerini tek panelde birleştiriyoruz. Aylık 60 dakikalık strateji toplantısında sonuçlar yorumlanır ve sonraki ay revize edilir. Vanity metric (sadece takipçi) konuşmayız; iş hedefine (satış, lead, randevu) bağlı raporlama yaparız."
   }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const serviceSchema = buildServiceSchema(B);
+  const faqSchema = buildFaqSchema(B);
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

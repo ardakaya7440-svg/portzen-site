@@ -1,4 +1,3 @@
-import { familyPriceSummary } from "@/data/pricing";
 import { Video, MessageSquare, Workflow, Sparkles, Globe, LucideIcon } from "lucide-react";
 
 export type ServiceTone = "yellow" | "pink" | "blue" | "green" | "orange" | "purple";
@@ -205,7 +204,7 @@ export const SERVICES: ServiceCategory[] = [
       { step: "04", title: "Aylık Rapor", description: "Erişim, etkileşim, takipçi büyümesi → bir sonraki ay optimize." }
     ],
     faqs: [
-      { q: "Aylık paket ne kadar?", a: `Sosyal medya yönetimi aylık, KDV hariç: ${familyPriceSummary("sosyal-medya")}.` },
+      { q: "Aylık paket ne kadar?", a: "Sosyal medya yönetimi aylık, KDV hariç: {{fiyatlar:sosyal-medya}}." /* fiyat yer tutucusu: tüketici book.resolvePriceTokens ile çözer */ },
       { q: "Sen mi yayınlıyorsun, biz mi?", a: "İkisi de mümkün. Genelde biz planlı yayına alıyoruz, sen sadece onay veriyorsun. İstersen sen yayınlarsın." },
       { q: "İçerik stilini biz mi siz mi belirliyoruz?", a: "Birlikte. İlk hafta brief'te markanın tonu, görsel dili ve sınırları netleştirilir. Sonrasında biz üretiriz, sen onaylarsın." },
       { q: "Sonuç garantisi veriyor musunuz?", a: "Belli bir büyüme oranı garantileyemiyoruz çünkü içerik kalitesi + tutarlılık + zaman birleşik etki. Bunun yerine her ay aynı metriklerle rapor paylaşır, bir sonraki ayı bu verilere göre planlarız." }

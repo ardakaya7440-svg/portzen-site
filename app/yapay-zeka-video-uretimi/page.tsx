@@ -20,7 +20,8 @@ import { cn } from "@/lib/utils";
 import { PricingSection } from "@/components/pricing/PricingSection";
 import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
 import { MoreDetails } from "@/components/visual/MoreDetails";
-import { PRICING, familyOffersSchema } from "@/data/pricing";
+import { familyOffersSchema, type Prices, nonEmpty } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Yapay Zeka Video Üretimi | AI Reklam ve Tanıtım Videosu - PORTZEN" },
@@ -56,7 +57,9 @@ export const metadata: Metadata = {
   robots: pageRobots({ index: true, follow: true })
 };
 
-const serviceSchema = {
+const buildServiceSchema = (B: Prices) => {
+  const { PRICING } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Yapay Zeka Video Üretimi",
@@ -71,7 +74,8 @@ const serviceSchema = {
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
     "Yapay zeka video üretimi hizmeti: Kurumsal AI motor altyapısı ile profesyonel reklam, tanıtım, sosyal medya ve brand film üretimi. Çekim ekibi ve lokasyon gerektirmez; teslim süresi kapsama göre teklifte yazılı olarak belirtilir.",
-  offers: familyOffersSchema(PRICING["ai-reklam-filmi"])
+  offers: nonEmpty(familyOffersSchema(PRICING["ai-reklam-filmi"]))
+};
 };
 
 const faqSchema = {
@@ -294,7 +298,9 @@ const faqs = [
   }
 ];
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const serviceSchema = buildServiceSchema(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

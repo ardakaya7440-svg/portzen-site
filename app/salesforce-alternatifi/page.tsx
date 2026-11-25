@@ -17,7 +17,8 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
-import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
+import { type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 import { PricingSection } from "@/components/pricing/PricingSection";
 
 export const metadata: Metadata = {
@@ -226,7 +227,9 @@ const features = [
   { icon: HeadphonesIcon, title: "Türkçe canlı destek + eğitim", desc: "WhatsApp + telefon ile Türkçe destek tüm paketlerde. Ekip eğitimi Büyüme ve Kurumsal paketlerde dahil; Türkçe video kütüphanesi." }
 ];
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary, maintenanceSummary } = B;
+  return [
   {
     q: "Salesforce gerçekten KOBİ için fazla mı geliyor?",
     a: `Salesforce Sales Cloud kullanıcı başına ücretlendirir; Professional, Enterprise ve Unlimited planlarında kullanıcı sayısı arttıkça fatura katlanır. Üstüne implementasyon partneri bütçesi ekstra ister. KOBİ ekipleri çoğu zaman Salesforce'un yalnızca temel modüllerini (pipeline, deal, contact, basic otomasyon) kullanır — geri kalanı atıl kalır. PORTZEN aynı temel CRM ihtiyacını sabit paket mantığı ile karşılar. PORTZEN iş otomasyonu paketleri tek seferliktir (KDV hariç): ${familyPriceSummary("is-otomasyonu")}. İsteğe bağlı aylık bakım ikinci aydan itibaren ${maintenanceSummary()}.`
@@ -256,8 +259,11 @@ const faqs = [
     a: "WhatsApp + telefon + e-mail üzerinden Türkçe canlı destek tüm PORTZEN paketlerinde dahildir; en kısa sürede dönüş yapıyoruz. Ekip eğitimi (panel kullanımı, deal yönetimi, raporlama, otomasyon) Büyüme ve Kurumsal paketlerde dahildir; Türkçe video kütüphanesi de sunulur. Salesforce Türkçe arayüz seçeneği sunar ama Trailhead eğitim içeriği ve destek dokümantasyonu büyük çoğunlukla İngilizcedir."
   }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

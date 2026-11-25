@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getPublished, getVersion } from "@/server/prices";
+import { editorData, getPublished, getVersion } from "@/server/prices";
 import { priceMeta } from "@/server/price-meta";
 import { PriceEditor } from "@/components/admin/PriceEditor";
 import { ActionButton, Flash, LinkButton, PageHead, StatusPill } from "@/components/admin/ui";
@@ -45,8 +45,8 @@ export default async function PriceVersionPage(props: { params: Promise<{ id: st
       <Flash ok={searchParams.ok} err={searchParams.err} />
       <PriceEditor
         versionId={v.id}
-        initial={v.data}
-        published={pub && pub.id !== v.id ? pub.data : null}
+        initial={editorData(v.data)}
+        published={pub && pub.id !== v.id ? editorData(pub.data) : null}
         note={v.note}
         families={meta.families}
         singles={meta.singles}

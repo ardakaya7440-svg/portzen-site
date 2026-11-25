@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { ArrowUpRight, Mail, MapPin, Phone, Star } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
-import { PRICING, SINGLE, formatTL } from "@/data/pricing";
+import { formatTL, type Prices, familyAvailable, singleAvailable, PRICE_CONTACT_INLINE } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 import { getPublicContent } from "@/server/cms";
 import { BrandStrip } from "@/components/cms/BrandStrip";
 import { TestimonialGrid } from "@/components/cms/Testimonials";
@@ -24,10 +25,15 @@ const STEPS = [
   { title: "Başlayalım", text: "Teklif onaylanınca işe başlarız. Her hafta nerede olduğumuzu görürsünüz; teslimden sonra da yanınızdayız." }
 ];
 
-const FAQ = [
+const buildFAQ = (B: Prices) => {
+  const { PRICING, SINGLE } = B;
+  const sampleOk = familyAvailable(PRICING["sosyal-medya"]) && familyAvailable(PRICING["kurumsal-web-sitesi"]) && singleAvailable(SINGLE["ozel-web-uygulamasi"]) && singleAvailable(SINGLE["mobil-uygulama"]);
+  return [
   {
     q: "Fiyatlar ne kadar?",
-    a: `Paket fiyatlarımız sitede yazılı ve KDV hariçtir. Örneğin sosyal medya yönetimi aylık ${formatTL(PRICING["sosyal-medya"].tiers.baslangic.price)} (Başlangıç), ${formatTL(PRICING["sosyal-medya"].tiers.buyume.price)} (Büyüme) ve ${formatTL(PRICING["sosyal-medya"].tiers.kurumsal.price)} (Kurumsal); kurumsal web sitesi ${formatTL(PRICING["kurumsal-web-sitesi"].tiers.baslangic.price)}'den itibaren üç paket. Özel web uygulaması ${formatTL(SINGLE["ozel-web-uygulamasi"].price)}'den, mobil uygulama ${formatTL(SINGLE["mobil-uygulama"].price)}'den başlar. Tüm paketler Fiyatlar sayfasında.`
+    a: sampleOk
+      ? `Paket fiyatlarımız sitede yazılı ve KDV hariçtir. Örneğin sosyal medya yönetimi aylık ${formatTL(PRICING["sosyal-medya"].tiers.baslangic.price)} (Başlangıç), ${formatTL(PRICING["sosyal-medya"].tiers.buyume.price)} (Büyüme) ve ${formatTL(PRICING["sosyal-medya"].tiers.kurumsal.price)} (Kurumsal); kurumsal web sitesi ${formatTL(PRICING["kurumsal-web-sitesi"].tiers.baslangic.price)}'den itibaren üç paket. Özel web uygulaması ${formatTL(SINGLE["ozel-web-uygulamasi"].price)}'den, mobil uygulama ${formatTL(SINGLE["mobil-uygulama"].price)}'den başlar. Tüm paketler Fiyatlar sayfasında.`
+      : `Paket kapsamları Fiyatlar sayfasında yazılıdır; ${PRICE_CONTACT_INLINE}. Tutarlar KDV hariçtir.`
   },
   {
     q: "Sadece sosyal medya ya da sadece yazılım alabilir miyim?",
@@ -46,8 +52,11 @@ const FAQ = [
     a: "Sosyal medya yönetiminin başlangıç tarihi ve yazılım projelerinin teslim süresi kapsama göre değişir; teklifte yazılı olarak belirtilir."
   }
 ];
+};
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const FAQ = buildFAQ(B);
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "@id": "https://portzenai.com/#faq",
@@ -56,6 +65,7 @@ const faqSchema = {
     name: f.q,
     acceptedAnswer: { "@type": "Answer", text: f.a }
   }))
+};
 };
 
 /** Bölüm başlığı: numara + çizgi + rozet (Studiova) */
@@ -111,7 +121,10 @@ function PillButton({
   );
 }
 
-export default async function HomePage() {
+export default async function HomePage(){
+  const B = await getPrices();
+  const FAQ = buildFAQ(B);
+  const faqSchema = buildFaqSchema(B);
   const cms = await getPublicContent();
   const hasBrands = cms.brands.some((b) => b.logo);
   const hasReviews = cms.testimonials.length > 0;

@@ -13,7 +13,8 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { cn } from "@/lib/utils";
-import { familyPriceSummary } from "@/data/pricing";
+import { type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Klinik Randevu Unutan Hasta Çözümü | SMS + WhatsApp | PORTZEN" },
@@ -63,7 +64,9 @@ const serviceSchema = {
     "Klinik ve muayenehanelerde randevu unutan hasta problemini SMS + WhatsApp hatırlatma, teyit ve otomatik yeniden randevu akışıyla çözen kurumsal AI altyapılı sistem."
 };
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -74,6 +77,7 @@ const faqSchema = {
     { "@type": "Question", name: "Fiyat ne kadar?", acceptedAnswer: { "@type": "Answer", text: `AI müşteri asistanı paketleri (KDV hariç): ${familyPriceSummary("ai-musteri-asistani")}. Hasta ve mesaj hacmi, hekim sayısı ve entegrasyon ihtiyacı hangi paketin yeteceğini belirler. Randevu alma ve takvim entegrasyonu Büyüme ve Kurumsal paketlerde yer alır; Başlangıç paketi tek kanalda (WhatsApp veya web sitesi) sık sorulan soruları yanıtlar. Meta mesaj ve SMS ücretleri hizmet bedeline dahil değildir.` } },
     { "@type": "Question", name: "KVKK açısından nasıl kurgulanıyor?", acceptedAnswer: { "@type": "Answer", text: "Kurulum KVKK gerekliliklerini dikkate alarak kurgulanır: ilk randevu alımında aydınlatma metni ve açık rıza cümlesi, silme talebinde kayıt temizleme akışı. Verinin hangi sağlayıcıda ve bölgede tutulacağı kullanılan altyapıya göre teklifte yazılı olarak belirtilir. Sağlık verisi özel nitelikli kişisel veri olduğundan erişim yetkileri ve kayıt tutma buna göre planlanır." } }
   ]
+};
 };
 
 const breadcrumbSchema = {
@@ -117,7 +121,9 @@ const features = [
   { icon: ShieldCheck, title: "KVKK + sağlık verisi", desc: "Özel nitelikli sağlık verisi için KVKK gerekliliklerini dikkate alarak kurgulanır: açık rıza, aydınlatma akışı, denetim log'u, silme talebi akışı. Verinin hangi sağlayıcıda ve bölgede tutulacağı teklifte yazılı olarak belirtilir." }
 ];
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return [
   { q: "SMS ve WhatsApp'ı aynı anda mı gönderiyor?", a: "Hayır — akıllı öncelik var. WhatsApp'ta okundu gösterirse SMS gönderilmez; okunmadıysa 15 dakika sonra SMS devreye girer. Böylece hasta iki kanal spam'ine uğramaz, ulaşılamama riski de azalır." },
   { q: "Hasta 'iptal ediyorum' derse ne olur?", a: "Sistem slotu takvimde serbest bırakır, iptal sebebini sorar (opsiyonel), ve bekleme listesindeki uygun hastaya otomatik teklif mesajı gönderir. Alan hasta 'evet' derse takvim onun adına güncellenir ve slot yeniden dolar." },
   { q: "Hangi klinik türü için uygundur?", a: "Estetik, diş, dermatoloji, göz, fizik tedavi, kadın doğum, çocuk muayenehanesi, psikolog seansı ve tüm randevu ile çalışan sağlık pratikleri için uygundur. Slot değeri yüksek alanlarda (estetik, diş) boş kalan her randevunun maliyeti daha belirgindir." },
@@ -125,8 +131,12 @@ const faqs = [
   { q: "Mevcut klinik yazılımıma entegre olur mu?", a: "Popüler klinik yönetim yazılımlarının çoğuyla API üzerinden entegre olabiliyoruz. Uygun değilse Google Takvim / Calendly üzerinden ara katman kurup çift yönlü senkronu sağlıyoruz." },
   { q: "Personelim tarafından ekstra iş yükü doğuruyor mu?", a: "Tersine. Şu anki manuel hatırlatma/telefon açma yükü ortadan kalkar. Personel yalnızca sistem panelinden 'kaçırılan bugün kim' raporuna bakar. İptal edilen slot bekleme listesinden otomatik doldurulur." }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const faqSchema = buildFaqSchema(B);
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

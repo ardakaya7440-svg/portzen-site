@@ -21,7 +21,8 @@ import { RelatedLocationsSection } from "@/components/landing/RelatedLocationsSe
 import { PricingSection, SinglePriceSection } from "@/components/pricing/PricingSection";
 import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
 import { MoreDetails } from "@/components/visual/MoreDetails";
-import { SINGLE, singlePriceLabel } from "@/data/pricing";
+import { singlePriceLabel, type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "Instagram DM Otomasyonu | Kural Tabanlı Otomatik DM — PORTZEN" },
@@ -71,7 +72,9 @@ const serviceSchema = {
     "Instagram DM, hikaye yanıtları, yorumlar ve reklam etkileşimlerine anahtar kelimeye göre otomatik DM gönderen kural tabanlı otomasyon sistemi. Serbest sorulara AI ile yanıt AI müşteri asistanı kapsamındadır. Estetik klinik, butik, e-ticaret ve danışmanlar için; teslim süresi kapsama göre teklifte yazılı olarak belirtilir."
 };
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const { SINGLE } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -132,6 +135,7 @@ const faqSchema = {
       }
     }
   ]
+};
 };
 
 const breadcrumbSchema = {
@@ -197,7 +201,9 @@ const features = [
 ];
 
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { SINGLE } = B;
+  return [
   {
     q: "Instagram DM otomasyonu Meta politikalarına uygun mu?",
     a: "Evet. Meta'nın resmi Messenger Platform API'sini kullanıyoruz — yetkisiz üçüncü parti araç değil. Resmi entegrasyon, yetkisiz araçlara özgü shadowban ve askıya alma riskini en aza indirir. Akışlar Meta'nın 24 saatlik mesajlaşma penceresi kuralı dikkate alınarak tasarlanır."
@@ -227,8 +233,12 @@ const faqs = [
     a: "PORTZEN İzmir merkezli ama tüm Türkiye'ye uzaktan sosyal medya yönetimi ve DM otomasyonu hizmeti veriyoruz. Kurulum tamamen online — Meta Business Suite üzerinden erişim açıyorsunuz, biz kuruyoruz. İzmir içindeki markalara yerinde de gelinebilir."
   }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const faqSchema = buildFaqSchema(B);
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

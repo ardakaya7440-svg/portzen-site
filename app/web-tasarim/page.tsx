@@ -28,7 +28,8 @@ import { RelatedLocationsSection } from "@/components/landing/RelatedLocationsSe
 import { PricingSection, WebExtrasSection } from "@/components/pricing/PricingSection";
 import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
 import { MoreDetails } from "@/components/visual/MoreDetails";
-import { PRICING, SINGLE, familyOffersSchema, familyPriceSummary, singlePriceLabel } from "@/data/pricing";
+import { familyOffersSchema, singlePriceLabel, type Prices, nonEmpty } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 const URL = "https://portzenai.com/web-tasarim";
 const TITLE = "Web Tasarım | Marka Sitesi & Landing Page — PORTZEN";
@@ -67,7 +68,9 @@ export const metadata: Metadata = {
 };
 
 // JSON-LD structured data
-const serviceJsonLd = {
+const buildServiceJsonLd = (B: Prices) => {
+  const { PRICING } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "Service",
   serviceType: "Web Tasarım",
@@ -82,10 +85,13 @@ const serviceJsonLd = {
   },
   areaServed: { "@type": "Country", name: "Türkiye" },
   description: DESCRIPTION,
-  offers: [...familyOffersSchema(PRICING["kurumsal-web-sitesi"]), ...familyOffersSchema(PRICING["e-ticaret"])],
+  offers: nonEmpty([...familyOffersSchema(PRICING["kurumsal-web-sitesi"]), ...familyOffersSchema(PRICING["e-ticaret"])]),
+};
 };
 
-const faqJsonLd = {
+const buildFaqJsonLd = (B: Prices) => {
+  const { SINGLE, familyPriceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -147,6 +153,7 @@ const faqJsonLd = {
     },
   ],
 };
+};
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
@@ -157,7 +164,11 @@ const breadcrumbJsonLd = {
   ],
 };
 
-export default function WebTasarimPage() {
+export default async function WebTasarimPage(){
+  const B = await getPrices();
+  const { SINGLE, familyPriceSummary } = B;
+  const serviceJsonLd = buildServiceJsonLd(B);
+  const faqJsonLd = buildFaqJsonLd(B);
   return (
     <>
       <script

@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 /**
  * Build öncesi (npm run build → prebuild) çalışır:
- *  1) Yayımlanmış fiyat sürümünü veritabanından okuyup pricing.published.json dosyasına yazar.
- *  2) Herkese açık içerik anlık görüntüsünü cms.snapshot.json dosyasına yazar.
+ * Herkese açık içerik (marka/yorum/iş) anlık görüntüsünü cms.snapshot.json dosyasına yazar.
+ *
+ * FİYATLAR BU BETİĞİN KONUSU DEĞİLDİR: fiyatın tek kaynağı çalışma anında Neon veritabanıdır
+ * (src/server/price-source.ts); repoda ve build çıktısında fiyat anlık görüntüsü tutulmaz.
  *
  * Nereye yazılır?
  *  - PORTZEN_DATABASE_URL varsa (gerçek veritabanı, ör. Vercel): src/data/ altındaki dosyalar güncellenir.
@@ -18,7 +20,6 @@ import path from "node:path";
 const root = process.cwd();
 const local = !process.env.PORTZEN_DATABASE_URL;
 const outDir = local ? path.join(root, ".data", "generated") : path.join(root, "src", "data");
-const PRICES = path.join(outDir, "pricing.published.json");
 const SNAP = path.join(outDir, "cms.snapshot.json");
 // Varsayılan katı: veritabanı okunamazsa build durur. Yerelde yalnızca açık bayrakla gevşetilir.
 const allowLocal = process.env.PORTZEN_ALLOW_LOCAL_DB === "1";
@@ -35,7 +36,7 @@ if (local && !allowLocal) {
 // Yerel modda çıktı klasörü her zaman eksiksiz olsun: varsayılanlarla başlat
 if (local) {
   fs.mkdirSync(outDir, { recursive: true });
-  for (const f of ["pricing.published.json", "cms.snapshot.json"]) {
+  for (const f of ["cms.snapshot.json"]) {
     const dst = path.join(outDir, f);
     if (!fs.existsSync(dst)) fs.copyFileSync(path.join(root, "src", "data", f), dst);
   }
@@ -81,13 +82,6 @@ async function main() {
     if (!exists.rows[0]?.t) {
       console.log("[sync-content] tablolar henüz yok; mevcut dosyalar kullanılacak.");
       return;
-    }
-    const pub = (await db.q(`select id, data, note, published_at from price_versions where status = 'published'`)).rows[0];
-    if (pub) {
-      const data = typeof pub.data === "string" ? JSON.parse(pub.data) : pub.data;
-      const out = { version: Number(pub.id), publishedAt: pub.published_at ? new Date(pub.published_at).toISOString() : null, note: pub.note ?? null, data };
-      fs.writeFileSync(PRICES, JSON.stringify(out, null, 2) + "\n");
-      console.log(`[sync-content] yayımlanmış fiyat sürümü v${out.version} → ${path.relative(root, PRICES)}`);
     }
     const brands = (await db.q(`select b.id, b.name, b.kind, b.url, m.id as mid, m.kind as mkind, m.width, m.height from brands b left join media m on m.id = b.logo_id where b.visible = true and b.logo_id is not null order by b.kind, b.sort, b.id`)).rows;
     const tests = (await db.q(`select t.*, m.id as mid, m.kind as mkind, m.width, m.height from testimonials t left join media m on m.id = t.avatar_id where t.status = 'published' order by t.sort, t.id`)).rows;

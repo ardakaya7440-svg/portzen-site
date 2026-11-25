@@ -20,7 +20,8 @@ import { cn } from "@/lib/utils";
 import { RelatedSectorsSection } from "@/components/landing/RelatedSectorsSection";
 import { RelatedLocationsSection } from "@/components/landing/RelatedLocationsSection";
 import { PricingSection } from "@/components/pricing/PricingSection";
-import { PRICING, familyOffersSchema, familyPriceSummary } from "@/data/pricing";
+import { familyOffersSchema, type Prices, nonEmpty } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 export const metadata: Metadata = {
   title: { absolute: "AI Reklam Videosu | Çekim Ekibi Olmadan Üretim — PORTZEN" },
@@ -53,7 +54,9 @@ export const metadata: Metadata = {
   robots: pageRobots({ index: true, follow: true })
 };
 
-const serviceSchema = {
+const buildServiceSchema = (B: Prices) => {
+  const { PRICING } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "AI Reklam Videosu Üretimi",
@@ -68,10 +71,13 @@ const serviceSchema = {
   areaServed: { "@type": "Country", name: "Turkey" },
   description:
     "Yapay zeka ile profesyonel reklam videoları üretiyoruz. Çekim ekibi, oyuncu, stüdyo gerekmez — video brief'ten üretilir; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Instagram Reels, TikTok, YouTube Shorts, Meta Ads için ürün, marka ve hizmet videoları.",
-  offers: familyOffersSchema(PRICING["ai-reklam-filmi"])
+  offers: nonEmpty(familyOffersSchema(PRICING["ai-reklam-filmi"]))
+};
 };
 
-const faqSchema = {
+const buildFaqSchema = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -132,6 +138,7 @@ const faqSchema = {
       }
     }
   ]
+};
 };
 
 const breadcrumbSchema = {
@@ -197,7 +204,9 @@ const features = [
 ];
 
 
-const faqs = [
+const buildFaqs = (B: Prices) => {
+  const { familyPriceSummary } = B;
+  return [
   {
     q: "AI reklam videosu gerçek çekimden farkı ne?",
     a: "Çekim ekibi, oyuncu, stüdyo, mekan tutma derdi yok. Çekim takvimi gerekmediği için süreç sadeleşir ve çekim maliyeti oluşmaz; teslim süresi kapsama göre teklifte yazılı olarak belirtilir. Görüntü kalitesi sinematik — 2025 itibarıyla AI video çıktıları çoğu zaman insanın 'çekim mi AI mi?' diye ayırt edemediği seviyede. Marka tonunuza uygun avatar, mekan, aksiyon AI ile üretilir; profesyonel Türkçe seslendirme eklenir."
@@ -227,8 +236,13 @@ const faqs = [
     a: "Evet. Markaya özel AI avatar üretiyoruz — yüzü, sesi, kişiliği size ait olur, başka markada kullanılmaz. Bu avatar haftalık içerik üretir, sosyal medyada düzenli görünür, hiçbir oyuncu maaşı veya çekim takvimi gerekmez. Detaylı bilgi için AI Video hizmet sayfamıza bakın."
   }
 ];
+};
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const serviceSchema = buildServiceSchema(B);
+  const faqSchema = buildFaqSchema(B);
+  const faqs = buildFaqs(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />

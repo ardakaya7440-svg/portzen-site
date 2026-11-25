@@ -29,7 +29,8 @@ import { RelatedLocationsSection } from "@/components/landing/RelatedLocationsSe
 import { PricingSection } from "@/components/pricing/PricingSection";
 import { ServiceAtAGlance } from "@/components/visual/ServiceAtAGlance";
 import { MoreDetails } from "@/components/visual/MoreDetails";
-import { familyPriceSummary, maintenanceSummary } from "@/data/pricing";
+import { type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 const URL = "https://portzenai.com/crm-otomasyonu";
 const TITLE = "CRM Otomasyonu | Lead Takibini Otomatikleştiren Sistem — PORTZEN";
@@ -85,7 +86,9 @@ const serviceJsonLd = {
   description: DESCRIPTION,
 };
 
-const faqJsonLd = {
+const buildFaqJsonLd = (B: Prices) => {
+  const { familyPriceSummary, maintenanceSummary } = B;
+  return {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
@@ -147,6 +150,7 @@ const faqJsonLd = {
     },
   ],
 };
+};
 
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
@@ -157,7 +161,10 @@ const breadcrumbJsonLd = {
   ],
 };
 
-export default function CrmOtomasyonuPage() {
+export default async function CrmOtomasyonuPage(){
+  const B = await getPrices();
+  const { familyPriceSummary, maintenanceSummary } = B;
+  const faqJsonLd = buildFaqJsonLd(B);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />

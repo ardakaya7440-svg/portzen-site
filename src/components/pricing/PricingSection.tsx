@@ -1,12 +1,14 @@
 import Link from "next/link";
 import { ArrowUpRight, Check } from "lucide-react";
-import { type FamilyId, type SingleId, type TierId, BILLING_LABEL, BILLING_SUFFIX, DISPLAY_ORDER, PRICING, RECOMMENDED_TIER, SINGLE, TIER_NAMES, contactHref, firstMonthTotal, formatTL, packageMessage, type PriceSource, singlePriceLabel, tierPriceLabel, whatsappUrl, QUOTA_NOTE } from "@/data/pricing";
+import { type FamilyId, type SingleId, type TierId, BILLING_LABEL, BILLING_SUFFIX, DISPLAY_ORDER, PRICE_CONTACT_SHORT, PRICE_CONTACT_TEXT, RECOMMENDED_TIER, TIER_NAMES, contactHref, familyAvailable, firstMonthTotal, formatTL, packageMessage, type PriceSource, singleAvailable, singlePriceLabel, tierPriceLabel, whatsappUrl, QUOTA_NOTE } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 import { cn } from "@/lib/utils";
 
 /**
  * Paket kartları + ayrıntı karşılaştırması.
  * Masaüstü: Kurumsal / Büyüme / Başlangıç. Mobil: Büyüme önce gelir.
- * Fiyatlar yalnızca src/data/pricing.ts'ten okunur.
+ * Fiyatlar yalnızca veritabanından (getPrices) okunur; admin önizlemesinde `src` ile taslak verilir.
+ * Fiyat okunamazsa tutar yerine tarafsız metin gösterilir, kapsam metinleri ve CTA'lar yerinde kalır.
  */
 
 const MOBILE_ORDER: Record<TierId, string> = {
@@ -21,7 +23,7 @@ export function SectionBadge({ children }: { children: React.ReactNode }) {
   );
 }
 
-export function PricingSection({
+export async function PricingSection({
   family,
   heading,
   intro,
@@ -39,7 +41,8 @@ export function PricingSection({
   badge?: string;
   headingLevel?: "h2" | "h3";
 }) {
-  const f = (src?.families ?? PRICING)[family];
+  const book = src ?? (await getPrices());
+  const f = book.PRICING[family];
   const H = headingLevel;
   return (
     <section id={id} className="bg-white py-16 lg:py-24 border-t border-slate/10 scroll-mt-24">
@@ -55,30 +58,36 @@ export function PricingSection({
           </p>
         </div>
 
+        {!familyAvailable(f) && (
+          <p className="mt-6 rounded-xl bg-light px-4 py-3 text-sm font-semibold text-slate" data-fiyat-yok>
+            {PRICE_CONTACT_TEXT}. Paket kapsamları aşağıda; size uygun teklifi WhatsApp veya iletişim formu ile paylaşalım.
+          </p>
+        )}
         <div className="mt-10 grid gap-6 lg:grid-cols-3 lg:items-stretch">
           {DISPLAY_ORDER.map((id) => (
-            <TierCard key={id} family={family} tier={id} src={src} />
+            <TierCard key={id} family={family} tier={id} book={book} />
           ))}
         </div>
 
         <PricingNotes notes={[QUOTA_NOTE, ...f.notes]} />
-        {f.details.length > 0 && <DetailsComparison family={family} src={src} />}
+        {f.details.length > 0 && <DetailsComparison family={family} book={book} />}
       </div>
     </section>
   );
 }
 
-function TierCard({ family, tier, src }: { family: FamilyId; tier: TierId; src?: PriceSource }) {
-  const f = (src?.families ?? PRICING)[family];
+function TierCard({ family, tier, book }: { family: FamilyId; tier: TierId; book: PriceSource }) {
+  const f = book.PRICING[family];
   const t = f.tiers[tier];
   const recommended = tier === RECOMMENDED_TIER;
   const name = TIER_NAMES[tier];
   const priceLabel = tierPriceLabel(f, tier);
   const first = firstMonthTotal(t);
+  const priced = familyAvailable(f);
   const waMessage = packageMessage(
     f.formLabel,
     name,
-    t.setupFee ? `${priceLabel} + ${formatTL(t.setupFee)} kurulum` : priceLabel
+    !priced ? undefined : t.setupFee ? `${priceLabel} + ${formatTL(t.setupFee)} kurulum` : priceLabel
   );
 
   return (
@@ -99,13 +108,19 @@ function TierCard({ family, tier, src }: { family: FamilyId; tier: TierId; src?:
       </div>
 
       <div className="mt-5">
-        <div className="flex flex-wrap items-baseline gap-x-2">
-          <span className="text-4xl font-bold tracking-tight text-slate tabular-nums">{formatTL(t.price)}</span>
-          <span className="text-sm font-semibold text-slate/70">{BILLING_SUFFIX[f.billing]}</span>
-        </div>
-        <p className="mt-1 text-xs text-slate/60">KDV hariç · {BILLING_LABEL[f.billing]}</p>
+        {priced ? (
+          <>
+            <div className="flex flex-wrap items-baseline gap-x-2">
+              <span className="text-4xl font-bold tracking-tight text-slate tabular-nums">{formatTL(t.price)}</span>
+              <span className="text-sm font-semibold text-slate/70">{BILLING_SUFFIX[f.billing]}</span>
+            </div>
+            <p className="mt-1 text-xs text-slate/60">KDV hariç · {BILLING_LABEL[f.billing]}</p>
+          </>
+        ) : (
+          <p className="text-lg font-bold leading-snug text-slate">{PRICE_CONTACT_TEXT}</p>
+        )}
 
-        {t.setupFee !== undefined && first !== null && (
+        {priced && t.setupFee !== undefined && first !== null && (
           <dl className="mt-4 grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 rounded-xl bg-light px-4 py-3 text-sm">
             <dt className="text-slate/70">Tek seferlik kurulum</dt>
             <dd className="font-semibold text-slate tabular-nums">{formatTL(t.setupFee)}</dd>
@@ -114,7 +129,7 @@ function TierCard({ family, tier, src }: { family: FamilyId; tier: TierId; src?:
           </dl>
         )}
 
-        {t.maintenance !== undefined && (
+        {priced && t.maintenance !== undefined && (
           <dl className="mt-4 grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 rounded-xl bg-light px-4 py-3 text-sm">
             <dt className="text-slate/70">İsteğe bağlı bakım (2. aydan)</dt>
             <dd className="font-semibold text-slate tabular-nums">{formatTL(t.maintenance)} / ay</dd>
@@ -175,8 +190,8 @@ export function PricingNotes({ notes }: { notes: string[] }) {
 }
 
 /** Erişilebilir ayrıntı karşılaştırması: masaüstünde tablo, mobilde paket başına liste */
-export function DetailsComparison({ family, src }: { family: FamilyId; src?: PriceSource }) {
-  const f = (src?.families ?? PRICING)[family];
+export function DetailsComparison({ family, book }: { family: FamilyId; book: PriceSource }) {
+  const f = book.PRICING[family];
   return (
     <details className="group mt-8 rounded-2xl border border-slate/15 bg-white">
       <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-6 py-5 text-base font-bold text-slate [&::-webkit-details-marker]:hidden">
@@ -213,7 +228,7 @@ export function DetailsComparison({ family, src }: { family: FamilyId; src?: Pri
               </th>
               {DISPLAY_ORDER.map((id) => (
                 <td key={id} className="py-3 pr-4 font-semibold text-slate tabular-nums">
-                  {tierPriceLabel(f, id)}
+                  {tierPriceLabel(f, id) || PRICE_CONTACT_SHORT}
                 </td>
               ))}
             </tr>
@@ -224,7 +239,7 @@ export function DetailsComparison({ family, src }: { family: FamilyId; src?: Pri
                 </th>
                 {DISPLAY_ORDER.map((id) => (
                   <td key={id} className="py-3 pr-4 text-slate">
-                    {r.values[id]}
+                    {r.values[id] || "—"}
                   </td>
                 ))}
               </tr>
@@ -237,13 +252,13 @@ export function DetailsComparison({ family, src }: { family: FamilyId; src?: Pri
           {(["buyume", "baslangic", "kurumsal"] as TierId[]).map((id) => (
             <div key={id}>
               <h4 className="text-base font-bold text-slate">
-                {TIER_NAMES[id]} · <span className="tabular-nums">{tierPriceLabel(f, id)}</span>
+                {TIER_NAMES[id]} · <span className="tabular-nums">{tierPriceLabel(f, id) || PRICE_CONTACT_SHORT}</span>
               </h4>
               <dl className="mt-2 divide-y divide-slate/10 text-sm">
                 {f.details.map((r) => (
                   <div key={r.label} className="grid grid-cols-2 gap-3 py-2">
                     <dt className="text-slate/70">{r.label}</dt>
-                    <dd className="text-slate">{r.values[id]}</dd>
+                    <dd className="text-slate">{r.values[id] || "—"}</dd>
                   </div>
                 ))}
               </dl>
@@ -256,14 +271,19 @@ export function DetailsComparison({ family, src }: { family: FamilyId; src?: Pri
 }
 
 /** Tekil fiyatlı hizmet kartı (landing page, Instagram DM, AI telefon, özel projeler) */
-export function SinglePriceCard({ id, className, src }: { id: SingleId; className?: string; src?: PriceSource }) {
-  const s = (src?.singles ?? SINGLE)[id];
+export async function SinglePriceCard({ id, className, src }: { id: SingleId; className?: string; src?: PriceSource }) {
+  const s = (src ?? (await getPrices())).SINGLE[id];
+  const priced = singleAvailable(s);
   const label = singlePriceLabel(s);
   return (
     <article className={cn("flex h-full flex-col rounded-2xl border border-slate/15 bg-white p-7 shadow-card", className)}>
       <h3 className="text-xl font-bold text-slate">{s.title}</h3>
       <div className="mt-4">
-        {s.startingAt ? (
+        {!priced ? (
+          <p className="text-lg font-bold leading-snug text-slate" data-fiyat-yok>
+            {PRICE_CONTACT_TEXT}
+          </p>
+        ) : s.startingAt ? (
           <>
             <div className="text-3xl font-bold tracking-tight text-slate tabular-nums">{formatTL(s.price)}&apos;den</div>
             <p className="mt-1 text-xs text-slate/60">başlayan proje bedeli · KDV hariç</p>
@@ -314,7 +334,7 @@ export function SinglePriceCard({ id, className, src }: { id: SingleId; classNam
           </span>
         </Link>
         <a
-          href={whatsappUrl(packageMessage(s.formLabel, undefined, label))}
+          href={whatsappUrl(packageMessage(s.formLabel, undefined, priced ? label : undefined))}
           target="_blank"
           rel="noopener noreferrer"
           className="text-center text-sm font-semibold text-slate/70 underline-offset-4 hover:text-slate hover:underline"
@@ -327,8 +347,8 @@ export function SinglePriceCard({ id, className, src }: { id: SingleId; classNam
 }
 
 /** Web bakım — üç seviye, kompakt satırlar */
-export function WebMaintenanceRow({ src }: { src?: PriceSource } = {}) {
-  const f = (src?.families ?? PRICING)["web-bakim"];
+export async function WebMaintenanceRow({ src }: { src?: PriceSource } = {}) {
+  const f = (src ?? (await getPrices())).PRICING["web-bakim"];
   return (
     <div className="rounded-2xl border border-slate/15 bg-white p-7 shadow-card">
       <h3 className="text-xl font-bold text-slate">{f.title}</h3>
@@ -344,7 +364,7 @@ export function WebMaintenanceRow({ src }: { src?: PriceSource } = {}) {
               <p className="text-sm text-slate/70">{f.tiers[id].audience}</p>
             </div>
             <div className="sm:text-right">
-              <span className="block font-bold text-slate tabular-nums whitespace-nowrap">{tierPriceLabel(f, id)}</span>
+              <span className="block font-bold text-slate tabular-nums whitespace-nowrap">{tierPriceLabel(f, id) || PRICE_CONTACT_SHORT}</span>
               <span className="block text-sm text-slate/70">{f.tiers[id].highlights[0]}</span>
             </div>
           </li>
@@ -390,7 +410,7 @@ export function WebExtrasSection({ src }: { src?: PriceSource } = {}) {
 }
 
 /** Tekil hizmet için başlıklı bölüm */
-export function SinglePriceSection({
+export async function SinglePriceSection({
   id,
   heading,
   intro,
@@ -403,7 +423,7 @@ export function SinglePriceSection({
   intro?: string;
   badge?: string;
 }) {
-  const s = (src?.singles ?? SINGLE)[id];
+  const s = (src ?? (await getPrices())).SINGLE[id];
   return (
     <section id="fiyatlar" className="bg-white py-16 lg:py-24 border-t border-slate/10 scroll-mt-24">
       <div className="mx-auto max-w-container px-6 grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-start">

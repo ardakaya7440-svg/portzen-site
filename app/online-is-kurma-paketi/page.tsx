@@ -14,7 +14,8 @@ import {
 } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { PricingSection } from "@/components/pricing/PricingSection";
-import { DISPLAY_ORDER, PRICING, TIER_NAMES, type TierId, familyOffersSchema, formatTL } from "@/data/pricing";
+import { DISPLAY_ORDER, TIER_NAMES, type TierId, familyAvailable, familyOffersSchema, formatTL, nonEmpty, PRICE_CONTACT_TEXT, type Prices } from "@/data/pricing";
+import { getPrices } from "@/server/price-source";
 
 const URL = "https://portzenai.com/online-is-kurma-paketi";
 const TITLE = "Online İş Kurma Paketi | E-ticaret Sitesi + Sosyal Medya + Reklam — PORTZEN";
@@ -46,14 +47,13 @@ export const metadata: Metadata = {
   robots: pageRobots({ index: true, follow: true })
 };
 
-const PKG = PRICING["online-is-paketi"];
-const ECOM = PRICING["e-ticaret"];
-const SM = PRICING["sosyal-medya"];
-const ADS = PRICING["reklam-yonetimi"];
-const FILM = PRICING["ai-reklam-filmi"];
-
 /** Paketin karşılığı olan hizmetlerin ayrı ayrı fiyatı (fiyatlar tek kaynaktan, otomatik) */
-function separate(id: TierId) {
+function separate(id: TierId, B: Prices) {
+  const { PRICING } = B;
+  const ECOM = PRICING["e-ticaret"];
+  const SM = PRICING["sosyal-medya"];
+  const ADS = PRICING["reklam-yonetimi"];
+  const FILM = PRICING["ai-reklam-filmi"];
   const setup = ECOM.tiers[id].price;
   // Sosyal medya Büyüme ve Kurumsal reklam yönetimini zaten içerir; Başlangıç'ta ayrıca eklenir
   const monthly = SM.tiers[id].price + (id === "baslangic" ? ADS.tiers.baslangic.price : 0);
@@ -61,9 +61,9 @@ function separate(id: TierId) {
   return { setup, monthly, gift };
 }
 
-function comparison(id: TierId) {
-  const s = separate(id);
-  const p = PKG.tiers[id];
+function comparison(id: TierId, B: Prices) {
+  const s = separate(id, B);
+  const p = B.PRICING["online-is-paketi"].tiers[id];
   const pkgSetup = p.setupFee ?? 0;
   const firstSeparate = s.setup + s.monthly + s.gift;
   const firstPkg = pkgSetup + p.price;
@@ -166,7 +166,11 @@ const faqs = [
   }
 ];
 
-export default function Page() {
+export default async function Page(){
+  const B = await getPrices();
+  const PKG = B.PRICING["online-is-paketi"];
+  // Karşılaştırma yalnızca paket ve ayrı hizmet fiyatlarının TÜMÜ biliniyorsa gösterilir
+  const priced = (["online-is-paketi", "e-ticaret", "sosyal-medya", "reklam-yonetimi", "ai-reklam-filmi"] as const).every((f) => familyAvailable(B.PRICING[f]));
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -176,7 +180,7 @@ export default function Page() {
     provider: { "@id": "https://portzenai.com/#organization" },
     areaServed: { "@type": "Country", name: "Türkiye" },
     url: URL,
-    offers: familyOffersSchema(PKG)
+    offers: nonEmpty(familyOffersSchema(PKG))
   };
   const faqSchema = {
     "@context": "https://schema.org",
@@ -191,7 +195,7 @@ export default function Page() {
       { "@type": "ListItem", position: 2, name: "Online İş Kurma Paketi", item: URL }
     ]
   };
-  const buy = comparison("buyume");
+  const buy = priced ? comparison("buyume", B) : null;
 
   return (
     <>
@@ -244,6 +248,7 @@ export default function Page() {
               </Reveal>
             </div>
             <Reveal delay={150}>
+              {buy ? (
               <div className="border-3 border-ink/15 bg-light p-6 md:p-8 shadow-brutal rounded-2xl">
                 <div className="text-xs font-bold uppercase tracking-wider text-ink/60">Büyüme paketiyle ilk ay</div>
                 <div className="mt-4 space-y-3 text-sm">
@@ -265,6 +270,12 @@ export default function Page() {
                   harcaması hariç.
                 </p>
               </div>
+              ) : (
+              <div className="border-3 border-ink/15 bg-light p-6 md:p-8 shadow-brutal rounded-2xl" data-fiyat-yok>
+                <p className="text-base font-bold text-ink">{PRICE_CONTACT_TEXT}</p>
+                <p className="mt-2 text-sm text-ink/70">Paket kapsamı aşağıda; size uygun teklifi WhatsApp veya iletişim formundan paylaşalım.</p>
+              </div>
+              )}
             </Reveal>
           </div>
         </div>
@@ -345,6 +356,7 @@ export default function Page() {
               </p>
             </div>
           </Reveal>
+          {priced ? (
           <Reveal delay={100}>
             <div className="overflow-x-auto border-3 border-ink/15 rounded-2xl bg-paper shadow-brutal-sm">
               <table className="w-full min-w-[640px] text-sm">
@@ -360,7 +372,7 @@ export default function Page() {
                   <tr>
                     <td className="p-4 text-ink/70">Kurulum (ayrı / paket)</td>
                     {ORDER.map((id) => {
-                      const c = comparison(id);
+                      const c = comparison(id, B);
                       return (
                         <td key={id} className="p-4">
                           <span className="text-ink/50 line-through">{formatTL(c.setup)}</span>{" "}
@@ -372,7 +384,7 @@ export default function Page() {
                   <tr>
                     <td className="p-4 text-ink/70">Aylık (ayrı / paket)</td>
                     {ORDER.map((id) => {
-                      const c = comparison(id);
+                      const c = comparison(id, B);
                       return (
                         <td key={id} className="p-4">
                           <span className="text-ink/50 line-through">{formatTL(c.monthly)}</span>{" "}
@@ -385,7 +397,7 @@ export default function Page() {
                   <tr>
                     <td className="p-4 text-ink/70">2 AI reklam filmi</td>
                     {ORDER.map((id) => {
-                      const c = comparison(id);
+                      const c = comparison(id, B);
                       return (
                         <td key={id} className="p-4">
                           <span className="text-ink/50 line-through">{formatTL(c.gift)}</span>{" "}
@@ -397,7 +409,7 @@ export default function Page() {
                   <tr className="bg-light">
                     <td className="p-4 font-bold text-ink">İlk ay kazancınız</td>
                     {ORDER.map((id) => {
-                      const c = comparison(id);
+                      const c = comparison(id, B);
                       return (
                         <td key={id} className="p-4 font-black text-ink">
                           {formatTL(c.firstSaving)} <span className="text-xs font-bold text-ink/60">(%{c.firstPct})</span>
@@ -409,6 +421,9 @@ export default function Page() {
               </table>
             </div>
           </Reveal>
+          ) : (
+            <p className="text-body font-bold text-ink" data-fiyat-yok>{PRICE_CONTACT_TEXT}</p>
+          )}
         </div>
       </section>
 
