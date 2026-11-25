@@ -17,11 +17,17 @@ import { getPublished, publishVersion, restoreVersion } from "./prices";
  *  - Admin yayımla/geri al işlemi updateTag("fiyatlar") çağırır → etiketli veri ve sayfalar anında geçersiz olur,
  *    ilk istekte yeniden üretilir. Commit, build, deploy veya servis yeniden başlatma GEREKMEZ.
  *
- * Veritabanı okunamazsa (ya da build sırasında, Docker build'inde veritabanı yoktur):
- *  - getPrices() "fiyat yok" kitabı döner (available=false): sayfalar tutar yerine tarafsız metin + iletişim CTA'sı
- *    gösterir, JSON-LD/metadata'ya fiyat yazılmaz, sayfa 200 döner.
- *  - Hata KALICI önbelleğe alınmaz: "fiyatlar-erisilemedi" kaydı (5 sn) sayfanın yeniden doğrulama süresini 5 sn'ye
- *    indirir ve aynı etikete bağlıdır; veritabanı dönünce sayfalar kendiliğinden fiyatla yenilenir.
+ * Veritabanı okunamazsa (ya da build sırasında; Docker build'inde veritabanı yoktur):
+ *  - Önbellekte HİÇ geçerli kayıt yoksa (build, soğuk başlangıç, updateTag sonrası ilk okuma) getPrices() "fiyat yok"
+ *    kitabı döner (available=false): sayfalar tutar yerine tarafsız metin + iletişim CTA'sı gösterir, JSON-LD/metadata'ya
+ *    fiyat yazılmaz, sayfa 200 döner.
+ *  - Bu fiyatsız durum KALICI önbelleğe alınmaz: "fiyatlar-erisilemedi" kaydı (5 sn) sayfanın yeniden doğrulama süresini
+ *    5 sn'ye indirir ve aynı etikete bağlıdır; veritabanı dönünce sayfalar kendiliğinden fiyatla yenilenir.
+ *  - DİKKAT (bilinen, kabul edilmiş davranış): önbellekte daha önce okunmuş GEÇERLİ bir kayıt varken saatlik yeniden
+ *    doğrulama sırasında veritabanı çökerse, unstable_cache yenileme hatasını yutar ve bayat kaydı sunmaya devam eder.
+ *    Yani kesinti boyunca (en çok tekrar eden yenileme denemeleri sürdükçe) sayfalar veritabanında SON YAYIMLANMIŞ
+ *    fiyatla gösterilir; bu gömülü ya da uydurma bir fiyat değildir. Kesinti sürerken kayıt bayat kalır, DB dönünce yenilenir.
+ *    updateTag (admin yayımla/geri al) kaydı tümüyle sildiği için o anda DB hatası varsa fiyatsız sayfa üretilir.
  */
 export const PRICE_TAG = "fiyatlar";
 /** Başarılı okumanın önbellek süresi (sn). Admin değişikliği updateTag ile anında yansır; bu yalnızca güvenlik ağıdır. */

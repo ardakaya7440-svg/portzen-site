@@ -71,3 +71,8 @@ Fiyatlar hiçbir zaman kendiliğinden değişmez; tek kaynak veritabanındaki ya
 - Tablolar ilk bağlantıda otomatik oluşturulur; fiyat tutarı TOHUMLANMAZ (repoda tutar yok). Boş veritabanında ilk iş "Boş taslak oluştur" ile tutarları girip yayımlamaktır; yayımlanana kadar siteler fiyat yerine "Güncel fiyat bilgisi için bizimle iletişime geçin" gösterir.
 - Build öncesi `scripts/sync-content.mjs` yalnızca içerik (marka/yorum/iş) anlık görüntüsünü yazar; fiyat build'e gömülmez. Veritabanı okunamazsa sayfalar fiyatsız (200, SEO işaretlemesi yerinde) yayımlanır ve veritabanı dönünce kendiliğinden fiyatlanır.
 - Logolar, yorumlar ve işler kaydedildiği anda sitede yenilenir (önbellek etiketi: `cms`). Fiyatlar da aynı mantıkla `fiyatlar` etiketiyle anında yenilenir.
+
+## Fiyat işletme betikleri (konteynerde node/python3 ile)
+- `node scripts/fiyat-db-kontrol.mjs` - salt okuma; yayımlı fiyat sürümünde her anahtar VAR mı (çıkış 0 = tam). Üretim konteynerinde kendi env'iyle: `docker exec <konteyner> node scripts/fiyat-db-kontrol.mjs`.
+- `python3 scripts/fiyat-isit.py http://127.0.0.1:3000 [--host portzenai.com] [--rate 4]` - dağıtım sonrası ısıtma; sitemap'teki tüm yolları GET eder (<=4 istek/sn), non-200 ise çıkış 1, fiyatsız sayfa varsa 3. (Node eşdeğeri: `scripts/fiyat-isit.mjs`.)
+- `node scripts/fiyat-karsilastir.mjs <taban-url>` - yeni örnek ↔ canlı portzenai.com fiyat karşılaştırması.

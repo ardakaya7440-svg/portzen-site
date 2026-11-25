@@ -8,10 +8,10 @@ import { beforeAll, describe, expect, it } from "vitest";
 import { resetNextCache } from "./mocks/next-cache";
 import { LIVE, seedPublished } from "./helpers/db";
 import { jsonLd, renderHtml, priceMultiset } from "./helpers/render";
-import { loadLiveDiff, loadRoute } from "./helpers/fiyat-sayfalari";
+import { loadAffectedPaths, loadRoute } from "./helpers/fiyat-sayfalari";
 import { formatTL } from "@/data/pricing";
 
-const rows = loadLiveDiff();
+const rows = loadAffectedPaths().map((p) => ({ path: p }));
 const root = path.resolve(import.meta.dirname, "..");
 
 /** Sayfanın kaynağındaki (yer tutucusuz) sabit TL rakamları: piyasa aralıkları, rakip fiyatları, örnekler. DB kapalıyken görünebilecek tek tutarlar bunlar + limit sabitleridir. */
@@ -70,9 +70,8 @@ describe("DB kapalı: 79 sayfa fiyatsız ve sağlam", () => {
       const md = await r.metadata();
       expect(String(md?.description ?? "")).not.toMatch(/\d{1,3}(\.\d{3})* TL/);
 
-      // canlıda DB fiyatı gösteren sayfa, DB kapalıyken tarafsız metin göstermeli
-      const liveShowsDbPrice = Object.keys(row.live).some((s) => dbValues.has(s.replace(" / ay", "")));
-      if (liveShowsDbPrice) expect(html.toLowerCase()).toMatch(/güncel fiyat (bilgisi )?için bizimle iletişime geçin|iletişime geçin/);
+      // bu 79 sayfa DB fiyatı gösteren sayfalardır; DB kapalıyken tarafsız metin göstermeli
+      expect(html.toLowerCase()).toMatch(/güncel fiyat (bilgisi )?için bizimle iletişime geçin|iletişime geçin/);
     });
   }
 });

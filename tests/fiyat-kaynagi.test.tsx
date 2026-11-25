@@ -39,6 +39,9 @@ async function runAction(fn: (fd: FormData) => Promise<unknown>, fields: Record<
   }
 }
 
+const SM = LIVE.families["sosyal-medya"].buyume.price; // sentetik
+const SM2 = SM + 7; // admin'in gireceği yeni (sentetik) değer
+const fmt = (n: number) => formatTL(n);
 let realDb: Promise<unknown>;
 beforeEach(async () => {
   resetNextCache();
@@ -61,11 +64,11 @@ describe("getPrices: tek kaynak ve önbellek", () => {
     await seedPublished();
     const p = await getPrices();
     expect(p.available).toBe(true);
-    expect(p.PRICING["sosyal-medya"].tiers.buyume.price).toBe(24900);
-    expect(p.PRICING["reklam-yonetimi"].tiers.baslangic.price).toBe(3000);
-    expect(p.PRICING["is-otomasyonu"].tiers.baslangic.maintenance).toBe(4000);
-    expect(p.PRICING["is-otomasyonu"].tiers.buyume.maintenance).toBe(6000);
-    expect(p.familyPriceSummary("sosyal-medya")).toContain("Büyüme 24.900 TL / ay");
+    expect(p.PRICING["sosyal-medya"].tiers.buyume.price).toBe(SM);
+    expect(p.PRICING["reklam-yonetimi"].tiers.baslangic.price).toBe(LIVE.families["reklam-yonetimi"].baslangic.price);
+    expect(p.PRICING["is-otomasyonu"].tiers.baslangic.maintenance).toBe(LIVE.families["is-otomasyonu"].baslangic.maintenance);
+    expect(p.PRICING["is-otomasyonu"].tiers.buyume.maintenance).toBe(LIVE.families["is-otomasyonu"].buyume.maintenance);
+    expect(p.familyPriceSummary("sosyal-medya")).toContain(`Büyüme ${fmt(SM)} / ay`);
   });
 
   it("ikinci okuma önbellekten gelir: veritabanına sorgu gitmez", async () => {
@@ -96,7 +99,7 @@ describe("getPrices: tek kaynak ve önbellek", () => {
     expect(Number.isNaN(p.PRICING["online-is-paketi"].tiers.baslangic.price)).toBe(true);
     const html = await renderHtml(await (await loadRoute("/online-is-kurma-paketi")).page());
     expect(html).toContain(PRICE_CONTACT_TEXT);
-    expect(html).not.toContain("10.400 TL");
+    expect(html).not.toContain(fmt(LIVE.families["online-is-paketi"].baslangic.price));
     expect(JSON.stringify(jsonLd(html))).not.toContain('"Offer"');
   });
 });
@@ -105,16 +108,16 @@ describe("Admin yayımla: derleme/deploy olmadan yeni fiyat, etiket geçersiz k�
   it("taslak kaydı canlıyı değiştirmez; yayımla 'fiyatlar' etiketini geçersiz kılar ve sayfa yeni fiyatı gösterir", async () => {
     const v1 = await seedPublished();
     const before = await renderHtml(await (await loadRoute("/sosyal-medya-yonetimi")).page());
-    expect(before).toContain("24.900 TL / ay");
+    expect(before).toContain(`${fmt(SM)} / ay`);
 
     // Admin akışı: yayındakinden taslak → fiyatı değiştir → kaydet (admin sunucu eyleminin kullandığı işlevler)
     const draftId = await prices.createDraft(v1, "test-admin");
     const changed = clone(LIVE);
-    changed.families["sosyal-medya"].buyume.price = 26900;
+    changed.families["sosyal-medya"].buyume.price = SM2;
     expect(await prices.saveDraft(draftId, changed, "test")).toEqual([]);
 
     // Henüz yayımlanmadı: önbellekteki canlı fiyat aynı kalır
-    expect((await getPrices()).PRICING["sosyal-medya"].tiers.buyume.price).toBe(24900);
+    expect((await getPrices()).PRICING["sosyal-medya"].tiers.buyume.price).toBe(SM);
     expect(updateTag).not.toHaveBeenCalled();
 
     // Yayımla (gerçek admin eylemi)
@@ -124,16 +127,16 @@ describe("Admin yayımla: derleme/deploy olmadan yeni fiyat, etiket geçersiz k�
 
     const p = await getPrices();
     expect(p.version).toBe(draftId);
-    expect(p.PRICING["sosyal-medya"].tiers.buyume.price).toBe(26900);
+    expect(p.PRICING["sosyal-medya"].tiers.buyume.price).toBe(SM2);
     const after = await renderHtml(await (await loadRoute("/sosyal-medya-yonetimi")).page());
-    expect(after).toContain("26.900 TL / ay");
-    expect(after).not.toContain("24.900 TL / ay");
+    expect(after).toContain(`${fmt(SM2)} / ay`);
+    expect(after).not.toContain(`${fmt(SM)} / ay`);
     expect(await (await (await loadRoute("/fiyatlar")).metadata())?.description).toBeTruthy();
     // JSON-LD Offer fiyatı aynı kaynaktan (Offer üreten sayfa: /sosyal-medya-ajansi)
     const ajans = await renderHtml(await (await loadRoute("/sosyal-medya-ajansi")).page());
     const offers = JSON.stringify(jsonLd(ajans));
-    expect(offers).toContain('"price":26900');
-    expect(offers).not.toContain('"price":24900');
+    expect(offers).toContain(`"price":${SM2}`);
+    expect(offers).not.toContain(`"price":${SM}`);
     // generateMetadata da aynı kaynaktan
     const md = await (await loadRoute("/fiyatlar")).metadata();
     expect(String(md?.description)).toContain("aylık");
@@ -143,15 +146,15 @@ describe("Admin yayımla: derleme/deploy olmadan yeni fiyat, etiket geçersiz k�
     const v1 = await seedPublished();
     const d = await prices.createDraft(v1, "t");
     const changed = clone(LIVE);
-    changed.singles["landing-page"].price = 6500;
+    changed.singles["landing-page"].price = LIVE.singles["landing-page"].price + 7;
     await prices.saveDraft(d, changed, null);
     await runAction(actions.publishPriceAction, { id: String(d) });
-    expect((await getPrices()).SINGLE["landing-page"].price).toBe(6500);
+    expect((await getPrices()).SINGLE["landing-page"].price).toBe(LIVE.singles["landing-page"].price + 7);
     updateTag.mockClear();
     const url = await runAction(actions.restorePriceAction, { id: String(v1) });
     expect(url).toContain("ok=");
     expect(updateTag).toHaveBeenCalledWith(PRICE_TAG);
-    expect((await getPrices()).SINGLE["landing-page"].price).toBe(5900);
+    expect((await getPrices()).SINGLE["landing-page"].price).toBe(LIVE.singles["landing-page"].price);
   });
 
   it("DEPLOY_HOOK_URL tanımlı olsa bile fiyat akışı HTTP isteği atmaz", async () => {
@@ -189,7 +192,7 @@ describe("DB erişilemiyor: fiyatsız ama sağlam sayfa", () => {
     // "erişilemedi" kaydı da 5 sn sonra sona erdiği için sayfa yeniden üretilir
     const up = await getPrices();
     expect(up.available).toBe(true);
-    expect(up.PRICING["sosyal-medya"].tiers.buyume.price).toBe(24900);
+    expect(up.PRICING["sosyal-medya"].tiers.buyume.price).toBe(SM);
   });
 
   it("build aşaması: veritabanına dokunmaz, fiyatsız döner", async () => {

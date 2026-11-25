@@ -47,6 +47,8 @@ COPY --from=builder --chown=node:node /app/package.json /app/next.config.mjs ./
 COPY --from=builder --chown=node:node /app/node_modules ./node_modules
 COPY --from=builder --chown=node:node /app/public ./public
 COPY --from=builder --chown=node:node /app/content ./content
+# Salt okuma işletme betikleri (fiyat-db-kontrol.mjs, fiyat-isit.py/.mjs); konteynerde node ve pg mevcut
+COPY --from=builder --chown=node:node /app/scripts ./scripts
 COPY --from=builder --chown=node:node /app/.next ./.next
 USER node
 EXPOSE 3000

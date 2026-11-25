@@ -204,7 +204,7 @@ export const SERVICES: ServiceCategory[] = [
       { step: "04", title: "Aylık Rapor", description: "Erişim, etkileşim, takipçi büyümesi → bir sonraki ay optimize." }
     ],
     faqs: [
-      { q: "Aylık paket ne kadar?", a: "Sosyal medya yönetimi aylık, KDV hariç: {{fiyatlar:sosyal-medya}}." /* fiyat yer tutucusu: tüketici book.resolvePriceTokens ile çözer */ },
+      { q: "Aylık paket ne kadar?", a: "Aylık paket fiyatları KDV hariç olarak Fiyatlar sayfasında yazılıdır; güncel tutarlar orada veritabanından gelir." },
       { q: "Sen mi yayınlıyorsun, biz mi?", a: "İkisi de mümkün. Genelde biz planlı yayına alıyoruz, sen sadece onay veriyorsun. İstersen sen yayınlarsın." },
       { q: "İçerik stilini biz mi siz mi belirliyoruz?", a: "Birlikte. İlk hafta brief'te markanın tonu, görsel dili ve sınırları netleştirilir. Sonrasında biz üretiriz, sen onaylarsın." },
       { q: "Sonuç garantisi veriyor musunuz?", a: "Belli bir büyüme oranı garantileyemiyoruz çünkü içerik kalitesi + tutarlılık + zaman birleşik etki. Bunun yerine her ay aynı metriklerle rapor paylaşır, bir sonraki ayı bu verilere göre planlarız." }

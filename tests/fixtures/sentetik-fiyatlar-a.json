@@ -1,0 +1,147 @@
+{
+  "singles": {
+    "mobil-oyun": {
+      "price": 1117
+    },
+    "instagram-dm": {
+      "price": 2234,
+      "monthly": 3351,
+      "setupFee": 4468
+    },
+    "landing-page": {
+      "price": 5585
+    },
+    "mobil-uygulama": {
+      "price": 6702
+    },
+    "ai-telefon-asistani": {
+      "price": 7819,
+      "monthly": 8936,
+      "setupFee": 10053
+    },
+    "ozel-web-uygulamasi": {
+      "price": 11170
+    }
+  },
+  "families": {
+    "e-ticaret": {
+      "buyume": {
+        "price": 12287
+      },
+      "kurumsal": {
+        "price": 13404
+      },
+      "baslangic": {
+        "price": 14521
+      }
+    },
+    "web-bakim": {
+      "buyume": {
+        "price": 15638
+      },
+      "kurumsal": {
+        "price": 16755
+      },
+      "baslangic": {
+        "price": 17872
+      }
+    },
+    "kisa-video": {
+      "buyume": {
+        "price": 18989
+      },
+      "kurumsal": {
+        "price": 20106
+      },
+      "baslangic": {
+        "price": 21223
+      }
+    },
+    "sosyal-medya": {
+      "buyume": {
+        "price": 22340
+      },
+      "kurumsal": {
+        "price": 23457
+      },
+      "baslangic": {
+        "price": 24574
+      }
+    },
+    "is-otomasyonu": {
+      "buyume": {
+        "price": 25691,
+        "maintenance": 26808
+      },
+      "kurumsal": {
+        "price": 27925,
+        "maintenance": 29042
+      },
+      "baslangic": {
+        "price": 30159,
+        "maintenance": 31276
+      }
+    },
+    "ai-reklam-filmi": {
+      "buyume": {
+        "price": 32393
+      },
+      "kurumsal": {
+        "price": 33510
+      },
+      "baslangic": {
+        "price": 34627
+      }
+    },
+    "reklam-yonetimi": {
+      "buyume": {
+        "price": 35744
+      },
+      "kurumsal": {
+        "price": 36861
+      },
+      "baslangic": {
+        "price": 37978
+      }
+    },
+    "ai-musteri-asistani": {
+      "buyume": {
+        "price": 39095,
+        "setupFee": 40212
+      },
+      "kurumsal": {
+        "price": 41329,
+        "setupFee": 42446
+      },
+      "baslangic": {
+        "price": 43563,
+        "setupFee": 44680
+      }
+    },
+    "kurumsal-web-sitesi": {
+      "buyume": {
+        "price": 45797
+      },
+      "kurumsal": {
+        "price": 46914
+      },
+      "baslangic": {
+        "price": 48031
+      }
+    },
+    "online-is-paketi": {
+      "baslangic": {
+        "price": 49148,
+        "setupFee": 50265
+      },
+      "buyume": {
+        "price": 51382,
+        "setupFee": 52499
+      },
+      "kurumsal": {
+        "price": 53616,
+        "setupFee": 54733
+      }
+    }
+  }
+}

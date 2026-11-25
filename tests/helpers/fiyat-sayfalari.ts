@@ -4,18 +4,9 @@ import { createElement, type ReactElement } from "react";
 
 const root = path.resolve(import.meta.dirname, "..", "..");
 
-/** Etkilenen 79 sayfa: yol → canlı (portzenai.com, Vercel/DB) fiyat çoklu kümesi */
-export function loadLiveDiff(): { path: string; live: Record<string, number> }[] {
-  const rows = fs.readFileSync(path.join(root, "tests/fixtures/canli-fiyat-farklari.tsv"), "utf8").trim().split("\n");
-  return rows.map((r) => {
-    const [p, live] = r.split("\t");
-    const m: Record<string, number> = {};
-    for (const part of live.split(";")) {
-      const t = part.trim().match(/^(\d+) (.+)$/);
-      if (t) m[t[2]] = Number(t[1]);
-    }
-    return { path: p, live: m };
-  });
+/** Fiyat gösteren 79 sayfanın yolları (yalnız yol listesi; fiyat içermez) */
+export function loadAffectedPaths(): string[] {
+  return fs.readFileSync(path.join(root, "tests/fixtures/fiyat-etkilenen-sayfalar.txt"), "utf8").split("\n").map((l) => l.trim()).filter(Boolean);
 }
 
 /** Yol → sayfa modülü + params. Dönen işlev sayfa öğesini ve (varsa) generateMetadata sonucunu üretir. */

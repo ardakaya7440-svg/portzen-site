@@ -117,4 +117,19 @@ describe("sabit fiyat korumaları", () => {
     }
     expect(bad).toEqual([]);
   });
+
+  it("scripts/fiyat-db-kontrol.mjs salt okuma: tek SELECT, read-only işlem ve bağlantı, yazma/DDL yok, sırları yazdırmıyor", () => {
+    const src = fs.readFileSync(path.join(root, "scripts/fiyat-db-kontrol.mjs"), "utf8");
+    const code = src.replace(/\/\*[\s\S]*?\*\//g, "");
+    expect(code).toMatch(/default_transaction_read_only=on/);
+    expect(code).toMatch(/begin read only/);
+    expect(code).toMatch(/set transaction read only/);
+    expect([...code.matchAll(/\.query\(`?"?\s*(\w+)/gi)].map((m) => m[1].toLowerCase()).filter((k) => !["begin", "set", "select", "rollback"].includes(k))).toEqual([]);
+    expect(code).not.toMatch(/\b(insert|update|delete|drop|alter|create|truncate)\b\s/i);
+    expect(code).not.toMatch(/e\.message|console\.\w+\([^)]*\burl\b/);
+  });
+
+  it("üretim imajı scripts/ klasörünü içeriyor (konteynerde çalıştırılabilsin)", () => {
+    expect(fs.readFileSync(path.join(root, "Dockerfile"), "utf8")).toMatch(/COPY --from=builder[^\n]*\/app\/scripts \.\/scripts/);
+  });
 });

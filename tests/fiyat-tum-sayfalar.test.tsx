@@ -33,8 +33,10 @@ describe.each([
       try {
         const r = await loadRoute(u);
         const html = await renderHtml(await r.page());
-        await r.metadata();
+        const md = JSON.stringify(await r.metadata());
         if (html.length < 500) failed.push(`${u}: boş çıktı`);
+        // Çözülmemiş fiyat yer tutucusu ({{fiyatlar:…}}, {{fiyat:…}} …) çıktıya ASLA sızmamalı
+        if (/\{\{[a-z-]+:/.test(html) || /\{\{[a-z-]+:/.test(md)) failed.push(`${u}: çözülmemiş yer tutucu`);
       } catch (e) {
         failed.push(`${u}: ${(e as Error).message.slice(0, 120)}`);
       }
