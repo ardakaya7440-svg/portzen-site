@@ -45,7 +45,7 @@ export async function PricingSection({
   const f = book.PRICING[family];
   const H = headingLevel;
   return (
-    <section id={id} className="bg-white py-16 lg:py-24 border-t border-slate/10 scroll-mt-24">
+    <section id={id} data-fiyat-surum={book.version ?? undefined} className="bg-white py-16 lg:py-24 border-t border-slate/10 scroll-mt-24">
       <div className="mx-auto max-w-container px-6">
         <div className="max-w-2xl">
           <SectionBadge>{badge}</SectionBadge>
