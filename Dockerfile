@@ -10,6 +10,9 @@
 
 FROM node:22-bookworm-slim AS deps
 WORKDIR /app
+# Build sureci isareti: sunucudaki portzen-staging-deploy bu ENV'i tasiyan RUN adimlarinin cgroup'una
+# sert bellek/CPU siniri yazar (3 GiB RAM, 256 MiB swap, 2 CPU). Runtime asamasina tasinmaz.
+ENV PORTZEN_IMAGE_BUILD=1
 COPY package.json package-lock.json ./
 RUN npm ci --no-audit --no-fund
 
@@ -26,7 +29,8 @@ ENV NEXT_PUBLIC_SITE_ENV=${NEXT_PUBLIC_SITE_ENV} \
 #  - V8 heap tavanı 2 GiB: build süreci kontrolsüz büyüyüp sunucuyu OOM'a sokmasın, kendi hatasıyla dursun.
 #  - Statik sayfa üretimi en fazla 2 worker (her worker ayrı heap kullanır).
 ENV NODE_OPTIONS=--max-old-space-size=2048 \
-    NEXT_BUILD_CPUS=2
+    NEXT_BUILD_CPUS=2 \
+    PORTZEN_IMAGE_BUILD=1
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 # Build aşaması veritabanına BAĞLANMAZ: parola imaja, katman geçmişine veya build loguna girmez.
