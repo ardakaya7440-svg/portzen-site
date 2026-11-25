@@ -403,7 +403,7 @@ export default async function CrmOtomasyonuPage(){
       </section>
 
       </MoreDetails>
-      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices) */}
 
       <PricingSection family="is-otomasyonu" heading="CRM ve iş otomasyonu fiyatları" intro="CRM, n8n ve Make çözümleri tek başlık altında. Kurulum tek seferliktir; ilk 30 gün kurulum hatalarının giderilmesi dahildir, isteğe bağlı aylık bakım ikinci aydan itibaren başlar. Tutarlar TL ve KDV hariçtir." />
 

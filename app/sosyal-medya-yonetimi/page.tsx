@@ -674,7 +674,7 @@ export default async function Page(){
       </section>
 
       </MoreDetails>
-      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices) */}
 
       <PricingSection family="sosyal-medya" heading="Sosyal medya yönetimi fiyatları" />
 

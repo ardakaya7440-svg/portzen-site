@@ -8,7 +8,7 @@ import { Illustration } from "@/components/visual/Illustrations";
 import { Media } from "./Media";
 import { cn } from "@/lib/utils";
 
-/** Kartta gösterilen kısa fiyat ("aylık 9.900 TL'den") — fiyatlar tek kaynaktan */
+/** Kartta gösterilen kısa fiyat ("aylık N.NNN TL'den") — fiyatlar tek kaynaktan */
 export function fromPrice(item: ServiceItem, book?: PriceSource): string | null {
   const p = item.price;
   if (!p || !book) return null; // fiyat kaynağı yoksa kartta tutar gösterilmez

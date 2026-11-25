@@ -654,7 +654,7 @@ export default async function Page(){
       </section>
 
       </MoreDetails>
-      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices) */}
 
       <PricingSection family="reklam-yonetimi" heading="Reklam yönetimi fiyatları" />
 

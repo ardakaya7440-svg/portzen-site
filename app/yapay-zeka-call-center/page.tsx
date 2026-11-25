@@ -639,7 +639,7 @@ export default async function Page(){
         </div>
       </section>
 
-      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices) */}
 
       <SinglePriceSection id="ai-telefon-asistani" heading="AI telefon asistanı fiyatı" intro="Aylık ücret yönetim bedelidir; tek seferlik kurulum ve ilk ay toplamı fiyatın hemen altında yazılıdır. Dakika ve hat ücretleri kullanıma göre değiştiği için ayrıca faturalanır. Tutarlar TL ve KDV hariçtir." />
 

@@ -12,3 +12,6 @@ _archived_*
 !.env.example
 npm-debug.log*
 .DS_Store
+tests
+vitest.config.mts
+tsconfig.test.json

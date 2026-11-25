@@ -549,7 +549,7 @@ export default async function Page(){
         </div>
       </section>
 
-      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices) */}
 
       <PricingSection family="ai-musteri-asistani" heading="WhatsApp chatbot fiyatları" intro="WhatsApp ve web sitesi chatbotu aynı hizmet ailesidir. Aylık ücretin hemen altında tek seferlik kurulum bedeli ve ilk ay toplamı yazılıdır. Tutarlar TL ve KDV hariçtir." />
 

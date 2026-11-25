@@ -1,12 +1,14 @@
 /**
- * PORTZEN fiyat listesi — sitedeki TÜM fiyatların tek kaynağı.
+ * PORTZEN fiyat YAPISI (paketler, kapsam metinleri, biçimlendirme yardımcıları) — TUTAR İÇERMEZ.
  *
  * Kurallar
- * - Tutarlar TL ve KDV hariçtir. Sayfalara elle fiyat yazılmaz; bu dosyadan okunur.
- * - Paket sırası veri olarak Başlangıç → Büyüme → Kurumsal'dır; kartlar masaüstünde
+ * - Fiyatın TEK kaynağı Neon veritabanıdır (price_versions, status='published'): src/server/price-source.ts → getPrices().
+ *   Bu dosyaya, sayfalara, içerik dosyalarına veya JSON'a elle tutar yazılmaz (tests/fiyat-koruma.test.ts bunu zorlar).
+ * - Tutarlar TL ve KDV hariçtir. Paket sırası veri olarak Başlangıç → Büyüme → Kurumsal'dır; kartlar masaüstünde
  *   Kurumsal / Büyüme / Başlangıç sırasıyla gösterilir (bkz. PricingSection).
  * - "…'den başlayan" ifadesi yalnızca özel proje hizmetlerinde (startingAt) kullanılır.
- * - İlk ay toplamı gibi türetilmiş tutarlar burada hesaplanır, elle yazılmaz.
+ * - İlk ay toplamı gibi türetilmiş tutarlar hesaplanır, elle yazılmaz.
+ * - Aşağıdaki yapıda NaN, "bu alan var, tutarı veritabanından gelir" demektir.
  */
 
 export type TierId = "baslangic" | "buyume" | "kurumsal";
@@ -834,7 +836,7 @@ export function scaffoldPriceData(data: Partial<PriceData> | null | undefined): 
   return out;
 }
 
-/** 24900 → "24.900 TL" (ortama bağlı olmayan biçimlendirme). Geçersiz/eksik tutar için boş metin. */
+/** Sayıyı "N.NNN TL" biçimine çevirir (ortama bağlı olmayan biçimlendirme). Geçersiz/eksik tutar için boş metin. */
 export function formatTL(n: number): string {
   if (!has(n)) return "";
   const s = Math.round(n)
@@ -861,7 +863,7 @@ export function firstMonthTotal(t: Tier): number | null {
   return t.setupFee && has(t.setupFee) && has(t.price) ? t.price + t.setupFee : null;
 }
 
-/** "9.900 TL / ay" gibi kısa gösterim (fiyat yoksa boş metin) */
+/** "N.NNN TL / ay" gibi kısa gösterim (fiyat yoksa boş metin) */
 export function tierPriceLabel(f: PricingFamily, id: TierId): string {
   const t = f.tiers[id];
   if (!has(t.price)) return "";
@@ -897,9 +899,9 @@ export interface Prices {
   publishedAt: string | null;
   PRICING: Record<FamilyId, PricingFamily>;
   SINGLE: Record<SingleId, SingleService>;
-  /** "Başlangıç 9.900 TL / ay, Büyüme …" — fiyat yoksa tarafsız cümle */
+  /** "Başlangıç N.NNN TL / ay, Büyüme …" — fiyat yoksa tarafsız cümle */
   familyPriceSummary(fid: FamilyId): string;
-  /** "1.500 / 3.500 / 9.900 TL / ay" — fiyat yoksa tarafsız cümle */
+  /** "N.NNN / N.NNN / N.NNN TL / ay" — fiyat yoksa tarafsız cümle */
   maintenanceSummary(): string;
   /** İçerik dosyalarındaki {{...}} yer tutucularını çözer */
   resolvePriceTokens(text: string, opts?: { strict?: boolean }): string;

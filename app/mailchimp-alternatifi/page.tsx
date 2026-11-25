@@ -540,7 +540,7 @@ export default async function Page(){
         </div>
       </section>
 
-      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices) */}
 
       <PricingSection family="is-otomasyonu" heading="E-posta ve iş otomasyonu fiyatları" intro="E-posta akışları iş otomasyonu paketleriyle kurulur. Kurulum tek seferliktir; isteğe bağlı aylık bakım ikinci aydan itibaren başlar. Gönderim servisi ve harici yazılım lisansları hariçtir. Tutarlar TL ve KDV hariçtir." />
 

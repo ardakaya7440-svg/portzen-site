@@ -504,7 +504,7 @@ export default function Page() {
       </section>
 
       </MoreDetails>
-      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices) */}
 
       <PricingSection family="ai-musteri-asistani" heading="Türkçe AI chatbot fiyatları" intro="Web sitesi chatbotu ve WhatsApp asistanı aynı hizmet ailesidir; fiyatlar ortaktır. Aylık ücretin hemen altında tek seferlik kurulum bedeli ve ilk ay toplamı yazılıdır. Tutarlar TL ve KDV hariçtir." />
 

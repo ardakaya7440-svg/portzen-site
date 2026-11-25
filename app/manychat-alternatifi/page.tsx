@@ -530,7 +530,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices) */}
 
       <SinglePriceSection id="instagram-dm" heading="Instagram DM otomasyonu fiyatı" intro="Kural tabanlı DM otomasyonu. Serbest sorulara AI ile yanıt için AI müşteri asistanı paketleri geçerlidir. Tutarlar TL ve KDV hariçtir." />
       <PricingSection family="ai-musteri-asistani" id="ai-asistan" badge="AI müşteri asistanı" heading="AI müşteri asistanı fiyatları" />

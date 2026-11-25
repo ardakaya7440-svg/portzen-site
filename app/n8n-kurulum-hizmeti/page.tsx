@@ -511,7 +511,7 @@ export default async function Page(){
         </div>
       </section>
 
-      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices) */}
 
       <PricingSection family="is-otomasyonu" heading="n8n kurulum fiyatları" intro="n8n, Make ve CRM otomasyonları tek hizmet ailesidir. Kurulum tek seferliktir; ilk 30 gün kurulum hatalarının giderilmesi dahildir, isteğe bağlı aylık bakım ikinci aydan itibaren başlar. Tutarlar TL ve KDV hariçtir." />
 

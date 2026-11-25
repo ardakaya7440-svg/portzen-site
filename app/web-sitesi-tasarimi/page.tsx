@@ -676,7 +676,7 @@ export default async function Page(){
         </div>
       </section>
 
-      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices) */}
 
       <PricingSection family="kurumsal-web-sitesi" heading="Web sitesi tasarımı fiyatları" />
       <PricingSection family="e-ticaret" id="e-ticaret" badge="E-ticaret" heading="E-ticaret sitesi fiyatları" />

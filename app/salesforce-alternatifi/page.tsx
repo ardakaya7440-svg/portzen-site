@@ -538,7 +538,7 @@ export default async function Page(){
         </div>
       </section>
 
-      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices) */}
 
       <PricingSection family="is-otomasyonu" heading="CRM ve iş otomasyonu fiyatları" intro="Kurulum tek seferliktir; ilk 30 gün kurulum hatalarının giderilmesi dahildir, isteğe bağlı aylık bakım ikinci aydan itibaren başlar. CRM, sunucu ve harici yazılım lisansları hariçtir. Tutarlar TL ve KDV hariçtir." />
 

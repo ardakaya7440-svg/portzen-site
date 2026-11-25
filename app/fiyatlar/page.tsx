@@ -57,7 +57,7 @@ const FAMILIES: { id: FamilyId; anchor: string }[] = [
   { id: "e-ticaret", anchor: "e-ticaret" }
 ];
 
-/** ", 1.500 TL / ay" gibi ek; fiyat yoksa boş */
+/** ", N.NNN TL / ay" gibi ek; fiyat yoksa boş */
 const lbl = (PRICING: Prices["PRICING"], id: "baslangic" | "buyume" | "kurumsal") => {
   const l = tierPriceLabel(PRICING["web-bakim"], id);
   return l ? `, ${l}` : "";

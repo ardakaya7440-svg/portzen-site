@@ -434,7 +434,7 @@ export default async function Page(){
       </section>
 
       </MoreDetails>
-      {/* FİYATLAR — kaynak: src/data/pricing.ts */}
+      {/* FİYATLAR — kaynak: veritabanı (getPrices) */}
 
       <SinglePriceSection id="instagram-dm" heading="Instagram DM otomasyonu fiyatı" intro="Kural tabanlı pazarlama otomasyonu: yorum ve hikâye etkileşimine otomatik DM. Serbest sorulara AI ile yanıt, dil algılama ve entegrasyonlar AI müşteri asistanı kapsamındadır; fiyatları hemen aşağıdadır. Tutarlar TL ve KDV hariçtir." />
       <PricingSection family="ai-musteri-asistani" id="ai-asistan" badge="AI müşteri asistanı" heading="Instagram'da AI yanıt: AI müşteri asistanı fiyatları" intro="Instagram DM'lerine serbest metinle AI yanıtı gerekiyorsa bu paketler geçerlidir. Instagram kanalı Kurumsal pakette dahildir. Aylık ücretin altında kurulum bedeli ve ilk ay toplamı yazılıdır." />

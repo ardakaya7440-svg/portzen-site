@@ -1,0 +1,147 @@
+{
+  "families": {
+    "sosyal-medya": {
+      "baslangic": [
+        "price"
+      ],
+      "buyume": [
+        "price"
+      ],
+      "kurumsal": [
+        "price"
+      ]
+    },
+    "kisa-video": {
+      "baslangic": [
+        "price"
+      ],
+      "buyume": [
+        "price"
+      ],
+      "kurumsal": [
+        "price"
+      ]
+    },
+    "ai-reklam-filmi": {
+      "baslangic": [
+        "price"
+      ],
+      "buyume": [
+        "price"
+      ],
+      "kurumsal": [
+        "price"
+      ]
+    },
+    "reklam-yonetimi": {
+      "baslangic": [
+        "price"
+      ],
+      "buyume": [
+        "price"
+      ],
+      "kurumsal": [
+        "price"
+      ]
+    },
+    "ai-musteri-asistani": {
+      "baslangic": [
+        "price",
+        "setupFee"
+      ],
+      "buyume": [
+        "price",
+        "setupFee"
+      ],
+      "kurumsal": [
+        "price",
+        "setupFee"
+      ]
+    },
+    "is-otomasyonu": {
+      "baslangic": [
+        "price",
+        "maintenance"
+      ],
+      "buyume": [
+        "price",
+        "maintenance"
+      ],
+      "kurumsal": [
+        "price",
+        "maintenance"
+      ]
+    },
+    "kurumsal-web-sitesi": {
+      "baslangic": [
+        "price"
+      ],
+      "buyume": [
+        "price"
+      ],
+      "kurumsal": [
+        "price"
+      ]
+    },
+    "e-ticaret": {
+      "baslangic": [
+        "price"
+      ],
+      "buyume": [
+        "price"
+      ],
+      "kurumsal": [
+        "price"
+      ]
+    },
+    "web-bakim": {
+      "baslangic": [
+        "price"
+      ],
+      "buyume": [
+        "price"
+      ],
+      "kurumsal": [
+        "price"
+      ]
+    },
+    "online-is-paketi": {
+      "baslangic": [
+        "price",
+        "setupFee"
+      ],
+      "buyume": [
+        "price",
+        "setupFee"
+      ],
+      "kurumsal": [
+        "price",
+        "setupFee"
+      ]
+    }
+  },
+  "singles": {
+    "landing-page": [
+      "price"
+    ],
+    "instagram-dm": [
+      "price",
+      "setupFee",
+      "monthly"
+    ],
+    "ai-telefon-asistani": [
+      "price",
+      "setupFee",
+      "monthly"
+    ],
+    "ozel-web-uygulamasi": [
+      "price"
+    ],
+    "mobil-uygulama": [
+      "price"
+    ],
+    "mobil-oyun": [
+      "price"
+    ]
+  }
+}
