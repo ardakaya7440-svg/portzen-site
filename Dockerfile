@@ -22,6 +22,11 @@ ARG NEXT_PUBLIC_META_PIXEL_ID
 ENV NEXT_PUBLIC_SITE_ENV=${NEXT_PUBLIC_SITE_ENV} \
     NEXT_PUBLIC_GA_ID=${NEXT_PUBLIC_GA_ID} \
     NEXT_PUBLIC_META_PIXEL_ID=${NEXT_PUBLIC_META_PIXEL_ID}
+# Kaynak sınırları (portzenserver01: 4C/8T, 7,6 GiB RAM, diğer projelerle paylaşımlı):
+#  - V8 heap tavanı 2 GiB: build süreci kontrolsüz büyüyüp sunucuyu OOM'a sokmasın, kendi hatasıyla dursun.
+#  - Statik sayfa üretimi en fazla 2 worker (her worker ayrı heap kullanır).
+ENV NODE_OPTIONS=--max-old-space-size=2048 \
+    NEXT_BUILD_CPUS=2
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 # Build aşaması veritabanına BAĞLANMAZ: parola imaja, katman geçmişine veya build loguna girmez.

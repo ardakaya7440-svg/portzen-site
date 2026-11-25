@@ -16,7 +16,8 @@ export type BlogCategory =
   | "sektorel"
   | "sehir"
   | "karsilastirma"
-  | "rehber";
+  | "rehber"
+  | "altyapi";
 
 export interface BlogPostMeta {
   slug: string;
@@ -27,6 +28,10 @@ export interface BlogPostMeta {
   publishedAt: string;
   author: string;
   readingTime: string;
+  /** İsteğe bağlı SEO başlığı (<title>); yoksa title kullanılır */
+  seoTitle?: string;
+  /** Son anlamlı güncelleme tarihi (YYYY-MM-DD); yoksa publishedAt */
+  updatedAt?: string;
   relatedServices?: string[];
   ogImage?: string;
 }
@@ -48,7 +53,8 @@ export const CATEGORY_META: Record<BlogCategory, { label: string; tone: string; 
   sektorel: { label: "Sektörel", tone: "yellow", bg: "bg-light", text: "text-ink" },
   sehir: { label: "Şehir Rehberi", tone: "blue", bg: "bg-light", text: "text-ink" },
   karsilastirma: { label: "Karşılaştırma", tone: "pink", bg: "bg-light", text: "text-ink" },
-  rehber: { label: "Rehber", tone: "orange", bg: "bg-light", text: "text-ink" }
+  rehber: { label: "Rehber", tone: "orange", bg: "bg-light", text: "text-ink" },
+  altyapi: { label: "Sunucu ve Altyapı", tone: "blue", bg: "bg-light", text: "text-ink" }
 };
 
 /**
@@ -88,6 +94,8 @@ function buildMeta(slug: string, data: Record<string, unknown>, content: string)
     keywords: Array.isArray(data.keywords) ? (data.keywords as string[]) : [],
     publishedAt: String(data.publishedAt ?? new Date().toISOString().slice(0, 10)),
     author: String(data.author ?? "PORTZEN"),
+    seoTitle: typeof data.seoTitle === "string" && data.seoTitle ? data.seoTitle : undefined,
+    updatedAt: typeof data.updatedAt === "string" && data.updatedAt ? data.updatedAt : undefined,
     readingTime: typeof data.readingTime === "string" && data.readingTime ? data.readingTime : `${minutes} dakika`,
     relatedServices: Array.isArray(data.relatedServices) ? (data.relatedServices as string[]) : [],
     // Paylaşım görseli yalnızca dosya gerçekten varsa kullanılır; yoksa site geneli varsayılan görsele düşülür

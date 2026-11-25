@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { BILLING_SUFFIX, PRICING, SINGLE, familyRange, formatTL } from "@/data/pricing";
 import { SERVICE_GROUPS, type ServiceItem } from "@/data/catalog";
+import { INFRA_NAV_GROUP } from "@/data/infra-nav";
 import type { PublicWork } from "@/server/cms";
 import { Illustration } from "@/components/visual/Illustrations";
 import { Media } from "./Media";
@@ -84,6 +85,35 @@ export function ServiceGroups({ visuals }: { visuals: PublicWork[] }) {
           </ul>
         </section>
       ))}
+      {/* Sunucu ve dijital altyapı: fiyat gösterilmez, hub sayfasına bağlanır */}
+      <section aria-labelledby={`grup-${INFRA_NAV_GROUP.id}`}>
+        <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p className="text-sm font-bold text-slate/50">0{SERVICE_GROUPS.length + 1}</p>
+            <h3 id={`grup-${INFRA_NAV_GROUP.id}`} className="text-2xl font-bold text-slate lg:text-3xl">
+              {INFRA_NAV_GROUP.title}
+            </h3>
+          </div>
+          <p className="max-w-md text-[15px] text-slate/70">
+            {INFRA_NAV_GROUP.intro}{" "}
+            <Link href={INFRA_NAV_GROUP.hubHref} className="font-semibold text-slate underline underline-offset-4 hover:no-underline">
+              Tüm altyapı hizmetleri
+            </Link>
+          </p>
+        </div>
+        <ul
+          className={cn(
+            "-mx-6 mt-6 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-2 md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 md:pb-0",
+            COLS[INFRA_NAV_GROUP.links.length] ?? "lg:grid-cols-4"
+          )}
+        >
+          {INFRA_NAV_GROUP.links.map((l) => (
+            <li key={l.href} className="flex min-w-0">
+              <ServiceCard item={l} visual={byKey.get(l.href)} />
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 }

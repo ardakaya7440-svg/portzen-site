@@ -13,10 +13,16 @@ interface BaseProps {
 }
 
 /** WhatsApp linki — tıklama track edilir */
-export function WhatsAppLink({ source, children, className, phone = "905318639117" }: BaseProps & { phone?: string }) {
+export function WhatsAppLink({
+  source,
+  children,
+  className,
+  phone = "905318639117",
+  text
+}: BaseProps & { phone?: string; /** Hazır mesaj (isteğe bağlı) */ text?: string }) {
   return (
     <a
-      href={`https://wa.me/${phone}`}
+      href={text ? `https://wa.me/${phone}?text=${encodeURIComponent(text)}` : `https://wa.me/${phone}`}
       target="_blank"
       rel="noopener noreferrer"
       onClick={() => trackWhatsAppClick(source)}

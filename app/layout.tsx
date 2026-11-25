@@ -128,7 +128,14 @@ const organizationSchema = {
     "Mobil Uygulama Geliştirme",
     "Kişiye Özel Yazılım",
     "CRM ve İç Sistemler",
-    "Dijital Pazarlama"
+    "Dijital Pazarlama",
+    "Linux Sunucu Kurulumu ve Yönetimi",
+    "Docker ve Coolify",
+    "Tor Onion Service",
+    "Telegram ve Discord Bot Geliştirme",
+    "n8n Otomasyon Altyapısı",
+    "Yapay Zekâ Ajanı Barındırma",
+    "CI/CD ve Otomatik Deployment"
   ],
   contactPoint: {
     "@type": "ContactPoint",

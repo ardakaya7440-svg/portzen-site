@@ -25,7 +25,10 @@ const nextConfig = {
   serverExternalPackages: ['@electric-sql/pglite', 'pg', 'sharp'],
   experimental: {
     // Admin yüklemeleri: dosya sınırı 4 MB (Vercel istek sınırı ~4,5 MB)
-    serverActions: { bodySizeLimit: '5mb' }
+    serverActions: { bodySizeLimit: '5mb' },
+    // Kaynak sınırlı sunucu build'i: statik sayfa üretim worker sayısı NEXT_BUILD_CPUS ile sınırlanır
+    // (Dockerfile builder aşamasında 2). Tanımsızsa (Vercel) Next varsayılanı kullanılır.
+    ...(Number(process.env.NEXT_BUILD_CPUS) > 0 ? { cpus: Number(process.env.NEXT_BUILD_CPUS) } : {})
   },
   // Güvenlik: next/image yalnızca yerel (public/) görselleri kullanıyor; uzak host izni YOK.
   // (Eski '**' joker izni Image Optimizer'ı SSRF/RCE saldırılarına açıyordu: GHSA-2xp9-vwfh-vxw4, GHSA-2464-fhr4-w9xw, GHSA-cjq9-62q9-8jv4.)

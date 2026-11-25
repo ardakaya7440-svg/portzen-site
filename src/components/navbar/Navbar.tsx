@@ -7,6 +7,7 @@ import { ArrowUpRight, ChevronDown, Menu, Sparkles, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { whatsappUrl } from "@/data/pricing";
 import { SERVICE_GROUPS } from "@/data/catalog";
+import { INFRA_NAV_GROUP } from "@/data/infra-nav";
 
 /**
  * Ortak navbar — tüm sayfalarda tek bileşen (app/layout.tsx).
@@ -19,6 +20,18 @@ type NavLink = { label: string; href: string };
 
 /** Hizmet grupları tek kaynaktan: src/data/catalog.ts */
 export { SERVICE_GROUPS };
+
+/** Menüde gösterilen gruplar: katalog + altyapı (altyapı grubunun sonunda hub bağlantısı var) */
+const NAV_GROUPS = [
+  ...SERVICE_GROUPS.map((g) => ({ title: g.title, links: g.links.map((l) => ({ label: l.label, href: l.href })) })),
+  {
+    title: INFRA_NAV_GROUP.title,
+    links: [
+      ...INFRA_NAV_GROUP.links.map((l) => ({ label: l.label, href: l.href })),
+      { label: "Tüm altyapı hizmetleri →", href: INFRA_NAV_GROUP.hubHref }
+    ]
+  }
+];
 
 const MAIN_LINKS: NavLink[] = [
   { label: "Fiyatlar", href: "/fiyatlar" },
@@ -58,7 +71,7 @@ export function Navbar() {
     }
   }, [servicesOpen]);
 
-  const servicesActive = SERVICE_GROUPS.some((g) => g.links.some((l) => isActive(pathname, l.href)));
+  const servicesActive = pathname.startsWith("/hizmetler/") || NAV_GROUPS.some((g) => g.links.some((l) => isActive(pathname, l.href)));
 
   // Sayfa değişince her şeyi kapat
   React.useEffect(() => {
@@ -177,10 +190,10 @@ export function Navbar() {
                 ref={servicesPanelRef}
                 id="nav-hizmetler"
                 hidden={!servicesOpen}
-                className="absolute left-1/2 top-full mt-3 w-[min(860px,calc(100vw-3rem))] -translate-x-1/2 rounded-2xl border border-slate/10 bg-white p-6 shadow-[0_12px_40px_rgba(31,42,46,0.12)]"
+                className="absolute left-1/2 top-full mt-3 w-[min(1080px,calc(100vw-3rem))] -translate-x-1/2 rounded-2xl border border-slate/10 bg-white p-6 shadow-[0_12px_40px_rgba(31,42,46,0.12)]"
               >
-                <div className="grid grid-cols-3 gap-8">
-                  {SERVICE_GROUPS.map((g) => (
+                <div className="grid grid-cols-4 gap-6">
+                  {NAV_GROUPS.map((g) => (
                     <div key={g.title}>
                       <p className="mb-3 text-xs font-bold text-slate/60">{g.title}</p>
                       <ul className="space-y-1">
@@ -294,7 +307,7 @@ export function Navbar() {
                   <ChevronDown className={cn("h-5 w-5", mobileServicesOpen && "rotate-180")} aria-hidden />
                 </button>
                 <div id="nav-mobil-hizmetler" hidden={!mobileServicesOpen} className="pb-4">
-                  {SERVICE_GROUPS.map((g) => (
+                  {NAV_GROUPS.map((g) => (
                     <div key={g.title} className="mt-2 first:mt-0">
                       <p className="px-1 pb-1 pt-2 text-xs font-bold text-slate/60">{g.title}</p>
                       <ul>

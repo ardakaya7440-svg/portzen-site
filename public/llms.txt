@@ -1,0 +1,51 @@
+# PORTZEN
+
+> PORTZEN (portzenai.com), İzmir merkezli bir dijital pazarlama, yazılım ve altyapı ajansıdır. Sosyal medya yönetimi ve içerik üretiminin yanında web/mobil yazılım, iş otomasyonu, yapay zekâ asistanları ile Linux sunucu kurulumu, Docker ve Coolify, Tor onion servisleri, Telegram/Discord botları, self-hosted n8n ve yapay zekâ ajanı barındırma hizmetleri sunar. Kurucu: Arda Kaya. İletişim: https://portzenai.com/iletisim , WhatsApp +90 531 863 91 17.
+
+Not: Bu dosya bilgilendirme amaçlıdır. Altyapı hizmetlerinde sabit fiyat yayımlanmaz; kapsam görüşmesinden sonra yazılı teklif verilir. .onion hizmetleri yalnızca yasal kullanım (mahremiyet, kaynak koruma, sansüre dayanıklı yayın, güvenli iletişim) için sunulur.
+
+## Sunucu ve dijital altyapı hizmetleri
+
+- [Sunucu ve Dijital Altyapı (tüm hizmetler)](https://portzenai.com/hizmetler/sunucu-ve-altyapi)
+- [.onion Web Sitesi Geliştirme](https://portzenai.com/hizmetler/onion-web-sitesi)
+- [Tor Onion Service Kurulumu](https://portzenai.com/hizmetler/tor-onion-service-kurulumu)
+- [Özel Linux Sunucu Kurulumu](https://portzenai.com/hizmetler/sunucu-kurulumu)
+- [VPS ve VDS Yönetimi](https://portzenai.com/hizmetler/vps-vds-yonetimi)
+- [Özel Web Hosting Çözümleri](https://portzenai.com/hizmetler/hosting-cozumleri)
+- [Docker ve Coolify Kurulumu](https://portzenai.com/hizmetler/coolify-kurulumu)
+- [Telegram Bot Geliştirme](https://portzenai.com/hizmetler/telegram-bot-gelistirme)
+- [Discord Bot Geliştirme](https://portzenai.com/hizmetler/discord-bot-gelistirme)
+- [Self-Hosted Yazılım Kurulumu](https://portzenai.com/hizmetler/self-hosted-yazilim-kurulumu)
+- [n8n Otomasyon Altyapısı](https://portzenai.com/hizmetler/n8n-otomasyon-altyapisi)
+- [Yapay Zekâ Ajanı Hosting](https://portzenai.com/hizmetler/yapay-zeka-ajani-hosting)
+- [API ve Sistem Entegrasyonları](https://portzenai.com/hizmetler/api-entegrasyonu)
+- [Sunucu Bakım ve Güvenlik](https://portzenai.com/hizmetler/sunucu-bakim-guvenlik)
+- [Bulut Altyapısı ve Sunucu Migrasyonu](https://portzenai.com/hizmetler/bulut-sunucu-migrasyonu)
+- [GitHub CI/CD ve Otomatik Deployment](https://portzenai.com/hizmetler/ci-cd-otomatik-deployment)
+
+## Diğer hizmetler
+
+- [Fiyatlar (pazarlama, otomasyon ve yazılım paketleri)](https://portzenai.com/fiyatlar)
+- [Özel web uygulaması](https://portzenai.com/hizmetler/web-yazilim)
+- [Mobil uygulama](https://portzenai.com/hizmetler/mobil-uygulama)
+- [WhatsApp AI asistanı](https://portzenai.com/whatsapp-ai-asistani)
+- [CRM ve iş otomasyonu](https://portzenai.com/crm-otomasyonu)
+- [n8n kurulum hizmeti (iş akışları)](https://portzenai.com/n8n-kurulum-hizmeti)
+- [Sosyal medya yönetimi](https://portzenai.com/sosyal-medya-yonetimi)
+
+## Rehberler
+
+- [Blog: Sunucu ve Altyapı](https://portzenai.com/blog/kategori/altyapi)
+- [Tor Onion Service Nedir ve Nasıl Çalışır?](https://portzenai.com/blog/tor-onion-service-nedir)
+- [Dark Web Sitesi Kurmak Yasal mı?](https://portzenai.com/blog/dark-web-sitesi-kurmak-yasal-mi)
+- [Linux Sunucu Kurulumu Rehberi](https://portzenai.com/blog/linux-sunucu-kurulumu-rehberi)
+- [Coolify Nedir?](https://portzenai.com/blog/coolify-nedir-vercel-alternatifi)
+- [Telegram Bot Yaptırmak İsteyen İşletmeler İçin Rehber](https://portzenai.com/blog/telegram-bot-yaptirmak-rehberi)
+- [n8n Kendi Sunucunuzda mı, Bulutta mı?](https://portzenai.com/blog/n8n-kendi-sunucunda-mi-bulutta-mi)
+- [Self-Hosted Yapay Zekâ Sistemleri Nedir?](https://portzenai.com/blog/self-hosted-yapay-zeka-nedir)
+
+## Kurumsal
+
+- [Hakkımızda](https://portzenai.com/hakkimizda)
+- [İletişim](https://portzenai.com/iletisim)
+- [KVKK](https://portzenai.com/kvkk)

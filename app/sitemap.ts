@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getActiveCategories, getAllPostsMeta, getExtraPageNumbers } from "@/lib/blog";
 import { getAllSectorLandings } from "@/lib/landings";
+import { INFRA_HUB_HREF, INFRA_SERVICES, infraHref } from "@/data/infra-services";
 
 const BASE = "https://portzenai.com";
 
@@ -69,6 +70,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/n8n-kurulum-hizmeti`, lastModified: now, changeFrequency: "monthly", priority: 0.9 }
   ];
 
+  // Sunucu ve dijital altyapı hizmetleri (hub + 15 hizmet)
+  const infraPages: MetadataRoute.Sitemap = [
+    { url: `${BASE}${INFRA_HUB_HREF}`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    ...INFRA_SERVICES.map((s) => ({
+      url: `${BASE}${infraHref(s.slug)}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.85
+    }))
+  ];
+
   const categoryPages: MetadataRoute.Sitemap = getActiveCategories().map((c) => ({
     url: `${BASE}/blog/kategori/${c.slug}`,
     lastModified: now,
@@ -78,7 +90,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const articlePages: MetadataRoute.Sitemap = posts.map((p) => ({
     url: `${BASE}/blog/${p.slug}`,
-    lastModified: new Date(p.publishedAt),
+    lastModified: new Date(p.updatedAt ?? p.publishedAt),
     changeFrequency: "monthly" as const,
     priority: 0.8
   }));
@@ -103,6 +115,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...staticPages,
     ...landingPages,
     ...comparisonPages,
+    ...infraPages,
     ...sectorLandings,
     ...categoryPages,
     ...articlePages,

@@ -5,6 +5,8 @@ import { ArrowLeft, ArrowUpRight, Calendar, ChevronRight, Clock, Tag, User } fro
 import { CATEGORY_META, extractFaq, getAllPostSlugs, getAllPostsMeta, getPostBySlug, getRelatedPosts } from "@/lib/blog";
 import { cn } from "@/lib/utils";
 import { Reveal } from "@/components/ui/reveal";
+import { getInfraService, infraHref, infraWhatsAppText } from "@/data/infra-services";
+import { InfraCta } from "@/components/infra/InfraCta";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -23,7 +25,8 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   const og = post.ogImage ? `https://portzenai.com${post.ogImage}` : "https://portzenai.com/og-image.png";
 
   return {
-    title: `${post.title} — PORTZEN Blog`,
+    // seoTitle yalnızca yeni yazılarda var; mevcut yazıların <title> çıktısı değişmez
+    title: post.seoTitle ? { absolute: `${post.seoTitle} — PORTZEN Blog` } : `${post.title} — PORTZEN Blog`,
     description: post.description,
     keywords: post.keywords,
     authors: [{ name: post.author }],
@@ -33,6 +36,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
       type: "article",
       url,
       publishedTime: post.publishedAt,
+      modifiedTime: post.updatedAt ?? post.publishedAt,
       authors: [post.author],
       images: [{ url: og, width: 1200, height: 630, alt: post.title }],
       siteName: "PORTZEN"
@@ -61,17 +65,22 @@ export default async function BlogPostPage(props: Props) {
   if (!post) notFound();
 
   const related = getRelatedPosts(post, 3);
+  // Altyapı yazıları: ilgili hizmet sayfası + "Detayları Konuşalım" (fiyat yok)
+  const infraServices = (post.relatedServices ?? [])
+    .map((s) => getInfraService(s))
+    .filter((s): s is NonNullable<typeof s> => Boolean(s));
   const catMeta = CATEGORY_META[post.category];
 
   // Schema.org Article markup
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: post.title,
     description: post.description,
     image: post.ogImage ? `https://portzenai.com${post.ogImage}` : undefined,
     datePublished: post.publishedAt,
-    dateModified: post.publishedAt,
+    dateModified: post.updatedAt ?? post.publishedAt,
+    inLanguage: "tr-TR",
     author:
       post.author === "Arda Kaya"
         ? {
@@ -181,8 +190,13 @@ export default async function BlogPostPage(props: Props) {
                 </span>
                 <span className="inline-flex items-center gap-1.5">
                   <Calendar className="h-4 w-4" />
-                  {formatDate(post.publishedAt)}
+                  <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
                 </span>
+                {post.updatedAt && post.updatedAt !== post.publishedAt && (
+                  <span className="inline-flex items-center gap-1.5">
+                    Güncellendi: <time dateTime={post.updatedAt}>{formatDate(post.updatedAt)}</time>
+                  </span>
+                )}
                 <span className="inline-flex items-center gap-1.5">
                   <Clock className="h-4 w-4" />
                   {post.readingTime}
@@ -276,7 +290,30 @@ export default async function BlogPostPage(props: Props) {
           </section>
         )}
 
-        {/* ALT CTA — İletişim */}
+        {/* ALT CTA — altyapı yazıları: ilgili hizmet + Detayları Konuşalım */}
+        {infraServices.length > 0 ? (
+          <section className="py-section">
+            <div className="mx-auto max-w-container px-6">
+              <div className="mb-6 flex flex-wrap items-center gap-2 text-sm text-ink/70">
+                <span className="font-bold text-ink">İlgili hizmet:</span>
+                {infraServices.map((s) => (
+                  <Link
+                    key={s.slug}
+                    href={infraHref(s.slug)}
+                    className="inline-flex rounded-full border-3 border-ink/15 bg-light px-4 py-1.5 font-bold text-ink hover:bg-lime"
+                  >
+                    {s.title}
+                  </Link>
+                ))}
+              </div>
+              <InfraCta
+                serviceTitle={infraServices[0].title}
+                message={infraWhatsAppText(infraServices[0])}
+                source={`blog-${post.slug}`}
+              />
+            </div>
+          </section>
+        ) : (
         <section className="py-section">
           <div className="mx-auto max-w-container px-6">
             <Reveal>
@@ -308,6 +345,7 @@ export default async function BlogPostPage(props: Props) {
             </Reveal>
           </div>
         </section>
+        )}
       </article>
     </>
   );
