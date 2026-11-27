@@ -51,9 +51,18 @@ const nextConfig = {
       }
     : {}),
   async headers() {
-    const rules = [{ source: '/admin/:path*', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] }];
-    // Staging/önizleme (NEXT_PUBLIC_SITE_ENV tanımlı ve "production" değil): sayfa bazlı robots metadata'sı
-    // index:true dese bile tüm site noindex. Tanımsızsa production sayılır → bu kural eklenmez.
+    const guvenlik = [
+      { key: 'Strict-Transport-Security', value: 'max-age=31536000' },
+      { key: 'X-Content-Type-Options', value: 'nosniff' },
+      { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+      { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+      { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+    ];
+    const rules = [
+      { source: '/:path*', headers: guvenlik },
+      { source: '/admin/:path*', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] }
+    ];
+    // Staging/önizleme (NEXT_PUBLIC_SITE_ENV tanımlı ve "production" değil): tüm site noindex.
     if ((process.env.NEXT_PUBLIC_SITE_ENV || 'production') !== 'production') {
       rules.push({ source: '/:path*', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] });
     }
