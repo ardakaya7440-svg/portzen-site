@@ -58,6 +58,27 @@ const nextConfig = {
       { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
       { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
     ];
+    // CSP YALNIZ RAPOR (Report-Only): hiçbir şeyi engellemez; ihlaller /api/csp-report'a gelir (özet loglanır).
+    // Zorunlu kılmadan önce raporlar incelenmeli (inline script/stil + GA/Meta Pixel için 'unsafe-inline' geçici).
+    const cspRo = [
+      "default-src 'self'",
+      "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://connect.facebook.net",
+      "style-src 'self' 'unsafe-inline'",
+      "img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com https://www.facebook.com",
+      "font-src 'self' data:",
+      "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://www.facebook.com",
+      "media-src 'self' blob:",
+      "object-src 'none'",
+      "base-uri 'self'",
+      "form-action 'self'",
+      "frame-ancestors 'self'",
+      'report-uri /api/csp-report',
+      'report-to csp-endpoint'
+    ].join('; ');
+    guvenlik.push(
+      { key: 'Content-Security-Policy-Report-Only', value: cspRo },
+      { key: 'Reporting-Endpoints', value: 'csp-endpoint="/api/csp-report"' }
+    );
     const rules = [
       { source: '/:path*', headers: guvenlik },
       { source: '/admin/:path*', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] }
