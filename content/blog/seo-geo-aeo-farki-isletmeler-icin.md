@@ -5,11 +5,11 @@ category: "rehber"
 description: "SEO, GEO ve AEO arasındaki farkı, yapay zekâ aramalarında görünmenin ne anlama geldiğini ve küçük işletmenin önce neye bakması gerektiğini sade bir dille anlatıyoruz."
 keywords: ["seo nedir", "geo nedir", "aeo nedir", "seo ile geo farkı", "yapay zeka aramada görünme", "ai overviews nasıl çalışır"]
 publishedAt: "2026-11-28"
+updatedAt: "2026-11-28"
 author: "Arda Kaya"
 readingTime: "7 dakika"
-relatedServices: ["web-tasarim", "sosyal-medya"]
-ogImage: "/blog/og/seo-geo-aeo-farki-isletmeler-icin.png"
 ---
+
 
 # SEO mu, GEO mu, AEO mu? İşletmeler İçin Sade Rehber
 
@@ -34,13 +34,13 @@ SEO'da hedef "ilk sayfada görünmek" olabilir, ama ölçü bu değil. Asıl öl
 
 ## GEO: Yapay zekâ yanıtlarında kaynak olmak
 
-Yapay zekâ destekli aramalar genellikle birden fazla sayfadan bilgi toplayıp tek bir özet üretir. Google'ın AI özetleri ve ChatGPT, Perplexity gibi araçlar da kaynak göstermeye çalışır. Burada sizin işinize yarayan şeyler:
+Yapay zekâ destekli aramalar genellikle birden fazla sayfadan bilgi toplayıp tek bir özet üretir. Google'ın AI özellikleri ve ChatGPT, Perplexity gibi araçlar yanıtlarında kaynak bağlantıları gösterebilir. Burada sizin işinize yarayan şeyler:
 
-- **Net iddialar, kaynaklı bilgi:** "Bu hizmet ortalama X hafta sürer" gibi ölçülebilir ifadeler, kaynağı belli olduğunda daha güvenilir görünür. Kaynağı olmayan veya abartılı iddialar yapay zekâ için de zayıf sinyaldir.
+- **Net ve doğrulanabilir bilgi:** Sayfada yazan süre, kapsam ya da koşul gerçekten geçerli olmalı; abartılı ve kanıtsız ifadelerden kaçının. Bu, okuyucu için de arama sistemleri için de daha güvenli bir zemindir.
 - **Açık yapı:** Başlıklar soruyu yansıtmalı, paragraflar tek bir fikri anlatmalı.
 - **Tutarlı kimlik:** İşletme adı, adres, hizmet ve iletişim bilgisi sitede, Google İşletme Profili'nde ve diğer kayıtlarda aynı olmalı.
 
-Bir önemli nokta: Yapay zekâ özetlerinde görünmek için **klasik arama indeksinde** olmanız gerekir. İndekste olmayan sayfa, özette de kaynak olarak yer almaz. Yani GEO, SEO'nun yerine geçmez; üstüne oturur.
+Bir önemli nokta: Yapay zekâ özetlerinde görünmek için **klasik arama indeksinde** olmanız gerekir. Google, bir sayfanın AI özelliklerinde destekleyici bağlantı olabilmesi için sayfanın indekslenmiş ve snippet ile gösterilmeye uygun olması gerektiğini belirtir; bunun dışında ek bir teknik şart yoktur. Yani GEO, SEO'nun yerine geçmez; üstüne oturur.
 
 ## AEO: Soruya ilk paragrafta cevap vermek
 
@@ -60,25 +60,23 @@ AEO'nun pratik kuralı basit: Sayfa bir soru soruyorsa, cevabı ilk iki üç cü
 
 Dikkat: Hangi araçların sizi nasıl kullandığını ölçmek her zaman kesin değildir. Raporlarda gösterim ve tıklama ayrı izlenmeli; "yapay zekâda görünüyoruz" iddiası için somut kanıt (sorgu, tarih, ekran görüntüsü) tutulmalı.
 
-## Sık sorulan sorular
+## Sıkça Sorulan Sorular
 
-**GEO için ayrı bir dosya ya da özel etiket gerekir mi?**
-Google'ın AI özellikleri için yeni bir dosya gerektirmediğini belirten kaynaklar var; ancak bu konuda bilgiler birbirinden farklı. Kesin olan: içerik kaliteli, taranabilir ve sayfa içeriğiyle uyumlu olmalı. Schema işaretlemesi yalnız sayfada görünen içeriği tarif etmeli.
+### GEO için ayrı bir dosya ya da özel etiket gerekir mi?
+Google'ın belgelerine göre AI Overviews ve AI Mode'da görünmek için ek bir gereksinim, özel bir dosya ya da özel bir schema işaretlemesi gerekmez. Standart SEO temelleri geçerlidir. Başka yapay zekâ araçlarının kaynak seçimi ise şeffaf değildir; bu yüzden kesin bir kural yerine içerik kalitesine ve taranabilirliğe odaklanmak mantıklıdır. Schema kullanıyorsanız yalnız sayfada görünen içeriği tarif etmelidir.
 
-**Blog yazmak SEO'ya yarar mı?**
-Yarar, ama hizmet sayfanızın yerini almaz. Blog, hizmet sayfasına giden soruların cevabıdır. Hizmet sayfası ise satışın yapıldığı yerdir.
+### Blog yazmak SEO'ya yarar mı?
+Yarar, ama hizmet sayfanızın yerini almaz. Blog, hizmet sayfasına giden soruların cevabıdır; hizmet sayfası ise iletişimin ve teklifin başladığı yerdir.
 
-**Hangisine bütçe ayırmalıyım?**
+### Hangisine bütçe ayırmalıyım?
 Önce teknik temel ve net içerik. Bu zaten SEO ve AEO'nun ortak zemini. GEO ölçümü henüz olgunlaşmamış bir alan; ölçüm kurmadan büyük bütçe ayırmak yerine küçük denemeyle başlayın.
 
-## Kaynaklar ve doğrulama
+## Kaynaklar
 
-- Google Search Central'in "AI özellikleri" dokümantasyonu: **editör tarafından teyit edilecek** (bu taslakta doğrudan kaynak olarak alınmadı).
-- Bing IndexNow ve Webmaster Tools kurulumu: **editör tarafından teyit edilecek**.
-- Bu yazıdaki fiyat ve süre ifadeleri yoktur; ileride eklenirse kaynaklı olmalıdır.
+- Google Search Central, "AI features and your website": https://developers.google.com/search/docs/appearance/ai-features (erişim: 28.11.2026)
 
-**Yazar:** Arda Kaya · **Son güncelleme:** 2026-11-28 · **Editör kontrolü:** bekliyor
+**Yazar:** Arda Kaya · **Yayın ve son güncelleme:** 28 Kasım 2026
 
 ## Sonraki adım
 
-Web sitenizin SEO ve AEO temelini birlikte kontrol etmek isterseniz [web tasarım hizmetlerimize](/hizmetler/web-tasarim) göz atabilirsiniz. Sosyal medya ve içerik tarafında destek için [sosyal medya hizmetlerimiz](/hizmetler/sosyal-medya) de yardımcı olabilir.
+Yerel görünürlük tarafında [Google İşletme Profili optimizasyon rehberimize](/blog/google-isletme-profili-optimizasyon) ve [kurumsal web sitesi rehberimize](/blog/kurumsal-web-sitesi-rehberi) bakabilirsiniz. Sitenizin SEO ve AEO temelini birlikte gözden geçirmek isterseniz [web tasarım hizmetimiz](/web-tasarim) sayfasından bize ulaşabilirsiniz; içerik tarafında [sosyal medya yönetimi](/sosyal-medya-yonetimi) de destek olabilir. WhatsApp üzerinden kısa bir ön görüşme de yapılabilir.

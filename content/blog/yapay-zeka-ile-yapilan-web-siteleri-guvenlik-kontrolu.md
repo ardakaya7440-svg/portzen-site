@@ -5,15 +5,15 @@ category: "rehber"
 description: "Yapay zekâ araçlarıyla hazırlanan web sitelerinde en sık görülen güvenlik açıklarını ve yayına almadan önce yapılması gereken 12 kontrolü anlatıyoruz."
 keywords: ["yapay zeka ile site güvenli mi", "vibe coding güvenlik", "ai ile yapılan site riskleri", "api anahtarı web sitesi", "site yayına almadan kontrol"]
 publishedAt: "2026-11-28"
+updatedAt: "2026-11-28"
 author: "Arda Kaya"
 readingTime: "8 dakika"
-relatedServices: ["web-tasarim", "ai-bot"]
-ogImage: "/blog/og/yapay-zeka-ile-yapilan-web-siteleri-guvenlik-kontrolu.png"
 ---
+
 
 # Yapay Zekâyla Yapılan Web Siteleri Güvenli mi? Yayına Almadan Önce 12 Kontrol
 
-**Kısa cevap:** Yapay zekâ ile hazırlanan bir site, kötü yazılmış olması gerekmez; ancak güvenlik kararları genellikle insan tarafından bilinçli olarak kontrol edilmediğinde sorun çıkar. Yapay zekâ kodu hızlı üretir, ama hangi verinin nerede tutulacağı, kimin neye erişeceği ve hataların nasıl yönetileceği kararlarını ona bırakmak riskli olabilir. Bu yazı, yayına almadan önce yapılacak temel kontrolleri anlatır.
+**Kısa cevap:** Yapay zekâ ile hazırlanan bir site mutlaka kötü yazılmış olmaz; ancak güvenlik kararları genellikle insan tarafından bilinçli olarak kontrol edilmediğinde sorun çıkar. Yapay zekâ kodu hızlı üretir, ama hangi verinin nerede tutulacağı, kimin neye erişeceği ve hataların nasıl yönetileceği kararlarını ona bırakmak riskli olabilir. Bu yazı, yayına almadan önce yapılacak temel kontrolleri anlatır.
 
 > Bu yazı genel bilgilendirme amacıyla hazırlanmıştır; hukuki ya da teknik güvence değildir. Kendi sisteminiz için uzman görüşü alın.
 
@@ -26,6 +26,14 @@ Yapay zekâ araçlarıyla bir fikri birkaç saatte çalışan bir siteye dönü�
 - Veritabanına doğrudan ve sınırsız erişim,
 - Hata mesajlarında iç bilgilerin görünmesi,
 - Bağımlılıkların güncel olmaması.
+
+| Risk alanı | Tipik sorun | İlgili kontrol |
+|---|---|---|
+| Gizli bilgi | API anahtarı tarayıcı koduna gömülü | 1 |
+| Erişim | Yetki yalnız arayüzde, sunucuda yok | 2, 3, 10 |
+| Veri | Kişisel verinin kontrolsüz tutulması | 9 |
+| Süreklilik | Test edilmemiş yedek, izleme yok | 8, 12 |
+| Bakım | Eski bağımlılık, eksik başlık | 6, 7 |
 
 ## 12 kontrol
 
@@ -50,24 +58,25 @@ Yayına almadan önce ayrı bir test ortamında aynı kontrolleri yapın. Canlı
 
 Yapay zekâ aracıyla siteyi kuran kişi, sitenin sahibi olarak neyin yayınlandığından sorumludur. Kimin hangi erişime sahip olduğunu, parolaların kimde olduğunu ve yedeklerin nerede tutulduğunu yazılı bir listede tutmak iyi bir alışkanlıktır.
 
-## Sık sorulan sorular
+## Sıkça Sorulan Sorular
 
-**Yapay zekâ ile yapılan site hacklenir mi?**
-Her site hacklenebilir; önemli olan riski azaltmak. Yukarıdaki kontroller çoğu yaygın açığı kapatmaya yöneliktir, ama hiçbir kontrol listesi tam güvence vermez.
+### Yapay zekâ ile yapılan site hacklenir mi?
+Her site hacklenebilir; önemli olan riski azaltmak. Yukarıdaki kontroller yaygın açıkların çoğuna yöneliktir, ama hiçbir kontrol listesi tam güvence vermez.
 
-**Yazılımcı tamamen gereksiz mi?**
-Hayır. Özellikle yetkilendirme, veri modeli ve yayın sonrası izleme gibi kararlar deneyimli bir kişi tarafından gözden geçirildiğinde kalite ve güvenlik belirgin biçimde artar. Bu, bir hizmet tercihi olarak düşünülmeli; her projede zorunlu değildir.
+### Yazılımcı tamamen gereksiz mi?
+Hayır. Özellikle yetkilendirme, veri modeli ve yayın sonrası izleme gibi kararlar deneyimli biri tarafından gözden geçirildiğinde güvenlik riski azalır. Bu bir tercih meselesidir; her proje için zorunlu değildir.
 
-**Güvenlik testi ne kadar sürer?**
-Kapsama göre değişir. Bu yazıda süre ya da fiyat vermiyoruz; teklif alırken kapsamı yazılı isteyin.
+### Güvenlik testi ne kadar sürer ve ne kadar tutar?
+Kapsama göre değişir; bu yazıda süre ya da fiyat vermiyoruz. Teklif alırken kapsamı (hangi sayfalar, hangi roller, hangi veri) yazılı isteyin.
 
-## Kaynaklar ve doğrulama
+## Kaynaklar
 
-- Güvenlik başlıkları, KVKK yükümlülükleri ve yedekleme önerileri: **editör tarafından resmi kaynaklarla teyit edilecek** (taslakta kaynak linki eklenmedi).
-- "12 kontrol" listesi genel uygulama pratiğine dayanır; belirli bir platforma özgü ayrıntılar eklenmemiştir.
+- OWASP Top 10: https://owasp.org/www-project-top-ten/ (erişim denetimi, kriptografi ve yapılandırma hataları gibi yaygın web risk kategorileri)
+- KVKK yükümlülükleri için Kişisel Verileri Koruma Kurumu: https://www.kvkk.gov.tr
+- "12 kontrol" listesi genel uygulama pratiğine dayanır; belirli bir platforma özgü değildir.
 
-**Yazar:** Arda Kaya · **Son güncelleme:** 2026-11-28 · **Editör kontrolü:** bekliyor
+**Yazar:** Arda Kaya · **Yayın ve son güncelleme:** 28 Kasım 2026
 
 ## Sonraki adım
 
-Sitenizin yayına alınmadan önce güvenlik ve performans kontrolünün yapılmasını istiyorsanız [web tasarım hizmetlerimize](/hizmetler/web-tasarim) bakabilirsiniz. Yapay zekâ destekli süreçlerin nasıl kurulacağı için [yapay zekâ bot hizmetimiz](/hizmetler/ai-bot) hakkında bilgi alabilirsiniz.
+Kontrol listesini kendi projenizde uygulayabilirsiniz. Canlıya almadan önce bir ikinci göz ya da düzenli bakım istiyorsanız [web tasarım hizmetimiz](/web-tasarim) sayfasına ve [yapay zekâ chatbot](/ai-chatbot-turkce) çözümümüze bakabilir, WhatsApp'tan bize yazabilirsiniz.
